@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Glecko</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Interactive media and creativity hub">
+  <meta name="keywords" content="glecko, interactive, creative, psychedelic, experimental">
+  <meta name="author" content="Glecko">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    :root {
+      --accent-color: #BD0D0D; /* Deep red */
+      --text-color: #FFFFFF; /* White */
+      --background-color: #000000; /* Black */
+    }
+
+    body {
+      color: var(--text-color);
+      background-color: var(--background-color);
+    }
+
+    /* Center main intro vertically */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      transform: translateY(0%);
+    }
+
+    .intro--banner h1 {
+      font-size: 72px;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+    }
+
+    /* Subheadlines: Vertical Flow, Horizontal Letters */
+    .intro--options a p {
+      color: var(--text-color);
+      font-style: italic;
+      writing-mode: vertical-rl; /* Vertical flow */
+      text-orientation: upright; /* Letters remain horizontal */
+      margin: 0;
+      line-height: 1.8;
+    }
+
+    /* Main Headlines Styling */
+    .intro--options a h3 {
+      color: var(--text-color);
+      font-size: 36px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    /* Hover Line Effect */
+    .intro--options a h3::after {
+      content: "";
+      display: block;
+      width: 0%;
+      height: 12px; /* Thickness of the hover line */
+      background-color: var(--accent-color);
+      position: absolute;
+      left: 0;
+      bottom: 22px;
+      transition: width 0.3s ease;
+    }
+
+    .intro--options a:hover h3::after {
+      width: 100%; /* Line expands fully on hover */
+    }
+
+    /* Adjust layout for vertical subheadlines */
+    .intro--options {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+    }
+
+    /* Individual Page Headlines */
+    .work h2 {
+      color: var(--text-color);
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .work h2::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 12px; /* Thickness */
+      background-color: var(--accent-color);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .work p {
+      margin-top: 20px;
+      font-size: 18px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <p>Glecko</p>
+          </a>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Motion</span></li>
+            <li><span>Tone</span></li>
+            <li><span>Word</span></li>
+            <li><span>Frame</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Glecko</h1>
+              </div>
+              <div class="intro--options">
+                <a href="#motion">
+                  <h3>Motion</h3>
+                  <p>CÖllxps3!Vsn§°Xt<br>"frxgged ænglës—frmng ÷0wn."</p>
+                </a>
+                <a href="#tone">
+                  <h3>Tone</h3>
+                  <p>V=fλ:<br>R3sxn8 /z || frm thé unknwn.</p>
+                </a>
+                <a href="#word">
+                  <h3>Word</h3>
+                  <p>¥{Scrpt}//Êrör.EXE<br>"(d3lt'd-mëanin9) rlty."</p>
+                </a>
+                <a href="#frame">
+                  <h3>Frame</h3>
+                  <p>||Fr@gmnt~trüth<br>"lïght, shä†t3r’d: //Absēnc3."</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li id="motion" class="l-section section">
+            <div class="work">
+              <h2>Motion</h2>
+              <p>CÖllxps3!Vsn§°Xt "frxgged ænglës—frmng ÷0wn."</p>
+            </div>
+          </li>
+          <li id="tone" class="l-section section">
+            <div class="work">
+              <h2>Tone</h2>
+              <p>V=fλ: R3sxn8 /z || frm thé unknwn.</p>
+            </div>
+          </li>
+          <li id="word" class="l-section section">
+            <div class="work">
+              <h2>Word</h2>
+              <p>¥{Scrpt}//Êrör.EXE "(d3lt'd-mëanin9) rlty."</p>
+            </div>
+          </li>
+          <li id="frame" class="l-section section">
+            <div class="work">
+              <h2>Frame</h2>
+              <p>||Fr@gmnt~trüth "lïght, shä†t3r’d: //Absēnc3."</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Motion</li>
+    <li>Tone</li>
+    <li>Word</li>
+    <li>Frame</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
