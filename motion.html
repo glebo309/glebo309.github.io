@@ -85,101 +85,71 @@
         <!-- Navigation Section END -->
 
         <!-- bloc-5 -->
-        <div class="bloc l-bloc bloc-fill-screen" id="bloc-5">
-            <div class="container fill-bloc-top-edge">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="navbar row navbar-expand-md navbar-light" role="navigation">
-                            <a class="navbar-brand" href="index.html">Company</a>
-                            <button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-43133" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"><svg height="32" viewBox="0 0 32 32" width="32"><path class="svg-menu-icon" d="m2 9h28m-28 7h28m-28 7h28"></path></svg></span>
-                            </button>
-                            <div class="collapse navbar-collapse navbar-27259 navbar-43133">
-                                <ul class="site-navigation nav navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a href="index.html" class="nav-link">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="motion.html" class="nav-link a-btn">MOTION</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="tone.html" class="nav-link a-btn">tone</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="word.html" class="nav-link a-btn">WORD</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="image.html" class="nav-link a-btn">IMAGE</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact-us.html" class="nav-link">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8 offset-sm-2 offset-md-0 col-md-5 order-md-0 order-1 offset-lg-0 col-lg-4">
-                        <div class="mx-auto d-block blocsapp-device blocsapp-device-iphone11 iphone11-white">
-                            <picture><source type="image/webp" srcset="img/lazyload-ph.png" data-srcset="img/iphone-screen-11.webp"><img src="img/lazyload-ph.png" data-src="img/iphone-screen-11.png" class="img-fluid lazyload" alt="iphone screen 11" width="291" height="630"></picture>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 align-self-center col-md-7 offset-lg-2">
-                        <h1 class="mg-md text-center text-md-left">
-                            Place your strapline here
-                        </h1>
-                        <h3 class="mg-md float-none text-center text-md-left">
-                            A more descriptive sub heading.
-                        </h3>
-                        <div class="text-center text-lg-left text-md-left d-block">
-                            <a href="index.html" class="btn btn-lg btn-wire">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <nav class="l-side-nav">
-                                <ul class="side-nav">
-                                    <li class="is-active"><span>Home</span></li>
-                                    <li><span>Motion</span></li>
-                                    <li><span>Tone</span></li>
-                                    <li><span>Word</span></li>
-                                    <li><span>Image</span></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container fill-bloc-bottom-edge">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="bloc l-bloc bloc-fill-screen" id="bloc-5" style="position: relative;">
+        <canvas id="artCanvas" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:0;"></canvas>
+
+        <script>
+            const canvas = document.getElementById('artCanvas');
+            const ctx = canvas.getContext('2d');
+
+            let cols = 20;
+            let rows = 20;
+            let padding = 30;
+            let angles = [];
+
+            function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            initGrid();
+            }
+
+            function initGrid() {
+            angles = [];
+            for (let y = 0; y < rows; y++) {
+                const row = [];
+                for (let x = 0; x < cols; x++) {
+                row.push(Math.random() * Math.PI * 2);
+                }
+                angles.push(row);
+            }
+            }
+
+            function draw(time) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            const cellW = (canvas.width - 2 * padding) / cols;
+            const cellH = (canvas.height - 2 * padding) / rows;
+
+            for (let y = 0; y < rows; y++) {
+                for (let x = 0; x < cols; x++) {
+                const cx = padding + x * cellW + cellW / 2;
+                const cy = padding + y * cellH + cellH / 2;
+                const baseAngle = angles[y][x];
+                const angle = Math.sin(time / 1000 + baseAngle) * Math.PI;
+                const r = Math.min(cellW, cellH) * 0.4;
+
+                ctx.save();
+                ctx.translate(cx, cy);
+                ctx.rotate(angle);
+                ctx.beginPath();
+                ctx.moveTo(-r, 0);
+                ctx.lineTo(r, 0);
+                ctx.strokeStyle = '#111';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                ctx.restore();
+                }
+            }
+
+            requestAnimationFrame(draw);
+            }
+
+            resizeCanvas();
+            draw(0);
+            window.addEventListener('resize', resizeCanvas);
+        </script>
         </div>
         <!-- bloc-5 END -->
+
 
         <!-- ScrollToTop Button -->
         <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></button>

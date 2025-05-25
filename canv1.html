@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Generative Grid</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fdfcf9;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="artCanvas"></canvas>
+
+<script>
+  const canvas = document.getElementById('artCanvas');
+  const ctx = canvas.getContext('2d');
+
+  let cols = 20;
+  let rows = 20;
+  let padding = 30;
+  let angles = [];
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    initGrid();
+  }
+
+  function initGrid() {
+    angles = [];
+    for (let y = 0; y < rows; y++) {
+      const row = [];
+      for (let x = 0; x < cols; x++) {
+        // Each cell gets a random phase offset
+        row.push(Math.random() * Math.PI * 2);
+      }
+      angles.push(row);
+    }
+  }
+
+  function draw(time) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const cellW = (canvas.width - 2 * padding) / cols;
+    const cellH = (canvas.height - 2 * padding) / rows;
+
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
+        const cx = padding + x * cellW + cellW / 2;
+        const cy = padding + y * cellH + cellH / 2;
+
+        // Animate with sine wave
+        const baseAngle = angles[y][x];
+        const angle = Math.sin(time / 1000 + baseAngle) * Math.PI;
+
+        const r = Math.min(cellW, cellH) * 0.4;
+
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(angle);
+        ctx.beginPath();
+        ctx.moveTo(-r, 0);
+        ctx.lineTo(r, 0);
+        ctx.strokeStyle = '#111';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        ctx.restore();
+      }
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  resizeCanvas();
+  draw(0);
+  window.addEventListener('resize', resizeCanvas);
+</script>
+</body>
+</html>
