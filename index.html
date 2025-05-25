@@ -1,203 +1,638 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <title>Glecko</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Interactive media and creativity hub">
-  <meta name="keywords" content="glecko, interactive, creative, psychedelic, experimental">
-  <meta name="author" content="Glecko">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <style>
-    :root {
-      --accent-color: #BD0D0D; /* Deep red */
-      --text-color: #FFFFFF; /* White */
-      --background-color: #000000; /* Black */
-    }
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?8140">
+	<link rel="stylesheet" type="text/css" href="style.css?349">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?1218">
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:900,40&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Home</title>
 
-    body {
-      color: var(--text-color);
-      background-color: var(--background-color);
-    }
+	<script src="./js/jquery.min.js?4529"></script>
+	<script src="./js/glecko-menu.js"></script>
+	<link rel="stylesheet" href="./css/glecko-menu.css">
 
-    /* Center main intro vertically */
-    .intro {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      transform: translateY(0%);
-    }
 
-    .intro--banner h1 {
-      font-size: 72px;
-      text-transform: uppercase;
-      margin-bottom: 0px;
-    }
 
-    /* Subheadlines: Vertical Flow, Horizontal Letters */
-    .intro--options a p {
-      color: var(--text-color);
-      font-style: italic;
-      writing-mode: vertical-rl; /* Vertical flow */
-      text-orientation: upright; /* Letters remain horizontal */
-      margin: 0;
-      line-height: 1.8;
-    }
 
-    /* Main Headlines Styling */
-    .intro--options a h3 {
-      color: var(--text-color);
-      font-size: 36px;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-      position: relative;
-      display: inline-block;
-      overflow: hidden;
-    }
-
-    /* Hover Line Effect */
-    .intro--options a h3::after {
-      content: "";
-      display: block;
-      width: 0%;
-      height: 12px; /* Thickness of the hover line */
-      background-color: var(--accent-color);
-      position: absolute;
-      left: 0;
-      bottom: 22px;
-      transition: width 0.3s ease;
-    }
-
-    .intro--options a:hover h3::after {
-      width: 100%; /* Line expands fully on hover */
-    }
-
-    /* Adjust layout for vertical subheadlines */
-    .intro--options {
-      display: flex;
-      flex-direction: row;
-      gap: 40px;
-    }
-
-    /* Individual Page Headlines */
-    .work h2 {
-      color: var(--text-color);
-      text-transform: uppercase;
-      position: relative;
-      display: inline-block;
-      overflow: hidden;
-    }
-
-    .work h2::after {
-      content: "";
-      display: block;
-      width: 100%;
-      height: 12px; /* Thickness */
-      background-color: var(--accent-color);
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .work p {
-      margin-top: 20px;
-      font-size: 18px;
-      font-style: italic;
-    }
-  </style>
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
 </head>
 <body>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <p>Glecko</p>
-          </a>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Motion</span></li>
-            <li><span>Tone</span></li>
-            <li><span>Word</span></li>
-            <li><span>Image</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Glecko</h1>
-              </div>
-              <div class="intro--options">
-                <a href="#motion">
-                  <h3>Motion</h3>
-                  <p>CÖllxps3!Vsn§°Xt<br>"frxgged ænglës—frmng ÷0wn."</p>
-                </a>
-                <a href="#tone">
-                  <h3>Tone</h3>
-                  <p>V=fλ:<br>R3sxn8 /z || frm thé unknwn.</p>
-                </a>
-                <a href="#word">
-                  <h3>Word</h3>
-                  <p>¥{Scrpt}//Êrör.EXE<br>"(d3lt'd-mëanin9) rlty."</p>
-                </a>
-                <a href="#Image">
-                  <h3>Image</h3>
-                  <p>||Fr@gmnt~trüth<br>"lïght, shä†t3r’d: //Absēnc3."</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li id="motion" class="l-section section">
-            <div class="work">
-              <h2>Motion</h2>
-              <p>CÖllxps3!Vsn§°Xt "frxgged ænglës—frmng ÷0wn."</p>
-            </div>
-          </li>
-          <li id="tone" class="l-section section">
-            <div class="work">
-              <h2>Tone</h2>
-              <p>V=fλ: R3sxn8 /z || frm thé unknwn.</p>
-            </div>
-          </li>
-          <li id="word" class="l-section section">
-            <div class="work">
-              <h2>Word</h2>
-              <p>¥{Scrpt}//Êrör.EXE "(d3lt'd-mëanin9) rlty."</p>
-            </div>
-          </li>
-          <li id="Image" class="l-section section">
-            <div class="work">
-              <h2>Image</h2>
-              <p>||Fr@gmnt~trüth "lïght, shä†t3r’d: //Absēnc3."</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Motion</li>
-    <li>Tone</li>
-    <li>Word</li>
-    <li>Image</li>
-  </ul>
-</div>
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+<!-- Burger menu -->
+<button id="nav-toggle" type="button" class="header--nav-toggle" aria-label="Toggle navigation">
+  <span class="burger-bar"></span>
+  <span class="burger-bar"></span>
+  <span class="burger-bar"></span>
+</button>
+
+	<!-- Main layout container -->
+	<div class="perspective effect-rotate-left">
+
+				<!-- Main page content -->
+				<div class="page-container">
+
+					<!-- hero -->
+					<div class="bloc bloc-fill-screen b-parallax bloc-bg-texture texture-darken-strong d-bloc bloc-style" id="hero">
+						<div class="parallax  bgc-1165">
+						</div>
+						<div class="container fill-bloc-top-edge">
+							<div class="row">
+								<div class="col-12">
+									<nav class="navbar row navbar-expand-md navbar-dark" role="navigation">
+
+										<div class="collapse navbar-collapse navbar-28121">
+											<ul class="site-navigation nav navbar-nav ml-auto">
+												<li class="nav-item">
+													<a href="index.html" class="nav-link">Home</a>
+												</li>
+												<li class="nav-item">
+													<a href="motion.html" class="nav-link">MOTION</a>
+												</li>
+												<li class="nav-item">
+													<a href="tone.html" class="nav-link a-btn">tone</a>
+												</li>
+												<li class="nav-item">
+													<a href="word.html" class="nav-link a-btn">WORD</a>
+												</li>
+												<li class="nav-item">
+													<a href="image.html" class="nav-link a-btn">IMAGE</a>
+												</li>
+											</ul>
+										</div>
+									</nav>
+									<div class="row">
+										<div class="col">
+											<div>
+												<style>
+					body {
+						cursor: crosshair; /* Sets the default cursor for the whole website */
+					}
+
+					.section-heading:hover {
+						cursor: not-allowed; /* Overrides the default cursor on hover for headlines */
+					}
+					</style>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+								<div class="row">
+									<div class="align-self-start offset-lg-0 text-lg-left col-md-12 offset-md-0 text-md-center col-lg-7">
+										<label class="text-center text-md-center float-lg-none text-lg-left sm-shadow hero-heading tc-6728">
+											<span>Glecko</span><br>
+										</label>
+									</div>
+								</div>
+							</div>
+					</div>
+					<!-- hero END -->
+
+					<!-- -motion- -->
+					<div class="bloc none b-parallax d-bloc" id="-motion-">
+						<div class="parallax  bgc-7343">
+						</div>
+						<div class="video-bg-container scroll-fx-out-fade scroll-fx-in-fade">
+							<video class="bloc-video lazyload" preload="auto" loop="loop" muted="muted" playsinline="playsinline" autoplay="autoplay" data-src="vid/motion%20video.mp4">
+								
+							</video>
+						</div>
+						<div class="bloc-bg-mask nonein none">
+							<svg class="svg-mask" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice"><path d="m254.7 333.255a50 50 0 0 0 65.165 27.45l180.135-73.357v212.652h-500v-500h118.988z"></path></svg>
+						</div>
+						<div class="bloc-shape-divider bloc-divider-bottom">
+								<svg class="svg-divider" fill-rule="evenodd" preserveAspectRatio="none" viewBox="0 0 1000 250"><path d="M0,0S88.458,218,500,218,1000,0,1000,0V250H0V0Z"></path></svg>
+							</div>
+						<div class="container bloc-md bloc-lg-md bloc-lg-lg">
+									<div class="row no-gutters bgc-7343 row--motion--style" id="row-overview">
+										<div class="col-md-4 col-sm-8 offset-sm-2 mb-5 offset-md-0 order-lg-0 mr-lg-5 offset-lg-0 text-lg-left mb-lg-0 col-lg-3" id="motion">
+											<div class=" html-widget-overview-style ml-lg-5">
+												<a href="motion.html" style="text-decoration: none; cursor: not-allowed;">
+					<h2 class="section-heading" style="
+						font-size: 60px;
+						color: #FFFFFF; /* Text color */
+						text-transform: uppercase;
+						display: inline-block;
+						margin: 20px auto;
+						position: relative; /* Required for pseudo-element */
+					">
+						Motion
+					</h2>
+					</a>
+
+					<style>
+					.section-heading {
+						text-align: center; /* Centers text within its container */
+						margin: 0 auto; /* Centers the block element itself */
+					}
+
+					.section-heading::after {
+						content: '';
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 38%;
+						height: 20px; /* Thickness of the line */
+						background-color: #BD0D0D; /* Red color */
+						transform: scaleX(0); /* Initially hidden */
+						transform-origin: left;
+						transition: transform 0.3s ease; /* Smooth animation */
+					}
+
+					.section-heading:hover::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Ensure link inherits headline hover effect */
+					a:hover .section-heading::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Remove link underline */
+					a {
+						text-decoration: none;
+					}
+
+					a:hover {
+						cursor: not-allowed; /* Ensure cursor changes when hovering over the link */
+					}
+					</style>
+												
+											</div>
+											<div class=" html-widget-style ml-lg-5">
+													<div style="
+					display: flex; 
+					justify-content: center; 
+					align-items: center; 
+					height: 100%; 
+					flex-direction: column;
+					">
+					<p style="
+					font-style: italic; /* Italic style */
+					line-height: 1.8; /* Adjust spacing between lines */
+					font-family: 'Arial', sans-serif; /* Change font as needed */
+					writing-mode: vertical-rl; /* Makes the text flow top-to-bottom */
+					text-orientation: upright; /* Keeps the letters horizontal */
+					margin: 0 auto; /* Centers the text horizontally */
+					display: inline-block; /* Allows proper centering of vertically written text */
+					">
+					CÖllxps3!Vsn§°Xt<br>"frxgged ænglës—frmng ÷0wn."
+
+
+
+							
+					</p>
+					</div>
+													
+												</div>
+										</div>
+									</div>
+								</div>
+					</div>
+					<!-- -motion- END -->
+
+					<!-- bloc-3-spacer -->
+					<div class="bloc d-bloc b-parallax" id="bloc-3-spacer">
+						<div class="parallax  bgc-7343">
+						</div>
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-md-9">
+									<h2 class="mg-clear text-center text-md-left tc-7343 sm-shadow">
+										not an error but a rupture — exposure of hidden <strike>333333</strike>. Dismantle the illusion of order, revealing the machinery of reality.
+									</h2>
+								</div>
+								<div class="align-self-center col-md-3">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- bloc-3-spacer END -->
+
+					<!-- º-bloc--tone -->
+					<div class="bloc none d-bloc b-parallax" id="º-bloc--tone">
+						<div class="parallax  bgc-7343">
+						</div>
+						<div class="video-bg-container scroll-fx-out-fade scroll-fx-in-fade">
+							<video class="bloc-video lazyload" preload="auto" loop="loop" muted="muted" playsinline="playsinline" autoplay="autoplay" data-src="vid/tone.video.mp4">
+								
+							</video>
+						</div>
+						<div class="bloc-bg-mask bloc-divider-flip-y bloc-divider-flip-x scroll-fx-zoom-push scroll-fx-right-out">
+							<svg class="svg-mask" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice"><path d="m390 500h-10l100-250.234-100-249.766h10l100 250zm-50 0h-20l100-250.234-100-249.766h20l100 250zm-60 0h-40l100-250.234-100-249.766h40l100 250zm-70 0h-210v-500h210l100 250z"></path></svg>
+						</div>
+						<div class="container bloc-md bloc-lg-md bloc-lg-lg">
+								<div class="row no-gutters bgc-7343" id="row-overview-24898">
+									<div class="col-md-3 text-left offset-lg-8 col-lg-3" id="tone-22619-24898">
+										<div class=" html-widget-overview-style ml-lg-5">
+											<a href="tone.html" style="text-decoration: none; cursor: not-allowed;">
+					<h2 class="section-heading" style="
+						font-size: 60px;
+						color: #FFFFFF; /* Text color */
+						text-transform: uppercase;
+						display: inline-block;
+						margin: 20px auto;
+						position: relative; /* Required for pseudo-element */
+					">
+						tone
+					</h2>
+					</a>
+
+					<style>
+					.section-heading {
+						text-align: center; /* Centers text within its container */
+						margin: 0 auto; /* Centers the block element itself */
+					}
+
+					.section-heading::after {
+						content: '';
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 38%; /* Adjusts position of the line */
+						height: 20px; /* Thickness of the line */
+						background-color: #BD0D0D; /* Red color */
+						transform: scaleX(0); /* Initially hidden */
+						transform-origin: left;
+						transition: transform 0.3s ease; /* Smooth animation */
+					}
+
+					.section-heading:hover::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Ensure link inherits headline hover effect */
+					a:hover .section-heading::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Remove link underline */
+					a {
+						text-decoration: none;
+					}
+
+					/* Cursor Change */
+					a:hover {
+						cursor: not-allowed; /* Changes cursor to 'not-allowed' on hover */
+					}
+					</style>
+											
+										</div>
+										<div class=" html-widget-0-style">
+												<div style="
+					display: flex; 
+					justify-content: center; 
+					align-items: center; 
+					height: 100%; 
+					flex-direction: column;
+					">
+					<p style="
+					font-style: italic; /* Italic style */
+					line-height: 1.8; /* Adjust spacing between lines */
+					font-family: 'Arial', sans-serif; /* Change font as needed */
+					writing-mode: vertical-rl; /* Makes the text flow top-to-bottom */
+					text-orientation: upright; /* Keeps the letters horizontal */
+					margin: 0 auto; /* Centers the text horizontally */
+					display: inline-block; /* Allows proper centering of vertically written text */
+					">
+					V=fλ:<br>R3sxn8 /z || frm thé unknwn.
+					</p>
+					</div>
+												
+											</div>
+									</div>
+									<div class="col">
+											</div>
+								</div>
+							</div>
+					</div>
+					<!-- º-bloc--tone END -->
+
+					<!-- spacer-2 -->
+					<div class="bloc bgc-7343 d-bloc" id="spacer-2">
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-md-9">
+									<h2 class="mg-clear text-center text-md-left tc-7343 sm-shadow">
+										not mere noises; imprints of fleeting realities —&nbsp;exposing the transient, physical violence: loops of interrogation, fragmented memory.&nbsp;<br><br><br>
+									</h2>
+								</div>
+								<div class="align-self-center col-md-3">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- spacer-2 END -->
+
+					<!-- -wordd -->
+					<div class="bloc none b-parallax d-bloc" id="-wordd">
+						<div class="parallax  bgc-7343">
+						</div>
+						<div class="video-bg-container scroll-fx-out-fade scroll-fx-in-fade">
+							<video class="bloc-video lazyload" preload="auto" loop="loop" muted="muted" playsinline="playsinline" autoplay="autoplay" data-src="vid/word.video.mp4">
+								
+							</video>
+						</div>
+						<div class="bloc-bg-mask bloc-divider-flip-x bloc-divider-flip-y">
+							<svg class="svg-mask" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice"><path d="m73.306 500h426.694zm262.088-202.6-262.088 202.6h-73.306v-490.686l144.823 187.341a30 30 0 0 0 42.083 5.386l261.358-202.041h51.736v461.276l-122.523-158.495a30 30 0 0 0 -42.083-5.381z"></path></svg>
+						</div>
+						<div class="container bloc-md bloc-lg-md bloc-lg-lg">
+								<div class="row no-gutters row-style" id="row-overview-24898-18653">
+									<div class="col-md-3 text-left col-lg-2 mt-lg-5 pr-lg-5 offset-lg-5" id="word-22619-9100-24898-18653">
+										<div class=" html-widget-overview-style mt-lg-5 ml-lg-3">
+											<a href="word.html" style="text-decoration: none; cursor: not-allowed;">
+					<h2 class="section-heading" style="
+						font-size: 60px;
+						color: #FFFFFF; /* Text color */
+						text-transform: uppercase;
+						display: inline-block;
+						margin: 20px auto;
+						position: relative; /* Required for pseudo-element */
+					">
+						word
+					</h2>
+					</a>
+
+					<style>
+					.section-heading {
+						text-align: center; /* Centers text within its container */
+						margin: 0 auto; /* Centers the block element itself */
+					}
+
+					.section-heading::after {
+						content: '';
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 38%; /* Adjusts position of the line */
+						height: 20px; /* Thickness of the line */
+						background-color: #BD0D0D; /* Red color */
+						transform: scaleX(0); /* Initially hidden */
+						transform-origin: left;
+						transition: transform 0.3s ease; /* Smooth animation */
+					}
+
+					.section-heading:hover::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Ensure link inherits headline hover effect */
+					a:hover .section-heading::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Remove link underline */
+					a {
+						text-decoration: none;
+					}
+
+					/* Cursor Change */
+					a:hover {
+						cursor: not-allowed; /* Changes cursor to 'not-allowed' on hover */
+					}
+					</style>
+											
+										</div>
+										<div class=" html-widget-0-overview-style ml-lg-5">
+												<div style="
+					display: flex; 
+					justify-content: center; 
+					align-items: center; 
+					height: 100%; 
+					flex-direction: column;
+					">
+					<p style="
+					font-style: italic; /* Italic style */
+					line-height: 1.8; /* Adjust spacing between lines */
+					font-family: 'Arial', sans-serif; /* Change font as needed */
+					writing-mode: vertical-rl; /* Makes the text flow top-to-bottom */
+					text-orientation: upright; /* Keeps the letters horizontal */
+					margin: 0 auto; /* Centers the text horizontally */
+					display: inline-block; /* Allows proper centering of vertically written text */
+					">
+					¥{Scrpt}//Êrör.EXE<br>"(d3lt'd-mëanin9) rlty."
+					</p>
+					</div>
+												
+											</div>
+									</div>
+									<div class="order-lg-1 col-lg-2">
+												<div class=" html-widget--wordd-style animated rotate-clockwise-hvr">
+													<p style="color: #002000;">
+					&lt;&gt;
+					</p>
+													
+												</div>
+											</div>
+									<div class="col offset-lg-1">
+												</div>
+								</div>
+							</div>
+					</div>
+					<!-- -wordd END -->
+
+					<!-- spacer3 -->
+					<div class="bloc bgc-7343 d-bloc" id="spacer3">
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-md-9">
+									<h2 class="mg-clear text-center text-md-left tc-7343 sm-shadow">
+										frameworks of control, tools of liberation — poetry, and paranoia coalesce into manifestos of decay aaaaa rebellion. Ideas etched into existence, shaping and shattering worlds.<br>
+									</h2>
+								</div>
+								<div class="align-self-center col-md-3">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- spacer3 END -->
+
+					<!-- -imagee -->
+					<div class="bloc none d-bloc b-parallax" id="-imagee">
+						<div class="parallax  bgc-7343">
+						</div>
+						<div class="video-bg-container scroll-fx-out-fade scroll-fx-in-fade">
+							<video class="bloc-video lazyload" preload="auto" loop="loop" muted="muted" playsinline="playsinline" autoplay="autoplay" data-src="vid/image.video.mp4">
+								
+							</video>
+						</div>
+						<div class="bloc-bg-mask bloc-divider-flip-y bloc-divider-flip-x">
+							<svg class="svg-mask" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice"><path d="m209.687 0h74.626l215.687 215.687v74.626zm203.626 0 86.687 86.687v33.626l-120.313-120.313zm86.687 385.687v114.313h-500v-500h114.313z"></path></svg>
+						</div>
+						<div class="container bloc-md bloc-lg-md bloc-lg-lg">
+								<div class="row no-gutters" id="row-overview-24898-18653-21266">
+									<div class="col-md-3 text-left pr-lg-2 text-lg-left order-lg-1 offset-lg-7 col-lg-4 mb-lg-5" id="image-22619-9100-39919-24898-18653-21266">
+										<div class=" html-widget-overview-style ml-lg-5">
+											<a href="image.html" style="text-decoration: none; cursor: not-allowed;">
+					<h2 class="section-heading" style="
+						font-size: 60px;
+						color: #FFFFFF; /* Text color */
+						text-transform: uppercase;
+						display: inline-block;
+						margin: 20px auto;
+						position: relative; /* Required for pseudo-element */
+					">
+						image
+					</h2>
+					</a>
+
+					<style>
+					.section-heading {
+						text-align: center; /* Centers text within its container */
+						margin: 0 auto; /* Centers the block element itself */
+					}
+
+					.section-heading::after {
+						content: '';
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 38%; /* Adjusts position of the line */
+						height: 20px; /* Thickness of the line */
+						background-color: #BD0D0D; /* Red color */
+						transform: scaleX(0); /* Initially hidden */
+						transform-origin: left;
+						transition: transform 0.3s ease; /* Smooth animation */
+					}
+
+					.section-heading:hover::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Ensure link inherits headline hover effect */
+					a:hover .section-heading::after {
+						transform: scaleX(1); /* Line expands fully on hover */
+					}
+
+					/* Remove link underline */
+					a {
+						text-decoration: none;
+					}
+
+					/* Cursor Change */
+					a:hover {
+						cursor: not-allowed; /* Changes cursor to 'not-allowed' on hover */
+					}
+					</style>
+											
+										</div>
+										<div class=" html-widget-1279-style">
+												<div style="
+					display: flex; 
+					justify-content: center; 
+					align-items: center; 
+					height: 100%; 
+					flex-direction: column;
+					">
+					<p style="
+					font-style: italic; /* Italic style */
+					line-height: 1.8; /* Adjust spacing between lines */
+					font-family: 'Arial', sans-serif; /* Change font as needed */
+					writing-mode: vertical-rl; /* Makes the text flow top-to-bottom */
+					text-orientation: upright; /* Keeps the letters horizontal */
+					margin: 0 auto; /* Centers the text horizontally */
+					display: inline-block; /* Allows proper centering of vertically written text */
+					">
+					||Fr@gmnt~trüth<br>"lïght, shä†t3r’d: //Absēnc3."
+					</p>
+					</div>
+												
+											</div>
+									</div>
+								</div>
+							</div>
+					</div>
+					<!-- -imagee END -->
+
+					<!-- space-ende -->
+					<div class="bloc bgc-7343 d-bloc" id="space-ende">
+						<div class="container bloc-lg">
+							<div class="row">
+								<div class="col-md-9 align-self-start col-lg-11">
+									<h2 class="mg-clear text-center text-md-left tc-7343 sm-shadow h2-style">
+										The gaze is never neutral; it dominates, distorts, and consumes, severing the world into frames, perspectives, and lies.<br>
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- space-ende END -->
+
+					<!-- ScrollToTop Button -->
+					<button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></button>
+					<!-- ScrollToTop Button END-->
+
+
+
+
+
+
+
+				</div>	
+				<!-- Main container END -->	
+
+
+				<div class="outer-nav--return"></div>
+
+	</div> <!-- .page-container -->
+
+
+<div id="nav-placeholder"></div>
+<!-- Inject footer -->
+<div id="footer-placeholder"></div>						
+	
+
+
+<link rel="stylesheet" href="./css/glecko-menu.css?v=123">
+<script src="./js/glecko-menu.js?v=123"></script>
+
+
+<script>
+	fetch("nav.html")
+	.then(res => res.text())
+	.then(data => {
+		document.getElementById("nav-placeholder").innerHTML = data;
+		// Wait a tick for DOM to be ready
+		setTimeout(() => {
+		if (window.initGleckoMenu) {
+			window.initGleckoMenu();
+		}
+		}, 50);
+	});
+
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/blocs.min.js"></script>
+<script src="./js/lazysizes.min.js" defer></script>
+<script src="./js/universal-parallax.min.js"></script>
+<script src="./js/scrollFX.js"></script>
+
+<!-- Video / Audio Player Auto Pause JS -->
+<script>let activePlayer = null; const players = document.querySelectorAll('audio, video'); players.forEach(player => { player.addEventListener('play', function() { if (activePlayer && activePlayer !== this && !activePlayer.hasAttribute('autoplay')) { activePlayer.pause(); } activePlayer = this; }); });</script>
+<!-- Video / Audio Player Auto Pause JS -->
+
 </body>
 </html>
