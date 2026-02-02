@@ -14,11 +14,9 @@
     <link rel="stylesheet" type="text/css" href="./css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:900,40&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>tone</title>
+    <title>Web of Biocatalysis</title>
 
     <link rel="stylesheet" href="./css/glecko-menu.css">
-	<link rel="stylesheet" href="./css/glecko-menu.css">
-	<script src="./js/glecko-menu.js"></script>
 
     <style>
         body {
@@ -26,6 +24,18 @@
         }
         .section-heading:hover {
             cursor: not-allowed;
+        }
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .pillar-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .pillar-list li {
+            margin: 0.5rem 0;
         }
     </style>
 
@@ -84,22 +94,68 @@
         </div>
         <!-- Navigation Section END -->
 
-        <!-- bloc-5 -->
-        <div class="bloc l-bloc bloc-fill-screen" id="bloc-5">
-        <div class="container fill-bloc-top-edge">
-            <div class="row">
-            <div class="col-12">
-                <h1 class="mg-md text-center text-md-left">Library</h1>
-                <ul style="list-style: none; padding: 0; margin-top: 2rem;">
-                <li style="margin: 0.75rem 0;">
-                    <a href="tone/01.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">#01</a>
-                </li>
-                </ul>
-            </div>
+        <!-- Content Section -->
+        <div class="bloc l-bloc" id="content">
+            <div class="container bloc-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-wrapper">
+                            <h1>Web of Biocatalysis</h1>
+                            <p><em>A living backbone of the field, continuously updated and re-interpreted.</em></p>
+                            
+                            <hr>
+                            
+                            <h2>What is this?</h2>
+                            <p>The <strong>Web of Biocatalysis</strong> is not a frozen review article.<br>
+                            It is a <strong>living map</strong>: connecting pillars of knowledge, highlighting key papers,<br>
+                            tracking trends, and linking to curated data.</p>
+                            
+                            <ul>
+                                <li>It grows over time.</li>
+                                <li>It updates with new insights.</li>
+                                <li>It shows both <strong>history and horizon</strong>.</li>
+                            </ul>
+                            
+                            <hr>
+                            
+                            <h2>The Pillars</h2>
+                            <p>Biocatalysis is structured here into ten interconnected pillars.<br>
+                            Click into any pillar to explore its live article, curated data, and evolving feed.</p>
+                            
+                            <ol class="pillar-list">
+                                <li>1. Discovery & Sourcing of Biocatalysts</li>
+                                <li>2. Design & Engineering</li>
+                                <li>3. Biocatalyst Formats & Cellular Context</li>
+                                <li>4. Media & Microenvironment</li>
+                                <li>5. Immobilization & Materials</li>
+                                <li>6. Cofactor & Energy Management</li>
+                                <li>7. Cascade & Route Design</li>
+                                <li>8. Reactors, Flow & In-Line Operations</li>
+                                <li>9. Reaction Space & Enzyme Portfolios</li>
+                                <li>10. Sustainability, Metrics & Industrialization</li>
+                            </ol>
+                            
+                            <hr>
+                            
+                            <h2>Live Articles</h2>
+                            <p>Each pillar is presented as a <strong>live article</strong>:</p>
+                            <ul>
+                                <li>Overview of core concepts</li>
+                                <li>Curated tables of examples & metrics</li>
+                                <li>News feed of recent papers</li>
+                                <li>Historical snapshots & landmark studies</li>
+                                <li>Interpretation: what's emerging, what's fading</li>
+                            </ul>
+                            
+                            <p style="margin-top: 3rem; font-style: italic; opacity: 0.7;">
+                                <small>This is a preview of the Web of Biocatalysis project. Full interactive version coming soon.</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <!-- bloc-5 END -->
+        <!-- Content Section END -->
 
         <!-- ScrollToTop Button -->
         <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></button>
@@ -128,7 +184,6 @@
     .then(res => res.text())
     .then(data => {
         document.getElementById("nav-placeholder").innerHTML = data;
-        // Wait a tick for DOM to be ready
         setTimeout(() => {
         if (window.initGleckoMenu) {
             window.initGleckoMenu();

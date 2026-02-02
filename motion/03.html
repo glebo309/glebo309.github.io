@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>access_node_7734</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0a;
+            color: #666;
+            font-family: 'Anonymous Pro', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            cursor: default;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            min-height: 100vh;
+        }
+        
+        .header {
+            margin-bottom: 80px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #222;
+        }
+        
+        .node-id {
+            color: #999;
+            font-size: 11px;
+            letter-spacing: 2px;
+        }
+        
+        .timestamp {
+            color: #444;
+            font-size: 10px;
+            margin-top: 15px;
+        }
+        
+        .section {
+            margin-bottom: 120px;
+        }
+        
+        .section-title {
+            color: #888;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+        
+        .data-row {
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        
+        .label {
+            color: #555;
+            display: inline-block;
+            width: 120px;
+        }
+        
+        .value {
+            color: #777;
+        }
+        
+        .status-active {
+            color: #888;
+        }
+        
+        .status-pending {
+            color: #666;
+        }
+        
+        .status-error {
+            color: #999;
+        }
+        
+        .connection-list {
+            margin-left: 20px;
+        }
+        
+        .connection-item {
+            margin-bottom: 8px;
+            font-size: 11px;
+            color: #555;
+        }
+        
+        .ip-masked {
+            color: #444;
+        }
+        
+        .separator {
+            margin: 80px 0;
+            height: 1px;
+            background: #111;
+        }
+        
+        .log-entry {
+            margin-bottom: 12px;
+            font-size: 11px;
+        }
+        
+        .log-time {
+            color: #444;
+        }
+        
+        .log-msg {
+            color: #666;
+            margin-left: 15px;
+        }
+        
+        .hex-block {
+            margin: 40px 0;
+            font-size: 10px;
+            line-height: 1.4;
+            color: #444;
+        }
+        
+        .hex-addr {
+            color: #333;
+        }
+        
+        .hex-data {
+            color: #555;
+        }
+        
+        .redacted {
+            color: #222;
+        }
+        
+        .empty-space {
+            height: 200px;
+        }
+        
+        .footer {
+            margin-top: 200px;
+            padding-top: 20px;
+            border-top: 1px solid #111;
+            font-size: 10px;
+            color: #333;
+        }
+        
+        ::selection {
+            background: #222;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="node-id">NODE_7734</div>
+            <div class="timestamp" id="timestamp"></div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">system status</div>
+            <div class="data-row">
+                <span class="label">connection</span>
+                <span class="value status-active">established</span>
+            </div>
+            <div class="data-row">
+                <span class="label">encryption</span>
+                <span class="value status-active">aes-256</span>
+            </div>
+            <div class="data-row">
+                <span class="label">proxy chain</span>
+                <span class="value status-pending">7 nodes</span>
+            </div>
+        </div>
+        
+        <div class="empty-space"></div>
+        
+        <div class="section">
+            <div class="section-title">active connections</div>
+            <div class="connection-list">
+                <div class="connection-item">192.168.██.███</div>
+                <div class="connection-item">10.0.██.███</div>
+                <div class="connection-item">172.16.██.███</div>
+                <div class="connection-item ip-masked">███.███.███.███</div>
+            </div>
+        </div>
+        
+        <div class="separator"></div>
+        
+        <div class="section">
+            <div class="section-title">transmission log</div>
+            <div class="log-entry">
+                <span class="log-time">23:41:07</span>
+                <span class="log-msg">handshake complete</span>
+            </div>
+            <div class="log-entry">
+                <span class="log-time">23:41:12</span>
+                <span class="log-msg">payload received</span>
+            </div>
+            <div class="log-entry">
+                <span class="log-time">23:41:15</span>
+                <span class="log-msg">verification pending</span>
+            </div>
+        </div>
+        
+        <div class="empty-space"></div>
+        
+        <div class="section">
+            <div class="hex-block">
+                <div><span class="hex-addr">0x0000:</span> <span class="hex-data">4d 5a 90 00 03 00 00 00</span></div>
+                <div><span class="hex-addr">0x0008:</span> <span class="hex-data">04 00 00 00 ff ff 00 00</span></div>
+                <div><span class="hex-addr">0x0010:</span> <span class="redacted">██ ██ ██ ██ ██ ██ ██ ██</span></div>
+                <div><span class="hex-addr">0x0018:</span> <span class="hex-data">40 00 00 00 00 00 00 00</span></div>
+            </div>
+        </div>
+        
+        <div class="empty-space"></div>
+        
+        <div class="section">
+            <div class="section-title">metadata</div>
+            <div class="data-row">
+                <span class="label">session id</span>
+                <span class="value" id="session-id">7a4f2b91e3c8</span>
+            </div>
+            <div class="data-row">
+                <span class="label">auth level</span>
+                <span class="value status-error">restricted</span>
+            </div>
+            <div class="data-row">
+                <span class="label">last access</span>
+                <span class="value">2025.05.24_19:33:07</span>
+            </div>
+        </div>
+        
+        <div class="separator"></div>
+        
+        <div class="section">
+            <div class="data-row">
+                <span class="label">uptime</span>
+                <span class="value" id="uptime">00:00:00</span>
+            </div>
+        </div>
+        
+        <div class="empty-space"></div>
+        <div class="empty-space"></div>
+        
+        <div class="footer">
+            <div>all transmissions logged</div>
+        </div>
+    </div>
+    
+    <script>
+        // Generate random session ID
+        function generateSessionId() {
+            const chars = '0123456789abcdef';
+            let result = '';
+            for (let i = 0; i < 12; i++) {
+                result += chars[Math.floor(Math.random() * chars.length)];
+            }
+            return result;
+        }
+        
+        // Initialize session ID
+        document.getElementById('session-id').textContent = generateSessionId();
+        
+        // Update timestamp
+        function updateTimestamp() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = (now.getMonth() + 1).toString().padStart(2, '0');
+            const day = now.getDate().toString().padStart(2, '0');
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('timestamp').textContent = 
+                `${year}.${month}.${day}_${hours}:${minutes}:${seconds}`;
+        }
+        
+        // Update uptime
+        let startTime = Date.now();
+        function updateUptime() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const hours = Math.floor(elapsed / 3600).toString().padStart(2, '0');
+            const minutes = Math.floor((elapsed % 3600) / 60).toString().padStart(2, '0');
+            const seconds = (elapsed % 60).toString().padStart(2, '0');
+            document.getElementById('uptime').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+        
+        setInterval(updateTimestamp, 1000);
+        setInterval(updateUptime, 1000);
+        updateTimestamp();
+        updateUptime();
+        
+        // Disable some keyboard shortcuts
+        document.addEventListener('keydown', e => {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+                e.preventDefault();
+            }
+        });
+        
+        // Disable right-click
+        document.addEventListener('contextmenu', e => e.preventDefault());
+    </script>
+</body>
+</body>
+</html>
