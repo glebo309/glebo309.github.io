@@ -23,9 +23,58 @@
     <style>
         body {
             cursor: crosshair;
+            background: #000;
         }
         .section-heading:hover {
             cursor: not-allowed;
+        }
+        .gallery-container {
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        .gallery-item {
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+        .video-embed {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            background: #000;
+        }
+        .video-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .glyph-box {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #000;
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .glyph-box:hover {
+            background: #fff;
+            border-color: #000;
+        }
+        .glyph-box:hover .glyph {
+            color: #000;
+        }
+        .glyph {
+            font-size: 8rem;
+            color: #fff;
+            font-weight: 100;
+            transition: color 0.3s ease;
+            user-select: none;
         }
     </style>
 
@@ -84,29 +133,42 @@
         </div>
         <!-- Navigation Section END -->
 
-        <!-- bloc-5 -->
-        <div class="bloc l-bloc bloc-fill-screen" id="bloc-5">
-        <div class="container fill-bloc-top-edge">
-            <div class="row">
-            <div class="col-12">
-                <h1 class="mg-md text-center text-md-left">Collections</h1>
-                <ul style="list-style: none; padding: 0; margin-top: 2rem;">
-                <li style="margin: 0.75rem 0;">
-                    <a href="motion/01.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">#01</a>
-                </li>
-                <li style="margin: 0.75rem 0;">
-                    <a href="motion/02.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">#02</a>
-                </li>
-                <li style="margin: 0.75rem 0;">
-                    <a href="motion/03.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">#03</a>
-                </li>
-                </ul>
-            </div>
+        <!-- Gallery Section -->
+        <div class="bloc l-bloc" id="gallery">
+            <div class="container gallery-container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <!-- Glyph Box #01 -->
+                        <div class="gallery-item">
+                            <a href="motion/01.html" class="glyph-box">
+                                <span class="glyph">⨯</span>
+                            </a>
+                        </div>
+
+                        <!-- Embedded YouTube Video -->
+                        <div class="gallery-item">
+                            <div class="video-embed">
+                                <iframe 
+                                    src="https://www.youtube.com/embed/5lyLNM_QxxA?rel=0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+
+                        <!-- Glyph Box #03 -->
+                        <div class="gallery-item">
+                            <a href="motion/03.html" class="glyph-box">
+                                <span class="glyph">◬</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <!-- bloc-5 END -->
-        ->
+        <!-- Gallery Section END -->
 
 
         <!-- ScrollToTop Button -->
