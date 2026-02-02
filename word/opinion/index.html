@@ -6,17 +6,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="../../favicon.png">
     
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?8140">
-    <link rel="stylesheet" type="text/css" href="style.css?349">
-    <link rel="stylesheet" type="text/css" href="./css/animate.min.css?1218">
-    <link rel="stylesheet" type="text/css" href="./css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css?8140">
+    <link rel="stylesheet" type="text/css" href="../../style.css?349">
+    <link rel="stylesheet" type="text/css" href="../../css/animate.min.css?1218">
+    <link rel="stylesheet" type="text/css" href="../../css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:900,40&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>WORD</title>
+    <title>Opinion</title>
 
-    <link rel="stylesheet" href="./css/glecko-menu.css">
+    <link rel="stylesheet" href="../../css/glecko-menu.css">
 
     <style>
         body {
@@ -59,22 +59,19 @@
                             <div class="collapse navbar-collapse navbar-28121">
                                 <ul class="site-navigation nav navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link">Home</a>
+                                        <a href="../../index.html" class="nav-link">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="motion.html" class="nav-link">MOTION</a>
+                                        <a href="../../motion.html" class="nav-link">MOTION</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="tone.html" class="nav-link a-btn">tone</a>
+                                        <a href="../../tone.html" class="nav-link a-btn">tone</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="word.html" class="nav-link a-btn">WORD</a>
+                                        <a href="../../word.html" class="nav-link a-btn">WORD</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="image.html" class="nav-link a-btn">IMAGE</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact-us.html" class="nav-link">Contact</a>
+                                        <a href="../../image.html" class="nav-link a-btn">IMAGE</a>
                                     </li>
                                 </ul>
                             </div>
@@ -90,22 +87,17 @@
         <div class="container fill-bloc-top-edge">
             <div class="row">
             <div class="col-12">
-                <h1 class="mg-md text-center text-md-left">Collections</h1>
+                <h1 class="mg-md text-center text-md-left">Opinion</h1>
                 <ul style="list-style: none; padding: 0; margin-top: 2rem;">
                 <li style="margin: 0.75rem 0;">
-                    <a href="word/opinion/index.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">Opinion</a>
-                </li>
-                <li style="margin: 0.75rem 0;">
-                    <a href="word/web-of-biocatalysis/index.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">Web of Biocatalysis</a>
-                </li>
-                <li style="margin: 0.75rem 0;">
-                    <a href="word/web-of-psychedelics/index.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">Web of Psychedelics</a>
+                    <a href="01-the-substance.html" class="btn btn-d btn-lg btn-clean" style="text-decoration: none;">The Substance</a>
                 </li>
                 </ul>
             </div>
             </div>
         </div>
-        <!-- bloc-15 END -->
+        </div>
+        <!-- bloc-5 END -->
 
         <!-- ScrollToTop Button -->
         <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></button>
@@ -123,19 +115,17 @@
 <div id="nav-placeholder"></div>
 
 <!-- JS -->
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/blocs.min.js"></script>
-<script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/universal-parallax.min.js"></script>
-<script src="./js/glecko-menu.js"></script>
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.bundle.min.js"></script>
+<script src="../../js/blocs.min.js"></script>
+<script src="../../js/lazysizes.min.js" defer></script>
+<script src="../../js/glecko-menu.js"></script>
 
 <script>
-    fetch("nav.html")
+    fetch("../../nav.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("nav-placeholder").innerHTML = data;
-        // Wait a tick for DOM to be ready
         setTimeout(() => {
         if (window.initGleckoMenu) {
             window.initGleckoMenu();
@@ -143,7 +133,7 @@
         }, 50);
     });
 
-  fetch("footer.html")
+  fetch("../../footer.html")
     .then(res => res.text())
     .then(data => {
       document.getElementById("footer-placeholder").innerHTML = data;
