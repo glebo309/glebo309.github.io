@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>03_Bell_2021_NatureMethodsPrimers</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Web Of Biocatalysis"/><meta property="og:title" content="03_Bell_2021_NatureMethodsPrimers"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="03_Bell_2021_NatureMethodsPrimers"/><meta name="twitter:description" content="Biocatalysis (Primer) (Bell et al., Nat. Rev."/><meta property="og:description" content="Biocatalysis (Primer) (Bell et al., Nat. Rev."/><meta property="og:image:alt" content="Biocatalysis (Primer) (Bell et al., Nat. Rev."/><meta property="twitter:domain" content="glecko.xyz"/><meta property="og:url" content="https://glecko.xyz/backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers"/><meta property="twitter:url" content="https://glecko.xyz/backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="Biocatalysis (Primer) (Bell et al., Nat. Rev."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2dsZW5uL0RvY3VtZW50cy9TZWNvbmRCcmFpbi9fQ09ERS9xdWFydHotYnVpbGRlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://glecko.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://glecko.xyz/backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers-og-image.webp"/><meta property="og:image:url" content="https://glecko.xyz/backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers-og-image.webp"/><meta name="twitter:image" content="https://glecko.xyz/backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="backbone/core_reviews/summary/03_Bell_2021_NatureMethodsPrimers"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../..">Web Of Biocatalysis</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="bnv3ed"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/">backbone</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/core_reviews/">core_reviews</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/core_reviews/summary/">summary</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>03_Bell_2021_NatureMethodsPrimers</a></div></nav></div></div><article class="popover-hint"><h1 id="biocatalysis-primer-bell-et-al-nat-rev-methods-primers-2021"><em>Biocatalysis (Primer)</em> (Bell et al., <strong>Nat. Rev. Methods Primers</strong> 2021)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#biocatalysis-primer-bell-et-al-nat-rev-methods-primers-2021" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Citation &amp; scope</strong><br/>
+A methods-primer that walks the end-to-end pipeline: <strong>route design</strong> (manual &amp; CASP/RetroBioCat), <strong>biocatalyst sourcing</strong> (commercial kits, biosynthetic enzymes, metagenomes, in-silico mining), <strong>optimization</strong> (directed evolution, computation, ncAAs), <strong>cascade build</strong> (design–build–optimize), and <strong>bioprocess metrics/implementation</strong>.</p>
+<p><strong>Thesis / what’s new</strong><br/>
+Biocatalysis is mainstream because discovery (databases, gene synthesis), <strong>laboratory evolution</strong>, and <strong>computational design</strong> now deliver tailored enzymes fast; standardized data/ontologies and reporting are emerging, while <strong>bio-retrosynthesis</strong> and CASP tools make de-novo cascades practical (e.g., <strong>islatravir</strong>).</p>
+<p><strong>Higher-order topic map (authors’ framing)</strong></p>
+<ol>
+<li>
+<p><strong>Route design &amp; tools</strong> — Manual + <strong>RetroBioCat</strong> for bio-retrosynthesis; iterate reaction design ⇄ enzyme choice ⇄ bioprocess.</p>
+</li>
+<li>
+<p><strong>Sources of biocatalysts</strong> — (a) <strong>Commercial</strong> libraries (KREDs, IREDs, TAs, BVMOs, MAO-N, lyases), (b) <strong>biosynthetic enzymes</strong> (e.g., Fe(II)/α-KG hydroxylases/halogenases), (c) <strong>metagenomic</strong> &amp; <strong>in-silico</strong> mining; rapid gene synthesis makes any reported sequence accessible.</p>
+</li>
+<li>
+<p><strong>Directed evolution</strong> — Focused libraries (CAST/ISM, reduced codons) and high-throughput screens (plates, colony colorimetry, FADS/AADS droplets, displays, continuous evolution) are the workhorse.</p>
+</li>
+<li>
+<p><strong>Computational design</strong> — Theozyme→Rosetta, <strong>multistate</strong>/MD-guided designs, tunnel analysis (CAVER), <strong>FRESCO</strong> stabilization; dynamics/allostery and distal mutations matter.</p>
+</li>
+<li>
+<p><strong>Genetic code expansion (ncAAs)</strong> — Install new functional groups; evolve aaRS; demonstrated <strong>de-novo hydrolase</strong> OE1→OE1.3 with >9,000-fold rate boost vs free Me-His.</p>
+</li>
+<li>
+<p><strong>Cascade development</strong> — <strong>Design–Build–Optimize</strong> loop; linear/orthogonal/cyclic topologies; in-vitro, in-vivo, or hybrid; cofactor, compatibility, immobilization, ISR considered up-front.</p>
+</li>
+<li>
+<p><strong>What makes a good industrial biocatalyst</strong> — High activity at <strong>high loads</strong>, solvent/pH/temperature tolerance, <strong>operational stability</strong> (TTN), <strong>immobilizability</strong>, and strong <strong>green/economic metrics</strong> (PMI, E-factor, productivity).</p>
+</li>
+<li>
+<p><strong>Standards &amp; infrastructure</strong> — Data/metadata, <strong>STRENDA</strong>, <strong>SiLA/AnIML</strong>, enzyme repositories; <strong>Revenant</strong> for ancestral proteins; IP/FTO awareness.</p>
+</li>
+</ol>
+<p><strong>Key exemplars &amp; metrics</strong></p>
+<ul>
+<li>
+<p><strong>Acrylamide (NHase)</strong>: <strong>50–100 g·L⁻¹·h⁻¹</strong> productivities at <strong>300–500 g·L⁻¹</strong> titers; a flagship whole-cell process.</p>
+</li>
+<li>
+<p><strong>Sitagliptin (TA)</strong>: substrate walking + evolution → <strong>200 g·L⁻¹</strong> load, <strong>45 °C</strong>, <strong>50% DMSO</strong>, <strong>>99.9% ee</strong>; beats Rh catalysis on cost/green metrics.</p>
+</li>
+<li>
+<p><strong>Islatravir</strong>: <strong>9-enzyme</strong> cascade (5 evolved) with ATP/phosphate shuttling; high overall yield without workups.</p>
+</li>
+<li>
+<p><strong>IREDs</strong>: pilot-scale <strong>13 g·L⁻¹·h⁻¹</strong>; engineered IRED for <strong>GSK2879552</strong> shows <strong>38,000×</strong> turnover gain vs WT.</p>
+</li>
+<li>
+<p><strong>(–)-Ambrox (SHC)</strong>: whole-cell cyclization, <strong>~12 g·L⁻¹·h⁻¹</strong> after DoE optimization.</p>
+</li>
+</ul>
+<p><strong>Limits / gaps (authors’ view)</strong><br/>
+ML/design still limited by <strong>data quality/metadata</strong>; screening modality biases (e.g., fluorescence only in droplets); scale logistics for <strong>cofactors</strong>; broad, oxidative <strong>C–C</strong> coupling remains challenging; need consistent <strong>reporting</strong> of process-relevant metrics.</p>
+<p><strong>Outlook</strong><br/>
+Expect tighter <strong>automation + standards</strong>, bigger public <strong>enzyme libraries</strong>, expanded <strong>ncAA</strong> and <strong>de-novo</strong> platforms, and increasingly routine <strong>designer cascades</strong> bridging biocatalysis and biotransformations for complex targets.</p>
+<p><strong>Tags</strong><br/>
+Route design &amp; RetroBioCat; commercial &amp; biosynthetic enzyme sources; metagenomics/in-silico; directed evolution (FADS/AADS/continuous); computation (Rosetta/FRESCO/CAVER); ncAAs; cascades (DBO loop); industrial metrics (PMI/E-factor/STY); standards (STRENDA, SiLA/AnIML).</p>
+<h1 id="biocatalysis-field-topics---from-bell-et-al-nature-methods-primers-2021">Biocatalysis Field Topics - From Bell et al. Nature Methods Primers 2021<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#biocatalysis-field-topics---from-bell-et-al-nature-methods-primers-2021" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Document ID:</strong> Bell_2021_NatureMethodsPrimers</p>
+<h2 id="core-topics-extracted">Core Topics Extracted:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#core-topics-extracted" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-commercial-enzyme-sources--libraries">1. <strong>Commercial Enzyme Sources &amp; Libraries</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-commercial-enzyme-sources--libraries" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Ready-made enzyme collections from vendors for direct screening</li>
+<li><strong>Key aspects</strong>: KRED libraries, IRED libraries, transaminase collections, oxidoreductase panels</li>
+<li><strong>Applications</strong>: Rapid biocatalyst identification, substrate-specific screening</li>
+</ul>
+<h3 id="2-natural-product-biosynthetic-enzymes">2. <strong>Natural Product Biosynthetic Enzymes</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-natural-product-biosynthetic-enzymes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Enzymes from specialized metabolite pathways repurposed for synthesis</li>
+<li><strong>Key aspects</strong>: Fe(II)/2-oxoglutarate dependent enzymes, halogenases, methyltransferases</li>
+<li><strong>Applications</strong>: C-H functionalization, stereoselective transformations</li>
+</ul>
+<h3 id="3-metagenomic--in-silico-enzyme-mining">3. <strong>Metagenomic &amp; In Silico Enzyme Mining</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-metagenomic--in-silico-enzyme-mining" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Discovery of new biocatalysts from environmental DNA and sequence databases</li>
+<li><strong>Key aspects</strong>: Function-based screening, sequence-based screening, degenerate primers</li>
+<li><strong>Applications</strong>: Novel enzyme discovery, extreme environment adaptation</li>
+</ul>
+<h3 id="4-high-throughput-screening-platforms">4. <strong>High-Throughput Screening Platforms</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-high-throughput-screening-platforms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Automated systems for rapid evaluation of enzyme variants</li>
+<li><strong>Key aspects</strong>: Microfluidics, droplet sorting, fluorescence-activated screening</li>
+<li><strong>Applications</strong>: Directed evolution campaigns, library screening</li>
+</ul>
+<h3 id="5-dna-library-generation-strategies">5. <strong>DNA Library Generation Strategies</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-dna-library-generation-strategies" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Methods for creating genetic diversity in protein engineering</li>
+<li><strong>Key aspects</strong>: Error-prone PCR, saturation mutagenesis, DNA shuffling, CAST</li>
+<li><strong>Applications</strong>: Focused evolution, combinatorial optimization</li>
+</ul>
+<h3 id="6-computational-enzyme-design">6. <strong>Computational Enzyme Design</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-computational-enzyme-design" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Computer-aided approaches for rational enzyme engineering</li>
+<li><strong>Key aspects</strong>: Rosetta design, molecular dynamics, QM/MM calculations, CASCO</li>
+<li><strong>Applications</strong>: Active site redesign, stability enhancement</li>
+</ul>
+<h3 id="7-machine-learning-in-protein-engineering">7. <strong>Machine Learning in Protein Engineering</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-machine-learning-in-protein-engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: AI-guided approaches for predicting beneficial mutations</li>
+<li><strong>Key aspects</strong>: Sequence-function relationships, predictive modeling, smart libraries</li>
+<li><strong>Applications</strong>: Reducing screening burden, accelerating optimization</li>
+</ul>
+<h3 id="8-non-canonical-amino-acid-incorporation">8. <strong>Non-Canonical Amino Acid Incorporation</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-non-canonical-amino-acid-incorporation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Expanding the chemical alphabet of proteins beyond 20 natural amino acids</li>
+<li><strong>Key aspects</strong>: Orthogonal tRNA synthetases, genetic code expansion, novel chemistries</li>
+<li><strong>Applications</strong>: New catalytic mechanisms, enhanced stability</li>
+</ul>
+<h3 id="9-enzyme-cascade-design--development">9. <strong>Enzyme Cascade Design &amp; Development</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-enzyme-cascade-design--development" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Multi-step biocatalytic processes in single reaction vessels</li>
+<li><strong>Key aspects</strong>: Linear cascades, orthogonal cascades, cyclic cascades, retrobiosynthesis</li>
+<li><strong>Applications</strong>: Complex molecule synthesis, telescoped processes</li>
+</ul>
+<h3 id="10-computer-aided-synthesis-planning-casp">10. <strong>Computer-Aided Synthesis Planning (CASP)</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-computer-aided-synthesis-planning-casp" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Automated tools for designing biocatalytic routes</li>
+<li><strong>Key aspects</strong>: RetroBioCat, pathway prediction, enzyme database integration</li>
+<li><strong>Applications</strong>: Route design, cascade planning</li>
+</ul>
+<h3 id="11-bioprocess-development--scale-up">11. <strong>Bioprocess Development &amp; Scale-Up</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11-bioprocess-development--scale-up" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Translation from lab-scale to industrial manufacturing</li>
+<li><strong>Key aspects</strong>: Fed-batch strategies, ISPR, continuous processing, immobilization</li>
+<li><strong>Applications</strong>: Industrial implementation, cost optimization</li>
+</ul>
+<h3 id="12-industrial-process-metrics">12. <strong>Industrial Process Metrics</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12-industrial-process-metrics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Quantitative measures for evaluating biocatalytic processes</li>
+<li><strong>Key aspects</strong>: Productivity (g/L/h), E-factor, atom economy, process mass intensity</li>
+<li><strong>Applications</strong>: Sustainability assessment, process comparison</li>
+</ul>
+<h3 id="13-enzyme-immobilization-technologies">13. <strong>Enzyme Immobilization Technologies</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13-enzyme-immobilization-technologies" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Methods for binding enzymes to solid supports for reuse</li>
+<li><strong>Key aspects</strong>: CLEAs, carrier-bound enzymes, flow systems, operational stability</li>
+<li><strong>Applications</strong>: Continuous processing, enzyme recovery</li>
+</ul>
+<h3 id="14-ultra-high-throughput-methods">14. <strong>Ultra-High-Throughput Methods</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14-ultra-high-throughput-methods" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Screening technologies capable of >10^6 variants</li>
+<li><strong>Key aspects</strong>: Droplet microfluidics, FACS, continuous evolution, selection-based approaches</li>
+<li><strong>Applications</strong>: Massive library screening, rare variant discovery</li>
+</ul>
+<h3 id="15-biocatalyst-databases--data-management">15. <strong>Biocatalyst Databases &amp; Data Management</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15-biocatalyst-databases--data-management" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Repositories for storing and accessing enzyme data</li>
+<li><strong>Key aspects</strong>: Substrate specificity, reaction conditions, BioCatNet, PrenDB</li>
+<li><strong>Applications</strong>: Enzyme selection, knowledge sharing</li>
+</ul>
+<h3 id="16-cell-free-protein-expression">16. <strong>Cell-Free Protein Expression</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16-cell-free-protein-expression" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: In vitro systems for rapid enzyme production without cells</li>
+<li><strong>Key aspects</strong>: Reduced cycle times, direct enzyme access, high-throughput compatible</li>
+<li><strong>Applications</strong>: Accelerated development, prototyping</li>
+</ul>
+<h3 id="17-continuous-flow-biocatalysis">17. <strong>Continuous Flow Biocatalysis</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17-continuous-flow-biocatalysis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Steady-state enzymatic processes in flow reactors</li>
+<li><strong>Key aspects</strong>: Immobilized enzymes, residence time control, process intensification</li>
+<li><strong>Applications</strong>: Industrial manufacturing, multi-step synthesis</li>
+</ul>
+<h3 id="18-biocatalytic-late-stage-functionalization">18. <strong>Biocatalytic Late-Stage Functionalization</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18-biocatalytic-late-stage-functionalization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Enzyme-catalyzed modifications of complex molecules</li>
+<li><strong>Key aspects</strong>: C-H activation, selective oxidation, site-specific modification</li>
+<li><strong>Applications</strong>: Pharmaceutical diversification, compound libraries</li>
+</ul>
+<h3 id="19-green-chemistry-metrics-in-biocatalysis">19. <strong>Green Chemistry Metrics in Biocatalysis</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#19-green-chemistry-metrics-in-biocatalysis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Environmental impact assessment of enzymatic processes</li>
+<li><strong>Key aspects</strong>: Carbon footprint, waste reduction, renewable feedstocks</li>
+<li><strong>Applications</strong>: Sustainability evaluation, process optimization</li>
+</ul>
+<h3 id="20-reproducibility-standards-strenda">20. <strong>Reproducibility Standards (STRENDA)</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20-reproducibility-standards-strenda" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Guidelines for standardized reporting of enzyme data</li>
+<li><strong>Key aspects</strong>: Experimental conditions, kinetic parameters, data validation</li>
+<li><strong>Applications</strong>: Data quality, cross-study comparisons</li>
+</ul>
+<h2 id="key-methodological-focus-areas">Key Methodological Focus Areas:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-methodological-focus-areas" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="advanced-screening-technologies"><strong>Advanced Screening Technologies</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#advanced-screening-technologies" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Microfluidics and droplet sorting</li>
+<li>Mass spectrometry coupling</li>
+<li>Label-free detection methods</li>
+<li>Ultra-high-throughput platforms</li>
+</ul>
+<h3 id="computational-tools"><strong>Computational Tools</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#computational-tools" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Protein structure prediction</li>
+<li>Molecular dynamics simulations</li>
+<li>Machine learning integration</li>
+<li>Automated design workflows</li>
+</ul>
+<h3 id="industrial-translation"><strong>Industrial Translation</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#industrial-translation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Scale-up considerations</li>
+<li>Process economics</li>
+<li>Regulatory compliance</li>
+<li>Intellectual property management</li>
+</ul>
+<h1 id="backbone-categories">Backbone Categories<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#backbone-categories" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ol>
+<li>
+<p><strong>Route &amp; Reaction Design</strong> — bio-retrosynthesis/CASP tools (e.g., RetroBioCat), manual planning.</p>
+</li>
+<li>
+<p><strong>Enzyme Sourcing &amp; Discovery</strong> — commercial kits, natural-product biosynthesis enzymes, metagenomic &amp; in-silico mining.</p>
+</li>
+<li>
+<p><strong>Protein Engineering (Directed Evolution)</strong> — focused libraries, ISM/CASTing, reduced codons, recombination.</p>
+</li>
+<li>
+<p><strong>Computational Design</strong> — Rosetta/QM/MM/EVB, conformational dynamics, multistate design, FRESCO/CASCO.</p>
+</li>
+<li>
+<p><strong>Genetic Code Expansion (ncAA)</strong> — orthogonal aaRS/tRNA, mechanistic probes, new catalytic motifs.</p>
+</li>
+<li>
+<p><strong>Screening &amp; Selection Platforms</strong> — plate/LC assays, colony colorimetric, microfluidics/FADS, phage display, continuous evolution.</p>
+</li>
+<li>
+<p><strong>Cascades &amp; Pathway Assembly</strong> — design–build–optimize cycles; in vitro / in vivo / hybrid implementations.</p>
+</li>
+<li>
+<p><strong>Cofactors &amp; Compatibility</strong> — cofactor needs/regen, solvent and pH tolerance, high-load operation considerations.</p>
+</li>
+<li>
+<p><strong>Immobilization &amp; Operational Stability</strong> — reuse, lifetime, flow readiness, ISPR interfaces.</p>
+</li>
+<li>
+<p><strong>Process &amp; Reactor Engineering</strong> — fed-batch, two-phase/solvent systems, analytics/automation, scale-up.</p>
+</li>
+<li>
+<p><strong>Metrics, Economics &amp; Sustainability</strong> — productivity (g L⁻¹ h⁻¹), turnover/TTN, E-factor/PMI/C-factor, robustness targets.</p>
+</li>
+<li>
+<p><strong>Applications &amp; Case Studies</strong> — pharma/fine chems/materials; exemplar cascades (e.g., islatravir), FTO/IP notes.</p>
+</li>
+</ol></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="toc-content"><ul id="kx1zwn" class="overflow"><li class="depth-0"><a href="#biocatalysis-primer-bell-et-al-nat-rev-methods-primers-2021" data-for="biocatalysis-primer-bell-et-al-nat-rev-methods-primers-2021">Biocatalysis (Primer) (Bell et al., Nat. Rev. Methods Primers 2021)</a></li><li class="depth-0"><a href="#biocatalysis-field-topics---from-bell-et-al-nature-methods-primers-2021" data-for="biocatalysis-field-topics---from-bell-et-al-nature-methods-primers-2021">Biocatalysis Field Topics - From Bell et al. Nature Methods Primers 2021</a></li><li class="depth-1"><a href="#core-topics-extracted" data-for="core-topics-extracted">Core Topics Extracted:</a></li><li class="depth-2"><a href="#1-commercial-enzyme-sources--libraries" data-for="1-commercial-enzyme-sources--libraries">1. Commercial Enzyme Sources &amp; Libraries</a></li><li class="depth-2"><a href="#2-natural-product-biosynthetic-enzymes" data-for="2-natural-product-biosynthetic-enzymes">2. Natural Product Biosynthetic Enzymes</a></li><li class="depth-2"><a href="#3-metagenomic--in-silico-enzyme-mining" data-for="3-metagenomic--in-silico-enzyme-mining">3. Metagenomic &amp; In Silico Enzyme Mining</a></li><li class="depth-2"><a href="#4-high-throughput-screening-platforms" data-for="4-high-throughput-screening-platforms">4. High-Throughput Screening Platforms</a></li><li class="depth-2"><a href="#5-dna-library-generation-strategies" data-for="5-dna-library-generation-strategies">5. DNA Library Generation Strategies</a></li><li class="depth-2"><a href="#6-computational-enzyme-design" data-for="6-computational-enzyme-design">6. Computational Enzyme Design</a></li><li class="depth-2"><a href="#7-machine-learning-in-protein-engineering" data-for="7-machine-learning-in-protein-engineering">7. Machine Learning in Protein Engineering</a></li><li class="depth-2"><a href="#8-non-canonical-amino-acid-incorporation" data-for="8-non-canonical-amino-acid-incorporation">8. Non-Canonical Amino Acid Incorporation</a></li><li class="depth-2"><a href="#9-enzyme-cascade-design--development" data-for="9-enzyme-cascade-design--development">9. Enzyme Cascade Design &amp; Development</a></li><li class="depth-2"><a href="#10-computer-aided-synthesis-planning-casp" data-for="10-computer-aided-synthesis-planning-casp">10. Computer-Aided Synthesis Planning (CASP)</a></li><li class="depth-2"><a href="#11-bioprocess-development--scale-up" data-for="11-bioprocess-development--scale-up">11. Bioprocess Development &amp; Scale-Up</a></li><li class="depth-2"><a href="#12-industrial-process-metrics" data-for="12-industrial-process-metrics">12. Industrial Process Metrics</a></li><li class="depth-2"><a href="#13-enzyme-immobilization-technologies" data-for="13-enzyme-immobilization-technologies">13. Enzyme Immobilization Technologies</a></li><li class="depth-2"><a href="#14-ultra-high-throughput-methods" data-for="14-ultra-high-throughput-methods">14. Ultra-High-Throughput Methods</a></li><li class="depth-2"><a href="#15-biocatalyst-databases--data-management" data-for="15-biocatalyst-databases--data-management">15. Biocatalyst Databases &amp; Data Management</a></li><li class="depth-2"><a href="#16-cell-free-protein-expression" data-for="16-cell-free-protein-expression">16. Cell-Free Protein Expression</a></li><li class="depth-2"><a href="#17-continuous-flow-biocatalysis" data-for="17-continuous-flow-biocatalysis">17. Continuous Flow Biocatalysis</a></li><li class="depth-2"><a href="#18-biocatalytic-late-stage-functionalization" data-for="18-biocatalytic-late-stage-functionalization">18. Biocatalytic Late-Stage Functionalization</a></li><li class="depth-2"><a href="#19-green-chemistry-metrics-in-biocatalysis" data-for="19-green-chemistry-metrics-in-biocatalysis">19. Green Chemistry Metrics in Biocatalysis</a></li><li class="depth-2"><a href="#20-reproducibility-standards-strenda" data-for="20-reproducibility-standards-strenda">20. Reproducibility Standards (STRENDA)</a></li><li class="depth-1"><a href="#key-methodological-focus-areas" data-for="key-methodological-focus-areas">Key Methodological Focus Areas:</a></li><li class="depth-2"><a href="#advanced-screening-technologies" data-for="advanced-screening-technologies">Advanced Screening Technologies</a></li><li class="depth-2"><a href="#computational-tools" data-for="computational-tools">Computational Tools</a></li><li class="depth-2"><a href="#industrial-translation" data-for="industrial-translation">Industrial Translation</a></li><li class="depth-0"><a href="#backbone-categories" data-for="backbone-categories">Backbone Categories</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.0</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>

@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An evolutionary route to xylanase process fitness</title>
+				<funder>
+					<orgName type="full">Biotechnology and Biological Sciences Research Council (UK)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nisha</forename><surname>Palackal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yali</forename><surname>Brennan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Walter</forename><forename type="middle">N</forename><surname>Callen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Dupree</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4955 Directors Place</addrLine>
+									<postCode>CB2 1QW 92121</postCode>
+									<settlement>Cambridge San Diego</settlement>
+									<region>CA</region>
+									<country>UK USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerhard</forename><surname>Frey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Florence</forename><surname>Goubet</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4955 Directors Place</addrLine>
+									<postCode>CB2 1QW 92121</postCode>
+									<settlement>Cambridge San Diego</settlement>
+									<region>CA</region>
+									<country>UK USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Geoffrey</forename><forename type="middle">P</forename><surname>Hazlewood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shaun</forename><surname>Healey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Young</forename><forename type="middle">E</forename><surname>Kang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Kretz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edd</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuqiu</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Geoffery</forename><forename type="middle">L</forename><surname>Tomlinson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><surname>Verruto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vicky</forename><forename type="middle">W K</forename><surname>Wong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4955 Directors Place</addrLine>
+									<postCode>CB2 1QW 92121</postCode>
+									<settlement>Cambridge San Diego</settlement>
+									<region>CA</region>
+									<country>UK USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Mathur</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jay</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dan</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Brian</forename><forename type="middle">A</forename><surname>Steer</surname></persName>
+							<email>bsteer@diversa.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Diversa Corp</orgName>
+								<address>
+									<postCode>92121</postCode>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Diversa</forename><surname>Corp</surname></persName>
+						</author>
+						<title level="a" type="main">An evolutionary route to xylanase process fitness</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2DC13AB22351FB0716420A6E3BF1B64C</idno>
+					<idno type="DOI">10.1110/ps.03333504</idno>
+					<note type="submission">RECEIVED July 29, 2003; FINAL REVISION September 22, 2003; ACCEPTED October 27, 2003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Directed evolution</term>
+					<term>thermal stability</term>
+					<term>thermophilic</term>
+					<term>xylanase ANTS, 8-aminonaphthalene-1,3,6-trisulfonic acid</term>
+					<term>CP, citrate-phosphate</term>
+					<term>T m , denaturation temperature transition midpoint</term>
+					<term>GSSM, Gene Site Saturation Mutagenesis</term>
+					<term>PACE, polysaccharide analysis using carbohydrate electrophoresis</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Directed evolution technologies were used to selectively improve the stability of an enzyme without compromising its catalytic activity. In particular, this article describes the tandem use of two evolution strategies to evolve a xylanase, rendering it tolerant to temperatures in excess of 90°C. A library of all possible 19 amino acid substitutions at each residue position was generated and screened for activity after a temperature challenge. Nine single amino acid residue changes were identified that enhanced thermostability. All 512 possible combinatorial variants of the nine mutations were then generated and screened for improved thermal tolerance under stringent conditions. The screen yielded eleven variants with substantially improved thermal tolerance. Denaturation temperature transition midpoints were increased from 61°C to as high as 96°C. The use of two evolution strategies in combination enabled the rapid discovery of the enzyme variant with the highest degree of fitness (greater thermal tolerance and activity relative to the wild-type parent).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Naturally thermostable proteins have been studied extensively to gain insight into the adaptive mechanisms for achieving thermostability and to decipher the general rules that could be applied to stabilizing other mesophilic proteins. Enzyme sequences from mesophilic organisms have been compared to their homologs from thermophilic and hyperthermophilic microorganisms in efforts to identify the interactions responsible for conferring enhanced thermostability <ref type="bibr" target="#b0">(Adams 1993;</ref><ref type="bibr" target="#b24">Ladenstein and Antranikian 1998;</ref><ref type="bibr" target="#b6">Britton et al. 1999;</ref><ref type="bibr" target="#b20">Kinjo and Nishikawa 2001)</ref>. Numerous mutagenesis studies have also explored this phenomenon; however, the mechanisms that mediate protein thermostabilization are still poorly understood <ref type="bibr" target="#b1">(Adams and Kelly 1998;</ref><ref type="bibr" target="#b14">Farinas et al. 2001)</ref>. Considerable amino acid sequence differences between mesophilic and thermophilic proteins greatly complicate attempts to identify specific substitutions that affect thermostability. Moreover, large changes in thermostability are usually the result of cumulative small contributions of a number of mutations (van den <ref type="bibr" target="#b39">Burg et al. 1998;</ref><ref type="bibr" target="#b16">Gray et al. 2001)</ref>. Rules for engineering substantial protein stability by rational design are likely to be protein specific, and any such design effort in combination with structural information is currently beyond state of the art approaches.</p><p>A more facile, nonrational approach to improving the thermal properties of an enzyme is directed evolution. We have used Gene Site Saturation Mutagenesis (GSSM) technology <ref type="bibr">(Short 2001b</ref>) in combination with GeneReassembly technology <ref type="bibr">(Short 2003)</ref> to evolve thermostability characteristics into an enzyme. The GSSM method is a highly efficient mutagenesis technique that can be used to random-ize successive codons in a gene, systematically generating a library of enzyme variants representing all possible 19 amino acid substitutions at each residue position. It is most powerful when used in combination with GeneReassembly technology to randomly combine single beneficial amino acid substitutions, allowing the identification of protein variants with optimal fitness, in this case, increased thermostability, while preserving optimal catalytic activity.</p><p>For this enzyme evolution study, we have chosen to optimize the thermostability of a xylanase (EC 3.2.1.8) because of the many potential commercial applications of a stable enzyme for hydrolysis of plant-derived xylans. Xylanases catalyze the endo-cleavage of ␤1,4 bonds in xylan polymers, and have utility in improving the effectiveness and economics of processing lignocellulosic materials for the generation of liquid fuels and chemicals. Xylanases can act as substitutes for chlorine chemicals in pulp bleaching, and, when stable and active at high temperature, are useful in food production, biomass conversion, dough making, brewing, and as stable animal feed supplements <ref type="bibr" target="#b31">(Saul et al. 1995;</ref><ref type="bibr" target="#b9">Chen et al. 1997;</ref><ref type="bibr" target="#b21">Kulkarni et al. 1999;</ref><ref type="bibr" target="#b10">Clarke et al. 2000;</ref><ref type="bibr" target="#b3">Beg et al. 2001;</ref><ref type="bibr" target="#b18">Irwin et al. 2003)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evolution by the GSSM method</head><p>The xylanase used for this work (XYL7746, internal nomenclature) was discovered from a complex environmental DNA library <ref type="bibr" target="#b29">(Robertson et al. 1996;</ref><ref type="bibr" target="#b32">Short 1997</ref><ref type="bibr">Short , 1999</ref><ref type="bibr">Short , 2001a) )</ref> derived from a sample of fresh bovine manure. XYL7746 is a 20-kD protein belonging to glycosyl hydrolase family 11 <ref type="bibr">(Coutinho and Henrissat 1999a,b)</ref>. The mature xylanase shares 83% sequence identity with the family 11 xylanase from Bacillus circulans (GenBank accession AAM08360). A number of commercial xylanases belong to family 11 <ref type="bibr" target="#b21">(Kulkarni et al. 1999;</ref><ref type="bibr" target="#b3">Beg et al. 2001)</ref>, and as such, we were interested in exploring the possibility of improving the thermal properties of a family 11 xylanase.</p><p>The GSSM method <ref type="bibr">(Short 2001b</ref>) was used to create a comprehensive library of point mutations in gene XYL7746. A screen for thermotolerance was developed that measures residual xylanase activity following a temperature challenge above the melting point of the wild-type enzyme. This xylanase thermotolerance screen identified nine single-site amino acid mutants (D8F, Q11H, N12L, G17I, G60H, P64V, S65V, G68A, and S79P; Fig. <ref type="figure" target="#fig_0">1A</ref>) that had improved thermal tolerance relative to the wild-type enzyme (as measured following a heat challenge at 80°C for 20 min; see Materials and Methods). Wild-type enzyme and all nine single-site amino acid mutants were produced in Escherichia coli and purified utilizing an N-terminal hexahistidine tag. There was no noticeable difference in activity due to the tag (data not shown).</p><p>To determine the effect of the single amino acid mutations on enzymatic activity, all nine mutants were purified and their xylanase activity (initial rates at the wild-type temperature optimum, 70°C) was compared to that of the wild-type enzyme. Enzyme activities were comparable to wild type (initial rate normalized to 1.0) for D8F, N12L, G17I, G60H, P64V, S65V, G68A, and S79P mutants (relative initial rates 0.65, 0.68, 0.76, 1.1, 1.0, 1.2, 0.98, and 0.84, respectively) confirming that these mutations do not significantly alter the enzymatic activity. (Initial rates were measured three or more times, and variance was typically less than 10%.) In contrast to these eight mutants, a notable reduction in enzymatic activity was observed for the best thermal tolerant, single-site mutant, Q11H (relative initial rate 0.35).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Melting temperature (T m ) of wild-type and single-site amino acid mutant enzymes</head><p>The purified wild-type xylanase and the nine thermal tolerant single-site amino acid mutants were analyzed using differential scanning calorimetry (DSC). Aggregation was apparent for the wild-type enzyme as evidenced by a shoulder in the DSC trace for its thermal denaturation (Fig. <ref type="figure" target="#fig_0">1B</ref>). The evolved mutant enzymes showed no indication of aggregation. For all enzymes, thermally induced denaturation was irreversible and no discernible transition was observed in a second scan of the sample. Due to the irreversibility of denaturation, only the apparent T m (melting temperature) could be calculated <ref type="bibr" target="#b30">(Sanchez-Ruiz 1992;</ref><ref type="bibr" target="#b4">Beldarrain et al. 2000)</ref>. The T m of the wild-type enzyme was 61°C, while the T m s of all point mutants were increased and ranged from 64°C to 70°C (Fig. <ref type="figure" target="#fig_0">1A</ref>). The Q11H mutation introduced the largest increase (T m ‫ס‬ 70°C) over wild-type followed by P64V (69°C), G17I (67°C), and D8F (67°C).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9X combined GSSM mutant enzyme</head><p>The 9X enzyme was constructed by combining the single-site changes of the nine thermal tolerant up-mutants by site-directed mutagenesis (Fig. <ref type="figure" target="#fig_0">1A</ref>). The 9X mutant was expressed in E. coli and purified to homogeneity. DSC was performed to determine the melting temperature. The T m of 9X enzyme was 35 degrees higher than the wild-type enzyme, demonstrating a dramatic shift in its thermal stability (Fig. <ref type="figure" target="#fig_0">1B</ref>).</p><p>To evaluate the effect of the combined mutations and elevated melting temperature on the enzyme's biochemical properties, pH and temperature profiles were constructed and compared to the wild-type enzyme. The wild-type and 9X mutant enzyme had comparable pH/activity profiles with the highest activity between pH 5 and 6 (Fig. <ref type="figure" target="#fig_1">2A</ref>). Both enzymes had similar initial rate/temperature optima at 70°C; however, the wild-type enzyme had higher activity at lower temperatures (25°C-50°C), whereas the 9X mutant retained more than 60% of its activity up to 100°C (determined by initial rate) in the presence of substrate (Fig. <ref type="figure" target="#fig_1">2B</ref>). The activity of the wild-type enzyme was not detectable at temperatures above 70°C.</p><p>To determine the effect of the nine combined mutations on enzyme thermal tolerance, residual activity was measured and compared to the wild-type enzyme. Residual activity was determined by a heat challenge for 5 min at each temperature (37°C, 50°C, 60°C, 70°C, 80°C, and 90°C) followed by activity measurements at 37°C. The wild-type enzyme was completely inactivated above 70°C, while the evolved 9X mutant displayed significant activity after heating at 70°C, 80°C, and even 90°C (Fig. <ref type="figure" target="#fig_1">2C</ref>). Furthermore, although the activity of the wild-type enzyme decreased with increasing temperature, the 9X variant was somewhat activated by heating at temperatures up to 60°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation of combinatorial GSSM variants using GeneReassembly technology</head><p>To identify combinatorial variants of the nine single site amino acid mutants with highest thermal tolerance and activity compared to the additively constructed 9X variant, a GeneReassembly library <ref type="bibr">(Short 2003</ref>) of all possible mutant combinations (2 9 ) was constructed and screened. Using thermal tolerance as the screening criterion, 33 unique combinations of the nine mutations were identified including the original 9X variant. A secondary screen was performed to select for variants with higher activity/expression than the evolved 9X. This screen yielded 10 variants with sequences possessing between 6 and 8 of the original single mutations in various combinations (Fig. <ref type="figure" target="#fig_2">3A</ref>).</p><p>The melting temperature (T m ) of each of the combinatorial variants was at least 28°C higher than the wild type (Fig. <ref type="figure" target="#fig_2">3A</ref>) and all of the reassembly variants displayed higher relative activity than the 9X enzyme (data not shown). The activity of one variant in particular, 6X-2, was greater than the wild-type enzyme and significantly better (1.7-fold) than the 9X enzyme (Fig. <ref type="figure" target="#fig_2">3B</ref>). Sequence comparison of the reassembly variants identified at least six mutations that were required for the enhanced thermostability (&gt;20 degrees). All 33 unique variants found in the initial thermostability screen contained both Q11H and G17I mutations, demonstrating their importance for thermal tolerance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of wild-type and variant polysaccharide product fingerprints</head><p>The products generated by the wild-type, 6X-2, and 9X variants were compared by polysaccharide analysis using carbohydrate gel electrophoresis (PACE). Different substrates (oligosaccharides and polysaccharides) were tested for hydrolysis by the xylanases. The digestion products of the three xylanases tested were very similar (Fig. <ref type="figure" target="#fig_4">4</ref>). All three enzymes hydrolyzed (Xyl) 6 and (Xyl) 5 , mainly into both (Xyl) 3 and (Xyl) 2 , and (Xyl) 4 was hydrolyzed to (Xyl) 2 (Fig. <ref type="figure" target="#fig_4">4A</ref>). Only a small amount of hydrolysis of (Xyl) 3 into (Xyl) 2 and Xyl was observed, indicating that (Xyl) 3 is a relatively poor substrate for the enzyme. No activity was detected on (Xyl) 2 (data not shown). Beechwood xylan, which contains glucuronosyl residues, was hydrolyzed by all three enzymes mainly into (Xyl) 2 and (Xyl) 3 , but other bands were detected that migrated between oligoxylan bands (Fig. <ref type="figure" target="#fig_4">4B</ref>). In PACE analysis, each oligosaccharide has a specific migration, depending on the sugar composition and degree of polymerization <ref type="bibr" target="#b15">(Goubet et al. 2002)</ref>; thus, these bands likely correspond to oligoglucuronoxylans. Therefore, the evolved enzymes retained the substrate specificity of the wild-type enzyme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>A combination of laboratory gene evolution strategies was used to rapidly generate a highly active and thermostable xylanase optimized for process compatibility in a number of industrial market applications. GSSM methodology was employed to scan the entire sequence of a xylanase (XYL7746) and to identify nine point mutations that improve its thermal tolerance.</p><p>Although it had no discernable effect on the hydrolysis product profile of the enzyme (Fig. <ref type="figure" target="#fig_4">4</ref>), the addition of the nine mutations to the protein sequence resulted in a moderate reduction in enzymatic specific activity at the wild-type temperature optimum (70°C; Fig. <ref type="figure" target="#fig_2">3B</ref>). Using the GeneReassembly method to generate a combinatorial library of the nine single-site amino acid mutants, this reduction in activity was overcome. Ten thermostable variants (T m s between 89°C and 94°C) with activity better than the 9X variant were obtained from screening the GeneReassembly (C) Thermal stability of wild-type and evolved 9X mutant enzymes. Thermal dependence of activity of the wild-type and evolved 9X mutant enzymes was measured by first heating the enzymes at each of the indicated temperatures for 5 min followed by cooling to room temperature and the measurement of residual activity (initial rate at 37°C [pH 6.0]). For all experiments initial rates were measured two or more times, and the variation was less than 10%. For comparison, the data are shown normalized at the wild-type maximum for each condition.</p><p>library. With a T m of 90°C, enzymatic specific activity surpassing the wild type and a product fingerprint unaltered and comparable to the wild type, the 6X-2 variant is particularly notable. To our knowledge the shift in T m obtained for these variants is the highest increase reported from the application of directed evolution technologies or by rational design.</p><p>To gauge the effectiveness of combinatorial mixing versus addition of the point mutants to the desired phenotype, a fitness parameter combining contributions both from changes in enzyme activity and thermal stability was calculated for each mutant. The term fitness as described here is not an objective measure that can be compared to other enzymes, but rather a term that allows the measurement of the success of directed evolution of this particular xylanase. Because enzyme fitness, F, is calculated by equally weighting changes in T m and enzyme activity (equation 1) for this set of variants, the maximum allowable fitness value is 2 (F T Յ 1 and F V Յ 1, see equations 2 and 3 in Materials and Methods). In other words, if the variant with the best activity also had the highest T m , its fitness value would be 2. Considering only thermal stability, it is clear that Q11H is the best single site mutation and the 9X variant is the most thermostable combinatorial variant (Fig. <ref type="figure" target="#fig_3">5A</ref>). However, with a fitness value near 2 (Fig. <ref type="figure" target="#fig_3">5B</ref>), the 6X-2 variant is the closest to possessing the best possible combination of thermal stability and enzyme activity. The single site mutation that confers the highest value of fitness is S65V. Although the T m of the S65V mutant is lower than that of the Q11H mutant (66°C versus 70°C, respectively), it has a higher fitness value because its specific activity is not reduced relative to the wild type.</p><p>The GeneReassembly method also allowed the identification of key residues for improved thermal stability. Two mutations, Q11H and G17I, were present in every GeneReassembly variant identified based on thermal tolerance (Fig. <ref type="figure" target="#fig_2">3A</ref>). The structural determinants for thermal stability of proteins have been studied and several theories have been documented <ref type="bibr" target="#b5">(Britton et al. 1995;</ref><ref type="bibr" target="#b8">Chan et al. 1995;</ref><ref type="bibr" target="#b47">Yip et al. 1995;</ref><ref type="bibr" target="#b38">Tanner et al. 1996;</ref><ref type="bibr" target="#b24">Ladenstein and Antranikian 1998;</ref><ref type="bibr" target="#b40">Vetriani et al. 1998;</ref><ref type="bibr" target="#b6">Britton et al. 1999;</ref><ref type="bibr" target="#b20">Kinjo and Nishikawa 2001)</ref>. Hydrogen bonding patterns, ionic interactions, decreased length of surface loops, and hydrophobic packing are among the key factors contributing to protein thermal stability <ref type="bibr" target="#b27">(Pace et al. 1996;</ref><ref type="bibr" target="#b1">Adams and Kelly 1998;</ref><ref type="bibr" target="#b22">Kumar and Nussinov 2001;</ref><ref type="bibr" target="#b41">Voigt et al. 2001)</ref>. Even though the contribution of each type of interaction to protein thermal stability is not fully understood <ref type="bibr" target="#b1">(Adams and Kelly 1998;</ref><ref type="bibr" target="#b23">Kumar et al. 2000)</ref>, many studies have suggested that hydrophobic interactions are perhaps the most significant <ref type="bibr" target="#b2">(Anderson et al. 1993;</ref><ref type="bibr" target="#b5">Britton et al. 1995;</ref><ref type="bibr" target="#b37">Spassov et al. 1995;</ref><ref type="bibr" target="#b46">Witarto and Sode 2001;</ref><ref type="bibr" target="#b25">Machius et al. 2003)</ref>. Other studies, however, argue that electrostatic interactions and favorable hydrogen bonding patterns contribute as much or more to stability than do hydrophobic interactions <ref type="bibr" target="#b43">(Voorhorst et al. 1997;</ref><ref type="bibr" target="#b45">Wallon et al. 1997;</ref><ref type="bibr" target="#b17">Gruber et al. 1998;</ref><ref type="bibr" target="#b28">Pace 2001;</ref><ref type="bibr" target="#b28">Pace et al. 2001)</ref>. Our findings corroborate the premise that hydrophobic interactions are key, as all but two of the stabilizing mutations found in this study are replacements of relatively polar, charged or small (glycine) residues for much larger nonpolar residues. It must be noted, however, that the single site mutation that introduces the largest increase in T m is Q11H. The aromatic nature of the histidine residue could enable hydrophobic contact, but, in addition to the introduction of a favorable hydrogen bond, the histidine residue could also introduce an electrostatic interaction if protonated.</p><p>The structure of the B. circulans xylanase <ref type="bibr" target="#b44">(Wakarchuk et al. 1994</ref>) (PDB ID 1BCX) consists of two ␤-sheets, where one sheet forms the protein surface and the other lies beneath and forms the active site. A ␤-strand at the immediate N terminus of the protein lies on the edge of the active site ␤-sheet. As such, unwinding the structure beginning from the N terminus would initiate the disassembly of the active site. Interestingly, the first four mutations in the sequence that were discovered in this study (D8F, Q11H, N12L, and G17I) are clustered together at the N terminus. Assuming that the structure of XYL7746 and that of the B. circulans enzyme are very similar (XYL7746 shares 83% sequence identity with the B. circulans xylanase), these mutations seem to help anchor the N-terminal ␤-strand to the activesite ␤-sheet, making the structure more thermally stable. Another set of four mutations also clusters together in the N-terminal region (G60H, P65V, S65V, and G68A). With the exception of the histidine substitution at position 60, the mutations all introduce hydrophobic side chains and likely stabilize packing through the hydrophobic effect.</p><p>The contribution of the ninth mutation, S79P, to improved thermal stability is not as clear. It is interesting, however, that the B. circulans xylanase has a proline at the  corresponding position (P 76 in the B. circulans enzyme). In the primary sequence, this proline is only two residues away from the active site nucleophile, E 78 <ref type="bibr" target="#b44">(Wakarchuk et al. 1994</ref>). In the crystal structure, P 76 lies on a turn between two ␤-strands that form part of the active site, and it may be that the proline at this position helps orient other residues in the ␤-sheet into conformations that strengthen stabilizing interactions. The T m s determined by DSC of the B. circulans xylanase and xylanase XYL7746 are very close (∼60°C versus 61°C, respectively, at comparable scan rates <ref type="bibr" target="#b13">(Davoodi et al. 1998)</ref>). However, in the sequence context of XYL7746, a proline at position 79 increases the T m to 64°C (Fig. <ref type="figure" target="#fig_0">1</ref>). It may be that the proline also has a stabilizing effect in the B. circulans xylanase, and that a P76S mutation in this enzyme would decrease the T m of the enzyme.</p><p>Even with a good understanding of the optimal interactions to enhance thermal tolerance, the prediction of where to make mutations that introduce such interactions is not straightforward. A nonrational approach using the GSSM method, however, allows rapid sampling of all side chains at all positions within a protein structure. Unlike rational design, or evolution methods that randomize preselected sites, the GSSM method leads to the discovery of amino acid substitutions that introduce functional interactions that could not have been foreseen. The tandem use of GSSM and GeneReassembly technologies is particularly effective, as it capitalizes on the attributes of both methods, enabling the selection of the fittest variant from a combinatorial library of improved enzymes. GeneReassembly technology recombines any number of mutations anywhere in the target gene with the same (high) efficiency in contrast to PCRbased molecular evolution methods where the efficiency drops significantly with decreasing distance between mutations <ref type="bibr" target="#b42">(Volkov and Arnold 2000)</ref>. In addition, GC-content or secondary structures do not affect the diversity in the resulting chimeric library. The library size can easily be calculated from the number of mutations included. The method is not biased towards any particular crossover, and the resulting pool of gene chimeras contains all possible combinations in equal amounts, reducing screening efforts to a minimum.</p><p>The knowledge obtained from directed evolution approaches, combined with structural information, may one day enable the effective prediction of mutations that introduce desirable functional interactions in proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genomic DNA libraries and xylanase discovery</head><p>The XYL7746 (internal nomenclature) xylanase gene (GenBank accession number AY394562) was discovered by screening approximately 50,000 plaques from a genomic DNA library <ref type="bibr" target="#b29">(Robertson et al. 1996;</ref><ref type="bibr" target="#b32">Short 1997</ref><ref type="bibr">Short , 1999</ref><ref type="bibr">Short , 2001a))</ref>. Plaques were gen-erated from the DNA library on semisolid medium using established procedures <ref type="bibr" target="#b26">(Maniatis et al. 1982)</ref>, except that top agar containing 0.1%-0.3% Azo-dye-linked birchwood xylan (Azoxylan, Megazyme) was used. The disappearance of the dye-linked substrate surrounding a plaque was used to identify positive clones. Lambda DNA from positive plaques was recovered, and the sequence of the inserted environmental DNA was determined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene site saturation mutagenesis and activity screening</head><p>The XYL7746 gene was amplified by PCR starting at nucleotide 88 (to remove the 29 amino acid native secretion signal) and cloned into the expression vector pTrcHis2 using the pTrcHis2 TOPO TA Cloning Kit (Invitrogen). The GSSM method was performed as described previously <ref type="bibr" target="#b16">(Gray et al. 2001;</ref><ref type="bibr">Short 2001b</ref>) using 64-fold degenerate oligonucleotides to randomize at each codon in the gene so that all possible amino acids would be encoded. The resultant GSSM library was transformed into competent XL1-Blue E. coli <ref type="bibr" target="#b7">(Bullock et al. 1987)</ref> for screening.</p><p>Individual clones were arrayed in 96-well microtiter plates containing 200 L of LB medium and 100 g/mL ampicillin using an automated colony picker (AutoGen). Four 96-well plates were screened per codon. The plates were incubated overnight at 37°C. These master plates were replicated, using a 96-well pintool, into fresh medium containing antibiotic. The replica plates were sealed with a gas-permeable adhesive film and incubated overnight at 37°C. After incubation, the seals were removed and the plates centrifuged at approximately 1800g for 10 min. The supernatant was removed and the cells resuspended in 45 L of 100 mM citrate-phosphate buffer (pH 6.0) containing 100 mM KCl (CP buffer). The plates were then covered with an adhesive aluminum seal and incubated at 80°C for 20 min followed by the addition of 30 L of 2% Azo-xylan prepared in CP buffer and incubation overnight at 37°C. After incubation, 200 L of 100% ethanol was added to precipitate undigested xylan and the plates were centrifuged at approximately 1800g for 10 min. The supernatant was transferred to fresh plates and absorbance measured at 590 nm to quantify residual enzyme activity.</p><p>The thermal tolerance of positive clones was verified by reassaying with and without an 80°C heat challenge. The assay was performed as described above, with the following exceptions: cells were resuspended in 45 L of CP buffer containing 55% BPER lysis reagent (Pierce), 0.23 mg/mL lysozyme and 0.023 mg/mL DNaseI. Duplicate plates were prepared, with one plate incubated at 37°C and the other at 80°C for 20 min each. Following the addition of substrate, the 37°C plate was incubated for 1 h and the 80°C plate overnight at 37°C. Nine verified positive clones were then recovered and sequenced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction and purification of wild-type and mutant enzymes</head><p>All nine mutations were combined in one gene using site-directed mutagenesis to generate a 9X mutant enzyme. The 9X gene, the wild-type gene, and all nine single-site mutant genes were PCR amplified using primers designed to append an N-terminal hexahistidine tag. The PCR products were cloned into pTrcHis2 as described above.</p><p>Overnight cultures of BL21 Star (Invitrogen) cells carrying the appropriate gene in pTrcHis2 were used to inoculate 1.5 L of Terrific broth (12 g/liter Bactotryptone, 24 g/L yeast extract, 4 ml/L glycerol, 12.5 g/L K 2 HPO 4 , 2.3 g/L KH 2 PO 4 ) containing 100 g/mL ampicillin in a six-liter shake flask. The cultures were incubated at 30°C and shaken at 250 rpm until an absorbance at 600 nm between 0.4 and 0.9 was reached. Cultures were induced with 1 mM isopropyl-1-thio-␤-galactopyranoside. Following 18 h of induction at 30°C, the cells were harvested by centrifugation at 10,000g for 20 min at 4°C. The pellet was resuspended in lysis buffer (50 mM potassium phosphate [pH 7.0], 100 mM KCl, 7.5 mM ␤-mercaptoethanol) and cells were lysed by French press (15,000 psi). The cell lysate was centrifuged at 45,000g for 30 min to remove cell debris. The clarified supernatant was applied to a Ni-NTA-agarose affinity column and was purified using FPLC exploiting the N-terminal hexahistidine tag. The protein was eluted using a gradient of 5-500 mM imidazole containing 500 mM NaCl and 20 mM sodium phosphate (pH 7.8). Fractions were tested for enzyme activity using Azo-xylan as substrate (see assay below), and SDS-PAGE was used to determine purity. Homogeneous xylanase-containing fractions were combined and dialyzed overnight against 20 mM KPO 4 (pH 7.0) and 100 mM KCl, and were aliquoted and stored at 4°C. Protein concentration was determined spectrophotometrically at 280 nm ( M ‫ס‬ 7.49 × 10 4 M -1 •cm -1 ), and was verified using the Micro BCA Protein Assay reagent kit from Pierce, using bovine serum albumin as a standard.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Xylanase activity assays</head><p>Enzymatic activities were determined using 400 L of 2% Azoxylan as substrate in 550 L of CP buffer, pH 6.0 at the indicated temperatures. Activity measurements as a function of pH were determined using 50 mM Britton-Robinson buffer solutions (pH 3.0, 5.0, 6.0, 7.0, 8.0, and 9.0) prepared by mixing solutions of 0.1 M phosphoric acid, 0.1 M boric acid, and 0.1 M acetic acid followed by pH adjustment with 1 M sodium hydroxide. Reactions were initiated by adding 50 L of 0.1 mg/mL of purified enzyme. Time points were taken from 0 to 15 min, where 50 L of reaction mixture was added to 200 L of precipitation solution (100% ethanol). When all time points had been taken, the samples were mixed, incubated for 10 min, and centrifuged at 3000g for 10 min at 4°C. Supernatant (150 L) was aliquoted into a fresh 96-well plate, and absorbance was measured at 590 nm. A 590 values were plotted against time, and the initial rate was determined from the slope of the line.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differential scanning calorimetry (DSC)</head><p>Calorimetry was performed using a Model 6100 Nano II DSC apparatus (Calorimetry Sciences Corporation) using the DSCRun software package for data acquisition, CpCalc for analysis, CpConvert for conversion into molar heat capacity from microwatts, and CpDeconvolute for deconvolution. Analysis was carried out with 1 mg/mL recombinant protein in 20 mM potassium phosphate (pH 7.0) and 100 mM KCl at a scan rate of 1°C/min. A constant pressure of 5 atm was maintained during all DSC experiments to prevent possible degassing of the solution on heating. The instrumental baseline was recorded routinely before the experiments with both cells filled with buffer. Reversibility of the thermally induced transitions was tested by reheating the solution in the calorimeter cell immediately after cooling the first run.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GeneReassembly library construction and screening</head><p>Five segments of the 591bp XYL7746 gene (gene plus codons for hexahistidine tag) were created according to the locations of the mutations in the GSSM clones and then the segments were blended as described <ref type="bibr">(Short 2003)</ref> to form a library of all possible combinations of the GSSM mutants. The final library (512 mutants; segments 1-5) was isolated and cloned into pTrcHis2 and transformed into XL1 Blue MRFЈ cells <ref type="bibr" target="#b19">(Jerpseth et al. 1992</ref>) and was plated on solid LB medium containing 100 g/mL ampicillin. Approximately 4000 colonies were autopicked (see above) into approximately 40 96-well plates and were incubated at 37°C overnight. The screening assay was performed as described above for the screening of the GSSM mutant library, except that the resuspended cells were incubated for 60 min at 80°C, followed by addition of substrate, before incubation of the plates at 37°C for 20 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal tolerance determination</head><p>All enzymes were analyzed for thermal tolerance in 20 mM potassium phosphate (pH 7.0) and 100 mM KCl. The enzymes were heated for 5 min at 37°C, 50°C, 60°C, 70°C, 80°C, and 90°C in thin-walled tubes and were cooled on ice. Residual activities were determined with Azo-xylan as substrate using the assay described above for activity measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Polysaccharide fingerprinting</head><p>Polysaccharide fingerprints were determined by polysaccharide analysis using carbohydrate gel electrophoresis (PACE). Beechwood xylan (0.1 mg/mL, 100 L, Sigma) or xylooligosaccharides (1 mM, 20 L, Megazyme) were treated with enzyme (1-3 g) in a total volume of 250 L for 16 h. The reaction was buffered in 0.1 M ammonium acetate pH 5.5. Controls without substrates or enzymes were performed under the same conditions to identify any nonspecific compounds in the enzymes, polysaccharides/oligosaccharides, or labeling reagents. The reactions were stopped by boiling for 20 min. Assays were independently performed at least two times for each condition. Derivatization using ANTS (8-aminonaphthalene-1,3,6-trisulfonic acid; Molecular Probes), electrophoresis, and imaging were carried out as described previously <ref type="bibr" target="#b15">(Goubet et al. 2002)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fitness calculation</head><p>The fitness (F n ), for a given enzyme variant, n, was calculated by equally weighting increase in denaturation temperature transition midpoint (T m ) and increase (or decrease) in enzymatic activity relative to the largest difference in each parameter across all variants:</p><formula xml:id="formula_0">F n = F T n + F V n (1)</formula><p>where F T n ‫ס‬ T m fitness factor of the variant and F V n ‫ס‬ activity fitness factor of the variant. The fitness factors for each (T m and activity) are relative to the largest difference in T m , or rate, across all of the variants:</p><formula xml:id="formula_1">F T n = (T m n -T m L )ր(T m H -T m L ) ( 2) F V n = (V n -V L )ր(V H -V L ) ( 3)</formula><p>where T m n is the T m for the given variant, n, and T m L is the lowest T m across all variants and T m H the highest T m across all variants; and where V n is the relative rate for the given variant, n, and V L is the lowest rate across all variants and V H the highest rate across all variants.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Gene Site Saturation Mutagenesis (GSSM) of wild-type enzyme XYL7746. (A) The schematic diagram illustrates position, numbering, and the amino acid change for the thermal tolerant point mutants of the wild-type gene. A library of all 64 codons was generated for every amino acid position in the gene (∼13,000 mutants) and screened for mutations that increased thermal tolerance. A 9X variant was generated by combining all nine single-site mutants into one enzyme. The corresponding melting temperature transition midpoint (T m ) determined by DSC for each mutant enzyme and the 9X variant is shown on the right. (B) Unfolding of the wild-type and 9X mutant enzymes was monitored by DSC at a scan rate of 1°C/min. Baseline subtracted DSC data were normalized for protein concentration.</figDesc><graphic coords="3,162.71,72.20,306.90,334.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Biochemical characterization of wild-type and evolved 9X mutant enzymes. (A) pH dependence of activity for the wild-type and evolved 9X mutant enzymes. Xylanase activity was measured at 37°C at each pH and the initial velocity was plotted against absorbance at 590 nm to determine initial rates. (B) Temperature dependence of activity for the wild-type and evolved 9X mutant enzymes. The optimum temperatures of the wildtype and 9X mutant enzymes were measured over a temperature range of 25°C-100°C at pH 6.0, and are based on initial rates measured over 5 min.(C) Thermal stability of wild-type and evolved 9X mutant enzymes. Thermal dependence of activity of the wild-type and evolved 9X mutant enzymes was measured by first heating the enzymes at each of the indicated temperatures for 5 min followed by cooling to room temperature and the measurement of residual activity (initial rate at 37°C [pH 6.0]). For all experiments initial rates were measured two or more times, and the variation was less than 10%. For comparison, the data are shown normalized at the wild-type maximum for each condition.</figDesc><graphic coords="4,68.74,92.51,237.42,454.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Combinatorial variants identified using GeneReassembly technology. (A) A GeneReassembly library of all possible combinations of the nine GSSM point mutations was constructed and screened for variants with improved thermal tolerance and activity. Eleven variants including the 9X variant were obtained. As shown in the figure, the variants possessed six, seven, eight, or nine of the point mutations in various combinations. The corresponding melting temperature transition midpoint (T m ) determined by DSC of each variant is shown on the right. (B) Relative activity (initial rate measured over a 5-min time period) of the 6X-2 and 9X variants compared to wild-type at the temperature optimum (70°C) and pH 6.0. Error bars show the range in the initial rate for three measurements.</figDesc><graphic coords="5,159.38,72.20,313.56,338.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. (A) Schematic diagram illustrating the level of thermal stability (represented by T m ) improvement over wild-type obtained by GSSM evolution. The single-site amino acid mutant and the combinatorial variant with the highest thermal stability (Q11H and 9X, respectively) are shown in comparison to wild type. (B) Fitness diagram illustrating the enzyme improvement obtained by combining GSSM and GeneReassembly technologies.Fitness was determined using the formula F ‫ס‬ F T + F V , where fitness (F) is calculated by equally weighting thermal tolerance fitness (F T ) and relative activity fitness (F V ) as described in Materials and Methods. The point mutation that confers the greatest fitness (S65V) is shown. Combining all nine point mutations also improved fitness (9X); however, the largest improvement in fitness was obtained by combining GSSM and GeneReassembly methods to obtain the best variant (6X-2).</figDesc><graphic coords="6,325.14,412.25,239.94,164.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Product fingerprints of wild-type, 6X-2, and 9X variants determined by PACE. (A) Fingerprints were obtained after hydrolysis of oligoxylans (Xyl) 3 , (Xyl) 4 , (Xyl) 5 , and (Xyl) 6 by wild-type and variant enzymes. Control lanes contain oligosaccharide incubated under the assay conditions in the absence of enzyme. (B) Fingerprints obtained after hydrolysis of Beechwood xylan by wild-type and variant enzymes. Standards contained (Xyl) 2 , (Xyl) 3 , and (Xyl) 4 . All assays were performed at 37°C and pH 5.5.</figDesc><graphic coords="6,69.64,72.20,235.62,192.05" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Protein Science (2004), 13:494-503. Published by Cold Spring Harbor Laboratory Press. Copyright © 2004 The Protein Society</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Directed evolution for xylanase thermal stability www.proteinscience.org 495</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>www.proteinscience.org 499</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank the <rs type="institution">Diversa Corp</rs>. Sequencing Group as well as <rs type="person">Jeff Gonaver</rs>, <rs type="person">Eileen O'Donoghue</rs>, <rs type="person">Kelly Mercer</rs>, <rs type="person">Ryan Mueller</rs>, <rs type="person">Arne Solbak</rs>, <rs type="person">Ryan Williams</rs>, and <rs type="person">Heidi Short</rs>. We want to express special thanks to <rs type="person">Michael Kulwiec</rs> for image design. The PACE studies were supported by grants from the <rs type="funder">Biotechnology and Biological Sciences Research Council (UK)</rs>.</p><p>The publication costs of this article were defrayed in part by payment of page charges. This article must therefore be hereby marked "advertisement" in accordance with 18 USC section 1734 solely to indicate this fact.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Enzymes and proteins from organisms that grow near and above 100°C</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="627" to="658" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams, M.W. 1993. Enzymes and proteins from organisms that grow near and above 100°C. Annu. Rev. Microbiol. 47: 627-658.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Finding and using hyperthermophilic enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="329" to="332" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams, M.W. and Kelly, R.M. 1998. Finding and using hyperthermophilic enzymes. Trends Biotechnol. 16: 329-332.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hydrophobic core repacking and aromatic-aromatic interaction in the thermostable mutant of T4 lysozyme Ser 117→ Phe</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Baase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1285" to="1290" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, D.E., Hurley, J.H., Nicholson, H., Baase, W.A., and Matthews, B.W. 1993. Hydrophobic core repacking and aromatic-aromatic interaction in the thermostable mutant of T4 lysozyme Ser 117→ Phe. Protein Sci. 2: 1285- 1290.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microbial xylanases and their industrial applications: A review</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">K</forename><surname>Beg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kapoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mahajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hoondal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="326" to="338" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beg, Q.K., Kapoor, M., Mahajan, L., and Hoondal, G.S. 2001. Microbial xylanases and their industrial applications: A review. Appl. Microbiol. Bio- technol. 56: 326-338.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Characterization of Mucor pusillus rennin expressed in Pichia pastoris: Enzymic, spectroscopic and calorimetric studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beldarrain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Acosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Montesinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cremata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Appl. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="77" to="84" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beldarrain, A., Acosta, N., Montesinos, R., Mata, M., and Cremata, J. 2000. Characterization of Mucor pusillus rennin expressed in Pichia pastoris: Enzymic, spectroscopic and calorimetric studies. Biotechnol. Appl. Bio- chem. 31: 77-84.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Insights into thermal stability from a comparison of the glutamate dehydrogenases from Pyrococcus furiosus and Thermococcus litoralis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Borges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pasquo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scandurra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Stillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Yip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page" from="688" to="695" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Britton, K.L., Baker, P.J., Borges, K.M., Engel, P.C., Pasquo, A., Rice, D.W., Robb, F.T., Scandurra, R., Stillman, T.J., and Yip, K.S. 1995. Insights into thermal stability from a comparison of the glutamate dehydrogenases from Pyrococcus furiosus and Thermococcus litoralis. Eur. J. Biochem. 229: 688-695.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structure determination of the glutamate dehydrogenase from the hyperthermophile Thermococcus litoralis and its comparison with that from Pyrococcus furiosus</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Sedelnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Stillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Maeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tolliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vetriani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="page" from="1121" to="1132" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Britton, K.L., Yip, K.S., Sedelnikova, S.E., Stillman, T.J., Adams, M.W., Ma, K., Maeder, D.L., Robb, F.T., Tolliday, N., Vetriani, C., et al. 1999. Struc- ture determination of the glutamate dehydrogenase from the hyperthermo- phile Thermococcus litoralis and its comparison with that from Pyrococcus furiosus. J. Mol. Biol. 293: 1121-1132.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">XLI-Blue: A high efficiency plasmid transforming RecA Escherichia coli strain with ␤-galactosidase selection</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O</forename><surname>Bullock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="376" to="378" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bullock, W.O., Fernandez, J.M., and Short, J.M. 1987. XLI-Blue: A high effi- ciency plasmid transforming RecA Escherichia coli strain with ␤-galacto- sidase selection. Biotechniques 5: 376-378.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Structure of a hyperthermophilic tungstopterin enzyme, aldehyde ferredoxin oxidoreductase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kletzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="1463" to="1469" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chan, M.K., Mukund, S., Kletzin, A., Adams, M.W., and Rees, D.C. 1995. Structure of a hyperthermophilic tungstopterin enzyme, aldehyde ferredoxin oxidoreductase. Science 267: 1463-1469.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Release of lignin from kraft pulp by a hyperthermophilic xylanase from Thermotoga maritima</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adolphson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F D</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E L</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W W</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westpheling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="39" to="45" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C.C., Adolphson, R., Dean, J.F.D., Eriksson, K.E.L., Adams, M.W.W., and Westpheling, J. 1997. Release of lignin from kraft pulp by a hyperther- mophilic xylanase from Thermotoga maritima. Enzyme Microb. Technol. 20: 39-45.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A comparison of enzyme-aided bleaching of softwood paper pulp using combinations of xylanase, mannanase and ␣-galactosidase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Rixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Fransen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Hazlewood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="661" to="667" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clarke, J.H., Davidson, K., Rixon, J.E., Halstead, J.R., Fransen, M.P., Gilbert, H.J., and Hazlewood, G.P. 2000. A comparison of enzyme-aided bleaching of softwood paper pulp using combinations of xylanase, mannanase and ␣-galactosidase. Appl. Microbiol. Biotechnol. 53: 661-667.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Carbohydrate-active enzymes: An integrated database approach</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Coutinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recent advances in carbohydrate bioengineering</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge, UK.</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="3" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coutinho, P.M. and Henrissat, B. 1999a. Carbohydrate-active enzymes: An integrated database approach. In Recent advances in carbohydrate bioen- gineering (eds. H.J. Gilbert et al.), pp. 3-12. The Royal Society of Chem- istry, Cambridge, UK.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The modular structure of cellulases and other carbohydrateactive enzymes: An integrated database approach</title>
+	</analytic>
+	<monogr>
+		<title level="m">Genetics, biochemistry and ecology of cellulose degradation</title>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Ohmiya</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Tokyo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Uni Publishers Co</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="15" to="23" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 1999b. The modular structure of cellulases and other carbohydrate- active enzymes: An integrated database approach. In Genetics, biochemistry and ecology of cellulose degradation (eds. K. Ohmiya et al.), pp. 15-23. Uni Publishers Co., Tokyo.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Scanrate dependence in protein calorimetry: The reversible transitions of Bacillus circulans xylanase and a disulfide-bridge mutant</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davoodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Wakarchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Surewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Carey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1538" to="1544" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davoodi, J., Wakarchuk, W.W., Surewicz, W.K., and Carey, P.R. 1998. Scan- rate dependence in protein calorimetry: The reversible transitions of Bacil- lus circulans xylanase and a disulfide-bridge mutant. Protein Sci. 7: 1538- 1544.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Directed enzyme evolution</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Farinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="545" to="551" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farinas, E.T., Bulter, T., and Arnold, F.H. 2001. Directed enzyme evolution. Curr. Opin. Biotechnol. 12: 545-551.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Polysaccharide analysis using carbohydrate gel electrophoresis: A method to study plant cell wall polysaccharides and polysaccharide hydrolases</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Goubet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Deery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dupree</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="53" to="68" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goubet, F., Jackson, P., Deery, M.J., and Dupree, P. 2002. Polysaccharide analysis using carbohydrate gel electrophoresis: A method to study plant cell wall polysaccharides and polysaccharide hydrolases. Anal. Biochem. 300: 53-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Rapid evolution of reversible denaturation and elevated melting temperature in a microbial haloalkane dehalogenase</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kretz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bartnek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<biblScope unit="page" from="607" to="617" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gray, K.A., Richardson, T.H., Kretz, K., Short, J.M., Bartnek, F., Knowles, R., Kan, L., Swanson, P.E., and Robertson, D.E. 2001. Rapid evolution of reversible denaturation and elevated melting temperature in a microbial haloalkane dehalogenase. Adv. Synth. Catal. 343: 607-617.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Klintschar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schlacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kratky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thermophilic xylanase from Thermomyces lanuginosus: High-resolution X-ray structure and modeling studies</title>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="13475" to="13485" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruber, K., Klintschar, G., Hayn, M., Schlacher, A., Steiner, W., and Kratky, C. 1998. Thermophilic xylanase from Thermomyces lanuginosus: High-reso- lution X-ray structure and modeling studies. Biochemistry 37: 13475- 13485.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Corn fiber hydrolysis by Thermobifida fusca extracellular enzymes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Leathers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="352" to="358" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Irwin, D., Leathers, T.D., Greene, R.V., and Wilson, D.B. 2003. Corn fiber hydrolysis by Thermobifida fusca extracellular enzymes. Appl. Microbiol. Biotechnol. 61: 352-358.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">XL1-Blue MRFЈ E. coli cells: McrA -, McrCB -, McrF -, Mrr -, HsdRderivative of XL1-Blue cells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jerpseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Greener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Viola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Kretz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategies</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="81" to="83" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jerpseth, B., Greener, A., Short, J.M., Viola, J., and Kretz, P.L. 1992. XL1-Blue MRFЈ E. coli cells: McrA -, McrCB -, McrF -, Mrr -, HsdR -derivative of XL1-Blue cells. Strategies 5: 81-83.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparison of energy components of proteins from thermophilic and mesophilic organisms</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kinjo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nishikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="378" to="384" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kinjo, A.R. and Nishikawa, K. 2001. Comparison of energy components of proteins from thermophilic and mesophilic organisms. Eur. Biophys. J. 30: 378-384.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Molecular and biotechnological aspects of xylanases</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shendye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="411" to="456" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kulkarni, N., Shendye, A., and Rao, M. 1999. Molecular and biotechnological aspects of xylanases. FEMS Microbiol. Rev. 23: 411-456.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">How do thermophilic proteins deal with heat?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nussinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1216" to="1233" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, S. and Nussinov, R. 2001. How do thermophilic proteins deal with heat? Cell Mol. Life Sci. 58: 1216-1233.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Factors enhancing protein thermostability</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nussinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="179" to="191" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, S., Tsai, C.J., and Nussinov, R. 2000. Factors enhancing protein ther- mostability. Protein Eng. 13: 179-191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Proteins from hyperthermophiles: Stability and enzymatic catalysis close to the boiling point of water</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ladenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Antranikian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Biochem. Eng. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="37" to="85" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ladenstein, R. and Antranikian, G. 1998. Proteins from hyperthermophiles: Stability and enzymatic catalysis close to the boiling point of water. Adv. Biochem. Eng. Biotechnol. 61: 37-85.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Kinetic stabilization of Bacillus licheniformis ␣-amylase through introduction of hydrophobic residues at the surface</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Machius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Declerck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wiegand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="11546" to="11553" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Machius, M., Declerck, N., Huber, R., and Wiegand, G. 2003. Kinetic stabili- zation of Bacillus licheniformis ␣-amylase through introduction of hydro- phobic residues at the surface. J. Biol. Chem. 278: 11546-11553.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Polar group burial contributes more to protein stability than nonpolar group burial</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maniatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sambrook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="310" to="313" />
+			<date type="published" when="1982">1982. 2001</date>
+			<pubPlace>Cold Spring Harbor Laboratory, Cold Spring Harbor, N.Y. Pace, C.N.</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Molecular cloning: A laboratory manual</note>
+	<note type="raw_reference">Maniatis, T., Fritsch, E.F., and Sambrook, J. 1982. Molecular cloning: A labo- ratory manual. Cold Spring Harbor Laboratory, Cold Spring Harbor, N.Y. Pace, C.N. 2001. Polar group burial contributes more to protein stability than nonpolar group burial. Biochemistry 40: 310-313.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Forces contributing to the conformational stability of proteins</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Shirley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcnutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gajiwala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="75" to="83" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pace, C.N., Shirley, B.A., McNutt, M., and Gajiwala, K. 1996. Forces contrib- uting to the conformational stability of proteins. FASEB J. 10: 75-83.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Tyrosine hydrogen bonds make a large contribution to protein stability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bechert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Urbanikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sevcik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="393" to="404" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pace, C.N., Horn, G., Hebert, E.J., Bechert, J., Shaw, K., Urbanikova, L., Scholtz, J.M., and Sevcik, J. 2001. Tyrosine hydrogen bonds make a large contribution to protein stability. J. Mol. Biol. 312: 393-404.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The discovery of new biocatalysts from microbial diversity</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Marrs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIM News</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3" to="8" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robertson, D.E., Mathur, E.J., Swanson, R.V., Marrs, B.L., and Short, J.M. 1996. The discovery of new biocatalysts from microbial diversity. SIM News 46: 3-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Theoretical analysis of Lumry-Eyring models in differential scanning calorimetry</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sanchez-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="921" to="935" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanchez-Ruiz, J.M. 1992. Theoretical analysis of Lumry-Eyring models in dif- ferential scanning calorimetry. Biophys. J. 61: 921-935.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Sequence and expression of a xylanase gene from the hyperthermophile Thermotoga sp. strain FjSS3-B.1 and characterization of the recombinant enzyme and its activity on kraft pulp</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Saul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Bergquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4110" to="4113" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saul, D.J., Williams, L.C., Reeves, R.A., Gibbs, M.D., and Bergquist, P.L. 1995. Sequence and expression of a xylanase gene from the hyperthermo- phile Thermotoga sp. strain FjSS3-B.1 and characterization of the recom- binant enzyme and its activity on kraft pulp. Appl. Environ. Microbiol. 61: 4110-4113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Recombinant approaches for accessing biodiversity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Short</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1322" to="1323" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Short, J.M. 1997. Recombinant approaches for accessing biodiversity. Nat. Bio- technol. 15: 1322-1323.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Protein activity screening of clones having DNA from uncultured microorganisms</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>U.S. Patent No</publisher>
+			<biblScope unit="page">672</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 1999. Protein activity screening of clones having DNA from uncultured microorganisms. U.S. Patent No. 5,958,672.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Gene expression library produced from DNA from uncultivated microorganisms and methods for making the same</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>U.S. Patent No</publisher>
+			<biblScope unit="page">926</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 2001a. Gene expression library produced from DNA from uncultivated microorganisms and methods for making the same. U.S. Patent No. 6,280,926.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Saturation mutagenesis in directed evolution</title>
+		<imprint>
+			<date type="published" when="2001">2001b</date>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page">820</biblScope>
+			<pubPlace>U.S</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---2001b. Saturation mutagenesis in directed evolution. U.S. Patent No. 6,171,820.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Synthetic ligation reassembly in directed evolution</title>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">537</biblScope>
+			<biblScope unit="page">776</biblScope>
+			<pubPlace>U.S</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 2003. Synthetic ligation reassembly in directed evolution. U.S. Patent No. 6,537,776.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The optimization of protein-solvent interactions: Thermostability and the role of hydrophobic and electrostatic interactions</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Z</forename><surname>Spassov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Karshikoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ladenstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1516" to="1527" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spassov, V.Z., Karshikoff, A.D., and Ladenstein, R. 1995. The optimization of protein-solvent interactions: Thermostability and the role of hydrophobic and electrostatic interactions. Protein Sci. 4: 1516-1527.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Determinants of enzyme thermostability observed in the molecular structure of Thermus aquaticus D-glyceraldehyde-3-phosphate dehydrogenase at 2.5 Å resolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Krause</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2597" to="2609" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanner, J.J., Hecht, R.M., and Krause, K.L. 1996. Determinants of enzyme thermostability observed in the molecular structure of Thermus aquaticus D-glyceraldehyde-3-phosphate dehydrogenase at 2.5 Å resolution. Bio- chemistry 35: 2597-2609.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Engineering an enzyme to resist boiling</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Den Burg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Veltman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Venema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Eijsink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="2056" to="2060" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van den Burg, B., Vriend, G., Veltman, O.R., Venema, G., and Eijsink, V.G. 1998. Engineering an enzyme to resist boiling. Proc. Natl. Acad. Sci. 95: 2056-2060.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Protein thermostability above 100°C: A key role for ionic interactions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vetriani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Maeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tolliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Stillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Klump</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Robb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="12300" to="12305" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vetriani, C., Maeder, D.L., Tolliday, N., Yip, K.S., Stillman, T.J., Britton, K.L., Rice, D.W., Klump, H.H., and Robb, F.T. 1998. Protein thermostability above 100°C: A key role for ionic interactions. Proc. Natl. Acad. Sci.95: 12300-12305.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Computational method to reduce the search space for directed protein evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="3778" to="3783" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voigt, C.A., Mayo, S.L., Arnold, F.H., and Wang, Z.G. 2001. Computational method to reduce the search space for directed protein evolution. Proc. Natl. Acad. Sci. 98: 3778-3783.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Methods for in vitro DNA recombination and random chimeragenesis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Volkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="447" to="456" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Volkov, A.A. and Arnold, F.H. 2000. Methods for in vitro DNA recombination and random chimeragenesis. Methods Enzymol. 328: 447-456.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Homology modelling of two subtilisin-like proteases from the hyperthermophilic archaea Pyrococcus furiosus and Thermococcus stetteri</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Voorhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>De Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Siezen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="905" to="914" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voorhorst, W.G., Warner, A., de Vos, W.M., and Siezen, R.J. 1997. Homology modelling of two subtilisin-like proteases from the hyperthermophilic ar- chaea Pyrococcus furiosus and Thermococcus stetteri. Protein Eng. 10: 905-914.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Mutational and crystallographic analyses of the active site residues of the Bacillus circulans xylanase</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Wakarchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davoodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="467" to="475" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakarchuk, W.W., Campbell, R.L., Sung, W.L., Davoodi, J., and Yaguchi, M. 1994. Mutational and crystallographic analyses of the active site residues of the Bacillus circulans xylanase. Protein Sci. 3: 467-475.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Crystal structures of Escherichia coli and Salmonella typhimurium 3-isopropylmalate dehydrogenase and comparison with their thermophilic counterpart from Thermus thermophilus</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wallon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kryger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Lovett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ringe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Petsko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="1016" to="1031" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wallon, G., Kryger, G., Lovett, S.T., Oshima, T., Ringe, D., and Petsko, G.A. 1997. Crystal structures of Escherichia coli and Salmonella typhimu- rium 3-isopropylmalate dehydrogenase and comparison with their thermo- philic counterpart from Thermus thermophilus. J. Mol. Biol. 266: 1016- 1031.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Increasing the hydrophobic interaction between terminal W-motifs enhances the stability of Salmonella typhimurium sialidase. A general strategy for the stabilization of ␤-propeller protein fold</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Witarto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sode</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="891" to="896" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Witarto, A.B. and Sode, K. 2001. Increasing the hydrophobic interaction be- tween terminal W-motifs enhances the stability of Salmonella typhimurium sialidase. A general strategy for the stabilization of ␤-propeller protein fold. Protein Eng. 14: 891-896.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The structure of Pyrococcus furiosus glutamate dehydrogenase reveals a key role for ion-pair networks in maintaining enzyme stability at extreme temperatures</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Stillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Artymiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Sedelnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pasquo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chiaraluce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Consalvi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1147" to="1158" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yip, K.S., Stillman, T.J., Britton, K.L., Artymiuk, P.J., Baker, P.J., Sedelnikova, S.E., Engel, P.C., Pasquo, A., Chiaraluce, R., and Consalvi, V. 1995. The structure of Pyrococcus furiosus glutamate dehydrogenase reveals a key role for ion-pair networks in maintaining enzyme stability at extreme tem- peratures. Structure 3: 1147-1158.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

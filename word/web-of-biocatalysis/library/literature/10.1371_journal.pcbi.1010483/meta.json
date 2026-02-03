@@ -1,0 +1,707 @@
+{
+  "title": "SPEACH_AF: Sampling protein ensembles and conformational heterogeneity with Alphafold2",
+  "year": 2022,
+  "authors": [
+    "Richard A. Stein",
+    "Hassane S. Mchaourab"
+  ],
+  "journal": "PLoS Comput Biol",
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2025-08-24T23:03:06Z",
+      "timestamp": 1756076586299,
+      "version": "3.37.3"
+    },
+    "update-to": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "DOI": "10.1371/journal.pcbi.1010483",
+        "type": "new_version",
+        "source": "publisher",
+        "label": "New version"
+      }
+    ],
+    "reference-count": 33,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              22
+            ]
+          ],
+          "date-time": "2022-08-22T00:00:00Z",
+          "timestamp": 1661126400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GM128087"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GM077659"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.ploscompbiol.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Comput Biol"
+    ],
+    "abstract": "<jats:p>The unprecedented performance of Deepmind’s Alphafold2 in predicting protein structure in CASP XIV and the creation of a database of structures for multiple proteomes and protein sequence repositories is reshaping structural biology. However, because this database returns a single structure, it brought into question Alphafold’s ability to capture the intrinsic conformational flexibility of proteins. Here we present a general approach to drive Alphafold2 to model alternate protein conformations through simple manipulation of the multiple sequence alignment via <jats:italic>in silico</jats:italic> mutagenesis. The approach is grounded in the hypothesis that the multiple sequence alignment must also encode for protein structural heterogeneity, thus its rational manipulation will enable Alphafold2 to sample alternate conformations. A systematic modeling pipeline is benchmarked against canonical examples of protein conformational flexibility and applied to interrogate the conformational landscape of membrane proteins. This work broadens the applicability of Alphafold2 by generating multiple protein conformations to be tested biologically, biochemically, biophysically, and for use in structure-based drug design.</jats:p>",
+    "DOI": "10.1371/journal.pcbi.1010483",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2022-08-22T17:42:02Z",
+      "timestamp": 1661190122000
+    },
+    "page": "e1010483",
+    "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 188,
+    "title": [
+      "SPEACH_AF: Sampling protein ensembles and conformational heterogeneity with Alphafold2"
+    ],
+    "prefix": "10.1371",
+    "volume": "18",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0541-7150",
+        "authenticated-orcid": true,
+        "given": "Richard A.",
+        "family": "Stein",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5673-0980",
+        "authenticated-orcid": true,
+        "given": "Hassane S.",
+        "family": "Mchaourab",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pcbi.1010483.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.cbpa.2021.04.005",
+        "article-title": "Machine learning in protein structure prediction",
+        "volume": "65",
+        "author": "M. AlQuraishi",
+        "year": "2021",
+        "journal-title": "Current Opinion in Chemical Biology"
+      },
+      {
+        "key": "pcbi.1010483.ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "e28766",
+        "DOI": "10.1371/journal.pone.0028766",
+        "article-title": "Protein 3D Structure Computed from Evolutionary Sequence Variation",
+        "volume": "6",
+        "author": "DS Marks",
+        "year": "2011",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "key": "pcbi.1010483.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1038/s41586-021-03819-2",
+        "article-title": "Highly accurate protein structure prediction with AlphaFold",
+        "volume": "596",
+        "author": "J Jumper",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi.1010483.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1607",
+        "DOI": "10.1002/prot.26237",
+        "article-title": "Critical assessment of methods of protein structure prediction (CASP)—Round XIV",
+        "volume": "89",
+        "author": "A Kryshtafovych",
+        "year": "2021",
+        "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.1126/science.181.4096.223",
+        "article-title": "Principles that Govern the Folding of Protein Chains",
+        "volume": "181",
+        "author": "CB Anfinsen",
+        "year": "1973",
+        "journal-title": "Science"
+      },
+      {
+        "key": "pcbi.1010483.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "1711",
+        "DOI": "10.1002/prot.26257",
+        "article-title": "Applying and improving AlphaFold at CASP14",
+        "volume": "89",
+        "author": "J Jumper",
+        "year": "2021",
+        "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "e75751",
+        "DOI": "10.7554/eLife.75751",
+        "article-title": "Sampling alternative conformational states of transporters and receptors with AlphaFold2",
+        "volume": "11",
+        "author": "D del Alamo",
+        "year": "2022",
+        "journal-title": "eLife"
+      },
+      {
+        "key": "pcbi.1010483.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1016/S0969-2126(96)00018-4",
+        "article-title": "Adenylate kinase motions during catalysis: an energetic counterweight balancing substrate binding",
+        "volume": "4",
+        "author": "C Müller",
+        "year": "1996",
+        "journal-title": "Structure"
+      },
+      {
+        "key": "pcbi.1010483.ref009",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/0022-2836(92)90582-5",
+        "article-title": "Structure of the complex between adenylate kinase from Escherichia coli and the inhibitor Ap5A refined at 1.9 Å resolution: A model for a catalytic transition state",
+        "volume": "224",
+        "author": "CW Müller",
+        "year": "1992",
+        "journal-title": "Journal of Molecular Biology"
+      },
+      {
+        "key": "pcbi.1010483.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1002/pro.3330",
+        "article-title": "MolProbity: More and better reference data for improved all-atom structure validation",
+        "volume": "27",
+        "author": "CJ Williams",
+        "year": "2018",
+        "journal-title": "Protein Science"
+      },
+      {
+        "key": "pcbi.1010483.ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "838",
+        "DOI": "10.1038/nature06410",
+        "article-title": "Intrinsic motions along an enzymatic reaction trajectory",
+        "volume": "450",
+        "author": "KA Henzler-Wildman",
+        "year": "2007",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi.1010483.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "100749",
+        "DOI": "10.1016/j.jbc.2021.100749",
+        "article-title": "Moving beyond static snapshots: Protein dynamics and the Protein Data Bank",
+        "volume": "296",
+        "author": "MD Miller",
+        "year": "2021",
+        "journal-title": "Journal of Biological Chemistry"
+      },
+      {
+        "key": "pcbi.1010483.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "30206",
+        "DOI": "10.1016/S0021-9258(18)43798-2",
+        "article-title": "Probing protein-protein interactions. The ribose-binding protein in bacterial transport and chemotaxis",
+        "volume": "269",
+        "author": "AJ Björkman",
+        "year": "1994",
+        "journal-title": "Journal of Biological Chemistry"
+      },
+      {
+        "key": "pcbi.1010483.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "651",
+        "DOI": "10.1006/jmbi.1998.1785",
+        "article-title": "Multiple open forms of ribose-binding protein trace the path of its conformational change",
+        "volume": "279",
+        "author": "AJ Björkman",
+        "year": "1998",
+        "journal-title": "Journal of Molecular Biology"
+      },
+      {
+        "key": "pcbi.1010483.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.3233/THC-218011",
+        "article-title": "Ligand-induced structural changes analysis of ribose-binding protein as studied by molecular dynamics simulations",
+        "volume": "29",
+        "author": "H Li",
+        "year": "2021",
+        "journal-title": "Technol Health Care"
+      },
+      {
+        "key": "pcbi.1010483.ref016",
+        "doi-asserted-by": "crossref",
+        "first-page": "12575",
+        "DOI": "10.1038/ncomms12575",
+        "article-title": "Prediction and validation of protein intermediate states from structurally rich ensembles and coarse-grained simulations",
+        "volume": "7",
+        "author": "L Orellana",
+        "year": "2016",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "pcbi.1010483.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "4732",
+        "DOI": "10.1073/pnas.1917139117",
+        "article-title": "Sequence and structural determinants of ligand-dependent alternating access of a MATE transporter",
+        "volume": "117",
+        "author": "KL Jagessar",
+        "year": "2020",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi.1010483.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "6709",
+        "DOI": "10.1073/pnas.1802192115",
+        "article-title": "Structure and mutagenic analysis of the lipid II flippase MurJ from Escherichia coli",
+        "volume": "115",
+        "author": "S Zheng",
+        "year": "2018",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "pcbi.1010483.ref019",
+        "article-title": "Co-evolutionary distance predictions contain flexibility information",
+        "author": "D Schwarz",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4353",
+        "DOI": "10.1002/pro.4353",
+        "article-title": "AlphaFold2 fails to predict protein fold switching",
+        "volume": "31",
+        "author": "D Chakravarty",
+        "year": "2022",
+        "journal-title": "Protein Science"
+      },
+      {
+        "journal-title": "Sampling the conformational landscapes of transporters and receptors with AlphaFold2",
+        "year": "2021",
+        "author": "D Del Alamo",
+        "key": "pcbi.1010483.ref021"
+      },
+      {
+        "key": "pcbi.1010483.ref022",
+        "article-title": "In AF_advanced colabfold we suggest enabling dropout (is_training = True), and iterating through seeds to sample from the uncertainty. This should theoretically return multiple conformations if there is any ambiguity in coevolution, w/o the need to resample/subsample the MSA (1/3): https://t.co/MUtee9xIaX",
+        "author": "Sergey Ovchinnikov UA [@sokrypton]",
+        "year": "2021",
+        "journal-title": "In: Twitter"
+      },
+      {
+        "key": "pcbi.1010483.ref023",
+        "first-page": "2021",
+        "article-title": "End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman",
+        "author": "S Petti",
+        "year": "2022",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "key": "pcbi.1010483.ref024",
+        "first-page": "2022.03.11.484043",
+        "article-title": "State-of-the-art estimation of protein model accuracy using AlphaFold",
+        "author": "JP Roney",
+        "year": "2022",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "key": "pcbi.1010483.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "1881",
+        "DOI": "10.1093/bioinformatics/btab881",
+        "article-title": "Current structure predictors are not learning the physics of protein folding",
+        "volume": "38",
+        "author": "C Outeiral",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "D8",
+        "DOI": "10.1093/nar/gkx1095",
+        "article-title": "Database resources of the National Center for Biotechnology Information",
+        "volume": "46",
+        "author": "NCBI Resource Coordinators",
+        "year": "2018",
+        "journal-title": "Nucleic Acids Research"
+      },
+      {
+        "key": "pcbi.1010483.ref027",
+        "article-title": "ColabFold: making protein folding accessible to all",
+        "author": "M Mirdita",
+        "year": "2022",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "pcbi.1010483.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2856",
+        "DOI": "10.1093/bioinformatics/bty1057",
+        "article-title": "MMseqs2 desktop and local web server app for fast, interactive sequence searches",
+        "volume": "35",
+        "author": "M Mirdita",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref029",
+        "doi-asserted-by": "crossref",
+        "first-page": "D170",
+        "DOI": "10.1093/nar/gkw1081",
+        "article-title": "Uniclust databases of clustered and deeply annotated protein sequences and alignments",
+        "volume": "45",
+        "author": "M Mirdita",
+        "year": "2017",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "pcbi.1010483.ref030",
+        "article-title": "MGnify: the microbiome analysis resource in 2020. Nucleic Acids Res",
+        "author": "AL Mitchell",
+        "year": "2019",
+        "journal-title": "D570–D578"
+      },
+      {
+        "key": "pcbi.1010483.ref031",
+        "doi-asserted-by": "crossref",
+        "first-page": "1575",
+        "DOI": "10.1093/bioinformatics/btr168",
+        "article-title": "ProDy: Protein Dynamics Inferred from Theory and Experiments",
+        "volume": "27",
+        "author": "A Bakan",
+        "year": "2011",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi.1010483.ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "2302",
+        "DOI": "10.1093/nar/gki524",
+        "article-title": "TM-align: a protein structure alignment algorithm based on the TM-score",
+        "volume": "33",
+        "author": "Y Zhang",
+        "year": "2005",
+        "journal-title": "Nucleic Acids Research"
+      },
+      {
+        "key": "pcbi.1010483.ref033",
+        "article-title": "The PyMOL Molecular Graphics System",
+        "author": "LLC Schrödinger",
+        "year": "2015",
+        "journal-title": "Version 1.8"
+      }
+    ],
+    "updated-by": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "DOI": "10.1371/journal.pcbi.1010483",
+        "type": "new_version",
+        "source": "publisher",
+        "label": "New version"
+      }
+    ],
+    "container-title": [
+      "PLOS Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1010483",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2022-09-01T18:02:48Z",
+      "timestamp": 1662055368000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1010483"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Charlotte M.",
+        "family": "Deane",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          22
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pcbi.1010483",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2021.11.29.470469",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1553-7358"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1553-7358"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          22
+        ]
+      ]
+    }
+  },
+  "semanticscholar": {},
+  "unpaywall": {
+    "doi": "10.1371/journal.pcbi.1010483",
+    "doi_url": "https://doi.org/10.1371/journal.pcbi.1010483",
+    "title": "SPEACH_AF: Sampling protein ensembles and conformational heterogeneity with Alphafold2",
+    "genre": "journal-article",
+    "is_paratext": false,
+    "published_date": "2022-08-22",
+    "year": 2022,
+    "journal_name": "PLoS Computational Biology",
+    "journal_issns": "1553-734X,1553-7358",
+    "journal_issn_l": "1553-734X",
+    "journal_is_oa": true,
+    "journal_is_in_doaj": true,
+    "publisher": "Public Library of Science (PLoS)",
+    "is_oa": true,
+    "oa_status": "gold",
+    "has_repository_copy": true,
+    "best_oa_location": {
+      "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+      "url_for_pdf": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+      "url_for_landing_page": "https://doi.org/10.1371/journal.pcbi.1010483",
+      "evidence": "deprecated",
+      "license": "cc-by",
+      "version": "publishedVersion",
+      "host_type": "publisher",
+      "is_best": true,
+      "pmh_id": null,
+      "endpoint_id": null,
+      "repository_institution": null,
+      "oa_date": "2022-08-22",
+      "updated": "deprecated"
+    },
+    "first_oa_location": {
+      "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+      "url_for_pdf": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+      "url_for_landing_page": "https://doi.org/10.1371/journal.pcbi.1010483",
+      "evidence": "deprecated",
+      "license": "cc-by",
+      "version": "publishedVersion",
+      "host_type": "publisher",
+      "is_best": true,
+      "pmh_id": null,
+      "endpoint_id": null,
+      "repository_institution": null,
+      "oa_date": "2022-08-22",
+      "updated": "deprecated"
+    },
+    "oa_locations": [
+      {
+        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+        "url_for_pdf": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+        "url_for_landing_page": "https://doi.org/10.1371/journal.pcbi.1010483",
+        "evidence": "deprecated",
+        "license": "cc-by",
+        "version": "publishedVersion",
+        "host_type": "publisher",
+        "is_best": true,
+        "pmh_id": null,
+        "endpoint_id": null,
+        "repository_institution": null,
+        "oa_date": "2022-08-22",
+        "updated": "deprecated"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9436118",
+        "url_for_pdf": null,
+        "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/9436118",
+        "evidence": "deprecated",
+        "license": "other-oa",
+        "version": "submittedVersion",
+        "host_type": "repository",
+        "is_best": false,
+        "pmh_id": "oai:pubmedcentral.nih.gov:9436118",
+        "endpoint_id": "daaf77eacc58eec31bb",
+        "repository_institution": "PubMed Central",
+        "oa_date": "2022-08-22",
+        "updated": "deprecated"
+      }
+    ],
+    "oa_locations_embargoed": [],
+    "data_standard": 2,
+    "z_authors": [
+      {
+        "author_position": "first",
+        "raw_author_name": "Richard A. Stein",
+        "is_corresponding": true,
+        "raw_affiliation_strings": [
+          "Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Tennessee, United States of America"
+        ]
+      },
+      {
+        "author_position": "last",
+        "raw_author_name": "Hassane S. Mchaourab",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Tennessee, United States of America"
+        ]
+      }
+    ],
+    "updated": "2025-07-30T00:59:52Z"
+  },
+  "oa_pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010483&type=printable",
+  "oa_license": "cc-by",
+  "doi": "10.1371/journal.pcbi.1010483",
+  "pillar_primary": "Cascade & Route Design",
+  "fallback_search": false,
+  "raw_citation": "SPEACH_AF: Sampling protein ensembles and conformational heterogeneity with Alphafold2 Richard A Stein 0000-0002-0541-7150 Hassane S Mchaourab 0000-0002-5673-0980 10.1371/journal.pcbi.1010483 PLOS Computational Biology PLoS Comput Biol 1553-7358 18 8 e1010483 2022 Public Library of Science (PLoS)"
+}

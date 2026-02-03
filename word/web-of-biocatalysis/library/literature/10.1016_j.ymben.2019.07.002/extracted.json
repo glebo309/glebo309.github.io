@@ -1,0 +1,310 @@
+{
+  "summary": "The study demonstrates the production of flavonoid rhamnosides using engineered E. coli expressing GtfC, achieving high yields of up to 2.4 g/L hesperetin-3'-O-rhamnoside in 48 h.",
+  "key_claims": [
+    "Engineered E. coli producing 2.4 g/L hesperetin-3'-O-rhamnoside after 48 h",
+    "3.2-fold increase in hesperetin rhamnosides compared to unmodified E. coli MG1655",
+    "Production of quercitrin (4.3 g/L) and afzelin (1.9 g/L) from quercetin and kaempferol respectively"
+  ],
+  "process_signals": [
+    {
+      "name": "production_titer_hesperetin_rhamnoside",
+      "value": "2.4",
+      "unit": "g/L",
+      "context": "after 48 h of fermentation"
+    },
+    {
+      "name": "increase_in_production",
+      "value": "3.2",
+      "unit": "-fold",
+      "context": "compared to E. coli MG1655 expressing GtfC"
+    }
+  ],
+  "entities": {
+    "enzymes": [
+      {
+        "name": "Glycosyltransferase C (GtfC)",
+        "type": "glycosyltransferase",
+        "source": "metagenome-derived"
+      }
+    ],
+    "reaction_types": [
+      {
+        "name": "rhamnosylation",
+        "substrate": "flavonoids",
+        "product": "flavonoid rhamnosides"
+      }
+    ],
+    "immobilization": [],
+    "media": [
+      {
+        "name": "dextrins of starch",
+        "role": "carbon source"
+      }
+    ],
+    "reactor": [
+      {
+        "name": "E. coli UHH_CR5-A",
+        "type": "whole cell biotransformation"
+      },
+      {
+        "name": "E. coli MG1655",
+        "type": "host strain"
+      }
+    ]
+  },
+  "confidence": 0.9,
+  "_refs": [
+    {
+      "doi": "",
+      "title": "Phosphoglucomutase mutants of Escherichia coli K-12",
+      "year": 1971
+    },
+    {
+      "doi": "10.1093/pcp/pcr165",
+      "title": "KNApSAcK Family Databases: Integrated Metabolite-Plant Species Databases for Multifaceted Plant Research",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "Control Aspects of Uridine S-Diphosphate Glucose and Thymidine S-Diphosphate Glucose Synthesis by Microbial Enzymes 240",
+      "year": 1965
+    },
+    {
+      "doi": "10.1016/j.carres.2006.02.008",
+      "title": "Leuconostoc mesenteroides glucansucrase synthesis of flavonoid glucosides by acceptor reactions in aqueous-organic solvents",
+      "year": 2006
+    },
+    {
+      "doi": "10.1002/(sici)1097-0290",
+      "title": "An experimental study on carbon flow in Escherichia coli as a function of kinetic properties and expression levels of the enzyme phosphoglucomutase",
+      "year": 1998
+    },
+    {
+      "doi": "10.1002/bit.25570",
+      "title": "Development of an in vivo glucosylation platform by coupling production to growth: Production of phenolic glucosides by a glycosyltransferase of Vitis vinifera",
+      "year": 2015
+    },
+    {
+      "doi": "10.1186/s12934-015-0326-1",
+      "title": "Metabolic engineering of Escherichia coli into a versatile glycosylation platform: production of bio-active quercetin glycosides",
+      "year": 2015
+    },
+    {
+      "doi": "10.1021/acs.jafc.5b04380",
+      "title": "Enzymatic Glycosylation of Phenolic Antioxidants: Phosphorylase-Mediated Synthesis and Characterization",
+      "year": 2015
+    },
+    {
+      "doi": "10.1016/j.bbapap.2008.11.005.outer",
+      "title": "Outer Membrane Permeability and Antibiotic Resistance",
+      "year": 2009
+    },
+    {
+      "doi": "10.1002/chem.201103069",
+      "title": "Enzymatic Glycosylation of Small Molecules: Challenging Substrates Require Tailored Catalysts",
+      "year": 2012
+    },
+    {
+      "doi": "10.1016/j.febslet.2007.05.044",
+      "title": "Genome-wide screening of genes affecting glycogen metabolism in Escherichia coli K-12",
+      "year": 2007
+    },
+    {
+      "doi": "10.1111/j.1432-1033.1980.tb04758.x",
+      "title": "The Recognition of Maltodextrins by Escherichia coli",
+      "year": 1980
+    },
+    {
+      "doi": "10.1007/s002030050732",
+      "title": "Identification of Tn 10 insertions in the rlaG, rfaP, and gaLU genes involved in lipopolysaccharide core biosynthesis that affect Escherichia coli adhesion",
+      "year": 1999
+    },
+    {
+      "doi": "10.1016/s0959-440x(00)00145-7",
+      "title": "The rhamnose pathway",
+      "year": 2000
+    },
+    {
+      "doi": "",
+      "title": "Outer Penetration Barrier of Escherichia coli K-12: Kinetics of the Uptake of Gentian Violet by Wild Type and Envelope Mutants",
+      "year": 1973
+    },
+    {
+      "doi": "10.1021/bi048489m",
+      "title": "Biochemical and crystallographic analyses of maltohexaose-producing amylase from alkalophilic Bacillus sp",
+      "year": 2004
+    },
+    {
+      "doi": "10.1021/jf302123c",
+      "title": "Production of bioactive flavonol rhamnosides by expression of plant genes in Escherichia coli",
+      "year": 2012
+    },
+    {
+      "doi": "10.1007/bf00251771",
+      "title": "Cloning of a gene for maltohexaose producing amylase of an alkalophilic Bacillus and hyper-production of the enzyme in Bacillus subtilis cells",
+      "year": 1988
+    },
+    {
+      "doi": "10.1002/cber.190103401162",
+      "title": "Ueber einige Derivate des Traubenzuckers und der Galactose",
+      "year": 1901
+    },
+    {
+      "doi": "10.1007/978-3-540-30429-6_67",
+      "title": "Glycoside vs. Aglycon: The Role of Glycosidic Residue in Biological Activity",
+      "year": 2008
+    },
+    {
+      "doi": "10.1146/annurev.biochem.76.061005.092322",
+      "title": "Glycosyltransferases: Structures, Functions, and Mechanisms",
+      "year": 2008
+    },
+    {
+      "doi": "10.1021/mp7001472",
+      "title": "Strain improvement of recombinant Escherichia coli for efficient production of plant flavonoids",
+      "year": 2008
+    },
+    {
+      "doi": "10.1002/cbic.201500284",
+      "title": "Creating a Water-Soluble Resveratrol-Based Antioxidant by Site-Selective Enzymatic Glucosylation",
+      "year": 2015
+    },
+    {
+      "doi": "10.1039/c5ob02313k",
+      "title": "Highly efficient synthesis of flavonol 5-Oglycosides with glycosyl ortho-alkynylbenzoates as donors",
+      "year": 2016
+    },
+    {
+      "doi": "10.1002/cbic.200600193",
+      "title": "The synthesis of small-molecule rhamnosides through the rational design of a whole-cell biocatalysis system",
+      "year": 2006
+    },
+    {
+      "doi": "10.1021/acs.jafc.6b01005",
+      "title": "Stability of Hydroxycinnamic Acid Derivatives, Flavonol Glycosides, and Anthocyanins in Black Currant Juice",
+      "year": 2016
+    },
+    {
+      "doi": "",
+      "title": "Molecular Cloning: A Laboratory Manual",
+      "year": 1982
+    },
+    {
+      "doi": "10.1021/jf060510y",
+      "title": "Water-soluble genistin glycoside isoflavones up-regulate antioxidant metallothionein expression and scavenge free radicals",
+      "year": 2006
+    },
+    {
+      "doi": "10.1016/j.bej.2015.05.017",
+      "title": "Biosynthesis of amino deoxysugar-conjugated flavonol glycosides by engineered Escherichia coli",
+      "year": 2015
+    },
+    {
+      "doi": "10.14348/molcells.2014.2348",
+      "title": "Glucosylation of isoflavonoids in engineered Escherichia coli",
+      "year": 2014
+    },
+    {
+      "doi": "10.1186/s12934-015-0261-1",
+      "title": "Synthetic sugar cassettes for the efficient production of flavonol glycosides in Escherichia coli",
+      "year": 2015
+    },
+    {
+      "doi": "10.1128/aem.01077-13",
+      "title": "Functional screening of metagenome and genome libraries for detection of novel flavonoid-modifying enzymes",
+      "year": 2013
+    },
+    {
+      "doi": "",
+      "title": "New maltose Blu mutations in Escherichia coli K-12",
+      "year": 1979
+    },
+    {
+      "doi": "10.1007/s002170050109",
+      "title": "Stability of naturally occurring 2,5-dimethyl-4-hydroxy-3[2H]-furanone derivatives",
+      "year": 1997
+    },
+    {
+      "doi": "10.1007/s10295-014-1482-8",
+      "title": "Effect of codon-optimized E. coli signal peptides on recombinant Bacillus stearothermophilus maltogenic amylase periplasmic localization, yield and activity",
+      "year": 2014
+    },
+    {
+      "doi": "",
+      "title": "Genetics of lipopolysaccharide biosynthesis in enteric bacteria",
+      "year": 1993
+    },
+    {
+      "doi": "10.1111/j.1432-1033.1967.tb00117.x",
+      "title": "La maltodextrine phosphorylase d' Escherichia coli",
+      "year": 1967
+    },
+    {
+      "doi": "10.1007/s10059-009-0135-7",
+      "title": "Metabolic engineering of Escherichia coli for the biological synthesis of 7-O-xylosyl naringenin",
+      "year": 2009
+    },
+    {
+      "doi": "10.1002/bit.22782",
+      "title": "Genetic engineering approach for the production of rhamnosyl and allosyl flavonoids from Escherichia coli",
+      "year": 2010
+    },
+    {
+      "doi": "10.3390/ijms19072126",
+      "title": "Sweet Flavonoids\": Glycosidase-Catalyzed Modifications",
+      "year": 2018
+    },
+    {
+      "doi": "",
+      "title": "Structure of the O antigen of Escherichia coli K-12 and the sequence of its rfb gene cluster",
+      "year": 1994
+    },
+    {
+      "doi": "10.1007/s11274-017-2208-7",
+      "title": "Microbial production of astilbin, a bioactive rhamnosylated flavanonol, from taxifolin",
+      "year": 2017
+    },
+    {
+      "doi": "10.1007/s12010-013-0459-9",
+      "title": "Improvement of regio-specific production of myricetin-3-O-α-L-rhamnoside in engineered Escherichia coli",
+      "year": 2013
+    },
+    {
+      "doi": "10.1080/19440049.2017.1401741",
+      "title": "Stability of DON and DON-3-glucoside during baking as affected by the presence of food additives",
+      "year": 2018
+    },
+    {
+      "doi": "10.1093/emboj/16.1.1",
+      "title": "The crystal structure of Escherichia coli maltodextrin phosphorylase provides an explanation for the activity without control in this basic archetype of a phosphorylase",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Bioavailability and bioefficacy of polyphenols in humans",
+      "year": 2005
+    },
+    {
+      "doi": "10.1016/j.enzmictec.2012.07.014",
+      "title": "Synthesis and characterization of ampelopsin glucosides using dextransucrase from Leuconostoc mesenteroides B-1299CB4: Glucosylation enhancing physicochemical properties",
+      "year": 2012
+    },
+    {
+      "doi": "10.1007/s12010-017-2403-x",
+      "title": "Quercetin Glucoside Production by Engineered Escherichia coli",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "Collagen Synthesis in Human Skin Fibroblasts is Stimulated by a Stable Form of Ascorbate, 2-O-α-D-Glucopyranosyl-L-Ascorbic Acid",
+      "year": 1992
+    },
+    {
+      "doi": "10.1002/anie.200604177",
+      "title": "A Glycosynthase Catalyst for the Synthesis of Flavonoid Glycosides",
+      "year": 2007
+    }
+  ],
+  "_title": "High level production of flavonoid rhamnosides by metagenome-derived Glycosyltransferase C in Escherichia coli utilizing dextrins of starch as a single carbon source",
+  "_abstract": "Flavonoids exert a wide variety of biological functions that are highly attractive for the pharmaceutical and healthcare industries. However, their application is often limited by low water solubility and poor bioavailability, which can generally be relieved through glycosylation. Glycosyltransferase C (GtfC), a metagenome-derived, bacterial glycosyltransferase, was used to produce novel and rare rhamnosides of various flavonoids, including chrysin, diosmetin, biochanin A, and hesperetin. Some of them are to our knowledge firstly described within this work. In our study we deployed a new metabolic engineering approach to increase the rhamnosylation rate in Escherichia coli whole cell biotransformations. The coupling of maltodextrin metabolism to glycosylation was developed in E. coli MG1655 with the model substrate hesperetin. The process proved to be highly dependent on the availability of maltodextrins. Maximal production was achieved by the deletion of the phosphoglucomutase (pgm) a"
+}

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>definition</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Web Of Biocatalysis"/><meta property="og:title" content="definition"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="definition"/><meta name="twitter:description" content="1) Discovery &amp; Sourcing of Biocatalysts What it is: The systematic identification and procurement of enzymatic starting points through computational mining, experimental screening, and commercial sourcing."/><meta property="og:description" content="1) Discovery &amp; Sourcing of Biocatalysts What it is: The systematic identification and procurement of enzymatic starting points through computational mining, experimental screening, and commercial sourcing."/><meta property="og:image:alt" content="1) Discovery &amp; Sourcing of Biocatalysts What it is: The systematic identification and procurement of enzymatic starting points through computational mining, experimental screening, and commercial sourcing."/><meta property="twitter:domain" content="glecko.xyz"/><meta property="og:url" content="https://glecko.xyz/pillars/definition"/><meta property="twitter:url" content="https://glecko.xyz/pillars/definition"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="1) Discovery &amp; Sourcing of Biocatalysts What it is: The systematic identification and procurement of enzymatic starting points through computational mining, experimental screening, and commercial sourcing."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2dsZW5uL0RvY3VtZW50cy9TZWNvbmRCcmFpbi9fQ09ERS9xdWFydHotYnVpbGRlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://glecko.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://glecko.xyz/pillars/definition-og-image.webp"/><meta property="og:image:url" content="https://glecko.xyz/pillars/definition-og-image.webp"/><meta name="twitter:image" content="https://glecko.xyz/pillars/definition-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="pillars/definition"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Web Of Biocatalysis</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="bnv3ed"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../pillars/">pillars</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>definition</a></div></nav></div></div><article class="popover-hint"><h1 id="1-discovery--sourcing-of-biocatalysts">1) Discovery &amp; Sourcing of Biocatalysts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-discovery--sourcing-of-biocatalysts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The systematic identification and procurement of enzymatic starting points through computational mining, experimental screening, and commercial sourcing. This encompasses everything from initial sequence discovery through basic characterization, excluding directed evolution and mutagenesis approaches.</p>
+<p><strong>Core Activities:</strong></p>
+<ul>
+<li><strong>Genome and metagenome mining</strong> using bioinformatics pipelines, HMM profiles, and phylogenetic analysis</li>
+<li><strong>Sequence similarity networks (SSNs)</strong> for enzyme family exploration and diversity assessment</li>
+<li><strong>Structure-based screening</strong> using active site motifs, binding pocket analysis, and homology modeling</li>
+<li><strong>Commercial enzyme panel evaluation</strong> (KRED collections, transaminase kits, oxidoreductase libraries)</li>
+<li><strong>Literature and patent mining</strong> for enzyme leads and application precedents</li>
+<li><strong>Expression optimization</strong> in multiple chassis (E. coli, yeast, insect cells) for solubility and activity</li>
+<li><strong>Thermostability screening</strong> and preliminary characterization on model substrates</li>
+</ul>
+<p><strong>Advanced Approaches:</strong></p>
+<ul>
+<li><strong>Metagenomic library construction</strong> and functional screening from environmental samples</li>
+<li><strong>Single-cell genomics</strong> for accessing unculturable biodiversity</li>
+<li><strong>Ancestral sequence reconstruction</strong> for robust starting scaffolds</li>
+<li><strong>Secretion signal optimization</strong> and codon harmonization for heterologous expression</li>
+<li><strong>AI-assisted enzyme discovery</strong> using protein language models and deep learning</li>
+</ul>
+<p><strong>Key Terminology:</strong> SSN clusters, HMM profiles, phylogenetic trees, metagenomic assembly, functional annotation, soluble expression yield, specific activity, thermostability (Tm), expression titer, enzyme panels, sequence diversity metrics, structural coverage</p>
+<p><strong>Metrics:</strong> Number of unique sequences identified, phylogenetic coverage, expression success rate (% soluble), mg/L yield, initial specific activity (U/mg), thermal stability (Tm, T50), substrate scope on standard panels</p>
+<p><strong>Deliverables:</strong> Curated enzyme libraries with sequence metadata, expression protocols, preliminary activity profiles, structural models (AlphaFold/homology), and recommendations for engineering prioritization</p>
+<hr/>
+<h1 id="2-design--engineering">2) Design &amp; Engineering<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-design--engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The systematic improvement of biocatalyst performance through rational design, semi-rational approaches, and directed evolution. This pillar transforms adequate starting enzymes into process-ready catalysts with enhanced activity, selectivity, stability, and substrate scope.</p>
+<p><strong>Rational Design Strategies:</strong></p>
+<ul>
+<li><strong>Consensus and ancestral approaches</strong> for enhanced stability and broad substrate acceptance</li>
+<li><strong>Active site engineering</strong> guided by crystal structures, QM/MM calculations, and transition state modeling</li>
+<li><strong>Tunnel engineering</strong> for substrate access and product release optimization</li>
+<li><strong>Allosteric modulation</strong> and conformational dynamics tuning</li>
+<li><strong>Computational design</strong> using Rosetta, FoldX, and machine learning predictions</li>
+</ul>
+<p><strong>Library Design and Directed Evolution:</strong></p>
+<ul>
+<li><strong>Site-saturation mutagenesis</strong> with optimized codon schemes (NDT, VHG, 22c-trick)</li>
+<li><strong>CAST (Combinatorial Active-Site Saturation Test)</strong> and ISM (Iterative Saturation Mutagenesis) strategies</li>
+<li><strong>DNA shuffling and SCHEMA-guided recombination</strong> for epistatic exploration</li>
+<li><strong>Continuous evolution systems</strong> (PACE, OrthoRep) for million-fold library sizes</li>
+<li><strong>Machine learning-guided evolution</strong> using fitness landscape prediction</li>
+</ul>
+<p><strong>Stabilization Engineering:</strong></p>
+<ul>
+<li><strong>Disulfide bond introduction</strong> and salt bridge optimization</li>
+<li><strong>Hydrophobic core packing</strong> and loop stabilization</li>
+<li><strong>Surface charge optimization</strong> and aggregation prevention</li>
+<li><strong>Thermodynamic vs kinetic stability</strong> balancing for process conditions</li>
+</ul>
+<p><strong>Specialized Techniques:</strong></p>
+<ul>
+<li><strong>Genetic code expansion</strong> for non-canonical amino acid incorporation</li>
+<li><strong>Computational saturation mutagenesis</strong> for reduced experimental burden</li>
+<li><strong>Epistatic analysis</strong> and cooperativity mapping for multi-site improvements</li>
+<li><strong>Stability-function trade-off optimization</strong> using Pareto frontier analysis</li>
+</ul>
+<p><strong>Key Terminology:</strong> kcat/KM optimization, enantioselectivity (ee), thermostability (Tm, TTN), directed evolution rounds, library coverage, hit rate, epistasis, consensus sequences, transition state analogues, computational hotspots</p>
+<p><strong>Metrics:</strong> Fold-improvement in activity, selectivity enhancement (ee, E-value), thermal stability gain (ΔTm), total turnover number (TTN), number of evolution rounds, library sizes screened, cumulative improvement factors</p>
+<p><strong>Deliverables:</strong> Optimized enzyme variants with full characterization, evolution roadmaps, structure-activity relationships, recommended process conditions, and intellectual property documentation</p>
+<hr/>
+<h1 id="3-biocatalyst-formats--cellular-context">3) Biocatalyst Formats &amp; Cellular Context<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-biocatalyst-formats--cellular-context" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The strategic selection and optimization of how biocatalysts are presented and utilized, ranging from purified enzymes to engineered whole-cell systems. This includes cellular engineering for optimal enzyme expression, substrate transport, and metabolic integration.</p>
+<p><strong>Biocatalyst Presentation Formats:</strong></p>
+<ul>
+<li><strong>Purified enzymes</strong> with optimized purification protocols and storage stability</li>
+<li><strong>Crude cell lysates</strong> and cell-free extracts for simplified processing</li>
+<li><strong>Whole-cell biocatalysis</strong> with living or resting cells as catalytic units</li>
+<li><strong>Immobilized cell systems</strong> for enhanced reusability and process control</li>
+<li><strong>Surface display systems</strong> for easy enzyme access and recovery</li>
+</ul>
+<p><strong>Cellular Engineering Strategies:</strong></p>
+<ul>
+<li><strong>Expression system optimization</strong> (T7, ara, rhamnose promoters; chaperone co-expression)</li>
+<li><strong>Subcellular localization</strong> (cytoplasm, periplasm, extracellular secretion)</li>
+<li><strong>Transport engineering</strong> for substrate uptake and product efflux (AlkL, transporters)</li>
+<li><strong>Cell permeabilization</strong> strategies (detergents, organic solvents, freeze-thaw)</li>
+<li><strong>Membrane engineering</strong> for improved substrate/product transport</li>
+</ul>
+<p><strong>Metabolic Integration:</strong></p>
+<ul>
+<li><strong>Cofactor pool engineering</strong> for optimal NAD(P)H/ATP availability</li>
+<li><strong>Competing pathway elimination</strong> through gene knockouts and pathway balancing</li>
+<li><strong>Redox balancing</strong> and cofactor regeneration in vivo</li>
+<li><strong>Dynamic metabolic control</strong> using riboswitches, T7-RNA polymerase systems</li>
+<li><strong>Growth-production phase separation</strong> for optimal productivity</li>
+</ul>
+<p><strong>Co-culture and Consortia:</strong></p>
+<ul>
+<li><strong>Division of labor</strong> strategies with specialized cell populations</li>
+<li><strong>Syntrophic relationships</strong> for complex multi-step processes</li>
+<li><strong>Population dynamics control</strong> and competitive growth management</li>
+<li><strong>Cross-feeding metabolic networks</strong> for pathway distribution</li>
+</ul>
+<p><strong>Key Terminology:</strong> Whole-cell biocatalysis, cell permeabilization, transporter engineering, cofactor pools, metabolic burden, growth-production coupling, surface display, protein secretion, cell viability, cofactor balancing</p>
+<p><strong>Metrics:</strong> Cell density (OD600), viability over time, product titer (g/L), volumetric productivity (g/L/h), cofactor ratios (NADPH/NADP+), substrate uptake rates, product efflux efficiency, cell maintenance energy</p>
+<p><strong>Deliverables:</strong> Optimized host strains with genetic modifications documented, expression protocols, fermentation conditions, cofactor management strategies, and scaling recommendations for bioreactor operation</p>
+<hr/>
+<h1 id="4-media--microenvironment">4) Media &amp; Microenvironment<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-media--microenvironment" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The optimization of chemical environments where biocatalytic reactions occur, including aqueous systems, organic solvents, ionic liquids, and multiphase systems. This pillar focuses on how reaction media affects enzyme performance, stability, and process feasibility.</p>
+<p><strong>Aqueous System Optimization:</strong></p>
+<ul>
+<li><strong>Buffer system selection</strong> (phosphate, Tris, HEPES) and pH control strategies</li>
+<li><strong>Salt concentration effects</strong> on enzyme stability and substrate solubility</li>
+<li><strong>Osmolyte and stabilizer addition</strong> (glycerol, trehalose, polyols)</li>
+<li><strong>Temperature and pressure optimization</strong> for maximum activity and stability</li>
+<li><strong>Water activity (aw) control</strong> using salt hydrates and controlled humidity</li>
+</ul>
+<p><strong>Organic Solvent Systems:</strong></p>
+<ul>
+<li><strong>Solvent selection</strong> based on log P, polarity, and enzyme compatibility</li>
+<li><strong>Water activity (aw) tuning</strong> for optimal enzyme flexibility and stability</li>
+<li><strong>pH memory effects</strong> and enzyme ionization state control</li>
+<li><strong>Micro-aqueous conditions</strong> with minimal water content optimization</li>
+<li><strong>Solvent recycling</strong> and purification for sustainable processes</li>
+</ul>
+<p><strong>Alternative Reaction Media:</strong></p>
+<ul>
+<li><strong>Ionic liquids (ILs)</strong> and deep eutectic solvents (DES) for enhanced solubility</li>
+<li><strong>Supercritical fluids</strong> (scCO2) for gas-phase biocatalysis</li>
+<li><strong>Surfactant systems</strong> and reverse micelles for protein solubilization</li>
+<li><strong>Polymer-supported media</strong> and smart materials for enzyme stabilization</li>
+</ul>
+<p><strong>Multiphase Systems:</strong></p>
+<ul>
+<li><strong>Biphasic aqueous-organic</strong> systems for substrate/product partitioning</li>
+<li><strong>Microemulsion and micellar</strong> systems for substrate solubilization</li>
+<li><strong>Gas-liquid-solid</strong> three-phase systems for oxidative biotransformations</li>
+<li><strong>Membrane-separated phases</strong> for continuous substrate/product exchange</li>
+</ul>
+<p><strong>Process Considerations:</strong></p>
+<ul>
+<li><strong>Mass transfer optimization</strong> through mixing and phase contact enhancement</li>
+<li><strong>Partition coefficient (Kp) determination</strong> for substrate and product distribution</li>
+<li><strong>Viscosity effects</strong> on mass transfer and mixing efficiency</li>
+<li><strong>Toxicity mitigation</strong> through media selection and enzyme protection</li>
+</ul>
+<p><strong>Key Terminology:</strong> Water activity (aw), log P values, partition coefficients, ionic liquids, deep eutectic solvents, supercritical conditions, biphasic systems, microemulsions, mass transfer coefficients, pH memory</p>
+<p><strong>Metrics:</strong> Enzyme half-life in media, activity retention (%), partition coefficients (Kpart), mass transfer rates (kLa), viscosity measurements, substrate solubility limits, reaction rate enhancement factors</p>
+<p><strong>Deliverables:</strong> Optimized media formulations with stability data, phase diagrams for multiphase systems, mass transfer correlations, scale-up considerations, and environmental impact assessments</p>
+<hr/>
+<h1 id="5-immobilization--materials">5) Immobilization &amp; Materials<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-immobilization--materials" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The physical attachment or entrapment of biocatalysts to solid supports or within matrices to enable catalyst reuse, enhance stability, and facilitate separation. This includes both traditional immobilization methods and advanced materials engineering approaches.</p>
+<p><strong>Immobilization Strategies:</strong></p>
+<ul>
+<li><strong>Covalent attachment</strong> using glutaraldehyde, glyoxyl, epoxy, and boronic acid chemistries</li>
+<li><strong>Adsorption-based methods</strong> with hydrophobic, ionic, and mixed-mode interactions</li>
+<li><strong>Entrapment techniques</strong> in sol-gel matrices, hydrogels, and polymeric networks</li>
+<li><strong>Cross-linked enzyme aggregates (CLEAs)</strong> and cross-linked enzyme crystals (CLECs)</li>
+<li><strong>Oriented immobilization</strong> for optimal enzyme presentation and activity retention</li>
+</ul>
+<p><strong>Advanced Support Materials:</strong></p>
+<ul>
+<li><strong>Mesoporous silica</strong> (SBA-15, MCM-41) with controlled pore structures</li>
+<li><strong>Magnetic nanoparticles</strong> for easy separation and recycling</li>
+<li><strong>Metal-organic frameworks (MOFs)</strong> for enzyme encapsulation and protection</li>
+<li><strong>Smart polymers</strong> with stimuli-responsive properties (temperature, pH)</li>
+<li><strong>Graphene and carbon nanotube</strong> supports for enhanced electron transfer</li>
+</ul>
+<p><strong>Multi-enzyme Immobilization:</strong></p>
+<ul>
+<li><strong>Co-immobilization strategies</strong> for enzyme cascades and cofactor regeneration</li>
+<li><strong>Compartmentalized systems</strong> with spatial enzyme organization</li>
+<li><strong>Gradient immobilization</strong> for sequential reaction optimization</li>
+<li><strong>Enzyme microenvironments</strong> with localized pH and cofactor concentrations</li>
+</ul>
+<p><strong>Process Integration:</strong></p>
+<ul>
+<li><strong>Reactor compatibility</strong> with packed beds, fluidized beds, and membrane reactors</li>
+<li><strong>Pressure drop considerations</strong> for flow-through applications</li>
+<li><strong>Cleaning and regeneration</strong> protocols for extended catalyst lifetime</li>
+<li><strong>Leaching prevention</strong> and catalyst integrity monitoring</li>
+</ul>
+<p><strong>Characterization and Optimization:</strong></p>
+<ul>
+<li><strong>Activity recovery</strong> determination and optimization strategies</li>
+<li><strong>Stability enhancement</strong> through immobilization-induced conformational changes</li>
+<li><strong>Mass transfer analysis</strong> using Thiele modulus and effectiveness factor calculations</li>
+<li><strong>Mechanical stability</strong> testing under process conditions</li>
+</ul>
+<p><strong>Key Terminology:</strong> Activity recovery, immobilization yield, Thiele modulus, effectiveness factor, leaching rate, operational stability, support functionalization, cross-linking chemistry, pore diffusion, mechanical stability</p>
+<p><strong>Metrics:</strong> % activity retained after immobilization, operational half-life (cycles), leaching rate (ppm/cycle), pressure drop (ΔP), specific activity (U/g support), stability improvement factor, cost per cycle</p>
+<p><strong>Deliverables:</strong> Optimized immobilization protocols with characterization data, reactor design recommendations, economic analysis of reuse cycles, scale-up procedures, and troubleshooting guides for industrial implementation</p>
+<hr/>
+<h1 id="6-cofactor--energy-management">6) Cofactor &amp; Energy Management<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-cofactor--energy-management" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The systematic design and implementation of cofactor supply, regeneration, and energy coupling systems to enable efficient biocatalytic processes. This pillar addresses the challenge of expensive cofactors and energy requirements in multi-step biotransformations.</p>
+<p><strong>NAD(P)H Regeneration Systems:</strong></p>
+<ul>
+<li><strong>Enzymatic regeneration</strong> using formate dehydrogenase (FDH), glucose dehydrogenase (GDH), glucose-6-phosphate dehydrogenase (G6PDH)</li>
+<li><strong>NADH oxidase (NOX)</strong> systems for cofactor recycling and oxygen coupling</li>
+<li><strong>Electrochemical regeneration</strong> using mediator systems and bioelectrochemical cells</li>
+<li><strong>Photoenzymatic systems</strong> with light-driven cofactor regeneration</li>
+<li><strong>Substrate-coupled regeneration</strong> using sacrificial co-substrates</li>
+</ul>
+<p><strong>ATP and High-Energy Phosphate Systems:</strong></p>
+<ul>
+<li><strong>Polyphosphate kinase</strong> systems for ATP regeneration from polyphosphate</li>
+<li><strong>Acetyl kinase/acetyl phosphate</strong> for efficient ATP supply</li>
+<li><strong>Creatine kinase/creatine phosphate</strong> for high-energy phosphate transfer</li>
+<li><strong>Adenylate kinase</strong> systems for AMP/ADP recycling</li>
+<li><strong>In vivo ATP regeneration</strong> through glycolysis and respiratory chains</li>
+</ul>
+<p><strong>Specialized Cofactor Systems:</strong></p>
+<ul>
+<li><strong>Coenzyme A (CoA)</strong> regeneration for acyl transfer reactions</li>
+<li><strong>S-adenosyl methionine (SAM)</strong> recycling for methylation reactions</li>
+<li><strong>Flavin cofactor (FAD/FMN)</strong> regeneration for oxidoreductases</li>
+<li><strong>Heme cofactor</strong> optimization for P450 and peroxidase systems</li>
+<li><strong>Metal cofactor</strong> (Fe, Zn, Mg) optimization and recycling</li>
+</ul>
+<p><strong>Energy Coupling Strategies:</strong></p>
+<ul>
+<li><strong>Redox-neutral processes</strong> and hydrogen borrowing for energy-efficient catalysis</li>
+<li><strong>Thermodynamically driven cascades</strong> with favorable equilibrium coupling</li>
+<li><strong>Energy dissipation minimization</strong> through pathway thermodynamics optimization</li>
+<li><strong>Solar energy integration</strong> for sustainable cofactor regeneration</li>
+</ul>
+<p><strong>Economic and Process Optimization:</strong></p>
+<ul>
+<li><strong>Cofactor cost analysis</strong> and total turnover number (TTN) optimization</li>
+<li><strong>Regeneration system efficiency</strong> and coupling stoichiometry</li>
+<li><strong>Side reaction minimization</strong> and cofactor degradation prevention</li>
+<li><strong>Process integration</strong> with downstream separation and cofactor recovery</li>
+</ul>
+<p><strong>Key Terminology:</strong> Total turnover number (TTN), cofactor regeneration, coupling efficiency, NADH/NAD+ ratio, ATP/ADP ratio, Faradaic efficiency, photosynthetic efficiency, energy coupling, thermodynamic driving force</p>
+<p><strong>Metrics:</strong> Cofactor TTN, regeneration efficiency (%), energy input per mol product (kWh/kg), cofactor cost contribution ($/kg product), coupling stoichiometry, side reaction rate, cofactor stability (half-life)</p>
+<p><strong>Deliverables:</strong> Integrated cofactor management schemes with economic analysis, regeneration system designs, energy balance calculations, optimization protocols, and troubleshooting guides for industrial implementation</p>
+<hr/>
+<h1 id="7-cascade--route-design">7) Cascade &amp; Route Design<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-cascade--route-design" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The architecture and optimization of multi-enzyme systems for complex molecule synthesis, including linear, convergent, and divergent pathways. This pillar encompasses the strategic integration of multiple biocatalytic steps with consideration of compatibility, thermodynamics, and process efficiency.</p>
+<p><strong>Cascade Architecture Design:</strong></p>
+<ul>
+<li><strong>Linear cascade systems</strong> with sequential enzyme-catalyzed transformations</li>
+<li><strong>Convergent synthesis</strong> bringing together multiple substrate streams</li>
+<li><strong>Divergent pathways</strong> for accessing multiple products from common intermediates</li>
+<li><strong>Cyclic cascades</strong> for substrate recycling and waste minimization</li>
+<li><strong>Branched networks</strong> with parallel and competing reaction pathways</li>
+</ul>
+<p><strong>Enzyme Compatibility Analysis:</strong></p>
+<ul>
+<li><strong>pH compatibility windows</strong> and buffer system optimization across multiple enzymes</li>
+<li><strong>Temperature compatibility</strong> and thermal stability requirements</li>
+<li><strong>Cofactor sharing and competition</strong> between different enzymatic steps</li>
+<li><strong>Solvent tolerance</strong> matching across all cascade components</li>
+<li><strong>Inhibition mapping</strong> for substrate/product/intermediate compatibility</li>
+</ul>
+<p><strong>Thermodynamic Optimization:</strong></p>
+<ul>
+<li><strong>Reaction thermodynamics</strong> and equilibrium positioning for each step</li>
+<li><strong>Driving force analysis</strong> using ΔG calculations and equilibrium constants</li>
+<li><strong>Product removal strategies</strong> for equilibrium shifting and inhibition relief</li>
+<li><strong>Energy coupling</strong> between thermodynamically favorable and unfavorable steps</li>
+<li><strong>Pathway thermodynamics</strong> for overall process feasibility assessment</li>
+</ul>
+<p><strong>Process Integration Strategies:</strong></p>
+<ul>
+<li><strong>One-pot reactions</strong> vs. sequential addition protocols</li>
+<li><strong>Compartmentalization</strong> using immobilization, membranes, or separate phases</li>
+<li><strong>Staged addition</strong> of substrates and enzymes for optimal performance</li>
+<li><strong>In situ product removal</strong> to prevent inhibition and drive equilibrium</li>
+<li><strong>Temporal control</strong> of enzyme addition and reaction progression</li>
+</ul>
+<p><strong>Chemo-Enzymatic Integration:</strong></p>
+<ul>
+<li><strong>Bio-chemo-bio sequences</strong> combining enzymatic and chemical steps</li>
+<li><strong>Protection-deprotection strategies</strong> compatible with both chemical and enzymatic steps</li>
+<li><strong>Solvent switching</strong> between aqueous and organic phases</li>
+<li><strong>Catalyst compatibility</strong> between enzymes and chemical catalysts</li>
+</ul>
+<p><strong>Mathematical Modeling and Optimization:</strong></p>
+<ul>
+<li><strong>Kinetic modeling</strong> of multi-enzyme systems with competitive inhibition</li>
+<li><strong>Flux balance analysis</strong> for pathway optimization</li>
+<li><strong>Sensitivity analysis</strong> for identifying rate-limiting steps</li>
+<li><strong>Process simulation</strong> using Aspen Plus, gPROMS, or specialized bioprocess models</li>
+</ul>
+<p><strong>Key Terminology:</strong> Enzyme cascades, one-pot synthesis, thermodynamic driving force, rate-limiting step, pathway flux, enzyme compatibility, equilibrium coupling, cascade efficiency, retrobiosynthesis, pathway design</p>
+<p><strong>Metrics:</strong> Overall cascade yield (%), number of steps, enzyme loading (total mg/g product), reaction time, intermediate isolation requirements, atom economy, E-factor for complete pathway</p>
+<p><strong>Deliverables:</strong> Complete pathway designs with enzyme specifications, reaction conditions, kinetic models, economic analysis, risk assessment, and scale-up recommendations for multi-step processes</p>
+<hr/>
+<h1 id="8-reactors-flow--in-line-operations">8) Reactors, Flow &amp; In-Line Operations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-reactors-flow--in-line-operations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The engineering design and operation of reactor systems for biocatalytic processes, including batch, fed-batch, and continuous flow configurations. This pillar focuses on equipment selection, process control, monitoring, and integration of downstream processing operations.</p>
+<p><strong>Reactor Configurations:</strong></p>
+<ul>
+<li><strong>Stirred tank reactors (STR)</strong> with optimal mixing and mass transfer design</li>
+<li><strong>Packed bed reactors (PBR)</strong> for immobilized enzyme systems</li>
+<li><strong>Fluidized bed reactors</strong> for enhanced mass transfer and mixing</li>
+<li><strong>Membrane reactors</strong> with integrated separation and enzyme retention</li>
+<li><strong>Microreactor systems</strong> for rapid prototyping and process intensification</li>
+</ul>
+<p><strong>Flow Chemistry Integration:</strong></p>
+<ul>
+<li><strong>Continuous flow biocatalysis</strong> with residence time distribution optimization</li>
+<li><strong>Segmented flow systems</strong> for enhanced mixing and reduced dispersion</li>
+<li><strong>Tube-in-tube reactors</strong> for gas-liquid mass transfer enhancement</li>
+<li><strong>Multi-stage flow systems</strong> for cascade reactions and sequential processing</li>
+<li><strong>Recirculation systems</strong> for conversion enhancement and improved productivity</li>
+</ul>
+<p><strong>Process Monitoring and Control:</strong></p>
+<ul>
+<li><strong>Process Analytical Technology (PAT)</strong> with real-time monitoring</li>
+<li><strong>In-line spectroscopy</strong> (UV-Vis, NIR, Raman) for concentration monitoring</li>
+<li><strong>Mass spectrometry</strong> integration for product identification and quantification</li>
+<li><strong>pH and dissolved oxygen</strong> monitoring with automated control</li>
+<li><strong>Temperature and pressure</strong> control systems for optimal reaction conditions</li>
+</ul>
+<p><strong>In-Line Product Recovery:</strong></p>
+<ul>
+<li><strong>In-situ product removal (ISPR)</strong> for equilibrium shifting and inhibition relief</li>
+<li><strong>Membrane separation</strong> for product concentration and purification</li>
+<li><strong>Adsorption systems</strong> for selective product removal</li>
+<li><strong>Extraction systems</strong> for continuous product recovery</li>
+<li><strong>Crystallization</strong> for direct product isolation</li>
+</ul>
+<p><strong>Scale-Up and Process Intensification:</strong></p>
+<ul>
+<li><strong>Dimensionless analysis</strong> for scale-up correlation development</li>
+<li><strong>Heat and mass transfer</strong> optimization across scales</li>
+<li><strong>Power consumption</strong> and energy efficiency optimization</li>
+<li><strong>Pressure drop</strong> analysis and pump sizing for large-scale operation</li>
+<li><strong>Process safety</strong> considerations and hazard analysis</li>
+</ul>
+<p><strong>Advanced Reactor Concepts:</strong></p>
+<ul>
+<li><strong>Oscillatory flow reactors</strong> for enhanced mixing without high shear</li>
+<li><strong>Spinning tube reactors</strong> for centrifugal mixing enhancement</li>
+<li><strong>Acoustic mixing</strong> systems for gentle but efficient mass transfer</li>
+<li><strong>Plasma reactors</strong> for enzyme activation or substrate pre-treatment</li>
+</ul>
+<p><strong>Key Terminology:</strong> Space-time yield (STY), residence time distribution (RTD), mass transfer coefficient (kLa), Reynolds number, Damköhler number, process intensification, back-pressure regulation, pressure drop (ΔP)</p>
+<p><strong>Metrics:</strong> Space-time yield (g/L/h), productivity (kg/m³/day), energy consumption (kWh/kg), pressure drop (ΔP), heat transfer coefficient, mass transfer efficiency, conversion per pass, residence time</p>
+<p><strong>Deliverables:</strong> Reactor design specifications with process flow diagrams (PFDs), control strategies, instrumentation requirements, scale-up protocols, economic analysis, and operational procedures for industrial implementation</p>
+<hr/>
+<h1 id="9-reaction-space--enzyme-portfolios">9) Reaction Space &amp; Enzyme Portfolios<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-reaction-space--enzyme-portfolios" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The comprehensive mapping and categorization of chemical transformations accessible through biocatalysis, organized by reaction type, enzyme family, and substrate scope. This pillar focuses on what chemistry can be achieved rather than how to optimize specific systems.</p>
+<p><strong>Oxidoreductase Portfolio:</strong></p>
+<ul>
+<li><strong>Ketoreductases (KREDs)</strong> and alcohol dehydrogenases for chiral alcohol synthesis</li>
+<li><strong>Amine dehydrogenases (AmDHs)</strong> and imine reductases (IREDs) for chiral amine production</li>
+<li><strong>Transaminases (ω-TAs)</strong> for stereoselective C-N bond formation</li>
+<li><strong>Baeyer-Villiger monooxygenases (BVMOs)</strong> for lactone and ester synthesis</li>
+<li><strong>P450 enzymes</strong> for selective C-H oxidation and hydroxylation reactions</li>
+</ul>
+<p><strong>Carbon-Carbon Bond Formation:</strong></p>
+<ul>
+<li><strong>Aldolases</strong> (DHAP, DERA, FSA) for stereoselective C-C bond formation</li>
+<li><strong>Thiamine diphosphate (ThDP) enzymes</strong> for α-hydroxyketone synthesis</li>
+<li><strong>Henry reaction enzymes</strong> and hydroxynitrile lyases (HNLs) for cyanohydrin formation</li>
+<li><strong>Pictet-Spenglerases</strong> for tetrahydroisoquinoline alkaloid synthesis</li>
+<li><strong>Terpene cyclases</strong> for complex polycyclic structure formation</li>
+</ul>
+<p><strong>Hydrolase Applications:</strong></p>
+<ul>
+<li><strong>Lipases and esterases</strong> for resolution of alcohols and acids</li>
+<li><strong>Epoxide hydrolases</strong> for enantioselective epoxide opening</li>
+<li><strong>Nitrilases and nitrile hydratases</strong> for carboxylic acid and amide synthesis</li>
+<li><strong>Glycosidases and glycosyltransferases</strong> for carbohydrate modifications</li>
+<li><strong>Peptidases and proteases</strong> for selective amide bond hydrolysis</li>
+</ul>
+<p><strong>Emerging and Non-Natural Chemistry:</strong></p>
+<ul>
+<li><strong>Carbene transfer reactions</strong> using engineered heme enzymes for C-H insertion</li>
+<li><strong>Nitrene transfer reactions</strong> for selective C-H amination and aziridination</li>
+<li><strong>Artificial metalloenzymes</strong> combining synthetic catalysts with protein scaffolds</li>
+<li><strong>Photoenzymatic reactions</strong> using light-activated flavin and other cofactor systems</li>
+<li><strong>Organosilicon and organoborane</strong> chemistry using engineered enzymes</li>
+</ul>
+<p><strong>Enzyme-Substrate Scope Mapping:</strong></p>
+<ul>
+<li><strong>Substrate tolerance studies</strong> for each enzyme class with systematic structure variation</li>
+<li><strong>Selectivity profiles</strong> including regio-, stereo-, and chemoselectivity patterns</li>
+<li><strong>Activity cliffs</strong> and substrate-activity relationships (SAR) analysis</li>
+<li><strong>Promiscuous activities</strong> and off-target reactions for novel chemistry discovery</li>
+<li><strong>Substrate loading limits</strong> and concentration tolerance ranges</li>
+</ul>
+<p><strong>Reaction Condition Optimization:</strong></p>
+<ul>
+<li><strong>pH and temperature optima</strong> for different enzyme classes and substrates</li>
+<li><strong>Solvent compatibility</strong> and organic solvent tolerance profiles</li>
+<li><strong>Cofactor requirements</strong> and regeneration system compatibility</li>
+<li><strong>Inhibitor sensitivity</strong> and substrate/product inhibition patterns</li>
+</ul>
+<p><strong>Key Terminology:</strong> Enzyme classification (EC numbers), substrate scope, stereoselectivity (ee, de, er), regioselectivity, chemoselectivity, turnover frequency (TOF), catalytic efficiency (kcat/KM), substrate loading, promiscuous activity</p>
+<p><strong>Metrics:</strong> Conversion yield (%), enantiomeric excess (ee), diastereomeric ratio (dr), regioselectivity ratio, substrate scope (number of accepted substrates), catalytic efficiency, turnover number (TON), substrate loading tolerance</p>
+<p><strong>Deliverables:</strong> Comprehensive enzyme-reaction matrices with substrate scope data, selectivity profiles, optimal reaction conditions, literature precedent analysis, and strategic recommendations for synthetic route planning</p>
+<hr/>
+<h1 id="10-sustainability-metrics--industrialization">10) Sustainability, Metrics &amp; Industrialization<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-sustainability-metrics--industrialization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>What it is:</strong> The quantitative assessment and optimization of biocatalytic processes from environmental, economic, and social sustainability perspectives. This pillar integrates life cycle thinking, green chemistry principles, and industrial metrics to drive responsible innovation and commercialization.</p>
+<p><strong>Environmental Sustainability Metrics:</strong></p>
+<ul>
+<li><strong>Process Mass Intensity (PMI)</strong> including all materials, solvents, and water</li>
+<li><strong>E-factor calculations</strong> (simple and complete) for waste quantification</li>
+<li><strong>Life Cycle Assessment (LCA)</strong> with cradle-to-gate and cradle-to-grave analysis</li>
+<li><strong>Carbon footprint</strong> calculation including energy, transport, and materials</li>
+<li><strong>Water footprint</strong> assessment including blue, green, and gray water components</li>
+<li><strong>Ecotoxicity assessment</strong> of process streams and waste products</li>
+</ul>
+<p><strong>Economic Analysis and Cost Modeling:</strong></p>
+<ul>
+<li><strong>Techno-economic analysis (TEA)</strong> with sensitivity analysis and Monte Carlo simulation</li>
+<li><strong>Cost breakdown</strong> including raw materials, enzymes, utilities, labor, and capital</li>
+<li><strong>Return on investment (ROI)</strong> and net present value (NPV) calculations</li>
+<li><strong>Cost comparison</strong> with conventional chemical processes</li>
+<li><strong>Market analysis</strong> and competitive positioning assessment</li>
+<li><strong>Supply chain risk</strong> and raw material availability analysis</li>
+</ul>
+<p><strong>Process Performance Metrics:</strong></p>
+<ul>
+<li><strong>Space-time yield (STY)</strong> optimization for reactor productivity</li>
+<li><strong>Enzyme productivity</strong> and total turnover number (TTN) maximization</li>
+<li><strong>Product concentration</strong> targets for downstream processing efficiency</li>
+<li><strong>Energy intensity</strong> (kWh/kg product) and heat integration opportunities</li>
+<li><strong>Yield and selectivity</strong> optimization across the complete process</li>
+</ul>
+<p><strong>Regulatory and Quality Considerations:</strong></p>
+<ul>
+<li><strong>ICH guidelines</strong> compliance for pharmaceutical applications</li>
+<li><strong>FDA/EMA regulatory</strong> pathways and approval requirements</li>
+<li><strong>Good Manufacturing Practice (GMP)</strong> requirements and facility design</li>
+<li><strong>Impurity control</strong> and analytical method development</li>
+<li><strong>Process validation</strong> protocols and statistical process control</li>
+</ul>
+<p><strong>Industrial Implementation:</strong></p>
+<ul>
+<li><strong>Technology readiness assessment</strong> using TRL (Technology Readiness Level) framework</li>
+<li><strong>Scale-up risk analysis</strong> and mitigation strategies</li>
+<li><strong>Process safety</strong> evaluation and HAZOP (Hazard and Operability) studies</li>
+<li><strong>Intellectual property</strong> landscape analysis and freedom-to-operate assessment</li>
+<li><strong>Partnership and licensing</strong> strategies for commercialization</li>
+</ul>
+<p><strong>Case Study Analysis:</strong></p>
+<ul>
+<li><strong>Industrial success stories</strong> with detailed process and economic analysis</li>
+<li><strong>Failure mode analysis</strong> and lessons learned from unsuccessful projects</li>
+<li><strong>Benchmarking studies</strong> comparing biocatalytic vs. chemical routes</li>
+<li><strong>Market adoption</strong> patterns and commercialization timelines</li>
+</ul>
+<p><strong>Circular Economy Integration:</strong></p>
+<ul>
+<li><strong>Waste valorization</strong> opportunities and by-product utilization</li>
+<li><strong>Solvent recycling</strong> and recovery system design</li>
+<li><strong>Enzyme recycling</strong> and immobilization strategies for sustainability</li>
+<li><strong>End-of-life considerations</strong> for products and process materials</li>
+</ul>
+<p><strong>Key Terminology:</strong> Process Mass Intensity (PMI), E-factor, Life Cycle Assessment (LCA), carbon footprint, techno-economic analysis (TEA), space-time yield (STY), total turnover number (TTN), Technology Readiness Level (TRL)</p>
+<p><strong>Metrics:</strong> PMI (kg waste/kg product), E-factor (kg waste/kg product), CO2 equivalent emissions (kg CO2-eq/kg product), production cost ($/kg), energy consumption (MJ/kg), water consumption (L/kg), TTN (mol product/mol enzyme)</p>
+<p><strong>Deliverables:</strong> Comprehensive sustainability assessments with LCA and TEA reports, regulatory compliance roadmaps, scale-up and commercialization strategies, risk assessments, and recommendations for process optimization and market entry</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="toc-content"><ul id="kx1zwn" class="overflow"><li class="depth-0"><a href="#1-discovery--sourcing-of-biocatalysts" data-for="1-discovery--sourcing-of-biocatalysts">1) Discovery &amp; Sourcing of Biocatalysts</a></li><li class="depth-0"><a href="#2-design--engineering" data-for="2-design--engineering">2) Design &amp; Engineering</a></li><li class="depth-0"><a href="#3-biocatalyst-formats--cellular-context" data-for="3-biocatalyst-formats--cellular-context">3) Biocatalyst Formats &amp; Cellular Context</a></li><li class="depth-0"><a href="#4-media--microenvironment" data-for="4-media--microenvironment">4) Media &amp; Microenvironment</a></li><li class="depth-0"><a href="#5-immobilization--materials" data-for="5-immobilization--materials">5) Immobilization &amp; Materials</a></li><li class="depth-0"><a href="#6-cofactor--energy-management" data-for="6-cofactor--energy-management">6) Cofactor &amp; Energy Management</a></li><li class="depth-0"><a href="#7-cascade--route-design" data-for="7-cascade--route-design">7) Cascade &amp; Route Design</a></li><li class="depth-0"><a href="#8-reactors-flow--in-line-operations" data-for="8-reactors-flow--in-line-operations">8) Reactors, Flow &amp; In-Line Operations</a></li><li class="depth-0"><a href="#9-reaction-space--enzyme-portfolios" data-for="9-reaction-space--enzyme-portfolios">9) Reaction Space &amp; Enzyme Portfolios</a></li><li class="depth-0"><a href="#10-sustainability-metrics--industrialization" data-for="10-sustainability-metrics--industrialization">10) Sustainability, Metrics &amp; Industrialization</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.0</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

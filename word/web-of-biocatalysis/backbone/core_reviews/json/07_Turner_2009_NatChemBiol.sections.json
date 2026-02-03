@@ -1,0 +1,535 @@
+{
+  "review_id": "07_Turner_2009_NatChemBiol",
+  "sections": [
+    {
+      "header": "r e v i e w",
+      "raw_header": "r e v i e w",
+      "text": "Biocatalysis involves the use of enzymes, either in semipurified or immobilized form, or as whole-cell systems, for the preparation of molecules that are traditionally made using chemical synthesis. The field continues to expand its horizons, particularly as applied to the synthesis of fine chemicals and pharmaceuticals [1][2][3][4] . A useful biocatalyst (in particular, one that is suitable for application in an industrial context) is characterized by a number of features, including high catalytic turnover (>500 min -1 ), high selectivity for the particular transformation (for example, enantio-, regio-and chemoselectivity) and high process stability under the conditions that are required for the chemical transformation 5 . Biocatalysis often complements (rather than directly competes with) chemocatalysis in that it is probably best used for preparing relatively small (molecular weight < 500), enantiomerically pure chiral building blocks that are then combined with other chemically derived molecules to produce the final product. Biocatalysts have historically been widely applied in the brewing and food industries but are now finding increased application in the synthesis of fine chemicals, pharmaceuticals, agrochemicals and even bulk chemicals. A recent and important trend is the development of new biocatalyst-based processes for the production of biofuels using renewable starting materials as an alternative to fossil fuels. In this sense biocatalysis should be viewed as an essential ingredient of the industrial biotechnology revolution that is happening all around us and that will alter the landscape of where the products and processes of the future are derived from. This review covers recent developments in the field of directed evolution of enzymes, highlighting advances in screening and library design and also giving examples of where enzyme evolution has had a major impact on the development of new biocatalysts. Irrespective of the target application that is envisaged, there are a number of key challenges that must be addressed in the development of a robust biocatalyst for practical applications (Fig. 1). The initial phase of enzyme discovery involves (i) screening available microbial culture collections or libraries of enzymes from a variety of sources in order to identify an enzyme or group of enzymes with some activity toward the substrate of interest, (ii) construction of synthetic genes based on literature precedents or (iii) use of bioinformatics to identify homologous genes. In some cases the wild-type enzyme may have the required activity and selectivity for further development work. However, a more likely scenario is that improvements in catalytic activity, selectivity and (importantly) stability under process conditions are required for practical applications. Even with the benefit of a high-resolution crystal structural of an enzyme, rational redesign to produce optimized biocatalysts is complex and has proven successful in only a small number of cases. The early 1990s witnessed an alternative approach to the problem of enzyme optimization with the publication of some of the key early papers in directed evolution. These papers described methods for library generation via DNA shuffling 6,7 and error-prone PCR, and also gave examples of changing the properties of an enzyme, such as organic solvent tolerance 8 and enantioselectivity 9 . However, if the directed evolution of enzymes (Fig. 1) were to become a generally applicable technique, then significant developments would be needed in both methods for library generation, and we would need to develop the ability to screen for a wide range of different chemical transformations [10][11][12][13][14][15][16][17][18][19][20][21] . In the early days, emphasis was placed on the development of screening methods that could assess very large libraries of variants (for example, 10 8 -10 10 ) in the expectation that larger libraries meant a greater chance of finding the desired improvements in activity or selectivity. As more examples were published of successful improvements with much smaller libraries (for example, 10 3 -10 6 ), the emphasis shifted to the generation of smaller, higher quality libraries, as outlined below.",
+      "snippet": "Biocatalysis involves the use of enzymes, either in semipurified or immobilized form, or as whole-cell systems, for the preparation of molecules that are traditionally made using chemical synthesis. The field continues to expand its horizons, particularly as applied to the synthesis of fine chemicals and pharmaceuticals [1][2][3][4] . A useful biocatalyst (in particular, one that is suitable for application in an industrial context) is characterized by a number of features, including high catalytic turnover (>500 min -1 ), high selectivity for the particular transformation (for example, enantio-, regio-and chemoselectivity) and high process stability under the conditions that are required for the chemical transformation 5 . Biocatalysis often complements (rather than directly competes with) chemocatalysis in that it is probably best used for preparing relatively small (molecular weight < 500), enantiomerically pure chiral building blocks that are then combined with other chemically derived molecules to produce the final product. Biocatalysts have historically been widely applied in the brewing and food industries but are now finding increased application in the synthesis of fine chemicals, pharmaceuticals, agrochemicals and even bulk chemicals. A recent and important trend is the development of new biocatalyst-based processes for the production of biofuels using renewable starting materials as an alternative to fossil fuels. In this sense biocatalysis should be viewed as an e…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[1]",
+          "target_xml_id": "b0"
+        },
+        {
+          "ref_marker": "[2]",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[3]",
+          "target_xml_id": "b2"
+        },
+        {
+          "ref_marker": "[4]",
+          "target_xml_id": "b3"
+        },
+        {
+          "ref_marker": "5",
+          "target_xml_id": "b4"
+        },
+        {
+          "ref_marker": "6,",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "7",
+          "target_xml_id": "b6"
+        },
+        {
+          "ref_marker": "9",
+          "target_xml_id": "b8"
+        },
+        {
+          "ref_marker": "[10]",
+          "target_xml_id": "b9"
+        },
+        {
+          "ref_marker": "[11]",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "[12]",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[13]",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "[14]",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "[15]",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[17]",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "[18]",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "[19]",
+          "target_xml_id": "b18"
+        },
+        {
+          "ref_marker": "[20]",
+          "target_xml_id": "b19"
+        },
+        {
+          "ref_marker": "[21]",
+          "target_xml_id": "b20"
+        }
+      ]
+    },
+    {
+      "header": "Directed evolution drives the next generation of biocatalysts",
+      "raw_header": "Directed evolution drives the next generation of biocatalysts",
+      "text": "Directed evolution drives the next generation of biocatalysts",
+      "snippet": "Directed evolution drives the next generation of biocatalysts",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Nicholas J Turner",
+      "raw_header": "Nicholas J Turner",
+      "text": "Enzymes are increasingly being used as biocatalysts in the generation of products that have until now been derived using traditional chemical processes. Such products range from pharmaceutical and agrochemical building blocks to fine and bulk chemicals and, more recently, components of biofuels. For a biocatalyst to be effective in an industrial process, it must be subjected to improvement and optimization, and in this respect the directed evolution of enzymes has emerged as a powerful enabling technology. Directed evolution involves repeated rounds of (i) random gene library generation, (ii) expression of genes in a suitable host and (iii) screening of libraries of variant enzymes for the property of interest. Both in vitro screening-based methods and in vivo selection-based methods have been applied to the evolution of enzyme function and properties. Significant developments have occurred recently, particularly with respect to library design, screening methodology, applications in synthetic transformations and strategies for the generation of new enzyme function. School of Chemistry, University of Manchester, Manchester Interdisciplinary Biocentre, Manchester, UK. Correspondence should be addressed to N.J.T. (nicholas.turner@manchester.ac.uk). Published online 20 July 2009; doi:10.1038/nchembio.203 r e v i e w For a protein that is composed of say 400 amino acids, there are approximately 20 400 different possible sequences that could exist. This level of diversity should be compared with the fact that the total number of atoms in the universe is estimated to be between 10 70 and 10 80 (see http://en.wikipedia.org/wiki/observable_universe)! Approaching the problem in a different way, if for example only one amino acid in a protein containing 400 amino acids is exchanged for any of the other 19 amino acids, there are already a total of 7,600 different variants. For two amino acids, the number rises to 144,000, for three the total is about 2.7 × 10 6 and for four replacements the total is 5.2 × 10 7 ! The challenge of accessing and screening such large sequence space brings with it an additional problem: the issue of how to navigate between different sequences. Proteins are generally regarded as having 'rugged' landscapes in terms of catalytic activity, which makes the correlation of sequence with activity difficult. Typically researchers will try to identify the 'hot spots' in an enzyme via high-throughput screening and then subsequently optimize individual amino acids via saturation mutagenesis (Fig. 2). In order to address the problem of navigating sequence space, researchers have begun to apply multivariate statistical techniques to model protein sequence-function relationships and hence guide the evolutionary process by rapidly identifying beneficial diversity for recombination. For example, scientists at Codexis have developed an algorithm termed Pro-SAR (protein sequence-activity relationships) in which all mutations are assigned as either beneficial, neutral or deleterious based on the impact they have on the enzyme function that is being screened for 22,23 . Thus all mutations are assessed and may be incorporated into the final sequence of the fully optimized protein. The Pro-SAR approach was used to optimize an enantioselective haloalkane dehalogenase used in the commercial manufacture of the side chain of atorvastatin 24 . In this process, ethyl 4-chloro-3-ketobutyrate is first treated with a ketoreductase to catalyze asymmetric reduction of the keto group to the alcohol, followed by the introduction of the cyano group catalyzed by a dehalogenase (Fig. 3). The dehalogenase was subjected to multiple rounds of directed evolution in order to improve the volumetric productivity ~4,000-fold. Altogether, a total of 38 mutations were introduced compared to the wild-type enzyme.",
+      "snippet": "Enzymes are increasingly being used as biocatalysts in the generation of products that have until now been derived using traditional chemical processes. Such products range from pharmaceutical and agrochemical building blocks to fine and bulk chemicals and, more recently, components of biofuels. For a biocatalyst to be effective in an industrial process, it must be subjected to improvement and optimization, and in this respect the directed evolution of enzymes has emerged as a powerful enabling technology. Directed evolution involves repeated rounds of (i) random gene library generation, (ii) expression of genes in a suitable host and (iii) screening of libraries of variant enzymes for the property of interest. Both in vitro screening-based methods and in vivo selection-based methods have been applied to the evolution of enzyme function and properties. Significant developments have occurred recently, particularly with respect to library design, screening methodology, applications in synthetic transformations and strategies for the generation of new enzyme function. School of Chemistry, University of Manchester, Manchester Interdisciplinary Biocentre, Manchester, UK. Correspondence should be addressed to N.J.T. (nicholas.turner@manchester.ac.uk). Published online 20 July 2009; doi:10.1038/nchembio.203 r e v i e w For a protein that is composed of say 400 amino acids, there are approximately 20 400 different possible sequences that could exist. This level of diversity should be…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "22,",
+          "target_xml_id": "b21"
+        },
+        {
+          "ref_marker": "23",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "24",
+          "target_xml_id": "b23"
+        }
+      ]
+    },
+    {
+      "header": "Reducing the screening effort in directed evolution",
+      "raw_header": "Reducing the screening effort in directed evolution",
+      "text": "As a consequence of the problems associated with accessing even a small fraction of the vast sequence space of proteins as outlined above, researchers have sought to develop strategies that significantly reduce the size of the libraries that need to be screened without compromising the likelihood of finding significant improvements in performance. For example, for many enzymes it may be sufficient just to target the active site residues 25 . Typically an active site of a protein will contain about 10-15 amino acid residues that make direct contact with the substrate (first coordination sphere) and a further 20-30 in the second coordination sphere. Morley et al. 26 analyzed results from their own work and from the work of other groups and concluded that in general, closer mutations are more beneficial, particularly in terms of the effect that they have on substrate specificity and enantioselectivity. Reetz et al. [27][28][29] have developed a very useful method termed iterative CASTing (combinatorial active site testing) in which active site residues are selected and organized into groups of two or three residues from which libraries can be subsequently generated. Screening of these initial libraries is undertaken, the hits from these libraries are combined, and new libraries are generated and are further screened in an iterative fashion. Clearly either a crystal structure or homology model is required for CASTing to be applied. Another approach to reduce the screening effort is to use reduced amino acid alphabets in the construction of proteins 30 . For example, by changing Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Random mutagenesis (location of hot spots) Combinatorial optimization via saturation mutagenesis r e v i e w the nucleotide components during the PCR reaction it is possible to generate proteins that are composed of only 12 rather than 20 different amino acids. Reetz and Wu 31 have recently shown that the screening of such libraries can lead to significant improvements in activity by using saturation mutagenesis at homologous enzyme positions, as shown by the directed evolution of enantioselective mutants of the thermally robust phenylacetone monooxygenase (PAMO).",
+      "snippet": "As a consequence of the problems associated with accessing even a small fraction of the vast sequence space of proteins as outlined above, researchers have sought to develop strategies that significantly reduce the size of the libraries that need to be screened without compromising the likelihood of finding significant improvements in performance. For example, for many enzymes it may be sufficient just to target the active site residues 25 . Typically an active site of a protein will contain about 10-15 amino acid residues that make direct contact with the substrate (first coordination sphere) and a further 20-30 in the second coordination sphere. Morley et al. 26 analyzed results from their own work and from the work of other groups and concluded that in general, closer mutations are more beneficial, particularly in terms of the effect that they have on substrate specificity and enantioselectivity. Reetz et al. [27][28][29] have developed a very useful method termed iterative CASTing (combinatorial active site testing) in which active site residues are selected and organized into groups of two or three residues from which libraries can be subsequently generated. Screening of these initial libraries is undertaken, the hits from these libraries are combined, and new libraries are generated and are further screened in an iterative fashion. Clearly either a crystal structure or homology model is required for CASTing to be applied. Another approach to reduce the screening effort …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "25",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "26",
+          "target_xml_id": "b25"
+        },
+        {
+          "ref_marker": "[27]",
+          "target_xml_id": "b26"
+        },
+        {
+          "ref_marker": "[28]",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "[29]",
+          "target_xml_id": "b28"
+        },
+        {
+          "ref_marker": "30",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "31",
+          "target_xml_id": "b30"
+        }
+      ]
+    },
+    {
+      "header": "Enzyme promiscuity and evolution of new function",
+      "raw_header": "Enzyme promiscuity and evolution of new function",
+      "text": "A powerful theme that has recently emerged and that is highly relevant to directed evolution of enzymes is that of promiscuous activities [32][33][34] . Enzyme promiscuity refers to situations where an enzyme is able to catalyze a reaction that is quite distinct from its natural function but for which there are links between the two chemical transformations at the mechanistic rather than structural level. In order to try to understand the relationship between promiscuity and evolution of function, both Tawfik and Arnold have recently introduced the concept of neutral drift [35][36][37][38][39] . Neutral drift is the gradual accumulation of mutations under selection to maintain a protein's original function and structure. Such drifts have been demonstrated experimentally in the laboratories of Arnold and Tawfik by generating libraries and then screening for the original function rather than a new function. For example, Gupta et al. 38 studied the neutral drift of serum paraoxonase (PON1) and found that almost half of the 311 neutral variants that were characterized exhibited substantial changes in promiscuous activity. Similar changes in promiscuous activities were found by Bloom et al. 39 with P450 BM3 neutral variants. It is generally thought that the earliest forms of enzymes had broad substrate specificity or reaction ambiguity and subsequently diverged and became more reaction-specific to give today's modern enzymes. Such enzyme superfamilies are exemplified by the enolase 40,41 and crotonase superfamilies 42 . For example, the enolase superfamily comprises a group of related enzymes that have a common ability to stabilize transition states involving the generation of enolates. This common mechanism is then manifested in a range of different enzymes that catalyze different reactions, including N-acylamino acid racemases, mandelate racemase and O-succinylhydrolase. Currently there is great interest in exploiting reaction promiscuity as a means of developing enzymes with new functionalities. The halohydrin dehalogenase from Agrobacterium radiobacter catalyzes the nucleophilic ring opening of epoxides by various nucleophiles to afford the corresponding 1-substituted butan-2-ols with moderate conversion and good enantioselectivity (E value = 24-31). Ring opening with cyanate afforded oxazolidinone in high enantiomeric excess (e.e.) as a result of subsequent cyclization 43 . The arylmalonate decarboxylase from Alcaligenesis bronchisepticus was mutated to a racemase by introduction of an additional active site base, allowing the racemization of enantiomerically pure amino acids. The mutant was tolerant of different aromatic substituents and to a lesser extent replacement of the methyl group 44 . A single active site mutation in Bacillus stearothermophilus alanine racemase resulted in the introduction of new aldolase activity. The activity toward phenylserine was increased compared to the wild type by five orders of magnitude 45 . A particularly powerful approach is the combination of natural promiscuity with directed evolution. Recently Jochens et al. 46 showed that an esterase can be converted to an epoxide hydrolase by initial redesign of the active site followed by random mutagenesis and screening for epoxide hydrolase activity. The creation of enzymes with truly new function represents one of the greatest current challenges in the field of biocatalysis [47][48][49][50][51][52][53][54] . Recently Röthlisberger et al. 49 reported the computational design of retroaldolases that use four different catalytic motifs to catalyze cleavage of a carbon-carbon bond in a non-natural substrate. Interestingly, the accuracy of the design at the molecular level was confirmed by an X-ray crystal structure of the active proteins, both of which were essentially superimposable on the design model. Seelig et al. 54 reported the evolution of a new enzyme activity by selection with mRNA display from a randomized zinc finger scaffold that had no enzymatic activity. Because single-turnover product formation could be observed, variants that exhibited weak activity could be identified.",
+      "snippet": "A powerful theme that has recently emerged and that is highly relevant to directed evolution of enzymes is that of promiscuous activities [32][33][34] . Enzyme promiscuity refers to situations where an enzyme is able to catalyze a reaction that is quite distinct from its natural function but for which there are links between the two chemical transformations at the mechanistic rather than structural level. In order to try to understand the relationship between promiscuity and evolution of function, both Tawfik and Arnold have recently introduced the concept of neutral drift [35][36][37][38][39] . Neutral drift is the gradual accumulation of mutations under selection to maintain a protein's original function and structure. Such drifts have been demonstrated experimentally in the laboratories of Arnold and Tawfik by generating libraries and then screening for the original function rather than a new function. For example, Gupta et al. 38 studied the neutral drift of serum paraoxonase (PON1) and found that almost half of the 311 neutral variants that were characterized exhibited substantial changes in promiscuous activity. Similar changes in promiscuous activities were found by Bloom et al. 39 with P450 BM3 neutral variants. It is generally thought that the earliest forms of enzymes had broad substrate specificity or reaction ambiguity and subsequently diverged and became more reaction-specific to give today's modern enzymes. Such enzyme superfamilies are exemplified by the enolas…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[32]",
+          "target_xml_id": "b31"
+        },
+        {
+          "ref_marker": "[33]",
+          "target_xml_id": "b32"
+        },
+        {
+          "ref_marker": "[34]",
+          "target_xml_id": "b33"
+        },
+        {
+          "ref_marker": "[35]",
+          "target_xml_id": "b34"
+        },
+        {
+          "ref_marker": "[36]",
+          "target_xml_id": "b35"
+        },
+        {
+          "ref_marker": "[37]",
+          "target_xml_id": "b36"
+        },
+        {
+          "ref_marker": "[38]",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "[39]",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "38",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "39",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "40,",
+          "target_xml_id": "b39"
+        },
+        {
+          "ref_marker": "41",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "42",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "43",
+          "target_xml_id": "b42"
+        },
+        {
+          "ref_marker": "44",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "45",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "46",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "[47]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "[48]",
+          "target_xml_id": "b47"
+        },
+        {
+          "ref_marker": "[49]",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "[50]",
+          "target_xml_id": "b49"
+        },
+        {
+          "ref_marker": "[51]",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "[52]",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "[53]",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "[54]",
+          "target_xml_id": "b53"
+        },
+        {
+          "ref_marker": "49",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "54",
+          "target_xml_id": "b53"
+        }
+      ]
+    },
+    {
+      "header": "New screening and selection strategies",
+      "raw_header": "New screening and selection strategies",
+      "text": "Whatever strategy is used for library generation, it is vital to have in place a robust and high-throughput method for either screening or selection of the desired function 55 . In the past ten years, much effort and ingenuity have gone into the development of a broad range of screening and selection methods, including those based on ribosome display and mRNA display, to allow the identification of variants that have the desired characteristics. The essential functions of an enzyme that are desirable to be screened for include (i) catalytic activity, (ii) selectivity, including enantioselectivity, diastereoselectivity and regioselectivity, NH N CO2H OH OH F O Cl O CO2Et Ketoreductase Cl OH CO2Et Dehalogenase CN -Atorvastatin Codexis route DSM route O Cl O O Cl O OH OH + + DERA aldolase [O] O OH Cl H O NC OH CO2Et (S )-rivastigmine N H O CO2H OEt N O H2N (S)-repaglinide (S)-dapoxetine (phase 2) N N Cl O HO2C (R )-levocetirizine (S )-DMP 777 (phase 2) HN N CO2H O O F2HC (R)-garenoxacin (phase 3) N O O N Ph (S )-solifenacin (phase 3) MeN N O O N O N H O O O Me2N O O N and (iii) thermal stability, including stability to organic solvents. In order to be able to screen for any of these desired functions, it is essential to establish a rapid method for monitoring the reaction that is catalyzed by the enzyme. For example, lipase-catalyzed hydrolysis of an ester under aqueous conditions yields a carboxylic acid product, which results in a pH change that can be monitored by the introduction of pH indicator. Screening for epoxide hydrolase activity on a chip-based system has recently been reported 56 . Sorting cells by fluorescence-activated cell sorting (FACS) allows very large library sizes to be addressed and has been coupled with in vitro compartmentalization as a very effective high-throughput screening method 57,58 . Likewise, phage display 59 and yeast display 60 techniques have been developed and are effective for evolving enzymes. Circular permutation is an interesting approach in which the N and C termini of a protein can be systematically moved, one amino acid at a time, around the protein of interest. This method has been used to screen for variants of Candida antarctica lipase B with improved activity and stability 61 .",
+      "snippet": "Whatever strategy is used for library generation, it is vital to have in place a robust and high-throughput method for either screening or selection of the desired function 55 . In the past ten years, much effort and ingenuity have gone into the development of a broad range of screening and selection methods, including those based on ribosome display and mRNA display, to allow the identification of variants that have the desired characteristics. The essential functions of an enzyme that are desirable to be screened for include (i) catalytic activity, (ii) selectivity, including enantioselectivity, diastereoselectivity and regioselectivity, NH N CO2H OH OH F O Cl O CO2Et Ketoreductase Cl OH CO2Et Dehalogenase CN -Atorvastatin Codexis route DSM route O Cl O O Cl O OH OH + + DERA aldolase [O] O OH Cl H O NC OH CO2Et (S )-rivastigmine N H O CO2H OEt N O H2N (S)-repaglinide (S)-dapoxetine (phase 2) N N Cl O HO2C (R )-levocetirizine (S )-DMP 777 (phase 2) HN N CO2H O O F2HC (R)-garenoxacin (phase 3) N O O N Ph (S )-solifenacin (phase 3) MeN N O O N O N H O O O Me2N O O N and (iii) thermal stability, including stability to organic solvents. In order to be able to screen for any of these desired functions, it is essential to establish a rapid method for monitoring the reaction that is catalyzed by the enzyme. For example, lipase-catalyzed hydrolysis of an ester under aqueous conditions yields a carboxylic acid product, which results in a pH change that can be monitored by the introdu…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "55",
+          "target_xml_id": "b54"
+        },
+        {
+          "ref_marker": "56",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "57,",
+          "target_xml_id": "b56"
+        },
+        {
+          "ref_marker": "58",
+          "target_xml_id": "b57"
+        },
+        {
+          "ref_marker": "59",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "60",
+          "target_xml_id": "b59"
+        },
+        {
+          "ref_marker": "61",
+          "target_xml_id": "b60"
+        }
+      ]
+    },
+    {
+      "header": "Directed evolution of monoamine oxidase",
+      "raw_header": "Directed evolution of monoamine oxidase",
+      "text": "To illustrate a number of the points discussed above, I will now present a more in-depth case study. The aim of this case study is to highlight some of the key strategies involved in an enzyme evolution program and also to present an analysis of the learning process. We set out to develop a platform biocatalytic technology for the preparation of enantiomerically pure chiral amines, which are an important class of chiral building block, particularly for the synthesis of biologically active pharmaceutical drugs (Fig. 4). Despite their importance, relatively few biocatalytic methods have been developed for their preparation, and existing methods rely principally on either the kinetic resolution of racemates using hydrolytic enzymes such as lipases and acylases or the more recent development of the use of transaminases for the conversion of ketones to chiral amines (Fig. 5). A conceptually different approach to preparation of enantiomerically pure chiral amines relies on deracemization of a racemic starting amine to provide either enantiomer in high optical purity. The deracemization process requires the combination of an enantioselective amine oxidase enzyme (conversion of amine to imine) together with a nonselective chemical reducing agent (reduction of imine to amine). Repeated cycles of enantioselective oxidation coupled with nonselective reduction result in accumulation of either the (R)-or (S)-amine enantiomer, depending on the stereopreference of the oxidase enzyme. Prior studies in our group had established that deracemization could be successfully applied to -amino acids 62,63 . These studies led to the identification of suitable L-and D-amino acid oxidases, together with a range of different chemical reducing agents that were compatible with the enzymes (for example, catalytic transfer hydrogenation using metal/formate or amine boranes). However, in order to extend the deracemization methodology to chiral amines, it was necessary to develop enantioselective amine oxidases with the desired substrate specificity by directed evolution of existing amine oxidases. Monoamine oxidase (MAO-N) from Aspergillus niger was identified as an attractive starting point for directed evolution on account of the high catalytic activity (k cat ~ 500 min -1 ) of the wildtype enzyme. However, the native enzyme was found to have narrow substrate specificity, typically limited to simple nonchiral amines such as butylamine and benzylamine. In order to screen libraries of variants of MAO-N, we developed a high-throughput screening method based on capture of the byproduct hydrogen peroxide using horseradish peroxidase and a suitable substrate 64 . Escherichia coli colonies expressing the amine oxidase were grown on nitrocellulose membranes and then assayed for activity, resulting in the production of dark pink colonies indicative of high enzyme activity. It was envisaged that this solid-phase screen would be able to assess about 100,000 variants per round of screening. Libraries of MAO-N were prepared initially by using a mutator strain, and subsequently by error-prone PCR, and screened against -methylbenzylamine as a model substrate. Several rounds of directed evolution led to the identification of a mutant (D5) containing 5 mutations that was found to catalyze the enantioselective oxidation of a wide range of chiral 1°, 2° and 3° amines [65][66][67] . The MAO-N D5 mutant was used for the preparative deracemization of a range of racemic amines; interestingly, it was also found to oxidize several racemic O-methyl-Nhydroxylamines, yielding unreacted enantiomerically pure (R) isomer as well as the corresponding (E)-oximes 68 . Screening the D5 variant against a wide range of amine substrates revealed that it has broad substrate specificity and high (S) enantioselectivity. To encourage greater usage of the enzyme by the community of synthetic chemists, a simple desktop model was devised to assess the likelihood of a specific substrate being oxidized by MAO-N 69 . Initially, a hypothetical molecule was generated by superimposing all known substrates on top of each other. Next, the model was tested by examining the deracemization of racemic crispine A, an alkaloid found in the welted thistle that has pronounced biological activity. Crispine A was found to map perfectly onto the hypothetical molecule and indeed underwent deracemization using MAO-N and ammonia borane; the racemic starting material was converted to the biologically active (S) enantiomer in >95% e.e.",
+      "snippet": "To illustrate a number of the points discussed above, I will now present a more in-depth case study. The aim of this case study is to highlight some of the key strategies involved in an enzyme evolution program and also to present an analysis of the learning process. We set out to develop a platform biocatalytic technology for the preparation of enantiomerically pure chiral amines, which are an important class of chiral building block, particularly for the synthesis of biologically active pharmaceutical drugs (Fig. 4). Despite their importance, relatively few biocatalytic methods have been developed for their preparation, and existing methods rely principally on either the kinetic resolution of racemates using hydrolytic enzymes such as lipases and acylases or the more recent development of the use of transaminases for the conversion of ketones to chiral amines (Fig. 5). A conceptually different approach to preparation of enantiomerically pure chiral amines relies on deracemization of a racemic starting amine to provide either enantiomer in high optical purity. The deracemization process requires the combination of an enantioselective amine oxidase enzyme (conversion of amine to imine) together with a nonselective chemical reducing agent (reduction of imine to amine). Repeated cycles of enantioselective oxidation coupled with nonselective reduction result in accumulation of either the (R)-or (S)-amine enantiomer, depending on the stereopreference of the oxidase enzyme. Prior …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "62,",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "63",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "64",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "[65]",
+          "target_xml_id": "b64"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[67]",
+          "target_xml_id": "b66"
+        },
+        {
+          "ref_marker": "68",
+          "target_xml_id": "b67"
+        },
+        {
+          "ref_marker": "69",
+          "target_xml_id": "b68"
+        }
+      ]
+    },
+    {
+      "header": "Structure of MAO-N provides insights into directed evolution",
+      "raw_header": "Structure of MAO-N provides insights into directed evolution",
+      "text": "The directed evolution experiments described above were carried out in the absence of the structure of MAO-N. Variants were simply selected on the basis of their ability to catalyze oxidation of a particular amine substrate. However, recently the three-dimensional structure of the D5 mutant of MAO-N from A. niger was solved, at a resolution of 1.8 Å, offering the prospect of shedding light on the nature of the mutations and how they might affect substrate specificity 70 . The protein crystallized with a molecule of the inhibitor L-proline at the active site, thus allowing the position of the amine substrates to be estimated. Figure 6 shows the structure with four of the five key mutations found in the D5 variant mapped onto the sequence, and it is clear that these mutations are clustered close to the active site of the protein. Examination of the structure in more detail reveals the presence of two channels, labeled A and B, that pass from the surface of the protein and that intersect at the active site. The mutations at positions 336, 384 and 385 are located within channel A on loops, r e v i e w whereas the mutation at position 246 is located within channel B. None of the 4 residues makes direct contact with the substrate; rather, they are located within the second coordination sphere. These results are interpreted as implying that the mutations at positions 336, 384, 385 and 242 in some way affect the dynamics of the two channels and hence have an effect on access of the substrate or release of the product from the active site of MAO-N. It is interesting to reflect on the outcome of the MAO-N directed evolution work, particularly in terms of what it might teach us for future approaches. A key decision was to screen initially for catalytic activity followed by a secondary check for enantioselectivity. This strategy turned out to be successful in that it led ultimately to the identification of enzymes with high turnover and high (S) enantioselectivity. However, in retrospect we may not have been so lucky, and indeed with some enzymes, particularly those with low starting enantioselectivity, it is necessary to devise truly enantioselective screening methods as the primary screen. We were also fortunate to identify enzyme variants with broad substrate specificity, despite using single substrates in the screen-thereby challenging the paradigm that you 'get what you screen for'! Finally, analysis of the mutations in the light of a structure of MAO-N reminded us that protein structures are complex and subtle, particularly with respect to how enzymes interact with their substrates. Even if we had started the evolution program with the structure available to us, it is highly unlikely that we would have rationally identified the mutations that ultimately turned out to be important. Thus directed evolution not only provides us with superior biocatalysts but also teaches us about the way in which enzymes function and control substrate specificity.",
+      "snippet": "The directed evolution experiments described above were carried out in the absence of the structure of MAO-N. Variants were simply selected on the basis of their ability to catalyze oxidation of a particular amine substrate. However, recently the three-dimensional structure of the D5 mutant of MAO-N from A. niger was solved, at a resolution of 1.8 Å, offering the prospect of shedding light on the nature of the mutations and how they might affect substrate specificity 70 . The protein crystallized with a molecule of the inhibitor L-proline at the active site, thus allowing the position of the amine substrates to be estimated. Figure 6 shows the structure with four of the five key mutations found in the D5 variant mapped onto the sequence, and it is clear that these mutations are clustered close to the active site of the protein. Examination of the structure in more detail reveals the presence of two channels, labeled A and B, that pass from the surface of the protein and that intersect at the active site. The mutations at positions 336, 384 and 385 are located within channel A on loops, r e v i e w whereas the mutation at position 246 is located within channel B. None of the 4 residues makes direct contact with the substrate; rather, they are located within the second coordination sphere. These results are interpreted as implying that the mutations at positions 336, 384, 385 and 242 in some way affect the dynamics of the two channels and hence have an effect on access of the s…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "70",
+          "target_xml_id": "b69"
+        }
+      ]
+    },
+    {
+      "header": "Directed evolution provides a range of superior biocatalysts",
+      "raw_header": "Directed evolution provides a range of superior biocatalysts",
+      "text": "Using the principles of directed evolution outlined above by the combination of random mutagenesis and high-throughput screening, many other enzymes have been evolved in an analogous fashion. In many cases, particularly for industrial applications, the overall aim of all of these projects is to develop robust and highly selective biocatalysts for applications in synthetic organic chemistry. The chiral 1,3-diol-containing side chain of the cholesterol-lowering statin drugs (for example, atorvastatin and rosuvastatin) has been a major target for biocatalysis, thus leading to the development of a number of different industrial processes that use one or more biocatalysts in the key step. One of the most elegant approaches developed involves the use of deoxyribose aldolase (DERA) to catalyze the combination of two molecules of acetaldehyde and one molecule of chloroacetaldehyde to give a product with two asymmetric centers 71 . Both carbon-carbon bonds are formed with very high levels of enantioand diastereoselectivity (Fig. 3). The wild-type enzyme was found to be inhibited by the chloroacetaldehyde and hence was subjected to rounds of directed evolution to improve its process stability. Other groups have evolved aldolases 72,73 with altered reaction stereochemistry, including a particularly impressive example by Williams et al. 74 with N-acetylneuraminic acid aldolase. The aim of their work was to generate aldolase variants with broader substrate specificity with respect to the electrophilic aldehyde substrate. Interestingly, they chose to screen for variants that were able to catalyze the reverse reaction-retro-aldol cleavage of the substrate. Variants were identified that not only had broader specificity but that were also able to generate aldol products with both (R) and (S) configuration. Transketolase also catalyzes carbon-carbon bond formation, and the wild-type enzyme from E. coli exhibits high enantioselectivity (e.e. = 95%) toward glycolaldehyde but low stereoselectivity toward propanal (e.e. = 58%). Libraries obtained by saturation mutagenesis of His26, Asp469 and His100 were generated to enhance enantioselectivity toward propanal. Several mutants were identified, with mutants from Asp469 being (S)-selective and mutants from His26 being (R)-selective 75 . A number of groups have used directed evolution to improve the properties of the P450 BM3. A variant of P450 BM3 was used to optimize a new screen for epoxygenase activity using styrene as a substrate. The epoxide product reacts with para-nitrothiophenolate, causing a measurable decrease in absorption at 405 nm. The sensitivity limit of the assay was shown to be 400 M for styrene oxide. This assay was used to detect new, improved variants of BM3 76 . Epoxide hydrolases catalyze the enantioselective hydrolysis of racemic chiral epoxides, which are valuable building blocks in organic synthesis. Directed evolution has been used to improve the enantioselectivity of these enzymes, including a detailed analysis of how the selectivity changes as a function of the individual mutations 77 . Optically pure cyanohydrins can be prepared in either (S) or (R) form using evolved hydroxynitrile lyases 78 . Among the most powerful of nature's biocatalysts are the alkane hydroxylases 79 and P450 monooxygenases 80 , which are able to catalyze reactions that are difficult to emulate using conventional catalysis. Directed evolution has been used to change the substrate specificity of galactose oxidase to generate mutants that are able to enantioselectively oxidize racemic 1-phenylethanol 81 . The wild-type galactose oxidase enzyme has very high activity but a rather restricted substrate specificity, as evidenced by the fact that it has >10 6 -fold higher activity toward galactose compared with glucose, which only differs in structure by the stereochemistry of the C4 hydroxyl group. These evolved galactose oxidase variants have also been used for the rapid screening of activity and enantioselectivity of ketoreductase enzymes. In this work, the activity of the ketoreductases is determined spectrophotometrically by monitoring NADH consumption, and simultaneously the e.e. of the product alcohol is determined by using an enantioselective alcohol oxidase 82 .",
+      "snippet": "Using the principles of directed evolution outlined above by the combination of random mutagenesis and high-throughput screening, many other enzymes have been evolved in an analogous fashion. In many cases, particularly for industrial applications, the overall aim of all of these projects is to develop robust and highly selective biocatalysts for applications in synthetic organic chemistry. The chiral 1,3-diol-containing side chain of the cholesterol-lowering statin drugs (for example, atorvastatin and rosuvastatin) has been a major target for biocatalysis, thus leading to the development of a number of different industrial processes that use one or more biocatalysts in the key step. One of the most elegant approaches developed involves the use of deoxyribose aldolase (DERA) to catalyze the combination of two molecules of acetaldehyde and one molecule of chloroacetaldehyde to give a product with two asymmetric centers 71 . Both carbon-carbon bonds are formed with very high levels of enantioand diastereoselectivity (Fig. 3). The wild-type enzyme was found to be inhibited by the chloroacetaldehyde and hence was subjected to rounds of directed evolution to improve its process stability. Other groups have evolved aldolases 72,73 with altered reaction stereochemistry, including a particularly impressive example by Williams et al. 74 with N-acetylneuraminic acid aldolase. The aim of their work was to generate aldolase variants with broader substrate specificity with respect to the …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "71",
+          "target_xml_id": "b70"
+        },
+        {
+          "ref_marker": "72,",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "73",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "74",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "75",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "76",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "77",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "78",
+          "target_xml_id": "b77"
+        },
+        {
+          "ref_marker": "79",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "80",
+          "target_xml_id": "b79"
+        },
+        {
+          "ref_marker": "81",
+          "target_xml_id": "b80"
+        },
+        {
+          "ref_marker": "82",
+          "target_xml_id": "b81"
+        }
+      ]
+    },
+    {
+      "header": "Hybrid enzymes with new catalytic function",
+      "raw_header": "Hybrid enzymes with new catalytic function",
+      "text": "A promising alternative to generating enzymes with new function is to generate artificial or hybrid enzymes by inserting transition metal catalysts into the active sites of proteins [83][84][85][86][87][88][89] . The transitional metal catalyst provides the essential chemistry and first coordination sphere, whereas the protein provides additional interactions via a second coordination sphere. Initial success in this field came in the generation of hybrid catalysts for asymmetric hydrogenation of olefins [83][84][85][86] . However, the scope has been broadened recently to include asymmetric sulfoxidation 87,88 and allylic alkylation 89 . Klein volume 5 number 8 august 2009 nature chemical biology r e v i e w et al. 83 have applied the principles of directed evolution to optimize the hybrid catalysts by means of chemogenetic protein engineering. Carbonic anhydrase has also been used as a host protein. Site-directed mutagenesis and combined site-directed mutagenesis with chemical modification were used to bind rhodium to the active site of a carbonic anhydrase with minimal binding to the surface. Hydrogenation and isomerization of cis-stilbene using rhodium(I)-bound carbonic anhydrase was found to have high selectivity (20:1) for cis-stilbenes over trans-stilbenes 86 .",
+      "snippet": "A promising alternative to generating enzymes with new function is to generate artificial or hybrid enzymes by inserting transition metal catalysts into the active sites of proteins [83][84][85][86][87][88][89] . The transitional metal catalyst provides the essential chemistry and first coordination sphere, whereas the protein provides additional interactions via a second coordination sphere. Initial success in this field came in the generation of hybrid catalysts for asymmetric hydrogenation of olefins [83][84][85][86] . However, the scope has been broadened recently to include asymmetric sulfoxidation 87,88 and allylic alkylation 89 . Klein volume 5 number 8 august 2009 nature chemical biology r e v i e w et al. 83 have applied the principles of directed evolution to optimize the hybrid catalysts by means of chemogenetic protein engineering. Carbonic anhydrase has also been used as a host protein. Site-directed mutagenesis and combined site-directed mutagenesis with chemical modification were used to bind rhodium to the active site of a carbonic anhydrase with minimal binding to the surface. Hydrogenation and isomerization of cis-stilbene using rhodium(I)-bound carbonic anhydrase was found to have high selectivity (20:1) for cis-stilbenes over trans-stilbenes 86 .",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[83]",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "[84]",
+          "target_xml_id": "b83"
+        },
+        {
+          "ref_marker": "[85]",
+          "target_xml_id": "b84"
+        },
+        {
+          "ref_marker": "[86]",
+          "target_xml_id": "b85"
+        },
+        {
+          "ref_marker": "[87]",
+          "target_xml_id": "b86"
+        },
+        {
+          "ref_marker": "[88]",
+          "target_xml_id": "b87"
+        },
+        {
+          "ref_marker": "[89]",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "[83]",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "[84]",
+          "target_xml_id": "b83"
+        },
+        {
+          "ref_marker": "[85]",
+          "target_xml_id": "b84"
+        },
+        {
+          "ref_marker": "[86]",
+          "target_xml_id": "b85"
+        },
+        {
+          "ref_marker": "87,",
+          "target_xml_id": "b86"
+        },
+        {
+          "ref_marker": "88",
+          "target_xml_id": "b87"
+        },
+        {
+          "ref_marker": "89",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "83",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "86",
+          "target_xml_id": "b85"
+        }
+      ]
+    },
+    {
+      "header": "Summary and future perspectives",
+      "raw_header": "Summary and future perspectives",
+      "text": "Directed evolution of enzymes has, in a relatively short period of time, made a rapid transition from being a new tool for studying the relationship between sequence and function to being an extremely useful and efficient method for optimizing biocatalysts for practical applications. Directed evolution is also being extended beyond single-enzyme systems to embrace metabolic pathways 90 , including carotenoid 91 biosynthesis and enzymes involved in the production of complex natural products via assembly lines 92 . Inevitably, the fields of rational, semirational and random redesign of enzymes are moving ever closer together, such that most directed evolution programs make use, where possible, of structural data in order to inform the library generation processes 93,94 . The key to a directed evolution program is the development of a reliable high-throughput screen, coupled with effective methods for generating libraries that are rich in variants containing new function, and in this respect researchers will continue to develop new protocols for library generation and high-throughput screening. Some reaction types are notoriously difficult to screen for in a general sense-for example, the oxidation of C-H bonds to give C-OH-and yet this transformation is one of the most important reactions in synthesis catalyzed by an enzyme. The further development of algorithms that can understand the relationship between sequence space and function will be extremely valuable. For the present, the de novo design of enzymes from scaffolds appears highly challenging but in the medium term may offer the prospect of generating truly new functions that will then serve as highly valuable starting points for further optimization when coupled with directed evolution. Exploitation of enzyme promiscuity will also emerge as a major theme contributing to the development of new biocatalyst function. Many roads lead to Rome, but all have in common the objective of understanding the factors involved in enzyme evolution and exploiting this knowledge to develop biocatalysts with exquisite properties for future applications. Published online at http://www.nature.com/naturechemicalbiology/. Reprints and permissions information is available online at http://npg.nature.com/ reprintsandpermissions/.",
+      "snippet": "Directed evolution of enzymes has, in a relatively short period of time, made a rapid transition from being a new tool for studying the relationship between sequence and function to being an extremely useful and efficient method for optimizing biocatalysts for practical applications. Directed evolution is also being extended beyond single-enzyme systems to embrace metabolic pathways 90 , including carotenoid 91 biosynthesis and enzymes involved in the production of complex natural products via assembly lines 92 . Inevitably, the fields of rational, semirational and random redesign of enzymes are moving ever closer together, such that most directed evolution programs make use, where possible, of structural data in order to inform the library generation processes 93,94 . The key to a directed evolution program is the development of a reliable high-throughput screen, coupled with effective methods for generating libraries that are rich in variants containing new function, and in this respect researchers will continue to develop new protocols for library generation and high-throughput screening. Some reaction types are notoriously difficult to screen for in a general sense-for example, the oxidation of C-H bonds to give C-OH-and yet this transformation is one of the most important reactions in synthesis catalyzed by an enzyme. The further development of algorithms that can understand the relationship between sequence space and function will be extremely valuable. For the present,…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "90",
+          "target_xml_id": "b89"
+        },
+        {
+          "ref_marker": "91",
+          "target_xml_id": "b90"
+        },
+        {
+          "ref_marker": "92",
+          "target_xml_id": "b91"
+        },
+        {
+          "ref_marker": "93,",
+          "target_xml_id": "b92"
+        },
+        {
+          "ref_marker": "94",
+          "target_xml_id": "b93"
+        }
+      ]
+    },
+    {
+      "header": "Untitled section",
+      "raw_header": "Untitled section",
+      "text": "Dispelling the Myths--Biocatalysis in Industrial Synthesis HansESchoemaker DanielMink MarcelGWubbolts 10.1126/science.1079237 Science Science 0036-8075 1095-9203 299 5613 2003 American Association for the Advancement of Science (AAAS) Chemo-enzymatic synthesis of pharmaceutical intermediates RameshNPatel 10.1517/17460441.3.2.187 Expert Opinion on Drug Discovery Expert Opinion on Drug Discovery 1746-0441 1746-045X 3 2 2008 Informa UK Limited Biocatalysis for pharmaceutical intermediates: the future is now DJPollard JMWoodley Trends Biotechnol 25 2007 Trends and innovations in industrial biocatalysis for the production of fine chemicals SPanke MHeld MWubbolts 10.1016/j.copbio.2004.06.011 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 15 4 2004 Elsevier BV Catalytic effectiveness, a measure of enzyme proficiency for industrial applications RichardJFox MichaelDClay 10.1016/j.tibtech.2008.12.001 Trends in Biotechnology Trends in Biotechnology 0167-7799 27 3 2009 Elsevier BV Rapid evolution of a protein in vitro by DNA shuffling WillemPStemmer 10.1038/370389a0 Nature Nature 0028-0836 1476-4687 370 6488 1994 Springer Science and Business Media LLC DNA shuffling of a family of genes from diverse species accelerates directed evolution ACrameri Nature 391 1998 Directed evolution of a para-nitrobenzyl esterase for aqueous-organic solvents JCMoore FHArnold Nat. Biotechnol 14 1996 Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution MTReetz AZonta KSchimossek KLiebeton K.-EJaeger Angew. Chem. Int. Ed 36 1997 Directed evolution: creating biocatalysts for the future FHArnold Chem. Eng. Sci 51 1996 Directed enzyme evolution: climbing fitness peaks one amino acid at a time CATracewell FHArnold Curr. Opin. Chem. Biol 13 2009 Directed evolution of enzymes: new biocatalysts for asymmetric synthesis MarinaAlexeeva ReubenCarr NicholasJTurner 10.1039/b311055a Organic & Biomolecular Chemistry Org. Biomol. Chem. 1477-0520 1477-0539 1 23 4133 2003 Royal Society of Chemistry (RSC) Advances in laboratory evolution of enzymes SBershtein DSTawfik Curr. Opin. Chem. Biol 12 2008 ChemInform Abstract: Directed Evolution of Enzymes — New Biocatalysts for Organic Synthesis NicholasJTurner 10.1002/chin.201023238 ChemInform ChemInform 0931-7597 1522-2667 41 23 2008 Wiley Directed evolution of enzymes for asymmetric syntheses MTReetz Christmann, M. & Bräse, S. 2007 Wiley-VCH Weinheim, Germany Directed evolution of enzymes and biosynthetic pathways TWJohannes HZhao Curr. Opin. Microbiol 9 2006 Directed evolution of biocatalysts JSylvestre HChautard FCedrone MDelcourt Org. Process Res. Dev 10 2006 Directed evolution of biocatalytic processes EdwardGHibbert FrankBaganz HelenCHailes JohnMWard GaryJLye JohnMWoodley PaulADalby 10.1016/j.bioeng.2004.09.003 Biomolecular Engineering Biomolecular Engineering 1389-0344 22 1-3 2005 Elsevier BV Directed evolution of enzymes for product chemistry FValetti GGilardi Nat. Prod. Rep 21 2004 Novel methods for directed evolution of enzymes: quality, not quantity SLutz WMPatrick 10.1016/j.copbio.2004.05.004 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 15 4 2004 Elsevier BV Trends and challenges in directed evolution CMontiel IBustos-Jaimes Curr. Chem. Biol 2 2008 Improving catalytic function by ProSAR-driven enzyme evolution RichardJFox SChristopherDavis EmilyCMundorff LisaMNewman VesnaGavrilovic StevenKMa LoletaMChung CharleneChing SarenaTam SheelaMuley JohnGrate JohnGruber JohnCWhitman RogerASheldon GjaltWHuisman 10.1038/nbt1286 Nature Biotechnology Nat Biotechnol 1087-0156 1546-1696 25 3 2007 Springer Science and Business Media LLC Enzyme optimization: moving from blind evolution to statistical exploration of sequence–function space RichardJFox GjaltWHuisman 10.1016/j.tibtech.2007.12.001 Trends in Biotechnology Trends in Biotechnology 0167-7799 26 3 2008 Elsevier BV Directed evolution of three biocatalysts to produce the key chiral building block for atorvastatin, the active ingredient in Lipitor JGrate 2006 United States Environmental Protection Agency <http Focusing mutations into the P. fluorescens esterase binding site increases enantioselectivity more effectively than distant mutations SPark Chem. Biol 12 2005 Improving enzyme properties: when are closer mutations better? KLMorley RJKazlauskas Trends Biotechnol 23 2005 Addressing the numbers problem in directed evolution MTReetz DKahakeaw RLohmer ChemBioChem 9 2008 Directed evolution of enantioselective enzymes: iterative cycles of CASTing for probing protein-sequence space MTReetz L.-WWang MBocola Angew. Chem. Int. Ed 45 2006 Expanding the substrate scope of enzymes: combining mutations obtained by cASTing MTReetz Chem. Eur. J 12 2006 Amino acid alphabet size in protein evolution experiments: better to search a small library thoroughly or a large library sparsely? EMuñoz MWDeem Protein Eng. Des. Sel 21 2008 Greatly reduced amino acid alphabets in directed evolution: making the right choice for saturation mutagenesis at homologous enzyme positions ManfredTReetz ShengWu 10.1039/b813388c Chemical Communications Chem. Commun. 1359-7345 1364-548X 43 5499 2008 Royal Society of Chemistry (RSC) Enzyme promiscuity: mechanism and applications KHult PBerglund Trends Biotechnol 25 2007 Alternate‐Site Enzyme Promiscuity AndreasTaglieber HorstHöbenreich JDanielCarballeira RégisJ GMondière ManfredTReetz 10.1002/anie.200702751 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 46 45 2007 Wiley Reaction specificity of enzymes: catalytic promiscuity in biocatalysis: using old enzymes to form new bonds and follow new pathways UTBornscheuer RJKazlauskas Angew. Chem. Int. Ed 43 2004 Protein engineers turned evolutionists SergioGPeisajovich DanSTawfik 10.1038/nmeth1207-991 Nature Methods Nat Methods 1548-7091 1548-7105 4 12 2007 Springer Science and Business Media LLC Intense Neutral Drifts Yield Robust and Evolvable Consensus Proteins ShimonBershtein KorinaGoldin DanSTawfik 10.1016/j.jmb.2008.04.024 Journal of Molecular Biology Journal of Molecular Biology 0022-2836 379 5 2008 Elsevier BV The 'evolvability' of promiscuous protein functions AmirAharoni LeonidGaidukov OlgaKhersonsky StephenMcqGould CintiaRoodveldt DanSTawfik 10.1038/ng1482 Nature Genetics Nat Genet 1061-4036 1546-1718 37 1 2004 Springer Science and Business Media LLC Directed enzyme evolution via small and effective neutral drift libraries RDGupta DSTawfik Nat. Methods 5 2008 Neutral genetic drift can alter promiscuous protein functions, potentially aiding functional evolution JesseDBloom PhilipARomero ZhongyiLu FrancesHArnold 10.1186/1745-6150-2-17 Biology Direct Biol Direct 1745-6150 2 1 2007 Springer Science and Business Media LLC Evolution of enzymatic activities in the enolase superfamily: stereochemically distinct mechanisms in two families of cis,cis-muconate lactonizing enzymes ASakai Biochemistry 48 2009 Emergent mechanistic diversity of enzyme-catalysed -diketone cleavage GGrogan Biochem. J 388 2005 Mechanisms and structures of crotonase superfamily enzymes-how nature controls enolate and oxyanion reactivity RBHamed ETBatchelar IJClifton CJSchofield Cell. Mol. Life Sci 65 2008 Catalytic promiscuity of halohydrin dehalogenase and its application in enantioselective epoxide ring opening GHasnaoui-Dijoux MMajerić Elenkov JHLutje Spelberg BHauer DBJanssen ChemBioChem 9 2008 Introduction of single mutation changes arylmalonate decarboxylase to racemase YTerao KMiyamoto HOhta Chem. Commun. (Camb.) 2006 Stereoselectivity and Expanded Substrate Scope of an Engineered PLP‐Dependent Aldolase FlorianPSeebeck AngeloGuainazzi CelineAmoreira KimKBaldridge DonaldHilvert 10.1002/anie.200602529 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 45 41 2006 Wiley Converting an Esterase into an Epoxide Hydrolase HelgeJochens KonstanzeStiba ChristopherSavile RyotaFujii Juin‐guoYu TatsianaGerassenkov RomasJKazlauskas UweTBornscheuer 10.1002/anie.200806276 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 48 19 2009 Wiley Functional proteins from a random sequence library ADKeefe JSzostak Nature 410 2001 Design and Evolution of New Catalytic Activity with an Existing Protein Scaffold Hee-SungPark Sung-HunNam JinKakLee ChangNoYoon BengtMannervik StephenJBenkovic Hak-SungKim 10.1126/science.1118953 Science Science 0036-8075 1095-9203 311 5760 2006 American Association for the Advancement of Science (AAAS) Kemp elimination catalysts by computational enzyme design DanielaRöthlisberger OlgaKhersonsky AndrewMWollacott LinJiang JasonDechancie JamieBetker JasmineLGallaher EricAAlthoff AlexandreZanghellini OrlyDym ShiraAlbeck KendallNHouk DanSTawfik DavidBaker 10.1038/nature06879 Nature Nature 0028-0836 1476-4687 453 7192 2008 Springer Science and Business Media LLC De Novo Computational Design of Retro-Aldol Enzymes LinJiang EricAAlthoff FernandoRClemente LindseyDoyle DanielaRöthlisberger AlexandreZanghellini JasmineLGallaher JamieLBetker FujieTanaka CarlosFBarbas DonaldHilvert KendallNHouk BarryLStoddard DavidBaker 10.1126/science.1152692 Science Science 0036-8075 1095-9203 319 5868 2008 American Association for the Advancement of Science (AAAS) Computational design of enzymes RSterner RMerkl FMRaushel Chem. Biol 15 2008 Computational tools for designing and engineering biocatalysts JiriDamborsky JanBrezovsky 10.1016/j.cbpa.2009.02.021 Current Opinion in Chemical Biology Current Opinion in Chemical Biology 1367-5931 13 1 2009 Elsevier BV Structural reorganization and preorganization in enzyme active sites: comparisons of experimental and theoretically ideal active site geometries in the multistep serine esterase reaction cycle AJ TSmith J. Am. Chem. Soc 130 2008 Selection and evolution of enzymes from a partially randomized non-catalytic scaffold BurckhardSeelig JackWSzostak 10.1038/nature06032 Nature Nature 0028-0836 1476-4687 448 7155 2007 Springer Science and Business Media LLC Directed evolution of enzymes: Library screening strategies HansLeemhuis RonanMKelly LubbertDijkhuizen 10.1002/iub.165 IUBMB Life IUBMB Life 1521-6543 1521-6551 61 3 2009 Wiley Enantioselective catalysis and analysis on a chip DBelder MLudwig L.-WWang MTReetz Angew. Chem. Int. Ed 45 2006 High-Throughput Screening of Enzyme Libraries: In Vitro Evolution of a β-Galactosidase by Fluorescence-Activated Sorting of Double Emulsions EnricoMastrobattista ValerieTaly EstelleChanudet PatrickTreacy BernardTKelly AndrewDGriffiths 10.1016/j.chembiol.2005.09.016 Chemistry & Biology Chemistry & Biology 1074-5521 12 12 2005 Elsevier BV Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization ADGriffiths DSTawfik 10.1093/emboj/cdg014 The EMBO Journal 1460-2075 22 1 2003 Springer Science and Business Media LLC Phage display as a tool for the directed evolution of enzymes AnaFernandez-Gacio MarilyneUguen JacquesFastrez 10.1016/s0167-7799(03)00194-x Trends in Biotechnology Trends in Biotechnology 0167-7799 21 9 2003 Elsevier BV Selection of horseradish peroxidase variants with enhanced enantioselectivity by yeast surface display DLipovsek Chem. Biol 14 2007 Investigating the Structural and Functional Consequences of Circular Permutation on Lipase B from <i>Candida Antarctica</i> ZhenQian ChristinaJFields StefanLutz 10.1002/cbic.200700373 ChemBioChem ChemBioChem 1439-4227 1439-7633 8 16 2007 Wiley Stereoinversion of -and γ-substituted--amino acids using a chemoenzymatic oxidation-reduction procedure AEnright Chem. Commun. (Camb.) 2003 A versatile chemo-enzymatic route to enantiomerically pure -branched--amino acids GJRoff RCLloyd NJTurner J. Am. Chem. Soc 126 2004 Deracemisation of -methylbenzylamine using an enzyme obtained by in vitro evolution MAlexeeva AEnright MJDawson MMahmoudian NJTurner Angew. Chem. Int. Ed 41 2002 Directed evolution of an amine oxidase possessing both broad substrate specificity and high enantioselectivity RCarr Angew. Chem. Int. Ed 42 2003 Directed evolution of an amine oxidase for the preparative deracemisation of cyclic secondary amines RCarr ChemBioChem 6 2005 A chemo-enzymatic route to enantiomerically pure cyclic tertiary amines CJDunsmore RCarr TFleming NJTurner J. Am. Chem. Soc 128 2006 Enantioselective oxidation of O-methyl-N-hydroxylamines using MAO-N as catalyst TS CEve ASWells NJTurner Chem. Commun. (Camb.) 2007 A template-based mnemonic for monoamine oxidase (MAO-N) catalyzed reactions and its application to the chemo-enzymatic deracemisation of the alkaloid (±)-crispine A KRBailey AJEllis RReiss TJSnape NJTurner Chem. Commun. (Camb.) 2007 The structure of monoamine oxidase from Aspergillus niger provides a molecular context for improvements in activity obtained by directed evolution KEAtkin J. Mol. Biol 384 2008 Directed evolution of an industrial biocatalyst: 2-deoxy-D-ribose 5-phosphate aldolase SJennewein Biotechnol. J 1 2006 Directed evolution of 2-keto-3-deoxy-6-phosphogalactonate aldolase to replace 3-deoxy-D-arabino-heptulosonic acid 7-phosphate synthase NRan JWFrost J. Am. Chem. Soc 129 2007 Directed evolution of D-sialic acid aldolase to L-3-deoxy-manno-2-octulosonic acid (L-KDO) aldolase C.-CHsu ZHong MWada DFranke C.-HWong Proc. Natl. Acad. Sci. USA 102 2005 Creation of a pair of stereochemically complementary biocatalysts GJWilliams TWoodhall LMFarnsworth ANelson ABerry J. Am. Chem. Soc 128 2006 Enhancing and reversing the stereoselectivity of Escherichia coli transketolase via single-point mutations ME BSmith EGHibbert ABJones PADalby HCHailes Adv. Synth. Catal 350 2008 A screening system for the directed evolution of epoxygenases: importance of position 184 in P450 BM3 for stereoselective styrene epoxidation KLTee USchwaneberg Angew. Chem. Int. Ed 45 2006 Directed evolution of an enantioselective epoxide hydrolase: uncovering the source of enantioselectivity at each evolutionary stage MTReetz J. Am. Chem. Soc 131 2009 Laboratory evolved biocatalysts for stereoselective syntheses of substituted benzaldehyde cyanohydrins ZLiu ChemBioChem 9 2008 In vivo evolution of butane oxidation by terminal alkane hydroxylases AlkB and CYP153A6 DJKoch MMChen JBVan Beilen FHArnold Appl. Environ. Microbiol 75 2009 Enantioselective alpha-hydroxylation of 2-arylacetic acid derivatives and buspirone catalyzed by engineered cytochrome P450 BM-3 MLandwehr J. Am. Chem. Soc 128 2006 Directed evolution of galactose oxidase: generation of enantioselective secondary alcohol oxidases FEscalettes NJTurner ChemBioChem 9 2008 Rapid Determination of Both the Activity and Enantioselectivity of Ketoreductases MatthewDTruppo FranckEscalettes NicholasJTurner 10.1002/anie.200705046 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 47 14 2008 Wiley Tailoring the Active Site of Chemzymes by Using a Chemogenetic‐Optimization Procedure: Towards Substrate‐Specific Artificial Hydrogenases Based on the Biotin–Avidin Technology GérardKlein NicolasHumbert JulietaGradinaru AnitaIvanova FrançoisGilardoni UntungERusbandi ThomasRWard 10.1002/anie.200502000 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 44 47 2005 Wiley Artificial Enzymes Made to Order: Combination of Computational Design and Directed Evolution ThomasRWard 10.1002/anie.200802865 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 47 41 2008 Wiley Directed evolution of hybrid enzymes: evolving enantioselectivity of an achiral Rh-complex anchored to a protein MTReetz JJPeyralans .-PMaichele AFu YMaywald M Chem. Commun. (Camb.) 4318 4320 2006 Stereoselective Hydrogenation of Olefins Using Rhodium‐Substituted Carbonic Anhydrase—A New Reductase QingJing KrzysztofOkrasa RomasJKazlauskas 10.1002/chem.200801673 Chemistry – A European Journal Chemistry A European J 0947-6539 1521-3765 15 6 2009 Wiley Artificial metalloenzyme for enantioselective sulfoxidation based on vanadyl-loaded streptavidin APordea J. Am. Chem. Soc 130 2008 The protein environment drives selectivity for sulfide oxidation by an artificial metalloenzyme PRousselot-Pailley ChemBioChem 10 545 2009 Artificial metalloenzymes for asymmetric allylic alkylation on the basis of the biotin-avidin technology JPierron Angew. Chem. Int. Ed 47 2008 Diversifying Carotenoid Biosynthetic Pathways by Directed Evolution DaisukeUmeno AlexanderVTobias FrancesHArnold 10.1128/mmbr.69.1.51-78.2005 Microbiology and Molecular Biology Reviews Microbiol Mol Biol Rev 1092-2172 1098-5557 69 1 2005 American Society for Microbiology Directed evolution of metabolic pathways RChatterjee LYuan Trends Biotechnol 24 2006 Directed evolution can rapidly improve the activity of chimeric assembly-line enzymes MichaelAFischbach JonathanRLai EricDRoche ChristopherTWalsh DavidRLiu 10.1073/pnas.0705348104 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 104 29 2007 Proceedings of the National Academy of Sciences Semi-rational approaches to engineering enzyme activity: combining the benefits of directed evolution and rational design RobertoAChica NicolasDoucet JoelleNPelletier 10.1016/j.copbio.2005.06.004 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 16 4 2005 Elsevier BV Engineering enzymes by intelligent design RJKazlauskas SLutz Curr. Opin. Chem. Biol 13 2009",
+      "snippet": "Dispelling the Myths--Biocatalysis in Industrial Synthesis HansESchoemaker DanielMink MarcelGWubbolts 10.1126/science.1079237 Science Science 0036-8075 1095-9203 299 5613 2003 American Association for the Advancement of Science (AAAS) Chemo-enzymatic synthesis of pharmaceutical intermediates RameshNPatel 10.1517/17460441.3.2.187 Expert Opinion on Drug Discovery Expert Opinion on Drug Discovery 1746-0441 1746-045X 3 2 2008 Informa UK Limited Biocatalysis for pharmaceutical intermediates: the future is now DJPollard JMWoodley Trends Biotechnol 25 2007 Trends and innovations in industrial biocatalysis for the production of fine chemicals SPanke MHeld MWubbolts 10.1016/j.copbio.2004.06.011 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 15 4 2004 Elsevier BV Catalytic effectiveness, a measure of enzyme proficiency for industrial applications RichardJFox MichaelDClay 10.1016/j.tibtech.2008.12.001 Trends in Biotechnology Trends in Biotechnology 0167-7799 27 3 2009 Elsevier BV Rapid evolution of a protein in vitro by DNA shuffling WillemPStemmer 10.1038/370389a0 Nature Nature 0028-0836 1476-4687 370 6488 1994 Springer Science and Business Media LLC DNA shuffling of a family of genes from diverse species accelerates directed evolution ACrameri Nature 391 1998 Directed evolution of a para-nitrobenzyl esterase for aqueous-organic solvents JCMoore FHArnold Nat. Biotechnol 14 1996 Creation of enantioselective biocatalysts for organic chemistry by in vitro evol…",
+      "pages": null,
+      "citations": []
+    }
+  ]
+}

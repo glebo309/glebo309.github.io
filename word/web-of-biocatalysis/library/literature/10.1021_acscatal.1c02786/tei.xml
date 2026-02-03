@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine-Directed Evolution of an Imine Reductase for Activity and Stereoselectivity</title>
+				<funder>
+					<orgName type="full">CH-4056 Basel, Switzerland Edward J. Oakeley -Chemical Biology and Therapeutics</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CH-4056 Basel, Switzerland Elke Koch -Chemical Biology and Therapeutics</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CH-4056 Basel, Switzerland Ernst Freund -Global Discovery Chemistry</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CH-4056 Basel</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CH-4056 Basel, Switzerland Holger Schlingensiepen -Chemical Biology and Therapeutics</orgName>
+				</funder>
+				<funder ref="#_Btfx2Mw #_CUSryKN">
+					<orgName type="full">Novartis Institutes for BioMedical Research</orgName>
+					<orgName type="abbreviated">NIBR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-09-24">September 24, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elina</forename><surname>Siirola</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><surname>Moore</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Arkadij</forename><surname>Kummer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Markus</forename><surname>Stoeckli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Faller</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Caroline</forename><surname>Bouquet</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fabian</forename><surname>Eggimann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mathieu</forename><surname>Ligibel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dan</forename><surname>Huynh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Geoffrey</forename><surname>Cutler</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Siegrist</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anne-Christine</forename><surname>Acker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ernst</forename><surname>Freund</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elke</forename><surname>Koch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Markus</forename><surname>Vogel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Holger</forename><surname>Schlingensiepen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><forename type="middle">J</forename><surname>Oakeley</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Radka</forename><surname>Snajdrova</surname></persName>
+						</author>
+						<title level="a" type="main">Machine-Directed Evolution of an Imine Reductase for Activity and Stereoselectivity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-09-24">September 24, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">00942606A0505F5EBAE0061C6DD1D766</idno>
+					<idno type="DOI">10.1021/acscatal.1c02786</idno>
+					<note type="submission">Received: June 21, 2021 Revised: August 30, 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>biocatalysis</term>
+					<term>machine learning</term>
+					<term>enzyme engineering</term>
+					<term>imine reductase</term>
+					<term>reductive amination</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Biocatalysis is an effective tool to access chiral molecules that are otherwise hard to synthesize or purify. Timeefficient processes are needed to develop enzymes that adequately perform the desired chemistry. We evaluated machine-directed evolution as an enzyme engineering strategy using a moderately stereoselective imine reductase as the model system. We compared machine-directed evolution approaches to deep mutational scanning (DMS) and error-prone PCR. Within one cycle, it was found that machine-directed evolution yielded a library of highactivity mutants with a dramatically shifted activity distribution compared to that of traditional directed evolution. Structureguided analysis revealed that linear additivity might provide a simple explanation for the effectiveness of machine-directed evolution. The most active and selective enzyme mutant, which was identified through DMS and error-prone PCR, was used for the gram-scale synthesis of the H4 receptor antagonist ZPL389 with full conversion, &gt; 99% ee (R), and a 72% yield.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="625.436" lry="818.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ INTRODUCTION</head><p>The number of biocatalytic applications in the pharmaceutical industry continues to increase as new engineered and processproven enzymes become available. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Biocatalysis is often associated within the context of API manufacturing, but there are also clear benefits of applying biocatalysis at the discovery phase. For example, stereoselective reactions, synthesis optimization, and the functionalization of new lead compounds can be achieved using enzymes with the same benefits of selectivity and stereospecificity. However, applying enzymes to non-natural reactions usually requires some level of enzyme engineering. As such, time-efficient engineering strategies are therefore needed to access sufficiently active and stable biocatalysts. The use of physics-inspired computational models to engineer enzyme activity is a promising way to rapidly improve enzymes. <ref type="bibr" target="#b2">3</ref> However, the accuracy of the design process still needs improvement to be able to create highly active enzymes from scratch. <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> Machine learning models trained on large data sets combined with directed evolution, hereby termed machine-directed evolution, have been proven to be able to predict sequence-activity-relationships and have the potential to help navigate enzyme sequence space more efficiently. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> Despite the increasing popularity of research in machine learning and enzyme engineering, a direct experimental comparison between directed evolution and machinedirected evolution has only been reported once. <ref type="bibr" target="#b19">20</ref> Arguments in favor of machine-directed evolution have been based on either (1) fully randomly mutating a highly constrained subset of positions, <ref type="bibr" target="#b10">11</ref> (2) making comparisons against a well-studied protein of academic interest, <ref type="bibr" target="#b9">10</ref> or (3) conducting counterfactual simulation studies. <ref type="bibr" target="#b10">11</ref> Additionally, most studies have only optimized a single property of interest, whereas in an industrially relevant situation multiple properties may need to be optimized simultaneously. There may not be high-quality structural data immediately available, and the enzymatic mechanism can depend on both cofactors and the amino acids in the active site. We were interested in operating in a generalized environment without these biases to reflect the goals of biocatalysis in an industrial context.</p><p>A suitable test case to compare experimental directed evolution and machine-directed evolution for improved biocatalytic activity and stereoselectivity was an imine reductase (IRED)-catalyzed asymmetric reductive amination of ketone 1 toward amine 2, an H4 receptor antagonist for the treatment of atopic dermatitis. <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> When evaluating possible disconnections in retrosynthetic approaches, the formation of a chiral secondary amine from the corresponding ketone was scored as the most cost-and atom-efficient solution; however, an IRED with the desired conversion and selectivity was not available at the time. IREDs are gaining importance as biocatalysts in the synthesis of drugs and drug candidates throughout the pipeline, owing to their stereoselectivity toward secondary and tertiary amines. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> Various companies have mined and studied IREDs and have openly disclosed their wild type panels or genome mining techniques. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> Here we present the results of a comparison between machine-directed and experimental directed evolution for reaction conversion and stereoselectivity. Our results show that (1) Pareto-optimized machine-directed evolution, which allows for simultaneous optimization along multiple enzyme properties, is feasible; (2) linear combinations of certain classes of mutations give predictable activity results; and (3) a nuanced cost-benefit trade-off can be useful in guiding decisions as to whether machine-directed evolution is the most efficient approach to apply.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ RESULTS</head><p>Genome Mining. The first goal was to identify a (wild type) IRED capable of catalyzing the reductive amination between the Cbz-protected 3-oxopyrrolidine and methylamine (Supporting Information (SI), Biocatalytic reactions). Several literature enzymes catalyzed the reaction, and both (S)-and (R)-selective catalysts were identified. This was also in line with the previous literature, where AspRedAm catalyzed the analogous reaction of a Boc-protected oxopyrrolidine. <ref type="bibr" target="#b29">30</ref> However, when we tested the bulkier ketone 1 (Figure <ref type="figure" target="#fig_0">1a</ref>), which would give direct access to amine 2, only two enzymes from our in-house panel catalyzed the reaction. From this panel, the most (R)-selective enzyme was IRED-22 from Mycobacterium mageritense (WP_036431480.1). <ref type="bibr" target="#b25">26</ref> This wild type enzyme catalyzed the reaction with a moderate conversion (12%) while exhibiting a good enantioselectivity (ee (R) 97%). IRED-13 <ref type="bibr" target="#b25">26</ref> (WP_046711811.1) was (S)-selective (&gt;99%) and gave a higher conversion (77%) than IRED-22.</p><p>Since naturally occurring imine reductases are mineable from sequence databases, <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> we embarked on genome mining to search for a wild type IRED with a higher activity toward the desired (R)-enantiomer <ref type="bibr" target="#b26">27</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). The first round focused on building a versatile imine reductase panel, relying on a hidden Markov model (HMM, Supporting Information) clustering approach based on active site sequence features and a selection of 96 representatives from the clusters to be expressed and tested. From the first round, our most (R)selective wild type, IRED-88, gave an increased conversion (70%) toward the target reaction; however, it unfortunately gave a decreased selectivity (ee (R) 30%) when compared to that of IRED-22. The second round of mining in which we specifically looked for IREDs similar to IRED-22 and IRED-88 led to an improved catalyst compared to IRED-22 and IRED-88, namely, IRED-88-2 (83% conversion and ee (R) &gt; 99%), demonstrating the power of genome mining when identifying starting points for enzyme evolution. To evaluate the machinedirected evolution, we selected IRED-88 as it provided an opportunity to engineer both the activity and the enantioselectivity. In the high-throughput conditions, where the enzymes were expressed and screened in 384-well micro titer plates, wells expressing IRED-88 yielded approximately 10% </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article conversion. We therefore decided to target a 10-fold improvement in conversion, which translates to full conversion in the high-throughput screening conditions and perfect stereoselectivity (ee (R) &gt; 99%). Due to the respective throughput of each of the two assays, we first prioritized activity, then analyzed the enantioselectivity of only those variants that had improved conversions as compared to that of the wild type IRED-88. Deep Mutational Scanning. A deep mutational scanning (DMS) library (Figure <ref type="figure" target="#fig_1">2a</ref>), containing all 19 amino acid replacements with a single substitution at each individual position of the IRED-88 sequence, was ordered as synthetic DNA, cloned into pET28a(+), transformed into Escherichia coli BL21(DE3), and expressed in 384-well micro titer plates. The cell mass was harvested and chemically lysed, and the supernatants were used to assay the reductive amination of ketone 1 (5 mM) using methylamine and a GDH/glucosebased NADPH-regeneration system. The reaction conversions were analyzed using RapidFire mass spectrometry. We were able to systematically map out the sequence-activity landscape for 82% of all possible DMS mutants of IRED-88 (Figure <ref type="figure" target="#fig_1">2a</ref>). The enzyme activities spanned four orders of magnitude on our measurement scale, from inactive enzymes (in black) to enzymes with increased activity (in yellow). The empirical cumulative distribution of activities from the library (Figure <ref type="figure" target="#fig_1">2b</ref>) showed that most of our variants harbored mutations that destroyed the enzymatic activity. As expected, proline had a general knockout effect on enzyme activity due to its rigidity . The x-axis shows the position on linear amino acid sequence, the y-axis shows the identity of the substituted amino acid ordered alphabetically from top to bottom, and the color is the activity (on a logarithmic scale). Activity units are in fractions, with 1.0 corresponding to 100% conversion and 0 corresponding to 0% conversion. White cells in the heatmap either are variants that we could not measure due to cloning difficulties or correspond to the wild-type sequence. Approximately 82% of all possible single-point mutations have been characterized. The blue line at the top of the heatmap shows positions represented in the IRED crystal structure. (b) Distribution of enzyme activity and (R)-enantiomeric selectivity for a subset of measurements. The maximum activity on the x-axis is 1.0, which indicates 100% conversion. The top row shows the empirical cumulative distribution of enzyme activities. Distributions that are shifted to the right have a larger fraction of actives. The bottom row shows the joint distribution of (R)-chiral selectivity and enzyme activity for a subselection of enzymes of each library. The number of unique mutants measured is indicated inside each plot. Abbreviations are as follows: EPPCR, error-prone PCR; ML, machine learning; SGM, structural-guided mutations-our machine-directed evolution rounds; and LowN, low N engineering. (c) Scaled-up confirmation of the enzyme selectivity and activity for the top two mutants from each round (simultaneously factoring in selectivity and activity).</p><p>causing disruptive effects on both enzyme structure and enzyme function. <ref type="bibr" target="#b32">33</ref> The N-and C-termini of the protein structure had unexpected yet positive effects on the enzyme activity (Figure <ref type="figure" target="#fig_1">2a</ref>). These regions were absent from a solved crystal structure of IRED-88 that we obtained (see the section on structure-guided machine-directed evolution and Figure <ref type="figure">3a</ref>) and thus would have likely been absent from consideration if only the experimental structural information was used to propose mutants in a physics-based design-based strategy.</p><p>The enantioselectivities of 98 DMS mutants were measured. The results ranged from purely (R)-selective to purely (S)selective. The highest (R)-selectivities were obtained with S220T (96% ee), S220N (80% ee), A218M (76% ee), Y177W (60% ee), and M129L (69% ee). Several mutations led to &gt;90% (S)-selectivity. A210Y gave 97% ee (S). Position I212 had a high impact on the (S)-selectivity; I212E, I212K, I212N, and I212S gave ee values of 93, 95, 96 and 94% (S), respectively. It is worth noting that point mutations at position A218 demonstrated it was possible to flip the stereoselectivity (A218L, 73% ee (S); A218M, 76% ee (R)). Using Pareto front selection (Supporting Information, Pareto front selection), S220T was identified as the most efficient mutation. In the high-throughput screening conditions, this variant gave a 70% conversion and 96% ee (R), as compared to the IRED-88 (c 10% and 30% ee (R)). It was intriguing to observe that singlepoint mutations had such pronounced effects on the enantioselectivity. In the absence of an experimental structure of the S220T mutant, one can only speculate about how this mutation affected the observed change in the ee. Residue 220 is part of a helix at the mouth of a tunnel that leads to the nicotinamide cofactor group, as determined using CAVER. <ref type="bibr" target="#b33">34</ref> The Ser side chain stabilizes the loop, but the larger Thr may cause more steric restraints either to entry into the Pro-(S) conformer or the release of the (S)-product, leading to a kinetic preference for the (R)-product. Interestingly, when IRED-88 was aligned with the genome-mined IRED-88-2, Figure <ref type="figure">3</ref>. Mutational effect analysis. (a) Annotation of IRED-88's 3D structure with the amino acids that comprise the active site (blue and cyan), neighbor the active site (red and pink), and are distal to the active site (orange and yellow). The darker shades correspond to chain A of the dimer, while the lighter shades correspond to chain B of the dimer. The red ball in the full 3D structure corresponds to the annotated cavity. (b) Fraction of the unconverted substrate (y-axis) plotted against the prediction from the addition of each mutant's individual fraction of unconverted substrate (x-axis). Each dot is one combined mutant, and dots to the bottom-left corner of each plot are more active. Abbreviations are as follows: AS, residues in the active site were mutated; N, residues neighboring the active site were mutated; D, residues distal to the active site were mutated; and VE, variance explained. VE values closer to the theoretical maximum of 1.0 show that the additive model prediction (on the x-axis) closely matches the empirical measurements (on the y-axis).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article which gave ee (R) &gt; 99% (Supporting Information, Sequences), it was observed that the latter already had Thr in the analogous position.</p><p>Error-Prone PCR. In parallel to the deep mutational scan, one round of error-prone PCR (EPPCR1) was carried out on IRED-88. The mutation rate was set to 1-4 mutations across the entire gene. The mutants were expressed, and approximately 2800 variants were screened similarly to the DMS library. Then, 52 unique variants were subjected to chiral analysis. None of the measured variants gave ee &gt; 90% toward either enantiomer. The best (S)-selective variant (84% ee (S)) was E29K/Y177F/I212T. Based on the Pareto selection, the two best variants from this library were E91D/A187S/A259T (c 54%, 82% ee (R)) and E46D/H230Y (c 13%, 89% ee (R)) (Table <ref type="table" target="#tab_0">1</ref>). These also had the highest (R)-selectivities in this mutant library.</p><p>For the subsequent round of error-prone PCR (EPPCR2), S220T from the DMS library was selected as a starting point on account of its balance of high activity and enantioselectivity. Again, a mutation rate and screening procedure were applied similar to those in EPPCR1. Interestingly, the best two variants in terms of both conversion and selectivity each had only one rather conservative mutation. These were A187S/S220T (c 80%, 98% ee (R)) and A169T/S220T (c 77%, 98% ee (R)). The third round of error-prone PCR (EPPCR3) was conducted on R148P/S220T/H230Y (c 67%, 99% ee (R)), as it displayed a perfect enantioselectivity. The top two variants resulting from EPPCR3 retained the perfect selectivity with slightly improved conversions. D139E/R148P/S220T/H230Y gave c 78% and 99% ee (R), and Q194L/S220T/H230Y gave c 85% and 99% ee (R). The latter, interestingly, had P148 restored back to (R).</p><p>As shown in Figure <ref type="figure" target="#fig_1">2b</ref>, the activity distribution over three rounds of evolution gradually shifted to the right, with more and more mutant enzymes exhibiting increased catalytic activity in the high throughput assay while preserving the desired goal of perfect (R)-enantioselectivity.</p><p>Machine-Directed Evolution. The deep mutational scan described above, and three rounds of error-prone PCR in which over 10 000+ mutants were measured, yielded a gradual right-shift of the activity distributions (Figure <ref type="figure" target="#fig_1">2b</ref>). In parallel, our goal was to measure the activity distribution of mutants prioritized by machine-directed evolution and compare these against error-prone PCR. We used measurements of IRED-88 mutants collected from the DMS and EPPCR1 libraries, numbering approximately 5000 unique mutants, to train a random forest sequence-activity model with protein descriptors calculated using UniRep 1900. <ref type="bibr" target="#b12">13</ref> The only measurements used to train the model were the measurements available to us at the time this experiment was conducted. The model was used to score in silico proposed mutants. Though the training set for enantioselectivity was much smaller, a similar model for (R)-enantioselectivity was built. The in silico-proposed mutants were rank-ordered according to the random forest prediction models, and Pareto selection was performed along the activity and (R)-enantioselectivity axes to predict 200 mutants that spanned a diverse sequence space. Of these, 168 mutants were successfully expressed and screened. Together they exhibited the greater right-shifted cumulative distribution function of activities (Figure <ref type="figure" target="#fig_1">2b</ref>, "ML" panel) compared to those of the error-prone PCR rounds (EPPCR1-3) while involving order of magnitude fewer measurements. The enantioselectivities of 91 mutants were determined. The enantioselectivity values were diverse, which was the result of applying the Pareto selection across proposed mutants scored using two models. Twenty-seven of the measured mutants gave ee (R) &gt; 75%.</p><p>The highest ee values were obtained with S117H/A218M/ A296T (c 74%, 81% ee (R)) and A218M/A259T/A303 K (c 83%, 79% ee (R)) (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Structure-Guided Machine-Directed Evolution. X-ray crystallography provided us with a 3D structure of wild type IRED-88 (Figure <ref type="figure">3a</ref>) (Table <ref type="table">6</ref> in the Supporting Information provides refinement statistics, PDB 7OG3). This facilitated both the testing of the combination of structure-guided and machine-directed evolution and the investigation of the linear additivity of mutations. Starting with the deep mutational scanning data, a set of top active mutants was selected according to the following three classes: in the active site, neighboring the active site, and distal to the active site. Combinations of double and triple mutants were generated, some that contained only mutants of a single class and others that contained mutants of multiple classes. Using data from DMS, EPPCR1, and EPPCR2 covering approximately 8000 unique mutants, a random forest model was trained using UniRep descriptors to score the in silico generated mutants. Once again, the only measurements used to train the model were the measurements available at the time of the decision to conduct this experiment. We prioritized them by their expected activities within each category of mutation combinations. The mutants were expressed and assayed. As with machine-directed evolution, a significant right-shifted cumulative activity distribution (Figure <ref type="figure" target="#fig_1">2b</ref>, SGM panel) was observed, with enantioselectivities spanning the near-perfect (R)-or (S)-selective enzymes. Enantioselectivities of 89 variants were determined, and the top two variants from this approach, namely, M129L/V175 K (c 71%, 92% ee (R)) and M129L/A156S/Y177W (c 59% 93%, ee (R)) both shared an active site mutation M129L (Table <ref type="table" target="#tab_0">1</ref>). This point mutation alone resulted in 84% ee (R) and c 27%, mainly impacting the stereoselectivity rather than the activity. V175 K gave 71% ee (R) and c 56%, whereas Y177W alone yielded 80% ee (R) and Low N Engineering. Finally, to achieve a real-life simulation of low N situations, such as when an assay is extremely expensive, laborious to perform, or challenging to set up in a high-throughput manner, a modified form of low N engineering <ref type="bibr" target="#b12">13</ref> was applied. Twenty mutants were randomly picked from the DMS library, and their previously measured activities were used as the starting point. Fitting a sequenceactivity model (Materials and Methods), double and triple combinations of the top mutants from this set were scored. Of thousands of rank-ordered mutants, 20 variants were generated by gene synthesis, expressed, and assayed. Surprisingly, the activity distribution was again right-shifted (Figure <ref type="figure" target="#fig_1">2b</ref>, Low N panel) relative to all the rounds of traditional directed evolution, though not as significantly as with the machinedirected and structure-guided engineering rounds. Enantioselectivity data for these mutants were not collected as enatioselectivity was not explicitly one of the criteria; thus, only moderate gains in enantioselectivities were observed. The best two hits from the low N approach were E261Q/S304K (c 46%, 67% ee (R)) and E261Q/A303 K/S304A (c 44%, 71% ee (R)) (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Final evaluation of evolution winners. The overall workflow of the enzyme engineering methods, models, and data sets used in this study are illustrated in Figure <ref type="figure" target="#fig_2">4</ref>. The next step was to undertake a final unified evaluation of each of the mutant pools. Each pool of mutants was ranked by Pareto selection and the top two mutants from each pool were selected, resulting in 14 variants in total (Table <ref type="table" target="#tab_0">1</ref>). The observed mutations were distributed in a variety of positions, covering the active site, neighboring, and distal residues.</p><p>The 14 selected enzyme variants were expressed in shake flasks from which lyophilized lysates were prepared. Based on the SDS-PAGE analysis, all variants appeared to be wellexpressed similar to the wild type. Their activity and enantioselectivity were measured at a 1 mL scale under three substrate concentrations, namely, 5, 50, and 100 mM. At the 5 mM concentration (Figure <ref type="figure" target="#fig_1">2c</ref>), which was identical to the high-throughput screening condition but had a higher enzyme concentration due to the improved expression in shake flasks, all enzymes including the wild type provided near-quantitative conversions. Those variants that contained S220T also gave ee (R) &gt; 95%. At the 100 mM substrate concentration, the second-and third-round error-prone PCR winners (EPPCR2 and EPPCR3), the machine-directed winners, and one structure-guided winner all gave a desirable combination of a high conversion and a high (R)-enantioselectivity. Interestingly, for the Low N engineering hits E261Q/S304 K and E261Q/A303 K/S304A, reduced enantioselectivities at the 50 and 100 mM substrate concentrations were observed, which might be due to stability issues of the enzymes at a higher substrate load.</p><p>Gram-Scale Reaction. Based on the analytical-scale reactions at a 100 mM substrate load, EPPCR3 mutants proved to be the most robust in terms of conversion and enantioselectivity. Hence IRED-88-Q194L/S220T/H230Y was selected as the scale-up catalyst to see how it would perform at a 1 g scale. The substrate concentration was maintained at 100 mM (1.36 g in 55 mL, 10% (v/v) DMSO). With an enzyme-to-substrate ratio of 1:10 (w/w), a 58% conversion was achieved after 16 h. In the second attempt with an increased enzyme load of 1:5 (w/w), full conversion and 98% ee (R) were obtained. The product was isolated as a tartrate salt, ee (R) &gt; 99%, with a yield of 72%. This variant thus proved to be a sufficiently robust catalyst for the gramscale synthesis of amine 2.</p><p>Thermal Stability and Reaction Rates. To simplify activity screening campaigns, our mutant enzyme variants were screened as crude lysates in microtiter plates. The confirmatory scale-up experiments involved shake flask cultures and milliliter-scale reactions. The change in the growth, the expression, and the reaction volume may explain why our variants have appreciably different conversions in screening conditions versus scaled-up conditions. To elucidate possible specific mechanistic improvements to IRED-88, three selected variants and the wild type (Table <ref type="table" target="#tab_1">2</ref>) were purified and their initial reaction rates and stabilities were analyzed. The chosen </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article variants for this comparison were S220T (DMS), S117H/ A218M/A296T (machine-directed evolution), and Q194L/ S220T/H230Y (EPPCR3). Differential scanning fluorimetry of the purified protein revealed that the melting temperature of S220T was consistent with that of the wild type (43 and 42 °C, respectively). S117H/A218M/A297T had a slightly elevated melting temperature (48 °C), and the most stable of the measured variants was Q194L/S220T/H230Y used in the scale-up experiment (melting temperature 57 °C). In addition, the specific activity of the latter (106 mU/mg) was roughly twice the activity of the wild type (45 mU/mg). As such, this study demonstrated that improving the catalytic performance of IRED-88 can be achieved through a combination of enhancements to the specific activity and the thermal stability.</p><p>In addition to machine-directed evolution, physics-based methods of simulation may be considered. However, driving such multiparameter optimizations brings additional challenges and is more computationally expensive.</p><p>Linear Additivity of Mutations. The structure-guided machine-directed evolution round (SGM) provided us with the necessary data set to test ideas about the additivity of mutational effects. As the measurements were a fraction converted in the range [0, 1], the measurement value can be treated as a probability of conversion. Under the assumption of mutational effects operating independently (i.e., additively), one would expect that combining individual mutations would result in their conversion probabilities being multiplied. Additivity will then be visible in the log of the fraction unconverted. Taking each of the double and triple mutants and calculating their expected log (fraction unconverted) under additive assumptions, we compared the calculated data with the measured activities. Activities falling near the y = x line indicate additivity correctly predicting the enzyme activity, whereas deviations from the y = x line indicate negative or positive epistasis. As is evident in Figure <ref type="figure">3b</ref>, negative epistasis is prevalent whenever the mutations are in the active site. The involvement of mutations neighboring the active site helps improves the additive predictability, though additivity is most evident when only distal mutations are considered. This is consistent with the hypothesis that mutations in the active site and nearby residues are strongly cooperative and that distal mutations (which most likely affect stability or expression) can act independently.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ DISCUSSION</head><p>Engineering Imine Reductases. Genome mining efforts from multiple academic and industrial research groups have provided a rich set of wild type enzymes to the community. <ref type="bibr" target="#b34">35</ref> These enzyme panels provide access to a broad substrate scope, even for bulky compounds, and high (S)-and (R)selectivities are observed. Based on our experience, the reaction rates and stabilities of these wild type enzymes are often insufficient for medicinal chemistry-scale applications. Enzyme engineering reports to address the reaction efficiencies of IREDs have recently started to emerge. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> Researchers at GSK engineered an IRED toward a better efficiency in kilogram-scale process conditions. They targeted the enzyme's pH tolerance, increased the substrate load, and reduced the enzyme load. <ref type="bibr" target="#b22">23</ref> The selected wild type, IR-46, already exhibited perfect enantioselectivity, which was retained over the course of evolution. The substrate load was doubled from 10.5 to 20.1 g/L. The higher substrate load corresponds to 67 mM, which the engineered mutant M3 converted by 95.6%. Xu et al. improved the reaction rate of their IRED, IR1, 12-fold with two mutations. This double mutant facilitated a 100 mM reaction with an 86% isolated yield. <ref type="bibr" target="#b35">36</ref> Perfect enantioselectivity of the wild type enzyme was also retained in this case. In the third example, Yang et al. could increase the substrate tolerance of an IRED by a rational approach in which two bulky residues, W191 and F190, aligned at the bottom of the enzyme's substrate binding pocket were mutated into smaller residues. <ref type="bibr" target="#b36">37</ref> Again, the already perfect (S)-stereoselectivity of the wild type was retained. These examples are encouraging because they demonstrate that activity improvements in IREDs are feasible by applying various engineering strategies, even with just a few mutations.</p><p>The available IRED panels provided sufficient sequence information for a hidden Markov model to be built to find new wild type IREDs. In this present study, machine learning models were not employed in the initial selection of IRED-88 as a starting scaffold. However, machine learning models could be considered for other enzyme classes and target reactions, and a major future opportunity for machine learning in protein science (in the same spirit as CASP <ref type="bibr" target="#b37">38</ref> ) is to find families of potential enzyme matches for an arbitrary reaction. Such work is emerging <ref type="bibr" target="#b38">39</ref> and would be impactful for all enzyme engineers.</p><p>Advantages and Challenges of Machine-Directed Evolution. Machine-directed evolution is a promising emerging technology, as demonstrated by the many recent publications in this field. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref> Although it is also possible to predict the effects of mutations on function with physics-based methods, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b42">43</ref> expensive complex simulations, even to the QM/MM level, are needed to model the function to obtain suitable levels of accuracy. Machine-directed evolution can be derived from various experimental observations, including enantioselectivity and conversion. Only the enzyme sequence is required rather than detailed 3D structural information of the complex. Although the interpretation of the model can be a challenge, machine-directed evolution is a general approach for any protein system.</p><p>With experimental data confirmation, we have shown that machine-directed evolution is a sample-efficient strategy to engineer IRED-88. By screening only a fraction of enzymatic variants, mutants were obtained that had comparable activities and enantioselectivities to those coming from traditional methods. <ref type="bibr" target="#b43">44</ref> In cases when the assays are expensive, the reduced screening effort has the potential to significantly speed up the mutagenesis work. To our knowledge, this is the first report on using a machine-learning approach for the evolution of IREDs, simultaneously improving the activity and enantioselectivity while comparing the established mutagenesis protocols in parallel.</p><p>Similar to other enzyme engineering approaches, we found it is important to confirm the HTP screening results with reexpressed enzymes and larger reaction volume. The scale-up results also shed some light as to when machine learning models can be used and where their limits exist. Even though the best machine-evolved enzymes exhibited similar activities and stereoselectivities compared to those of the experimentally evolved enzymes at a low (5 mM) substrate concentration, some had lower stereoselectivities than the EPPCR3 enzymes at the higher substrate load (100 mM). This could be addressed by intensifying the HTP screening conditions over the course of the evolution: however, that would increase the complexity of the ML models. Considering this, the immediate value of machine-directed evolution likely lies not in the oneshot achievement of the perfect enzyme but instead in helping enzyme engineers make better shots on goal, reducing the number of enzyme variants to be measured en route to a desirable enzyme under realistic process conditions. Here, Bayesian optimization <ref type="bibr" target="#b44">45</ref> is likely a productive strategy to use as it has been shown to outperform human-only judgment calls in chemical reaction optimization, and the core idea may be applicable to enzyme engineering. Additionally, a sequencebased enzyme activity prediction model that is explicitly trained without diverse reaction conditions would be a challenge to extrapolate effectively. It is possible to reliably predict effects of adding mutations. Linear additivity was observed whenever mutations that occurred outside the active site were combined. Given that the majority of amino acid residues in an enzyme are located in the noncatalytic sites, <ref type="bibr" target="#b45">46</ref> then at least for enzymes a large fraction of desirable amino acid effects are likely to be additive with one another. This observation is a possible explanation for why simply combining pairs of good-performing mutants without the knowledge of the structure is feasible. Additionally, combinations of mutations that affect substrate or transition-state binding, protein-protein interactions, DNAprotein recognition, or protein stability in other enzymes and proteins have exhibited simple additivity. <ref type="bibr" target="#b46">47</ref> However, when mutated residues have a strong interactions with each other, the linear additivity may be lost. Approaches such as CASTing <ref type="bibr" target="#b47">48</ref> have engineered enzymes successfully by simultaneously mutating neighboring residues in the active site. The additivity observations also have practical implications for training machine learning models to learn sequence-function relationships.</p><p>For enzymes, complex machine learning models are probably unnecessary for accurately predicting the effects of adding most mutations together. Additionally, complex models (such as those of the overparametrized neural network class) are only likely to be necessary in the prediction of additive active site mutations. Armed with this knowledge, if the enzyme engineering goal is to leap through the catalysis space to perform other reactions, then focused data collection, model building, and evaluation efforts that target the catalysis site are likely to be most informative.</p><p>When is it fruitful to apply machine learning to enzyme engineering? A Fermi estimation model (Supporting Information, Machine learning) logically leads to practical guidance on when machine-directed evolution is best applied. When the assay is an an operational bottleneck (due to cost, scale, or time), machine-directed evolution can have a significant impact. Even though ML models may be data-hungry, low N engineering might still be feasible if the linear additivity of mutational effects holds. Given that ultra-high-throughput evolution approaches are still under development and are currently difficult to implement in industrial settings, machinedirected evolution may be able to compress enzyme development timelines. As such, when extreme high-throughput <ref type="bibr" target="#b48">49</ref> or continuous evolution <ref type="bibr" target="#b49">50</ref> can achieve enzyme engineering goals, that likely should be the preferred strategy for enzyme evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ CONCLUSION</head><p>Considering the data presented in this study, we believe that machine-directed evolution is an effective part of an enzyme engineer's toolkit. Simple linear additivity, arising from combining effective individual mutations outside the active site, may help explain a large fraction of the effectiveness of machine-directed evolution.</p><p>From this research, we conclude that machine-directed evolution has its own sweet spot in enzyme evolution applications. This study contributes to showing its potential to efficiently explore a large sequence space. To engineer an enzyme to have a desired property, multiple evolution strategies are possible, and the choice of strategy depends on the available resources. We predict that machine-directed evolution will become a standard process in the enzyme engineer's toolbox.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ MATERIALS AND METHODS</head><p>Mutant Libraries and Synthetic Genes. Wild type imine reductase genes, including IRED-88, and machine-directed mutants were synthesized and cloned into pET28a by Genscript using either NdeI/XhoI or HindIII/XhoI cloning strategies. A deep mutational scanning library was constructed by Twist Bioscience (San Francisco, CA). Error-prone PCR was utilized to generate between 1 and 4 mutations per mutant clone using the GeneMorph II Random Mutagenesis kit (Agilent) according to the manufacturer's instructions. As a template, 100 ng of plasmid DNA was. Primers were ordered from Microsynth (reverse 5′-GGTGGTGCTCGAGTTAGG-3′ and forward 5′-GGCAGCCATATGACTAATCAC-3′). PCR was run with 30 cycles, an annealing temperature of 55 °C, and an elongation time of 75 s. PCR products containing NdeI and XhoI restriction sites were cloned into pET28a using the Rapid DNA Ligation Kit (Roche) according to themanufacturer's instructions. All genes and mutant libraries were electroporated overnight into E. coli BL21 (DE3) (Invitrogen or New England Biolabs) and cultured on LB (10 g/L tryptone, 5 g/L yeast extract, and 0.5 g/L NaCl, pH 7.0) agar that contained 50 μg/mL kanamycin sulfate at 37 °C.</p><p>High Throughput Expression and Assay. E. coli BL21(DE3) transformants were picked in 384 flat-bottom microtiterplates (Greiner) prefilled with 40 μL of the MDAG-135 medium (2 mM MgSO 4 , 25 mM Na 2 HPO 4 , 50 mM NH 4 Cl, 5 mM Na 2 SO 4 , 0.1% aspartate, 25 mM KH 2 PO 4 , 0.35% (w/v) glucose, 50 μM FeCl 3 , 20 μM CaCl 2 , 10 μM MnCl 2 , 10 μM ZnSO 4 , 2 μM CoCl 2 , 2 μM CuCl 2 , and 2 μM NiCl 2 ; 200 μg/mL of each standard amino acid without cysteine and tyrosine) that was supplemented with kanamycin (50 μg/mL) using the MegaPix II colony picker (Genetix, Molecular Devices). Cultures were grown overnight at 37 °C, 90% humidity, and 1000 rpm and were used as precultures for expression, PCR template for sequencing, and glycerol stock preparation. Onto new 384 flat-bottom microtiterplates prefilled with 40 μL of the Tbmod medium (24 g/L yeast extract, 12 g/L tryptone, 1.2 g/L NH 4 Cl, 0.052 g/L K 2 HPO 4 , and 0.041 g/L KH 2 PO 4 , pH 7.0) supplemented with kanamycin (50 μg/mL) and lactose (5 g/L) was transferred 2 uL from each well. The inoculation step was carried out with</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article a 384-head pipetting device (Cybio Vario). Expression cultures were incubated for 6 h at 37 °C, 90% humidity, 1000 rpm and then shifted to 30 °C, 90% humidity, 1000 rpm for overnight incubation. Cells were harvested by centrifugation (20 min, 4000 rpm), and the supernatants were discarded. The resulting cell pellets were resuspended in 20 μL of lysis buffer (100 mM potassium phosphate, 1 mg/mL lysozyme, and 0.2 μL/mL benzonase nuclease, pH 8.0) and incubated for 30 min at 30 °C. To each well was added 20 μL of the reaction buffer (100 mM potassium phosphate, 2 mM NADP, 60 mM D-glucose, 0.4 mg/mL GDH-901, 400 mM methylamine hydrochloride, 10 mM 1, and 5% DMSO, pH 8.0), and the plates were further incubated at 30 °C and 1000 rpm for 16 h. Finally, the reactions were quenched with 40 μL of acetonitrile and clarified by centrifugation. A 1:50 dilution in Milli-Q water was prepared using Cybio Vario and subjected to analysis. DNA Sequencing. From E. coli transformants picked on a colony picker and grown overnight for expression cultures, PCR plates (Twin.tec 384-well PCR plate, Eppendorf, part no. 0030129350) were prepared that contained 1 μL of the culture and 3 μL of Milli-Q water. To the plates were added 500 nL of primers (Supporting Information; Integrated DNA Technologies) with an Echo525 (Labcytes), and PCR was run with NEBNext Q5 Hot Start HiFi PCR MasterMix (NEB, Part Number M0543L), 30 cycles, an annealing temperature of 58 °C, and an elongation time of 30 s.</p><p>Because the samples were amplified in sets of multiple 384well plates, we designed 16 forward primers to indicate the rows "A-P" and 24 reverse primers to indicate the columns "1-24" (Supporting Information, Sequencing primers). Each primer has three logical units; for example, for well A1 we used (1) 5′-NNNN with balanced N's to reduce consistent wellspecific and SMRT-bell specific ligation biases we observed in library construction (data not shown), (2) CCAACCGGCC-AACC as the forward primer index sequence to indicate row "A" and TTAAGGCCAATTAA as the reverse primer index sequence to indicate column "1", (3) all the row primers ending with the gene-specific sequence GCTAGTTATT-GCTCAGCGG and all the column primers ending with TAATACGACTCACTATAGG. After PCR, all the wells for a plate were pooled with EpMotion 5075 (Eppendorf) and cleaned up with NucleoSpin gel and PCR clean up (Macherey-Nagel, part no.740609). One standard PacBio library was made for each 384-well plate using the commercially available 16v3 indexed SMRT bell set. With plate indexing, we could multiplex up to 1536 amplicons per SMRT cell on the PacBio Sequel instrument and 6144 on the Sequel IIe instrument (Pacific Biosciences, Menlo Park, CA). Amplicons were sequenced with 20 (Sequel) or 30 h (Sequel IIe) movies using the manufacturer's recommendations. HiFi reads were generated using SMRTlink vers. 9 and 10 (Pacific Biosciences, Menlo Park, CA) and demultiplexed with lima (<ref type="url" target="https://github.com/PacificBiosciences/barcoding">https://github.  com/PacificBiosciences/barcoding</ref>). We used 20 h movies on the Sequel instrument and 30 h movies on the Sequel IIe instrument.</p><p>After an initial DNA quality control using a TapeStation 2200 (Agilent Technologies) on a D5000 Screen Tape (Agilent Technologies, part no. 5067-5588), 150 ng of DNA were submitted to DNA damage repair and end-repaired or Atailed using the SMRTBell Express Template Prep Kit 2.0 (PacBio, Part Number 100-938-900) according to the manufacturer's instructions. Adapters were ligated using the Barcoded Overhand Adapter kit 8a + 8b (PacBio, Part Number 101-628-500), followed by a nuclease treatment with the SMRTBell Enzyme Cleanup kit (PacBio, Part Number 101-746-400). Finally, two AMPure PB bead purifications were performed, and the final SMRT bell templates were eluted in 20 μL of EB. Final quantification was carried out on the Qubit 4.0 system (Invitrogen, part no. Q33238) using the Qubit dsDNA HS Assay kit (Invitrogen, part no. Q32854) with 1 μL of library, and a final quality control was performed on a TapeStation 2200 (Agilent Technologies) system on a D5000 Screen Tape (Agilent Technologies, part no. 5067-5588).</p><p>Crystal Structure. Data sets were collected at a 1.0 Å wavelength with a PILATUS 6 M detector at the Swiss Light Source beamline X10SA (Villigen, Switzerland). Data were collected by Expose GmbH software. Diffraction images were processed and scaled using AutoPROC. <ref type="bibr" target="#b50">51</ref> Structures were solved by molecular replacement (Phaser <ref type="bibr" target="#b51">52</ref> ). The initial model was subjected to iterative cycles of manual rebuilding and subsequent structure refinement in Coot <ref type="bibr" target="#b52">53</ref> and autoBuster, respectively. The ligand structure was built into unbiased Fo-Fc difference electron density calculated by autoBuster. Final structure refinement statistics are summarized in the Table <ref type="table">6</ref> of the Supporting Information. Refined coordinates were deposited to the PDB with entry number7OG3.</p><p>Library Design Strategies. Our library design strategies are described below.</p><p>In the deep mutational scanning (DMS), we created a library of all single-point mutants of IRED, effectively obtaining a matrix of the position-by-substitution of the data.</p><p>In experimental evolution, the best mutant from the site saturation library was identified, and error-prone PCR was used to evolve the enzyme iteratively. This is the traditional enzyme evolution workflow, albeit with a better starting point than usual. The first round of error-prone PCR used the wildtype enzyme as the starting point for evolution, while the subsequent two rounds used the winner of DMS (S220T) and the winner of EPPCR2 (R148P/S220T/H230Y) as starting points for the evolution, respectively.</p><p>In machine-directed evolution, a model was built on all available sequence-activity data and was used to score and rank-order the proposed new mutants. In silico proposed enzyme variants were simple double-and triple-combinations of the best-measured mutants. A total of 200 mutants were generated by gene synthesis.</p><p>In structure-guided machine-directed evolution, the IRED-88 structure was used to classify residues as being within the active site, neighboring the active site, or distal to the active site (Materials and Methods). The top single mutants in each category were identified, and mutants were scored using a machine learning model fitted on all available sequenceactivity data at the time. A total of 220 mutants, which were split into combinations of each of the categories, were ordered. This experiment tests additivity hypotheses with respect to the enzyme activity.</p><p>In low N engineering, a small subset of the site saturation library was picked at random, and a random forest model was fitted just on that subset of enzyme's activity data. The model was used to score in silico generated sequences, which were generated using Monte Carlo sampling. This is inspired by, but not the same as, the low N engineering protocol described previously. <ref type="bibr" target="#b12">13</ref> Machine Learning Model Fitting, Monte Carlo Sequence Generation, and Model-Based Prioritization for the ML Experiment. A Markov Chain Monte Carlo-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article inspired procedure was used to propose new sequences in the "ML" experiment. The top 20 sequences (as measured by their activity) were taken and used as starter sequences for new protein sequence proposals. For a given starter sequence, a position was picked uniformly at random. Conditioned on that position, a new amino acid was picked to mutate to a random selection from the rest of the 19 standard amino acids. The new sequence was then scored using the trained random forest model. If its predicted activity was higher than the current sequence's activity, then it was accepted as the next starting sequence; otherwise, we used the Metropolis-Hastings criteria to decide acceptance. The number of allowed mutations was capped at 7, mirroring the trust radius concept previously described. <ref type="bibr" target="#b12">13</ref> Twenty chains per each of the 20 starter sequences were run for 1000 steps each, giving a total of 400 000 proposed sequences that were scored by a random forest test (see the Supporting Information under the "Machine learning model settings" section for details) for both activity and enantioselectivity. Rejected sequences were still stored as part of the history to avoid discarding potentially good sequences. Pareto front selection (see the Supporting Information under the section "Pareto front selection" for details) was applied across the entire suite of proposed sequences, and the top 200 were ordered by gene synthesis. The data set used to train the random forest model came from the site saturation library (DMS) and approximately 1/3 of EPPCR1. Cross-validated model performance is available in the Supporting Information under the section, "Machine learning model performance". Protein sequences were featurized using UniRep1900. We note that the availability of enantioselectivity data was limited because of our protocol, where we prioritized a subset of mutants based on activity to take forward into a lower-throughput enantioselectivity assay.</p><p>Machine Learning Model Fitting, Combinatorial Sequence Generation, and Model-Based Prioritization for the SGM Experiment. The SGM experiment was conducted after additional data had been collected from the EPPCR1, EPPCR2, and ML experiments. Our goal here was not explicitly to compare the ability of ML models to better prioritize mutants but rather to test seven hypotheses (see the Supporting Information under the "Additivity hypotheses" section for details) with respect to the linear additivity of mutational effects from combinations of active site, neighboring, and distal residues. Hence, starting with single mutants measured in the deep mutational scan, we identified the top 50 mutants (by activity) that we had measured. We then generated double and triple combinations of each of those mutants, forming a set of 20 000+ mutants to consider.</p><p>We then trained two random forest top models on UniRep1900 reps using all available measurements that were made before we decided to do this experiment (all the DMS, EPPCR1, and ML data and about half the EPPCR2 data that was eventually collected). One model was for the activity and the other was for the enantioselectivity; we used those models to score each of the 20 000+ combination mutants. Pareto front selection was applied across the suite of proposed sequences, and 30+ mutants per hypothesis, as picked by Pareto front selection on the predicted activity and selectivity, were ordered, totaling 220 mutants. As with the ML experiment, enantioselectivity data were limited compared to the activity data because of our protocol.</p><p>The classification of residues into three disjoint classes (active site, neighboring, and distal) was done according to the following arbitrary but reasonable scheme. Residues with atoms within 5 Å of the NADP cofactor were put in the class "active site". Usually one would use the ligand as reference, but no experimental structure exists. Neighboring residues are defined using the CAVER program <ref type="bibr" target="#b33">34</ref> (using default settings) to map a path from the active site to the bulk (please see the Supporting Information under the section "Cavity identification using CAVER" for a visual mapping of the cavity that was identified). Distal residues are any other residues. The classification was done using the cofactor in site A of the dimer. The boundary between the neighboring and distal residues at the mouth of the site is parameter-setting dependent but is qualitatively correct.</p><p>Machine Learning Model Fitting, Monte Carlo Sequence Generation, And Model-Based Prioritization for the Low N Experiment. In the final machine-directed evolution experiment, we simulated the scenario where we were ignorant of all of our data collected to date and were instead starting from the wild type enzyme. Taking advantage of the fact that deep mutational scanning data was available, 20 mutants were chosen at random from the DMS pool of mutants as the starter suite of measurements. The same Monte Carlo sequence generation protocol used in the ML experiment (described above) was used to generate the pool of mutants produced in silico.</p><p>To score the mutants, a machine learning model trained only on the starter 20 mutants' measurements and wild type activities was used; enantioselectivity was not considered because of a lack of data points for their enantioselectivities. Thus, no Pareto front selection was used, as only the activity was being optimized in this experiment due to a lack of enantioselectivity training data for the mutants selected.</p><p>Thermal Stability Calculations. Studies were done into the effects of distal and neighboring mutants on the thermal stability of the protein following the FRESCO protocol. <ref type="bibr" target="#b42">43</ref> The set of residues for mutation was defined as the residues with no atom within 5 Å of the cofactor in site A. An initial scan was performed with the Rosetta ddg_monomer protocol, <ref type="bibr" target="#b53">54</ref> with a window of 5 Rosetta units, and similarly for FoldX, <ref type="bibr" target="#b54">55</ref> to find candidates for further study. Doing so captures both the surface and buried residues. Although IRED-88 is a homodimer, the mutations were only performed on the monomer A at this stage but were evaluated in the context of the dimer structure. This will be approximate at the dimer interface, but it is assumed that the interface packing will need concerted double mutants to be maintained. Mutants selected by this protocol were then evaluated in the moe protein_design protocol using dynamics (AMBER, merck-frosst force field, and PBC with an explicit water box) via a python script used to set up the svl script. Mutants showing any increase of more than 1 kcal/mol in energetic stability with respect to the wild type were retained for visual inspection. This method is approximate but is much less expensive than free-energy perturbation methods. <ref type="bibr" target="#b55">56</ref> The assumption is that mutants with an increased thermal stability will be expressed at a higher rate and will degrade more slowly, giving the appearance of higher turnover but without necessarily affecting the K m of the enzyme. It is assumed that the effect of a mutation is independent of any other mutation; this would break down if the mutations are spatially close, but this was not the case in this system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACS Catalysis pubs.acs.org/acscatalysis</head><p>Research Article</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) Reaction scheme. IRED-catalyzed formation of amine 2 from ketone 1. (b) Genome mining was used to uncover additional IRED variants with a variety of activities. A training set of 26 known IRED sequences with confirmed activities (see the SI) was used to build a hidden Markov model (HMM), which was used to select a database of 15 000 putative IREDs. 96 cluster representatives were ordered as synthetic genes and tested, and the 20 best catalysts were also tested as lyophilized lysates. (c) Conversion of 1 to 2 catalyzed by the 20 best genome-mined IREDs (lyophilized lysates). (d) Machine-directed evolution overview. A machine learning model was trained on all available data and used to score in silico proposals. The proposals are ranked by their expected activity, and the top K, which varied according to the strategy tested, was ordered.</figDesc><graphic coords="2,136.91,69.17,351.10,231.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Measurements of enzyme activity. (a) Deep mutational scan (DMS) of IRED-88 and the associated high-throughput enzymatic conversion (activity). The x-axis shows the position on linear amino acid sequence, the y-axis shows the identity of the substituted amino acid ordered alphabetically from top to bottom, and the color is the activity (on a logarithmic scale). Activity units are in fractions, with 1.0 corresponding to 100% conversion and 0 corresponding to 0% conversion. White cells in the heatmap either are variants that we could not measure due to cloning difficulties or correspond to the wild-type sequence. Approximately 82% of all possible single-point mutations have been characterized. The blue line at the top of the heatmap shows positions represented in the IRED crystal structure. (b) Distribution of enzyme activity and (R)-enantiomeric selectivity for a subset of measurements. The maximum activity on the x-axis is 1.0, which indicates 100% conversion. The top row shows the empirical cumulative distribution of enzyme activities. Distributions that are shifted to the right have a larger fraction of actives. The bottom row shows the joint distribution of (R)-chiral selectivity and enzyme activity for a subselection of enzymes of each library. The number of unique mutants measured is indicated inside each plot. Abbreviations are as follows: EPPCR, error-prone PCR; ML, machine learning; SGM, structural-guided mutations-our machine-directed evolution rounds; and LowN, low N engineering. (c) Scaled-up confirmation of the enzyme selectivity and activity for the top two mutants from each round (simultaneously factoring in selectivity and activity).</figDesc><graphic coords="3,121.10,69.17,382.79,394.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Overall workflow of the enzyme engineering methods, models, and data sets used in this study. Rounded boxes show the mutagenesis approach and data set. Circles show the machine learning models. Red bars show the conversion. Blue bars show the ee (R) (see Table 1 for the exact values). Dotted lines connect the data sets with the associated model. A fraction of EPPCR1 was used in the ML model, and a fraction of EPPCR2 was used in the SGM model. Solid lines indicate the output of a model or the starting point of a mutagenesis round.</figDesc><graphic coords="6,147.35,69.17,330.24,202.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,131.41,69.17,362.15,386.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Overview of the 14 Selected Variants and Their Conversion and ee in the High-Throughput Screening Conditions</figDesc><table><row><cell></cell><cell>position</cell><cell>evolution</cell><cell>c</cell><cell>ee (R)</cell></row><row><cell>IRED</cell><cell>classes</cell><cell>strategy</cell><cell>(%)</cell><cell>(%)</cell></row><row><cell>S220T</cell><cell>AS</cell><cell>DMS</cell><cell>70</cell><cell>96</cell></row><row><cell>A296I</cell><cell>D</cell><cell>DMS</cell><cell>73</cell><cell>67</cell></row><row><cell>E91D, A187S, A259T</cell><cell>D, N, D,</cell><cell>EPPCR1</cell><cell>54</cell><cell>82</cell></row><row><cell>E46D, H230Y</cell><cell>D, AS</cell><cell>EPPCR1</cell><cell>13</cell><cell>89</cell></row><row><cell>A187S, S220T</cell><cell>N, AS</cell><cell>EPPCR2</cell><cell>80</cell><cell>98</cell></row><row><cell>A169T, S220T</cell><cell>D, AS</cell><cell>EPPCR2</cell><cell>77</cell><cell>98</cell></row><row><cell>S117H, A218M, A296T</cell><cell>D, N, D</cell><cell>ML</cell><cell>74</cell><cell>90</cell></row><row><cell>A218M, A259T, A303K</cell><cell>N, D, D</cell><cell>ML</cell><cell>83</cell><cell>89</cell></row><row><cell>D139E, R148P, S220T,</cell><cell>N, D,</cell><cell>EPPCR3</cell><cell>78</cell><cell>99</cell></row><row><cell>H230Y</cell><cell>AS, AS</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Q194L, S220T, H230Y</cell><cell>D, AS, AS</cell><cell>EPPCR3</cell><cell>85</cell><cell>99</cell></row><row><cell>M129l, V175K</cell><cell>AS, D</cell><cell>SGM</cell><cell>71</cell><cell>92</cell></row><row><cell>M129l, A156S, Y177W</cell><cell>AS, D, N</cell><cell>SGM</cell><cell>59</cell><cell>93</cell></row><row><cell>E261Q, S304K</cell><cell>D, D</cell><cell>LowN</cell><cell>46</cell><cell>67</cell></row><row><cell>E261Q, A303K, S304A</cell><cell>D, D, D</cell><cell>LowN</cell><cell>44</cell><cell>71</cell></row><row><cell>IR88 (wild type)</cell><cell>N/A</cell><cell>WT</cell><cell>10</cell><cell>69</cell></row></table><note><p>c 43%. A156S yielded c 37% and 65% ee (R) as a point mutation.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Melting Temperatures, Onset Temperatures, And Specific Activities of Four Selected Enzymes</figDesc><table><row><cell>enzyme</cell><cell>source</cell><cell cols="3">T m (°C) onset (°C) mU/mg</cell></row><row><cell>wild type</cell><cell></cell><cell>42</cell><cell>32</cell><cell>45</cell></row><row><cell>S220T</cell><cell>DMS</cell><cell>43</cell><cell>32</cell><cell>88</cell></row><row><cell>S117H/A218M/A296T</cell><cell>ML</cell><cell>48</cell><cell>41</cell><cell>54</cell></row><row><cell>Q194L/S220T/H230Y</cell><cell>EPPCR3</cell><cell>57</cell><cell>52</cell><cell>106</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://doi.org/10.1021/acscatal.1c02786 ACS Catal. 2021, 11, 12433-12445</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Authors</head><p><rs type="person">Eric J. Ma</rs> -<rs type="affiliation">NIBR Informatics, Novartis Institutes for BioMedical Research (NIBR), Cambridge, Massachusetts 02139, United States Elina Siirola -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Charles Moore -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Arkadij Kummer -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Markus Stoeckli -Analytical Sciences and Imaging, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Michael Faller -Chemical Biology and Therapeutics, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Caroline Bouquet -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Fabian Eggimann -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Mathieu Ligibel -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Dan Huynh -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Geoffrey Cutler -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Luca Siegrist -NIBR Biologics Center, Novartis Institutes for BioMedical Research (NIBR), CH-4056 Basel, Switzerland Richard A. Lewis -Global Discovery Chemistry, Novartis Institutes for BioMedical Research (NIBR</rs>), CH-4056 Basel, Switzerland; orcid.org/<rs type="grantNumber">0000-0002-5478-8599</rs> <rs type="projectName">Anne-Christine Acker -Global Discovery Chemistry</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="funder">CH-4056 Basel, Switzerland Ernst Freund -Global Discovery Chemistry</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="funder">CH-4056 Basel, Switzerland Elke Koch -Chemical Biology and Therapeutics</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="projectName">CH-4056 Basel, Switzerland Markus Vogel -NIBR Biologics Center</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="funder">CH-4056 Basel, Switzerland Holger Schlingensiepen -Chemical Biology and Therapeutics</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="funder">CH-4056 Basel, Switzerland Edward J. Oakeley -Chemical Biology and Therapeutics</rs>, <rs type="funder">Novartis Institutes for BioMedical Research (NIBR)</rs>, <rs type="funder">CH-4056 Basel</rs>, <rs type="person">Switzerland Complete</rs> contact information is available at: <ref type="url" target="https://pubs.acs.org/doi/10.1021/acscatal.1c02786?ref=pdf">https://pubs.acs.org/10.1021/acscatal.1c02786</ref> </p></div>
+<div><head>■ ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Lisa Trapp</rs> for the DSF measurements. We would also like to thank <rs type="person">Thomas Ruch</rs> for the idea of using imine reductase in the synthesis of amine 2 and for valuable discussions. We thank <rs type="person">Ernesto Santandrea</rs> for supplying ketone 1 and for multiple discussions. We thank <rs type="person">Roger Markwalder</rs> and <rs type="person">Alexandra Vargas</rs> for their help in the scale-up reactions. Finally, we would like to thank <rs type="person">Neil Press</rs>, <rs type="person">Hilmar Ebersbach</rs>, <rs type="person">Adrian Clarke</rs>, and <rs type="person">Don Hilvert</rs> for valuable discussions and <rs type="person">Aaron Debon</rs> and <rs type="person">David Whitehead</rs> for reviewing the paper internally.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_Btfx2Mw">
+					<idno type="grant-number">0000-0002-5478-8599</idno>
+					<orgName type="project" subtype="full">Anne-Christine Acker -Global Discovery Chemistry</orgName>
+				</org>
+				<org type="funded-project" xml:id="_CUSryKN">
+					<orgName type="project" subtype="full">CH-4056 Basel, Switzerland Markus Vogel -NIBR Biologics Center</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Finnigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>France</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Hepworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lovelock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Niikura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Osuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Flitsch</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Biocatalysis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43586-021-00044-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Methods Primers</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">46</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bell, E. L.; Finnigan, W.; France, S. P.; Green, A. P.; Hayes, M. A.; Hepworth, L. J.; Lovelock, S. L.; Niikura, H.; Osuna, S.; Romero, E.; Ryan, K. S.; Turner, N. J.; Flitsch, S. L. Biocatalysis. Nature Reviews Methods Primers 2021, 1 (1), 46.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Biocatalysis: Enzymatic Synthesis for Industrial Applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snajdrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Baldenius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202006648</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="119" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, S.; Snajdrova, R.; Moore, J. C.; Baldenius, K.; Bornscheuer, U. T. Biocatalysis: Enzymatic Synthesis for Industrial Applications. Angew. Chem., Int. Ed. 2021, 60 (1), 88-119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Computational Redesign of Enzymes for Regio-and Enantioselective Hydroamination</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wijma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Otzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41589-018-0053-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="664" to="670" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, R.; Wijma, H. J.; Song, L.; Cui, Y.; Otzen, M.; Tian, Y.; Du, J.; Li, T.; Niu, D.; Chen, Y.; et al. Computational Redesign of Enzymes for Regio-and Enantioselective Hydroamination. Nat. Chem. Biol. 2018, 14 (7), 664-670.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Bridging the Gaps in Design Methodologies by Evolutionary Optimization of the Stability and Proficiency of Designed Kemp Eliminase KE59</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Röthlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1121063109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="10358" to="10363" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khersonsky, O.; Kiss, G.; Röthlisberger, D.; Dym, O.; Albeck, S.; Houk, K. N.; Baker, D.; Tawfik, D. S. Bridging the Gaps in Design Methodologies by Evolutionary Optimization of the Stability and Proficiency of Designed Kemp Eliminase KE59. Proc. Natl. Acad. Sci. U. S. A. 2012, 109 (26), 10358-10363.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Structural Analyses of Covalent Enzyme-Substrate Analog Complexes Reveal Strengths and Limitations of de Novo Enzyme Design</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bolduc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Lassila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2011.10.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">415</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="615" to="625" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, L.; Althoff, E. A.; Bolduc, J.; Jiang, L.; Moody, J.; Lassila, J. K.; Giger, L.; Hilvert, D.; Stoddard, B.; Baker, D. Structural Analyses of Covalent Enzyme-Substrate Analog Complexes Reveal Strengths and Limitations of de Novo Enzyme Design. J. Mol. Biol. 2012, 415 (3), 615-625.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evolution of a Designed Retro-Aldolase Leads to Complete Active Site Remodeling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Obexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.1276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="494" to="498" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giger, L.; Caner, S.; Obexer, R.; Kast, P.; Baker, D.; Ban, N.; Hilvert, D. Evolution of a Designed Retro-Aldolase Leads to Complete Active Site Remodeling. Nat. Chem. Biol. 2013, 9 (8), 494-498.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Precision Is Essential for Efficient Catalysis in an Evolved Kemp Eliminase</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blomberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Pinkas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R E</forename><surname>Mittl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gruẗter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Privett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12623</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="issue">7476</biblScope>
+			<biblScope unit="page" from="418" to="421" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomberg, R.; Kries, H.; Pinkas, D. M.; Mittl, P. R. E.; Gruẗter, M. G.; Privett, H. K.; Mayo, S. L.; Hilvert, D. Precision Is Essential for Efficient Catalysis in an Evolved Kemp Eliminase. Nature 2013, 503 (7476), 418-421.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Machine Learning to Design Integral Membrane Channelrhodopsins for Efficient Eukaryotic Expression and Plasma Membrane Localization</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Bedbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gradinaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1005786</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2017">2017. 1005786</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bedbrook, C. N.; Yang, K. K.; Rice, A. J.; Gradinaru, V.; Arnold, F. H. Machine Learning to Design Integral Membrane Channelrho- dopsins for Efficient Eukaryotic Expression and Plasma Membrane Localization. PLoS Comput. Biol. 2017, 13 (10), No. e1005786.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mazurenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Prokop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acscatal.9b04321?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning in Enzyme Engineering</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1210" to="1223" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazurenko, S.; Prokop, Z.; Damborsky, J. Machine Learning in Enzyme Engineering. ACS Catal. 2020, 10 (2), 1210-1223.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Machine-Learning-Guided Mutagenesis for Directed Evolution of Fluorescent Proteins</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kameda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Umetsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acssynbio.8b00155?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2014" to="2022" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saito, Y.; Oikawa, M.; Nakazawa, H.; Niide, T.; Kameda, T.; Tsuda, K.; Umetsu, M. Machine-Learning-Guided Mutagenesis for Directed Evolution of Fluorescent Proteins. ACS Synth. Biol. 2018, 7 (9), 2014-2022.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Machine Learning-Assisted Directed Protein Evolution with Combinatorial Libraries</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B J</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Wittmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1901979116</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="8852" to="8858" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Z.; Kan, S. B. J.; Lewis, R. D.; Wittmann, B. J.; Arnold, F. H. Machine Learning-Assisted Directed Protein Evolution with Combinatorial Libraries. Proc. Natl. Acad. Sci. U. S. A. 2019, 116 (18), 8852-8858.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Machine-Learning-Guided Directed Evolution for Protein Engineering</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41592-019-0496-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="687" to="694" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, K. K.; Wu, Z.; Arnold, F. H. Machine-Learning-Guided Directed Evolution for Protein Engineering. Nat. Methods 2019, 16 (8), 687-694.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Unified Rational Protein Engineering with Sequence-Based Deep Representation Learning</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Alley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Khimulya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alquraishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41592-019-0598-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1315" to="1322" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alley, E. C.; Khimulya, G.; Biswas, S.; AlQuraishi, M.; Church, G. M. Unified Rational Protein Engineering with Sequence-Based Deep Representation Learning. Nat. Methods 2019, 16 (12), 1315- 1322.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Can Machine Learning Revolutionize Directed Evolution Selective Enzymes?</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adsc.201900149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2377" to="2386" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, G.; Dong, Y.; Reetz, M. T. Can Machine Learning Revolutionize Directed Evolution Selective Enzymes? Adv. Synth. Catal. 2019, 361 (11), 2377-2386.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comprehensive AAV Capsid Fitness Landscape Reveals a Viral Gene and Enables Machine-Guided Design</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ogden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Kelsic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaw2900</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="issue">6469</biblScope>
+			<biblScope unit="page" from="1139" to="1143" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ogden, P. J.; Kelsic, E. D.; Sinai, S.; Church, G. M. Comprehensive AAV Capsid Fitness Landscape Reveals a Viral Gene and Enables Machine-Guided Design. Science 2019, 366 (6469), 1139-1143.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Brookes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listgarten</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1901.10060" />
+	</analytic>
+	<monogr>
+		<title level="m">Conditioning by Adaptive Sampling for Robust Design</title>
+		<imprint>
+			<date type="published" when="1901">January 29, 2019, 1901.10060</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brookes, D. H.; Park, H.; Listgarten, J. Conditioning by Adaptive Sampling for Robust Design. arXiv (Computer Science.Ma- chine Learning), January 29, 2019, 1901.10060, ver. 9. https://arxiv. org/abs/1901.10060.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Design by Adaptive Sampling</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Brookes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listgarten</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1810.03714" />
+	</analytic>
+	<monogr>
+		<title level="j">arXiv (Computer Science.Machine Learning)</title>
+		<imprint>
+			<date type="published" when="1810">October 8, 2018, 1810.03714</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brookes, D. H.; Listgarten, J. Design by Adaptive Sampling. arXiv (Computer Science.Machine Learning), October 8, 2018, 1810.03714, ver. 1. https://arxiv.org/abs/1810.03714.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Exploring Protein Fitness Landscapes by Directed Evolution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm2805</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="866" to="876" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romero, P. A.; Arnold, F. H. Exploring Protein Fitness Landscapes by Directed Evolution. Nat. Rev. Mol. Cell Biol. 2009, 10 (12), 866-876.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Khimulya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Alley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Esvelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Low-N</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2020.01.23.917682?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Engineering with Data-Efficient Deep Learning. bioRxiv (Biology)</title>
+		<imprint>
+			<date type="published" when="2020-01-23">January 24, 2020, 2020.01.23.917682</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Biswas, S.; Khimulya, G.; Alley, E. C.; Esvelt, K. M.; Church, G. M. Low-N Protein Engineering with Data-Efficient Deep Learning. bioRxiv (Biology), January 24, 2020, 2020.01.23.917682, ver. 2. DOI: 10.1101/2020.01.23.917682.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Substrate Specificity of 2-Deoxy-D-Ribose 5-Phosphate Aldolase (DERA) Assessed by</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Voutilainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heinonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jokinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maaheimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pääkkönen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hakulinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rouvinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lähdesmäki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-020-10960-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Different Protein Engineering and Machine Learning Methods. Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="10515" to="10529" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voutilainen, S.; Heinonen, M.; Andberg, M.; Jokinen, E.; Maaheimo, H.; Pääkkönen, J.; Hakulinen, N.; Rouvinen, J.; Lähdesmäki, H.; Kaski, S.; et al. Substrate Specificity of 2-Deoxy-D- Ribose 5-Phosphate Aldolase (DERA) Assessed by Different Protein Engineering and Machine Learning Methods. Appl. Microbiol. Biotechnol. 2020, 104 (24), 10515-10529.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">ZPL389, A Novel Oral Histamine 4 Receptor Antagonist for Treatment of Moderate-to-Severe Atopic Dermatitis: Results of a Randomized, Double-Blind, Placebo-Controlled, Proof-of-Concept Study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Werfel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Purkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bjd.16718</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>No. e14</note>
+	<note type="raw_reference">Werfel, T.; Liu, W.; Purkins, L. ZPL389, A Novel Oral Histamine 4 Receptor Antagonist for Treatment of Moderate-to- Severe Atopic Dermatitis: Results of a Randomized, Double-Blind, Placebo-Controlled, Proof-of-Concept Study. Br. J. Dermatol. 2018, 179 (1), No. e14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Development of the Late-Phase Manufacturing Process of ZPL389: Control of Process Impurities by Enhanced Process Knowledge</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Santandrea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Waldraff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beney</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.oprd.1c00077?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="page">1190</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santandrea, E.; Waldraff, C.; Gerber, G.; Moreau, M.; Beney, P. Development of the Late-Phase Manufacturing Process of ZPL389: Control of Process Impurities by Enhanced Process Knowledge. Org. Process Res. Dev. 2021, 25, 1190.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Chiral Synthesis of LSD1 Inhibitor GSK2879552 Enabled by Directed Evolution of an Imine Reductase</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Macdermaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Ollis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hosford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A F</forename><surname>Ihnken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fuerst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sanganee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-D</forename><surname>Roiban</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41929-019-0341-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Catalysis</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="909" to="915" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schober, M.; MacDermaid, C.; Ollis, A. A.; Chang, S.; Khan, D.; Hosford, J.; Latham, J.; Ihnken, L. A. F.; Brown, M. J. B.; Fuerst, D.; Sanganee, M. J.; Roiban, G.-D. Chiral Synthesis of LSD1 Inhibitor GSK2879552 Enabled by Directed Evolution of an Imine Reductase. Nature Catalysis 2019, 2 (10), 909-915.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Engineered Imine Reductases and Methods for the Reductive Animation of Ketone and Amine Compounds</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Collier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nazor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sukumaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Janey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Novick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Agard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alvizo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Minor</surname></persName>
+		</author>
+		<idno>US 9296993 B2</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, H.; Collier, S. J.; Nazor, J.; Sukumaran, J.; Smith, D.; Moore, J. C.; Hughes, G.; Janey, J.; Huisman, G. W.; Novick, S. J.; Agard, N. J.; Alvizo, O.; Cope, G. A.; Yeo, W. L.; Minor, S. N. Engineered Imine Reductases and Methods for the Reductive Animation of Ketone and Amine Compounds. US 9296993 B2, 2015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Asymmetric Reductive Amination of Ketones Catalyzed by Imine Reductases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wetzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Matzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Hanlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wirz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Höhne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iding</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201600384</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2023" to="2026" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wetzl, D.; Gand, M.; Ross, A.; Muller, H.; Matzel, P.; Hanlon, S. P.; Muller, M.; Wirz, B.; Höhne, M.; Iding, H. Asymmetric Reductive Amination of Ketones Catalyzed by Imine Reductases. ChemCatChem 2016, 8 (12), 2023-2026.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Efficient Biocatalytic Reductive Aminations by Extending the Imine Reductase Toolbox</title>
+		<author>
+			<persName><forename type="first">G.-D</forename><surname>Roiban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hyslop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Tey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A F</forename><surname>Ihnken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201701379</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="4475" to="4479" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roiban, G.-D.; Kern, M.; Liu, Z.; Hyslop, J.; Tey, P. L.; Levine, M. S.; Jordan, L. S.; Brown, K. K.; Hadi, T.; Ihnken, L. A. F.; Brown, M. J. B. Efficient Biocatalytic Reductive Aminations by Extending the Imine Reductase Toolbox. ChemCatChem 2017, 9 (24), 4475-4479.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Expanding the Collection of Imine Reductases towards a Stereoselective Reductive Amination</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Siirola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bruccoleri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snajdrova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Applied Biocatalysis: The Chemist&apos;s Enzyme Toolbox</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Whittall</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Sutton</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="138" to="143" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siirola, E.; Moore, C.; Bruccoleri, R.; Snajdrova, R. Expanding the Collection of Imine Reductases towards a Stereoselective Reductive Amination. In Applied Biocatalysis: The Chemist&apos;s Enzyme Toolbox; Whittall, J., Sutton, P. W., Eds.; Wiley, 2020; pp 138-143.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Characterization of Imine Reductases in Reductive Amination for the Exploration of Structure-Activity Relationships</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pushpanath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Klemstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Galman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Woodlock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bisagni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mangas-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Ramsden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dominguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aay9320</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">21</biblScope>
+		</imprint>
+	</monogr>
+	<note>eaay9320</note>
+	<note type="raw_reference">Montgomery, S. L.; Pushpanath, A.; Heath, R. S.; Marshall, J. R.; Klemstein, U.; Galman, J. L.; Woodlock, D.; Bisagni, S.; Taylor, C. J.; Mangas-Sanchez, J.; Ramsden, J. I.; Dominguez, B.; Turner, N. J. Characterization of Imine Reductases in Reductive Amination for the Exploration of Structure-Activity Relationships. Science Advances 2020, 6 (21), No. eaay9320.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Identification of Novel Bacterial Members of the Imine Reductase Enzyme Family That Perform Reductive Amination</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>France</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Steflik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Weise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mangas-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Crook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201701408</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="510" to="514" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">France, S. P.; Howard, R. M.; Steflik, J.; Weise, N. J.; Mangas- Sanchez, J.; Montgomery, S. L.; Crook, R.; Kumar, R.; Turner, N. J. Identification of Novel Bacterial Members of the Imine Reductase Enzyme Family That Perform Reductive Amination. ChemCatChem 2018, 10 (3), 510-514.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A Reductive Aminase from Aspergillus Oryzae</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Aleku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>France</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Man</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mangas-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leipold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchem.2782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="961" to="969" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aleku, G. A.; France, S. P.; Man, H.; Mangas-Sanchez, J.; Montgomery, S. L.; Sharma, M.; Leipold, F.; Hussain, S.; Grogan, G.; Turner, N. J. A Reductive Aminase from Aspergillus Oryzae. Nat. Chem. 2017, 9 (10), 961-969.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sequence-Based In-Silico Discovery, Characterisation, and Biocatalytic Application of a Set of Imine Reductases</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Velikogne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Resch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dertnig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kroutil</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201800607</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3236" to="3246" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Velikogne, S.; Resch, V.; Dertnig, C.; Schrittwieser, J. H.; Kroutil, W. Sequence-Based In-Silico Discovery, Characterisation, and Biocatalytic Application of a Set of Imine Reductases. ChemCatChem 2018, 10 (15), 3236-3246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Identification of Imine Reductase-Specific Sequence Motifs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fademrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Scheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.25008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct., Funct</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="600" to="610" />
+			<date type="published" when="2016">2016</date>
+			<pubPlace>Genet</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fademrecht, S.; Scheller, P. N.; Nestl, B. M.; Hauer, B.; Pleiss, J. Identification of Imine Reductase-Specific Sequence Motifs. Proteins: Struct., Funct., Genet. 2016, 84 (5), 600-610.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Proline: The Distribution, Frequency, Positioning, and Common Functional Roles of Proline and Polyproline Sequences in the Human Proteome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rubenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0053785</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>No. e53785</note>
+	<note type="raw_reference">Morgan, A. A.; Rubenstein, E. Proline: The Distribution, Frequency, Positioning, and Common Functional Roles of Proline and Polyproline Sequences in the Human Proteome. PLoS One 2013, 8 (1), No. e53785.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">CAVER Analyst 2.0: Analysis and Visualization of Channels and Tunnels in Protein Structures and Molecular Dynamics Trajectories</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jurcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bednar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Byska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Furmanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kokkonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brezovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Strnad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stourac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pavelka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kozlikova</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty386</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="3586" to="3588" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jurcik, A.; Bednar, D.; Byska, J.; Marques, S. M.; Furmanova, K.; Daniel, L.; Kokkonen, P.; Brezovsky, J.; Strnad, O.; Stourac, J.; Pavelka, A.; Manak, M.; Damborsky, J.; Kozlikova, B. CAVER Analyst 2.0: Analysis and Visualization of Channels and Tunnels in Protein Structures and Molecular Dynamics Trajectories. Bioinformatics 2018, 34 (20), 3586-3588.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ducrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vergne-Vaxelaire</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nad</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adsc.202000870</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Dependent Enzymes for Reductive Amination: Active Site Description and Carbonyl-Containing Compound Spectrum</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="328" to="351" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ducrot, L.; Bennett, M.; Grogan, G.; Vergne-Vaxelaire, C. NAD(P)H-Dependent Enzymes for Reductive Amination: Active Site Description and Carbonyl-Containing Compound Spectrum. Adv. Synth. Catal. 2021, 363 (2), 328-351.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Biocatalytic Access to 1, 4-Diazepanes via Imine Reductase-Catalyzed Intramolecular Asymmetric Reductive Amination</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acscatal.0c02400?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="8780" to="8787" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, Z.; Yao, P.; Sheng, X.; Li, J.; Li, J.; Yu, S.; Feng, J.; Wu, Q.; Zhu, D. Biocatalytic Access to 1, 4-Diazepanes via Imine Reductase- Catalyzed Intramolecular Asymmetric Reductive Amination. ACS Catal. 2020, 10 (15), 8780-8787.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of Plant Tetrahydroisoquinoline Alkaloids through an Imine Reductase Route</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qu</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9SC03773J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="364" to="371" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, L.; Zhu, J.; Sun, C.; Deng, Z.; Qu, X. Biosynthesis of Plant Tetrahydroisoquinoline Alkaloids through an Imine Reductase Route. Chem. Sci. 2020, 11 (2), 364-371.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Critical Assessment of Methods of Protein Structure Prediction (CASP)  Round x</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moult</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fidelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kryshtafovych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schwede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tramontano</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.24452</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct., Funct</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">S2</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Genet</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moult, J.; Fidelis, K.; Kryshtafovych, A.; Schwede, T.; Tramontano, A. Critical Assessment of Methods of Protein Structure Prediction (CASP)  Round x. Proteins: Struct., Funct., Genet. 2014, 82 (S2), 1-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Visani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hassoun</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btab054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<date type="published" when="2017">2021. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Visani, G. M.; Hughes, M. C.; Hassoun, S. Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification. Bioinformatics 2021, 37, No. 2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A Machine Learning Approach for Reliable Prediction of Amino Acid Interactions and Its Application in the</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cadet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fontaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanchis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ng Fuk Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pandjaitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vetrivel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Offmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-35033-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Directed Evolution of Enantioselective Enzymes. Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cadet, F.; Fontaine, N.; Li, G.; Sanchis, J.; Ng Fuk Chong, M.; Pandjaitan, R.; Vetrivel, I.; Offmann, B.; Reetz, M. T. A Machine Learning Approach for Reliable Prediction of Amino Acid Interactions and Its Application in the Directed Evolution of Enantioselective Enzymes. Sci. Rep. 2018, 8 (1), 1-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">ASAP: A Machine Learning Framework for Local Protein Properties</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Brandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Linial</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/database/baw133</idno>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+			<biblScope unit="page">133</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brandes, N.; Ofer, D.; Linial, M. ASAP: A Machine Learning Framework for Local Protein Properties. Database 2016, 2016, baw133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1811.10775v1" />
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning in Protein Engineering</title>
+		<imprint>
+			<date type="published" when="1811">November 27, 2018, 1811.10775</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, K. K.; Wu, Z.; Arnold, F. H. Machine Learning in Protein Engineering. arXiv (Quantitative Biology.Biomolecules), November 27, 2018, 1811.10775, ver. 1. https://arxiv.org/abs/1811.10775v1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Computational Library Design Protocol for Rapid Improvement of Protein Stability: FRESCO</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wijma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J L J</forename><surname>Furst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-7366-8_5?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">In Protein Engineering: Methods and Protocols</title>
+		<editor>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Höhne</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="69" to="85" />
+			<date type="published" when="1685">1685. 2018</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Methods in Molecular Biology</note>
+	<note type="raw_reference">Wijma, H. J.; Furst, M. J. L. J.; Janssen, D. B. A Computational Library Design Protocol for Rapid Improvement of Protein Stability: FRESCO. In Protein Engineering: Methods and Protocols; Bornscheuer, U. T., Höhne, M., Eds.; Methods in Molecular Biology, Vol. 1685; Springer: New York, NY, 2018; pp 69-85. DOI: 10.1007/978-1- 4939-7366-8_5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Winning the Numbers Game in Enzyme Evolution -Fast Screening Methods for Improved Biotechnology Proteins</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Sheludko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-D</forename><surname>Fessner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbi.2020.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="123" to="133" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheludko, Y. V.; Fessner, W.-D. Winning the Numbers Game in Enzyme Evolution -Fast Screening Methods for Improved Biotechnology Proteins. Curr. Opin. Struct. Biol. 2020, 63, 123-133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Bayesian Reaction Optimization as a Tool for Chemical Synthesis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Shields</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parasram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Damani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I M</forename><surname>Alvarado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Janey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Doyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03213-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="issue">7844</biblScope>
+			<biblScope unit="page" from="89" to="96" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shields, B. J.; Stevens, J.; Li, J.; Parasram, M.; Damani, F.; Alvarado, J. I. M.; Janey, J. M.; Adams, R. P.; Doyle, A. G. Bayesian Reaction Optimization as a Tool for Chemical Synthesis. Nature 2021, 590 (7844), 89-96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Improving Enzyme Properties: When Are Closer Mutations Better?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Morley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2005.03.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="231" to="237" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morley, K. L.; Kazlauskas, R. J. Improving Enzyme Properties: When Are Closer Mutations Better? Trends Biotechnol. 2005, 23 (5), 231-237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Additivity of Mutational Effects in Proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00489a001?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="8509" to="8517" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wells, J. A. Additivity of Mutational Effects in Proteins. Biochemistry 1990, 29 (37), 8509-8517.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Expanding the Range of Substrate Acceptance of Enzymes: Combinatorial Active-site Saturation Test</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bocola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Carballeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200500767</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="4192" to="4196" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M. T.; Bocola, M.; Carballeira, J. D.; Zha, D.; Vogel, A. Expanding the Range of Substrate Acceptance of Enzymes: Combinatorial Active-site Saturation Test. Angew. Chem., Int. Ed. 2005, 44 (27), 4192-4196.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Efficient Laboratory Evolution of Computationally Designed Enzymes with Low Starting Activities Using Fluorescence-Activated Droplet Sorting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Obexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeymer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/protein/gzw032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng., Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="355" to="366" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obexer, R.; Pott, M.; Zeymer, C.; Griffiths, A. D.; Hilvert, D. Efficient Laboratory Evolution of Computationally Designed Enzymes with Low Starting Activities Using Fluorescence-Activated Droplet Sorting. Protein Eng., Des. Sel. 2016, 29 (9), 355-366.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Phage-Assisted Continuous Evolution of Proteases with Altered Substrate Specificity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-01055-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">956</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Packer, M. S.; Rees, H. A.; Liu, D. R. Phage-Assisted Continuous Evolution of Proteases with Altered Substrate Specificity. Nat. Commun. 2017, 8 (1), 956.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Data Processing and Analysis with the AutoPROC Toolbox</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vonrhein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Flensburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Smart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Paciorek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Womack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bricogne</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S0907444911007773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr., Sect. D: Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vonrhein, C.; Flensburg, C.; Keller, P.; Sharff, A.; Smart, O.; Paciorek, W.; Womack, T.; Bricogne, G. Data Processing and Analysis with the AutoPROC Toolbox. Acta Crystallogr., Sect. D: Biol. Crystallogr. 2011, 67 (4), 293-302.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Grosse-Kunstleve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Winn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Storoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S0021889807021206</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Read, R. J. Phaser Crystallographic Software. J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="658" to="674" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCoy, A. J.; Grosse-Kunstleve, R. W.; Adams, P. D.; Winn, M. D.; Storoni, L. C.; Read, R. J. Phaser Crystallographic Software. J. Appl. Crystallogr. 2007, 40, 658-674.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Features and Development of Coot</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S0907444910007493</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr., Sect. D: Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="486" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emsley, P.; Lohkamp, B.; Scott, W. G.; Cowtan, K. Features and Development of Coot. Acta Crystallogr., Sect. D: Biol. Crystallogr. 2010, 66, 486-501.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Flex DdG: Rosetta Ensemble-Based Estimation of Changes in Protein-Protein Binding Affinity upon Mutation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suresh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Heinonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kortemme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.7b11367?urlappend=%3Fref%3DPDF&amp;jav=VoR&amp;rel=cite-as</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="5389" to="5399" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barlow, K. A.; O ́Conchuír, S.; Thompson, S.; Suresh, P.; Lucas, J. E.; Heinonen, M.; Kortemme, T. Flex DdG: Rosetta Ensemble- Based Estimation of Changes in Protein-Protein Binding Affinity upon Mutation. J. Phys. Chem. B 2018, 122 (21), 5389-5399.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Predicting Changes in the Stability of Proteins and Protein Complexes: A Study of More Than 1000 Mutations</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guerois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Serrano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-2836(02)00442-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="369" to="387" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guerois, R.; Nielsen, J. E.; Serrano, L. Predicting Changes in the Stability of Proteins and Protein Complexes: A Study of More Than 1000 Mutations. J. Mol. Biol. 2002, 320 (2), 369-387.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Collaborating to Improve the Use of Free-Energy and Other Quantitative Methods in Drug Discovery</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sherborne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Shanmugasundaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Desjarlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Duca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Loughney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Manas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Mcgaughey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Peishoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Vlijmen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10822-016-9996-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput.-Aided Mol. Des</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1139" to="1141" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sherborne, B.; Shanmugasundaram, V.; Cheng, A. C.; Christ, C. D.; DesJarlais, R. L.; Duca, J. S.; Lewis, R. A.; Loughney, D. A.; Manas, E. S.; McGaughey, G. B.; Peishoff, C. E.; van Vlijmen, H. Collaborating to Improve the Use of Free-Energy and Other Quantitative Methods in Drug Discovery. J. Comput.-Aided Mol. Des. 2016, 30 (12), 1139-1141.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

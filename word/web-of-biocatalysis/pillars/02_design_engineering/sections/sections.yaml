@@ -1,0 +1,26 @@
+# Controls order and enablement of pillar sections for Pillar 02
+order:
+  - overview
+  - design_patterns
+  - key_papers
+  - metrics
+  - history_narrative
+  - history_timeline
+  - methods_overview
+  - entities_explorer
+  - open_questions
+  - latest_feed
+  - provenance
+
+enabled:
+  overview: true
+  design_patterns: true
+  key_papers: false
+  metrics: false
+  history_narrative: true
+  history_timeline: true
+  methods_overview: true   # set to false to hide
+  entities_explorer: true
+  open_questions: true
+  latest_feed: true
+  provenance: false

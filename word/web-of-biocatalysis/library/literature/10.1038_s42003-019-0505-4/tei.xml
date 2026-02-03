@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cryo-EM and directed evolution reveal how Arabidopsis nitrilase specificity is influenced by its quaternary structure</title>
+				<funder>
+					<orgName type="full">MRC</orgName>
+				</funder>
+				<funder ref="#_kxGRadP">
+					<orgName type="full">Wellcome Trust</orgName>
+				</funder>
+				<funder ref="#_4dB7arm">
+					<orgName type="full">BBSRC</orgName>
+				</funder>
+				<funder ref="#_xDcppfN">
+					<orgName type="full">GCRF-START (UK Science and Technology Facilities Council</orgName>
+				</funder>
+				<funder ref="#_AwC4AEp">
+					<orgName type="full">National Research Foundation of South Africa</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Andani</forename><forename type="middle">E</forename><surname>Mulelu</surname></persName>
+							<idno type="ORCID">0000-0002-4412-270X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Medical Biochemistry and Structural Biology</orgName>
+								<orgName type="department" key="dep2">Department of Integrative Biomedical Sciences</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<addrLine>Anzio Road</addrLine>
+									<postCode>7925</postCode>
+									<settlement>Observatory</settlement>
+									<region>Cape Town</region>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Structural Biology Research Unit</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<postCode>7925</postCode>
+									<settlement>Cape Town</settlement>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Angela</forename><forename type="middle">M</forename><surname>Kirykowicz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Medical Biochemistry and Structural Biology</orgName>
+								<orgName type="department" key="dep2">Department of Integrative Biomedical Sciences</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<addrLine>Anzio Road</addrLine>
+									<postCode>7925</postCode>
+									<settlement>Observatory</settlement>
+									<region>Cape Town</region>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Structural Biology Research Unit</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<postCode>7925</postCode>
+									<settlement>Cape Town</settlement>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jeremy</forename><forename type="middle">D</forename><surname>Woodward</surname></persName>
+							<email>jeremydavidwoodward@gmail.com</email>
+							<idno type="ORCID">0000-0002-7350-8302</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Medical Biochemistry and Structural Biology</orgName>
+								<orgName type="department" key="dep2">Department of Integrative Biomedical Sciences</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<addrLine>Anzio Road</addrLine>
+									<postCode>7925</postCode>
+									<settlement>Observatory</settlement>
+									<region>Cape Town</region>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Structural Biology Research Unit</orgName>
+								<orgName type="institution">University of Cape Town</orgName>
+								<address>
+									<postCode>7925</postCode>
+									<settlement>Cape Town</settlement>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cryo-EM and directed evolution reveal how Arabidopsis nitrilase specificity is influenced by its quaternary structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E2B954897705D1218E66771CBA693A5C</idno>
+					<idno type="DOI">10.1038/s42003-019-0505-4</idno>
+					<note type="submission">Received: 16 November 2018 Accepted: 13 June 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Nitrilases are helical enzymes that convert nitriles to acids and/or amides. All plants have a nitrilase 4 homolog specific for ß-cyanoalanine, while in some plants neofunctionalization has produced nitrilases with altered specificity. Plant nitrilase substrate size and specificity correlate with helical twist, but molecular details of this relationship are lacking. Here we determine, to our knowledge, the first close-to-atomic resolution (3.4 Å) cryo-EM structure of an active helical nitrilase, the nitrilase 4 from Arabidopsis thaliana. We apply site-saturation mutagenesis directed evolution to three residues (R95, S224, and L169) and generate a mutant with an altered helical twist that accepts substrates not catalyzed by known plant nitrilases. We reveal that a loop between α2 and α3 limits the length of the binding pocket and propose that it shifts position as a function of helical twist. These insights will allow us to start designing nitrilases for chemoenzymatic synthesis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>B ranch 1 nitrilases (EC 3.5.5.1) (NITs) are industrially important <ref type="bibr" target="#b0">1</ref> oligomeric enzymes (forming left-handed twists, spirals, turns or helices) that share a common architecture <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> and catalyze the hydrolysis of nitriles to carboxylic acids and ammonia and/or amides <ref type="bibr" target="#b8">9</ref> . In all plants, the nitrilase 4 (EC 4.2.1.65) (NIT4) group represents the ancestral form, which is highly specific for β-cyano-L-alanine <ref type="bibr" target="#b9">10</ref> . The derived NIT1 group, which is restricted to the Brassicaceae family includes NIT1, NIT2, and NIT3, is believed to have arisen from multiple gene duplication events <ref type="bibr" target="#b10">11</ref> . NIT1s generally display measurable activity against a large range of aliphatic and aromatic nitriles, but cannot catalyze the hydrolysis of β-cyano-L-alanine <ref type="bibr" target="#b11">12</ref> , while NIT4 shows either extremely minor (&lt;0.75%) or no activity for the best substrates of the NIT1 group <ref type="bibr" target="#b9">10</ref> . It is thought that the NIT1 group enzymes evolved to catabolise the diverse glucosinolate-derived nitriles found in the Brassicaceae <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> . Interestingly, plant NITs with high specificity against a single substrate or narrow group of substrates have evolved from the ancestral generalist NIT1 group enzymes <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> .</p><p>We recently discovered that substrate specificity in plant NITs is related to the structure of the NIT helical assembly <ref type="bibr" target="#b7">8</ref> . The helical twist (Δϕ) of the NIT filament is correlated with the size of the preferred substrate: NIT4 enzymes have a relatively large helical twist, small substrate size, and high specificity, while NIT1 enzymes have a smaller twist and broader specificity. Specialized NIT1 enzymes that have evolved higher specificity and small substrate size show a larger helical twist <ref type="bibr" target="#b7">8</ref> . Helical twist is not the only determinant of specificity: we have identified plant NITs with similar twists, but different substrate specificities. In this case, exchanging amino acid residues lining the proposed active site pocket led to a change in substrate preference, indicating that these regions play a role in substrate recognition <ref type="bibr" target="#b7">8</ref> . The molecular details of this mechanism still remain speculative because only a low-twist helical NIT has been visualized crystallographically: the NIT from Synechocystis sp. PCC6803 (BAA10717.1) (Nit6803) Δ291 (pdb id: 3wuy <ref type="bibr" target="#b14">15</ref> ) (Δφ = -60°).</p><p>Here we present what we believe to be the first close-to-atomic structure of a full-length active helical NIT (EC 3.5.5.1) using cryo-electron microscopy at a resolution of 3.4 Å. We compare the structures of AtNIT4 (with a large twist, high specificity and small substrate) to Nit6803 <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> (with small twist, broad specificity and large substrates). We exploit the insights gained in a targeted directed evolution approach <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> to generate a NIT4 mutant with high activity against substrates not converted by either NIT4 or NIT1 and which shows no activity against the substrate of NIT4. As predicted by our previous work <ref type="bibr" target="#b7">8</ref> , this enzyme shows a large decrease in helical twist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The structure of AtNIT4. To study the molecular details of helical twist on substrate specificity we reconstructed an active plant NIT by high-resolution cryo-electron microscopy. Preliminary screening of plant NITs revealed a general pattern of heterogeneity with limited helical order. In general, NIT4 produced better filaments than NIT1, but these were still somewhat curved, short and broken (Fig. <ref type="figure" target="#fig_0">1a</ref>). We screened buffer conditions and protein concentration in an attempt to improve filament quality without success. Eventually, we unexpectedly discovered that by incubating and blotting freshly prepared Arabidopsis thaliana nitrilase 4 (AtNIT4) (NP_197622.1) before vitrification in a 10% humidity, 25 °C environment, we could improve the quality of the imaged fibers (Fig. <ref type="figure" target="#fig_0">1b</ref>). Despite this, we only observed reflections to a resolution of ~9 Å after vertical alignment (Fig. <ref type="figure" target="#fig_0">1c</ref>). Clear secondary structure was visible in classified averages, but with a rapid loss of resolution with increasing distance from the center of the images, indicating poor longrange helical order (Fig. <ref type="figure" target="#fig_0">1d</ref>). Treating one helical turn (five dimers) as a single particle and selecting a homogeneous dataset through rounds of 2D and 3D classification allowed us to achieve a resolution of 3.4 Å (gold-standard Fourier shell coefficient (FSC) = 0.143) (EMD-0320, pdb id: 6i00) (Fig. <ref type="figure" target="#fig_0">1e</ref> and Table <ref type="table" target="#tab_0">1</ref>).</p><p>Helical structure of NIT4. AtNIT4 is a left-handed helical tube with 4.9 sunbunits (dimers) in one helical turn, a pitch of 8.62 nm, an outer diameter of ~13 nm, and a ~2 nm hollow core (Fig. <ref type="figure" target="#fig_1">2a</ref>, <ref type="figure">b</ref>). There are two diad axes, which are related to one another by a -5°(negative value: left-handed by convention) rotation and 4.31 nm translation along the helical axis. The first passes through the C-and D-interfaces 2 and the second passes between the A-and F-interfaces <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4</ref> (Fig. <ref type="figure" target="#fig_1">2c</ref>). A ~1 nm gap (Fig. <ref type="figure" target="#fig_1">2b</ref>) across the helical groove shows that contrary to what has been observed previously in negative stain <ref type="bibr" target="#b7">8</ref> , this region lacks stabilizing interactions (D-or F-interfaces). Amino acid residues involved in the formation of helical interfaces are shown in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>. Interestingly, the predominant interaction stabilizing the filament is between the C-terminal tails of four adjacent monomers, which all contribute strands that form a row of ß-sheets in the core of the enzyme (Fig. <ref type="figure" target="#fig_1">2d</ref>, <ref type="figure">f</ref>).</p><p>The substrate-binding pocket. AtNIT4 shows high-structural homology with other members of the NIT superfamily including a conserved αßßα core (Fig. <ref type="figure" target="#fig_2">3a</ref>) and CEEK catalytic tetrad (Fig. <ref type="figure" target="#fig_2">3b</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>) <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> . The substrate-binding pocket is a ~7 × 4 Å tunnel lying close to the C-interface (Fig. <ref type="figure" target="#fig_2">3a</ref>) that runs almost perpendicular to the helical axis (Fig. <ref type="figure" target="#fig_2">3b</ref>). NITs have an insertion between α2 and α3 relative to crystallized NIT superfamily members <ref type="bibr" target="#b20">21</ref> , in Nit6803 Δ291 this loop forms a twofold interaction across the C-interface distant from the activesite pocket (pdb id: 3wuy <ref type="bibr" target="#b14">15</ref> ). Plant NITs have a further fiveresidue insertion relative to Nit6803 (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>), which conveys this loop across the C-interface, forming a lid over the symmetry-related substrate-binding site (Fig. <ref type="figure" target="#fig_2">3a</ref>, <ref type="figure">b</ref>, <ref type="figure">d</ref>).</p><p>The mode of substrate binding. There is good biochemical evidence to suggest that the substrate (or a substrate intermediate) binds covalently to the NIT active-site cysteine <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b21">22</ref> . This requires that the nitrile group of the substrate be orientated correctly relative to C197 and imposes a strong constraint on the possible position of the bound substrate. We produced a structural alignment between AtNIT4 and the structures of three NIT superfamily enzymes cocrystallized with substrates/intermediates. The structures used were: a C171A/V236A mutant of Ncarbamyl-D-amino acid amidohydrolase from Agrobacterium sp. KNK712 complexed with N-carbamyl-D-methionine (pdb id: 1uf5) <ref type="bibr" target="#b22">23</ref> ; an amidase from Pseudomonas aeruginosa with trapped acyl transfer intermediate (pdb id: 2uxy) <ref type="bibr" target="#b23">24</ref> and a C145A mutant of the amidase from Nesterenkonia AN1 complexed with butyramide substrate (pdb id: 4izs) <ref type="bibr" target="#b24">25</ref> . The substrates/intermediates localize to the binding pocket and lie in the direction of the lid loop. Their fit is suboptimal though, and the ends of the substrates clash with binding pocket residues on one side, including the lid loop in the case of the rather long substrate N-carbamyl-D-methionine visualized in 1uf5 23 (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>Identifying determinants of specificity. Eleven of the seventeen amino acid residues lining the binding pocket are conserved among all plant NITs regardless of substrate preference (Fig. <ref type="figure" target="#fig_2">3b</ref>), many are conserved across all NITs. Of the four loops making up the boundaries of the binding pocket (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>), three show sequence differences between different plant NITs (Fig. <ref type="figure" target="#fig_2">3c</ref>). We previously exchanged residues in the (PTSLER) and (ADGSKEW) motifs in a NIT1 and observed changes in substrate preference, while exchanging a single residue in the NIT1 lid loop (VGVHNEE) altered helical twist, substrate size, and degree of specificity <ref type="bibr" target="#b7">8</ref> . This residue is a conserved arginine in all known NIT4 enzymes that accept β-cyano-L-alanine as a substrate (EC 4.2.1.65), NIT1s have a histidine in this position and specialized NIT1s show various residues, which are correlated to their specificity and helical twists <ref type="bibr" target="#b7">8</ref> . We further refined this analysis to isolate the impact of substrate specificity of individual positions within each of these motifs among the known plant NITs and identified three residue positions with a disproportionate effect on specificity (Fig. <ref type="figure" target="#fig_2">3c</ref> and Supplementary Table <ref type="table" target="#tab_0">1</ref>).</p><p>We randomized the three residues to alter specificity. We performed a directed evolution experiment to identify mutants with altered substrate specificity. Target sites (R95, L169, and S224) were randomized (Supplementary Table <ref type="table" target="#tab_1">2</ref>), resulting in a library containing ~5.0 × 10 3 unique mutants, sufficient to sample at least one of the top ten possible mutants with 95% probability <ref type="bibr" target="#b25">26</ref> (Fig. <ref type="figure" target="#fig_3">4a</ref> and Supplementary Table <ref type="table">3</ref>). We implemented a strategy of site-saturation mutagenesis of all three sites before selection in order to avoid missing out on synergistic effects between the sites <ref type="bibr" target="#b26">27</ref> , which could confound a sequential mutagenesis strategy. To maintain the full diversity of the mutant library in the selection step, 4 × 10 6 DH5α and 7.7 × 10 5 BL21 cells were transformed and 4 × 10 5 cells were plated out to ensure that each unique mutant was present (Fig. <ref type="figure" target="#fig_3">4a</ref>). The final library was sequenced as a mix (Fig. <ref type="figure" target="#fig_3">4b</ref>) and individual colonies (Table <ref type="table" target="#tab_1">2</ref>) to monitor the successful incorporation of mutations.</p><p>We identified a NIT4 mutant with broad substrate specificity. In order to select AtNIT4 mutants capable of hydrolyzing a specific nitrile, BL21 Escherichia coli cells harboring mutant enzymes were plated onto minimal media plates containing Isopropyl β-D-1-thiogalactopyranoside (IPTG) and one of 42 different nitriles (Supplementary Table <ref type="table">4</ref>). The basis for this assay is (1) nitrile toxicity and (2) the fact that nitrile hydrolysis produces ammonium, which can be used as a nitrogen source by the cell <ref type="bibr" target="#b27">28</ref> . Cells expressing NITs capable of hydrolyzing the nitrile present in each plate will therefore have a competitive advantage, form a colony and be identified. After incubation for 13 days, between 1 and 300 colonies were observed on 15 of the nitrile plates (Supplementary Table <ref type="table" target="#tab_0">1</ref>). Growth on the adiponitrile, butanenitrile, 4-cyanopyridine, fluoroacetonitrile plates occurred after 2 days (Fig. <ref type="figure" target="#fig_4">5a-d</ref>). Wild-type colonies were observed on the positive-control plate (β-cyano-L-alanine) but not on negativecontrol plates. Three colonies were randomly picked for sequencing from the most rapidly growing isolated colonies (Fig. <ref type="figure" target="#fig_4">5a-d</ref>).</p><p>At least three different sequences were present on the adiponitrile plate and these were generally mixed, showing that multiple mutants had the capacity to hydrolyze this substrate. Further investigation revealed that very small but visible colonies were present on negative-control adiponitrile selection plates. Purified AtNIT4 enzyme also showed low but measurable activity against adiponitrile (Fig. <ref type="figure" target="#fig_4">5e</ref>). These mutants were therefore excluded from further study. All of the colonies picked from the butanenitrile plate showed the same sequence, but attempts to purify this enzyme were unsuccessful and there was no evidence of helical filaments in any of the purification fractions. Interestingly, all three of the colonies from each of the 4cyanopyridine and fluoroacetonitrile plates gave the same sequence. Since this indicated that the mutant had the potential for broad substrate specificity, we purified this enzyme and performed a substrate screen against our set of 43 nitriles (Supplementary Table <ref type="table">4</ref>). This led to the identification of a further four potential substrates: fumaronitrile, potassium cyanide, 2-furonitrile, and 2-cyanopyridine (Fig. <ref type="figure" target="#fig_4">5e</ref>). While an excess of purified wt AtNIT4 showed no activity after 30 min incubation with the identified substrates, the mutant showed The filaments showed helical order to a limit of ~9 Å. d Clear secondary structure can be visualized in the classified average, but this deteriorates with increasing distance from the center because of the curved nature of the filaments (scale bar = 5 nm). e By masking out a single helical turn and treating this as a single particle we were able to improve the resolution substantially substantially different substrate specificity with no reduction in activity (Fig. <ref type="figure" target="#fig_4">5f</ref> and Supplementary Table <ref type="table">5</ref>). We performed activity measurements in triplicate and ensured that at least four data points were observed while the reaction was in the linear range.</p><p>AtNIT4 R95T L169A S224Q has a reduced helical twist. Different plant NITs show a range of helical twists (Fig. <ref type="figure" target="#fig_5">6a</ref>): on either side of the two extremes are NITs for which atomic models are available, AtNIT4 (Δφ = -73°) and Nit6803 Δ291, which crystallized in spacegroup P6(5) <ref type="bibr" target="#b14">15</ref> (pdb id: 3wuy), meaning that it has a left-handed helical arrangement with six subunits (dimers) per turn (Δφ = -60°) (Fig. <ref type="figure" target="#fig_5">6b</ref>, <ref type="figure">c</ref>). Interestingly, while the diameter of the filament is generally ~constant between the various plant NITs, in Nit6803 Δ291 it is substantially larger. We reconstructed Nit6803 Δ291 by negative-stain electron microscopy (EMD-4407) and found that this was not a crystallization artifact and that the EM and crystal structures largely agree (Fig. <ref type="figure" target="#fig_5">6c</ref>). We have previously observed a correlation between helical twist and the length of the preferred substrate as well as the degree of substrate specificity of a given plant NIT <ref type="bibr" target="#b7">8</ref> . We therefore hypothesized that AtNIT4 R95T L169A S224Q would show a decrease in helical twist because of its broader substrate range compared to AtNIT4.</p><p>We reconstructed AtNIT4 R95T L169A S224Q in three dimensions by negative stain electron microscopy (EMD-4406) and found that the helical twist had changed from -73°to -65°( Fig. <ref type="figure" target="#fig_5">6d</ref>). Unexpectedly, we also observed that the diameter of this mutant is approximately equal to that of Nit6803 Δ291 (Fig. <ref type="figure" target="#fig_5">6c</ref>, <ref type="figure">d</ref>). Note the hollow core lacks density corresponding to the C-terminal tail (Fig. <ref type="figure" target="#fig_5">6c</ref>).</p><p>The effect of increasing helical twist. We compared the helical structure of Nit6803 Δ291 with that of AtNIT4 in order to visualize the effect of the differences in helical arrangement between the two filaments. Most notably, in the Nit6803 Δ291 conformation, there is an outward rotation of ~15°about the Aand C-interfaces and a ~3 Å shift in Δz relative to AtNIT4.</p><p>Contrary to what we proposed previously <ref type="bibr" target="#b7">8</ref> , we observe an overall increase in compression of the monomer with a smaller absolute value of the helical twist. In fact, α1, α2*, α3, α4, α5, and α6 (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>), all lying at the periphery of the enzyme are found closer to the binding pocket in Nit6803 Δ291 than in AtNIT4.</p><p>The role of the lid loop. The lid loop limits the length of a substrate bound to C197 (Fig. <ref type="figure" target="#fig_2">3a</ref>, <ref type="figure">b</ref>, <ref type="figure">d</ref>). Molecular dynamics in UCSF Chimera <ref type="bibr" target="#b28">29</ref> indicates that it is held in position primarily via a charge-charge interaction between R95 and D317. In silico simulation of R95T allows the lid loop to open outward away from C197 increasing the size of the binding pocket. This explains why mutating R95 affects substrate size and specificity and provides a clue as to why this is correlated with a decrease in helical twist. Applying the symmetry operators of Nit6803 Δ291 to the structure of AtNIT4 (loop in the closed position) results in severe steric clashes (Fig. <ref type="figure" target="#fig_5">6e</ref>), moving the loop to the open conformation prevents this clash. This suggests that low helical twist can be used as a sign that the lid loop is in the open conformation. Interestingly, while AtNIT4 L169A S224Q expressed insolubly, AtNIT4 R95T (EMD-4804) showed no change in helical twist compared to the wild type. It also lacked activity for β-cyano-Lalanine or any of the other nitriles in our set (Supplementary table <ref type="table" target="#tab_0">1</ref>), except for some low activity for the rather large substrate, 3-phenylpropanenitrile (8.5 nKat mg -1 enzyme), which neither the wild type nor AtNIT4 R95T L169A S224Q showed activity for.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>NITs are attractive biocatalysts for the synthesis of amides and carboxylic acids for use in the manufacture of drugs and fine chemicals <ref type="bibr" target="#b29">30</ref> . Novel specificities are generally discovered by environmental sampling <ref type="bibr" target="#b31">31</ref> or sequence data mining <ref type="bibr" target="#b32">32,</ref><ref type="bibr" target="#b33">33</ref> . In some cases, activity against a particular substrate or substrate class has been increased by up to ~3-8-fold by rational design <ref type="bibr" target="#b14">15</ref> or directed evolution <ref type="bibr" target="#b34">34</ref> . We recently saw a ~500-fold improvement in activity for a substrate after a single amino acid exchange and discovered that this correlated with a change in the helical twist of the NIT filament <ref type="bibr" target="#b7">8</ref> . At the time, the molecular basis for this change was unclear, because we did not have an atomic resolution structure of an active helical NIT. We speculated that the change in substrate size preference resulted from compression of the active-site pocket at the helical interface. This is noteworthy because one of the distinguishing features of branch 1 NITs (EC 3.5.5.1) is that they form helical-, turn-, or spiral-quaternary structures, the basic architecture of these assemblies is conserved in phylogenetically diverse NITs <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b35">35,</ref><ref type="bibr" target="#b36">36</ref> and appear necessary for activity <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b37">37</ref> . Crystal structures of members of the NIT superfamily have been available for almost 20 years <ref type="bibr" target="#b38">38,</ref><ref type="bibr" target="#b39">39</ref> and today there &gt;20 crystal structures of various members deposited in the Protein Data Bank (<ref type="url" target="https://www.rcsb.org/">https://www.rcsb.org/</ref>). Extensive attempts to crystallize a helical NIT by ourselves and others failed and Thuku et al. <ref type="bibr" target="#b20">21</ref> attributed this to the irregular/ ~5-fold symmetry of the NIT helix, which presumably interferes with crystallization. This limits our structural understanding of the active NIT oligomer to ~20 Å electron microscopy information because of the heterogeneous nature of the filaments, until the publication in 2014 by Zhang et al. <ref type="bibr" target="#b14">15</ref> of the first helical NIT crystal structure. Interestingly, they observed that 55 C-terminal amino acids were cleaved off before crystallization. This fortuitously led to the formation of filaments with a helical twist of -61°with sufficient flexibility to allow crystallization, but unfortunately also altered the oligomeric structure of the protein and abolished activity (our unpublished results).</p><p>Here, we describe the first active NIT filament structure interpretable to atomic resolution. The structure shares conserved features with other members of the superfamily, such as an αßßα core (Figs. <ref type="figure" target="#fig_1">2</ref> and <ref type="figure" target="#fig_2">3a</ref>) arranged into dimers across the Ainterface <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b20">21</ref> and CEEK catalytic tetrad (Fig. <ref type="figure" target="#fig_2">3b</ref>) <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> . Dimers interact across the C-interface forming left-handed helices with ~5 dimers per turn (Fig. <ref type="figure" target="#fig_1">2</ref>). The extended C-terminal tail of each monomer forms two ß-strands, which assemble, along with strands from monomers across the A-and C-interfaces, into a row of 4-stranded ß-sheets in the interior of the tubular filament (Fig. <ref type="figure" target="#fig_1">2</ref>). These interactions stabilize the C-and A-interfaces, explaining why C-terminal truncation decreases thermostability <ref type="bibr" target="#b40">40</ref> and why the C-terminal tail is an important factor in oligomerization <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b41">41,</ref><ref type="bibr" target="#b42">42</ref> . Interactions across the helical groove (D-or F-interfaces) were not observed (Fig. <ref type="figure" target="#fig_1">2</ref>) and this could explain the plasticity of NIT helical twist <ref type="bibr" target="#b7">8</ref> .</p><p>The architecture of the substrate-binding pocket came as a surprise to us and provided an interesting insight into the structural mechanism of substrate size selection as well as the substrate altering/inducing effect of heterocomplex formation in some plant NITs <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b43">43</ref> . The NIT superfamily binding pocket has been described <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> , but in addition to these shared elements, in AtNIT4 a loop from the adjacent monomer extends over the Cinterface in line with C197 (Fig. <ref type="figure" target="#fig_2">3a</ref>, <ref type="figure">b</ref>). We superimposed bound substrates and reaction intermediates from NIT superfamily members <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> on our structure (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>) and propose that this loop places a limit on the maximum bound substrate length (Fig. <ref type="figure" target="#fig_2">3d</ref>). Crucially, we observed via molecular dynamics, that this loop is held in position by a charge-charge interaction between R95 and D317. On this basis we refer to the loop as a lid, R95 as a lock, and the flexible ends of the loop as a hinge, which open or close, shifting the lid relative to C197. We previously noted that all ß-cyano-L-alanine converting NIT4s have an arginine in this position, while NIT1s have a histidine and specialist NIT1s have various residues, which correlate with substrate specificity <ref type="bibr" target="#b7">8</ref> . In addition to this, D137 and surrounding motif: KFDFD is conserved in all known NIT4s, while NIT1s have: KLYFD in this position (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>). This may explain why we did not observe any mutations similar to those in NIT1 in our screen, even though many NIT1 substrates were present. This could be tested in the future by mutating residue 317 in addition to the three residues targeted here. A major challenge in protein engineering is the generation of enzymes with novel substrate specificities. The typical starting point is an enzyme with at least measureable promiscuous activity for the targeted substrate(s) <ref type="bibr" target="#b26">27</ref> . Rounds of directed evolution or rational engineering are then used to move the protein toward a point of higher activity in the fitness landscape <ref type="bibr" target="#b44">44</ref> . An analogous process is believed to be responsible for the enormous diversity of modern proteins seen today. Following gene duplication, new enzyme copies, no longer constrained by their original physiological function(s) can diverge by selective pressure on existing promiscuous reactions <ref type="bibr" target="#b45">45</ref> . However, in nature, broadly specific NIT1 enzymes presumably evolved from a highly specific ancestral NIT4 <ref type="bibr" target="#b10">11</ref> , with no or very low activity for NIT1 substrates.</p><p>To explore this process we used a focused-library approach, targeting three amino acid residues within the binding pocket that influence substrate specificity disproportionately <ref type="bibr" target="#b26">27</ref> . We selected altered mutants over one round of directed evolution with a small library of only ~5000 mutants, but which nevertheless sampled at least one of the top ten mutants with 95% probability (Fig. <ref type="figure" target="#fig_3">4</ref>). This strategy was effective, generating a mutant (AtNIT4 R95T L169A S224Q) with altered substrate specificity and no activity against the wild-type substrate.</p><p>We observed in our initial screen that some substrates formed a high-absorbance product with the assay reagents, which reduced after incubation with the enzyme, but with no corresponding increase in ammonia (Fig. <ref type="figure" target="#fig_4">5e</ref>). We interpret this as evidence of possible amide formation because amide formation accounts for ~50% of the total activity of wild-type AtNIT4 10 , but we did not explore this phenomenon further. In some cases mutants identified on one substrate showed activity against other substrates when tested using purified enzyme, but showed no growth on these conditions. This phenomenon may result from R95 is in the lid loop; S224 is on the outer border of the binding pocket and L169 points toward the light green subunit across the C-interface certain substrates or products being more toxic than others, decomposition of the substrates during incubation or low substrate solubility. In fact this is a key weakness of this strategy and in some cases may mean that interesting variants are lost during selection.</p><p>We reconstructed AtNIT4 R95T L169A S224Q filaments in three dimensions by negative stain EM and found that it has a helical twist of -65°, very similar to AtNIT3 (Δφ = -66°) (Fig. <ref type="figure" target="#fig_5">6a</ref>, <ref type="figure">c</ref>), which has a broad substrate specificity and a preference for large substrates <ref type="bibr" target="#b7">8</ref> . In contrast to AtNIT3, the mutant has a larger diameter, more similar to Nit6803 Δ291 (Fig. <ref type="figure" target="#fig_5">6c</ref>, <ref type="figure">d</ref>), Nit6803 also shows a very broad substrate specificity <ref type="bibr" target="#b15">16</ref> . This was fortuitous, because in effect, the two available atomic resolution NIT structures: AtNIT4 (Δφ = -73°) and Nit6803 Δ291 (Δφ = -60°) represent the helical structure extremes. This allowed us to visualize both structural states, which suggested a mechanism for the observed changes in substrate specificity (Fig. <ref type="figure" target="#fig_5">6e</ref>). We propose: R95T eliminates the positive charge at position 95, which disrupts the interaction with D317 and allows the lid loop to open and shift away from C197 (Fig. <ref type="figure" target="#fig_2">3b</ref>). In NIT4 R95T this allows 3-phenylpropanenitrile to bind to C197 by opening up the binding pocket, but does not result in a change in helical twist. Introduction of the other two mutations (AtNIT4 R95T L169A S224Q) results in a large-scale change in helical twist (Fig. <ref type="figure" target="#fig_5">6b</ref>, <ref type="figure">d</ref>).</p><p>The S224Q exchange on the peripheral border of the binding pocket might have a direct effect on the substrate, as we previously observed for glycine to tryptophan mutants in this position <ref type="bibr" target="#b7">8</ref> potentially accounting for the particular combination of substrates observed here. The close proximity of R95 to the catalytic residues may mean that there is direct interaction with or selection for the substrate by a residue in this position. This would account for cases where there is an almost identical helical twist, but mutating this residue still increases activity against a particular substrate 8 . In the case of heterocomplex formation <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b43">43</ref> , the loop of one subunit and active-site pocket of another subunit interact to produce the observed activity.</p><p>These insights have placed us in a position where we can semirationally design plant NITs in a very successful way. In fact, the mutant that we generated shows wild-type levels of activity (~300 nKat.mg -1 enzyme) for substrates that the wild type is inactive against. This is made possible by the structural flexibility of the lid loop system and explains how by shifting this loop and making a small number of other changes in the binding pocket, a variety of a Graphical representation of the bottlenecks in the experiment. As the library was assembled (one mutation to three mutations), more colony forming units (CFUs) are required to satisfactorily sample the full library diversity. Triangles represent the number of unique mutants present required for 95% probability of full-coverage (all possible protein mutants present), top-mutant (the best amino acid sequence present) and top-ten (one of the 10 best amino acid sequences present) in magenta, yellow, and green, respectively <ref type="bibr" target="#b25">26</ref> . The upper (dark gray) and lower (light grey) 95% confidence interval values for number of CFUs show that by the end of library creation at least one of the top ten mutants was present (stars). This diversity was maintained through all cloning and selection steps. b The final library mix was sequenced and showed successful overlapping NNS peaks at amino acid positions 95, 169, and 224 (sample size: 1% of the total CFUs in each sample) novel substrate specificities evolved in plants from NIT4, a highly specific precursor. More work is needed to further explore this relationship. Certainly the near-atomic resolution structure of a plant NIT1 will allow us to observe the effect of the low-twist helical state on the position of the lid loop. It would also be interesting to target NIT1 sites to determine if the substrate specificity of NIT1 can be further broadened to generate economically interesting enzymes. We also cannot currently explain why AtNIT4 R95T L169A S224Q shows activity against cyanide, the smallest nitrile (Fig. <ref type="figure" target="#fig_4">5e</ref>, <ref type="figure">f</ref>), further work will need to be done to explain this.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>NIT expression and purification. His-tagged NITs in pET-21b(+) (Novagen) were expressed at 37 °C in E. coli BL21-CodonPlus (DE3)-RIL (Agilent Technologies) for 4 h in LB containing 100 μg ml -1 ampicillin and 1 mM IPTG. The cells were pelleted at 4 °C and resuspended in 50 mM Tris-Hcl pH 8.0, 100 mM NaCl with cOmplete TM protease inhibitor (Roche) and sonicated on ice for 4 min (at 15 s intervals) (Sonicator ® 3000, Misonix). The clarified supernatant was loaded onto a Ni 2+ -NTA-agarose (Qiagen) column and washed with 50 mM Tris-Hcl pH 8.0, 500 mM NaCl, 20 mM imidazole and eluted over a gradient up to 500 mM imidazole. The NIT-containing peak was pooled and loaded onto a TSKgel PWXL4000 HPLC size exclusion column (Tosoh Corp), equilibrated with 50 mM Tris-Hcl pH 8.0, 100 mM NaCl and the leading edge of the NIT-containing peak was collected. Cryo-EM grids were immediately prepared using this material and aliquots destined for long-term storage were flash frozen in liquid nitrogen and stored at -80 °C after addition of 1 mM DTT. Activity assays were performed after buffer exchange into 50 mM potassium phosphate pH 8.0, 1 mM DTT.</p><p>Negative-stain electron microscopy and image processing. NIT filaments were negatively stained according to standard practices (e.g., Booth et al. <ref type="bibr" target="#b46">46</ref> ). Briefly, 3μl of NIT solution was incubated for 30 s on glow-discharged carbon-coated copper grids before being washed three times with distilled water and stained with two exchanges of 2% uranyl acetate. The grids were loaded into a FEI/Tecnai F20 FEGTEM equipped with a 4k × 4k CCD camera (GATAN US4000 Ultrascan, CA, USA) and imaged at a sampling of 2.11 Å pixel -1 at 200 kV with a defocus of -1.0 µm under standard low-dose conditions. Helical segments were extracted using Eman <ref type="bibr" target="#b47">47</ref> Boxer with 90% overlap and reconstructed using the iterative helical realspace reconstruction <ref type="bibr" target="#b48">48</ref> algorithm using SPIDER <ref type="bibr" target="#b49">49</ref> using a featureless cylinder as a starting model as described <ref type="bibr" target="#b7">8</ref> .</p><p>Cryo-electron microscopy and image processing. Purified AtNIT4 filaments (2.5 μl at ~0.15 mg ml -1 ) were applied to glow-discharged 1.2/1.3 gold grids (Quantifoil, Micro Tools), incubated for ~30 s, blotted from both sides for ~3.5 s and vitrified using a Vitrobot (FEI) with humidifier turned off (~10% humidity). The grids were imaged on a Titan Krios microscope (FEI) with a K2 Summit direct detector camera (Gatan) using EPU (FEI) at 300 kV. A total of 1266 movies, consisting of 45 frames per movie with a dose rate of 6.5 e -pixel -1 s -1 over 7 s, were collected over a defocus range of -0.75 to -2.0 µm with a physical pixel size of 0.85 Å pixel -1 .</p><p>Image processing. RELION <ref type="bibr" target="#b50">50</ref> was used for image processing and reconstruction. MotionCor2 51 was used to correct beam-induced motion and Gctf 1.06 <ref type="bibr" target="#b52">52</ref> was used to determine parameters for CTF correction. ~3000 particles from straight helical filaments were picked manually from 50 micrographs and to generate 2D classified averages. The best classes were used as auto-picking templates resulting in ~392,000 particles, poor particles were eliminated by two rounds of 2D classification. Helical reconstruction <ref type="bibr" target="#b53">53</ref> was initiated with the known helical parameters of AtNIT4 8 using a negative stain reconstruction, which was low-pass filtered to a resolution of 60 Å as a starting model. The best ~133,000 particles were masked, 3D classified, and subjected to 3D autorefinement and postprocessing to yield a map with an overall resolution of 3.4 Å (gold-standard FSC = 0.143 criterion with a soft mask applied to the two half-maps).</p><p>Model building, refinement, and validation. De novo polypeptide chain fitting into the map was performed using Buccaneer <ref type="bibr" target="#b54">54</ref> within the CCPEM software suite <ref type="bibr" target="#b55">55</ref> . Obvious errors in connectivity, unbuilt residues, and incorrect rotamers were corrected against the EM map in Coot <ref type="bibr" target="#b56">56</ref> and refined using Phenix Real Space Refine <ref type="bibr" target="#b57">57,</ref><ref type="bibr" target="#b58">58</ref> . After symmetrization in UCSF Chimera 29 the complete helical assembly was refined using Phenix. Additional rounds of manual fitting and refinement with secondary structure imposed resulted in a final model-to-map correlation of 0.8.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data visualization.</head><p>All molecular visualization and high quality image rendering were performed using UCSF Chimera <ref type="bibr" target="#b28">29</ref> .</p><p>Molecular dynamics. The molecular dynamics simulation tool using default parameters was used in UCSF Chimera <ref type="bibr" target="#b28">29</ref> .</p><p>Substrate correlation value. Plant NITs for which substrate specificity data is available were used: A. thaliana NIT1, NIT3 <ref type="bibr" target="#b11">12</ref> , and NIT4 <ref type="bibr" target="#b9">10</ref>  Gray indicates that the substrate reacts to form a high-absorbance product, but after incubating with the mutant, the absorbance was reduced. White indicates a slightly higher AtNIT4 wt activity compared to the mutant. f Enzyme activity results, asterisk indicates no measurable ammonia formation after incubating for 30 min with 5× excess enzyme. AtNIT4 wt showed no nitrilase activity against any of the listed substrates except for βcyano-L-alanine. The mutant showed high activity against potassium cyanide, 2-cyanopyridine and 2-furonitrile and moderate activity against fluoroacetonitrile and 4-cyanopyridine (1st quartile, median and 2nd quartile ± sd) n = 3 independent activity measurements CrNIT2: XM_006284056.1). Sequences were allocated to NIT4, NIT1, and specialist NIT1 groups and compared in pairs: amino acid positions were allocated one point when a residue differed between the groups and the substrate differed, or when the residue remained the same when the substrate remained the same. Points were subtracted when this was not the case.</p><p>Library construction. The A. thaliana nitrilase 4 (AT5G22300) pET-21b(+) vector was a gift from Markus Piotrowski (Ruhr-Universität Bochum). Sequential randomization of the chosen sites was achieved with NNS (N = A/T/C/G; S = G/C) degenerate codons applying a modified QuikChange ® PCR protocol <ref type="bibr" target="#b59">59</ref> using HiFi Hotstart Readymix (Kappa Biosystems). PCR reactions (50 μl) with 1-2 ng of template DNA were run under the following conditions: 95 °C for 3 min (1 cycle); 98 °C for 20 s, 62 °C for 15 s, 72 °C for 4 min (20-30 cycles); and 72 °C for 10 min (1 cycle) and subsequently digested with DpnI at 37 °C for 1 h. Primers are listed in Supplementary Table 2. Sufficient DNA for large-scale transformation was obtained by pooling several rounds of PCR product and gel purifying (Zyppy™ Gel Purification Kit, Zymo Research). Transformations were completed by electroporation in 400 μl electroporation cuvettes (Eppendorf). DNA sequencing was performed by the Central DNA Sequencing Facility (University of Stellenbosch, South Africa).</p><p>Statistics and reproducibility. The theoretical library size required for sitesaturation mutagenesis on three amino acid residues was estimated using the TopLib calculator <ref type="bibr" target="#b25">26</ref> (<ref type="url" target="http://www.stat.haifa.ac.il/~yuval/toplib/">http://stat.haifa.ac.il/~yuval/toplib/</ref>); 100% yield was assumed.</p><p>A sample consisting of 1% of the volume of the recovered cells was plated out to estimate the total number of cells transformed. The resulting colonies were counted and a confidence interval was derived using: (n ± z*√n) * N, where n is the number of colonies counted, z* are the values from a standard normal distribution for the appropriate probability level, and N is the sampling <ref type="bibr" target="#b60">60</ref> . Oversampling requirements were calculated using the formula: P(Missing 0 mutants) = e -λ where λ = n (1 -1•n -1 ) m for n unique mutants in a library of size m 61 . Activity assays and selection experiments were performed at least in triplicate; quartiles, medians and standard deviations were calculated in Microsoft Excel.</p><p>Selection. Minimal media agar plates without nitrogen were made according to an adapted protocol <ref type="bibr" target="#b62">62</ref> . M9 minimal salts with agar (bacteriological agar, Merck) was supplemented with 0.4% glucose, 0.1 mM CaCl 2 , 2 mM MgSO 4 , 1 mM IPTG, and ampicillin (100 μg ml -1 ) and one of a set of 42 nitriles (10 mM) (Supplementary Table <ref type="table" target="#tab_0">1</ref>) added to the warm agar. Nitrile stocks (250 mM) were made up by vortexing in distilled water at 37 °C where possible. Hydrophobic nitriles were dissolved in a gradually increasing volume of methanol at 37 °C while vortexing and made up to the correct volume with warm water. In some cases with highly water insoluble nitriles small particles remained after vortexing in 100% methanol, these were used as is. Library plasmid DNA was transformed into BL21 E. coli according to calculated oversampling requirements. The cells were pelleted and washed with ice-cold 1× minimal salts to remove any source of nitrogen; ~4 × 10 5 transformants were plated on each nitrile plate. E. coli transformed with AtNIT4 was grown on selection plates containing β-CN(Ala) as a positive control, while AtNIT4 was grown on 4-hydroxyphenyacetonitrile, 6-heptenenitrile, mandelonitrile, butanenitrile, 4-cyanopyridine, fluoroacetonitrile, fumaronitrile, potassium cyanide, 2-furonitrile, and 2-cyanopyridine as negative controls. Untransformed E.</p><p>coli on plates lacking nitriles did not form observable colonies. The plates were grown over several days at 37 °C.</p><p>Activity assays. Specific activity measurements were conducted using the indophenol blue assay <ref type="bibr" target="#b43">43</ref> or Nessler reagent assay <ref type="bibr" target="#b63">63</ref> with substrates purchased from Sigma-Aldrich. Briefly, 2.5 mM substrate, 1 mM DTT and between 0.5 and 10 μg of protein were incubated in 100 μl reaction tubes containing phosphate buffer at 37 °C in intervals of between 5 and 30 min. Initial substrate screening was performed as above, except that 2 μg of protein and 10 mM substrate were incubated for 2 h. Nessler assay: 100 μl of 100 mM KI, 27 mM HgCl 2 and 330 mM NaOH was added immediately following incubation and left at room temperature for 10 min before measuring the absorbance at 420 nm. Indophenol blue assay: reactions were terminated by the addition of 4 μl of 100 mM phenol (in ethanol), followed by the addition of 4 μl of 19 mM sodium nitroprusside and 10 μl of oxidizing solution (1 part of 470 mM NaClO and 4 parts of 775 mM Na 3 C 6 H 5 O 7 and 256 mM NaOH) in distilled water and boiled for 4 min, 1 ml distilled water was added before measuring absorbance at 640 nm. These procedures were conducted in triplicate. Controls consisted of identical reaction mixtures containing enzyme inactivated by boiling for 5 min prior to addition.</p><p>Reporting summary. Further information on research design is available in the Nature Research Reporting Summary linked to this article. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Data quality. a In our hands purified recombinant AtNIT4 forms relatively short heterogeneous filaments (scale bar = 40 nm). b The sample after incubating and blotting in a low-humidity environment: the concentrating effect of dehydration resulted in the formation of a monolayer of long, straight filaments stacked up against one another (scale bar = 40 nm). cThe filaments showed helical order to a limit of ~9 Å. d Clear secondary structure can be visualized in the classified average, but this deteriorates with increasing distance from the center because of the curved nature of the filaments (scale bar = 5 nm). e By masking out a single helical turn and treating this as a single particle we were able to improve the resolution substantially</figDesc><graphic coords="3,65.26,171.77,116.44,116.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig.2NIT helical structure. a In vitro, AtNIT4 assembles into an extended left-handed helical tube with 4.9 subunits per turn (helical twist of -73.0°) and outer and inner diameters of ~13 nm and ~2 nm, respectively. Arrows indicate the positions of the two diad-axes (#) and (*). b, c The NIT4 filament is comprised of a left-handed helix with a pitch of 8.62 nm. Monomers associate across previously described interfaces<ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4</ref> ; while no interaction was observed across the D-or F-interfaces, they are shown for the sake of completeness. The positions of the two diad-axes (#) and (*) relative to individual monomers are shown (EMD-0320). d About 80% of the model was built with high certainty, 34 N-and 8 C-terminus residues and 24 residues on the outer surface of the filament were disordered and could not be visualized in the map. ß-sheets stabilizing the helical structure can be seen in the core of the enzyme (pdb id: 6i00). e The C-interface is predominantly an interaction across monomers 2 and 3. f The C-terminal tail of each sequential monomer contributes two ßstrands, which form one ß-sheet for every dimer</figDesc><graphic coords="5,262.48,229.82,70.60,121.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig.3The substrate-binding pocket. a AtNIT4 structure showing two dimers interacting across the C-interface, the position of the catalytic site is indicated by a square. b The active-site pocket, the catalytic residues (E76, K163, E170, and C197) are shown (**), residues conserved in all plant NITs (*). A loop (tan) arising from the adjacent monomer (between α2 and α3) extends over the entrance to the active-site pocket. c As expected, the amino acid residues surrounding the binding pocket correlate with substrate specificity. Three amino acid positions in particular are responsible for the majority of the variation between known plant NITs: 169, 224, and 95 (numbered according to AtNIT4). d A lid (tan), formed by the loop, limits the length of the binding pocket (#). R95 is in the lid loop; S224 is on the outer border of the binding pocket and L169 points toward the light green subunit across the C-interface</figDesc><graphic coords="6,320.89,287.75,204.76,184.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig.4Generating the library. Mutations were introduced sequentially: R95 (1 mutation), R95 + L169 (2 mutations) and R95 + L169 + S224 (3 mutations). a Graphical representation of the bottlenecks in the experiment. As the library was assembled (one mutation to three mutations), more colony forming units (CFUs) are required to satisfactorily sample the full library diversity. Triangles represent the number of unique mutants present required for 95% probability of full-coverage (all possible protein mutants present), top-mutant (the best amino acid sequence present) and top-ten (one of the 10 best amino acid sequences present) in magenta, yellow, and green, respectively<ref type="bibr" target="#b25">26</ref> . The upper (dark gray) and lower (light grey) 95% confidence interval values for number of CFUs show that by the end of library creation at least one of the top ten mutants was present (stars). This diversity was maintained through all cloning and selection steps. b The final library mix was sequenced and showed successful overlapping NNS peaks at amino acid positions 95, 169, and 224 (sample size: 1% of the total CFUs in each sample)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FumaronitrileFig. 5</head><label>5</label><figDesc>Fig.5NIT4 mutant selection, screening and characterization. a, b, c, d A variable number of colonies were visible after 2 days of incubation on the selection plates. The plates, substrate structures, and sequencing results are shown. e Screening results indicate measured absorbance after incubating with AtNIT4 wt, AtNIT4 R95T L169A S224Q and an inactivated enzyme control, and assaying with Nessler's reagent. Black indicates that AtNIT4 R95T L169A S224Q produced more ammonia than AtNIT4 wt. Gray indicates that the substrate reacts to form a high-absorbance product, but after incubating with the mutant, the absorbance was reduced. White indicates a slightly higher AtNIT4 wt activity compared to the mutant. f Enzyme activity results, asterisk indicates no measurable ammonia formation after incubating for 30 min with 5× excess enzyme. AtNIT4 wt showed no nitrilase activity against any of the listed substrates except for βcyano-L-alanine. The mutant showed high activity against potassium cyanide, 2-cyanopyridine and 2-furonitrile and moderate activity against fluoroacetonitrile and 4-cyanopyridine (1st quartile, median and 2nd quartile ± sd) n = 3 independent activity measurements</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Comparison of plant NIT helical twists. a A comparison of different plant NITs; each monomer in the filament has been colored differently to illustrate the number of protein subunits in a helical turn (360°), the brown subunit (dimer 6) is more visible with decreasing helical twist. b AtNIT4 negative stain map vs cryo-EM model, AtNIT4 has ~5 dimers per turn. c Nit6803 Δ291 negative stain map vs crystal structure (**) indicates the missing Cterminal residues. d AtNIT4 R95T L169A S224Q negative stain reconstruction, the low helical twist and large diameter show similarities to Nit6803 Δ291, density accounted for by the interacting C-terminal tails can be seen in the enzyme core. e Comparison between the structure of AtNIT4 (labeled -73°) and AtNIT4 with the helical operators of the Nit6803 Δ291 crystal structure applied (labeled -60°). The lid loop shifts in the direction shown by arrows (in the plane of the page), resulting in steric clashes. Geometrically, this movement is greater when the diameter of the fiber remains constant, but the helical twist decreases. Scale bar = 10 nm (applies to all end-on views)</figDesc><graphic coords="9,357.19,55.40,123.16,122.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Cryo-EM data collection, refinement, and validation statistics. AtNIT4: EMD-0320, pdb id: 6i00</figDesc><table><row><cell></cell><cell>AtNIT4 EMD-0320</cell></row><row><cell></cell><cell>PDB 6i00</cell></row><row><cell>Data collection</cell><cell></cell></row><row><cell>Microscope</cell><cell>Titan Krios</cell></row><row><cell>Voltage (kV)</cell><cell>300</cell></row><row><cell>Pixel size (Å)</cell><cell>0.85</cell></row><row><cell>Defocus range (µm)</cell><cell>-0.75 to -2.0</cell></row><row><cell>Exposure time (s)</cell><cell>7</cell></row><row><cell>Dose rate (e -pixel -1 s -1 )</cell><cell>6.5</cell></row><row><cell>Number of images</cell><cell>1266</cell></row><row><cell>Number of frames per image</cell><cell>45</cell></row><row><cell>Map reconstruction</cell><cell></cell></row><row><cell>Initial particle number</cell><cell>392,263</cell></row><row><cell>Final particle number</cell><cell>133,106</cell></row><row><cell>Box size (pixels)</cell><cell>260</cell></row><row><cell>Helical twist (°)</cell><cell>-72.98</cell></row><row><cell>Helical rise (Å)</cell><cell>17.48</cell></row><row><cell>Number of monomers per box</cell><cell>25.3</cell></row><row><cell>Box overlap (%)</cell><cell>85</cell></row><row><cell>Resolution (Gold-standard FSC =</cell><cell>3.4</cell></row><row><cell>0.143) (Å)</cell><cell></cell></row><row><cell>Map sharpening B factor (Å 2 )</cell><cell>-124</cell></row><row><cell>Model composition</cell><cell></cell></row><row><cell>Non-hydrogen atoms (monomer)</cell><cell>2262</cell></row><row><cell>Protein residues (all/built)</cell><cell>355/289</cell></row><row><cell>Ligands</cell><cell>0</cell></row><row><cell>Fit to map</cell><cell></cell></row><row><cell>Correlation coefficient (entire box)</cell><cell>0.759</cell></row><row><cell>Correlation coefficient (around atoms)</cell><cell>0.823</cell></row><row><cell>FSC = 0.5 (between model and</cell><cell>3.49</cell></row><row><cell>map) (Å)</cell><cell></cell></row><row><cell>Protein geometry</cell><cell></cell></row><row><cell>Molprobity score</cell><cell>1.69</cell></row><row><cell>All-atom clash score</cell><cell>2.29</cell></row><row><cell>EMRinger score</cell><cell>3.82</cell></row><row><cell>RMSD bonds (Å)</cell><cell>0.006</cell></row><row><cell>RMSD angles (°)</cell><cell>1.153</cell></row><row><cell>Ramachandran favored (%)</cell><cell>83.92</cell></row><row><cell>Ramachandran allowed (%)</cell><cell>15.30</cell></row><row><cell>Ramachandran disallowed (%)</cell><cell>0.78</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Colonies were sequenced at every stage.</figDesc><table><row><cell>No bias</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge Diamond for access and support of the Cryo-EM facilities at the <rs type="institution">UK</rs> national electron bio-imaging centre (eBIC), (proposal <rs type="grantNumber">EM20975-1</rs>), funded by the <rs type="funder">Wellcome Trust</rs>, <rs type="funder">MRC</rs>, and <rs type="funder">BBSRC</rs>. <rs type="person">T. Sewell</rs> and <rs type="person">M. Piotrowski</rs> for their mentorship and <rs type="person">Y. Qayiya</rs>, <rs type="person">N. Arendse</rs>, <rs type="person">M. Jaffer</rs>, <rs type="person">B. Weber</rs>, and <rs type="person">S. Neumann</rs> for technical assistance. This work was funded by a <rs type="grantName">Research Career Advancement Fellowship</rs> from the <rs type="funder">National Research Foundation of South Africa</rs> (<rs type="grantNumber">92556</rs>) and <rs type="funder">GCRF-START (UK Science and Technology Facilities Council</rs> grant <rs type="grantNumber">ref. ST/R002754/1</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_kxGRadP">
+					<idno type="grant-number">EM20975-1</idno>
+				</org>
+				<org type="funding" xml:id="_4dB7arm">
+					<orgName type="grant-name">Research Career Advancement Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_AwC4AEp">
+					<idno type="grant-number">92556</idno>
+				</org>
+				<org type="funding" xml:id="_xDcppfN">
+					<idno type="grant-number">ref. ST/R002754/1</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Expression plasmids generated in this study are available from the corresponding author upon reasonable request. Supplementary Tables <ref type="table">1</ref><ref type="table">2</ref><ref type="table">3</ref><ref type="table">4</ref><ref type="table">5</ref>summarize the data underlying Figs. 3-5. The NIT maps and coordinates have been deposited in the Electron Microscopy Data Bank (<ref type="url" target="http://www.ebi.ac.uk/pdbe/emdb/">http://www.ebi.ac.uk/pdbe/emdb/</ref>) and Protein Data Bank (<ref type="url" target="https://www.rcsb.org/">https://www.rcsb.org/</ref>): AtNIT4 (Δϕ = -73.0°) EMD-0320, pdb id: 6i00; AtNIT4 R95T L169A S224Q EMD-4406; AtNIT4 R95T (Δϕ = -73.3°) EMD-4804, Nit6803 Δ291 EMD-4407. Protein sequences are available from Genbank: AtNIT1 NP_851011.1; AtNIT3 NP_190018.1; AtNIT4 NP_197622.1; CrNIT1 XP_006291436.1; CrNIT2 XP_006284056.1; SalNIT1-3 MH567030; Nit6803 BAA10717.1.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>JDW designed and supervised the study, wrote the manuscript and performed model building, refinement and validation. AEM and JDW reconstructed the nitrilase helices. AEM performed electron microscopy and carried out substrate-preference determinations. AMK constructed and screened the mutant library and performed statistical analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information accompanies this paper at <ref type="url" target="https://doi.org/10.1038/s42003-019-0505-4">https://doi.org/10.1038/s42003- 019-0505-4</ref>.</p><p>Competing interests: The authors declare no competing interests.</p><p>Reprints and permission information is available online at <ref type="url" target="http://npg.nature.com/reprintsandpermissions/">http://npg.nature.com/  reprintsandpermissions/</ref> Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Recent advances and challenges in the heterologous production of microbial nitrilases for biocatalytic applications</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martínková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rucká</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nešvera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pátek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World J. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martínková, L., Rucká, L., Nešvera, J. &amp; Pátek, M. Recent advances and challenges in the heterologous production of microbial nitrilases for biocatalytic applications. World J. Microbiol. Biotechnol. 33, 8 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The cyanide degrading nitrilase from Pseudomonas stutzeri AK61 is a two-fold symmetric, 14-subunit spiral</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jandhyala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1413" to="1422" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sewell, B. T., Berman, M. N., Meyers, P. R., Jandhyala, D. &amp; Benedik, M. J. The cyanide degrading nitrilase from Pseudomonas stutzeri AK61 is a two-fold symmetric, 14-subunit spiral. Structure 11, 1413-1422 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Post-translational cleavage of recombinantly expressed nitrilase from Rhodococcus rhodochrous J1 yields a stable, active helical form</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Thuku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Varsani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="2099" to="2108" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thuku, R. N., Weber, B. W., Varsani, A. &amp; Sewell, B. T. Post-translational cleavage of recombinantly expressed nitrilase from Rhodococcus rhodochrous J1 yields a stable, active helical form. FEBS J. 274, 2099-2108 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Helical structure of unidirectionally shadowed metal replicas of cyanide hydratase from Gloeocercospora sorghi</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="111" to="119" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woodward, J. D. et al. Helical structure of unidirectionally shadowed metal replicas of cyanide hydratase from Gloeocercospora sorghi. J. Struct. Biol. 161, 111-119 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The cyanide hydratase from Neurospora crassa forms a helix which has a dimeric repeat</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="271" to="278" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dent, K. C., Weber, B. W., Benedik, M. J. &amp; Sewell, B. T. The cyanide hydratase from Neurospora crassa forms a helix which has a dimeric repeat. Appl. Microbiol. Biotechnol. 82, 271-278 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Structural and biochemical characterization of a nitrilase from the thermophilic bacterium, Geobacillus pallidus RAPc8</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Williamson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="143" to="153" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williamson, D. S. et al. Structural and biochemical characterization of a nitrilase from the thermophilic bacterium, Geobacillus pallidus RAPc8. Appl. Microbiol. Biotechnol. 88, 143-153 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">NITRILASE1 regulates the exit from proliferation, genome stability and plant development</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Doskočilová</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Phytol</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="685" to="698" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doskočilová, A. et al. NITRILASE1 regulates the exit from proliferation, genome stability and plant development. New Phytol. 198, 685-698 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Substrate specificity of plant nitrilase complexes is affected by their helical twist</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Trompetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piotrowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woodward, J. D., Trompetter, I., Sewell, B. T. &amp; Piotrowski, M. Substrate specificity of plant nitrilase complexes is affected by their helical twist. Commun. Biol. 1, 10 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The nitrilase superfamily: classification, structure and function</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pace, H. C. &amp; Brenner, C. The nitrilase superfamily: classification, structure and function. Genome Biol. 2, 1-9 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Arabidopsis thaliana isogene NIT4 and its orthologs in tobacco encode β-Cyano-L-alanine hydratase/nitrilase</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piotrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schönfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Weiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="2616" to="2621" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piotrowski, M., Schönfelder, S. &amp; Weiler, E. W. The Arabidopsis thaliana isogene NIT4 and its orthologs in tobacco encode β-Cyano-L-alanine hydratase/nitrilase. J. Biol. Chem. 276, 2616-2621 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Primary or secondary? Versatile nitrilases in plant metabolism</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piotrowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="2655" to="2667" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piotrowski, M. Primary or secondary? Versatile nitrilases in plant metabolism. Phytochemistry 69, 2655-2667 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enzymatic characterization of the recombinant Arabidopsis thaliana nitrilase subfamily encoded by the NIT2/NIT1/NIT3-gene cluster</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vorwerk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="508" to="516" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vorwerk, S. et al. Enzymatic characterization of the recombinant Arabidopsis thaliana nitrilase subfamily encoded by the NIT2/NIT1/NIT3-gene cluster. Planta 212, 508-516 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evolution of nitrilases in glucosinolate-containing plants</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Janowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Trompetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piotrowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1680" to="1686" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Janowitz, T., Trompetter, I. &amp; Piotrowski, M. Evolution of nitrilases in glucosinolate-containing plants. Phytochemistry 70, 1680-1686 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Sinapis phylogeny and evolution of glucosinolates and specific nitrile degrading enzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Agerbirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Warwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Olsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="2937" to="2949" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agerbirk, N., Warwick, S. I., Hansen, P. R. &amp; Olsen, C. E. Sinapis phylogeny and evolution of glucosinolates and specific nitrile degrading enzymes. Phytochemistry 69, 2937-2949 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Structural insights into enzymatic activity and substrate specificity determination by a single amino acid in nitrilase from Syechocystis sp. PCC6803</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="93" to="101" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, L. et al. Structural insights into enzymatic activity and substrate specificity determination by a single amino acid in nitrilase from Syechocystis sp. PCC6803. J. Struct. Biol. 188, 93-101 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cloning of a nitrilase gene from the cyanobacterium Synechocystis sp. Strain PCC6803 and heterologous expression and characterization of the encoded protein</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Heinemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="4359" to="4366" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heinemann, U. et al. Cloning of a nitrilase gene from the cyanobacterium Synechocystis sp. Strain PCC6803 and heterologous expression and characterization of the encoded protein. Appl. Environ. Microbiol. 69, 4359-4366 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Semi-rational approaches to engineering enzyme activity: combining the benefits of directed evolution and rational design</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Chica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doucet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="378" to="384" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chica, R. A., Doucet, N. &amp; Pelletier, J. N. Semi-rational approaches to engineering enzyme activity: combining the benefits of directed evolution and rational design. Curr. Opin. Biotechnol. 16, 378-384 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Beyond directed evolution-semi-rational protein engineering and design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="734" to="743" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S. Beyond directed evolution-semi-rational protein engineering and design. Curr. Opin. Biotechnol. 21, 734-743 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The mechanism of the amidases: mutating the glutamate adjacent to the catalytic triad inactivates the enzyme due to substrate mispositioning</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="28514" to="28523" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weber, B. W. et al. The mechanism of the amidases: mutating the glutamate adjacent to the catalytic triad inactivates the enzyme due to substrate mispositioning. J. Biol. Chem. 288, 28514-28523 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Crystal structure and pH-dependent allosteric regulation of human β -ureidopropionase, an enzyme involved in anticancer drug metabolism</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krumpel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widersten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page" from="2395" to="2416" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maurer, D., Lohkamp, B., Krumpel, M. &amp; Widersten, M. Crystal structure and pH-dependent allosteric regulation of human β -ureidopropionase, an enzyme involved in anticancer drug metabolism. Biochem. J. 475, 2395-2416 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Microbial nitrilases: versatile, spiral forming, industrial enzymes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Thuku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="703" to="727" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thuku, R. N., Brady, D., Benedik, M. J. &amp; Sewell, B. T. Microbial nitrilases: versatile, spiral forming, industrial enzymes. J. Appl. Microbiol. 106, 703-727 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Detection of covalent enzymesubstrate complexes of nitrilase by ion-spray mass spectroscopy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Stevenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Storer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="112" to="114" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stevenson, D. E., Feng, R. &amp; Storer, A. C. Detection of covalent enzyme- substrate complexes of nitrilase by ion-spray mass spectroscopy. FEBS Lett. 277, 112-114 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Crystal structure of C171A/V236A mutant of Ncarbamyl-D-amino acid amidohydrolase. RCSB Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb1uf5/pdb</idno>
+		<ptr target="https://doi.org/10.2210/pdb1uf5/pdb" />
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hashimoto, H. et al. Crystal structure of C171A/V236A mutant of N- carbamyl-D-amino acid amidohydrolase. RCSB Protein Data Bank. https:// doi.org/10.2210/pdb1uf5/pdb (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Structure of amidase from Pseudomonas aeruginosa showing a trapped acyl transfer reaction intermediate state</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karmali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">A</forename><surname>Carrondom</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Frazãoc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="19598" to="19605" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrade, J., Karmali, A., CarrondoM. A. &amp; FrazãoC. Structure of amidase from Pseudomonas aeruginosa showing a trapped acyl transfer reaction intermediate state. J. Biol. Chem. 282, 19598-19605 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Covalent modifications of the active site cysteine occur as a result of mutating the glutamate of the catalytic triad in the amidase from Nesterenkonia sp. RCSB Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vlok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Watermeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb4izs/pdb</idno>
+		<ptr target="https://doi.org/10.2210/pdb4izs/pdb" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kimani, S. W., Hunter, R., Vlok, M., Watermeyer, J. &amp; Sewell, B. T. Covalent modifications of the active site cysteine occur as a result of mutating the glutamate of the catalytic triad in the amidase from Nesterenkonia sp. RCSB Protein Data Bank. https://doi.org/10.2210/pdb4izs/pdb (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">When second best is good enough: nother probabilistic look at saturation mutagenesis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="258" to="262" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nov, Y. When second best is good enough: nother probabilistic look at saturation mutagenesis. Appl. Environ. Microbiol. 78, 258-262 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Directed evolution of protein catalysts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeymer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="131" to="157" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zeymer, C. &amp; Hilvert, D. Directed evolution of protein catalysts. Annu. Rev. Biochem. 87, 131-157 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Bacterial utilization of cyanide</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Ware</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Painter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">900</biblScope>
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ware, G. C. &amp; Painter, H. A. Bacterial utilization of cyanide. Nature 175, 900 (1955).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">UCSF Chimera -A visualization system for exploratory research and analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Pettersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1605" to="1612" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pettersen, E. F. et al. UCSF Chimera -A visualization system for exploratory research and analysis. J. Comput. Chem. 25, 1605-1612 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Applications of nitrile hydratases and nitrilases</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desantis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dicosimo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biocatalysis for the Pharmaceutical Industry</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Tao</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G.-Q</forename><surname>Lin</surname></persName>
+		</editor>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">DeSantis, G. &amp; DiCosimo, R. Applications of nitrile hydratases and nitrilases. In Biocatalysis for the Pharmaceutical Industry (eds Tao, J.A., Lin, G.-Q.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liese</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>Singapore</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&amp; Liese, A.) (John Wiley &amp; Sons, Singapore, 2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Herbicide resistance in transgenic plants expressing a bacterial detoxification gene</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Stalker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Malyj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="419" to="423" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stalker, D. M., McBride, K. E. &amp; Malyj, L. D. Herbicide resistance in transgenic plants expressing a bacterial detoxification gene. Science 242, 419-423 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Investigative mining of sequence data for novel enzymes: a case study with nitrilases</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Seffernick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Samanta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Louie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Wackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Subramanian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="17" to="26" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seffernick, J. L., Samanta, S. K., Louie, T. M., Wackett, L. P. &amp; Subramanian, M. Investigative mining of sequence data for novel enzymes: a case study with nitrilases. J. Biotechnol. 143, 17-26 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Genome mining for the discovery of new nitrilases in filamentous fungi</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kaplan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="309" to="312" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaplan, O. et al. Genome mining for the discovery of new nitrilases in filamentous fungi. Biotechnol. Lett. 33, 309-312 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Directed evolution of Alcaligenes faecalis nitrilase</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schreiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzym. Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="140" to="146" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schreiner, U. et al. Directed evolution of Alcaligenes faecalis nitrilase. Enzym. Microb. Technol. 47, 140-146 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of a cyanide dihydratase from Bacillus pumilus C1</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rawlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Lindsey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="6105" to="6112" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyers, P. R., Rawlings, D. E., Woods, D. R. &amp; Lindsey, G. G. Isolation and characterization of a cyanide dihydratase from Bacillus pumilus C1. J. Bacteriol. 175, 6105-6112 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">CynD, the cyanide dihydratase from Bacillus pumilus: gene cloning and structural studies</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jandhyala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="4794" to="4805" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jandhyala, D. et al. CynD, the cyanide dihydratase from Bacillus pumilus: gene cloning and structural studies. Appl. Environ. Microbiol. 69, 4794-4805 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Probing an interfacial surface in the cyanide dihydratase from Bacillus pumilus, a spiral forming nitrilase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mulelu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1479</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, J. M., Mulelu, A., Sewell, B. T. &amp; Benedik, M. J. Probing an interfacial surface in the cyanide dihydratase from Bacillus pumilus, a spiral forming nitrilase. Front. Microbiol. 6, 1479 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Crystal structure of the worm NitFhit Rosetta Stone protein reveals a Nit tetramer binding two Fhit dimers</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Pace</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="907" to="917" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pace, H. C. et al. Crystal structure of the worm NitFhit Rosetta Stone protein reveals a Nit tetramer binding two Fhit dimers. Curr. Biol. 10, 907-917 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Crystal structure of N-carbamyl-D-amino acid amidohydrolase with a novel catalytic framework common to amidohydrolases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="729" to="737" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakai, T. et al. Crystal structure of N-carbamyl-D-amino acid amidohydrolase with a novel catalytic framework common to amidohydrolases. Structure 8, 729-737 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Probing C-terminal interactions of the Pseudomonas stutzeri cyanidedegrading CynD protein</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A N</forename><surname>Crum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Mulelu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="3093" to="3102" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crum, M. A. N., Park, J. M., Mulelu, A. E., Sewell, B. T. &amp; Benedik, M. J. Probing C-terminal interactions of the Pseudomonas stutzeri cyanide- degrading CynD protein. Appl. Microbiol. Biotechnol. 99, 3093-3102 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Influence of different carboxy-terminal mutations on the substrate-, reaction-and enantiospecificity of the arylacetonitrilase from Pseudomonas fluorescens EBC191</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kiziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng. Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="385" to="396" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiziak, C., Klein, J. &amp; Stolz, A. Influence of different carboxy-terminal mutations on the substrate-, reaction-and enantiospecificity of the arylacetonitrilase from Pseudomonas fluorescens EBC191. Protein Eng. Des. Sel. 20, 385-396 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">C-terminal hybrid mutant of Bacillus pumilus cyanide dihydratase dramatically enhances thermal stability and pH tolerance by reinforcing oligomerization</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Crum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Benedik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="881" to="889" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crum, M. A., Park, J. M., Sewell, B. T. &amp; Benedik, M. J. C-terminal hybrid mutant of Bacillus pumilus cyanide dihydratase dramatically enhances thermal stability and pH tolerance by reinforcing oligomerization. J. Appl. Microbiol. 118, 881-889 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Evolution of heteromeric nitrilase complexes in Poaceae with new functions in nitrile metabolism</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jenrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="18848" to="18853" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jenrich, R. et al. Evolution of heteromeric nitrilase complexes in Poaceae with new functions in nitrile metabolism. Proc. Natl Acad. Sci. USA 104, 18848-18853 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Local fitness landscape of the green fluorescent protein</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Sarkisyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">533</biblScope>
+			<biblScope unit="page" from="397" to="401" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sarkisyan, K. S. et al. Local fitness landscape of the green fluorescent protein. Nature 533, 397-401 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Enzyme recruitment in evolution of new function</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="409" to="425" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jensen, R. A. Enzyme recruitment in evolution of new function. Annu. Rev. Microbiol. 30, 409-425 (1976).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Visualizing proteins and macromolecular complexes by negative stain EM: from grid preparation to image acquisition</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Sakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/3227</idno>
+		<ptr target="https://doi.org/10.3791/3227" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Vis. Exp</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">3227</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Booth, D. S., Avila-Sakar, A. &amp; Cheng, Y. Visualizing proteins and macromolecular complexes by negative stain EM: from grid preparation to image acquisition. J. Vis. Exp. 58, 3227. https://doi.org/10.3791/3227 (2011)</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">EMAN: semiautomated software for high-resolution single-particle reconstructions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ludtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="82" to="97" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ludtke, S. J., Baldwin, P. R. &amp; Chiu, W. EMAN: semiautomated software for high-resolution single-particle reconstructions. J. Struct. Biol. 128, 82-97 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A robust algorithm for the reconstruction of helical filaments using single-particle methods</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Egelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="225" to="234" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Egelman, E. H. A robust algorithm for the reconstruction of helical filaments using single-particle methods. Ultramicroscopy 85, 225-234 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">SPIDER and WEB: processing and visualization of images in 3D electron microscopy and related fields</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frank</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="190" to="199" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frank, J. et al. SPIDER and WEB: processing and visualization of images in 3D electron microscopy and related fields. J. Struct. Biol. 116, 190-199 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Processing of structurally heterogeneous Cryo-EM data in RELION</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H W</forename><surname>Scheres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">579</biblScope>
+			<biblScope unit="page" from="125" to="157" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheres, S. H. W. Processing of structurally heterogeneous Cryo-EM data in RELION. Methods Enzymol. 579, 125-157 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">MotionCor2: anisotropic correction of beam-induced motion for improved cryo-electron microscopy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">331</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, S. Q. et al. MotionCor2: anisotropic correction of beam-induced motion for improved cryo-electron microscopy. Nat. Methods 14, 331 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Gctf: real-time CTF determination and correction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, K. Gctf: real-time CTF determination and correction. J. Struct. Biol. 193, 1-12 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Helical reconstruction in RELION</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H W</forename><surname>Scheres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="163" to="176" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, S. &amp; Scheres, S. H. W. Helical reconstruction in RELION. J. Struct. Biol. 198, 163-176 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Buccaneer software for automated model building. 1. Tracing protein chains</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1002" to="1011" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cowtan, K. The Buccaneer software for automated model building. 1. Tracing protein chains. Acta Crystallogr. Sect. D. 62, 1002-1011 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Recent developments in the CCP-EM software suite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Winn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="469" to="477" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burnley, T., Palmer, C. M. &amp; Winn, M. Recent developments in the CCP-EM software suite. Acta Crystallogr. Sect. D Struct. Biol. 73, 469-477 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Features and development of Coot</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="486" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emsley, P., Lohkamp, B., Scott, W. G. &amp; Cowtan, K. Features and development of Coot. Acta Crystallogr. Sect. D. 66, 486-501 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">PHENIX: a comprehensive Python-based system for macromolecular structure solution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="213" to="221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams, P. D. et al. PHENIX: a comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr. Sect. D Biol. Crystallogr. 66, 213-221 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Use of knowledge-based restraints in phenix.refine to improve macromolecular refinement at low resolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Headd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="381" to="390" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Headd, J. J. et al. Use of knowledge-based restraints in phenix.refine to improve macromolecular refinement at low resolution. Acta Crystallogr. Sect. D. 68, 381-390 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">An efficient one-step site-directed and site-saturation mutagenesis protocol</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="115" to="e115" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, L. An efficient one-step site-directed and site-saturation mutagenesis protocol. Nucleic Acids Res. 32, e115-e115 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Two stage estimation with one observation on the first stage</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Rosenblatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Inst. Stat. Math</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="229" to="235" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abbott, J. H. &amp; Rosenblatt, J. I. Two stage estimation with one observation on the first stage. Ann. Inst. Stat. Math. 14, 229-235 (1962).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Protein Library Design and Screening</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Denault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Protein Engineering Protocols</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Denault, M. &amp; Pelletier, J. N. Protein Library Design and Screening.In Protein Engineering Protocols. (Humana Press, New York, 2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maniatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sambrook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Molecular Cloning. A Laboratory Manual</title>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<pubPlace>Cold Spring Harbor Laboratory, New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maniatis, T., Fritsch, E. F. &amp; Sambrook, J. Molecular Cloning. A Laboratory Manual. (Cold Spring Harbor Laboratory, New York, 1982).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Reactions of Nessler&apos;s solution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Willits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="769" to="774" />
+			<date type="published" when="1934">1934</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nichols, M. L. &amp; Willits, C. O. Reactions of Nessler&apos;s solution. J. Am. Chem. Soc. 56, 769-774 (1934).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

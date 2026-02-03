@@ -1,0 +1,115 @@
+priority_order: [5,4,8,6,7,3,2,9,1,10]  # Immobilization > Media > Reactors > Cofactor > Cascades > Formats > Design > Portfolios > Discovery > Sustainability
+
+pillars:
+  "1":
+    name: "Discovery & Sourcing of Biocatalysts"
+    positive:
+      - {pattern: '\bgenome mining\b|\bmetagenom\w*\b|\bbioprospect\w*\b|\bbiopanning\b', weight: 2.6}
+      - {pattern: '\bhomolog (search|screen)\b|\b(ssn|sequence similarity network|EFI[- ]?EST)\b|\bHMM(ER)?\b|\bprofile[- ]?HMM\b', weight: 2.2}
+      - {pattern: '\b(biosynthetic gene cluster|BGCs?)\b|\bantiSMASH\b|\bBiG[- ]?SCAPE\b|\bgenomic context\b|\bsynten\w*', weight: 1.9}
+      - {pattern: '\bdegenerate primer\w*\b|\bPCR[- ]?based screen\w*\b|\benrichment culture\w*\b|\bBLAST\b|\bPSI[- ]?BLAST\b|\bHHPred\b', weight: 1.7}
+      - {pattern: '\bmetagenome[- ]assembled genomes?\b|\bMAGs?\b|\bbinn?ing\b|\bcontigs?\b|\bscaffolds?\b|\bassembly\b', weight: 1.4}
+      - {pattern: '\bUniProt\b|\bInterPro\b|\bEggNOG\b|\bKEGG\b|\bIMG/M\b|\bNCBI nr\b', weight: 1.2}
+    penalties:
+      - {pattern: '\bdirected evolution\b|\bmutagenesis\b|\bsite[- ]saturation\b|\bCAST\b|\bISM\b', weight: 1.4}
+
+  "2":
+    name: "Design & Engineering"
+    positive:
+      - {pattern: '\bdirected evolution\b|\berror[- ]?prone PCR\b|\bcontinuous evolution\b|\b(PACE|OrthoRep)\b', weight: 2.7}
+      - {pattern: '\bsite[- ]saturation\b|\bsaturation mutagenesis\b|\bNDT\b|\bVHG\b|\b22c[- ]?trick\b|\bNNK\b|\bCAST\b|\bISM\b', weight: 2.2}
+      - {pattern: '\bconsensus\b|\bancestral\b|\bDNA shuffling\b|\bSCHEMA\b|\bProSAR\b|\bdeep mutational scanning\b|\bDMS\b', weight: 1.9}
+      - {pattern: '\b(active[- ]?site|tunnel|pocket)\s+(engineering|mutation|remodel(ing)?)\b|\bQM/?MM\b|\bRosetta\b|\bFoldX\b|\bmolecular dynamics\b|\bMD simulation\b', weight: 1.7}
+      - {pattern: '\bcomputational design\b|\bhotspots?\b|\btransition state (model(ing)?|analogue)\b|\bcodon (optimi[sz]ation|harmoni[sz]ation)\b', weight: 1.4}
+    penalties:
+      - {pattern: '\bSSN\b|\bgenome mining\b|\bantiSMASH\b', weight: 1.4}
+
+  "3":
+    name: "Biocatalyst Formats & Cellular Context"
+    positive:
+      - {pattern: '\bwhole[- ]cell(s)?\b|\bresting cell(s)?\b|\bpermeabilis', weight: 2.5}
+      - {pattern: '\bcell[- ]free\b|\blysate\b|\bCFE\b|\bsurface display\b|\bdisplay on (cells?|yeast|phage)\b', weight: 2.1}
+      - {pattern: '\bchassis\b|\bco[- ]culture(s)?\b|\bconsorti(a|um)\b', weight: 1.8}
+      - {pattern: '\btransport(er)? engineering\b|\bAlkL\b|\bsecretion (signal|tag)\b|\bperiplasm(ic)?\b|\bSec pathway\b|\bTat pathway\b', weight: 1.5}
+      - {pattern: '\b(cofactor|NAD(P)?H) (pool|balance)\b|\bredox balance\b|\bdynamic (control|switch)\b|\bmetabolic burden\b', weight: 1.3}
+    penalties: []
+
+  "4":
+    name: "Media & Microenvironment"
+    positive:
+      - {pattern: '\borganic solvent(s)?\b|\bsolvent[- ]toleran\w*|\bcosolvents?\b|\blog ?P\b', weight: 2.4}
+      - {pattern: '\btwo[- ]liquid[- ]phase\b|\bbiphasic\b|\bmicro[- ]aqueous\b|\bpartition(ing)?\b', weight: 2.4}
+      - {pattern: '\bionic liquids?\b|\bILs?\b|\bdeep eutectic\b|\bDES\b|\bsupercritical CO2\b|\bscCO2\b', weight: 2.4}
+      - {pattern: '\bwater activity\b|\ba[_ ]?w\b|\bpH memory\b|\bosmolytes?\b|\bstabilizers?\b|\btrehalose\b|\bglycerol\b', weight: 1.8}
+      - {pattern: '\bmicroemulsions?\b|\bmicellar\b|\breverse micelles?\b', weight: 1.6}
+    penalties:
+      - {pattern: '\bflow battery\b|\bphotoresist\b|\bbattery electrolyte\b|\bresin developer\b|\bpaint\b|\bink\b', weight: 1.4}
+
+  "5":
+    name: "Immobilization & Materials"
+    positive:
+      - {pattern: '\bimmobiliz\w*|\breus(e|ability)\b', weight: 2.6}
+      - {pattern: '\bcarrier\b|\bsupport\b|\bresin\b|\bbeads?\b|\bagarose\b|\bglyoxyl\b|\bepoxy\b|\bboronic\b|\baldehyde[- ]activated\b', weight: 1.8}
+      - {pattern: '\bCLEA(s)?\b|\bCLEC(s)?\b|\bsol[- ]gel\b|\bhydrogel(s)?\b|\bmesoporous\b|\bEziG\b|\bMOF(s)?\b|\bmagnetic nanoparticles?\b', weight: 1.9}
+      - {pattern: '\boriented immobiliz\w*\b|\bcross[- ]link(ed|ing)\b|\bfunctionaliz(ed|ation)\b|\bsite[- ]directed attachment\b', weight: 1.6}
+      - {pattern: '\bco[- ]immobiliz\w*\b|\b(compartmentaliz\w*|spatial organization)\b', weight: 1.4}
+      - {pattern: '\bAmberlite\b|\bLewatit\b|\bSepabeads?\b|\bSilica gel\b|\bSBA-15\b|\bMCM-41\b', weight: 1.2}
+    penalties:
+      - {pattern: '\bimmobiliz\w*\b (of|on) (antibodies?|cells?)\b', weight: 1.0}   # try to avoid immunoassay contexts
+      - {pattern: '\badsorption isotherm\b without enzyme|biocatal', weight: 1.0}     # weak guard; still conservative
+
+  "6":
+    name: "Cofactor & Energy Management"
+    positive:
+      - {pattern: '\bcofactors?\b|\bNADP?\+?\b|\bNADH\b|\bNADPH\b|\bflavins?\b|\bFAD\b|\bFMN\b|\bPLP\b', weight: 2.5}
+      - {pattern: '\b(cofactor|NAD(P)?H|ATP)\s+(regenerat\w*|recycl\w*|supply)\b|\bcofactor[- ]?independent\b', weight: 2.3}
+      - {pattern: '\bFDH\b|\bformate dehydrogenase\b|\bGDH\b|\bglucose[- ]6[- ]phosphate dehydrogenase\b|\bG6PDH\b|\bPTDH\b|\bphosphite dehydrogenase\b', weight: 2.1}
+      - {pattern: '\bATP regeneration\b|\bpolyphosphate\b|\bpolyP\b|\bPPK\b|\badenylate kinase\b|\bcreatine kinase\b|\bSAM\b|\bS[- ]?adenosyl[- ]?methionine\b|\bCoA\b', weight: 1.8}
+      - {pattern: '\belectro(enzym\w*|chemical)\b|\bphotoenzym\w*\b|\bphotoredox\b|\bhydrogen[- ]borrowing\b', weight: 1.7}
+    penalties:
+      - {pattern: '\b(KRED|transaminase|IRED|BVMO)\b(?![^.\n]{0,120}\b(regenerat|recycl|cofactor|NAD|ATP)\b)', weight: 1.2}  # enzyme name without any regeneration context nearby
+
+  "7":
+    name: "Cascade & Route Design"
+    positive:
+      - {pattern: '\b(cascade|multi[- ]enzym\w*)\b|\btelescop(ed|ing)\b', weight: 2.6}
+      - {pattern: '\bone[- ]pot\b|\btandem\b|\bchemo[- ]?enzymatic\b|\bchemoenzymatic\b', weight: 2.1}
+      - {pattern: '\bcompartment\w*\b|\bmembrane[- ]?separated\b|\bin situ product removal\b|\bISPR\b', weight: 1.8}
+      - {pattern: '\bstaged addition\b|\bsequential addition\b|\btemporal control\b', weight: 1.5}
+      - {pattern: '\b(retro)?biosynthesis\b|\bCASP\b|\bpathway design\b|\broute scouting\b', weight: 1.4}
+    penalties: []
+
+  "8":
+    name: "Reactors, Flow & In-Line Operations"
+    positive:
+      - {pattern: '\bflow\b|\bcontinuous\b|\bCSTR\b|\bPFR\b|\bplug[- ]flow\b|\bpacked[- ]bed\b|\bPBR\b|\bcolumn reactor\b', weight: 2.6}
+      - {pattern: '\bmicroreactor\b|\bmicrofluidic\b|\bmillifluidic\b|\btube[- ]in[- ]tube\b|\bloop reactor\b', weight: 2.1}
+      - {pattern: '\bresidence[- ]?time\b|\bRTD\b|\bbed volumes?\b|\bback[- ]?pressure regulator\b|\bBPR\b|\bpressure drop\b', weight: 1.9}
+      - {pattern: '\bPAT\b|\bprocess analytical\b|\bin[- ]line\b|\bon[- ]line\b|\b(in|on)line (NIR|Raman|FTIR|MS)\b', weight: 1.7}
+      - {pattern: '\bmembrane reactor\b|\bpervaporation\b|\bextraction (loop|module)\b|\brecirculation\b', weight: 1.5}
+    penalties:
+      - {pattern: '\bworkflow\b|\bwork[- ]?flow\b|\bflow cytometry\b|\bblood flow\b|\bairflow\b|\bcash flow\b|\btraffic flow\b', weight: 1.8}
+
+  "9":
+    name: "Reaction Space & Enzyme Portfolios"
+    positive:
+      - {pattern: '\bKRED\b|\bADH\b|\bketoreductase\b|\bene[- ]?reductase\b|\bOYE\b', weight: 2.3}
+      - {pattern: '\btransaminase\b|\baminotransferase\b|\bω-?TA\b|\bIRED\b|\bRedAm\b|\bAmDH\b|\bMAO\b|\bmonoamine oxidase\b', weight: 2.3}
+      - {pattern: '\bBVMO\b|\bmonooxygenase\b|\bperoxygenase\b|\bP450\b|\bhalogenase\b|\bflavin[- ]dependent\b', weight: 2.0}
+      - {pattern: '\baldolase\b|\bDERA\b|\bFSA\b|\bHNL\b|\bThDP\b|\btransketolase\b|\bTK\b|\bPAL\b|\baldoxime dehydratase\b|\bCAR\b', weight: 2.0}
+      - {pattern: '\bcyclase\b|\bSHC\b|\bterpene synthase\b|\bPictet[-– ]Spengler(ase)?\b', weight: 1.8}
+      - {pattern: '\bcarbene transfer\b|\bnitrene transfer\b|\bartificial metalloenzyme\b|\bengineered heme\b', weight: 1.8}
+      - {pattern: '\bglycosyl(transferase|ation)\b|\bglycosidase\b|\bnitrilase\b|\bnitrile hydratase\b|\bepoxide hydrolase\b|\blipase\b|\besterase\b', weight: 1.8}
+    penalties:
+      - {pattern: 'directed evolution|site[- ]saturation|mutagenesis|CAST|ISM|library|screen(ing)?|engineer\w*', weight: 2.0}
+
+  "10":
+    name: "Sustainability, Metrics & Industrialization"
+    positive:
+      - {pattern: '\bPMI\b|\bprocess mass intensity\b|\bE[- ]?factor\b|\batom economy\b|\bgreen (chemistry|metrics)\b', weight: 2.2}
+      - {pattern: '\bSTY\b|\bspace[- ]time yield\b|\btechno[- ]economic\b|\bTEA\b|\bNPV\b|\bROI\b|\bcost per kg\b', weight: 1.9}
+      - {pattern: '\bLCA\b|\blife cycle assess(ment|ing)\b|\bISO 1404[04]\b|\bGWP\b|\bCO2[- ]?eq\b', weight: 1.9}
+      - {pattern: '\bindustrial\b|\bscale[- ]?up\b|\bGMP\b|\bICH\b|\bQbD\b|\bHAZOP\b|\bTRL\b|\bprocess validation\b', weight: 1.6}
+      - {pattern: '\bsolvent recycling\b|\bvalorization\b|\bcircular economy\b|\bEHS\b|\bREACH\b', weight: 1.4}
+    penalties:
+      - {pattern: '.*', weight: 1.0}

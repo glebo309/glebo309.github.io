@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inverting enantioselectivity by directed evolution of hydantoinase for improved production of L-methionine</title>
+				<funder ref="#_NyTHxxR">
+					<orgName type="full">Degussa-Huels AG</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Oliver</forename><surname>May</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+							<email>frances@cheme.caltech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inverting enantioselectivity by directed evolution of hydantoinase for improved production of L-methionine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C0C67DA73ACD7F85DB9CA23250167137</idno>
+					<note type="submission">Received 5 October 1999; accepted 4 December 1999</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>directed evolution</term>
+					<term>enantioselectivity</term>
+					<term>hydantoinase</term>
+					<term>biocatalysis</term>
+					<term>chiral chemicals</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Using directed evolution, we have improved the hydantoinase process for production of L-methionine (L-met) in Escherichia coli. This was accomplished by inverting the enantioselectivity and increasing the total activity of a key enzyme in a whole-cell catalyst. The selectivity of all known hydantoinases for D-5-(2-methylthioethyl)hydantoin (D-MTEH) over the L-enantiomer leads to the accumulation of intermediates and reduced productivity for the L-amino acid. We used random mutagenesis, saturation mutagenesis, and screening to convert the D-selective hydantoinase from Arthrobacter sp. DSM 9771 into an L-selective enzyme and increased its total activity fivefold. Whole E. coli cells expressing the evolved L-hydantoinase, an L-N-carbamoylase, and a hydantoin racemase produced 91 mM L-met from 100 mM D,L-MTEH in less than 2 h. The improved hydantoinase increased productivity fivefold for &gt;90% conversion of the substrate. The accumulation of the unwanted intermediate D-carbamoyl-methionine was reduced fourfold compared to cells with the wild-type pathway. Highly D-selective hydantoinase mutants were also discovered. Enantioselective enzymes rapidly optimized by directed evolution and introduced into multienzyme pathways may lead to improved whole-cell catalysts for efficient production of chiral compounds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The fine chemicals industry is turning increasingly to biological synthesis routes to fulfill the rapidly growing demand for enantiomerically pure pharmaceuticals <ref type="bibr" target="#b0">1</ref> . The rapidly changing product demands that are typical for chiral intermediates, however, can limit the ability of biocatalysis to compete with other technologies. One reason is that enantioselectivity is often substrate-dependent, with the consequence that available enzymes are only useful for a limited spectrum of products. Even slight modifications in the chiral product can necessitate a new search for a suitable biocatalyst.</p><p>The hydantoinase process is well established for the industrial production of various D-and L-amino acids <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> , which are valuable precursors of antibiotics and other drugs <ref type="bibr" target="#b3">4</ref> . Arthrobacter sp. DSM9771, for example, is used as a whole-cell catalyst for the commercial production of natural and nonnatural L-amino acids from D,L-5-monosubstituted hydantoins <ref type="bibr" target="#b4">5</ref> . However, this process cannot be used to produce certain L-amino acids such as L-methionine (L-Met), because the hydantoinase exhibits inverted enantioselectivity on the (racemic) hydantoin substrate <ref type="bibr" target="#b5">6</ref> . The preference of the enzyme for D-5-(2methylthioethyl)hydantoin (D-MTEH) leads to accumulation of D-N-carbamoyl-methionine (D-C-Met) <ref type="bibr" target="#b6">7</ref> (Fig. <ref type="figure" target="#fig_0">1</ref>) and reduces productivity, since conversion of D-C-Met into L-Met is very slow <ref type="bibr" target="#b7">8</ref> . In fact, all known hydantoinases show D-selectivity in this reaction.</p><p>Enzymes can be tailored for specific industrial demands in a rapid, iterative process of mutation/recombination and selection or screening <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> . A research group from Celgene (Warren, NJ) reported a transaminase mutant that can be used for the production of a chiral amine with an enantiomeric excess (ee) of &gt;95%, compared to an ee of only 65% for wild type <ref type="bibr" target="#b10">11</ref> . More recently, Reetz and Jaeger evolved a lipase for the enantioselective hydrolysis of 2-methyldecanoic ester. Their best mutant produced the (S)-acid with an ee of &gt;90% (compared to 2% for wild type) <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> . Thus directed evolution can improve an enzyme's natural enantioselectivity. However, it is not clear that enantioselectivity can be inverted. Converting a D-selective enzyme into an L-selective one might require large structural changes that compromise activity or that would not be accessible using an evolutionary process.</p><p>Our goal was to develop a viable process for the production of L-Met by inverting the enantioselectivity of the hydantoinase from Arthrobacter sp. DSM 9771 while maintaining or increasing the activity of the whole-cell catalyst. Here we demonstrate that directed evolution can solve this challenging molecular design problem. We also show that the evolved hydantoinase strikingly improves the production of L-Met by the three-enzyme pathway in Escherichia coli.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>First mutant generation. Random mutations were introduced into the hydantoinase wild-type gene coding for 458 amino acids by PCR, under conditions designed to generate an average of one amino acid substitution per gene. Similar to the approach used by Reetz and Jaeger <ref type="bibr" target="#b11">12</ref> , the mutant library was screened for clones with altered enantioselectivities by comparing their activities toward pure L-and D-enantiomers. Approximately 10,000 clones were tested on L-MTEH and D-MTEH separately in 96-well microtiter plates using a pH indicator assay. A change in the ratio of these activities provided a first indication of altered enantioselectivity. Positive results in this rapid assay were verified by HPLC analysis of the products of enzyme reaction with the racemic hydantoin.</p><p>Activities of 4,000 mutant hydantoinases toward the two substrates are summarized in Figure <ref type="figure" target="#fig_1">2</ref>. A number were more active than the wild-type enzyme. Mutants 1CF3, 1CG7, and 14CB10 were significantly more D-selective in the screen; HPLC confirmed high D-selectivity for all three (90% ee D at 30% conversion). Sequencing revealed that all three shared the single amino acid substitution V154A.</p><p>From this library we also identified two mutants, 19AG11 and 11DH7, that were slightly more active toward L-MTEH than D-MTEH. When tested by HPLC under standard reaction conditions (see Experimental Protocol), those mutants did not exhibit L-selectivity. However, they were less D-selective (20% ee D at 30% conversion) than wild type (∼40% ee D ). Whereas enantioselectivity was not significantly affected by temperature, substrate concentration, or Tris buffer it was affected by the presence of the culture medium in the assay. When the HPLC assay was repeated without removing the culture medium, the clones were in fact slightly L-selective (7% ee L at 30% conversion), verifying the screening results and underscoring the sensitivity of the enzyme to details of the reaction conditions. Although it is well established that reaction conditions such as pH, temperature, or various medium components can influence enzyme enantioselectivity, this was never before reported for hydantoinases and is worth further investigation.</p><p>Sequencing revealed that both mutants had amino acid substitution I95L. Mutant 11DH7 had an additional mutation, Q251R, which did not contribute to any further change in activity or enantioselectivity. Therefore, we conclude that Q251R is a neutral mutation.</p><p>Second mutant generation. A second round of random mutagenesis and screening was performed starting from the less D-selective mutant 11DH7. Screening 10,000 clones again yielded several more active and more D-selective mutants, but no L-selective mutant. The most active clone, 22CG2, was fourfold more active than its parent and had the same, reduced D-selectivity. Single amino acid substitution V180A was found to be responsible for the improved activity. Screening an additional 10,000 clones from a second library produced using a higher error rate (50% inactive clones) again revealed no L-selective mutants, although more active and more highly Dselective mutants were identified.</p><p>Saturation mutagenesis. Only a limited set of amino acid substitutions can be reached by PCR mutagenesis at the low error rates used, and many, particularly nonconservative substitutions, will not be present in the library. Saturation mutagenesis at sites discovered by screening random point mutagenesis libraries can reach more amino acidspossibly more useful ones. For example, this strategy identified highly stabilizing mutations in a key loop position of a psychrophilic protease 14 that were not observed in the point mutation library. Our sequencing of positive clones from the first-generation library had shown that a substitution at position 95 relaxes the enantioselectivity of the hydantoinase. We therefore used saturation mutagenesis to introduce all 20 amino acids into position 95 of mutant 22CG2. As shown in Figure <ref type="figure" target="#fig_2">3</ref>, screening of ∼400 mutants revealed a more L-selective mutant, Q2H4. When tested under standard conditions by HPLC, this mutant indeed showed inverted enantioselectivity for the hydrolysis of D,L-MTEH. Q2H4 produced N-carbamoyl-L-methionine with an ee of 20% at ∼30% conversion. In addition, the mutant was ∼1.5fold more active than its parent 22CG2. Sequencing revealed phenylalanine at position 95. Figure <ref type="figure">4</ref> summarizes the evolutionary progression and enantioselectivities of the various mutants. The final evolved hydantoinase is L-selective and fivefold more active than wild type.</p><p>L-Methionine production with a recombinant whole-cell catalyst. In order to test how the evolved hydantoinase contributes to improving the production of L-Met in the multienzyme reaction (Fig. <ref type="figure" target="#fig_0">1</ref>), recombinant whole-cell catalysts were prepared by coexpressing the evolved or wild-type hydantoinase with a hydantoin racemase and an L-N-carbamoylase in E. coli. As shown in Figure <ref type="figure">5</ref>, conversion of D,L-MTEH into L-Met is significantly more efficient for the catalyst with the evolved hydantoinase. After 2 h, the concentration of L-Met produced from 100 mM D,L-MTEH was ∼91 mM, whereas the whole-cell catalyst with the wild-type pathway produced only a ∼66 mM concentration of the amino acid. In addition, the accumulated D-C-Met intermediate concentration was reduced more than fourfold for the evolved hydantoinase system. The evolved system reaches &gt;90% conversion in less than 2 h, whereas the wild-type system requires more than 10 h. A whole-cell catalyst was prepared using the hydantoinase of second-generation clone 22CG2. The total activity of this catalyst is comparable to Q2H4, but   its enantioselectivity is only slightly shifted with respect to wild type (Fig. <ref type="figure" target="#fig_0">1</ref>), and it is about one third less productive than the catalyst containing hydantoinase Q2H4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH ARTICLES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Evolution has generated a stunning variety of enzymes through the simple algorithm of mutation/recombination and natural selection. Although many new enzymes will undoubtedly be isolated from the rich pool of natural diversity by fast and elegant screening strategies <ref type="bibr" target="#b14">15</ref> , many (if not most) will not be suitable for industrial applications.</p><p>To expand the versatility of the hydantoinase process for the production of L-amino acids, we undertook the substrate-dependent inversion of enantioselectivity of the hydantoinase. We discovered that directed evolution can change hydantoinase enantioselectivity rapidly and in both directions (toward L-and D-selectivity). Large improvements in D-selectivity were easily obtained. With a single generation of random mutagenesis and screening 10,000 clones, we discovered mutants that produced the desired product with 90% ee compared to 40% for wild type. A single, conservative amino acid substitution (V→A) imparted this effect. Considering that increasing the enantiomeric ratio from 1 (nonselective, ee = 0) to 1,000 (specific, ee &gt;99%) corresponds to a difference in ∆∆G for catalysis of only 17 kJ mol -1 (ref. 16), less than the free energy of a typical hydrogen bond (20 kJ mol -1 ), it is perhaps not surprising that conservative mutations can have such a significant effect on enantioselectivity.</p><p>A single amino acid substitution (I95F) is also sufficient to invert hydantoinase enantioselectivity. To our knowledge, the inversion of selectivity (and by a single amino acid substitution) has never been reported before. Thus inversion of enantioselectivity can be carried out in this enzyme (and possibly in others as well) without major reconstruction of the active site involving several amino acid substi-tutions. This fact is crucial for the success of stepwise evolution, since libraries of mutants with single or even double amino acid substitutions can be exhaustively tested; in contrast, mutant libraries with multiple amino acid substitutions per clone would exceed the limited capabilities of available catalyst screening and selection methods <ref type="bibr" target="#b9">10</ref> . Finding enzymes with the desired enantioselectivity in random mutant libraries would be highly improbable if three or more simultaneous mutations were required.</p><p>Despite its low L-selectivity, the evolved hydantoinase represents a significant improvement in the multienzyme pathway for the production of L-Met. Both the improvement in total activity and the inverted enantioselectivity contribute to improved productivity of the wholecell catalyst. Kinetic modeling of the reaction pathway will help direct further catalyst optimization. Because biological networks are extremely complex, the design of pathways by metabolic engineering is a challenging and largely unsolved problem. Although directed evolution of the entire pathway is feasible, a major disadvantage is that the combinatorial possibilities increase rapidly with the size of the targeted sequence. However, when the limiting steps in a reaction pathway are known, those key pieces can be targeted separately and reinstalled in order to generate efficient whole-cell catalysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental protocol</head><p>Strains and expression vectors. The L-N-carbamoylase and hydantoinase expression vectors pOM17 and pOM18 were constructed by PCR amplification of the hyuC and hyuH genes from Arthrobacter sp. DSM9771 using the following primers derived from the genes of Arthrobacter aurescens DSM3747 (ref. 17). For hyuC amplification: 5′-AGGCGACATATGACCCTG-CAGAAAGCGCAA-3′, 5′ -ATGGGATCCCCGGTCAAGTGCCTT CATTAC-3′. For hyuH amplification: 5′-AGAACATATGTTTGACGTAATAGTTAA-GAA-3′, 5′-AAAAGGATCCTCA-CTTCGACGCCTCGTA-3′. The amplified fragments were cleaved with restriction enzymes NdeI and BamHI and inserted using the same restriction enzymes downstream of the rha BAD promoter (rhamnose promoter) into the vector pJOE2702 (ref. 18). The coexpression plasmid pOM20 comprising the L-N-carbamoylase and hydantoinase genes, both separately under the control of a rhamnose promoter, 5. Time course of the production of L-Met from 100 mM D,L-MTEH in 0.1 M Tris pH 7.8, 37°C, with 25 mg ml -1 cell dry mass of (A) E. coli JM109 (pOM20/pOM21) (wild-type pathway) and (B) E. coli JM109 (pOM22/pOM21) (pathway with evolved hydantoinase from Q2H4). A B A B</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH ARTICLES</head><p>was derived from plasmid pOM17 and pOM18. pOM17 was digested by SalI and treated with Klenow fragment to form blunt ends. pOM18 was digested with BamHI and also treated with Klenow fragment to form blunt ends. Both fragments were subsequently digested with HindIII. The 1,521 kb fragment comprising the L-N-carbamoylase gene and rhamnose promoter derived from pOM17 was ligated with the 5,650 kb fragment of the digested pOM18 to yield pOM20. Mutations of the L-selective hydantoinase from mutant Q2H4 were introduced into pOM20 using the restriction enzymes RsrII and KasI, which yielded pOM22. The racemase expression vector pOM21 was derived from pACYC184 (ref. 19) and carries a chloramphenicol selection marker and the racemase gene hyuR from Arthrobacter sp. DSM3747 under the control of the rhamnose promoter. All plasmids were transformed into E. coli JM109 (ref. 20). The three-enzyme pathway was installed in E. coli JM109 by transformation of pOM20 (wild-type hydantoinase and L-N-carbamoylase genes) and pOM22 (evolved hydantoinase and L-N-carbamoylase genes) into E. coli JM109 (pOM21). Cells were either grown in LB liquid medium or on LB-agar plates <ref type="bibr" target="#b20">21</ref> , both supplemented with the respective antibiotics (100 µg ml -1 ampicillin, 50 µg ml -1 chloramphenicol) for the growth and expression medium with 2 mg ml -1 rhamnose (inducer) for the expression medium.</p><p>Error-prone PCR. Random mutagenesis of the hydantoinase gene was performed in a 100 µl reaction mix containing 0.25 ng of plasmid DNA as template, Boehringer PCR buffer (10 mM Tris, 1.5 mM MgCl 2 , 50 mM KCl, pH 8.3), 200 µM dATP, 200 µM dTTP, 200 µM dGTP, 200 µM dCTP, 50 pmol of each primer, and 2.5 U Taq polymerase (Boehringer-Mannheim, Indianapolis, IN). Conditions for PCR are as follows: 2 min 94°C, 30 cycles of 30 s 94°C, 30 s 55°C, 2 min 72°C. The 1,667 bp amplification product was extracted from an agarose gel using the QiaexII kit (Qiagen, Valencia, CA) and subcloned into vector pJOE2702 using the EcoRI and HindIII restriction sites. The religation frequency of alkaline phosphatase-treated vector was below 1%. The error rate was checked by functional screening. From previous experience, an error rate leading to approximately one amino acid substitution per gene generates approximately 30% inactive clones.</p><p>Saturation mutagenesis. For randomization of the codon for amino acid position 95, the QuickChange protocol (Stratagene, La Jolla, CA) was used. About 10 ng plasmid from clone 22CG2 were amplified by PCR using two complementary oligonucleotides (5′-CATCGAGATGCCGNACCTTCC-CGCCCAC-3′, 5′-GTGGGCGGGAAGGTNCGGCATCTCGATG-3′). After PCR amplification the reaction mixture was treated for 2 h with 20 U of the restriction enzyme DpnI. Transformation of 10 µl DpnI-digested reaction mixture into competent cells yielded a library of &gt;2,000 mutants, of which ∼400 were screened.</p><p>Preparation of library and screening. Single colonies of transformed E. coli were transferred into 384-well plates (master plates) using the Qbot robotic system (Genetix, Dorset, UK). After 20 h growth at 37°C, plates were stored at -80°C. For screening, plates were thawed and replicated into 96-well plates containing 200 µl per well inducer medium. A Biomek 1000 pipetting workstation (Beckman, Fullerton, CA) was used to divide the plate that had been incubated for 24 h at 30°C into two fresh 96-well plates, one containing 100 µl 80 mM L-MTEH and the other 100 µl 80 mM D-MTEH, in 50 mg L -1 cresol red solution adjusted to pH 8.5. Absorbance at 580 nm was measured initially and again after 3 h incubation at room temperature using a THERMOmax plate reader (Molecular Devices, Sunnyvale, CA). Activity was calculated from the difference between the initial absorbance and that after 3 h incubation, divided by the cell density of each well. For the saturation mutagenesis library, reaction time was halved as compared to standard screening conditions, because of the higher activity of 22CG2 and the derived mutants. The ratio of activities toward the Land D-enantiomer was taken as a first indicator of enantioselectivity. Positive clones were tested using the racemic substrate by HPLC (see below).</p><p>Activity and enantioselectivity characterization. Plasmids of mutants found to be positive in the screen were sequenced and retransformed into E. coli. A culture of retransformed E. coli was grown for 16-18 h (until optical density 10) in expression medium (see above) supplemented with 1 mM MnCl 2 . Cells from a 2 ml culture were harvested by centrifugation and resuspended in 8 ml substrate solution consisting of 80 mM D,L-MTEH, 0.1 M Tris pH 8.5, 1 mM MnCl 2 (preincubated at 37°C). The reaction mixture was immediately incubated at 37°C in a waterbath. After different time periods, 1 ml samples were taken and centrifuged for 5 min at 16,000 g. Chiral HPLC analysis was done on 20 µl of supernatant (column provided by Degussa-Huels AG, Hanau, Germany). Activity was calculated from the amount of Ncarbamoyl-D,L-methionine produced, expressed as units per milliliter cell culture or units per milligram cell dry weight, where 1 unit is the amount of whole-cell catalyst to produce 1 µmol N-carbamoyl-D,L-methionine in 1 min under stated reaction conditions. The enantioselectivities of the hydantoinase and its mutants were compared by calculating the percentage of ee D ((D -L)/(D + L)) and ee L ((L -D)/(L + D)) for the product at various extents of conversion. A conventional determination of E (enantiomeric ratio) from ee values and the extent of conversion as described by Chen and colleagues <ref type="bibr" target="#b21">22</ref> is not possible because of the rapid racemization of the substrate.</p><p>Conversion of D,L-MTEH into L-Met. To 4 ml 100 mM D,L-MTEH in 0.1 M Tris pH 7.8, supplemented with 1 mM MnCl 2 , were added 100 mg cell dry mass of E. coli JM109 (pOM20 + pOM21) and E. coli JM109 (pOM22 + pOM21). The reaction mixture was incubated at 37°C by shaking (250 rpm) the 15 ml closed culture tubes in a temperature-controlled waterbath. After indicated periods of time, the reaction was stopped with 1% TFA followed by centrifugation (5 min, 16,000 g), and samples were analyzed by HPLC for MTEH, D,L-C-Met, and D,L-Met as described <ref type="bibr" target="#b7">8</ref> . The optical purity of the compounds was analyzed by chiral HPLC as described above.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Reactions and enzymes involved in the production of L-amino acids from racemic hydantoins by the three-enzyme hydantoinase process. A D-selective hydantoinase causes the accumulation of the D-N-carbamoyl-amino acid, which is only slowly converted to the desired product.</figDesc><graphic coords="2,67.47,65.36,210.65,185.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Representative example of screening results: activities toward D-and L-MTEH of 4,000 clones from the first random mutant library. Confirmed enantioselectivity mutants are labeled. Higher activity mutants are circled. Gray circle indicates typical variation in measurement of wild-type activity (±10%).</figDesc><graphic coords="2,346.20,65.35,168.70,143.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Activities toward D-and L-MTEH of ∼400 mutants produced by saturation mutagenesis at position 95 of the hydantoinase gene from clone 22CG2.</figDesc><graphic coords="2,335.80,562.50,194.04,155.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 . 5 .</head><label>45</label><figDesc>Figure 4. Evolutionary progression and enantioselectivities of the various mutants. (A) Schematic diagram of the evolutionary progression of hydantoinase activity and enantioselectivity through two generations of error-prone PCR (steps 1,2) and saturation mutagenesis (step 3). WT, Wild type. Amino acid substitutions for each clone are given in parentheses. (B) HPLC separation of enantiomers of N-carbamoyl-methionine produced from D,L-MTEH by different hydantoinase mutants.</figDesc><graphic coords="3,87.87,66.73,174.98,275.93" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE BIOTECHNOLOGY VOL 18 MARCH 2000 http://biotech.nature.com</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2000 Nature America Inc. • http://biotech.nature.com © 2000 Nature America Inc. • http://biotech.nature.com NATURE BIOTECHNOLOGY VOL 18 MARCH 2000 http://biotech.nature.com</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2000 Nature America Inc. • http://biotech.nature.com © 2000 Nature America Inc. • http://biotech.nature.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">Dr. Joe Altenbuchner</rs> and <rs type="person">Dr. A. Wiese</rs> for kindly providing vector pJOE2702 and the racemase gene from Arthrobacter aurescens DSM3747, respectively, and <rs type="person">Dr. W. Günther</rs> for his support in HPLC analytics. We also thank <rs type="person">Dr. A. Bommarius</rs> for reading the manuscript and useful discussions and <rs type="person">J. Ladd</rs> for his excellent technical assistance. This work was financed by <rs type="funder">Degussa-Huels AG</rs>. We also thank the <rs type="programName">Caltech SURF program</rs> for support of undergraduate research (P.N. and <rs type="person">J. Ladd</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NyTHxxR">
+					<orgName type="program" subtype="full">Caltech SURF program</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Counting on chiral drugs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Stinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eng. News</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="83" to="104" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stinson, S.C. Counting on chiral drugs. Chem. Eng. News 76, 83-104 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Microbial and enzymatic production of D-amino acids from DL-5-monosubstituted hydantoins. In Hydrolysis and formation of hydantoins in biocatalytic production of amino acids and derivatives. Biocatalytic production of amino acids and derivitives</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Syldatk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+		<editor>Rozzell, J.D. &amp; Wagner, F.</editor>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<publisher>Hanser Publisher</publisher>
+			<biblScope unit="page" from="75" to="127" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Syldatk, C., Müller, R., Siemann, M. &amp; Wagner, F. Microbial and enzymatic pro- duction of D-amino acids from DL-5-monosubstituted hydantoins. In Hydrolysis and formation of hydantoins in biocatalytic production of amino acids and deriv- atives. Biocatalytic production of amino acids and derivitives. (eds Rozzell, J.D. &amp; Wagner, F.) 75-127 (Hanser Publisher, New York; 1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Microbial and enzymatic production of L-amino acids from DL-5-monosubstituted hydantoins</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Syldatk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hydrolysis and formation of hydantoins in biocatalytic production of amino acids and derivatives</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Rozzell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Hanser Publisher</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page" from="131" to="1176" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Syldatk, C., Müller, R., Pietzsch, M. &amp; Wagner, F. Microbial and enzymatic produc- tion of L-amino acids from DL-5-monosubstituted hydantoins. In Hydrolysis and formation of hydantoins in biocatalytic production of amino acids and derivatives. (eds Rozzell, J.D. &amp; Wagner, F.) 131-1176 (Hanser Publisher, New York; 1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chiral amino acids: a versatile tool in the synthesis of pharmaceuticals and fine chemicals</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drauz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chimia</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="310" to="314" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drauz, K. Chiral amino acids: a versatile tool in the synthesis of pharmaceuticals and fine chemicals. Chimia 51, 310-314 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microorganism, use thereof and process for the production of L-alpha-amino acids</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hantke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drauz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bommarius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">US</title>
+		<imprint>
+			<biblScope unit="volume">5714355</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wagner, F., Hantke, B., Wagner; T., Drauz K. &amp; Bommarius, A. Microorganism, use thereof and process for the production of L-alpha-amino acids. US 5714355 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Substrate-dependent enantioselectivity of a novel hydantoinase from Arthrobacter aurescens DSM 3745: purification and characterization as a new member of cyclic amidases</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>May</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">May, O. et al. Substrate-dependent enantioselectivity of a novel hydantoinase from Arthrobacter aurescens DSM 3745: purification and characterization as a new member of cyclic amidases. J. Biotechnol. 61, 1-13 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Production of L-methionine from D,L-5-(2methylthioethyl)hydantoin by resting cells of a new mutant strain of Arthrobacter species DSM 7330</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hantke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="63" to="69" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wagner, T., Hantke, B. &amp; Wagner, F. Production of L-methionine from D,L-5-(2- methylthioethyl)hydantoin by resting cells of a new mutant strain of Arthrobacter species DSM 7330. J. Biotechnol. 46, 63-69 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reaction mechanism for the conversion of 5-monosubstituted hydantoins to enantiomerically pure L-amino acids</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Völkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. NY Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">750</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Völkel, D. &amp; Wagner, F. Reaction mechanism for the conversion of 5-monosubsti- tuted hydantoins to enantiomerically pure L-amino acids. Ann. NY Acad. Sci. 750, 1-9 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Optimizing industrial enzymes by directed evolution</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Biochem. Eng. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F.H. &amp; Moore, J.C. Optimizing industrial enzymes by directed evolution. Adv. Biochem. Eng. Biotechnol. 58, 1-14 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Fermentation, biocatalysis, and bioseparation</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Wintrode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of bioprocess technology</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Flickinger</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Drew</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="971" to="987" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F.H. &amp; Wintrode, P.L. Fermentation, biocatalysis, and bioseparation. In Encyclopedia of bioprocess technology (eds Flickinger, M.C. &amp; Drew, S.W.) 971-987 (John Wiley &amp; Sons, New York, NY; 1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Biocatalysis for chiral intermediates: meeting commercial and technical challenges</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Matcham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R S</forename><surname>Bowen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CHIM. OGGI</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="20" to="24" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matcham, G.W. &amp; Bowen, A.R.S. Biocatalysis for chiral intermediates: meeting commercial and technical challenges. CHIM. OGGI 14, 20-24 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-E</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Edn. Engl</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2830" to="2832" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M.T., Zonta A., Schimossek K., Liebeton, K. &amp; Jaeger, K.-E. Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution. Angew. Chem. Int. Edn. Engl. 36, 2830-2832 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Superior biocatalysts by directed evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-E</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Top. Curr. Chem</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="31" to="57" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M.T. &amp; Jaeger, K.-E. Superior biocatalysts by directed evolution. Top. Curr. Chem. 200, 31-57 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Exploring nonnatural evolutionary pathways by saturation mutagenesis: rapid improvement of protein function</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="716" to="720" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miyazaki, K. &amp; Arnold, F.H. Exploring nonnatural evolutionary pathways by satu- ration mutagenesis: rapid improvement of protein function J. Mol. Evol. 49, 716-720 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Handelsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Rondon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="245" to="R249" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Handelsman, J., Rondon, M.R., Brady, S.F., Clardy, J. &amp; Goodman, R.M. Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products. Chem. Biol. 5, R245-R249 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m">Enzyme structure and mechanism</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Fersht</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>W.H. Freeman and Co</publisher>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fersht, A. (ed.) Enzyme structure and mechanism. (W.H. Freeman and Co., New York, NY; 1985).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cloning, nucleotide sequence and expression of a new L-N-carbamoylase gene from Arthrobacter aurescens DSM 3747 in E. coli</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wilms</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="101" to="113" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilms, B. et al. Cloning, nucleotide sequence and expression of a new L-N-car- bamoylase gene from Arthrobacter aurescens DSM 3747 in E. coli. J. Biotechnol. 68, 101-113 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Nucleotide sequence and role in DNA amplification of the direct repeats composing the amplificable element AUDI of Streptomyces lividans 66</title>
+		<author>
+			<persName><forename type="first">J.-N</forename><surname>Volff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eichenseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Viell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Piendl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Altenbuchner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1037" to="1047" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Volff, J.-N., Eichenseer, C., Viell, P., Piendl, W. &amp; Altenbuchner, J. Nucleotide sequence and role in DNA amplification of the direct repeats composing the amplificable element AUDI of Streptomyces lividans 66. Mol. Microbiol. 21, 1037-1047 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The nucleotide sequence of pACYC184</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Rose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">355</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rose,R.E. The nucleotide sequence of pACYC184. Nucleic Acids Res. 16, 355 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Improved M13 phage cloning vectors and host strains: nucleotide sequences of the M13mp18 and pUC vectors</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yanisch-Perron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Viera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Messing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="103" to="109" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yanisch-Perron, C., Viera, J. &amp; Messing, J. Improved M13 phage cloning vectors and host strains: nucleotide sequences of the M13mp18 and pUC vectors. Gene 33, 103-109 (1984).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Transduction of lactose-utilizing ability among strains of Escherichia coli and Shigella dysenteriae and properties of phage particles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Luria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Ting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="348" to="390" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luria, S.E., Adams, J.N. &amp; Ting, R.C.Transduction of lactose-utilizing ability among strains of Escherichia coli and Shigella dysenteriae and properties of phage particles. Virology 12, 348-390 (1960).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Quantitative analysis of biochemical kinetic resolutions of enantiomers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Girdaukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="7294" to="7299" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C.S., Fujimoto, Y., Girdaukas, G. &amp; Sih, C.J. Quantitative analysis of biochem- ical kinetic resolutions of enantiomers. J. Am. Chem. Soc. 104, 7294-7299 (1982).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

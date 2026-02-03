@@ -1,0 +1,637 @@
+{
+  "review_id": "09_Bommarius_2015_AnnuRevChemBiomolEng",
+  "sections": [
+    {
+      "header": "This review describes the status of the fields of biocatalysts and enzymes, as w…",
+      "raw_header": "This review describes the status of the fields of biocatalysts and enzymes, as w…",
+      "text": "This review describes the status of the fields of biocatalysts and enzymes, as well as existing drawbacks, and recent advances in the areas deemed to represent drawbacks. Although biocatalysts are often highly active and extremely selective, there are still drawbacks associated with biocatalysis as a generally applicable technique: the lack of designability of biocatalysts; their limits of stability; and the insufficient number of well-characterized, ready-to-use biocatalysts. There has been significant progress on the following fronts: (a) novel protein engineering tools, both experimental and computational, have significantly enhanced the toolbox for biocatalyst development. (b) The deactivation of biocatalysts under various stresses can be described quantitatively via rational models. There are several cases of spectacular leaps of stabilization after accumulating all stabilizing mutations found in earlier rounds. The concept that stabilization against one type of stress commonly also stabilizes against other types of stress is now experimentally considerably better founded than a few years ago. (c) A host of developments of novel biocatalysts in the past few years, in part fueled by improved designability and improved methods of stabilization, has considerably broadened the toolbox for synthetic chemistry.",
+      "snippet": "This review describes the status of the fields of biocatalysts and enzymes, as well as existing drawbacks, and recent advances in the areas deemed to represent drawbacks. Although biocatalysts are often highly active and extremely selective, there are still drawbacks associated with biocatalysis as a generally applicable technique: the lack of designability of biocatalysts; their limits of stability; and the insufficient number of well-characterized, ready-to-use biocatalysts. There has been significant progress on the following fronts: (a) novel protein engineering tools, both experimental and computational, have significantly enhanced the toolbox for biocatalyst development. (b) The deactivation of biocatalysts under various stresses can be described quantitatively via rational models. There are several cases of spectacular leaps of stabilization after accumulating all stabilizing mutations found in earlier rounds. The concept that stabilization against one type of stress commonly also stabilizes against other types of stress is now experimentally considerably better founded than a few years ago. (c) A host of developments of novel biocatalysts in the past few years, in part fueled by improved designability and improved methods of stabilization, has considerably broadened the toolbox for synthetic chemistry.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "INTRODUCTION AND SCOPE",
+      "raw_header": "INTRODUCTION AND SCOPE",
+      "text": "This review describes the status of the fields of biocatalysts and enzymes, as well as existing drawbacks, and recent advances in the areas deemed to represent drawbacks. Here, biocatalysts are understood to comprise any protein of a length that allows three-dimensional folding, known from statistical mechanics to start at approximately 20 amino acids in length. Therefore, RNA catalysts, cofactor-only catalysts, and other organocatalysts are not covered by this review. The rapid spread of biocatalytic routes and targets in the past few years has been aided by advances in protein engineering as well as the increasing importance of both short, selective routes to pharmaceuticals and the synthesis of chemicals from renewables. Most of these syntheses are based on the processing of carbohydrates, lignocellulosics, and vegetable oils, rather than coal, oil, or natural gas. Several eminent reviews of the field have been published; as examples, the reader is referred to works by Turner (1), Bornscheuer et al. (2), and Reetz (3).",
+      "snippet": "This review describes the status of the fields of biocatalysts and enzymes, as well as existing drawbacks, and recent advances in the areas deemed to represent drawbacks. Here, biocatalysts are understood to comprise any protein of a length that allows three-dimensional folding, known from statistical mechanics to start at approximately 20 amino acids in length. Therefore, RNA catalysts, cofactor-only catalysts, and other organocatalysts are not covered by this review. The rapid spread of biocatalytic routes and targets in the past few years has been aided by advances in protein engineering as well as the increasing importance of both short, selective routes to pharmaceuticals and the synthesis of chemicals from renewables. Most of these syntheses are based on the processing of carbohydrates, lignocellulosics, and vegetable oils, rather than coal, oil, or natural gas. Several eminent reviews of the field have been published; as examples, the reader is referred to works by Turner (1), Bornscheuer et al. (2), and Reetz (3).",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(2)",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "(3)",
+          "target_xml_id": "b2"
+        }
+      ]
+    },
+    {
+      "header": "OVERVIEW OF FIELD",
+      "raw_header": "OVERVIEW OF FIELD",
+      "text": "OVERVIEW OF FIELD",
+      "snippet": "OVERVIEW OF FIELD",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Primer on Proteins",
+      "raw_header": "Primer on Proteins",
+      "text": "Proteins are a class of macromolecules consisting of one or more folded amino acid chains of overall three-dimensional structure. Proteins consist of one or more linear chains of, with rare exceptions, the common 20 proteinogenic amino acids. The fairly frequent disulfide bonds between cysteines are formed through crosslinking of side-chain interactions but do not constitute branching of the backbone chain. Extremely rarely, an additional genetically coded twenty-first amino acid is found, such as selenocysteine in formate dehydrogenase or glutathione peroxidase (4,5), or pyrrolysine, the twenty-second amino acid, in methanogens (belonging to the domain of Archaea) (6,7). This review does not cover the body of excellent work performed to incorporate nonproteinogenic and often even unnatural amino acids into proteins [for reviews, see Ngo & Tirrell (8) and Xiao et al. (9) ]. Sequences. The sequence variety of proteins is large, 20 N possible combinations, but not infinite. Monomers of enzymes typically consist of 147 (bovine lysozyme) to 667 (alcohol oxidase from Aspergillus or Pichia) amino acid residues, most of them clustering between 280 and 400 residues. Protein sequences are searchable with a variety of algorithm-based tools, such as BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi), ClustalW (http://www.clustal.org), or FASTA (http://blast.ncbi.nlm.nih.gov/blastcgihelp.shtml), in a variety of databases, such as NCBI (National Center for Biotechnology Information, http://www.ncbi.nlm.nih.gov) maintained by the National Institutes of Health (NIH), or ExPaSy (http://www.expasy.org), maintained by the EBI (European Bioinformatics Institute, http://www.ebi.ac.uk). Recent access to GenBank ( January 5, 2015) revealed 184,938,063,614 stored bases. Most sequences deposited in data banks hail from genome sequencing projects and are not actually functionally verified but annotated, i.e., computationally compared to sequences with known function and thus surmised to have the same function as the homologs. Structures. Despite the huge number of protein sequences, proteins only fold into comparatively few three-dimensional structures, approximately 1,300 folds (http://www.proteinstructures. com/Structure/Structure/protein-fold.html). Protein structures are deposited in databases such as the Protein Data Bank (PDB) of the NIH (http://www.rcsb.org/pdb/home/home.do). As of January 5, 2015, there were 105,499 structures deposited in the PDB, among them 34,987 distinct proteins and 7,454 nucleic acid-containing structures. With regard to the structures, The underlying mechanism assumes three possible elementary reaction steps: (a) formation of an enzyme-substrate complex (ES-complex), (b) dissociation of the ES-complex into E and S, and (c) irreversible reaction to product (P). In this scheme, the product formation step from ES to E + P is assumed to be rate-limiting, thus the ES-complex is modeled to react directly to the free enzyme and the product molecule, which is assumed to dissociate from the enzyme without the • Acceleration and efficiency. Enzymes have been found to accelerate uncatalyzed reactions very effectively: the most effective biocatalyst, orotate decarboxylase, accelerates the uncatalyzed background reaction 10 17 -fold, so the acceleration ratio k cat /k uncat is found to be ≤1.4•10 17 (17). The proficiency of biocatalysts, the ratio k cat /(k uncat •K M ) ( = 1/K T ), covers the range of ≤10 23 M -1 (18). Surprisingly, for a range of enzymatic reactions k cat is within two orders of magnitude, whereas k uncat varies by more than six orders of magnitude; the most effective enzymes were found to accelerate reaction with the slowest uncatalyzed reactions (19).",
+      "snippet": "Proteins are a class of macromolecules consisting of one or more folded amino acid chains of overall three-dimensional structure. Proteins consist of one or more linear chains of, with rare exceptions, the common 20 proteinogenic amino acids. The fairly frequent disulfide bonds between cysteines are formed through crosslinking of side-chain interactions but do not constitute branching of the backbone chain. Extremely rarely, an additional genetically coded twenty-first amino acid is found, such as selenocysteine in formate dehydrogenase or glutathione peroxidase (4,5), or pyrrolysine, the twenty-second amino acid, in methanogens (belonging to the domain of Archaea) (6,7). This review does not cover the body of excellent work performed to incorporate nonproteinogenic and often even unnatural amino acids into proteins [for reviews, see Ngo & Tirrell (8) and Xiao et al. (9) ]. Sequences. The sequence variety of proteins is large, 20 N possible combinations, but not infinite. Monomers of enzymes typically consist of 147 (bovine lysozyme) to 667 (alcohol oxidase from Aspergillus or Pichia) amino acid residues, most of them clustering between 280 and 400 residues. Protein sequences are searchable with a variety of algorithm-based tools, such as BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi), ClustalW (http://www.clustal.org), or FASTA (http://blast.ncbi.nlm.nih.gov/blastcgihelp.shtml), in a variety of databases, such as NCBI (National Center for Biotechnology Information, http://w…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(4,",
+          "target_xml_id": "b3"
+        },
+        {
+          "ref_marker": "5)",
+          "target_xml_id": "b4"
+        },
+        {
+          "ref_marker": "(6,",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "7)",
+          "target_xml_id": "b6"
+        },
+        {
+          "ref_marker": "(9)",
+          "target_xml_id": "b8"
+        },
+        {
+          "ref_marker": "(17)",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "(18)",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "(19)",
+          "target_xml_id": "b18"
+        }
+      ]
+    },
+    {
+      "header": "Strengths of Biocatalysis",
+      "raw_header": "Strengths of Biocatalysis",
+      "text": "The foremost strength of biocatalysts is their often superb specificity: enzymes often far surpass other catalysts with respect to chemical specificity; regioselectivity, such as toluene monooxygenase (20), hydroxyaminobenzene (HAB) mutase (21), or cytochrome P450 BM-3 (22); or enantioselectivity, for which there are legions of examples, such as N-acyl amino acid hydrolase (acylase) (23), lipase (24), epoxide hydrolase (25), amino acid dehydrogenase (26), or amine dehydrogenase (14,27). Biocatalysts commonly operate at nearly ambient conditions with respect to temperature and pH value in mostly aqueous solution. Operation at near ambient conditions promises energy efficiency of biocatalytic processes. Typical renewable raw materials, such as carbohydrates or fatty acids, are more hydrophilic than raw materials obtained from petrochemicals, which tend to be hydrocarbons. Such hydrophilic raw materials are advantageously processed in aqueous solvents, so biocatalysis is a good technological fit for renewable raw materials.",
+      "snippet": "The foremost strength of biocatalysts is their often superb specificity: enzymes often far surpass other catalysts with respect to chemical specificity; regioselectivity, such as toluene monooxygenase (20), hydroxyaminobenzene (HAB) mutase (21), or cytochrome P450 BM-3 (22); or enantioselectivity, for which there are legions of examples, such as N-acyl amino acid hydrolase (acylase) (23), lipase (24), epoxide hydrolase (25), amino acid dehydrogenase (26), or amine dehydrogenase (14,27). Biocatalysts commonly operate at nearly ambient conditions with respect to temperature and pH value in mostly aqueous solution. Operation at near ambient conditions promises energy efficiency of biocatalytic processes. Typical renewable raw materials, such as carbohydrates or fatty acids, are more hydrophilic than raw materials obtained from petrochemicals, which tend to be hydrocarbons. Such hydrophilic raw materials are advantageously processed in aqueous solvents, so biocatalysis is a good technological fit for renewable raw materials.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(20)",
+          "target_xml_id": "b19"
+        },
+        {
+          "ref_marker": "(21)",
+          "target_xml_id": "b20"
+        },
+        {
+          "ref_marker": "(22)",
+          "target_xml_id": "b21"
+        },
+        {
+          "ref_marker": "(23)",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "(24)",
+          "target_xml_id": "b23"
+        },
+        {
+          "ref_marker": "(25)",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "(26)",
+          "target_xml_id": "b25"
+        },
+        {
+          "ref_marker": "(14,",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "27)",
+          "target_xml_id": "b26"
+        }
+      ]
+    },
+    {
+      "header": "Weaknesses of Biocatalysis",
+      "raw_header": "Weaknesses of Biocatalysis",
+      "text": "Although biocatalysts are often highly active and extremely selective, there are still drawbacks associated with biocatalysis as a generally applicable technique. This review focuses on three: 1. The development of biocatalysts is prone to chance and slow, and does not follow a set of rules. The development of enzymes from nature and improvement through random mutagenesis are perceived this way. 2. A decisive weakness of biocatalysts is their very limited range of stability with respect to temperature, solvents, pH value, ionic strength, and salt type. 3. A continuing weakness of biocatalysis as a problem solution is the small number of wellcharacterized enzymes in comparison with chemical catalysts. In addition, not many are commercially available and thus hinder the diffusion of this technology. Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 In the following sections, we address progress associated with each of these three points. Afterward, we discuss a few success stories of biocatalysts.",
+      "snippet": "Although biocatalysts are often highly active and extremely selective, there are still drawbacks associated with biocatalysis as a generally applicable technique. This review focuses on three: 1. The development of biocatalysts is prone to chance and slow, and does not follow a set of rules. The development of enzymes from nature and improvement through random mutagenesis are perceived this way. 2. A decisive weakness of biocatalysts is their very limited range of stability with respect to temperature, solvents, pH value, ionic strength, and salt type. 3. A continuing weakness of biocatalysis as a problem solution is the small number of wellcharacterized enzymes in comparison with chemical catalysts. In addition, not many are commercially available and thus hinder the diffusion of this technology. Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 In the following sections, we address progress associated with each of these three points. Afterward, we discuss a few success stories of biocatalysts.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "INSUFFICIENT DESIGNABILITY OF PROTEINS: PROGRESS IN PROTEIN ENGINEERING",
+      "raw_header": "INSUFFICIENT DESIGNABILITY OF PROTEINS: PROGRESS IN PROTEIN ENGINEERING",
+      "text": "The arguably most important reason for the progress of biocatalysis over the past decade is the advance of protein engineering. Progress can be divided into three waves: 1. Rational protein design, the first wave, was developed a few years after the discovery of recombinant DNA technology and flourished in the decade after about 1985. Applying sitedirected protein engineering, the community expected to design enzymes with predictable properties (this expectation turned out to be way premature). Even then, site saturation was part of the repertoire, which intellectually can already be attributed to 2. combinatorial protein engineering, the second wave and often also called directed evolution, with its peak between around 1995-2005. Two techniques dominate combinatorial protein design, random mutagenesis and recombination. Random mutagenesis most often operates with a high error rate of DNA duplication and thus introduces mistakes that lead to mutations anywhere in the gene sequence. Recombination digests the DNA into small pieces that are recombined in random fashion; appropriately, its most important protocol is called DNA shuffling. Combinatorial protein engineering is able to access a vastly wider sequence space than rational design but requires increasingly large libraries of mutants, with still low and uncertain chances of a successful outcome, owing to the vast sequence space of proteins. Both the requirement for high-throughput screening equipment and the uncertain hit rates led the community to search for more controllable techniques and protocols, and so 3. data-driven protein engineering, the third wave of protein engineering, sought to improve the hit rate while decreasing library size. Data-driven protein engineering, often also termed semirational protein engineering, routinely utilizes knowledge gained from rational design, such as critical residues from mechanistic studies or inspection of crystal structures, and combinatorial design, such as hot spots found during directed evolution. But it is because of three tools developed over the past 10 years that protein engineering has advanced so much: (a) restricted libraries; (b) combinatorial active-site saturation testing, or CASTing; and (c) iterative site mutagenesis (ISM). a. Restricted libraries: The full genetic code operates at the DNA level with four nucleotides [the purines adenine (A) and guanine (G) and the pyrimidines cytosine (C) and thymine (T)] (Figure 1). As a triplet codes for an amino acid, there exist 4 3 = 64 triplet combinations of the nucleotides. Although some amino acids are only coded for by one triplet, such as ATG for methionine (Met, M) or TGG for tryptophan (Trp, W), most amino acids are coded for by several closely related triplets, such as TCN for serine (Ser, S) or CCN for proline (Pro, P) (here, N stands for any nucleotide: A, C, G, or T). Restricted libraries do not offer the full 64 triplet combinations, through restricting the number of nucleotides to fewer than four in one, two, or all three of the triplet positions (28). Although such a restriction very often leads to coding for fewer than the full 20 proteinogenic amino acids, the residues not coded for might not be deemed important for the problem at hand to be solved; if more space in a substrate binding pocket is desired, the inclusion of Trp, the largest of the proteinogenic amino acids, seems less important. However, the number of colonies at constant coverage (such as 95%) required to be screened for an outcome falls dramatically, which enables much faster and more reliable screening (Figure 2). Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 E g lu t a m a t e Gly cin e D a s p a r t a t e A la n in e Va lin e ARg inin e S e ri n e K L y s in e A s p a r a g i N e T h r e o n in e Isole ucin e AR gi ni ne Q g lu t a m in e H i s t i d i n e P r o li n e Le uc in e Cy st ei ne † S t o p T Y r o s i n e S e r in e Le uc in e F phe nyla lain e b. Combinatorial active-site saturation testing, or CASTing, restricts the number of amino acid residues targeted for mutation and then applies a random mutation or a saturation protocol across the targeted sites (29a). Deciding to which residues to restrict the targeting requires information from crystal structures, mechanistic knowledge, sequence matching, or results of prior experiments. Setting coverage at ≥95%, saturation screening of up to two amino acid residues is feasible with standard screening procedures and equipment. With restricted libraries, three and sometimes even four amino acid residues are accessible (Figure 3). c. In almost all cases, more promising amino acid residues are found in an enzyme than can be targeted at a single site in a single round of CASTing. ISM carries out successive CASTing across several sites in a protein (Figure 4) (30). Whereas different pathways, say ABCD versus BCDA, often result in intermittent variants with different strength of function, say ABC versus BCD, a variant incorporating a certain number of mutations has properties that are independent of the pathway traveled to arrive at that variant. ISM is very strong, however, at picking up synergistic coupled mutations, termed epistatic interactions.",
+      "snippet": "The arguably most important reason for the progress of biocatalysis over the past decade is the advance of protein engineering. Progress can be divided into three waves: 1. Rational protein design, the first wave, was developed a few years after the discovery of recombinant DNA technology and flourished in the decade after about 1985. Applying sitedirected protein engineering, the community expected to design enzymes with predictable properties (this expectation turned out to be way premature). Even then, site saturation was part of the repertoire, which intellectually can already be attributed to 2. combinatorial protein engineering, the second wave and often also called directed evolution, with its peak between around 1995-2005. Two techniques dominate combinatorial protein design, random mutagenesis and recombination. Random mutagenesis most often operates with a high error rate of DNA duplication and thus introduces mistakes that lead to mutations anywhere in the gene sequence. Recombination digests the DNA into small pieces that are recombined in random fashion; appropriately, its most important protocol is called DNA shuffling. Combinatorial protein engineering is able to access a vastly wider sequence space than rational design but requires increasingly large libraries of mutants, with still low and uncertain chances of a successful outcome, owing to the vast sequence space of proteins. Both the requirement for high-throughput screening equipment and the uncertain hit …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(28)",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "(30)",
+          "target_xml_id": "b30"
+        }
+      ]
+    },
+    {
+      "header": "LACK OF STABILITY OF ENZYMES: RECENT SUCCESSES IN DESCRIPTION OF BIOCATALYST PROCESS STABILITY AND THE STABILIZATION OF BIOCATALYSTS",
+      "raw_header": "LACK OF STABILITY OF ENZYMES: RECENT SUCCESSES IN DESCRIPTION OF BIOCATALYST PROCESS STABILITY AND THE STABILIZATION OF BIOCATALYSTS",
+      "text": "LACK OF STABILITY OF ENZYMES: RECENT SUCCESSES IN DESCRIPTION OF BIOCATALYST PROCESS STABILITY AND THE STABILIZATION OF BIOCATALYSTS",
+      "snippet": "LACK OF STABILITY OF ENZYMES: RECENT SUCCESSES IN DESCRIPTION OF BIOCATALYST PROCESS STABILITY AND THE STABILIZATION OF BIOCATALYSTS",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Process-Relevant Parameters for Enzymes",
+      "raw_header": "Process-Relevant Parameters for Enzymes",
+      "text": "Several different catalytic technologies (such as homogeneous, heterogeneous, or biological catalysis) dominate their niche of application, as conditions of operation, such as temperature and solvent, are too different across different technologies. Such different operating regimes Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 Coverage/% Transformants 10,000 8,000 7,000 6,000 5,000 4,000 3,000 2,000 1,000 0 9,000 0 10 20 30 40 50 60 70 80 90 5 aa 4 aa 3 aa 2 aa 1 aa NDT coverage Transformants Coverage/% 10,000 8,000 7,000 6,000 5,000 4,000 3,000 2,000 1,000 0 9,000 0 10 20 30 40 50 60 70 80 90 5 aa 4 aa 3 aa 2 aa 1 aa Figure 2 Number of transformants required for level of coverage for different restricted nucleotide libraries. Reproduced from Reetz et al. (28); copyright 2008 Wiley-VCH. were accepted by process developers, operators, and regulators. As a consequence, most catalytic processes did not have much competition from different catalytic technologies. One important reason for the lack of comparable studies across different catalytic technologies is the absence of accepted catalytic performance criteria. Activity in connection with high concentration leads to volumetric productivity, expressed as space-time-yield. In contrast to thermodynamic stability of an enzyme, characterized by the melting temperature T m at the transition between native and unfolded protein state, process or Principle of combinatorial active-site saturation testing, or CASTing. Reproduced from Reference 29b; copyright 2011 Wiley-VCH. Iterative saturation mutagenesis (ISM). Reproduced from Reference 25, copyright 2006 Wiley-VCH. operational stability of a biocatalyst follows the kinetic stability over time. High process stability maximizes activity over the longest possible lifetime and is expressed by the total turnover number TTN, the average turnover per active site over its lifetime. Selectivity of a reaction or process can be measured by the enantiomeric or diastereomeric excess of the resulting product (e.e. or d.e. value). Process efficiency of biocatalysts. Data on volumetric productivities of processes are infrequent, as they often are regarded as confidential; the best collections of productivity data can be found in References 31-33. Space-time-yields can be calculated as the quotient of final product concentration and residence time τ in the reactor ([P]/τ ) or the reaction rate r [ = moles of product m Product over the residence time τ ) per unit of reactor volume V (r/V) or simply the moles of product per unit time and reactor volume (m Product /(V•τ )]. Thus, space-time-yields are influenced by the solubility of the substrate [S] max (via the attainable reaction rate) and product [P] max . Rigorous modeling of total turnover for biocatalysts. Unlike most other types of catalysts, the TTN of biocatalysts can be linked to more accessible observables through simple but rigorous models of unfolding and deactivation (see Rigorous Determination of TTN for Enzymes, sidebar). Presuming the validity of the Lumry-Eyring model of deactivation (34), i.e., first-order irreversible deactivation from the unfolded state U to the chemically deactivated state D, the observed rate constant of deactivation k d,obs can be linked to the intrinsic rate constant of deactivation k d,intr or",
+      "snippet": "Several different catalytic technologies (such as homogeneous, heterogeneous, or biological catalysis) dominate their niche of application, as conditions of operation, such as temperature and solvent, are too different across different technologies. Such different operating regimes Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 Coverage/% Transformants 10,000 8,000 7,000 6,000 5,000 4,000 3,000 2,000 1,000 0 9,000 0 10 20 30 40 50 60 70 80 90 5 aa 4 aa 3 aa 2 aa 1 aa NDT coverage Transformants Coverage/% 10,000 8,000 7,000 6,000 5,000 4,000 3,000 2,000 1,000 0 9,000 0 10 20 30 40 50 60 70 80 90 5 aa 4 aa 3 aa 2 aa 1 aa Figure 2 Number of transformants required for level of coverage for different restricted nucleotide libraries. Reproduced from Reetz et al. (28); copyright 2008 Wiley-VCH. were accepted by process developers, operators, and regulators. As a consequence, most catalytic processes did not have much competition from different catalytic technologies. One important reason for the lack of comparable studies across different catalytic technologies is the absence of accepted catalytic performance criteria. Activity in connection with high concentration leads to volumetric productivity, expressed as space-time-yield. In contrast to thermodynamic stability of an enzyme, characterized by the melting temperature T m at the transition between native and unfolded protein state, process or Principle of com…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(34)",
+          "target_xml_id": "b34"
+        }
+      ]
+    },
+    {
+      "header": "RIGOROUS DETERMINATION OF TTN FOR ENZYMES",
+      "raw_header": "RIGOROUS DETERMINATION OF TTN FOR ENZYMES",
+      "text": "obs 4. Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 k d , which differs from the former if part or all of the native conformation N is unfolded to U or deactivated to D. If, in addition, saturation kinetics can be assumed ([S] K M ), the TTN can be expressed as the ratio of the catalytic rate constant k cat scaled by the fraction of the remaining active enzyme from [N]/[N] 0 (k cat • [N]/[N] 0 = k cat,obs ) to the observed rate constant of deactivation k d,obs at the same temperature, pH value, ionic strength, and solution composition (35). Process-relevant biocatalyst activity. What is the most relevant criterion to gauge processrelevant activity of enzymes? Enzyme specificity k cat /K M , favored by biochemists, has been argued to be misleading at substrate concentrations [S] 0 > K M , as is relevant for most industrial applications, where the substrate concentration is very high, often >1 M (36). Instead, an efficiency function E f has been proposed, which scales the catalytic constant k cat to the product of the second-order rate constant of diffusion k diff [≈3.2•10 9 (M•s -1 ) in water at 25 • C] and a relevant concentration, here the term K M + [S] (37). In expanded form to accommodate the case of reversible enzyme reactions, the equation for E f reads: where K is the equilibrium constant; k cat,f and k cat,r are the rate constant for the forward and reverse reaction, respectively; and g = 1 for reversible and 0 for irreversible reactions. E f is useful for comparing different variants of the same enzyme on the same substrate at the same pH value and temperature. For applications in synthesis, the time to reach a certain, often very high, degree of conversion (such as 99%) is crucial. Several common measures of enzyme performance are all inadequate in that regard. Specificity, k cat /K M , does not capture conditions at substrate saturation, i.e., K M >(>) [S] 0 , conditions that are very common in synthesis, as high starting concentration [S] 0 allows to make more product in one batch. The catalytic constant k cat by itself does not take into account uncompetitive and noncompetitive product inhibitions, which both reduce the effective maximum rate constant. Both k cat /K M and k cat commonly do not take into account strongly varying substrate concentration during synthesis runs, so different degrees of conversion result in very different residence times. Recently, the average velocity v avg over the course of the reaction to a specified final degree of conversion, or catalytic effectiveness, has been proposed (38). For irreversible enzyme reactions with competitive product inhibition (inhibition constant K IC ) at 99% conversion, so that [P] ≈ [S] 0 , v avg is calculated to be with or In cases where both v max and K M are lower in a variant enzyme, this variant often is termed to be adequate in performance if v max /K M is used as a criterion. However, the reaction employing the variant as a catalyst then will take longer to reach a specified high degree of conversion. Likewise, if the product inhibition constant K IC differs between two enzymes or two variants of the same enzyme, estimates of performance based on initial rate measurements cannot be extrapolated to higher degrees of conversions and thus not to the prediction of average velocity v avg or catalytic effectiveness. Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 Stabilization of Enzymes Through Protein Engineering Xylanases are important in improving digestion of hemicelluloses from feed in farm animals. As animal feed is heat-sterilized before use, good thermal stability is key to successful utilization of xylanases. Thermal stabilization through the application of two different methods of combinatorial protein engineering, gene site saturation mutagenesis (GSSM) and exhaustive mutation among nine sites with a xylanase gene, Palackal et al. (39) improved the melting temperature T m of xylanase from 61 • C to as high as 96 C! SCHEMA recombines modules of highly related proteins, where the modules have been designed with the help of crystal structures to dissect the wild-type enzyme at points of least disruption, most of them [but by no means all of them (40)] in loops (41). Frances Arnold (Caltech, Pasadena, CA) succeeded in thermally stabilizing various cellulases, important for utilizing cellulosic biomass for fuels and chemicals. The group not only found stabilized catalytic domain variants when recombining three related fungal cellobiohydrolases 2 (CBH2s) but also discerned additivity of the stabilizing mutations by treating the sequence-stability data via a linear regression algorithm (42). Almost coincidentally, the group also found a single, rather conservative, point mutation (C313S) that contributed markedly to stabilization (43). The approach of combining SCHEMA with linear regression treatment was extended to cellobiohydrolase 1 (CBH1), the stabilized chimeras of which hydrolyzed solid cellulose at 70 • C while featuring almost a 40% hit rate among all chimeras investigated (44). Up-to-date protein engineering protocols for the stabilization of cellulases have been compiled recently (45). The consensus method suggests that mutations toward the most frequently represented amino acid at that position in an alignment stabilizes the protein, as protein stability follows Boltzmann kinetics, which poses that the more frequently populated states are at lower energy. Application of the consensus method to protein stabilization was pioneered by Steipe et al. (46) on an IgG-type monoclonal antibody and by Lehmann et al. (47,48) and Amin et al. (49) on enzymes. Application of the consensus method in combination with inspection of a crystal structure (structure-guided consensus method) to glucose dehydrogenase (GDH) from Bacillus megaterium led to a 10 6 -fold increase of the half-life τ 1/2 and thus a 10 6 -fold decrease of the observed deactivation rate constant k d,obs at corresponding temperatures (50). The key residues for stabilization (global stabilizers), Glu170 (Lys or Arg) and Gln252Leu, had already been found via random mutagenesis (51). The B-FIT method targets the most mobile residues from B-factors in a protein crystal structure, with the premise that freezing those residues will stabilize the whole protein. With the help of the B-FIT approach, Reetz et al. (52) found that the melting temperature T m of a pentavariant of lipase A (LipA) from Bacillus subtilis was increased by 45 • C, accompanied by improved reversibility. This stabilization was found to be correlated with, and likely caused by, the formation of a H-bonding network extending over almost the whole size of the protein, as well as additional charged residues (52). The structure-guided consensus approach and the B-FIT method were combined in the stabilization of amino ester hydrolase (AEH) from Xanthomonas campestris by 8 • C for T m (53) and 13-fold for k d,obs . Crystal structures in combination with a host of computational techniques, including molecular dynamics simulations, have been utilized successfully for biocatalyst stabilization. FRESCO (Framework for Rapid Enzyme Stabilization by Computational libraries; Figure 5) allowed 1,634 initially suggested point mutations to be reduced, after manual inspection of all last-round computationally suggested mutations, to 64 variants that were experimentally screened. Three variants of limonene epoxide hydrolase (LEH) from Rhodococcus erythropolis stood out: the best stabilized LEH by 35 • C for a T m of 85 • C while increasing kinetic stability (i.e., decreasing k d,obs ) by a factor of 250 (54). Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03",
+      "snippet": "obs 4. Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 k d , which differs from the former if part or all of the native conformation N is unfolded to U or deactivated to D. If, in addition, saturation kinetics can be assumed ([S] K M ), the TTN can be expressed as the ratio of the catalytic rate constant k cat scaled by the fraction of the remaining active enzyme from [N]/[N] 0 (k cat • [N]/[N] 0 = k cat,obs ) to the observed rate constant of deactivation k d,obs at the same temperature, pH value, ionic strength, and solution composition (35). Process-relevant biocatalyst activity. What is the most relevant criterion to gauge processrelevant activity of enzymes? Enzyme specificity k cat /K M , favored by biochemists, has been argued to be misleading at substrate concentrations [S] 0 > K M , as is relevant for most industrial applications, where the substrate concentration is very high, often >1 M (36). Instead, an efficiency function E f has been proposed, which scales the catalytic constant k cat to the product of the second-order rate constant of diffusion k diff [≈3.2•10 9 (M•s -1 ) in water at 25 • C] and a relevant concentration, here the term K M + [S] (37). In expanded form to accommodate the case of reversible enzyme reactions, the equation for E f reads: where K is the equilibrium constant; k cat,f and k cat,r are the rate constant for the forward and reverse reaction, respectively; and g = 1 for …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(37)",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "(38)",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "(40)",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "(41)",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "(42)",
+          "target_xml_id": "b42"
+        },
+        {
+          "ref_marker": "(43)",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "(44)",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "(45)",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "(46)",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "(47,",
+          "target_xml_id": "b47"
+        },
+        {
+          "ref_marker": "48)",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "(49)",
+          "target_xml_id": "b49"
+        },
+        {
+          "ref_marker": "(50)",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "(51)",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "(52)",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "(52)",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "(54)",
+          "target_xml_id": "b54"
+        }
+      ]
+    },
+    {
+      "header": "Stabilization of Enzymes Against Several Stresses",
+      "raw_header": "Stabilization of Enzymes Against Several Stresses",
+      "text": "Biocatalysts are sensitive against various stresses, such as high and low temperature, ionic strength, chaotropic salts, organic solvents, denaturants, and gas-liquid and solid-liquid interfaces. The following examples have been discussed by Bommarius & Paye (55) and are briefly summarized here. Thermal and organic solvent stability. Naturally occurring homologs of several different thermophilic proteins demonstrated correlated thermal stability and tolerance to organic solvents (56,57). A thermostable fructose bisphosphate aldolase found via directed evolution also featured increased stability in organic solvents (58). Variants of B. subtilis lipase A, which after directed evolution based on the B-FIT method were found to display enhanced thermostability (see Stabilization of Enzymes Through Protein Engineering, above), also show significantly increased tolerance to hostile organic solvents (59). Thermophilic Old Yellow Enzyme (TOYE) from Thermoanaerobacter pseudethanolicus E39 adapts to octamers and dodecamers in solution under stress, in contrast to a tetrameric state at ambient conditions. TOYE is stable at high temperatures (T m > 70 increased resistance to denaturation in water-miscible organic solvents compared to a closely related mesophilic Old Yellow Enzyme family member, pentaerythritol tetranitrate reductase (60). Thermal, acid, and solvent stress. Encapsulation in a carboxymethylcellulose (CMC)-Ca alginate liquid membrane kept cysteine protease cathepsin B purified from goat brain >60% active during five batches. The maximum temperature T max of the free and immobilized enzyme was 50 • C and 55 • C, respectively. Microencapsulation significantly stabilized the enzyme against pH, thermal, and solvent instability, opening up the potential for use in catalyzing transesterifications or transamidations (61). Thermal, solvent, and interfacial stress. Formate dehydrogenase (FDH) from Candida boidinii has shown limiting stability in cofactor regeneration schemes with an amino acid dehydrogenase. Variants with the free Cys residues mutated to Ser or Ala, C23S and C23S/C262A, were found to stabilize FDH even in the absence of oxygen (62). The two changes also stabilized FDH against interfaces with nitrogen bubbles, shear stress in Couette viscometers, and shear stress and cavitation in gear pumps (63). Thermostable glucose dehydrogenase (GDH) variants developed via an amino acid sequencebased consensus method also showed improved stability in solutions with high concentrations of either kosmotropic or chaotropic salts, as well as water-miscible organic solvents. Only the most stable variants showed little deactivation dependence on salt types along the Hofmeister series and on salt concentration. Kinetic stability, expressed by the deactivation rate constant k d,obs , did not always correlate with thermodynamic stability of variants, as measured by melting temperature, T m . However, a strong correlation (R 2 > 0.95) between temperature stability and organic solvent stability was found when plotting T 50 (63) versus C 50 (63) values (50).",
+      "snippet": "Biocatalysts are sensitive against various stresses, such as high and low temperature, ionic strength, chaotropic salts, organic solvents, denaturants, and gas-liquid and solid-liquid interfaces. The following examples have been discussed by Bommarius & Paye (55) and are briefly summarized here. Thermal and organic solvent stability. Naturally occurring homologs of several different thermophilic proteins demonstrated correlated thermal stability and tolerance to organic solvents (56,57). A thermostable fructose bisphosphate aldolase found via directed evolution also featured increased stability in organic solvents (58). Variants of B. subtilis lipase A, which after directed evolution based on the B-FIT method were found to display enhanced thermostability (see Stabilization of Enzymes Through Protein Engineering, above), also show significantly increased tolerance to hostile organic solvents (59). Thermophilic Old Yellow Enzyme (TOYE) from Thermoanaerobacter pseudethanolicus E39 adapts to octamers and dodecamers in solution under stress, in contrast to a tetrameric state at ambient conditions. TOYE is stable at high temperatures (T m > 70 increased resistance to denaturation in water-miscible organic solvents compared to a closely related mesophilic Old Yellow Enzyme family member, pentaerythritol tetranitrate reductase (60). Thermal, acid, and solvent stress. Encapsulation in a carboxymethylcellulose (CMC)-Ca alginate liquid membrane kept cysteine protease cathepsin B purifi…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(55)",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "(56,",
+          "target_xml_id": "b56"
+        },
+        {
+          "ref_marker": "57)",
+          "target_xml_id": "b57"
+        },
+        {
+          "ref_marker": "(58)",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "(59)",
+          "target_xml_id": "b59"
+        },
+        {
+          "ref_marker": "(60)",
+          "target_xml_id": "b60"
+        },
+        {
+          "ref_marker": "(61)",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "(62)",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "(63)",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "(63)",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "(63)",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "(50)",
+          "target_xml_id": "b50"
+        }
+      ]
+    },
+    {
+      "header": "INSUFFICIENT NUMBER OF BIOCATALYSTS: DEVELOPMENT OF NOVEL ENZYMES Novel Biocatalysts Through Finding New Reactions",
+      "raw_header": "INSUFFICIENT NUMBER OF BIOCATALYSTS: DEVELOPMENT OF NOVEL ENZYMES Novel Biocatalysts Through Finding New Reactions",
+      "text": "Finding novel biocatalysts through new reactions requires good knowledge of chemistry and usually relies on very good assays to analyze for an anticipated target product. Sulfatases. Through follow-up of an observation that cyano-and thiobacteria from Synechococcus and Paracoccus species, respectively, furnished either (R)-or (S)-secondary alcohols from the corresponding racemic sulfate esters in an enantiocomplementary fashion, Kurt Faber's group at the University of Graz (Austria) found broad-spectrum inverting alkylsulfatases, for which no complement in chemistry exists (64). Medium engineering dramatically improved enantioselectivity: addition of lower alcohols or use of methyl tert-butyl ether in a biphasic system improved the E value from approximately 4 to >200. Inverting alkylsulfatases, which belong to the family of metallo-β-lactamases and feature a conserved binuclear Zn 2+ cluster in their active site, catalyze the enantioselective hydrolysis of sec-alkylsulfates with strict inversion of configuration, yielding homochiral (S)-configurated alcohols and nonreacted (S)-configurated sulfate esters. The latter can be chemically hydrolyzed to (S)-secondary alcohols, so that a single (S)-configurated product with up to >99% e.e. results (Figure 6) (65). Perfect enantioselectivities were obtained inverting alkylsulfatase from DSM 6611 for a variety of sec-alkyl sulfate ester substrates bearing olefinic, acetylenic, and aromatic moieties next to the sulfate ester group; in addition, chirally pure products with anti-Kazlauskas' configuration were found (66). Addition of DMSO as cosolvent increased insufficient enantioselectivity up to twofold. Recently, employing a mixture of inverting and retaining stereocomplementary sulfatases acting Enantiocomplementary synthesis of (S)-secondary alcohols. Reproduced from Schober et al. (65), copyright 2011 ACS. on opposite substrate enantiomers enabled syntheses with a high degree of conversion (80 to >99%) and a high e.e. value (91 to >99% e.e.) (67).",
+      "snippet": "Finding novel biocatalysts through new reactions requires good knowledge of chemistry and usually relies on very good assays to analyze for an anticipated target product. Sulfatases. Through follow-up of an observation that cyano-and thiobacteria from Synechococcus and Paracoccus species, respectively, furnished either (R)-or (S)-secondary alcohols from the corresponding racemic sulfate esters in an enantiocomplementary fashion, Kurt Faber's group at the University of Graz (Austria) found broad-spectrum inverting alkylsulfatases, for which no complement in chemistry exists (64). Medium engineering dramatically improved enantioselectivity: addition of lower alcohols or use of methyl tert-butyl ether in a biphasic system improved the E value from approximately 4 to >200. Inverting alkylsulfatases, which belong to the family of metallo-β-lactamases and feature a conserved binuclear Zn 2+ cluster in their active site, catalyze the enantioselective hydrolysis of sec-alkylsulfates with strict inversion of configuration, yielding homochiral (S)-configurated alcohols and nonreacted (S)-configurated sulfate esters. The latter can be chemically hydrolyzed to (S)-secondary alcohols, so that a single (S)-configurated product with up to >99% e.e. results (Figure 6) (65). Perfect enantioselectivities were obtained inverting alkylsulfatase from DSM 6611 for a variety of sec-alkyl sulfate ester substrates bearing olefinic, acetylenic, and aromatic moieties next to the sulfate ester group; in…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(64)",
+          "target_xml_id": "b64"
+        },
+        {
+          "ref_marker": "(65)",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "(66)",
+          "target_xml_id": "b66"
+        },
+        {
+          "ref_marker": "(65)",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "(67)",
+          "target_xml_id": "b67"
+        }
+      ]
+    },
+    {
+      "header": "Alkene oxidases (ozonidases).",
+      "raw_header": "Alkene oxidases (ozonidases).",
+      "text": "No enzyme was known to catalyze the equivalent of alkene ozonolysis to yield two smaller moieties of aldehydes or ketones until Wolfgang Kroutil's group in the University of Graz (Austria) obtained carbonyl compounds from phenyl-conjugated alkenes and molecular oxygen at 2 bar pressure, catalyzed by a cell-free extract of the wood-degrading fungus Trametes hirsuta FCC 047 (68). Ninety-six-well plates specially adapted for oxygen pressure revealed successful conversion of a broad range of aromatic alkenes to the respective aldehydes or ketones, with excellent chemoselectivity, i.e., no overreaction to carboxylic acids (Figure 7). Not only were various substituted styrenes cleaved but also cyclic alkenes, such as indene or 1,2dihydronaphthalene (69). Mechanic investigations reveal that the new biocatalyst follows neither the standard dioxygenase nor the monooxygenase mechanism. It instead seems to prefer a mechanism akin to a 2 + 2 cycloaddition, as two oxygen atoms derived from two different molecules of dioxygen are incorporated into the carbonyl products (Figure 8) (70). Very recently, this new biocatalyst was identified as a novel Mn 3+ -containing proteinase A analog, in which Mn 3+ is uniquely bound to oxygen ligands only (71).",
+      "snippet": "No enzyme was known to catalyze the equivalent of alkene ozonolysis to yield two smaller moieties of aldehydes or ketones until Wolfgang Kroutil's group in the University of Graz (Austria) obtained carbonyl compounds from phenyl-conjugated alkenes and molecular oxygen at 2 bar pressure, catalyzed by a cell-free extract of the wood-degrading fungus Trametes hirsuta FCC 047 (68). Ninety-six-well plates specially adapted for oxygen pressure revealed successful conversion of a broad range of aromatic alkenes to the respective aldehydes or ketones, with excellent chemoselectivity, i.e., no overreaction to carboxylic acids (Figure 7). Not only were various substituted styrenes cleaved but also cyclic alkenes, such as indene or 1,2dihydronaphthalene (69). Mechanic investigations reveal that the new biocatalyst follows neither the standard dioxygenase nor the monooxygenase mechanism. It instead seems to prefer a mechanism akin to a 2 + 2 cycloaddition, as two oxygen atoms derived from two different molecules of dioxygen are incorporated into the carbonyl products (Figure 8) (70). Very recently, this new biocatalyst was identified as a novel Mn 3+ -containing proteinase A analog, in which Mn 3+ is uniquely bound to oxygen ligands only (71).",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(68)",
+          "target_xml_id": "b68"
+        },
+        {
+          "ref_marker": "(69)",
+          "target_xml_id": "b69"
+        },
+        {
+          "ref_marker": "(70)",
+          "target_xml_id": "b70"
+        },
+        {
+          "ref_marker": "(71)",
+          "target_xml_id": "b71"
+        }
+      ]
+    },
+    {
+      "header": "Pictet-Spengler cyclisation: berberine bridge enzyme (BBE).",
+      "raw_header": "Pictet-Spengler cyclisation: berberine bridge enzyme (BBE).",
+      "text": "Berberine-bridge enzyme (BBE) belongs to the class of bicovalent flavoproteins, discovered in 2005, that often feature unusually high redox potentials and thus can catalyze unusual reactions (72). Correct positioning of the flavin seems to depend on this bicovalent linkage. Recently, BBE was reported to catalyze the intramolecular oxidative deracemization of 1-benzyl-1,2,3,4-tetrahydroisoquinoline and molecular oxygen to (S)-berbine and (R)-1-benzyl-1,2,3,4-tetrahydroisoquinoline (73). Both substrates and products are nearly insoluble in aqueous solutions, but BBE was found to be compatible with a broad range of organic solvents. For the conversion of (S)-reticuline to (S)-scoulerine, a nearly 1:1 toluene/water biphasic system allowed, at 20 g/L substrate concentration and at conditions Up to >99% conversion Up to >99% chemoselectivity Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 Enz-O • Closing catalytic cycle Rearrangement Enz-O • O + O Enz-O • O O O 2 • Figure 8 Presumed mechanism of alkene oxidase. Reproduced from Reference 69. Abbreviation: Enz, enzyme. between pH 8 and 11 and 30-50 • C, to achieve >97% e.e. for the product (74). For the deracemization of racemic benzylisoquinolines to optically pure (S)-berbines with up to 100% yield, a novel three-reaction cascade combining stereoinversion and simultaneous kinetic resolution was developed. The racemic substrates were transformed to optically pure (>97% e.e.) (S)-berbine products with nearly complete conversion (98%) and up to 88% isolated yield (75).",
+      "snippet": "Berberine-bridge enzyme (BBE) belongs to the class of bicovalent flavoproteins, discovered in 2005, that often feature unusually high redox potentials and thus can catalyze unusual reactions (72). Correct positioning of the flavin seems to depend on this bicovalent linkage. Recently, BBE was reported to catalyze the intramolecular oxidative deracemization of 1-benzyl-1,2,3,4-tetrahydroisoquinoline and molecular oxygen to (S)-berbine and (R)-1-benzyl-1,2,3,4-tetrahydroisoquinoline (73). Both substrates and products are nearly insoluble in aqueous solutions, but BBE was found to be compatible with a broad range of organic solvents. For the conversion of (S)-reticuline to (S)-scoulerine, a nearly 1:1 toluene/water biphasic system allowed, at 20 g/L substrate concentration and at conditions Up to >99% conversion Up to >99% chemoselectivity Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 Enz-O • Closing catalytic cycle Rearrangement Enz-O • O + O Enz-O • O O O 2 • Figure 8 Presumed mechanism of alkene oxidase. Reproduced from Reference 69. Abbreviation: Enz, enzyme. between pH 8 and 11 and 30-50 • C, to achieve >97% e.e. for the product (74). For the deracemization of racemic benzylisoquinolines to optically pure (S)-berbines with up to 100% yield, a novel three-reaction cascade combining stereoinversion and simultaneous kinetic resolution was developed. The racemic substrates were transformed to optically pure…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(72)",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "(73)",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "(74)",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "(75)",
+          "target_xml_id": "b75"
+        }
+      ]
+    },
+    {
+      "header": "Novel Biocatalysts Derived Through Protein Engineering",
+      "raw_header": "Novel Biocatalysts Derived Through Protein Engineering",
+      "text": "Finding novel biocatalysts function through protein engineering requires a very stringent assay for the target molecule(s), often in high-throughput format, and a protocol for either gene mutation or gene recombination.",
+      "snippet": "Finding novel biocatalysts function through protein engineering requires a very stringent assay for the target molecule(s), often in high-throughput format, and a protocol for either gene mutation or gene recombination.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Monoamine oxidase N (MAO-N) for deracemization of racemic amines.",
+      "raw_header": "Monoamine oxidase N (MAO-N) for deracemization of racemic amines.",
+      "text": "About one third of all active pharmaceutical ingredients (APIs) contain chiral amine groups, so routes to enantiomerically pure amines are very important. Wild-type monoamine oxidase (MAO) catalyzes the oxidation of primary amines in the presence of molecular oxygen; however, Nicholas Turner's group from the University of Manchester (United Kingdom) has engineered MAO-N from Aspergillus niger to also catalyze the enantiospecific oxidation of secondary and even tertiary amines. Altogether, variants labeled D1 through D11 are available from 11 generations of protein engineering, including both rational design and high-throughput screening of random mutations. Generally, the subsequent generations resulted in increasing size of the substrate pocket, allowing conversion of increasingly more bulky amine substrates (Figure 9) (76). Downloaded from www.annualreviews.org. University of Bern (ar-160364) 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 The overall deracemization process consists of both the enantiospecific oxidation of the amine to the imine state, as well as a typically nonspecific reduction of the imine or iminium ion back to the amine, leading to an enrichment of the remaining enantiomer. Crystal structures have been obtained for the variants MAO-N-D3 (Asn336Ser/Met348Lys/Ile246Met), which is able to oxidize secondary amines, and MAO-N-D5 (Asn336Ser/Met348Lys/Ile246Met/Thr384Asn/Asp385Ser), which is able to oxidize tertiary amines; both were obtained through point mutations (77). The function of the mutated amino acids can thus be explained. A noncovalently bound FAD molecule forms the base of an aromatic cage flanked by Trp430 and Phe466. Asn336Ser alleviates steric bulk behind Trp430; Ile246Met increases flexibility of the substrate binding site. Thr384Asn and Asp385Ser as part of the secondary shell perturb the side chain of Phe382 and thus alter sterics and electronics near the FAD. MAO-N-D5 was employed to oxidize O-Methyl-N-hydroxyamines to the oxime with 99% e.e., exclusively in the (E)-configuration (78). Again, MAO-N-D5 was successful in oxidizing mesopyrrolidines to 1 -pyrrolines, which are valuable synthons for highly enantiopure (S)-proline analogs and (S)-α-amino nitriles (79). MAO-N-D5 and amine oxidation again were crucial in a shortened synthesis of the antihepatitis C drug telaprevir, in which a cyclic meso-amine, 3,4cyclopentyl-pyrroline, was oxidized to leave the building block 3,4,-cis-substituted 1-pyrroline (80). MAO-N-D-10 exhibits high activity and enantioselectivity toward aminodiphenylmethane (benzhydrylamine)-containing substrates and thus has been applied in deracemization reactions for the efficient asymmetric synthesis of the generic active pharmaceutical ingredients Solifenacin and Levocetirizine (76). To access chiral 2,5-disubstituted pyrrolidines, a one-pot ω-transaminase (TA)/monoamine oxidase (MAO-N) cascade process on preparative scale was developed (81). As the regio-and stereoselectivity of both enzymes is complementary, the enzyme acting second, the monoamine oxidase, does not affect the chiral center established by the transaminase. The cascading reactions resulted in excellent enantio-and diastereoselectivity, >94% e.e. and >98% d.e., respectively.",
+      "snippet": "About one third of all active pharmaceutical ingredients (APIs) contain chiral amine groups, so routes to enantiomerically pure amines are very important. Wild-type monoamine oxidase (MAO) catalyzes the oxidation of primary amines in the presence of molecular oxygen; however, Nicholas Turner's group from the University of Manchester (United Kingdom) has engineered MAO-N from Aspergillus niger to also catalyze the enantiospecific oxidation of secondary and even tertiary amines. Altogether, variants labeled D1 through D11 are available from 11 generations of protein engineering, including both rational design and high-throughput screening of random mutations. Generally, the subsequent generations resulted in increasing size of the substrate pocket, allowing conversion of increasingly more bulky amine substrates (Figure 9) (76). Downloaded from www.annualreviews.org. University of Bern (ar-160364) 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 The overall deracemization process consists of both the enantiospecific oxidation of the amine to the imine state, as well as a typically nonspecific reduction of the imine or iminium ion back to the amine, leading to an enrichment of the remaining enantiomer. Crystal structures have been obtained for the variants MAO-N-D3 (Asn336Ser/Met348Lys/Ile246Met), which is able to oxidize secondary amines, and MAO-N-D5 (Asn336Ser/Met348Lys/Ile246Met/Thr384Asn/Asp385Ser), which is able to oxidize tertiary amines; both were obtained through point mutat…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(76)",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "(77)",
+          "target_xml_id": "b77"
+        },
+        {
+          "ref_marker": "(78)",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "(79)",
+          "target_xml_id": "b79"
+        },
+        {
+          "ref_marker": "(80)",
+          "target_xml_id": "b80"
+        },
+        {
+          "ref_marker": "(76)",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "(81)",
+          "target_xml_id": "b81"
+        }
+      ]
+    },
+    {
+      "header": "Amine (AmDH) from amino acid dehydrogenase (AADH).",
+      "raw_header": "Amine (AmDH) from amino acid dehydrogenase (AADH).",
+      "text": "Two key mutations in positions 67 and 260 converted the amino acid dehydrogenase leucine dehydrogenase (LeuDH) from Bacillus stearothermophilus into an amine dehydrogenase (AmDH), termed L-AmDH (14). Both utilize the biological cofactor NADH and ammonia as a nitrogen source to reduce a prochiral α-keto acid or ketone to an α-amino acid or amine, respectively (Figure 10). The direct amination of a ketone with ammonia was second on the priority list of aspirational reactions of the ACS Green Chemistry Institute Pharmaceutical Roundtable (82). Building blocks containing enantiomerically pure amines are required for a third of the 200 most prescribed brand name drugs in the United States; examples include sitagliptin ( Januvia R and Janumed R ) and rasagiline (Azilect R ). Mutation of the equivalent positions in phenylalanine DH (PheDH) from Bacillus badius (77 and 275) also yielded an active amine DH, F-AmDH (27). Whereas the new function was found through rational protein design based on the structure and mechanism of PheDH from Rhodococcus rhodocrous (83), optimization of rate and specificity was achieved by two-site CASTing (see Insufficient Designability of Proteins: Progress in Protein Engineering, above) to yield K67S/N260L for L-AmDH or K77S/N270L for F-AmDH and mutation of further sites, such as Glu114Val and Val291Cys in L-AmDH (14). Cyclopropanation and amination biocatalysts: enhancement of the cytochrome P450 repertoire. Commonly, native cofactors or biobiological catalytic centers, such as metals, have been incorporated into nonfunctional protein scaffold to impart nonnative activity on the proteincatalytic center construct (84)(85)(86). The cytochrome P450 enzyme family already catalyzes several challenging chemical reactions, including some that were only known in synthetic chemistry but not biocatalysis [Figure 11; for a first review, see McIntosh (87)]. Frances Arnold's group at Caltech (Pasadena, CA) recently demonstrated that altered cofactor sites in enzymes can catalyze new reactions, notably the cyclopropanation of alkene via carbenes on the heme-containing cytochrome P450-BM3 scaffold from B. megaterium, never before observed in biocatalysis (15). Mutation of the conserved axial cysteine to serine enabled further novel catalysis, C-H amination (88) and N-H insertion (89). Lastly, a cytochrome P450 oxidase was discovered that catalyzed nitration of tryptophan derivatives (90). Protein engineering in the vicinity of the heme group of the wild-type cytochrome P450-BM3 significantly altered and often improved the new functionality. The C400S variant, with the serine still bound to the heme, which is termed cyt P411 as the mutation to serine shifts the Soret band maximum to 411 nm, raises the reduction potential from Fe 3+ to Fe 2+ and as a consequence greatly improves NAD(P)H-driven activity of the variant (91). The rate of these novel P450 variants is not necessarily slow. A highly active His variant, cytochrome P450-BM3-Hstar, with turnover >15 s -1 , accepted N,N-diethyl-2-phenylacrylamide for cyclopropanation under aerobic conditions en route to the enantioselective synthesis of a building block of the antidepressant levomilnacipran (Fetzima R ) (92). The proximal ligand of the heme group seems to control cyclopropanation activity. With the C400S variant (cyt P411) the activation and incorporation of a nitrogen moiety, more specifically azide, in the form of N-H amination could be demonstrated for the first time, leading to a benzosultam (88). Compared to wild-type cytochrome P450-BM3, where N-H amination had been observed as a contamination with very low turnover (TTN ≈ 2!), P450-CIS with 13 mutations gave a TTN of 9, cyt P411 a TTN of 32 (and 20% e.e.), and the best variant P411-CIS-T438S yielded a TTN of 383 (73% e.e.); consequently, improving turnover also increased selectivity. Cytochrome P450-BM3 variants were used to create secondary amines from a primary amine and a carbenoid, more specifically ethyldiazoacetate (89). The reaction is chemoselective: no double insertion to a tertiary amine was observed (Figure 11c), even though the diazo compound was not added continuously to keep down its concentration. Values of up to 83% e.e. were reached. N 2 O EtO + cis trans P450 BM3 variants Ph CO 2 Et Ph CO 2 Et Ph CO 2 Et Ph CO 2 Et Up to 92:8 cis:trans and 97% e.e. Up to 1:99 cis:trans and 96% e.e. O O S N 3 O O S NH P450 BM3 variants Whole cells 69% yield 87% e.e. P450 BM3 variants N 2 O EtO R-NH 2 + R H N CO 2 Et R CO 2 Et CO 2 Et a b c N Not observed Figure 11 Novel reaction with cytochrome P450 enzymes. Reproduced from McIntosh et al. (87), copyright 2014 Current Opinions.",
+      "snippet": "Two key mutations in positions 67 and 260 converted the amino acid dehydrogenase leucine dehydrogenase (LeuDH) from Bacillus stearothermophilus into an amine dehydrogenase (AmDH), termed L-AmDH (14). Both utilize the biological cofactor NADH and ammonia as a nitrogen source to reduce a prochiral α-keto acid or ketone to an α-amino acid or amine, respectively (Figure 10). The direct amination of a ketone with ammonia was second on the priority list of aspirational reactions of the ACS Green Chemistry Institute Pharmaceutical Roundtable (82). Building blocks containing enantiomerically pure amines are required for a third of the 200 most prescribed brand name drugs in the United States; examples include sitagliptin ( Januvia R and Janumed R ) and rasagiline (Azilect R ). Mutation of the equivalent positions in phenylalanine DH (PheDH) from Bacillus badius (77 and 275) also yielded an active amine DH, F-AmDH (27). Whereas the new function was found through rational protein design based on the structure and mechanism of PheDH from Rhodococcus rhodocrous (83), optimization of rate and specificity was achieved by two-site CASTing (see Insufficient Designability of Proteins: Progress in Protein Engineering, above) to yield K67S/N260L for L-AmDH or K77S/N270L for F-AmDH and mutation of further sites, such as Glu114Val and Val291Cys in L-AmDH (14). Cyclopropanation and amination biocatalysts: enhancement of the cytochrome P450 repertoire. Commonly, native cofactors or biobiological ca…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(14)",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "(82)",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "(27)",
+          "target_xml_id": "b26"
+        },
+        {
+          "ref_marker": "(83)",
+          "target_xml_id": "b83"
+        },
+        {
+          "ref_marker": "(14)",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "(84)",
+          "target_xml_id": "b84"
+        },
+        {
+          "ref_marker": "(85)",
+          "target_xml_id": "b85"
+        },
+        {
+          "ref_marker": "(86)",
+          "target_xml_id": "b86"
+        },
+        {
+          "ref_marker": "(87)",
+          "target_xml_id": "b87"
+        },
+        {
+          "ref_marker": "(15)",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "(88)",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "(89)",
+          "target_xml_id": "b89"
+        },
+        {
+          "ref_marker": "(90)",
+          "target_xml_id": "b90"
+        },
+        {
+          "ref_marker": "(91)",
+          "target_xml_id": "b91"
+        },
+        {
+          "ref_marker": "(92)",
+          "target_xml_id": "b92"
+        },
+        {
+          "ref_marker": "(88)",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "(89)",
+          "target_xml_id": "b89"
+        }
+      ]
+    },
+    {
+      "header": "Novel Biocatalysts Through Computational Design",
+      "raw_header": "Novel Biocatalysts Through Computational Design",
+      "text": "Recently, biocatalysts have been designed from scratch. Quantum mechanical and molecular mechanical models of the transition state and the first shell of residues around the active site were required, respectively. Kemp eliminase. The one-step proton abstraction reaction from 5-nitroisooxazole to pcyanonitrobenzene (Kemp elimination), in which proton abstraction results in irreversible N-O bond cleavage, does not feature any highly developed natural catalyst, so its uncatalyzed rate constant k uncat is extremely low. This catalytically straightforward reaction thus was a good test case for a novel method to develop biocatalysts, the design of an active enzyme by computation from scratch. With the aid of quantum mechanical models, transition states of the purported enzyme are created and then docked into a vast number of protein structures. The original computationally designed Kemp eliminase KE70 employed a familiar His-Asp dyad for proton abstraction but produced an enzyme with low specificity, with a k cat /K M value of around 100 (M•s) -1 , which is not synthetically useful. Protein engineering in the form of incorporating rationally designed mutations, as well as nine rounds of directed evolution featuring both random mutagenesis and DNA shuffling, resulted in a protein with a specificity of 5•10 4 (M•s) -1 , which corresponds to a rate acceleration k cat /k uncat of approximately 10 7 over background (13). KE07, another computationally designed Kemp eliminase, employed a glutamate, the catalytic base aiding proton abstraction, and an apolar binding site, which resulted in similarly low specificity as KE70. Seven rounds of evolution yielded 200-fold improvement to a k cat /K M value of 2.6•10 3 (M•s) -1 , i.e., a rate acceleration k cat /k uncat of approximately 10 6 , requiring eight mutations and resulting in decreased thermodynamic stability. The improvement of activity was attributed to modulation of the interaction of the catalytic glutamate with the substrate and the optimization of its pKa (93). A third eliminase, KE59, featured the highest specificity of all computational designs and catalyzed elimination of unactivated benzisoxazoles but could not be subjected to the standard protocol of directed evolution owing to its lack of stability. However, upon the inclusion of stabilizing consensus mutations, the acceleration improved to 10 7 and catalytic specificity improved more than 2,000-fold to 6•10 5 (M•s) -1 , mainly due to an improved k cat value (94). Another Kemp eliminase computationally designed on the basis of quantum mechanics and subject to extensive protein engineering achieved an acceleration ratio k cat /k uncat of 6•10 8 over background (95). On the basis of a very high-resolution crystal structure (1.09 A ˚), the success of the best variants was attributed to the high degree of precision of the positioning of catalytically relevant groups, as well as to shape complementarity between substrate and binding site, the same elements that render naturally evolved biocatalysts successful. A recent review of de novo computational design of enzymes, while optimistic for the technique, stresses that protein engineering and structural studies are important for success; success is defined here as reaching catalytic activity, specificity, and acceleration on a par with naturally occurring enzymes (96).",
+      "snippet": "Recently, biocatalysts have been designed from scratch. Quantum mechanical and molecular mechanical models of the transition state and the first shell of residues around the active site were required, respectively. Kemp eliminase. The one-step proton abstraction reaction from 5-nitroisooxazole to pcyanonitrobenzene (Kemp elimination), in which proton abstraction results in irreversible N-O bond cleavage, does not feature any highly developed natural catalyst, so its uncatalyzed rate constant k uncat is extremely low. This catalytically straightforward reaction thus was a good test case for a novel method to develop biocatalysts, the design of an active enzyme by computation from scratch. With the aid of quantum mechanical models, transition states of the purported enzyme are created and then docked into a vast number of protein structures. The original computationally designed Kemp eliminase KE70 employed a familiar His-Asp dyad for proton abstraction but produced an enzyme with low specificity, with a k cat /K M value of around 100 (M•s) -1 , which is not synthetically useful. Protein engineering in the form of incorporating rationally designed mutations, as well as nine rounds of directed evolution featuring both random mutagenesis and DNA shuffling, resulted in a protein with a specificity of 5•10 4 (M•s) -1 , which corresponds to a rate acceleration k cat /k uncat of approximately 10 7 over background (13). KE07, another computationally designed Kemp eliminase, employed a…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(13)",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "(93)",
+          "target_xml_id": "b93"
+        },
+        {
+          "ref_marker": "(94)",
+          "target_xml_id": "b94"
+        },
+        {
+          "ref_marker": "(95)",
+          "target_xml_id": "b95"
+        },
+        {
+          "ref_marker": "(96)",
+          "target_xml_id": "b96"
+        }
+      ]
+    },
+    {
+      "header": "SUCCESSFUL APPLICATIONS",
+      "raw_header": "SUCCESSFUL APPLICATIONS",
+      "text": "Here, we limit our discussion to examples of biocatalyst development in pharma. Although there are good examples from industrial chemistry, the developments in pharma tend to have a more immediate impact.",
+      "snippet": "Here, we limit our discussion to examples of biocatalyst development in pharma. Although there are good examples from industrial chemistry, the developments in pharma tend to have a more immediate impact.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Side Chain of Lipitor",
+      "raw_header": "Side Chain of Lipitor",
+      "text": "Lipitor R (atorvastatin calcium) was the first drug to reach the annual sales of 10 billion dollars in the United States and until 2012 was the top-selling pharmaceutical product in the world (97). The statin drug is a 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor used to decrease levels of low density lipoprotein (LDL) cholesterol. The synthesis of the (3R,5S)dihydroxyhexanoate side chain requires highly specific synthesis as high e.e. and d.e. values are required [99.5% and 99%, respectively (98)], encouraging the development of various biocatalytic routes to achieve these challenging goals (97). In one example, a hydroxy ketoester intermediate to atorvastatin was obtained through the highly regio-and stereoselective single-site NADPH-dependent reduction of a β,δ-diketo Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 O O O O O O O O PhHN Atorvastatin OH OH OH Cl Ot-Bu NADPH LBADH NADP + Ot-Bu Cl > 99.5% e.e. OH OH Figure 12 Enzymatic reduction using ADH from Lactobacillus brevis for the synthesis of a Lipitor R building block. Reproduced from Reference 109, copyright 2011 ACS. ester using an ADH from Lactobacillus brevis (LADH). tert-Butyl 6-chloro-3,5-dioxohexanoate was converted in 72% yield to enantiopure tert-butyl (S)-6-chloro-5-hydroxy-3-oxohexanoate (Figure 12). 2-Propanol was used for cofactor regeneration as LADH catalyzes the oxidation of the alcohol to acetone at the expense of NADP + , while simultaneously improving the solubility of the lipophilic substrate in the aqueous phase. A detailed kinetic study allowed improvement of the cofactor consumption by decreasing the amount of NADP + 60-fold while the cofactor total turnover number was improved 50-fold. The reaction was successfully scaled-up to 100 g (99-101). Another route developed by Codexis involves both a ketoreductase (KRED) and a halohydrin dehalogenase (HHDH), starting from 4-chloroacetoacetate and giving access to (R)-4-cyano-3-hydroxybutyrate as key intermediate (Figure 13). Codexis won the 2006 Presidential Green Chemistry Challenge Award from the United States Environmental Protection Agency under the focus category \"Greener Reaction Conditions\" for the development of this process (102,103). Step 1",
+      "snippet": "Lipitor R (atorvastatin calcium) was the first drug to reach the annual sales of 10 billion dollars in the United States and until 2012 was the top-selling pharmaceutical product in the world (97). The statin drug is a 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor used to decrease levels of low density lipoprotein (LDL) cholesterol. The synthesis of the (3R,5S)dihydroxyhexanoate side chain requires highly specific synthesis as high e.e. and d.e. values are required [99.5% and 99%, respectively (98)], encouraging the development of various biocatalytic routes to achieve these challenging goals (97). In one example, a hydroxy ketoester intermediate to atorvastatin was obtained through the highly regio-and stereoselective single-site NADPH-dependent reduction of a β,δ-diketo Downloaded from www.annualreviews.org. University of Bern (ar-160364) IP: 130.92.203.154 On: Wed, 20 Aug 2025 07:49:03 O O O O O O O O PhHN Atorvastatin OH OH OH Cl Ot-Bu NADPH LBADH NADP + Ot-Bu Cl > 99.5% e.e. OH OH Figure 12 Enzymatic reduction using ADH from Lactobacillus brevis for the synthesis of a Lipitor R building block. Reproduced from Reference 109, copyright 2011 ACS. ester using an ADH from Lactobacillus brevis (LADH). tert-Butyl 6-chloro-3,5-dioxohexanoate was converted in 72% yield to enantiopure tert-butyl (S)-6-chloro-5-hydroxy-3-oxohexanoate (Figure 12). 2-Propanol was used for cofactor regeneration as LADH catalyzes the oxidation of the alcohol to acetone at the expe…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(97)",
+          "target_xml_id": "b97"
+        },
+        {
+          "ref_marker": "(98)",
+          "target_xml_id": "b98"
+        },
+        {
+          "ref_marker": "(97)",
+          "target_xml_id": "b97"
+        },
+        {
+          "ref_marker": "(102,",
+          "target_xml_id": "b102"
+        },
+        {
+          "ref_marker": "103)",
+          "target_xml_id": "b103"
+        }
+      ]
+    },
+    {
+      "header": "Pregabalin via Early Resolution of a Diester",
+      "raw_header": "Pregabalin via Early Resolution of a Diester",
+      "text": "Step 2 Step 3 Substrate load: 3 M (765g/L) Lipolase (8%) 150 mM Ca(OAc) 2 pH 7.0, rt 24 h 1 2 3 (Not isolated) >98% e.e. at 45-50% conversion Reflux 80-85 °C -CO 2 >99% e.e., quantitative conversion Isolation step + 1. KOH (aq), RT, 1h 2. Sponge Ni, H 2 H 2 O/IPA, < 5 h Pregabalin NH 2 40-45% overall isolated yield (after recycling once), 99.5% purity and 99.75% e.e. 1 Figure 14 Second-generation manufacturing process for pregabalin (Lyrica R ). Reproduced from Martinez et al. (104); copyright 2008 ACS. technology employing resolution of the racemate, which resulted in low overall yield. The secondgeneration process in the key step resolves racemic 2-carboxyethyl-3-cyano-5-methylhexanoic acid ethyl ester to yield (S)-2-carboxyethyl-3-cyano-5-methylhexanoic acid (Figure 14) (104). The remaining (R)-enantiomer is racemized and reused. Thermally induced decarboxylation leaves (S)-3-cyano-5-methylhexanoic acid ethyl ester. Catalytic hydrogenation with Raney Ni/H 2 forms the API. This second-generation process, still practiced today, led to increased yield of 45% based on racemate (without recycle) and decreased solvent use such that the E factor [unit mass of waste (not water)/unit mass of API] was reduced from 86 to 17. Very recently, the ene reductase-catalyzed asymmetric hydrogenation of 3-cyano-5-methylhex-2-enoic acid (ethyl ester) to (S)-3-cyano-5-methylhexanoic acid (ethyl ester) was tested (105,106).",
+      "snippet": "Step 2 Step 3 Substrate load: 3 M (765g/L) Lipolase (8%) 150 mM Ca(OAc) 2 pH 7.0, rt 24 h 1 2 3 (Not isolated) >98% e.e. at 45-50% conversion Reflux 80-85 °C -CO 2 >99% e.e., quantitative conversion Isolation step + 1. KOH (aq), RT, 1h 2. Sponge Ni, H 2 H 2 O/IPA, < 5 h Pregabalin NH 2 40-45% overall isolated yield (after recycling once), 99.5% purity and 99.75% e.e. 1 Figure 14 Second-generation manufacturing process for pregabalin (Lyrica R ). Reproduced from Martinez et al. (104); copyright 2008 ACS. technology employing resolution of the racemate, which resulted in low overall yield. The secondgeneration process in the key step resolves racemic 2-carboxyethyl-3-cyano-5-methylhexanoic acid ethyl ester to yield (S)-2-carboxyethyl-3-cyano-5-methylhexanoic acid (Figure 14) (104). The remaining (R)-enantiomer is racemized and reused. Thermally induced decarboxylation leaves (S)-3-cyano-5-methylhexanoic acid ethyl ester. Catalytic hydrogenation with Raney Ni/H 2 forms the API. This second-generation process, still practiced today, led to increased yield of 45% based on racemate (without recycle) and decreased solvent use such that the E factor [unit mass of waste (not water)/unit mass of API] was reduced from 86 to 17. Very recently, the ene reductase-catalyzed asymmetric hydrogenation of 3-cyano-5-methylhex-2-enoic acid (ethyl ester) to (S)-3-cyano-5-methylhexanoic acid (ethyl ester) was tested (105,106).",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(104)",
+          "target_xml_id": "b104"
+        },
+        {
+          "ref_marker": "(105,",
+          "target_xml_id": "b105"
+        },
+        {
+          "ref_marker": "106)",
+          "target_xml_id": "b106"
+        }
+      ]
+    },
+    {
+      "header": "Saxagliptin via Reductive Amination of Keto Acid Precursor",
+      "raw_header": "Saxagliptin via Reductive Amination of Keto Acid Precursor",
+      "text": "Another interesting application of amino acid dehydrogenases concerns the preparation of (S)-3hydroxyadamantylglycine from 2-(3-hydroxy-1-adamantyl)-2-oxoethanoic acid using a modified form of a recombinant PheDH cloned from Thermoactinomyces intermedius and expressed in Pichia pastoris or Escherichia coli. The nonproteinogenic amino acid is a key intermediate required for the synthesis of Saxagliptin, a dipeptidyl peptidase IV inhibitor under development for treatment of type 2 diabetes mellitus (Figure 15). E. coli coexpressing PheDH and FDH from P. pastoris for cofactor regeneration allowed the successful reductive amination of the ketoacid on several kilogram scale (40 kg in 800-liter vessel and 99% conversion) (107).",
+      "snippet": "Another interesting application of amino acid dehydrogenases concerns the preparation of (S)-3hydroxyadamantylglycine from 2-(3-hydroxy-1-adamantyl)-2-oxoethanoic acid using a modified form of a recombinant PheDH cloned from Thermoactinomyces intermedius and expressed in Pichia pastoris or Escherichia coli. The nonproteinogenic amino acid is a key intermediate required for the synthesis of Saxagliptin, a dipeptidyl peptidase IV inhibitor under development for treatment of type 2 diabetes mellitus (Figure 15). E. coli coexpressing PheDH and FDH from P. pastoris for cofactor regeneration allowed the successful reductive amination of the ketoacid on several kilogram scale (40 kg in 800-liter vessel and 99% conversion) (107).",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "(107)",
+          "target_xml_id": "b107"
+        }
+      ]
+    },
+    {
+      "header": "Sitagliptin via Transamination of Ketositagliptin",
+      "raw_header": "Sitagliptin via Transamination of Ketositagliptin",
+      "text": "A truly spectacular biocatalyst redesign was the substrate specificity enhancement of (R)-amino acid amino transferase ATA-117 to accommodate ketositagliptin, the key intermediate en route to sitagliptin phosphate, the API in Januvia TM and Janumed TM (108) (Figure 16). As the wild-type enzyme showed no activity toward ketositagliptin, a truncated substrate, a 3-keto-butyrpiperazine, was employed to overcome the lack of activity on their target substrate. Wild-type transaminase had low but detectable activity of 4% conversion in 24 h toward 3-keto-butyrpiperazine. Transition Reductive amination to (S)-3-hydroxyadamantylglycine, a precursor to Saxagliptin, using a PheDH/FDH system. Reproduced from Reference 109, copyright 2011 ACS. state docking of variants of the binding pocket of the truncated substrate yielded an enzyme with very low activity of <1% over 24 h, but again above background. After several rounds of random and targeted mutagenesis, employing restricted codon usage and ProSAR, an enzyme with much higher conversion and sufficient stability in the reaction medium 60:40 water:DMSO was developed. Ultimately, the final variant contains 27 mutations around the active-site and at the dimer interface. The enzymatic process, certified by the Federal Drug Administration in 2012, resulted in 3-5% points higher yield over the first-generation chemical process and one-third less solvent waste.",
+      "snippet": "A truly spectacular biocatalyst redesign was the substrate specificity enhancement of (R)-amino acid amino transferase ATA-117 to accommodate ketositagliptin, the key intermediate en route to sitagliptin phosphate, the API in Januvia TM and Janumed TM (108) (Figure 16). As the wild-type enzyme showed no activity toward ketositagliptin, a truncated substrate, a 3-keto-butyrpiperazine, was employed to overcome the lack of activity on their target substrate. Wild-type transaminase had low but detectable activity of 4% conversion in 24 h toward 3-keto-butyrpiperazine. Transition Reductive amination to (S)-3-hydroxyadamantylglycine, a precursor to Saxagliptin, using a PheDH/FDH system. Reproduced from Reference 109, copyright 2011 ACS. state docking of variants of the binding pocket of the truncated substrate yielded an enzyme with very low activity of <1% over 24 h, but again above background. After several rounds of random and targeted mutagenesis, employing restricted codon usage and ProSAR, an enzyme with much higher conversion and sufficient stability in the reaction medium 60:40 water:DMSO was developed. Ultimately, the final variant contains 27 mutations around the active-site and at the dimer interface. The enzymatic process, certified by the Federal Drug Administration in 2012, resulted in 3-5% points higher yield over the first-generation chemical process and one-third less solvent waste.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "CONCLUSIONS",
+      "raw_header": "CONCLUSIONS",
+      "text": "There is consensus in the community that biocatalysts are competitive or even superb in terms of activity and selectivity at near-ambient conditions. In the past, three points have often been raised to question the overall role of biocatalysis in catalytic processing: the lack of designability of biocatalysts, their limits of stability, and the insufficient number of well-characterized, readyto-use biocatalysts. Progress on all three fronts, outlined in the preceding section of this review, is very encouraging. 1. Novel protein engineering tools have significantly enhanced the toolbox for biocatalyst development (see above for descriptions of experimental and computational tools). 2. The deactivation of biocatalysts under various stresses, far more so than other kinds of catalysts, can be described quantitatively via rational models. Although protein stabilization commonly occurs in an incremental fashion as a function of amino acid sequence, there are now several cases of spectacular leaps of stabilization after accumulating all stabilizing mutations found in earlier rounds. Last but not least, the concept that stabilization against one type of stress, often thermoinstability, commonly also stabilizes against other types of stress, such as organic solvents, air-water or solid-water interfaces, or cavitation as a consequence of pumping or ultrasonication, is now experimentally considerably better founded than a few years ago. 3. A host of developments of novel biocatalysts in the past few years, in part fueled by improved designability and improved methods of stabilization, has ended up considerably broadening the toolbox for synthetic chemistry. Considering that the focus of this review on novel biocatalysts had to leave out the vastly improved characterization of several more established biocatalysts, such as transaminases, aldolases, and even the most frequently used lab-scale biocatalyst, Candida antarctica lipase B (CALB), the rate of progress of the field is truly encouraging. However, to claim victory, two additional aspects will have to fit into a Chemocatalytic the picture as well: suitable synthetic targets for and commercial availability of biocatalysts, not just on a lab scale but on a full production scale.",
+      "snippet": "There is consensus in the community that biocatalysts are competitive or even superb in terms of activity and selectivity at near-ambient conditions. In the past, three points have often been raised to question the overall role of biocatalysis in catalytic processing: the lack of designability of biocatalysts, their limits of stability, and the insufficient number of well-characterized, readyto-use biocatalysts. Progress on all three fronts, outlined in the preceding section of this review, is very encouraging. 1. Novel protein engineering tools have significantly enhanced the toolbox for biocatalyst development (see above for descriptions of experimental and computational tools). 2. The deactivation of biocatalysts under various stresses, far more so than other kinds of catalysts, can be described quantitatively via rational models. Although protein stabilization commonly occurs in an incremental fashion as a function of amino acid sequence, there are now several cases of spectacular leaps of stabilization after accumulating all stabilizing mutations found in earlier rounds. Last but not least, the concept that stabilization against one type of stress, often thermoinstability, commonly also stabilizes against other types of stress, such as organic solvents, air-water or solid-water interfaces, or cavitation as a consequence of pumping or ultrasonication, is now experimentally considerably better founded than a few years ago. 3. A host of developments of novel biocatalysts in…",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "DISCLOSURE STATEMENT",
+      "raw_header": "DISCLOSURE STATEMENT",
+      "text": "The author is not aware of any affiliations, memberships, funding, or financial holdings that might be perceived as affecting the objectivity of this review.",
+      "snippet": "The author is not aware of any affiliations, memberships, funding, or financial holdings that might be perceived as affecting the objectivity of this review.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Untitled section",
+      "raw_header": "Untitled section",
+      "text": "Directed evolution drives the next generation of biocatalysts NJTurner Nat. Chem. Biol 5 2009 Engineering the third wave of biocatalysis UTBornscheuer GWHuisman RJKazlauskas SLutz JCMoore KRobins 10.1038/nature11117 Nature Nature 0028-0836 1476-4687 485 7397 2012 Springer Science and Business Media LLC Biocatalysis in Organic Chemistry and Biotechnology: Past, Present, and Future ManfredTReetz 10.1021/ja405051f Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 135 34 2013 American Chemical Society (ACS) The structure of the mouse glutathione peroxidase gene: the selenocysteine in the active site is encoded by the ‘termination’ codon, TGA. IChambers JFrampton PGoldfarb NAffara WMcbain PRHarrison 10.1002/j.1460-2075.1986.tb04350.x The EMBO Journal The EMBO Journal 0261-4189 5 6 1986 Springer Science and Business Media LLC Nucleotide sequence and expression of the selenocysteine-containing polypeptide of formate dehydrogenase (formate-hydrogen-lyase-linked) from Escherichia coli. FZinoni ABirkmann TCStadtman ABöck 10.1073/pnas.83.13.4650 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 83 13 1986 Proceedings of the National Academy of Sciences Pyrrolysine encoded by UAG in Archaea: charging of a UAG-decoding specialized tRNA GSrinivasan CMJames JAKrzycki Science 296 2002 BHao WMGong TKFerguson CMJames JAKrzycki MKChan A new UAG-encoded residue in the structure of a methanogen methyltransferase 2002 296 Noncanonical amino acids in the interrogation of cellular protein synthesis JTNgo TirrellDa Acc. Chem. Res 44 2011 Genetic Incorporation of Multiple Unnatural Amino Acids into Proteins in Mammalian Cells HanXiao AbhishekChatterjee Sei‐hyunChoi KrishnaMBajjuri SubhashCSinha PeterGSchultz 10.1002/anie.201308137 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 52 52 2013 Wiley Bringing Dynamic Molecular Machines into Focus by Methyl-TROSY NMR RinaRosenzweig LewisEKay 10.1146/annurev-biochem-060713-035829 Annual Review of Biochemistry Annu. Rev. Biochem. 0066-4154 1545-4509 83 1 2014 Annual Reviews Total synthesis of (-)-solanapyrone A via enzymatic Diels-Alder reaction of prosolanapyrone HOikawa TKobayashi KKatayama YSuzuki AIchihara J. Organ. Chem 63 1998 Enzyme promiscuity: first protein-catalyzed Morita–Baylis–Hillman reaction ManfredTReetz RégisMondière JoséDanielCarballeira 10.1016/j.tetlet.2007.01.063 Tetrahedron Letters Tetrahedron Letters 0040-4039 48 10 2007 Elsevier BV Kemp elimination catalysts by computational enzyme design DRothlisberger OKhersonsky AMWollacott LJiang JDechancie Nature 453 2008 Development of an Amine Dehydrogenase for Synthesis of Chiral Amines MichaelJAbrahamson EduardoVázquez‐figueroa NicholasBWoodall JeffreyCMoore AndreasSBommarius 10.1002/anie.201107813 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 51 16 2012 Wiley Olefin Cyclopropanation via Carbene Transfer Catalyzed by Engineered Cytochrome P450 Enzymes PedroSCoelho EricMBrustad ArvindKannan FrancesHArnold 10.1126/science.1231434 Science Science 0036-8075 1095-9203 339 6117 2013 American Association for the Advancement of Science (AAAS) Structure and Mechanism in Protein Science AFersht 1999 Freeman New York A Proficient Enzyme AnnaRadzicka RichardWolfenden 10.1126/science.7809611 Science Science 0036-8075 1095-9203 267 5194 1995 American Association for the Advancement of Science (AAAS) The lesser \"burden borne\" by o-succinylbenzoate synthase: an \"easy\" reaction involving a carboxylate carbon acid EATaylor DrjPalmer JAGerlt J. Am. Chem. Soc 123 2001 The Depth of Chemical Time and the Power of Enzymes as Catalysts RichardWolfenden MarkJSnider 10.1021/ar000058i Accounts of Chemical Research Acc. Chem. Res. 0001-4842 1520-4898 34 12 2001 American Chemical Society (ACS) Molecular Determinants of the Regioselectivity of Toluene/ <i>o</i> -Xylene Monooxygenase from <i>Pseudomonas</i> sp. Strain OX1 EugenioNotomista ValeriaCafaro GiuseppeBozza AlbertoDi Donato 10.1128/aem.01951-08 Applied and Environmental Microbiology Appl Environ Microbiol 0099-2240 1098-5336 75 3 2009 American Society for Microbiology Characterization of hydroxylaminobenzene mutase from pNBZ139 cloned from Pseudomonas pseudoalcaligenes JS45 ZQHe LJNadeau JCSpain Eur. J. Biochem 267 2000 Altering the regioselectivity of cytochrome P450 BM-3 by saturation mutagenesis for the biosynthesis of indirubin SHu JHuang LHMei QYu SJYao ZHJin J. Mol. Catal. B: Enzymatic 67 2010 Kinetic resolution of unnatural and rarely occurring amino acids: enantioselective hydrolysis of N-acyl amino acids catalyzed by acylase I HKChenault JDahmer GMWhitesides J. Am. Chem. Soc 111 1989 Laboratory evolution of enantiocomplementary Candida antarctica lipase B mutants with broad substrate scope QWu PSoni MTReetz J. Am. Chem. Soc 135 2013 Directed evolution of enantioselective enzymes: iterative cycles of CASTing for probing protein-sequence space MTReetz LWWang MBocola Angew. Chem. Int. Ed 45 2006 Some New Developments in Reductive Amtnation with Cofactor Regeneration ASBommarius KDrauz WHummel MRKula CWandrey 10.3109/10242429409065216 Biocatalysis Biocatalysis 0886-4454 10 1-4 1994 Informa UK Limited The evolution of an amine dehydrogenase biocatalyst for the asymmetric production of chiral amines MJAbrahamson JWWong ASBommarius Adv. Synth. Catal 355 2013 Addressing the Numbers Problem in Directed Evolution ManfredTReetz DanielKahakeaw RenateLohmer 10.1002/cbic.200800298 ChemBioChem ChemBioChem 1439-4227 1439-7633 9 11 2008 Wiley Expanding the Range of Substrate Acceptance of Enzymes: Combinatorial Active‐Site Saturation Test ManfredTReetz MarcoBocola JoséDanielCarballeira DongxingZha AndreasVogel 10.1002/anie.200500767 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 44 27 2005 Wiley Laboratory evolution of stereoselective enzymes: a prolific source of catalysts for asymmetric reactions MTReetz Angew. Chem. Int. Ed 50 2011 Iterative saturation mutagenesis (ISM) for rapid directed evolution of functional enzymes ManfredTReetz JoséDanielCarballeira 10.1038/nprot.2007.72 Nature Protocols Nat Protoc 1754-2189 1750-2799 2 4 2007 Springer Science and Business Media LLC Comparison of different chemoenzymatic process routes to enantiomerically pure amino acids ASBommarius MSchwarm KDrauz Chimia 55 2001 Commercial scale biocatalysis: myths and realities JDRozzell 10.1016/s0968-0896(99)00159-5 Bioorganic & Medicinal Chemistry Bioorganic & Medicinal Chemistry 0968-0896 7 10 1999 Elsevier BV Industrial Biotransformations AWandrey KSeelbach CWandrey 10.1002/3527608184 2006 Wiley 570 Weinheim, Ger Conformation Changes of Proteins RufusLumry HenryEyring 10.1021/j150512a005 The Journal of Physical Chemistry J. Phys. Chem. 0022-3654 1541-5740 58 2 1954 American Chemical Society (ACS) Utilizing simple biochemical measurements to predict lifetime output of biocatalysts in continuous isothermal processes TARogers ASBommarius Chem. Eng. Sci 65 2010 Catalytic efficiency and kcat/KM: a useful comparator? RobertEisenthal MichaelJDanson DavidWHough 10.1016/j.tibtech.2007.03.010 Trends in Biotechnology Trends in Biotechnology 0167-7799 25 6 2007 Elsevier BV Efficiency function for comparing catalytic competence EduardoACeccarelli NéstorCarrillo OscarARoveri 10.1016/j.tibtech.2007.11.008 Trends in Biotechnology Trends in Biotechnology 0167-7799 26 3 2008 Elsevier BV Catalytic effectiveness, a measure of enzyme proficiency for industrial applications RichardJFox MichaelDClay 10.1016/j.tibtech.2008.12.001 Trends in Biotechnology Trends in Biotechnology 0167-7799 27 3 2009 Elsevier BV An evolutionary route to xylanase process fitness NishaPalackal YaliBrennan WalterNCallen PaulDupree GerhardFrey FlorenceGoubet GeoffreyPHazlewood ShaunHealey YoungEKang KeithAKretz EddLee XuqiuTan GeofferyLTomlinson JohnVerruto VickyW KWong EricJMathur JayMShort DanERobertson BrianASteer 10.1110/ps.03333504 Protein Science Protein Science 0961-8368 1469-896X 13 2 2004 Wiley Protein building blocks preserved by recombination CAVoigt CMartinez Z-GWang SLMayo FHArnold Nature Struct. Biol 9 2002 Library analysis of SCHEMAguided protein recombination MMMeyer JJSilberg CAVoigt JBEndelman SLMayo Protein Sci 12 2003 A family of thermostable fungal cellulases created by structure-guided recombination PeteHeinzelman ChristopherDSnow IndiraWu CatherineNguyen AlanVillalobos SridharGovindarajan JeremyMinshull FrancesHArnold 10.1073/pnas.0901417106 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 106 14 2009 Proceedings of the National Academy of Sciences SCHEMA Recombination of a Fungal Cellulase Uncovers a Single Mutation That Contributes Markedly to Stability PeteHeinzelman ChristopherDSnow MatthewASmith XinlinYu ArvindKannan KevinBoulware AlanVillalobos SridharGovindarajan JeremyMinshull FrancesHArnold 10.1074/jbc.c109.034058 Journal of Biological Chemistry Journal of Biological Chemistry 0021-9258 284 39 2009 Elsevier BV Efficient screening of fungal cellobiohydrolase class I enzymes for thermostabilizing sequence blocks by SCHEMA structure-guided recombination PHeinzelman RKomor AKanaan PRomero XLYu Protein Eng. Des. Select 23 2010 Approaches for Improving Thermostability Characteristics in Cellulases MichaelAnbar EdwardABayer 10.1016/b978-0-12-415931-0.00014-8 Methods in Enzymology Elsevier 2012 510 Sequence statistics reliably predict stabilizing mutations in a protein domain BSteipe BSchiller APluckthun SSteinbacher J. Mol. Biol 240 1994 The consensus concept for thermostability engineering of proteins MLehmann LPasamontes SFLassen MWyss Biochim. Biophys. Acta-Protein Struct. Mol. Enzymol 1543 2000 The consensus concept for thermostability engineering of proteins: further proof of concept MartinLehmann ClaudiaLoch AnkeMiddendorf DominikStuder SørenFLassen LuisPasamontes AdolphusP G MVan Loon MarkusWyss 10.1093/protein/15.5.403 Protein Engineering, Design and Selection 1741-0126 1741-0134 15 5 2002 Oxford University Press (OUP) Construction of stabilized proteins by combinatorial consensus mutagenesis NAmin ADLiu SRamer WAehle DMeijer Protein Eng. Des. Sel 17 2004 Thermostable variants constructed via the structure-guided consensus method also show increased stability in salts solutions and homogeneous aqueous-organic media EVazquez-Figueroa VYeh JMBroering JFChaparro-Riggers ASBommarius 10.1093/protein/gzn048 Protein Engineering, Design and Selection 1741-0126 1741-0134 21 11 2008 Oxford University Press (OUP) Significantly enhanced stability of glucose dehydrogenase by directed evolution S-HBaik TIde HYoshida OKagami SHarayama 10.1007/s00253-002-1215-1 Applied Microbiology and Biotechnology Appl Microbiol Biotechnol 0175-7598 1432-0614 61 4 2003 Springer Science and Business Media LLC Creation of an amino acid network of structurally coupled residues in the directed evolution of a thermostable enzyme MTReetz PSoni JPAcevedo JSanchis Angew. Chem. Int. Ed 48 2009 Improved thermostability of AEH by combining B-FIT analysis and structure-guided consensus method JKBlum MDRicketts ASBommarius J. Biotechnol 160 2012 Computationally designed libraries for rapid enzyme stabilization HJWijma RJFloor PAJekel DBaker SJMarrink DBJanssen Protein Eng. Des. Sel 27 2014 Stabilizing biocatalysts ASBommarius MFPaye Chem. Soc. Rev 42 2013 Thermophilic proteins: stability and function in aqueous and organic solvents DACowan Comp. Biochem. Physiol.-Mol. Integr. Physiol 118 1997 Correlation between microbial protein thermostability and resistance to denaturation in aqueous-organic solvent 2-phase systems RKOwusu DACowan Enzyme Microb. Technol 11 1989 A thermostable variant of fructose bisphosphate aldolase constructed by directed evolution also shows increased stability in organic solvents JJHao ABerry 10.1093/protein/gzh081 Protein Engineering Design and Selection Protein Engineering Design and Selection 1741-0126 1741-0134 17 9 2004 Oxford University Press (OUP) Increasing the stability of an enzyme toward hostile organic solvents by directed evolution based on iterative saturation mutagenesis using the B-FIT method MTReetz PSoni LFernandez YGumulya JDCarballeira Chem. Commun 46 2010 Biocatalysis with Thermostable Enzymes: Structure and Properties of a Thermophilic ‘ene’‐Reductase related to Old Yellow Enzyme BjörnVAdalbjörnsson HelenSToogood AnnaFryszkowska ChristopherRPudney ThomasAJowitt DavidLeys NigelSScrutton 10.1002/cbic.200900570 ChemBioChem ChemBioChem 1439-4227 1439-7633 11 2 2010 Wiley Improved stabilization of microencapsulated Cathepsin B in harsh conditions SSharma AMittal VKGupta HSingh Enzyme Microb. Technol 40 2007 Stabilization of NAD-dependent formate dehydrogenase from Candida boidinii by site-directed mutagenesis of cysteine residues HSlusarczyk SFelber MRKula MPohl Eur. J. Biochem 267 2000 Deactivation of formate dehydrogenase (FDH) in solution and at gasliquid interfaces ASBommarius AKarau Biotechnol. Prog 21 2005 Enantiocomplementary inverting sec-alkylsulfatase activity in cyano-and thio-bacteria Synechococcus and Paracoccus spp.: selectivity enhancement by medium engineering PGadler TCReiter KHoelsch DWeuster-Botz KFaber Tetrahedron-Asymmetry 20 2009 A stereoselective inverting sec-alkylsulfatase for the deracemization of sec-alcohols MSchober PGadler TKnaus HKayer RBirner-Grunberger Org. Lett 13 2011 The substrate spectrum of the inverting sec-alkylsulfatase Pisa1 MSchober TKnaus MToesch PMacheroux UWagner KFaber Adv. Synth. Catal 354 2012 One-pot deracemization of secalcohols: enantioconvergent enzymatic hydrolysis of alkyl sulfates using stereocomplementary sulfatases MSchober MToesch TKnaus GAStrohmeier BVan Loo Angew. Chem. Int. Ed 52 2013 Biocatalytic cleavage of alkenes with O 2 and Trametes hirsuta G FCC 047 MLara FGMutti SMGlueck WKroutil Eur. J. Organ. Chem 21 2008. 2008 Biocatalytic cleavage of alkenes with oxygen and Trametes hirsuta G FCC047 ARajagopalan FGMutti WKroutil Practical Methods for Biocatalysis and Biotransformations JWhittall PSutton West Sussex, UK Wiley 2012 2 388 Oxidative enzymatic alkene cleavage: indications for a nonclassical enzyme mechanism MLara FGMutti SMGlueck WKroutil J. Am. Chem. Soc 131 2009 Enzymatic aerobic alkene cleavage catalyzed by a Mn 3+ -dependent proteinase A homologue ARajagopalan MSchober AEmmerstorfer LHammerer AMigglautsch ChemBioChem 14 2013 SWallner AWinkler SRiedl CDully SHorvath Catalytic and structural role of a conserved active site histidine in berberine bridge enzyme 2012 51 Biocatalytic enantioselective oxidative C-C coupling by aerobic C-H activation JHSchrittwieser VResch JHSattler WDLienhart KDurchschein Angew. Chem. Int. Ed 50 2011 Biocatalytic oxidative C-C bond formation catalysed by the berberine bridge enzyme: optimal reaction conditions VResch JHSchrittwieser SWallner PMacheroux WKroutil Adv. Synth. Catal 353 2011 Deracemization by simultaneous bio-oxidative kinetic resolution and stereoinversion JHSchrittwieser BGroenendaal VResch DGhislieri SWallner Angew. Chem. Int. Ed 53 2014 Engineering an enantioselective amine oxidase for the synthesis of pharmaceutical building blocks and alkaloid natural products DGhislieri APGreen MPontini SCWillies IRowles J. Am. Chem. Soc 135 2013 The structure of monoamine oxidase from Aspergillus niger provides a molecular context for improvements in activity obtained by directed evolution KEAtkin RReiss VKoehler KRBailey SHart J. Mol. Biol 384 2008 Enantioselective oxidation of O-methyl-N-hydroxylamines using monoamine oxidase N as catalyst TscEve AWells NJTurner Chem. Commun 15 2007. 2007 Enantioselective biocatalytic oxidative desymmetrization of substituted pyrrolidines VKohler KRBailey AZnabet JRaftery MHelliwell NJTurner Angew. Chem. Int. Ed 49 2010 A highly efficient synthesis of telaprevir by strategic use of biocatalysis and multicomponent reactions AnassZnabet MarloesMPolak ElwinJanssen FransJ JDe Kanter NicholasJTurner RomanoV AOrru EelcoRuijter 10.1039/c0cc02823a Chemical Communications Chem. Commun. 1359-7345 1364-548X 46 42 7918 2010 Royal Society of Chemistry (RSC) A regio-and stereoselective w-transaminase/monoamine oxidase cascade for the synthesis of chiral 2,5-disubstituted pyrrolidines EO'reilly CIglesias DGhislieri JHopwood JLGalman Angew. Chem. Int. Ed 53 2014 Key green chemistry research areas—a perspective from pharmaceutical manufacturers DavidJ CConstable PeterJDunn JohnDHayler GuyRHumphrey JohnnieLLeazer, Jr. RussellJLinderman KurtLorenz JulieManley BruceAPearlman AndrewWells AlekseyZaks TonyYZhang 10.1039/b703488c Green Chem. Green Chem. 1463-9262 1463-9270 9 5 2007 Royal Society of Chemistry (RSC) Rhodococcus L-phenylalanine dehydrogenase: kinetics, mechanism, and structural basis for catalytic specificity NmwBrunhuber JBThoden JSBlanchard JLVanhooke Biochemistry 39 2000 Merging the best of two worlds: artificial metalloenzymes for enantioselective catalysis MRRingenberg TRWard Chem. Commun 47 2011 Artificial metalloenzymes for olefin metathesis based on the biotin-(strept)avidin technology CLo MRRingenberg DGnandt YWilson TRWard Chem. Commun 47 2011 Recent achievements in the design and engineering of artificial metalloenzymes MDurrenberger TRWard Curr. Opin. Chem. Biol 19 2014 Expanding P450 catalytic reaction space through evolution and engineering JAMclntosh CCFarwell FHArnold Curr. Opin. Chem. Biol 19 2014 Enantioselective intramolecular C-H amination catalyzed by engineered cytochrome P450 enzymes in vitro and in vivo JAMcintosh PSCoelho CCFarwell ZJWang JCLewis Angew. Chem. Int. Ed 52 2013 Cytochrome P450-catalyzed insertion of carbenoids into N-H bonds ZJWang NEPeck RenataHArnold FH Chem. Sci 5 2014 Structural, Functional, and Spectroscopic Characterization of the Substrate Scope of the Novel Nitrating Cytochrome P450 TxtE SheelCDodani JacksonK BCahn TillmannHeinisch SabineBrinkmann‐chen JohnAMcintosh FrancesHArnold 10.1002/cbic.201402241 ChemBioChem ChemBioChem 1439-4227 1439-7633 15 15 2014 Wiley A serine-substituted P450 catalyzes highly efficient carbene transfer to olefins in vivo PedroSCoelho ZJaneWang MaraiaEEner StefanieABaril ArvindKannan FrancesHArnold EricMBrustad 10.1038/nchembio.1278 Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 9 8 2013 Springer Science and Business Media LLC Improved cyclopropanation activity of histidine-ligated cytochrome P450 enables the enantioselective formal synthesis of levomilnacipran ZJWang HRenata NEPeck CCFarwell PSCoelho FHArnold Angew. Chem. Int. Ed 53 2014 Evolutionary optimization of computationally designed enzymes: Kemp eliminases of the KE07 series OKhersonsky DRothlisberger ODym SAlbeck CJJackson J. Mol. Biol 396 2010 Bridging the gaps in design methodologies by evolutionary optimization of the stability and proficiency of designed Kemp eliminase KE59 OlgaKhersonsky GertKiss DanielaRöthlisberger OrlyDym ShiraAlbeck KendallNHouk DavidBaker DanSTawfik 10.1073/pnas.1121063109 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 109 26 2012 Proceedings of the National Academy of Sciences Precision is essential for efficient catalysis in an evolved Kemp eliminase RBlomberg HKries DMPinkas PreMittl MGGrutter Nature 503 2013 Protein engineering from \"scratch\" is maturing MHohne UTBornscheuer Angew. Chem. Int. Ed 53 2014 Biocatalytic synthesis of atorvastatin intermediates JMPatel J. Mol. Catal. B: Enzym 61 2009 Chemoenzymatic Synthesis of Building Blocks for Statin Side Chains MMuller 10.1002/anie.200460852 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 44 3 2005 Wiley Highly regio-and enantioselective reduction of 3,5-dioxocarboxylates MWolberg WHummel CWandrey MMuller Angew. Chem. Int. Ed 39 2000 Chemoenzymatic synthesis of the chiral side-chain of statins: application of an alcohol dehydrogenase catalysed ketone reduction on a large scale MichaelWolberg MurilloVillelaFilho SilkeBode PetraGeilenkirchen RalfFeldmann AndreasLiese WernerHummel MichaelMüller 10.1007/s00449-008-0205-9 Bioprocess and Biosystems Engineering Bioprocess Biosyst Eng 1615-7591 1615-7605 31 3 2008 Springer Science and Business Media LLC Biocatalytic reduction of β,δ-diketo esters: a highly stereoselective approach to all four stereoisomers of a chlorinated β,δ-dihydroxy hexanoate MWolberg WHummel MMuller Chem. Eur. J 7 2001 Biocatalysis in development of green pharmaceutical processes JHTao JHXu Curr. Opin. Chem. Biol 13 2009 Improving catalytic function by ProSAR-driven enzyme evolution RJFox SCDavis ECMundorff LMNewman VGavrilovic Nat. Biotechnol 25 2007 Development of a chemoenzymatic manufacturing process for pregabalin CAMartinez SHu YDumond JTao PKelleher LTully Organ. Process Res. Dev 12 2008 Chemoenzymatic Asymmetric Synthesis of Pregabalin Precursors via Asymmetric Bioreduction of β-Cyanoacrylate Esters Using Ene-Reductases ChristophKWinkler DorinaClay SimonDavies PatO’neill PaulMcdaid SebastienDebarge JeremySteflik MikeKarmilowicz JohnWWong KurtFaber 10.1021/jo302484p The Journal of Organic Chemistry J. Org. Chem. 0022-3263 1520-6904 78 4 2013 American Chemical Society (ACS) Nitrile as Activating Group in the Asymmetric Bioreduction of β‐Cyanoacrylic Acids Catalyzed by Ene‐Reductases ChristophKWinkler DorinaClay NikolausGTurrini HorstLechner WolfgangKroutil SimonDavies SebastienDebarge PatO'neill JeremySteflik MikeKarmilowicz JohnWWong KurtFaber 10.1002/adsc.201301055 Advanced Synthesis & Catalysis Adv Synth Catal 1615-4150 1615-4169 356 8 2014 Wiley Preparation of an amino acid intermediate for the dipeptidyl peptidase IV inhibitor, saxagliptin, using a modified phenylalanine dehydrogenase RLHanson SLGoldberg DBBrzozowski TPTully DCazzulino Adv. Synth. Catal 349 2007 Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture CKSavile JMJaney ECMundorff JCMoore STam Science 329 2010 Enantioenriched compounds via enzyme-catalyzed redox reactions MHall ASBommarius Chem. Rev 111 2011",
+      "snippet": "Directed evolution drives the next generation of biocatalysts NJTurner Nat. Chem. Biol 5 2009 Engineering the third wave of biocatalysis UTBornscheuer GWHuisman RJKazlauskas SLutz JCMoore KRobins 10.1038/nature11117 Nature Nature 0028-0836 1476-4687 485 7397 2012 Springer Science and Business Media LLC Biocatalysis in Organic Chemistry and Biotechnology: Past, Present, and Future ManfredTReetz 10.1021/ja405051f Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 135 34 2013 American Chemical Society (ACS) The structure of the mouse glutathione peroxidase gene: the selenocysteine in the active site is encoded by the ‘termination’ codon, TGA. IChambers JFrampton PGoldfarb NAffara WMcbain PRHarrison 10.1002/j.1460-2075.1986.tb04350.x The EMBO Journal The EMBO Journal 0261-4189 5 6 1986 Springer Science and Business Media LLC Nucleotide sequence and expression of the selenocysteine-containing polypeptide of formate dehydrogenase (formate-hydrogen-lyase-linked) from Escherichia coli. FZinoni ABirkmann TCStadtman ABöck 10.1073/pnas.83.13.4650 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 83 13 1986 Proceedings of the National Academy of Sciences Pyrrolysine encoded by UAG in Archaea: charging of a UAG-decoding specialized tRNA GSrinivasan CMJames JAKrzycki Science 296 2002 BHao WMGong TKFerguson CMJames JAKrzycki MKChan A new UAG-encoded residue in the structure of a methanogen methyltransferase 2002 296…",
+      "pages": null,
+      "citations": []
+    }
+  ]
+}

@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Natural Product Synthesis</title>
+				<funder>
+					<orgName type="full">Center for Integrated Protein Science Munich CIPSM)</orgName>
+				</funder>
+				<funder ref="#_PnUPXc2">
+					<orgName type="full">Friedrich Naumann Foundation for Freedom</orgName>
+				</funder>
+				<funder ref="#_Xxn4qbM">
+					<orgName type="full">Fonds of the Chemical Industry</orgName>
+					<orgName type="abbreviated">FCI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Natural Product Synthesis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3278CBF6B2FEE97F1F9F752F6425E997</idno>
+					<idno type="DOI">10.1002/ange.201611063</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biocatalytic Total Synthesis of Ikarugamycin</head><p>Christian Greunke, Anna Glçckle, Janine Antosch, and Tobias A. M. Gulder* Dedicated to Professor Bradley S. Moore on the occasion of his 50th birthday Abstract: Nature provides an inexhaustible diversity of small organic molecules with beautiful molecular architectures that have strong and selective inhibitory activities. However, this tremendous biomedical potential often remains inaccessible, as the structural complexity of natural products can render their synthetic preparation extremely challenging. This problem is addressable by harnessing the biocatalytic procedures evolved by nature. In this work, we present an enzymatic total synthesis of ikarugamycin. The use of an iterative PKS/NRPS machinery and two reductases has allowed the construction of 15 carbon-carbon and 2 carbon-nitrogen bonds in a biocatalytic one-pot reaction. By scaling-up this method we demonstrate the applicability of biocatalytic approaches for the ex vivo synthesis of complex natural products.</p><p>Ikarugamycin (1) is the parent compound of the growing family of bacterial polycyclic tetramate macrolactams (PoTeMs). <ref type="bibr" target="#b0">[1]</ref> It was discovered in 1972 from Streptomyces sp. by Jomon et al. <ref type="bibr" target="#b1">[2]</ref> Since then, several other bacterial producers of 1 and structural analogues thereof have been identified, which predominantly possess antibacterial and antifungal properties. <ref type="bibr">[3]</ref> Compound 1, moreover, shows anti-leukemic <ref type="bibr" target="#b8">[4]</ref> and anti-inflammatory <ref type="bibr" target="#b9">[5]</ref> activity (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>Ikarugamycin (1) inhibits the uptake of oxidized lowdensity lipoprotein in macrophages <ref type="bibr" target="#b10">[6]</ref> as well as HIV type 1 Nef-induced downregulation of the CD4 receptors on the cell surface. <ref type="bibr" target="#b11">[7]</ref> Therefore, 1 is increasingly used as a tool to study endocytotic processes. <ref type="bibr">[8]</ref> Ikarugamycin (1) is also of high interest from a purely structural point of view. As in all PoTeMs, the definitive structural features are a tetramic acid embedded in a macrolactam that is fused to a stereochemically demanding carbacyclic ring system. Variations in the cyclization pattern of PoTeMs give rise to the large diversity of their core structures, as exemplified by HSAF (2), <ref type="bibr" target="#b18">[9]</ref> alteramide A (3), <ref type="bibr" target="#b19">[10]</ref> and compound d (4). <ref type="bibr" target="#b20">[11]</ref> As a consequence of its promising biomedical properties and the complex structure, ikarugamycin (1) is an attractive, but highly challenging target for total synthesis. So far, three synthetic routes to 1 exist. Boeckman et al. <ref type="bibr">[12]</ref> transformed acetonide 5 (via 6-9) in 32 linear steps into the target molecule 1 (Scheme 1, route A). In a formal total synthesis of 1, Roush and Wada established an improved route from 10 via 11 and 12 to Boeckmans intermediate 9 (Scheme 1, route B). <ref type="bibr" target="#b23">[13]</ref> Both syntheses employ a Diels-Alder cycloaddition as the key step for the construction of the carbacyclic system. In the approach developed by Paquette et al., <ref type="bibr" target="#b24">[14]</ref> the construction of the as-indacene core commences by addition of the vinyl organocerium reagent 14 to bicyclic ketone 13 to give intermediate 15 (Scheme 1, route C). An oxy-Cope rearangement affords the tricyclic ketone 16, which is tranformed into the target molecule in 25 additional steps. These syntheses are impressive examples of the power of modern organic chemistry and the creativity of synthetic chemists. However, they also showcase that the construction of complex molecules often requires a large number of functional-group manipulations, such as protective-group operations or reduction/oxidation chemistry. In the case of the three total syntheses of 1, this leads to an accumulation of 27-32 individual synthetic steps in the longest linear sequences, with the total yield of each method consequently being &lt; 1 %.</p><p>Investigations into the biosynthesis of ikarugamycin (1) have shown that the highly unusual iterative PKS (iPKS)/ NRPS machinery IkaA catalyzes the formation of tetramic acid 21 from acetyl-CoA (18), malonyl-CoA (19), and lornithine (20; Scheme 2). The unstable biosynthetic intermediate 21 is cyclized to the natural product 1 by the action of the two reductases IkaB and IkaC. <ref type="bibr" target="#b27">[15,</ref><ref type="bibr" target="#b28">16]</ref> These enzymes catalyze the formation of the outer (IkaB, green) and inner bond (IkaC, blue) of the carbacyle by formal addition of H 2 . The central cyclohexenyl unit is likely formed by an additional, non-enzymatic Diels-Alder reaction (red). This [*] C. Greunke, A. Glçckle, J. Antosch, Prof. Dr. T. A. M. Gulder Biosystems Chemistry, Department of Chemistry and Center for Integrated Protein Science Munich (CIPSM) Lichtenbergstrasse 4, 85748 Garching (Germany) E-mail: tobias.gulder@ch.tum.de</p><p>extremely efficient biosynthetic route to 1, with only three biocatalysts involved, is in sharp contrast to its high structural complexity and the resulting tedious total synthetic procedures. We were, therefore, interested in the development of a one-pot total synthesis of 1 that harnesses the catalytic power of the enzymatic triplet IkaABC.</p><p>For the production of the required biocatalysts, the genes ikaA, ikaB, and ikaC from the ikarugamycin producer Streptomyces sp. Tü6239 <ref type="bibr">[3a, 15]</ref> were individually cloned into pHis8- <ref type="bibr" target="#b29">[17]</ref> and pGS-21a-based <ref type="bibr" target="#b30">[18]</ref> expression vectors. The recombinant production of IkaB and the large iPKS/NRPS system IkaA (ca. 340 kDa) was achieved by utilizing the native genes from Streptomyces sp. Tü6239 (see the Support-ing Information). Initial expression tests with ikaC in E. coli BL21(DE3), however, revealed the exclusive formation of insoluble inclusion bodies. To circumvent this problem we aimed to express homologous ikaC genes identified by BLAST homology searches, in analogy to previous work by Pahari et al. <ref type="bibr" target="#b31">[19]</ref> This led to the discovery of a putative ikarugamycin biosynthetic gene cluster in Salinispora arenicola CNS-205. The ability of this cluster to produce 1 was verified by heterologous reconstitution using our previously established system in E. coli (data not shown). <ref type="bibr" target="#b27">[15]</ref> Recombinant expression of the ikaC homologue from S. arenicola [ikaC(SA)] cloned into pHis8 indeed provided soluble IkaC.</p><p>The isolation and purification of all recombinant proteins was performed by affinity chromatography on Ni-NTA beads followed by desalting on Sephadex G-25 and sample concentration with centrifugal concentrators. In addition to the biosynthetic enzymes IkaABC, the phosphopantetheinyl transferase (PPTase) Sfp from Bacillus subtilis was required and, thus, likewise produced in a recombinant form. <ref type="bibr" target="#b32">[20]</ref> This promiscuous enzyme posttranslationally activates the activesite serine residue of PKS/NRPS carrier proteins (CPs) by attachment of a prosthetic phosphopantetheinyl group derived from coenzyme A. <ref type="bibr" target="#b33">[21]</ref> As E. coli BL21(DE3) does not encode a homologous enzyme, catalytic amounts of Sfp needed to be added to the enzymatic reactions to obtain functional holo-CPs. Alternatively, IkaA was also accessible from E. coli BAP1. This strain possesses a chromosomal copy of Sfp <ref type="bibr" target="#b34">[22]</ref> and, thus, facilitates the direct recombinant production of holo-IkaA (see lysate assays in the Supporting Information).</p><p>With all the required enzymes in hand, we approached the enzymatic total synthesis of 1 in the test tube (Scheme 3 A). Significant amounts of 1 were formed in reactions with purified samples of IkaABC and Sfp in HEPES buffer (pH 7.8) containing 1.5 % glycerol as well as the required cofactors (ATP, NADPH, FAD, MgCl 2 ) and synthetic building blocks acetyl-CoA (18), malonyl-CoA (19), and lornithine (20; Scheme 3 C). Omission of IkaC in the enzymatic reactions led to the selective production of the known intermediate 22 with a bicyclic carbacyclic portion (Scheme 3 D). <ref type="bibr" target="#b27">[15,</ref><ref type="bibr" target="#b28">16]</ref> The application of IkaA alone, however, did not result in the formation of an early biosynthetic intermediate (cf. with lysate assays in the Supporting Information).</p><p>To show the applicability of this method for the preparation of quantities of 1 comparable to those of the existing Scheme 2. Biosynthesis of ikarugamycin (1).</p><p>total syntheses and to also facilitate characterization of the product by NMR spectroscopy, the enzymatic reaction was scaled to preparative amounts (3.7 mL reaction volume). After an overnight reaction, 1 was extracted from the aqueous phase and the raw material directly subjected to purification by preparative HPLC (see the Supporting Information). Ikarugamycin (1) was thus isolated in 9.0 % yield (with respect to all employed building blocks 18-20). Comparison of the NMR data of synthetic 1 with an authentic standard derived by isolation from an ikarugamycin-producing Streptomyces unambiguously validated the identity of the synthetic material (Figures <ref type="figure" target="#fig_3">S26</ref> and <ref type="figure" target="#fig_3">S27</ref>).</p><p>Having established a first biocatalytic access to 1, we next aimed at replacing the extremely expensive precursors 18 and 19 (both &gt; 1000 E per 0.1 mmol). This was to be achieved by coupling the enzymatic triplet IkaABC with an in situ formation of 18 and 19 from acetic and malonic acid, respectively. For the synthesis of 18 we employed an enzymatic system consisting of the acetate kinase AckA and the phosphotransacetylase Pta, both from E. coli. <ref type="bibr" target="#b35">[23]</ref> Formation of 19 was envisioned by utilizing the malonyl-CoA synthetase MatB from Streptomyces coelicolor M1152. <ref type="bibr" target="#b36">[24]</ref> The respective genes were amplified by PCR from gDNA of E. coli and S. coelicolor, cloned into pHis8, and heterologously produced in E. coli BL21(DE3). The recombinant enzymes were isolated and purified as IkaABC. The catalytic activity of all the enzymes was initially validated in individual test assays (Figures <ref type="figure" target="#fig_3">S28</ref> and <ref type="figure" target="#fig_3">S29</ref>). The addition of the three enzymes directly to IkaABC indeed led to an in situ biocatalytic supply of the precursors. This permitted the application of the expensive coenzyme A in catalytic amounts, as this thiol gets released again upon loading of the building blocks onto the iPKS/NRPS system. Overall, this approach facilitated the total synthesis of 1 exclusively from cheap starting materials. <ref type="bibr" target="#b37">[25]</ref> A number of interesting metabolic pathways has already been reconstituted in vitro to study the interplay of enzymes in complex biosynthetic pathways. <ref type="bibr">[26]</ref> Examples include the seminal studies on 6-deoxyerythronolide B, <ref type="bibr" target="#b42">[27]</ref> tetracenomycin, <ref type="bibr" target="#b43">[28]</ref> actinorhodin, <ref type="bibr" target="#b44">[29]</ref> tetronate RK-682, <ref type="bibr" target="#b45">[30]</ref> norsolorinic acid, <ref type="bibr" target="#b46">[31]</ref> and dihydromonacolin L. <ref type="bibr" target="#b47">[32]</ref> In the last decades, such studies that predominantly aim at the elucidation of complex biosynthetic mechanisms has led to spectacular insights into the chemical creativity of nature. However, the application of biosynthetic enzymes aimed at the biocatalytic total synthesis of polyketides is still very rare. The first landmark examples were the total syntheses of enterocin ( <ref type="formula">23</ref>) by Moore and coworkers <ref type="bibr" target="#b48">[33]</ref> and of defucogilvocarcin M ( <ref type="formula">24</ref>) by Rohr and coworkers <ref type="bibr" target="#b50">[34]</ref> (Figure <ref type="figure" target="#fig_3">2</ref>). For the preparation of 23 and 24, 12 and 15 individual biocatalysts, respectively, in a single reaction vessel were required. In particular, the large number of these, in some case delicate, biosynthetic enzymes that have to be produced, isolated, and employed in an active form makes the application of these impressive methods difficult. A first example of the use of a significantly simpler biocatalytic production system was very recently published by Moore and co-workers. They succeeded in the development of an enzymatic synthesis of the merochlorins A (25) and B by harnessing four recombinant enzymes of the mcl biosynthetic machinery. <ref type="bibr">[35]</ref> In the current study, we employ the three recombinant enzymes IkaABC in a biocatalytic total synthesis of ikarugamycin (1). Most of the synthetic work is performed by the bimodular iPKS/NRPS system IkaA. This enzyme stitches together two hexaketidic polyene precursors from acetyl-and malonyl-CoA, catalyzes their attachment to the N-termini of the l-ornithine loaded on the NRPS module, and the final cyclization of the tetramic acid moiety with concomitant product release. IkaA alone thus performs 13 individual, bond-forming reactions! The as-indacene structural element is formed by IkaA and IkaB, in combination with a Diels-Alder cycloaddition (see Scheme 2). These two reductive enzymes thereby selectively define all the stereocenters in the carbacyclic molecular portion of 1. All in all, the three enzymes thus allow the construction of 15 carbon-carbon and 2 carbon-nitrogen bonds, with concomitant setting of 8 stereogenic centers.</p><p>In conclusion, the highly efficient biosynthetic pathway to 1 enables us to perform an enzymatic synthesis of this  structurally and stereochemically complex molecule with only three recombinant enzymes. This leads to a comparably simple biocatalytic reaction setup towards 1: in a single pot, over night, at ambient temperatures. The expensive coenzyme-A-bound building block can, furthermore, optionally be supplied in situ starting from acetate, malonate, catalytic amounts of coenzyme A, and three additional recombinant enzymes.</p><p>The biosynthetic intermediate 21 produced by IkA is a common biosynthetic precursor of the PoTeMs. By exchanging enzymes catalyzing the cyclization of 21 by homologues from other biosynthetic pathways, novel PoTeMs should be accessible by the described biocatalytic system. These investigations are currently underway in our laboratory.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Selection of the structural diversity of PoTeMs: ikarugamycin (1), HSAF (2), alteramide A (3), and compound d (4).</figDesc><graphic coords="1,69.73,462.05,203.61,137.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Scheme 1 .</head><label>1</label><figDesc>Scheme 1. Comparison of the total syntheses of 1 by A) Boeckman, B) Roush, and C) Paquette.</figDesc><graphic coords="2,52.44,59.81,370.14,202.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Scheme 3 .</head><label>3</label><figDesc>Scheme 3. A) Developed method for the biocatalytic total synthesis of 1. Colored circles: essential enzymes IkaA (orange), IkaB (green), and IkaC (blue). Gray circles: optional enzymes for activation of IkaA (Sfp) and for the in situ synthesis of 18 (AckA, Pta) and 19 (MatB). HPLC-MS analyses of the biocatalytic total synthesis of ikarugamycin (1): B) authentic standard of 1; C) synthesis of 1 with IkaABC; D) reaction with IkaAB to give intermediate 22.</figDesc><graphic coords="3,51.53,59.81,240.01,195.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Complex polyketides prepared by biocatalytic total synthesis with detection by HPLC-MS: enterocin (23), defucogilvocarcin M (24), and merochlorin A (25).</figDesc><graphic coords="3,323.09,261.19,201.46,68.49" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Supporting information and the ORCID identification number(s) for the author(s) of this article can be found under: http://dx.doi.org/10.1002/anie.201611063.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Angew. Chem. Int. Ed. 2017, 56, 1 -6 2017 Wiley-VCH Verlag GmbH &amp; Co. KGaA, WeinheimThese are not the final page numbers! Ü Ü</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>www.angewandte.org 2017 Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim Angew. Chem. Int. Ed. 2017, 56, 1 -6</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Angew. Chem. Int. Ed. 2017, 56, 1 -6 2017 Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim www.angewandte.org These are not the final page numbers! Ü Ü</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Prof. Dr. Bradley S. Moore</rs> (<rs type="affiliation">UCSD</rs>) for providing Salinispora arenicola <rs type="grantNumber">CNS-205</rs>, <rs type="person">Prof. H.-P. Fiedler</rs> for Streptomyces sp. Tü6239, <rs type="person">Christine Schwarz</rs> (<rs type="affiliation">TUM</rs>) for measuring the NMR spectra of 1, and <rs type="person">RenØ Richarz</rs> (<rs type="affiliation">TUM</rs>) for cloning pHis8-TEV and pHis8C-TEV. C.G. and J.A. thank the <rs type="funder">Friedrich Naumann Foundation for Freedom</rs> and the <rs type="funder">Fonds of the Chemical Industry (FCI)</rs>, respectively, for their PhD scholarships. We thank the <rs type="institution">DFG</rs> for generous financial support of this work (<rs type="grantNumber">GU 1233/2-1</rs> and the <rs type="funder">Center for Integrated Protein Science Munich CIPSM)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_PnUPXc2">
+					<idno type="grant-number">CNS-205</idno>
+				</org>
+				<org type="funding" xml:id="_Xxn4qbM">
+					<idno type="grant-number">GU 1233/2-1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare no conflict of interest. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Keywords</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">As a consequence of the ambiguous nature of the term &quot;PTM&quot;-resulting from the much more common, identical abbreviation for posttranslational modifications-we herein propose to use</title>
+		<imprint>
+			<publisher>PoTeMs</publisher>
+		</imprint>
+	</monogr>
+	<note>Polycyclic tetramate macrolactams have previously been abbreviated as &quot;PTMs instead</note>
+	<note type="raw_reference">Polycyclic tetramate macrolactams have previously been abbre- viated as &quot;PTMs&quot;. As a consequence of the ambiguous nature of the term &quot;PTM&quot;-resulting from the much more common, identical abbreviation for posttranslational modifications-we herein propose to use &quot;PoTeMs&quot; instead.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ajisaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<idno type="DOI">10.7164/antibiotics.25.271</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Antibiot</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="271" to="280" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Jomon, Y. Kuroda, M. Ajisaka, H. Sasaki, J. Antibiot. 1972, 25, 271 -280.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bertasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Holzenkämpfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stackebrandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-P</forename><surname>Fiedler</surname></persName>
+		</author>
+		<idno type="DOI">10.7164/antibiotics.56.364</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Antibiot</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="364" to="371" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bertasso, M. Holzenkämpfer, A. Zeeck, E. Stackebrandt, W. Bei, H.-P. Fiedler, J. Antibiot. 2003, 56, 364 -371;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pørez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schleissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zfflçiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Reyes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nat. Prod</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="2192" to="2194" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. PØrez, C. Crespo, C. Schleissner, P. Rodríguez, P. ZfflÇiga, F. Reyes, J. Nat. Prod. 2009, 72, 2192 -2194;</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/ijs.0.050088-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="3579" to="3584" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Liu, X. Wang, J. Zhao, Q. Liu, L. Wang, X. Guan, H. He, W. Xiang, Int. J. Syst. Evol. Microbiol. 2013, 63, 3579 -3584;</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kyeremeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Acquah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sazak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Houssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tabudravu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaspars</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/md12020999</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="999" to="1012" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Kyeremeh, K. S. Acquah, A. Sazak, W. Houssen, J. Tabudravu, H. Deng, M. Jaspars, Mar. Drugs 2014, 12, 999 -1012;</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lacret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oves-Costales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De La Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pørez-Victoria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vicente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Genilloud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Reyes</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/md13010128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="128" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Lacret, D. Oves-Costales, C. Gómez, C. Díaz, M. de la Cruz, I. PØrez-Victoria, F. Vicente, O. Genilloud, F. Reyes, Mar. Drugs 2014, 13, 128 -140;</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Bu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ao</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep18977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Xu, Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">18977</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Xu, J. H. Wang, X. L. Bu, H. L. Yu, P. Li, H. Y. Ou, Y. He, F. D. Xu, X. Y. Hu, X. M. Zhu, P. Ao, J. Xu, Sci. Rep. 2016, 6, 18977.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Popescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Heiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ferk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Knasmüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Dirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Krupitza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kopp</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mrfmmm.2011.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="page" from="60" to="66" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Popescu, E. H. Heiss, F. Ferk, A. Peschel, S. Knasmüller, V. M. Dirsch, G. Krupitza, B. Kopp, Mutat. Res. 2011, 709 -710, 60 -66.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Malcomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Veglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thillaiyampalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barsden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Donegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">El</forename><surname>Banna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Elborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Schock</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1520289113</idno>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="3725" to="E3734" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Malcomson, H. Wilson, E. Veglia, G. Thillaiyampalam, R. Barsden, S. Donegan, A. El Banna, J. S. Elborn, M. Ennis, C. Kelly, S. D. Zhang, B. C. Schock, Proc. Natl. Acad. Sci. USA 2016, 113, E3725 -E3734.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hasumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Naganuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Endo</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1432-1033.1992.tb16848.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="841" to="846" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Hasumi, C. Shinohara, S. Naganuma, A. Endo, Eur. J. Biochem. 1992, 205, 841 -846.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Fredericksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hasumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Endo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Garcia</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JVI.75.5.2488-2492.2001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="2488" to="2492" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Luo, B. L. Fredericksen, K. Hasumi, A. Endo, J. V. Garcia, J. Virol. 2001, 75, 2488 -2492.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moscatelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciampolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rodighiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Onelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cresti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Idilli</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.012138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="3804" to="3819" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Moscatelli, F. Ciampolini, S. Rodighiero, E. Onelli, M. Cresti, N. Santo, A. Idilli, J. Cell Sci. 2007, 120, 3804 -3819;</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Onelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prescianotto-Baschong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Caccianiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moscatelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jxb/ern154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3051" to="3068" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Onelli, C. Prescianotto-Baschong, M. Caccianiga, A. Moscatelli, J. Exp. Bot. 2008, 59, 3051 -3068;</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bandmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Homann</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-313X.2011.04892.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="578" to="584" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Bandmann, U. Homann, Plant J. 2012, 70, 578 -584;</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bandmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kçhler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Homann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2012.08.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="3626" to="3632" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Bandmann, J. D. Müller, T. Kçhler, U. Homann, FEBS Lett. 2012, 586, 3626 -3632;</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhazmat.2016.04.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hazard. Mater</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="188" to="196" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Li, X. Ye, X. Guo, Z. Geng, G. Wang, J. Hazard. Mater. 2016, 314, 188 -196;</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Elkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Oswald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mettlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Macmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Schmid</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/tra.12425</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1139" to="1149" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. R. Elkin, N. W. Oswald, D. K. Reed, M. Mettlen, J. B. MacMillan, S. L. Schmid, Traffic 2016, 17, 1139 -1149.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Graupner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thornburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mathieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Kemmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Snipes</surname></persName>
+		</author>
+		<idno type="DOI">10.7164/antibiotics.50.1014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Antibiot</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1014" to="1019" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. R. Graupner, S. Thornburgh, J. T. Mathieson, E. L. Chapin, G. M. Kemmitt, J. M. Brown, C. E. Snipes, J. Antibiot. 1997, 50, 1014 -1019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shigemori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-A</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jo00041a053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="4317" to="4320" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Shigemori, M.-A. Bae, K. Yazawa, T. Sasaki, J. Kobayashi, J. Org. Chem. 1992, 57, 4317 -4320.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Cobb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2894</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Luo, H. Huang, J. Liang, M. Wang, L. Lu, Z. Shao, R. E. Cobb, H. Zhao, Nat. Commun. 2013, 4, 2894.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Boeckman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Napier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Sato</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jo00170a069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="4152" to="4154" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. K. Boeckman, J. J. Napier, E. W. Thomas, R. I. Sato, J. Org. Chem. 1983, 48, 4152 -4154;</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Boeckman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Weidner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Perni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Napier</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00202a066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="8036" to="8037" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. K. Boeckman, C. H. Weidner, R. B. Perni, J. J. Napier, J. Am. Chem. Soc. 1989, 111, 8036 -8037.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Roush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Wada</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00084a068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="2151" to="2152" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. R. Roush, C. K. Wada, J. Am. Chem. Soc. 1994, 116, 2151 - 2152.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wright</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00202a067</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="8037" to="8039" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) L. A. Paquette, D. Macdonald, L. G. Anderson, J. A. Wright, J. Am. Chem. Soc. 1989, 111, 8037 -8039;</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Romine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00181a034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="9284" to="9292" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. A. Paquette, J. L. Romine, H.-S. Lin, J. Wright, J. Am. Chem. Soc. 1990, 112, 9284 - 9292;</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00181a035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="9292" to="9299" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. A. Paquette, D. Macdonald, L. G. Anderson, J. Am. Chem. Soc. 1990, 112, 9292 -9299.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Antosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schaefers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A M</forename><surname>Gulder</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201310641</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3055" to="3058" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+	<note type="raw_reference">J. Antosch, F. Schaefers, T. A. M. Gulder, Angew. Chem. Int. Ed. 2014, 53, 3011 -3014; Angew. Chem. 2014, 126, 3055 -3058.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201402078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="4940" to="4944" />
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Angew. Chem</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Zhang, W. Zhang, Q. Zhang, T. Shi, L. Ma, Y. Zhu, S. Li, H. Zhang, Y. L. Zhao, R. Shi, C. Zhang, Angew. Chem. Int. Ed. 2014, 53, 4840 -4844; Angew. Chem. 2014, 126, 4940 -4944.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Noel</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi991489f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="890" to="902" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Jez, J. L. Ferrer, M. E. Bowman, R. A. Dixon, J. P. Noel, Biochemistry 2000, 39, 890 -902.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">The expression vector pGS-21a is commercially available from GenScript</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The expression vector pGS-21a is commercially available from GenScript.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pahari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kharel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Van Lanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rohr</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201105882</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1242" to="1246" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+	<note type="raw_reference">P. Pahari, M. K. Kharel, M. D. Shepherd, S. G. van Lanen, J. Rohr, Angew. Chem. Int. Ed. 2012, 51, 1216 -1220; Angew. Chem. 2012, 124, 1242 -1246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E N</forename><surname>Quadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Weinreb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi9719861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1585" to="1595" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. E. N. Quadri, P. H. Weinreb, M. Lei, M. M. Nakano, P. Zuber, C. T. Walsh, Biochemistry 1998, 37, 1585 -1595.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">For an excellent review on polyketide biosynthesis, see C. Hertweck</title>
+		<idno type="DOI">10.1002/ange.200806121</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="4782" to="4811" />
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+	<note type="raw_reference">For an excellent review on polyketide biosynthesis, see C. Hertweck, Angew. Chem. Int. Ed. 2009, 48, 4688 -4716; Angew. Chem. 2009, 121, 4782 -4811.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Pfeifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Admiraal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gramajo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1058092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="1790" to="1792" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. A. Pfeifer, S. J. Admiraal, H. Gramajo, D. E. Cane, C. Khosla, Science 2001, 291, 1790 -1792.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Thuronyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Charkoudian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1242345</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page" from="1089" to="1094" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. C. Walker, B. W. Thuronyi, L. K. Charkoudian, B. Lowry, C. Khosla, M. C. Y. Chang, Science 2013, 341, 1089 -1094.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Keatinge-Clay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chembiol.2010.12.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="165" to="176" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. J. Hughes, A. Keatinge-Clay, Chem. Biol. 2011, 18, 165 -176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">The enzymatic production of acetyl-and malonyl-CoA in situ leads to a reduction in the total synthetic yield to about 25 % compared with the respective reactions with stoichiometric amounts of 18 and 19. This effect was previously observed when employing MatB for the production of malonyl-CoA in the enzymatic total synthesis of enterocin</title>
+		<imprint/>
+	</monogr>
+	<note>see Ref. [33a</note>
+	<note type="raw_reference">The enzymatic production of acetyl-and malonyl-CoA in situ leads to a reduction in the total synthetic yield to about 25 % compared with the respective reactions with stoichiometric amounts of 18 and 19. This effect was previously observed when employing MatB for the production of malonyl-CoA in the enzymatic total synthesis of enterocin (see Ref. [33a]).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A M</forename><surname>Gulder</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/128_2010_79</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Top. Curr. Chem</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="149" to="203" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. A. Roberts, K. S. Ryan, B. S. Moore, T. A. M. Gulder, Top. Curr. Chem. 2010, 297, 149 -203;</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Sattely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fisch-Bach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b801747f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Prod. Rep</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="757" to="793" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. S. Sattely, M. A. Fisch- bach, C. T. Walsh, Nat. Prod. Rep. 2008, 25, 757 -793;</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tibrewal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-chembioeng-060713-040008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Chem. Biomol. Eng</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="347" to="366" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Tibrewal, Y. Tang, Annu. Rev. Chem. Biomol. Eng. 2014, 5, 347 - 366;</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synlett</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1008" to="1025" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Lowry, C. T. Walsh, C. Khosla, Synlett 2015, 26, 1008 - 1025.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kapur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuzawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kenthirapalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1118734109</idno>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="4110" to="4115" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Kapur, B. Lowry, S. Yuzawa, S. Kenthirapalan, A. Y. Chen, D. E. Cane, C. Khosla, Proc. Natl. Acad. Sci. USA 2012, 109, 4110 -4115.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.8248801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="1535" to="1540" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Shen, R. Hutchinson, Science 1993, 262, 1535 -1540.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi972919+</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="2084" to="2088" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. W. Carreras, C. Khosla, Biochemistry 1998, 37, 2084 -2088.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Demydchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chettle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tosin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Osada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Leadley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="99" to="101" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Sun, F. Hahn, Y. Demydchuk, J. Chettle, M. Tosin, H. Osada, P. F. Leadley, Nat. Chem. Biol. 2010, 6, 99 -101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Scheerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Vagstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Kelleher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Townsend</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1154711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="243" to="246" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Crawford, P. M. Thomas, J. R. Scheerer, A. L. Vagstad, N. L. Kelleher, C. A. Townsend, Science 2008, 320, 243 -246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Moorthie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kealey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vederas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1175602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<biblScope unit="page" from="589" to="592" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ma, J. W.-H. Li, J. W. Choi, H. Zhou, K. K. M. Lee, V. A. Moorthie, X. Xie, J. T. Kealey, N. A. Da Silva, J. C. Vederas, Y. Tang, Science 2009, 326, 589 -592.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Izumikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.2007.22</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="557" to="558" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) Q. Cheng, L. Xiang, M. Izumikawa, D. Meluzzi, B. S. Moore, Nat. Chem. Biol. 2007, 3, 557 -558;</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teufel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miyanaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Michaudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Louie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Palfey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12643</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="552" to="556" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Teufel, A. Miyanaga, Q. Michaudel, F. Stull, G. Louie, J. P. Noel, P. S. Baran, B. Palfey, B. S. Moore, Nature 2013, 503, 552 -556.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kharel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pahari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rohr</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ol1009009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Lett</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2814" to="2817" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. K. Kharel, P. Pahari, H. Lian, J. Rohr, Org. Lett. 2010, 12, 2814 -2817.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teufel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kaysser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Villaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diethelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Carbullido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201405694</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="11199" to="11202" />
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Angew. Chem</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Teufel, L. Kaysser, M. T. Villaume, S. Diethelm, M. K. Carbullido, P. S. Baran, B. S. Moore, Angew. Chem. Int. Ed. 2014, 53, 11019 -11022; Angew. Chem. 2014, 126, 11199 -11202;</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diethelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teufel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kaysser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201405696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="11203" to="11206" />
+			<date type="published" when="2014-11-11">2014. 2014. November 11. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem. Manuscript received Final Article published: &amp;&amp; &amp;&amp;</note>
+	<note type="raw_reference">S. Diethelm, R. Teufel, L. Kaysser, B. S. Moore, Angew. Chem. Int. Ed. 2014, 53, 11023 -11026; Angew. Chem. 2014, 126, 11203 - 11206. Manuscript received: November 11, 2016 Final Article published: &amp;&amp; &amp;&amp;, &amp;&amp;&amp;&amp;</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

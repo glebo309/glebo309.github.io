@@ -1,0 +1,497 @@
+{
+  "review_id": "18_Wachtmeister_2016_CurrOpinBiotechnol",
+  "sections": [
+    {
+      "header": "Introduction",
+      "raw_header": "Introduction",
+      "text": "In search of novel techniques towards a sustainable and biobased economy, biocatalysis contributes to various areas from the production of bulk chemicals from renewable resources to highly selective syntheses of fine chemicals or pharma products [1][2][3][4]. In all these applications, whole cell biocatalysts supply some unique advantages over the use of crude, purified, or immobilized enzyme preparations. In addition to being the cheapest form of catalyst formulation, whole cells already supply the cofactors needed for biotransformations and simplify their regeneration, usually making an external and expensive cofactor addition obsolete (see Section 'Cofactor regeneration'). Furthermore, residual cell wall compounds act in a protective manner also for resting or dead cells and thus enable enzyme applications under harsh reaction conditions or in unconventional (non-aqueous) reaction media [5]. Especially for hydrophobic substrates, applications in such media are strongly desired, as the originally proclaimed inherent greenness of biocatalytic reactions under aqueous conditions had to make way for a new perception: unconventional media can be ecologically advantageous, due to less generation of solvent waste during the reaction (less dilution) and during downstream processing (no extraction). Furthermore, such reactions become economically favorable due to higher product titers [6,7]. As a result, the combination of whole cell catalysts and unconventional reaction media is highly appealing for economically and ecologically beneficial process designs (see Section 'Applications in unconventional media'). These and other advantages and advances of whole cell biocatalysis are highlighted in this review. To keep a reasonable scope, we focus mostly on publications since 2012 and do not consider synthetic biology approaches utilizing entire natural or artificially introduced reaction pathways, which have been recently summarized [8][9][10]. The dynamic field of immobilization of whole cell catalysts will only be considered in context of particularly remarkable or novel techniques and reactor concepts, as immobilization of Escherichia coli whole cell has been nicely reviewed by Zajkoska et al. recently [11]. The second part focusses on approaches to overcome or alleviate common limitations in application of whole cell biocatalysts and presents novel reactor setups.",
+      "snippet": "In search of novel techniques towards a sustainable and biobased economy, biocatalysis contributes to various areas from the production of bulk chemicals from renewable resources to highly selective syntheses of fine chemicals or pharma products [1][2][3][4]. In all these applications, whole cell biocatalysts supply some unique advantages over the use of crude, purified, or immobilized enzyme preparations. In addition to being the cheapest form of catalyst formulation, whole cells already supply the cofactors needed for biotransformations and simplify their regeneration, usually making an external and expensive cofactor addition obsolete (see Section 'Cofactor regeneration'). Furthermore, residual cell wall compounds act in a protective manner also for resting or dead cells and thus enable enzyme applications under harsh reaction conditions or in unconventional (non-aqueous) reaction media [5]. Especially for hydrophobic substrates, applications in such media are strongly desired, as the originally proclaimed inherent greenness of biocatalytic reactions under aqueous conditions had to make way for a new perception: unconventional media can be ecologically advantageous, due to less generation of solvent waste during the reaction (less dilution) and during downstream processing (no extraction). Furthermore, such reactions become economically favorable due to higher product titers [6,7]. As a result, the combination of whole cell catalysts and unconventional reaction media is hi…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[1]",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[2]",
+          "target_xml_id": "b2"
+        },
+        {
+          "ref_marker": "[3]",
+          "target_xml_id": "b3"
+        },
+        {
+          "ref_marker": "[4]",
+          "target_xml_id": "b4"
+        },
+        {
+          "ref_marker": "[5]",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "[6,",
+          "target_xml_id": "b6"
+        },
+        {
+          "ref_marker": "7]",
+          "target_xml_id": "b7"
+        },
+        {
+          "ref_marker": "[8]",
+          "target_xml_id": "b8"
+        },
+        {
+          "ref_marker": "[9]",
+          "target_xml_id": "b9"
+        },
+        {
+          "ref_marker": "[10]",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "[11]",
+          "target_xml_id": "b11"
+        }
+      ]
+    },
+    {
+      "header": "Advantages of whole cell catalysis",
+      "raw_header": "Advantages of whole cell catalysis",
+      "text": "Advantages of whole cell catalysis",
+      "snippet": "Advantages of whole cell catalysis",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Catalyst costs",
+      "raw_header": "Catalyst costs",
+      "text": "Whole cell catalysts, either in form of naturally occurring organisms or genetically modified expression hosts, represent the cheapest catalyst formulation possible. In a study on the cost contribution of biocatalyst production to biocatalytic processes, Tufvesson and co-workers found purified enzyme roughly 10-fold more expensive than whole cells [12]. Subsequent catalyst immobilization added even more costs to the analyzed process, with the carrier material being particularly impactful to the cost increase. Additionally, the scale in which whole cells are produced is decisive for the final catalyst price, meaning the bigger the scale the cheaper the catalyst (economy of scale). As soon as a sufficient market size for an aspired product is given, it is advisable to either invest into large scale production vessels or search for a contract manufacturer with appropriate facilities.",
+      "snippet": "Whole cell catalysts, either in form of naturally occurring organisms or genetically modified expression hosts, represent the cheapest catalyst formulation possible. In a study on the cost contribution of biocatalyst production to biocatalytic processes, Tufvesson and co-workers found purified enzyme roughly 10-fold more expensive than whole cells [12]. Subsequent catalyst immobilization added even more costs to the analyzed process, with the carrier material being particularly impactful to the cost increase. Additionally, the scale in which whole cells are produced is decisive for the final catalyst price, meaning the bigger the scale the cheaper the catalyst (economy of scale). As soon as a sufficient market size for an aspired product is given, it is advisable to either invest into large scale production vessels or search for a contract manufacturer with appropriate facilities.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[12]",
+          "target_xml_id": "b12"
+        }
+      ]
+    },
+    {
+      "header": "Cofactor regeneration",
+      "raw_header": "Cofactor regeneration",
+      "text": "Especially in the case of cofactor-dependent reactions, whole cell biocatalyst is frequently used, as the inherent presence of cofactors generated by the host itself and the ease of recycling grants significant advantages over the expensive external addition thereof. Consequently, especially reactions catalyzed by oxidoreductases, depending on nicotinamide cofactors, are often performed in whole cells, while the cofactor is traditionally regenerated by conversion of a sacrificial cosubstrate or by regeneration in an enzyme-coupled approach [13 ]. Despite advances in the fields of electrochemical or photochemical regeneration methods [13 ], the coupling of enzymatic reactions in redox-neutral multi-step reactions found great interest recently. Here, monooxygenase and alcohol dehydrogenase-catalyzed processes are frequently combined [14,15,16 ]. Of course, such approaches rely on proper balancing of reaction rates of both enzymatic reactions and on the effectiveness and efficiency of such a route to access the product of interest. Another novel strategy is the use of 'smart' diol cosubstrates (Figure 1) [17]. After double oxidation of the diol, a stable lactone ring is formed, which drives the thermodynamic equilibrium to the product side. Because of this shift and the supply of two reduction equivalents per molecule of cosubstrate, 90 mol% of cosubstrate are saved in comparison to traditional alcohol cosubstrates, which usually require at least a five-fold molar excess. At the same time, many of the lactones produced in these approaches find potential applications as polymer building blocks and hence represent valuable co-products [18]. Many more examples of redox-neutral cascades [16 ,19,20 ,21,22] and other co-factor regeneration strategies can be found in the publications by Hummel and Gro ¨ger [14] and Kara et al. [13 ,23 ].",
+      "snippet": "Especially in the case of cofactor-dependent reactions, whole cell biocatalyst is frequently used, as the inherent presence of cofactors generated by the host itself and the ease of recycling grants significant advantages over the expensive external addition thereof. Consequently, especially reactions catalyzed by oxidoreductases, depending on nicotinamide cofactors, are often performed in whole cells, while the cofactor is traditionally regenerated by conversion of a sacrificial cosubstrate or by regeneration in an enzyme-coupled approach [13 ]. Despite advances in the fields of electrochemical or photochemical regeneration methods [13 ], the coupling of enzymatic reactions in redox-neutral multi-step reactions found great interest recently. Here, monooxygenase and alcohol dehydrogenase-catalyzed processes are frequently combined [14,15,16 ]. Of course, such approaches rely on proper balancing of reaction rates of both enzymatic reactions and on the effectiveness and efficiency of such a route to access the product of interest. Another novel strategy is the use of 'smart' diol cosubstrates (Figure 1) [17]. After double oxidation of the diol, a stable lactone ring is formed, which drives the thermodynamic equilibrium to the product side. Because of this shift and the supply of two reduction equivalents per molecule of cosubstrate, 90 mol% of cosubstrate are saved in comparison to traditional alcohol cosubstrates, which usually require at least a five-fold molar excess. At the…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[13 ]",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "[13 ]",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "[14,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "15,",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "16 ]",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "[17]",
+          "target_xml_id": "b19"
+        },
+        {
+          "ref_marker": "[18]",
+          "target_xml_id": "b20"
+        },
+        {
+          "ref_marker": "[14]",
+          "target_xml_id": "b15"
+        }
+      ]
+    },
+    {
+      "header": "Applications in unconventional media",
+      "raw_header": "Applications in unconventional media",
+      "text": "Productivity metrics of biocatalytic processes often suffer from low substrate and product loads, given the fact that biocatalytic reactions are either investigated in aqueous environments, which enable only poor solubility of many synthetic hydrophobic substrates, or because maximum concentrations are not tested. Nevertheless, increasing research effort has been spent on enzymatic conversions in unconventional media and the number of publications grows together with the increasing number and type of non-conventional solvents [5]. Because of numerous publications in these fields, we will neither consider lipasecatalyzed applications (which are frequently investigated in organic environment) [24] nor biphasic systems of water-immiscible organic solvent (which we consider as already widely known) [25].",
+      "snippet": "Productivity metrics of biocatalytic processes often suffer from low substrate and product loads, given the fact that biocatalytic reactions are either investigated in aqueous environments, which enable only poor solubility of many synthetic hydrophobic substrates, or because maximum concentrations are not tested. Nevertheless, increasing research effort has been spent on enzymatic conversions in unconventional media and the number of publications grows together with the increasing number and type of non-conventional solvents [5]. Because of numerous publications in these fields, we will neither consider lipasecatalyzed applications (which are frequently investigated in organic environment) [24] nor biphasic systems of water-immiscible organic solvent (which we consider as already widely known) [25].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[5]",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "[24]",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "[25]",
+          "target_xml_id": "b28"
+        }
+      ]
+    },
+    {
+      "header": "Neat substrate systems",
+      "raw_header": "Neat substrate systems",
+      "text": "Neat substrate systems (NSSs; also termed solvent-free systems) represent the ideal case of a reaction setup, since they are built from the minimum components needed as the substrate(s) represent the solvent(s) at the same time. To add smallest amounts of water to restore activity of dried catalyst, the catalyst and substrates are pre-equilibrated over saturated salt hydrate solution resulting in a defined water activity [26]. Alternatively, water or buffer is added resulting in a micro-aqueous system, in which ideally no second phase is observed as the water is taken up by the solvent or the catalyst [27]. In 2011, Jakoblinnert et al. applied lyophilized E. coli whole cells expressing Candida parapsilosis carbonyl reductase (CPCR) in a mixture of only acetophenone as main substrate and n-propanol as a cosubstrate for cofactor regeneration. After optimization, product titers of 300-500 g L À1 were reached and downstream processing involved only catalyst removal and the evaporation of cosubstrate and coproduct to get hands on gained (S)-phenylethanol (ee > 99%) [26]. Hibino and Ohtake took a similar approach, but expressed two Thermus thermophiles HB27 alcohol dehydrogenases in the hydrophobic expression host Rhodococcus rhodochrous NBRC15564. Because of the high affinity of the catalyst to organic media/substrates, 97% of the model substrate 2,2,2-trifluoroacetophenon could be converted within 48 h to a remarkable product concentration of 634 g L À1 [28]. The concept of neat substrate systems was further adapted to the stereoselective production of (R)-and (S)-2-butanol O ADH ADH ADH R NAD(P)H+H + NAD(P)H+H + NAD(P) + NAD(P) + O OH OH OH R OH HO O O O n n n n Current Opinion in Biotechnology 'Smart' diol cosubstrates are oxidized twice thus generating two equivalents of regenerated cofactor before lactone formation [17]. [29 ]. This synthesis is particularly challenging, as the reversibility of the reaction leads to racemization of the product, which decreases the optical purity. To allow thorough control of the reaction progress, a continuous process was developed, retaining lyophilized E. coli cells, either harboring CPCR or Lactobacillus brevis alcohol dehydrogenase (LbADH), inside a membrane reactor. This reactor was constantly flushed with a mixture of 2-butanon, 2-propanol (as cosubstrate for cofactor regeneration) and 10% triethanolamine buffer. The reactions in this almost neat, monophasic substrate system could be optimized for maximum productivity yielding 2278 g L À1 d À1 (R)-2-butanol with a stereoselectivity of 96.6% and 180-461 g L À1 d À1 (S)-2-butanol (ee 98%), respectively [29 ]. The simplicity of such processes together with the small waste volume generated make these approach particularly impactful, even though the success of these reaction systems is strongly depending on the catalyst's tolerance towards such high substrate concentrations, which might not be given in cases of substrate excess inhibition or catalyst inactivation due to excessive substrate loads.",
+      "snippet": "Neat substrate systems (NSSs; also termed solvent-free systems) represent the ideal case of a reaction setup, since they are built from the minimum components needed as the substrate(s) represent the solvent(s) at the same time. To add smallest amounts of water to restore activity of dried catalyst, the catalyst and substrates are pre-equilibrated over saturated salt hydrate solution resulting in a defined water activity [26]. Alternatively, water or buffer is added resulting in a micro-aqueous system, in which ideally no second phase is observed as the water is taken up by the solvent or the catalyst [27]. In 2011, Jakoblinnert et al. applied lyophilized E. coli whole cells expressing Candida parapsilosis carbonyl reductase (CPCR) in a mixture of only acetophenone as main substrate and n-propanol as a cosubstrate for cofactor regeneration. After optimization, product titers of 300-500 g L À1 were reached and downstream processing involved only catalyst removal and the evaporation of cosubstrate and coproduct to get hands on gained (S)-phenylethanol (ee > 99%) [26]. Hibino and Ohtake took a similar approach, but expressed two Thermus thermophiles HB27 alcohol dehydrogenases in the hydrophobic expression host Rhodococcus rhodochrous NBRC15564. Because of the high affinity of the catalyst to organic media/substrates, 97% of the model substrate 2,2,2-trifluoroacetophenon could be converted within 48 h to a remarkable product concentration of 634 g L À1 [28]. The concept of neat …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[26]",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "[27]",
+          "target_xml_id": "b30"
+        },
+        {
+          "ref_marker": "[26]",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "[28]",
+          "target_xml_id": "b31"
+        },
+        {
+          "ref_marker": "[29 ]",
+          "target_xml_id": "b32"
+        }
+      ]
+    },
+    {
+      "header": "Micro-aqueous solvent systems",
+      "raw_header": "Micro-aqueous solvent systems",
+      "text": "Micro-aqueous solvents are an alternative when the high substrate loads of NSSs are prohibited, for example due to catalyst inactivation or safety concerns. Still, the advantages of high substrate loads, minimum water addition, and working in a monophasic system remain when diluting the substrates in organic solvent. As an example, the benefits of a micro-aqueous solvent system were demonstrated for the biocatalytic synthesis of cyanohydrins using recombinant E. coli cells containing Arabidopsis thaliana hydroxynitrile lyase (AtHNL). Since product formation also proceeds non-catalytically in the presence of water, only the application in micro-aqueous methyl tert-butyl ether (MTBE) enabled the hydrocyanation in a stereoselective manner (ee > 98% for (R)-mandelonitrile) [30]. For a similarly executed carboligation of aldehydes, pronounced aldehyde reactivity/toxicity towards the catalyst forbade using a NSS. Nevertheless, substrate concentrations of 500 mM could be achieved in micro-aqueous MTBE in a 2-step reaction employing recombinant whole cell catalyst for carboligation and oxidoreduction, respectively. Even with highly inactivating acetaldehyde and benzaldehyde as substrates, space-time-yields and product concentration of the batch reactions were outstandingly high, with up to 327 g L À1 d À1 and 49 g L À1 for (1R,2R)-phenylpropane-1,2-diol production [27]. Despite the benefits obtained from these organic systems, a current challenge remains in the desired switch to more benign solvents or those which can be produced from renewable resources such as 2-methyltetrahydrofuran [31].",
+      "snippet": "Micro-aqueous solvents are an alternative when the high substrate loads of NSSs are prohibited, for example due to catalyst inactivation or safety concerns. Still, the advantages of high substrate loads, minimum water addition, and working in a monophasic system remain when diluting the substrates in organic solvent. As an example, the benefits of a micro-aqueous solvent system were demonstrated for the biocatalytic synthesis of cyanohydrins using recombinant E. coli cells containing Arabidopsis thaliana hydroxynitrile lyase (AtHNL). Since product formation also proceeds non-catalytically in the presence of water, only the application in micro-aqueous methyl tert-butyl ether (MTBE) enabled the hydrocyanation in a stereoselective manner (ee > 98% for (R)-mandelonitrile) [30]. For a similarly executed carboligation of aldehydes, pronounced aldehyde reactivity/toxicity towards the catalyst forbade using a NSS. Nevertheless, substrate concentrations of 500 mM could be achieved in micro-aqueous MTBE in a 2-step reaction employing recombinant whole cell catalyst for carboligation and oxidoreduction, respectively. Even with highly inactivating acetaldehyde and benzaldehyde as substrates, space-time-yields and product concentration of the batch reactions were outstandingly high, with up to 327 g L À1 d À1 and 49 g L À1 for (1R,2R)-phenylpropane-1,2-diol production [27]. Despite the benefits obtained from these organic systems, a current challenge remains in the desired switch to more…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[30]",
+          "target_xml_id": "b34"
+        },
+        {
+          "ref_marker": "[27]",
+          "target_xml_id": "b30"
+        },
+        {
+          "ref_marker": "[31]",
+          "target_xml_id": "b35"
+        }
+      ]
+    },
+    {
+      "header": "Ionic liquids and deep eutectic solvents",
+      "raw_header": "Ionic liquids and deep eutectic solvents",
+      "text": "In the last decades ionic liquids (ILs) evolved as a potentially greener alternative to the use of organic solvents, granting the advantages of lower toxicity, flammability, and vapor pressure [32,33]. As multiple recent and comprehensive reviews on ionic liquids [32,33] and their application in whole cell catalysis [34,35] can be found, we would like to only highlight some particularly impressive publications. A systematic study on the influence of 90 different ionic liquids on cell viability was performed by Wood et al. [36]. Even though the compatibility was screened for living cells, and not with resting/dead cells in biotransformations, the results serve as a useful hint for IL selection. Good compatibility was generally found for imidazolium-based salts of short alkyl chain length, especially when they were mixed with alkyl sulfate anions [36], which might be another reason why these cations represent the most frequently used ILs in biocatalytic contexts in addition to their good commercial availability and wide application [35]. A trend of increasing catalyst activity with decreasing alkyl chain length described by Wood et al. was confirmed in the stereoselective reduction of ethyl acetoacetate using immobilized Acetobacter cells in biphasic systems [37]. In that study, immobilized whole cell catalyst retained activity in ten repetitive batches better in an IL-buffer-mixture than in pure aqueous buffer and the best performing organic-solvent-buffer mixture [37]. As an example of outstanding product concentration achieved with ILs, Wang et al. recently managed to yield remarkable 987 mM of (R)-[3,5-bis(trifluoromethyl)phenyl] ethanol using recombinant E. coli expressing an engineered carbonyl reductase from Leifsonia [38]. When highlighting ILs, it needs to be mentioned that the often proposed greenness of ILs has undergone some reevaluation upon consideration of their ecotoxicity and the waste generation during production [39]. As a result, deep eutectic solvents (DESs) currently evolve as a more sustainable alternative granting similar advantages as ILs in comparison to classical organic solvents [39,40]. Compatibility of DESs with purified enzyme preparations has been demonstrated already for enzymes of different classes, but also recently for whole cell catalysts, such as wildtype Arthrobacter [41] or Acetobacter [42] species, baker's yeast [43,44], and recombinant E. coli [45].",
+      "snippet": "In the last decades ionic liquids (ILs) evolved as a potentially greener alternative to the use of organic solvents, granting the advantages of lower toxicity, flammability, and vapor pressure [32,33]. As multiple recent and comprehensive reviews on ionic liquids [32,33] and their application in whole cell catalysis [34,35] can be found, we would like to only highlight some particularly impressive publications. A systematic study on the influence of 90 different ionic liquids on cell viability was performed by Wood et al. [36]. Even though the compatibility was screened for living cells, and not with resting/dead cells in biotransformations, the results serve as a useful hint for IL selection. Good compatibility was generally found for imidazolium-based salts of short alkyl chain length, especially when they were mixed with alkyl sulfate anions [36], which might be another reason why these cations represent the most frequently used ILs in biocatalytic contexts in addition to their good commercial availability and wide application [35]. A trend of increasing catalyst activity with decreasing alkyl chain length described by Wood et al. was confirmed in the stereoselective reduction of ethyl acetoacetate using immobilized Acetobacter cells in biphasic systems [37]. In that study, immobilized whole cell catalyst retained activity in ten repetitive batches better in an IL-buffer-mixture than in pure aqueous buffer and the best performing organic-solvent-buffer mixture [37]. As an …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[32,",
+          "target_xml_id": "b36"
+        },
+        {
+          "ref_marker": "33]",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "[32,",
+          "target_xml_id": "b36"
+        },
+        {
+          "ref_marker": "33]",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "[34,",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "35]",
+          "target_xml_id": "b39"
+        },
+        {
+          "ref_marker": "[36]",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "[36]",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "[35]",
+          "target_xml_id": "b39"
+        },
+        {
+          "ref_marker": "[37]",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "[37]",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "[38]",
+          "target_xml_id": "b42"
+        },
+        {
+          "ref_marker": "[39]",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "[39,",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "40]",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "[41]",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "[42]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "[43,",
+          "target_xml_id": "b47"
+        },
+        {
+          "ref_marker": "44]",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "[45]",
+          "target_xml_id": "b49"
+        }
+      ]
+    },
+    {
+      "header": "Multi-step biocatalysis",
+      "raw_header": "Multi-step biocatalysis",
+      "text": "Combining enzymes into multi-step cascade reactions can grant access to complex and valuable products from inexpensive starting substrates. Coexpression of multiple enzymes in one cell allows for an efficient reaction cascade due to the close proximity of catalysts for consecutive steps within a confined space. On the other hand, coexpression of multiple proteins may lead to a high metabolic burden during cell growth, which can result in poor overexpression and thus impaired catalytic performance [46]. Therefore, in some cases it can be beneficial to express each enzyme in single and later combine the cells into cascade reactions flexibly [27]. Anyhow, cascade biocatalysis becomes particularly sophisticated yet appealing when redox-neutral (see Section 'Cofactor regeneration') or recycling cascades [47] are designed. A couple of excellent and comprehensive reviews on synthetic cascade reactions can be suggested to the reader [48][49][50].",
+      "snippet": "Combining enzymes into multi-step cascade reactions can grant access to complex and valuable products from inexpensive starting substrates. Coexpression of multiple enzymes in one cell allows for an efficient reaction cascade due to the close proximity of catalysts for consecutive steps within a confined space. On the other hand, coexpression of multiple proteins may lead to a high metabolic burden during cell growth, which can result in poor overexpression and thus impaired catalytic performance [46]. Therefore, in some cases it can be beneficial to express each enzyme in single and later combine the cells into cascade reactions flexibly [27]. Anyhow, cascade biocatalysis becomes particularly sophisticated yet appealing when redox-neutral (see Section 'Cofactor regeneration') or recycling cascades [47] are designed. A couple of excellent and comprehensive reviews on synthetic cascade reactions can be suggested to the reader [48][49][50].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[46]",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "[27]",
+          "target_xml_id": "b30"
+        },
+        {
+          "ref_marker": "[47]",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "[48]",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "[49]",
+          "target_xml_id": "b53"
+        },
+        {
+          "ref_marker": "[50]",
+          "target_xml_id": "b54"
+        }
+      ]
+    },
+    {
+      "header": "Overcoming limitations of whole cell biocatalysis",
+      "raw_header": "Overcoming limitations of whole cell biocatalysis",
+      "text": "Despite the advantages outlined so far, some drawbacks remain for whole cell catalysts. In the following we like to comment on frequently named downsides and show up novel strategies to overcome limitations.",
+      "snippet": "Despite the advantages outlined so far, some drawbacks remain for whole cell catalysts. In the following we like to comment on frequently named downsides and show up novel strategies to overcome limitations.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Optimizing stability, recovery, and recyclability by immobilization",
+      "raw_header": "Optimizing stability, recovery, and recyclability by immobilization",
+      "text": "To facilitate recovery, recyclability and ideally stability of the catalyst, immobilization of whole cell catalysts is often desired and researchers strive for novel materials and techniques. After the first publication in 1998 employing the 'Lentikat' technology, numerous studied have been published on these lense-shaped polyvinyl alcohol immobilizates. A recent in depth characterization of Lentikat particles unveiled a pronounced physical strength of the lenses [51], making them well suited for stirred tank reactor setups. Of further importance, Lentikats including E. coli whole cell catalyst were proven storable for up to 15 month [52], enable almost identical reaction rates as free cells, and maintain their catalytic activity much better than freely suspended catalyst [53]. Another stabilizing technology is the silicone coating of recombinant E. coli adhesively grown on ion exchange resin. In doing so, hydrophobic as well as hydrophilized silicone coatings maintain the initial rate activity in comparison to uncoated immobilizate, whereas the hydrophobic coating even enables the immobilizate application in NSSs [54 ]. Applications in which immobilization was used to enable highly productive reactor concepts were published recently with glutaraldehyde-crosslinked whole cell catalyst [55,56]. In the example given by Stojkovic ˇand Z ˇnidars ˇic ˇ-Plazl a 25 mL microreactor could be loaded with such a high catalyst load that space-time-yields 3.5 times higher than in a comparable 1 L membrane reactor were achieved [56]. As a carrier-free and particularly easy-to-prepare option for whole cell immobilization, we have recently transferred the handy and modularly applicable concept of 'teabag catalysis' to whole cell applications, by entrapment of lyophilized cells into containers of polyvinylidene difluoride membrane (cut-off 0.2 mm). The catalytic 'teabags' were not only shown to properly retain active catalyst, but also showed excellent recyclability even under challenging micro-aqueous conditions and extraordinarily high substrate loads (400 mM) [57].",
+      "snippet": "To facilitate recovery, recyclability and ideally stability of the catalyst, immobilization of whole cell catalysts is often desired and researchers strive for novel materials and techniques. After the first publication in 1998 employing the 'Lentikat' technology, numerous studied have been published on these lense-shaped polyvinyl alcohol immobilizates. A recent in depth characterization of Lentikat particles unveiled a pronounced physical strength of the lenses [51], making them well suited for stirred tank reactor setups. Of further importance, Lentikats including E. coli whole cell catalyst were proven storable for up to 15 month [52], enable almost identical reaction rates as free cells, and maintain their catalytic activity much better than freely suspended catalyst [53]. Another stabilizing technology is the silicone coating of recombinant E. coli adhesively grown on ion exchange resin. In doing so, hydrophobic as well as hydrophilized silicone coatings maintain the initial rate activity in comparison to uncoated immobilizate, whereas the hydrophobic coating even enables the immobilizate application in NSSs [54 ]. Applications in which immobilization was used to enable highly productive reactor concepts were published recently with glutaraldehyde-crosslinked whole cell catalyst [55,56]. In the example given by Stojkovic ˇand Z ˇnidars ˇic ˇ-Plazl a 25 mL microreactor could be loaded with such a high catalyst load that space-time-yields 3.5 times higher than in a compar…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[51]",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "[52]",
+          "target_xml_id": "b56"
+        },
+        {
+          "ref_marker": "[53]",
+          "target_xml_id": "b57"
+        },
+        {
+          "ref_marker": "[54 ]",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "[55,",
+          "target_xml_id": "b60"
+        },
+        {
+          "ref_marker": "56]",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "[56]",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "[57]",
+          "target_xml_id": "b62"
+        }
+      ]
+    },
+    {
+      "header": "Regulatory issues",
+      "raw_header": "Regulatory issues",
+      "text": "Some regulatory concerns might be raised when whole cell catalyst is used in the production of active pharmaceutical ingredients, which might prevent some researchers from using whole cells in such projects. Since catalyst formulation choice is a case to case decision usually based on economic considerations, we point out that numerous applications of whole cell reactions can be found in established pharmaceutical processes [58]. In some cases the use of dead whole cells can fullfill regulatory contraints. For almost any downstream processing challenge following biocatalytic reactions, technical solutions can be found [59]. Furthermore, the often proclaimed lowered selectivity of whole cell catalyst compared to purified enzyme, which may lead to unwanted sideproducts, can widely be overcome by a selective knockout of host cells enzymes if necessary, but is mostly obsolete when using powerful overexpression techniques [60,61].",
+      "snippet": "Some regulatory concerns might be raised when whole cell catalyst is used in the production of active pharmaceutical ingredients, which might prevent some researchers from using whole cells in such projects. Since catalyst formulation choice is a case to case decision usually based on economic considerations, we point out that numerous applications of whole cell reactions can be found in established pharmaceutical processes [58]. In some cases the use of dead whole cells can fullfill regulatory contraints. For almost any downstream processing challenge following biocatalytic reactions, technical solutions can be found [59]. Furthermore, the often proclaimed lowered selectivity of whole cell catalyst compared to purified enzyme, which may lead to unwanted sideproducts, can widely be overcome by a selective knockout of host cells enzymes if necessary, but is mostly obsolete when using powerful overexpression techniques [60,61].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[58]",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "[59]",
+          "target_xml_id": "b64"
+        },
+        {
+          "ref_marker": "[60,",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "61]",
+          "target_xml_id": "b66"
+        }
+      ]
+    },
+    {
+      "header": "Overcoming mass transfer limitations",
+      "raw_header": "Overcoming mass transfer limitations",
+      "text": "Among the commonly named disadvantages of whole cell biocatalysts, the limitation in mass transfer due to the catalysts' cell membrane is the most prominent one. A classical way to decrease this negative effect is the deliberate permeabilization of the cell wall compounds by treatment with surfactants, chelating agents, or organic solvent (Figure 2a) [11,62]. An alternative to enhance mass transfer is the coexpression of membrane transporters as recently shown for the biocatalytic conversion of C7 to C16 alkanes (Figure 2b). Coexpression of the alkL gene from Pseudomonas putida enhanced the cell specific product yield up to 100-fold, due to an increased substrate uptake [63 ]. Many more such examples of influx as well as efflux transporters potentially useful for biocatalysis have been summarized recently by Kell et al. [64]. Instead of enhancing the transfer of substrate towards the enzyme, others employed cell surface display techniques to rather bring the enzyme to the substrate (Figure 2c). As an example, Candida antarctica lipase B was displayed on Pichia pastoris, with the additional result of increased solvent and thermal stability [65]. Also for E. coli whole cell catalyst expressing a monooxygenase, the benefits of such systems have been demonstrated by Stro ¨hle et al. [66]. Because of the facilitated recovery and reusability of the catalyst, a remarkable turnover number (TON) of >54,000 was reached, representing the highest TON ever reported for P450 monooxygenase according to the authors [66]. Su ¨hrer et al. proposed a different strategy enabling almost 28,000 fusion proteins per cell, by fusing galactosidase to an inner membrane anchor from rabbit liver cytochrome b 5 . In addition, they introduced a lytic phage protein in order to induce temperature-controlled cell lysis by pore formation after biocatalyst production (Figure 2d). As a result, host cells interior components leach to the outside and can be washed away, leaving only the cellular envelope, carrying the recombinantly integrated enzyme, behind. This approach did not only increase enzyme activity by 35% compared to free enzyme (presumably by stabilization of the tetrameric enzyme structure), but also increased activity of the catalytic cell envelope particles more than 3-fold when compared to intact whole cell catalyst [67 ].",
+      "snippet": "Among the commonly named disadvantages of whole cell biocatalysts, the limitation in mass transfer due to the catalysts' cell membrane is the most prominent one. A classical way to decrease this negative effect is the deliberate permeabilization of the cell wall compounds by treatment with surfactants, chelating agents, or organic solvent (Figure 2a) [11,62]. An alternative to enhance mass transfer is the coexpression of membrane transporters as recently shown for the biocatalytic conversion of C7 to C16 alkanes (Figure 2b). Coexpression of the alkL gene from Pseudomonas putida enhanced the cell specific product yield up to 100-fold, due to an increased substrate uptake [63 ]. Many more such examples of influx as well as efflux transporters potentially useful for biocatalysis have been summarized recently by Kell et al. [64]. Instead of enhancing the transfer of substrate towards the enzyme, others employed cell surface display techniques to rather bring the enzyme to the substrate (Figure 2c). As an example, Candida antarctica lipase B was displayed on Pichia pastoris, with the additional result of increased solvent and thermal stability [65]. Also for E. coli whole cell catalyst expressing a monooxygenase, the benefits of such systems have been demonstrated by Stro ¨hle et al. [66]. Because of the facilitated recovery and reusability of the catalyst, a remarkable turnover number (TON) of >54,000 was reached, representing the highest TON ever reported for P450 monooxygenase …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[11,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "62]",
+          "target_xml_id": "b67"
+        },
+        {
+          "ref_marker": "[63 ]",
+          "target_xml_id": "b68"
+        },
+        {
+          "ref_marker": "[64]",
+          "target_xml_id": "b70"
+        },
+        {
+          "ref_marker": "[65]",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "[67 ]",
+          "target_xml_id": "b73"
+        }
+      ]
+    },
+    {
+      "header": "Advances in reactor concepts for whole cell biocatalysis",
+      "raw_header": "Advances in reactor concepts for whole cell biocatalysis",
+      "text": "For preparative biocatalytic processes, reactors are needed which give the best compromise of maximum mass transfer at minimum mechanical abrasion of the catalyst. Additionally, the reliable scalability from investigatory scale to large scale manufacturing is desired, especially for challenging, unconventional biphasic or viscous media. Therefore, novel reactor concepts as well as screening platforms are constantly optimized to enable a fast and reliable process development. In a recent advance, a platform of 48 parallelized 10 mL reactors has been tested for biocatalytic reactions with whole cells in biphasic systems with 20% ionic liquids [68]. Each reactor was stirred with a small impeller, which was proven to allow identical local energy dissipation as a comparable 200 mL reactor equipped with a rushton turbine. When compared in the reduction of 2octanone mediated by recombinant E. coli including recombinantly expressed LbADH, the reaction progress was the same on the 10 mL scale as on 200 mL scale for four different ionic liquids (content 40%) [68]. In another work, even the application of 24 well microtiter plates was shown to be adjustable to screen for scalable reaction conditions in biphasic systems [69]. Prerequisite is the utilization of small amounts of surfactant (0.1% Recent advances in whole cell biocatalysis techniques Wachtmeister and Rother 173 (a) (b) (c) enzyme substrate product transporter anchor cellular contaminants phage protein (d) Current Opinion in Biotechnology Modifications in cell morphology to increase mass transfer. (a) Cell permeabilization [11,62]. (b) Coexpression of membrane-integrated transport proteins for active influx and efflux [63 ,64]. (c) Fusion protein of enzyme and membrane anchors to display enzymes on the cell surface [65,66]. (d) Fusion protein of enzyme and inner membrane anchors followed by belated induction of phage protein induction, leading to pore formation, efflux of cellular contaminants, and increased mass transfer of substrates and products [67 ]. Triton X-100) and sealing with a special silicone cover. By these optimization, the conversion of n-dodecane into 1dodecanol by recombinant E. coli in a 1.2 mL well proceeded with similar conversion rates than those obtained in a 120 mL shake flask and in a 1.2 L stirred tank reactor [69]. An emerging field in chemical catalysis is flow chemistry, as it offers the advantages of continuous operation, online-analytics and simple scale-up [70]. The first application of whole cell biocatalysis in flow has been published by Tamborini and co-workers in 2013 [71]. The deracemization of flurbiprofen was catalyzed by lipase within dried mycelium of Aspergillus oryzae. The esterification efficiency could greatly be increased by adding a module to capture generated water, thus shifting the thermodynamic equilibrium, and by an in-line capturing method to recover unreacted (S)-flurbiprofen for racemization and re-application into the reactor. In another example, the 2step formation of cyanohydrins from cyclic aldehydes using recombinant E. coli whole cells was performed [72 ]. Cyanide was released from ethyl cyanoformate by immobilized C. antarctica lipase B (Novozyme 435), mixed with different cyclic aldehydes, and converted into cyanohydrins by recombinantly expressed A. thaliana hydroxynitrile lyase in E. coli (Figure 3). This in situ O O O O O O OH O CN CN Ar Ar Ar O CN CalB (Novozyme 435) H C N E. coli AtHNL Current Opinion in Biotechnology Biocatalytic 2-step synthesis of aromatic cyanohydrins. The entirely closed flow system allows a safe in situ generation of cyanide which is stereoselectively converted to various aromatic cyanohydrins. An in-line acetylation step further enables an in situ protection of the generated products [72 ]. (a) (b) Current Opinion in Biotechnology Schematic side view (a) and top view (b) cross sections of the SpinChem reactor concept. Rotation of the reactor leads to suction of reaction medium from the bottom of the hollow stirrer shaft inside the reactor. The flow streams through four immobilizate-filled compartments and is extruded to the outside. Alternatively to immobilizate particles polymeric membrane bags including lyophilized whole cell catalyst can be used (b, top left) [74,75]. generation and conversion of cyanide in the closed flow reactor greatly increased the process safety compared to classical batch processes. Without the need for novel flow chemistry equipment, similar setups of continuous reactors can be set up by means of traditional plug flow or fluidized bed applications. Simply adding filter paper of appropriate cutoff to both ends of an empty HPLC column enables utilization of recombinant, lyophilized E. coli whole cell catalyst, as recently shown for the lipase-mediated conversion of glyceryl triacetate with methanol [73]. Another novel reactor technology enabling high mass transfer at a minimum mechanical force has been developed by Nordic ChemQuest AB. The so-called SpinChem has been proven feasible in biocatalytic transformation using immobilized enzyme, but also for whole cell catalyst entrapped in alginate beads (Figure 4). In comparison to stirred tank reactors, mechanical abrasion of catalyst is reduced while maintaining identical reaction rates [74]. As an alternative to the entrapment of whole cell catalyst into alginate beads, we recently demonstrated the application of catalytic 'teabags' inside the SpinChem reactor, exhibiting the same reaction rate as in a 140 mL model stirred tank reactor and 5 mL vial scale. Furthermore, the simple catalyst exchange when using the SpinChem reactor makes it particularly appealing for set-up and optimization of biocatalytic multi-step reactions [75].",
+      "snippet": "For preparative biocatalytic processes, reactors are needed which give the best compromise of maximum mass transfer at minimum mechanical abrasion of the catalyst. Additionally, the reliable scalability from investigatory scale to large scale manufacturing is desired, especially for challenging, unconventional biphasic or viscous media. Therefore, novel reactor concepts as well as screening platforms are constantly optimized to enable a fast and reliable process development. In a recent advance, a platform of 48 parallelized 10 mL reactors has been tested for biocatalytic reactions with whole cells in biphasic systems with 20% ionic liquids [68]. Each reactor was stirred with a small impeller, which was proven to allow identical local energy dissipation as a comparable 200 mL reactor equipped with a rushton turbine. When compared in the reduction of 2octanone mediated by recombinant E. coli including recombinantly expressed LbADH, the reaction progress was the same on the 10 mL scale as on 200 mL scale for four different ionic liquids (content 40%) [68]. In another work, even the application of 24 well microtiter plates was shown to be adjustable to screen for scalable reaction conditions in biphasic systems [69]. Prerequisite is the utilization of small amounts of surfactant (0.1% Recent advances in whole cell biocatalysis techniques Wachtmeister and Rother 173 (a) (b) (c) enzyme substrate product transporter anchor cellular contaminants phage protein (d) Current Opinion in …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[68]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "[68]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "[69]",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "[67 ]",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "[69]",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "[70]",
+          "target_xml_id": "b77"
+        },
+        {
+          "ref_marker": "[71]",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "[72 ]",
+          "target_xml_id": "b79"
+        },
+        {
+          "ref_marker": "[73]",
+          "target_xml_id": "b81"
+        },
+        {
+          "ref_marker": "[74]",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "[75]",
+          "target_xml_id": "b83"
+        }
+      ]
+    },
+    {
+      "header": "Conclusion and future perspective",
+      "raw_header": "Conclusion and future perspective",
+      "text": "Whole cell biocatalysis offers many advantages over the use of purified or immobilized enzymes, among them (i) significantly reduced catalyst costs, (ii) an inherently higher stability due to the residual cell wall compounds, and (iii) no need for external cofactor addition. Disadvantages in terms of mass transfer limitations can be conquered at multiple stages, either by modifications of the cell wall or by engineering tools. In order to increase product concentrations, we see a huge potential of whole cell biocatalysts in the field of unconventional reaction media, which provides increasing numbers of biocompatible and sustainable solvents. In combination with novel, particularly atom-efficient cofactor regeneration tools, one can profit from two main advantages of whole cell catalysts: the high catalysts' stability in unconventional media and the cost savings for catalyst and cofactor production. Especially when enzymes are recombinantly expressed at high titers, when catalyst recyclability is facilitated by immobilization, and when a continuous reaction mode is applicable, whole cell catalysts can exhibit productivities far beyond industrial benchmarks. Such processes will become even more appealing when the production of fine chemicals or pharmaceutical building blocks is connected to precursors from renewable resources, thus not only boosting valorization, but also getting closer to the common goal of a more biobased economy. Here we see big potential, especially if synthetic biology techniques from the metabolic engineering field as well as recent advances in multi-step biocatalysis are combined.",
+      "snippet": "Whole cell biocatalysis offers many advantages over the use of purified or immobilized enzymes, among them (i) significantly reduced catalyst costs, (ii) an inherently higher stability due to the residual cell wall compounds, and (iii) no need for external cofactor addition. Disadvantages in terms of mass transfer limitations can be conquered at multiple stages, either by modifications of the cell wall or by engineering tools. In order to increase product concentrations, we see a huge potential of whole cell biocatalysts in the field of unconventional reaction media, which provides increasing numbers of biocompatible and sustainable solvents. In combination with novel, particularly atom-efficient cofactor regeneration tools, one can profit from two main advantages of whole cell catalysts: the high catalysts' stability in unconventional media and the cost savings for catalyst and cofactor production. Especially when enzymes are recombinantly expressed at high titers, when catalyst recyclability is facilitated by immobilization, and when a continuous reaction mode is applicable, whole cell catalysts can exhibit productivities far beyond industrial benchmarks. Such processes will become even more appealing when the production of fine chemicals or pharmaceutical building blocks is connected to precursors from renewable resources, thus not only boosting valorization, but also getting closer to the common goal of a more biobased economy. Here we see big potential, especially if syn…",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Untitled section",
+      "raw_header": "Untitled section",
+      "text": "Figure 1.10. Policy interest rates in many EMEs have been increased 10.1787/888933048983 null Organisation for Economic Co-Operation and Development (OECD) Biobased chemicals: the convergence of green chemistry with industrial biotechnology JimCPhilp RachaelJRitchie JacquelineE MAllan 10.1016/j.tibtech.2012.12.007 Trends in Biotechnology Trends in Biotechnology 0167-7799 31 4 2013 Elsevier BV Transformation of Biomass into Commodity Chemicals Using Enzymes or Cells AjjStraathof 10.1021/cr400309c Chemical Reviews Chem. Rev. 0009-2665 1520-6890 114 3 2014 American Chemical Society (ACS) Biocatalysis in the Fine Chemical and Pharmaceutical Industries PeterWSutton JosephPAdams IanArcher DanielAuriol ManuelaAvi CeciliaBranneby AndrewJCollis BrunoDumas ThomasEckrich IanFotheringham RobTer Halle StevenHanlon MarvinHansen KEHolt‐tiffin RogerMHoward GjaltWHuisman HansIding KurtKiewel MatthiasKittelmann ErnstKupfer KurtLaumen FabriceLefèvre StephanLuetz DavidPMangan VanAMartin Hans‐peterMeyer ThomasSMoody AntonioOsorio‐lozada KarenRobins RadkaSnajdrova MatthewDTruppo AndrewWells BeatWirz JohnWWong 10.1002/9781119943426.ch1 Practical Methods for Biocatalysis and Biotransformations JWhittall PWSutton Wiley 2012 Industrial applications of enzyme biocatalysis: Current status and future aspects Jung-MinChoi Sang-SooHan Hak-SungKim 10.1016/j.biotechadv.2015.02.014 Biotechnology Advances Biotechnology Advances 0734-9750 33 7 2015 Elsevier BV Enzymatic and whole cell catalysis: Finding new strategies for old processes DeCarvalho Cccr 10.1016/j.biotechadv.2010.09.001 Biotechnology Advances Biotechnology Advances 0734-9750 29 1 2011 Elsevier BV How Green is Biocatalysis? To Calculate is To Know YanNi DirkHoltmann FrankHollmann 10.1002/cctc.201300976 ChemCatChem ChemCatChem 1867-3880 1867-3899 6 4 2014 Wiley Advances in the process development of biocatalytic processes PTufvesson JLima-Ramos AlHaque NGernaey KVWoodley JM Org Process Res Dev 17 2013 Advances in metabolic pathway and strain engineering paving the way for sustainable production of chemical building blocks YunChen JensNielsen 10.1016/j.copbio.2013.03.008 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 24 6 2013 Elsevier BV The microbial cell — functional unit for energy dependent multistep biocatalysis NadineLadkau AndreasSchmid BrunoBühler 10.1016/j.copbio.2014.06.003 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 30 2014 Elsevier BV Advancing metabolic engineering through systems biology of industrial microorganisms ZongjieDai JensNielsen 0000-0002-9955-6003 10.1016/j.copbio.2015.08.006 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 36 2015 Elsevier BV Biocatalysis with immobilized Escherichia coli PZajkoska MRebros MRosenberg Appl Microbiol Biotechnol 97 2013 Guidelines and cost analysis for catalyst production in biocatalytic processes PTufvesson JLima-Ramos MNordblad JMWoodley Org Process Res Dev 15 2011 Strategies for Cofactor Regeneration in Biocatalyzed Reductions SelinKara JoergHSchrittwieser FrankHollmann 10.1002/9783527665785.ch08 Synthetic Methods for Biologically Active Molecules: Exploring the Potential of Bioreductions BrennaEWiley Wiley 2014 A comprehensive summary of state-of-the-art technologies for cofactor regeneration Strategies for regeneration of nicotinamide coenzymes emphasizing self-sufficient closed-loop recycling systems WernerHummel HaraldGröger 10.1016/j.jbiotec.2014.07.449 Journal of Biotechnology Journal of Biotechnology 0168-1656 191 2014 Elsevier BV In vitro characterization of an enzymatic redox cascade composed of an alcohol dehydrogenase, an enoate reductases and a Baeyer-Villiger monooxygenase NOberleitner CPeters FRudroff UTBornscheuer MDMihovilovic J Biotechnol 192 2014 An enzyme cascade synthesis of e-caprolactone and its oligomers SSchmidt CScherkus JMuschiol UMenyes TWinkler WHummel AGro ¨ger H, Liese H-GHerz UTBornscheuer Angew Chem Int Ed 54 2015 A two-step, redox self-sufficient cascade generates e-caprolacton from cyclohexanol. Addition of lipase leads to a ring-opening polymerization of e-caprolacton hence overcoming product inhibition and increasing substrate loads at the same time More efficient redox biocatalysis by utilising 1,4-butanediol as a ‘smart cosubstrate’ SelinKara DominikSpickermann JoergHSchrittwieser ChristianLeggewie WillemJ HVan Berkel IsabelW C EArends FrankHollmann 10.1039/c2gc36797a Green Chemistry Green Chem. 1463-9262 1463-9270 15 2 330 2013 Royal Society of Chemistry (RSC) Access to lactone building blocks via horse liver alcohol dehydrogenasecatalyzed oxidative lactonization SKara DSpickermann JHSchrittwieser AWeckbecker CLeggewie IwceArends FHollmann ACS Catal 3 2013 Redox self-sufficient biocatalyst network for the amination of primary alcohols JHSattler MFuchs KTauber FGMutti KFaber JPfeffer THaas WKroutil Angew Chem Int Ed 51 2012 Introducing an in situ capping strategy in systems biocatalysis to access 6-aminohexanoic acid JHSattler MFuchs FGMutti BGrischek PEngel JPfeffer JMWoodley WKroutil Angew Chem Int Ed 53 2014 A particularly sophisticated cofactor self-sufficient cascade design is presented. Combination of two redox-neutral cascades composed of six enzymes yields the polymer building block 6-aminohexanoic acid from cyclohexanol An enzymatic toolbox for cascade reactions: a showcase for an in vivo redox sequence in asymmetric synthesis NOberleitner CPeters JMuschiol MKadow SSaß TBayer PSchaaf NIqbal FRudroff MDMihovilovic ChemCatChem 5 2013 Process for enzymatic amination of alcohols coupled with cofactor regeneration K-UBaldenius MBreuer KDitrich VNavickas FMutti TKnaus NTurner EP 2963121 2016 Full oxidation of methanol regenerates three equivalents of cofactor. The proposed cascade could generally be combined with any NADH-dependent reduction and gives an example on particularly sustainable reaction designs SKara JHSchrittwieser SGargiulo YNi HYanase DJOpperman WjhVan Berkel FHollmann Adv Synth Catal 357 2015 Complete enzymatic oxidation of methanol to carbon dioxide: towards more eco-efficient regeneration systems for reduced nicotinamide cofactors Organic Solvent Tolerant Lipases and Applications ShivikaSharma 0000-0001-9933-4964 ShamsherSKanwar 10.1155/2014/625258 The Scientific World Journal The Scientific World Journal 2356-6140 1537-744X 2014 2014. 2014 Wiley Biocatalysis in Biphasic Systems: General PedroFernandes JoaquimM SCabral 10.1002/9783527621729.ch8 Organic Synthesis with Enzymes in Non-Aqueous Media GCarrea SRiva Wiley 2012 Domı ´nguez de Marı ´a PD: Asymmetric reduction of ketones with recombinant E. coli whole cells in neat substrates AJakoblinnert RMladenov APaul FSibilla USchwaneberg Ansorge-Schumacher MB Chem Commun 47 2011 A two-step biocatalytic cascade in micro-aqueous medium: using whole cells to obtain high concentrations of a vicinal diol AJakoblinnert DRother Green Chem 16 2014 Use of hydrophobic bacterium Rhodococcus rhodochrous NBRC15564 expressed thermophilic alcohol dehydrogenases as whole-cell catalyst in solvent-free organic media AHibino HOhtake Process Biochem 48 2013 Enantioselective, continuous (R)-and (S)-2-butanol synthesis: achieving high space-time yields with recombinant E. coli cells in a micro-aqueous, solvent-free reaction system VErdmann UMackfeld DRother AJakoblinnert J Biotechnol 191 2014 The stereoselective production of both 2-butanol enantiomers is achieved under solvent-free conditions using two oxidoreductases. A continuous reactor setup enables space-time-yields up to 2278 g L À1 d À 1 Synthesis of Chiral Cyanohydrins by Recombinant Escherichia coli Cells in a Micro-Aqueous Reaction System KathrinEmmiScholz DanielOkrob BenitaKopka AlexanderGrünberger MartinaPohl Karl-ErichJaeger UlrichKrauss 10.1128/aem.00582-12 Applied and Environmental Microbiology Appl Environ Microbiol 0099-2240 1098-5336 78 14 2012 American Society for Microbiology 2‐Methyltetrahydrofuran (2‐MeTHF): A Biomass‐Derived Solvent with Broad Application in Organic Chemistry VittorioPace PilarHoyos LauraCastoldi PabloDomínguez de maría AndrésRAlcántara 10.1002/cssc.201100780 ChemSusChem ChemSusChem 1864-5631 1864-564X 5 8 2012 Wiley Biocatalytic reactions in ionic liquids FStein UKragl Ionic Liquids Further UnCOILed: Critical Expert Overviews NPlechkova KSeddon John Wiley & Sons, Inc 2014 Recent Developments in Chemical Synthesis with Biocatalysts in Ionic Liquids MaheshPotdar GeoffreyKelso LachlanSchwarz ChunfangZhang MiltonHearn 10.3390/molecules200916788 Molecules Molecules 1420-3049 20 9 2015 MDPI AG Ionic liquids and whole-cellcatalyzed processes DDennewald DWeuster-Botz Ionic Liquids in Biotransformations and Organocatalysis: Solvents and Beyond PDomı ´nguez De Marı ´a John Wiley & Sons, Inc 2012 Whole-Cell Biocatalytic Processes with Ionic Liquids PeiXu Gao-WeiZheng Peng-XuanDu Min-HuaZong Wen-YongLou 10.1021/acssuschemeng.5b00965 ACS Sustainable Chemistry & Engineering ACS Sustainable Chem. Eng. 2168-0485 4 2 2016 American Chemical Society (ACS) Screening ionic liquids for use in biotransformations with whole microbial cells NicolaWood JamieLFerguson HqnQ NimalGunaratne KennethRSeddon RoystonGoodacre GillianMStephens 10.1039/c0gc00579g Green Chemistry Green Chem. 1463-9262 1463-9270 13 7 1843 2011 Royal Society of Chemistry (RSC) Use of Ionic Liquid To Significantly Improve Asymmetric Reduction of Ethyl Acetoacetate Catalyzed by Acetobacter sp. CCTCC M209061 Cells Xiao-TingWang Dong-MeiYue Min-HuaZong Wen-YongLou 10.1021/ie401561r Industrial & Engineering Chemistry Research Ind. Eng. Chem. Res. 0888-5885 1520-5045 52 35 2013 American Chemical Society (ACS) Bioreduction of 3,5bis(trifluoromethyl)acetophenone using ionic liquid as a cosolvent catalyzed by recombinant Escherichia coli cells NWang JLi JSun JHuang PWang Biochem Eng J 101 2015 Deep eutectic solvents: Promising solvents and nonsolvent solutions for biocatalysis Domı ´nguez De 10.1201/b17508-8 Environmentally Friendly Syntheses Using Ionic Liquids JDupont TItoh PLozano SMalhotra CRC Press 2014 Deep Eutectic Solvents for Organocatalysis, Biotransformations, and Multistep Organocatalyst/Enzyme Combinations NadiaGuajardo ChristophRMüller RodrigoSchrebler CarlosCarlesi PabloDomínguez de maría 10.1002/cctc.201501133 ChemCatChem ChemCatChem 1867-3880 1867-3899 8 6 2015. 201501133 Wiley Evaluation of deep eutectic solvents as co‐solvent for steroids 1‐en‐dehydrogenation biotransformation by <i>Arthrobacter simplex</i> ShuhongMao LuYu ShaoxianJi XiaoguangLiu FupingLu 10.1002/jctb.4691 Journal of Chemical Technology & Biotechnology J of Chemical Tech &amp; Biotech 0268-2575 1097-4660 91 4 2015 Wiley Enhancing asymmetric reduction of 3-chloropropiophenone with immobilized Acetobacter sp. CCTCC M209061 cells by using deep eutectic solvents as cosolvents PXu YXu X-FLi B-YZhao M-HZong W-YLou ACS Sustain Chem Eng 3 2015 Domı ´nguez de Marı ´a P: Whole-cell biocatalysis in deep-eutectic-solvents/aqueous mixtures ZMaugeri ChemCatChem 6 2014 Rados ˇevic ´K, Radojc ˇic Ŕedovnikovic ´I: Baker's yeast-mediated asymmetric reduction of ethyl 3-oxobutanoate in deep eutectic solvents CvjetkoBubalo MMazur M Process Biochem 50 2015 Gotor-Ferna ´ndez V, Domı ´nguez de Marı ´a P: Performance of recombinant-whole-cell-catalyzed reductions in deep-eutectic-solvent-aqueous-media mixtures CRMu ¨ller ILavandera ChemCatChem 7 2015 Whole-cell double oxidation of nheptane CAMu ¨ller ADennig TWelters TWinkler AJRuff WHummel HGro ¨ger USchwaneberg J Biotechnol 191 2014 Synthetic enzyme cascades for valuable diols and amino alcohols: smart composition and optimization strategies TSehl JKulig RWestphal DRother Industrial Biocatalysis PGrunwald Pan Stanford Publishing Pte. Ltd 2014 Cascade catalysis -strategies and challenges en route to preparative synthetic biology JMuschiol CPeters NOberleitner MMihovilovic UBornscheuer FRudroff Chem Commun 51 2015 Chemo)enzymatic cascades -nature's synthetic strategy transferred to the laboratory EGarcı ´a-Junceda ILavandera DRother JHSchrittwieser J Mol Catal B Enzym 114 2015 Oroz-Guinea I, Garcı ´a-Junceda E: Enzyme catalysed tandem reactions Curr Opin Chem Biol 17 2013 Physical and Bioengineering Properties of Polyvinyl Alcohol Lens-Shaped Particles Versus Spherical Polyelectrolyte Complex Microcapsules as Immobilisation Matrices for a Whole-Cell Baeyer–Villiger Monooxygenase AndreaSchenkmayerová MarekBučko PeterGemeiner DušanaTreľová IgorLacík DušanChorvát PavelAčai MilanPolakovič LukášLipták MartinRebroš MichalRosenberg VladimírŠtefuca VilémNeděla EvaTihlaříková 10.1007/s12010-014-1174-x Applied Biochemistry and Biotechnology Appl Biochem Biotechnol 0273-2289 1559-0291 174 5 2014 Springer Science and Business Media LLC Immobilised whole-cell recombinant monoamine oxidase biocatalysis PetraZajkoska MichalRosenberg RachelHeath KirkJMalone RadekStloukal NicholasJTurner MartinRebroš 10.1007/s00253-014-5983-1 Applied Microbiology and Biotechnology Appl Microbiol Biotechnol 0175-7598 1432-0614 99 3 2015 Springer Science and Business Media LLC Immobilization of Escherichia coli containing vtransaminase activity in LentiKats W MCa ´rdenas-Ferna ´ndez WNeto CLo ´pez PTufvesson JMWoodley Biotechnol Prog 28 2012 Biocatalytically active silCoat-composites entrapping viable Escherichia coli AFindeisen OThum Ansorge-Schumacher MB Appl Microbiol Biotechnol 98 2014 Immobilizates with whole cell catalyst are modified by hydrophobic and hydrophilic silicone coatings. The coatings effectively diminish leakage of whole cell catalyst while being well applicable in aqueous or neat substrate systems respectively Development of a continuous bioconversion system using a thermophilic whole-cell biocatalyst PHNinh KHonda YYokohigashi KOkano TOmasa HOhtakea Appl Environ Microbiol 79 2013. 1996-2001 Continuous synthesis of l-malic acid using whole-cell microreactor GorazdStojkovič PolonaŽnidaršič-Plazl 10.1016/j.procbio.2012.03.023 Process Biochemistry Process Biochemistry 1359-5113 47 7 2012 Elsevier BV Whole-cell teabag catalysis for the modularisation of synthetic enzyme cascades in micro-aqueous systems JWachtmeister AJakoblinnert JKulig HOffermann DRother ChemCatChem 6 2014 Application of whole-cell biotransformation in the pharmaceutical industry KSLam Biocatalysis for the Pharmaceutical Industry: Discovery, Development, and Manufacturing JTao (Alex )Lin G-Q LieseA JohnWiley AsiaSons Pte) Ltd 2009 Use of Enzymes in the Manufacture of Active Pharmaceutical Ingredients—A Science and Safety-Based Approach To Ensure Patient Safety and Drug Quality AndrewSWells GregoryLFinch PeterCMichels JohnWWong 10.1021/op300153b Organic Process Research & Development Org. Process Res. Dev. 1083-6160 1520-586X 16 12 2012 American Chemical Society (ACS) Biotransformations in Organic Chemistry KFaber 2011 Springer Recombinant protein expression in Escherichia coli: advances and challenges GLRosano EACeccarelli Front Microbiol 5 2014 Coupling of permeabilized cells of Gluconobacter oxydans and Ralstonia eutropha for asymmetric ketone reduction using H 2 as reductant FRundba ¨ck MFidanoska PAdlercreutz J Biotechnol 157 2012 Identification and use of an alkane transporter plug-in for applications in biocatalysis and whole-cell biosensing of alkanes CGrant DDeszcz Y-CWei Martı´nez-Torres RJMorris PFolliard TSreenivasan RWard JDalby PWoodley JM Sci Rep 4 2014 Coexpression of membrane transporters solves mass transfer problems, without the need for deliberate cell membrane destruction Membrane transporter engineering in industrial biotechnology and whole cell biocatalysis DBKell NSwainston PPir SGOliver Trends Biotechnol 33 2015 Displaying lipase B from Candida antarctica in Pichia pastoris using the yeast surface display approach: prospection of a new anchor and characterization of the whole cell biocatalyst MvhMoura GPDa Silva AcdoMachado FagTorres DmgFreire RVAlmeida PLOS ONE 10 141454 2015 A simplified process design for P450 driven hydroxylation based on surface displayed enzymes FWStro ¨hle EKranen JSchrader RMaas DHoltmann 10.1002/bit.25885 Biotechnol Bioeng 2015 A novel one-step expression and immobilization method for the production of biocatalytic preparations ISu ¨hrer TLangemann WLubitz DWeuster-Botz KCastiglione 10.1186/s12934-015-0371-9 Microb Cell Fact 2015 Membrane-anchoring of the recombinantly expressed model enzyme and co-expression of lytic phage protein E results in catalytically active cell debris. Additionally, removal of non-membrane-bound host cell proteins is achieved, thus circumventing potential side reactions Evaluation of parallel milliliter-scale stirred-tank bioreactors for the study of biphasic whole-cell biocatalysis with ionic liquids DDennewald RHortsch DWeuster-Botz J Biotechnol 157 2012 Tools for characterizing the whole-cell bio-oxidation of alkanes at microscale CGrant ACPinto SDDa H-PLui JMWoodley FBaganz Biotechnol Bioeng 109 2012 Flow chemistry: recent developments in the synthesis of pharmaceutical products RPorta MBenaglia APuglisi Org Process Res Dev 20 2016 Biotransformation with whole microbial systems in a continuous flow reactor: resolution of (RS)flurbiprofen using Aspergillus oryzae by direct esterification with ethanol in organic solvent LTamborini DRomano APinto MContente MCIannuzzi PConti FMolinari Tetrahedron Lett 54 2013 An orthogonal biocatalytic approach for the safe generation and use of HCN in a multistep continuous preparation of chiral O-acetylcyanohydrins ABrahma BMusio UIsmayilova NNikbin SKamptmann PSiegert GJeromin SLey MPohl Synlett 27 2016 The synergistic potential of flow chemistry and biocatalysis is demonstrated. Process safety is greatly increased by in situ generation and biocatalytic conversion of hydrogen cyanide. The biocatalytic flow synthesis grants access to differently substituted chiral cyanohydrins Short-chain flavor ester synthesis in organic media by an E. coli whole-cell biocatalyst expressing a newly characterized heterologous lipase GBrault FShareck YHurtubise FLe ´pine NDoucet PLOS ONE 9 91872 2014 Efficient biocatalysis with immobilized enzymes or encapsulated whole cell microorganism by using the SpinChem reactor system HMallin JMuschiol EBystro ¨m UTBornscheuer ChemCatChem 5 2013 Modularized biocatalysis: immobilization of whole cells for preparative applications in microaqueous organic solvents JWachtmeister PMennicken AHunold DRother ChemCatChem 8 2016",
+      "snippet": "Figure 1.10. Policy interest rates in many EMEs have been increased 10.1787/888933048983 null Organisation for Economic Co-Operation and Development (OECD) Biobased chemicals: the convergence of green chemistry with industrial biotechnology JimCPhilp RachaelJRitchie JacquelineE MAllan 10.1016/j.tibtech.2012.12.007 Trends in Biotechnology Trends in Biotechnology 0167-7799 31 4 2013 Elsevier BV Transformation of Biomass into Commodity Chemicals Using Enzymes or Cells AjjStraathof 10.1021/cr400309c Chemical Reviews Chem. Rev. 0009-2665 1520-6890 114 3 2014 American Chemical Society (ACS) Biocatalysis in the Fine Chemical and Pharmaceutical Industries PeterWSutton JosephPAdams IanArcher DanielAuriol ManuelaAvi CeciliaBranneby AndrewJCollis BrunoDumas ThomasEckrich IanFotheringham RobTer Halle StevenHanlon MarvinHansen KEHolt‐tiffin RogerMHoward GjaltWHuisman HansIding KurtKiewel MatthiasKittelmann ErnstKupfer KurtLaumen FabriceLefèvre StephanLuetz DavidPMangan VanAMartin Hans‐peterMeyer ThomasSMoody AntonioOsorio‐lozada KarenRobins RadkaSnajdrova MatthewDTruppo AndrewWells BeatWirz JohnWWong 10.1002/9781119943426.ch1 Practical Methods for Biocatalysis and Biotransformations JWhittall PWSutton Wiley 2012 Industrial applications of enzyme biocatalysis: Current status and future aspects Jung-MinChoi Sang-SooHan Hak-SungKim 10.1016/j.biotechadv.2015.02.014 Biotechnology Advances Biotechnology Advances 0734-9750 33 7 2015 Elsevier BV Enzymatic and whole cell catalysis: Finding new str…",
+      "pages": null,
+      "citations": []
+    }
+  ]
+}

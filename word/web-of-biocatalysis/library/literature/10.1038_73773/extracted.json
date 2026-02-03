@@ -1,0 +1,170 @@
+{
+  "summary": "Directed evolution was used to invert the enantioselectivity of hydantoinase from Arthrobacter sp. DSM 9771, increasing its activity fivefold and improving L-methionine production in E. coli.",
+  "key_claims": [
+    "Hydantoinase from Arthrobacter sp. DSM 9771 was inverted to become L-selective through directed evolution.",
+    "The total activity of the evolved hydantoinase increased fivefold.",
+    "Whole-cell catalysts expressing the evolved enzymes produced 91 mM L-methionine from 100 mM D,L-MTEH in less than 2 hours."
+  ],
+  "process_signals": [
+    {
+      "name": "total_activity_increase",
+      "value": "5",
+      "unit": "",
+      "context": "compared to the wild-type enzyme"
+    },
+    {
+      "name": "substrate_conversion",
+      "value": ">90%",
+      "unit": "%",
+      "context": "of D,L-MTEH converted to L-methionine in less than 2 hours"
+    },
+    {
+      "name": "intermediate_reduction",
+      "value": "4",
+      "unit": "",
+      "context": "reduction in accumulation of D-carbamoyl-methionine compared to wild-type pathway"
+    }
+  ],
+  "entities": {
+    "enzymes": [
+      {
+        "name": "hydantoinase",
+        "source": "Arthrobacter sp. DSM 9771"
+      },
+      {
+        "name": "L-N-carbamoylase",
+        "source": ""
+      },
+      {
+        "name": "hydantoin racemase",
+        "source": ""
+      }
+    ],
+    "reaction_types": [
+      {
+        "type": "hydrolysis"
+      },
+      {
+        "type": "racemization"
+      }
+    ],
+    "immobilization": [],
+    "media": [],
+    "reactor": []
+  },
+  "confidence": 0.9,
+  "_refs": [
+    {
+      "doi": "",
+      "title": "Counting on chiral drugs",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Microbial and enzymatic production of D-amino acids from DL-5-monosubstituted hydantoins. In Hydrolysis and formation of hydantoins in biocatalytic production of amino acids and derivatives. Biocatalytic production of amino acids and derivitives",
+      "year": 1992
+    },
+    {
+      "doi": "",
+      "title": "Microbial and enzymatic production of L-amino acids from DL-5-monosubstituted hydantoins",
+      "year": 1992
+    },
+    {
+      "doi": "",
+      "title": "Chiral amino acids: a versatile tool in the synthesis of pharmaceuticals and fine chemicals",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Microorganism, use thereof and process for the production of L-alpha-amino acids",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Substrate-dependent enantioselectivity of a novel hydantoinase from Arthrobacter aurescens DSM 3745: purification and characterization as a new member of cyclic amidases",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Production of L-methionine from D,L-5-(2methylthioethyl)hydantoin by resting cells of a new mutant strain of Arthrobacter species DSM 7330",
+      "year": 1996
+    },
+    {
+      "doi": "",
+      "title": "Reaction mechanism for the conversion of 5-monosubstituted hydantoins to enantiomerically pure L-amino acids",
+      "year": 1995
+    },
+    {
+      "doi": "",
+      "title": "Optimizing industrial enzymes by directed evolution",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Fermentation, biocatalysis, and bioseparation",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Biocatalysis for chiral intermediates: meeting commercial and technical challenges",
+      "year": 1996
+    },
+    {
+      "doi": "",
+      "title": "Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Superior biocatalysts by directed evolution",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Exploring nonnatural evolutionary pathways by saturation mutagenesis: rapid improvement of protein function",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Enzyme structure and mechanism",
+      "year": 1985
+    },
+    {
+      "doi": "",
+      "title": "Cloning, nucleotide sequence and expression of a new L-N-carbamoylase gene from Arthrobacter aurescens DSM 3747 in E. coli",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Nucleotide sequence and role in DNA amplification of the direct repeats composing the amplificable element AUDI of Streptomyces lividans 66",
+      "year": 1996
+    },
+    {
+      "doi": "",
+      "title": "The nucleotide sequence of pACYC184",
+      "year": 1988
+    },
+    {
+      "doi": "",
+      "title": "Improved M13 phage cloning vectors and host strains: nucleotide sequences of the M13mp18 and pUC vectors",
+      "year": 1984
+    },
+    {
+      "doi": "",
+      "title": "Transduction of lactose-utilizing ability among strains of Escherichia coli and Shigella dysenteriae and properties of phage particles",
+      "year": 1960
+    },
+    {
+      "doi": "",
+      "title": "Quantitative analysis of biochemical kinetic resolutions of enantiomers",
+      "year": 1982
+    }
+  ],
+  "_title": "Inverting enantioselectivity by directed evolution of hydantoinase for improved production of l-methionine",
+  "_abstract": "Using directed evolution, we have improved the hydantoinase process for production of L-methionine (L-met) in Escherichia coli. This was accomplished by inverting the enantioselectivity and increasing the total activity of a key enzyme in a whole-cell catalyst. The selectivity of all known hydantoinases for D-5-(2-methylthioethyl)hydantoin (D-MTEH) over the L-enantiomer leads to the accumulation of intermediates and reduced productivity for the L-amino acid. We used random mutagenesis, saturation mutagenesis, and screening to convert the D-selective hydantoinase from Arthrobacter sp. DSM 9771 into an L-selective enzyme and increased its total activity fivefold. Whole E. coli cells expressing the evolved L-hydantoinase, an L-N-carbamoylase, and a hydantoin racemase produced 91 mM L-met from 100 mM D,L-MTEH in less than 2 h. The improved hydantoinase increased productivity fivefold for >90% conversion of the substrate. The accumulation of the unwanted intermediate D-carbamoyl-methionine "
+}

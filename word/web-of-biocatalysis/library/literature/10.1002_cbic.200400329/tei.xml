@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directed Evolution of an Amine Oxidase for the Preparative Deracemisation of Cyclic Secondary Amines</title>
+				<funder ref="#_NDDYyRg">
+					<orgName type="full">BBSRC</orgName>
+				</funder>
+				<funder ref="#_HfBeYBg">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2005-02-18">February 18, 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Reuben</forename><surname>Carr</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marina</forename><surname>Alexeeva</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vicente</forename><surname>Gotor-Fernµndez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cara</forename><forename type="middle">E</forename><surname>Humphrey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+						</author>
+						<title level="a" type="main">Directed Evolution of an Amine Oxidase for the Preparative Deracemisation of Cyclic Secondary Amines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2005-02-18">February 18, 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3AD2686E1B6ED6DD6B7EDA5C4013B2D8</idno>
+					<idno type="DOI">10.1002/cbic.200400329</idno>
+					<note type="submission">Received: September 14, 2004</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Figure 2. Model of the active site of MAO-B showing the residues that make contact with the inhibitor. The corresponding residues of MAO-N are shown alongside.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Enantiomerically pure primary and secondary amines are widely used as chiral auxiliaries and resolving agents and are also valuable intermediates for the synthesis of pharmaceuticals and agrochemicals. <ref type="bibr" target="#b0">[1]</ref> Although enantiomerically pure amines are traditionally prepared by classical resolution of the corresponding racemate, alternative approaches have been developed based upon i) asymmetric reduction of imines, <ref type="bibr" target="#b1">[2]</ref> ii) hydroamination of alkenes <ref type="bibr" target="#b2">[3]</ref> and iii) lipase-catalysed kinetic resolution of racemic amines. <ref type="bibr" target="#b3">[4]</ref> However, secondary amines, many of which have pronounced biological activity, <ref type="bibr" target="#b4">[5]</ref> are poor substrates for lipases compared to the corresponding primary amines, with only a few documented examples in the literature. <ref type="bibr" target="#b5">[6]</ref> Hence the use of lipase resolution does not offer a general route to this class of chiral molecule. Moreover, to date it has generally not been possible to achieve the in situ racemisation of amines to effect a dynamic kinetic resolution process due to the relatively harsh conditions required to racemise amines. <ref type="bibr" target="#b6">[7]</ref> Against this backdrop, we sought to extend our chemo-enzymatic deracemisation method to encompass chiral secondary amines. Based upon our earlier work with a-amino acids, <ref type="bibr" target="#b7">[8]</ref> we recently reported the deracemisation of a-methylbenzyl amine (a-MBA, 1) in a one-pot procedure by the combined use of an enantioselective amine oxidase and ammonia borane as the reducing agent (Scheme 1). <ref type="bibr" target="#b9">[9]</ref> In order to identify an enzyme with appropriate activity and enantioselectivity towards a-methylbenzylamine, the amine oxidase from Aspergillus niger (MAO-N) was subjected to directed evolution, <ref type="bibr" target="#b10">[10]</ref> with (S)-1 as the probe substrate, by random mutagenesis and selection employing a high-throughput agarplate-based colorimetric screen. This approach led to the identification of an important amino acid substitution (Asn336Ser) that resulted in a variant enzyme possessing significantly enhanced activity (ca. 50-fold) and greater enantioselectivity towards 1 than the wild-type enzyme. <ref type="bibr" target="#b9">[9]</ref> Subsequently, we showed that this variant was also characterised by broad substrate specificity, being able to oxidize a wide range of chiral primary amines with high enantioselectivity. <ref type="bibr" target="#b11">[11]</ref> However, although this variant showed some activity towards chiral secondary amines (relative activity of 1-methyltetrahydroisoquinoline (MTQ, 2) % 15 % of a-MBA), the rates of oxidation were too low to permit efficient preparative deracemisation reactions. Our goal therefore was to evolve a "secondary amine oxidase" for preparative-scale deracemisation reactions to complement the existing "primary amine oxidase".</p><p>The MAO-N gene used as the starting point for further directed evolution contained four amino acid substitutions compared to the wild-type. In addition to the Asn336Ser mutation, which is important for catalytic activity/enantioselectivity, mutations were Arg259Lys and Arg260Lys (improved expression) and Met348Lys (improved activity). This gene was subjected to random mutagenesis, by using the E. coli XL1-Red mutator strain (mutation frequency ca. 1-2 base changes per gene), followed by transformation and screening of the library (ca. 20 000 clones) against (R/S)-2 as the substrate, as previously described. <ref type="bibr" target="#b9">[9]</ref> A number of clones (ca. 10) showed greater activity than the parent, with one in particular appearing to be significantly more active. Purification of this variant amine oxidase showed that it possessed a k cat value about 5.5-fold higher than the parent towards (S)-2 (Table <ref type="table">1</ref>) and also a higher K M value (0.31 vs. 0.06 mm). The new variant displayed very high (S)-selectivity (E &gt; 100; calculated from ratio of k cat /K M for (S) vs. (R) enantiomer) towards MTQ and, upon sequencing, was found to possess an additional point mutation (Ile246Met) compared to the parent.</p><p>Interestingly, this new variant was found to have k cat values towards a-MBA and amylamine (3) comparable to those of the parent. However, the new variant showed evidence for en-Scheme 1. Deracemisation of a-methylbenzylamine (1) with an amine oxidase in combination with ammonia borane.</p><p>Table <ref type="table">1</ref>. Kinetic parameters of Asn336Ser and Asn336Ser/Ile246Met variants towards selected amines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Asn336Ser</head><p>Asn336Ser/Ile246 met Amine</p><formula xml:id="formula_0">k cat K M k cat /K M k cat K M k cat /K M [min À1 ] [mm] [min À1 mm À1 ] [min À1 ] [mm] [min À1 mm À1 ] (S)</formula><p>-2 1.10 0.06 18.33 6.00 0.31 19.35 (R)-2 0.06 0.70 0.09 0.08 3.58 0.02 (R/S)-1 6.01 1.11 5.41 7.00 2.88 2.43 (R/S)-4 150.07 0.38 394.92 128.20 0.72 178.06 amylamine (3) 72.10 0.54 133.52 72.49 2.46 29.47 [a] R. Carr, Dr. M. Alexeeva, Dr. V. Gotor-Fernµndez, Dr. C. E. Humphrey, Prof. N. J. Turner School of Chemistry, The University of Edinburgh King's Buildings, West Mains Road, Edinburgh EH9 3JJ (UK) Fax: (+ 44) 131-650-4717 E-mail: n.j.turner@ed.ac.uk hanced activity towards chiral secondary amines (i.e., 2, 5, 6, 7 and 9) as shown in Scheme 2, with 2-phenylpyrrolidine (4)</p><p>showing the highest k cat (Table <ref type="table">1</ref>). Although in some cases the activity was reduced (8 and 10), in general, the initial aim of using a model secondary amine substrate (2) to select for a variant enzyme with improved activity towards a wider range of chiral secondary amines had been realised.</p><p>To further probe the importance of Ile246 as a key residue in controlling substrate specificity, we screened a second library in which position 246 was fully randomized. By using the Quikchange kit (Stratagene), a library of 220 colonies was screened, with (R/S)-2 as substrate, to ensure a 99 % probability of all possible 32 NNS codons being represented (p = 1Àe ÀN/V where p = % probability, N = sample size required, V = total number of combinations). Eight colonies showed distinctly greater activity than the rest and, when picked and sequenced, to our surprise all contained methionine at position 246 (statistically expected 6.9 clones). Thus although the use of the mutator strain places constraints on the range of amino acids that can be introduced at specific sites, in the present example the optimal amino acid was indeed found by this approach.</p><p>Prior to assessing the suitability of the Asn336Ser/ Ile246Met variant for preparative-scale deracemisation reactions of secondary amines, we screened a variety of reducing agents for their ability to reduce 1-methyl-3,4-dihydroisoquinoline (MDQ) to MTQ. (Figure <ref type="figure" target="#fig_1">1</ref>). Amine boranes were generally found to be highly reactive under aqueous conditions with the following order of activity: 4-dimethylaminopyridine borane (DMAP borane) &gt; 2-(methylamino)pyridine borane &gt; ammonia borane. Catalytic transfer hydrogenation (Pd/C ammonium formate) was also found to be effective. By using ammonia borane, it was found that as little as 1.0 equivalent (0.5 equiv for DMAP borane), relative to the substrate, could be used for complete reduction of MDQ to MTQ. For ease of use, ammonia borane was chosen for all subsequent preparative-scale reactions.</p><p>Initial small-scale deracemisation reactions of (R/S)-MTQ were carried out at 10 mm substrate concentration with 10 equiv of ammonia borane and washed whole cells (E. coli) expressing the Asn336Ser/Ile246Met variant amine oxidase. Complete deracemisation (ee = 99 %) was achieved within 8 h.</p><p>At 20 mm MTQ, on a preparative scale, the reaction was complete after 48 h and yielded (R)-MTQ in 71 % isolated yield (ee = 99 %). To complement the whole-cell approach, we also developed an immobilised form of the amine oxidase. The soluble fraction from the cell-free extract was subjected to purification by Niaffinity chromatography to give the amine oxidase in &gt; 80 % purity. Treatment with Eupergit C resulted in immobilisation onto the resin. By using the immobilised amine oxidase with 20 mm MTQ, the deracemisation process was found to be slower (ca. 96 h) than with the whole-cell approach, but the isolated yield was considerably higher (yield = 95 %; ee = 99 %). Finally to demonstrate the generality of the approach and explore the effect of working at higher substrate concentration, we examined the preparative deracemisation of (R/S)-2-phenylpyrroldine, analogues of which are potent ligands for the nicotinic acetylcholine receptor. <ref type="bibr" target="#b12">[12]</ref> With the immobilized enzyme, a substrate concentration of 100 mm (14.7 gL À1 ) and ammonia borane (2.5 equiv), the deracemisation was complete within 48 h and, after work-up, yielded (R)-2-phenylpyrrolidine in 80 % yield and 98 % ee.  In order to gain insights into the possible significance of the mutation at Ile246, we generated an homology model of the active site. Although there is no X-ray structure available for monoamine oxidase N (MAO-N) from A. niger, the related enzyme monoamine oxidase B (MAO-B) from human liver has been crystallized, and the structure has been solved to a resolution of 2.5 . <ref type="bibr" target="#b13">[13]</ref> Figure <ref type="figure" target="#fig_0">2</ref> shows a picture of the suicide inhibitor pargyline covalently bound at the active site of MAO-B, together with the key amino acid residues that line the active site (black). We carried out a WU-Blast2 sequence alignment (EMBL-EBI) between MAO-N and MAO-B which revealed 24 % sequence identity and 43 % sequence similarity between the two proteins. The corresponding residues from MAO-N are shown in grey, and it is interesting to note that i) the active sites of both enzymes contain a high proportion of aromatic residues and ii) there is considerable homology, and often identity, between the two enzymes (e.g. Tyr60/Trp94, Tyr435/ Phe466, Tyr188/Trp230, Phe168/Phe210, Tyr365/Tyr326, Leu171/Leu213, Cys172/Cys214, Tyr398/Trp430). Ile246 (MAO-N) maps onto Gln206 (MAO-B), the latter appearing to make intimate contact with the substrate. It is also perhaps significant that these two amino acids are quite different in nature and steric demand, and might therefore represent important residues in the respective proteins for controlling substrate specificity.</p><p>In summary we have developed a practical procedure for deracemisation of cyclic secondary amines by a further round of directed evolution of the monoamine oxidase from A. niger. By using a representative secondary amine as the substrate for screening the library, we were able to identify a variant enzyme that possessed general activity towards a range of structurally related, but different, secondary amines. Furthermore the key mutation Ile246Met appears to be important in terms of controlling substrate specificity, and therefore consti-tutes a "hot spot" that can be explored for altering specificity towards other amine substrates of interest.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Scheme 2 .</head><label>2</label><figDesc>Scheme 2. Relative activities of various amines towards Asn336Ser and Asn336Ser/Ile246Met variants.</figDesc><graphic coords="2,76.71,171.50,303.10,167.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Reduction of MDQ 11 to MTQ 2 by using various reducing agents.</figDesc><graphic coords="2,263.74,517.38,286.26,209.93" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>[b] Dr. M. J. Dawson Novacta Biosystems Ltd, UH Innovation Centre University of Hertfordshire, College Lane Hatfield, Herts AL10 9AB (UK) Supporting information for this article is available on the WWW under http://www.chembiochem.org or from the author. ChemBioChem 2005, 6, 637 -639 DOI: 10.1002/cbic.200400329 2005 Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2005" xml:id="foot_1"><p>Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim www.chembiochem.org ChemBioChem 2005, 6, 637 -639</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We are grateful to the <rs type="funder">BBSRC</rs> and <rs type="institution">GlaxoSmithKline</rs> for funding a <rs type="grantName">CASE award</rs> (R.C.) and to the <rs type="grantName">EU for a Marie-Curie Fellowship</rs> (V.G.-F.). We also thank the <rs type="institution">Wellcome Trust</rs> for financial support. Keywords: amine oxidase • amines • biocatalysis • deracemisation • directed evolution • enantioselectivity</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NDDYyRg">
+					<orgName type="grant-name">CASE award</orgName>
+				</org>
+				<org type="funding" xml:id="_HfBeYBg">
+					<orgName type="grant-name">EU for a Marie-Curie Fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ditrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Habicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keßeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stürmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zelinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angew</forename><surname>Chem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">806</biblScope>
+			<biblScope unit="page">788</biblScope>
+			<date type="published" when="2004">2004. 2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">For a recent review see: M. Breuer, K. Ditrich, T. Habicher, B. Hauer, M. Keßeler, R. Stürmer, T. Zelinski, Angew. Chem. 2004, 116, 806; Angew. Chem. Int. Ed. 2004, 43, 788.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Boezio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pytkowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Côtø</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Charette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Wade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">4227</biblScope>
+			<date type="published" when="2003">2003, 125, 14 260. 2003</date>
+		</imprint>
+	</monogr>
+	<note>Org. Lett.</note>
+	<note type="raw_reference">A. A. Boezio, J. Pytkowicz, A. CôtØ, A. B. Charette, J. Am. Chem. Soc. 2003, 125, 14 260; G. D. Williams, R. A. Pike, C. E. Wade, M. Wills, Org. Lett. 2003, 5, 4227.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Incarvito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hartwig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">272</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Kiener, C. Shu, C. Incarvito, J. F. Hartwig, J. Am. Chem. Soc. 2003, 125, 14 272.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Balkenhohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ditrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ladner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prakt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Chem. Ztg</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page">501</biblScope>
+			<date type="published" when="1997">1997. 2004</date>
+		</imprint>
+	</monogr>
+	<note>Tetrahedron</note>
+	<note type="raw_reference">F. Balkenhohl, K. Ditrich, B. Hauer, W. Ladner, J. Prakt. Chem. Chem. Ztg. 1997, 339, 381; F. van Rantwijk, R. A. Sheldon, Tetrahedron 2004, 60, 501.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Kaufman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron: Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1203</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. S. Kaufman, Tetrahedron: Asymmetry 2004, 15, 1203.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>See</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Breen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron: Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1427</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>and references therein</note>
+	<note type="raw_reference">See G. F. Breen, Tetrahedron: Asymmetry 2004, 15, 1427, and references therein.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Pamies</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">S M</forename><surname>Ell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Samec</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J.-E</forename><surname>Hermanns</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Bäckvall</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">4699</biblScope>
+			<date type="published" when="1996">1996. 2001. 2002</date>
+		</imprint>
+	</monogr>
+	<note>Chimia Org. Lett.</note>
+	<note type="raw_reference">M. T. Reetz, K. Schimossek, Chimia 1996, 50, 668; Y. K. Choi, M. J. Kim, Y. Ahn, M.-J. Kim, Org. Lett. 2001, 3, 4099; O. Pamies, A. H. Ell, J. S. M. Samec, N. Hermanns, J.-E. Bäckvall, Tetrahedron Lett. 2002, 43, 4699.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F.-R</forename><surname>Alexandre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Pantaleone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Fotheringham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>-R. Alexandre</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Roff</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Fotheringham</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">707</biblScope>
+			<date type="published" when="2002">2002. 2002. 246. 2003. 2636</date>
+		</imprint>
+	</monogr>
+	<note>Chem. Commun. Chem. Commun.</note>
+	<note type="raw_reference">F.-R. Alexandre, D. P. Pantaleone, P. P. Taylor, I. G. Fotheringham, D. J. Ager, N. J. Turner, Tetrahedron Lett. 2002, 43, 707; T. Beard, N. J. Turner, Chem. Commun. 2002, 246; A. Enright, F.-R. Alexandre, G. Roff, I. G. Fo- theringham, M. J. Dawson, N. J. Turner, Chem. Commun. 2003, 2636;</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Roff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">4098</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. J. Roff, R. C. Lloyd, N. J. Turner, J. Am. Chem. Soc. 2004, 126, 4098.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">3309</biblScope>
+			<biblScope unit="page">3177</biblScope>
+			<date type="published" when="2002">2002. 2002</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+	<note type="raw_reference">M. Alexeeva, A. Enright, M. J. Dawson, M. Mahmoudian, N. J. Turner, Angew. Chem. 2002, 114, 3309; Angew. Chem. Int. Ed. 2002, 41, 3177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">S</forename><surname>Brakmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Johnsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Directed Molecular Evolution of Proteins</title>
+		<meeting><address><addrLine>Weinheim</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2001">2004. 2001. 253. 2002</date>
+			<biblScope unit="volume">101</biblScope>
+		</imprint>
+	</monogr>
+	<note>Proc. Natl. Acad. Sci. USA</note>
+	<note type="raw_reference">M. T. Reetz, Proc. Natl. Acad. Sci. USA 2004, 101, 5716; F. H. Arnold, Nature 2001, 409, 253; S. Brakmann, K. Johnsson, Directed Molecular Evolution of Proteins, Wiley-VCH, Weinheim, 2002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S C</forename><surname>Eve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">4807</biblScope>
+			<date type="published" when="2003">2003. 2003</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+	<note type="raw_reference">R. Carr, M. Alexeeva, A. Enright, T. S. C. Eve, M. J. Dawson, N. J. Turner, Angew. Chem. 2003, 115, 4955; Angew. Chem. Int. Ed. 2003, 42, 4807.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Ryther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Raszkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Garvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem. Lett</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Glennon</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="1995">1995, 5, 991. 2004</date>
+		</imprint>
+	</monogr>
+	<note>Prog. Med. Chem.</note>
+	<note type="raw_reference">R. L. Elliott, K. B. Ryther, D. J. Anderson, J. L. Raszkiewicz, J. Campbell, J. P. Sullivan, D. S. Garvey, Bioorg. Med. Chem. Lett. 1995, 5, 991; R. A. Glennon, Prog. Med. Chem. 2004, 42, 55.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Binda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Newton-Vinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hubµlek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Edmonson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mattevi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Binda, P. Newton-Vinson, F. Hubµlek, D. E. Edmonson, A. Mattevi, Nat. Struct. Biol. 2002, 9, 22.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

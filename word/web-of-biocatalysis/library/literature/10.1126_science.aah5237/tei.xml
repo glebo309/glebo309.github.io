@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A synthetic pathway for the fixation of carbon dioxide in vitro</title>
+				<funder ref="#_hwSTx2Q">
+					<orgName type="full">ETH Zurich</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Max-Planck-Society</orgName>
+				</funder>
+				<funder ref="#_M6B43th">
+					<orgName type="full">DOE Office of Science User Facility</orgName>
+				</funder>
+				<funder ref="#_qsK2gxH">
+					<orgName type="full">European Research Council</orgName>
+				</funder>
+				<funder ref="#_gsc9dKw">
+					<orgName type="full">Swiss National Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">U.S. Department of Energy Joint Genome Institute</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-04-10">2018 April 10.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Schwander</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Synthetic Biology of Microbial Metabolism Group</orgName>
+								<orgName type="institution">Max-Planck-Institute for Terrestrial Microbiology Marburg</orgName>
+								<address>
+									<addrLine>Karl-von-Frisch-Str. 10</addrLine>
+									<postCode>D-35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lennart</forename><surname>Schada Von Borzyskowski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Synthetic Biology of Microbial Metabolism Group</orgName>
+								<orgName type="institution">Max-Planck-Institute for Terrestrial Microbiology Marburg</orgName>
+								<address>
+									<addrLine>Karl-von-Frisch-Str. 10</addrLine>
+									<postCode>D-35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">ETH Zürich</orgName>
+								<orgName type="department" key="dep2">Institute for Microbiology</orgName>
+								<address>
+									<addrLine>Vladimir-Prelog-Weg 1-5/10</addrLine>
+									<postCode>CH-8093</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simon</forename><surname>Burgener</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Synthetic Biology of Microbial Metabolism Group</orgName>
+								<orgName type="institution">Max-Planck-Institute for Terrestrial Microbiology Marburg</orgName>
+								<address>
+									<addrLine>Karl-von-Frisch-Str. 10</addrLine>
+									<postCode>D-35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">ETH Zürich</orgName>
+								<orgName type="department" key="dep2">Institute for Microbiology</orgName>
+								<address>
+									<addrLine>Vladimir-Prelog-Weg 1-5/10</addrLine>
+									<postCode>CH-8093</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Niña</forename><forename type="middle">Socorro</forename><surname>Cortina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Synthetic Biology of Microbial Metabolism Group</orgName>
+								<orgName type="institution">Max-Planck-Institute for Terrestrial Microbiology Marburg</orgName>
+								<address>
+									<addrLine>Karl-von-Frisch-Str. 10</addrLine>
+									<postCode>D-35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tobias</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Synthetic Biology of Microbial Metabolism Group</orgName>
+								<orgName type="institution">Max-Planck-Institute for Terrestrial Microbiology Marburg</orgName>
+								<address>
+									<addrLine>Karl-von-Frisch-Str. 10</addrLine>
+									<postCode>D-35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">ETH Zürich</orgName>
+								<orgName type="department" key="dep2">Institute for Microbiology</orgName>
+								<address>
+									<addrLine>Vladimir-Prelog-Weg 1-5/10</addrLine>
+									<postCode>CH-8093</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Center for Synthetic Microbiology</orgName>
+								<orgName type="institution">Universität Marburg</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A synthetic pathway for the fixation of carbon dioxide in vitro</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-04-10">2018 April 10.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">471A05C969AD106425D3D8F24FEE5525</idno>
+					<idno type="DOI">10.1126/science.aah5237</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T21:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Carbon dioxide (CO 2 ) is an important carbon feedstock for a future green economy. This requires the development of efficient strategies for its conversion into multi-carbon compounds. Here, we describe a synthetic cycle for the continuous fixation of CO 2 in vitro. The crotonyl-CoA/ ethylmalonyl-CoA/hydroxybutyryl-CoA (CETCH) cycle is a reaction network of 17 enzymes that converts CO 2 into organic molecules at a rate of 5 nmol CO 2 min -1 mg -1 protein. The CETCH cycle was drafted by metabolic retrosynthesis, established with enzymes originating from nine different organisms of all three domains of life and optimized in several rounds by enzyme engineering and metabolic proofreading. The CETCH cycle expands the six naturally evolved CO 2 -fixation pathways by a seventh, synthetic alternative, opening the way for in vitro and in vivo-applications.</p><p>Every year more than 350 gigatons CO 2 are transformed by Nature in a sustainable process called autotrophic CO 2 -fixation. More than 90% of the carbon is fixed by the Calvin-Benson-Bassham (CBB) cycle in plants, algae and microorganisms. The rest is converted through alternative autotrophic CO 2 -fixation pathways (1, 2). Despite this naturally existing diversity, the application of CO 2 -fixing enzymes and pathways for converting CO 2 into multi-carbon, value-added products has been limited so far in chemistry (3, 4) and biotechnology (5). First, natural CO 2 -fixation delivers mainly biomass and not a dedicated product. Moreover, under optimal conditions biological CO 2 -fixation is often directly affected by the inefficiency of the CO 2 -fixing enzymes and pathways. The CBB cycle`s carboxylase ribulose-1,5-bisphosphate carboxylase/oxidase (RubisCO) for instance is a slow catalyst that shows a strong side reaction with oxygen, which leads to the loss of fixed carbon and thus photosynthetic energy by up to 30% in a process called photorespiration (6).</p><p>There have been several attempts to improve biological CO 2 -fixation (7), including evolving RubisCO towards higher reaction rate and specificity (8, 9), engineering more efficient photorespiration <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref> or transplanting natural CO 2 -fixation pathways into non-</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>autotrophic organisms, such as E. coli <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>. In contrast to these efforts, which showed only limited success, the emerging field of synthetic biology provides an alternative approach to create designer CO 2 -fixation pathways. By freely combining different enzymatic reactions from various biological sources, completely artificial CO 2 -fixation routes can be constructed that are kinetically or thermodynamically favored compared to the naturally evolved CO 2 -fixation pathways. Several synthetic routes for CO 2 -fixation have been theoretically considered <ref type="bibr" target="#b14">(15)</ref>. Yet, none of these artificial pathways could be realized so far, emphasizing an existing gap between theoretical design and experimental realization in synthetic biology. A common problem is the attempt to directly assemble synthetic pathways in living organisms. These efforts are challenged by the lack of understanding the complex interplay between the different enzymes used in these synthetic networks, as well as the interference of the synthetic networks in the complex background of the host organism, causing undesired effects like side-reactions and toxicity. Therefore the realization of synthetic pathways requires novel strategies that first allow their testing and optimization in more defined conditions <ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref>. To overcome these limitations, we decided to take a radically different, reductionist approach by assembling a synthetic CO 2 -fixation cycle from its principal components in a bottom-up fashion (Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>A known bottleneck in natural CO 2 -fixation is the efficiency of a carboxylating enzyme in a given pathway <ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>. To identify a suitable CO 2 -fixation reaction for our synthetic cycle we first compared the different biochemical and kinetic properties of all known major carboxylase classes (23) (Table <ref type="table">S1</ref>). Based on this analysis, we decided to rely on coenzyme A (CoA)-dependent carboxylases and in particular enoyl-CoA carboxylases/reductases (ECRs) due to their favorable catalytic properties. ECRs are a recently discovered class of carboxylases that operate in secondary metabolism, as well as in central carbon metabolism of Alphaproteobacteria and Streptomycetes, but notably not in any autotrophic CO 2 -fixation pathway, known so far <ref type="bibr" target="#b23">(24)</ref>. Compared to RubisCO and other carboxylases, ECRs span a broad substrate spectrum <ref type="bibr" target="#b24">(25)</ref>, are oxygen-insensitive, do not accept molecular oxygen as substrate, only require the ubiquitous cofactor NADPH, and catalyze the fixation of CO 2 with high catalytic efficiency (i.e., on average between two-to four-fold better than RubisCO, Table <ref type="table">S1</ref>) <ref type="bibr" target="#b25">(26)</ref>.</p><p>We conceived several theroretical CO 2 -fixation routes that (i) start with a given ECR reaction, (ii) regenerate the carboxylation substrate to allow for a continuous cycling, and (iii) feature a dedicated output reaction to channel the fixed carbon into a product (Fig. <ref type="figure" target="#fig_0">S1</ref>). In contrast to earlier approaches <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b26">27)</ref>, we did not restrict our design to known enzymes, but considered all reactions that seemed biochemically feasible (i.e., fall into one of the standard reaction classes defined by the Enzyme Commission). We obtained several prospective cycles of which seven were considered further (Fig. <ref type="figure" target="#fig_1">S2A-G</ref>).</p><p>In the following, we evaluated the thermodynamic feasibility of these theoretical cycles by calculating their Gibbs free energy profile (Δ r G') under biologically relevant conditions and estimating the presumable ATP-and NADPH-consumption of each cycle per CO 2 -molecule converted (Fig. <ref type="figure" target="#fig_1">S2</ref>, Supplementary Text). Our calculations showed that the synthetic cycles were generally more energy-efficient compared to a stand-alone CBB cycle, as well as the core sequence of other naturally existing, oxygen-insensitive CO 2 -fixation pathways, such as the 3-hydroxypropionate (3HP) bicycle and the 3-hydroxypropionate/4-hydroxybutyrate (3HP/4HB) cycle (Table <ref type="table">S2</ref>). As an example, four of our synthetic cycles required on average 1/3 less ATP per CO 2 converted into phosphoglycerate compared to the core sequence of the CBB cycle. This would translate to at least seven photons less per phosphoglycerate formed from CO 2 in a theoretical photosynthetically-coupled process (Table <ref type="table">1</ref>, Fig. <ref type="figure">S3</ref> &amp; S4). In summary, these calculations suggested that our synthetic cycles could provide very promising solutions to an efficient C-C bond formation under aerobic conditions that compete with naturally existing metabolic pathways.</p><p>Next, we searched bioinformatic databases for enzymes that could sustain our drafts (Fig. <ref type="figure" target="#fig_1">S2</ref>). For the CETCH cycle (Fig. <ref type="figure" target="#fig_1">S2A</ref>) we were able to identify one or more potential enzyme candidates for each reaction of its core sequence. We purified, tested and characterized these candidates and selected a set of 12 enzymes, each with a specific activity &gt;1 U mg -1 protein (at 250 μM substrate concentration, (Table <ref type="table">S3</ref>), to experimentally realize the CETCH cycle as a proof of principle. To demonstrate feasibility of the CETCH cycle, we first reconstituted its central CO 2 -fixation reaction sequence stepwise. We provided cofactors and the chemically synthesized intermediate propionyl-CoA in a buffer containing NaHCO 3 . To this mixture, propionyl-CoA carboxylase (Pcc) was added first, followed by the subsequent addition of the other eleven enzymes. HPLC-MS analysis demonstrated the stepwise transformation of propionyl-CoA into key intermediates of the pathway (Fig. <ref type="figure">S5</ref>), indicating that this first version of the CETCH cycle (CETCH 1.0) was in principle functional.</p><p>To test for continuous operation of CETCH 1.0, we provided all enzymes, cofactors and the artificial electron acceptor ferrocenium from the beginning and started the cycle by addition of propionyl-CoA (Fig. <ref type="figure">S6A</ref>). To follow the dynamics of the cycle, we used NaH 13 CO 3 as CO 2 source for this and all subsequent experiments. Due to the constant incorporation of CO 2 during the course of the cycle, enrichment of the 13 C-isotope in the intermediates can be used to follow flux through the CETCH cycle in the continuous mode and under apparent steady-state conditions (Fig. <ref type="figure">S7</ref>). However, the conversion of CoA-esters stopped before a complete turn of the cycle at the level of methylsuccinyl-CoA, indicating that the methylsuccinyl-CoA dehydrogenase (Mcd) (28) enzyme reaction used in the cycle was rate limiting (Fig. <ref type="figure">S6B-C</ref>, Supplementary Text).</p><p>Mcd belongs to the family of FAD-dependent acyl-CoA dehydrogenases, which are coupled via electron transfer flavoproteins to the membrane bound ubiquinone pool and eventually to the respiratory chain. In the stepwise reconstitution of CETCH 1.0 we had added the artificial electron acceptor ferrocenium together with Mcd to substitute the electron transfer cascade. Under continuous conditions, the use of the artificial electron acceptor from the beginning was limited to 0.1 mM, because higher concentrations caused other enzymes in the assay to precipitate. At 0.1 mM, however, the spontaneous reduction of ferrocenium to ferrocene by NADPH <ref type="bibr" target="#b28">(29)</ref>, as well as the slow re-oxidation rate of ferrocene most probably prevented effective cycling of CETCH 1.0.</p><p>To overcome the limitations caused by Mcd, we engineered the enzyme to directly use molecular oxygen as electron acceptor. Based on structural considerations (Fig. <ref type="figure" target="#fig_0">1</ref>, Supplementary Text), we introduced three point mutations (T317G, E377N, W315F) to convert the dehydrogenase into a functional methylsuccinyl-CoA oxidase (Mco) that catalyzes the oxygen-dependent oxidation of methylsuccinyl-CoA with a v max of 97 ± 6 mU mg -1 and an apparent K M of 27 ± 5 μM. In version 2.0 of the CETCH cycle, we replaced</p><p>Mcd with the engineered Mco. Fractional labeling of intermediates showed that CETCH 2.0 was at least turning twice within 45 minutes (Fig. <ref type="figure">S8</ref>).</p><p>After successful demonstration of the CETCH core cycle under continuous conditions, we next optimized its reaction sequence. We established a read-out module to directly quantify CO 2 -fixation (Fig. <ref type="figure">S9A</ref>). Starting from propionyl-CoA, the CETCH cycle converts two molecules of CO 2 per turn into one molecule of glyoxylate. To measure glyoxylate formation we used a malate synthase (Mas) from Escherichia coli, which condenses glyoxylate with externally added acetyl-CoA to yield malate. From here on we used the malate production rate as a readout -in combination with CoA ester analysis -to improve CO 2 -fixation efficiency of the CETCH cycle stepwise (CETCH 2.0-5.4, Supplementary Text 2).</p><p>During the optimization phase, we added enzymes for ATP-and NADPH-regeneration, provided chemical and enzymatic protection against oxidative damage from H 2 O 2producing enzymes and took care of unwanted side reactions that prevented effective cycling. The CETCH cycle includes enzymes from very different biological sources. The combination of such diverse enzymes into a synthetic pathway poses the challenge that these enzymes face metabolites to which they were never exposed in their native metabolic context, causing undesired side-reactions. Inspired by biology, we pursued different strategies to overcome this problem (Supplementary Text 2, Fig. <ref type="figure" target="#fig_1">S9-S12</ref>). We replaced the original pathway design with alternative reaction sequences, used enzyme engineering to minimize side reactions of promiscuous enzymes, and introduced proofreading enzymes to correct for the formation of dead-end metabolites. While the first two strategies are applied in biotechnology and synthetic biology to improve productivity <ref type="bibr" target="#b29">(30,</ref><ref type="bibr" target="#b30">31)</ref>, the concept of metabolic proofreading was only considered in few cases for synthetic pathway design <ref type="bibr" target="#b15">(16)</ref> although proofreading apparently exists in naturally evolved pathways <ref type="bibr" target="#b31">(32)</ref>. We believe that this design principle should be included more systematically in metabolic engineering in the future.</p><p>Over the course of the optimization, CO 2 -fixation efficiency in the CETCH cycle improved by almost a factor of 20 until version 5.4 (Fig. <ref type="figure" target="#fig_1">2</ref>). CETCH 5.4 represents an in vitro enzyme network that is able to fix CO2 at a rate of 5 nmol min -1 mg -1 of core cycle proteins (Fig. <ref type="figure" target="#fig_1">2C</ref>). This is comparable to the few reported attempts to measure the CBB cycle in cell extracts (1-3 nmol min -1 mg -1 CBB cycle protein, assuming that CBB enzymes account for 30% of the proteome) <ref type="bibr" target="#b32">(33)</ref>. However, we note that cell extracts represent a more complex environment compared to our reductionist in vitro system.</p><p>In total, the 13 core reactions of CETCH 5.4 together with the auxiliary proofreading and cofactor regeneration processes are catalyzed by 17 enzymes from nine different organisms and all three domains of life, including bacteria, archaea, plants and humans. In addition, the cycle features three reactions that were created by rational active-site engineering of existing enzyme scaffolds to catalyze the desired activities, such as Mco and Pco. Notably, CETCH 5.4 relies solely on the reductive carboxylation of enoyl-CoA esters. Although ECRs belong to the most efficient CO 2 -fixing enzymes known to date, they were not employed by nature for autotrophic CO 2 -fixation during evolution, as far as we know. The reallocation of reductive carboxylation as key reaction for a synthetic autotrophic CO 2 -fixation cycle thus goes beyond simply improving or reshuffling naturally existing autotrophic CO 2 -fixation reactions and pathways. Thus, the CETCH cycle expands the diversity of the six naturally evolved CO 2 -fixation strategies by a seventh, synthetic alternative that did not require the serendipity of evolution to bring together all components in space and time <ref type="bibr" target="#b33">(34)</ref>.</p><p>The successful in vitro reconstitution of a synthetic enzymatic network for the conversion of CO 2 into organic products that is superior to chemical processes and competes with naturally existing CO 2 -fixing solutions in vitro opens the door for several future applications. These could include the in vivo-transplantation of synthetic CO 2 -fixation cycles into lithotrophic or photosynthetic organisms, paving the way to improved CO 2fixation <ref type="bibr" target="#b34">(35)</ref>; the use of synthetic CO 2 -fixation cycles in the development of artificial photosynthetic processes (e.g., in combination with photovoltaics or artificial leafs)(36) ; or as starting point for the design of a self-sustained, completely synthetic carbon metabolism in artificial or minimal cells <ref type="bibr" target="#b36">(37)</ref>.  CO 2 -fixation efficiency is defined as the CO 2 -equivalents fixed per acceptor molecule in the cycle (i.e., starting amount of propionyl-CoA). Right x-axis: Absolute malate concentration formed over the course of 90 minutes in CETCH 5.4. The final assay (0.52 ml) contained 2.3 mg ml -1 protein of cycle core enzymes plus 0.8 mg ml -1 auxillary enzymes and produced 540 μM malate over 90 min, which corresponds to 1080 μM fixed CO 2 .</p><p>Table 1</p><p>Comparison Pathway Status # rxns [a] Σ NAD(P)H Σ ATP Σ FADH2 ATP equiv. per CO 2 [b] Photons per CO 2 (additional ATP left) [c] CETCH cycle [d] Theoretical 11 -4 -4 2 -6.2 16 (+ 2.1 ATP) HOPAC cycle [d] Theoretical 12 -4 -3 1 -6.5 16 (+ 1.1 ATP) FUMES cycle [d] Theoretical 11 -4 -3 1 -6.5 16 (+ 2.1 ATP) HITME cycle [d] Theoretical 12 -4 -3 1 -6.5 16 (+ 2.1 ATP) CBB cycle Natural 13 -5 -8 0 -6.8 21 (+0.1 ATP) CBB cycle (+ O 2 ) [e] Natural 13 -5 -8 0 -8.2 24 (n.c.) 3HP bicycle [f] Natural 15 -6 -7 1 -6.8 24 (+0.7 ATP) 3HP/4HB cycle [g]</p><p>Natural 13 -7 -8 1 -8.0 28 (+1.0 ATP) CETCH 2.0 -4.0 [d],[h] Synthetic 11 -4 -4 0 / 1 [i] -7.5 / -6.5 [i] 16 (+2.1 ATP) CETCH 5.0 -5.4 [d],[h] Synthetic 13 -5 -2 0 / 2 [i] -8.5 / -6.5 [i] 20 (+4.4 ATP) [a]</p><p>Stereochemical conversions, such as racemization or epimerization reactions are not taken into account.</p><p>[b] For ATP per CO 2 conversion a P/O ratio of 2.5 for NAD(P)H and 1.5 for FADH 2 was assumed (38).</p><p>[c] For photons per CO 2 conversions, the number of biologically generated photons required for the generation of the NADPH and ATP in each cycle was calculated, assuming a stoichiometry of 1 NADPH and 1.28 ATP per 4 photons <ref type="bibr" target="#b38">(39)</ref>. The photon energy left is given in ATP equivalents.</p><p>These calculations do not consider the additional generation of ATP through any FADH 2 generated through a given pathway.</p><p>[d] Transformation of the initial CO 2 -fixation product glyoxylate into phosphoglycerate was calculated via glyoxylate carboligase (40).</p><p>[e]</p><p>Assuming a loss of 20% photosynthetic energy due to photorespiration.</p><p>[f] Transformation of the initial CO 2 -fixation product pyruvate was calculated via pyruvate synthase.</p><p>[g] Transformation of the initial CO2-fixation product acetyl-CoA via pyruvate: water dikinase</p><p>[h] Transformation of the initial CO 2 -fixation product acetyl-CoA via acetyl/propionyl-CoA carboxylase and PEP carboxykinase.</p><p>[i]</p><p>Calculations for a process, where the electrons from the two oxidase reactions could be conserved via a respiratory chain.</p><p>Science. Author manuscript; available in PMC 2018 April 10.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Structure guided engineering of Mcd into a Mco. (A) Active site comparison of the human short-chain acyl-CoA dehydrogenase (PDB: 2VIG, green backbone) with a model of Mcd from Rhodobacter sphaeroides (blue backbone, modeled by the SWISS-MODEL server with 2VIG as template) and the short-chain acyl-CoA oxidase 4 from Arabidopsis thaliana (PDB: 2IX5, orange backbone). The three residues that were targeted to introduce oxidase activity into Mcd are highlighted. (B) HPLC-MS based analysis of wild-type and different single active-site mutants for oxidation of methylsuccinyl-CoA into mesaconyl-CoA with molecular oxygen as electron acceptor. The screen identified three substitutions (W315F, T317G and E377N) that were combined into double and triple mutants. (C) Michaelis-Menten graphs of single, double and triple mutants characterized in more detail. The triple mutant showed best kinetic parameters.</figDesc><graphic coords="8,84.00,62.00,504.00,452.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The CETCH cycle. (A) Topology of the CETCH cycle (version 5.4), including proofreading and cofactor regenerating enzymes. Numbering of reaction steps and enzyme abbreviations according to Table S3. (B) Dynamics of key intermediates of CETCH 5.4 over 90 minutes. Shown are the levels of six different intermediates, as well as their fractional labeling patterns from the incorporation of 13 CO 2 for each turn of the cycle (see Fig. S6 for the expected labeling pattern). Intermediate coloring according to panel A. (C) Left x-axis: CO 2 -fixation efficiency of the CETCH cycle over the course of its optimization (see Supplementary text).</figDesc><graphic coords="9,114.60,62.00,442.80,503.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>of selected theoretical and synthetic CO 2 -fixation cycles with the core sequence of naturally existing, aero-tolerant CO 2 -fixation pathways. Shown are the number of reaction steps, the number of NAD(P)H, ATP and FADH 2 required (red) or generated (blue) during conversion of CO 2 into one molecule of phosphoglycerate. These values were normalized to ATP equivalents required per CO 2 molecule fixed into phosphoglycerate, or alternatively to the number of photons per CO 2 fixed into phosphoglycerate in a theoretical photosynthetically-coupled process (see Supplementary Text 1 and Fig. S2 &amp; S3 for a more detailed analysis).</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Science. Author manuscript; available in PMC 2018 April 10.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">U. Oppermann</rs> for the expression plasmid p2BP1, <rs type="person">K. Castiglione</rs> for the expression plasmid of Fdh (D221A) and <rs type="person">J. Andexer</rs> for the expression plasmid for Pkk2 and the purified enzyme. We thank <rs type="person">Dr. J. Zarzycki</rs> and <rs type="person">B. Vögeli</rs> for contribution during pathway design. The work conducted by the <rs type="funder">U.S. Department of Energy Joint Genome Institute</rs>, a <rs type="funder">DOE Office of Science User Facility</rs>, is supported under Contract No. <rs type="grantNumber">DE-AC02-05CH11231</rs>. This work was funded by the <rs type="funder">European Research Council</rs> (<rs type="grantNumber">ERC 637675</rs> '<rs type="projectName">SYBORG</rs>'), the <rs type="funder">Swiss National Science Foundation</rs> (<rs type="grantName">Ambizione grant</rs> <rs type="grantNumber">PZ00P3_136828/1</rs>), <rs type="funder">ETH Zurich</rs> (<rs type="grantName">ETH grant</rs> <rs type="grantNumber">ETH-41 12-2</rs>) and the <rs type="funder">Max-Planck-Society</rs>. Supporting data are available in the Supplementary Materials.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_M6B43th">
+					<idno type="grant-number">DE-AC02-05CH11231</idno>
+				</org>
+				<org type="funded-project" xml:id="_qsK2gxH">
+					<idno type="grant-number">ERC 637675</idno>
+					<orgName type="project" subtype="full">SYBORG</orgName>
+				</org>
+				<org type="funding" xml:id="_gsc9dKw">
+					<idno type="grant-number">PZ00P3_136828/1</idno>
+					<orgName type="grant-name">Ambizione grant</orgName>
+				</org>
+				<org type="funding" xml:id="_hwSTx2Q">
+					<idno type="grant-number">ETH-41 12-2</idno>
+					<orgName type="grant-name">ETH grant</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Berg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Env Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1925" to="1936" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21216907</note>
+	<note type="raw_reference">Berg IA. Appl Env Microbiol. 2011; 77:1925-1936. [PubMed: 21216907]</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="631" to="658" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21740227</note>
+	<note type="raw_reference">Fuchs G. Annu Rev Microbiol. 2011; 65:631-658. [PubMed: 21740227]</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Greenhouse gases: Mitigation and utilization, CHEMRAWN-XVII and ICCDU-IX Conference</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aresta</surname></persName>
+		</author>
+		<editor>Buncel, E.</editor>
+		<imprint>
+			<date type="published" when="2007">July 8 to 12, 2007. 2009</date>
+			<publisher>Queen&apos;s University</publisher>
+			<biblScope unit="page" from="123" to="149" />
+			<pubPlace>Kingston, ON, Canada</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aresta, M. In: Buncel, E., editor. Greenhouse gases: Mitigation and utilization, CHEMRAWN-XVII and ICCDU-IX Conference; July 8 to 12, 2007; Kingston, ON, Canada: Queen&apos;s University; 2009. p. 123-149.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Glueck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gumus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wmf</forename><surname>Fabian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Soc Rev</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="313" to="328" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20023855</note>
+	<note type="raw_reference">Glueck SM, Gumus S, Fabian WMF, Faber K. Chem Soc Rev. 2010; 39:313-328. [PubMed: 20023855]</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rosgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Porcellinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">U</forename><surname>Frigaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sakuragi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="134" to="147" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22677697</note>
+	<note type="raw_reference">Rosgaard L, de Porcellinis AJ, Jacobsen JH, Frigaard NU, Sakuragi Y. J Biotechnol. 2012; 162:134- 147. [PubMed: 22677697]</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanloocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bernacchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Ort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="107" to="129" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26865340</note>
+	<note type="raw_reference">Walker BJ, VanLoocke A, Bernacchi CJ, Ort DR. Annu Rev Plant Biol. 2016; 67:107-129. [PubMed: 26865340]</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zarzycki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27400232</note>
+	<note type="raw_reference">Erb TJ, Zarzycki J. Curr Opin Chem Biol. 2016; 34:72-79. [PubMed: 27400232]</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Matsumura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">404</biblScope>
+			<biblScope unit="page" from="517" to="524" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17391103</note>
+	<note type="raw_reference">Greene DN, Whitney SM, Matsumura I. Biochem J. 2007; 404:517-524. [PubMed: 17391103]</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Kreel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Tabita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2015">2015. 0138351</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 26381513</note>
+	<note type="raw_reference">Kreel NE, Tabita FR. PLoS One. 2015; 10:e0138351. [PubMed: 26381513]</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zarzycki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Niyogi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kerfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="9493" to="9500" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24558040</note>
+	<note type="raw_reference">Shih PM, Zarzycki J, Niyogi KK, Kerfeld CA. J Biol Chem. 2014; 289:9493-9500. [PubMed: 24558040]</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kebeish</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="593" to="599" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17435746</note>
+	<note type="raw_reference">Kebeish R, et al. Nat Biotechnol. 2007; 25:593-599. [PubMed: 17435746]</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mattozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ziesack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Voges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Way</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metab Eng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="130" to="139" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23376595</note>
+	<note type="raw_reference">Mattozzi M, Ziesack M, Voges MJ, Silver PA, Way JC. Metab Eng. 2013; 16:130-139. [PubMed: 23376595]</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Keller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5840" to="5845" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23530213</note>
+	<note type="raw_reference">Keller MW, et al. Proc Natl Acad Sci USA. 2013; 110:5840-5845. [PubMed: 23530213]</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Antonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="115" to="125" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27345370</note>
+	<note type="raw_reference">Antonovsky N, et al. Cell. 2016; 166:115-125. [PubMed: 27345370]</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bar-Even</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milo</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="8889" to="8894" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20410460</note>
+	<note type="raw_reference">Bar-Even A, Noor E, Lewis NE, Milo R. Proc Natl Acad Sci USA. 2010; 107:8889-8894. [PubMed: 20410460]</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Opgenorth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Korman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">U</forename><surname>Bowie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="393" to="U329" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27065234</note>
+	<note type="raw_reference">Opgenorth PH, Korman TP, Bowie JU. Nat Chem Biol. 2016; 12:393-U329. [PubMed: 27065234]</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Billerbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bujara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pellaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Panke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Febs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="23" to="23" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Billerbeck S, Bujara M, Hold C, Pellaux R, Panke S. FEBS J. 2010; 277:23-23.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hodgman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Jewett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metab Eng</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="261" to="269" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21946161</note>
+	<note type="raw_reference">Hodgman CE, Jewett MC. Metab Eng. 2012; 14:261-269. [PubMed: 21946161]</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rollin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yhp</forename><forename type="middle">Green</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chem</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1708" to="1719" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rollin JA, Tam TK, Zhang YHP. Green Chem. 2013; 15:1708-1719.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ainsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Ort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="591" to="628" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15377233</note>
+	<note type="raw_reference">Long SP, Ainsworth EA, Rogers A, Ort DR. Annu Rev Plant Biol. 2004; 55:591-628. [PubMed: 15377233]</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Spreitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Salvucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="449" to="475" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12221984</note>
+	<note type="raw_reference">Spreitzer RJ, Salvucci ME. Annu Rev Plant Biol. 2002; 53:449-475. [PubMed: 12221984]</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Konneke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="8239" to="8244" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24843170</note>
+	<note type="raw_reference">Konneke M, et al. Proc Natl Acad Sci USA. 2014; 111:8239-8244. [PubMed: 24843170]</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schada Von Borzyskowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J BIotechnol</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="243" to="251" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23702164</note>
+	<note type="raw_reference">Schada von Borzyskowski L, Rosenthal RG, Erb TJ. J BIotechnol. 2013; 168:243-251. [PubMed: 23702164]</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Proc Natl Acad Sci USA</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="10631" to="10636" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17548827</note>
+	<note type="raw_reference">Erb TJ, et al. Proc Natl Acad Sci USA. 2007; 104:10631-10636. [PubMed: 17548827]</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Peter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="13457" to="13461" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26383129</note>
+	<note type="raw_reference">Peter DM, et al. Angew Chem. 2015; 54:13457-13461. [PubMed: 26383129]</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Alber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="8871" to="8876" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19458256</note>
+	<note type="raw_reference">Erb TJ, Brecht V, Fuchs G, Muller M, Alber BE. Proc Natl Acad Sci USA. 2009; 106:8871-8876. [PubMed: 19458256]</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Volpers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2016">2016. 0157851</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27336167</note>
+	<note type="raw_reference">Volpers M, et al. PLoS One. 2016; 11:e0157851. [PubMed: 27336167]</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Alber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="992" to="1008" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19703103</note>
+	<note type="raw_reference">Erb TJ, Fuchs G, Alber BE. Mol Microbiol. 2009; 73:992-1008. [PubMed: 19703103]</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="7453" to="7454" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carlson BW, Miller LL. J Am Chem Soc. 1983; 105:7453-7454.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Lorenzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Danchin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="96" to="119" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25227915</note>
+	<note type="raw_reference">de Lorenzo V, Sekowska A, Danchin A. FEMS Microbiol Rev. 2015; 39:96-119. [PubMed: 25227915]</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lerma-Ortiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="961" to="971" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 27284066</note>
+	<note type="raw_reference">Lerma-Ortiz C, et al. Biochem Soc Trans. 2016; 44:961-971. [PubMed: 27284066]</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Linster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="42992" to="43003" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22016388</note>
+	<note type="raw_reference">Linster CL, et al. J Biol Chem. 2011; 286:42992-43003. [PubMed: 22016388]</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Gale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">1052</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 4293079</note>
+	<note type="raw_reference">Gale NL, Beck JV. J Bacteriol. 1967; 94:1052. [PubMed: 4293079]</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jacob</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="1161" to="1166" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 860134</note>
+	<note type="raw_reference">Jacob F. Science. 1977; 196:1161-1166. [PubMed: 860134]</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Ort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acacd Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="8529" to="8536" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ort DR, et al. Proc Natl Acacd Sci USA. 2015; 112:8529-8536.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Yadav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="11455" to="11461" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22769600</note>
+	<note type="raw_reference">Yadav RK, et al. J Am Chem Soc. 2012; 134:11455-11461. [PubMed: 22769600]</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hutchison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="1414" to="U1473" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hutchison CA, et al. Science. 2016; 351:1414-U1473.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hinkle</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bioenerget</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">1706</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hinkle PC. BBA Bioenerget. 2005; 1706:1-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="70" to="78" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21078862</note>
+	<note type="raw_reference">Kramer DM, Evans JR. Plant Physiol. 2011; 155:70-78. [PubMed: 21078862]</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schada Von Borzyskowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Remus</forename><forename type="middle">-</forename><surname>Emsermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weishaupt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vorholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="430" to="443" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25105793</note>
+	<note type="raw_reference">Schada von Borzyskowski L, Remus-Emsermann M, Weishaupt R, Vorholt JA, Erb TJ. ACS Synth Biol. 2015; 4:430-443. [PubMed: 25105793]</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vogeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Cortina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peter DM, Vogeli B, Cortina NS, Erb TJ. Molecules. 2016; 21</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Rosenthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="50" to="55" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24240506</note>
+	<note type="raw_reference">Rosenthal RG, et al. Nat Chem Biol. 2014; 10:50-55. [PubMed: 24240506]</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Molecular Cloning A Laboratory Manual</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sambrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Russell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sambrook, J., Russell, DW. Molecular Cloning A Laboratory Manual. ed. 3. 2001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Marco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="2632" to="2639" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17948006</note>
+	<note type="raw_reference">de Marco A. Nat Protoc. 2007; 2:2632-2639. [PubMed: 17948006]</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kiefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vorholt</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bioinf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="963" to="964" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiefer P, Schmitt U, Vorholt JA. Bioinf. 2013; 29:963-964.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Bajad</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">1125</biblScope>
+			<biblScope unit="page" from="76" to="88" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bajad SU, et al. J Chromat A. 2006; 1125:76-88.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoelsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Suhrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heusel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weuster-Botz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="2473" to="2481" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22588502</note>
+	<note type="raw_reference">Hoelsch K, Suhrer I, Heusel M, Weuster-Botz D. Appl Microbiol Biotechnol. 2013; 97:2473-2481. [PubMed: 22588502]</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Frerichs-Revermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Alber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="1249" to="1258" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20047909</note>
+	<note type="raw_reference">Erb TJ, Frerichs-Revermann L, Fuchs G, Alber BE. J Bacteriol. 2010; 192:1249-1258. [PubMed: 20047909]</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">466</biblScope>
+			<biblScope unit="page" from="1001" to="1005" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20725044</note>
+	<note type="raw_reference">Huang CS, et al. Nature. 2010; 466:1001-1005. [PubMed: 20725044]</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nocek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="17730" to="17735" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19001261</note>
+	<note type="raw_reference">Nocek B, et al. Proc Natl Acad Sci USA. 2008; 105:17730-17735. [PubMed: 19001261]</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flamholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bar-Even</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milo</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Ac Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="770" to="D775" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flamholz A, Noor E, Bar-Even A, Milo R. Nucl Ac Res. 2012; 40:D770-D775.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Henriksen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="31012" to="31020" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16887802</note>
+	<note type="raw_reference">Mackenzie J, Pedersen L, Arent S, Henriksen A. J Biol Chem. 2006; 281:31012-31020. [PubMed: 16887802]</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Peter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>ETH Zurich; Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">DM. Doctoral Thesis</note>
+	<note type="raw_reference">Peter, DM. Doctoral Thesis. ETH Zurich; Switzerland: 2016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Ac Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="439" to="446" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chang A, et al. Nucl Ac Res. 2015; 43:D439-446.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Retey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Alber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="32283" to="32293" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18819910</note>
+	<note type="raw_reference">Erb TJ, Retey J, Fuchs G, Alber BE. J Biol Chem. 2008; 283:32283-32293. [PubMed: 18819910]</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Erb</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Freiburg</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">TJ. Doctoral Thesis</note>
+	<note type="raw_reference">Erb, TJ. Doctoral Thesis. University of Freiburg; Germany: 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sohling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gottschalk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 8444151</note>
+	<note type="raw_reference">Sohling B, Gottschalk G. Eur J Biochem. 1993; 212:121-127. [PubMed: 8444151]</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zarzycki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="1366" to="1374" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18065535</note>
+	<note type="raw_reference">Zarzycki J, et al. J Bacteriol. 2008; 190:1366-1374. [PubMed: 18065535]</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Anstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kallio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Remington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prot Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1822" to="1832" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anstrom DM, Kallio K, Remington SJ. Prot Sci. 2003; 12:1822-1832.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sevinc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Loewen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">230</biblScope>
+			<biblScope unit="page" from="127" to="132" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 7601091</note>
+	<note type="raw_reference">Sevinc MS, Ens W, Loewen PC. Eur J Biochem. 1995; 230:127-132. [PubMed: 7601091]</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaplun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">18176558</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaplun A, et al. Nat Chem Biol. 2008; 4:113-118. [PubMed: 18176558]</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Kornberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="604" to="605" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 13707448</note>
+	<note type="raw_reference">Gotto AM, Kornberg HL. Biochim Biophys Acta. 1961; 48:604-605. [PubMed: 13707448]</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kitagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">DNA Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="291" to="299" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16769691</note>
+	<note type="raw_reference">Kitagawa M, et al. DNA Res. 2005; 12:291-299. [PubMed: 16769691]</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

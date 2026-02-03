@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Earth BioGenome Project: Sequencing life for the future of life</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-04-23">April 23, 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Harris</forename><forename type="middle">A</forename><surname>Lewin</surname></persName>
+							<email>lewin@ucdavis.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Edited by John C. Avise</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Evolution and Ecology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Population Health and Reproduction</orgName>
+								<orgName type="department" key="dep2">School of Veterinary Medicine</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">The John Muir Institute of the Environment</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gene</forename><forename type="middle">E</forename><surname>Robinson</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Davis Genome Center</orgName>
+								<orgName type="institution" key="instit1">The University of California</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">W</forename><forename type="middle">John</forename><surname>Kress</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Entomology, and Neuroscience Program</orgName>
+								<orgName type="institution" key="instit1">Carl R. Woese Institute for Genomic Biology</orgName>
+								<orgName type="institution" key="instit2">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">National Museum of Natural History</orgName>
+								<orgName type="institution" key="instit2">Smithsonian Institution</orgName>
+								<address>
+									<postCode>20013</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Coddington</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Entomology, and Neuroscience Program</orgName>
+								<orgName type="institution" key="instit1">Carl R. Woese Institute for Genomic Biology</orgName>
+								<orgName type="institution" key="instit2">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Crandall</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Computational Biology Institute</orgName>
+								<orgName type="institution">Royal Botanic Gardens</orgName>
+								<address>
+									<postCode>TW9 3AE</postCode>
+									<settlement>Kew Richmond</settlement>
+									<region>Surrey</region>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Durbin</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Milken Institute School of Public Health</orgName>
+								<orgName type="institution">George Washington University</orgName>
+								<address>
+									<postCode>20052</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Genetics</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<postCode>CB10 1SA</postCode>
+									<settlement>Cambridge</settlement>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Scott</forename><forename type="middle">V</forename><surname>Edwards</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Organismic and Evolutionary Biology</orgName>
+								<orgName type="institution">Wellcome Trust Sanger Institute</orgName>
+								<address>
+									<postCode>CB10 1SA</postCode>
+									<settlement>Cambridge</settlement>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Museum of Comparative Zoology</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Élix</forename><surname>Forest</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">National Museum of Natural History</orgName>
+								<orgName type="institution" key="instit2">Smithsonian Institution</orgName>
+								<address>
+									<postCode>20013</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Thomas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Gilbert</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="institution" key="instit1">Natural History Museum of Denmark</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+								<address>
+									<postCode>1350</postCode>
+									<settlement>Copenhagen</settlement>
+									<country>Denmark;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Melissa</forename><forename type="middle">M</forename><surname>Goldstein</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Igor</forename><forename type="middle">V</forename><surname>Grigoriev</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">Department of Plant and Microbial Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><forename type="middle">J</forename><surname>Hackett</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">Department of Agriculture</orgName>
+								<orgName type="laboratory">Agricultural Research Center</orgName>
+								<address>
+									<postCode>20705</postCode>
+									<settlement>Beltsville</settlement>
+									<region>MD</region>
+									<country>US</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Haussler</surname></persName>
+							<affiliation key="aff19">
+								<orgName type="institution" key="instit1">UC Santa Cruz Genomics Institute</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>95064</postCode>
+									<settlement>Santa Cruz</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff20">
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>95064</postCode>
+									<settlement>Santa Cruz</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Erich</forename><forename type="middle">D</forename><surname>Jarvis</surname></persName>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Laboratory of Neurogenetics of Language</orgName>
+								<orgName type="institution">The Rockefeller University</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Warren</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff22">
+								<orgName type="department">Conservation Biology Institute</orgName>
+								<orgName type="institution" key="instit1">National Zoological Park</orgName>
+								<orgName type="institution" key="instit2">Smithsonian Institution</orgName>
+								<address>
+									<postCode>22630</postCode>
+									<settlement>Front Royal</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aristides</forename><surname>Patrinos</surname></persName>
+							<affiliation key="aff23">
+								<orgName type="laboratory">Novim Group</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>93106</postCode>
+									<settlement>Santa Barbara</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><surname>Richards</surname></persName>
+							<affiliation key="aff24">
+								<orgName type="department">Human Genome Sequencing Center</orgName>
+								<orgName type="institution">Baylor College of Medicine</orgName>
+								<address>
+									<postCode>77030</postCode>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Carlos Castilla-Rubio</surname></persName>
+							<affiliation key="aff25">
+								<orgName type="department">World Economic Forum&apos;s Global Future Council on Environment and Natural Resource Security</orgName>
+								<address>
+									<postCode>CH-1223</postCode>
+									<settlement>Cologny</settlement>
+									<country>Geneva Switzerland;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff26">
+								<orgName type="department">Space Time Ventures</orgName>
+								<orgName type="institution">S ão Paulo</orgName>
+								<address>
+									<postCode>05449-050</postCode>
+									<region>SP</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>bb</roleName><forename type="first">Marie-Anne</forename><surname>Van Sluys Aa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Pamela</forename><forename type="middle">S</forename><surname>Soltis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xun</forename><surname>Xu Dd</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Huanming</forename><surname>Yang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guojie</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="department">Department of Health Policy and Management</orgName>
+								<orgName type="institution" key="instit1">University Museum</orgName>
+								<orgName type="institution" key="instit2">Norwegian University of Science and Technology</orgName>
+								<address>
+									<postCode>N-7491</postCode>
+									<settlement>Trondheim Norway</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="department">Milken Institute School of Public Health</orgName>
+								<orgName type="institution">George Washington University</orgName>
+								<address>
+									<postCode>20052</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<orgName type="department">Department of Energy Joint Genome Institute</orgName>
+								<address>
+									<postCode>94598</postCode>
+									<settlement>Walnut Creek</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff27">
+								<orgName type="department">Departmento de Botanica</orgName>
+								<orgName type="laboratory">bb S ão Paulo Research Foundation (FAPESP)</orgName>
+								<orgName type="institution" key="instit1">Instituto de Biociencia</orgName>
+								<orgName type="institution" key="instit2">Universidade de S ão Paulo, S ão Paulo</orgName>
+								<address>
+									<postCode>05508-090 05468-901</postCode>
+									<region>SP SP</region>
+									<country>Brazil; Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff28">
+								<orgName type="institution" key="instit1">Florida Museum of Natural History</orgName>
+								<orgName type="institution" key="instit2">University of Florida</orgName>
+								<address>
+									<postCode>32611</postCode>
+									<settlement>Gainesville</settlement>
+									<region>FL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff29">
+								<orgName type="department">ee BGI-Shenzhen</orgName>
+								<orgName type="institution" key="instit1">dd China National Genebank</orgName>
+								<orgName type="institution" key="instit2">BGI-Shenzhen</orgName>
+								<address>
+									<postCode>518083 518083</postCode>
+									<settlement>Shenzhen Guangdong Shenzhen Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff30">
+								<orgName type="department" key="dep1">ff Section for Ecology and Evolution</orgName>
+								<orgName type="department" key="dep2">Department of Biology</orgName>
+								<orgName type="laboratory">gg State Key Laboratory of Genetic Resources and Evolution</orgName>
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<postCode>DK-2100</postCode>
+									<settlement>Copenhagen</settlement>
+									<country>Denmark;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff31">
+								<orgName type="institution" key="instit1">Kunming Institute of Zoology</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>650223</postCode>
+									<settlement>Kunming</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Earth BioGenome Project: Sequencing life for the future of life</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-04-23">April 23, 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5DB0BB2CAC0DC821A4F3FF1AC69D23AB</idno>
+					<idno type="DOI">10.1073/pnas.1720115115/-/DCSupplemental</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Increasing our understanding of Earth's biodiversity and responsibly stewarding its resources are among the most crucial scientific and social challenges of the new millennium. These challenges require fundamental new knowledge of the organization, evolution, functions, and interactions among millions of the planet's organisms. Herein, we present a perspective on the Earth BioGenome Project (EBP), a moonshot for biology that aims to sequence, catalog, and characterize the genomes of all of Earth's eukaryotic biodiversity over a period of 10 years. The outcomes of the EBP will inform a broad range of major issues facing humanity, such as the impact of climate change on biodiversity, the conservation of endangered species and ecosystems, and the preservation and enhancement of ecosystem services. We describe hurdles that the project faces, including data-sharing policies that ensure a permanent, freely available resource for future scientific discovery while respecting access and benefit sharing guidelines of the Nagoya Protocol. We also describe scientific and organizational challenges in executing such an ambitious project, and the structure proposed to achieve the project's goals. The far-reaching potential benefits of creating an open digital repository of genomic information for life on Earth can be realized only by a coordinated international effort.</p><p>biodiversity | genome sequencing | access and benefit sharing | genomics | data science Our task now is to resynthesize biology; put the organism back into its environment; connect it again to its evolutionary past; and let us feel that complex flow that is organism, evolution, and environment united.</p><p>Carl R. Woese, New Biology for a New Century</p><p>We are only just beginning to understand the full majesty of life on Earth (1). Although 10-15 million eukaryotic species and perhaps trillions of bacterial and archaeal species adorn the Tree of Life, ∼2.3 million are actually known (2), and of those, fewer than 15,000, mostly microbes, have completed or partially</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="584.957" lry="782.986"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>sequenced genomes (Fig. <ref type="figure">1</ref>). From this small fraction of Earth's known biome, a significant portion of modern knowledge in biology and the life sciences has emerged. This foundational knowledge has facilitated enormous advances in agriculture, medicine, and biology-based industries and enhanced approaches for conservation of endangered species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biodiversity: A Threatened Global Resource Provides a Call to Action</head><p>Despite these great advances, the world's biodiversity is largely uncharacterized and increasingly threatened by climate change, habitat destruction, species exploitation, and other human-related activities. The Living Planet Index reported a 58% decline in vertebrate populations during the 42-year period from 1970 to 2012 <ref type="bibr" target="#b2">(3)</ref>, and the International Union for Conservation of Nature (IUCN) estimated that ∼23,000 of ∼80,000 species surveyed are approaching extinction <ref type="bibr" target="#b3">(4)</ref>. We are in the midst of the sixth great extinction event of life on our planet <ref type="bibr" target="#b4">(5)</ref>, which not only threatens wildlife species but also imperils the global food supply <ref type="bibr" target="#b5">(6)</ref>. By the year 2050, up to 50% of existing species may become extinct mainly due to natural resource-intensive industries <ref type="bibr" target="#b4">(5)</ref>. Humanity faces the question of how such massive losses of species diversity will affect the complex ecosystems that sustain life on Earth, including our ability to derive the foods, biomaterials, bioenergy, and medicines necessary to support an expected human population of 9.6 billion by 2050. Ecosystem collapse on a global scale is a real possibility, making the preservation and conservation of terrestrial, marine, freshwater, desert, and agricultural ecosystems a global imperative for human survival and prosperity.</p><p>Unimaginable biological secrets are held in the genomes of the millions of known and unknown organisms on our planet. This "dark matter" of biology could hold the key to unlocking the potential for sustaining planetary ecosystems on which we depend and provide life support systems for a burgeoning world population. For example, from invertebrates, such as sponges, mollusks, tunicates, and cone snails, several Food and Drug Administration-approved drugs have been developed for treating cancer (e.g., cytarabine, initially isolated from a sponge), virus infections, and pain <ref type="bibr" target="#b6">(7)</ref>. More than 25 marine-derived drugs are in preclinical or clinical trials. Fungi are the basis for fermentation to produce wine, beer, and bread, and knowledge gained from yeast genomics has led to improved production strains for brewers and vintners and bioenergy production from waste streams. From the more than 391,000 known species of plants (<ref type="url" target="https://stateoftheworldsplants.com/2016/">https://stateoftheworldsplants.com/2016/</ref>), hundreds of drugs for treating pain (e.g., opiates) and chronic diseases, including cancer (e.g., taxol), have been produced and commercialized. Plants are also the basis of large industries, such as food, rubber, and second generation bioethanol production. Thus, sequencing and annotating the vast number of previously uncharacterized genomes will continue to result in the discovery of many new useful genes, proteins, and novel metabolic pathways. These organisms and their genomes will provide the raw materials for genome engineering and synthetic biology approaches to produce valuable bioproducts at industrial scale, as has been accomplished for artemisinin, which is used to treat malaria and nematode infections <ref type="bibr" target="#b7">(8)</ref>. Sustainable production of goods and bioinspired materials is the foundation for a healthy planet, especially as humanity transitions from petrochemical inputs to reduce carbon emissions and other greenhouse gases.</p><p>Many pioneering discoveries have been made using species across the phylogenetic spectrum as a direct result of the genomics revolution. With initial efforts focused primarily on our own species, the US Government's initial investment of $3 billion to sequence and annotate the human genome plus significant contributions from the Wellcome Trust and other international funding bodies resulted in an entirely new field of medicine and more than $1 trillion of direct economic benefit <ref type="bibr" target="#b8">(9)</ref>. Driven by the technological advances made during the Human Genome Project, sequencing of other genomes across the Tree of Life has contributed to expanding scientific knowledge and the global economy (Table <ref type="table" target="#tab_1">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequencing All Eukaryotic Life: Why Now</head><p>Powerful advances in genome sequencing technology, informatics, automation, and artificial intelligence have propelled humankind to the threshold of a new beginning in understanding, utilizing, and conserving biodiversity. For the first time in history, it is possible to efficiently sequence the genomes of all known species and to use genomics to help discover the remaining 80-90% of species that are currently hidden from science. While organized efforts are underway to sequence Bacteria and Archaea <ref type="bibr" target="#b9">(10)</ref>, there is currently no parallel effort for Eukarya.</p><p>A conceptual argument for sequencing eukaryotic life was made by Stephen Richards in 2015 <ref type="bibr" target="#b10">(11)</ref>. Richards <ref type="bibr" target="#b10">(11)</ref> argued that current technology would permit sequencing a vast number of species and that a phylogenetic approach to stratifying samples for sequencing would accelerate scientific discovery. Independently, in November 2015, an exploratory meeting that included representatives from research universities and major international and US federal funding agencies (SI Appendix, Table <ref type="table" target="#tab_1">S1</ref>) was held at the Smithsonian Institution to discuss the rationale, strategies, and feasibility of Fig. <ref type="figure">1</ref>. Current status of the sequencing of life. Open Tree of Life (opentreeoflife.org) synthesis of phylogeny for all of life with resolution to the genus level, and showing phylogenetic information for Archaea (red), Bacteria (purple), Fungi (orange), Plantae (blue), Protista (brown), and Animalia (green). The current state of genomic information available from NCBI's GenBank is shown in the inner circle, with complete genomes colored in red, chromosome level in blue, scaffolds in dark gray, and contigs in light gray. The second circle shows the transcriptomes available from the NCBI Transcriptome Shotgun Assembly Sequence Database (<ref type="url" target="https://www.ncbi.nlm.nih.gov/genbank/tsa/">https://www.  ncbi.nlm.nih.gov/genbank/tsa/</ref>). Genome size as C value is displayed in bars around the outer circle. Data for animals were extracted from the Animal Genome Size Database (<ref type="url" target="http://www.genomesize.com/">www.genomesize.com/</ref>), data for plants were extracted from the Royal Botanic Gardens, Kew (data. kew.org/cvalues/), and data for fungi were extracted from the Fungal Genome Size Database (<ref type="url" target="http://www.zbi.ee/fungal-genomesize/">www.zbi.ee/fungal-genomesize/</ref>). sequencing all life on Earth, a venture termed The Earth BioGenome Project (EBP). The consensus view that emerged from the meeting was that the time was right to consider a global initiative to sequence eukaryotic life on Earth. A subsequent EBP workshop and a major conference on genomics and biodiversity organized by the Smithsonian Institution and BGI (China) were held in Washington, DC in February 2017. There, the EBP Working Group endorsed a project roadmap and organizational structure for completion of the sequencing aspect of the project in 10 years (12) as described below.</p><p>One of the key strategic issues for the EBP is the goal of sequencing every species as opposed to one representative member of each family or genus. This important objective requires a strong rationale to justify the cost. Evolution, coevolution, and conservation ultimately occur at the species level, and ecology is defined by the interactions among species. Therefore, understanding evolutionary and other biological processes, such as adaptation, speciation, the fate of endangered species, the reasons for extinctions, the importance of species to the functioning of ecosystems, and the possibility of restoring ecosystems critical to human survival, requires knowledge at the species level. In modern biology, the most powerful way to gain early insights into the origins, evolution, and biological functions of a species is through genomics. Moreover, taxonomy is a human construct, even when based on phylogeny, and the calculated number of species in a recognized taxon is in part historical artifact and convenience as well as the product of evolution. Consider, for example, the genus Candida, which includes about 25% of all known yeast species. Some species are important human pathogens, while others are associated with wine spoilage. The metabolic and phenotypic diversity in this genus is enormous, and no single species can possibly represent the unique biology contained within it. Similar taxonomic diversity exists in plants, such as the genus Astragalus with more than 3,200 species. In insects, one order alone, the Coleoptera (beetles), has nearly 400,000 identified species in 30,000 genera across 176 families, which represent about 25% of all classified eukaryotic life, with a predicted 1.5 million beetle species inhabiting the planet <ref type="bibr" target="#b12">(13)</ref>. Sampling just one species per genus or family would not give a realistic assessment of the evolutionary complexity of these or many other groups. While recognizing that it may not be feasible to obtain samples for every species, pragmatism does not negate the primary scientific and societal need for trying to do so.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Project Goals and Anticipated Outcomes</head><p>Revise and Reinvigorate Our Understanding of Biology and Evolution. The EBP has identified a broad set of scientific goals and projected economic, social, and environmental returns to society and human welfare. The goals of the EBP are as follows.</p><p>i) Revise and reinvigorate our understanding of biology, ecosystems, and evolution: Better understand evolutionary relationships among all known organisms. Fully elucidate the timing, origin, distribution, and density of species on Earth. Generate new knowledge ecosystem composition and functions. Discover new species (80-90% of eukaryote biodiversity). Elucidate genome evolution (gene to chromosome scale). Discover fundamental laws that describe and drive evolutionary processes. ii) Enable the conservation, protection, and regeneration of biodiversity: Determine the role of climate change on biodiversity. Clarify how human activities (pollution, habitat encroachment, etc.) and invasive species affect biodiversity. Develop evidence-based conservation plans for rare and endangered species. Create genomic resources to restore damaged or depleted ecosystems. iii) Maximize returns to society and human welfare (ecosystem services and biological assets): Discover new medicinal resources for human health. Enhance control of pandemics. Identify new genetic variation for improving agriculture (e.g., yields, disease resistance) Discover novel biomaterials, new energy sources, and biochemical. Improve environmental quality (soil, air, and water). These goals require assembled whole-genome sequences collected in a robust Tree of Life framework (2) to derive the fundamental evolutionary principles that drive eukaryotic genomic and phenotypic evolution. As of October 2017, there were only 2,534 unique eukaryotic species with sequenced genomes in the National Center for Biotechnology Information (NCBI) database, which represent less than 0.2% of the known eukaryotes. Moreover, of these, only 25 species meet the standard for contig N50, scaffold N50, and other metrics proposed for reference genomes by the Genome 10K organization (G10K) organization (SI Appendix, Figs. S1 and <ref type="figure" target="#fig_0">S2</ref>). At all levels of assembly quality, only 25 species, mostly fungi, are assembled to "complete genome" status as defined by the NCBI. The phylogenetic distribution of existing reference quality assemblies is also highly skewed, with only seven eukaryotic phyla represented. Thus, there is a critical need to obtain annotated genomes from across the eukaryotic Tree of Life to answer important scientific questions and to provide a solid foundation for future biological discoveries and innovations. In fact, the eukaryotic Tree of Life itself is poorly understood, and large-scale phylogenetic syntheses have resolved or validated only a small fraction of polytomies <ref type="bibr" target="#b1">(2)</ref>. Thus, the EBP will not only take advantage of a phylogenetic framework but also, contribute significantly to a better understanding of how all biological diversity is related as well as the relative and absolute timing of diversification events <ref type="bibr" target="#b13">(14)</ref>. Many questions can only be answered if all genomes of a single group of organisms are available <ref type="bibr" target="#b14">(15)</ref>. One of these scientific challenges is to resolve conflicting phylogenetic relationships in the eukaryotic Tree of Life, especially among the deepest branches <ref type="bibr" target="#b15">(16)</ref>. Whole-genome sequences may be particularly powerful in this regard, because problems arising in phylogenetic tree topologies from the use of small numbers of genes can be resolved <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>. Whole-genome sequencing allows for selection of the most informative gene set for accurate phylogenetic inference. A complete set of sequenced and annotated eukaryotic genomes will also greatly expand our knowledge and understanding of the effects of incomplete lineage sorting and horizontal gene transfer on eukaryote phylogenomic analyses and their functional role in eukaryote evolution. A well-supported eukaryotic Tree of Life is essential for properly classifying the millions of presently undiscovered, unnamed, and unclassified organisms as their genome sequences become available. We anticipate that new methods for whole-genome sequencing of unicellular organisms <ref type="bibr" target="#b17">(18)</ref> will contribute to the discovery of new eukaryotic species, their correct taxonomic classification, and insights into divergence times, ultimately resolving some of the most contentious phylogenetic relationships in the Tree of Life.</p><p>Another major scientific challenge that will be addressed is the understanding of how genomes evolve from the base pair to the chromosome level. Sequencing genomes of extant species will enable reconstruction of the evolutionary history of eukaryotic genomes from a computed ancestral state <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b19">20)</ref>. The evolutionary history of point mutations, duplications, deletions, insertions, translocations, inversions, fusions, and fissions is crucial to our understanding of the relationships between genotype and phenotype <ref type="bibr" target="#b20">(21)</ref> and the changes in genomic architecture that led to multicellularity and organismal complexity. The computational reconstruction of the karyotype of the ancestral eukaryote and key ancestral genomes on the evolutionary paths to higher taxa will enhance understanding of the evolution of genes in the context of their surrounding regulatory DNA and enable resolution of longstanding controversies on the role of chromosome rearrangement in adaptive evolution and speciation <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b21">22)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Facilitate the Conservation, Protection, and Regeneration of</head><p>Biodiversity. There is a clear and urgent need to understand the impact of natural and human factors on biodiversity. Climate change and habitat destruction are having tremendous impacts on both marine and terrestrial ecosystems <ref type="bibr" target="#b22">(23)</ref>. We know that species numbers and diversity are rapidly declining, but other than storing germplasm in frozen collections in the event of a natural or human-induced disaster, limited means are available to systematically preserve, protect, and restore endangered species in the wild. Therefore, resources are needed to uncover and better document genomic diversity, especially that of endangered species. Sampling genomic diversity in populations will reveal the frequency and distribution of genetic polymorphisms as baseline data on population fitness necessary for the design of conservation programs (reviewed in ref. <ref type="figure" target="#fig_0">24</ref>). In endangered species with severely reduced populations, breeding programs based on genomic data from a few individuals can be implemented that avoid inbreeding, eliminate recessive lethal alleles, and increase disease resistance <ref type="bibr" target="#b24">(25)</ref>. Although much can be learned by sequencing a single diploid or polyploid individual, characterization of genomic diversity of the more than 23,000 species currently listed as endangered by the IUCN is a high priority and a goal of the EBP. The EBP will spur development of urgently needed new conservation management approaches based on the genomic diversity of endangered species.</p><p>In addition to a taxonomically driven format for sequencing genomes, the EBP also will work to establish bio-observatories that use genomics to obtain a baseline understanding of how climate change affects global biodiversity. These observatories are especially critical in areas that have large numbers of endangered species. A network of instrumented bio-observatories in biodiversity hotspots can provide real-time information on species numbers, distribution, and fluxes. Examples of existing bio-observatories that can meet needs of the EBP include the National Ecological Observatory Network created by the US National Science Foundation, its counterpart in China (the Chinese Ecological Research Network; english.iae.cas.cn/rh/as/201311/t20131121_113005.html), the plot-based ForestGEO (<ref type="url" target="http://www.forestgeo.si.edu/">www.forestgeo.si.edu/</ref>) and MarineGEO (<ref type="url" target="https://marinegeo.si.edu/">https://marinegeo.si.edu/</ref>) programs at the Smithsonian Institution, and other national and international networks. Local resources, such as those developed by the University of California Conservation Genomics Consortium (<ref type="url" target="https://ucconservationgenomics.eeb.ucla.edu/">https://ucconservationgenomics.  eeb.ucla.edu/</ref>), will also be essential. Substantial opportunities will be afforded to students and citizens of all ages to participate in the monitoring of biodiversity, discovery of new species, and collection of environmental DNA (eDNA) samples, thus increasing public interest and participation in the EBP.</p><p>Monitoring organismal diversity in bio-observatories, particularly in remote locations, will spur development and use of new technologies, such as portable DNA sequencers, advanced sensor technologies, and secure biodata transmission. Efficient technologies have already been created for identifying and categorizing species in their native habitats based on short DNA segments <ref type="bibr" target="#b25">(26)</ref>. The EBP will coordinate its activities with such organizations as the International Barcode of Life (<ref type="url" target="http://www.ibolproject.org/">www.ibolproject.org/</ref>), the Global Genome Biodiversity Network (GGBN) <ref type="bibr" target="#b26">(27)</ref>, and major biodiversity collections around the world to contribute large numbers of new vouchered species for the barcoding effort and eventual whole-genome sequencing. A digital repository of annotated eukaryotic genome sequences will facilitate new methods and approaches for studying genomic ecology at different spatial and temporal scales, which are necessary for obtaining a multidimensional and dynamic view of life on Earth.</p><p>Maximize Returns to Society and Human Welfare. The myriad ways by which ecosystems and the biodiversity comprising them contribute to the benefit of society and human welfare are termed ecosystem services. These services use the full range of nature's natural products and materials and also, serve as a template for imitating nature's biological functions and processes. The human population explosion and the rapid spread of medical and agricultural pests and diseases as a result of global interconnectivity are compelling examples of the need for new resources that will contribute to feeding, protecting, and improving Earth's ecosystems. An urgent demand exists for new sources of food proteins that can be produced cheaply and at scale, new medicines for treating the increasing frequency of chronic diseases plaguing human populations, new strategies for controlling outbreaks of zoonotic diseases, and new resources for maintaining and improving the quality of soil, air, and water. With less than 0.2% of known eukaryotic genomes sequenced, most at draft level, and only a small fraction of nature's 285,000 known natural compounds replicated in the laboratory, we have barely scratched the surface in identifying new genetic resources for delivery of ecosystem services. Thus, the full value of nature, in particular our tropical forests and other biodiversity-rich hot spots, is likely to be grossly underestimated. Annual revenues in the United States alone from genetically engineered plants and microbes are estimated at more than $300 billion or about 2% of gross domestic product <ref type="bibr" target="#b27">(28)</ref>. Obtaining the genetic blueprints for all eukaryotic life and eventually, the vast numbers of Bacteria and Archaea will create a powerful source of discovery for improving and increasing ecosystem services.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10-Year Road Map</head><p>The successful systematic sequencing of all life on Earth will not be possible without an organized and sustained effort. Although geographic and taxon-based communities are working on related initiatives, few of them are coordinated with each other, and most are not focused on whole-genome sequencing. A global "network of communities," proposed as an EBP organizational structure (see below), is a realistic strategy for achieving the grand challenge goal of sequencing all life on Earth. Among the examples of organized taxon-based communities, those working on cultured and uncultured Bacteria and Archaea are benefitting from welldefined objectives and global funding sources. The National Microbiome Initiative (NMI) was launched in 2016 by the US Office of Science and Technology Policy and is supported by $121 million from multiple stakeholder federal agencies <ref type="bibr" target="#b28">(29)</ref>. The NMI will receive an additional $400 million in support from private companies and philanthropies. The Earth Microbiome Project is an ambitious parallel global effort to characterize microbial diversity <ref type="bibr" target="#b9">(10)</ref>.</p><p>Because the scientific communities that work on Bacteria and Archaea are relatively well-organized by taxon, the EBP Working Group decided to similarly focus its planning effort on sequencing all eukaryotes using a taxonomically driven format. Although several taxon-based initiatives for sequencing the genomes of eukaryotic species exist (Table <ref type="table" target="#tab_2">2</ref>), a common strategy is lacking among these groups, and large swaths of the eukaryotic Tree of Life are not represented. The EBP Working Group has focused specifically on a strategy and justification to sequence and annotate all eukaryotic genomes, including vertebrates, invertebrates, plants, fungi, and microbial eukaryotes among others. In this paper, we have explored the rationale, feasibility, and challenges associated with sequencing eukaryotes almost exclusively, but the ultimate goal of the EBP is to work with other organizations to support sequencing of the full diversity of life on Earth.</p><p>The EBP roadmap calls for sequencing and annotating ∼1.5 million known eukaryotic species in three phases over a 10year period using a phylogenomic approach (Fig. <ref type="figure" target="#fig_0">2</ref>). During the three years of phase I, one of the most important goals is to create annotated chromosome-scale reference assemblies for at least one representative species of each of the ∼9,000 eukaryotic taxonomic families. Nucleotide divergence and divergence time will be additional factors in the selection of species so that balance across eukaryotic taxa is achieved. High-quality reference assemblies (minimum standard of 2.3.2.Qv40) (SI Appendix, Fig. <ref type="figure">S1</ref>) at the family level will ensure robustness of comparative genomic analyses by providing complete gene sets as well as ordered and oriented syntenic blocks created by genome scaffolding methods <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b18">19)</ref>. In addition, these genomes will be useful for classification of extant and new species, identification of genetic changes associated with specialized traits in specific lineages, in silico referenceassisted scaffolding of assemblies produced in phase II and phase III of the project <ref type="bibr" target="#b29">(30)</ref>, in silico reconstruction of ancestral genomes, and rescue of species from extinction <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b30">31)</ref>. A full description of the roadmap, overall strategy, and estimated costs can be found in SI Appendix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges and Opportunities</head><p>Sample Acquisition. The EBP will fully catalog the genome content of eukaryotic biodiversity and make the data openly available as a permanent foundation for future scientific discovery while ensuring compliance with the Nagoya Protocol as discussed below. The main challenge is the development of a global strategy for the collection of voucher specimens that are preserved adequately to enable production of high-quality genome assemblies. The distributed nature of Earth's biodiversity and the location of biodiversity hotspots in remote parts of the world, such as the Amazon Basin or Borneo, make collection of many organisms a distinct challenge. For the EBP to be successful, it is crucial to involve institutions that have as their mission the procurement and preservation of the world's biodiversity, such as natural history museums, botanical gardens, zoos, and aquaria. For example, the collections of the botanical gardens of the world comprise about one-third of all species of plants and more than 40% of all endangered plant species (32), which will be an invaluable resource for the EBP. The EBP also has the GGBN as a committed partner, which is the world's major resource of tissues and DNA from voucher specimens (SI Appendix). It will be essential to involve scientists in countries where a significant fraction of the world's biodiversity resides, such as Brazil, Colombia, India, Peru, Madagascar, Malaysia, and Indonesia. A goal of the EBP is to globalize its activities through novel partnerships that build scientific capacity in developing countries, including the capacity to utilize, not just create, a legacy resource.</p><p>To accelerate the acquisition of voucher specimens, the EBP also plans to capitalize on the burgeoning citizen scientist movement (fueled by the internet and social media) and new autonomous robotic technologies. There is an exciting opportunity for citizen science to contribute to collecting and identifying sequence-ready specimens and performing data analysis. For example, the University of California Conservation (<ref type="url" target="http://www.ucedna.com/">www.ucedna.com</ref>) will involve 1,000 citizen scientists who will collect 18,000 environmental samples by the end of 2018. Radically new technologies may be developed and deployed for sample collection, such as the use of aerial, terrestrial, and aquatic autonomous drones equipped with high-resolution cameras that can enable species collection and identification and telecommunications with taxonomic experts <ref type="bibr" target="#b32">(33)</ref>. Conceivably, such robotic devices can also be equipped with automated DNA extraction devices and portable DNA sequencers for rapid species identification. The development of such robots is feasible given the current state of relevant technologies and offers an excellent opportunity for interdisciplinary collaboration and breakthrough innovation.</p><p>A special challenge for the EBP will be obtaining wholegenome sequence information from cultured and uncultured single-cell eukaryotes. For example, there are more than 34,000 known and perhaps 107,000 unidentified species in the Chromista and Protista kingdoms <ref type="bibr" target="#b33">(34)</ref>. Sequencing of microbial eukaryotes will be paramount for resolving the phylogenies within the Protista and Chromista and for understanding how early eukaryotic life evolved. This will be made possible by recent advances in singlecell sequencing technology <ref type="bibr" target="#b17">(18)</ref> that have opened new horizons for understanding microbial evolution. The methods involve separating single cells using flow cytometry, in situ lysis in microwell plates, and whole-genome amplification followed by library production and sequencing <ref type="bibr" target="#b17">(18)</ref>. At present, genome coverage varies significantly, but technological improvements are now yielding genomes with up to 80% coverage per cell. The usefulness of single-cell genomics in elucidating undiscovered microbial life has been shown for Bacteria and Archaea <ref type="bibr" target="#b34">(35)</ref> and should also prove invaluable for identifying and characterizing microbial eukaryotes.</p><p>Computation and Data Science. The EBP will generate opportunities and challenges for new tools to visualize, compare, and understand the connection of genome sequence to the evolution of phenotype, organism, and ecosystems. It is noteworthy that, for storing sequence reads, assembling reads into genome sequences, aligning the genomes of related species, and annotating gene models, the computational challenge has already been surmounted by the information industry. For example, storage and distribution of reference genomes, annotations, and analyses will likely require less than 10 gigabytes per species or ∼20 petabytes in total (SI Appendix), well within current capabilities of the International Nucleotide Sequence Database Collaboration of the NCBI, the European Molecular Biology Laboratory-European Bioinformatics Institute and the DNA Data Bank of Japan. Storage of the underlying sequence read data for the completed EBP is more challenging at ∼200 petabytes (calculations are in SI Appendix). Commercial vendors and at least one large-scale research project (The European Organization for Nuclear Research) have already surpassed this storage capacity (<ref type="url" target="https://home.cern/about/updates/2017/07/cern-data-centre-passes-200-petabyte-milestone">https://home.cern/  about/updates/2017/07/cern-data-centre-passes-200-petabyte- milestone</ref>). Furthermore, we expect costs and capabilities to improve before the highest data generation years of the project. There are new technologies on the horizon that will help support genome storage needs, including 3D memory, integrated computing technologies that overcome the input/output bottleneck, and faster networks enhanced by optical switching <ref type="bibr" target="#b35">(36)</ref>.</p><p>Similarly, computing requirements are very large but tractable. Mammalian-sized long-read genome assemblies currently require ∼100 processor-weeks. The later phases of the EBP will require ∼10,000 simultaneous assemblies running in parallel-a scale already approached by academic supercomputer centers, such as those at universities in Texas, Pittsburgh, Illinois, and San Diego, and exceeded by commercial cloud providers, such as Amazon Web Services, Microsoft, Google, Alibaba, and others around the world. Although current tools are already capable of completing the project, there is no doubt that assembly, alignment, and annotation algorithms implemented in both hardware and software will, in the future, all need to be improved for efficiency, accuracy, and application to difficult genomes, such as very large, very repetitive, or very polymorphic genomes.</p><p>The EBP promises the opportunity to envision and develop new computational tools and analysis methods to maximize our understanding and utilization of the large amount of data generated by the project. This challenge will require new architectures, algorithms, and software for improved quality, efficiency, and cost-effectiveness as well as data analysis, big data visualization, and sharing. For example, graph representations of diploid references are requiredespecially for more polymorphic genomes <ref type="bibr" target="#b36">(37)</ref>. New visualization tools enabling comparative inspection of gene loci and synteny across the Tree of Life will be required. We anticipate that annotation tools focused on a gene family across many species using genespecific knowledge (e.g., transmembrane domain or 3D structure conservation) will perform better than the current tools designed for the annotation of all genes. Comparative analyses could identify the degree of selection on each base pair in every species, enabling the study of the evolution of gene regulation as well as gene and protein structure. Building phylogenetic trees with genomic data at this scale will require a new set of bioinformatics requirements and a modular framework for integrating phylogenetic data and computing on such trees. Better methods to visualize genome evolution via structural changes, including segmental duplications, inversions, translocations, insertions, and deletions, must be created. In addition, improved methods to associate phenotype with change in comparative genome and transcriptome sequence are needed. We also envision new tools for assessing how protein sequence variation changes the efficiencies of enzymes, the binding constants of molecular interactions, and the comparative systems biology of different eukaryotic cells and tissues. Finally, the advances in computer science and the internet have enabled new possibilities for large-scale data sharing, such as open access to the EBP's computational "lab book." With a sufficiently rich platform, raw sequence data, assemblies, alignments, phylogenetic trees, and automated annotations can be instantly disseminated. The EBP will promote these tools for equitable worldwide sharing of data, analysis tools, and data mining resources.</p><p>Access and Benefit Sharing. In 2010, the Nagoya Protocol provided guidelines on access to genetic resources as well as fair and equitable sharing of benefits arising from their utilization under the Convention on Biological Diversity. Nagoya, an international convention, requires its member countries to create laws and policies within their own legal systems to address points outlined in the convention. Thus, Nagoya is international but implemented at the national level. The convention sets "minimum standards," and countries can go beyond those standards if they wish. A number of important publications can be found on the Nagoya Protocol and its associated impact on genetic research and collections <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b37">38)</ref>. Most countries are still working on their national implementations of Nagoya; however, some uncertainty remains as to what the final legal requirements will be.</p><p>Users of biological resources are now responsible for complying with regulations on biodiversity use at the national level, including those regulations associated with access and benefit sharing. The EBP will adhere to the principles of the Nagoya Protocol by (i) requiring participants to comply with regulations on biodiversity use at the national level and (ii) using the established tools and resources on access and benefit sharing. Specifically, the EBP aims to provide fair, equitable, open, and rapid access to and sharing of the benefits of the eukaryotic genomes of planet Earth.</p><p>To ensure proper documentation of genetic resources and access and benefit sharing compliance, the EBP will promote downstream monitoring and tracking of utilized genetic and genomic resources. Systems for access and benefit sharing compliance have been developed to meet this need at both the national and international levels. For example, at the international level, the GGBN Data Standard <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b38">39)</ref> was developed for the exchange of information on genetic samples housed in biological repositories globally. The standard requires that genetic samples provided for research by GGBN member institutions (i.e., nonhuman biological repositories) be associated with permitting and other legal information associated with access and benefit sharing. At the national level, a new Brazilian law (Law 13.123/15) expands the interpretation of "access to genetic resources" to include research related to molecular taxonomy, phylogeny, molecular ecology, and molecular epidemiology as well as the use of information from genetic sequences published in databases. A national-level registration system, SisGen, allows Brazilian biological material to be legally accessed and shipped abroad for research and provides an interface for registration, notification, and accreditation. Such standards and registration systems will be essential for the success of the EBP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Coordination and Governance</head><p>A Network of Scientific Expertise. Achieving the goals of the EBP will require coordination on a global scale as well as scientific excellence and experienced leadership (Fig. <ref type="figure" target="#fig_1">3</ref>). The EBP Working Group, currently made up of this paper's authors, has well-known experts from the genomics, informatics, systematics, evolutionary biology, biorepositories, and conservation communities, an ethicist, and an expert on innovation. Some of them have already led or currently lead large-scale genome projects, such as those at the Sanger Center (the United Kingdom) and BGI (China). The community of interested scientists is rapidly growing, and there is strong international support for this effort <ref type="bibr" target="#b11">(12)</ref>. In the near future, representatives from government, private industry, civil society, international organizations, and private foundations will be integrated into the governance structure of the EBP. Broad representation in governance is desirable for the EBP's global public good mandate to ensure inclusive societal benefits worldwide and to establish stable and sustainable funding for accessibility to state of the art technology in genomics, computing, data science, and biotechnology.</p><p>Several large sequencing centers are supporting the goals of the EBP, including BGI (China), Baylor College of Medicine (the United States), the Sanger Institute (the United Kingdom), and Rockefeller University (the United States). The S ão Paulo Research Foundation, one of the major research funding organizations in Brazil, will establish an EBP node in S ão Paulo to be the initial location serving Latin America, adding to the global hub-and-spokes model envisioned for the EBP (Fig. <ref type="figure" target="#fig_1">3</ref>). Other institutions and service providers with significant sequencing capacity will be encouraged to participate.</p><p>If the genomes of Earth's biome are to be compared and fully decoded, there must be standards for creating, comparing, and analyzing genome assemblies so that the genome information will be useful to the broadest possible scientific community. The issue of standards will be particularly challenging to coordinate across the sequencing and informatics nodes and among the different taxon-based communities. However, if this is not accomplished, the final anticipated outcomes may fall short of project expectations. To address this issue, authors R.D., H.A.L., and E.D.J. have recently developed a set of standards for quality assessment of whole-genome assemblies (SI Appendix, Fig. <ref type="figure">S1</ref>). These standards can be applied to characterizing any whole-genome assembly and can be readily adopted by other communities. In addition, the G10K community is working on an automated assembly pipeline that uses data from a variety of sources to produce highly contiguous chromosome-scale assemblies. These approaches can be extended to all of the communities making up the EBP. An EBP central Coordinating Council, composed of the leaders of each network community and the sequencing and informatics nodes, will be responsible for developing and promulgating standards for sequencing, annotation, and downstream analysis (Fig. <ref type="figure" target="#fig_1">3</ref>).</p><p>A Network of Communities. A growing fraction of biodiversity genome sequencing is being performed by taxon-based communities of experts, such as the G10K (40), Initiative to Sequence 5000 Arthropod Genomes (i5K) <ref type="bibr" target="#b40">(41)</ref>, Bird 10,000 Genomes Project (B10K) (<ref type="url" target="https://b10k.genomics.cn/">https://b10k.genomics.cn/</ref>), Global Ant Genome Alliance (GAGA; antgenomics.dk/), 1000 Fungal Genomes Project (<ref type="url" target="https://genome.jgi.doe.gov/programs/fungi/1000fungalgenomes.jsf">https://genome.jgi.doe.gov/programs/  fungi/1000fungalgenomes.jsf</ref>), 10,000 Plant Genomes Project (10KP) (<ref type="url" target="https://db.cngb.org/10kp/">https://db.cngb.org/10kp/</ref>), and Global Invertebrate Genomics Alliance (GIGA). The genome projects affiliated with the EBP are shown in Table <ref type="table" target="#tab_2">2</ref>  <ref type="bibr" target="#b41">(42)</ref>. Groups, such as G10K and i5K, have made progress in planning and implementation of their projects and have served as a model for the EBP and other existing and developing groups working across the phylogenetic spectrum. It is anticipated that the leadership of phylum-and class-level taxonomic groups will become part of the Governing Council of the EBP and that the EBP will endeavor to provide support to all of these projects. The EBP will be a global effort-a network of communities and individuals-focused on this grand challenge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Total Project Cost and Economic Benefit</head><p>With the current cost of US $1,000 (and plummeting rapidly) for sequencing an average vertebrate-sized genome to draft level, genomes of all ∼1.5 million known eukaryotes, up to 100,000 new eukaryotic species, and a defined number of eDNA samples from biodiversity hotspot collection sites can be sequenced to a high level of completeness and accuracy for approximately US $4.7 billion (SI Appendix, Table <ref type="table">S3</ref>). This includes costs for sequencing instruments, sample collection, ∼9,000 referencequality genomes, data storage, analysis, visualization and dissemination, and project management. Incredibly, this is less than the cost of creating the first draft human genome sequence (US $2.7 billion) in today's dollars (US $4.8 billion)! New funds raised for the EBP will be leveraged by the hundreds of millions of dollars already committed to genome projects around the world.</p><p>The economic impact of the EBP is likely to be very large and globally distributed. Using the Human Genome Project as an example, the return on US federal investment was estimated at 141:1 in the United States alone as of 2012 ( <ref type="formula">9</ref>). An entire industry was created, with a workforce size of more than 47,000 people generating nearly $1 trillion in economic activity. The technologies arising from investments in genomics are having a profound effect on human medicine, veterinary medicine, renewable energy development, food and agriculture, environmental protection, industrial biotechnology, the justice system, and national security. For example, as stated above, a recent report of the US National Academy of Sciences indicates that annual revenues in the United States from genetically engineered plants and microbes are at least $300 billion (43). China, the United Kingdom, Canada, France, Japan, and other countries have also made sizable investments in genomics research and now have mature industries that are contributing to their national economies.</p><p>These economic returns from the Human Genome Project to date have resulted just from sequencing the human genome and those of a relatively small number of model organisms. With &lt;0.2% eukaryotic species sequenced to date, there is significant potential for discoveries that will impact human, animal, and environmental health and the food and agriculture system as well as multiple manufacturing industries. While it is not possible to predict the economic impact, it is quite reasonable to assume that sequencing the remaining 99.8% of eukaryotic species will yield returns similar to or exceeding those of the Human Genome Project. Importantly, the distribution of much of the world's biodiversity in developing regions could bring tremendous economic benefits to those countries under the Nagoya Protocol as discussed above. The EBP will comply with access and benefit sharing laws through partnerships with organizations, such as the Amazon Third Way Initiative and the Amazon Bank of Codes <ref type="bibr" target="#b43">(44)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The EBP is arguably the most ambitious proposal in the history of biology. If successful, the EBP will completely transform our scientific understanding of life on earth and provide new resources to cope with the rapid loss of biodiversity and habitat changes that are primarily due to human activities and climate change. Fundamental knowledge of Earth's biodiversity may also lead to new food sources, revolutionary bio-inspired materials, and innovations to treat human, animal, and plant diseases. Significant challenges remain in executing the EBP, the most substantial of which are sample acquisition, the related issue of access and benefit sharing, and funding. The greatest legacy of the EBP will be the gift of knowledge-a complete Digital Library of Life that contains the collective biological intelligence of 3.5 billion years of evolutionary history. This knowledge will guide future discoveries for generations and may ultimately determine the survival of life on our planet.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Proposed roadmap for the EBP.</figDesc><graphic coords="6,42.86,47.85,500.67,333.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. The EBP organizational model. The schematic shows the main features of the proposed organizational model for the EBP as a global network of communities. The outer ring shows a global network of interacting nodes involved in DNA sequencing and informatics. The geographical locations are representative and are not intended to be completely inclusive of all participating countries or political entities.The communities in the inner ring are also representative and are not intended to be inclusive of all taxon-related communities and organizations that are supporting the goals of the EBP. The EBP Coordinating Council will have representation from all participating nodes, communities, and organizations as well as representation from the public and private sectors. 1KP, Initiative to Sequence 1000 Plant Genomes; GGI, Global Genome Initiative.</figDesc><graphic coords="8,42.86,46.04,244.37,244.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Genomics-enabled discoveries and applicationsTaxon Application Humans Disease diagnostics, disease risk, human ancestry, drug design, personalized medicine, forensics Livestock and wildlife Disease diagnostics, genomic selection for milk yield and carcass composition, parentage control, conservation of endangered breeds and species, disease models Plants Genomic selection to improve crop yields and other agronomically important traits, biofuels production, gene editing, conservation of endangered species</figDesc><table><row><cell>Insects</cell><cell>Gene drives, genome editing, pest control</cell></row><row><cell>Fungi</cell><cell>Synthetic biology, metabolic engineering for drug production and useful chemicals, biofuels</cell></row><row><cell></cell><cell>production, improved strains for making wine and beer</cell></row><row><cell>Bacteria</cell><cell>Microbiome in health and disease; bioprocessing; detection, surveillance, and host response;</cell></row><row><cell></cell><cell>genomic epidemiology; understanding microbial diversity</cell></row><row><cell>Viruses</cell><cell>Vaccines, gene editing, metagenomics screening</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Organized communities conducting large-scale genome projects</figDesc><table><row><cell>Community</cell><cell>Lead center(s)</cell><cell>Sequencing goal</cell></row><row><cell>G10K</cell><cell>BGI, Rockefeller University,</cell><cell>All vertebrate genomes</cell></row><row><cell></cell><cell>Wellcome Sanger</cell><cell></cell></row><row><cell></cell><cell>Institute, Broad Institute</cell><cell></cell></row><row><cell>GIGA</cell><cell>George Washington</cell><cell>7,000 marine</cell></row><row><cell></cell><cell>University, Nova</cell><cell>invertebrates</cell></row><row><cell></cell><cell>Southeastern University</cell><cell></cell></row><row><cell>GAGA</cell><cell>BGI</cell><cell>300 ant genera</cell></row><row><cell>i5K</cell><cell>Baylor College of Medicine</cell><cell>5,000 arthropods</cell></row><row><cell>1000 Fungal</cell><cell>Department of Energy Joint</cell><cell>1,000 fungal species</cell></row><row><cell>Genomes</cell><cell>Genome Institute</cell><cell></cell></row><row><cell>Project</cell><cell></cell><cell></cell></row><row><cell>10KP</cell><cell>BGI</cell><cell>10,000 plant genomes</cell></row></table><note><p>Genomics Consortium's Environmental DNA (CALeDNA) program</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4326" xml:id="foot_0"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1720115115   Lewin et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4328" xml:id="foot_1"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1720115115   Lewin et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4330" xml:id="foot_2"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1720115115   Lewin et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4332" xml:id="foot_3"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1720115115   Lewin et al.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">Mike Trizna</rs> for compiling data from the <rs type="institution">NCBI</rs> for the summary of genome quality, <rs type="person">Manuela da Silva</rs> and <rs type="person">Scott Miller</rs> for their contributions to Access and <rs type="person">Benefit Sharing</rs>, <rs type="person">Katie Barker</rs> for providing data on GGBN and Brazilian biodiversity, <rs type="person">David Stern</rs> for help in quantifying genome data across the tree of life and the development of Fig. <ref type="figure">1</ref>, <rs type="person">Mirhee Lee</rs> for Fig. <ref type="figure">2</ref>, <rs type="person">Nicholas Vasi</rs> for Fig. <ref type="figure">3</ref>, <rs type="person">Ilia Leitch</rs> for providing genome size data for plants, and <rs type="person">Claudia Lutz</rs> for helpful editorial suggestions.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Wilson</surname></persName>
+		</author>
+		<title level="m">The Diversity of Life</title>
+		<meeting><address><addrLine>Norton, New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson EO (1999) The Diversity of Life (Norton, New York).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Synthesis of phylogeny and taxonomy into a comprehensive tree of life</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hinchliff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="12764" to="12769" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hinchliff CE, et al. (2015) Synthesis of phylogeny and taxonomy into a comprehensive tree of life. Proc Natl Acad Sci USA 112:12764-12769.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+	</analytic>
+	<monogr>
+		<title level="m">Risk and resilience in a new era</title>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Wildlife Fund</publisher>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Living Planet Report</note>
+	<note type="raw_reference">World Wildlife Fund (2016) Living Planet Report 2016: Risk and resilience in a new era (World Wildlife Fund, Gland, Switzerland).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m">IUCN 2016: International Union for Conservation of Nature annual report</title>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>International Union for Conservation of Nature</publisher>
+			<date type="published" when="2016">2017. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">International Union for Conservation of Nature (2017) IUCN 2016: International Union for Conservation of Nature annual report 2016 (International Union for Conservation of Nature, Gland, Switzerland).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Biological annihilation via the ongoing sixth mass extinction signaled by vertebrate population losses and declines</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ceballos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dirzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="6089" to="E6096" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ceballos G, Ehrlich PR, Dirzo R (2017) Biological annihilation via the ongoing sixth mass extinction signaled by vertebrate population losses and declines. Proc Natl Acad Sci USA 114:E6089-E6096.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+	</analytic>
+	<monogr>
+		<title level="m">Mainstreaming Agrobiodiversity in Sustainable Food Systems: Scientific Foundations for an Agrobiodiversity Index</title>
+		<meeting><address><addrLine>Fiumicino, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Biodiversity International</note>
+	<note type="raw_reference">Biodiversity International (2017) Mainstreaming Agrobiodiversity in Sustainable Food Systems: Scientific Foundations for an Agrobiodiversity Index (Biodiversity International, Fiumicino, Italy).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Leveraging biodiversity knowledge for potential phyto-therapeutic applications</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Sarkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="668" to="679" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharma V, Sarkar IN (2013) Leveraging biodiversity knowledge for potential phyto-therapeutic applications. J Am Med Inform Assoc 20:668-679.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Induction of multiple pleiotropic drug resistance genes in yeast engineered to produce an increased level of anti-malarial drug precursor, artemisinic acid</title>
+		<author>
+			<persName><forename type="first">D-K</forename><surname>Ro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">83</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ro D-K, et al. (2008) Induction of multiple pleiotropic drug resistance genes in yeast engineered to produce an increased level of anti-malarial drug precursor, artemisinic acid. BMC Biotechnol 8:83.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Economic return from Human Genome Project grows</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wadman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature.2013.13187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wadman M (2013) Economic return from Human Genome Project grows. Nature, 10.1038/nature.2013.13187.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Earth Microbiome project: Successes and aspirations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">69</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gilbert JA, Jansson JK, Knight R (2014) The Earth Microbiome project: Successes and aspirations. BMC Biol 12:69.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">It&apos;s more than stamp collecting: How genome sequencing can unify biological research</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="411" to="421" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richards S (2015) It&apos;s more than stamp collecting: How genome sequencing can unify biological research. Trends Genet 31:411-421.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sequencing all life captivates biologists</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pennisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="894" to="895" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pennisi E (2017) Sequencing all life captivates biologists. Science 355:894-895.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">New approaches narrow global species estimates for beetles, insects, and terrestrial arthropods</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Stork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcbroom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hamilton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="7519" to="7523" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stork NE, McBroom J, Gely C, Hamilton AJ (2015) New approaches narrow global species estimates for beetles, insects, and terrestrial arthropods. Proc Natl Acad Sci USA 112:7519-7523.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Tree of life reveals clock-like speciation and diversification</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suleski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Paymer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="835" to="845" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedges SB, Marin J, Suleski M, Paymer M, Kumar S (2015) Tree of life reveals clock-like speciation and diversification. Mol Biol Evol 32:835-845.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Perspectives from the Avian Phylogenomics Project: Questions that can be answered with sequencing all genomes of a vertebrate class</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Jarvis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Anim Biosci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="45" to="59" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jarvis ED (2016) Perspectives from the Avian Phylogenomics Project: Questions that can be answered with sequencing all genomes of a vertebrate class. Annu Rev Anim Biosci 4:45-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Contentious relationships in phylogenomic studies can be driven by a handful of genes</title>
+		<author>
+			<persName><forename type="first">X-X</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Hittinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rokas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">126</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shen X-X, Hittinger CT, Rokas A (2017) Contentious relationships in phylogenomic studies can be driven by a handful of genes. Nat Ecol Evol 1:126.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The eukaryotic tree of life from a global phylogenomic perspective</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Burki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">16147</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burki F (2014) The eukaryotic tree of life from a global phylogenomic perspective. Cold Spring Harb Perspect Biol 6:a016147.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Obtaining genomes from uncultivated environmental microorganisms using FACS-based single-cell genomics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rinke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1038" to="1048" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rinke C, et al. (2014) Obtaining genomes from uncultivated environmental microorganisms using FACS-based single-cell genomics. Nat Protoc 9:1038-1048.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reconstruction and evolutionary history of eutherian chromosomes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="5379" to="E5388" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim J, et al. (2017) Reconstruction and evolutionary history of eutherian chromosomes. Proc Natl Acad Sci USA 114:E5379-E5388.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A unifying model of genome evolution under parsimony</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Paten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Zerbino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">206</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paten B, Zerbino DR, Hickey G, Haussler D (2014) A unifying model of genome evolution under parsimony. BMC Bioinformatics 15:206.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Phylomedicine: An evolutionary telescope to explore and diagnose the universe of disease mutations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Filipski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="377" to="386" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar S, Dudley JT, Filipski A, Liu L (2011) Phylomedicine: An evolutionary telescope to explore and diagnose the universe of disease mutations. Trends Genet 27:377-386.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Genome-wide amplifications caused by chromosomal rearrangements play a major role in the adaptive evolution of natural yeast</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Infante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Dombek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rebordinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cantoral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="1745" to="1759" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Infante JJ, Dombek KM, Rebordinos L, Cantoral JM, Young ET (2003) Genome-wide amplifications caused by chromosomal rearrangements play a major role in the adaptive evolution of natural yeast. Genetics 165:1745-1759.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Pecl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="9214" to="9224" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pecl GT, et al. (2017) Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being. Science 355:eaai9214. 24</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Molecular population genetics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Casillas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barbadilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="1003" to="1035" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Casillas S, Barbadilla A (2017) Molecular population genetics. Genetics 205:1003-1035.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Conservation genomics of threatened animal species</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pea</forename><surname>Hoeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ryder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Anim Biosci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="261" to="281" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steiner CC, Putnam AS, Hoeck PEA, Ryder OA (2013) Conservation genomics of threatened animal species. Annu Rev Anim Biosci 1:261-281.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">DNA barcodes: Methods and protocols</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Erickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">DNA Barcodes: Methods and Protocols</title>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kress</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Erickson</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="3" to="8" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Humana, Totowa, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kress WJ, Erickson DL (2012) DNA barcodes: Methods and protocols. DNA Barcodes: Methods and Protocols, eds Kress WJ, Erickson DL (Humana, Totowa, NJ), pp 3-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The Global Genome Biodiversity Network (GGBN) data standard specification</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Droege</surname></persName>
+		</author>
+		<idno>2016:baw125</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Droege G, et al. (2016) The Global Genome Biodiversity Network (GGBN) data standard specification. Database (Oxford) 2016:baw125.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Estimating the biotech sector&apos;s contribution to the US economy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carlson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="247" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carlson R (2016) Estimating the biotech sector&apos;s contribution to the US economy. Nat Biotechnol 34:247-255.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">White House unveils National Microbiome Initiative</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">580</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bouchie A (2016) White House unveils National Microbiome Initiative. Nat Biotechnol 34:580.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Reference-assisted chromosome assembly</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1785" to="1790" />
+			<date type="published" when="2013">2013</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim J, et al. (2013) Reference-assisted chromosome assembly. Proc Natl Acad Sci USA 110:1785-1790.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Every genome sequence needs a good map</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Lewin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pontius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1925" to="1928" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewin HA, Larkin DM, Pontius J, O&apos;Brien SJ (2009) Every genome sequence needs a good map. Genome Res 19:1925-1928.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Ex situ conservation of plant diversity in the world&apos;s botanic gardens</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mounce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brockington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Plants</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="795" to="802" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mounce R, Smith P, Brockington S (2017) Ex situ conservation of plant diversity in the world&apos;s botanic gardens. Nat Plants 3:795-802.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Opinion: Telepresence is a potentially transformative tool for field science</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marlow</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">AT-36 Team</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="4841" to="4844" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marlow J, et al.; AT-36 Team (2017) Opinion: Telepresence is a potentially transformative tool for field science. Proc Natl Acad Sci USA 114:4841-4844.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The U.S. Culture Collection Network responding to the requirements of the Nagoya Protocol on access and benefit sharing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mccluskey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="982" to="999" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCluskey K, et al. (2017) The U.S. Culture Collection Network responding to the requirements of the Nagoya Protocol on access and benefit sharing. MBio 8:e00982-17.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Insights into the phylogeny and coding potential of microbial dark matter</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rinke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="431" to="437" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rinke C, et al. (2013) Insights into the phylogeny and coding potential of microbial dark matter. Nature 499:431-437.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Big data: Astronomical or genomical?</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1002195</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stephens ZD, et al. (2015) Big data: Astronomical or genomical? PLoS Biol 13:e1002195.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Genome graphs</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Novak</surname></persName>
+		</author>
+		<idno type="DOI">bioRxiv:10.1101/101378</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Novak AM, et al. (2017) Genome graphs. bioRxiv:10.1101/101378.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Global Genome Biodiversity Network: Saving a blueprint of the Tree of Life-A botanical perspective</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Seberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Bot</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="393" to="399" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seberg O, et al. (2016) Global Genome Biodiversity Network: Saving a blueprint of the Tree of Life-A botanical perspective. Ann Bot 118:393-399.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Global Genome Biodiversity Network (GGBN) data portal</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Droege</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="607" to="D612" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Droege G, et al. (2014) The Global Genome Biodiversity Network (GGBN) data portal. Nucleic Acids Res 42:D607-D612.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Genome 10K Project: A way forward</title>
+		<author>
+			<persName><forename type="first">K-P</forename><surname>Koepfli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paten</forename><forename type="middle">B</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Community of Scientists</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="57" to="111" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Genome Annu Rev Anim Biosci</note>
+	<note type="raw_reference">Koepfli K-P, Paten B, O&apos;Brien SJ; Genome 10K Community of Scientists (2015) The Genome 10K Project: A way forward. Annu Rev Anim Biosci 3:57-111.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The i5K initiative: Advancing arthropod genomics for knowledge, human health, agriculture, and the environment</title>
+		<author>
+			<persName><surname>Consortium</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="595" to="600" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">i5K Consortium (2013) The i5K initiative: Advancing arthropod genomics for knowledge, human health, agriculture, and the environment. J Hered 104:595-600.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The Global Invertebrate Genomics Alliance (GIGA): Developing community resources to study diverse invertebrate genomes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bracken-Grissom</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">GIGA Community of Scientists</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bracken-Grissom H, et al.; GIGA Community of Scientists (2014) The Global Invertebrate Genomics Alliance (GIGA): Developing community resources to study diverse invertebrate genomes. J Hered 105:1-18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">A proposed framework for identifying potential biodefense vulnerabilities posed by synthetic biology: Interim report</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>43 National Academies of Sciences E &amp; Medicine</publisher>
+			<biblScope unit="page">51</biblScope>
+			<pubPlace>National Academies, Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">43 National Academies of Sciences E &amp; Medicine (2017) A proposed framework for identifying potential biodefense vulnerabilities posed by synthetic biology: Interim report (National Academies, Washington, DC), p 51.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Land-use and climate change risks in the Amazon and the need of a novel sustainable development paradigm</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nobre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="10759" to="10768" />
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nobre CA, et al. (2016) Land-use and climate change risks in the Amazon and the need of a novel sustainable development paradigm. Proc Natl Acad Sci USA 113:10759-10768.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

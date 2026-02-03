@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Emergent mechanistic diversity of enzyme-catalysed β-diketone cleavage</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Gideon</forename><surname>Grogan</surname></persName>
+							<email>grogan@ysbl.york.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="laboratory">York Structural Biology Laboratory</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5YW</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Emergent mechanistic diversity of enzyme-catalysed β-diketone cleavage</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">669123F321E5C224EDE1DB788169B2E9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>catalytic triad</term>
+					<term>crotonase</term>
+					<term>β-diketone</term>
+					<term>dioxygenase</term>
+					<term>hydrolase</term>
+					<term>polyketide</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The enzymatic cleavage of C-C bonds in β-diketones is, comparatively, a little studied biochemical process, but one that has important relevance to human metabolism, bioremediation and preparative biocatalysis. In recent studies, four types of enzymes have come to light that cleave C-C bonds in the β-diketone functionality using different chemical mechanisms. OPH [oxidized poly(vinyl alcohol) hydrolase from Pseudomonas sp. strain VM15C], which cleaves nonane-4,6-dione to butyrate and pentan-2-one is a serine-triad hydrolase. Dke1 (diketone-cleaving enzyme from Acinetobacter johnsonii) is a dioxygenase, cleaving acetylacetone to methylglyoxal and acetate. Fumarylacetoacetate hydrolase cleaves fumarylacetoacetate to fumarate and aceto-acetate using a water molecule, activated by a catalytic His/Asp dyad, aided by a calcium ion that both chelates the enol acid form of the substrate and indirectly positions the water for nucleophilic attack at a carbonyl group. 6-Oxocamphor hydrolase cleaves nonenolizable cyclic β-diketones and is a homologue of the crotonase superfamily, employing a catalytic His/Asp dyad to activate a water molecule for nucleophilic attack at a carbonyl group on one prochiral face of the diketone substrate, effecting desymmetrizations of symmetrical substrates.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.0" lry="788.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>β-Diketones (Figure <ref type="figure">1</ref>) are an important class of organic compounds frequently encountered in synthetic chemistry <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>, where, in addition to their established role in the synthesis of N-heterocycles <ref type="bibr" target="#b3">[4]</ref>, they have been used as ligands for the co-ordination of transition metals <ref type="bibr" target="#b4">[5]</ref> and have also been investigated for use as potential antiviral agents <ref type="bibr" target="#b5">[6]</ref>. β-Diketones are also encountered in Nature as both metabolic intermediates in the microbial metabolism of aromatics and terpenes and also as anthropogenic environmental contaminants (see below). As a result of their ubiquity, the biological transformation of these compounds has recently aroused interest <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. The present review will focus on the mechanistic diversity that has recently been observed in those enzymes that catalyse the cleavage of a C-C bond between the carbonyl groups of β-diketones bearing substituents R 1 and R 2 , where these substituents are not a hydroxy group or an O-alkyl or S-linked thioester of CoA (Figure <ref type="figure">1</ref>). Hence, no further reference will be made to additional diversity encountered in the cleavage of those β-dicarbonyl compounds. 'β-Diketone hydrolases' as such are nominally described by the Enzyme Commission designation EC 3.7.1.-{"Hydrolases (3) acting on C-C bonds <ref type="bibr" target="#b6">(7)</ref> in ketonic substances (1)"} (<ref type="url" target="http://www.chem.qmul.ac.uk/iubmb/enzyme/">http://www.chem.qmul.ac.uk/iubmb/enzyme/</ref>), although, as has been observed, such distinctions with a basis primarily in observed reaction chemistry are often at odds with sequence-, structure-or mechanism-based descriptors when the nature of the enzyme activity has been revealed <ref type="bibr" target="#b9">[10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ENZYMES THAT CLEAVE β-DIKETONES</head><p>There have been reports of the enzymatic cleavage of β-diketones in the microbiological literature for a number of years, although the preliminary nature of the studies meant that little more than cursory investigations of mechanism were presented. An initial examination suggests that two types of substrates are cleaved: β-diketo acids, where R 2 is a carboxylate in an α or β position to one of the diketone carbonyl groups, and 'neutral' β-diketones, where R 1 and R 2 are alkyl groups that form part of larger aliphatic or alicyclic systems (Figure <ref type="figure">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C-C BOND CLEAVAGE IN β-DIKETO ACIDS</head><p>The cleavage of β-diketo acids is common in Nature and can be observed in the eukaryotic metabolism of amino acids and degradation of aromatic compounds by prokaryotes. The enzymatic hydrolysis of acetylpyruvate (1) to acetate (2) and pyruvate (3) (Scheme 1) had been described as part of the degradation of catechol by a Pseudomonas sp. in the early 1960s <ref type="bibr" target="#b10">[11]</ref>, and these reports were closely followed by the work of Davey and Ribbons <ref type="bibr" target="#b11">[12]</ref>, who isolated and partially characterized an APH (acetylpyruvate hydrolase) from Pseudomonas putida when this organism was grown on resorcinol as sole carbon source. That work was recently revisited with the use of elegant NMR experiments that suggested that the actual substrate for the enzymatic reaction was the carboxylate 2-enol form <ref type="bibr" target="#b12">[13]</ref>. Activity was at this time attributed to base-catalysed activation of a water molecule for nucleophilic attack at the four-carbon carbonyl group, with a bivalent Mg 2+ chelating the enol carboxylate (Figure <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanism of FAH (fumarylacetoacetate hydrolase, EC 3.7.1.2)</head><p>The best evidence of such a mechanism for the cleavage of C-C bonds in β-diketo acids comes from studies on FAH. The hydrolysis of fumarylacetoacetate (4) to fumarate (5) and acetoacetate (6) (Scheme 2) constitutes a late step in the mammalian metabolism of tyrosine, and disruptions to the gene encoding FAH Scheme 1 Hydrolysis of acetylpyruvate by APH Figure 2 Suggested mechanism for the action of APH from Pseudomonas putida Adapted from Figure 8 of [13] and reproduced with the permission of the publishers. c 1999 American Society for Microbiology.</p><p>in humans have been shown to be the most significant factor in Type 1 hereditary tyrosinaemia <ref type="bibr" target="#b13">[14]</ref>. After early reports of FAH activity in both human liver preparations <ref type="bibr" target="#b14">[15]</ref> and bacteria <ref type="bibr" target="#b15">[16]</ref>, an enzyme was purified from ox liver that was observed to catalyse the cleavage of not only fumarylacetoacetate, but also acetylpyruvate in vitro <ref type="bibr" target="#b16">[17]</ref>. The enzyme was later described as hydrolysing a series of additional β-diketones, including six other 2,4-diketo acids and three 3,5-diketo acids of those tested <ref type="bibr" target="#b17">[18]</ref>. However, any suggestions as to the mechanism of FAH-catalysed C-C bond cleavage were largely speculative until the structure of mouse FAH was solved in 1999 by Timm et al. <ref type="bibr" target="#b18">[19]</ref>. Mouse FAH, which was shown not to have any close sequence-related homologues, was revealed to be a dimeric enzyme of subunit molecular mass 46 kDa (Figure <ref type="figure">3</ref>). FAH was a calcium-containing α/βhydrolase of novel fold and containing an N-terminal domain of 120 amino acids and a C-terminal domain of 330 amino acids Figure 3 Structure of FAH -a dimer of two 46 kDa subunits arranged in an unusual mixed β-sandwich roll. The active site was located near the dimer interface, and it was observed to bind the products of fumarylacetoacetate hydrolysis, namely fumarate and acetoacetate.</p><p>Fumarate was bound near to the entrance to the active site; acetoacetate was bound to a calcium ion in close proximity to His 133 , which appeared to form a dyad with Glu 364 . The relative positions of the active-site dyad and the acetoacetate residue were suggested to be consistent with a mechanism whereby the enolate form of fumarylacetoacetate would be co-ordinated by the bivalent calcium ion (indicated by 'Me 2+ ' in Scheme 3), holding the substrate in place for nucleophilic attack at the electrophilic carbon atom of the target carbonyl group. The hydroxide nucleophile would be generated by general base-catalysed activation of a water molecule by His 133 , activated in turn by Glu 364 . The Ca 2+ ion was also observed to position the water for nucleophilic attack</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scheme 3 Mechanism proposed for FAH-catalysed cleavage of fumarylacetoacetate</head><p>Adapted from Figure <ref type="figure" target="#fig_9">6</ref> of <ref type="bibr" target="#b19">[20]</ref> with the permission of the publishers. c 2001 American Society for Biochemistry and Molecular Biology.</p><p>indirectly, as it was co-ordinated to Glu 199 , which, in turn, was Hbonded to the water that would furnish the nucleophile. Initial nucleophilic attack of hydroxide would generate a tetrahedral alkoxide <ref type="bibr" target="#b6">(7)</ref> that could be stabilized by an oxyanion hole formed by the side chains of residues Arg 237 , Gln 240 and Lys 253 . After C-C bond cleavage, the consequent acetoacetate carbanion would be quenched by a proton from Lys 253 (Scheme 3). The need for coordination of the substrate to the calcium ion was thought to be indicative of the relative inactivity of the C-C bond to be cleaved when compared with the C-heteroatom bonds hydrolysed by classical serine-catalytic-triad enzymes such as lipases and proteases.</p><p>The mechanism proposed for FAH was reinforced by the solution of the FAH structure in complex with a phosphorus analogue of a putative alkoxide transition state, HMPOBA [4-(hydroxymethylphosphinoyl)-3-oxobutanoic acid, 8] [20] (Figure <ref type="figure" target="#fig_2">4</ref>). In addition to the calcium ion, a magnesium ion was identified which appeared to stabilize the β-roll that constituted the active site of FAH. Comparison of the HMPOBA-bound FAH structure and the native and product-bound structures revealed some flexibility of β-Diketone hydrolase activities analogous to that of FAH have been reported in bacteria metabolizing gentisate. Both FPH (fumarylpyruvate hydrolase) and constitutive [MPH I (maleylpyruvate hydrolase I)] and an inducible (MPH II) activities were identified in a strain of Pseudomonas alcaligines <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. Each enzyme was found to be specific for its substrate, FPH and MPH enzymes catalysing the formation of fumarate and pyruvate, and maleate and pyruvate, respectively <ref type="bibr" target="#b22">[23]</ref>. A gene encoding FPH has recently been cloned from Ralstonia sp. strain U2 <ref type="bibr" target="#b23">[24]</ref> and shown to encode a protein of 195 amino acids of approx. 21 kDa molecular mass. This enzyme exhibits approx. 40 % sequence identity with the fumarylacetoacetate hydrolase from Xanthomonas campestris, an FAH homologue of only 237 amino acids, which appears to lack the large N-terminal domain of the mouse enzyme. In the absence of structural and mechanistic information, it is difficult to be certain of conserved mechanism of C-C bond cleavage in these bacterial enzymes, but the apparent conservation of some key residues, including the Arg 237 and Gln 240 , which form a proposed oxyanion hole, is perhaps suggestive of some similarity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C-C BOND CLEAVAGE IN 'NEUTRAL' β-DIKETONES (R 1 AND R 2 = ALKYL)</head><p>One of the earliest inferences of a neutral β-diketone-cleaving enzyme was made in 1966 by Chapman et al. <ref type="bibr" target="#b24">[25]</ref> who, when performing metabolite extraction studies on the mother liquor of fermentations of Corynebacterium strain T1 grown on (1R)-(+)camphor (9) as sole carbon source, noted that the symmetrical diketone 6-oxocamphor (11, bornane-2,6-dione), appeared to be cleaved to α-campholinic acid ( <ref type="formula">12</ref>) by a biocatalytic process that yielded an optically active product (Scheme 4). No further biochemical characterization of this activity was presented at that time, but we shall return to the enzyme responsible for the transformation in much greater detail later.</p><p>Cyclohexane-1,3-dione ( <ref type="formula">14</ref>) was reported to be hydrolysed to 5-oxohexanoic ('5-oxocaproic acid', 15) by cell extracts of a Pseudomonas strain grown under anaerobic conditions on cyclohexanol (13) as sole carbon source (Scheme 5) <ref type="bibr" target="#b25">[26]</ref>. The enzyme, named cyclohexane-1,3-dione hydrolase (EC 3.7.1.10) was not isolated, but kinetic constants for impure preparations were calculated and the enzyme shown not to accept cyclohexane-1,2-dione or cyclohexane-1,4-dione as substrates. The failure to stimulate activity by the addition of CoA was taken as evidence that the enzymatic cleavage of the C-C bond was not performed by a thiolase.</p><p>Two β-diketone-cleavage enzymes were reported to be active in the metabolism of atropine by Pseudomonas sp. AT3 (Scheme 6) <ref type="bibr" target="#b26">[27]</ref>. An induced hydrolase was found to act regiospecifically on Scheme 5 Cleavage of cyclohexane-1,3-dione by cyclohexane-1,3-dione hydrolase (CDH) from a Pseudomonas sp. as part of the anaerobic degradation of cyclohexanol Scheme 6 Hydrolysis of cycloheptane-1,3,5-trione by a β-diketone hydrolase from Pseudomonas strain AT3 involved in atropine degradation cycloheptane-1,3,5-trione ( <ref type="formula">16</ref>), cleaving one β-diketone regioselectively to yield a product, 17, but not the alternative product, 18. The product 17, itself a β-diketo acid, was cleaved by a β-diketone hydrolase to yield succinate <ref type="bibr" target="#b18">(19)</ref> and acetone <ref type="bibr" target="#b19">(20)</ref>.</p><p>A β-diketone hydrolase was implicated in the degradation of the polymeric plastic material PVA [poly(vinyl alcohol), 21] (Scheme 7). A strain of Pseudomonas was reported by Sakai et al. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> to degrade PVA first by the action of a dehydrogenase, to yield poly(vinyl ketone) <ref type="bibr" target="#b21">(22)</ref>, which was subsequently cleaved by a hydrolase enzyme to yield products with either methyl ketone or carboxylate termini. The activity was tested in vitro using nonane-4,6-dione as test substrate, and pentan-2-one and butyrate were the consequent products. The enzyme was also shown to cleave a variety of related alkyl diketones and 1-phenylpentane-2,4-dione, but not cyclic β-diketones such as cyclohexane-1,3dione. Few biochemical studies were performed with this system, but an analogous enzyme, PDH (pentane-2,4-dione hydrolase), was reported by Kawagoshi and Fujita in 1998 <ref type="bibr" target="#b31">[32]</ref>. Isolated from the PVA-degrading strain Pseudomonas vesicularis var. povalolyticus, PDH was reported to be a monomeric protein of molecular mass between 65 and 75 kDa. Using pentane-2,4dione (acetylacetone) as substrate, PDH activity was inhibited by bivalent mercuric and silver ions, NaF and progressively inactivated by increasing concentrations of NaCl.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanisms of 'neutral' β-diketone cleavage</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OPH (oxidized PVA hydrolase)</head><p>The mechanism whereby oxidized PVA was degraded by β-diketone hydrolase enzymes was further illuminated when the first gene encoding such an activity was isolated. Shimao and coworkers <ref type="bibr" target="#b32">[33]</ref> cloned a gene, pvaB, from the PVA-degrading bacterium Pseudomonas sp. strain VM15C, which formed an operon with pvaA, the gene encoding the alcohol dehydrogenase activity that preceded the hydrolytic activity during the biodegradative process. Crucially, the amino acid sequence of one of these oxidized PVA-degrading β-diketone hydrolases was available for the first time. The enzyme, OPH, a protein of 379 amino acids (molecular mass 40 kDa), was shown to contain a GISSG motif from positions 201 to 205, which was coincident with the lipase motif (GXSXG) described by Jendrossek et al. <ref type="bibr" target="#b33">[34]</ref> in the polyhydroxyalkanoate depolymerase from Pseudomonas sp., with which OPH shared 22 % sequence similarity. The activity of OPH was assayed in vitro using nonane-4,6-dione as substrate, although, interestingly, the enzyme displayed no activity towards pentane-2,4-dione (acetylacetone), as had been described for other oxidized-PVA-cleavage enzymes. PMSF was shown to inhibit the activity completely and, when considered with the consensus lipase motif, this was strongly suggestive of a nucleophilic serine residue in the mechanism of β-diketone cleavage by OPH, although putative residues constituting the rest of a catalytic triad were not identified. Identification of a putative catalytic serine A nucleophilic serine residue had also been identified as the basis of the catalytic mechanism of the enzyme Ayg1p from Aspergillus fumigatus <ref type="bibr" target="#b34">[35]</ref>. Ayg1p catalyses the processing of the heptaketide YWA1 (23) to 1,3,6,8-tetrahydroxynaphthalene (T4HN) (25; Scheme 9). The open-chain form of YWA1 features a tetrahydroxynaphthalene nucleus with a pendant acetoacetate moiety. Although it is not a β-diketone hydrolase in the strictest sense of the present review, a nucleophilic serine residue attacks the carbonyl group of the acetoacetate nearest to the ring system, and the resultant oxyanion rearranges to form the β-dioxo species (24). This undergoes C-C bond cleavage to form the product T4HN and acetoacetic acid. The evidence that suggests that the serine residue acts as a nucleophile in the mechanism of Ayg1p and this may provide support for the activity of a nucleophilic serine residue in enzymes such as OPH, in contrast with the possibility of a serine residue in a classical catalytic triad acting as a general base for the activation of water, as observed in the mechanism of the C-C-bond-cleaving enzyme MhpC from Escherichia coli <ref type="bibr" target="#b35">[36]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dke1 (diketone-cleaving enzyme from Acinetobacter johnsonii)</head><p>The cleavage of the industrially significant β-diketone acetylacetone (pentane-2,4-dione, 26), to yield acetate and acetone, by the enzyme pentane-2,4-dione hydrolase, has already been described <ref type="bibr" target="#b31">[32]</ref>. Straganz and co-workers <ref type="bibr" target="#b36">[37]</ref> later isolated by enrichment selection a bacterium, A. johnsonii, capable of growth on acetylacetone as sole carbon source. When acetylacetone was incub-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scheme 9 Mechanism of serine-nucleophile-dependent C-C bond cleavage by the enzyme Ayg1p from A. fumigatus</head><p>Adapted from Figure <ref type="figure" target="#fig_6">10</ref> of <ref type="bibr" target="#b34">[35]</ref> with the permission of the publishers. c 2004 American Society for Biochemistry and Molecular Biology. ated in vitro with cell extracts of the isolate, the expected product of a β-diketone hydrolase reaction, acetone, was not detected; rather, acetate (2) and pyruvate (3) were found to be the products. It was found that pyruvate had been evolved from methylglyoxal <ref type="bibr" target="#b26">(27)</ref> as the initial product of enzymatic C-C bond cleavage (Scheme 10). Surprisingly, therefore, a previously unreported mechanism of β-diketone cleavage had been discovered, and the enzyme that catalysed this process was isolated and characterized.</p><p>The enzyme, 'Diketone-cleaving enzyme', designated 'Dke1', was found to be a homogeneous tetrameric metalloenzyme of subunit molecular mass 16 kDa, which is dependent on iron for activity. Other β-diketones, including 2-acetylcyclohexanone and 1-phenylbutane-1,3-dione were accepted as substrates. The gene encoding Dke1 was cloned <ref type="bibr" target="#b37">[38]</ref> and shown to encode a protein sequence of 153 amino acids that exhibited little homology with other enzymes in the database. Polarographic and NMR experiments showed that 1 mol of molecular oxygen was consumed for each molecule of acetylacetone cleaved, and hence the C-C-bondcleavage activity was attributed to a dioxygenase. One iron atom was bound per subunit, and the k cat and K m values for acetylacetone were determined to be 8.5 s -1 and 9.1 µM respectively. It was observed that, for a series of substrates, k cat was largely unaffected, despite large differences in k cat /K m, suggesting a common ratelimiting step in the cleavage of all substrates accepted by Dke1. Allusion was made in that report <ref type="bibr" target="#b37">[38]</ref> to the X-ray-crystallographic structure of Dke1, which shows structural homology with enzymes of the cupin superfamily, a catalytically diverse group of enzymes whose number include aci-reductone dioxygenase <ref type="bibr" target="#b38">[39]</ref>, cysteine dioxygenase and quercetin dioxygenase, as well as enzymes involved in epoxidation and epimerization reactions <ref type="bibr" target="#b39">[40]</ref>. The oxygen-utilizing metalloenzymes of this group of dioxygenases contain redox-active transition metals, which are well known mediators of oxygenating reactions. By interaction of the metal cofactors with triplet oxygen or singlet substrate, it is thought that the reactants can overcome the spin conservation rule <ref type="bibr" target="#b40">[41]</ref>. It is likely that, in the case of Dke1, the iron cofactor is not only needed for the appropriate positioning of the substrate, but also provides the electronic environment to render possible a reaction between acetylacetone and oxygen. The structure of Dke1 and ligand complexes thereof will prove an invaluable aid in understanding the mechanism of this dioxygenase in relation to C-C bond cleavage in acetylacetone.</p><p>Investigations into the possible mechanism of Dke1 have recently been published <ref type="bibr" target="#b41">[42]</ref>. The enzyme was incubated with acetylacetone under an 18 O 2 atmosphere and the distribution of label analysed by gas chromatography-MS. It was found that, concordant with the suggestion that the enzyme was a dioxygenase, approx 97 % of the label was incorporated into acetate and 70 % into methylglyoxal, the latter value consistent with some exchange owing to (de)hydration of the aldehyde product. Although three possible mechanisms of bond cleavage by dioxygen were mooted, the authors finally proposed a nucleophilic attack at the electrophilic carbonyl carbon atom by a peroxidate <ref type="bibr" target="#b27">(28)</ref> resulting from attack of dioxygen on the enolate form of acetylacetone. Attack of the peroxidate forms a dioxetane (29) that undergoes cleavage to form methylglyoxal and acetate as products (Scheme 11). This conclusion was based on experimental evidence that showed that the product ratio R 1 CO 2 -/O=CHR 2 , and hence the relative susceptibility of one or other candidate C-C bonds to be cleaved, inverted completely when the substrate R 2 substituent was changed from methyl (electron donating) to trifluoromethyl (electron withdrawing). The bond adjacent to the most electron-deficient carbon atom was cleaved in all cases, thereby supporting a mechanism of nucleophilic attack by an intermediate peroxidate. The determination of the structure of Dke1 in complex with substrates or analogues, and the characterization of the rate-limiting step of reaction, should provide further insight into the detailed mechanism of oxygenative dicarbonyl cleavage.</p><p>OCH (6-oxocamphor hydrolase from Rhodococcus sp.)</p><p>In the 1960s, Gunsalus and co-workers <ref type="bibr" target="#b24">[25]</ref> were concerned with metabolic routes for the degradation of the monoterpene camphor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scheme 11 Mechanism proposed for Dke1-catalysed cleavage of acetylacetone</head><p>Adapted from Scheme 1 of <ref type="bibr" target="#b41">[42]</ref> with the permission of the publishers. c 2004 American Chemical Society.</p><p>One of these routes, shown in Scheme 4, employed by a Corynebacterium species, incorporated the cleavage of the symmetrical β-diketone 6-oxocamphor (11, bornane-2,6-dione, 2,6-diketocamphane) by a 'β-diketone hydrolase' to yield α-campholinic acid (12), a cyclopentanone derivative with two chiral centres that was shown to be optically active.</p><p>During a series of investigations focused on enzyme-catalysed stoichiometric asymmetric processes, the early work of Gunsalus and colleagues <ref type="bibr" target="#b24">[25]</ref> was revisited, and an enzyme from Rhodococcus sp. NCIMB 9784, designated OCH, that was able to catalyse the desymmetrization of 6-oxocamphor in vitro to yield a 6:1 mixture of (2R,4S)-and (2S,4S)-α-campholinic acid diastereomers with high optical purity, was isolated <ref type="bibr" target="#b42">[43]</ref> (Scheme 12). Electrospray MS revealed a subunit molecular mass of approx. 29 kDa, and calibrated gel filtration showed that OCH was a trimer in solution <ref type="bibr" target="#b43">[44]</ref>. OCH was shown to hydrolyse a number of monocyclic and bicyclic diketones, but activity appeared to be extremely slow with enolizable β-diketones. However, bicyclo-[2.2.1]heptanedione and bicyclo[2.2.2]octanedione were transformed to chiral cyclic oxo acids with high optical purity <ref type="bibr" target="#b42">[43]</ref>.</p><p>The gene encoding OCH was cloned and observed to encode a polypeptide of 257 amino acids <ref type="bibr" target="#b43">[44]</ref>. The amino acid sequence displayed some similarity with enzymes of the crotonase superfamily, a group of low-sequence-homology enzymes that catalyse a wide range of different chemical reactions <ref type="bibr" target="#b44">[45]</ref>. These include decarboxylation <ref type="bibr" target="#b45">[46]</ref>, double-bond hydration <ref type="bibr" target="#b46">[47]</ref>, dehalogenation by the parent member of the superfamily, namely enoyl-CoA hydratase <ref type="bibr" target="#b47">[48]</ref> and the isomerization of double bonds in unsaturated fatty acids <ref type="bibr" target="#b48">[49]</ref>. In each case, the substrate for each crotonasecatalysed reaction was an acyl-CoA thioester and the reaction chemistries catalysed, though different, were related by the activesite stabilization of an enolate intermediate by an oxyanion hole that was conserved throughout the superfamily. OCH had already been proved to be different from the rest of the crotonase superfamily in two respects: (i) the substrate was not an acyl-CoA thioester and (ii) the conserved oxyanion hole was not present, or present in a different form, since OCH did not possess a GG/AG motif, known to be partially responsible for oxyanion hole formation from crystal structures of known crotonases in complex with substrates or analogues.</p><p>The structure of OCH <ref type="bibr" target="#b49">[50]</ref> (Figure <ref type="figure" target="#fig_8">5</ref>) revealed a cavity in the enzyme monomer, gated by a phenylalanine residue, which featured a number of acid/base residues and an ordered water structure. This cavity was identified as a putative active site and, on this basis, five mutants of OCH, His 45 → Ala, His 122 → Ala, His 145 → Ala, Asp 154 → Asn and Glu 244 → Gln, were prepared and kinetic constants for each mutant determined <ref type="bibr" target="#b50">[51]</ref>. In each case the second-order rate constants were substantially but the effect was most notable for the His 145 → Ala mutant, where k cat was very low and the C-C-bond-cleavage activity, as measured by the disappearance of substrate using a UV spectrophotometric assay, barely measurable, suggesting a crucial role in catalysis. The low-k cat -plus-low-K m mutant, His 122 → Ala, was selected for co-crystallization experiments with the substrate 6-oxocamphor, as it was thought that this would present the best opportunity for trapping the substrate ligand in the active site.</p><p>The structure of the His 122 → Ala mutant that had been soaked with the natural substrate 6-oxocamphor was solved to 1.9 Å (0.19 nm) resolution <ref type="bibr" target="#b50">[51]</ref>. However, instead of the substrate being bound in the active site, the product, α-campholinic acid was observed. In addition, the diastereomer that was bound was not the (2R,4S) cis form that predominates in the product extracted from in vitro reactions conducted using pure wild-type OCH, but rather the (2S,4S) trans form that constitutes the minor product. It was reasoned that this diastereomer would tautomerize to the more thermodynamically stable predominant isomer when released from the confines of the active site.</p><p>The presence of the ligand in the active site nevertheless revealed several interesting interactions with active site residues that could make a contribution either to mechanism or prochiral selectivity (Figure <ref type="figure" target="#fig_9">6</ref>). One carboxylate oxygen atom of the pendant acetate group at position 4 was hydrogen-bonded to His 145 , which in turn forms a dyad with Asp 154 . As a water molecule is present in approximately the same site in the native structure, this provides good evidence for the base-catalysed activation of a water molecule for nucleophilic attack at the carbonyl group on the pro-S face of the 6-oxocamphor molecule. In addition, the carbonyl group of the pro-R face of 6-oxocamphor, now the carbonyl group of the forming cyclopentanone ring, was hydrogenbonded to Trp 40 , and the forming flattened five-membered ring stacked against Phe 82 (Figure <ref type="figure" target="#fig_9">6</ref>). These appeared to be among the significant factors contributing to prochiral facial selectivity in OCH, the only β-diketone cleavage enzyme for which a chiral selective transformation has been reported to date.</p><p>A proposed mechanism is shown in Scheme 13. A water molecule is activated by His 145 for nucleophilic attack of hydroxide at the pro-S face of the symmetrical substrate. This would result in a tetrahedral oxyanion (30) that would require stabilization within the active site. The oxyanion would rearrange to yield enolate <ref type="bibr" target="#b30">(31)</ref>, held by Trp 40 and His 122 , which is then protonated to yield the final (2S,4S) product, which tautomerizes outside the confines of the active site to yield the thermodynamically stable mixture of (2R,4S) and (2S,4S) diastereomers in a 6:1 ratio. Further knowledge of the active-site topology and mechanism  of OCH could aid in the engineering of isoenzymes capable of opposite prochiral selectivities, in order to furnish an series of products enantiocomplementary to those currently available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUMMARY</head><p>The mechanisms adopted by Nature for the cleavage of the β-diketone function are remarkably diverse, especially considering the small number of enzymes described thus far that are capable of this transformation. It is possible that this diversity has arisen to accommodate the cleavage of C-C bonds of different susceptibility. The mechanism FAH is similar to that of OCH but, whereas a metal ion is needed to aid catalysis by the former enzyme, the strain inherent in the OCH substrate may offset the need for additional activation of a water-derived hydroxide in the latter. The contrasting mechanisms of aliphatic β-diketone cleavage in OPH and Dke1 may reflect differing oxygen availabilities in the bacterial environment. However, it is clear that, in common with natural mechanisms of proteolysis, it has been necessary for Nature to recruit different protein sequences, threedimensional folds and mechanistic chemistry to effect the cleavage of C-C bonds in β-diketones for the purposes of detoxification and catabolic processes to secure metabolic energy. The results described above illustrate how these different mechanisms may be  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 Figure 2</head><label>12</label><figDesc>Figure 1 Two types of β-diketone cleaved by enzymes</figDesc><graphic coords="2,82.76,67.29,169.44,99.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Scheme 2 Figure 3</head><label>23</label><figDesc>Scheme 2 Reaction catalysed by FAH</figDesc><graphic coords="2,308.51,66.84,243.78,197.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4</head><label>4</label><figDesc>Figure 4 Structure of HMPOBA, an alkoxide transition-state analogue for the inhibition of FAH active-site-residue side chains, particularly of those thought to form the oxyanion hole, consistent with a change in active-site topology on substrate cleavage.β-Diketone hydrolase activities analogous to that of FAH have been reported in bacteria metabolizing gentisate. Both FPH (fumarylpyruvate hydrolase) and constitutive [MPH I (maleylpyruvate hydrolase I)] and an inducible (MPH II) activities were identified in a strain of Pseudomonas alcaligines<ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. Each enzyme was found to be specific for its substrate, FPH and MPH enzymes catalysing the formation of fumarate and pyruvate, and maleate and pyruvate, respectively<ref type="bibr" target="#b22">[23]</ref>. A gene encoding FPH has recently been cloned from Ralstonia sp. strain U2<ref type="bibr" target="#b23">[24]</ref> and shown to encode a protein of 195 amino acids of approx. 21 kDa molecular mass. This enzyme exhibits approx. 40 % sequence identity with the fumarylacetoacetate hydrolase from Xanthomonas campestris, an FAH homologue of only 237 amino acids, which appears to lack the large N-terminal domain of the mouse enzyme. In the absence of structural and mechanistic information, it is difficult to be certain of conserved mechanism of C-C bond cleavage in these bacterial enzymes, but the apparent conservation of some key residues, including the Arg 237 and Gln 240 , which form a proposed oxyanion hole, is perhaps suggestive of some similarity.</figDesc><graphic coords="3,343.64,66.73,168.96,86.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Scheme 4</head><label>4</label><figDesc>Scheme 4 Metabolism of (1R)-(+)-camphor by Corynebacterium T1 (= Rhodococcus sp. NCIMB 9784)</figDesc><graphic coords="4,61.26,66.56,212.16,181.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Scheme 7</head><label>7</label><figDesc>Scheme 7 Degradation of PVA by Pseudomonas spp.</figDesc><graphic coords="4,331.77,66.80,197.76,154.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Scheme 8</head><label>8</label><figDesc>Scheme 8 Suggested mechanism for a serine-triad-type-hydrolasecatalysed cleavage of β-diketones (represented by nonane-4,6-dione)residue suggests a mechanism for C-C bond cleavage whereby one carbonyl of the substrate is attacked by a nucleophilic serine as part of a catalytic triad to yield a tetrahedral transition state, stabilised perhaps by a suitable oxyanion hole in the active site of OPH. Bond cleavage would result in an acyl-enzyme intermediate and pentan-2-one (Scheme 8). A nucleophilic serine residue had also been identified as the basis of the catalytic mechanism of the enzyme Ayg1p from Aspergillus fumigatus<ref type="bibr" target="#b34">[35]</ref>. Ayg1p catalyses the processing of the heptaketide YWA1 (23) to 1,3,6,8-tetrahydroxynaphthalene (T4HN) (25; Scheme 9). The open-chain form of YWA1 features a tetrahydroxynaphthalene nucleus with a pendant acetoacetate moiety. Although it is not a β-diketone hydrolase in the strictest sense of the present review, a nucleophilic serine residue attacks the carbonyl group of the acetoacetate nearest to the ring system, and the resultant oxyanion rearranges to form the β-dioxo species<ref type="bibr" target="#b23">(24)</ref>. This undergoes C-C bond cleavage to form the product T4HN and acetoacetic acid. The evidence that suggests that the serine residue acts as a nucleophile in the mechanism of Ayg1p and this may provide support for the activity of a nucleophilic serine residue in enzymes such as OPH, in contrast with the possibility of a serine residue in a classical catalytic triad acting as a general base for the activation of water, as observed in the mechanism of the C-C-bond-cleaving enzyme MhpC from Escherichia coli<ref type="bibr" target="#b35">[36]</ref>.</figDesc><graphic coords="5,44.62,67.20,241.44,283.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Scheme 10</head><label>10</label><figDesc>Scheme 10 Cleavage of acetylacetone to glycoaldehyde and acetate by the dioxygenase Dke1 from A. johnsonii</figDesc><graphic coords="5,322.64,434.72,211.68,165.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Scheme 12</head><label>12</label><figDesc>Scheme 12 Stereochemical course of the reaction catalysed by OCHAdapted from Figure1of<ref type="bibr" target="#b50">[51]</ref> with the permission of the publishers. c 2004 American Society for Biochemistry and Molecular Biology.</figDesc><graphic coords="7,42.74,67.23,244.72,100.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5</head><label>5</label><figDesc>Figure 5 Structure of OCH OCH is a hexamer (left) of 29 kDa subunit monomers (right).</figDesc><graphic coords="7,127.13,505.88,339.36,199.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 6</head><label>6</label><figDesc>Figure 6 Active site of OCH showing interaction of active-site residues with (2S,4S)-α-campholinic acid</figDesc><graphic coords="8,44.26,66.76,246.24,216.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Scheme 13</head><label>13</label><figDesc>Scheme 13 Mechanism proposed for cleavage of the C-C bond in 6-oxocamphor by OCHAdapted from Figure6of<ref type="bibr" target="#b50">[51]</ref> with the permission of the publishers. c 2004 American Society for Biochemistry and Molecular Biology.</figDesc><graphic coords="8,129.27,355.62,339.36,349.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>c</head><figDesc>2005 Biochemical Society exploited for the greater understanding of these enzymes and their potential uses in medicinal chemistry, bioremediation and preparative biocatalysis.I thank Dr Grit D. Straganz (Institute of Biotechnology, Graz University of Technology, Graz, Austria), for helpful discussions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,308.01,66.55,244.93,298.65" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>c 2005 Biochemical Society</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">New access to 1,3-diketones from aldehydes</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fargeas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baalouch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Metay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baffreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ménard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gosselin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Bergé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barthomeuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lebreton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="10359" to="10364" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fargeas, V., Baalouch, M., Metay, E., Baffreau, J., Ménard, D., Gosselin, P., Bergé, J.-P., Barthomeuf, C. and Lebreton, J. (2004) New access to 1,3-diketones from aldehydes. Tetrahedron 60, 10359-10364</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Studies on the α-acetylation of δ-valerolactone and ε-caprolactone</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Christoffers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Oertling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Frey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3769" to="3778" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christoffers, J., Oertling, H., Fischer, P. and Frey, W. (2003) Studies on the α-acetylation of δ-valerolactone and ε-caprolactone. Tetrahedron 59, 3769-3778</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Preparation of β-keto esters and β-diketones by C-acylation/deacetylation of acetoacetic esters and acetonyl ketones with 1-acylbenzotriazoles</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Katritzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Akhmedov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="6617" to="6622" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katritzky, A. R., Wang, Z., Wang, M., Wilkerson, C. R., Hall, D. and Akhmedov, N. G. (2004) Preparation of β-keto esters and β-diketones by C-acylation/deacetylation of acetoacetic esters and acetonyl ketones with 1-acylbenzotriazoles. J. Org. Chem. 69, 6617-6622</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Structural revision in pyrazole chemistry</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Heterocycles</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="145" to="173" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, D. and Singh, S. P. (2004) Structural revision in pyrazole chemistry. Heterocycles 63, 145-173</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Some aspects of competitive coordination of β-diketones and nitrogen-containing ligands</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Garnovskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Kharixov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Garnovskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Burlov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Vasilchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Bondarenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Coord. Chem</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="365" to="375" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garnovskii, A. D., Kharixov, B. I., Blanco, L. M., Garnovskii, D. A., Burlov, A. S., Vasilchenko, I. S. and and Bondarenko, G. I. (1999) Some aspects of competitive coordination of β-diketones and nitrogen-containing ligands. J. Coord. Chem. 46, 365-375</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antiviral activity of some β-diketones. 4. Benzyl diketones. In vitro activity against both RNA and DNA viruses</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Diana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Carabateas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pancic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="889" to="894" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Diana, G. D., Carabateas, P. M., Johnson, R. E., Williams, G. L., Pancic, F. and Collins, J. C. (1978) Antiviral activity of some β-diketones. 4. Benzyl diketones. In vitro activity against both RNA and DNA viruses. J. Med. Chem. 21, 889-894</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">β-Ketolases -forgotten hydrolytic enzymes?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pokorny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ribbons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="291" to="296" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pokorny, D., Steiner, W. and Ribbons, D. W. (1997) β-Ketolases -forgotten hydrolytic enzymes? Trends Biotechnol. 15, 291-296</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">β-Diketone hydrolases</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="73" to="82" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grogan, G. (2002) β-Diketone hydrolases. J. Mol. Catal. B Enzym. 19, 73-82</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Reference deleted</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">9 Reference deleted</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Definitions of enzyme function for the structural genomic era</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Babbitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="230" to="237" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Babbitt, P. C. (2003) Definitions of enzyme function for the structural genomic era. Curr. Opin. Chem. Biol. 7, 230-237</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A new metabolic pathway of catechol</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nishizuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ichiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hayaishi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="268" to="270" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nishizuka, Y., Ichiyama, A., Nakamura, S. and Hayaishi, O. (1961) A new metabolic pathway of catechol. J. Biol. Chem. 237, 268-270</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Metabolism of resorcinylic compounds by bacteria. Purification and properties of acetylpyruvate hydrolase from Pseudomonas putida 01</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ribbons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="3826" to="3830" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davey, J. F. and Ribbons, D. W. (1975) Metabolism of resorcinylic compounds by bacteria. Purification and properties of acetylpyruvate hydrolase from Pseudomonas putida 01. J. Biol. Chem. 250, 3826-3830</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Proton-nuclear magnetic resonance analyses of the substrate specificity of a β-ketolase from Pseudomonas putida</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pokorny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pogorevc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Griengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ribbons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="5051" to="5059" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pokorny, D., Brecker, L., Pogorevc, M., Steiner, W., Griengl, H., Kappe, T. and Ribbons, D. W. (1999) Proton-nuclear magnetic resonance analyses of the substrate specificity of a β-ketolase from Pseudomonas putida. J. Bacteriol. 181, 5051-5059</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hypertyrosinemia</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Tanguay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Metabolic and Molecular Basis of Inherited Disease, 7th edn</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Scriver</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beaudet</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Sly</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Valle</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page" from="1076" to="1107" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mitchell, G. A., Lambert, M. and Tanguay, R. M. (1995) Hypertyrosinemia. In The Metabolic and Molecular Basis of Inherited Disease, 7th edn (Scriver, C. R., Beaudet, A. L., Sly, W. S. and Valle, D., eds.), pp. 1076-1107, McGraw-Hill, New York</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The properties of maleylacetoacetate, the initial product of homogentisate oxidation in liver</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="489" to="498" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knox, W. E. and Edwards, S. W. (1955) The properties of maleylacetoacetate, the initial product of homogentisate oxidation in liver. J. Biol. Chem. 216, 489-498</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Oxidation of homogentistic acid by cell-free extracts of a vibrio</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dagley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="251" to="256" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chapman, P. J. and Dagley, S. (1962) Oxidation of homogentistic acid by cell-free extracts of a vibrio. J. Gen. Microbiol. 28, 251-256</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Purification and properties of a diketo acid hydrolase from beef liver</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Saing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mahuran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2098" to="2102" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saing, H. H., Sim, S. S., Mahuran, D. J. and Schmidt, D. E. (1972) Purification and properties of a diketo acid hydrolase from beef liver. Biochemistry 11, 2098-2102</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Characterisation and substrate specificity of fumarylacetoacetate fumarylhydrolase</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mahuran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Angus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mahuran, D. J., Angus, R. H., Braun, C. V., Sim, S. S. and Schmidt, D. E. (1977) Characterisation and substrate specificity of fumarylacetoacetate fumarylhydrolase. Can. J. Biochem. 55, 1-8</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Crystal structure and mechanism of a carbon-carbon bond hydrolase</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Timm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhanumoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Harp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Bunick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1023" to="1033" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Timm, D. E., Mueller, H. A., Bhanumoorthy, P., Harp, J. M. and Bunick, G. J. (1999) Crystal structure and mechanism of a carbon-carbon bond hydrolase. Structure 7, 1023-1033</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mechanistic inferences from the crystal structure of fumarylacetoacetate hydrolase with a bound phosphorus-based inhibitor</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Bateman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhanumoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Witte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Mcclard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Timm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="15284" to="15291" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bateman, R. L., Bhanumoorthy, P., Witte, J. F., McClard, R. W., Grompe, M. and Timm, D. E. (2001) Mechanistic inferences from the crystal structure of fumarylacetoacetate hydrolase with a bound phosphorus-based inhibitor. J. Biol. Chem. 276, 15284-15291</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The enzymic degradation of alkyl-substituted gentisates, maleates and malates</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hopper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dagley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="29" to="40" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopper, D. J., Chapman, P. J. and Dagley, S. (1971) The enzymic degradation of alkyl-substituted gentisates, maleates and malates. Biochem. J. 122, 29-40</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evidence for isofunctional enzymes used in m-cresol and 2,5-xylenol degradation via the gentisate pathway in Pseudomonas alcaligines</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Poh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Bayly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="59" to="69" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poh, C. L. and Bayly, R. C. (1980) Evidence for isofunctional enzymes used in m-cresol and 2,5-xylenol degradation via the gentisate pathway in Pseudomonas alcaligines. J. Bacteriol. 143, 59-69</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Purification and some properties of maleylpyruvate and fumarylpyruvate hydrolase from Pseudomonas alcaligines</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Bayly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dagley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Berardino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="70" to="77" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bayly, R. C., Chapman, P. J., Dagley, S. and Berardino, D. D. (1980) Purification and some properties of maleylpyruvate and fumarylpyruvate hydrolase from Pseudomonas alcaligines. J. Bacteriol. 143, 70-77</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Genes of Ralstonia (formerly Pseudomonas) sp. strain U2 encoding enzymes for gentisate catabolism</title>
+		<author>
+			<persName><forename type="first">N.-Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Fuenmayor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="700" to="708" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, N.-Y., Fuenmayor, S. L. and Williams, P. A. (2001) nag Genes of Ralstonia (formerly Pseudomonas) sp. strain U2 encoding enzymes for gentisate catabolism. J. Bacteriol. 183, 700-708</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">New acyclic acid metabolite in camphor oxidation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Gunsalus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rinehart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">618</biblScope>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chapman, P. J., Meerman, G., Gunsalus, I. C., Srinivasan, R. and Rinehart, K. (1966) New acyclic acid metabolite in camphor oxidation. J. Am. Chem. Soc. 88, 618</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Enzyme reactions involved in anaerobic cyclohexanol metabolism by a denitrifying Pseudomonas species</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dangel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tschech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuchs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="273" to="279" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dangel, W., Tschech, A. and Fuchs, G. (1989) Enzyme reactions involved in anaerobic cyclohexanol metabolism by a denitrifying Pseudomonas species. Arch. Microbiol. 152, 273-279</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Atropine metabolism by Pseudomonas sp. strain AT3: evidence for nortropine as an intermediate in tropine breakdown and reactions leading to succinate</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Bartholomew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Trudgill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hopper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="3245" to="3250" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bartholomew, B. A., Smith, M. J., Trudgill, P. W. and Hopper, D. J. (1996) Atropine metabolism by Pseudomonas sp. strain AT3: evidence for nortropine as an intermediate in tropine breakdown and reactions leading to succinate. Appl. Environ. Microbiol. 62, 3245-3250</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Studies on the poly(vinyl alcohol) degrading enzyme. 3. Purification and properties of oxidized poly(vinyl alcohol)-degrading enzyme</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakai, K., Morita, M., Hamada, N. and Watanabe, Y. (1981) Studies on the poly(vinyl alcohol) degrading enzyme. 3. Purification and properties of oxidized poly(vinyl alcohol)-degrading enzyme. Agric. Biol. Chem. 45, 63-71</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Studies on the poly(vinyl alcohol) degrading enzyme. 5. Purification and properties of oxidized poly(vinyl alcohol) hydrolase with an acidic isoelectric point</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="827" to="833" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakai, K., Hamada, N. and Watanabe, Y. (1985) Studies on the poly(vinyl alcohol) degrading enzyme. 5. Purification and properties of oxidized poly(vinyl alcohol) hydrolase with an acidic isoelectric point. Agric. Biol. Chem. 49, 827-833</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A new enzyme, β-diketone hydrolase: a component of a poly(vinyl alcohol)-degrading enzyme preparation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1901" to="1902" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakai, K., Hamada, N. and Watanabe, Y. (1985) A new enzyme, β-diketone hydrolase: a component of a poly(vinyl alcohol)-degrading enzyme preparation. Agric. Biol. Chem. 49, 1901-1902</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Degradation mechanism of poly(vinyl alcohol) by successive reactions of secondary alcohol oxidase and β-diketone hydrolase from Pseudomonas sp</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="989" to="996" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakai, K., Hamada, N. and Watanabe, Y. (1986) Degradation mechanism of poly(vinyl alcohol) by successive reactions of secondary alcohol oxidase and β-diketone hydrolase from Pseudomonas sp. Agric. Biol. Chem. 50, 989-996</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Purification and properties of the poly(vinyl alcohol) degrading enzyme 2,4-pentanedione hydrolase obtained from Pseudomonas vesicularis var</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawagoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">povalolyticus. PH. World J. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="95" to="100" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawagoshi, Y. and Fujita, M. (1998) Purification and properties of the poly(vinyl alcohol) degrading enzyme 2,4-pentanedione hydrolase obtained from Pseudomonas vesicularis var. povalolyticus. PH. World J. Microbiol. Biotechnol. 14, 95-100</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The gene pvaB encodes oxidized poly(vinyl alcohol) hydrolase of Pseudomonas sp. strain VM15C and forms an operon with the poly(vinyl alcohol) dehydrogenase gene pvaA</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shimao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tamogami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="649" to="657" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shimao, M., Tamogami, T., Kishida, S. and Harayama, S. (2000) The gene pvaB encodes oxidized poly(vinyl alcohol) hydrolase of Pseudomonas sp. strain VM15C and forms an operon with the poly(vinyl alcohol) dehydrogenase gene pvaA. Microbiology. 146, 649-657</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cloning and characterization of the poly(hydroxyalkanoic acid)-depolymerase gene locus, PHAZ1, of Pseudomonas lemoignei and its gene product</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Schlegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="701" to="710" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jendrossek, D., Müller, B. and Schlegel, H. G. (1993) Cloning and characterization of the poly(hydroxyalkanoic acid)-depolymerase gene locus, PHAZ1, of Pseudomonas lemoignei and its gene product. Eur. J. Biochem. 218, 701-710</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Hydrolytic polyketide shortening by Ayg1p, a novel enzyme in fungal melanin biosynthesis</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yasuoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-F</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kwon-Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ebizuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="44613" to="44620" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fujii, I., Yasuoka, Y., Tsai, H.-F., Chang, Y. C., Kwon-Chung, K. J. and Ebizuka, E. (2004) Hydrolytic polyketide shortening by Ayg1p, a novel enzyme in fungal melanin biosynthesis. J. Biol. Chem. 279, 44613-44620</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Catalytic mechanism of a C-C hydrolase enzyme: Evidence for a gem-diol intermediate, not an acyl enzyme</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Langley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D H</forename><surname>Bugg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1522" to="1531" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fleming, S. M., Robertson, T. A., Langley, G. J. and Bugg, T. D. H. (2000) Catalytic mechanism of a C-C hydrolase enzyme: Evidence for a gem-diol intermediate, not an acyl enzyme. Biochemistry 39, 1522-1531</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A novel β-diketone-cleaving enzyme from Acinetobacter johnsonii: acetylacetone 2,3-oxygenase</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Straganz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ribbons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="232" to="236" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Straganz, G., Brecker, L., Weber, H.-J., Steiner, W. and Ribbons, D. W. (2002) A novel β-diketone-cleaving enzyme from Acinetobacter johnsonii: acetylacetone 2,3-oxygenase. Biochem. Biophys. Res. Commun. 297, 232-236</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Acetylacetone-cleaving enzyme Dke1: a novel C-C bond cleaving enzyme from Acinetobacter johnsonii</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Straganz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Glieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ribbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page" from="573" to="581" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Straganz, G. D., Glieder, A., Brecker, L., Ribbons, D. W. and Steiner, W. (2003) Acetylacetone-cleaving enzyme Dke1: a novel C-C bond cleaving enzyme from Acinetobacter johnsonii. Biochem. J. 369, 573-581</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Modeling and experiment yields the structure of acireductone dioxygenase from Klebsiella pneumoniae</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Pochapsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Pochapsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Al-Mjeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Maroney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="966" to="972" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pochapsky, T. C., Pochapsky, S. S., Ju, T., Mo, H., Al-Mjeni, F. and Maroney, M.J. (2002) Modeling and experiment yields the structure of acireductone dioxygenase from Klebsiella pneumoniae. Nat. Struct. Biol. 9, 966-972</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Cupins: the most functionally diverse superfamily?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dunwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Purvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khuri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="7" to="17" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunwell, J. M., Purvis, A. and Khuri, S. (2004) Cupins: the most functionally diverse superfamily? Phytochemistry 65, 7-17</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Dioxygen activation at mononuclear nonheme iron active sites: enzymes, models and intermediates</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Costas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Que</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="939" to="986" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Costas, M., Mehn, M. P., Jensen, M. P. and Que, Jr, L. (2004) Dioxygen activation at mononuclear nonheme iron active sites: enzymes, models and intermediates. Chem. Rev. 104, 939-986</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Electronic substituent effects on the cleavage specificity of a non-heme Fe 2+ -dependent β-diketone dioxygenase and their mechanistic implications</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Straganz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nidetzky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="12202" to="12203" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Straganz, G. D., Hofer, H., Steiner, W. and Nidetzky, B. (2004) Electronic substituent effects on the cleavage specificity of a non-heme Fe 2+ -dependent β-diketone dioxygenase and their mechanistic implications. J. Am. Chem. Soc. 126, 12202-12203</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">An asymmetric enzyme-catalyzed retro-Claisen reaction for the desymmetrisation of cyclic β-diketones</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Graf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Flitsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1111" to="1114" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grogan, G., Graf, J., Jones, A., Parsons, S., Turner, N. J. and Flitsch, S. L. (2001) An asymmetric enzyme-catalyzed retro-Claisen reaction for the desymmetrisation of cyclic β-diketones. Angew. Chem. Int. Ed. Engl. 40, 1111-1114</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The desymmetrisation of bicyclic β-diketones by an enzymatic retro-Claisen reaction. A new reaction of the crotonase superfamily</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bougioukou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Flitsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="12565" to="12572" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grogan, G., Roberts, G. A., Bougioukou, D., Turner, N. J. and Flitsch, S. L. (2001) The desymmetrisation of bicyclic β-diketones by an enzymatic retro-Claisen reaction. A new reaction of the crotonase superfamily. J. Biol. Chem. 275, 12565-12572</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The crotonase superfamily: Divergently related enzymes that catalyse different reactions involving acyl coenzyme A thioesters</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Benning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gerlt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="145" to="157" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holden, H. M., Benning, M. M., Haller, T. and Gerlt, J. A. (2001) The crotonase superfamily: Divergently related enzymes that catalyse different reactions involving acyl coenzyme A thioesters. Acc. Chem. Res. 34, 145-157</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">New reactions in the crotonase superfamily: Structure of methylmalonyl-CoA decarboxylase from Escherichia coli</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Benning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gerlt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Holden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="4630" to="4639" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benning, M. M., Haller, T., Gerlt, J. A. and Holden, H. M. (2000) New reactions in the crotonase superfamily: Structure of methylmalonyl-CoA decarboxylase from Escherichia coli. Biochemistry 39, 4630-4639</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Crystal structure of enoyl-coenzyme A (CoA) hydratase at 2.5 angstroms resolution: a spiral fold defines the Co-A binding pocket</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Zeelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Hiltunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wierenga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="5135" to="5145" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Engel, C. K., Mathieu, M., Zeelen, J. P., Hiltunen, J. K. and Wierenga, R. K. (1996) Crystal structure of enoyl-coenzyme A (CoA) hydratase at 2.5 angstroms resolution: a spiral fold defines the Co-A binding pocket. EMBO J. 15, 5135-5145</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Structure of 4-chlorobenzoyl coenzyme A dehalogenase determined to 1.8 A ˚resolution: An enzyme catalyst generated by adaptive mutation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Benning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R.-Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wesenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dunaway-Mariano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Holden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="8103" to="8109" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benning, M. M., Taylor, K. L., Liu, R.-Q., Yang, G., Xiang, H., Wesenberg, G., Dunaway-Mariano, D. and Holden, H. M. (1996) Structure of 4-chlorobenzoyl coenzyme A dehalogenase determined to 1.8 A ˚resolution: An enzyme catalyst generated by adaptive mutation. Biochemistry 35, 8103-8109</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The crystal structure of dienoyl-CoA isomerase at 1.5 A ˚resolution reveals the importance of aspartate and glutamate sidechains for catalysis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Modis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Filppula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Novikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Norledge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Hiltunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wierenga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="957" to="970" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Modis, Y., Filppula, S. A., Novikov, D. K., Norledge, B., Hiltunen, J. K. and Wierenga, R. K. (1998) The crystal structure of dienoyl-CoA isomerase at 1.5 A ˚resolution reveals the importance of aspartate and glutamate sidechains for catalysis. Structure 15, 957-970</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The 2 A ˚crystal structure of 6-oxocamphor hydrolase. New structural diversity in the crotonase superfamily</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Whittingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Turkenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="1744" to="1750" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittingham, J. L., Turkenburg, J. P., Verma, C. S., Walsh, M. A. and Grogan, G. (2003) The 2 A ˚crystal structure of 6-oxocamphor hydrolase. New structural diversity in the crotonase superfamily. J. Biol. Chem. 278, 1744-1750</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structure of 6-oxo camphor hydrolase H122A mutant bound to its natural product (2S, 4S)-α-campholinic acid. Mutant structure suggests an atypical mode of transition state binding for a crotonase homolog</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="31312" to="31317" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leonard, P. M. and Grogan, G. (2004) Structure of 6-oxo camphor hydrolase H122A mutant bound to its natural product (2S, 4S)-α-campholinic acid. Mutant structure suggests an atypical mode of transition state binding for a crotonase homolog. J. Biol. Chem. 279, 31312-31317</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1042/BJ20042038</idno>
+		<imprint>
+			<date type="published" when="2004-12-09">9 December 2004/20 January 2005. February 2005. June 2005</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Received 9 December 2004/20 January 2005; accepted 8 February 2005 First Published on the Internet 7 June 2005, DOI 10.1042/BJ20042038</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

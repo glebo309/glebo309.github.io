@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computational design of an enzyme catalyst for a stereoselective bimolecular Diels-Alder reaction</title>
+				<funder ref="#_ezW39Qu">
+					<orgName type="full">Howard Hughes Medical Institute</orgName>
+					<orgName type="abbreviated">HHMI</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Defense Advances Research Projects Agency</orgName>
+					<orgName type="abbreviated">DARPA</orgName>
+				</funder>
+				<funder ref="#_mtTXydR">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-12-18">2011 December 18.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Justin</forename><forename type="middle">B</forename><surname>Siegel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Biomolecular Structure and Design Program</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandre</forename><surname>Zanghellini</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Arzeda Corp</orgName>
+								<address>
+									<addrLine>2722 Eastlake Ave E Suite 150</addrLine>
+									<postCode>98102</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Helena</forename><forename type="middle">M</forename><surname>Lovick</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gert</forename><surname>Kiss</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Abigail</forename><forename type="middle">R</forename><surname>Lambert</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Division of Basic Sciences</orgName>
+								<orgName type="institution">Fred Hutchinson Cancer Research Center</orgName>
+								<address>
+									<postCode>98109</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>St</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Clair</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jasmine</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donald</forename><surname>Hilvert</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Laboratory of Organic Chemistry</orgName>
+								<orgName type="institution">Eidgenössische Technische Hochschule (ETH)</orgName>
+								<address>
+									<postCode>8093</postCode>
+									<settlement>Zürich Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">H</forename><surname>Gelb</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Barry</forename><forename type="middle">L</forename><surname>Stoddard</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Division of Basic Sciences</orgName>
+								<orgName type="institution">Fred Hutchinson Cancer Research Center</orgName>
+								<address>
+									<postCode>98109</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kendall</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Forrest</forename><forename type="middle">E</forename><surname>Michael</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">David</forename><surname>Baker</surname></persName>
+							<email>dabaker@u.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Biomolecular Structure and Design Program</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute (HHMI)</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computational design of an enzyme catalyst for a stereoselective bimolecular Diels-Alder reaction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-12-18">2011 December 18.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B341290D5399BB1644EA264BCB4E008C</idno>
+					<idno type="DOI">10.1126/science.1190239</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Diels-Alder reaction is a cornerstone in organic synthesis, forming two carbon-carbon bonds and up to four new stereogenic centers in one step. No naturally occurring enzymes have been shown to catalyze bimolecular Diels-Alder reactions. We describe the de novo computational design and experimental characterization of enzymes catalyzing a bimolecular Diels-Alder reaction with high stereoselectivity and substrate specificity. X-ray crystallography confirms that the structure matches the design for the most active of the enzymes, and binding site substitutions reprogram the substrate specificity. Designed stereoselective catalysts for carbon-carbon bond forming reactions should be broadly useful in synthetic chemistry.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Intermolecular Diels-Alder reactions are important in organic synthesis <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref>, and enzyme Diels-Alder catalysts could be invaluable in increasing rates and stereoselectively. No naturally occurring enzyme has been demonstrated (16) to catalyze an intermolecular Diels-Alder reaction <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>, although catalytic antibodies have been generated for several Diels-Alder reactions <ref type="bibr" target="#b2">(3,</ref><ref type="bibr">16)</ref>. We have previously used the Rosetta computational design methodology to design novel enzymes <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref> that catalyze bond breaking reactions. However, bimolecular bond forming reactions present a greater challenge, since both substrates must be bound in the proper relative orientation in order to accelerate the reaction and induce stereoselectivity. Also, previous successes with computational enzyme design have involved general acid-base catalysis and covalent catalysis, but the Diels-Alder reaction instead can be primarily influenced by modulation of molecular orbital energies <ref type="bibr" target="#b5">(6)</ref>. To investigate the feasibility of designing intermolecular Diels-Alder enzyme catalysts we chose to focus on the well-studied model Diels-Alder reaction between 4-carboxybenzyl trans-1,3-butadiene-1-carbamate and N,N-dimethylacrylamide (Fig. <ref type="figure" target="#fig_0">1</ref>, substrates 1 and 2, respectively) <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>.</p><p>The first step in de novo enzyme design is to decide on a catalytic mechanism and an associated ideal active site. For normal-electron-demand Diels-Alder reactions, Frontier Molecular Orbital Theory dictates that the interaction of the highest occupied molecular orbital (HOMO) of the diene with the lowest unoccupied molecular orbital (LUMO) of the dienophile is the dominant interaction in the transition state <ref type="bibr" target="#b5">(6)</ref>. The reaction can be catalyzed by bringing the energies of the HOMO and LUMO closer together. This can be accomplished by positioning a hydrogen bond acceptor to interact with the carbamate NH of the diene, (thus raising the energy of the HOMO energy and stabilizing the positive charge accumulating in the transition state), and a hydrogen bond donor to interact with the carbonyl of the dienophile, (lowering the LUMO energy and stabilizing the negative charge accumulating in the transition state) <ref type="bibr" target="#b6">(7)</ref>. Quantum mechanical (QM) calculations predict that these hydrogen bonds can stabilize the transition state by up to 4.7 kcal/mol. (Fig. <ref type="figure">S0</ref>). In addition to electronic stabilization, binding of the two substrates in a relative orientation optimal for the reaction is expected to produce a large increase in rate through entropy reduction <ref type="bibr" target="#b7">(8)</ref>. Thus, a protein with a binding pocket (Fig. <ref type="figure" target="#fig_0">1</ref>) that positions the two substrates in the optimal relative orientation, and has appropriately placed hydrogen bond donors and acceptors, is expected to be an effective Diels-Alder catalyst.</p><p>We used the Rosetta methodology to design in silico enzyme models containing active sites with the desired properties (Fig. <ref type="figure" target="#fig_0">1</ref>). The design methodology starts from three-dimensional atomic models of minimal active sites (theozymes) consisting of the reaction transition state and protein functional groups involved in binding and catalysis. We chose the carbonyl oxygen from a glutamine or asparagine to hydrogen bond with the N-H of the diene carbamate, and the hydroxyl from a serine, threonine, or tyrosine to hydrogen bond with the carbonyl oxygen of the dienophile amide moiety (Fig. <ref type="figure" target="#fig_0">1</ref>). QM calculations were carried out to determine the geometry of the lowest free energy barrier transition state between substrates and product in the presence of these hydrogen bonding groups. Starting from these coordinates, a diverse ensemble of 10 19 distinct minimal active sites was then generated by systematically varying the identity and rotameric state of the catalytic side chains, the hydrogen bonding geometry between these residues and the transition state, and the internal degrees of freedom of the transition state (Fig. <ref type="figure" target="#fig_3">S3-S4</ref>).</p><p>Using RosettaMatch <ref type="bibr" target="#b8">(9)</ref>, a set of 207 stable protein scaffolds was searched for backbone geometries that allow the two catalytic residues and the two substrates, oriented as in one of the minimal active sites, to be placed without making significant steric clashes with the protein backbone. A hashing technique allows efficient searching through the very large number of distinct sites (16). From the set of 10 19 possible active site configurations, approximately 10 6 could be matched in a stable protein scaffold. Each match was then optimized using RosettaDesign <ref type="bibr" target="#b9">(10)</ref> to maximize transition state binding while not clashing with bound substrates or product (16). These designs were filtered based on satisfaction of catalytic geometry, transition state binding energy, and shape complementarity between designed pocket and the transition state (16). A total of 84 designs were selected for experimental validation.</p><p>Genes encoding these 84 designs were synthesized with a C-terminal 6-histidine affinity tag and expressed in E. coli. 50 of the designed proteins were soluble; these were purified using affinity chromatography and Diels-Alder activity was monitored using a liquid chromatography-tandem mass spectrometry assay in a phosphate buffered saline (PBS) solution at pH 7.4, 298K (16). Two designs (DA_20_00, DA_42_00) were found to have Diels-Alderase activity. The active design DA_20_00 was created from a 6-bladed βpropeller scaffold (PDB-ID 1E1A; a diisopropylfluorophosphatase from Loligo Vulgaris, 13 mutations, Fig. <ref type="figure" target="#fig_4">S5A</ref>). As observed for many native β-propeller enzymes, the functional groups that play key roles in catalysis -a glutamine carbonyl group and a tyrosine hydroxyl group that provide the activating hydrogen bonds -are located in the middle of one side of the propeller. The rest of the pocket is lined with hydrophobic residues that form a tight shape-complementary surface (Fig. <ref type="figure" target="#fig_1">2A</ref>). The active design DA_42_00 was created from the ketosteroid isomerase scaffold (PDB-ID 1OHO, 14 mutations, Fig. <ref type="figure" target="#fig_4">S5B</ref>). The active site is quite different than that of DA_20_00, in that only the carbon-carbon bond forming portion of the diene and dienophile are actually buried within the protein.</p><p>To further improve the catalytic activity of DA_20_00 and DA_42_00, residues that were in direct contact with the transition state in each designed enzyme were mutated individually to sets of residues that were predicted to retain or improve transition state binding and bolster the two catalytic residues. A set of six mutations (A21T, A74I, Q149R, A173C, S271A, and A272N) was found to increase the overall catalytic efficiency of DA_20_00 by over 100fold relative to the original design model (Table <ref type="table">I</ref>; we refer to the DA_20_00 protein with these six additional mutations as DA_20_10, Fig. <ref type="figure" target="#fig_4">S5C</ref>). Three of the mutations improve the packing around the transition state (A74I, A21T) and the catalytic glutamine (A173C). Two of the mutations likely improve the overall electrostatic complementarity with the bound substrates: Q149R hydrogen bonds to the carboxylate on the diene, and S271A makes the dienophile environment more non-polar. The last mutation (A272N) reverts a designed alanine residue back to the native asparagine: molecular dynamics simulations (16) suggested that the catalytic tyrosine can flip into an alternative conformation not positioned to activate the dienophile, and a larger residue at 272, such as the native asparagine, was predicted to hold the tyrosine in the conformation required for catalysis. For DA_42_00, a set of four mutations (Q58R, L61M, A99N, V101I) was found to increase the observed catalytic activity roughly 20-fold over the original design (Table <ref type="table">I</ref>; we refer to the DA_42_00 protein with four additional mutations as DA_42_04, Fig. <ref type="figure" target="#fig_4">S5D</ref>). As in the case of DA_20_00, all of these mutations increase the size of the amino acid and either improve packing or electrostatic interactions with the ligand.</p><p>To investigate the contributions of the two catalytic residues in DA_20_10 to catalysis, glutamine 195 was mutated into a glutamate (Q195E) and tyrosine 121 was mutated into a phenylalanine (Y121F). We had originally incorporated a glutamine rather than a glutamate at position 195, despite the fact that the carboxylate is more effective than the amide at increasing the energy of the diene HOMO, because we were concerned about the unfavorable contribution of carboxylate desolvation to substrate binding. Furthermore, QM calculations predict that the amide group of glutamine can simultaneously interact with the diene and dienophile, resulting in a 2 kcal/mol lower activation barrier than if glutamate was used as a catalytic residue (Fig <ref type="figure">S0C</ref>). Indeed, the Q195E mutation showed almost complete loss of activity (450-fold), illustrating the sensitivity of the enzyme to the details of the designed active site. The Y121F mutation decreases catalytic activity 27-fold, consistent with the removal of a hydrogen bond that contributes to dienophile binding and a lowering of its LUMO.</p><p>The kinetic parameters of the DA_20_00, DA_20_10, and DA_42_04 catalyzed reactions were determined by measuring the dependence of the reaction velocity on the concentration of both diene and dienophile (16). The kinetic parameters are summarized in Table <ref type="table">I</ref>, and double reciprocal plots for DA_20_10 and DA_42_04 are shown in Figure <ref type="figure" target="#fig_2">3A</ref> and <ref type="figure" target="#fig_2">3B</ref>. DA_20_10 has an effective molarity (k cat /k uncat = 89 M) 20 fold greater than those of the catalytic antibodies 7D4 <ref type="bibr" target="#b10">(11)</ref> and 4D5 <ref type="bibr" target="#b11">(12)</ref> previously elicited for the same reaction. DA_42_04 binds both the diene and the dienophile more tightly (significantly lower K M ) than DA_20_10, but the k cat is 100-fold lower suggesting that the orientation of the two substrates relative to each other and/or to the catalytic groups is not optimal.</p><p>At high substrate concentrations DA_20_10 proceeds for more than 30 turnovers with some loss of activity over time due to aggregation (16). At high enzyme concentrations more than 80% of the diene substrate is converted to product (Fig. <ref type="figure">S7</ref>). These properties suggest that de novo designed enzymes could be useful as catalysts in production level chemical syntheses. Some Diels-Alder reactions can be accelerated by binding within a non specific hydrophobic pocket <ref type="bibr" target="#b12">(13)</ref>. This, however, does not appear to be the case for the reaction studied here: E. coli cell lysate, cyclodextrins, and BSA have either no effect or actually inhibit the reaction (Table <ref type="table">S2</ref>). The importance of the active site binding geometry is highlighted by a comparison of DA_42_04 and DA_20_10: DA_42_04 binds the substrates much more tightly but has a much lower k cat . To further probe the sensitivity of DA_20_10 catalysis to the details of the active site geometry, each of the 15 residues constituting the active site was reverted one at a time to its identity in the original scaffold. Remarkably, nine of the reversions completely abolished activity; the other six mutations decreased activity by 1.5fold to 10-fold (Fig. <ref type="figure" target="#fig_1">2C</ref>, Table <ref type="table">S5</ref>). The reversions that significantly reduced the catalytic activity of DA_20_10 are primarily in the core of the binding site, while mutations that had a less significant effect on activity are closer to the active site rim. Similar levels of sensitivity were observed for mutations that disrupt binding in DA_42_04 (16). Thus, while the catalytic efficiencies of the computationally designed Diels-Alderases are small in comparison with those of native enzymes, they exhibit similar levels of sensitivity to the details of the active site, and clearly provide much more than a general hydrophobic environment.</p><p>To determine how well the structure of DA_20_00 matched the design model, we solved the crystal structure of one of the active variants of DA_20_00 (harboring the A74I mutation; see Fig. <ref type="figure" target="#fig_1">2B</ref>). The crystal structure solved to 1.5Å resolution (Table <ref type="table">S4</ref>, Fig 2B ) shows atomic level agreement with the design model, with an all-atom RMSD of 0.5Å. The major deviation between the crystal structure and the design model is in a surface loop, which appears to be pulled back from the predicted active site (RMSD on residues 32 to 46, 0.93Å). The conformations of the sidechains at the active site in the crystal structure are close to those in the design model; taken together with the reversion data described above, and the complete lack of activity observed for the starting scaffold (Fig S7 ), these results strongly suggest that the experimentally observed activity is generated by the designed active site.</p><p>The Diels-Alder reaction studied here can, in principle, produce eight different isomeric products, four of which are experimentally observed in the reaction in solution <ref type="bibr" target="#b10">(11)</ref>. The computational design was directed at the transition state that yields the 3R,4S endo product, which only comprises 47% of the total product mixture formed in the uncatalyzed reaction. To determine the stereoselectivity of DA_20_10, a previously described liquid chromatography-tandem mass spectrometry assay with a chiral column was used <ref type="bibr" target="#b13">(14)</ref>. Consistent with the design, DA_20_10 only catalyzes the formation of the expected 3R,4S product (&gt;97%, Fig. <ref type="figure">S8</ref>).</p><p>Besides stereoselectivity, the level of control over a chemical reaction by a designed enzyme is reflected by its substrate specificity. To investigate the substrate specificity of DA_20_10, we characterized product formation with six different dienophiles that share the same acrylamide core but have different nitrogen substituents (Fig. <ref type="figure" target="#fig_4">5</ref>). The catalytic activity against each of the substrates was measured using a liquid-chromatography mass spectrometry assay (16). DA_20_10 was observed to strongly favor the substrate for which it was designed. Even slight changes, such as adding a methyl group to the N,Ndimethylacrylamide (Fig 5, 2A vs. 2B), significantly decreased the activity of DA_20_10, consistent with the tight packing of the active site around the two substrates.</p><p>In addition to the ability to catalyze new reactions with high substrate specificity and stereoselectivity, one of the promises of de novo enzyme design is that once an initial active enzyme is engineered it can be easily modified to catalyze similar reactions with alternate substrates. To explore this possibility, we mutated histidine 287 on one side of the dienophile binding pocket in DA_20_10 to asparagine and several other residues. The H287N mutation has a substrate specificity profile different from DA_20_10; in particular there is a 13-fold switch in specificity for dienophile 2E relative to 2A, while the selectivity against 2F is maintained (Fig. <ref type="figure" target="#fig_4">5</ref>). The specificity switch may have two origins: the histidine in the crystal structure clashes with the larger substrates, and the amino group on the asparagine can hydrogen bond with the hydroxyl in 2F.</p><p>While we have succeeded in computationally designing an enzyme that catalyzes an enantio-and diastereo-selective intermolecular reaction, there is clearly much room for improvement in our computational design methods. Only two of the fifty designed enzymes tested had measurable activity, and a much higher success rate and higher overall activities are clearly desirable. The differences in k cat in the two designed enzymes suggest that precise orientation of the two substrates relative to one another and to the catalytic residues is critical; more precise control over the designed ligand binding orientation is clearly desirable. On the experimental side, by analogy with our previous results with computationally designed Kemp eliminases (4), it should be possible to increase the activity of these enzymes by directed evolution.</p><p>The agreement between the designed and the experimentally observed substrate specificity and stereoselectivity of DA_20_10 is notable given the importance of selectivity in organic chemistry reactions. The capability to rationally control both substrate specificity and stereoselectivity via designed enzymes opens up new avenues of research in both basic and applied chemistry.  <ref type="formula">3</ref>) is a schematic of the design target active site, with hydrogen bond acceptor and donor groups activating the diene and dienophile and a complementary binding pocket holding the two substrates in an orientation optimal for catalysis.  (A) Dependence of reaction velocity for DA_20_10 on diene concentration for different fixed dienophile concentrations. The diene concentration was varied from 3.0 to 0.18 mM with a fixed concentration of 100 mM (◢), 66 mM (■), 44 mM (◆), 30 mM(▲), 20 mM(▼), or 13 mM (•) dienophile (B) Dependence of reaction velocity for DA_42_04 at varying diene concentrations for different fixed dienophile concentrations. The diene concentration was varied from 2.0 to 0.06 mM with a fixed concentration of 100 mM (◢), 50 mM (■), 25 mM (◆), 13 mM(▲), 7 mM(▼), or 3 mM (•) dienophile. Reaction conditions are described in the supplementary material.  Table 1</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kinetic Parameters for DA_20_00, DA_20_10, and DA_42_04</head><p>Reactions for DA_20_00, DA_20_10, and DA_42_04 were carried out at 298K (16). The errors represent the calculated 95% confidence interval. Kinetic parameters for catalytic antibodies 7D4 and 4D5 at 310K were taken from <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b11">12)</ref>. The k uncat for the Diels-Alder reaction at 298K was found to be 2.44 × </p><note type="other">10</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The Diels-Alder reaction Diene (1) and dienophile (2) undergo a pericyclic [4+2] cycloaddition (3) to form a chiral cyclohexene ring (4). Also shown in (3) is a schematic of the design target active site, with hydrogen bond acceptor and donor groups activating the diene and dienophile and a complementary binding pocket holding the two substrates in an orientation optimal for catalysis.</figDesc><graphic coords="7,175.44,61.00,321.12,110.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Structure of a Designed Diels-Alderase Top panel (2A): surface view of the design model (DA_20_00, green) bound to the substrates (diene and dienophile, purple). The catalytic residues making the designed hydrogen bonds are depicted as sticks. Middle panel (2A): overlay of the design model (DA_20_00, green) and the apo enzyme crystal structure of DA_20_00_A74I (brown). Bottom panel (2C): Contribution of designed residues to catalysis assessed through reversions back to the native amino acid at each position individually. Colors indicate the reduction in activity upon reversion to the native amino acid; 2 fold (blue) to &gt; 10 fold (red). The figure was generated with PyMol (15).</figDesc><graphic coords="8,168.34,61.00,335.32,202.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Kinetic Characterization</figDesc><graphic coords="9,192.00,348.00,288.00,282.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Absolute stereoselectivity of DA_20_10The transition states which lead to the four possible ortho-stereoisomers are shown above the reaction chromatograms. Background reaction: 2 mM diene and 70 mM dieneophile in a PBS solution for 24 hours at 298 K. DA_20_10 reaction: 50 μM protein, 0.5 mM diene, and 10 mM dieneophile in a PBS solution for 48 hours at 298K (16).</figDesc><graphic coords="11,192.00,61.00,288.00,243.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Designed Control of Substrate Specificity Reactions were carried out with 0.2 mM diene 1 (Figure 1), and 10 mM of one of the six dienophiles depicted above in PBS at 298K in the absence or presence of 60 μM DA_20_10 or DA_20_10_H287N. The values in the figure are the mean (colored bars) and standard deviation (error bars) of four independent measurements of the product peak area (arbitrary units) formed per hour (16).</figDesc><graphic coords="12,179.16,61.00,313.68,254.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>- 2 M - 1 hr - 1 , 2 M - 1 hr - 1 .</head><label>211211</label><figDesc>in good agreement with the previously reported value at 310K of 4.29 × 10 -</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Science.Author manuscript; available in PMC 2011 December 18.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">Defense Advances Research Projects Agency (DARPA)</rs>, the <rs type="funder">Howard Hughes Medical Institute (HHMI)</rs>, a <rs type="grantName">Molecular Biophysics traineeship</rs> from the <rs type="funder">National Institutes of Health</rs> for J.B.S, and the <rs type="programName">LLNL Lawrence Scholars program</rs> for G.K. We thank <rs type="person">Dr. Miguel Toscano</rs> (ETH) and <rs type="person">Carolyn Rosewall</rs> (<rs type="affiliation">UW</rs>) for chemical synthesis. Finally we would like to thank <rs type="person">Dr. Brock Siegel</rs> and <rs type="person">Dr. Y.-h. Lam</rs> for helpful comments on the manuscript. The x-ray crystallographic coordinates have been deposited in the Protein Data Bank with accession ID 3I1C.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ezW39Qu">
+					<orgName type="grant-name">Molecular Biophysics traineeship</orgName>
+				</org>
+				<org type="funding" xml:id="_mtTXydR">
+					<orgName type="program" subtype="full">LLNL Lawrence Scholars program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">422</biblScope>
+			<biblScope unit="page">185</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12634789</note>
+	<note type="raw_reference">Ose T, et al. Nature. 2003; 422:185. [PubMed: 12634789]</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Serafimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gillingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">7798</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18512926</note>
+	<note type="raw_reference">Serafimov JM, Gillingham D, Kuster S, Hilvert D. Journal of the American Chemical Society. 2008; 130:7798. [PubMed: 18512926]</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Organic Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">4250</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12054961</note>
+	<note type="raw_reference">Kim SP, Leach AG, Houk KN. The Journal of Organic Chemistry. 2002; 67:4250. [PubMed: 12054961]</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothlisberger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008-05-08">May 8.2008</date>
+			<biblScope unit="volume">453</biblScope>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18354394</note>
+	<note type="raw_reference">Rothlisberger D, et al. Nature. May 8.2008 453:190. [PubMed: 18354394]</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1387">Mar 7.2008 319:1387</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18323453</note>
+	<note type="raw_reference">Jiang L, et al. Science. Mar 7.2008 319:1387. [PubMed: 18323453]</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Modern Organic Synthesis: Lecture Notes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Boger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>TSRI Press</publisher>
+			<biblScope unit="page" from="213" to="272" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boger, DL. Modern Organic Synthesis: Lecture Notes. TSRI Press; 1999. p. 213-272.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Jorgensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Organic Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">803</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blake JF, Lim D, Jorgensen WL. The Journal of Organic Chemistry. 2002; 59:803.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Jencks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">P Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">1678</biblScope>
+			<date type="published" when="1971-08">August. 1971. 1971</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Page MI, Jencks WP. P Natl Acad Sci USA. August.1971 68:1678. 1971.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci. December</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">2785</biblScope>
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17132862</note>
+	<note type="raw_reference">Zanghellini A, et al. Protein Sci. December 1.2006 15:2785. 2006. [PubMed: 17132862]</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Proc Natl Acad Sci USA</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuhlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<imprint>
+			<date>Sep 12.2000 97</date>
+			<biblScope unit="page">10383</biblScope>
+		</imprint>
+	</monogr>
+	<note>PubMed: 10984534</note>
+	<note type="raw_reference">Kuhlman B, Baker D. Proc Natl Acad Sci USA. Sep 12.2000 97:10383. [PubMed: 10984534]</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Gouverneur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science. October</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="1993">1993. 1993</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 8211138</note>
+	<note type="raw_reference">Gouverneur VE, et al. Science. October 8.1993 262:204. 1993. [PubMed: 8211138]</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Yli-Kauhaluoma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">7041</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yli-Kauhaluoma JT, et al. Journal of the American Chemical Society. 1995; 117:7041.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Breslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<date type="published" when="1997">1998. 1997</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11848956</note>
+	<note type="raw_reference">Breslow R, Dong SD. Chemical Reviews. 1998; 98:1997. [PubMed: 11848956]</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Cannizzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Janda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">2489</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12603137</note>
+	<note type="raw_reference">Cannizzaro CE, Ashley JA, Janda KD, Houk KN. Journal of the American Chemical Society. 2003; 125:2489. [PubMed: 12603137]</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Delano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>DeLano Scientific LLC</publisher>
+			<pubPlace>Palo Alto, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. L. DeLano. (DeLano Scientific LLC, Palo Alto, CA, 2008).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

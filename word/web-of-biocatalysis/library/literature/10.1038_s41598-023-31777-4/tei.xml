@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimizing human α-galactosidase for treatment of Fabry disease</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">William</forename><forename type="middle">C</forename><surname>Hallows</surname></persName>
+							<email>william.hallows@codexis.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristen</forename><surname>Skvorak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nick</forename><surname>Agard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nikki</forename><surname>Kruse</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiyun</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rachel</forename><forename type="middle">C</forename><surname>Botham</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chinping</forename><surname>Chng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charu</forename><surname>Shukla</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jessica</forename><surname>Lao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mathew</forename><surname>Miller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Antoinette</forename><surname>Sero</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Judy</forename><surname>Viduya</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Moulay</forename><surname>Hicham</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alaoui</forename><surname>Ismaili</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kerryn</forename><surname>Mccluskie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raphael</forename><surname>Schiffmann</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Metabolic Disease</orgName>
+								<orgName type="institution">Baylor Research Institute</orgName>
+								<address>
+									<postCode>75246 94080</postCode>
+									<settlement>Dallas Genentech San Francisco</settlement>
+									<region>TX CA</region>
+									<country>USA South USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><forename type="middle">P</forename><surname>Silverman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Song</forename><surname>Shen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Metabolic Disease</orgName>
+								<orgName type="institution">Baylor Research Institute</orgName>
+								<address>
+									<postCode>75246 94080</postCode>
+									<settlement>Dallas Genentech San Francisco</settlement>
+									<region>TX CA</region>
+									<country>USA South USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gjalt</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Fornia BioSolutions Inc US</orgName>
+								<address>
+									<addrLine>4D Molecular Therapeutics</addrLine>
+									<postCode>94545 94608 94070 94608</postCode>
+									<settlement>Hayward Octant Emeryville Glycomine San Mateo Emeryville</settlement>
+									<region>CA CA CA CA</region>
+									<country>USA USA USA USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimizing human α-galactosidase for treatment of Fabry disease</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1A0ED98DB79C1D20B5DDA678AF0FF878</idno>
+					<idno type="DOI">10.1038/s41598-023-31777-4</idno>
+					<note type="submission">Received: 16 August 2022; Accepted: 17 March 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Fabry disease is caused by a deficiency of α-galactosidase A (GLA) leading to the lysosomal accumulation of globotriaosylceramide (Gb3) and other glycosphingolipids. Fabry patients experience significant damage to the heart, kidney, and blood vessels that can be fatal. Here we apply directed evolution to generate more stable GLA variants as potential next generation treatments for Fabry disease. GLAv05 and GLAv09 were identified after screening more than 12,000 GLA variants through 8 rounds of directed evolution. Both GLAv05 and GLAv09 exhibit increased stability at both lysosomal and blood pH, stability to serum, and elevated enzyme activity in treated Fabry fibroblasts (19-fold) and GLA -/-podocytes (10-fold). GLAv05 and GLAv09 show improved pharmacokinetics in mouse and non-human primates. In a Fabry mouse model, the optimized variants showed prolonged half-lives in serum and relevant tissues, and a decrease of accumulated Gb3 in heart and kidney. To explore the possibility of diminishing the immunogenic potential of rhGLA, amino acid residues in sequences predicted to bind MHC II were targeted in late rounds of GLAv09 directed evolution. An MHC II-associated peptide proteomics assay confirmed a reduction in displayed peptides for GLAv09. Collectively, our findings highlight the promise of using directed evolution to generate enzyme variants for more effective treatment of lysosomal storage diseases.</p><p>Fabry disease is an X-linked inborn error of glycosphingolipid metabolism, characterized by progressive systemic accumulation of glycosphingolipids including globotriaosylceramide (Gb3, GL-3, ceramide trihexoside). The disease is caused by mutations in the α-galactosidase A (GLA) gene that cause a deficiency of the active enzyme in the lysosome 1 . This genetic defect can lead to progressive cardiac disease, renal failure, small fiber peripheral neuropathy, cerebrovascular disease, as well as symptoms that affect other systems 2,3 . The estimated incidence of Fabry disease is 1 in 50,000 live births, though recent newborn screening studies suggest a much higher occurrence in certain populations <ref type="bibr" target="#b3">4</ref> .</p><p>The most widely used treatment for Fabry disease is enzyme replacement therapy (ERT) with recombinant human GLA (rhGLA). Two preparations, agalsidase alfa (Replagal ® , Takeda) and agalsidase beta (Fabrazyme ® , Sanofi), have been shown to slow disease progression when administered regularly and have been approved for the treatment of Fabry disease. Other GLA ERTs that have been recently approved or are in late-stage development include pegunigalsidase alfa 5 , a plant cell culture-expressed, chemically-modified version of GLA, and moss-cell produced GLA 6 . A small molecule therapy, migalastat (Galafold ® , Amicus Therapeutics) is an oral chaperone therapy that increases residual enzymatic activity in a subset of patients who have an amenable GLA mutation (30-50% of patients). Other therapies such as glucosylceramide synthase inhibitors (Lucerastat) 7 , and gene 8 and cell therapies 9 are currently in clinical development, while additional therapeutic options are also being investigated 10 .</p><p>During ERT, rhGLA is rapidly cleared from serum, requiring patients to receive biweekly infusions that entail significant impacts to the patient's quality of life and the health care system <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> . Even with frequent administration of GLA, patients often continue to exhibit severe disease phenotypes and suffer early mortality <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> . The failure of ERT to entirely correct the cause of disease is possibly due to incomplete restoration of enzyme activity in the lysosomes of cells in the key affected tissues of the heart and kidney. This may be due to the instability of rhGLA</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="www.nature.com/scientificreports/">www.nature.com/scientificreports/</ref> in blood, leading to most of the active enzyme failing to reach target organs. A second cause of poor delivery of GLA to the target tissues is the development of an immune reaction to the GLA protein. In male patients, infusion reactions and neutralizing anti-drug antibodies (ADAs) are present in up to 73% of patients treated with agalsidase beta and 24% of patients treated with agalsidase alfa <ref type="bibr" target="#b15">16</ref> . Patients who develop neutralizing ADAs experience attenuation of ERT efficacy over time <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> . Suboptimal exposure due to instability, infusion-associated side reactions, and the long-term inhibiting effects of neutralizing antibodies represent major shortcomings for GLA ERT to provide adequate, life-long, efficacious treatment of Fabry disease <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> .</p><p>The goal of this study was to identify variants of GLA that show improved performance as potential nextgeneration therapies for Fabry patients. For this purpose we applied directed evolution <ref type="bibr" target="#b21">22</ref> to GLA through cycles of semi-rational design of protein libraries, high throughput in vitro activity assays, next-generation sequencing, and bioinformatics, to discover engineered GLA variants with improved properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Directed evolution of GLA. We performed iterative rounds of GLA library generation, high throughput screening, and next generation sequencing (NGS), combined with in silico analyses to identify GLA variants with increased stability in vitro that we hypothesized would lead to improved pharmacological properties. An overview of our approach is shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>We designed initial libraries to target key surface residues based on available structural information <ref type="bibr" target="#b22">23</ref> while avoiding active site residues to minimize the risk of inadvertently altering substrate specificity. Initially, we generated GLA mutant libraries via both site saturation mutagenesis and multi-site mutagenesis; multi-site libraries were based on amino acid sequences of GLA homologs. The libraries were expressed and secreted from S. cerevisiae.</p><p>Given that lysosomal ERTs are exposed to neutral pH (pH 7.4) during manufacturing and within the bloodstream after infusion, and then to the acidic pH of the lysosome (pH 4.4) upon uptake in target cells, our first objective was to improve stability across a broad pH range. GLA variants from the various libraries were secreted from S. cerevisiae and after incubation at pH 7.4 or pH 4.2, residual GLA enzyme activity was determined using a standard fluorescence assay with 4-methylumbelliferyl α-d-galactopyranoside(4-MU-Gal) <ref type="bibr" target="#b23">24</ref> . In the first screening round, among the hundreds of variants tested we identified a lysine-to-alanine mutation at position 237 (K237A) that improved stability relative to rhGLA, by 1.5-fold at pH 7 and 2.5-fold at pH 4.2. An example of screening data showing a library tested for pH 7 stability is presented in Fig. <ref type="figure" target="#fig_0">1B</ref>.</p><p>The next iteration of enzyme optimization was based on the K237A mutant as the parental sequence, and incorporated combinations of other beneficial mutations that had been identified during the first round of evolution. We screened as described above and identified variants with further improvements in stability, the best of which was selected as the parent for the next set of libraries. This cycle was repeated for a total of 8 rounds (7 rounds involving expression in S. cerevisiae and a final round incorporating variant expression in HEK293T cells), incorporating mutations from both site-saturation mutagenesis and homologous sequences.</p><p>In later rounds of library generation and screening, we adapted screens for additional stability to elevated temperatures, human serum, or in liver lysosomal extracts (Fig. <ref type="figure" target="#fig_0">1C</ref>).</p><p>In the later rounds, we also sought to remove sequences potentially responsible for GLA immunogenicity by eliminating sequences predicted to bind to major histocompatibility complex class II (MHC-II). We employed the in silico tool from the Immune Epitope Database (IEDB) <ref type="bibr" target="#b24">25</ref> to identify sequences with high scores for binding to MHC-II, and we designed libraries that incorporated mutations specifically designed to eliminate such predicted T-cell epitopes.</p><p>We selected two variants for further analysis: GLAv05 (which contains 11 mutations) after five rounds of directed evolution in S. cerevisiae and GLAv09 (which contains 17 mutations) following the final round of evolution in HEK293T cells (Fig. <ref type="figure" target="#fig_0">1D</ref>).</p><p>In vitro characterization of GLA variants. We expressed GLA, GLAv05, and GLAv09 in Expi293 cells and purified them in a two-step process using concanavalin A affinity and size-exclusion chromatography (SEC). While GLA purified as a mixture of monomer and homodimer, GLAv05 and GLAv09 purified as &gt; 95% homodimers directly off the affinity column (Figure <ref type="figure" target="#fig_0">S1</ref>). We determined the Michalis-Menten kinetic parameters V max and K m by measuring the activity of GLA, GLAv05 and GLAv09 on 4-MU-Gal at pH 4.4 over a range of substrate concentrations (Figure <ref type="figure" target="#fig_1">S2</ref>). The kinetic parameters for GLAv05 and GLAv09 were similar to those measured for GLA, indicating that enzyme optimization for stability did not significantly alter the catalytic properties of these variants (Table <ref type="table" target="#tab_0">S1</ref>).</p><p>We next characterized purified GLA, GLAv05 and GLAv09 for properties that could impact their developability and in vivo efficacy. We incubated the enzymes at pHs ranging from 2 to 8 for 24 h, and then measured their residual activity. The pH stability profiles of GLAv05 and GLAv09 were broader than that of GLA, with the enzymes retaining &gt; 75% of their activity following challenges at pH 4-6.5 (Fig. <ref type="figure" target="#fig_1">2A</ref>). GLAv09 showed substantial improvement in thermostability, retaining nearly all activity following a 1-h incubation at 50 °C, whereas both GLA and GLAv05 had limited stability at temperatures &gt; 30 °C (Fig. <ref type="figure" target="#fig_1">2B</ref>). We next used differential scanning fluorometry to determine the melting temperatures (T M ) of GLA, GLAv05, and GLAv09. We compared these values to the T M of GLA with 50 mM 1-deoxygalactonojirimycin (DGJ), a small molecule chaperone that stabilizes the enzyme and increases its T M at both neutral and acidic pH <ref type="bibr" target="#b25">26</ref> . Both GLAv05 and GLAv09 variants showed increases in T M at pH 4.5 and 7.4 that are similar to the stabilizing effect of DGJ on GLA (Table <ref type="table" target="#tab_0">1</ref>). Finally, we demonstrated that GLAv05 and GLAv09 were stabilized against inactivation in human serum, retaining &gt; 90% activity after a 24-h incubation, whereas GLA showed &lt; 10% activity after incubation in serum for the same time activity. Lysates from GLAv09-treated cells had 2-fold more activity than those treated with GLA, while lysates from GLAv05-treated cells had around 2-fold reduced activity (Figure <ref type="figure" target="#fig_2">S3</ref>). Given the higher in vitro stability of GLAv05 compared to GLA, this result suggested that the cell uptake of GLAv05 may be impaired as compared to GLA and GLAv09. We were unable to directly measure GLA protein uptake in cells using a commercial anti-GLA antibody because of markedly different affinity of the antibody to GLA and the two variants, GLAv05 and GLAv09 (Figure <ref type="figure" target="#fig_5">S6</ref>).</p><p>Long-term cell uptake and stability of GLA was determined using cell lines with no intrinsic alpha galactosidase activity: either Fabry patient-derived fibroblasts or GLA -/-podocytes <ref type="bibr" target="#b26">27</ref> . Following incubation with GLA variants for 7 days, cell lysates were assayed for alpha galactosidase activity, and residual Gb3 content was quantified by mass-spectrometry <ref type="bibr" target="#b27">28</ref> . Fabry fibroblasts lysates had 19-fold greater alpha galactosidase activity when treated with GLAv09 than with GLA control (Fig. <ref type="figure" target="#fig_2">3A</ref>). Similarly, GLA -/-podocytes treated with GLAv09 had 10-fold increased alpha galactosidase activity than GLA treated controls (Fig. <ref type="figure" target="#fig_2">3B</ref>). Corresponding to the greater  T m (°C) pH 4.5 T m (°C) pH 7.4 GLA 51.2 43.5 GLA + 50 µM DGJ 65.0 52.0 GLAv05 63.2 51.0 GLAv09 64.3 48.2</p><p>intracellular alpha galactosidase activity, GLAv09 effectively cleared Gb3 substrate from Fabry patient fibroblasts or GLA -/-podocytes, with an approximately 10-fold reduction in IC50 as compared to GLA (Fig. <ref type="figure" target="#fig_2">3C</ref>,<ref type="figure">D</ref>). Exogenous GLA enters cells and is trafficked to the lysosome via the mannose-6-phosphate receptor (M6PR)dependent pathway <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> . To determine whether GLAv09 enters Fabry fibroblasts by a M6PR-dependent pathway we tested whether Gb3 depletion activity could be blocked by competition with a large excess of mannose-6-phosphate (M6P). Consistent with M6PR-dependent trafficking to the lysosome, the decrease in Gb3 content of Fabry fibroblasts incubated with GLAv09 was completely blocked by the presence 10 mM M6P, but not by mannose (Figure <ref type="figure" target="#fig_3">S4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mouse and non-human primate pharmacokinetics (PK) and pharmacodynamics (PD).</head><p>As the most rigorous test of GLA performance in the physiological context of a live animal, we determined the plasma PK properties of GLA, GLAv05 and GLAv09 in mice and cynomolgus monkeys (non-human primates, NHPs). We dosed animals at 1 mg/kg i.v. and followed enzyme activity in the plasma over time. This measure allowed us to follow the fate of active GLA enzyme but may underestimate the total amount (catalytically active and inactive) of circulating GLA protein.</p><p>As previously reported <ref type="bibr" target="#b30">31</ref> , GLA activity in plasma decreased rapidly after administration and was undetectable after 1 h in mouse and after 2 h in NHP. In contrast, GLAv05 and GLAv09 exhibited much greater perdurance with measurable activity remaining 6 h after administration in mouse (Fig. <ref type="figure" target="#fig_3">4A</ref>) and after 8 h in NHP (Fig. <ref type="figure" target="#fig_3">4B</ref>). The half-lives in mouse of GLAv05 and GLAv09 were &gt; 10-fold longer than for GLA. In NHP, GLAv05 and GLAv09 both showed terminal half-lives &gt; 7-fold longer than GLA (Fig. <ref type="figure" target="#fig_3">4A</ref>,<ref type="figure">B</ref>; Table <ref type="table" target="#tab_2">2</ref>).</p><p>To determine whether GLAv05 and GLAv09 exhibit improved biodistribution in key tissues, we dosed Fabry mice at 1 mg/kg i.v. and sacrificed the animals at time points ranging from 5 min through 24 h to collect heart, kidney, spleen, and liver. As shown in Fig. <ref type="figure" target="#fig_3">4C</ref>-F and Table <ref type="table" target="#tab_3">3</ref>, the GLA variants demonstrated improved tissue PK parameters as compared to GLA. The total amount of alpha galactosidase activity in the kidney for GLAv05 and GLAv09, as measured by the area under the curve (AUC), was 8-9-fold greater than for GLA, while heart activity for GLAv09 was 2-fold greater than for GLA. These results suggest that increased plasma half-life for a GLA enzyme translates to increased enzyme accumulation in the kidney and heart.</p><p>Finally, we sought to determine whether increased enzymatic activity in the kidney and heart of GLAv05 and GLAv09 leads to a reduction of Gb3 in these key affected organs compared to the standard of care ERT agalsidasebeta (Fabrazyme ® ). We intravenously dosed 5-month-old female mice with GLA variants at 1 mg/kg, then sacrificed the animals at 1, 2, or 4 weeks and harvested the heart, kidney, and liver for analysis of Gb3 content. GLAv05     and GLAv09 showed increased activity in the heart relative to GLA (agalsidase-beta, Fabrazyme ® ) (Fig. <ref type="figure" target="#fig_4">5A</ref>) (and at levels similar to endogenous GLA in a healthy mouse <ref type="bibr" target="#b31">32</ref> ), which translated to enhanced Gb3 depletion for GLAv09, but not for GLAv05 (Fig. <ref type="figure" target="#fig_4">5B</ref>). The superior efficacy for GLAv09 in the heart was sustained over four weeks, though the enzymatic activities for all treatment groups had reverted to near baseline by this time point. At 1-and 2-weeks post-treatment, GLAv09 depleted 84% and 88% of Gb3, respectively, compared to 65% and 77% for agalsidase-beta. Conversely, although GLAv05 showed increased activity in the heart at 1 and 2 weeks, this did not translate to an improvement in Gb3 depletion compared to agalsidase-beta. All three GLA enzymes showed similar activity and Gb3 depletion profiles in the kidney, though we observed higher activity for GLAv05 at 2 weeks, which translated to statistically lower Gb3 levels after 4 weeks (Fig. <ref type="figure" target="#fig_4">5C</ref>,<ref type="figure">D</ref>). In the liver, GLAv05 and GLAv09 showed 4-and 2-fold increased activity relative to agalsidase-beta at 1-week post-dose (Fig. <ref type="figure" target="#fig_4">5E</ref>), but only the increased activity for GLAv09 correlated with a significant reduction in liver Gb3 (Fig. <ref type="figure" target="#fig_4">5F</ref>). At 2 weeks following treatment, GLAv05 activity in liver was still significantly higher than the other groups, though Gb3 levels were similar across all groups. By week 4, alpha galactosidase activity was negligible for most mice in the agalsidase-beta and GLAv09 groups, and highest in the GLAv05 group. Together, the in vitro and in vivo pharmacology studies suggest favorable properties for GLAv05 and GLAv09 as compared to GLA and support their development as next-generation therapies for the treatment of Fabry disease.</p><p>Directed evolution to reduce GLA immunogenicity. Our strategy for diminishing the propensity of GLA to elicit an immune response in Fabry patients who have no endogenous GLA and thus lack immune tolerance for the protein was to eliminate GLA peptide sequences that can bind to MHC-II complexes. Accordingly, we used IEDB tools (<ref type="url" target="https://www.iedb.org">https:// www. iedb. org</ref>) to predict MHC-II binding of all overlapping 15-mer peptides derived from GLA <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b32">33</ref> , then we incorporated mutations predicted to eliminate putative MHC-II binding peptides into the cycles of directed evolution. GLAv05 was specifically engineered to minimize the number of predicted MHC-II binding peptides, resulting in GLAv09, which has 17 mutations relative to GLA. Our in silico analysis predicted that GLAv09 would lead to presentation of fewer peptides by MHC-II as compared to GLA (Fig. <ref type="figure" target="#fig_5">6A</ref>). To empirically assess antigen processing, we tested variants in MHC-associated peptide proteomics (MAPPs) assays <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> . Briefly, monocyte-derived dendritic cells from healthy donors were incubated with GLA, GLAv09, or vehicle and MHC-II HLA-DR-bound peptides were characterized by mass spectrometry. Since the immune cells used in this assay are from healthy donors, it was important to show that there are very low background levels of endogenously derived GLA-specific peptides bound to MHC-II complexes. As shown in Fig. <ref type="figure" target="#fig_5">6B</ref>, fewer HLA DR-bound peptides were derived from dendritic cells exposed to GLAv09 as compared to GLA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessment of neo-antigens in GLA variants.</head><p>A possible unwanted consequence of the directed evolution strategy is that mutations may form neo-epitopes that generate an immune reaction in Fabry patients that express a full length GLA with low alpha galactosidase activity (cross-reactive immunogenic material positive or CRIM+). We used a T-cell proliferation assay that provides an assessment of the CD4+ T-cell response elicited by exposure to GLA, GLAv05, or GLAv09 <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> .</p><p>Peripheral blood mononuclear cells (PBMCs) derived from 30 healthy donors were treated with GLA, GLAv05, GLAv09, or controls, and T-cell proliferation was measured by [ 3 H]-thymidine incorporation on days 5, 6, 7, and 8. GLA induced T-cell proliferation in 3/30 donors in GLA and GLAv09, where in GLAv05 induced T-cell proliferation in only 1/30 donors (Fig. <ref type="figure" target="#fig_6">7</ref>). These response rates were significantly lower than those observed for the clinical benchmark control Bydureon (12/30) and the highly immunogenic neoantigen Keyhole limpet hemocyanin (KLH) positive control (27/30). Thus, the 11 mutations in GLAv05 and the 17 mutations in GLAv09 do not cause an increase in T-cell proliferation relative to the wild type GLA enzyme in healthy donor PBMCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We employed directed evolution to address the therapeutic shortcomings of GLA for the treatment of Fabry disease by engineering two variants, GLAv05 and GLAv09, for improved stability in serum and lysosomes and increased intracellular activity in target tissues. These variants also have a similar or lower predicted propensity to induce immune responses as compared to the wild-type enzyme <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref> . Variants GLAv05 and GLAv09 demonstrate improved in vivo circulating half-life, tissue activity, and Gb3 clearance in the Fabry mouse model due to the translatability of in vitro directed evolution.</p><p>Various other approaches toward overcoming GLA limitations have been explored. Pegunigalsidase alfa, a PEGylated, cross-linked recombinant human GLA enzyme produced in plant cells <ref type="bibr" target="#b46">47</ref> is being evaluated in Phase 3 clinical trials. The chemical modifications of pegunigalsidase alfa confer stability in human plasma (30% activity after 1 h compared to complete inactivation of GLA) and a 9.7 h terminal half-life in GLA -/-mice following a 1 mg/kg infusion <ref type="bibr" target="#b47">48</ref> . The plasma stability of GLAv05 and GLAv09 compare favorably to pegunigalsidase alfa, as both retain &gt; 80% activity after 24 h, though PEGylation appears to improve the serum half-life of pegunigalsidase alfa relative to our engineered variants. Future studies directly comparing these enzymes would be helpful toward understanding how these parameters may impact tissue distribution and efficacy.</p><p>Other approaches for improving the intrinsic limitations of GLA include rational mutagenesis of cysteine residues <ref type="bibr" target="#b48">49</ref> , active site, dimer interface, and glycosylation sites <ref type="bibr" target="#b50">50</ref> , deletion of C-terminal sequences <ref type="bibr" target="#b51">51</ref> , rational modification of alternative enzymes <ref type="bibr" target="#b31">32</ref> , the use of alternative expression hosts, such as moss <ref type="bibr" target="#b52">52</ref> and tobacco cells <ref type="bibr" target="#b47">48</ref> , glycoengineering to improve affinity to the M6P receptor or increase M6P moieties on the enzyme <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b53">[53]</ref><ref type="bibr" target="#b54">[54]</ref><ref type="bibr" target="#b55">[55]</ref> , and fusion proteins for improved tissue targeting <ref type="bibr" target="#b56">56,</ref><ref type="bibr" target="#b57">57</ref> . While each of these approaches addresses aspects of intrinsic GLA shortcomings, our approach allows for the comprehensive optimization of multiple properties simultaneously via high-throughput screening of variant libraries under conditions that mimic the path the therapy is exposed to and the natural inactivation strategies it may encounter in the human body upon administration as ERT. Given that endogenous GLA is synthesized in the endoplasmic reticulum and then translocated to the lysosome where it performs its function, it is not surprising that its extracellular half-life is limited. However, therapeutic GLA is produced via secretion from a cell line during biomanufacturing, purified, cold stored until administration, and infused, after which it is transported throughout the body and endocytosed by cells and trafficked to the lysosome. It is unlikely that GLA evolved naturally to withstand these steps, and the commercial drug production process provides a risk of causing a deterioration of ERT efficacy <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b58">58,</ref><ref type="bibr" target="#b59">59</ref> . In our approach to generate GLA variants with better therapeutic properties, we focused on improving serum and lysosomal stability to increase both bioavailability and efficacy within the cell. Improving the stability of GLA at the physiological pH of plasma (pH 7.4) was deemed important to increase the bioavailability of active enzyme in circulation, while improving stability at acidic pH should increase the enzyme's half-life in the lysosome. Through directed evolution, we improved the stability of the enzyme across the pH 4.2-7.4 range without affecting its kinetic properties. We avoided modifying known glycosylation sites to ensure that the mannose-6-phosphate uptake mechanism was retained.</p><p>In addition to introducing mutations that improve stability, we identified and incorporated mutations that reduced or eliminated in silico-predicted immunogenic epitopes <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b32">33</ref> and confirmed a reduction in putative epitopes by MHC-II presentation (MAPPs) assays. We further assessed GLAv05 and GLAv09 in T cell proliferation assays using PBMCs from healthy donors, where we observed responses in an equal (GLAv09) or fewer (GLAv05) number of donors as compared to GLA. Together, the MAPPs and T cell assay data suggest that GLAv05 and GLAv09 have similar or reduced preclinical immunogenicity risk profiles as compared to GLA.</p><p>The enhanced stability and increased cell uptake properties translated to improved PK and PD responses in animals given a single dose of GLAv05 or GLAv09. Interestingly, while the amounts of GLA, GLAv05, and GLAv09 accumulating in the liver over 24 h were similar (Fig. <ref type="figure" target="#fig_3">4F</ref>; Table <ref type="table" target="#tab_3">3</ref>), after 1 week there was substantially more GLAv05 or GLAv09 in the liver as compared to GLA (Fig. <ref type="figure" target="#fig_4">5E</ref>). We hypothesize that this may be due to the greatly enhanced stability of the GLAv05 and GLAv09, leading to slower degradation and increased retained activity over time as compared to GLA. This increased accumulation and concomitant reduction in Gb3 (Fig. <ref type="figure" target="#fig_4">5E</ref>,<ref type="figure">F</ref>) was also observed in heart (Fig. <ref type="figure" target="#fig_4">5A</ref>,<ref type="figure">B</ref>), a key impacted organ in Fabry patients <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b42">43</ref> . Conversely, it is notable that despite an 8-9-fold improved exposure in the kidney for GLAv05 and GLAv09, the two variants do not show significant Gb3 reduction over GLA in this organ. In the future it will be important to evaluate these enzymes in long-term, multiple dose studies in Fabry disease animal models to determine whether the shortterm observations in tissue activity and Gb3 depletion translate into phenotypic benefits.</p><p>Regarding the therapeutic potential of engineered proteins as ERTs, there are prior examples of mutant proteins used clinically as replacement therapies. Most notably, the Factor IX Padua variant <ref type="bibr" target="#b60">60</ref> , a naturally occurring Factor IX variant with increased activity has been shown to improve the efficacy of hemophilia B gene therapy by up to 10-fold in preclinical studies <ref type="bibr" target="#b61">61</ref> and has shown promising results in clinical trials <ref type="bibr" target="#b62">62</ref> . While Factor IX Padua has only a single mutation relative to wildtype Factor IX and its discovery was serendipitous <ref type="bibr" target="#b60">60</ref> , here we have shown that directed evolution can be used to accelerate the identification of protein variants with improved stability and potential as effective therapeutics. Because the changes in GLAv05 and GLAv09 are in their primary sequence, their therapeutic effect may be exerted via administration as recombinant biologic, gene, mRNA, or cell therapy. A more efficacious GLA enzyme with improved pharmacokinetics in body fluids and tissues could, in principle, reduce the dosing frequency or increase the efficacy for an enzyme replacement therapy. Alternatively, as a gene therapy, an improved enzyme potentially could be delivered with a lower dose of AAV.</p><p>In addition to providing potential new treatment candidates, evolved enzymes are also interesting tools that may help advance our understanding of α-galactosidase, Fabry disease, and lysosomal biology, such as the molecular aspects of intracellular trafficking, interactions with cellular uptake or chaperone proteins such as saposins, and the immune response to enzyme replacement therapies.</p><p>In summary, using directed evolution, and after screening ~ 12,000 GLA variants, we identified GLAv05 and GLAv09 as highly efficacious GLA variants with potentially reduced immunogenicity risk profiles. Compared to GLA, GLAv05 and GLAv09 displayed improved in vitro biophysical properties and intracellular function. Furthermore, GLAv05 and GLAv09 displayed improved PK, PD, and efficacy in the Fabry mouse model. Our results suggest that directed evolution technologies provide a way to discover new treatments for Fabry disease that overcome the shortcomings of ERTs that are based on the natural human enzyme sequence. This approach is likely applicable to lysosomal storage disorder treatments in general.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>Construction of expression vectors. The human GLA gene was codon optimized for expression in Saccharomyces cerevisiae. A chimeric GLA expression construct encoding a 19-amino acid S. cerevisiae MF-alpha signal sequence fused to the mature form of the codon-optimized GLA was generated in the yeast expression vector pYT-72Bgl <ref type="bibr" target="#b63">63</ref> and was utilized in rounds 1 through 7. A chimeric GLA expression construct encoding a synthetic mouse Ig signal sequence fused to a synthetic gene coding for the mature human GLA coding sequence (either S. cerevisiae or human codon optimized) was generated in pcDNA 3.1(+) (Invitrogen) for expression of recombinant GLA variants in HEK293T cells. For round 8 of directed evolution, transcriptionally active PCR products for the GLA variants encompassing promoter, GLA gene, and terminator were used for high-throughput transient transfections.</p><p>Library design and generation. Libraries of variants with single amino acid mutations as well as combinatorial libraries recombining multiple mutations, were generated by standard mutagenesis methods <ref type="bibr" target="#b64">64</ref> using PCR and degenerate oligos (i.e. NNK, NNN, NNS) to incorporate mutations at the targeted position.</p><p>HTP expression of GLA variants in yeast. Yeast (INVSc1) cells (Catalog #C81000, ThermoFisher Scientific), transformed with vectors expressing GLA variants using the lithium acetate procedure <ref type="bibr" target="#b65">65</ref> , were plated on SD-Ura medium (2 g/L SD Media-Ura, 6.8 g/L yeast nitrogen base without amino acids [Sigma Aldrich]), 3.06 g/L sodium dihydrogen phosphate, 0.804 g/L disodium hydrogen phosphate (pH 6.0) 6% glucose. After 72 h incubation at 30 °C, colonies were picked into the wells of Axygen ® 1.1 mL 96-well deep well plates containing 200 µL/well SD-Ura. The cells were grown for 20-24 h in a Kuhner shaker (250 rpm, 30 °C, and 85% relative humidity). Overnight culture samples (20 µL) were transferred into Coming Costar ® 96-well deep plates filled with 380 µL of SD-Ura broth supplemented with 2% glucose. The plates were incubated for 66-84 h in a Kuhner shaker (250 rpm, 30 °C, and 85% relative humidity). The cells were then pelleted (4000 rpm × 20 min), and the supernatants isolated for immediate analysis, or stored at 4 °C prior to analysis.</p><p>HTP expression of GLA variants in HEK293T cells. HEK293T cells (ATCC CRL-1573) were plated in 200 μL of DMEM with 10% FBS and grown with 5% CO 2 at 37 °C in a 96-well Corning plate at 75% confluency 24 h prior to transfection. Plasmids containing GLA variant genes were purified using the QIAGEN Plasmid Plus 96 miniprep kit. HEK293T cells were transfected with plasmid for each variant, into individual wells according to the standard transfection protocol for Lipofectamine 3000 Transfected cells were incubated for 72-96 h and the conditioned media was removed and assayed immediately as described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In silico T-cell epitope prediction.</head><p>Putative T-cell epitopes in GLA, GLAv05 and GLAv09were identified using the Immune Epitope Database (iedb.org) tools <ref type="bibr" target="#b24">25</ref> . The GLA, GLAv05 and GLAv09 sequences were parsed into all possible 15-mer segments, with each segment overlapping the previous one by 14 amino acids. Each 15-mer was evaluated for immunogenic potential by scoring their 9-mer core regions for predicted binding to eight common MHC-II HLA-DR alleles (DRB1*0101, DRB1*0301, DRB1*0401, DRB1*0701, DRB1*0801, DRB1*1101, DRB1*1301, and DRB1*1501).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MAPPS assay.</head><p>MAPPs (MHC-associated peptide proteomics) assays were performed at Lonza Ltd. following their established protocols <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b66">66</ref> . In brief, monocytes were isolated from frozen peripheral blood mononuclear cells (PBMCs) samples by positive magnetic bead selection and differentiated to dendritic cells (DCs). DCs were then loaded with the test protein and matured with LPS for 24 h. After maturation the DCs were lysed and the membrane fraction containing the HLA:peptide complexes was solubilized and incubated with Protein A sepharose beads coated with monoclonal antibody to MHC II-DR. Following elution by 0.1% TFA, the peptides were desalted by passage through a 10 kDa MWCO spin column and stored at -80 °C for MS analysis. All blood cells and monocytes were collected by Lonza (license number 12590) in accordance with the Human Tissue Authority, the regulatory body for the Human Tissue Act 2004. This act regulates the removal, storage, use and disposal of human tissue within the UK. Accordingly, all activities that fall under this act were performed to HTA standards, with donors consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T-cell proliferation assay.</head><p>The T cell proliferation assay was performed at Abzena Ltd. Abzena (Cambridge) Ltd is licensed (number 12627) by the Human Tissue Authority, the regulatory body for the Human Tissue Act 2004. This act regulates the removal, storage, use and disposal of human tissue within the UK. Accordingly, all activities that fall under this act were performed to HTA standards, with donors consent. As follows: PBMCs were isolated from 30 healthy human donors selected to cover all major HLA-DR and HLA-DQ allotypes. PBMCs were depleted of CD8+ T cells using CD8+ RosetteSepTM (StemCell Technologies Inc, London, UK). Three samples, (GLA, GLAv05 and GLAv09) and three controls (KLH: positive control, Bydureon ® (AstraZeneca, UK): a clinical benchmark control, and Herceptin ® (Roche, Switzerland): a low immunogenicity control) were used to treat each donor sample. Cultures were incubated for a total of 8 days at 37 °C with 5% CO 2 . On days 5,6,7, and 8, aliquots were transferred to a round bottomed 96 well plate and cultures were pulsed with [3H]-Thymidine (Perkin Elmer ® , Beaconsfield, UK) and incubated for another 18 h before harvesting. [3H] cpm for each well were determined by Meltilex™ (Perkin Elmer ® , Beaconsfield, UK) scintillation counting on a 1450 Microbeta Wallac Trilux Liquid Scintillation Counter (Perkin Elmer ® , Beaconsfield, UK) in paralux, low background counting. For proliferation (n = 3 per time point), positive responses were defined by statistical and empirical thresholds as follows: (1) significance (p &lt; 0.05) of the response by comparing cpm or spw of test wells against control wells using unpaired two sample Student's t-test. (2) SI ≥ 1.90, where SI = mean of test wells (cpm or spw)/baseline (cpm or spw). Donors that were positive on at least one time point during the time course assay were deemed positive donors. P values were calculated using repeated measures one-way ANOVA with Friedman's multiple comparison post-tests in Prism 8 (GraphPad, La Jolla, USA).</p><p>GLA expression and purification. Expi293 cells (Thermo Fisher) were seeded in shake flasks and grown in serum-free chemically defined medium. Expi293 cells in suspension (1 L) were transfected with expression constructs for GLA variants and cells were harvested at day 5 post-transfection. Affinity purification of GLA variant purification was performed based on protocols described by Yasuda et al. <ref type="bibr" target="#b67">67</ref> . In brief, culture supernatants clarified by filtration through 0.2 µm membranes were applied to concanavalin A-Sepharose pre-equilibrated with 0.1 M sodium acetate buffer (pH 6.0) containing 0.1 M NaCl, 1 mM MgCl 2 , 1 mM CaCl 2 , and 1 mM MnCl 2 . GLA bound to concanavalin A were eluted with 0.1 M sodium acetate buffer (pH 6.0) containing 0.1 M NaCl, 1 mM MgCl 2 , 1 mM CaCl 2 , 1 mM MnCl 2 , and 0.9 M methyl-d-mannopyranoside, and 0.9 M methyld-glucopyranoside. Fractions of the homodimer were pooled and concentrated. For polishing by size-exclusion chromatography (SEC), protein was concentrated and loaded onto a Superdex 200 PG 26/60 column. The pro-Vol:.(1234567890) Scientific Reports | (2023) 13:4748 | <ref type="url" target="https://doi.org/10.1038/s41598-023-31777-4">https://doi.org/10.1038/s41598-023-31777-4</ref>  <ref type="url" target="www.nature.com/scientificreports/">www.nature.com/scientificreports/</ref> tein was eluted with 2.4 mM Na 2 HPO 4 , 17.6 mM NaH 2 PO 4 (pH 6.0) 150 mM NaCl, 0.02% Tween-20, at a flow rate of 2.5 mL/min. Purified protein (&gt; 95% pure by SEC) was stored at -80 °C until use. GLA activity assay. GLA, GLAv05 and GLAv09 (50 µL at 100 nM) were transferred in triplicate into a black 96-well plate containing 50 µL of 1.5 mM 4-methylumbelliferyl-d-galactopyranoside (4-MU-Gal) in McIlvaine Buffer (pH 4.4). Plates sealed with plateLoc microplate heat seals were incubated for 2-4 h with agitation (400 rpm) at 37 °C. Reactions were quenched by addition of 100 µL of 0.5 M Na 2 CO 3 (pH 10.5), and fluorescence (355/460 ex/em) was quantified using a SpectroMax Plus 384 (Molecular Devices) plate reader. Data were analyzed using SoftMaxPro and Prism software.</p><p>Reactions containing 15 nM enzyme were initiated simultaneously upon substrate addition and quenched at 5, 10, or 15 min. Michaelis-Menten kinetic parameters V max , k cat , and K M were determined from enzyme activity at eight MU-Gal concentrations, ranging from 0.1 to 7.5 mM (n = 3 for each time point and concentration). The initial rate of enzyme activity as a function of substrate concentration was fitted to kinetic parameters using GraphPad Prism.</p><p>Human serum, temperature, lysosomal and pH stability assays. For GLA stability assessment in human serum, 90 µL of human serum (Innovative Research Pooled Human Serum) was added to enzyme at a concentration of 1 µM in 10 µL PBS (pH 6.2)]. 96-well plates were sealed with plateLoc microplate heat seals and incubated for either 2, 4, 24 or 48 h at 37 °C with agitation at 300 rpm. At the conclusion of each stability challenge, samples were diluted 1:1 into alpha galactosidase activity buffer to assess residual active enzyme. Data was normalized to variant activity in the absence of serum.</p><p>For assessment of temperature stability, GLA, GLAv05 and GLAv09 were diluted to 5 µg/mL in PBS (pH 6.2), aliquoted into a 96-well PCR plate and heated at constant temperatures of 30.1, 31.8, 33.7, 36, 38.6, 41.2,  43.9, 46.3, 48.2, or 49.6 °C in a thermocycler for 1 h. Activities were normalized to the 30 °C-incubated sample to determine percent residual activity.</p><p>For T M measurement by differential scanning fluorometry, GLA enzymes diluted to 1 mg/mL in PBS (pH 6.2) were mixed with 40 µL of pH 4.4 or pH 7.4. McIlvaine Buffer containing 1× or 5× SYPRO Orange was mixed with 10 µL of each enzyme solution (n = 3) ± 1-deoxygalactonojirimycin (DGJ) in separate wells of 96-well skirted Biorad plates. The plates were sealed with optically clear film and run on a CFX connect real-time PCR system using the manufacturer's recommended method from 25 to 95 °C. Data were analyzed by BioRad Software.</p><p>For GLA stability assessment in human liver lysosomes, GLA, GLAv05 and GLAv09 were diluted to 5 µg/mL in 1X Catabolic buffer with human liver lysosomal extract (Xenotech), 96-well plates were sealed with plateLoc microplate heat seals and incubated for either 2, 24 or 48 h at 37 °C. At the conclusion of each stability challenge, samples were diluted 1:1 into alpha galactosidase activity buffer to assess residual active enzyme. Data was normalized to variant activity in the absence of challenge.</p><p>For assessment of pH stability, GLA, GLAv05 and GLAv09 were diluted to 50 µg/mL in PBS pH 6.2. 45 µL of McIlvaine buffer (prepared at pH 2.2, 3.0, 4.0, 4.6, 5.0, 5.6, 6.0, 6.6, 7.0, 7.4 or 8.0) and 5 µL of each enzyme solution were incubated at 37 °C, 400 rpm for 0, 2, 4, 6, and 24 h, samples were then diluted 1:1 into alpha galactosidase activity assays to assess residual active enzyme. Activities were normalized to the activity across the pH profile and plotted.</p><p>Experiments were done in triplicate for pH, lysosomal, serum stability and melting temperature experiments; data for temperature stability are from a single trial.</p><p>GLA uptake, activity, and gb3 quantitation in cultured cells. GLA -/-podocytes <ref type="bibr" target="#b26">27</ref> or Fabry patientderived fibroblasts (NIGMS Human Genetic Cell Repository at the Coriell Institute for Medical Research, cell line GM02775) were plated in 200 µL complete growth medium (1:1 DMEM:F-12 medium with 10% heatinactivated FBS, 1% (vol/vol) insulin-transferrin-selenium (Gibco) (1 mg/mL, 0.55 mg/mL, and 0.67 μg/mL, respectively), and 1% (vol/vol) penicillin/streptomycin (10,000 U/m) or MEM with 1% NEAA and 15% heatinactivated FBS, respectively) and allowed to adhere to the plastic substrate. Once cells reached 90% confluency, culture medium was removed, and cells were incubated with GLA, GLAv05 and GLAv09 (at each concentration indicated from 0 to 200 nM) in complete medium. At the conclusion of treatment, media and residual GLA were removed, cells were washed 2× with 150 µL of PBS, and 200 µL of standard complete growth medium was added to each well. Plates were returned to the incubator for the remaining treatment time. Cells were harvested, lysed, and alpha galactosidase activity in the cell lysate was measured as described above. For measuring cellular Gb3 content, following treatment and incubation, the medium was removed, and cells were washed 2 × with PBS. The plates were frozen at -20 °C. Gb3 was extracted with 200 µL methanol that included a 1 ng/µL C17 Gb3 standard (Matreya LLC), for 30 min at room temperature with gentle agitation. The entire 200 µL sample was transferred to a Costar round plate, sealed, and Gb3 analyzed on a 4000 Q-trap MS, as described previously <ref type="bibr" target="#b68">68</ref> .</p><p>In vivo studies. All procedures were conducted in compliance with the Animal Welfare Act Regulations ( <ref type="formula">9</ref>CFR 3) and were reviewed and approved by the appropriate Institutional Animal Care and Use Committees at the Institute of Metabolic Disease, Baylor Research Institute and Charles River Laboratories. The experiments were conducted in accordance with the ARRIVE guidelines. No significant clinical signs, moribundity, or mortality occurred throughout the studies. All animals were acclimated for at least 3 days prior to study start.</p><p>Mouse PK. Healthy male C57Bl/6 mice (sourced from Charles River; aged 7-8 weeks, 25-30 g) were randomly distributed into groups for PK studies (n = 12). All animals received a single 1 mg/kg i.v. dose of either GLA or GLA variant, dosed based upon body weight, via the tail Approximately 0.15 mL of blood was collected into heparinized capillary tubes (Fisher Scientific) at 5, 10, 20, 30, 40, 60, 240, and 360 min post dosing via tail bleed, alternating between two groups of 6 mice for each time point, and processed immediately for plasma according to manufacturer's instructions. Plasma was transferred to a 96-well deep well plate and stored at -80 °C for later analysis.</p><p>Hemizygous male Fabry mice, aged 2-3 months, (Stock #3535, Jackson Laboratories) <ref type="bibr" target="#b69">69</ref> were randomly distributed into groups for PK studies (n = 90). Following dosing, mice (n = 3 per time point) were anesthetized with isoflurane (deep anesthesia confirmed by a paw pinch) to perform a cardiac puncture for blood collection at 5, 10, 20, 40 min, and 1, 4, 8, 16, and 24 h post dose, perfused, then heart, spleen, kidney, and liver tissues were flash frozen and stored at -80 °C until analysis of alpha galactosidase activity to determine active enzyme concentration in tissue.</p><p>NHP PK. Healthy male protein-naïve cynomolgus monkeys, 2-3 kg body weight, were randomly distributed into groups for PK studies (n = 4). Animals received a single 1 mg/kg i.v. administration (tail or saphenous vein) of either GLA or GLA variant via use of a temporary placed catheter (24G angiocath). Blood (approximately 0.5 mL) was collected into K 2 -EDTA separator tubes (BD Biosciences) at pre-dose, 15, 30, 45, 60, 90 min, and 2, 4, 6, 8, 12, 24, and 48 h post-dosing, and stored on wet ice. Samples were processed to plasma following manufacturer's instructions within 30 min of sample collection. Plasma was transferred to a 96-well deep well plate and stored at -80 °C until analysis.</p><p>Analysis of GLA enzymatic activity in plasma. Standard curves for each GLA variant were prepared in the appropriate animal plasma in a range from 0.819 to 200 ng/mL, including a negative control sample. For analysis, plasma samples were diluted 1:200 in McIlvaine buffer, pH 4.4. 50 μL of diluted samples were then manually pipetted and mixed 1:1 in a black 96-well plate with 1 μM MU-Gal in McIlvaine buffer, pH 4.4, to initiate the reaction. Following a 1-h incubation at 37 °C with agitation at 300 rpm, the reactions were quenched with 100 µL 0.5 M Na 2 CO 3 , pH 10.5. Fluorescent methylumbelliferol released by GLA was quantified spectrophotometrically (355/460 ex/em) using a SpectroMax Plus 384 (Molecular Devices) plate reader. Data were analyzed using SoftMaxPro and Prism.</p><p>Tissue biodistribution and Gb3 depletion in fabry mouse. 50 female Fabry (GLA -/-) mice (Stock #3535, Jackson Laboratories) <ref type="bibr" target="#b69">69</ref> , aged 5 months, were used for these experiments (n = 5 per group). All animals received a single i.v. tail-vein administration of either buffer (mock-treated control), agalsidase-β, or GLA variant at a 1 mg/kg dose. Mice were anesthetized with isoflurane (deep anesthesia confirmed by a paw pinch) to perform a cardiac puncture for tissue perfusion at either 1, 2, or 4 weeks post i.v. administration. Liver, kidney and heart were harvested, frozen in dry ice, and stored at -80 °C until analysis of GLA enzymatic activity and Gb3 levels in tissue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of GLA enzymatic activity in harvested tissue (Fabry mouse).</head><p>Mouse tissues were homogenized as described <ref type="bibr" target="#b70">70</ref> . Tissue lysates were sonicated, centrifuged at 14,000 rpm for 15 min at 4 °C, and the supernatants used for enzyme assay. Alpha galactosidase activity was measured by the standard fluorometric assay <ref type="bibr" target="#b23">24</ref> , using 5 mM 4-MU-Gal in McIlvaine buffer (pH 4.4), in the presence of 0.1 M N-acetylgalactosamine (a specific inhibitor of α-galactosidase B). Concentration of total protein was measured using the Pierce BCA protein assay kit (Thermo Fisher). Active GLA concentration for each variant was determined by its corresponding standard curve spiked in blank matrix and was expressed as ug/g tissue. Data were analyzed in GraphPad Prism using a two-way ANOVA with Tukey's multiple comparisons between the mock-treated control group and GLAv05 and GLAv09 (Week 1 only), or between the agalsidase beta-treated group and GLAv05 and GLAv09.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of Gb3 levels in harvested tissue (Fabry mouse). Mouse tissues were homogenized and</head><p>Gb3 content measured as previously described <ref type="bibr" target="#b70">70</ref> . The lysates, normalized to 200 μg of total protein, were subjected to glycosphingolipids extraction, saponification, and subsequent analysis of Gb3 by mass spectrometry. Data were analyzed in GraphPad Prism using a two-way ANOVA with Tukey's multiple comparisons between the mock-treated control group and GLAv05 and GLAv09, or between the agalsidase beta-treated group and GLAv05 and GLAv09.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Directed evolution approach for optimizing GLA. (A) Enzyme evolution scheme. The published structure of GLA was used to identify positions for mutagenesis in site saturation and combinatorial libraries. Libraries were generated and variants were spatially separated in 96-well plates for screening and DNA sequencing. Beneficial mutations were identified, and the directed evolution cycles were repeated. (B) Example of the activity distribution for the Rd 1 GLA variants exposed to pH 7 for 1 h prior to activity measurement. (C) Evolution targets and screens over the course of optimization. (D) Amino acid changes in GLAv05 and GLAv09 compared to the GLA sequence (Uniprot sequence P06280).</figDesc><graphic coords="3,155.91,50.50,359.88,511.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Stability of GLA variants. The activity of each variant (GLA (red circles), GLAv05 (green squares), and GLAv09 (blue triangles) was measured in a 4-MU-Gal hydrolysis assay following the indicated challenge conditions (three technical replicates per sample, except for heat challenge which shows results of a single test at each data point). (A) Enzymes were pre-incubated at the indicated pH for 24 h (n = 3). (B) Enzymes were preincubated at the indicated temperature for 1 h (n = 1). (C) Enzymes were incubated in human serum at 37 °C and assayed at indicated timepoints (n = 3). (D) Enzymes were incubated in human liver lysosome extracts at 37 °C and assayed at indicated timepoints (n = 3).</figDesc><graphic coords="4,155.91,50.50,360.00,310.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. GLA activity and Gb3 degradation in cells following treatment with GLA variants. Cells were treated with GLA (red circles), GLAv05 (green squares), or GLAv09 (blue triangles), incubated for 7 days, then lysed for analysis. 4-MU-Gal hydrolysis activity of lysates (A,B) and LC-MS quantitation of Gb3 substrate (C,D) is shown for Fabry patient fibroblasts (A,C) and GLA -/-podocytes (B,D).</figDesc><graphic coords="5,155.91,50.50,360.00,296.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Pharmacokinetics and biodistribution of GLA variants. Healthy mice (A) and cynomolgus monkeys (B) were dosed at 1 mg/kg i.v. and plasma was analyzed for total active GLA. Hemizygous 2-3-month-old male Fabry mice were treated with GLA and variants at 1 mg/kg i.v. At indicated timepoints, mice were sacrificed, perfused, and tissues were harvested, processed, and tested for alpha galactosidase activity to determine active enzyme concentration: heart (C), spleen (D), kidney (E) and liver (F).</figDesc><graphic coords="6,155.91,50.50,359.88,460.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Pharmacodynamics (PD) alpha galactosidase activity and Gb3 accumulation after exposure to GLA variants. 5-month-old female GLA -/-mice were dosed with GLA variants at 1 mg/kg i.v. At indicated timepoints, the mice were sacrificed, perfused, and tissues were harvested: liver (A,B), heart (C,D), and kidney (E,F). Tissues were processed and tested for alpha galactosidase activity (A,C,E) and Gb3 (B,D,F). Note that alpha galactosidase activity in liver is considerably higher than for other organs. *p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001, ****p &lt; 0.0001-two way ANOVA with Dunnett multiple comparisons.</figDesc><graphic coords="7,155.91,163.21,358.56,495.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. In silico and in vitro de-epitoping of GLA. (A) In silico assessment of 15-mer peptides of GLA (red) and GLAv09 (blue) using the IEDB software (https:// www. iedb. org). GLA and GLAv09 sequences were parsed into all possible 15-mer analysis frames, with each frame overlapping the previous one by 14 amino acids. The 15-mer analysis frames were evaluated for immunogenic potential by scoring their 9-mer core regions for predicted binding to eight common MHC-II HLA-DR alleles (DRB1*0101, DRB1*0301, DRB1*0401, DRB1*0701, DRB1*0801, DRB1*1101, DRB1*1301, and DRB1*1501). (B) MHC-associated peptide proteomics of peptides displayed on dendriticcells from buffer (grey), GLA (red), and GLAv09 (green). Histograms indicate the number of displayed peptides comprising the indicated amino acid across the entirety of the GLA sequence.</figDesc><graphic coords="8,155.91,342.65,232.44,296.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. T cell response evoked by GLA variants. PBMCs from 30 healthy donors were treated with GLA, GLAv05, GLAv09, or controls in triplicate, and proliferation of T cells (in the presence of an inhibitor of CD8 + T cellswas measured by 3 H-thymidine incorporation on days 5, 6, 7, and 8. Donors showing a response on any day were considered positive.</figDesc><graphic coords="9,155.91,504.97,232.44,174.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Melting temperatures measured by differential scanning fluorimetry. DGJ = 1-deoxygalactonojirimycin.</figDesc><table><row><cell>Enzyme</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Mouse and Cynomolgus monkey plasma PK parameters represented by calculated half-life (t 1/2 ), peak concentration in plasma (C max ), area under the curve (AUC), clearance (CL), and volume of distribution (V z ).</figDesc><table><row><cell></cell><cell>Mouse</cell><cell></cell><cell></cell><cell>NHP</cell><cell></cell><cell></cell></row><row><cell></cell><cell>GLA</cell><cell>GLAv05</cell><cell>GLAv09</cell><cell>GLA</cell><cell>GLAv05</cell><cell>GLAv09</cell></row><row><cell>t 1/2 (h)</cell><cell>0.15</cell><cell>1.58</cell><cell>1.70</cell><cell>0.19</cell><cell>5.20</cell><cell>1.32</cell></row><row><cell>C max (μg/mL)</cell><cell>4.96</cell><cell>13.3</cell><cell>26.6</cell><cell>21.9</cell><cell>33.5</cell><cell>26.5</cell></row><row><cell>AUC 0-t (μg•h/mL)</cell><cell>1.26</cell><cell>12.37</cell><cell>18.25</cell><cell>10.2</cell><cell>108</cell><cell>35.2</cell></row><row><cell>CL (L/h/kg)</cell><cell>0.79</cell><cell>0.08</cell><cell>0.05</cell><cell>0.15</cell><cell>0.01</cell><cell>0.03</cell></row><row><cell>V z (L/kg)</cell><cell>0.170</cell><cell>0.174</cell><cell>0.125</cell><cell>0.04</cell><cell>0.07</cell><cell>0.05</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Mouse tissue AUC 0-24 (µg•h/g).</figDesc><table><row><cell>Tissue</cell><cell cols="3">GLA GLAv05 GLAv09</cell></row><row><cell>Kidney</cell><cell>0.46</cell><cell>3.58</cell><cell>4.11</cell></row><row><cell>Heart</cell><cell>3.84</cell><cell>4.81</cell><cell>7.23</cell></row><row><cell>Liver</cell><cell>276</cell><cell>358</cell><cell>324</cell></row><row><cell>Spleen</cell><cell>59.2</cell><cell>38.9</cell><cell>75.7</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Vol:.(1234567890) Scientific Reports | (2023) 13:4748 | https://doi.org/10.1038/s41598-023-31777-4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Scientific Reports | (2023) 13:4748 | https://doi.org/10.1038/s41598-023-31777-4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Vol.:(0123456789) Scientific Reports | (2023) 13:4748 | https://doi.org/10.1038/s41598-023-31777-4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Vol:.(1234567890) Scientific Reports | (2023) 13:4748 | https://doi.org/10.1038/s41598-023-31777-4</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Siamak Jabbarzadeh-Tabrizi</rs> and <rs type="person">Mouna Taroua</rs> (<rs type="affiliation">Institute of Metabolic Disease, Baylor Research Institute, Dallas</rs>), <rs type="person">Misty N. Demaree</rs> and <rs type="person">Sarah K. McPherson</rs> (<rs type="affiliation">University of Texas Southwestern Medical Center, Dallas</rs>) for their technical assistance, <rs type="person">Chris Kaiser</rs> for review of the manuscript, <rs type="person">Courtney Hendrickson</rs> for library screening support, <rs type="person">James Riggins</rs>, <rs type="person">Stephanie Galanie</rs>, and <rs type="person">Joyce Liu</rs> for analytical development support, and <rs type="person">Dr. Ora Weisz</rs> (<rs type="affiliation">University of Pittsburgh</rs>) for the GLA -/-podocytes.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data presented in the current study are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>N.A. and G.W.H. developed the initial concepts of the study. W.C.H., K.S., N.A., N.K., X.Z., Y.Z., R.C.B., C.C., J.L., M.M., C.S., A.S., J.V., M.H.A.I., K.M.C., R.S., A.P.S., J.S.S. and G.W.H. designed experiments, acquired, and analyzed data. W.C.H., K.S., N.A., A.P.S., J.S.S., K.M.C., and G.W.H. wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>All current Codexis employees are shareholders of the company.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41598-023-31777-4">https:// doi. org/  10. 1038/ s41598-023-31777-4</ref>.</p><p>Correspondence and requests for materials should be addressed to W.C.H.</p><p>Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">www.nature.com/reprints</ref>. Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schiffmann</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fabry Disease</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Handb. Clin. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="231" to="248" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schiffmann, R. Fabry disease. Handb. Clin. Neurol. 132, 231-248 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Narrative review: Fabry disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Clarke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="425" to="433" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clarke, J. T. Narrative review: Fabry disease. Ann. Intern. Med. 146(6), 425-433 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fabry disease: A disorder of childhood onset</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schiffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ries</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="10" to="20" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schiffmann, R. &amp; Ries, M. Fabry disease: A disorder of childhood onset. Pediatr. Neurol. 64, 10-20 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High incidence of later-onset fabry disease revealed by newborn screening</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="40" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spada, M. et al. High incidence of later-onset fabry disease revealed by newborn screening. Am. J. Hum. Genet. 79(1), 31-40 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Pegunigalsidase alfa, a novel PEGylated enzyme replacement therapy for Fabry disease, provides sustained plasma concentrations and favorable pharmacodynamics: A 1-year Phase 1/2 clinical trial</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schiffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inherit. Metab. Dis</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="534" to="544" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schiffmann, R. et al. Pegunigalsidase alfa, a novel PEGylated enzyme replacement therapy for Fabry disease, provides sustained plasma concentrations and favorable pharmacodynamics: A 1-year Phase 1/2 clinical trial. J. Inherit. Metab. Dis. 42(3), 534-544 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetics, pharmacodynamics, and safety of moss-aGalactosidase A in patients with Fabry disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hennermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inherit. Metab. Dis</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="527" to="533" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hennermann, J. B. et al. Pharmacokinetics, pharmacodynamics, and safety of moss-aGalactosidase A in patients with Fabry disease. J. Inherit. Metab. Dis. 42(3), 527-533 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Impact of the organic cation transporter 2 inhibitor cimetidine on the single-dose pharmacokinetics of the glucosylceramide synthase inhibitor lucerastat in healthy subjects</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Boof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Clin. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="431" to="437" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boof, M. L. et al. Impact of the organic cation transporter 2 inhibitor cimetidine on the single-dose pharmacokinetics of the glucosylceramide synthase inhibitor lucerastat in healthy subjects. Eur. J. Clin. Pharmacol. 76(3), 431-437 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Lentivirus-mediated gene therapy for Fabry disease</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1178</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khan, A. et al. Lentivirus-mediated gene therapy for Fabry disease. Nat. Commun. 12(1), 1178 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><surname>Clinicaltrails</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gov</surname></persName>
+		</author>
+		<title level="m">Autologous Stem Cell Transplantation of Cells Engineered to Express Alpha-Galactosidase A in Patients With Fabry Disease; Identifier NCT02800070</title>
+		<meeting><address><addrLine>Bethesda (MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>National Library of Medicine (US)</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ClinicalTrails.gov, Autologous Stem Cell Transplantation of Cells Engineered to Express Alpha-Galactosidase A in Patients With Fabry Disease; Identifier NCT02800070. 2020, Bethesda (MD): National Library of Medicine (US).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Current and Investigational Therapeutics for Fabry Disease</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Felis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="407" to="413" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felis, A. et al. Current and Investigational Therapeutics for Fabry Disease. Kidney Int. Rep. 5(4), 407-413 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cost-effectiveness of enzyme replacement therapy for Fabry disease</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rombach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orphanet. J. Rare Dis</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rombach, S. M. et al. Cost-effectiveness of enzyme replacement therapy for Fabry disease. Orphanet. J. Rare Dis. 8, 29 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Quality of life in patients with Fabry disease: A systematic review of the literature</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arends</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Biegstraaten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orphanet. J. Rare Dis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arends, M., Hollak, C. E. &amp; Biegstraaten, M. Quality of life in patients with Fabry disease: A systematic review of the literature. Orphanet. J. Rare Dis. 10, 77 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The effect of enzyme replacement therapy on clinical outcomes in paediatric patients with Fabry disease-a systematic literature review by a European panel of experts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="212" to="223" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spada, M. et al. The effect of enzyme replacement therapy on clinical outcomes in paediatric patients with Fabry disease-a sys- tematic literature review by a European panel of experts. Mol. Genet. Metab. 126(3), 212-223 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The effect of enzyme replacement therapy on clinical outcomes in male patients with Fabry disease: A systematic literature review by a European panel of experts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Germain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab. Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">100454</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Germain, D. P. et al. The effect of enzyme replacement therapy on clinical outcomes in male patients with Fabry disease: A sys- tematic literature review by a European panel of experts. Mol. Genet. Metab. Rep. 19, 100454 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The effect of enzyme replacement therapy on clinical outcomes in female patients with Fabry disease-a systematic literature review by a European panel of experts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Germain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="224" to="235" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Germain, D. P. et al. The effect of enzyme replacement therapy on clinical outcomes in female patients with Fabry disease-a systematic literature review by a European panel of experts. Mol. Genet. Metab. 126(3), 224-235 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of enzyme replacement therapy and antidrug antibodies in patients with Fabry disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2265" to="2278" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenders, M. &amp; Brand, E. Effects of enzyme replacement therapy and antidrug antibodies in patients with Fabry disease. J. Am. Soc. Nephrol. 29(9), 2265-2278 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Immune response to enzyme replacement therapies in lysosomal storage diseases and the role of immune tolerance induction</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Kishnani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="66" to="83" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kishnani, P. S. et al. Immune response to enzyme replacement therapies in lysosomal storage diseases and the role of immune tolerance induction. Mol. Genet. Metab. 117(2), 66-83 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Serum-mediated inhibition of enzyme replacement therapy in Fabry disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="256" to="264" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenders, M. et al. Serum-mediated inhibition of enzyme replacement therapy in Fabry disease. J. Am. Soc. Nephrol. 27(1), 256-264 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Long-term effect of antibodies against infused alpha-galactosidase A in Fabry disease on plasma and urinary (lyso)Gb3 reduction and treatment outcome</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rombach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">47805</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rombach, S. M. et al. Long-term effect of antibodies against infused alpha-galactosidase A in Fabry disease on plasma and urinary (lyso)Gb3 reduction and treatment outcome. PLoS One 7(10), e47805 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Hot topics in Fabry disease</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cairns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Postgrad. Med. J</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="709" to="713" />
+			<date type="published" when="1118">1118. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cairns, T. et al. Hot topics in Fabry disease. Postgrad. Med. J. 94(1118), 709-713 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mechanisms of neutralizing anti-drug antibody formation and clinical relevance on therapeutic efficacy of enzyme replacement therapies in Fabry disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="1969" to="1981" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenders, M. &amp; Brand, E. Mechanisms of neutralizing anti-drug antibody formation and clinical relevance on therapeutic efficacy of enzyme replacement therapies in Fabry disease. Drugs 81(17), 1969-1981 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Innovation by evolution: Bringing new chemistry to life (Nobel Lecture)</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="14420" to="14426" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F. H. Innovation by evolution: Bringing new chemistry to life (Nobel Lecture). Angew. Chem. Int. Ed. Engl. 58(41), 14420-14426 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The molecular defect leading to Fabry disease: Structure of human alpha-galactosidase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Garman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Garboczi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">337</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="319" to="335" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garman, S. C. &amp; Garboczi, D. N. The molecular defect leading to Fabry disease: Structure of human alpha-galactosidase. J. Mol. Biol. 337(2), 319-335 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Purification and properties of the two major isozymes of alpha-galactosidase from human placenta</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kusiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Quirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">253</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="184" to="190" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kusiak, J. W., Quirk, J. M. &amp; Brady, R. O. Purification and properties of the two major isozymes of alpha-galactosidase from human placenta. J. Biol. Chem. 253(1), 184-190 (1978).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Several common HLA-DR types share largely overlapping peptide binding repertoires</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Southwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3363" to="3373" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Southwood, S. et al. Several common HLA-DR types share largely overlapping peptide binding repertoires. J. Immunol. 160(7), 3363-3373 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The molecular basis of pharmacological chaperoning in human alpha-galactosidase</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Guce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1521" to="1526" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guce, A. I. et al. The molecular basis of pharmacological chaperoning in human alpha-galactosidase. Chem. Biol. 18(12), 1521-1526 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Characterization and phosphoproteomic analysis of a human immortalized podocyte model of Fabry disease generated using CRISPR/Cas9 technology</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Renal. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1015" to="F1024" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pereira, E. M. et al. Characterization and phosphoproteomic analysis of a human immortalized podocyte model of Fabry disease generated using CRISPR/Cas9 technology. Am. J. Physiol. Renal. Physiol. 311(5), F1015-F1024 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Relative distribution of Gb3 isoforms/analogs in NOD/SCID/Fabry mice tissues determined by tandem mass spectrometry</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Provencal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioanalysis</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="1793" to="1807" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Provencal, P. et al. Relative distribution of Gb3 isoforms/analogs in NOD/SCID/Fabry mice tissues determined by tandem mass spectrometry. Bioanalysis 8(17), 1793-1807 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mannose 6-phosphate receptors: New twists in the tale</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Dahms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kornfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="202" to="212" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ghosh, P., Dahms, N. M. &amp; Kornfeld, S. Mannose 6-phosphate receptors: New twists in the tale. Nat. Rev. Mol. Cell Biol. 4(3), 202-212 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">New strategies for enzyme replacement therapy for lysosomal storage diseases</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Grubb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Sly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rejuvenation Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="229" to="236" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grubb, J. H., Vogler, C. &amp; Sly, W. S. New strategies for enzyme replacement therapy for lysosomal storage diseases. Rejuvenation Res. 13(2-3), 229-236 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Non-clinical evaluation of JR-051 as a biosimilar to agalsidase beta for the treatment of Fabry disease</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Morimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="153" to="160" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morimoto, H. et al. Non-clinical evaluation of JR-051 as a biosimilar to agalsidase beta for the treatment of Fabry disease. Mol. Genet. Metab. 125(1-2), 153-160 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Use of a modified alpha-N-acetylgalactosaminidase in the development of enzyme replacement therapy for Fabry disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tajima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="569" to="580" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tajima, Y. et al. Use of a modified alpha-N-acetylgalactosaminidase in the development of enzyme replacement therapy for Fabry disease. Am. J. Hum. Genet. 85(5), 569-580 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">In silico identification and modification of T cell epitopes in pertussis antigens associated with tolerance</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kruiswijk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Vaccin. Immunother</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kruiswijk, C. et al. In silico identification and modification of T cell epitopes in pertussis antigens associated with tolerance. Hum. Vaccin. Immunother. 16(2), 277-285 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Applying MAPPs assays to assess drug immunogenicity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Karle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karle, A. C. Applying MAPPs assays to assess drug immunogenicity. Front. Immunol. 11, 698 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">MAPPs for the identification of immunogenic hotspots of biotherapeutics; an overview of the technology and its application to the biopharmaceutical arena</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Quarmby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">T</forename><surname>Phung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev. Proteom</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="733" to="748" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quarmby, V., Phung, Q. T. &amp; Lill, J. R. MAPPs for the identification of immunogenic hotspots of biotherapeutics; an overview of the technology and its application to the biopharmaceutical arena. Expert Rev. Proteom. 15(9), 733-748 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">T-cell dependent immunogenicity of protein therapeutics pre-clinical assessment and mitigation-updated consensus and review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1301</biblScope>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jawa, V. et al. T-cell dependent immunogenicity of protein therapeutics pre-clinical assessment and mitigation-updated consensus and review 2020. Front. Immunol. 11, 1301 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Use of in vitro assays to assess immunogenicity risk of antibody-based biotherapeutics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Joubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">159328</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joubert, M. K. et al. Use of in vitro assays to assess immunogenicity risk of antibody-based biotherapeutics. PLoS One 11(8), e0159328 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Renal variant of Fabry disease with sporadic GLA gene mutation: Role of early renal biopsy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Al-Salam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Kidney J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="416" to="419" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Salam, S. et al. Renal variant of Fabry disease with sporadic GLA gene mutation: Role of early renal biopsy. Clin. Kidney J. 5(5), 416-419 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Globotriaosylsphingosine (Lyso-Gb3) as a biomarker for cardiac variant (N215S) Fabry disease</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Alharbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inherit. Metab. Dis</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="239" to="247" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alharbi, F. J. et al. Globotriaosylsphingosine (Lyso-Gb3) as a biomarker for cardiac variant (N215S) Fabry disease. J. Inherit. Metab. Dis. 41(2), 239-247 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Favourable effect of early versus late start of enzyme replacement therapy on plasma globotriaosylsphingosine levels in men with classical Fabry disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arends</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="157" to="161" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arends, M. et al. Favourable effect of early versus late start of enzyme replacement therapy on plasma globotriaosylsphingosine levels in men with classical Fabry disease. Mol. Genet. Metab. 121(2), 157-161 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Fabry disease in females: clinical characteristics and effects of enzyme replacement therapy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Deegan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fabry Disease: Perspectives from 5 Years of FOS</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Mehta</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Oxford PharmaGenesis</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deegan, P. et al. Fabry disease in females: clinical characteristics and effects of enzyme replacement therapy. In Fabry Disease: Perspectives from 5 Years of FOS (eds Mehta, A. et al.) (Oxford PharmaGenesis, 2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Desnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Ioannou</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Eng</surname></persName>
+		</author>
+		<title level="m">The Metabolic and Molecular Basis of Inherited Disease</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Scriver</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Galactosidase A deficiency: Fabry Disease</note>
+	<note type="raw_reference">Desnick, R. J. &amp; Ioannou, Y. A. Eng, a-Galactosidase A deficiency: Fabry Disease. In The Metabolic and Molecular Basis of Inherited Disease (eds Scriver, C. R. et al.) (McGraw-Hill, 2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fabry disease cardiac variant IVS4+919 G&gt;A is associated with multiple cardiac gene variants in patients with severe cardiomyopathy and fatal arrhythmia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Juang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1890" to="1891" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Juang, J. J. et al. Fabry disease cardiac variant IVS4+919 G&gt;A is associated with multiple cardiac gene variants in patients with severe cardiomyopathy and fatal arrhythmia. Genet. Med. 21(8), 1890-1891 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Natural history of Fabry disease in affected males and obligate carrier females</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Macdermot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Miners</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inherit. Metab. Dis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="11" to="12" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacDermot, K. D., Holmes, A. &amp; Miners, A. H. Natural history of Fabry disease in affected males and obligate carrier females. J. Inherit. Metab. Dis. 24 Suppl 2, 13-14 (2001) (discussion 11-2).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">An atypical p. N215S variant of Fabry disease with end-stage renal failure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choudhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jovanovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab. Rep</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="43" to="45" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sugarman, M., Choudhury, J. &amp; Jovanovic, A. An atypical p. N215S variant of Fabry disease with end-stage renal failure. Mol. Genet. Metab. Rep. 15, 43-45 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Heterozygous Fabry women are not just carriers, but have a significant burden of disease and impaired quality of life</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="34" to="45" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, R. Y. et al. Heterozygous Fabry women are not just carriers, but have a significant burden of disease and impaired quality of life. Genet. Med. 9(1), 34-45 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Development and analytical characterization of Pegunigalsidase Alfa, a chemically cross-linked plant recombinant human alpha-galactosidase-a for treatment of Fabry disease</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ruderfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioconjug. Chem</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1630" to="1639" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ruderfer, I. et al. Development and analytical characterization of Pegunigalsidase Alfa, a chemically cross-linked plant recombinant human alpha-galactosidase-a for treatment of Fabry disease. Bioconjug. Chem. 29(5), 1630-1639 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Characterization of a chemically modified plant cell culture expressed human alpha-Galactosidase-a enzyme for treatment of Fabry disease</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kizhner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="259" to="267" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kizhner, T. et al. Characterization of a chemically modified plant cell culture expressed human alpha-Galactosidase-a enzyme for treatment of Fabry disease. Mol. Genet. Metab. 114(2), 259-267 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Impact of cysteine variants on the structure, activity, and stability of recombinant human alpha-galactosidase A</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1401" to="1411" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qiu, H. et al. Impact of cysteine variants on the structure, activity, and stability of recombinant human alpha-galactosidase A. Protein Sci. 24(9), 1401-1411 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<idno type="DOI">10.1038/s41598-023-31777-4</idno>
+		<ptr target="https://doi.org/10.1038/s41598-023-31777-4" />
+		<title level="m">(0123456789) Scientific Reports |</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">4748</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vol.:(0123456789) Scientific Reports | (2023) 13:4748 | https://doi.org/10.1038/s41598-023-31777-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Prediction of improved therapeutics for Fabry disease patients generated by mutagenesis of the alpha-galactosidase A active site, dimer interface, and glycosylation region</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gilchrist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Calhoun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr. Purif</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">105710</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stokes, E. S., Gilchrist, M. L. &amp; Calhoun, D. H. Prediction of improved therapeutics for Fabry disease patients generated by mutagenesis of the alpha-galactosidase A active site, dimer interface, and glycosylation region. Protein Expr. Purif. 175, 105710 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Carboxyl-terminal truncations alter the activity of the human alpha-galactosidase A</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meghdari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">118341</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meghdari, M. et al. Carboxyl-terminal truncations alter the activity of the human alpha-galactosidase A. PLoS One 10(2), e0118341 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Mannose receptor-mediated delivery of moss-made alpha-galactosidase A efficiently corrects enzyme deficiency in Fabry mice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inherit. Metab. Dis</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="293" to="303" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shen, J. S. et al. Mannose receptor-mediated delivery of moss-made alpha-galactosidase A efficiently corrects enzyme deficiency in Fabry mice. J. Inherit. Metab. Dis. 39(2), 293-303 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Lysosomal targeting enhancement by conjugation of glycopeptides containing mannose-6-phosphate glycans derived from glyco-engineered yeast</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">8730</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kang, J. Y. et al. Lysosomal targeting enhancement by conjugation of glycopeptides containing mannose-6-phosphate glycans derived from glyco-engineered yeast. Sci. Rep. 8(1), 8730 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Glycoengineered acid alpha-glucosidase with improved efficacy at correcting the metabolic aberrations and motor function deficits in a mouse model of Pompe disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ther</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="954" to="963" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, Y. et al. Glycoengineered acid alpha-glucosidase with improved efficacy at correcting the metabolic aberrations and motor function deficits in a mouse model of Pompe disease. Mol. Ther. 17(6), 954-963 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The glycosylation design space for recombinant lysosomal replacement enzymes produced in CHO cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1785</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian, W. et al. The glycosylation design space for recombinant lysosomal replacement enzymes produced in CHO cells. Nat. Com- mun. 10(1), 1785 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Development of a fusion protein combined alpha-galactosidase A and insulin-like growth factor 2 for treatment of Fabry disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">63</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>AB</note>
+	<note type="raw_reference">Chen, Y. R. Development of a fusion protein combined alpha-galactosidase A and insulin-like growth factor 2 for treatment of Fabry disease. Ann. Transl. Med. 5, AB063 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Alpha-galactosidase A-Tat fusion enhances storage reduction in hearts and kidneys of Fabry mice</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Higuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="216" to="221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Higuchi, K. et al. Alpha-galactosidase A-Tat fusion enhances storage reduction in hearts and kidneys of Fabry mice. Mol. Med. 16(5-6), 216-221 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Long-term efficacy and safety of migalastat treatment in Fabry disease: 30-month results from the open-label extension of the randomized, phase 3 ATT RAC T study</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Feldt-Rasmussen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Genet. Metab</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feldt-Rasmussen, U. et al. Long-term efficacy and safety of migalastat treatment in Fabry disease: 30-month results from the open-label extension of the randomized, phase 3 ATT RAC T study. Mol. Genet. Metab. 20, 20 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Oral pharmacological chaperone migalastat compared with enzyme replacement therapy in Fabry disease: 18-month results from the randomised phase III ATT RAC T study</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Genet</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="288" to="296" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes, D. A. et al. Oral pharmacological chaperone migalastat compared with enzyme replacement therapy in Fabry disease: 18-month results from the randomised phase III ATT RAC T study. J. Med. Genet. 54(4), 288-296 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">X-linked thrombophilia with a mutant factor IX (factor IX Padua)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="1671" to="1675" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simioni, P. et al. X-linked thrombophilia with a mutant factor IX (factor IX Padua). N. Engl. J. Med. 361(17), 1671-1675 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Hyperfunctional coagulation factor IX improves the efficacy of gene therapy in hemophilic mice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cantore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="4517" to="4520" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantore, A. et al. Hyperfunctional coagulation factor IX improves the efficacy of gene therapy in hemophilic mice. Blood 120(23), 4517-4520 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Hemophilia B gene therapy with a high-specific-activity factor IX variant</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="2215" to="2227" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">George, L. A. et al. Hemophilia B gene therapy with a high-specific-activity factor IX variant. N. Engl. J. Med. 377(23), 2215-2227 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Recombinant Thermoascus auranticus β-glucosidase variants for production of fermentable sugars from cellulosic biomass</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baidyaroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Newman</surname></persName>
+		</author>
+		<editor>USPTO.gov, USPTO</editor>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>USA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baidyaroy, D., L. Clark, &amp; L.M. Newman, Recombinant Thermoascus auranticus β-glucosidase variants for production of fermentable sugars from cellulosic biomass, in USPTO.gov, USPTO, Editor. 2011, Codexis, Inc.: USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Gene splicing by overlap extension: Tailor-made genes using the polymerase chain reaction</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Horton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="528" to="535" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horton, R. M. et al. Gene splicing by overlap extension: Tailor-made genes using the polymerase chain reaction. Biotechniques 8(5), 528-535 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">High efficiency transformation of intact yeast cells using single stranded nucleic acids as a carrier</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Schiestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Gietz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Genet</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="339" to="346" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schiestl, R. H. &amp; Gietz, R. D. High efficiency transformation of intact yeast cells using single stranded nucleic acids as a carrier. Curr. Genet. 16(5-6), 339-346 (1989).</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Epitope-binding characteristics for risk versus protective DRB1 alleles for visceral leishmaniasis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2727" to="2737" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Singh, T. et al. Epitope-binding characteristics for risk versus protective DRB1 alleles for visceral leishmaniasis. J. Immunol. 200(8), 2727-2737 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Efficient and rapid purification of recombinant human alpha-galactosidase A by affinity column chromatography</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yasuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr. Purif</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="499" to="506" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yasuda, K. et al. Efficient and rapid purification of recombinant human alpha-galactosidase A by affinity column chromatography. Protein Expr. Purif. 37(2), 499-506 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">A liquid chromatography-quadrupole-time-of-flight mass spectrometric assay for the quantification of fabry disease biomarker globotriaosylceramide (GB3) in Fabry model mouse</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmaceutics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shin, S. H. et al. A liquid chromatography-quadrupole-time-of-flight mass spectrometric assay for the quantification of fabry disease biomarker globotriaosylceramide (GB3) in Fabry model mouse. Pharmaceutics 10, 2 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">alpha-Galactosidase A deficient mice: A model of Fabry disease</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohshima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2540" to="2544" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ohshima, T. et al. alpha-Galactosidase A deficient mice: A model of Fabry disease. Proc. Natl. Acad. Sci. USA 94(6), 2540-2544 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Sex differences of urinary and kidney globotriaosylceramide and lyso-globotriaosylceramide in Fabry mice</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Durant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1742" to="1746" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Durant, B. et al. Sex differences of urinary and kidney globotriaosylceramide and lyso-globotriaosylceramide in Fabry mice. J. Lipid Res. 52(9), 1742-1746 (2011).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

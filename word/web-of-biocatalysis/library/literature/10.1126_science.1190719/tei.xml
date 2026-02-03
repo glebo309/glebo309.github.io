@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Creation of a Bacterial Cell Controlled by a Chemically Synthesized Genome</title>
+				<funder ref="#_pRk4rGF">
+					<orgName type="full">Synthetic Genomics, Inc.</orgName>
+				</funder>
+				<funder ref="#_bnpUrBD #_kTfxsfm #_HfrFwPN">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">G</forename><surname>Gibson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">I</forename><surname>Glass</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carole</forename><surname>Lartigue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vladimir</forename><forename type="middle">N</forename><surname>Noskov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ray-Yuan</forename><surname>Chuang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mikkel</forename><forename type="middle">A</forename><surname>Algire</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gwynedd</forename><forename type="middle">A</forename><surname>Benders</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Montague</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Li</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Monzia</forename><forename type="middle">M</forename><surname>Moodie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chuck</forename><surname>Merryman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sanjay</forename><surname>Vashee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Radha</forename><surname>Krishnakumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nacyra</forename><surname>Assad-Garcia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cynthia</forename><surname>Andrews-Pfannkoch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evgeniya</forename><forename type="middle">A</forename><surname>Denisova</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lei</forename><surname>Young</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhi-Qing</forename><surname>Qi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><forename type="middle">H</forename><surname>Segall-Shapiro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">H</forename><surname>Calvey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Prashanth</forename><forename type="middle">P</forename><surname>Parmar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Clyde</forename><forename type="middle">A</forename><surname>Hutchison</surname><genName>III</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hamilton</forename><forename type="middle">O</forename><surname>Smith</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Craig Venter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Advancement of Science</orgName>
+								<address>
+									<addrLine>1200 New York Avenue NW</addrLine>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Creation of a Bacterial Cell Controlled by a Chemically Synthesized Genome</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0036-8075</idno>
+					</monogr>
+					<idno type="MD5">DE65EF5E22AE41B802F90296C3527219</idno>
+					<idno type="DOI">10.1126/science.1190719</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report the design, synthesis, and assembly of the 1.08-mega-base pair Mycoplasma mycoides JCVI-syn1.0 genome starting from digitized genome sequence information and its transplantation into a M. capricolum recipient cell to create new M. mycoides cells that are controlled only by the synthetic chromosome. The only DNA in the cells is the designed synthetic DNA sequence, including "watermark" sequences and other designed gene deletions and polymorphisms, and mutations acquired during the building process. The new cells have expected phenotypic properties and are capable of continuous self-replication.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="594.0" lry="756.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="594.0" lry="756.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="594.0" lry="756.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="594.0" lry="756.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="594.0" lry="756.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I</head><p>n 1977, Sanger and colleagues determined the complete genetic sequence of phage ϕX174 <ref type="bibr" target="#b1">(1)</ref>, the first DNA genome to be completely sequenced. Eighteen years later, in 1995, our team was able to read the first complete genetic sequence of a self-replicating bacterium, Haemophilus influenzae <ref type="bibr" target="#b2">(2)</ref>. Reading the genetic sequence of a wide range of species has increased exponentially from these early studies. The ability to rapidly digitize genomic information has increased by more than eight orders of magnitude over the past 25 years <ref type="bibr" target="#b3">(3)</ref>. Efforts to understand all this new genomic information have spawned numerous new computational and experimental paradigms, yet our genomic knowledge remains very limited. No single cellular system has all of its genes understood in terms of their biological roles. Even in simple bacterial cells, do the chromosomes contain the entire genetic repertoire? If so, can a complete genetic system be reproduced by chemical synthesis starting with only the digitized DNA sequence contained in a computer?</p><p>Our interest in synthesis of large DNA molecules and chromosomes grew out of our efforts over the past 15 years to build a minimal cell that contains only essential genes. This work was inaugurated in 1995 when we sequenced the genome of Mycoplasma genitalium, a bacterium with the smallest complement of genes of any known organism capable of independent growth in the laboratory. More than 100 of the 485 protein-coding genes of M. genitalium are dispensable when disrupted one at a time <ref type="bibr" target="#b4">(4)</ref><ref type="bibr" target="#b5">(5)</ref><ref type="bibr" target="#b6">(6)</ref>.</p><p>We developed a strategy for assembling viralsized pieces to produce large DNA molecules that enabled us to assemble a synthetic M. genitalium genome in four stages from chemically synthesized DNA cassettes averaging about 6 kb in size. This was accomplished through a combination of in vitro enzymatic methods and in vivo recombination in Saccharomyces cerevisiae. The whole synthetic genome [582,970 base pairs (bp)] was stably grown as a yeast centromeric plasmid (YCp) <ref type="bibr" target="#b7">(7)</ref>.</p><p>Several hurdles were overcome in transplanting and expressing a chemically synthesized chromosome in a recipient cell. We needed to improve methods for extracting intact chromosomes from yeast. We also needed to learn how to transplant these genomes into a recipient bacterial cell to establish a cell controlled only by a synthetic genome. Because M. genitalium has an extremely slow growth rate, we turned to two faster-growing mycoplasma species, M. mycoides subspecies capri (GM12) as donor, and M. capricolum subspecies capricolum (CK) as recipient.</p><p>To establish conditions and procedures for transplanting the synthetic genome out of yeast, we developed methods for cloning entire bacterial chromosomes as centromeric plasmids in yeast, including a native M. mycoides genome <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b9">9)</ref>. However, initial attempts to extract the M. mycoides genome from yeast and transplant it into M. capricolum failed. We discovered that the donor and recipient mycoplasmas share a common restriction system. The donor genome was methylated in the native M. mycoides cells and was therefore protected against restriction during the transplantation from a native donor cell <ref type="bibr" target="#b10">(10)</ref>. However, the bacterial genomes grown in yeast are unmethylated and so are not protected from the single restriction system of the recipient cell. We overcame this restriction barrier by methylating the donor DNA with purified methylases or crude M. mycoides or M. capricolum extracts, or by simply disrupting the recipient cell's restriction system <ref type="bibr" target="#b8">(8)</ref>.</p><p>We now have combined all of our previously established procedures and report the synthesis, assembly, cloning, and successful transplantation of the 1.08-Mbp M. mycoides JCVI-syn1.0 genome, to create a new cell controlled by this synthetic genome.</p><p>Synthetic genome design. Design of the M. mycoides JCVI-syn1.0 genome was based on the highly accurate finished genome sequences of two laboratory strains of M. mycoides subspecies capri GM12 <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b9">9,</ref><ref type="bibr" target="#b11">11)</ref>. One was the genome donor used by Lartigue et al. [GenBank accession CP001621] (10). The other was a strain created by transplantation of a genome that had been cloned and engineered in yeast, YCpMmyc1.1-DtypeIIIres [GenBank accession CP001668] (8). This project was critically dependent on the accuracy of these sequences. Although we believe that both finished M. mycoides genome sequences are reliable, there are 95 sites at which they differ. We began to design the synthetic genome before both sequences were finished. Consequently, most of the cassettes were designed and synthesized based on the CP001621 sequence <ref type="bibr" target="#b11">(11)</ref>. When it was finished, we chose the sequence of the genome successfully transplanted from yeast (CP001668) as our design reference (except that we kept the intact typeIIIres gene). All differences that appeared biologically significant between CP001668 and previously synthesized cassettes were corrected to match it exactly <ref type="bibr" target="#b11">(11)</ref>. Sequence differences between our synthetic cassettes and CP001668 that occurred at 19 sites appeared harmless and so were not corrected. These provide 19 polymorphic differences between our synthetic genome (JCVI-syn1.0) and the natural (nonsynthetic) genome (YCpMmyc1.1) that we have cloned in yeast and use as a standard for genome transplantation from yeast <ref type="bibr" target="#b8">(8)</ref>. To further differentiate between the synthetic genome and the natural one, we designed four watermark sequences (fig. <ref type="figure">S1</ref>) to replace one or more cassettes in regions experimentally demonstrated [watermarks 1 (1246 bp) and 2 (1081 bp)] or predicted [watermarks 3 (1109 bp) and 4 (1222 bp)] to not interfere with cell viability. These watermark sequences encode unique identifiers while limiting their translation into peptides. Table S1 lists the differences between the synthetic genome and this natural standard. Figure <ref type="figure" target="#fig_1">S2</ref> shows a map of the M. mycoides JCVI-syn1.0 genome. Cassette and assembly intermediate boundaries, watermarks, deletions, insertions, and genes of the M. mycoides JCVI syn1.0 are shown in fig. <ref type="figure" target="#fig_1">S2</ref>, and the sequence of the transplanted mycoplasma clone sMmYCp235-1 has been submitted to GenBank (accession CP002027).</p><p>Synthetic genome assembly strategy. The designed cassettes were generally 1080 bp with 80-bp overlaps to adjacent cassettes <ref type="bibr" target="#b11">(11)</ref>. They were all produced by assembly of chemically RESEARCH ARTICLE synthesized oligonucleotides by Blue Heron (Bothell, Washington). Each cassette was individually synthesized and sequence-verified by the manufacturer. To aid in the building process, DNA cassettes and assembly intermediates were designed to contain Not I restriction sites at their termini and recombined in the presence of vector elements to allow for growth and selection in yeast <ref type="bibr" target="#b7">(7,</ref><ref type="bibr" target="#b11">11)</ref>. A hierarchical strategy was designed to assemble the genome in three stages by transformation and homologous recombination in yeast from 1078 1-kb cassettes (Fig. <ref type="figure">1</ref>) <ref type="bibr" target="#b12">(12,</ref><ref type="bibr" target="#b13">13)</ref>.</p><p>Assembly of 10-kb synthetic intermediates. In the first stage, cassettes and a vector were recombined in yeast and transferred to Escherichia coli <ref type="bibr" target="#b11">(11)</ref>. Plasmid DNA was then isolated from individual E. coli clones and digested to screen for cells containing a vector with an assembled 10-kb insert. One successful 10-kb assembly is represented (Fig. <ref type="figure" target="#fig_1">2A</ref>). In general, at least one 10-kb assembled fragment could be obtained by screening 10 yeast clones. However, the rate of success varied from 10 to 100%. All of the firststage intermediates were sequenced. Nineteen out of 111 assemblies contained errors. Alternate clones were selected, sequence-verified, and moved on to the next assembly stage <ref type="bibr" target="#b11">(11)</ref>.</p><p>Assembly of 100-kb synthetic intermediates. The pooled 10-kb assemblies and their respective cloning vectors were transformed into yeast as above to produce 100-kb assembly intermediates <ref type="bibr" target="#b11">(11)</ref>. Our results indicated that these products cannot be stably maintained in E. coli, so recombined DNA had to be extracted from yeast. Multiplex polymerase chain reaction (PCR) was performed on selected yeast clones (fig. <ref type="figure" target="#fig_2">S3</ref> and table <ref type="table">S2</ref>). Because every 10-kb assembly intermediate was represented by a primer pair in this analysis, the presence of all amplicons would suggest an assembled 100-kb intermediate. In general, 25% or more of the clones screened contained all of the amplicons expected for a complete assembly. One of these clones was selected for further screening. Circular plasmid DNA was extracted and sized on an agarose gel alongside a supercoiled marker. Successful secondstage assemblies with the vector sequence are ~105 kb in length (Fig. <ref type="figure" target="#fig_1">2B</ref>). When all amplicons were produced following multiplex PCR, a secondstage assembly intermediate of the correct size was usually produced. In some cases, however, small deletions occurred. In other instances, multiple 10kb fragments were assembled, which produced a larger second-stage assembly intermediate. Fortunately, these differences could easily be detected on an agarose gel before complete genome assembly.</p><p>Complete genome assembly. In preparation for the final stage of assembly, it was necessary to isolate microgram quantities of each of the 11 second-stage assemblies <ref type="bibr" target="#b11">(11)</ref>. As reported <ref type="bibr" target="#b14">(14)</ref>, circular plasmids the size of our second-stage assemblies could be isolated from yeast spheroplasts after an alkaline-lysis procedure. To further purify the 11 assembly intermediates, they were treated with exonuclease and passed through an anion-exchange column. A small fraction of the total plasmid DNA (1/100) was digested with Not I and analyzed by field-inversion gel electrophoresis (FIGE) (Fig. <ref type="figure" target="#fig_1">2C</ref>). This method produced ~1 mg of each assembly per 400 ml of yeast culture (~10 11 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>cells).</head><p>The method above does not completely remove all of the linear yeast chromosomal DNA, which we found could substantially decrease the yeast transformation and assembly efficiency. To further enrich for the 11 circular assembly intermediates, ~200 ng samples of each assembly were pooled and mixed with molten agarose. As the agarose solidifies, the fibers thread through and topologically "trap" circular DNA <ref type="bibr" target="#b15">(15)</ref>. Untrapped linear DNA can then be separated out of the agarose plug by electrophoresis, thus enriching for the trapped circular molecules. The 11 circular assembly intermediates were digested with Not I so that the inserts could be released. Subsequently, the fragments were extracted from the agarose plug, analyzed by FIGE (Fig. <ref type="figure" target="#fig_1">2D</ref>), and transformed into yeast spheroplasts <ref type="bibr" target="#b11">(11)</ref>. In this third and final stage of assembly, an additional vector sequence was not required because the yeast cloning elements were already present in assembly 811-900.</p><p>To screen for a complete genome, multiplex PCR was carried out with 11 primer pairs,</p><p>A C G T 1,080 bp cassettes (1,078) (Assemble109X) 10,080 bp assemblies (109) (Assemble 11X) 100,000 bp assemblies (11) (Assemble 1X) 1,077,947 bp Oligonucleotide Synthesizer Oligonucleotides Yeast BssH II WM4 Elements for yeast propagation and genome transplantation 94D WM3 WM1 WM2 * * * * * * * * * * * * * * * ** * * * 1 1,077,947 Asc I BssH BssH II BssH II Asc I Asc I BssH II BssH II 6 0 1 -7 0 0 501-6 00 4 0 1 -5 0 0 3 0 1 -4 0 0 201 -300 1 0 1 -2 0 0 2 -1 0 0 1 00 1-11 04 9 0 1 -1 0 0 0 81 1-90 0 7 0 1 -7 99</p><p>Fig. <ref type="figure">1</ref>. The assembly of a synthetic M. mycoides genome in yeast. A synthetic M. mycoides genome was assembled from 1078 overlapping DNA cassettes in three steps. In the first step, 1080-bp cassettes (orange arrows), produced from overlapping synthetic oligonucleotides, were recombined in sets of 10 to produce 109 ~10-kb assemblies (blue arrows). These were then recombined in sets of 10 to produce 11 ~100-kb assemblies (green arrows). In the final stage of assembly, these 11 fragments were recombined into the complete genome (red circle). With the exception of two constructs that were enzymatically pieced together in vitro (27) (white arrows), assemblies were carried out by in vivo homologous recombination in yeast. Major variations from the natural genome are shown as yellow circles. These include four watermarked regions (WM1 to WM4), a 4-kb region that was intentionally deleted (94D), and elements for growth in yeast and genome transplantation. In addition, there are 20 locations with nucleotide polymorphisms (asterisks). Coordinates of the genome are relative to the first nucleotide of the natural M. mycoides sequence. The designed sequence is 1,077,947 bp. The locations of the Asc I and BssH II restriction sites are shown. Cassettes 1 and 800-810 were unnecessary and removed from the assembly strategy <ref type="bibr" target="#b11">(11)</ref>. Cassette 2 overlaps cassette 1104, and cassette 799 overlaps cassette 811.</p><p>designed to span each of the 11 100-kb assembly junctions (table <ref type="table">S3</ref>). Of 48 colonies screened, DNA extracted from one clone (sMmYCp235) produced all 11 amplicons. PCR of the wild-type positive control (YCpMmyc1.1) produced an indistinguishable set of 11 amplicons (Fig. <ref type="figure" target="#fig_2">3A</ref>).</p><p>To further demonstrate the complete assembly of a synthetic M. mycoides genome, intact DNA was isolated from yeast in agarose plugs and subjected to two restriction analyses: Asc I and BssH II <ref type="bibr" target="#b11">(11)</ref>. Because these restriction sites are present in three of the four watermark sequences, this choice of digestion produces restriction patterns that are distinct from that of the natural M. mycoides genome (Figs. <ref type="figure">1</ref> and <ref type="figure" target="#fig_2">3B</ref>). The sMmYCp235 clone produced the restriction pattern expected for a completely assembled synthetic genome (Fig. <ref type="figure" target="#fig_2">3C</ref>).</p><p>Synthetic genome transplantation. Additional agarose plugs used in the gel analysis above (Fig. <ref type="figure" target="#fig_2">3C</ref>) were also used in genome transplantation experiments <ref type="bibr" target="#b11">(11)</ref>. Intact synthetic M. mycoides genomes from the sMmYCp235 yeast clone were transplanted into restriction-minus M. capricolum recipient cells, as described <ref type="bibr" target="#b8">(8)</ref>. Results were scored by selecting for growth of blue colonies on SP4 medium containing tetracycline and X-gal at 37°C. Genomes isolated from this yeast clone produced 5 to 15 tetracycline-resistant blue colonies per agarose plug, a number comparable to that produced by the YCpMmyc1.1 control. Recovery of colonies in all transplantation experiments was dependent on the presence of both M. capricolum recipient cells and an M. mycoides genome.</p><p>Semisynthetic genome assembly and transplantation. To aid in testing the functionality of each 100-kb synthetic segment, semisynthetic genomes were constructed and transplanted. By mixing natural pieces with synthetic ones, the successful construction of each synthetic 100-kb assembly could be verified without having to sequence these intermediates. We cloned 11 overlapping natural 100-kb assemblies in yeast by using a previously described method <ref type="bibr" target="#b16">(16)</ref>. In 11 parallel reactions, yeast cells were cotransformed with fragmented M. mycoides genomic DNA (YCpMmyc 1.1) that averaged ~100 kb in length and a PCRamplified vector designed to overlap the ends of the 100-kb inserts. To maintain the appropriate overlaps so that natural and synthetic fragments could be recombined, the PCR-amplified vectors were produced via primers with the same 40-bp overlaps used to clone the 100-kb synthetic assemblies. The semisynthetic genomes that were constructed contained between 2 and 10 of the 11 100-kb synthetic subassemblies (Table <ref type="table" target="#tab_0">1</ref>). The production of viable colonies produced after transplantation confirmed that the synthetic fraction of each genome contained no lethal mutations. Only one of the 100-kb subassemblies, 811-900, was not viable.</p><p>Initially, an error-containing 811-820 clone was used to produce a synthetic genome that did not transplant. This was expected because the error was a single-base pair deletion that creates a frameshift in dnaA, an essential gene for chromosomal replication. We were previously unaware of this mutation. By using a semisynthetic genome construction strategy, we pinpointed 811-900 as the source for failed synthetic transplantation experiments. Thus, we began to reassemble an error-free 811-900 assembly, which was used to produce the sMmYCp235 yeast strain. The dnaAmutated genome differs by only one nucleotide from the synthetic genome in sMmYCp235. This genome served as a negative control in our transplantation experiments. The dnaA mutation was also repaired at the 811-900 level by genome engineering in yeast <ref type="bibr" target="#b17">(17)</ref>. A repaired 811-900  assembly was used in a final-stage assembly to produce a yeast clone with a repaired genome. This yeast clone is named sMmYCP142 and could be transplanted. A complete list of genomes that have been assembled from 11 pieces and successfully transplanted is provided in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Characterization of the synthetic transplants. To rapidly distinguish the synthetic transplants from M. capricolum or natural M. mycoides, two analyses were performed. First, four primer pairs that are specific to each of the four watermarks were designed such that they produce four amplicons in a single multiplex PCR reaction (table <ref type="table">S4</ref>). All four amplicons were produced by transplants generated from sMmYCp235, but not YCpMmyc1.1 (Fig. <ref type="figure" target="#fig_3">4A</ref>). Second, the gel analysis with Asc I and BssH II, described above (Fig. <ref type="figure" target="#fig_2">3C</ref>), was performed. The restriction pattern obtained was consistent with a transplant produced from a synthetic M. mycoides genome (Fig. <ref type="figure" target="#fig_3">4B</ref>).</p><p>A single transplant originating from the sMmYCp235 synthetic genome was sequenced. We refer to this strain as M. mycoides JCVI-syn1.0. The sequence matched the intended design with the exception of the known polymorphisms, eight new single-nucleotide polymorphisms, an E. coli transposon insertion, and an 85-bp duplication (table <ref type="table" target="#tab_0">S1</ref>). The transposon insertion exactly matches the size and sequence of IS1, a transposon in E. coli. It is likely that IS1 infected the 10-kb subassembly following its transfer to E. coli. The IS1 insert is flanked by direct repeats of M. mycoides sequence, suggesting that it was inserted by a transposition mechanism. The 85-bp duplication is a result of a nonhomologous end joining event, which was not detected in our sequence analysis at the 10-kb stage. These two insertions disrupt two genes that are evidently nonessential. We did not find any sequences in the synthetic genome that could be identified as belonging to M. capricolum. This indicates that there was a complete replacement of the M. capricolum genome by our synthetic genome during the transplant process.</p><p>The cells with only the synthetic genome are self-replicating and capable of logarithmic growth. Scanning and transmission electron micrographs (EMs) of M. mycoides JCVI-syn1.0 cells show small, ovoid cells surrounded by cytoplasmic membranes (Fig. <ref type="figure">5</ref>, C to F). Proteomic analysis of M. mycoides JCVI-syn1.0 and the wild-type control (YCpMmyc1.1) by two-dimensional gel electrophoresis revealed almost identical patterns of protein spots (fig. <ref type="figure" target="#fig_3">S4</ref>) that differed from those previously reported for M. capricolum <ref type="bibr" target="#b10">(10)</ref>. Fourteen genes are deleted or disrupted in the M. mycoides JCVI-syn1.0 genome; however, the rate of appearance of colonies on agar plates and the colony morphology are similar (compare Fig. <ref type="figure">5</ref>, <ref type="figure">A</ref> and <ref type="figure">B</ref>). We did observe slight differences in the growth rates in a color-changing unit assay, with the JCVI-syn1.0 transplants growing slightly faster than the MmcyYCp1.1 control strain (fig. <ref type="figure">S6</ref>).</p><p>Discussion. In 1995, the quality standard for sequencing was considered to be one error in 10,000 bp, and the sequencing of a microbial genome required months. Today, the accuracy is substantially higher. Genome coverage of 30 to 50× is not unusual, and sequencing only requires a few days. However, obtaining an error-free genome that could be transplanted into a recipient cell to create a new cell controlled only by the synthetic genome was complicated and required many quality-control steps. Our success was thwarted for many weeks by a single-base pair deletion in the essential gene dnaA. One wrong base out of more than 1 million in an essential gene rendered the genome inactive, whereas major genome insertions and deletions in nonessential parts of the genome had no observable effect on viability. The demonstration that our synthetic genome gives rise to transplants with the characteristics of M. mycoides cells implies that the DNA sequence on which it is based is accurate enough to specify a living cell with the appropriate properties.</p><p>Our synthetic genomic approach stands in sharp contrast to various other approaches to genome engineering that modify natural genomes by introducing multiple insertions, substitutions, or deletions <ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref><ref type="bibr" target="#b22">(22)</ref>. This work provides a proof of principle for producing cells based on computer-designed genome sequences. DNA sequencing of a cellular genome allows storage of the genetic instructions for life as a digital file. The synthetic genome described here has only limited modifications from the naturally occurring M. mycoides genome. However, the approach we have developed should be applicable to the synthesis and transplantation of more novel genomes as genome design progresses <ref type="bibr" target="#b23">(23)</ref>.</p><p>We refer to such a cell controlled by a genome assembled from chemically synthesized pieces of DNA as a "synthetic cell," even though the cytoplasm of the recipient cell is not synthetic. Phenotypic effects of the recipient cytoplasm are diluted with protein turnover and as cells carrying only the  L WT syn1.0 100 bp 300 bp 500 bp 700 bp WM1 WM2 WM3 WM4 B 340 kb 437 kb 534 kb 631 kb 728 kb BssHII AscI syn1.0 WT AscI BssHII 1 2 3 4 5 6 7 8-9 10 48.5 kb λ 146 kb 243 kb nonsynthetic genome (WT) transplanted out of yeast. The transplant containing the synthetic genome produced the four PCR products, whereas the WT genome did not produce any. PCR products were separated on a 2% E-gel (Invitrogen). (B) Natural (WT) and synthetic (syn1.0) M. mycoides genomes were isolated from M. mycoides transplants in agarose plugs. Agarose plugs were digested with Asc I or BssH II and fragments were separated by CHEF gel electrophoresis. Restriction fragments corresponding to the correct sizes are indicated by the fragment numbers shown in Fig. 3B.</p><p>transplanted genome replicate. Following transplantation and replication on a plate to form a colony (&gt;30 divisions or &gt;10 9 -fold dilution), progeny will not contain any protein molecules that were present in the original recipient cell <ref type="bibr" target="#b10">(10,</ref><ref type="bibr" target="#b24">24)</ref>. This was previously demonstrated when we first described genome transplantation <ref type="bibr" target="#b10">(10)</ref>. The properties of the cells controlled by the assembled genome are expected to be the same as if the whole cell had been produced synthetically (the DNA software builds its own hardware). The ability to produce synthetic cells renders it essential for researchers making synthetic DNA constructs and cells to clearly watermark their work to distinguish it from naturally occurring DNA and cells. We have watermarked the synthetic chromosome in this and our previous study <ref type="bibr" target="#b7">(7)</ref>.</p><p>If the methods described here can be generalized, design, synthesis, assembly, and transplantation of synthetic chromosomes will no longer be a barrier to the progress of synthetic biology. We expect that the cost of DNA synthesis will follow what has happened with DNA sequencing and continue to exponentially decrease. Lower synthesis costs combined with automation will enable broad applications for synthetic genomics.</p><p>We have been driving the ethical discussion concerning synthetic life from the earliest stages of this work (25, 26). As synthetic genomic applications expand, we anticipate that this work will continue to raise philosophical issues that have broad societal and ethical implications. We encourage the continued discourse.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Analysis of the assembly intermediates. (A) Not I and Sbf I double restriction digestion analysis of assembly 341-350 purified from E. coli. These restriction enzymes release the vector fragments (5.5 and 3.4 kb) from the 10-kb insert. Insert DNA was separated from the vector DNA on a 0.8% E-gel (Invitrogen). M indicates the 1-kb DNA ladder (New England Biolabs; NEB). (B) Analysis of assembly 501-600 purified from yeast. The 105-kb circles (100-kb insert plus 5-kb vector) were separated from the linear yeast chromosomal DNA on a 1% agarose gel by applying 4.5 V/cm for 3 hours. S indicates the BAC-Tracker supercoiled DNA ladder (Epicentre). (C) Not I restriction digestion analysis of the 11 ~100-kb assemblies purified from yeast. These DNA fragments were analyzed by FIGE on a 1% agarose gel. The expected insert size for each assembly is indicated. l indicates the lambda ladder (NEB). (D) Analysis of the 11 pooled assemblies shown in (C) following topological trapping of the circular DNA and Not I digestion. One-fortieth of the DNA used to transform yeast is represented.</figDesc><graphic coords="4,421.78,469.78,109.97,132.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Characterization of the synthetic genome isolated from yeast. (A) Yeast clones containing a completely assembled synthetic genome were screened by multiplex PCR with a primer set that produces 11 amplicons; one at each of the 11 assembly junctions. Yeast clone sMmYCp235 (235) produced the 11 PCR products expected for a complete genome assembly. For comparison, the natural genome extracted from yeast (WT, wild type) was also analyzed. PCR products were separated on a 2% E-gel (Invitrogen). L indicates the 100-bp ladder (NEB). (B) The sizes of the expected Asc I and BssH II restriction fragments for natural (WT) and synthetic (Syn235) M. mycoides genomes. (C) Natural (WT) and synthetic (235) M. mycoides genomes were isolated from yeast in agarose plugs. In addition, DNA was purified from the host strain alone (H). Agarose plugs were digested with Asc I or BssH II, and fragments were separated by clamped homogeneous electrical field (CHEF) gel electrophoresis. Restriction fragments corresponding to the correct sizes are indicated by the fragment numbers shown in (B).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Characterization of the transplants. (A) Transplants containing a synthetic genome were screened by multiplex PCR with a primer set that produces four amplicons, one internal to each of the four watermarks. One transplant (syn1.0) originating from yeast clone sMmYCp235 was analyzed alongside a natural,A</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,343.06,41.62,214.99,262.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Genomes that have been assembled from 11 pieces and successfully transplanted.</figDesc><table><row><cell cols="3">Assembly 2-100, 1; assembly 101-200, 2; assembly 201-300, 3; assembly 301-400, 4; assembly</cell></row><row><cell cols="3">401-500, 5; assembly 501-600, 6; assembly 601-700, 7; assembly 701-799, 8; assembly 811-900,</cell></row><row><cell cols="2">9; assembly 901-1000, 10; assembly 1001-1104, 11. WM, watermarked assembly.</cell><cell></cell></row><row><cell>Genome assembly</cell><cell>Synthetic fragments</cell><cell>Natural</cell></row><row><cell></cell><cell></cell><cell>fragments</cell></row><row><cell>Reconstituted natural genome</cell><cell>None</cell><cell>1-11</cell></row><row><cell>2/11 semisynthetic genome</cell><cell>5 WM, 10</cell><cell>1-4, 6-9, 11</cell></row><row><cell>with one watermark</cell><cell></cell><cell></cell></row><row><cell>8/11 semisynthetic genome</cell><cell>1-4, 6-8, 11</cell><cell>5, 9, 10</cell></row><row><cell>without watermarks</cell><cell></cell><cell></cell></row><row><cell>9/11 semisynthetic genome</cell><cell>1-4, 6-8, 10-11</cell><cell>5, 9</cell></row><row><cell>without watermarks</cell><cell></cell><cell></cell></row><row><cell>9/11 semisynthetic genome</cell><cell>1, 2 WM, 3 WM, 4, 6, 7 WM, 8, 10-11</cell><cell>5, 9</cell></row><row><cell>with three watermarks</cell><cell></cell><cell></cell></row><row><cell>10/11 semisynthetic genome</cell><cell>1, 2 WM, 3 WM, 4, 5 WM, 6, 7 WM, 8, 10-11</cell><cell>9</cell></row><row><cell>with three watermarks</cell><cell></cell><cell></cell></row><row><cell>11/11 synthetic genome,</cell><cell></cell><cell></cell></row><row><cell>811-820 correction of dnaA</cell><cell></cell><cell></cell></row></table><note><p>1, 2 WM, 3 WM, 4, 5 WM, 6, 7 WM, 8, 9-11 None 11/11 synthetic genome, 811-900 correction of dnaA 1, 2 WM, 3 WM, 4, 5 WM, 6, 7 WM, 8, 9-11 None</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>The J. Craig Venter Institute, 9704 Medical Center Drive, Rockville, MD</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>20850, USA.<ref type="bibr" target="#b2">2</ref> The J. Craig Venter Institute, 10355 Science Center Drive, San Diego, CA 92121, USA. *To whom correspondence should be addressed. E-mail: jcventer@jcvi.org 2 JULY 2010 VOL 329 SCIENCE www.sciencemag.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>on May 14, 2012 www.sciencemag.org Downloaded from</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_3"><p>JULY 2010 VOL</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="329" xml:id="foot_4"><p>SCIENCE www.sciencemag.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>120 = 1.7 × 10 -16 mol of peptide residues. This is equivalent to (1.7 × <rs type="grantNumber">10 -16 ) × (6 × 10 23</rs> ) = 1 × 10 8 residues per cell. If the average size of a protein is 300 residues, then a cell contains about 3 × 10 5 protein molecules.) After 20 cell divisions the number of progeny exceeds the total number of protein molecules in the recipient cell. So, following transplantation and replication to form a colony on a plate, most cells will contain no protein molecules that were present in the original recipient cell. 25. M. <rs type="person">K. Cho</rs>, <rs type="person">D. Magnus</rs>, <rs type="person">A. L. Caplan</rs>, <rs type="person">D. McGee</rs>, <rs type="grantNumber">Science 286</rs>, <rs type="grantNumber">2087</rs>, <rs type="grantNumber">2089</rs> (1999). 26. M. <rs type="person">S. Garfinkel</rs>, <rs type="person">D. Endy</rs>, <rs type="person">G. L. Epstein</rs>, <rs type="person">R. M. Friedman</rs>, <rs type="person">Biosecur. Bioterror</rs>. 5, 359 (2007). 27. <rs type="person">D. G. Gibson</rs> et al., Nat. Methods 6, 343 (2009). 28. We thank <rs type="funder">Synthetic Genomics, Inc.</rs> for generous funding of this work. We thank <rs type="person">J. B. Hostetler</rs>, <rs type="person">D. Radune</rs>, <rs type="person">N. B. Fedorova, M. D. Kim</rs>, <rs type="person">B. J. Szczypinski</rs>, <rs type="person">I. K. Singh</rs>, <rs type="person">J. R. Miller</rs>, <rs type="person">S. Kaushal</rs>, <rs type="person">R. M. Friedman</rs>, and <rs type="person">J. Mulligan</rs> for their contributions to this work. Electron micrographs were generously provided by <rs type="person">T. Deerinck</rs> and <rs type="person">M. Ellisman</rs> of the <rs type="institution">National Center for Microscopy and Imaging Research at the University of California at San Diego</rs>. J.C.V. is chief executive officer and co-chief scientific officer of SGI. H.O.S. is co-chief scientific officer and on the <rs type="institution">Board of Directors of SGI</rs>. C.A.H. is chairman of the <rs type="institution">SGI Scientific Advisory Board</rs>. All three of these authors and JCVI hold SGI stock. JCVI has filed patent applications on some of the techniques described in this paper.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bnpUrBD">
+					<idno type="grant-number">10 -16 ) × (6 × 10 23</idno>
+				</org>
+				<org type="funding" xml:id="_kTfxsfm">
+					<idno type="grant-number">Science 286</idno>
+				</org>
+				<org type="funding" xml:id="_HfrFwPN">
+					<idno type="grant-number">2087</idno>
+				</org>
+				<org type="funding" xml:id="_pRk4rGF">
+					<idno type="grant-number">2089</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">References and Notes</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">References and Notes</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sanger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page">687</biblScope>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Sanger et al., Nature 265, 687 (1977).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Fleischmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page">496</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. D. Fleischmann et al., Science 269, 496 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Venter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page">676</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. Venter, Nature 464, 676 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hutchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page">2165</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Hutchison III et al., Science 286, 2165 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Glass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">425</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. I. Glass et al., Proc. Natl. Acad. Sci. U.S.A. 103, 425 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">O</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hutchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Venter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Genomes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ed</forename><surname>Zengler</surname></persName>
+		</author>
+		<title level="m">Accessing Uncultivated Microorganisms: From the Environment to Organisms and</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Society for Microbiology</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page">320</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. O. Smith, J. I. Glass, C. A. Hutchison III, J. C. Venter, in Accessing Uncultivated Microorganisms: From the Environment to Organisms and Genomes and Back, K. Zengler, Ed. (American Society for Microbiology, Washington, DC, 2008), p. 320.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page">1215</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. G. Gibson et al., Science 319, 1215 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lartigue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page">1693</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Lartigue et al., Science 325, 1693 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Benders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">2558</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. Benders et al., Nucleic Acids Res. 38, 2558 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lartigue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="page">632</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Lartigue et al., Science 317, 632 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Supporting material is available on Science Online</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Supporting material is available on Science Online.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">6984</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. G. Gibson, Nucleic Acids Res. 37, 6984 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">20404</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. G. Gibson et al., Proc. Natl. Acad. Sci. U.S.A. 105, 20404 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Devenish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Newlon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">277</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. J. Devenish, C. S. Newlon, Gene 18, 277 (1982).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Dancis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Thomas</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">417</biblScope>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. W. Dean, B. M. Dancis, C. A. Thomas Jr., Anal. Biochem. 56, 417 (1973).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Leem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.-H. Leem et al., Nucleic Acids Res. 31, e29 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Noskov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Segall-Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Chuang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">2570</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. N. Noskov, T. H. Segall-Shapiro, R. Y. Chuang, Nucleic Acids Res. 38, 2570 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Itaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fujita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">15971</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Itaya, K. Tsuge, M. Koizumi, K. Fujita, Proc. Natl. Acad. Sci. U.S.A. 102, 15971 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Itaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Itaya, FEBS Lett. 362, 257 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mizoguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Appl. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">157</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Mizoguchi, H. Mori, T. Fujio, Biotechnol. Appl. Biochem. 46, 157 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Chun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Y. Chun et al., Nucleic Acids Res. 35, e40 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">460</biblScope>
+			<biblScope unit="page">894</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. H. Wang et al., Nature 460, 894 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Khalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">367</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. S. Khalil, J. J. Collins, Nat. Rev. Genet. 11, 367 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A mycoplasma cell, with a mass of about 10 -13 g, contains fewer than 10 6 molecules of protein. (If it contains 20% protein, this is equivalent to 2 × 10 -14 g of protein per cell. At a molecular mass of 120 daltons per amino acid residue</title>
+	</analytic>
+	<monogr>
+		<title level="j">each cell contains</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="10" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A mycoplasma cell, with a mass of about 10 -13 g, contains fewer than 10 6 molecules of protein. (If it contains 20% protein, this is equivalent to 2 × 10 -14 g of protein per cell. At a molecular mass of 120 daltons per amino acid residue, each cell contains (2 × 10 -14 )/</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

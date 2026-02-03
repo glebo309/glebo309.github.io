@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directed Evolution of an FeII-Dependent Halogenase for Asymmetric C(sp3)-H Chlorination</title>
+				<funder ref="#_UYCpdGK">
+					<orgName type="full">LOEWE Research Cluster SynChemBio and Philipps-Universität Marburg</orgName>
+				</funder>
+				<funder ref="#_PpksRzn">
+					<orgName type="full">AccuTOF GCv 4G (JEOL)</orgName>
+				</funder>
+				<funder ref="#_Xv52eCY">
+					<orgName type="full">European Synchrotron Radiation Facility</orgName>
+					<orgName type="abbreviated">ESRF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-12-20">December 20, 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sabine</forename><surname>Duewel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Schmermund</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tabea</forename><surname>Faber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Klaus</forename><surname>Harms</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vasundara</forename><surname>Srinivasan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">LOEWE Center for Synthetic Microbiology (SYNMIKRO)</orgName>
+								<orgName type="institution">Philipps-University Marburg</orgName>
+								<address>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Meggers</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sabrina</forename><surname>Hoebenreich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculté de Pharmacie</orgName>
+								<orgName type="department" key="dep2">Fachbereich Chemie</orgName>
+								<orgName type="institution" key="instit1">BIU Pharmacie</orgName>
+								<orgName type="institution" key="instit2">Université Paris V is</orgName>
+								<orgName type="institution" key="instit3">Philipps-Universität Marburg</orgName>
+								<address>
+									<addrLine>Hans-Meerwein-Straße 4</addrLine>
+									<postCode>35043</postCode>
+									<settlement>Marburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Meg- Gers</surname></persName>
+						</author>
+						<title level="a" type="main">Directed Evolution of an FeII-Dependent Halogenase for Asymmetric C(sp3)-H Chlorination</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-12-20">December 20, 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2DCA115978D3D321B7F8E79124F52702</idno>
+					<idno type="DOI">10.1021/acscatal.9b04691</idno>
+					<note type="submission">&quot;Just Accepted&quot; manuscripts have been peer-reviewed and accepted for publication. They are posted online prior to technical editing, formatting for publication and author proofing. The American Chemical Society provides &quot;Just Accepted&quot; as a service to the research community to expedite the dissemination of scientific material as soon as possible after acceptance. &quot;Just Accepted&quot; manuscripts appear in full in PDF format accompanied by an HTML abstract. &quot;Just Accepted&quot; manuscripts have been fully peer reviewed, but should not be considered the official version of record. They are citable by the Digital Object Identifier (DOI®). &quot;Just Accepted&quot; is an optional service offered to authors. Therefore, the &quot;Just Accepted&quot; Web site may not include all articles that will be published in the journal. After a manuscript is technically edited and formatted, it will be removed from the &quot;Just Accepted&quot; Web site and published as an ASAP article. Note that technical editing may introduce minor changes to the manuscript text and/or graphics which could affect content, and all legal disclaimers and ethical guidelines that apply to the journal pertain. ACS cannot be held responsible for errors or consequences arising from the use of information contained in these &quot;Just Accepted&quot; manuscripts.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>halogenation</term>
+					<term>biocatalysis</term>
+					<term>C-H functionalisation</term>
+					<term>enzyme engineering</term>
+					<term>dioxygenase</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>By using structure-guided directed evolution, the substrate scope of the Fe II and -ketoglutarate dependent halogenase Wi-WelO15 from Westiella intricata HT-29-1 was engineered to enable chemo-, regio-and diastereoselective chlorination of unactivated C(sp 3 )-H bonds using NaCl as chlorine source. While Fe II dependent enzymes are often oxygen sensitive, variants of this halogenase could be screened in lysates under aerobic conditions. The developed biocatalysts offer a route to mild, late-stage chlorination on mg-scale of non-natural hapalindoles containing a ketone instead of an isonitrile functionality, thereby unlocking them for preparative biocatalysis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Organochlorines play an important role in medicinal chemistry, agrochemicals, and as synthetic intermediates. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Selective C-H bond functionalization in the absence of directing groups greatly simplifies synthesis <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> and enables late-stage diversification of complex molecules. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> Chemo-, regio-and stereoselective C-Cl bond formation under mild and non-hazardous conditions is still a formidable challenge in chemical <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> and enzymatic <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> catalysis, especially direct functionalization of unactivated C(sp <ref type="bibr" target="#b2">3</ref> )-H bonds. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b7">8</ref> Nature has evolved highly selective aliphatic halogenases <ref type="bibr">12- 16</ref> for performing late-stage halogenations of unactivated C(sp <ref type="bibr" target="#b2">3</ref> )-H bonds via radical intermediates (Figure <ref type="figure" target="#fig_0">1a</ref>). <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> Remarkably, NaCl is the chlorine source and O2 and -ketoglutarate (KG) activate the catalytic Fe. Two challenges exist with this enzyme class, first, competing pathways of hydroxylation versus halogenation, and second, early characterized members act on substrates covalently bound to a carrier protein. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> Only recently, aliphatic halogenases acting on free-standing molecules were discovered in the biosynthesis of hapalindoles, <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref> a natural product class with a broad range of biological properties from antibacterial, antimycotic to anticancer. <ref type="bibr" target="#b23">24</ref> Although their molecular mode of action and the exact role of the chloride is unknown, it is truly the late stage chlorination performed by Fe II and KG dependent halogenases that drew our interest from a biocatalytic point-of-view. This reaction was shown for three enzymes from different biosynthetic hapalindole gene clusters, i.e. WelO5, AmbO5, and Hw-WelO15 (Figure <ref type="figure" target="#fig_0">1b</ref>). <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> Due to the novelty of the sequence, homology modeling to predict the active site residues failed until a crystal structures of WelO5 was released. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> By creating chimeras, the natural substrate scope of WelO5 was expanded to that of AmbO5 albeit with reduced activity. <ref type="bibr" target="#b25">26</ref> However, all natural sub-strates contain an isonitrile functionality, which is a major limitation considering that they are sensitive and rarely to never occur as synthetic intermediates or functional groups in drugs.</p><p>Herein, we report the directed evolution of an Fe II and KG dependent halogenase Wi-WelO15 from Westiella intricata HT-29-1 for the mild chemo-, regio-and diastereoselective chlorination of unactivated C(sp <ref type="bibr" target="#b2">3</ref> )-H bonds of non-natural substrates devoid of any isonitrile functionality and we demonstrate that this enzymatic late-stage C(sp 3 )-H chlorination can be performed on preparative mg-scale (Figure <ref type="figure" target="#fig_0">1c</ref>). We initiated our study by synthesizing a simplified derivative of 12-epi-hapalindole C, which is a natural substrate of Fe II /KG dependent halogenases. The vinyl group was replaced by a methyl (1) and, more importantly, the isonitrile group was replaced with a keto moiety (2). These changes simplified the synthesis of screening compound 2 by several steps, while additionally the ketone functionality opens new routes to novel chemical diversification of this alkaloid class.</p><p>Initially, we cloned Hw-WelO15 from Hapalosiphon welwitschii IC-52-3 and a new fourth homolog, Wi-WelO15 from Westiella intricata HT-29-1. The two chlorinases have 94 and 99% sequence identity to the characterized WelO5, respectively. Transformation of compound 1 yielded 91-93% chlorinated R-1a with both recombinantly expressed enzymes, Hw-WelO15 and Wi-WelO15, revealing that the vinyl to methyl exchange appears to have little effect on substrate recognition. The isonitrile group was suggested to play a major role in native substrate recognition <ref type="bibr" target="#b27">28</ref> which we replaced with a carbonyl group in 2, keeping the H-bond acceptor feature. This functional group change abolished the activity of Hw-WelO15 and Wi-WelO15, under our initial reaction conditions, confirming the importance of the isonitrile for substrate binding in the wild type enzymes. By mass spectrometry, we could exclude enzyme inactivation by self-oxidation, a common problem for many related Fe II /KG dependent dioxygenases. <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> With the goal to create a collection of engineered enzymes for mild and asymmetric chlorination in organic synthesis, compound 2 was selected as our lead structure. Residues selected for mutagenesis are shown in green (1 st sphere, generation 1-3) and cyan (2 nd sphere, 4 th generation). Grey residues did not yield active variants in the 1 st generation.</p><p>To gain structural insight, a wild-type like variant of Wi-WelO15 (Wi-0) was crystallized. <ref type="bibr" target="#b31">32</ref> Wi-0 differs by two surface mutations from Wi-Wel015, one at each terminus which originate from primer design. This has no effect on activity and expression (Figure <ref type="figure" target="#fig_2">S3</ref> and <ref type="figure">S8</ref>). It has to be noted that while our work was in progress, a crystal structure of WeIO5 in complex with 12-epi-fischerindole U was reported. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> The structure of Wi-0 was solved by molecular replacement using WelO5. In comparison to the structure by Liu, Boal and coworkers, the enzymatical lid of Wi-0 is shifted downwards, underlining the flexibility of these enzymes. Using YASARA, <ref type="bibr" target="#b32">33</ref> compound 2 was docked into the active site of Wi-0 (Figure <ref type="figure" target="#fig_1">2</ref>) as well as in the open and closed forms of WelO5. The information obtained by the docking studies was used as starting point for structure guided enzyme evolution. <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref> Next, we implemented an aerobic and lysate-based screening protocol, using 2 as screening substrate, for HPLC screening (see Supporting Information for details), and started a structureguided directed evolution campaign of Wi-0 using strategies reported by Reetz and Bäckvall. <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref> Based on their vicinity to the docked compound 2, seven active site residues were initially selected for single-site saturation mutagenesis (1 st generation, Figure <ref type="figure" target="#fig_2">3</ref>). As a result, obtained hits from the HPLC assay showed primarily hydrophobic or small amino acids as new residues. In the 2 nd generation, the active site was reshaped by multi-residue libraries, allowing for cooperative effects. <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b41">42</ref> Small, targeted, libraries were designed by using reduced amino acid alphabets compiled from the single-site saturation results of generation 1. We used the DC analyzer <ref type="bibr" target="#b42">43</ref> to reduce codon redundancy. The library sizes (screening effort) <ref type="bibr" target="#b43">44</ref> were designed using statistical guidance allowing for a 95% chance to find 1 out of the top 3 variants. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> Wi-5 (A82L/V90P) and Wi-7 (V81T/A82M/A88V/ V90P) were identified as the best variants in the 2 nd generation. Meanwhile, we found N74R at the end of the active site tunnel having subtle positive effects on production of 2a. Hence, 1 st and 2 nd generation hits were rationally fine-tuned by adding the mutation N74R, creating the 3 rd generation. Variants showed a broad spectrum of positive and negative effects on the production of 2a, with Wi-8 (N74R/V81T/A82M/A88V/V90P) being the best hit.  <ref type="table">S5</ref> and <ref type="table">S6</ref>.</p><p>After screening generation 1-3, 12 hits were characterized with optimized reaction conditions as lysates obtained from OD600 normalized cell suspensions (Table <ref type="table">S5</ref>). Reaction optimization included the substitution of dithiothreitol (DTT) with ascorbic acid for Fe II recycling <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> and using higher sodium chloride (100 mM) concentration. We tested screening compound 2 and derivatives 3-5 with substituents introduced into the indole part of the substrate. Under these controlled conditions, Wi-5 and Wi-8 were identified as the most promising variants producing up to 60% of the chlorination products 2a-5a with &gt;99.9% regio-and stereoselectivity.</p><p>To further increase activity, Wi-5 and Wi-8 were selected as templates for another round of evolution (4 th generation). Learning from the effect of N74, we selected 2 nd sphere residues N74, S93, S103 and A175 (Figure <ref type="figure" target="#fig_1">2</ref>) for a multi-site library and again used tailored reduced alphabets. Screening yielded variant Wi-11 (N74R/V81T/A82M/A88V/ V90P/S93L/S103A) and Wi-12 (N74R/A82L/V90P/S93D) as top variants producing chlorinated 2a.</p><p>Next, we verified the catalytic activities of the obtained hits with isolated and purified variants. Selected chlorinases were tested with compounds 1-8. First, we decided to probe the impact of the isonitrile/ketone substitution. As a result, the engineered Wi-WelO15 variants still chlorinate the isonitrile 1 with an expected reduced efficiency (Table <ref type="table">S6</ref>). Under optimized reaction conditions, Wi-0 hardly transformed the ketones 2-5 (&lt;1% yields), whereas Hw-WelO15 produced moderate amounts of chlorinated ketones 2a-5a, with 3 being the best substrate obtaining 3a in 33% yield. All natural hapalindoles contain either isonitriles or isothiocyanates, but our work demonstrates that some of the wild types, i.e. Hw-WelO15, might be more versatile than anticipated.</p><p>Using 2 mol% purified Wi-11 or Wi-12, 91% of 2a was obtained (Figure <ref type="figure" target="#fig_3">4</ref>). When exploring the tolerance of indole ring substitutions, we found that the simple methylation at C5 or C6 reduced chlorination to 14% or 26% production at the best for 3a or 5a with purified variants Wi-5 and Wi-11, respectively. It is often recognized that certain enzymes/processes work better in lysate than as purified enzymes, benefiting from the presence of various cell components. Using lysates instead, containing a comparable amount of catalyst, production improved to 34% (3a) and 50% (5a) Wi-4 and Wi-8. Highest product formation from either purified enzyme or cell lysate reactions is given in Figure <ref type="figure" target="#fig_3">4</ref>.</p><p>Introducing the H-bond acceptor OMe at C5 recovered activity giving 42% 4a with purified Wi-5 and 54% with lysate of Wi-8. Products were found to be chlorinated on C13 with Rconfiguration, showing identical absolute stereochemistry as related 12-epi-hapalindole E. In summary, our chlorinase panel allows late-stage chlorination and access to 1a-5a with regioand diastereoselectivities &gt;99.9%.</p><p>Small structural changes in the terpene ring of 6-8 proved to be more challenging. Elimination of a methyl group at C12 (6) or sp 2 hybridization (8) abolished detectable chlorination, deducing that C12 position requires a quaternary carbon center for corrected substrate positioning prior to chlorination. Nevertheless, substrates 6-8 are transformed with moderate activity into several new products. LC-MS analysis assigned most of them to be hydroxylated compounds. Hydroxylation was not observed during screening, but the higher activities under optimized reaction conditions revealed minor hydroxylation of 2-5, too. Yet, our panel allows chlorination of 2-5 with excellent chemoselectivities of 96-99% (Tables <ref type="table">S5</ref> and <ref type="table">S6</ref>). Achieving such a high selectivity is exceptional because non-natural substrates for Fe II /KG dependent halogenases are predominantly reported to be hydroxylated. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> Interestingly, despite their low activity, Hw-WelO15 wild type and Wi-WelO15 variants carrying I84H start shifting chemoselectivity towards 30% hydroxylation of 2 (Figure <ref type="figure" target="#fig_0">S16</ref>), an indication that chemoselectivity can also be controlled solely by substrate binding site mutations.  <ref type="table">S5</ref> and <ref type="table">S6</ref>) for 8 h and 30 °C in 200 µL with 0.5 mM 1-8 with either [a] 2 mol% (10 µM) purified enzyme or [b] cell lysate (prior to lysis normalized to OD600 = 5.0). Absolute stereoconformation was assigned by NOESY and crystal structures of 1-3 (CCDC 1839575-1839577). A detailed overview is provided in Tables <ref type="table">S5</ref> and <ref type="table">S6</ref>. [c] Yield after HPLC purification. [d] Total conversion, &lt;1% chlorination. Chemical synthesis of chlorinated hapalindoles and their ketone precursors involve early-stage chlorination. <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> In sharp contrast, using lysates of our Wi-5 variant, we here demonstrated late-stage chlorination of 2-5 on mg-scale in a single step, producing 4.5 to 8.5 mg (7-48% yield) after HPLC purification of the new hapalindole derivatives. This late-stage chlorination opens new synthetic routes to structurally diverse chlorinated hapalindoles and will accelerate their exploration in pharmacology.</p><p>Finally, kinetics for the chlorination of 2 were performed (Table <ref type="table">1</ref>). The 4 th generation variants Wi-11 and Wi-12 show the best vmax, with a 131 to 276-fold improvement compared to Wi-1. The mutations affect turnover and binding differently. Despite having a similar catalytic efficiency, Wi-11 is the fastest, but Wi-12 binds compound 2 more strongly. Variant Wi-5, which proved to be a valuable variant for scale up (Table <ref type="table">S7</ref>), was found to show highest catalytic efficiency with 2. The kinetic data reveals that our evolved chlorinases are as efficient biocatalysts for preparative synthesis as the engineered and mechanistically related oxygenase TauD <ref type="bibr" target="#b53">54</ref> and the engineered flavin dependent halogenases PrnA <ref type="bibr" target="#b54">55</ref> and RebH 56 with non-natural substrates.</p><p>Table <ref type="table">1</ref>. Selected kinetics for the chlorination of 2 with Wi-WelO15 variants.</p><p>Enzyme <ref type="bibr">[a]</ref> vmax /µM min -1 Km /µM</p><formula xml:id="formula_0">kcat /min -1 kcat/Km /min -1 mM -1 Wi-0 --[b] --[b] --[b] -- Wi-</formula><p>1 0.10 95.24 2.40 25.15 Wi-5 7.16 26.44 2.86 108.34 Wi-11 27.62 137.10 11.05 80.57 Wi-12 13.11 70.46 5.24 74.43 [a] Wi-1: A82L, Wi-5: A82L/V90P, Wi-11: N74R/V81T/A82M/A88V/V90P/ S93L/S103A, Wi-12: N74R/A82L/V90P/S93D. All enzymes contain V6I/D284N. [b] no detectable chlorination.</p><p>In conclusion, the power of structure-guided directed evolution was demonstrated by evolving a member of the challenging class of Fe II /KG dependent chlorinases. It was possible to exchange the isonitrile, present in natural substrates, by a common carbonyl group. This mild, late-stage chlorination using NaCl as halogen source provides the unique possibility to functionalize unactivated, aliphatic C(sp <ref type="bibr" target="#b2">3</ref> )-H bonds in the presence of more electron-rich functional groups, which is a remaining challenge in today's synthesis toolbox. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b7">8</ref> We also demonstrated that our WelO15 variant panel can be used for late-stage chlorination on mg-scale with perfect regio-and stereoselectivity (&gt;99.9%) and excellent chemoselectivity (96-99%) under mild reaction conditions. With our findings, further engineering projects can be pursued towards substrates that have broader purposes. While this manuscript was under review, Hayashi et al. <ref type="bibr" target="#b56">57</ref> demonstrated comparable evolutionary success with a martinelline-derived fragment, and Neugebauer et al. <ref type="bibr" target="#b57">58</ref> identified a new family member acting on amino acids. Hayashi et al. <ref type="bibr" target="#b56">57</ref> confirmed the importance of V81, A82 and A88 for the adaptation of this enzyme class towards non-natural substrates. Their and our residues might be considered as an important starting point for future engineering studies to improve the turnover number and binding constant of new non-natural substrates. We expect that structural investigations with our variants will reveal the ketone binding mode and ultimately lead to a deeper insight into the structure-function relationship for this enzyme class.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ASSOCIATED CONTENT</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) Asymmetric chlorination of unactivated C-(sp 3 )-H bonds by Fe II /KG dependent halogenases. (b) Natural substrates studied by Liu and coworkers, which all contain isonitrile functionalities. (c) Non-natural substrates derived from the structure of 12epi-hapalindole C. Positions of chlorination are highlighted.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Lead structure 2 (yellow) docked in the open conformation of Wi-0. Residues selected for mutagenesis are shown in green (1 st sphere, generation 1-3) and cyan (2 nd sphere, 4 th generation). Grey residues did not yield active variants in the 1 st generation.</figDesc><graphic coords="3,87.60,329.58,182.22,148.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Engineering workflow of the halogenase Wi-WelO15. Screening effort given in brackets. Activity and selectivity information is provided in TablesS5 and S6.</figDesc><graphic coords="3,317.52,367.68,241.14,164.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Substrate scope of Wi-WelO15 variants. Highest product formation (% HPLC) is given, comparing purified enzyme and cell lysate (TableS5 and S6) for 8 h and 30 °C in 200 µL with 0.5 mM 1-8 with either [a] 2 mol% (10 µM) purified enzyme or [b] cell lysate (prior to lysis normalized to OD600 = 5.0). Absolute stereoconformation was assigned by NOESY and crystal structures of 1-3 (CCDC 1839575-1839577). A detailed overview is provided in TablesS5 and S6. [c] Yield after HPLC purification. [d] Total conversion, &lt;1% chlorination.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENT</head><p>We thank the <rs type="funder">LOEWE Research Cluster SynChemBio and Philipps-Universität Marburg</rs> for funding, <rs type="person">M. Moffit</rs> for genomic DNA, <rs type="person">R. Viswanathan</rs> for fruitful discussions and compounds, <rs type="person">M. T. Reetz</rs> for access to instruments, and the mass/NMR dep./E. Winterling for excellent technical assistance. We also thank the <rs type="institution">DFG</rs> for co-financing <rs type="projectName">SynaptG2Si</rs> (<rs type="grantNumber">INST 160/621-1 FUGG</rs> to <rs type="person">U. Linne/ G. Bange</rs>) and <rs type="funder">AccuTOF GCv 4G (JEOL)</rs> (<rs type="grantNumber">INST 160/622-1 FUGG</rs> to <rs type="person">U. Linne</rs>), beamline staff at <rs type="grantNumber">ID23-2</rs>, <rs type="funder">European Synchrotron Radiation Facility (ESRF)</rs>, Grenoble, France for support during data collection.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_UYCpdGK">
+					<idno type="grant-number">INST 160/621-1 FUGG</idno>
+					<orgName type="project" subtype="full">SynaptG2Si</orgName>
+				</org>
+				<org type="funding" xml:id="_PpksRzn">
+					<idno type="grant-number">INST 160/622-1 FUGG</idno>
+				</org>
+				<org type="funding" xml:id="_Xv52eCY">
+					<idno type="grant-number">ID23-2</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR INFORMATION</head><p>Corresponding Author *duewels@chemie.uni-marburg.de, sabrina.hoebenreich@chemie. uni-marburg.de</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Present Addresses</head><p>‡ Department of Chemistry, Organic and Bioorganic Chemistry, University of Graz, Heinrichstrasse 28, 8010 Graz, Austria</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>The Supporting Information is available free of charge on the ACS Publications website at DOI:  Experimental details and analytical data (PDF)  X-ray data for compound 1-3 (CCDC 1839575-1839577) and Wi-0 (PDB 6GEM).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Its Role Beyond Drug-Target Binding Affinity for Drug Discovery and Development</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Halogen</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Model</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, Z.; Yang, Z.; Liu, Y.; Lu, Y.; Chen, K.; Zhu, W. Halogen Bond: Its Role Be- yond Drug-Target Binding Affinity for Drug Discovery and Development. J. Chem. Inf. Model. 2014, 54, 69-78.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Herrera-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-P</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Biotechnological Halogenation: Part I: Halogenated Products and Enzymatic Halogenation. Chim. Oggi</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="31" to="33" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herrera-Rodriguez, L. N.; Khan, F.; Robins, K. T.; Meyer, H.-P. Perspectives on Biotechnological Halogenation: Part I: Halogenated Products and Enzymatic Halogenation. Chim. Oggi 2011, 29, 31-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Unique Role of Halogen Substituents in the Design of Modern Agrochemi-Cals</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jeschke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pest Manage. Sci</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="10" to="27" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeschke, P. The Unique Role of Halogen Substituents in the Design of Modern Agrochemi-Cals. Pest Manage. Sci. 2010, 66, 10-27.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hartwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Undirected</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-H</forename><surname>Homogeneous</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bond</surname></persName>
+		</author>
+		<title level="m">Functionalization: Challenges and Opportunities. ACS Cent. Sci</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="281" to="292" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hartwig, J. F.; Larsen, M. A. Undirected, Homogeneous C-H Bond Functionaliza- tion: Challenges and Opportunities. ACS Cent. Sci. 2016, 2, 281-292.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Guiding Principles for Site Selective and Stereoselective Intermolecular C-H Functionalization by Donor/Acceptor Rhodium Carbenes</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M L</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1857" to="1869" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davies, H. M. L.; Morton, D. Guiding Principles for Site Selective and Stereose- lective Intermolecular C-H Functionalization by Donor/Acceptor Rhodium Carbenes. Chem. Soc. Rev. 2011, 40, 1857-1869.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">C-H activation: A Complementary Tool in the Total Synthesis of Complex Natural Products</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>.-K.; Youn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="9452" to="9474" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, D. Y.-K.; Youn, S. W. C-H activation: A Complementary Tool in the Total Synthesis of Complex Natural Products. Chem. Eur. J. 2012, 18, 9452-9474.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Medicinal Chemist&apos;s Toolbox for Late Stage Functionalization of Drug-Like Molecules</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cernak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Dykstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tyagarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vachal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Krska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="546" to="576" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cernak, T.; Dykstra, K. D.; Tyagarajan, S.; Vachal, P.; Krska, S. W. The Medicinal Chemist&apos;s Toolbox for Late Stage Functionalization of Drug-Like Molecules. Chem. Soc. Rev. 2016, 45, 546-576.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Adding Aliphatic C-H Bond Oxidations to Synthesis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chemistry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="page" from="807" to="809" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">White, M. C. Chemistry. Adding Aliphatic C-H Bond Oxidations to Synthesis. Science 2012, 335, 807-809.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Manganese Catalyzed C-H Halogenation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Groves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1727" to="1735" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, W.; Groves, J. T. Manganese Catalyzed C-H Halogenation. Acc. Chem. Res. 2015, 48, 1727-1735.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Modern Transition-Metal-Catalyzed Carbon-Halogen Bond Formation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Petrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lautens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="8003" to="8104" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrone, D. A.; Ye, J.; Lautens, M. Modern Transition-Metal-Catalyzed Carbon- Halogen Bond Formation. Chem. Rev. 2016, 116, 8003-8104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Hydroxylation versus Halogenation of Aliphatic C-H Bonds by a Dioxygen-Derived Iron-Oxygen Oxidant: Functional Mimicking of Iron Halogenases</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Paine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="7717" to="7722" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chatterjee, S.; Paine, T. K. Hydroxylation versus Halogenation of Aliphatic C-H Bonds by a Dioxygen-Derived Iron-Oxygen Oxidant: Functional Mimicking of Iron Halogenases. Angew. Chem. Int. Ed. 2016, 55, 7717-7722.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enzymatic Halogenation and Dehalogenation Reactions: Pervasive and Mechanistically Diverse</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Eustaquio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>El Gamal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="5619" to="5674" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agarwal, V.; Miles, Z. D.; Winter, J. M.; Eustaquio, A. S.; El Gamal, A. A.; Moore, B. S. Enzymatic Halogenation and Dehalogenation Reactions: Perva- sive and Mechanistically Diverse. Chem. Rev. 2017, 117, 5619-5674.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Development of Halogenase Enzymes for Use in Synthesis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brandenburger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Binuraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Micklefield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="232" to="269" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Latham, J.; Brandenburger, E.; Shepherd, S. A.; Menon, Binuraj R. K.; Mick- lefield, J. Development of Halogenase Enzymes for Use in Synthesis. Chem. Rev. 2018, 118, 232-269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gkotsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dhaliwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mclachlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mulholand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J M</forename><surname>Goss</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Halogenases</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Powerful Tools for Biocatalysis (Mechanisms Applications and Scope)</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="119" to="126" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gkotsi, D. S.; Dhaliwal, J.; McLachlan, M. M.; Mulholand, K. R.; Goss, R. J. M. Halogenases: Powerful Tools for Biocatalysis (Mechanisms Applications and Scope). Curr. Opin. Chem. Biol. 2018, 43, 119-126.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Specific Enzymatic Halogenation-From the Discovery of Halogenated Enzymes to Their Applications In Vitro and In Vivo</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Weichold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Milbredt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Van Pee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="6374" to="6389" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weichold, V.; Milbredt, D.; van Pee, K.-H. Specific Enzymatic Halogenation- From the Discovery of Halogenated Enzymes to Their Applications In Vitro and In Vivo. Angew. Chem. Int. Ed. 2016, 55, 6374-6389.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Enzymatic Halogenation: A Timely Strategy for Regioselective C-H Activation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schnepel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sewald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="12064" to="12086" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schnepel, C.; Sewald, N. Enzymatic Halogenation: A Timely Strategy for Regi- oselective C-H Activation. Chem. Eur. J. 2017, 23, 12064-12086.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Beyond Ferryl-Mediated Hydroxylation: 40 Years of the Rebound Mechanism and C-H Activation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Groves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="185" to="207" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, X.; Groves, J. T. Beyond Ferryl-Mediated Hydroxylation: 40 Years of the Rebound Mechanism and C-H Activation. J. Biol. Inorg. Chem. 2017, 22, 185- 207.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Activation by Non-Heme Fe Enzymes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goudarzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Sutherlin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>O2</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="6363" to="6374" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Solomon, E. I.; Goudarzi, S.; Sutherlin, K. D. O2 Activation by Non-Heme Fe Enzymes. Biochemistry 2016, 55, 6363-6374.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">SyrB2 in Syringomycin E Biosynthesis is a Nonheme FeII alpha-ketoglutarate-and O2-dependent Halogenase</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Vaillancourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="10111" to="10116" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vaillancourt, F. H.; Yin, J.; Walsh, C. T. SyrB2 in Syringomycin E Biosynthesis is a Nonheme FeII alpha-ketoglutarate-and O2-dependent Halogenase. Proc. Natl. Acad. Sci. U.S.A. 2005, 102, 10111-10116.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characterization of Molecular Interactions Between ACP and Halogenase Domains in the Curacin A Polyketide Synthase</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Busche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gottstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ripin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tufar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Eisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Löhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Güntert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dötsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="378" to="386" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Busche, A.; Gottstein, D.; Hein, C.; Ripin, N.; Pader, I.; Tufar, P.; Eisman, E. B.; Gu, L.; Walsh, C. T.; Sherman, D. H.; Löhr, F.; Güntert, P.; Dötsch, V. Char- acterization of Molecular Interactions Between ACP and Halogenase Domains in the Curacin A Polyketide Synthase. ACS Chem. Biol. 2012, 7, 378-386.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparative Analysis of Hapalindole, Ambiguine and Welwitindolinone Gene Clusters and Reconstitution of Indole-Isonitrile Biosynthesis from Cyanobacteria</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Micallef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gerwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Moffitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Micallef, M. L.; Sharma, D.; Bunn, B. M.; Gerwick, L.; Viswanathan, R.; Moffitt, M. C. Comparative Analysis of Hapalindole, Ambiguine and Welwitindo- linone Gene Clusters and Reconstitution of Indole-Isonitrile Biosynthesis from Cyanobacteria. BMC Microbiology 2014, 14:213.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Identification and Characterization of a Welwitindolinone Alkaloid Biosynthetic Gene Cluster in the Stigonematalean Cyanobacterium Hapalosiphon welwitschii</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hillwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Fuhrman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ittiamornkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sevco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="665" to="669" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillwig, M. L.; Fuhrman, H. A.; Ittiamornkul, K.; Sevco, T. J.; Kwak, D. H.; Liu, X. Identification and Characterization of a Welwitindolinone Alkaloid Biosyn- thetic Gene Cluster in the Stigonematalean Cyanobacterium Hapalosiphon welwitschii. ChemBioChem 2014, 15, 665-669.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of Ambiguine Indole Alkaloids in Cyanobacterium Fischerella ambigua</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hillwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="372" to="377" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillwig, M. L.; Zhu, Q.; Liu, X. Biosynthesis of Ambiguine Indole Alkaloids in Cyanobacterium Fischerella ambigua. ACS Chem. Biol. 2014, 9, 372-377.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Rawal</surname></persName>
+		</author>
+		<title level="m">The Chemistry of Hapalindoles, Fischerindoles, Ambiguines, and Welwitindolinones. The Alkaloids: Chemistry and Biology</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="65" to="160" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bhat, V.; Dave, A.; MacKay, J. A.; Rawal, V. H. The Chemistry of Hapalindoles, Fischerindoles, Ambiguines, and Welwitindolinones. The Alkaloids: Chemis- try and Biology, Elsevier, 2014, 73, 65-160.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A New Family of Iron-Dependent Halogenases Acts on Freestanding Substrates</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hillwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="921" to="923" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillwig, M. L.; Liu, X. A New Family of Iron-Dependent Halogenases Acts on Freestanding Substrates. Nat. Chem. Biol. 2014, 10, 921-923.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Discovery of a Promiscuous Non-Heme Iron Halogenase in Ambiguine Alkaloid Biogenesis: Implication for an Evolvable Enzyme Family for Late-Stage Halogenation of Aliphatic Carbons in Small Molecules</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hillwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ittiamornkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="5780" to="5784" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillwig, M. L.; Zhu, Q.; Ittiamornkul, K.; Liu, X. Discovery of a Promiscuous Non-Heme Iron Halogenase in Ambiguine Alkaloid Biogenesis: Implication for an Evolvable Enzyme Family for Late-Stage Halogenation of Aliphatic Carbons in Small Molecules. Angew. Chem. Int. Ed. 2016, 55, 5780-5784.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Characterization of Non-Heme Iron Aliphatic Halogenase Welo5* from Hapalosiphon welwitschii IC-52-3: Identification of a Minimal Protein Sequence Motif That Confers Enzymatic Chlorination Specificity in the Biosynthesis of Welwitindolelinones</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Beilstein J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1168" to="1173" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, Q.; Liu, X. Characterization of Non-Heme Iron Aliphatic Halogenase Welo5* from Hapalosiphon welwitschii IC-52-3: Identification of a Minimal Protein Sequence Motif That Confers Enzymatic Chlorination Specificity in the Biosynthesis of Welwitindolelinones. Beilstein J. Org. Chem. 2017, 13, 1168-1173.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Structural Basis for Halogenation by Iron-and 2-Oxo-Glutarate-Dependent Enzyme WelO5</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Maggiolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Ananth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hillwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Boal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="636" to="640" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mitchell, A. J.; Zhu, Q.; Maggiolo, A. O.; Ananth, N. R.; Hillwig, M. L.; Liu, X.; Boal, A. K. Structural Basis for Halogenation by Iron-and 2-Oxo-Glutarate- Dependent Enzyme WelO5. Nat. Chem. Biol. 2016, 12, 636-640.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">WelO5 Small Molecule Halogenase with Ni(II) and 2-Oxoglutarate</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcdonough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gallimore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schofield</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb5J4R/pdb</idno>
+		<ptr target="10.2210/pdb5J4R/pdb" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonough, M. A.; Gallimore, E.; Clifton, I. J.; Schofield, C. J. WelO5 Small Molecule Halogenase with Ni(II) and 2-Oxoglutarate 2017, DOI: 10.2210/pdb5J4R/pdb.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">O2 -and α-Ketoglutarate-Dependent Tyrosyl Radical Formation in TauD, an α-Keto Acid-Dependent Non-Heme Iron Dioxygenase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ryle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Muthukumaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y N</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Koehntop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Que</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Hausinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1854" to="1862" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryle, M. J.; Liu, A.; Muthukumaran, R. B.; Ho, R. Y. N.; Koehntop, K. D.; McCracken, J.; Que, L., Jr.; Hausinger, R. P. O2 -and α-Ketoglutarate-De- pendent Tyrosyl Radical Formation in TauD, an α-Keto Acid-Dependent Non- Heme Iron Dioxygenase. Biochemistry 2003, 42, 1854-1862.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Autocatalysed Oxidative Modifications to 2-Oxoglutarate Dependent Oxygenases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mantri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcdonough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schofield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="1563" to="1575" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mantri, M.; Zhang, Z.; McDonough, M. A.; Schofield, C. J. Autocatalysed Oxi- dative Modifications to 2-Oxoglutarate Dependent Oxygenases. FEBS J. 2012, 279, 1563-1575.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m">Wi-0 nor Hw-WelO15 showed activity with compound 2 and only Wi-0 crystallized. kcat and Km</title>
+		<imprint>
+			<date>Wi-0, 1, 1.44 min -1 , 17.2 µM</date>
+		</imprint>
+	</monogr>
+	<note>In initial tests Wi-0 with 1 are in the same range as reported values of WelO5. (details see SI</note>
+	<note type="raw_reference">In initial tests, neither Wi-0 nor Hw-WelO15 showed activity with compound 2 and only Wi-0 crystallized. kcat and Km (Wi-0, 1, 1.44 min -1 , 17.2 µM) of Wi- 0 with 1 are in the same range as reported values of WelO5. (details see SI).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Models@Home: Distributed Computing in Bioinformatics Using a Screensaver Based Approach</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Krieger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="315" to="318" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krieger, E.; Vriend, G. Models@Home: Distributed Computing in Bioinformatics Using a Screensaver Based Approach. Bioinformatics 2002, 18, 315-318.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Biocatalysts for the Pharmaceutical Industry Created by Structure-Guided Directed Evolution of Stereoselective Enzymes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1241" to="1251" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, G.; Wang, J.-B.; Reetz, M. T. Biocatalysts for the Pharmaceutical Industry Created by Structure-Guided Directed Evolution of Stereoselective Enzymes. Bioorg. Med. Chem. 2018, 26, 1241-1251.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Computational Tools for Enzyme Improvement: Why Everyone Can -and Should -Use Them</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="89" to="96" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebert, M. C.; Pelletier, J. N. Computational Tools for Enzyme Improvement: Why Everyone Can -and Should -Use Them. Curr. Opin. Chem. Biol. 2017, 37, 89-96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Computational Tools for Designing and Engineering Enzymes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brezovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="8" to="16" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Damborsky, J.; Brezovsky, J. Computational Tools for Designing and Engineer- ing Enzymes. Curr. Opin. Chem. Biol. 2014, 19, 8-16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Engineering the Third Wave of Biocatalysis</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer, U. T.; Huisman, G. W.; Kazlauskas, R. J.; Lutz, S.; Moore, J. C.; Robins, K. Engineering the Third Wave of Biocatalysis. Nature 2012, 485, 185-194.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Beyond Directed Evolution -Semi-Rational Protein Engineering and Design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="734" to="743" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S. Beyond Directed Evolution -Semi-Rational Protein Engineering and De- sign. Curr. Opin. Biotechnol. 2010, 21, 734-743.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Expanding the Enzyme Universe: Accessing Non-Natural Reactions by Mechanism-Guided Directed Evolution</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="3351" to="3367" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renata, H.; Wang, Z. J.; Arnold, F. H. Expanding the Enzyme Universe: Access- ing Non-Natural Reactions by Mechanism-Guided Directed Evolution. Angew. Chem. Int. Ed. 2015, 54, 3351-3367.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">New Concepts for Increasing the Efficiency in Directed Evolution of Stereoselective Enzymes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wikmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Bäckvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="5046" to="5054" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, Z.; Wikmark, Y.; Bäckvall, J.-E.; Reetz, M. T. New Concepts for Increasing the Efficiency in Directed Evolution of Stereoselective Enzymes. Chem. Eur. J. 2016, 22, 5046-5054.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Iterative Saturation Mutagenesis: A Powerful Approach to Engineer Proteins by Systematically Simulating Darwinian Evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Acevedo-Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoebenreich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1179</biblScope>
+			<biblScope unit="page" from="103" to="128" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Acevedo-Rocha, C. G.; Hoebenreich, S.; Reetz, M. T. Iterative Saturation Muta- genesis: A Powerful Approach to Engineer Proteins by Systematically Simu- lating Darwinian Evolution. Methods Mol. Biol. 2014, 1179, 103-128.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The Importance of Additive and Non-Additive Mutational Effects in Protein Engineering</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2658" to="2666" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M. T. The Importance of Additive and Non-Additive Mutational Effects in Protein Engineering. Angew. Chem. Int. Ed. 2013, 52, 2658-2666.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">DC-Analyzer-Facilitated Combinatorial Strategy for Rapid Directed Evolution of Functional En-Zymes with Multiple Mutagenesis Sites</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="102" to="107" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Zheng, K.; Zheng, H.; Nie, H.; Yang, Z.; Tang, L. DC-Analyzer-Fa- cilitated Combinatorial Strategy for Rapid Directed Evolution of Functional En-Zymes with Multiple Mutagenesis Sites. J. Biotechnol. 2014, 192PA, 102- 107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Enzyme engineer always face the challenge to balance numbers of residues, used amino acids alphabets and codon redundancy to avoid the combinatorial number explosion problem during library design. Our HPLC could handle a maximum of 10-12 96-deep</title>
+		<imprint/>
+	</monogr>
+	<note>well plates per library as an upper limit</note>
+	<note type="raw_reference">Enzyme engineer always face the challenge to balance numbers of residues, used amino acids alphabets and codon redundancy to avoid the combinatorial num- ber explosion problem during library design. Our HPLC could handle a maxi- mum of 10-12 96-deep-well plates per library as an upper limit.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">When Second Best Is Good Enough: Another Probabilistic Look at Saturation Mutagenesis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="258" to="262" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nov, Y. When Second Best Is Good Enough: Another Probabilistic Look at Sat- uration Mutagenesis. Appl. Environ. Microbiol. 2012, 78, 258-262.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Speeding up Directed Evolution: Combining the Advantages of Solid-Phase Combinatorial Gene Synthesis with Statistically Guided Reduction of Screening Effort</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoebenreich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Zilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Acevedo-Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="317" to="331" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoebenreich, S.; Zilly, F. E.; Acevedo-Rocha, C. G.; Zilly, M.; Reetz, M. T. Speeding up Directed Evolution: Combining the Advantages of Solid-Phase Combinatorial Gene Synthesis with Statistically Guided Reduction of Screen- ing Effort. ACS Synth. Biol. 2015, 4, 317-331.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Role of Ascorbate in the Prolyl Hydroxylase Reaction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Myllylä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E.-R</forename><surname>Kuutti-Savolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Kivirikko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="page" from="441" to="448" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Myllylä, R.; Kuutti-Savolainen, E.-R.; Kivirikko, K. I. The Role of Ascorbate in the Prolyl Hydroxylase Reaction. Biochem. Biophys. Res. Commun. 1978, 441-448.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Iron Autoxidation in Mops and Hepes Buffers</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tadolini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radical Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="149" to="160" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tadolini, B. Iron Autoxidation in Mops and Hepes Buffers. Free Radical Res. Commun. 2009, 4, 149-160.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Substrate Positioning Controls the Partition Between Halogenation and Hydroxylation in the Aliphatic Halogenase, SyrB2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Booker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bollinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="17723" to="17728" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews, M. L.; Neumann, C. S.; Miles, L. A.; Grove, T. L.; Booker, S. J.; Krebs, C.; Walsh, C. T.; Bollinger, J. M. Substrate Positioning Controls the Partition Between Halogenation and Hydroxylation in the Aliphatic Halogenase, SyrB2. Proc. Natl. Acad. Sci. U.S.A. 2009, 106, 17723-17728.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Frontier Molecular Orbital Contributions to Chlorination versus Hydroxylation Selectivity in the Non-Heme Iron Halogenase SyrB2</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Srnec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="2396" to="2407" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Srnec, M.; Solomon, E. I. Frontier Molecular Orbital Contributions to Chlorina- tion versus Hydroxylation Selectivity in the Non-Heme Iron Halogenase SyrB2. J. Am. Chem. Soc. 2017, 139, 2396-2407.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Enantioselective Total Syntheses of Welwitindolinone A and Fischerindoles I and G</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="15394" to="15396" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baran, P. S.; Richter, J. M. Enantioselective Total Syntheses of Welwitindolinone A and Fischerindoles I and G. J. Am. Chem. Soc. 2005, 127, 15394-15396.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Total Synthesis of (-)-N-methylwelwitindolinone B Isothiocyanate via a Chlorinative Oxabicycle Ring-Opening Strategy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Weires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Styduhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Garg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="14710" to="14713" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weires, N. A.; Styduhar, E. D.; Baker, E. L.; Garg, N. K. Total Synthesis of (-)- N-methylwelwitindolinone B Isothiocyanate via a Chlorinative Oxabicycle Ring-Opening Strategy. J. Am. Chem. Soc. 2014, 136, 14710-14713.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Total Synthesis of (-)-N -Methylwelwitindolinone B Isothiocyanate</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Rawal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">9935</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reyes, J. R.; Xu, J.; Kobayashi, K.; Bhat, V.; Rawal, V. H. Total Synthesis of (-)- N -Methylwelwitindolinone B Isothiocyanate. Angew. Chem. 2017, 116, 9935.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wetzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bolsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hydroxylation of Carboxylic Acids Catalyzed by Taurine Dioxygenase</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="1361" to="1366" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wetzl, D.; Bolsinger, J.; Nestl, B. M.; Hauer, B. α-Hydroxylation of Carboxylic Acids Catalyzed by Taurine Dioxygenase. ChemCatChem 2016, 1361-1366.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Extending the Biocatalytic Scope of Regiocomplementary Flavin-Dependent Halogenase Enzymes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karthikeyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-W</forename><surname>Struck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Binuraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Q</forename><surname>Styles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Micklefield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3454" to="3460" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shepherd, S. A.; Karthikeyan, C.; Latham, J.; Struck, A.-W.; Thompson, M. L.; Menon, Binuraj R. K.; Styles, M. Q.; Levy, C.; Leys, D.; Micklefield, J. Ex- tending the Biocatalytic Scope of Regiocomplementary Flavin-Dependent Halogenase Enzymes. Chem. Sci. 2015, 6, 3454-3460.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Directed Evolution of RebH for Site-Selective Halogenation of Large Biologically Active Molecules</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Poor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="4226" to="4230" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Payne, J. T.; Poor, C. B.; Lewis, J. C. Directed Evolution of RebH for Site-Selec- tive Halogenation of Large Biologically Active Molecules. Angew. Chem. Int. Ed. 2015, 54, 4226-4230.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Evolved Aliphatic Halogenases Enable Regiocomplementary C-H Functionalization of an Added-Value Chemical</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ligibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hunziker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snajdrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="18535" to="18539" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayashi, T. , Ligibel, M. , Sager, E. , Voss, M. , Hunziker, J. , Schroer, K. , Snaj- drova, R.; Buller, R. (2019), Evolved Aliphatic Halogenases Enable Regio- complementary C-H Functionalization of an Added-Value Chemical. Angew. Chem. Int. Ed. 2019, 58, 18535-18539.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A Family of Radical Halogenases for the Engineering of Amino-Acid-Based Products</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Sumida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Pelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mcmurry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Marchand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1009" to="1016" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neugebauer, M. E.; Sumida, K. H.; Pelton, J. G.; McMurry, J. L.; Marchand, J. A.; Chang, M. C. Y. A Family of Radical Halogenases for the Engineering of Amino-Acid-Based Products. Nat. Chem. Biol. 2019, 15, 1009-1016.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

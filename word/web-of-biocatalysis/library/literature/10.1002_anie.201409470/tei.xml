@@ -1,0 +1,3143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Expanding the Enzyme Universe: Accessing Non-Natural Reactions by Mechanism-Guided Directed Evolution</title>
+				<funder ref="#_jQyCFvb">
+					<orgName type="full">Department of Navy, Office of Naval Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Columbia University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">U.S. National Academies of Engineering</orgName>
+				</funder>
+				<funder ref="#_9BZHg6P">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Jacobs Institute for Molecular Engineering for Medicine at Caltech</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">California Institute of Technology</orgName>
+				</funder>
+				<funder ref="#_vwA2mPn">
+					<orgName type="full">Gordon and Betty Moore Foundation</orgName>
+				</funder>
+				<funder ref="#_kXh7sz2">
+					<orgName type="full">National Science Foundation, Office of Chemical, Bioengineering, Environmental and Transport Systems SusChEM Initiative</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-03-09">2016 March 09</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Hans</forename><surname>Renata</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 E. California Blvd. MC 210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Z</forename><forename type="middle">Jane</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 E. California Blvd. MC 210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 E. California Blvd. MC 210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 E. California Blvd. MC 210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 E. California Blvd. MC 210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Expanding the Enzyme Universe: Accessing Non-Natural Reactions by Mechanism-Guided Directed Evolution</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-03-09">2016 March 09</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6E47A77D5D68954A50CE50AB274CCDA1</idno>
+					<idno type="DOI">10.1002/anie.201409470</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>biocatalysis</term>
+					<term>enzyme catalyst</term>
+					<term>non-natural function</term>
+					<term>promiscuity</term>
+					<term>protein engineering</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>High selectivities and exquisite control over reaction outcomes entice chemists to use biocatalysts in organic synthesis. However, many useful reactions are not accessible because they are not in nature's known repertoire. We will use this review to outline an evolutionary approach to engineering enzymes to catalyze reactions not found in nature. We begin with examples of how nature has discovered new catalytic functions and how such evolutionary progressions have been recapitulated in the laboratory starting from extant enzymes. We then examine non-native enzyme activities that have been discovered and exploited for chemical synthesis, emphasizing reactions that do not have natural counterparts. The new functions have mechanistic parallels to the native reaction mechanisms that often manifest as catalytic promiscuity and the ability to convert from one function to the other with minimal mutation. We present examples of how non-natural activities have been improved by directed evolution, mimicking the process used by nature to create new catalysts. Examples of new enzyme functions include epoxide opening reactions with non-natural nucleophiles catalyzed by a laboratory-evolved halohydrin dehalogenase, cyclopropanation and other carbene transfer reactions catalyzed by cytochrome P450 variants, and non-natural modes of cyclization by a modified terpene synthase. Lastly, we describe discoveries of non-native catalytic functions that may provide future opportunities for expanding the enzyme universe.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="31" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="32" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="33" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="34" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="35" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="36" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="37" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Replete with nature's solutions to catalyzing chemical transformations, our burgeoning genomic databases beautifully illustrate how evolution generates chemical innovation in the form of new enzymes. Today's enormous biocatalytic diversity is the product of evolution from ancestral enzymes, the mechanisms of which are now being elucidated in unprecedented detail. Enzyme evolution is also alive and well and moving into the future: new enzymes continue to appear in response to (often man-made) opportunities to survive challenges (e.g. antibiotic resistance) or occupy new niches (e.g. catabolize man-made compounds). Given nature's ability to innovate, and our extremely limited ability to design new enzymes, we argue for using evolutionary strategies to create and tune enzymes fit for human applications.</p><p>Directed evolution is a powerful protein engineering approach that has been applied with great success for nearly two decades to fine-tune enzymes for chemical synthesis. <ref type="bibr">1</ref> A simple strategy of accumulating mutations via iterative mutagenesis and screening for desired functions can effectively optimize properties of interest-activity on non-native substrates, enantioselectivity, product selectivity, stability and more-and deftly circumvents our profound ignorance of how the enzyme sequence encodes these features. If chemists are to use enzymes in synthesis, these catalysts have to perform as well as or better than the alternatives. Often this is a high bar that no 'rational design' approach has been able to meet on a regular basis, but one where directed evolution performs well, given a good starting point. <ref type="bibr">2</ref> As a result, enzymes are increasingly used in chemical synthesis, where they offer significant advantages for 'green' processes <ref type="bibr" target="#b3">3</ref> , production of chemicals from renewable resources, <ref type="bibr">4</ref> and synthesis of complex natural products.</p><p>Directed evolution can be used to diversify existing enzymes, creating variants that function in non-native environments, accept non-native substrates, or exhibit non-native selectivities. But how do we create whole new enzymes, including enzymes that catalyze reactions not known in nature? Nature's catalyst reserve is vast and has not been fully mined; new enzymes will continue to be discovered. Chemists, however, are fond of a number of reactions for which there may well be no natural biocatalytic counterparts, either because nature has not discovered a need for them (our goals and requirements being different from those of a microbe or a tree) or because they require functional groups and reagents not normally found in the biological world. Our goal is to begin to address this gap between the enzymes we can find in nature and those we would like to have but may not exist. We believe we can use what we have learned of nature's approach to inventing new catalysts in order to jumpstart the evolution of new enzyme families in the laboratory. We illustrate this evolutionary approach to catalyst discovery by starting with some examples from nature's repertoire. In some cases, scientists have elucidated sequence and functional pathways that connect existing enzymes in order to demonstrate how natural evolution may have proceeded from one function to the other.</p><p>Can this knowledge help us step out into the unknown and create biocatalysts that have not yet been discovered in the natural world? That the answer is an emphatic "Yes!" is illustrated with several powerful examples of enzymes engineered to catalyze reactions with no known natural counterparts. We end by describing a few non-natural activities that might afford a peek into future enzyme families.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Nature's Approach to Generating New Enzymes</head><p>Catalytic promiscuity refers to the ability of an enzyme to catalyze, in addition to its native function, reactions that target different functional groups on the substrate and proceed through different transition states and/or reactive intermediates. In 1976, Jensen proposed that ancient enzymes were characterized by broad substrate and reaction scope and that natural selection picked up and fine-tuned these different activities to generate contemporary enzymes with specific catalytic functions (Figure <ref type="figure" target="#fig_0">1A</ref>). <ref type="bibr" target="#b5">5</ref> But even today's enzymes are not as specific as often thought-many can catalyze other transformations in their active sites and exhibit (usually low levels of) catalytic promiscuity. <ref type="bibr">6</ref> Much evidence now suggests that this often serendipitous catalytic promiscuity is in fact vital to the evolution of new enzymes, providing a platform for evolution of new functions by natural selection (Figure <ref type="figure" target="#fig_0">1B</ref>). 7</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Evolution of atrazine chlorohydrolase (AtzA)</head><p>The evolution of atrazine chlorohydrolase (AtzA) is one of the best case studies of how nature exploits catalytic promiscuity to create new enzymes. A potent herbicide introduced in the late 1950s, atrazine was initially found to be minimally biodegradable. Since 1993, however, atrazine has been observed to be degraded rapidly by soil microbes in diverse locales, a phenomenon attributed to the presence of the enzyme AtzA. <ref type="bibr" target="#b9">9</ref> This enzyme catalyzes the hydrolysis of the C-Cl bond of atrazine (Figure <ref type="figure" target="#fig_1">2A</ref>) through a nucleophilic aromatic substitution reaction with a Fe 2+ -activated water molecule.</p><p>The amino acid sequence of AtzA from Pseudomonas sp. ADP is 98% identical to that of melamine deaminase (TriA), an enzyme originally isolated from Pseudomonas sp. strain NRRL B-12227. TriA catalyzes the hydrolysis of the C-N bond of melamine, another nonnatural compound that was originally classified as non-biodegradable in the 1930s, but was slightly degradable by the time atrazine was first introduced. <ref type="bibr" target="#b10">10</ref> The two enzymes differ at only nine out of 475 amino acids. <ref type="bibr" target="#b11">11</ref> This extremely high level of identity and the fact that both enzymes can be found in at least one common bacterial species suggested that AtzA evolved from TriA or from a common ancestral enzyme similar to TriA (Figure <ref type="figure" target="#fig_1">2B</ref>), enabling the bacteria to capitalize on a new opportunity to use these synthetic compounds as nitrogen sources. <ref type="bibr" target="#b12">12</ref> Progression from melamine to triazine degradation represents evolution of a new catalytic function, from C-N bond cleavage (aminohydrolase, EC 3.5.4) to C-Cl cleavage (chlorohydrolyase, EC 3.8). Although other chlorohydrolases exist in nature, they typically use a carboxylate nucleophile instead of water activated by a divalent metal, as found for AtzA. In contrast, enzymes in the aminohydrolase (e.g. TriA) family typically utilize a divalent metal such as Zn 2+ cation to activate water for nucleophilic aromatic substitution. The active site similarity between TriA and AtzA, as suggested by homology modeling, further corroborates the conjecture that AtzA evolved from an ancestral aminohydrolase (Figure <ref type="figure" target="#fig_1">2B</ref>).</p><p>TriA and AtzA differ at 9 positions, but Scott and co-workers recently showed that two mutations are sufficient to convert TriA to an enzyme with atrazine chlorohydrolase activity comparable to AtzA. 13 Cys331Ser and Asp328Asn, mutations suggested by homology modeling to lie in the active site, improve the k cat /K M for atrazine hydrolysis dramatically, from 60 M -1 s -1 to close to 10,000 M -1 s -1 , while completely abolishing melamine hydrolysis activity. Furthermore, Scott and co-workers showed that one can arrive at an atrazine chlorohydrolase by accumulating single beneficial mutations in a simple uphill walk, starting from TriA. The Cys331Ser mutation alone improved the k cat /K M for atrazine hydrolysis by almost 30-fold. Introduction of Asp328Asn to the Cys331Ser mutant conferred a further six-fold improvement in catalytic efficiency.</p><p>These active site mutations effect a dramatic shift from aminohydrolase to chlorohydrolase activity that can be rationalized after the fact. Scott and coworkers reasoned that the Asn/Ser dyad (positions 328 and 331 in AtzA) assists in the expulsion of chloride anion through a hydrogen bonding network, whereas the Asp/Cys dyad in TriA enables the release of ammonia through a proton relay mechanism whereby the thiol moiety of Cys331 donates a proton to the leaving NH 2 -group and is reprotonated by Asp328. Since NH 2 -is a poor leaving group (pK a = 34), protonation by the more acidic Cys residue is necessary for the reaction to occur.</p><p>A number of functionally diverse enzyme superfamilies have been described. <ref type="bibr" target="#b14">14</ref> Superfamily members share a structural fold and are believed to have diverged functionally from a common ancestor through a series of catalytically promiscuous intermediates. Most known member enzymes that catalyze different reactions, however, have accumulated many more sequence changes than the AtzA/TriA pair; large sequence distances make it more challenging to demonstrate simple evolutionary pathways among them or to pinpoint the functions of the ancestral enzymes. But several research groups have taken on this challenge, using protein engineering and especially directed evolution to demonstrate how one function can become another in the context of extant enzymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Evolution of a phosphotriesterase (PTE)</head><p>Another enzyme believed to have emerged very recently is phosphotriesterase (PTE), first identified in soil bacteria that can grow on synthetic organophosphate pesticides such as parathion and paraoxon as its sole phosphorus source (Figure <ref type="figure" target="#fig_2">3A</ref>). <ref type="bibr" target="#b15">15</ref> Given the recent introduction of parathion and paraoxon into the environment and the fact that PTE hydrolyzes them at near diffusion-controlled rates, it is thought that PTE evolved recently from an ancestral enzyme having promiscuous organophosphate hydrolysis activity. The ancestral enzyme is unknown, however, as no very close sequence homolog has been identified.</p><p>The PTE from P. diminuta has the (β/α) 8 -barrel fold and binuclear metal center common to many members of the amidohydrolase (AHS) superfamily that hydrolyze different classes of substrates. <ref type="bibr" target="#b16">16</ref> Afriat et al. proposed that this PTE's promiscuous lactonase activity could be a vestige of its ancestral source, a clue to its ancestral function. <ref type="bibr" target="#b17">17</ref> They showed that three microbial enzymes that are the closest known homologs to P. diminuta PTE (~30% sequence identity) are in fact highly active lactonases and also possess varying levels of promiscuous organophosphate hydrolysis activity. These 'phosphotriesterase-like lactonases' (PLLs) are especially active towards N-acyl homoserine lactones, which play a vital role in bacterial quorum sensing. <ref type="bibr" target="#b18">18</ref> Afriat et al. argued that PTE may have evolved from the weak promiscuous activity of a bacterial PLL.</p><p>Raushel and co-workers recently conducted an experiment to try to recapitulate the conversion of a PLL with low-level organophosphate-degrading activity to a PTE. <ref type="bibr" target="#b19">19</ref> Using a combination of rational and random mutagenesis, they were able to convert the PLL from Deinococcus radiodurans (DrPLL) to an enzyme exhibiting PTE activity that is five orders of magnitude higher than the wild-type DrPLL and just one order of magnitude lower than wild-type PTE. The most efficient enzyme contained only seven mutations from wild-type DrPLL, three of which were sufficient to increase the PTE activity by two orders of magnitude. Tawfik and co-workers showed that the converse is also possible when they engineered a recombinant variant of PTE from P. diminuta to be a bifunctional PTE/PLL by active-site loop remodeling. <ref type="bibr" target="#b20">20</ref> Similar to AtzA, PTE is believed to have arisen in response to the introduction of synthetic compounds that are potential new nutrient sources (Figure <ref type="figure" target="#fig_2">3B</ref>). Unlike AtzA and TriA, however, PTE has low sequence identity to its closest known homolog, which is thought to be a lactonase. Despite the fact that the known PTE and PLL enzymes differ at hundreds of amino acid positions and in the structure and arrangement of the active site loops through deletions and/or insertions, their functions overlap and could be interconverted by directed evolution and rational design. That this could be done in the laboratory demonstrates the ease with which a promiscuous PLL could become a PTE in nature. <ref type="bibr" target="#b19">19</ref> This example also demonstrates how readily a residual ancestral activity can be enhanced by accumulating beneficial mutations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Catalytic promiscuity in the MBL superfamily</head><p>In a comprehensive study of how catalytic functions overlap in the metallo-β-lactamase (MBL) superfamily of αβ/βα proteins, Tokuriki and co-workers examined the activities of 24 enzymes from 15 distinct subfamilies. <ref type="bibr" target="#b21">21</ref> They found that many MBL superfamily members, despite their low sequence identities (ca. 5-35%), catalyze at low levels the distinct reactions of distant family members in addition to their own (Figure <ref type="figure">4</ref>). Echoing a common theme in enzyme evolution that active site architecture within a superfamily is often at least partially conserved, 22 most members of this superfamily retain the binuclear active-site center for divalent metal activation of a water molecule. Thus, observed promiscuous activities are likely to arise from the shared active site features of the superfamily members. The MBL superfamily also includes a PTE family that likely evolved from lactonases, in parallel with the PTEs in the AHS superfamily and in what appears to be an example of convergent evolution of a new function. <ref type="bibr" target="#b24">23</ref> Figure <ref type="figure">4</ref> illustrates the highly interconnected network of overlapping functions that Tokuriki and co-workers sampled in this superfamily. These enzymes presumably evolved from a common ancestor through a series of promiscuous intermediates. Promiscuity is still prevalent in the family, and given the level of functional overlap that still exists it is reasonable to assume that one could move within this network from one catalytic function to others by directed evolution. In fact, Park et al. showed the feasibility of converting a glyoxalase II from this family to an enzyme with high β-lactamase activity using directed evolution. 24</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Evolution of a hydroxylase from a desaturase</head><p>Oleate desaturases and hydroxylases are integral membrane di-iron enzymes (Figure <ref type="figure">5A</ref>) that catalyze the modification of oleic acid (1) to make the corresponding dehydrogenated and oxygenated products, linoleic acid (2) and ricinoleic acid (3). They typically exist in higher plants and are closely related members of a functionally diverse non-heme di-iron enzyme family. The two reactions are also mechanistically related in that they are both initiated by a hydrogen abstraction step. <ref type="bibr" target="#b26">25</ref> They diverge in the subsequent step, where desaturation occurs via another hydrogen abstraction and hydroxylation proceeds through a radical rebound/oxygen transfer event.</p><p>When expressed in yeast, the hydroxylase from L. fendleri, LFAH12, was found to have appreciable desaturase activity in addition to its native hydroxylase activity (producing ca.</p><p>1:1 di-unsaturated fatty acids:hydroxylated fatty acid). <ref type="bibr" target="#b27">26,</ref><ref type="bibr" target="#b28">27</ref> In contrast, the desaturase from A. thaliana, FAD2, was shown to catalyze desaturation almost exclusively, with only very minor hydroxylation products detected (hydroxylation:desaturation product ratio of 0.006). These two enzymes are close relatives, with ~81% sequence identity, and a sequence comparison of the two with a few other hydroxylases and desaturases led to the identification of several residues that are highly conserved in the desaturases but diverged in the hydroxylases. <ref type="bibr" target="#b27">26</ref> Based on this, seven residues from FAD2 were introduced into the corresponding positions in LFAH12. The resulting variant showed predominantly desaturase activity, and further mutation analysis demonstrated that as few as six mutations could transform LFAH12 into a desaturase (Figure <ref type="figure">5B</ref>). Conversely, four mutations were found sufficient to convert FAD2 into a hydroxylase. Further studies by Broadwater et al. <ref type="bibr" target="#b28">27</ref> showed that a single mutation was sufficient to achieve a comparable boost in hydroxylase activity in FAD2. This desaturase-hydroxylase example demonstrates how easily related enzymes with overlapping activities can be interconverted, similar to what was observed for the atrazine chlorohydrolase and phosphotriesterase examples. It was not necessary to identify and enlist the ancestral enzyme for evolution of the new functions-the new enzymes were obtained in the laboratory starting from the extant relative. And, as these examples suggest, a few mutations can be sufficient to convert an existing enzyme to a new one with distinct, but mechanistically-related activity. <ref type="bibr">22</ref> We have chosen just a few examples to illustrate how enzymes catalyzing different reactions can diverge from a common ancestor, especially when the activities overlap at least a little. Nature does it, and the laboratory experiments demonstrate just how easily it can happen. Although nature may not have taken the same routes or starting points, the laboratory experiments show how a new enzyme can appear and evolve as opportunities for a selective advantage arise. Now let us discuss using this strategy to make enzymes that catalyze reactions not already discovered in nature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Using Mechanistic Similarities and Directed Evolution to Expand the Enzyme Universe</head><p>Many contemporary enzymes have versatile active sites and exhibit promiscuous activities at some level as a property of their mechanisms. <ref type="bibr" target="#b29">28</ref> Thus, as the above examples show, related enzymes that diverged by natural evolution for different functions can be interconverted and optimized, often with just a few mutations in an uphill evolutionary walk. Because catalytic promiscuity is common, today's plethora of biocatalysts provides equal or perhaps even greater opportunities for innovation than in early evolution. Just as nature uses that rich source of starting materials to create new catalysts, so could we.</p><p>Let us suppose for a moment that an atrazine chlorohydrolase had not yet been discovered in nature. Could its appearance have been anticipated, and could such an enzyme have been created in the laboratory before it was found in nature? Given the similarity in substrate structure (s-triazine heterocyclic core) and reaction type (hydrolysis), one might logically test an aminohydrolase such as TriA as a starting point for directed evolution. As atrazine contains a better leaving group (Cl -versus NH 2 -), its hydrolysis could be expected to be more facile than melamine. Indeed, TriA possesses a low level of atrazine chlorohydrolase activity (k cat /K M = 60 s -1 M -1 ). From there, one could couple random or site-saturation mutagenesis with a high-throughput spectrometric assay <ref type="bibr" target="#b30">29</ref> for the hydrolysis product to identify variants with increasing levels of activity. As Scott and co-workers showed, accumulating just two mutations improved the chlorohydrolase activity of TriA almost 200fold. <ref type="bibr">13</ref> Given that a new, mechanistically-related catalytic function can be imparted with just a few mutations to an enzyme that already possesses a low level of that function, an evolutioninspired approach to new catalyst discovery relies on being able to identify an appropriate starting point, that is, an existing enzyme able to take on a new function. To find that enzyme, we can look for mechanistic similarities between an existing activity and a desired transformation for which no enzyme is known. And, because low levels of catalytic activity exhibited by a promiscuous enzyme can be improved in many cases by engineering the protein sequence, there is the reasonable expectation that a non-natural, but mechanisticallyrelated promiscuous activity can similarly improve.</p><p>In fact, several laboratories have used this approach and capitalized on the catalytic promiscuity of enzymes and the similarity between the native and desired reaction mechanisms in order to create new enzymes. In some cases, however, the starting enzyme did not exhibit the desired promiscuous activity, and researchers had to rely on their chemical intuition that the desired function should be possible and could be obtained with one or a few mutations. In this section, we will present some examples of novel non-natural functions that have been discovered using this mechanism-based approach and then improved to useful levels by protein engineering and especially directed evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Epoxide ring opening with a halohydrin dehalogenase</head><p>Wild-type halohydrin dehalogenases (HHDH) catalyze the formation of epoxides from the corresponding chloro-and bromohydrins. <ref type="bibr" target="#b31">30</ref> X-ray structures of halohydrin dehalogenase from Agrobacterium radiobacter AD1 suggested the presence of a binding site for both the epoxide and halide anion, 31 thus raising the possibility of using pseudohalides of varying sizes in the reverse epoxide opening reaction. Indeed, Janssen and coworkers found that this enzyme accepts a wide range of non-natural nucleophiles such as azide, nitrite, cyanate and thiocyanate 32 and used it for kinetic resolution of various epoxides to give the ring-opened products with high enantioselectivity (Figure <ref type="figure">6A</ref>). In addition, high selectivity for opening at the terminal position was observed. In the case of aryl epoxide substrates, this finding stood in stark contrast to the non-catalyzed ring opening reaction, where nucleophilic attack usually occurs at the benzylic position.</p><p>In 2007, scientists at Codexis reported the use of HHDH in the asymmetric synthesis of ethyl (R)-4-cyano-3-hydroxybutyrate (6), <ref type="bibr" target="#b34">33</ref> a valuable intermediate in the production of atorvastatin, a cholesterol-lowering drug. They were able to enhance the low activity of the wild-type enzyme for the cyanation of 5 by directed evolution to obtain enzyme variants that increased the volumetric productivity of the process by ~4000-fold (Figure <ref type="figure">6B</ref>). <ref type="bibr">34</ref> This catalyst enables production of 6 at &gt;99.9%ee with a substrate loading of 130 g/L.</p><p>The promiscuous cyanation activity of HHDH was discovered through a combination of enzyme structure analysis and analogy to related chemistry of epoxide ring-opening with non-natural pseudohalide nucleophiles. The low cyanation activity of wild-type HHDH could then be improved tremendously by directed evolution, accumulating beneficial mutations in an uphill walk to the new function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Synthesis of S-oligosaccharides with an engineered glycosidase</head><p>A good strategy for introducing a new activity can be to divert a reactive intermediate to an alternative reaction pathway, as nature did with the hydroxylase and desaturase enzymes. A nice example comes from early work of Withers. By examining the catalytic strategy of retaining β-glycosidases and rationally modifying the key catalytic residue(s), Withers and co-workers were able to divert a reactive intermediate in the hydrolysis of glycosidic bonds and redirect it to synthesis of S-oligosaccharides. <ref type="bibr" target="#b36">35</ref> S-oligosaccharides are of interest as carbohydrate mimics that possess a more stable and hydrolysis-resistant glycosidic bond. <ref type="bibr" target="#b37">36</ref> These compounds are challenging to synthesize, because their preparation typically involves manipulation of protecting groups and requires a high degree of stereocontrol at the anomeric position. A few enzymes are known that catalyze the formation of the C-S bond of naturally-occurring thioglycosides, but there are only very few reports of their use in the preparation of S-oligosaccharides. <ref type="bibr">37</ref> Glycosidases catalyze the hydrolytic cleavage of glycosidic bonds and are mainly responsible for the degradation of carbohydrate-based biomass. In low water concentration, these enzymes are also capable of catalyzing glycoside exchange. For retaining βglycosidases, the enzymatic hydrolysis and glycoside exchange reaction occurs through a double substitution mechanism where a catalytic nucleophile residue first displaces the departing aglycon group and a catalytic acid/base residue activates the incoming water or glycoside nucleophile to form the new anomeric bond (Figure <ref type="figure" target="#fig_6">7A</ref>). <ref type="bibr" target="#b39">38</ref> To create a new activity, it is helpful if the starting enzyme already exhibits it at some level as a promiscuous activity, but this is not necessarily required. In such a case, however, the catalytic mechanism must allow acquisition of the new activity without too much finetuning. By substituting the catalytic acid/base glutamine residue with an inert alanine (Figure <ref type="figure" target="#fig_6">7B</ref>), Withers and co-workers re-designed the active site of β-glucosidase from Agrobacterium sp. (Abg) and β-mannosidase (Man2A) from Cellulomonas fimi such that they would only catalyze the glycosylation of activated dinitrophenyl (DNP) glycoside donors and deoxythio sugars as acceptors. The former does not require acid activation since it is a good enough leaving group to be displaced by the catalytic nucleophile residue, and the latter contains a highly nucleophilic thiol moiety that does not require base catalysis for the formation of the glycosidic linkage.</p><p>Both glycosidase mutants were shown to catalyze the reaction of DNP glucose and DNP mannose with glycoside acceptors 7 and 8 in good to excellent yields (Figure <ref type="figure" target="#fig_7">8</ref>). Notably, no protecting groups were required on the free hydroxyl groups of the glycoside donors and acceptors. In further work, Withers and co-workers showed that mutations at the catalytic acid/base residue could boost the thioglycoligase activities of these retaining βglycosidases. 39</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Carbene and nitrene transfer reactions with cytochrome P450s</head><p>Metalloporphyrin complexes, long used as synthetic models for cytochrome P450 enzymes, also catalyze chemical reactions that have no natural counterparts. For example, the reaction of metalloporphyrins, including iron porphyrins, and diazo compounds to generate metallocarbenoid reactive intermediates for cyclopropanation reactions is well-documented in the synthetic literature (Figure <ref type="figure" target="#fig_8">9A</ref>). <ref type="bibr">40</ref> Whereas carbenes are generally too reactive for characterization, some of these metallocarbenoid species proved to be stable enough for isolation and X-ray crystallography analysis. <ref type="bibr">41</ref> These isolated metallocarbenoids participate in cyclopropanation reactions, providing evidence that metalloporphyrin-catalyzed cyclopropanations proceed through the metallocarbenoid intermediates.</p><p>Metalloporphyrins are also known to form reactive nitrenoids in the presence of activated species such as azides and iminoiodinanes. Breslow and Gellman first showed that mesotetraphenylporphyrin iron(III) chloride could catalyze intra-and intermolecular nitrene transfer when reacted with iminoiodinanes, <ref type="bibr" target="#b43">42</ref> presumably via a metallonitrenoid species. A follow-up report by Dawson and co-workers further established that a rabbit liver cytochrome P450 could catalyze the same nitrene transfer reaction, albeit in very low turnover. <ref type="bibr" target="#b44">43</ref> Given the similarity between carbene/nitrene and oxene-the reactive species in P450 monooxygenation reactions-in electronic configuration and thus reactivity (Figure <ref type="figure" target="#fig_8">9B</ref>), our laboratory hypothesized that cytochrome P450s may exhibit promiscuous activity for carbene and nitrene transfer reactions and that such activities could be improved by protein engineering. Addition of ethyl diazoacetate to styrene in the presence of wild-type P450-BM3 from B. megaterium led to trace amounts of the corresponding cyclopropane product. <ref type="bibr" target="#b45">44</ref> Further work established that various hemeproteins, and even free hemin, catalyze olefin cyclopropanation in water. <ref type="bibr" target="#b46">45</ref> Of particular interest, however, several wildtype P450s exhibited diastereoselectivity different from free hemin and showed some enantioinduction as well. <ref type="bibr" target="#b45">44,</ref><ref type="bibr" target="#b46">45</ref> The unusual selectivity of the P450s suggested that cyclopropanation was taking place in the enzyme active site and that the active site geometry exercised control over the stereochemical outcome of the reaction. We thus felt that the P450s were suitable starting points for engineering and evolution of a new family of enzymes that can activate diazo compounds for carbenoid transfers to organic molecules. <ref type="bibr" target="#b45">44,</ref><ref type="bibr" target="#b47">[46]</ref><ref type="bibr" target="#b48">[47]</ref><ref type="bibr" target="#b49">[48]</ref><ref type="bibr" target="#b50">[49]</ref><ref type="bibr">[50]</ref> Mutations dramatically increase the non-natural cyclopropanation activity of P450-BM3. Substitution of the distal threonine (Thr268), a key residue in the native catalytic cycle for monooxygenation, with alanine improved the turnover number more than 60-fold. Further tailoring of the active site led to variant P450 BM3 -CIS-T438S that catalyzed the cyclopropanation of styrene in excellent yield, diastereoselectivity, and enantioselectivity (Figure <ref type="figure" target="#fig_9">10A</ref>). Mutation at the cysteine axial ligand led to the greatest improvement in cyclopropanation activity. Mutating the cysteine at position 400 to serine (Cys400Ser) in P450-BM3 shifted the characteristic 450 nm peak in CO-difference spectrum to 411 nm, hence the "P411" name for the Ser-ligated catalysts. The Ser mutation also allowed the iron heme to be reduced under cellular conditions to the Fe 2+ active catalyst, thereby enabling cyclopropanation with whole cells expressing these proteins. Styrene cyclopropanation was catalyzed on gram scale to 67,000 turnovers in 72% yield by a P411, which is competitive with some of the most active reported rhodium catalysts. <ref type="bibr" target="#b47">46</ref> Enzyme-catalyzed cyclopropanation has been applied to the formal synthesis of levomilnacipran, a serotonin and norepinephrine reuptake inhibitor approved for the treatment of clinical depression. <ref type="bibr" target="#b48">47</ref> A variant of P450-BM3 containing only five amino acid mutations, including mutation of the proximal cysteine residue to histidine, catalyzed the cyclopropanation of N,N-diethyl-2-phenylacrylamide (13) to 86% yield and 92% enantioselectivity on preparative scale (Figure <ref type="figure" target="#fig_9">10B</ref>). The laboratory-evolved catalyst BM3-Hstar performed cyclopropanation in the presence of oxygen and exhibited an initial rate of reaction close to what has been reported for monooxygenation by wild-type P450-BM3 (&gt;1000 turnovers per minute). Examination of a panel of 2-phenylacrylamide derivatives revealed that BM3-Hstar was quite a general cyclopropanation catalyst and could be used on substrates with varied steric and electronic properties. <ref type="bibr" target="#b49">48</ref> Carbene insertion into aryl N-H bonds, another reaction catalyzed by iron porphyrins, can also be catalyzed by variants of P450-BM3. <ref type="bibr" target="#b50">49</ref> P411 variant H2-5-F10 performed the insertion into aryl N-H bonds in up to 83% yield and 354 turnovers in vitro (Figure <ref type="figure" target="#fig_9">10C</ref>). Free Fe-protoporphyrin IX can catalyze aniline N-H insertion reactions, producing a mixture of single and double insertion products. In contrast, the enzyme provided the single insertion product selectively, highlighting the important role that the protein binding pocket plays in controlling selectivity.</p><p>Following up on the early observation of Dawson and coworkers, <ref type="bibr" target="#b44">43</ref> McIntosh et al. greatly improved the catalytic performance of P450-BM3 for intramolecular C-H amination with sulfonyl azides as the nitrene precursor. 50a For azide 15, mutations at key residues such as Thr268 on the I helix (Thr268Ala) and the cysteine proximal ligand for the heme prosthetic group (Cys400Ser) were found to be crucial for improving the total turnover number for amination (Figure <ref type="figure" target="#fig_9">10D</ref>). In particular, variant P411 BM3 -CIS catalyzed the amination reaction in up to 87% enantioselectivity and 430 turnovers. The same variant was also found to catalyze nitrene transfer from p-toluenesulfonyl azide to a series of thioethers to generate the corresponding sulfimides in 30-300 turnovers (Figure <ref type="figure" target="#fig_9">10E</ref>). 50b Since free hemin does not catalyze this sulfimidation reaction at all, the ligation state of the heme cofactor in the protein and/or the protein itself play a key role in modulating the reactivity of the nitrenoid species.</p><p>An independent report by Fasan and co-workers revealed that intramolecular C-H amination of sulfonyl azide 16 could be effected by a different variant of P450-BM3 (FL#62) that does not contain the Thr268Ala and Cys400Ser mutations. 51a Their investigation of the substrate scope of intramolecular C-H amination with FL#62 showed that the biocatalyst tolerates a range of substituents on the aryl ring. A follow-up report 51b further showed that C-H amination on azide 16 could be catalyzed in good turnovers using either myoglobin (Mb) or horseradish peroxidase (HRP). Whereas wild-type Mb showed no detectable enantioselectivity in amination with 16, introduction of mutations His64Val and Val68Ala led to appreciable enantioinduction (60% ee with 16). These results suggest that other hemoproteins are also viable platforms for discovering new catalysts for non-natural reactions.</p><p>Hyster et al. very recently showed that the regioselectivity of this enzyme-catalyzed C-H amination can be tuned by mutations (Figure <ref type="figure" target="#fig_9">10F</ref>). 50c Variant P411 BM3 -CIS-T438S-I263F catalyzed C-H amination of substrates 17a-c at the homo-benzylic position with excellent regio-and enantioselectivity. The P411 BM3 -T268A-F87A variant, in contrast, showed strong preference for C-H amination at the benzylic position, also with great regio-and enantioselectivity. Thus tailoring the active site can alter the conformation of the reactive intermediates to the extent that the catalyst can override the thermodynamic bias towards reaction at the benzylic position (the bond dissociation energy for the benzylic C-H is weaker by more than 10 kcal/mol relative to non-benzylic C-H).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Redirecting cyclization with terpene synthases</head><p>Squalene-hopene cyclase (SHC) catalyzes the cationic polycyclization of squalene to the pentacyclic products hopene and hopanol (Figure <ref type="figure" target="#fig_10">11</ref>), a reaction that Hauer and co-workers noted is highly reminiscent of chiral Brønsted acid-catalyzed polycyclizations. <ref type="bibr" target="#b53">52</ref> The crystal structure of SHC from Alicyclobacillus acidocaldarius (AacSHC) was disclosed in 1997, 53 but its promiscuity was known as early as 1986, when Neuman et al. showed that homofarnesol could be cyclized by SHC to ambroxan, a valuable fragrance compound. <ref type="bibr" target="#b55">54</ref> This reaction can be regarded as both a substrate and catalytic promiscuity feature of the enzyme, because attack by an internal nucleophile terminates the cyclization reaction.</p><p>Hauer and co-workers further investigated the inherent promiscuity of this enzyme with a range of terpene-like substrates to construct novel carbocyclic skeletons (Figure <ref type="figure" target="#fig_11">12A</ref>). By varying the terminator groups for the cyclization reactions, they were able to perform SHCcatalyzed cyclization of various non-natural substrates in low to moderate yield. <ref type="bibr" target="#b55">54,</ref><ref type="bibr">55</ref> The substrate scope for SHC-catalyzed cyclization reaction has also been studied by Hoshino and co-workers. <ref type="bibr" target="#b57">56</ref> SHC also possesses some weak activity for Prins cyclization of citronellal to form isopulegol. <ref type="bibr" target="#b58">57</ref> Siedenburg et al. conducted site-saturation mutagenesis on three residues in the active site of SHC from Z. mobilis (ZMO1548) to improve production of isomers of isopulegol starting from racemic citronellal (Figure <ref type="figure" target="#fig_11">12B</ref>). <ref type="bibr" target="#b59">58</ref> Two amino acid positions were identified as important for increased isopulegol formation. The Trp555Tyr mutant gave more than 70% total conversion to isomeric mixtures of isopulegol, versus ca. 30% observed with the wild-type enzyme. The Phe486Cys variant provided more than 50% total conversion, with slightly improved product diastereoselectivity.</p><p>In a very recent study, <ref type="bibr" target="#b60">59</ref> Hauer and co-workers engineered an SHC from A. acidocaldarius (AacSHC) to improve the catalytic activity for several different modes of Brønsted acidcatalyzed cyclizations, including the Prins cyclization of (S)-citronellal (Figure <ref type="figure" target="#fig_2">13</ref>). Screening a library of enzyme variants made by mutating several amino acids in proximity to the catalytic Asp376 residue, they discovered variants with greatly improved activities for various cyclization reactions. The Tyr420Trp-Gly600Phe mutant catalyzed the cyclization of 6,7-epoxygeraniol to cyclohexanoid 22 in 78% conversion, an approximately 140-fold improvement over the wild-type enzyme. Similarly, the Ile261Ala mutant catalyzed the Prins cyclization of (S)-citronellal to iso-isopulegol in 11% conversion, an approximately 20-fold improvement over the wild-type enzyme. It will be interesting to see if this nonnatural cyclization activity of SHC or other terpene synthases can be expanded further to include other electrophiles as initiators. 60</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">New Opportunities on the Horizon?</head><p>At present, biocatalytic transformations constitute a small but growing subset of industrially relevant chemical processes. In order to fully realize the potential of biocatalysis for sustainable chemistry, it will be important to expand the range of enzyme-catalyzed transformations to include ones not yet discovered in nature. The examples we have presented illustrate an evolutionary approach that mimics some features of how nature creates new catalysts. Our feeling is that we have barely scratched the surface of possibilities, as promiscuous activity among enzymes is widespread and can be improved by protein engineering and especially directed evolution. Chemical intuition will help us know where to look for new opportunities.</p><p>Several recent discoveries of novel, promiscuous, and non-natural enzyme activities highlight the potential for future biocatalyst development. Still in their infancy, these next examples are important proofs-of-concept with potential for future applications. Where wild-type enzymes catalyze non-natural reactions, it is entirely possible that protein engineering and directed evolution could boost activity, fine-tune selectivity, and make them more synthetically useful.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">C-H functionalization chemistry of SyrB2 halogenase</head><p>Reminiscent of the hydroxylase/desaturase example, nature utilized a similar bifurcation of reaction pathways for halogenation and hydroxylation with Fe(II)-and α-ketoglutaratedependent (Fe/αKG) enzymes. An Fe/αKG enzyme from the syringomycin biosynthetic pathway of Pseudomonas syringae B301D, SyrB2 catalyzes the halogenation of the terminal methyl group of L-threonine appended to the carrier protein SyrB1. <ref type="bibr" target="#b62">61</ref> This enzyme is related to Fe/αKG hydroxylases which employ an almost identical reaction mechanism. Both reactions proceed via an initial hydrogen atom abstraction from the substrate by an Fe(IV)oxo intermediate to form a carbon-centered radical (Figure <ref type="figure" target="#fig_0">14</ref>). <ref type="bibr" target="#b63">62</ref> The subsequent step determines the product outcome: homolytic coupling with a hydroxyl ligand results in the hydroxylated product (path a) whereas coupling with a halogen ligand results in chlorinated or brominated product (path b). One fundamental difference between the two enzymes lies in the presence of a coordinating Asp/Glu residue in Fe/αKG hydroxylases whereas a noncoordinating Ala occupies this position in SyrB2 halogenase. As a result, the Fe center in the latter has an additional coordination site, which is occupied by a halide anion that is eventually incorporated in the product. Given such similarities in structure and mechanism, Walsh and coworkers proposed that Fe/αKG halogenase evolved from Fe/αKG hydroxylase. <ref type="bibr" target="#b64">63</ref> Using threonine as substrate, SyrB2 is remarkably selective for the production of 4-chloro-L-threonine, suggesting that hydroxyl radical rebound from intermediate A (Figure <ref type="figure" target="#fig_0">14A</ref>) is not competitive with halogen radical rebound. Substitution of the non-coordinating Ala with Glu in SyrB2 led to the formation of a hydroxylase-like metal center, but this mutant was shown to be an inefficient hydroxylase. <ref type="bibr" target="#b65">64</ref> Furthermore, the use of norvaline, a five-carbon amino acid, as a substrate for wild-type SyrB2 led almost exclusively to the hydroxylation product (Figure <ref type="figure" target="#fig_0">14B</ref>). These results suggest that a complex interplay between substrate and protein active site determines the selectivity between hydroxylation and halogenation. To further reinforce this notion, simple substitution of coordinating Asp to Ala on prolyl 4hydroxylase, an Fe/αKG enzyme, led to an inactive enzyme. <ref type="bibr" target="#b66">65</ref> Thus, despite the presumed evolutionary relationship between the two enzymes, the simplistic notion of creating a vacant coordination site for halide binding to convert a hydroxylase to halogenase only works in very special cases.</p><p>Many Fe/αKG hydroxylases have been discovered that act on different types of substrates, and some of them do not require the substrates to be appended to a carrier protein. Fe/αKG halogenases, however, are relatively rare in nature. Conversion of hydroxylases to halogenases would allow rapid diversification of secondary metabolites produced by Fe/αKG enzymes. These metabolites include valuable β-lactam antibiotics and modified amino acids and nucleobases. <ref type="bibr" target="#b67">66</ref> The chemistry of SyrB2 can also be diversified to include non-natural functions. Matthews et al. recently demonstrated that in the presence of N 3 -or NO 2 -wild-type SyrB2 could catalyze radical azidation and nitration of substrates (L-2-aminobutyrate, L-threonine, and L-norvaline) bound to SyrB1 with modest yields under single turnover conditions. <ref type="bibr" target="#b68">67</ref> Such reactivity is reminiscent of radical-based C-N coupling in synthetic chemistry, where literature precedents suggest that many nitrogen-containing species such as azides and nitrite salts are viable partners in radical coupling reactions. <ref type="bibr">68</ref> At this point, however, the enzymecatalyzed reaction requires that the substrates be appended to the carrier protein and gives modest yields even under single turnover conditions. In addition, given the apparent complexity of substrate positioning in the active site in determining the outcome of Fe/αKGcatalyzed reactions, optimization of these new nitration and azidation reactions may be challenging.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Unnatural amino acid synthesis with O-acetylserine sulfhydrylase and tryptophan synthase</head><p>Natural and unnatural amino acids are important constituents of many active pharmaceutical ingredients (APIs); it has been estimated that they comprise 18% of the building blocks used in the pharmaceutical and agrochemical industries. <ref type="bibr" target="#b70">69</ref> Natural L-amino acids are produced mainly via fermentation and extraction from raw feedstocks. Unnatural amino acids (UAAs), however, are commonly produced by chemical synthesis, as there exists no biosynthetic pathway for the introduction of unnatural side chains. Numerous synthetic methods have been developed for the synthesis of UAAs, but commercial production typically relies on asymmetric hydrogenation or resolution of racemic mixtures. <ref type="bibr" target="#b71">70</ref> These processes often require manipulation of protecting groups (that have to be removed) and catalysts that have to be designed de novo for new targets. Development of biosynthetic pathways for UAAs could potentially streamline their production.</p><p>O-acetylserine sulfhydrylase (OASS, this term is used interchangeably with cysteine synthase) is a pyridoxal phosphate (PLP)-dependent enzyme that catalyzes the final step of cysteine biosynthesis. <ref type="bibr" target="#b72">71</ref> After aldimine formation between O-acetylserine and PLP, the acetate group of O-acetylserine is extruded to give an amino acrylate intermediate which then reacts with H 2 S to form L-cysteine (Figure <ref type="figure" target="#fig_13">15</ref>). In the late sixties, Mudd and Thompson independently established 72 that this class of enzymes also catalyzed the synthesis of Ssubstituted cysteine derivatives, hinting at relaxed substrate specificity of these enzymes.</p><p>Although rare, heterocyclic β-substituted alanines do occur naturally in plants. <ref type="bibr" target="#b74">73</ref> Elucidation of the biosynthetic pathways of these non-proteinogenic amino acids showed that they arose from the condensation of O-acetyl-L-serine with the appropriate nucleophiles.</p><p>Hypothesizing that this pathway shares a common reactive intermediate and reaction mechanism with OASS, Ikegami and co-workers in a series of publications showed that the OASS from higher plants could indeed catalyze the syntheses of β-(pyrazol-1-yl)-L-alanine, L-quisqualic acid, L-mimosine and several other non-proteinogenic amino acids in low yields. <ref type="bibr">74</ref> As Maier showed in a follow-up work, <ref type="bibr" target="#b77">75</ref> the overall metabolic pathway could be engineered to improve the low titers. However, no report has disclosed improving the production yield of UAAs by engineering the OASS enzyme. X-ray structures of CysK1 and CysM, both cysteine synthases, indicated the presence of a substrate tunnel that likely acts as a passageway for incoming nucleophiles. <ref type="bibr">76</ref> Engineering this substrate tunnel to accommodate nucleophiles of different size could provide an alternative avenue to improve the production of UAAs.</p><p>Tryptophan synthase catalyzes the formation of tryptophan through a mechanism that bears a strong resemblance to that of OASS. In the β subunit of the enzyme, condensation of serine with PLP is followed by a dehydration to afford an aminoacrylate intermediate which then undergoes a conjugate addition with indole. <ref type="bibr" target="#b79">77</ref> Just like OASS, tryptophan synthase possesses a hydrophobic tunnel for the passage of indole. The wild-type enzyme has been shown to catalyze the production of various tryptophan analogs through the use of the corresponding heterocyclic nucleophiles such as thienopyrroles, azaindoles and indazole (Figure <ref type="figure" target="#fig_14">16</ref>). <ref type="bibr" target="#b80">78</ref> At present, however, optimization of this enzyme is still required to make the process practical. As with OASS, directed evolution and protein engineering efforts could render this enzyme more useful for the production of UAAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Over the last fifty years, chemists have invented creative synthetic disconnections that are not found in nature. We believe that at least some of these reactions could be imported into biological systems. The challenge for engineering enzymes to catalyze non-natural chemistry is that there is not another enzyme to provide the inspiration or guide the engineering-that leap has to come from luck (accidental discovery of an interesting promiscuous activity), laborious screening of enzymes for non-natural functions, or, better, from chemical intuition/design based on known synthetic transformations. The carbenoid and nitrenoid transfer reactions catalyzed by engineered cytochrome P450s are a good example of how new enzymes can be generated using an approach that mimics nature and is based on chemical knowledge: work with transition metal catalysts and mechanistic similarities provided the inspiration, the promiscuity of the natural P450 enzymes provided a starting point, and protein engineering/evolution provided the means to tune reactivity and selectivity. Similarly, the various synthetic methods developed for C-N coupling (for which there is no natural counterpart) served as a motivation to investigate an enzymatic equivalent in SyrB2 halogenase.</p><p>But can every poorly active enzyme be engineered or evolved for high activity? This is clearly not the case. If it were, all weakly active computationally designed enzymes, <ref type="bibr" target="#b81">79</ref> catalytic antibodies, or bovine serum albumin for that matter could be evolved in the laboratory to be highly efficient. Because we do not yet fully understand the features of an effective scaffold or starting point for the design or evolution of catalysis, <ref type="bibr" target="#b82">80</ref> we find it prudent to start with enzyme scaffolds that have proven ability to evolve (i.e. have diverged naturally to catalyze different reactions). Experience shows that enzymes like the cytochrome P450s or members of other functionally diverse superfamilies which have already diverged to catalyze many different reactions are also readily evolved in the laboratory, at least when the reactions share mechanistic features. <ref type="bibr" target="#b83">81</ref> This includes evolution of catalytic activities that have no natural counterpart, such as olefin cyclopropanation with diazo compounds or cyanation via epoxide opening. If one particular enzyme does not exhibit a desired promiscuous activity, other family members or even close variants may, as was shown for the MBL family <ref type="bibr" target="#b21">21</ref> and for the P450s. <ref type="bibr" target="#b46">45</ref> We can now begin to sketch out some general guidelines for engineering enzymes to catalyze reactions not known in nature: (1) For a given function, look for the most important feature(s) that enables the transformation, e.g. iron-carbenoid for cyclopropanation, acidcatalyzed formation of oxonium ion in the Prins reaction, or something as simple as the presence of a Michael acceptor for UAA synthesis; (2) Establish this feature or key intermediate in an enzyme based on known reactivity or mechanistic analogy, e.g. carbene is isoelectronic to oxene, a key intermediate in monooxygenation, or Brønsted acid activation is a key step in many terpene synthase cyclizations; (3) Evaluate variants of the enzyme or closely-related enzymes for the desired promiscuous activity; (4) Use directed evolution to improve the non-natural activity or tune selectivity. Computational approaches may be able to assist this discovery process, possibly in evaluating suitable enzyme starting points in silico. <ref type="bibr" target="#b84">82</ref> Of course, evolution and engineering of existing enzymes is not the only possible approach to creating new enzymes. There has been good progress with artificial metalloenzymes and de novo enzyme design, but significant challenges remain, especially for creating synthetically useful catalysts and ones that function inside of cells. This, we believe, is a key advantage of the evolutionary approach we review here: the starting point for creating a new enzyme is an existing enzyme that is functionally expressed in a microbial host and that can be improved by directed evolution, or at least by genetic modification. The ability to evolve the new function in the laboratory, starting from an already evolvable scaffold (an existing active site), greatly increases the chance that synthetically useful catalysts will emerge. The evolutionary approach we have described is limited to systems for which suitable starting enzymes exist. But where that is the case, progress to synthetically useful catalysts can be very rapid. <ref type="bibr" target="#b34">33,</ref><ref type="bibr" target="#b48">47</ref> For advances in the fields of artificial metalloenzymes and de novo enzyme design, we direct the readers to excellent reviews in refs 83 and 84.</p><p>Advances in mechanistic enzymology have allowed us to develop a greater understanding of the chemical basis of enzyme catalysis. This knowledge will help us select mechanisms and intermediates to 'hijack' for non-natural catalysis. Protein engineering and enzyme evolution, too, are progressing rapidly. Armed with these tools, we believe that exciting times are ahead for bridging the gap between nature's chemical repertoire and the synthetic world.    Members of MBL superfamily are functionally highly interconnected, as illustrated by Tokuriki and co-workers. <ref type="bibr" target="#b21">21</ref> The different reactions catalyzed by members of the superfamily are connected to one another via promiscuous enzymes (gray circles) that catalyze two or more reactions.  Figure 6. (A) Promiscuous epoxide ring-opening activity of wild-type HHDH; 32 (B) Application of HHDH in the synthesis of the atorvastatin side-chain and improvement of volumetric productivity using directed evolution. 33  Use of engineered thioglycoligase for the synthesis of thiodisaccharides. <ref type="bibr" target="#b36">35</ref> Reported yields were after peracetylation of the thiodisaccharides. Wild-type enzymes do not catalyze this reaction.    Figure 13.</p><p>Cyclization reactions of various substrates utilizing functional group initiators such as epoxide and aldehyde with AacSHC and identification of enzyme variants with improved cyclization activities.   Mechanism of tryptophan synthase and some representative UAAs prepared with wild-type tryptophan synthase. <ref type="bibr" target="#b79">77,</ref><ref type="bibr" target="#b80">78</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (A) Divergence of an ancestral enzyme having broad catalytic capabilities (denoted a, b, c, d, e) to more specialized enzymes (denoted A, B, C, D, E) that catalyze primarily one reaction; (B) Relationship between catalytic promiscuity and evolution of new function. A given protein sequence might catalyze multiple reactions. In the right circumstances, a catalyst with a low level of a promiscuous activity can be improved by mutation and natural (or artificial) selection so that it becomes specialized for a new function. For more discussion, see ref. 8.</figDesc><graphic coords="22,191.64,62.00,288.72,293.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2.(A) Chlorohydrolase activity of AtzA and aminohydrolase activity of TriA; (B) TriA and AtzA (98% AA identity) are believed to be related through a common ancestor similar to TriA. These catalytic functions can be interconverted with a few amino acid mutations.13    </figDesc><graphic coords="23,237.04,62.00,197.92,299.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3.(A) Hydrolysis reactions catalyzed by PTE and lactonase; (B) Putative evolutionary relationship between lactonase and PTE and their interconversion in the laboratory.<ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b20">20</ref> </figDesc><graphic coords="24,170.79,62.00,330.42,264.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>Figure 4.</figDesc><graphic coords="25,189.29,62.00,293.43,213.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Figure is reproduced from reference 21.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 . 27 Figure 6 .</head><label>5276</label><figDesc>Figure 5.(A) Desaturation and hydroxylation reactions of oleic acid catalyzed by FAD2 (a desaturase) and LFAH12 (a hydroxylase); (B) Four mutations significantly increase hydroxylase activity of A. thaliana FAD2 desaturase, and a single mutation significantly increases desaturase activity of L. fendleri oleate hydroxylas\\e LFAH12.<ref type="bibr" target="#b27">26,</ref><ref type="bibr" target="#b28">27</ref> </figDesc><graphic coords="26,217.68,62.00,236.64,296.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7.(A) Mechanism of wild-type retaining β-glycosidase featuring catalytic acid/base and catalytic nucleophile residues where R′ = H or other sugar in low water concentration; 38 (B) Engineered thioglycoligase via removal of catalytic acid/base residue, DNP = dinitrophenyl, Nuc = deoxythio sugar nucleophile as acceptor.<ref type="bibr" target="#b36">35</ref> </figDesc><graphic coords="28,186.96,62.00,298.08,265.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8.</figDesc><graphic coords="29,85.80,62.00,500.40,190.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. (A) Precedents of carbene and nitrene reactivity with iron porphyrins. 40b,43 (B) Comparison of monooxygenation activity and non-natural carbene/nitrene transfer reactivity of P450-BM3. Top box, reaction of Fe(III) of P450-BM3 with O 2 and NAD(P)H generates compound I, the active species in monooxygenation. Bottom box, reaction of reduced Fe(II) with an activated species, followed by extrusion of N 2 generates a putative carbenoid/ nitrenoid species.</figDesc><graphic coords="30,211.08,62.00,249.84,399.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. P450-catalyzed non-natural carbene and nitrene transfer reactions: (A) styrene cyclopropanation; 44,46 (B) cyclopropanation of N,N-diethyl-2-phenylacrylamide en route to levomilnacipran; 47 (C) N-H insertion reaction; 49 (D) intramolecular C-H amination; 50a,51 (E) intermolecular sulfimidation; 50b (F) regioselective C-H amination by different P450 variants. 50c</figDesc><graphic coords="31,211.08,62.00,249.84,455.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11.Cyclization of squalene catalyzed by SHC and promiscuous activity of SHC on homofarnesol.<ref type="bibr" target="#b55">54</ref> </figDesc><graphic coords="32,105.24,62.00,461.52,456.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12.(A) SHC-catalyzed cyclization of terpene-like substrates, red color indicates bond(s) formed during the reaction;<ref type="bibr" target="#b55">[54]</ref>[55]<ref type="bibr" target="#b57">[56]</ref> (B) SHC-catalyzed Prins cyclization of citronellal for production of isopulegol, a precursor to menthol, and activity improvement via mutation.<ref type="bibr" target="#b58">57,</ref><ref type="bibr" target="#b59">58</ref> </figDesc><graphic coords="33,215.76,62.00,240.48,320.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>59 Figure 14 .</head><label>5914</label><figDesc>Figure 14. (A) Mechanisms of Fe/αKG hydroxylase (path a, in red) and Fe/αKG halogenase (path b, in blue) where a common reactive intermediate, A, is diverted into two reaction pathways depending on the ligand environment around the Fe center; 62 (B) Divergent outcome of SyrB2-catalyzed reactions of threonine-SyrB1 and norvaline-SyrB1, indicating the complex interplay between the protein fold and substrate positioning in determining the outcome of SyrB2-catalyzed reaction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15.Use of O-acetylserine sulfhydrylase in the synthesis of unnatural β-substituted alanine derivatives and fermentation yields with E. coli strain W3110/pACcysE fbr .<ref type="bibr" target="#b77">75</ref> </figDesc><graphic coords="36,90.12,62.00,491.76,435.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 16 .</head><label>16</label><figDesc>Figure 16.</figDesc><graphic coords="37,191.65,62.00,288.71,272.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="27,210.84,62.00,250.32,296.64" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Angew Chem Int Ed Engl. Author manuscript; available in PMC 2016 March 09.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>Our research is supported by the <rs type="funder">Department of Navy, Office of Naval Research</rs> (grant <rs type="grantNumber">N00014-11-10205</rs>), the <rs type="funder">Jacobs Institute for Molecular Engineering for Medicine at Caltech</rs>, the <rs type="funder">Gordon and Betty Moore Foundation</rs> through grant <rs type="grantNumber">GBMF2809</rs> to the <rs type="institution">Caltech Programmable Molecular Technology Initiative</rs>, and the <rs type="funder">National Science Foundation, Office of Chemical, Bioengineering, Environmental and Transport Systems SusChEM Initiative</rs> (grant <rs type="grantNumber">CBET-1403077</rs>). Z.J.W. was supported by a <rs type="grantName">Ruth L. Kirschstein Fellowship</rs> from the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">F32EB015846</rs>). We would like to thank <rs type="person">Prof. Dan S. Tawfik</rs>, <rs type="person">Prof. Bernhard Hauer</rs>, <rs type="person">Dr. John A. McIntosh</rs>, <rs type="person">Dr. Andrew R. Buller</rs>, <rs type="person">Dr. Sheel C. Dodani</rs>, and <rs type="person">Dr. Christopher K. Prier</rs> for helpful suggestions and discussions. <rs type="person">Biographies Hans Renata</rs> received his B. A. from <rs type="funder">Columbia University</rs> in 2008, conducting research under the supervision of <rs type="person">Professor Tristan H. Lambert. He</rs> earned his PhD in chemistry from The Scripps Research Institute in 2013 under the guidance of <rs type="person">Professor Phil S. Baran. He</rs> is now conducting postdoctoral studies in the laboratories of Professor Frances H. Arnold at the <rs type="institution">California Institute of Technology</rs>. Z. <rs type="person">Jane Wang</rs> received her B. S. degree in chemistry from the <rs type="funder">California Institute of Technology</rs> in 2007. She obtained her PhD in organic and organometallic chemistry with <rs type="person">Professor F. Dean Toste</rs> and <rs type="person">Professor R. Bergman</rs> at the <rs type="institution">University of California, Berkeley</rs>. Her work focused on developing new methods for forming C-O and C-N bonds with coinage metal complexes. Jane recently completed her postdoctoral studies at the <rs type="institution">California Institute of Technology with Professor Frances H. Arnold. Frances H. Arnold is the Dickinson Professor of Chemical Engineering, Bioengineering and Biochemistry at the California Institute of Technology</rs>. Her research focuses on protein evolution and biocatalysis. She was elected to the <rs type="funder">U.S. National Academies of Engineering</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jQyCFvb">
+					<idno type="grant-number">N00014-11-10205</idno>
+				</org>
+				<org type="funding" xml:id="_vwA2mPn">
+					<idno type="grant-number">GBMF2809</idno>
+				</org>
+				<org type="funding" xml:id="_kXh7sz2">
+					<idno type="grant-number">CBET-1403077</idno>
+					<orgName type="grant-name">Ruth L. Kirschstein Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_9BZHg6P">
+					<idno type="grant-number">F32EB015846</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fh ;</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fh ;</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fh ;</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jc ;</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-E</forename><surname>Jaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Biochem Eng Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="12480" to="12496" />
+			<date type="published" when="1996">1996. 1996. 1996. 1997. 1997. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Nat Biotechnol Chem Eng Sci. Curr Opin Struct Biol Angew Chem Int Ed. J Am Chem Soc PubMed: 23930719</note>
+	<note type="raw_reference">Moore JC, Arnold FH. Nat Biotechnol. 1996; 14:458-467. [PubMed: 9630920] b) Shao Z, Arnold FH. Curr Opin Struct Biol. 1996; 6:513-518. [PubMed: 8794158] c) Arnold FH. Chem Eng Sci. 1996; 51:5091-5102.d) Arnold FH, Moore JC. Adv Biochem Eng Biotechnol. 1997; 58:1-14. [PubMed: 9103909] e) Reetz MT, Zonta A, Schimossek K, Liebeton K, Jaeger K-E. Angew Chem Int Ed. 1997; 36:2830-2832.f) Reetz MT. J Am Chem Soc. 2013; 135:12480-12496. [PubMed: 23930719]</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Savile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Janey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Colbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krebber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Fleitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gj ;</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lalonde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Borup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Trinh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kochrekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Cherat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ganesh</forename><surname>Pai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Proc Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2010">2010. 2010. 2012</date>
+		</imprint>
+	</monogr>
+	<note>Science Nature PubMed: 22575958] d</note>
+	<note type="raw_reference">Savile CK, Janey JM, Mundorff EC, Moore JC, Tam S, Jarvis WR, Colbeck JC, Krebber A, Fleitz FJ, Brands J, Devine PN, Huisman GW, Hughes GJ. Science. 2010; 329:305-308. [PubMed: 20558668] b) Liang J, Lalonde J, Borup B, Mitchell V, Mundorff E, Trinh N, Kochrekar DA, Cherat RN, Ganesh Pai G. Org Proc Res Dev. 2010; 14:193-198.c) Bornscheuer UT, Huisman GW, Kazlauskas RJ, Lutz S, Moore JC, Robins K. Nature. 2012; 485:185-194. [PubMed: 22575958] d)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nj ;</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="567" to="573" />
+			<date type="published" when="2002">2002. 2009</date>
+		</imprint>
+	</monogr>
+	<note>Nat Chem Biol PubMed: 19620998</note>
+	<note type="raw_reference">Alexeeva M, Enright A, Dawson MJ, Mahmoudian M, Turner NJ. Angew Chem Int Ed. 2002; 41:3177-3180.e) Turner NJ. Nat Chem Biol. 2009; 5:567-573. [PubMed: 19620998]</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wohlgemuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="713" to="724" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21030244</note>
+	<note type="raw_reference">Wohlgemuth R. Curr Opin Biotechnol. 2010; 21:713-724. [PubMed: 21030244]</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bokinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schirmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Del Cardayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jd ;</forename><surname>Keasling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Peralta-Yahya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Del Cardayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Keasling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jc ; )</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="209" to="228" />
+			<date type="published" when="2008">2010. 2012. 2008. 2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20111002] b Nature Nature PubMed: 18172501] d Nature PubMed: 18727018</note>
+	<note type="raw_reference">Steen EJ, Kang Y, Bokinsky G, Hu Z, Schirmer A, McClure A, del Cardayre SB, Keasling JD. Nature. 2010; 463:559-563. [PubMed: 20111002] b) Peralta-Yahya PP, Zhang F, del Cardayre SB, Keasling JD. Nature. 2012; 488:320-328. [PubMed: 22895337] c) Atsumi S, Hanai T, Liao JC. Nature. 2008; 451:86-89. [PubMed: 18172501] d) Lee SY, Park JH, Jang SH, Nielsen LK, Kim J, Jung KS. Biotechnol Bioeng. 2008; 101:209-228. [PubMed: 18727018]</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Jansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="409" to="425" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 791073</note>
+	<note type="raw_reference">Jansen RA. Annu Rev Microbiol. 1976; 30:409-425. [PubMed: 791073]</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herschlag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="265" to="272" />
+			<date type="published" when="1999">1999. 2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 10099128] b) Copley SD Chem Biol PubMed: 12714060</note>
+	<note type="raw_reference">O&apos;Brien PJ, Herschlag D. Chem Biol. 1999; 6:R91-R105. [PubMed: 10099128] b) Copley SD. Curr Opin Chem Biol. 2003; 7:265-272. [PubMed: 12714060]</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biochem</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="471" to="505" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20235827</note>
+	<note type="raw_reference">Khersonsky O, Tawfik DS. Annu Rev Biochem. 2010; 79:471-505. [PubMed: 20235827]</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="692" to="696" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20852602</note>
+	<note type="raw_reference">Tawfik DS. Nat Chem Biol. 2010; 6:692-696. [PubMed: 20852602]</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Seffernick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Wackett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="12747" to="12753" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11669610</note>
+	<note type="raw_reference">Seffernick JL, Wackett LP. Biochemistry. 2001; 40:12747-12753. [PubMed: 11669610]</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grossenbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Experentia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1191" to="1198" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook AM, Grossenbacher H, Hutter R. Experentia. 1983; 39:1191-1198.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Seffernick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Sadowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="2405" to="2410" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11274097</note>
+	<note type="raw_reference">Seffernick JL, De Souza ML, Sadowsky MJ, Wackett LP. J Bacteriol. 2001; 183:2405-2410. [PubMed: 11274097]</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Udiković-Kolić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">-</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1175" to="1189" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23076592</note>
+	<note type="raw_reference">Udiković-Kolić N, Scott C, Martin-Laurent F. Appl Microbiol Biotechnol. 2012; 96:1175-1189. [PubMed: 23076592]</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Coppin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Mourant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Oakeshott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Jermiin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Oakeshott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="2184" to="2191" />
+			<date type="published" when="2009">2009. 2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19201959] b PLoS ONE PubMed: 22768133</note>
+	<note type="raw_reference">Scott C, Jackson CJ, Coppin CW, Mourant RG, Hilton ME, Sutherland TD, Russell RJ, Oakeshott JG. Appl Environ Microbiol. 2009; 75:2184-2191. [PubMed: 19201959] b) Noor S, Taylor MC, Russell RJ, Jermiin LS, Jackson CJ, Oakeshott JG, Scott C. PLoS ONE. 2012; 7:e39822. [PubMed: 22768133]</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Orengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Thornton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page" from="1113" to="1143" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11286560</note>
+	<note type="raw_reference">Todd AE, Orengo CA, Thornton JM. J Mol Biol. 2001; 307:1113-1143. [PubMed: 11286560]</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Serdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Munnecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lancaster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="246" to="249" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16346063</note>
+	<note type="raw_reference">Serdar CM, Gibson DT, Munnecke DM, Lancaster JH. Appl Environ Microbiol. 1982; 44:246- 249. [PubMed: 16346063]</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Seibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Raushel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="6383" to="6391" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15850372</note>
+	<note type="raw_reference">Seibert CM, Raushel FM. Biochemistry. 2005; 44:6383-6391. [PubMed: 15850372]</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Afriat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roodveldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Manco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="13677" to="13686" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17105187</note>
+	<note type="raw_reference">Afriat L, Roodveldt C, Manco G, Tawfik DS. Biochemistry. 2006; 45:13677-13686. [PubMed: 17105187]</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bassler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="165" to="199" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11544353</note>
+	<note type="raw_reference">Miller MB, Bassler BL. Annu Rev Microbiol. 2001; 55:165-199. [PubMed: 11544353]</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rajendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schlee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Barondeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Höcker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sterner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Raushel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="11670" to="11677" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23837603</note>
+	<note type="raw_reference">Meier MM, Rajendran C, Malisi C, Fox NG, Xu C, Schlee S, Barondeau DP, Höcker B, Sterner R, Raushel FM. J Am Chem Soc. 2013; 135:11670-11677. [PubMed: 23837603]</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Avriat-Jurnou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="6047" to="6055" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22809311</note>
+	<note type="raw_reference">Avriat-Jurnou L, Jackson CJ, Tawfik DS. Biochemistry. 2012; 51:6047-6055. [PubMed: 22809311]</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tokuriki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="2442" to="2456" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24769192</note>
+	<note type="raw_reference">Baier F, Tokuriki N. J Mol Biol. 2014; 426:2442-2456. [PubMed: 24769192]</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Babbitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gerlt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Prot Chem</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Babbitt PC, Gerlt JA. Adv Prot Chem. 2001; 55:1-28.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gerlt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Babbitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19237310</note>
+	<note type="raw_reference">Gerlt JA, Babbitt PC. Curr Opin Chem Biol. 2009; 13:10-18. [PubMed: 19237310]</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22069329</note>
+	<note type="raw_reference">Elias M, Tawfik DS. J Biol Chem. 2012; 287:11-20. [PubMed: 22069329]</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mannervik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16439663</note>
+	<note type="raw_reference">Park HS, Nam SH, Lee JK, Yoon CN, Mannervik B, Benkovic SJ, Kim HS. Science. 2006; 311:535-538. [PubMed: 16439663]</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shanklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Guy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lindqvist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="18559" to="18563" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19363032</note>
+	<note type="raw_reference">Shanklin J, Guy JE, Mishra G, Lindqvist Y. J Biol Chem. 2009; 284:18559-18563. [PubMed: 19363032]</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Broun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shanklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Whittle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Somerville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1315" to="1317" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 9812895</note>
+	<note type="raw_reference">Broun P, Shanklin J, Whittle E, Somerville C. Science. 1998; 282:1315-1317. [PubMed: 9812895]</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Broadwater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Whittle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shanklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="15613" to="15620" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11864983</note>
+	<note type="raw_reference">Broadwater JA, Whittle E, Shanklin J. J Biol Chem. 2002; 277:15613-15620. [PubMed: 11864983]</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Filippi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Duñach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Silman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="page" from="181" to="196" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22387469</note>
+	<note type="raw_reference">Ben-David M, Elias M, Filippi JJ, Duñach E, Silman I, Sussman JL, Tawfik DS. J Mol Biol. 2012; 418:181-196. [PubMed: 22387469]</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">De</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Sadowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="4894" to="4900" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 8759853</note>
+	<note type="raw_reference">De Souza ML, Sadowsky MJ, Wackett LP. J Bacteriol. 1996; 178:4894-4900. [PubMed: 8759853]</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Jet</forename><surname>Van Hylckama Vlieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lutje</forename><surname>Spelberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Smilda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Poelarends</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Bosma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Merode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aej</forename><surname>Fraaije</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="5058" to="5066" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11489858</note>
+	<note type="raw_reference">Van Hylckama Vlieg JET, Tang L, Lutje Spelberg JH, Smilda T, Poelarends GJ, Bosma T, van Merode AEJ, Fraaije MW, Janssen DB. J Bacteriol. 2001; 183:5058-5066. [PubMed: 11489858]</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jjw</forename><surname>Tiesinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Rozeboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Kalk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Embo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jjw</forename><surname>Tiesinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Villa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Dijkstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">343</biblScope>
+			<date type="published" when="2003">2003. 2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Jong RM, Tiesinga JJW, Rozeboom HJ, Kalk KH, Tang L, Janssen DB, Dijkstra BW. EMBO J. 2003; 22:4933-4944. [PubMed: 14517233] b) de Jong RM, Tiesinga JJW, Villa A, Tang L, Janssen DB, Dijkstra BW. J Am Chem Soc. 2005; 127:13 338-13 343.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Jhl</forename><surname>Spelberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hylckama</forename><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jet</forename><surname>Vlieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kellogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hasnaoui-Dijoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Elenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jhl</forename><surname>Spelberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Bio Chem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1048" to="1051" />
+			<date type="published" when="2001">2001. 2008</date>
+		</imprint>
+	</monogr>
+	<note>Org Lett.</note>
+	<note type="raw_reference">Spelberg JHL, van Hylckama Vlieg JET, Tang L, Janssen DB, Kellogg RM. Org Lett. 2001; 3:41-43. [PubMed: 11429866] b) Hasnaoui-Dijoux G, Elenkov MM, Spelberg JHL, Hauer B, Janssen DB. Chem Bio Chem. 2008; 9:1048-1051.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gavrilovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Whitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="338" to="344" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17322872</note>
+	<note type="raw_reference">Fox RJ, Davis SC, Mundorff EC, Newman LM, Gavrilovic V, Ma SK, Chung LM, Ching C, Tam S, Muley S, Grate J, Gruber J, Whitman JC, Sheldon RA, Huisman GW. Nat Biotechnol. 2007; 25:338-344. [PubMed: 17322872]</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Theor Biol</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="589" to="597" />
+			<date type="published" when="2003">2005. 2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15757678] b) Fox RJ Protein Eng PubMed: 12968076</note>
+	<note type="raw_reference">Fox RJ. J Theor Biol. 2005; 234:187-199. [PubMed: 15757678] b) Fox RJ. Protein Eng. 2003; 16:589-597. [PubMed: 12968076]</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raj</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Withers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="352" to="354" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jahn M, Marles J, Warren RAJ, Withers SG. Angew Chem Int Ed. 2003; 42:352-354.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Witczak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="165" to="178" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 10189230</note>
+	<note type="raw_reference">Witczak ZJ. Curr Med Chem. 1999; 6:165-178. [PubMed: 10189230]</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dhg</forename><surname>Crout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Kempton JB, Withers SG</title>
+		<imprint>
+			<date type="published" when="1992">1994. 1992</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9961" to="9969" />
+		</imprint>
+	</monogr>
+	<note>Biochemistry. PubMed: 1390780</note>
+	<note type="raw_reference">Vic G, Crout DHG. Tetrahedron:Asymmetry. 1994; 5:2513-2516.b) Kempton JB, Withers SG. Biochemistry. 1992; 31:9961-9969. [PubMed: 1390780]</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Koshland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Rev</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="416" to="436" />
+			<date type="published" when="1953">1953</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koshland DE. Biol Rev. 1953; 28:416-436.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mülleggger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raj</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Withers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prot Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="33" to="40" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mülleggger J, Jahn M, Chen H-M, Warren RAJ, Withers SG. Prot Eng Des Sel. 2005; 18:33-40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bartley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kodadek</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Science</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Hamaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Djukic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kodadek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Woo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="9194" to="9199" />
+			<date type="published" when="1992">1992. 1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maxwell JL, Brown KC, Bartley DW, Kodadek T. Science. 1992; 256:1544-1547. [PubMed: 17836323] b) Wolf JR, Hamaker CG, Djukic JP, Kodadek T, Woo LK. J Am Chem Soc. 1995; 117:9194-9199.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xz ;</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Tsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Che</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="11320" to="11331" />
+			<date type="published" when="2002">2002. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Chem Eur J. PubMed: 23818419</note>
+	<note type="raw_reference">Li Y, Huang J-S, Zhou ZY, Che CM, You XZ. J Am Chem Soc. 2002; 124:13185-13193. [PubMed: 12405847] b) Guo Z, Guan X, Huang JS, Tsui WM, Lin Z, Che CM. Chem Eur J. 2013; 19:11320-11331. [PubMed: 23818419]</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Breslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Gellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="6728" to="6729" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Breslow R, Gellman SH. J Am Chem Soc. 1983; 105:6728-6729.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Swastits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Breslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Gellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="6427" to="6428" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swastits EW, Dawson JH, Breslow R, Gellman SH. J Am Chem Soc. 1985; 107:6427-6428.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Brustad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="307" to="310" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23258409</note>
+	<note type="raw_reference">Coelho PS, Brustad EM, Kannan A, Arnold FH. Science. 2013; 339:307-310. [PubMed: 23258409]</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Dodani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Meyerowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2259" to="2267" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 25182183</note>
+	<note type="raw_reference">Heel T, Mcintosh JA, Dodani SC, Meyerowitz JT, Arnold FH. ChemBioChem. 2014; 15:2259- 2267. [PubMed: 25182183]</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baril</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Brustad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="485" to="487" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23792734</note>
+	<note type="raw_reference">Coelho PS, Wang ZJ, Ener ME, Baril SA, Kannan A, Arnold FH, Brustad EM. Nat Chem Biol. 2013; 9:485-487. [PubMed: 23792734]</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="6928" to="6931" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang ZJ, Renata H, Peck NE, Farwell CC, Coelho PS, Arnold FH. Angew Chem Int Ed. 2014; 126:6928-6931.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Kitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat Sci Tech</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3640" to="3643" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renata H, Wang ZJ, Kitto RZ, Arnold FH. Cat Sci Tech. 2014; 4:3640-3643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Renata</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="598" to="601" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24490022] 50</note>
+	<note type="raw_reference">Wang ZJ, Peck NE, Renata H, Arnold FH. Chem Sci. 2013; 5:598-601. [PubMed: 24490022] 50.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fh ;</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hyster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fh ;</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hyster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Buller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja509308v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="8766" to="8771" />
+			<date type="published" when="2013">2013. 2014</date>
+		</imprint>
+	</monogr>
+	<note>J Am Chem Soc. J Am Chem Soc</note>
+	<note type="raw_reference">McIntosh JA, Coelho PS, Farwell CC, Wang ZJ, Lewis JC, Brown TR, Arnold FH. Angew Chem Int Ed. 2013; 52:9309-9312.b) Farwell CC, McIntosh JA, Hyster TK, Wang ZJ, Arnold FH. J Am Chem Soc. 2014; 136:8766-8771. [PubMed: 24901646] c) Hyster TK, Farwell CC, Buller AR, McIntosh JA, Arnold FH. J Am Chem Soc. accepted. 10.1021/ja509308v</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bordeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acs Catal ; Bordeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="5697" to="5704" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24890656</note>
+	<note type="raw_reference">Singh R, Bordeaux M, Fasan R. ACS Catal. 2014; 4:546-552. [PubMed: 24634794] b) Bordeaux M, Singh R, Fasan R. Bioorg Med Chem. 2014; 22:5697-5704. [PubMed: 24890656]</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Syrén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="293" to="300" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23485581</note>
+	<note type="raw_reference">Hammer SC, Syrén PO, Seitz M, Nestl BM, Hauer B. Curr Opin Chem Biol. 2013; 17:293-300. [PubMed: 23485581]</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Wendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lenhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1811" to="1815" />
+			<date type="published" when="1997">1997. 1997</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 9070455] b) Wendt KU Science. PubMed: 9295270</note>
+	<note type="raw_reference">Wendt KU, Lenhart A, Schulz GE, Feil C, Poralla K. Protein Sci. 1997; 6:722-724. [PubMed: 9070455] b) Wendt KU. Science. 1997; 277:1811-1815. [PubMed: 9295270]</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Chem Hoppe-Seyler</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<biblScope unit="page" from="723" to="730" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 3768141] 55</note>
+	<note type="raw_reference">Neumann S, Simon H. Biol Chem Hoppe-Seyler. 1986; 367:723-730. [PubMed: 3768141] 55.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Syren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klebensberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chembiochem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klebensberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebenhaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Catal B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="72" to="77" />
+			<date type="published" when="2012">2013. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seitz M, Syren PO, Steiner L, Klebensberger J, Nestl BM, Hauer B. ChemBioChem. 2013; 14:436-439. [PubMed: 23418022] b) Seitz M, Klebensberger J, Siebenhaller S, Breuer M, Siedenburg G, Jendrossek D, Hauer B. J Mol Catal B Enzym. 2012; 84:72-77.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yonemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoshino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Biomol Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="440" to="446" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22068606</note>
+	<note type="raw_reference">Yonemura Y, Ohyama T, Hoshino T. Org Biomol Chem. 2012; 10:440-446. [PubMed: 22068606]</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Juhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klebensberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1055" to="1062" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22156419</note>
+	<note type="raw_reference">Siedenburg G, Jendrossek D, Breuer M, Juhl B, Pleiss J, Seitz M, Klebensberger J, Hauer B. Appl Environ Microbiol. 2012; 78:1055-1062. [PubMed: 22156419]</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1571" to="1580" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22526778</note>
+	<note type="raw_reference">Siedenburg G, Breuer M, Jendrossek D. Appl Microbiol Biotechnol. 2013; 97:1571-1580. [PubMed: 22526778]</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marjanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dominicus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.1719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Bio</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hammer SC, Marjanovic A, Dominicus JM, Nestl BM, Hauer B. Nat Chem Bio. 2014 accepted. 10.1038/nchembio.1719</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rb ;</forename><surname>Kinnel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Blize</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Browder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fg ;</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Surendra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ej ;</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schafroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sarlah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Krautwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Carreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="20276" to="20278" />
+			<date type="published" when="1966">1966. 1998. 2010. 2011. 2012</date>
+		</imprint>
+	</monogr>
+	<note>J Org Chem J Am Chem Soc PubMed: 20369901 Org Lett. J Am Chem Soc PubMed: 23193947</note>
+	<note type="raw_reference">Johnson WS, Kinnel RB. J Am Chem Soc. 1966; 88:3861-3862. [PubMed: 5916378] b) Bender JA, Blize AE, Browder CC, Giese S, West FG. J Org Chem. 1998; 63:2430-2431. [PubMed: 11672099] c) Knowles RR, Lin S, Jacobsen EN. J Am Chem Soc. 2010; 132:5030-5032. [PubMed: 20369901] d) Qiu WW, Surendra K, Yin L, Corey EJ. Org Lett. 2011; 13:5893-5895. [PubMed: 21992657] e) Schafroth MA, Sarlah D, Krautwald S, Carreira EM. J Am Chem Soc. 2012; 134:20276-20278. [PubMed: 23193947]</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Vaillancourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="10111" to="10116" />
+			<date type="published" when="2005">2005</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16002467</note>
+	<note type="raw_reference">Vaillancourt FH, Yin J, Walsh CT. Proc Natl Acad Sci USA. 2005; 102:10111-10116. [PubMed: 16002467]</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Srnec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Alp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bollinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="320" to="323" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 23868262</note>
+	<note type="raw_reference">Wong SD, Srnec M, Matthews ML, Liu LV, Kwak Y, Park K, Bell CB III, Alp EE, Zhao J, Yoda Y, Kitao S, Seto M, Krebs C, Bollinger JM, Solomon EI. Nature. 2013; 499:320-323. [PubMed: 23868262]</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Vaillancourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Vosburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garneau-Tsodikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="3364" to="3378" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 16895332</note>
+	<note type="raw_reference">Vaillancourt FH, Yeh E, Vosburg DA, Garneau-Tsodikova S, Walsh CT. Chem Rev. 2006; 106:3364-3378. [PubMed: 16895332]</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Booker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bollinger</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="17723" to="17728" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19815524</note>
+	<note type="raw_reference">Matthews ML, Neumann CS, Miles LA, Grove TL, Booker SJ, Krebs C, Walsh CT, Bollinger JM Jr. Proc Natl Acad Sci USA. 2009; 106:17723-17728. [PubMed: 19815524]</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Gorres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Raines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19890397</note>
+	<note type="raw_reference">Gorres KL, Pua KH, Raines RT. PLoS ONE. 2009; 4:e7635. [PubMed: 19890397]</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Costas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Que</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="939" to="986" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 14871146</note>
+	<note type="raw_reference">Costas M, Mehn MP, Jensen MP, Que L Jr. Chem Rev. 2004; 104:939-986. [PubMed: 14871146]</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Layne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bollinger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="209" to="217" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews ML, Chang W-C, Layne AP, Miles LA, Krebs C, Bollinger JM. 2014; 10:209-217.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Leggans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Boger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Waser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nambu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Carreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="8294" to="8295" />
+			<date type="published" when="2005">2012. 2005</date>
+		</imprint>
+	</monogr>
+	<note>Org Lett. PubMed: 15941257</note>
+	<note type="raw_reference">Leggans EK, Barker TJ, Duncan KK, Boger DL. Org Lett. 2012; 14:1428-1431. [PubMed: 22369097] b) Waser J, Nambu H, Carreira EM. J Am Chem Soc. 2005; 127:8294-8295. [PubMed: 15941257]</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Market Reporter</title>
+		<imprint>
+			<biblScope unit="page" from="9" to="11" />
+			<date type="published" when="1999-06-14">Jun 14.1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boswell C. Chem Market Reporter. Jun 14.1999 :9-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drauz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chimia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="310" to="315" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drauz K. Chimia. 1997; 51:310-315.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc Chem Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="49" to="59" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11170356</note>
+	<note type="raw_reference">Tai CH, Cook PF. Acc Chem Res. 2001; 34:49-59. [PubMed: 11170356]</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Giovanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sh ;</forename><surname>Mudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Comm</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="281" to="285" />
+			<date type="published" when="1968">1968. 1968</date>
+		</imprint>
+	</monogr>
+	<note>Biochem Biophys Res Comm. PubMed: 5656078</note>
+	<note type="raw_reference">Giovanelli J, Mudd SH. Biochem Biophys Res Comm. 1968; 31:275-280. [PubMed: 5656077] b) Thompson JF, Moore DP. Biochem Biophys Res Comm. 1968; 31:281-285. [PubMed: 5656078]</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Murakoshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1089" to="1104" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ikegami F, Murakoshi I. Phytochemistry. 1994; 35:1089-1104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Murakoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaneko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Koide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ikegami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2759" to="2763" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murakoshi I, Kaneko M, Koide C, Ikegami F. Phytochemistry. 1986; 25:2759-2763.</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I ;</forename><surname>Murakoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Murakoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaneko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1907" to="1911" />
+			<date type="published" when="1985">1990. 1985</date>
+		</imprint>
+	</monogr>
+	<note>Phytochemistry</note>
+	<note type="raw_reference">Ikegami F, Mizuno M, Kihara M, Murakoshi I. Phytochemistry. 1990; 29:3461-3465.c) Murakoshi I, Ikegami F, Kaneko M. Phytochemistry. 1985; 24:1907-1911.</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Thp</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12640465</note>
+	<note type="raw_reference">Maier THP. Nat Biotechnol. 2003; 21:422-427. [PubMed: 12640465]</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Oehlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G ;</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Claus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Zocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thp</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="8620" to="8626" />
+			<date type="published" when="2005">2007. 2005</date>
+		</imprint>
+	</monogr>
+	<note>J Biol Chem PubMed: 15952768</note>
+	<note type="raw_reference">Schnell R, Oehlmann W, Singh M, Schneider G. J Biol Chem. 2007; 282:23473-23481. [PubMed: 17567578] b) Claus MT, Zocher GE, Maier THP, Schulz GE. Biochemistry. 2005; 44:8620-8626. [PubMed: 15952768]</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Niks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trm</forename><surname>Barends</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schlichting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biochem Sci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="254" to="264" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18486479</note>
+	<note type="raw_reference">Dunn MF, Niks D, Ngo H, Barends TRM, Schlichting I. Trends Biochem Sci. 2008; 33:254-264. [PubMed: 18486479]</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron: Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2787" to="2792" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Phillips RS. Tetrahedron: Asymmetry. 2004; 15:2787-2792.</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Clemente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Betker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Barbas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D ;</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Lassila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herschlag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D ;</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Çelebi-Ölçüm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="5700" to="5725" />
+			<date type="published" when="2008">2008. 2012. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Science Prot Sci.</note>
+	<note type="raw_reference">a) Jiang L, Althoff EA, Clemente FR, Doyle L, Rothlisberger D, Zanghellini A, Gallaher JL, Betker JL, Tanaka F, Barbas CF III, Hilvert D, Houk KN, Stoddard BL, Baker D. Science. 2008; 319:1387-1391. [PubMed: 18323453] b) Althoff EA, Wang L, Jiang L, Giger L, Lassila JK, Wang Z, Smith M, Hari S, Kast P, Herschlag D, Hilvert D, Baker D. Prot Sci. 2012; 21:717-726.c) Kiss G, Çelebi-Ölçüm N, Moretti R, Houk KN, Baker D. Angew Chem Int Ed. 2013; 52:5700-5725.</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Prot</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sci</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1817" to="1819" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker D. Prot Sci. 2010; 19:1817-1819.</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="126" to="134" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24658056</note>
+	<note type="raw_reference">McIntosh JA, Farwell CC, Arnold FH. Curr Opin Chem Biol. 2014; 19:126-134. [PubMed: 24658056]</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2012">2012. 32011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22359655</note>
+	<note type="raw_reference">Chakraborty S, Rao BJ. PLoS ONE. 2012; 7:e32011. [PubMed: 22359655]</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dürrenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tr ;</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roelfes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 24608081] b Curr Opin Chem Biol PubMed: 24608083</note>
+	<note type="raw_reference">a) Dürrenberger M, Ward TR. Curr Opin Chem Biol. 2014; 19:99-106. [PubMed: 24608081] b) Bos J, Roelfes G. Curr Opin Chem Biol. 2014; 19:135-143. [PubMed: 24608083]</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blomberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Medicine (2004), and Sciences (2008), and was awarded the National Medal of Technology and the Draper Prize in Engineering</title>
+		<imprint>
+			<date type="published" when="2000">2013. 2000. 2011</date>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="221" to="228" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 23498973</note>
+	<note type="raw_reference">Kries H, Blomberg R, Hilvert D. Curr Opin Chem Biol. 2013; 17:221-228. [PubMed: 23498973] (2000), Medicine (2004), and Sciences (2008), and was awarded the National Medal of Technology and the Draper Prize in Engineering in 2011.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

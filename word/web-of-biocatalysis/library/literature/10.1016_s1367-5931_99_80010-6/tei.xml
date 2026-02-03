@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directed evolution is being used increasingly in academic and industrial laboratories to modify and improve important biocatalysts. Significant advances during this period of review include compartmentalization of genes and the in vitro translation apparatus in emulsions, as well as several impressive demonstrations of catalyst improvement. Shuffling of homologous genes offers a new way to utilize natural diversity in the evolution of novel catalysts</title>
+				<funder>
+					<orgName type="full">Office of Naval Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Army Research Office, USA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Directed evolution is being used increasingly in academic and industrial laboratories to modify and improve important biocatalysts. Significant advances during this period of review include compartmentalization of genes and the in vitro translation apparatus in emulsions, as well as several impressive demonstrations of catalyst improvement. Shuffling of homologous genes offers a new way to utilize natural diversity in the evolution of novel catalysts</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1367-5931</idno>
+					</monogr>
+					<idno type="MD5">A275E68C48D07CDD8CFF1366AC7AF27B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Evolution has given rise to a fantastic array of biological structures. Those who wish to redesign these molecules are now implementing evolutionary algorithms of mutation and selection to obtain new functional features, while minimizing constraints on the possible molecular solutions [1 • ]. This directed evolution approach contrasts with more conventional 'rational' ones involving iterative computer design and site-directed mutagenesis, processes often rendered useless by the near-complete absence of the detailed structural and mechanistic information required. Various approaches to directing protein evolution are being practiced successfully in a growing number of academic and industrial laboratories. These approaches, which pay due respect to the extreme complexity of the relationship between protein structure and function, promise to fill at least some of the gap between our primitive state of molecular level understanding of proteins and the strong and very widespread desire to engineer improved ones.</p><p>The laboratory equivalent of Darwin's survival of the fittest is mutation and recombination accompanied by selection on the basis of desired functional changes. A relatively simple algorithm of recursive random mutagenesis and recombination can deal with the many important protein engineering problems that fall in the 'tuning' category: enhancing activity or overall performance [2 • ,P1,P2,3], altering substrate specificity [4 • ,5,6 •• ,7,8</p><p>•• ] and enantioselectivity [9 • ,10], improving stability [11 • ,12</p><p>•• ,13 • ] and a variety of other features already exhibited at some, perhaps low, level by the parent enzyme [14 • ,15 •• ,16,17 • ]. Provided the desired enzyme is physically feasible, there appears to be a good chance that the accumulation of mutations identified in a well designed selection or screen will yield it. Once the goal has been identified and the enzyme expressed in a functional form in a suitable host, developing and validating the selection or screen becomes the most challenging part of the evolution experiment. This review covers recent advances in directed evolution related to enzymes and protein expression and stability, and includes new methods of DNA recombination, screening and selection. It does not cover evolution of ligand binding or protein-protein interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Altering biocatalyst specificity</head><p>Enantioselective syntheses represent an important application of biocatalysts. The narrow range of substrates accepted by some enzymes and the less than impressive enantioselectivities exhibited by others frustrate attempts to develop new synthetic applications and to commercialize existing ones. Recent studies, however, show that improving enzyme enantioselectivity is feasible by directed evolution [9 • ,10]. Lipase derived from Pseudomonas aeruginosa hydrolyzes p-nitrophenyl 2-methyldecanoate with only 2% enantiomeric excess (ee) in favor of the (S)-acid. Four successive cycles of error-prone PCR mutagenesis and screening on enantiomerically pure R and S substrates produced a variant that catalyzes this reaction with 81% ee [9 • ]. An esterase derived from Pseudomonas fluorescens was evolved for hydrolysis of an unnatural ester having structural similarity to a key building block in the synthesis of epothilones <ref type="bibr">[10]</ref>. A 25% ee was exhibited by a first-generation variant.</p><p>Because it is difficult to achieve by rational design, tuning substrate specificity is a favorite target for directed evolution. DNA shuffling (an in vitro DNA recombination method in which parent genes are fragmented and reassembled) and selection were used to create an Escherichia coli aminotransferase [4 • ] that accepted β-branched substrates, which were poorly accepted by the wild type enzyme. Earlier attempts to change substrate specificity by site-directed mutagenesis had resulted in limited success. This aminotransferase activity compensated for a defective host ilvE gene (the defect renders the cells unable to make isoleucine, leucine and valine) and allowed cells to grow in minimal media in the absence of these amino acids. Four rounds of shuffling increased the activity of aspartate aminotranferase for valine and 2-oxovaline by five orders of magnitude, while decreasing by 30-fold the activity towards the natural substrate, aspartate.</p><p>Biphenyl-dioxygenase-mediated degradation of polychlorinated biphenyls was improved by shuffling genes from two bacteria, Pseudomonas pseudoalcaligenes and Burkholderia cepacia [6</p><p>•• ]. These biphenyl dioxygenases exhibit differences in substrate specificity, activity and the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Directed evolution of biocatalysts</head><p>Frances H Arnold* and Alexander A Volkov biphenyl ring positions targeted. The bphA1 genes responsible for substrate specificity were recombined, and the resulting bacteria were screened for their ability to degrade biphenyl compounds. The chimeric biphenyl dioxygenases showed substrate preferences differing from both parental enzymes and enhanced degradation activity toward some biphenyl-related compounds. One recombinant gained a novel activity towards the single-ring aromatic compounds toluene and benzene, an activity exhibited by neither parent. It also catalyzed the conversion of indole to indigo, as do many other aromatic dioxygenases, but not the parents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability and expression</head><p>Hilvert and co-workers [18 • ] recently called upon combinatorial methods to assist in a difficult protein design problem, the conversion of a dimeric enzyme into a monomeric one (in order to reduce its size and obtain a minimized functional unit). A short loop was inserted into the middle of one of the helices of the thermostable chorismate mutase from Methanococcus jannaschii to allow the amino-terminal half of the protein to fold back and displace the second molecule of the dimer. Combinatorial mutagenesis and selection were used to identify the specific loop sequence that gives rise to the desired soluble, monomeric version. Saturation mutagenesis of all six loop residues, coupled with selection using an auxotrophic E. coli strain, yielded a number of positive variants, of which 26 were purified and screened by size-exclusion chromatography. One variant whose catalytic properties were very close to wild type, showed no sign of aggregation or dimerization.</p><p>Folding and stability of antibodies and antibody singlechain fragments (scFvs) require the formation of two disulfide bonds. As this is often not possible in the reducing environment of the cell cytoplasm, scFv expression in E. coli is painfully low. Two groups recently reported using directed evolution to improve scFv expression in bacteria. In one approach, the cysteine residues participating in disulfide bond formation were removed by site-directed mutagenesis, and compensating mutations were accumulated by directed evolution [14 • ]. Mutant antibodies were selected for their ability to bind antigen, overexpressed in E. coli and characterized by urea equilibrium denaturation, yielding four disulfide-free variants with stabilities close to that of the wild type scFv. Another approach to stabilize and express an scFv involved no explicit manipulation of the disulfide bonds [15 •• ]. Instead, cell survival was used to test for the proper folding of an scFv, which activates inactive β-galactosidase. Only cells with active β-galactosidase are able to grow in a medium with lactose as the only carbon source. Four rounds of mutagenesis and selection produced a scFv that was soluble, correctly folded and overexpressed at high levels in the cytoplasm. One disulfide bond is formed in the evolved protein, while the other exists as free cysteine residues, even under oxidative conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzymes adapted to different temperatures: activity versus thermostability</head><p>Each enzyme exhibits optimal activity in a characteristic temperature range. Increasing or decreasing the temperature invariably results in decreased performance. Enzyme activity/temperature profiles change during evolution, in nature and in the laboratory. Directed evolution yielded a very significant increase in the activity of subtilisin E from Bacillus subtilis over a wide range of temperatures (a 17°C increase in temperature optimum) and a &gt; 200-fold increase in half-life at 65°C [11 • ]. This result was achieved using successive cycles of error-prone PCR (to introduce random point mutations) and DNA recombination by the staggered extension process (StEP) method [19 •• ], combined with screening for residual activity after inactivation at a high temperature (elevated with each successive generation). The resulting enzyme is functionally equivalent to the thermophilic subtilisin E homolog thermitase from Thermoactinomyces vulgaris. Only eight amino acid substitutions were sufficient to create the new 'thermophilic' subtilisin E. (The naturally occurring homologs thermitase and subtilisin E differ at 157 amino acids.)</p><p>Applications for cold-adapted enzymes are appearing in food processing, laundry, environmental remediation and biosynthetic processes. Directed evolution was used recently to create a cold-adapted subtilisin BPN′ with twice the activity of the wild type enzyme at 10°C <ref type="bibr">[5]</ref>.</p><p>Directed evolution has been used to probe the relationship between thermostability and catalytic activity during the evolution of a thermophilic version of the p-nitrobenzyl esterase from B. subtilis [12 •• ]. A 14°C increase in melting temperature (Tm) was achieved after four cycles of random mutagenesis and one of DNA shuffling. By screening simultaneously for thermostability and activity at 30°C, it was possible to create a variant that was both thermostable and retained its activity at lower temperatures. Catalytic activity increased with temperature, as expected, such that at high temperatures (near the Tm) the activity was ∼20-fold that of wild type at low temperatures. This, and the study of subtilisin E [11 • ], clearly demonstrate that thermostability and catalytic activity at low temperatures are not mutually exclusive: acquisition of thermostability need not come at the cost of catalytic activity, for example. Furthermore, it is not necessary to screen directly for activity at high temperatures in order to obtain 'thermophilic' enzymes. Screening for improved thermostability with retention or improvement of activity at lower temperature should be sufficient.</p><p>The thermostability of 3-isopropylmalate dehydrogenase (IPMDH) from B. subtilis was improved by directed evolution using an in vivo selection [13 • ]. This dehydrogenase gene, when integrated into the chromosome of an auxotrophic strain of Thermus thermophilus, complements a defective leuB gene and supports cell growth in minimal media. Spontaneous mutations were accumulated at lower temperatures; thermostable variants were then selected by growth at elevated temperatures. After three cycles, an IPMDH variant allowed bacterial growth at 70°C, a 14°C increase over the starting conditions. The increased thermostability of this mutant, which had three amino acid substitutions, also did not come at the cost of its activity at lower temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improving enzyme performance in non-natural applications</head><p>FLP recombinase from Saccharomyces cerevisiae is used in genetic experiments involving mutations such as chromosomal translocations, large deletions and site-specific integrations in order to manipulate DNA in a site-specific fashion. This yeast enzyme performs poorly at physiological temperatures in mammalian systems, however. Repeated cycles of error-prone PCR, DNA shuffling and screening were used to improve the performance of FLP recombinase [2 • ]. The best variant showed a fourfold increase in recombinase activity at 37°C and a tenfold increase at 40°C. This improved enzyme did not start to denature until ~37°C, while wild type FLP recombinase already shows signs of denaturation at 20°C. Increased recombination efficiency was confirmed in mammalian cells.</p><p>Laundry applications make tough demands on enzymes, molecular solutions for which are not always apparent. The lipase from Thermomyces lanuginosa was successfully evolved to improve its performance in laundry detergents <ref type="bibr">[P2,P3]</ref>. A combination of random mutagenesis of the entire gene and site-directed mutagenesis of selected regions of the protein, followed by in vivo recombination in Saccharomyces cerevisiae, produced a variant with the desired wash properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New methods for DNA recombination</head><p>Recombination of mutations identified in parallel screens or selections can significantly accelerate laboratory evolution efforts. The <ref type="bibr">Stemmer DNA shuffling method [20,</ref><ref type="bibr" target="#b13">P4]</ref> has been supplemented with two new methods for in vitro recombination, the StEP [19 •• ] and random-priming recombination [21 • ]. StEP is based on a PCR-like reaction with very short annealing and extension steps. The very short cycles prematurely terminate primer extension and create truncated products that randomly anneal to the parent strands in the next cycle, creating recombinant sequences. This method offers the advantage over DNA shuffling that there is no need to fragment and reassemble the genes, procedures which often present technical difficulties. Instead, a PCR reaction containing the parental genes is run with multiple very short cycles until the primers extend to form a full-length product. The optimal cycling conditions depend on the base composition and the degree of recombination desired. In general, the annealing temperature should be decreased with decreasing sequence identity between parental genes, and cycles should be shortened for recombining closely spaced mutations.</p><p>Wilson and co-workers [22] reported a conceptually similar approach using a double-cycle method involving regular PCR cycles preceded by very short cycles with only the annealing step. This paper compares the recombination frequency in traditional PCR with double-cycle amplification. Recombination frequency for two markers 282 bp apart increases from 1% and 7% in PCR to 14% and 19% in the double-cycle protocol, using Taq and Vent DNA polymerases, respectively. Vent polymerase is known to be slower than Taq polymerase, which explains the higher recombination frequencies when using Vent polymerase.</p><p>Random-priming recombination [21 • ] offers an alternative to the DNase digestion step in the Stemmer DNA shuffling method. Short, random primers are annealed to the template and extended by polymerase to create random fragments suitable for reassembly. The fragment length can be controlled by changing the concentration of primers in the reaction mixture. Unlike DNA shuffling and StEP recombination, this method does not require a thermostable polymerase -any polymerase with the desired fidelity and processivity can be used. Furthermore, RNA templates or DNA-RNA hybrids can be recombined, at least in principle, by this approach.</p><p>In yeast, in vivo recombination is particularly simple <ref type="bibr">[P2,P3]</ref>. Transformation of S. cerevisiae cells with a linearized vector and PCR fragments of the target genes yields a high level of recombined products by homologous recombination.</p><p>In vitro DNA recombination has mainly been used to recombine gene variants generated by random mutagenesis; however, naturally occurring homologous genes with highly similar sequences and functions present an enormous 'database' for directed evolution by recombination to create new, chimeric enzymes [6 •• ,8 •• ,23]. This approach of 'family shuffling' exploits existing sources of genetic variability that have already been selected for functionality in nature. It is possible that shuffling genes within families to access remote, unexplored regions of sequence space will yield proteins with a variety of desirable, but as yet undiscovered, functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Screening and selection</head><p>A major challenge in directed evolution is to establish a screen or selection that is sensitive to the properties of interest. True selections in which only those clones carrying a desired improvement survive or grow faster are rare, usually highly specific to one problem, and difficult to implement productively in directed evolution. When available and validated, however, they can deliver dramatic results [4 • ,15 •• ,18 • ]. Genetic complementations, which provide a rapid way of identifying clones that retain at least some level of activity, have also been useful, particularly for identifying the relatively few functional sequences in heavily mutated proteins <ref type="bibr">[24,</ref><ref type="bibr" target="#b1">25]</ref>.</p><p>Selection is normally used for evolving intracellular enzymes, for which the required link between cell survival and enzyme activity is easier to implement. A recent study shows one relatively simple way of linking cell growth to a secreted enzyme (i.e. subtilisin) [17 • ]. Cells were grown in hollow fibers at an average density of one clone per fiber, using bovine serum albumin as the sole source of nitrogen. Cells secreting more subtilisin or more active enzyme should be able to obtain more nitrogen and grow faster. The hollow fibers provide tiny compartments to limit cross-feeding. One round of mutagenesis and enrichment produced a clone with fivefold increased protease production, found to arise from mutations outside the target gene.</p><p>Selection also requires that the target enzymatic activity does not interfere with cellular metabolism and that it can be distinguished from the background of all other cell reactions. In vitro translation systems such as those recently reported <ref type="bibr" target="#b2">[26,</ref><ref type="bibr" target="#b3">27]</ref> may provide the basis for protein evolution in the absence of cells. A recent paper describes how in vitro evolution might be carried out in a water-in-oil emulsion and proposes a selection strategy based on gene modification by its product [28 • ] (Figure <ref type="figure" target="#fig_0">1</ref>). The tiny aqueous droplets in water-in-oil emulsions can provide compartmentation that is needed to link the genetic material to the expressed enzyme. In this study, a cell-free transcription/translation-coupled system was mixed with mineral oil to form an emulsion containing one gene (on average) per droplet. Expression of a functional methyltransferase resulted in site-specific methylation of the template gene and its protection from digestion by HaeIII endonuclease. One cycle was able to achieve an enrichment factor of at least 5,000, and two cycles were enough to select the HaeIII methyltransferase gene from a 10 7 -fold excess of other DNA.</p><p>An interesting new approach to selection for stabilized proteins links the protease resistance of the target protein to the infectivity of a filamentous phage [29 • ]. The protein of interest is fused with the phage minor coat protein in such a way that the phage will infect cells only if the minor coat protein is intact and folded <ref type="bibr" target="#b8">[30]</ref>. Selection of stabilized variants then consists of proteolytic treatment, infection and phage propagation. Application of one round of this selection to a library of RNaseT1 mutants yielded several stabilized proteins. This method does not depend in any way on activity, and further screening of the stabilized variants would be necessary to retain the catalytic activity during evolution of thermostability (see above).</p><p>A screen is required when the desired activity or feature cannot be linked easily to cell survival. Screens are more versatile than selections. The throughput, however, is generally relatively low and inversely proportional to sensitivity to the desired property. A quantitative, colorimetric pH-based assay was developed for screening enantioselectivity of hydrolytic reactions [31 • ]. 72 commercial lipases and esterases were screened using this approach in order to identify the one with the best enantioselectivity toward solketal butyrate, an important building block in the synthesis of pharmaceuticals and biologically active compounds. The authors provide a Directed evolution of biocatalysts Arnold and Volkov 57 Gene Enzyme RNA water-in-oil emulsion Substrate Product Gene library Gene encoding the desired activity (a) (b) (c) (d) (e) (f) Enzyme lucid discussion of the sensitivity of the assay and the selection of proper buffer-indicator pairs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Despite significant progress during the review period, directed evolution is still clearly in its infancy; many new applications will appear in coming years, as will better technologies and evolutionary strategies. The potential to solve difficult design problems such as the evolution of new catalytic activities, has still hardly been tested. The progress this field has enjoyed reflects the rapid development of new experimental methods for creating genetic diversity and for searching through large populations for improved functions. Further advances in screening and selection technologies will reduce the time and cost of the experiments and will make it possible to tackle ever more difficult problems involving multiple enzymes, multicomponent enzymes, and the creation of new functional molecules.</p><p>• of special interest</p><p>•• of outstanding interest 1. Arnold FH: Design by directed evolution. Accounts Chem Res • 1998, 31:125-131. This is a short, readable account of directed enzyme evolution, as practiced in one laboratory. 2. Buchholz F, Angrand PO, Stewart AF: Improved properties of FLP • recombinase evolved by cycling mutagenesis. Nat Biotechnol 1998, 16:657-662. This paper describes the performance of a thermolabile yeast FLP recombinase that is improved in mammalian cells. 3. Taguchi S, Ozaki A, Momose H: Engineering of a cold-adapted protease by sequential random mutagenesis and a screening system. Appl Environ Microbiol 1998, 64:492-495. 4. Yano T, Oue S, Kagamiyama H: Directed evolution of an aspartate • aminotransferase with new substrate specificities. Proc Natl Acad Sci USA 1998, 95:5511-5515. A nice example of the directed evolution of enzyme substrate specificity; a rational design approach to this had previously failed. 5. Liu DR, Magliery TJ, Pastrnak M, Schultz PG: Engineering a tRNA and aminoacyl-tRNA synthetase for the site-specific incorporation of unnatural amino acids into proteins in vivo. Proc Natl Acad Sci USA 1997, 94:10092-10097. 6. Kumamaru T, Suenaga H, Mitsuoka M, Watanabe T, Furukawa K: •• Enhanced degradation of polychlorinated biphenyls by directed evolution of biphenyl dioxygenase. Nat Biotechnol 1998, 16:663-666. Shuffling of two highly similiar biphenyl dioxygenase genes created variants with altered substrate specificities and a novel degradation activity. 7. Van Kampen MD, Dekker N, Egmond MR, Verheij HM: Substrate specificity of Staphylococcus hyicus lipase and Staphylococcus aureus lipase as studied by in vivo chimeragenesis. Biochemistry 1998, 37:3459-3466. 8. Crameri A, Raillard SA, Bermudez E, Stemmer WP: DNA shuffling of •• a family of genes from diverse species accelerates directed evolution. Nature 1998, 391:288-291. A novel approach to exploit the sequence diversity existing in families of homologous proteins for directed evolution. In vitro shuffling of four related cephalosporinase genes and selection for resistance to a drug is shown to generate a chimera with significantly higher activity towards that drug. 9. Reetz MT, Zonta A, Schimossek K, Liebeton K, Jaeger KE: Creation of • enantioselective biocatalysts for organic chemistry by in vitro evolution. Angew Chem Int Ed Engl 1997, 36:2830-2832. Lipase enantioselectivity was improved significantly during a few cycles of error-prone PCR and screening of the pure substrate enantiomers. 10. Bornscheuer UT, Altenbuchner J, Meyer HH: Directed evolution of an esterase for the stereoselective resolution of a key intermediate in the synthesis of epothilones. Biotechnol Bioeng 1998, 58:554-559. 11. Zhao H, Arnold FH: Directed evolution converts subtilisin E into a • functional equivalent of thermitase. Protein Eng 1999, 12:47-52. Several generations of PCR mutagenesis and staggered extention process recombination with screening created a highly stable, highly active subtilisin E variant. Eight amino acid substitutions create the variant, which is equivalent to the thermophilic homolog thermitase. The naturally occuring mesophilic and thermophilic enzymes differ at 157 amino acids. 12. Giver L, Gershenson A, Freskgard PO, Arnold FH: Laboratory •• evolution of a thermostable enzyme. Proc Natl Acad Sci USA 1998, 95:12809-12813. Directed evolution was applied to simultaneously improve enzyme activity at low temperatures and improve thermostability, demonstrating that these two properties are not mutually exclusive. 13. Akanuma S, Yamagishi A, Tanaka N, Oshima T: Serial increase in the • thermal stability of 3-isopropylmalate dehydrogenase from Bacillus subtilis by experimental evolution. Protein Sci 1998, 7:698-705.</p><p>Expression and selection in a thermophilic host was used to obtain a substantial increase in the thermostability of a mesophilic enzyme. This approach, while powerful, is not generally applicable to stabilization of a wide range of proteins. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 A</head><label>1</label><figDesc>Figure 1 A novel approach to compartmentalization and selection for in vitro evolution. (a) A gene library is expressed in an in vitro transcription/translation reaction and (b) distributed in a water-in-oil emulsion. (c) In the proposed selection, active enzyme variants modify the DNA template to which they are coupled through compartmentalization in the droplet. (d) The emulsion is broken and (e) the modified DNA templates purified to enrich for genes coding for active enzymes.(f) The entire cycle can be repeated to achieve higher enrichment. Reproduced with permission from[28 • ].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>14. Proba K, Worn A, Honegger A, Pluckthun A: Antibody scFv • fragments without disulfide bonds made by molecular evolution. J Mol Biol 1998, 275:245-253. Directed evolution was applied to protein folding and stability. Mutations were obtained that compensate for disulfide bonds and allow the protein to be expressed in E. coli.15. Martineau P, Jones P, Winter G: Expression of an antibody fragment•• at high levels in the bacterial cytoplasm. J Mol Biol 1998, 280:117-127. This paper describes a nice selection linking correct folding of an antibody fragment to cell survival, which yielded improved folding and expression of a disulfide-containing protein in the reducing environment of the cytoplasm of E. coli. 16. Patten PA, Howard RJ, Stemmer WP: Applications of DNA shuffling to pharmaceuticals and vaccines. Curr Opin Biotechnol 1997, 8:724-733. 17. Naki D, Paech C, Ganshaw G, Schellenberger V: Selection of a • subtilisin-hyperproducing Bacillus in highly structured environment. Appl Microbiol Biotechnol 1998, 49:290-294. An approach to growing cells in virtual isolation from one other is described, which allows selection for secreted enzymes based on their ability to supply a necessary nutrient. 18. MacBeath G, Kast P, Hilvert D: Redesigning enzyme topology by • directed evolution. Science 1998, 279:1958-1961. This paper describes a difficult design problem, assisted by combinatorial mutagenesis amd selection. 19. Zhao H, Giver L, Shao Z, Affholter JA, Arnold FH: Molecular •• evolution by staggered extension process (StEP) in vitro recombination. Nat Biotechnol 1998, 16:258-261. A new PCR-based in vitro DNA recombination method is described and may provide technical advantages over DNA shuffling for some applications. 20. Stemmer WPC: Rapid evolution of a protein in vitro by DNA shuffling. Nature 1994, 370:389-391. 21. Shao Z, Zhao H, Giver L, Arnold FH: Random-priming in vitro • recombination: an effective tool for directed evolution. Nucleic Acids Res 1998, 26:681-683. An alternative method for in vitro recombination is described and may be particularly useful for some applications. 22. Judo MSB, Wedel AB, Wilson C: Stimulation and suppression of PCRmediated recombination. Nucleic Acid Res 1998, 26:1819-1825. 23. Arnold FH: When blind is better: protein design by evolution (Commentary). Nat Biotechnol 1998, 16:617-618. 24. Christians FC, Loeb LA: Novel human DNA alkyltransferases obtained by random substitution and genetic selection in bacteria. Proc Natl Acad Sci USA 1996, 93:6124-6128.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors wish to acknowledge support for directed evolution research provided by the <rs type="funder">Office of Naval Research</rs> and the <rs type="funder">Army Research Office, USA</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">References and recommended reading Papers of particular interest, published within the annual period of review</title>
+		<imprint/>
+	</monogr>
+	<note>have been highlighted as</note>
+	<note type="raw_reference">References and recommended reading Papers of particular interest, published within the annual period of review, have been highlighted as:</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Probing enzyme quaternary structure by combinatorial mutagenesis and selection</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Macbeath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1757" to="1767" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacBeath G, Kast P, Hilvert D: Probing enzyme quaternary structure by combinatorial mutagenesis and selection. Protein Sci 1998, 7:1757-1767.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">RNA-peptide fusions for the in vitro selection of peptides and proteins</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Szostak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="12297" to="12302" />
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roberts RW, Szostak JW: RNA-peptide fusions for the in vitro selection of peptides and proteins. Proc Natl Acad Sci USA, 94:12297-12302.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">In vitro selection and evolution of functional proteins by using ribosome display</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pluckthun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="4937" to="4942" />
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanes J, Pluckthun A: In vitro selection and evolution of functional proteins by using ribosome display. Proc Natl Acad Sci USA, 94:4937-4942.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Man-made cell-like compartments for • molecular evolution</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="652" to="656" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tawfik DS, Griffiths AD: Man-made cell-like compartments for • molecular evolution. Nat Biotechnol 1998, 16:652-656.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">An in vitro selection system that is proposed for use in directed evolution. An in vitro transcription/translation system is shown to work in a water-in-oil emulsion which provides tiny compartments for selection (or screening). The proposed selection is based on modification of the gene by its product, followed by enrichment of the modified gene</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">An in vitro selection system that is proposed for use in directed evolution. An in vitro transcription/translation system is shown to work in a water-in-oil emulsion which provides tiny compartments for selection (or screening). The proposed selection is based on modification of the gene by its product, fol- lowed by enrichment of the modified gene.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">FX: Selecting proteins with • improved stability by a phage-based method</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pluckthun</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="955" to="960" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sieber V, Pluckthun A, Schmid, FX: Selecting proteins with • improved stability by a phage-based method. Nat Biotechnol 1998, 16:955-960.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">This describes a clever application of selective infective phage technology [30] for selection of stabilized proteins</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">This describes a clever application of selective infective phage technology [30] for selection of stabilized proteins.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Selectively infective phage (SIP) technology: a novel method for in vivo selection of interacting protein-ligand pairs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Spada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pluckthun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="694" to="696" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spada S, Pluckthun A: Selectively infective phage (SIP) technology: a novel method for in vivo selection of interacting protein-ligand pairs. Nat Med 1997, 3:694-696.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Quantitative screening of • hydrolase libraries using pH indicators: identifying active and enantioselective hydrolases</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Janes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lowendahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Eur J</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>Patents</publisher>
+		</imprint>
+	</monogr>
+	<note>in press This contains a useful discussion of screening hydrolase libraries using pH indicators</note>
+	<note type="raw_reference">Janes LE, Lowendahl AC, Kazlauskas RJ: Quantitative screening of • hydrolase libraries using pH indicators: identifying active and enantioselective hydrolases. Chem Eur J 1999, in press. This contains a useful discussion of screening hydrolase libraries using pH indicators. Patents</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Para-nitrobenzyl esterases with enhanced activity in aqueous and nonaqueous media</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<idno>US5741691</idno>
+		<imprint>
+			<date type="published" when="1998-04-21">21 April 1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold FH, Moore JC: Para-nitrobenzyl esterases with enhanced activity in aqueous and nonaqueous media. 21 April 1998; US5741691.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Okkels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thellersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Patkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Borch K: Novel lipolytic enzymes</title>
+		<imprint>
+			<biblScope unit="page">9707202</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okkels JS, Thellersen M, Petersen DA, Svendsen A, Patkar SA, Borch K: Novel lipolytic enzymes. 1997; WO9707202.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Okkels JS: Method for preparing polypeptide variants</title>
+		<author>
+			<persName><surname>P3</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">WO</title>
+		<imprint>
+			<biblScope unit="volume">9707205</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P3. Okkels JS: Method for preparing polypeptide variants. 1997; WO9707205.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Methods for in vitro recombination</title>
+		<author>
+			<persName><forename type="first">Wpc</forename><surname>Stemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">US</title>
+		<imprint>
+			<biblScope unit="volume">5605793</biblScope>
+			<date type="published" when="1997-02-25">25 February 1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stemmer WPC: Methods for in vitro recombination. 25 February 1997; US5605793.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

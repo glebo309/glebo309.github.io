@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Supplemental Information for A kinase-cGAS cascade to synthesize a therapeutic STING activator</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Mcintosh</surname></persName>
+							<email>john.mcintosh1@merck.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Zhijian</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Brian</forename><forename type="middle">M</forename><surname>Andresen</surname></persName>
+							<email>brian.m.andresen@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Nastaran</forename><surname>Salehi Marzijarani</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">M</forename><surname>Marshall</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Margie</forename><surname>Borra-Garske</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><forename type="middle">V</forename><surname>Obligacion</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrick</forename><forename type="middle">S</forename><surname>Fier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Feng</forename><surname>Peng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jacob</forename><forename type="middle">H</forename><surname>Forstater</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">S</forename><surname>Winston</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chihui</forename><surname>An</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wonsuk</forename><surname>Chang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jongwon</forename><surname>Lim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><forename type="middle">A</forename><surname>Huffman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><forename type="middle">P</forename><surname>Miller</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fuh-Rong</forename><surname>Tsay</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Altman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">A</forename><surname>Lesburg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dietrich</forename><surname>Steinhuebel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">Wesley</forename><surname>Trotter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jared</forename><forename type="middle">N</forename><surname>Cumming</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alan</forename><surname>Northrup</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaodong</forename><surname>Bu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">F</forename><surname>Mann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mirlinda</forename><surname>Biba</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kaori</forename><surname>Hiraga</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Grant</forename><forename type="middle">S</forename><surname>Murphy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><forename type="middle">N</forename><surname>Kolev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amanda</forename><surname>Makarewicz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Weilan</forename><surname>Pan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Iman</forename><surname>Farasat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rachel</forename><forename type="middle">S</forename><surname>Bade</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Stone</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Da</forename><surname>Duan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Alvizo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Donovan</forename><surname>Adpressa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Erik</forename><surname>Guetschow</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Erik</forename><surname>Hoyt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Erik</forename><forename type="middle">L</forename><surname>Regalado</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steve</forename><surname>Castro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nelo</forename><surname>Rivera</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fengqiang</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Crespo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Deeptak</forename><surname>Verma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephanus</forename><surname>Axnanda</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zachary</forename><forename type="middle">E X</forename><surname>Dance</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Tschaen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Canada</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Bulger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">D</forename><surname>Sherry</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">D</forename><surname>Truppo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><forename type="middle">T</forename><surname>Ruck</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Louis-Charles</forename><surname>Campeau</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">Jonathan</forename><surname>Bennett</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guy</forename><forename type="middle">R</forename><surname>Humphrey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><forename type="middle">R</forename><surname>Campos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">L</forename><surname>Maddess</surname></persName>
+						</author>
+						<title level="a" type="main">Supplemental Information for A kinase-cGAS cascade to synthesize a therapeutic STING activator</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">90E8C8BC3CB809329A6F71B83D0711EB</idno>
+					<idno type="DOI">10.1038/s41586-022-04422-9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T21:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="31" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="32" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="33" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="34" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="35" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="36" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="37" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="38" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="39" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="40" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="41" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="42" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="43" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="44" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="45" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="46" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="47" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="48" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="49" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="50" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="51" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="52" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="53" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="54" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="55" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="56" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="57" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="58" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="59" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="60" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="61" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="62" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="63" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="64" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="65" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="66" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="67" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="68" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="69" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="70" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="71" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="72" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="73" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="74" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="75" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="76" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="77" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="78" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="79" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="80" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="81" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="82" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="83" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="84" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="85" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="86" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="87" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="88" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="89" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="90" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="91" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="92" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="93" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="94" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="95" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="96" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="97" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="98" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="99" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="100" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="101" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="102" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="103" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table of Contents</head><p>7. Supplementary Tables .............................................................................................................. Table <ref type="table">S1</ref>. Biocatalytic synthesis of phosphodiester-linked CDN analogs using cGAS……79 Table <ref type="table">S2</ref>. Characterization  (m, 1H). <ref type="bibr">13</ref> C NMR (126 MHz, D2O): δ 167.7, 161.0, 152.1, 135.9, 117.4, 92.5 -93.9 (d), 84.7, 82.9 (m), 73.2 (m), 63.5 (m). <ref type="bibr" target="#b83">19</ref> F NMR (470 MHz, D2O) δ -197.9. <ref type="bibr">31</ref>  The cake was deliquored and was dried under vacuum over a stream of nitrogen for 3 hours. The cake was then slurry washed with 6 x 5 vol (6 x 500 mL) of anhydrous ethanol and the resulting cake was allowed to dry under vacuum over a stream of nitrogen for 16 hours. A free-flowing white solid was isolated in 97% yield. <ref type="bibr">1</ref> H NMR (500 MHz, D2O): δ 2.12 (s, 3H). <ref type="bibr">31</ref> P NMR (203 MHz, D2O) δ -2.06. Note: The 1 H NMR and 31 P NMR spectrum were collected at 4 o C to prevent significant hydrolysis of the compound. <ref type="bibr">13</ref> C NMR was not collected due to the hydrolytic instability of the compound.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">General procedure for 2'F-(Sp)-thioATP (6) synthesis with kinase enzymes:</head><p>To a 1L reactor was charged 2′F-thioAMP (8) (23.3 g, 86 wt%), 2′F-(Sp)-thioATP disodium salt, tetrahydrate (0.02 eq, 0.55 g, 85 wt%) and 0.9 M aqueous solution of disodium acetyl phosphate (3.6 eq, 219 mL). To this solution MgCl2 (0.125 eq, 6.9 mL of a 1 M solution) was added, and the pH of the reaction mixture was adjusted to 6.5 with addition of NaOH. The reaction volume was diluted to 500 mL with water. Adenylate kinase (final variant, 100 mg) and acetate kinase (final variant, 200 mg) were charged to the reaction vessel, and the reaction mixture was stirred at 500 rpm at ambient temperature (4-6 h). After achieving full conversion, the reaction was quenched with 37% aq. solution of HCl to bring the pH to 2.0. The resulting slurry was filtered. To the filtrate was charged sodium chloride (2.0 eq, 6.41 g) along with EtOH (505 mL), and crystalline 2′F-(Sp)-thioATP disodium salt tetrahydrate was added as seeds. Once a seed bed was formed, the crystal slurry was stirred overnight. After overnight aging, another portion of EtOH (130 mL) was charged to the slurry over 2 h via an addition funnel. The reaction vessel was cooled to 4°C.</p><p>Another portion of EtOH (500 mL) was charged over 4h via an addition funnel to reach EtOH/water ratio of approximately 2:1. The slurry was filtered, and the wet cake was washed with To a 200 mL reactor was charged 3′F-thioGMP (9) (2.5g, 73.5 wt%, 1.0 eq), followed by addition of acetyl phosphate dilithium salt (2.5 g, 94.9 wt%, 3.6 eq). Next, 2′F-(Sp)-thioATP (140 mg, 81 wt%, 0.05 eq) was charged at 25°C, followed by addition of water (50 mL) and EtOH (12.5 mL), respectively. To the resulting mixture was added MgCl2 (4.33 mL, 1M, 1.0 eq) and KCl (2.16 mL, 3 M, 1.5 eq). The pH was adjusted to 6.7-7.2 using HCl (9 M) solution while the solution was agitated at 25°C. Next, guanylate kinase (final variant, 26.5 mg) and acetate kinase (final variant, 26.5 mg) were charged. The mixture was stirred at 25°C until reaction completion (6-8 h). After completion (~97% conversion), HOAc was added (1.8 mL) to adjust the pH to 4.3-5.0, followed by slow addition of MeCN (~250 mL) to precipitate the product. The slurry was filtered, and the wet cake was washed to afford the product, which was dried under vacuum to give 3′F-(Sp)-thioGTP (7) in an 88% yield. <ref type="bibr">1</ref>  To a flask at RT were charged 3′F-(Sp)-thioGTP (80 mg, 89wt%), 2′F-(Sp)-thioATP (88 mg, 82 wt%) and 4 mL of water to afford a clear solution, followed by addition of 264 uL of CoSO4 (0.5 M, 0.13 mmol), 791 uL of ZnSO4 (0.5 M, 0.39 mmol), 4 mL of TGDE. This solution was warmed up to 35°C, and the pH was adjusted to 7.4 via 1N KOH solution. An 8 mL cGAS slurry (1.2 mg/mL cGAS, final variant) in DI water was charged, and reaction mixture was aged at 35°C for 24 h. The reaction was then quenched with NaH2PO4 and cooled down to RT. The desired product achieved a 90 % assay yield at the end of the reaction as determined using a calibrated UPLC instrument. The desired product could be isolated under acidic conditions and converted to bis-Na salt to increase the solubility in D2O for NMR. MK-1454 bis-sodium salt: <ref type="bibr">1</ref>  Interpretation: Electron density maps were calculated using |Fobs-Fcalc| coefficients and contoured at +3.0 σ (green) and -3.0 σ (red). For clarity, one of the crystallographically-overlapping MK-1454 molecules is shown, and hydrogen atoms have been omitted. a) (R, R), b) (S, S), c) (S, R), d) (R, S).</p><p>Procedure: Human STING protein (residues 155 through 341 with three mutations: G230A, H232R, R293Q) was expressed and purified as described previously. 2 STING protein at 12 mg/mL was incubated with 5 mM MK-1454 and 5% DMSO for 10 minutes at room temperature prior to brief centrifugation to clarify. Crystallization trials were conducted using the hanging-drop vapor diffusion method, with 1 µL reservoir solution (20 to 30% PEG 6000, 100 mM Tris pH 8.5, 200 mM NaCl, 2 mM DTT) mixed with 3 µL protein solution and then sealed over a 1 mL reservoir.</p><p>After 24 h incubation at 18 °C, drops were streak seeded using a suspension of crushed previously grown crystals. After an additional 24 h, diffraction-quality crystals appeared. Samples were plunged into liquid nitrogen after removal of surface liquid by drawing them through perfluoropolyether oil. Synchrotron diffraction data were collected at IMCA-CAT and processed using autoPROC using the STARANISO methodology. <ref type="bibr" target="#b67">3,</ref><ref type="bibr">4</ref> The anisotropic diffraction limit was 1.8 Å. The structure of the STING/MK-1454 complex was solved using molecular substitution of the STING/cGAMP complex (PDB code 4ksy), <ref type="bibr" target="#b69">5</ref> with cGAMP and water molecules removed.</p><p>Density for MK-1454 was apparent in the initial difference map, and cycles of crystallographic refinement using autoBUSTER <ref type="bibr">6,</ref><ref type="bibr" target="#b71">7</ref> were interspersed with manual rebuilding using Coot 8 and validation using Molprobity. 9,10 The refinement dictionary for MK-1454 was generated using GRADE. <ref type="bibr" target="#b75">11</ref> The final structure was refined to a final Rfree value of 0.226 and excellent geometry.</p><p>With a single STING chain in the asymmetric unit, the atoms of MK-1454 were modeled at 50% occupancy due to overlap with another MK-1454 molecule related by crystallographic symmetry.</p><p>A small number of surrounding water molecules are also interpreted at 50% occupancy to reflect their interaction with only one of the two overlapping compound molecules. Complete data collection, processing, and refinement details are found in the table below.</p><p>To confirm the absolute configuration of MK-1454 at the two thiophosphate centers, all four possible diastereomers were subjected to one final cycle of crystallographic refinement. The (R, R) configuration resulted in the flattest resulting difference map, indicating the best model of the four possibilities. The final difference maps are show above.</p><p>The coordinates and structure factors for the STING/MK-1454 complex have been deposited with the Protein Data Bank with accession code 7MHC.</p><p>12 Crystallographic data collection, processing, and refinement information STING/MK-1454 Data collection Wavelength (Å) 1.000 Space group C2 Cell dimensions STING/MK-1454 a, b, c (Å) 87.85, 73.42, 36.43 α, β, γ (°) 90, 101.9, 90 Resolution (Å) 48-1.80 (1.95-1.80)* Rmerge (%) 0.050 (0.793) I/σI 10.6 (1.3) Completeness (%) 90.2 (55.5) Redundancy 3.4 (3.5) CC(1/2) 0.999 (0.586) Refinement Resolution (Å) 56-1.80 No. of reflections 15 906 Rwork/Rfree 0.215/0.226 No. of non-hydrogen atoms 1 565 Protein 1 459 Ligand 45 Water 61 Average B-factors (Å 2 ) 39.6 Protein 40.1 Ligand 22.3 Water 39.7 rmsd values Bond lengths (Å) 0.008 Bond angles (°) 0.90 * Values in parentheses define the boundaries of the highest-resolution shell. Subsequent parenthetical values reflect calculations for reflections within that shell. NH N N O N H N O HO O O O N N N NH O O DMTrO O N N N N NHBz P N H H P O O O MeCN O O O N N N NH O O DMTrO O N N N N NHBz P H P O O S O F O H P O O F F N H O DMTrO O N N N N NHBz P N O CN F F F O NC O NC O 1.3 equiv N S S S N N NH N N O N H N O DMTrO F O H P OH O O MeCN Quench with 1-propanol then TFA (10 equiv) 0.5-2 h Direct precipitation into 10X IPAc O O O N N N NH O O HO O N N N N NHBz P H P O O S O F N H F NC O Phosphoramidite dried by azeotroping with MeCN Et 3 N Et 3 N 5 vol Py 50 vol ACN O O O N N N NH O O O N N N N NHBz P N H O S F P O O F O NC O O O N N N NH O O O N N N N P N H O S F P S O O F O NC 20 equiv H2O NHBz 5 equiv (PhO) 2 POCl -20 o C O O O N N N NH O O O N N N N NH2 P NH2 O S F P S O O F MeNH3 NH3Me 30% MeNH 2 EtOH (10 v) S S O MK-1454 + 3 other diastereomers (1:1) (1:1) (1:1) (1:1) (1:1) (5:1) (5:1) HPLC purification O O O N N N NH O O O N N N N NH2 P NH 2 O S F P S O O F Na Na O O O N N N NH O O O N N N N NH 2 P NH2 O S F P S O O F NH4 NH 4 Ion-exchange lyophilization MK-1454 bisNa salt I II III IV V VI VII VIII TFA (3 equiv) pyrrole (3 equiv) MeCN Procedure: Compound I was converted to compound II using TFA/Pyrrole, followed by P(III) coupling with phosphoramidite compound III to afford compound IV and sulfur oxidation and TFA deprotection to generate compound VI, which could be isolated by precipitation into IPAc as a mixture. Compound VI was converted to intermediate VII using pyridine (Py), diphenylphosphoryl chloride [(PhO)2POCl] and acetonitrile with 5:1 selectivity, followed by sulfur oxidation with 3Hbenzo[c][1,2]dithiol-3-one and water to afford intermediate VIII (4 diastereomers), the reaction was concentrated to 10 volumes and then charged with 10 volumes of 33% methyl amine (MeNH2) in ethanol (EtOH) at room temperature for the global deprotection, a mixture of MK-1454 and three diastereomers were obtained. Next, excess methylamine was removed under reduced pressure and was replaced with EtOH. The mixture was then cooled to 5 o C to induce precipitation of the crude product.</p><p>The crude product solid was collected by filtration and washed with cold EtOH (20 volumes) and dried with N2 overnight to afford a slightly yellow solid. This material was isolated via HPLC purification to isolate the desired diastereomer, MK-1454, followed by a generic ion exchange chromatography approach, <ref type="bibr">13,</ref><ref type="bibr" target="#b78">14</ref> and subsequent lyophilization to afford the desired bis-Na MK-1454 product in an overall 18% yield from compound I.  Blue arrows indicate cDN retention times Reaction LC area % cyclic product (A254) ATP + GTP  cGAMP (top trace) 87% (Rp/Sp)-thioATP + (Rp/Sp)-thioGTP --&gt; dithio cGAMP (middle two traces) 1% (Sp)-thioATP + (Rp)-thioGTP --&gt; dithio cGAMP (bottom two traces) 2% Interpretation: cGAS shows reduced reactivity with phosphorothioate analogs of ATP and GTP cGAS + ATP + GTP cGAS + (Rp/Sp)-thioATP + Rp/Sp)-thioGTP SIM m/z 705 ESI-cGAS + (Sp)-thioATP + (Rp)-thioGTP SIM m/z 705 ESI-Procedure: Reaction components were added to selected wells of a 96-well plate as follows: 10X reaction buffer (1M NaCl, 400 mM tris pH 7.5), MgCl2 solution (100 mM, 10 L/well), herring DNA (3 mg/mL, 10 L/well, Sigma D6898), DMSO (10 L/well), and either ATP and GTP (toptrace) or (Rp/Sp) thioATP and (Rp/Sp) thioGTP (middle two traces), or (Sp)-thioATP and (Rp)-thioGTP (bottom two traces) were added to a final concentration of 2 mM each (note: thiotriphosphates were purchased from Biolog, Inc. Bremen, Germany). Reactions were initiated by the addition of purified human cGAS (20 L, 2.7 mg/mL), and reactions were then placed at 30 o C/ 600 RPM overnight. Reactions were sampled and analyzed on the CDN analytical method described below: CDN analytical method Instrument Agilent 1290 UPLC Column Ascentis Express C18 column (3.0 x 100 mM 2.7 m, Sigma-Aldrich, 53814-U) Gradient </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme screening</head><p>Reaction mixture was added to each well of a 96-well plate as follows: cofactor (</p><p>5 L/well of cobalt(II) chloride, 0.1 M) buffer (5 L/well of 1M NaCl, 400 mM tris pH 7.5, 3 g/L herring DNA Sigma D6898), 2′F-thioATP (Sp) (5 L/well, 10 mM), 3′F-thioGTP (Sp) (5 L/well, 10 mM), and water (27.5 L/well). Reactions were then initiated via addition of dinucleotide cyclase panel enzymes (2.5 L/well). The reaction plate was then sealed and placed in an incubator shaker (30 o C, 600 RPM) overnight. Reactions were then sampled and analyzed by injection onto an Xbridge Oligonucleotide BEH C18 column (Waters, 186003952) and run over a linear gradient operating at constant flow (0.6 mL/minute) from 99% buffer A (20 mM triethylammonium acetate pH 7) 1% buffer B (acetonitrile) to 70% buffer A/30% buffer B over 6 minutes. Interpretation: use of Zn 2+ and Co 2+ cofactors act synergistically to improve yield Procedure: To a vial was added pH 7.5 tris buffer (1 M, 20 μL), metal salt (0.5 M, equivalents shown in table) 2'F-(Sp)-thioATP (0.1 M, 6 μL, 1 equiv) 3'F-(Sp)-thioGTP (0.1 M, 6 μL, 1 equiv), water (80 μL, variable so that final volume of reaction is 200 μL), herring DNA (3 mg/mL in water, 20 μL), ethylene glycol or other cosolvents (40 μL, unless otherwise indicated), and cGAS lysate (25 μL, round 8 enzyme). The vial was placed on a shaker and aged for approximately 24-48 h at ambient temperature or until the reaction progress stopped. The assay yield of the product was determined using a calibrated UPLC instrument. Data points represent single experiments. Starting from the catalytic domain of Halialeetus leucocephalus cGAS fused to an N-terminally his-tagged SUMO domain, the goals of the evolution campaign were:  Enable synthesis of MK-1454 from non-natural substrates using non-natural cofactors  Improve substrate tolerance and stability to process-like conditions Given the trace initial activity on desired substrates 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP, the initial round was conducted using 1-thiotriphosphate analogs of ATP and GTP that contained natural ribose sugars lacking fluorinations. Following a &gt;10-fold improvement in the first round, the evolution shifted to use the desired substrates 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP. In round 7, the high-throughput assay shifted to use the total lysate, rather than the clarified lysate</p><p>given the observation that significant cGAS activity was localized to the insoluble fraction. In round 8, Zn(OAc)2 was added as a cofactor and the final two rounds used this condition.</p><p>Round Backbone mutations (rel. to prev. round) Substrate HTP assay conditions Fold improvement in highthroughput assay † none (wild-type) (Sp)-thioATP, (Sp)-thioGTP 25% volume clarified lysate, 1 mM of each of thio-ATP and thioGTP, 0.3 g/L dsDNA, 5 mM CoCl 2 , 40 mM Tris pH 7.5, and 20% DMSO 500 rpm at 30°C for ~18 hours -G163N; Y201F; C389S 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 25% volume clarified lysate, 1 mM of each of the 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP, 0.3 g/L dsDNA, 5 mM CoCl 2 , 40 mM Tris, pH 7.5, and 20% DMSO 500 rpm at 30°C for ~18 hours 15X A164T; R255K; L334I; Q464E 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 25% volume clarified lysate, 1 mM of each of the 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP, 0.3 g/L dsDNA, 5 mM CoCl 2 , 40 mM Tris, pH 7.5, and 20% DMSO 500 rpm at 25°C for ~18 hours 3.6X N286S; H392E 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 25% volume clarified lysate preincubated at 32°C for 2 hours, 2 mM of each of the 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP, 0.1 g/L dsDNA, 7.5 mM CoCl 2 , 100 mM Tris, pH 7.5, 50 mM NaCl, and 20% DMSO 500 rpm at 25°C for ~18 hours 1.6X L367Y 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 25% volume clarified lysate preincubated at 32°C for 1.5 -2 hours, 2.5 mM of each of the 2′F-(Sp)-thioATP (3) and 3′F-(Sp)-thioGTP (2), 0.3 g/L dsDNA, 7.5 mM CoCl 2 , 100 mM Tris, pH 7.5, 50 mM NaCl, and 20% DMSO 500 rpm at 30°C for ~18 hours 3X P210Q; E212H; Q299K; T382P; K383H, T408S 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 25% volume clarified lysate preincubated at 32°C for 1.5 -2 hours, 3.5 mM of each of the 2′F-(Sp)-thioATP (3) and 3′F-(Sp)-thioGTP (2), 0.3 g/L dsDNA, 7.5 mM CoCl 2 , 100 mM Tris, pH 7.5, 50 mM NaCl, and 20% DMSO 500 rpm at 30 °C for ~18 hours 2.1X Q210S; H212D; E272V; Q376R; F388R; G413S 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 27% volume total lysate, 3.3 mM 2′F-(Sp)-thioATP, 3.3 mM 3′F-(Sp)-thioGTP, 8.25 mM CoCl 2 , 110 mM tris pH 7.5, 55 mM NaCl, 22 vol% DMSO, 0.3 g/L herring DNA, 600 RPM at 25 C for ~18 hours 1X V283P 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP 10 vol% total lysate, 100 mM TES pH 7.5, 3 mM 2′F-(Sp)-thioATP, 3 mM 3′F-(Sp)-thioGTP, 7.5 mM CoCl 2 , 7.5 mM Zn(OAc) 2 , 0.3 g/L herring DNA, 2X 29 20 vol% ethylene glycol, 600 RPM at 30 C sampled at 4h and at ~18h hours 9 S408L, I334L (reversion), 2′F-(Sp)-thioATP 3'F-(Sp)-thioGTP 13 vol% total lysate, 500 mM TES pH 7.5, 15 mM 2′F-thioATP, 15 mM 3′F-thioGTP, 37.5 mM CoCl 2 , 37.5 mM Zn(OAc) 2 , 20 vol% tetraglyme dimethylether, 600 RPM at 30 C ~18h 1.2X 10 (Final) K322P 2′F-(Sp)-thioATP 3′F-(Sp)-thioGTP -2.1X † fold improvement is calculated from ratio of assay results from samples containing the improved variant to the average (n=8) of assay samples containing the parent enzyme B. Locations of mutations superimposed on cGAS homology model Model based on PDB ID 4K99. 16 Blue sphere denotes Zn 2+ ion Red spheres show position of mutations in final evolved variant Beige spheres show active site metal cofactors C. Analytical methods used for cGAS evolution cGAS LC-MS Parameters for Rounds 1 -4 Instrument Sciex 3200 QTRAP Column Agilent Eclipse Plus C18 (4.6x50mm, 1.8 µm ) Mobile Phase Gradient A: 100mM TEAA in water, pH 7.0; B: acetonitrile Time(min) %B 0.00 7 0.8 7 2 50 2.1 99 3 99 3.1 7 4 7 Flow Rate 0.9 mL/min Peak Retention Times 2′F-(Sp)-thioATP at 1.7 minutes; 3′F-(Sp)-thioGTP at 1.9 minutes, MK-1454 product at 2.2 minutes Column Temperature 30°C cGAS LC-UV Parameters for Rounds 5 -6 Instrument Thermo U3000 UPLC Column Agilent Eclipse Plus C18 (4.6x50mm, 1.8 µm) Mobile Phase Gradient: A: 100mM TEAA in water, pH 7.0; B: acetonitrile Time(min) %B 0.00 7 0.2 7 1.2 99 1.6 99 1.7 7 2.2 7 Flow Rate 1.5 mL/min Run time 2.2 min Peak Retention Times 2′F-thioATP and 3′F-thioGTP were not well-resolved, MK-1454 product at 1.3 minutes Column Temperature 30°C UPLC Parameters for cGAS evolution rounds 7-10 Instrument Agilent 1290 Binary Column Waters Acquity BEH C18 50 x 2.1 mm Mobile phase Gradient: A: 100mM TEAA in water, pH 7.0; B: acetonitrile Time %B 0 7 0.4 7 0.41 15 1.01 30 1.50 7 Flow Rate 0.6 mL/minute Detector 254 nm Peak Retention Times MK-1454 at 1.1 minute, starting materials not resolved. Procedure: Lyophilized lysate containing empty pET30 vector or overexpressed cGAS was resuspended in buffer (0.2 M TES pH 7.5) containing 2′F-(Sp)-thioATP (13 mM), tetraglyme dimethylether (20 vol%) and was incubated at 37 o C for 2 hours. Reactions were sampled at timepoints indicated. Each timepoint was quenched with 0.1M NaOH to prevent further degradation. Interpretation: E. coli host-cell proteins contained with negative control or associated with cGAS catalyze decomposition of 2′F-(Sp)-thioATP. 0 10 20 30 40 50 60 70 80 90 100 0 20 40 60 80 100 120 140 LCAP 2'F-thioATP time (mins) 2'F-(Sp)-thioATP degradation over time vs. enzyme cGAS insoluble fraction Empty vector E. coli lysate Procedure: cGAS (final variant) whole-cell lysate (6.5 mL) was fractionated by centrifugation (30 minutes, 4,000 x g) and supernatants were discarded. Pellets were then resuspended with 1 M of different salt solutions (NaCl, KCl, MgCl2, CoSO4, ZnSO4, (NH4)2SO4, Na2SO4, NaHSO4, LiOAc, (NHEt3)OAc to a final volume of 6.5 mL and incubated for 1 h at room temperature. Slurries were then fractionated again by centrifugation. Supernatants were collected while pellets were reslurried with water to a total volume of 6 mL. Both supernatants and pellets were analyzed by SDS-PAGE along with standards of bovine serum albumin (lanes 1-5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Column</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Demonstration of cGAS purification using solubility properties</head><p>Interpretation: cGAS insoluble fraction can be purified by solubilization with high-salt followed by dialysis to induce precipitation.</p><p>Procedure: cGAS (final variant) whole-cell lysate (150 mL) was fractionated by centrifugation (10 minutes, 4,000 x g), the soluble fraction was sampled and then discarded. The insoluble fraction were then resuspended in 0.2V of solubilization buffer (1M ammonium sulfate, 50 mM tris pH KDa 7.5) with stirring. This suspension was again centrifuged (15 minutes, 9500 x g). The insoluble fraction was then sampled and discarded. The soluble fraction was diluted to 1V with with solubilization buffer, and then dialyzed (3 X 2L) against storage buffer (50 mM tris pH 7.5, 10% glycerol), and a fine white precipitate was observed. The resulting slurry was then fractionated again by centrifugation, the soluble fraction was then sampled and discarded, and the insoluble fraction was retained for activity testing.</p><p>D. Impact of salt type and incubation time on downstream performance Entry Equiv. Co added Solubilization agent Solubilization time Desalting LCAP MK1454 (20h) 1 3 (NH4)2SO4 20 h dialysis 47.1 2 3 NaCl 20 h dialysis 40 3 3 (NH4)2SO4 1 h dialysis 52.5 4 3 NaCl 1 h dialysis 44.7</p><p>Interpretation: time held in high-salt slurry and salt identity have minimal impact on downstream activity.</p><p>Procedure: cGAS (final variant) was fractionated by centrifugation and supernatants were discarded. Pellets (7 g, wet weight) were then resuspended in high salt solutions (1 M NaCl, 50 mM tris pH 7.5 or 1M (NH4)2SO4, 50 mM tris pH 7.5, 50 mL) for variable time. Slurries were then clarified by centrifugation (9500 x g, 20 minutes). Clarified supernatants were then dialyzed against low-salt solution (50 mM tris pH 7.5, 10 % (v/v) glycerol). Following dialysis, pellets were reisolated and used directly. cGAS reactions were set up as follows: a stream containing 2′F-(Sp)-thioATP (0.060 mmol) and 3′F-(Sp)-thioGTP (1 equiv) were dissolved in water (1.5 mL) in a vial. To the vial added tetraglymedimethylether (1 mL), sodium orthovanadate (0.3 equiv), ZnSO4 (3 equiv.), CoSO4 (1 equiv), TES buffer (5 equiv) were then added and the pH of each reaction was adjusted to pH 7.9 with potassium hydroxide. A slurry of purified cGAS was added, and the reaction was aged at 35 o C for 20 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Comparison of desalting versus precipitation approach for cGAS isolation</head><p>Interpretation: as methods of isolating cGAS, dialysis and precipitation provide enzyme with similar activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Entry</head><p>Desalting mode LCAP MK1454 (15 h) 1 dialysis 86% 2 precipitation 91% Procedure: cGAS lysate was centrifuged (4000 x g, 20 minutes, 4 o C) to isolate insoluble fraction. The pellet was then resuspended in 0.2 volumes of resuspension buffer (1 M ammonium sulfate, 50 mM tris pH 7.5) and stirred for 20 minutes with overhead stirring until resuspended. This slurry was then clarified by centrifugation (9500 x g, 20 minutes, 4 o C). The clarified solution was then split into two fractions. Fraction A was diluted to 1 V with dialysis buffer (50 mM tris pH 7.5, 10% glycerol) and then dialyzed against the same buffer. Fraction B was diluted to 1 V with 20 mM MgSO4 with stirring at 4 o C, and was allowed to incubate overnight at 4 o C. Following precipitation in each fraction, cGAS was isolated by centrifugation</p><p>(4000 x g, 20 minutes). Pellets were washed once with water and then re-centrifuged as above.</p><p>Purified enzyme was then resuspended in 0.5 V and used in reactions. cGAS reactions were then set up as follows: purified substrates 2′F-(Sp)-thioATP (0.138 mmol) and 3′F-(Sp)-thioGTP (1 equiv) were dissolved in water (4 mL). Substrate solution (1 mL) was dispensed to two separate vials. To each vial was then added tetraglymedimethylether (1 mL), ZnSO4 (1 equiv.), CoSO4 (3 equiv), water (1 mL), TES buffer (0.5 M, 0.33 mL) were then added and the pH of each reaction was adjusted to pH 7.5 with potassium hydroxide. A slurry of purified cGAS was added (2 mL, 3.8 g/L enzyme), and the reaction was aged at 35 o C for 15 h. With purified cGAS enzyme (final variant) in hand, we further optimized the reaction conditions by exploring the different amount of metal cofactors, since they played critical roles for this transformation (see table below). Although increasing CoSO4 slightly benefited the reaction (entries 1-2), the combination of ZnSO4 and CoSO4 as metal cofactors had significantly increased the enzyme activity and boosted the desired product to 85 LCAP (entry 4). Metal cofactor ZnSO4 itself was deleterious for the overall yield of desired cyclization product (entry 3) with noticeable uncyclized intermediate generated. Co-solvent TGDE (tetraethylene glycol dimethyl ether) was required to achieve the highest yields (entries 5-6). A range of different CoSO4 / ZnSO4 ratios were tested and gave largely similar results with respect to yield. (entries 6-11). When using an unpurified stream of 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP telescoped from the kinase cascade, cGAS yields were moderately reduced (entries 12-13). The enzyme chosen for directed evolution was the adenylate kinase from Saccharomyces cerevisiae (AK10)</p><formula xml:id="formula_0">AK1 AK2 AK3 AK4 AK5 negative control blank AK6 AK7 AK8 AK9 AK10 AK11 AK12 AK13 AK14 AK15 AK16 AK17 AK18<label>AK19</label></formula><p>2'-F thioATP Sp 1 mM</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MS integrated area units 2'F-thioATP production WT adenylate kinases</head><p>The enzyme chosen for directed evolution was the guanylate kinase from Branchistoma floridae (GK6)</p><p>Interpretation: Several hits in the phosphorylation of 8 and 9 observed in screens of wild-type adenylate and guanylate kinases.</p><p>Procedure: Wild-type adenylate and guanylate kinase enzymes were obtained by gene synthesis (General Biosystems) and cloned into pET30 using by circular polymerase extension cloning <ref type="bibr" target="#b81">17</ref> .</p><p>An example vector map of the clones is shown below. Sequences are in supplementary file 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MS Integrated area units 3'F-thioGTP production WT guanylate kinases</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3'F-thioGTP area</head><p>Plasmids were transformed into BL21(DE3). To express enzymes, colonies were picked into 96well plates containing LB media (400 L/well) supplemented with kanamycin (50 g/mL) and grown at 30 o C/200 RPM overnight, and then glycerol stocked the following day via addition of 1 volume of 50% glycerol to each well. Expression plates were prepared containing ZYP-5052 autoinduction media (400 L/well) supplemented with kanamycin (50 g/mL), and were inoculated from glycerol stocks (2 L/well). Cultures were grown at 30 C/200 RPM for 3 hours and then the temperature was dropped to 25 C and allowed to grow overnight. The following day, cells were pelleted by centrifugation and frozen until later use. Prior to assay, cell pellets were thawed at room temperature and then resuspended in lysis buffer (400 L per well of 1 mg/mL lysozyme, 0.5 mg/mL PMBS, 5 U/mL benzonase, 10 mM tris pH 7.5). Cell suspensions were then shaken at 1000 RPM in an orbital shaker for 2 hours at room temperature. Lysates were then dispensed to shallow-well 96-well plates (10 L/well). Separately, master mix was prepared containing 10X buffer (10 µL per well, 1 M NaCl, 0.4 M tris pH 7.5, 0.1 M MgCl2), ATP solution (5 L per well, 0.1 M), water (65 L per well), and either 2′F-thioAMP solution (10 L, 10 mM) for adenylate kinase reactions or 3′F-thioGMP solution (10 L, 10 mM) for guanylate kinase reactions. Reactions were initiated by addition of master mix solution to lysates. Reactions were allowed to proceed at room temperature overnight, shaking (600 RPM) on an orbital shaker. Samples from each reaction (50 L) were then diluted in water (100 L) and filtered (Multiscreen 0.2 µm 96-well filter plates). Adenylate kinase reactions were analyzed by injection onto an LC-MS equipped with an Atlantis T3 column (Waters, 186003729) and run over a linear gradient operating at constant flow (1.2 mL/minute) from 95% buffer A (20 mM triethylammonium acetate pH 7) 5% buffer B (acetonitrile) to 70% buffer A/30% buffer B over 5 minutes. Product was detected by selected-ion monitoring (m/z = 627) corresponding to the triethylammonium adduct [M+H+TEA] + . Guanylate kinase reactions were analyzed on the same column as above over a linear gradient operating at constant flow (1.2 mL/minute) from 96% buffer A (20 mM triethylammonium acetate pH 7) 4% buffer B (acetonitrile) to 90% buffer A/10% buffer B over 5 minutes. Product was detected by selected-ion monitoring (m/z = 643) corresponding to the triethylammonium adduct [M+H+TEA] + . Fig. S12. Testing of high-energy phosphate donors and kinase. E. coli AcK Rabbit PyK Bacillus PyK 2'F-thioATP area units (ESI+) 2'F-thioATP product vs. regeneration system 0 20 40 60 80 100 Pyruvate kinase Acetate kinase LC area percent A254 Product distribution PyK vs. AcK %thioGMP %thioGDP %thioGTP Interpretation: E. coli acetate kinase is active on both adenosine and guanosine thiodiphosphate substrates. Prodcedure: E. coli lysate containing overexpressed S. cerevisiae adenylate kinase was tested with either added E. coli acetate kinase (Sigma A7437, 10 U/mL final concentration), rabbit pyruvate kinase (Sigma P9136, 100 U/mL final concentration) or Bacillus stearothermophilus pyruvate kinase (Sigma P1903, 50 U/mL final concentration) in reactions containing buffer (10 L of 1 M NaCl, 0.4 M tris pH 7.5, 0.1 M MgCl2), ATP (1 mM), 2'F-thioAMP (1 mM), and either acetyl phosphate (10 L of 0.1 M solution) or phosphoenolpyruvate (10 L of 0.1M solution). Purified guanylate kinase panel enzyme GK11 (See supporting file 2) was tested with either E. coli acetate kinase (Sigma A7437, 10 U/mL final concentration) or rabbit pyruvate kinase (Sigma P9136, 300 U/mL final concentration) in reactions containing bufer (10 L of 1M NaCl, 0.4M tris pH 7.5, 0.1M MgCl2 ATP (1 mM), thioGMP (1 mM) and either acetyl phosphate (4 L of 0.1M solution) or phosphoenolpyruvate (2 L of 0.1M solution), respectively. Reactions were analyzed by injection onto an Agilent 1200 Series LC-MS equipped with a T3 Atlantis column (Waters, 186003729) a gradient that began with an initial hold for 5 minutes at 99% buffer A (20 mM triethylammonium acetate pH 7.0 in water) and 1% buffer B (20 mM triethylammonium acetate pH 7.0 in 80% water/20% acetonitrile) followed by a linear gradient to 80% buffer B at 10 minutes with a 4.5 minute re-equilibration time between samples. d.r. (Sp/Rp)-thio-dATP d.r. (Sp/Rp)-thioGTP Escherichia coli 6:1 5:1 Methanosacrina thermophila 3:1 2.5:1 Thermotoga maritima &gt;10:1 8:1 Geobacillus stearothermophilus 6:1 4:1 Interpretation: The acetate kinase from T. maritima has superior diastereoselectivity to other enzymes tested. Procedure: 3 mM (Sp)-or (Rp)-thio-dADP (BioLog, catalog# D005 or D004, respectively) or (Sp)or (Rp)-thioGDP (BioLog, catalog# G013 or G012) were reacted with acetyl phosphate (10 mM), acetate kinase enzymes (0.001 g/L) (Supplementary file 3) at room temperature in separate reactions. Reactions were sampled at 5, 10, 20, and 40 minute timepoints. Diastereoselectivity values were determined using the product ratio at the earliest timepoint where both diastereomers could be observed. Procedure: To a flask at RT were charged 3′F-(Sp)-thioGTP (27 mg), ATP (25 mg) and 1 mL of water to afford a clear solution, followed by addition of 246 L of CoSO4 (0.5 M, 0.12 mmol), 246 L of ZnSO4 (0.5 M, 0.12 mmol), 1.2 mL of TGDE. This solution was warmed up to 35°C, and the pH was adjusted to 7.4 via 1N KOH solution. A 2 mL cGAS slurry (1.6 mg/ml cGAS) in DI water was charged, and reaction mixture was aged at 35°C for 24 h to afford the cross-coupled product in a 71 LCAP from UPLC (see below). HRMS(m/z): [M + H]+ calculated for [C20H23FN10O11P2S] + 693.0800; found 693.0806.  Thiotriphosphate analytical LC-MS method Time(min) %B 0.00 1 0.37 1 0.4 4 4.70 6 5.00 6 5.82 30 7.00 90 7.20 90 7.30 1 10.00 1 Flow Rate 0.9 mL/min Run time 10 min Column Temperature 25°C Fig. S16. Summary of kinase evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Adenylate kinase evolution</head><p>Starting from Saccharomyces cerevisiae adenylate kinase (ADK1), the goals of this campaign were to:</p><p> Enable efficient phosphorylation of 2'F-thioAMP  Enable the use of 2'F-(Sp)-thioATP as the phosphoryl donor  Improve substrate tolerance and stability to process-like conditions and reduce enzyme load to ca. 1 wt%</p><p>The initial round was directed solely at improving reactivity with 2′F-thioAMP and used natural ATP as an initial phosphoryl donor. The second round transitioned to the use of the non-natural phosphoryl donor 2'F-(Sp)-thioATP. This strategy required that the product of the reaction-2'F-(Sp)-thioATP-be added to all reactions, which posed challenges for a high-throughput assay. To circumvent this challenge, <ref type="bibr" target="#b82">18</ref> O-labeled 2′F-thioAMP substrate was used, and an LC-MS assay was employed to quantitate formation of <ref type="bibr" target="#b82">18</ref> O-labeled 2′F-(Sp)-thioATP. Following this round, the equivalents of 2′F-(Sp)-thioATP were sufficiently low to avoid assay interference from the initial amount of cofactor that was added, which allowed a simpler UPLC activity assay to be employed in rounds 3 and 4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Round</head><p>Backbone mutations (rel. to prev. round) Substrate HTP assay conditions Fold improvement in highthroughput assay † 1 none (WT) 2'F-thioAMP, ATP (cofactor) 1 mM 2'F-thioATP. 1 mM ATP, 10 mM acetyl phosphate, 100 mM NaCl; 40 mM MOPSsuccinate pH 6; 10 mM MgCl 2 ; 10 U/ml E. coli acetate kinase (Sigma A7437), 5 vol% variant lysate -2 A39C, I124V I195V 2'F-thioAMP 18O-labeled, 2′F-(Sp)-thioATP (cofactor) 10 mM 18O-labeled 2'F-thioAMP, 1 mM 2'F-(Sp)-thioATP, 50 mM acetyl phosphate, 100 mM NaCl, 40 mM MOPS-succinate pH 6.0, 10 mM MgCl 2 , 0.1 mg/mL purified 5X T. maritima AcK, 5 vol% variant lysate 3 V128I, V134P, A190K 2'F-thioAMP, 2′F-(Sp)-thioATP (cofactor) 55 mM 2′F-thioAMP, 1 mM 2′F-(Sp)-thioATP, 200 mM acetyl phosphate, 30 mM MgCl 2 , 2 g/L T. maritima AcK enzyme powder, 5 vol% lysate, 25 C 500 RPM 3h 4X 4 A42G 2′F-thioAMP, 2′F-(Sp)-thioATP (cofactor) 110 mM 2′F-thioAMP, 2 mM 2′F-(Sp)-thioATP, 400 mM acetyl phosphate, 60 mM MgCl 2 , 2 g/L T. maritima AcK enzyme powder, 5 vol% lysate, 30 C 500 RPM 3h 7X 5 A29S, I51H, E107M, D110E, T202A, P214V --8X † fold improvement is calculated from ratio of assay results from samples containing the improved variant to the average (n=8) of assay samples containing the parent enzyme </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Guanylate kinase evolution</head><p>Starting from Branchistoma floridae guanylate kinase, the goals of this campaign were to:</p><p> Enable efficient phosphorylation of 3'F-thioGMP  Enable the use of 2'F-(Sp)-thioATP as the phosphoryl donor  Improve substrate tolerance and stability to process-like conditions and reduce enzyme load to ca. 1 wt%</p><p>The initial two rounds were directed solely at improving reactivity with 3'F-thioGMP and used natural ATP as an initial phosphoryl donor. The third round transitioned to the use of the non-natural phosphoryl donor 2'F-(Sp)-thioATP. Two additional rounds were performed that were directed towards improving the tolerance of the enzyme for high substrate concentration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Round</head><p>Backbone mutations (rel. to prev. round) Substrate HTP assay conditions Fold improvement in highthroughput assay † 1 none (WT) 3'F-thioGMP, ATP (cofactor) 1 mM 3'F-thioGMP, 0.5 mM ATP, 10 mM Li K acetyl phosphate (Sigma A0262), 100 mM NaCl, 10 mM MgCl2, 20 mM MOPS-succinate pH 6.0, 10 U/mL acetate kinase (Sigma A7434), 20 vol% GK variant lysate, overnight reaction 25 C n/a 2 I86L 3'F-thioGMP, ATP (cofactor) 10 mM 3'F-thioGMP, 0.5 mM ATP, 50 mM Li K acetyl phosphate (Sigma A0262), 100 mM NaCl, 10 mM MgCl2, 20 mM MOPS-succinate pH 6.0, 10 U/mL acetate kinase (Sigma A7434), 5 vol% GK variant lysate, 4h reaction 25 C 8X 3 R11T, S24T, L54E, Y59F, S99A, K138E 3'F-thioGMP, 2'F-(Sp)-thioATP (cofactor) 2 mM 3'F-thioGMP, 1 mM 2'F-thioATP, 100 mM acetyl phosphate, 10 mM MgCl2, 0.1 mg/mL T. maritima AcK, 10 vol% GK variant lysate, 4h reaction 25 C 15X 4 R159P 3'F-thioGMP, 2'F-(Sp)-thioATP (cofactor) 55 mM 3'F-thioGMP, 5 mM 2'F-thioATP, 200 mM acetyl phosphate, 30 mM MgCl2, 8 g/L T. maritima AcK, 10 vol% GK variant lysate 5X 5 F82H, N115T, K144G, K193D, M200G 3'F-thioGMP, 2'F-(Sp)-thioATP (cofactor) 75mM 3'F-thioGMP, 6.8mM2'F-thioATP, 270 mM acetyl phosphate, 41 mM MgCl2, 8g/L WT Acetate Kinase. 10 vol% HTP lysate diluted 10x (from 400 μL lysis), 3h reaction, 25 C, 500 rpm 3X Winner S41T, V42A, D134E n/a n/a 1.7X † fold improvement is calculated from ratio of assay results from samples containing the improved variant to the average (n=8) of assay samples containing the parent enzyme Locations of mutations superimposed on guanylate kinase homology model Model based on guanylate kinase from PDB ID 1LVG 19 . Red spheres show position of mutations in final evolved variant. Stick structures depict ADP and GMP. UPLC Parameters for GK evolution round 1 Instrument Agilent 1290 Binary Column Waters Xselect Peptide HSS T3 XP 2.5µm 2.1x100mm column Time %B 0 5 0.9 5 0.95 100 1.35 100 1.375 5 2.75 5 Flow Rate 1.2 mL/min Detector UV detector 210 nm Run time 2.5 min Peak Retention Times </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acetate kinase evolution summary</head><p>Starting from Thermotoga maritima acetate kinase, the goals of this campaign were to:</p><p> Enable efficient phosphorylation of thiodiphosphates 2'F-thioADP and 3'F-thioGTP  Obtain a single acetate kinase enzyme with high activity on both desired substrates  Improve substrate tolerance and stability to process-like conditions and reduce enzyme load to ca. 1 wt%</p><p>In the first round (round 1A), acetate kinase variants were screened in the presence of guanylate kinase and limited 2'F-thioATP as the phosphate donor (reaction scheme below):</p><p>3'F-thioGMP 55 mM or 80 mM O O OH N N N NH O NH 2 F P S O O 0.5 g/L GK (rd5BB) 0.05 vol% AcK variant lysate OPO 3 2-O O O Screening conditions AcK round 1A, 2A 2'F-Sp-thioATP 0.09 eq. O O OH N N N NH O NH 2 F P S O O P O O O 3'F-thioGDP O O OH N N N NH O NH 2 F P S O O P O O O P O O O 3'F-(Sp)-thioGTP 3.6 eq. pH 6.5 MgCl 2 0.54 eq.</p><p>Improved acetate kinase variants from round 1A, as well as some of the mid-and low-performers were tested for activity for 2'F-thioATP recycling and 2'F-thioATP formation with adenylate kinase in a targeted rescreen (round 1B).</p><p>An acetate kinase variant with improvement in both reactions was taken forward as the new backbone for the second round of evolution, in which variants were screened for improvements in both reactions (round 2A/2B, reaction schemes above). Beneficial mutations were recombined to arrive at the final variant described in the table below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Round</head><p>Backbone mutations (rel. to prev. round) Substrate HTP assay conditions Fold improvement in high-throughput assay † 1A WT 3'F-(Sp)-thioGDP 55 mM 3'F-thioGMP, 0.5 g/L guanylate kinase (rd5), 5 mM 2'F-thioATP, 30 mM MgCl2, 200 mM acetyl phosphate, pH 6.5, 0.05 % (v/v) AcK variant lysate pre-incubated at 60 °C for 2 hours prior to the assay, 25 °C, 500 rpm, 3 hours -1B WT 2'F-(Sp)-thioADP 55 mM 2'F-thioAMP, 8 g/L adenylate kinase (rd3) , 1 mM 2'F-thioATP, 30 mM MgCl2, 200 mM acetyl phosphate, pH 6.5, 0.2 % (v/v) AcK variant lysate preincubated at 60 °C for 2 hours prior to the assay, 25 °C, 500 rpm, 3 hours 2A H4del, A142V, L242T 2'F-(Sp)-thioADP, 3'F-(Sp)-thioGDP 80 mM 3'F-thioGMP, 1 g/L GK final variant, 0.05 HTP lysate, 7.3 mM 2'F-thioATP, 43.6 mM MgCl2, 291 mM acetyl phosphate, pH 6.5, 0.05 % (v/v) AcK variant lysate pre-incubated at 60 °C for 2 hours prior to the assay to inactivate endogenous AcK, 25 C, 3 hours 1.7X (3'F-thioGTP reaction); 6.9X (2'F-thioATP reaction) 2B 110 mM 2'F-thioAMP , 4 g/L adenylate kinase (rd4) , 2 mM 2'F-thioATP, 60 mM MgCl2, 400 mM acetyl phosphate, pH 6.5, 0.05 % (v/v) AcK variant lysate pre-incubated at 60 °C for 2 hours prior to the assay, 3 hours @ 25C endogenous AcK, 25 C, 3 hours Final M294L,G343C,R374D n/a n/a 1.4X (3'F-thioGTP reaction); 2.5X (2'F-thioATP reaction) † fold improvement is calculated from ratio of assay results from samples containing the improved variant to the average (n=8) of assay samples containing the parent enzyme Locations of mutations superimposed on acetate kinase structure Model based on guanylate kinase from PDB ID 2IIR Red spheres show position of mutations in final evolved variant UPLC Parameters for AcK evolution Instrument Thermo U3000 UPLC Column Chromolith RP18 25 x 4.6mm Time %B 0 4 1.6 6 1.61 100 1.8 100 1.81 4 3 4 Flow Rate 1.5 mL/min Detector UV detector 210 nm Run time 2.5 min Peak Retention Times </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. 2'F-(Sp)-thioATP reaction optimization</head><p>The effect of temperature and AcP salt were studied with 0.125 equivalent of MgCl2 and 0.5 wt% of adenylate kinase (final variant) and 1.0 wt% of acetate kinase (final variant) to improve the overall reaction profile (table below). It was found that 3.6 equivalents of bis sodium acetyl phosphate (AcPNa2) was required to achieve high yield of desired product at 10 o C (entry 4), while lower equivalents of AcPNa2 led to reduced conversion (entries 1-3). Elevated temperature led to faster degradation of the desired product (entry 5). The impact of the counter cation of AcP salt for the performance of this transformation was also explored, and it was found that lithium potassium acetyl phosphate (AcPLi/K) offered better yield (entry 8), however, due to the limited supply of AcPLi/K and the negative impact for the product isolation, AcPNa2 salt was selected for further development.</p><p>Entry a Temp o C AcP AcP equiv% 2'F-thioATP (20h) b, d 1 10 Na 2 2.1 76.6 2 10 Na 2 2.5 83.6 3 10 Na 2 3.0 86.0 4 10 Na 2 3.6 90.2 5 20 Na 2 3.6 78.0 6 10 Li, K 2.1 80 7 10 Li, K 2.5 92 8 10 Li, K 3.0 96 c</p><p>a Conditions: 0.5wt% AK, 1.0 wt% AcK, 0.125 equiv of MgCl2, pH=6.5 in 20 volumes of water as solvent; b %2'F-(Sp)-ThioATP was measured by UPLC; c Due to the negative impact of the counter cation from AcPLi/K salt for the 2'F-(Sp)-thioATP isolation and the unavailability in big scale, AcPNa2 was selected as the reagent for this transformation. d Data points represent single experiments (n=1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. 3'F-(Sp)-thioGTP reaction parameters optimization</head><p>Different pH, equivalent of AcPLi2 and co-factor 2'F-(Sp)-thioATP were screened with 1.0 equivalent of MgCl2 and 1.4 wt% of GK and 1.4 wt% of Ack to improve the overall reaction profile (Table <ref type="table">below</ref>). It was observed that 3.6 equivalent of bisLi-AcP was required to achieve high yield of desired product at 25 degree (entry 3), lower equivalent of bis Li-ACP led to low conversion (entries 1-2). Low pH (pH=5.7) led to sluggish reaction (entry 4). The reaction performed very well under neutral pH (pH=7.2) (entry 5). Lowering the cofactor 2'F-(Sp)-thioATP from 5mol% to 3mol% almost doubled the reaction time (entry 7). Therefore, the optimal condition is 1.4 wt% of GK, 1.4 wt% AcK, 1.0 equiv of MgCl2, 3.6 equiv of AcPLi2, at pH 6.7 to 7.2. Entry a pH AcPLi 2 equiv 2'F-(Sp)-thioATP %3'F-(Sp)-ThioGTP b</p><p>%3'F-(Sp)-ThioGDP c 1 6.7 2.1 5mol% 81.9 1.6 2 6.7 2.5 5mol% 93.8 1.5 3 6.7 3.6 5mol% 98.0 1.5 4 5.7 3.6 5mol% 34.0 0.4 5 7.2 3.6 5mol% 98.4 1.1 6 6.7 3.6 3mol% 98.5 0.9 7 6.7 3.6 1mol% 98.2 1.1 d 2'F-thio-AMP and 3'F-thio-GMP starting materials were mixed and the two individual kinase reactions were run in a tandem fashion using MgCl2 as a cofactor and 2'F-thio-ATP as the phosphate donor. Table <ref type="table">below</ref> shows the LCAP of desired products. Reducing the equivalents of MgCl2 from 2 to 1.5, resulted in a drop in 2'F-thio-ATP and 3'F-thio-GTP (entries 1-2). Increasing the concentration by going from 100 to 50 vol water slightly decreased 2'F-thio-ATP and 3'F-thio-GTP yield (entry 3). Next, various equivalents of MgCl2 and KCl in 50 vol water was investigated (entries 4-5). MgCl2 was found to be an important factor for improving the conversion and at least 1.0 equivalent of MgCl2 was required to achieve good yield of both 2'F-thio-ATP and 3'F-thio-GTP. With co-factor 2'F-thio-ATP was also one of the desired product for this tandem process, we hypothesized that we could reduce the co-factor 2'F-thio-ATP loading for this process without significantly changing the reaction profile. Indeed, the tandem reaction still performed very well by using lower loading of co-factor 2'F-thio-ATP even with only 0.1mol% (entries 6-7). In addition, increasing the amount of AcPLi2 did not benefit the yield of this process, however, it did benefit the stability of the tandem reaction stream. Procedure: To a 3 L flask equipped with an overhead stirrer was charged 2′F-thioAMP (8) (7.5 g, 1.0 eq, 88wt%, 18.07 mmol) and 3′F-thioGMP (9) (12.5 g, 0.98 eq, 54 wt%). The resulting mixture was then cooled down to 10°C-15°C followed by addition of water (450 mL). 2′F-(Sp)-thioATP (1.8 mL, 1M, 0.0001 eq) was charged to the reactor. To this, MgCl2ꞏ6H2O (7.35 g, 2.0 eq) was added at 10°C-15°C, followed by addition of TES (20.7 g, 5.0 eq). The pH of the reaction mixture was adjusted from 5.20 to 5.98 (10°C-15°C) using KOH (45wt%). Next, AcP-Li/Li (15.0 g, 5.2 eq) was charged at 10°C-12°C. Once AcP-Li/Li was fully dissolved, adjust the pH to 7.40 at 9.5°C-10.5°C with KOH again. To this clear solution, adenylate kinase (75 mg, final variant), AcK (56 mg, final variant) and GK (90 mg, final variant) was added into the reaction mixture at 9.0°C-11°C, respectively. The reaction mixture was aged at 10°C under nitrogen for 15h to achieve completion (1-3% 2′F-thioAMP and 3′F-thioGMP remaining). Tetraethylene glycol dimethyl ether (TGDE) (500 mL) and water (300.0 mL) mixture was added into the reaction mixture, while maintaining the temperature below 15°C. To this, ZnSO4 (90.4 ml, 0.5M, 2.5 eq) and CoSO4 (90.4 ml, 0.5M, 2.5 eq) was added, and the pH was adjusted to 7.8 with KOH at 10°C. cGAS enzyme slurry in water (3.8 g/L, 730 mL, 22 wt% relative to 3'F-thioGMP) was charged at 10°C. Temperature was increased to 35°C, and reaction was aged at 35°C for 10 h to afford the desired compound (1) in 68% assay yield as determined by injection of a sample onto a calibrated UPLC instrument (method details presented below). To the reaction was then added Celpure P300 (6.25 g) and potassium phosphate dibasic (20.5 g). This mixture was then filtered to afford a clear solution. The filtrate was then acidified to pH = 1.2 with 6 M HCl resulting in a white slurry of MK-1454 that was stirred overnight. The final neutral compound (1, 7.9 grams, free acid basis) was then isolated by filtration in a 62% yield from 2′F-thioAMP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MK1454 analytical method for reaction development</head><p>Instrument Agilent 1290 UPLC Column Acquity HSS T3, 1.8 m, 2.1x50 mm (Waters, #186003538) Gradient Gradient (A: 100mM TEAA in water, pH 7.0; B: acetonitrile Time %A %B 0 99 1 4 90 10 5 90 10 8 35 65 8.5 35 65 8.51 99 1 12 99 1 Flow Rate 0.5 mL/min Detector UV detector 260 nm Run time 12 min Peak Retention Times 3'F-thioGMP (9) at 1.9 minutes, 3'F-(Sp)-thioGTP (7) at 3.1 minutes, 2'F-thioAMP (8) at 3.2 minutes, and 2'F-(Sp)-thioATP (6) at 3.9 minutes, MK-1454 (1) at 6.8 minutes O O OH N N N NH O NH 2 F P S O O 3'F-thioGMP (9) O O OH F N N N N NH 2 P S O O O O OH F N N N N NH 2 P O O OH N N N NH O NH 2 F P S S O O P O O P O O O O O P O O O P O O O O + 3'F-(Sp)-thioGTP (7) 2'F-(Sp)-thioATP (6) 2'F-thioAMP (8) + Procedure: The kinase reaction was performed similar to the procedure discussed in previous sections except at higher kinase enzyme loadings (4.0 wt%). Next, the end of the reaction (EOR) stream was divided into two portions for the cGAS reaction. To the first portion, 1 equivalent of ZnSO4 and 1 equivalent of CoSO4 were added. To the second portion, only 1 equivalent of CoSO4 was added. After the reaction was completed, the final EOR stream was analyzed by chromatography, and then the level of XTP, XMP, and other hydrolyzed impurities were monitored. Based on this experiment, the presence of both Zn 2+ and Co 2+ is necessary to improve MK-1454 assay yield by reducing the hydrolysis of XTP to XMP and other hydrolyzed impurities.</p><p>Data points represent single samples. Interpretation: Co 2+ and Zn 2+ bind to thiotriphosphates, 3′F-(Sp)-thioGTP and 2′F-(Sp)-thioATP. Both thiotriphosphates bind 1 equiv. of either Co 2+ or Zn 2+ , additional metal binding is not observed above 1 equiv. Results suggest thiotriphosphates are fully saturated by 1 equiv. metal, forming the metal-NTP complexes that are substrates of the evolved cGAS. Procedure: Buffer and pH matched solutions of purified 2′F-(Sp)-thioATP and 3′F-(Sp)-thioGTP were made in degassed 10 mM HEPES buffer (pH 7.21). The exact concentration of thiotriphosphate was determined by HPLC. 5 mM solutions of CoCl2 and ZnCl2 were created by dissolving their respective salts, Cobalt (II) Chloride Hexahydrate and Zinc (II) Chloride, in the identical degassed 10 mM HEPES (pH 7.21) buffer.</p><p>Isothermal titration calorimetry measurements of metal binding to the individual thiotriphosphates on a TA Instrument NanoITC SV (940 L cell volume). Measurements were performed at 35°C using a 250 µL titration syringe and mixed at 300 rpm. In all experiments the metal solution was used as the titrant and the cell was the appropriate thiotriphosphate solution.</p><p>Prior to initiating the measurement the instrument was allowed to equilibrate until the baseline stabilized (slope ≤ 0.1 uW/hr, SD ≤ 0.01 uW), followed by 300 s delay. For experiments with CoCl2, the first injection was 2.00 L, followed by 30 injections of 8.00 L, all injections were spaced 300 s apart. For experiments with ZnCl2, the first injection was 0.85 L, followed by 45 injections of 5.39 L, all injections were spaced 600 s apart. Interpretation: A slight excess of [Co+Zn] relative to [2′F-(Sp)-thioATP + 3′F-(Sp)-thioGTP] is required for optimal initial rate. Increasing equivalents further has little benefit on initial rate. Together with the results presented in Figure S22, this suggests that only the metal-NTP complexes are substrates of the evolved cGAS. Procedure: Reactions were assmbled in triplicate (n=3); data points represent the average of three runs; error bars represent standard deviations. Substrates 2′F-(Sp)-thioATP (10 L, 0.1 M, 1 equiv), 3′F-(Sp)-thioGTP (10 L, 0.1 M, 1 equiv) along with TES buffer (pH 7.8, 5 L, 1 M, 5 equiv), and tetraglymedimethylether (20 L, neat, 20 vol% final concentration) were added to the wells of a 96-plate. Solutions of CoSO4 and ZnSO4 (variable volume, 500 mM stock solutions)</p><p>were then added (2.5 mM, 5 mM , 7.5 mM, 10 mM, 12.5 mM, 15 mM, and 17.5 mM each Co/Zn) followed by water up to 55 L. Reactions were then initiated by addition of a slurry of purified cGAS enzyme (3.8 mg/mL, 45 L) using a multichannel pipet. The reactions were then sealed and placed on a shaking heat block at (35 C / 600 RPM) and sampled at the timepoints indicated on the graph by removing an aliquot of the reaction (10 L) followed by dilution into 0.1M NaOH (90 L) to quench. Quenched reactions were then filtered and analyzed by the MK1454 analytical method for reaction development (presented above in Figure <ref type="figure" target="#fig_47">S19</ref>). A was water with 0.1% formic acid and mobile phase B was acetonitrile with 0.1% formic acid.</p><p>The gradient profile utilized was as follows. Solvent composition was held isocratic at 1% B for 1 minute followed by a 4 minute ramp to 7.8% B. The column was then flushed for 1 minute at 95% B followed by a 1 minute re-equilibration at 1% B</p><p>Nucleotide 1 Nucleotide 2 Product LCAP 1 H NMR 13 C NMR 31 P NMR HMRS ATP 58 1 H NMR (600 MHz, D 2 O) δ 8.53 (s, 1H), 8.35 (s, 1H), 8.15 (s, 1H), 7.72 (s, 1H), 6.07 (d, J = 8.1 Hz, 1H), 5.89 (s, 1H), 4.80 -4.74 (m, 1H), 4.56 (s, 1H), 4.47 (s, 1H), 4.42 (s, 1H), 4.36 (s, 1H), 4.33 -4.21 (m, 2H), 4.21 -4.04 (m, 2H), 3.88 (d, J = 8.6 Hz, 1H), 3.04 (q, J = 7.3 Hz, 6H), 1.12 (t, J = 7.3 Hz, 9H). 13 C NMR (151 MHz, D 2 O) δ 159.5, 158.7, 157.8, 147.3, 145.7, 138.7, 136.7, 131.6, 128.6, 118.1, 89.7, 86.7, 84.2 (d, J = 6.6 Hz), 80.0 (dd, J = 11.4, 11.4 Hz), 76.9, 73.6, 71.1 (d, J = 4.3 Hz), 70.6, 66.4, 62.3, 46.5, 8.1. 31 P NMR (202 MHz, D 2 O) δ -1.86, -2.41. HRMS (ESI): m/z 658.0817 [M-H] -(calc'd for C 20 H 22 N 9 O 13 P 2 -: 658.0818, Δppm = 0.8) ATP 74 1 H NMR (600 MHz, D 2 O) δ 8.12 (s, 1H), 8.11 (s, 1H), 7.68 (s, 1H), 6.04 -5.99 (m, 1H), 5.82 -5.77 (m, 1H), 5.77 -5.69 (m, 1H), 4.99 -4.92 (m, 1H), 4.67 -4.66 (m, 1H), 4.40 -4.34 (m, 2H), 4.32 (s, 1H), 4.15 -4.09 (m, 1H), 4.08 -3.97 (m, 2H), 3.61 -3.51 (m, 1H), 3.25 -3.17 (m, 1H), 3.08-2.98 (m, 6H), 2.97 -2.87 (m, 1H), 1.12 (s, 9H). 13 C NMR (151 MHz, D 2 O) δ 158.7, 155.3, 152.9, 152.5, 151.5, 147.6, 140.4, 138.4, 118.6, 117.3, 89.7, 86.2 (d, J = 6.3 Hz), 79.8 (dd, J = 10.3, 10.3 Hz), 73.7, 73.6, 70.3 (d, J = 5.4 Hz), 66.6 (d, J = 4.7 Hz), 62.4, 58.9, 46.5, 40.0, 37.9, 8.1. 31 P NMR (202 MHz, D 2 O) δ -1.22, -2.51. HRMS (ESI): m/z 686.1232 [M-H] -(calc'd for C 21 H 26 N 11 O 12 P 2 -: 686.1243, Δppm = 1.6) GTP 66 1 H NMR (600 MHz, D 2 O) δ 8.63 (s, 1H), 8.44 (s, 1H), 7.74 (s, 1H), 6.07 (s, 1H), 5.79 (d, J = 8.4 Hz, 1H), 5.45 (q, J = 7.6 Hz, 1H), 4.95 -4.87 (m, 1H), 4.80 -4.74 (m, 1H), 4.46 (d, J = 3.8 Hz, 1H), 4.38 -13 C NMR (151 MHz, D 2 O) δ 164.1, 158.3, 152.9, 151.6, 151.6, 148.8, 142.5, 140.1, 131.5, 117.0, 89.6, 85.9 (d, J = 7.5 Hz), 83.3 (d, J = 9.7 31 P NMR (243 MHz, D 2 O) δ -1.30, -2.25. HRMS (ESI): m/z 686.1135 [M-H] -(calc'd for C 22 H 26 N 9 O 13 P 2 -: 686.1131, Δppm = 0.5) GTP 40 1 H NMR (600 MHz, D 2 O) δ 7.94 (s, 1H), 7.64 (s, 1H), 7.58 (d, J = 5.6 Hz, 1H), 6.22 (d, J = 4.7 Hz, 1H), 5.88 (s, 1H), 5.75 (d, J = 8.1 Hz, 1H), 5.61 (s, 1H), 4.90 -4.81 (m, 1H), 4.52 -4.44 (m, 1H), 4.44 -4.37 (m, 1H), 4.27 (d, J = 9.2 Hz, 1H), 4.23 (s, 2H), 4.17 -4.11 (m, 1H), 4.11 -4.04 (m, 1H), 3.89 (d, J = 10.1 Hz, 1H), 3.02 (q, J = 7.3 Hz, 12H), 1.10 (t, J = 7.3 Hz, 18H). 13 C NMR (151 MHz, D 2 O) δ 159.0, 152.4, 151.6, 150.7, 140.5, 139.2, 138.1, 137.5, 122.1, 116.8, 103.8, 90.4, 86.3, 83.2 (d, J = 8.4 Hz), 79.7 (dd, J = 11.3, 11.3 Hz), 74.3, 73.1, 71.5, 70.2, 65.5, 62.4, 46.5, 8.1. 31 P NMR (202 MHz, D 2 O) δ -1.27, -2.63. HRMS (ESI): m/z 672.0979 [M-H] -(calc'd for C 21 H 24 N 9 O 13 P 2 -: 672.0974, Δppm = 0.7) GTP 66 1 H NMR (600 MHz, D 2 O) δ 7.78 (s, 1H), 7.67 (s, 1H), 6.57 (d, J = 4.4 Hz, 1H), 6.45 (d, J Table S2. Characterization and potency data for cGAMP phosphorothioate diastereomers, cGAMP, and MK-1454 Compound Filt IC50 (WT, nM) Filt IC50 (HAQ, nM) THP1 EC50 (HAQ, nM) 1 H NMR 13 C NMR 31 P NMR Mass (M-H) 0.9 0.3 3700 1 H NMR (499 MHz, Deuterium Oxide) δ</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1 .</head><label>1</label><figDesc>Abbreviations .............................................................................................................................. 2. Synthetic methods ...................................................................................................................... 2.1 Synthesis of nucleosides ...................................................................................................... 2.2 Synthesis of thiophosphate nucleotides ............................................................................... 2.3 General procedure for the synthesis of AcPLi2 ................................................................... 2.4 General procedure for 2'F-(Sp)-thioATP (6) synthesis with kinase enzymes ..................... 2.5 General procedure for 3'F-(Sp)-thioGTP (7) synthesis with kinase enzymes ..................... 2.6 General procedure for cGAS catalyzed MK-1454 synthesis ............................................. 3. Supporting Figures ...................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure S1 .</head><label>S1</label><figDesc>Figure S1. Structure of STING bound to MK-1454 ...............................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure S2 .</head><label>S2</label><figDesc>Figure S2. Chemical P(III) approach to access MK-1454 ......................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure S3 .</head><label>S3</label><figDesc>Figure S3. Reaction of human cGAS with thiotriphosphate analogs of ATP and GTP .........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure S4 .</head><label>S4</label><figDesc>Figure S4. Alternative metal cofactors relax stereoselectivity of cGAS .................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure S5 .</head><label>S5</label><figDesc>Figure S5. Identification of cGAS variants that catalyze the improved synthesis of MK-1454 ...................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure S6 .</head><label>S6</label><figDesc>Figure S6. Effect of zinc and cobalt on reaction .....................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure S7 .</head><label>S7</label><figDesc>Figure S7. Summary of cGAS evolution ................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure S8 .</head><label>S8</label><figDesc>Figure S8. Host-cell enzymes catalyze decomposition of 2′F-(Sp)-thioATP ..........................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure</head><figDesc>Figure S9. cGAS can be solubilized and purified by modulating ionic strength ....................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure</head><figDesc>Figure S10. cGAS reaction with isolated thiotriphosphates ...................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure S11 .</head><label>S11</label><figDesc>Figure S11. Initial screen for AK/GK enzymes ......................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure S12 .</head><label>S12</label><figDesc>Figure S12. Testing of high-energy phosphate donors and kinase ..........................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure S13 .</head><label>S13</label><figDesc>Figure S13. Diastereoselectivity of wild-type acetate kinase enzymes ...................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure S14 .</head><label>S14</label><figDesc>Figure S14. Cross-coupling between ATP with 3'F-(Sp)-thioGTP with cGAS enzyme .........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure S15. 2 '</head><label>2</label><figDesc>Figure S15. 2'F-(Sp)-thioATP as initial phosphoryl donor .....................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure S16 .</head><label>S16</label><figDesc>Figure S16. Summary of kinase evolution ..............................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure S17 .</head><label>S17</label><figDesc>Figure S17. Optimized individual thiotriphosphate synthesis reactions ..................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure S18 .</head><label>S18</label><figDesc>Figure S18. Reaction optimization of tandem thiotriphosphate synthesis to access 3′F-(Sp)-thioGTP and 2'F-(Sp)-thioATP ................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure</head><figDesc>Figure S19. MK-1454 synthesis via the cascade process from thioAMP and thioGMP .........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure S20 .</head><label>S20</label><figDesc>Figure S20. Zinc improves the stability of thiotriphosphates. .................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure S21 .</head><label>S21</label><figDesc>Figure S21. Zinc reduces background hydrolysis of thiotriphosphates ...................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure S22 .</head><label>S22</label><figDesc>Figure S22. Co 2 + and Zn 2 + associate with thiotriphosphates ..................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure S23 .</head><label>S23</label><figDesc>Figure S23. Dependence of initial rate of cGAS reaction on Zn/Co cofactor concentration ..</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>1 2. 2 1 H</head><label>121</label><figDesc>and potency data for cGAMP phosphorothioate diastereomers, cGAMP, and MK-1454 ............................................................................................................ 8. NMR Spectra ........................................................................................................................... 9. References .............................................................................................................................. yield, defined as the yield of product at the end of reaction as determined using calibrated UPLC instrument LCAP -liquid chromatography area percent NNK, NNN, NNS -degenerate codons PCR -polymerase chain reaction SFP -shake flask powder = lyophilized powder of cell-free extract of enzyme SSM -site-saturation mutagenesis TEA -triethylamine TEAA -triethylammonium cetate TES -N-[Tris(hydroxymethyl)methyl]-2-aminoethanesulfonic acid TGDE -tetraglyme dimethylether WT -wild-type 2. Synthetic methods 2.1 Synthesis of nucleosides The nucleoside (N-{9-[(2R,3S,4S,5R)-4-fluoro-3-hydroxy-5-(hydroxymethyl)oxolan-2-yl]-6oxo-6,9-dihydro-1H-purin-2-yl}-2-methylpropanamide) was commercially available (ABCLabtory Scientific, Hangzhou, Zhejiang, China). The nucleoside (9-(2-Deoxy-2-fluoro-beta-D-arabinofuranosyl)adenine) production was commercially available (ABCLabtory Scientific, Hangzhou, Zhejiang, China) or could be accomplished via previously reported syntheses. Synthesis of thiophosphate nucleotides 3′F-thioGMP, 2′F-thioAMP as well as synthetic samples of 3′F-(Sp)-thioGTP, 3′F-(Rp)-thioGTP, 2′F-(Sp)-thioATP, and 2′F-(Rp)-thioATP were prepared by custom synthesis (Nublocks, Oceanside, CA) from the corresponding nucleosides. Synthetic 3′F-(Sp)-thioGTP and 2′F-(Sp)-thioATP were used for cGAS evolution rounds. 1 H NMR (500MHz, DMSO-d6) δ = 8.26 (d, J = 1.9 Hz, 1H), 8.21 (s, 1H), 7.55 (br s, 2H), 6.46 (dd, J = 15.0, 4.5 Hz, 1H), 5.24 (dt, J = 52.4, 4.1 Hz, 1H), 4.51 (dt, J = 18.1, 4.2 Hz, 1H), 4.22 -4.04 (m, 3H); 13 C NMR (125MHz, DMSO-d6): δ = 155.9, 152.6, 149.5, 140.3 (d, J = 4.1 Hz), 118.7, 95.4 (d, J = 191.9 Hz), 82.1 (d, J = 16.7 Hz), 81.8 (dd, J = 9.3, 5.3 Hz), 73.5 (d, J = 23.7 Hz), 65.5 (dd, J = 4.6, 1.8 Hz); 19 F NMR (470MHz, DMSO-d6): δ = -197.80 (ddd, J = 52.7, 16.6, 16.6 Hz, 1F); 31 P NMR (202MHz, DMSO-d6): δ = 59.5 (dd, J = 7.4, 7.4 Hz, 1P). HRMS(m/z): [M + H]+ calculated for [C10H14FN5O5PS] + 366.0432; found 366.0428. []D 25 = +28.8° (DMSO) NMR (500 MHz, D2O): δ 8.17 (s, 1H), 5.94 (d, J = 8.4 Hz, 1H), 5.30 (dd, J = 54.2, 4.3 Hz, 1H), 4.93 (ddd, J = 25.9, 8.4, 4.3 Hz, 1H), 4.63 -4.54 (m, 1H), 4.08 -4.00 (m, 1H), 3.97 -3.89</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>2 . 3 2 :</head><label>232</label><figDesc>P NMR (203 MHz, D2O) δ 43.3. HRMS(m/z): [M + H]+ calculated for [C10H14FN5O6PS] + 382.0381; found 382.0378. []D 25 = -41.9° (1:1 MeOH/water) General procedure for the synthesis of AcPLi To a 1 L reactor was charged 85% phosphoric acid (59.3 mL, 867 mmol) and acetic acid (275 mL) and the resulting mixture was agitated and cooled to 10 o C. Acetic anhydride (502 mL, 5204 mmol) was then added dropwise over 15 minutes. Upon completing the addition of acetic anhydride, solid lithium carbonate (69.9 g, 937 mmol) was added in small portions over 15 minutes to control effervescence. The reaction was aged at 23 o C for 3 hours, was heated to 35 o C over 10 minutes then aged at 35 o C for 17 hours. The reaction was then cooled to 5 o C and was vacuum filtered.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>cold 2 : 1 2 . 5</head><label>2125</label><figDesc>EtOH/water solution (4 x 20 mL), cold EtOH (3 x 20 mL). The resulting cake was dried under vacuum with positive nitrogen pressure overnight to yield 2′F-(Sp)-thioATP (6) disodium salt(31.3g) in an 83% yield.1  H NMR (500 MHz, D2O): δ 8.55-8.50 (b, 2H), 6.47 (dd, J = 10.0, 5.0 Hz, 1H), 5.31 (dt, J = 50.0, 5.0 Hz, 1H), 4.67 (dt, J =20.0, 5.0 Hz, 1H), 4.42-4.39 (m, 2H), 4.32 (s, 1H). 13 C NMR (126 MHz, D2O): δ 149.7, 147.5, 145.5, 142.8 (d, J = 4.1Hz), 117.7, 94.2 (d, J = 189.0 Hz), 82.6 (d, J = 17.6 Hz), 81.6 (m), 72.0 (d, J = 16.2 Hz), 64.3 (d, J = 6.3 Hz). 19 F NMR (470 MHz, D2O) δ -199.9. 31 P NMR (203 MHz, D2O) δ 44.2 (d, J = 28.4 Hz), -10.6 (d, J = 20.3 Hz), -23.6 (dd, J = 28.4, 20.3 Hz). HRMS(m/z): [M + H]+ calculated for [C10H16FN5O11P3S] + 525.9758; found 525.9763. []D 25 =+15.5° (water) General procedure for 3'F-(Sp)-thioGTP (7) synthesis with kinase enzymes:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>2 . 6</head><label>26</label><figDesc>H NMR (500 MHz, D2O): δ 8.29 (s, 1H), 6.00 (d, J = 6.0 Hz, 1H), 5.42 (dd, J = 55.0, 4.3 Hz, 1H), 5.05-4.98 (m, 1H), 4.55 (d, J = 30 Hz, 2H), 4.40 -4.37 (m, 1H), 4.27 -4.25 (m, 1H). 13 C NMR (126 MHz, D2O): δ 158.8, 153.9, 152.1, 137.8, 115.9, 92.8 (d, J = 182.0 Hz), 85.4, 82.4 (d, J = 24.0 Hz), 73.1 (m), 65.5 (m). 19 F NMR (470 MHz, D2O) δ -198.2. 31 P NMR (203 MHz, D2O) δ 43.4 (d, J = 28.4 Hz), -9.94 (d, J = 20.3 Hz), -23.7 (dd, J = 28.4, 20.3 Hz). HRMS(m/z): [M + H]+ calculated for [C10H16FN5O12P3S] + 541.9708; found 541.9712. []D 25 =-34.5° (water) General procedure for cGAS catalyzed MK-1454 synthesis:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><figDesc>Fig. S1. Difference maps resulting from crystallographic refinement of thiophosphate diastereomers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Fig</head><figDesc>Fig. S2. Chemical P(III) approach to access MK-1454</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><figDesc>Compound I: N-(9-((2R,3S,4S,5R)-5-((bis(4-methoxyphenyl) (phenyl)methoxy) methyl)-4-fluoro-3hydroxytetrahydrofuran-2-yl)-6-oxo-6,9-dihydro-1H-purin-2-yl) isobutyramide (21.2 g, 32 mmol) was dissolved in pyridine (100 mL) under N2 atmosphere. The mixture was cooled to 0 o C and diphenyl hydrogen phosphite (26.0 g, 96 mmol, 3 eq.) was added dropwise. After being stirred at rt for 16 h, TLC &amp; LCMS monitored the reaction until the started material was consumed completely. The reaction was quenched with 100 mL H2O and 90 mL TEA. The mixture was concentrated under reduced pressure and dissolved with DCM (400 mL). The organic phase was washed with sat. NaHCO3 (10% TEA, V/V) (400 mL x 6), dried with Na2SO4, filtered and concentrated. The resulting residue was purified by column on silica gel (DCM/MeOH = 10 :1, 0.5% TEA), slurried in MTBE (100 ml) and filtered to give (2R,3S,4R,5R)-5-((bis(4methoxyphenyl) (phenyl)methoxy) methyl)-4-fluoro-2-(2-isobutyramido-6-oxo-1,6-dihydro-9Hpurin-9-yl) tetrahydrofuran-3-yl phosphonate (25 g, 65% yield) as a white solid.1 H NMR (400 MHz, DMSO-d6) δ 8.14 (s, 1H), 7.40 -7.32 (m, 3H), 7.23 (dd, J = 10.7, 4.9 Hz, 7H), 6.82 (dd, J = 8.6, 5.8 Hz, 4H), 5.97 (d, J = 7.4 Hz, 1H), 5.48 (s, 1H), 5.42 (s, 1H), 4.34-4.27 (m, 1H),3.73 (s, 6H), 3.45 (m, 1H), 3.23 (dd, J = 10.6, 3.6 Hz, 1H), 2.75 (q, J = 7.3 Hz, 9H), 1.89 (s, 1H), 1.16 -0.96 (m, 18H); 13 C NMR (101 MHz, DMSO-d6) δ 180.6, 158.6, 158.6, 155.2, 149.5, 148.7, 145.0, 135.7, 135.7, 130.3, 130.2, 128.3, 128.2, 127.2, 120.9, 113.6, 86.5, 55.5, 46.0, 35.2, 19.3, 10.3.Synthesis of Compound III: Into a 1 L 3-necked round-bottom flask purged and maintained with an inert atmosphere of nitrogen, was placed N-(9-((2R,3R,4S,5R)-5-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-3-fluoro-4-hydroxy-tetrahydrofuran-2-yl)-9H-purin-6-yl)benzamide (42 g, 60.9 mmol, 1.00 equiv), dichloromethane (420 mL), 1H-imidazole-4,5-dicarbonitrile (16.2 g, 2.00 equiv), 3-(bis[bis(propan-2-yl)amino]phosphanyloxy)propanenitrile (37.4 g, 121.8 mmol, 2.00 equiv). The resulting solution was stirred for 12 h at 25 o C. The resulting solution was diluted with 500 mL of DCM. The resulting mixture was washed with 2x250 mL of H2O. The mixture was dried over anhydrous sodium sulfate and concentrated under vacuum. The residue was applied onto a silica gel column with DCM:ethyl acetate/petroleum ether (1:1:8). The crude product was slurry with PE:EA=5:1 three times then purified by SFC. This resulted in 30 g in a 57% isolated yield of (2R,3S,4R,5R)-5-(6-benzamido-9H-purin-9-yl)-2-((bis(methoxyphenyl)(phenyl)methoxy)methyl)-4-fluoro-tetrahydrofuran-3-yl 2-cyanoethyl diisopropylphosphoramidite as an almost 1:1 diastereomers in a white foam.1 H NMR (400 MHz, CDCl3) δ 9.18 (s, 1H), 8.79 (d, J = 5.2 Hz, 1H), 8.27-8.24 (m, 1H), 8.02 (d, J = 9.6 Hz, 1H), 7.58-7.26 (m, 11H), 6.86-6.84 (m, 4H), 6.83 (d, J = 6.4 Hz, 1H), 5.32-5.08 (m, 1H), 4.80-4.60 (m, 1H), 4.26-4.18 (m, 1H), 3.78-3.42 (m, 11H), 2.60 (t, J = 8.4 Hz, 1H), 2.43 (t, J = 8.4 Hz, 1H), 1.96 (s, 1H), 1.21-1.11 (m, 10H).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>Fig. S3 .</head><label>S3</label><figDesc>Fig. S3. Reaction of human cGAS with thiotriphosphate analogs of ATP and GTPA. Human cGAS shows reduced reactivity with phosphorothioate analogs of ATP and GTP</figDesc><graphic coords="18,72.00,124.44,489.90,222.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_32"><head>Fig. S6 .</head><label>S6</label><figDesc>Fig. S6. Synergistic effect of zinc and cobalt on cGAS reaction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_33"><head>Fig. S7 .</head><label>S7</label><figDesc>Fig. S7. Summary of cGAS evolution. A. Screening conditions used for each round of evolution</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_34"><figDesc>Fig. S8. Host-cell enzymes catalyze decomposition of 2′F-(Sp)-thioATP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_35"><head>Fig. S10 .</head><label>S10</label><figDesc>Fig. S10. cGAS reaction optimizationA. cGAS reaction conditions optimization</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_36"><head>aFig. S11 .</head><label>S11</label><figDesc>Fig. S11. Initial screen for AK/GK enzymes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_37"><head>Fig</head><figDesc>Fig. S13. Diastereoselectivity of wild-type acetate kinase enzymes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_38"><head>Fig. S14 .Fig</head><label>S14</label><figDesc>Fig. S14. Cross-coupling between ATP with 3′F-(Sp)-thioGTP with cGAS enzyme.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_39"><figDesc>GK activity; 2'F-(Sp)-thioATP donor 5 wt% WT GK 50 wt% WT GK</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_40"><figDesc>Locations of mutations superimposed on adenylate kinase homology modelModel based PDB ID 2AKY<ref type="bibr" target="#b82">18</ref> Red spheres show position of mutations in final evolved variant. Stick structures depict ATP and AMP.-thioAMP at 0.6 minutes, 2'F-(Sp)-thioADP at 0.85 minutes, ATP at 0.95 minutes, 2'F-(Sp)-thioATP at 1-thioAMP at 0.6 minutes, 2'F-(Sp)-thioADP at 0.85 minutes, ATP at 0.95 minutes, 2'F-(Sp)-thioATP at 1-thioAMP substrate @ 0.706 min, 2'F-(Sp)-thioATP product @ 1.415 min, 2'F-(Rp)-thioATP product @ 1.601 min Column Temperature 45 °C</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_41"><head>3 '( 6 )</head><label>36</label><figDesc>F-thioGMP at 0.7 minutes, 3'F-(Sp)-thioGDP, at 1.0 minutes, 3'F-(Sp)-thioGTP at 1.27 minutes, and 3'F-(Rp)-thioGTP at 1.4 minutes Column Temperature 45 °C UPLC Parameters for GK evolution rounds 4-5 Instrument Thermo U3000 UPLC Column Waters Xselect Peptide HSS T3 XP 2.5µm 2.1x100mm column UPLC Parameters for GK evolution rounds 4at 0.38 minutes, 3'F-(Sp)-thioGTP (2) at 0.69 minutes, 2'F-thioAMP (4) at 0.7 minutes, and 2'F-(Sp)-thioATP (3) at 1.35 minutes Column Temperature 50 °C</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_43"><head>3'F-thioGMP ( 6 )</head><label>6</label><figDesc>Fig. S17. Optimized individual thiotriphosphate synthesis reactions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_44"><head>a</head><figDesc>Conditions: 1.4wt% GK, 1.4 wt% AcK, 1.0 equiv of MgCl2, 25 C, 15-24h in 15 volumes of water and 5 volumes of EtOH as solvent; b %3'F-(Sp)-thioGTP was measured by UPLC; c %3'F-(Sp)-thioGDP was measured by UPLC, data points represent single experiments (n=1); d Reaction requires over 10 hours to achieve full conversion.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_46"><head>Fig. S18 .</head><label>S18</label><figDesc>Fig. S18. Reaction optimization of tandem thiotriphosphate synthesis to access 3'F-(Sp)-thioGTP and 2'F-(Sp)-thioATP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_47"><head>Fig. S19 .</head><label>S19</label><figDesc>Fig. S19. Gram scale procedure for MK-1454 synthesis via the cascade process from thioAMP and thioGMP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_48"><head>Fig 4 Fig.</head><label>4</label><figDesc>Fig. S20 Zinc improves the stability of thiotriphosphates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_49"><head>Fig. S22 .</head><label>S22</label><figDesc>Fig. S22. Co 2 + and Zn 2 + associate with thiotriphosphates</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_50"><head>Fig. S23</head><label>S23</label><figDesc>Fig. S23 Dependence of initial rate of cGAS reaction on Zn/Co cofactor concentration</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_51"><figDesc>2'F-thioATP + 3'F-thioGTP) % Time (mins) MK1454/SM % vs. time 0.25 equiv each Co/Zn 0.5 equiv each Co/Zn 0.75 equiv. each Co/Zn 1 equiv each Co/Zn 1.25 equiv each Co/Zn 1.5 equiv each Co/Zn 1.75 equiv each Co/Zn spectrometry (HRMS) data were recorded on a Waters Acquity UPLC equipped with diode array detector and a Xevo G2-XS QTof MS instrument in ESI-(electrospray) ionization. Mobile phase</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_52"><head>= 4 . 3 3 Hz 4 Hz</head><label>4334</label><figDesc>Hz, 1H), 5.80 (d, J = 8.4 Hz, 1H), 5.39 -5.36 (m, 1H), 5.35 (s, 1H), 4.85 -4.79 (m, 1H), 4.50 (d, J = 3.8 Hz, 1H), 4.47 (d, J = 3.8 Hz, 1H), 4.29 (s, 1H), 4.23 -4.14 (m, 2H), 4.14 -4.08 (m, 1H), 4.04 (d, J = 11.6 Hz, 1H), 3.93 (d, J = 11.7 Hz, 1H), 3.02 (q, J = 7.2 O) δ -1.27, -1.83. HRMS (ESI): m/z 672.0971 [M-H] -(calc'd for C 21 H 24 N 9 O 13 P 2 -: 672.0974, Δppm = 0.4) GTP 30 1 H NMR (600 MHz, D 2 O) δ 8.42 (s, 1H), 7.78 (s, 1H), 7.61 (d, J = 3.3 Hz, 1H), 6.22 (d, J = 3.3 Hz, 1H), 6.20 (s, 1H), 5.82 (d, J = 8.4 Hz, 1H), 5.49 -5.41 (m, 1H), 4.93 -4.87 (m, 1H), 4.54 (d, J = 3.8 Hz, 1H), 4.48 (d, J = 3.6 Hz, 1H), 4.34 -4.27 (m, 3H), 4.14 -4.08 (m, 1H), 4.05 (d, J = 11.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="25,72.00,147.90,468.00,408.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="30,71.76,342.24,316.08,318.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="35,72.00,92.70,237.84,226.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="41,78.06,73.86,468.00,126.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="50,72.00,469.50,468.00,132.18" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Procedure: Reaction components were added to selected wells of a 96-well plate as follows: 10X</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Interpretation: evolved cGAS is capable of forming a CDN from ATP and 3′F-(Sp)-thioGTP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Adenylate kinase + acetate kinase</head><p>Interpretation: low-level activity of phosphorylation of 2'F-thioAMP with 2'F-(Sp)-thioATP donor is observed, yielding increased levels of 2'F-(Sp)-thioATP as compared with no enzyme control.</p><p>Procedure: The activity of wild-type S. cerevisiae adenylate kinase in the phosphorylation of 2'F-thioAMP as follows: a mixture containing 2'F-thioAMP (1 mM), 2'F-(Sp)-thioATP (0.1 mM), acetyl phosphate (10 mM), E. coli acetate kinase, reaction buffer (100 mM NaCl, 40 mM tris pH 7.5, 10 mM MgCl2), were reacted with S. cerevisiae adenylate kinase (1 g/L enzyme powder or 0.08 g/L purified enzyme). Data points represent single samples. Reactions were sampled and analyzed by the LC-MS method below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thiotriphosphate analytical LC-MS method Instrument</head><p>Agilent 1200 HPLC</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Column</head><p>Ascentis Express C18 column (3.0 x 100 mM 2.7 m, Sigma-Aldrich, 53814-U)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gradient</head><p>Gradient A: 100mM TEAA in water, pH 7.0; B: acetonitrile </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Supplementary tables Table S1. Biocatalytic synthesis of novel phosphodiester-linked CDN analogs using cGAS</head><p>Procedure: Nucleotide triphosphate monomers were prepared as previously described. <ref type="bibr" target="#b84">20</ref> cGAS buffer consisted of 40 mM Tris-HCl, pH 7.5, 100 mM NaCl, 10 mM MgCl. cGAS enzyme was purchased from Novoprotein, having been expressed in E. coli and purified using a 6xhis tag.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">NMR Spectra</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">at t=0 (UPLC method details presented below) UPLC reaction profile for tandem kinase reaction to generate 2′F-(Sp)-thioATP (6) (RT=3.98 min) and 3′F-(Sp)-thioGTP (7) (RT=3.27 min) at end-of-reacti UPLC reaction profile after adding cGAS enzyme</title>
+		<idno>RT=3.12min) and 3′F- thioGMP</idno>
+	</analytic>
+	<monogr>
+		<title level="j">TGDE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>reaction profile tandem kinase reaction: 2′F-thioAMP RT=1.94 min CoSO4 to generate MK-1454 (1) (RT=6.85 min) UPLC profile of isolated MK-1454 (RT = 6.89</note>
+	<note type="raw_reference">reaction profile tandem kinase reaction: 2′F-thioAMP (8) (RT=3.12min) and 3′F- thioGMP (9) (RT=1.94 min) at t=0 (UPLC method details presented below) UPLC reaction profile for tandem kinase reaction to generate 2′F-(Sp)-thioATP (6) (RT=3.98 min) and 3′F-(Sp)-thioGTP (7) (RT=3.27 min) at end-of-reacti UPLC reaction profile after adding cGAS enzyme, TGDE, ZnSO4, CoSO4 to generate MK-1454 (1) (RT=6.85 min) UPLC profile of isolated MK-1454 (RT = 6.89)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">dd, J = 11.0, 11.0 Hz</title>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>80.0</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 3.2</note>
+	<note type="raw_reference">Hz), 80.0 (dd, J = 11.0, 11.0 Hz), 74.6, 73.5, 71.2 (d, J = 3.2</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J =</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">5</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 70.5 (d, J = 5.2</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 5.0</note>
+	<note type="raw_reference">Hz), 65.6 (d, J = 5.0</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 62.3 (d, J = 4.6</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GTP</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<date type="published" when="2001-08-09">46.5, 25.8, 11.9, 8.1</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 46.5, 25.8, 11.9, 8.1. GTP 68</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<idno>5.50 -5.42</idno>
+		<imprint>
+			<biblScope unit="page" from="4" to="47" />
+		</imprint>
+	</monogr>
+	<note>600 MHz, D 2 O) δ 8.62 (s, 1H), 8.55 (s, 1H), 7.77 (s, 1H), 6.12 (s, 1H), 5.80 (d, J = 8.5 Hz, 1H d, J = 3.9 Hz, 1H), 4.41 -4.32 (m, 2H), 4.25 (s, 1H), 4.15 -4.06 (m, 1H), 4.06 -3.98 (m, 2H), 3.03 (q, J = 7.3 Hz, 12H), 1.11 (t, J = 7.4 Hz, 18H</note>
+	<note type="raw_reference">H NMR (600 MHz, D 2 O) δ 8.62 (s, 1H), 8.55 (s, 1H), 7.77 (s, 1H), 6.12 (s, 1H), 5.80 (d, J = 8.5 Hz, 1H), 5.50 -5.42 (m, 1H), 4.91 -4.85 (m, 1H), 4.77-4.71 (m, 1H), 4.47 (d, J = 3.9 Hz, 1H), 4.41 -4.32 (m, 2H), 4.25 (s, 1H), 4.15 -4.06 (m, 1H), 4.06 -3.98 (m, 2H), 3.03 (q, J = 7.3 Hz, 12H), 1.11 (t, J = 7.4 Hz, 18H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">151</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C NMR (151</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2 O) δ 158.4, 153.0, 151.7, 151.6, 150.2, 150.0, 144.1, 140.1, 131.2, 117.1, 90.0</date>
+			<biblScope unit="volume">85</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 7.5</note>
+	<note type="raw_reference">MHz, D 2 O) δ 158.4, 153.0, 151.7, 151.6, 150.2, 150.0, 144.1, 140.1, 131.2, 117.1, 90.0, 85.9 (d, J = 7.5</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+		</imprint>
+	</monogr>
+	<note>3 (d, J = 9</note>
+	<note type="raw_reference">Hz), 83.3 (d, J = 9.4</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Hz)</title>
+		<idno>80.1 (dd, J = 11.0, 11.0</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="46" to="51" />
+		</imprint>
+	</monogr>
+	<note>d, J = 4.7 Hz d, J = 3.4 Hz), 70.4 (d, J = 5.3 Hz d, J = 5.1 Hz d, J = 4.6 Hz</note>
+	<note type="raw_reference">Hz), 80.1 (dd, J = 11.0, 11.0 Hz), 74.6 (d, J = 4.7 Hz), 73.6, 71.2 (d, J = 3.4 Hz), 70.4 (d, J = 5.3 Hz), 65.6 (d, J = 5.1 Hz), 62.2 (d, J = 4.6 Hz), 46.5, 8.1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">243</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (243</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">HRMS (ESI): m</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>z 692.0403 [M-H] -(calc&apos;d for C 20 H 21 ClN 9 O 13 P 2 -: 692.0428</idno>
+		<imprint>
+			<date>2 O) δ -1.27, -2.19</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ - 1.27, -2.19. HRMS (ESI): m/z 692.0403 [M-H] -(calc&apos;d for C 20 H 21 ClN 9 O 13 P 2 -: 692.0428, Δppm = 3.6</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">42 (s, 1H), 7.73 (s, 1H), 6.05 (s, 1H)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5" to="77" />
+		</imprint>
+	</monogr>
+	<note>600 MHz, D 2 O) δ 8.60 (s, 1H d, J = 8.5 Hz, 1H), 5.46 -5.39 (m, 1H), 4.93 -4.85 (m, 1H), 4.70-4.67 (m, 1H), 4.50 -4.43 (m, 1H), 4.38 -4.30 (m, 2H</note>
+	<note type="raw_reference">H NMR (600 MHz, D 2 O) δ 8.60 (s, 1H), 8.42 (s, 1H), 7.73 (s, 1H), 6.05 (s, 1H), 5.77 (d, J = 8.5 Hz, 1H), 5.46 -5.39 (m, 1H), 4.93 -4.85 (m, 1H), 4.70-4.67 (m, 1H), 4.50 -4.43 (m, 1H), 4.38 -4.30 (m, 2H),</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">151</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C NMR (151</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>= 8.0</idno>
+		<imprint>
+			<date>2 O) δ 159.5, 158.3, 152.8, 151.5, 151.3, 148.5, 142.5, 140.2, 132.2, 117.0, 89.7, 85</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ 159.5, 158.3, 152.8, 151.5, 151.3, 148.5, 142.5, 140.2, 132.2, 117.0, 89.7, 85.9 (d, J = 8.0</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">)</forename><surname>Hz</surname></persName>
+		</author>
+		<editor>d, J = 9</editor>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 83.2 (d, J = 9.8</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">dd, J = 11.1, 11.1 Hz</title>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>80.0</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 5.0 Hz d, J = 3.0 Hz), 70.3 (d, J = 5.4 Hz), 65.5 (d, J = 4</note>
+	<note type="raw_reference">Hz), 80.0 (dd, J = 11.1, 11.1 Hz), 74.7 (d, J = 5.0 Hz), 73.5, 71.1 (d, J = 3.0 Hz), 70.3 (d, J = 5.4 Hz), 65.5 (d, J = 4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">243</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (243</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">HRMS (ESI): m</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>Δppm = 0.7</idno>
+		<imprint>
+			<date>2 O) δ -1.44, -2.42</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ - 1.44, -2.42. HRMS (ESI): m/z 672.0969 [M-H] -(calc&apos;d for C 21 H 24 N 9 O 13 P 2 -: 672.0974, Δppm = 0.7)</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">52 (s, 1H), 7.74 (s, 1H), 6.14 (s, 1H)</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 8.4 Hz, 1H), 5.54 -5.47 (m, 1H), 4.94 -4.87 (m, 1H</note>
+	<note type="raw_reference">72 (s, 1H), 8.52 (s, 1H), 7.74 (s, 1H), 6.14 (s, 1H), 5.80 (d, J = 8.4 Hz, 1H), 5.54 -5.47 (m, 1H), 4.94 -4.87 (m, 1H),</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<idno>78 -4.73</idno>
+		<title level="m">25 (s, 1H), 4.13 -4.05 (m, 1H), 4.02 (s, 1H), 4.00 (s, 1H)</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="4" to="36" />
+		</imprint>
+	</monogr>
+	<note>dd, J = 16.2, 11.6 Hz, 2H 3.94 -3.83 (m, 2H), 3.40 (dt, J = 12.2, 5.8 Hz, 1H), 3.27 (dt, J = 13.5, 6.3 Hz, 1H), 3.18 (s, 3H), 3.03 (q, J = 7.3 Hz, 12H), 1.11 (t, J = 7.3 Hz, 18H</note>
+	<note type="raw_reference">78 -4.73 (m, 1H), 4.46 (d, J = 3.6 Hz, 1H), 4.36 (dd, J = 16.2, 11.6 Hz, 2H), 4.25 (s, 1H), 4.13 -4.05 (m, 1H), 4.02 (s, 1H), 4.00 (s, 1H), 3.94 - 3.83 (m, 2H), 3.40 (dt, J = 12.2, 5.8 Hz, 1H), 3.27 (dt, J = 13.5, 6.3 Hz, 1H), 3.18 (s, 3H), 3.03 (q, J = 7.3 Hz, 12H), 1.11 (t, J = 7.3 Hz, 18H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">151</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C NMR (151</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2 O) δ 159.5, 158.5, 152.8, 151.7, 151.7, 149.1, 143.0, 140.4, 132.7, 117.2, 89.7</date>
+			<biblScope unit="volume">86</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 6.0</note>
+	<note type="raw_reference">MHz, D 2 O) δ 159.5, 158.5, 152.8, 151.7, 151.7, 149.1, 143.0, 140.4, 132.7, 117.2, 89.7, 86.1 (d, J = 6.0</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+		</imprint>
+	</monogr>
+	<note>3 (d, J = 9</note>
+	<note type="raw_reference">Hz), 83.3 (d, J = 9.4</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>80.0</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+		</imprint>
+	</monogr>
+	<note>dd, J = 11.2, 11.2 Hz d, J = 4.9 Hz 73.7, 71.3 (d, J = 4.3 Hz), 70.4 (d, J = 5.4 Hz), 69.9, 65.6 (d, J = 5</note>
+	<note type="raw_reference">Hz), 80.0 (dd, J = 11.2, 11.2 Hz), 74.2 (d, J = 4.9 Hz), 73.7, 71.3 (d, J = 4.3 Hz), 70.4 (d, J = 5.4 Hz), 69.9, 65.6 (d, J = 5.2</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001-08-02">57.7, 46.5, 32.2, 8.1</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 57.7, 46.5, 32.2, 8.1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">243</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (243</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">HRMS (ESI): m/z</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>Δppm = 0</idno>
+		<imprint>
+			<date>2 O) δ -1.28, -2.22</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ - 1.28, -2.22. HRMS (ESI): m/z 716.1232 [M-H] -(calc&apos;d for C 23 H 28 N 9 O 14 P 2 -: 716.1236, Δppm = 0.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">GTP</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GTP 84</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<title level="m">5.65 -5.56 (m, 1H), 4.98 -4.90 (m, 1H)</title>
+		<imprint>
+			<biblScope unit="page" from="4" to="45" />
+		</imprint>
+	</monogr>
+	<note>600 MHz, D 2 O) δ 8.12 (s, 1H), 7.75 (s, 1H), 5.90 (s, 1H), 5.82 (d, J = 8.3 Hz, 1H d, J = 3.5 Hz, 1H), 4.33 (s, 1H), 4.32 (s, 1H), 4.26 (s, 1H), 4.15 -4.04 (m, 2H), 3.97 (d, J = 11.3 Hz, 1H), 3.02 (q, J = 6.6 Hz, 12H), 1.10 (t, J = 7.1 Hz, 18H</note>
+	<note type="raw_reference">H NMR (600 MHz, D 2 O) δ 8.12 (s, 1H), 7.75 (s, 1H), 5.90 (s, 1H), 5.82 (d, J = 8.3 Hz, 1H), 5.65 -5.56 (m, 1H), 4.98 -4.90 (m, 1H), 4.59 -4.53 (m, 1H), 4.45 (d, J = 3.5 Hz, 1H), 4.33 (s, 1H), 4.32 (s, 1H), 4.26 (s, 1H), 4.15 -4.04 (m, 2H), 3.97 (d, J = 11.3 Hz, 1H), 3.02 (q, J = 6.6 Hz, 12H), 1.10 (t, J = 7.1 Hz, 18H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">151</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C NMR (151</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Mhz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="156" to="158" />
+		</imprint>
+	</monogr>
+	<note>d, J=210.57</note>
+	<note type="raw_reference">MHz, D 2 O) δ 159.4, 158.7 (d, J=210.57), 156.8 (d, J=19.27</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J=19.6</note>
+	<note type="raw_reference">Hz), 152.9, 151.8, 148.7 (d, J=19.6</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>140.51, 138.5, 117.2, 116.8, 89.4, 86.2, 83.3 (d, J = 8.8</note>
+	<note type="raw_reference">Hz), 140.51, 138.5, 117.2, 116.8, 89.4, 86.2, 83.3 (d, J = 8.8</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>79.8</idno>
+		<imprint/>
+	</monogr>
+	<note>dd, J = 11.7, 11.7 Hz), 74.0, 73.8, 71.5 (d, J = 4.9</note>
+	<note type="raw_reference">Hz), 79.8 (dd, J = 11.7, 11.7 Hz), 74.0, 73.8, 71.5 (d, J = 4.9</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 70.3 (d, J = 4.3</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="65" to="67" />
+		</imprint>
+	</monogr>
+	<note>d, J = 5</note>
+	<note type="raw_reference">Hz), 65.7 (d, J = 5.3</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001-08-05">62.0, 46.5, 8.1</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 62.0, 46.5, 8.1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">243</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (243</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">HRMS (ESI): m/z</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>Δppm = 0</idno>
+		<imprint>
+			<date>2 O) δ -1.29, -2.26</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ - 1.29, -2.26. HRMS (ESI): m/z 691.0836 [M-H] -(calc&apos;d for C 20 H 22 N 10 O 13 FP 2 -: 691.0833, Δppm = 0.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">GTP</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GTP 79</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">60 (s, 2H)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<date>4.80 -4.77 (m, 1H), 4.49 -4.31 (m, 2H), 4.27 -4.13</date>
+			<biblScope unit="volume">5</biblScope>
+		</imprint>
+	</monogr>
+	<note>600 MHz, D 2 O) δ 7.74 (s, 1H), 7.64 (s, 1H), 5.75 (s, 1H m, 3H), 4.13 -3.99 (m, 2H), 3.89 -3.75 (m, 1H), 3.02 (q, J = 7.3 Hz, 12H t, J = 7.3 Hz, 18H</note>
+	<note type="raw_reference">H NMR (600 MHz, D 2 O) δ 7.74 (s, 1H), 7.64 (s, 1H), 5.75 (s, 1H), 5.60 (s, 2H), 4.80 - 4.77 (m, 1H), 4.49 -4.31 (m, 2H), 4.27 -4.13 (m, 3H), 4.13 -3.99 (m, 2H), 3.89 -3.75 (m, 1H), 3.02 (q, J = 7.3 Hz, 12H), 1.10 (t, J = 7.3 Hz, 18H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">151</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C NMR (151</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<imprint>
+			<date>2 O) δ 159.2, 159.2, 152.7, 152.5, 151.9, 149.4, 140.5, 136.8, 116.8, 111.4, 89.4, 86.1, 83.2, 79</date>
+		</imprint>
+	</monogr>
+	<note>dd, J = 10.3, 10.3 Hz), 74.1, 72.0, 71.5, 70.1, 65.6, 62.4, 46.5, 8.1</note>
+	<note type="raw_reference">MHz, D 2 O) δ 159.2, 159.2, 152.7, 152.5, 151.9, 149.4, 140.5, 136.8, 116.8, 111.4, 89.4, 86.1, 83.2, 79.8 (dd, J = 10.3, 10.3 Hz), 74.1, 72.0, 71.5, 70.1, 65.6, 62.4, 46.5, 8.1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">243</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (243</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">HRMS (ESI): m/z 688</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mhz</surname></persName>
+		</author>
+		<idno>Δppm = 0</idno>
+		<imprint>
+			<date>2 O) δ -1.33, -3.17</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MHz, D 2 O) δ - 1.33, -3.17. HRMS (ESI): m/z 688.1033 [M-H] -(calc&apos;d for C 20 H 24 N 11 O 13 P 2 -: 688.1036, Δppm = 0.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">84 (s, 1H), 6.11 (s, 1H)</title>
+	</analytic>
+	<monogr>
+		<title level="m">‡LCAP = liquid chromatography area percent 8.26 (s, 1H)</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5" to="91" />
+		</imprint>
+	</monogr>
+	<note>18 (s, 1H) d, J = 8.2 Hz, 1H), 5.76 (brs, 1H), 5.19 (brs, 1H), 4.70 (s, 1H</note>
+	<note type="raw_reference">‡LCAP = liquid chromatography area percent 8.26 (s, 1H), 8.18 (s, 1H), 7.84 (s, 1H), 6.11 (s, 1H), 5.91 (d, J = 8.2 Hz, 1H), 5.76 (brs, 1H), 5.19 (brs, 1H), 4.70 (s, 1H),</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr ; Mhz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deuterium</forename><surname>Oxide</surname></persName>
+		</author>
+		<imprint>
+			<date>126</date>
+		</imprint>
+	</monogr>
+	<note>δ 158.98, 154.63, 152.83, 151.83, 151.69, 147.29, 140.51, 138.61, 118.39, 117.22, 89.56, 85.99, 82.91, 79.69, 74.15, 74.04, 70.96, 70.83, 67.17, 63.24</note>
+	<note type="raw_reference">C NMR (126 MHz, Deuterium Oxide) δ 158.98, 154.63, 152.83, 151.83, 151.69, 147.29, 140.51, 138.61, 118.39, 117.22, 89.56, 85.99, 82.91, 79.69, 74.15, 74.04, 70.96, 70.83, 67.17, 63.24.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Deuterium Oxide) δ 55</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<idno>14. HRMS (ESI): m/z 705.0467</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MHz</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date>202</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (202 MHz, Deuterium Oxide) δ 55.15, 51.14. HRMS (ESI): m/z 705.0467 [M-H] - (calc&apos;d for C 20 H 23 N 10 O 11 P 2 S 2 -:</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Deuterium Oxide) δ 8.21 (s, 1H), 8.17 (s, 1H), 8.05 (s, 1H)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>499 MHz 6.12 (s, 1H), 5.94 (d, J = 8.5 Hz, 1H), 5.49 (m, 1H), 5.04 (m, 2H), 4.74 (d, J = 3.5</note>
+	<note type="raw_reference">H NMR (499 MHz, Deuterium Oxide) δ 8.21 (s, 1H), 8.17 (s, 1H), 8.05 (s, 1H), 6.12 (s, 1H), 5.94 (d, J = 8.5 Hz, 1H), 5.49 (m, 1H), 5.04 (m, 2H), 4.74 (d, J = 3.5</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr ; Mhz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deuterium</forename><surname>Oxide</surname></persName>
+		</author>
+		<imprint>
+			<date>126</date>
+		</imprint>
+	</monogr>
+	<note>δ 159.65, 155.34, 153.83, 152.55, 151.70, 147.81, 139.21, 138.57, 118.58, 117.11, 89.39, 84.78, 82.78, 80.06, 75.62, 72.85, 71.74, 70.73, 65.39, 63.59</note>
+	<note type="raw_reference">C NMR (126 MHz, Deuterium Oxide) δ 159.65, 155.34, 153.83, 152.55, 151.70, 147.81, 139.21, 138.57, 118.58, 117.11, 89.39, 84.78, 82.78, 80.06, 75.62, 72.85, 71.74, 70.73, 65.39, 63.59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MHz</title>
+		<imprint>
+			<biblScope unit="issue">10</biblScope>
+			<date>202</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (202 MHz, H] - (calc&apos;d for C 20 H 23 N 10 O 11 P 2 S 2 -:</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">88 (s, 1H), 6.20 (s, 1H)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="5" to="96" />
+		</imprint>
+	</monogr>
+	<note>499 MHz, Deuterium Oxide) δ 8.58 (s, 1H), 8.25 (s, 1H d, J = 8.1 Hz, 1H), 5.81 (m, 1H), 5.25 (m, 1H), 4.75 (m, 1H), 4.55 -4.42 (m, 5H), 4.10 -4.05 (m, 2H</note>
+	<note type="raw_reference">H NMR (499 MHz, Deuterium Oxide) δ 8.58 (s, 1H), 8.25 (s, 1H), 7.88 (s, 1H), 6.20 (s, 1H), 5.96 (d, J = 8.1 Hz, 1H), 5.81 (m, 1H), 5.25 (m, 1H), 4.75 (m, 1H), 4.55 -4.42 (m, 5H), 4.10 -4.05 (m, 2H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr ; Mhz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deuterium</forename><surname>Oxide</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="61" to="82" />
+		</imprint>
+	</monogr>
+	<note>δ 158.94, 155.43, 153.01, 152.58, 152.34, 147.95, 140.82, 139.56, 118.67, 117.44, 89.52, 85.82, 83.18, 79.89, 74.69, 74.12, 71.72, 71.12, 67.15</note>
+	<note type="raw_reference">C NMR (151 MHz, Deuterium Oxide) δ 158.94, 155.43, 153.01, 152.58, 152.34, 147.95, 140.82, 139.56, 118.67, 117.44, 89.52, 85.82, 83.18, 79.89, 74.69, 74.12, 71.72, 71.12, 67.15, 61.21.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MHz</title>
+		<imprint>
+			<biblScope unit="issue">10</biblScope>
+			<date>202</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P NMR (202 MHz, H] - (calc&apos;d for C 20 H 23 N 10 O 11 P 2 S 2 -:</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">11 (s, 1H), 6.22 (s, 1H), 6.00 (d, J = 8.5 Hz, 1H), 5.62 (m, 1H), 5.19 (m, 1H), 5.09 (m, 1H), 13 C NMR (126 MHz, Deuterium Oxide)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<idno>10 O 11 P 2 S 2 -: 705.0470</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="8" to="27" />
+		</imprint>
+	</monogr>
+	<note>600 MHz, Deuterium Oxide) δ 8.53 (s, 1H δ 160.58, 155.23, 154.75, 152.54, 152.14, 148.19, 139.47, 139.14, 118.52, 116.93, 88.44, 83.98, 83.07, 80.84, 76.09, 31 P NMR (202 MHz, H</note>
+	<note type="raw_reference">H NMR (600 MHz, Deuterium Oxide) δ 8.53 (s, 1H), 8.27 (s, 1H), 8.11 (s, 1H), 6.22 (s, 1H), 6.00 (d, J = 8.5 Hz, 1H), 5.62 (m, 1H), 5.19 (m, 1H), 5.09 (m, 1H), 13 C NMR (126 MHz, Deuterium Oxide) δ 160.58, 155.23, 154.75, 152.54, 152.14, 148.19, 139.47, 139.14, 118.52, 116.93, 88.44, 83.98, 83.07, 80.84, 76.09, 31 P NMR (202 MHz, H] - (calc&apos;d for C 20 H 23 N 10 O 11 P 2 S 2 -: 705.0470,</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nmr</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>500 MHz, Deuterium Oxide) δ 8.29 (d, J = 1.9 Hz, 1H), 8.16 (s, 1H), 8.02 (s, 1H), 6.52 (dd, J = 13.9, 4.1 Hz, 1H), 6.10 (d, J = 8.6</note>
+	<note type="raw_reference">H NMR (500 MHz, Deuterium Oxide) δ 8.29 (d, J = 1.9 Hz, 1H), 8.16 (s, 1H), 8.02 (s, 1H), 6.52 (dd, J = 13.9, 4.1 Hz, 1H), 6.10 (d, J = 8.6</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">1h</forename><surname>Hz</surname></persName>
+		</author>
+		<idno>5.79 -5.70</idno>
+		<imprint>
+			<biblScope unit="page" from="5" to="64" />
+		</imprint>
+	</monogr>
+	<note>dt, J = 50.7, 4.0 Hz, 1H), 5.52 (dd, J = 53.3, 3.3 Hz, 1H), 5.33 (m, 1H), 4.83 (br s, 1H), 4.53 (m, 2H), 4.25 (m, 3H)</note>
+	<note type="raw_reference">Hz, 1H), 5.79 -5.70 (m, 1H), 5.64 (dt, J = 50.7, 4.0 Hz, 1H), 5.52 (dd, J = 53.3, 3.3 Hz, 1H), 5.33 (m, 1H), 4.83 (br s, 1H), 4.53 (m, 2H), 4.25 (m, 3H).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nmr</surname></persName>
+		</author>
+		<idno>140.12</idno>
+		<imprint>
+			<date type="published" when="1940">126 MHz, Deuterium Oxide) δ 159.11, 155.40, 153.61, 152.72, 152.24, 148.40</date>
+		</imprint>
+	</monogr>
+	<note>d, J = 4.4 Hz), 138.87, 117.91, 116.78, 93.49 (d, J = 196.3 Hz), 92.09 (dd, J = 183.7, 2.9</note>
+	<note type="raw_reference">C NMR (126 MHz, Deuterium Oxide) δ 159.11, 155.40, 153.61, 152.72, 152.24, 148.40, 140.12 (d, J = 4.4 Hz), 138.87, 117.91, 116.78, 93.49 (d, J = 196.3 Hz), 92.09 (dd, J = 183.7, 2.9</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+		</imprint>
+	</monogr>
+	<note>d, J = 5</note>
+	<note type="raw_reference">Hz), 84.49 (d, J = 5.6</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J =</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="82" to="123" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hz), 82.41 (d, J = 17.5</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>75.55</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J =</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="81" to="118" />
+		</imprint>
+	</monogr>
+	<note>dd, J = 22.5, 10.3 Hz dd</note>
+	<note type="raw_reference">Hz), 81.37 (dd, J = 22.5, 10.3 Hz), 79.88 (m), 75.55 (dd, J = 24.6, 8.9</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Hz</surname></persName>
+		</author>
+		<idno>66.60</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>dd, J = 15.7, 8.0 Hz dd, J = 12.7, 4.1 Hz</note>
+	<note type="raw_reference">Hz), 74.08 (dd, J = 15.7, 8.0 Hz), 66.60 (dd, J = 12.7, 4.1 Hz), 63.12 (m);</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nmr</surname></persName>
+		</author>
+		<title level="m">202 MHz, H] -(calc&apos;d for C 20 H 21 F 2 N 1 0 O 9</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">P NMR (202 MHz, H] - (calc&apos;d for C 20 H 21 F 2 N 1 0 O 9 P 2 S 2 -:</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Syntheses of 2′-deoxy-2′-fluoro-β-d-arabinofuranosyl purine nucleosides via selective glycosylation reactions of potassium salts of purine derivatives with the glycosyl bromide</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Sivets</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="268" to="271" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sivets, G. G. Syntheses of 2′-deoxy-2′-fluoro-β-d-arabinofuranosyl purine nucleosides via selective glycosylation reactions of potassium salts of purine derivatives with the glycosyl bromide. 57 3, 268-271 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">An orally available non-nucleotide STING agonist with antitumor activity</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Pan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aba6098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pan, B. S. et al. An orally available non-nucleotide STING agonist with antitumor activity. Science 369, doi:10.1126/science.aba6098 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Data processing and analysis with the autoPROC toolbox</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vonrhein</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444911007773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vonrhein, C. et al. Data processing and analysis with the autoPROC toolbox. Acta Crystallogr D Biol Crystallogr 67, 293-302, doi:10.1107/s0907444911007773 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Tickle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tickle, I. J. et al. STARANISO 2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Cyclic GMP-AMP containing mixed phosphodiester linkages is an endogenous high-affinity ligand for STING</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2013.05.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="226" to="235" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, X. et al. Cyclic GMP-AMP containing mixed phosphodiester linkages is an endogenous high-affinity ligand for STING. Mol Cell 51, 226-235, doi:10.1016/j.molcel.2013.05.022 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Overview of the CCP4 suite and current developments</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Winn</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444910045749</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winn, M. D. et al. Overview of the CCP4 suite and current developments. Acta Crystallogr D Biol Crystallogr 67, 235-242, doi:10.1107/s0907444910045749 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bricogne</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Global Phasing Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bricogne, G. et al. BUSTER. (Global Phasing Ltd., 2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Features and development of Coot</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444910007493</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="486" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emsley, P., Lohkamp, B., Scott, W. G. &amp; Cowtan, K. Features and development of Coot. Acta Crystallogr D Biol Crystallogr 66, 486-501, doi:10.1107/s0907444910007493 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">MolProbity: all-atom structure validation for macromolecular crystallography</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444909042073</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="12" to="21" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">9 Chen, V. B. et al. MolProbity: all-atom structure validation for macromolecular crystallography. Acta Crystallogr D Biol Crystallogr 66, 12-21, doi:10.1107/s0907444909042073 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">MolProbity: all-atom contacts and structure validation for proteins and nucleic acids</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkm216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="375" to="383" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis, I. W. et al. MolProbity: all-atom contacts and structure validation for proteins and nucleic acids. Nucleic Acids Res 35, W375-383, doi:10.1093/nar/gkm216 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Smart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Global Phasing, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smart, O. S. et al. GRADE. (Global Phasing, Ltd., 2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Berman</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444902003451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr D Biol Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="899" to="907" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berman, H. M. et al. The Protein Data Bank. Acta Crystallogr D Biol Crystallogr 58, 899-907, doi:10.1107/s0907444902003451 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Generic anion-exchange chromatography method for analytical and preparative separation of nucleotides in the development and manufacture of drug substances</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Tsay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chroma.2018.12.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Chromatogr A</title>
+		<imprint>
+			<biblScope unit="volume">1587</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsay, F. R. et al. Generic anion-exchange chromatography method for analytical and preparative separation of nucleotides in the development and manufacture of drug substances. J Chromatogr A 1587, 129-135, doi:10.1016/j.chroma.2018.12.018 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">The Emergence of Universal Chromatographic Methods in the Research and Development of New Drug Substances</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Regalado</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.accounts.9b00068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acc Chem Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<date type="published" when="1990">1990-2002. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Regalado, E. L. et al. The Emergence of Universal Chromatographic Methods in the Research and Development of New Drug Substances. Acc Chem Res 52, 1990-2002, doi:10.1021/acs.accounts.9b00068 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Novel Applications of Biocatalysis to Stereochemistry Determination of 2′3′-cGAMP Bisphosphorothioate (2′3′-cG S A S MP)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Omega</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="14173" to="14179" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lim, J. &amp; Kim, H. Y. Novel Applications of Biocatalysis to Stereochemistry Determination of 2′3′- cGAMP Bisphosphorothioate (2′3′-cG S A S MP). ACS Omega 5, 14173-14179 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Cyclic [G(2&apos;,5&apos;)pA(3&apos;,5&apos;)p] is the metazoan second messenger produced by DNAactivated cyclic GMP-AMP synthase</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2013.04.046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="1094" to="1107" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao, P. et al. Cyclic [G(2&apos;,5&apos;)pA(3&apos;,5&apos;)p] is the metazoan second messenger produced by DNA- activated cyclic GMP-AMP synthase. Cell 153, 1094-1107, doi:10.1016/j.cell.2013.04.046 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Circular polymerare extension cloning for high-throughput cloning of complex and combinatorial DNA libraries</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="242" to="251" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quan, J. &amp; Tian, J. Circular polymerare extension cloning for high-throughput cloning of complex and combinatorial DNA libraries. Nat. Protoc. 6, 242-251 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">High-resolution structures of adenylate kinase from yeast ligated with inhibitor Ap5A, showing the pathway of phosphoryl transfer</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Abele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.5560040702</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1262" to="1271" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abele, U. &amp; Schulz, G. E. High-resolution structures of adenylate kinase from yeast ligated with inhibitor Ap5A, showing the pathway of phosphoryl transfer. Protein Sci 4, 1262-1271, doi:10.1002/pro.5560040702 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Structural characterization of the closed conformation of mouse guanylate kinase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sekulic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shuvalova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Spangenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Konrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lavie</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M204668200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="30236" to="30243" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sekulic, N., Shuvalova, L., Spangenberg, O., Konrad, M. &amp; Lavie, A. Structural characterization of the closed conformation of mouse guanylate kinase. J Biol Chem 277, 30236-30243, doi:10.1074/jbc.M204668200 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Cyclic di-nucleotide compounds as STING agonists</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Altman</surname></persName>
+		</author>
+		<idno>WO2017027646A1</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altman, M. D. et al. Cyclic di-nucleotide compounds as STING agonists. (2016). WO2017027646A1</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

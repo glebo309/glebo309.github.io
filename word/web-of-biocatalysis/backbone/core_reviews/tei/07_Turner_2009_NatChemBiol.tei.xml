@@ -1,0 +1,2480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_uCVcvZ5">Directed evolution drives the next generation of biocatalysts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2009-07-20">2009-07-20</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+						</author>
+						<title level="a" type="main" xml:id="_9nfvWVK">Directed evolution drives the next generation of biocatalysts</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_AyGk4NP">Nature Chemical Biology</title>
+						<title level="j" type="abbrev">Nat Chem Biol</title>
+						<idno type="ISSN">1552-4450</idno>
+						<idno type="eISSN">1552-4469</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">5</biblScope>
+							<biblScope unit="issue">8</biblScope>
+							<biblScope unit="page" from="567" to="573"/>
+							<date type="published" when="2009-07-20" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">65374A45077320FCE95F324DA7B68279</idno>
+					<idno type="DOI">10.1038/nchembio.203</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-20T16:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[figure], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="611.008" lry="800.008"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_PmBdph9">r e v i e w</head><p xml:id="_z4UgRbG">Biocatalysis involves the use of enzymes, either in semipurified or immobilized form, or as whole-cell systems, for the preparation of molecules that are traditionally made using chemical synthesis. The field continues to expand its horizons, particularly as applied to the synthesis of fine chemicals and pharmaceuticals <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . A useful biocatalyst (in particular, one that is suitable for application in an industrial context) is characterized by a number of features, including high catalytic turnover (&gt;500 min -1 ), high selectivity for the particular transformation (for example, enantio-, regio-and chemoselectivity) and high process stability under the conditions that are required for the chemical transformation <ref type="bibr" target="#b4">5</ref> . Biocatalysis often complements (rather than directly competes with) chemocatalysis in that it is probably best used for preparing relatively small (molecular weight &lt; 500), enantiomerically pure chiral building blocks that are then combined with other chemically derived molecules to produce the final product. Biocatalysts have historically been widely applied in the brewing and food industries but are now finding increased application in the synthesis of fine chemicals, pharmaceuticals, agrochemicals and even bulk chemicals. A recent and important trend is the development of new biocatalyst-based processes for the production of biofuels using renewable starting materials as an alternative to fossil fuels. In this sense biocatalysis should be viewed as an essential ingredient of the industrial biotechnology revolution that is happening all around us and that will alter the landscape of where the products and processes of the future are derived from. This review covers recent developments in the field of directed evolution of enzymes, highlighting advances in screening and library design and also giving examples of where enzyme evolution has had a major impact on the development of new biocatalysts.</p><p xml:id="_9B5KFxf">Irrespective of the target application that is envisaged, there are a number of key challenges that must be addressed in the development of a robust biocatalyst for practical applications (Fig. <ref type="figure" target="#fig_0">1</ref>). The initial phase of enzyme discovery involves (i) screening available microbial culture collections or libraries of enzymes from a variety of sources in order to identify an enzyme or group of enzymes with some activity toward the substrate of interest, (ii) construction of synthetic genes based on literature precedents or (iii) use of bioinformatics to identify homologous genes. In some cases the wild-type enzyme may have the required activity and selectivity for further development work. However, a more likely scenario is that improvements in catalytic activity, selectivity and (importantly) stability under process conditions are required for practical applications. Even with the benefit of a high-resolution crystal structural of an enzyme, rational redesign to produce optimized biocatalysts is complex and has proven successful in only a small number of cases.</p><p xml:id="_3dc2KyT">The early 1990s witnessed an alternative approach to the problem of enzyme optimization with the publication of some of the key early papers in directed evolution. These papers described methods for library generation via DNA shuffling <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> and error-prone PCR, and also gave examples of changing the properties of an enzyme, such as organic solvent tolerance 8 and enantioselectivity <ref type="bibr" target="#b8">9</ref> . However, if the directed evolution of enzymes (Fig. <ref type="figure" target="#fig_0">1</ref>) were to become a generally applicable technique, then significant developments would be needed in both methods for library generation, and we would need to develop the ability to screen for a wide range of different chemical transformations <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> . In the early days, emphasis was placed on the development of screening methods that could assess very large libraries of variants (for example, 10 8 -10 10 ) in the expectation that larger libraries meant a greater chance of finding the desired improvements in activity or selectivity. As more examples were published of successful improvements with much smaller libraries (for example, 10 3 -10 6 ), the emphasis shifted to the generation of smaller, higher quality libraries, as outlined below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_KjHH9Ja">Directed evolution drives the next generation of biocatalysts</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_sNpqUXT">Nicholas J Turner</head><p xml:id="_ZWpPpEX">Enzymes are increasingly being used as biocatalysts in the generation of products that have until now been derived using traditional chemical processes. Such products range from pharmaceutical and agrochemical building blocks to fine and bulk chemicals and, more recently, components of biofuels. For a biocatalyst to be effective in an industrial process, it must be subjected to improvement and optimization, and in this respect the directed evolution of enzymes has emerged as a powerful enabling technology. Directed evolution involves repeated rounds of (i) random gene library generation, (ii) expression of genes in a suitable host and (iii) screening of libraries of variant enzymes for the property of interest. Both in vitro screening-based methods and in vivo selection-based methods have been applied to the evolution of enzyme function and properties. Significant developments have occurred recently, particularly with respect to library design, screening methodology, applications in synthetic transformations and strategies for the generation of new enzyme function.</p><p xml:id="_7Zy6Z5F">School of Chemistry, University of Manchester, Manchester Interdisciplinary Biocentre, Manchester, UK. Correspondence should be addressed to N.J.T. (nicholas.turner@manchester.ac.uk). Published online 20 July 2009; doi:10.1038/nchembio.203 r e v i e w</p><p xml:id="_eWGNSRP">For a protein that is composed of say 400 amino acids, there are approximately 20 <ref type="bibr">400</ref> different possible sequences that could exist. This level of diversity should be compared with the fact that the total number of atoms in the universe is estimated to be between 10 70 and 10 80 (see <ref type="url" target="http://en.wikipedia.org/wiki/observable_universe">http://en.wikipedia.org/wiki/observable_universe</ref>)! Approaching the problem in a different way, if for example only one amino acid in a protein containing 400 amino acids is exchanged for any of the other 19 amino acids, there are already a total of 7,600 different variants. For two amino acids, the number rises to 144,000, for three the total is about 2.7 × 10 6 and for four replacements the total is 5.2 × 10 7 ! The challenge of accessing and screening such large sequence space brings with it an additional problem: the issue of how to navigate between different sequences. Proteins are generally regarded as having 'rugged' landscapes in terms of catalytic activity, which makes the correlation of sequence with activity difficult. Typically researchers will try to identify the 'hot spots' in an enzyme via high-throughput screening and then subsequently optimize individual amino acids via saturation mutagenesis (Fig. <ref type="figure" target="#fig_1">2</ref>). In order to address the problem of navigating sequence space, researchers have begun to apply multivariate statistical techniques to model protein sequence-function relationships and hence guide the evolutionary process by rapidly identifying beneficial diversity for recombination. For example, scientists at Codexis have developed an algorithm termed Pro-SAR (protein sequence-activity relationships) in which all mutations are assigned as either beneficial, neutral or deleterious based on the impact they have on the enzyme function that is being screened for <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> . Thus all mutations are assessed and may be incorporated into the final sequence of the fully optimized protein. The Pro-SAR approach was used to optimize an enantioselective haloalkane dehalogenase used in the commercial manufacture of the side chain of atorvastatin <ref type="bibr" target="#b23">24</ref> . In this process, ethyl 4-chloro-3-ketobutyrate is first treated with a ketoreductase to catalyze asymmetric reduction of the keto group to the alcohol, followed by the introduction of the cyano group catalyzed by a dehalogenase (Fig. <ref type="figure">3</ref>). The dehalogenase was subjected to multiple rounds of directed evolution in order to improve the volumetric productivity ~4,000-fold. Altogether, a total of 38 mutations were introduced compared to the wild-type enzyme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dzwZKpC">Reducing the screening effort in directed evolution</head><p xml:id="_QFudXsQ">As a consequence of the problems associated with accessing even a small fraction of the vast sequence space of proteins as outlined above, researchers have sought to develop strategies that significantly reduce the size of the libraries that need to be screened without compromising the likelihood of finding significant improvements in performance. For example, for many enzymes it may be sufficient just to target the active site residues <ref type="bibr" target="#b24">25</ref> . Typically an active site of a protein will contain about 10-15 amino acid residues that make direct contact with the substrate (first coordination sphere) and a further 20-30 in the second coordination sphere. Morley et al. <ref type="bibr" target="#b25">26</ref> analyzed results from their own work and from the work of other groups and concluded that in general, closer mutations are more beneficial, particularly in terms of the effect that they have on substrate specificity and enantioselectivity. Reetz et al. <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> have developed a very useful method termed iterative CASTing (combinatorial active site testing) in which active site residues are selected and organized into groups of two or three residues from which libraries can be subsequently generated. Screening of these initial libraries is undertaken, the hits from these libraries are combined, and new libraries are generated and are further screened in an iterative fashion. Clearly either a crystal structure or homology model is required for CASTing to be applied. Another approach to reduce the screening effort is to use reduced amino acid alphabets in the construction of proteins <ref type="bibr" target="#b29">30</ref> . For example, by changing Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Asn His Gln Glu Leu Ile Pro Ser Val Ala Asp Gly Cys Trp Tyr Phe Lys Arg Asp Met Random mutagenesis (location of hot spots) Combinatorial optimization via saturation mutagenesis r e v i e w the nucleotide components during the PCR reaction it is possible to generate proteins that are composed of only 12 rather than 20 different amino acids. Reetz and Wu <ref type="bibr" target="#b30">31</ref> have recently shown that the screening of such libraries can lead to significant improvements in activity by using saturation mutagenesis at homologous enzyme positions, as shown by the directed evolution of enantioselective mutants of the thermally robust phenylacetone monooxygenase (PAMO).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9Z3NEY6">Enzyme promiscuity and evolution of new function</head><p xml:id="_wC6bzZK">A powerful theme that has recently emerged and that is highly relevant to directed evolution of enzymes is that of promiscuous activities <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> . Enzyme promiscuity refers to situations where an enzyme is able to catalyze a reaction that is quite distinct from its natural function but for which there are links between the two chemical transformations at the mechanistic rather than structural level. In order to try to understand the relationship between promiscuity and evolution of function, both Tawfik and Arnold have recently introduced the concept of neutral drift <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref> . Neutral drift is the gradual accumulation of mutations under selection to maintain a protein's original function and structure. Such drifts have been demonstrated experimentally in the laboratories of Arnold and Tawfik by generating libraries and then screening for the original function rather than a new function. For example, Gupta et al. <ref type="bibr" target="#b37">38</ref> studied the neutral drift of serum paraoxonase (PON1) and found that almost half of the 311 neutral variants that were characterized exhibited substantial changes in promiscuous activity. Similar changes in promiscuous activities were found by Bloom et al. <ref type="bibr" target="#b38">39</ref> with P450 BM3 neutral variants.</p><p xml:id="_eyyuuXJ">It is generally thought that the earliest forms of enzymes had broad substrate specificity or reaction ambiguity and subsequently diverged and became more reaction-specific to give today's modern enzymes. Such enzyme superfamilies are exemplified by the enolase <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> and crotonase superfamilies <ref type="bibr" target="#b41">42</ref> . For example, the enolase superfamily comprises a group of related enzymes that have a common ability to stabilize transition states involving the generation of enolates. This common mechanism is then manifested in a range of different enzymes that catalyze different reactions, including N-acylamino acid racemases, mandelate racemase and O-succinylhydrolase. Currently there is great interest in exploiting reaction promiscuity as a means of developing enzymes with new functionalities. The halohydrin dehalogenase from Agrobacterium radiobacter catalyzes the nucleophilic ring opening of epoxides by various nucleophiles to afford the corresponding 1-substituted butan-2-ols with moderate conversion and good enantioselectivity (E value = 24-31). Ring opening with cyanate afforded oxazolidinone in high enantiomeric excess (e.e.) as a result of subsequent cyclization <ref type="bibr" target="#b42">43</ref> . The arylmalonate decarboxylase from Alcaligenesis bronchisepticus was mutated to a racemase by introduction of an additional active site base, allowing the racemization of enantiomerically pure amino acids. The mutant was tolerant of different aromatic substituents and to a lesser extent replacement of the methyl group <ref type="bibr" target="#b43">44</ref> . A single active site mutation in Bacillus stearothermophilus alanine racemase resulted in the introduction of new aldolase activity. The activity toward phenylserine was increased compared to the wild type by five orders of magnitude <ref type="bibr" target="#b44">45</ref> . A particularly powerful approach is the combination of natural promiscuity with directed evolution. Recently Jochens et al. <ref type="bibr" target="#b45">46</ref> showed that an esterase can be converted to an epoxide hydrolase by initial redesign of the active site followed by random mutagenesis and screening for epoxide hydrolase activity.</p><p xml:id="_CTCBeTV">The creation of enzymes with truly new function represents one of the greatest current challenges in the field of biocatalysis <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref> . Recently Röthlisberger et al. <ref type="bibr" target="#b48">49</ref> reported the computational design of retroaldolases that use four different catalytic motifs to catalyze cleavage of a carbon-carbon bond in a non-natural substrate. Interestingly, the accuracy of the design at the molecular level was confirmed by an X-ray crystal structure of the active proteins, both of which were essentially superimposable on the design model. Seelig et al. <ref type="bibr" target="#b53">54</ref> reported the evolution of a new enzyme activity by selection with mRNA display from a randomized zinc finger scaffold that had no enzymatic activity. Because single-turnover product formation could be observed, variants that exhibited weak activity could be identified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Zf7BDkD">New screening and selection strategies</head><p xml:id="_UwbZNW9">Whatever strategy is used for library generation, it is vital to have in place a robust and high-throughput method for either screening or selection of the desired function <ref type="bibr" target="#b54">55</ref> . In the past ten years, much effort and ingenuity have gone into the development of a broad range of screening and selection methods, including those based on ribosome display and mRNA display, to allow the identification of variants that have the desired characteristics. The essential functions of an enzyme that are desirable to be screened for include (i) catalytic activity, (ii) selectivity, including enantioselectivity, diastereoselectivity and regioselectivity, NH N CO2H OH OH F O Cl O CO2Et Ketoreductase Cl OH CO2Et Dehalogenase CN -Atorvastatin Codexis route DSM route O Cl O O Cl O OH OH + + DERA aldolase [O] O OH Cl H O NC OH CO2Et (S )-rivastigmine N H O CO2H OEt N O H2N (S)-repaglinide (S)-dapoxetine (phase 2) N N Cl O HO2C (R )-levocetirizine (S )-DMP 777 (phase 2) HN N CO2H O O F2HC (R)-garenoxacin (phase 3) N O O N Ph (S )-solifenacin (phase 3) MeN N O O N O N H O O O Me2N O O N and (iii) thermal stability, including stability to organic solvents. In order to be able to screen for any of these desired functions, it is essential to establish a rapid method for monitoring the reaction that is catalyzed by the enzyme. For example, lipase-catalyzed hydrolysis of an ester under aqueous conditions yields a carboxylic acid product, which results in a pH change that can be monitored by the introduction of pH indicator. Screening for epoxide hydrolase activity on a chip-based system has recently been reported <ref type="bibr" target="#b55">56</ref> . Sorting cells by fluorescence-activated cell sorting (FACS) allows very large library sizes to be addressed and has been coupled with in vitro compartmentalization as a very effective high-throughput screening method <ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58</ref> . Likewise, phage display <ref type="bibr" target="#b58">59</ref> and yeast display <ref type="bibr" target="#b59">60</ref> techniques have been developed and are effective for evolving enzymes. Circular permutation is an interesting approach in which the N and C termini of a protein can be systematically moved, one amino acid at a time, around the protein of interest. This method has been used to screen for variants of Candida antarctica lipase B with improved activity and stability <ref type="bibr" target="#b60">61</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TsrqkTG">Directed evolution of monoamine oxidase</head><p xml:id="_hA3QRrZ">To illustrate a number of the points discussed above, I will now present a more in-depth case study. The aim of this case study is to highlight some of the key strategies involved in an enzyme evolution program and also to present an analysis of the learning process. We set out to develop a platform biocatalytic technology for the preparation of enantiomerically pure chiral amines, which are an important class of chiral building block, particularly for the synthesis of biologically active pharmaceutical drugs (Fig. <ref type="figure">4</ref>). Despite their importance, relatively few biocatalytic methods have been developed for their preparation, and existing methods rely principally on either the kinetic resolution of racemates using hydrolytic enzymes such as lipases and acylases or the more recent development of the use of transaminases for the conversion of ketones to chiral amines (Fig. <ref type="figure" target="#fig_3">5</ref>). A conceptually different approach to preparation of enantiomerically pure chiral amines relies on deracemization of a racemic starting amine to provide either enantiomer in high optical purity. The deracemization process requires the combination of an enantioselective amine oxidase enzyme (conversion of amine to imine) together with a nonselective chemical reducing agent (reduction of imine to amine). Repeated cycles of enantioselective oxidation coupled with nonselective reduction result in accumulation of either the (R)-or (S)-amine enantiomer, depending on the stereopreference of the oxidase enzyme.</p><p xml:id="_b9WfJBZ">Prior studies in our group had established that deracemization could be successfully applied to -amino acids <ref type="bibr" target="#b61">62,</ref><ref type="bibr" target="#b62">63</ref> . These studies led to the identification of suitable L-and D-amino acid oxidases, together with a range of different chemical reducing agents that were compatible with the enzymes (for example, catalytic transfer hydrogenation using metal/formate or amine boranes). However, in order to extend the deracemization methodology to chiral amines, it was necessary to develop enantioselective amine oxidases with the desired substrate specificity by directed evolution of existing amine oxidases. Monoamine oxidase (MAO-N) from Aspergillus niger was identified as an attractive starting point for directed evolution on account of the high catalytic activity (k cat ~ 500 min -1 ) of the wildtype enzyme. However, the native enzyme was found to have narrow substrate specificity, typically limited to simple nonchiral amines such as butylamine and benzylamine.</p><p xml:id="_x4RddEE">In order to screen libraries of variants of MAO-N, we developed a high-throughput screening method based on capture of the byproduct hydrogen peroxide using horseradish peroxidase and a suitable substrate <ref type="bibr" target="#b63">64</ref> . Escherichia coli colonies expressing the amine oxidase were grown on nitrocellulose membranes and then assayed for activity, resulting in the production of dark pink colonies indicative of high enzyme activity. It was envisaged that this solid-phase screen would be able to assess about 100,000 variants per round of screening. Libraries of MAO-N were prepared initially by using a mutator strain, and subsequently by error-prone PCR, and screened against -methylbenzylamine as a model substrate. Several rounds of directed evolution led to the identification of a mutant (D5) containing 5 mutations that was found to catalyze the enantioselective oxidation of a wide range of chiral 1°, 2° and 3° amines <ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref> . The MAO-N D5 mutant was used for the preparative deracemization of a range of racemic amines; interestingly, it was also found to oxidize several racemic O-methyl-Nhydroxylamines, yielding unreacted enantiomerically pure (R) isomer as well as the corresponding (E)-oximes <ref type="bibr" target="#b67">68</ref> .</p><p xml:id="_da2wEqq">Screening the D5 variant against a wide range of amine substrates revealed that it has broad substrate specificity and high (S) enantioselectivity. To encourage greater usage of the enzyme by the community of synthetic chemists, a simple desktop model was devised to assess the likelihood of a specific substrate being oxidized by MAO-N <ref type="bibr" target="#b68">69</ref> . Initially, a hypothetical molecule was generated by superimposing all known substrates on top of each other. Next, the model was tested by examining the deracemization of racemic crispine A, an alkaloid found in the welted thistle that has pronounced biological activity. Crispine A was found to map perfectly onto the hypothetical molecule and indeed underwent deracemization using MAO-N and ammonia borane; the racemic starting material was converted to the biologically active (S) enantiomer in &gt;95% e.e.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_g36w96C">Structure of MAO-N provides insights into directed evolution</head><p xml:id="_2JQ6U8Z">The directed evolution experiments described above were carried out in the absence of the structure of MAO-N. Variants were simply selected on the basis of their ability to catalyze oxidation of a particular amine substrate. However, recently the three-dimensional structure of the D5 mutant of MAO-N from A. niger was solved, at a resolution of 1.8 Å, offering the prospect of shedding light on the nature of the mutations and how they might affect substrate specificity <ref type="bibr" target="#b69">70</ref> . The protein crystallized with a molecule of the inhibitor L-proline at the active site, thus allowing the position of the amine substrates to be estimated. Figure <ref type="figure" target="#fig_4">6</ref> shows the structure with four of the five key mutations found in the D5 variant mapped onto the sequence, and it is clear that these mutations are clustered close to the active site of the protein. Examination of the structure in more detail reveals the presence of two channels, labeled A and B, that pass from the surface of the protein and that intersect at the active site. The mutations at positions 336, 384 and 385 are located within channel A on loops, r e v i e w whereas the mutation at position 246 is located within channel B. None of the 4 residues makes direct contact with the substrate; rather, they are located within the second coordination sphere. These results are interpreted as implying that the mutations at positions 336, 384, 385 and 242 in some way affect the dynamics of the two channels and hence have an effect on access of the substrate or release of the product from the active site of MAO-N.</p><p xml:id="_QNxcs3e">It is interesting to reflect on the outcome of the MAO-N directed evolution work, particularly in terms of what it might teach us for future approaches. A key decision was to screen initially for catalytic activity followed by a secondary check for enantioselectivity. This strategy turned out to be successful in that it led ultimately to the identification of enzymes with high turnover and high (S) enantioselectivity. However, in retrospect we may not have been so lucky, and indeed with some enzymes, particularly those with low starting enantioselectivity, it is necessary to devise truly enantioselective screening methods as the primary screen. We were also fortunate to identify enzyme variants with broad substrate specificity, despite using single substrates in the screen-thereby challenging the paradigm that you 'get what you screen for'! Finally, analysis of the mutations in the light of a structure of MAO-N reminded us that protein structures are complex and subtle, particularly with respect to how enzymes interact with their substrates. Even if we had started the evolution program with the structure available to us, it is highly unlikely that we would have rationally identified the mutations that ultimately turned out to be important. Thus directed evolution not only provides us with superior biocatalysts but also teaches us about the way in which enzymes function and control substrate specificity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_5VwCYrq">Directed evolution provides a range of superior biocatalysts</head><p xml:id="_gGfCxcP">Using the principles of directed evolution outlined above by the combination of random mutagenesis and high-throughput screening, many other enzymes have been evolved in an analogous fashion. In many cases, particularly for industrial applications, the overall aim of all of these projects is to develop robust and highly selective biocatalysts for applications in synthetic organic chemistry. The chiral 1,3-diol-containing side chain of the cholesterol-lowering statin drugs (for example, atorvastatin and rosuvastatin) has been a major target for biocatalysis, thus leading to the development of a number of different industrial processes that use one or more biocatalysts in the key step. One of the most elegant approaches developed involves the use of deoxyribose aldolase (DERA) to catalyze the combination of two molecules of acetaldehyde and one molecule of chloroacetaldehyde to give a product with two asymmetric centers <ref type="bibr" target="#b70">71</ref> . Both carbon-carbon bonds are formed with very high levels of enantioand diastereoselectivity (Fig. <ref type="figure">3</ref>). The wild-type enzyme was found to be inhibited by the chloroacetaldehyde and hence was subjected to rounds of directed evolution to improve its process stability. Other groups have evolved aldolases <ref type="bibr" target="#b71">72,</ref><ref type="bibr" target="#b72">73</ref> with altered reaction stereochemistry, including a particularly impressive example by Williams et al. <ref type="bibr" target="#b73">74</ref> with N-acetylneuraminic acid aldolase. The aim of their work was to generate aldolase variants with broader substrate specificity with respect to the electrophilic aldehyde substrate. Interestingly, they chose to screen for variants that were able to catalyze the reverse reaction-retro-aldol cleavage of the substrate. Variants were identified that not only had broader specificity but that were also able to generate aldol products with both (R) and (S) configuration. Transketolase also catalyzes carbon-carbon bond formation, and the wild-type enzyme from E. coli exhibits high enantioselectivity (e.e. = 95%) toward glycolaldehyde but low stereoselectivity toward propanal (e.e. = 58%). Libraries obtained by saturation mutagenesis of His26, Asp469 and His100 were generated to enhance enantioselectivity toward propanal. Several mutants were identified, with mutants from Asp469 being (S)-selective and mutants from His26 being (R)-selective <ref type="bibr" target="#b74">75</ref> .</p><p xml:id="_JkTn5u2">A number of groups have used directed evolution to improve the properties of the P450 BM3. A variant of P450 BM3 was used to optimize a new screen for epoxygenase activity using styrene as a substrate. The epoxide product reacts with para-nitrothiophenolate, causing a measurable decrease in absorption at 405 nm. The sensitivity limit of the assay was shown to be 400 M for styrene oxide. This assay was used to detect new, improved variants of BM3 <ref type="bibr" target="#b75">76</ref> . Epoxide hydrolases catalyze the enantioselective hydrolysis of racemic chiral epoxides, which are valuable building blocks in organic synthesis. Directed evolution has been used to improve the enantioselectivity of these enzymes, including a detailed analysis of how the selectivity changes as a function of the individual mutations <ref type="bibr" target="#b76">77</ref> . Optically pure cyanohydrins can be prepared in either (S) or (R) form using evolved hydroxynitrile lyases <ref type="bibr" target="#b77">78</ref> . Among the most powerful of nature's biocatalysts are the alkane hydroxylases <ref type="bibr" target="#b78">79</ref> and P450 monooxygenases <ref type="bibr" target="#b79">80</ref> , which are able to catalyze reactions that are difficult to emulate using conventional catalysis. Directed evolution has been used to change the substrate specificity of galactose oxidase to generate mutants that are able to enantioselectively oxidize racemic 1-phenylethanol <ref type="bibr" target="#b80">81</ref> . The wild-type galactose oxidase enzyme has very high activity but a rather restricted substrate specificity, as evidenced by the fact that it has &gt;10 6 -fold higher activity toward galactose compared with glucose, which only differs in structure by the stereochemistry of the C4 hydroxyl group. These evolved galactose oxidase variants have also been used for the rapid screening of activity and enantioselectivity of ketoreductase enzymes. In this work, the activity of the ketoreductases is determined spectrophotometrically by monitoring NADH consumption, and simultaneously the e.e. of the product alcohol is determined by using an enantioselective alcohol oxidase <ref type="bibr" target="#b81">82</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_tdXm5KB">Hybrid enzymes with new catalytic function</head><p xml:id="_gYB6uux">A promising alternative to generating enzymes with new function is to generate artificial or hybrid enzymes by inserting transition metal catalysts into the active sites of proteins <ref type="bibr" target="#b82">[83]</ref><ref type="bibr" target="#b83">[84]</ref><ref type="bibr" target="#b84">[85]</ref><ref type="bibr" target="#b85">[86]</ref><ref type="bibr" target="#b86">[87]</ref><ref type="bibr" target="#b87">[88]</ref><ref type="bibr" target="#b88">[89]</ref> . The transitional metal catalyst provides the essential chemistry and first coordination sphere, whereas the protein provides additional interactions via a second coordination sphere. Initial success in this field came in the generation of hybrid catalysts for asymmetric hydrogenation of olefins <ref type="bibr" target="#b82">[83]</ref><ref type="bibr" target="#b83">[84]</ref><ref type="bibr" target="#b84">[85]</ref><ref type="bibr" target="#b85">[86]</ref> . However, the scope has been broadened recently to include asymmetric sulfoxidation <ref type="bibr" target="#b86">87,</ref><ref type="bibr" target="#b87">88</ref> and allylic alkylation <ref type="bibr" target="#b88">89</ref> . Klein volume 5 number 8 august 2009 nature chemical biology r e v i e w et al. <ref type="bibr" target="#b82">83</ref> have applied the principles of directed evolution to optimize the hybrid catalysts by means of chemogenetic protein engineering. Carbonic anhydrase has also been used as a host protein. Site-directed mutagenesis and combined site-directed mutagenesis with chemical modification were used to bind rhodium to the active site of a carbonic anhydrase with minimal binding to the surface. Hydrogenation and isomerization of cis-stilbene using rhodium(I)-bound carbonic anhydrase was found to have high selectivity (20:1) for cis-stilbenes over trans-stilbenes <ref type="bibr" target="#b85">86</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_qWHNAJx">Summary and future perspectives</head><p xml:id="_RY4WTbf">Directed evolution of enzymes has, in a relatively short period of time, made a rapid transition from being a new tool for studying the relationship between sequence and function to being an extremely useful and efficient method for optimizing biocatalysts for practical applications. Directed evolution is also being extended beyond single-enzyme systems to embrace metabolic pathways <ref type="bibr" target="#b89">90</ref> , including carotenoid <ref type="bibr" target="#b90">91</ref> biosynthesis and enzymes involved in the production of complex natural products via assembly lines <ref type="bibr" target="#b91">92</ref> . Inevitably, the fields of rational, semirational and random redesign of enzymes are moving ever closer together, such that most directed evolution programs make use, where possible, of structural data in order to inform the library generation processes <ref type="bibr" target="#b92">93,</ref><ref type="bibr" target="#b93">94</ref> .</p><p xml:id="_devjpd6">The key to a directed evolution program is the development of a reliable high-throughput screen, coupled with effective methods for generating libraries that are rich in variants containing new function, and in this respect researchers will continue to develop new protocols for library generation and high-throughput screening. Some reaction types are notoriously difficult to screen for in a general sense-for example, the oxidation of C-H bonds to give C-OH-and yet this transformation is one of the most important reactions in synthesis catalyzed by an enzyme. The further development of algorithms that can understand the relationship between sequence space and function will be extremely valuable. For the present, the de novo design of enzymes from scaffolds appears highly challenging but in the medium term may offer the prospect of generating truly new functions that will then serve as highly valuable starting points for further optimization when coupled with directed evolution. Exploitation of enzyme promiscuity will also emerge as a major theme contributing to the development of new biocatalyst function. Many roads lead to Rome, but all have in common the objective of understanding the factors involved in enzyme evolution and exploiting this knowledge to develop biocatalysts with exquisite properties for future applications.</p><p xml:id="_KGAR2XR">Published online at <ref type="url" target="http://www.nature.com/naturechemicalbiology/">http://www.nature.com/naturechemicalbiology/</ref>. Reprints and permissions information is available online at <ref type="url" target="http://npg.nature.com/">http://npg.nature.com/</ref> reprintsandpermissions/.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,311.17,67.28,216.17,7.13;2,311.17,76.78,220.75,7.09;2,311.17,86.28,235.88,7.09;2,311.17,95.78,215.43,7.09;2,311.17,105.28,247.26,7.09;2,311.17,114.78,239.43,7.09;2,311.17,124.28,236.67,7.09;2,311.17,133.78,223.06,7.09;2,311.17,143.28,105.95,7.09;2,60.03,111.08,229.70,67.70"><head>Figure 1</head><label>1</label><figDesc xml:id="_SqzNkGP">Figure 1 Biocatalysis in practice. (a) Stages in the discovery and development of a robust biocatalyst for practical applications. The advantages of biocatalysis include the high catalytic rate, the potential for high selectivity of the reaction (including enantio-, regio-and chemoselectivity) and the potential for low specificity, thus allowing broad substrate acceptance. Biocatalysis is also important in the development of sustainable processes. (b) Directed evolution of enzymes by iterative cycles of random mutagenesis, protein expression and screening or selection of the desired activity.</figDesc><graphic coords="2,60.03,111.08,229.70,67.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="2,311.17,712.98,233.07,7.13;2,311.17,722.48,212.74,7.10;2,311.17,731.98,219.32,7.10;2,314.50,518.93,196.58,149.18"><head>Figure 2</head><label>2</label><figDesc xml:id="_Y58TMD4">Figure 2 Location of 'hot spots' in an enzyme by random mutagenesis coupled with high-throughput screening. Subsequent saturation mutagenesis can be used to optimize at specific amino acid sites.</figDesc><graphic coords="2,314.50,518.93,196.58,149.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="3,51.02,237.37,232.78,7.13;3,51.02,246.87,237.85,7.09;3,51.02,256.37,236.40,7.10;3,51.02,265.87,200.36,7.10"><head>Figure 3 Figure 4</head><label>34</label><figDesc xml:id="_vjau6jN">Figure 3Two complementary biocatalytic approaches to the synthesis of the side chain of atorvastatin. The Codexis route uses two successive enzymes-a ketoreductase followed by a dehalogenase. The DSM route uses an aldolase to construct two new carbon-carbon bonds.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="4,51.02,226.06,213.27,7.13;4,51.02,235.56,223.41,7.09"><head>Figure 5</head><label>5</label><figDesc xml:id="_nPMxgbS">Figure 5 Deracemization of racemic amines and amino acids by combination of an oxidase enzyme with a chemical reducing agent.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="5,51.02,217.87,219.37,7.13;5,51.02,227.37,208.43,7.09;5,51.02,236.87,69.03,7.09;5,94.40,70.73,174.14,138.62"><head>Figure 6</head><label>6</label><figDesc xml:id="_w5QR9wc">Figure 6 Structure of MAO-N showing the locations of channels A and B and four residues that are important for determining the substrate specificity.</figDesc><graphic coords="5,94.40,70.73,174.14,138.62" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_cXBn8pF">Dispelling the Myths--Biocatalysis in Industrial Synthesis</title>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">E</forename><surname>Schoemaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Mink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcel</forename><forename type="middle">G</forename><surname>Wubbolts</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1079237</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ktvaKYv">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="issue">5613</biblScope>
+			<biblScope unit="page" from="1694" to="1697" />
+			<date type="published" when="2003-03-14">2003</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_Zbs2Cjd">Chemo-enzymatic synthesis of pharmaceutical intermediates</title>
+		<author>
+			<persName><forename type="first">Ramesh</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</author>
+		<idno type="DOI">10.1517/17460441.3.2.187</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8rXcpkh">Expert Opinion on Drug Discovery</title>
+		<title level="j" type="abbrev">Expert Opinion on Drug Discovery</title>
+		<idno type="ISSN">1746-0441</idno>
+		<idno type="ISSNe">1746-045X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="187" to="245" />
+			<date type="published" when="2008-01-25">2008</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_tT5CBDH">Biocatalysis for pharmaceutical intermediates: the future is now</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_77nNTW3">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="66" to="73" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_bakCy8w">Trends and innovations in industrial biocatalysis for the production of fine chemicals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Panke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wubbolts</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copbio.2004.06.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bBmtk6N">Current Opinion in Biotechnology</title>
+		<title level="j" type="abbrev">Current Opinion in Biotechnology</title>
+		<idno type="ISSN">0958-1669</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="272" to="279" />
+			<date type="published" when="2004-08">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_pqNup93">Catalytic effectiveness, a measure of enzyme proficiency for industrial applications</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Clay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2008.12.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JQJUQrv">Trends in Biotechnology</title>
+		<title level="j" type="abbrev">Trends in Biotechnology</title>
+		<idno type="ISSN">0167-7799</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2009-03">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_UKccPUz">Rapid evolution of a protein in vitro by DNA shuffling</title>
+		<author>
+			<persName><forename type="first">Willem</forename><forename type="middle">P</forename><surname>Stemmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/370389a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QWd6EF7">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="issue">6488</biblScope>
+			<biblScope unit="page" from="389" to="391" />
+			<date type="published" when="1994-08">1994</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_swfyZbw">DNA shuffling of a family of genes from diverse species accelerates directed evolution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crameri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mAagv8Z">Nature</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="288" to="291" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_CvsgxzY">Directed evolution of a para-nitrobenzyl esterase for aqueous-organic solvents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E69rhC7">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="458" to="467" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_5vg4jJ9">Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-E</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fFBjtzP">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2830" to="2832" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_haTNu8w">Directed evolution: creating biocatalysts for the future</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aZsDWk9">Chem. Eng. Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="5091" to="5102" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_FPrF92n">Directed enzyme evolution: climbing fitness peaks one amino acid at a time</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Tracewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_S2pkAqu">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_vn5z97G">Directed evolution of enzymes: new biocatalysts for asymmetric synthesis</title>
+		<author>
+			<persName><forename type="first">Marina</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reuben</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b311055a</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hEef98S">Organic &amp; Biomolecular Chemistry</title>
+		<title level="j" type="abbrev">Org. Biomol. Chem.</title>
+		<idno type="ISSN">1477-0520</idno>
+		<idno type="ISSNe">1477-0539</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">4133</biblScope>
+			<date type="published" when="2003">2003</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_4YqUHg2">Advances in laboratory evolution of enzymes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bershtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Qe5ecCW">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="151" to="158" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_HgN9b78">ChemInform Abstract: Directed Evolution of Enzymes — New Biocatalysts for Organic Synthesis</title>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chin.201023238</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4jQkDuK">ChemInform</title>
+		<title level="j" type="abbrev">ChemInform</title>
+		<idno type="ISSN">0931-7597</idno>
+		<idno type="ISSNe">1522-2667</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="9" to="10" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main" xml:id="_5MZD2WU">Directed evolution of enzymes for asymmetric syntheses</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<editor>Christmann, M. &amp; Bräse, S.</editor>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Wiley-VCH</publisher>
+			<biblScope unit="page" from="207" to="211" />
+			<pubPlace>Weinheim, Germany</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_5thgYKK">Directed evolution of enzymes and biosynthetic pathways</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Johannes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_v9F4kaK">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="261" to="267" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_FyRQPtz">Directed evolution of biocatalysts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sylvestre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chautard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cedrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delcourt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CbTUzmD">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="562" to="571" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_f7YDVjG">Directed evolution of biocatalytic processes</title>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">G</forename><surname>Hibbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Baganz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><forename type="middle">C</forename><surname>Hailes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gary</forename><forename type="middle">J</forename><surname>Lye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">A</forename><surname>Dalby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bioeng.2004.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cceJCeA">Biomolecular Engineering</title>
+		<title level="j" type="abbrev">Biomolecular Engineering</title>
+		<idno type="ISSN">1389-0344</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="11" to="19" />
+			<date type="published" when="2005-06">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_5ShyQxX">Directed evolution of enzymes for product chemistry</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Valetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gilardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2H85DJs">Nat. Prod. Rep</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="490" to="511" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_sMGcP32">Novel methods for directed evolution of enzymes: quality, not quantity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Patrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copbio.2004.05.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_724RxEN">Current Opinion in Biotechnology</title>
+		<title level="j" type="abbrev">Current Opinion in Biotechnology</title>
+		<idno type="ISSN">0958-1669</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="291" to="297" />
+			<date type="published" when="2004-08">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_rKmgAuW">Trends and challenges in directed evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bustos-Jaimes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5rUYsJ7">Curr. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="50" to="59" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_y2946TN">Improving catalytic function by ProSAR-driven enzyme evolution</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Christopher</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emily</forename><forename type="middle">C</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><forename type="middle">M</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vesna</forename><surname>Gavrilovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">K</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loleta</forename><forename type="middle">M</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charlene</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarena</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sheela</forename><surname>Muley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Grate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Whitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gjalt</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt1286</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_y5htNx4">Nature Biotechnology</title>
+		<title level="j" type="abbrev">Nat Biotechnol</title>
+		<idno type="ISSN">1087-0156</idno>
+		<idno type="ISSNe">1546-1696</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="338" to="344" />
+			<date type="published" when="2007-02-18">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_uFReQpA">Enzyme optimization: moving from blind evolution to statistical exploration of sequence–function space</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gjalt</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2007.12.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QXUqhWn">Trends in Biotechnology</title>
+		<title level="j" type="abbrev">Trends in Biotechnology</title>
+		<idno type="ISSN">0167-7799</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="132" to="138" />
+			<date type="published" when="2008-03">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main" xml:id="_2tXCGjn">Directed evolution of three biocatalysts to produce the key chiral building block for atorvastatin, the active ingredient in Lipitor</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grate</surname></persName>
+		</author>
+		<ptr target="//www.epa.gov/greenchemistry/pubs/pgcc/winners/grca06.html&gt;" />
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>United States Environmental Protection Agency &lt;http</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_AGTyQ9p">Focusing mutations into the P. fluorescens esterase binding site increases enantioselectivity more effectively than distant mutations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FWRtkan">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_WrfdRVd">Improving enzyme properties: when are closer mutations better?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Morley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kgcsyyg">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="231" to="237" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_pbpv7XJ">Addressing the numbers problem in directed evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kahakeaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lohmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_44GwHJU">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1797" to="1804" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_K4ZqKuK">Directed evolution of enantioselective enzymes: iterative cycles of CASTing for probing protein-sequence space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bocola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3hXRCfV">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1236" to="1241" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_fYtVUk6">Expanding the substrate scope of enzymes: combining mutations obtained by cASTing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V93Q5Ay">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="6031" to="6038" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_5NT2nN9">Amino acid alphabet size in protein evolution experiments: better to search a small library thoroughly or a large library sparsely?</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Deem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qPBrEYC">Protein Eng. Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="311" to="317" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_YRwJGSD">Greatly reduced amino acid alphabets in directed evolution: making the right choice for saturation mutagenesis at homologous enzyme positions</title>
+		<author>
+			<persName><forename type="first">Manfred</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sheng</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b813388c</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VQvU7GT">Chemical Communications</title>
+		<title level="j" type="abbrev">Chem. Commun.</title>
+		<idno type="ISSN">1359-7345</idno>
+		<idno type="ISSNe">1364-548X</idno>
+		<imprint>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page">5499</biblScope>
+			<date type="published" when="2008">2008</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main" xml:id="_hDpxJVZ">Enzyme promiscuity: mechanism and applications</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hult</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berglund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pbbKyNp">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="231" to="238" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_xxqDysJ">Alternate‐Site Enzyme Promiscuity</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Taglieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Horst</forename><surname>Höbenreich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Daniel</forename><surname>Carballeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Régis</forename><forename type="middle">J G</forename><surname>Mondière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200702751</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vCEMvE8">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page" from="8597" to="8600" />
+			<date type="published" when="2007-11-08">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_YWpWRt3">Reaction specificity of enzymes: catalytic promiscuity in biocatalysis: using old enzymes to form new bonds and follow new pathways</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_573nD8P">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="6032" to="6040" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_VECm9pV">Protein engineers turned evolutionists</title>
+		<author>
+			<persName><forename type="first">Sergio</forename><forename type="middle">G</forename><surname>Peisajovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth1207-991</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3947MVF">Nature Methods</title>
+		<title level="j" type="abbrev">Nat Methods</title>
+		<idno type="ISSN">1548-7091</idno>
+		<idno type="ISSNe">1548-7105</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="991" to="994" />
+			<date type="published" when="2007-12">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_ms4rhXk">Intense Neutral Drifts Yield Robust and Evolvable Consensus Proteins</title>
+		<author>
+			<persName><forename type="first">Shimon</forename><surname>Bershtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Korina</forename><surname>Goldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2008.04.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ESZEQD3">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1029" to="1044" />
+			<date type="published" when="2008-06">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_2RtjGmd">The &apos;evolvability&apos; of promiscuous protein functions</title>
+		<author>
+			<persName><forename type="first">Amir</forename><surname>Aharoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leonid</forename><surname>Gaidukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olga</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">Mcq</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cintia</forename><surname>Roodveldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng1482</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KKdFGZR">Nature Genetics</title>
+		<title level="j" type="abbrev">Nat Genet</title>
+		<idno type="ISSN">1061-4036</idno>
+		<idno type="ISSNe">1546-1718</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="76" />
+			<date type="published" when="2004-11-28">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main" xml:id="_cRutkwF">Directed enzyme evolution via small and effective neutral drift libraries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YFBjFeq">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="939" to="942" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main" xml:id="_HQtyhxY">Neutral genetic drift can alter promiscuous protein functions, potentially aiding functional evolution</title>
+		<author>
+			<persName><forename type="first">Jesse</forename><forename type="middle">D</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><forename type="middle">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongyi</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1745-6150-2-17</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rFZUJhR">Biology Direct</title>
+		<title level="j" type="abbrev">Biol Direct</title>
+		<idno type="ISSNe">1745-6150</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2007-06-28">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main" xml:id="_nWFu7Hj">Evolution of enzymatic activities in the enolase superfamily: stereochemically distinct mechanisms in two families of cis,cis-muconate lactonizing enzymes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sakai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dR6Tm35">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1445" to="1453" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main" xml:id="_qCWY7GY">Emergent mechanistic diversity of enzyme-catalysed -diketone cleavage</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NGRj9hq">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="721" to="730" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main" xml:id="_JbajtPm">Mechanisms and structures of crotonase superfamily enzymes-how nature controls enolate and oxyanion reactivity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Batchelar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schofield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_T72mmQH">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="2507" to="2527" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main" xml:id="_vvpncbU">Catalytic promiscuity of halohydrin dehalogenase and its application in enantioselective epoxide ring opening</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hasnaoui-Dijoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Majerić Elenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lutje Spelberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TPX2FVr">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1048" to="1051" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main" xml:id="_D5cu6xq">Introduction of single mutation changes arylmalonate decarboxylase to racemase</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Terao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XZbdAWQ">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="page" from="3600" to="3602" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main" xml:id="_7KmeGRE">Stereoselectivity and Expanded Substrate Scope of an Engineered PLP‐Dependent Aldolase</title>
+		<author>
+			<persName><forename type="first">Florian</forename><forename type="middle">P</forename><surname>Seebeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angelo</forename><surname>Guainazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Celine</forename><surname>Amoreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kim</forename><forename type="middle">K</forename><surname>Baldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donald</forename><surname>Hilvert</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200602529</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3r7EuHd">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="6824" to="6826" />
+			<date type="published" when="2006-10-17">2006</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main" xml:id="_BmRU4JD">Converting an Esterase into an Epoxide Hydrolase</title>
+		<author>
+			<persName><forename type="first">Helge</forename><surname>Jochens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Konstanze</forename><surname>Stiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Savile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryota</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juin‐guo</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tatsiana</forename><surname>Gerassenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Romas</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200806276</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zXDrMSh">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="3532" to="3535" />
+			<date type="published" when="2009-04-23">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main" xml:id="_eWu2D5B">Functional proteins from a random sequence library</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Szostak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_AzzvpuV">Nature</title>
+		<imprint>
+			<biblScope unit="volume">410</biblScope>
+			<biblScope unit="page" from="715" to="718" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main" xml:id="_tWnw6qt">Design and Evolution of New Catalytic Activity with an Existing Protein Scaffold</title>
+		<author>
+			<persName><forename type="first">Hee-Sung</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sung-Hun</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">Kak</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang</forename><forename type="middle">No</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bengt</forename><surname>Mannervik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hak-Sung</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1118953</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sq9rDXW">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">5760</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2006-01-27">2006</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main" xml:id="_M3cNN8w">Kemp elimination catalysts by computational enzyme design</title>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Röthlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olga</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">M</forename><surname>Wollacott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Dechancie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jamie</forename><surname>Betker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jasmine</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Zanghellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Orly</forename><surname>Dym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shira</forename><surname>Albeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kendall</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06879</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Kczm5Bb">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="issue">7192</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008-03-19">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main" xml:id="_WKMZng4">De Novo Computational Design of Retro-Aldol Enzymes</title>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fernando</forename><forename type="middle">R</forename><surname>Clemente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lindsey</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Röthlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Zanghellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jasmine</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jamie</forename><forename type="middle">L</forename><surname>Betker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fujie</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><forename type="middle">F</forename><surname>Barbas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donald</forename><surname>Hilvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kendall</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barry</forename><forename type="middle">L</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1152692</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ns5TVSe">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">5868</biblScope>
+			<biblScope unit="page" from="1387" to="1391" />
+			<date type="published" when="2008-03-07">2008</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main" xml:id="_CbG3puq">Computational design of enzymes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sterner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merkl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Raushel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rq4UqeY">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="421" to="423" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main" xml:id="_YC7Emgj">Computational tools for designing and engineering biocatalysts</title>
+		<author>
+			<persName><forename type="first">Jiri</forename><surname>Damborsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Brezovsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpa.2009.02.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mZDatR5">Current Opinion in Chemical Biology</title>
+		<title level="j" type="abbrev">Current Opinion in Chemical Biology</title>
+		<idno type="ISSN">1367-5931</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="34" />
+			<date type="published" when="2009-02">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main" xml:id="_M9bramH">Structural reorganization and preorganization in enzyme active sites: comparisons of experimental and theoretically ideal active site geometries in the multistep serine esterase reaction cycle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J T</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ps6qwsE">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="15361" to="15373" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main" xml:id="_MjTYhVR">Selection and evolution of enzymes from a partially randomized non-catalytic scaffold</title>
+		<author>
+			<persName><forename type="first">Burckhard</forename><surname>Seelig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><forename type="middle">W</forename><surname>Szostak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06032</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6VFQHSs">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="issue">7155</biblScope>
+			<biblScope unit="page" from="828" to="831" />
+			<date type="published" when="2007-08-16">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main" xml:id="_r4wHuYQ">Directed evolution of enzymes: Library screening strategies</title>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Leemhuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronan</forename><forename type="middle">M</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lubbert</forename><surname>Dijkhuizen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/iub.165</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HhZXgHR">IUBMB Life</title>
+		<title level="j" type="abbrev">IUBMB Life</title>
+		<idno type="ISSN">1521-6543</idno>
+		<idno type="ISSNe">1521-6551</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="222" to="228" />
+			<date type="published" when="2009-01-29">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main" xml:id="_UAFbmd6">Enantioselective catalysis and analysis on a chip</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Belder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RaTgrpd">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2463" to="2466" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main" xml:id="_VY2sDcR">High-Throughput Screening of Enzyme Libraries: In Vitro Evolution of a β-Galactosidase by Fluorescence-Activated Sorting of Double Emulsions</title>
+		<author>
+			<persName><forename type="first">Enrico</forename><surname>Mastrobattista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valerie</forename><surname>Taly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Estelle</forename><surname>Chanudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><surname>Treacy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><forename type="middle">T</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chembiol.2005.09.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kpUataE">Chemistry &amp; Biology</title>
+		<title level="j" type="abbrev">Chemistry &amp; Biology</title>
+		<idno type="ISSN">1074-5521</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1291" to="1300" />
+			<date type="published" when="2005-12">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main" xml:id="_7nMRu4S">Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/emboj/cdg014</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PmvyDqr">The EMBO Journal</title>
+		<idno type="ISSNe">1460-2075</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="35" />
+			<date type="published" when="2003-01-02">2003</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main" xml:id="_SSpzt94">Phage display as a tool for the directed evolution of enzymes</title>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Fernandez-Gacio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marilyne</forename><surname>Uguen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Fastrez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0167-7799(03)00194-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mJsXmgZ">Trends in Biotechnology</title>
+		<title level="j" type="abbrev">Trends in Biotechnology</title>
+		<idno type="ISSN">0167-7799</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="408" to="414" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main" xml:id="_8J2rKtN">Selection of horseradish peroxidase variants with enhanced enantioselectivity by yeast surface display</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lipovsek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pDrJPGR">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1176" to="1185" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main" xml:id="_9rsQge3">Investigating the Structural and Functional Consequences of Circular Permutation on Lipase B from &lt;i&gt;Candida Antarctica&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Zhen</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christina</forename><forename type="middle">J</forename><surname>Fields</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Lutz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbic.200700373</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zPpZh2F">ChemBioChem</title>
+		<title level="j" type="abbrev">ChemBioChem</title>
+		<idno type="ISSN">1439-4227</idno>
+		<idno type="ISSNe">1439-7633</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="1989" to="1996" />
+			<date type="published" when="2007-10-23">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main" xml:id="_2frAFPx">Stereoinversion of -and γ-substituted--amino acids using a chemoenzymatic oxidation-reduction procedure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JPhaqU2">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="page" from="2636" to="2637" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main" xml:id="_y42nerx">A versatile chemo-enzymatic route to enantiomerically pure -branched--amino acids</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Roff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XQ26D84">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="4098" to="4099" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main" xml:id="_u6qeQ8f">Deracemisation of -methylbenzylamine using an enzyme obtained by in vitro evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_g76KCgG">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="3177" to="3180" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main" xml:id="_eNfVbfT">Directed evolution of an amine oxidase possessing both broad substrate specificity and high enantioselectivity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tu8cjwU">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="4807" to="4810" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main" xml:id="_A8G7TXx">Directed evolution of an amine oxidase for the preparative deracemisation of cyclic secondary amines</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_F2UFPcj">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="637" to="639" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main" xml:id="_xbHSZtG">A chemo-enzymatic route to enantiomerically pure cyclic tertiary amines</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dunsmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cs3Scfc">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="2224" to="2225" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main" xml:id="_NKhAJxp">Enantioselective oxidation of O-methyl-N-hydroxylamines using MAO-N as catalyst</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S C</forename><surname>Eve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KEEKVgQ">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="page" from="1530" to="1531" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main" xml:id="_8qUCXFT">A template-based mnemonic for monoamine oxidase (MAO-N) catalyzed reactions and its application to the chemo-enzymatic deracemisation of the alkaloid (±)-crispine A</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Snape</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MhdtqtD">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="page" from="3640" to="3642" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main" xml:id="_nNjXvWF">The structure of monoamine oxidase from Aspergillus niger provides a molecular context for improvements in activity obtained by directed evolution</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Atkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ynkkfcu">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="1218" to="1231" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main" xml:id="_bxe89dh">Directed evolution of an industrial biocatalyst: 2-deoxy-D-ribose 5-phosphate aldolase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jennewein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7Fd3bUj">Biotechnol. J</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="537" to="548" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main" xml:id="_Pm49ra9">Directed evolution of 2-keto-3-deoxy-6-phosphogalactonate aldolase to replace 3-deoxy-D-arabino-heptulosonic acid 7-phosphate synthase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Frost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vZpe7xr">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="6130" to="6139" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main" xml:id="_FDCcq6P">Directed evolution of D-sialic acid aldolase to L-3-deoxy-manno-2-octulosonic acid (L-KDO) aldolase</title>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yvgqtsA">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="9122" to="9126" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main" xml:id="_jc2J4AN">Creation of a pair of stereochemically complementary biocatalysts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Woodhall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Farnsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MdFqKKA">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="16238" to="16247" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main" xml:id="_va44yyg">Enhancing and reversing the stereoselectivity of Escherichia coli transketolase via single-point mutations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E B</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Hibbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Dalby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hailes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BHhRHxx">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="2631" to="2638" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main" xml:id="_4Nbh2wD">A screening system for the directed evolution of epoxygenases: importance of position 184 in P450 BM3 for stereoselective styrene epoxidation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Tee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nE6t8qA">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="5380" to="5383" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main" xml:id="_bw3ZPwg">Directed evolution of an enantioselective epoxide hydrolase: uncovering the source of enantioselectivity at each evolutionary stage</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pCT6bQQ">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="7334" to="7343" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main" xml:id="_Peqbu4y">Laboratory evolved biocatalysts for stereoselective syntheses of substituted benzaldehyde cyanohydrins</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XB5ndfQ">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="58" to="61" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main" xml:id="_yJYsB4y">In vivo evolution of butane oxidation by terminal alkane hydroxylases AlkB and CYP153A6</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Van Beilen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZhFdTRR">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="337" to="344" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main" xml:id="_upJa5Dc">Enantioselective alpha-hydroxylation of 2-arylacetic acid derivatives and buspirone catalyzed by engineered cytochrome P450 BM-3</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Landwehr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ge2yCKw">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="6058" to="6059" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main" xml:id="_pFSnDE3">Directed evolution of galactose oxidase: generation of enantioselective secondary alcohol oxidases</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Escalettes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BXvKRFE">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="857" to="860" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main" xml:id="_B3eUZQU">Rapid Determination of Both the Activity and Enantioselectivity of Ketoreductases</title>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">D</forename><surname>Truppo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franck</forename><surname>Escalettes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200705046</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7hGDrV6">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2639" to="2641" />
+			<date type="published" when="2008-03-18">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main" xml:id="_bMxzuXJ">Tailoring the Active Site of Chemzymes by Using a Chemogenetic‐Optimization Procedure: Towards Substrate‐Specific Artificial Hydrogenases Based on the Biotin–Avidin Technology</title>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Humbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julieta</forename><surname>Gradinaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anita</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Gilardoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Untung</forename><forename type="middle">E</forename><surname>Rusbandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200502000</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EpGyk62">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page" from="7764" to="7767" />
+			<date type="published" when="2005-11-28">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main" xml:id="_rKAqjEB">Artificial Enzymes Made to Order: Combination of Computational Design and Directed Evolution</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200802865</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_AEbyZ9U">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="7802" to="7803" />
+			<date type="published" when="2008-09-24">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main" xml:id="_34z6YGa">Directed evolution of hybrid enzymes: evolving enantioselectivity of an achiral Rh-complex anchored to a protein</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Peyralans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.-P</forename><surname>Maichele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Maywald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TZeHpDs">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="volume">4318</biblScope>
+			<biblScope unit="issue">4320</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main" xml:id="_cWGbgSd">Stereoselective Hydrogenation of Olefins Using Rhodium‐Substituted Carbonic Anhydrase—A New Reductase</title>
+		<author>
+			<persName><forename type="first">Qing</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krzysztof</forename><surname>Okrasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Romas</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chem.200801673</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cdYKw3f">Chemistry – A European Journal</title>
+		<title level="j" type="abbrev">Chemistry A European J</title>
+		<idno type="ISSN">0947-6539</idno>
+		<idno type="ISSNe">1521-3765</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1370" to="1376" />
+			<date type="published" when="2009-01-20">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main" xml:id="_fsrgMNA">Artificial metalloenzyme for enantioselective sulfoxidation based on vanadyl-loaded streptavidin</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pordea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GXnYjRe">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="8085" to="8088" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main" xml:id="_8mQNXUs">The protein environment drives selectivity for sulfide oxidation by an artificial metalloenzyme</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rousselot-Pailley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hu7EMU7">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">545</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main" xml:id="_a8ht2bU">Artificial metalloenzymes for asymmetric allylic alkylation on the basis of the biotin-avidin technology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pierron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KUmzbKm">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="701" to="705" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main" xml:id="_2S3pVzt">Diversifying Carotenoid Biosynthetic Pathways by Directed Evolution</title>
+		<author>
+			<persName><forename type="first">Daisuke</forename><surname>Umeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">V</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mmbr.69.1.51-78.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YXrxXdd">Microbiology and Molecular Biology Reviews</title>
+		<title level="j" type="abbrev">Microbiol Mol Biol Rev</title>
+		<idno type="ISSN">1092-2172</idno>
+		<idno type="ISSNe">1098-5557</idno>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="78" />
+			<date type="published" when="2005-03">2005</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main" xml:id="_ShHSHzY">Directed evolution of metabolic pathways</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qTHqPSh">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="28" to="38" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main" xml:id="_eJZJVJP">Directed evolution can rapidly improve the activity of chimeric assembly-line enzymes</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">R</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">D</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0705348104</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Mfj9n49">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">29</biblScope>
+			<biblScope unit="page" from="11951" to="11956" />
+			<date type="published" when="2007-07-17">2007</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main" xml:id="_R4Kc4kT">Semi-rational approaches to engineering enzyme activity: combining the benefits of directed evolution and rational design</title>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">A</forename><surname>Chica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Doucet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joelle</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copbio.2005.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9meVebt">Current Opinion in Biotechnology</title>
+		<title level="j" type="abbrev">Current Opinion in Biotechnology</title>
+		<idno type="ISSN">0958-1669</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="378" to="384" />
+			<date type="published" when="2005-08">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main" xml:id="_hyYHbaM">Engineering enzymes by intelligent design</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DnqRWrr">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

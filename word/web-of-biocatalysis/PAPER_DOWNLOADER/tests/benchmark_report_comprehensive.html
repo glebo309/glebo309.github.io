@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>benchmark_report_comprehensive</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Web Of Biocatalysis"/><meta property="og:title" content="benchmark_report_comprehensive"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="benchmark_report_comprehensive"/><meta name="twitter:description" content="Paper Finder - Comprehensive Benchmark Report Generated: 2025-12-06 18:21:48 Summary Statistics Total Tests: 37 Successes: 26 (70.3%) Failures: 11 (29.7%) Total Time: 185.9s Average Time: 5.0s per test Results by Category Biology - Classic: 3/3 (100% success, avg 0.7s) Biology - Recent Classic: 1/1 ..."/><meta property="og:description" content="Paper Finder - Comprehensive Benchmark Report Generated: 2025-12-06 18:21:48 Summary Statistics Total Tests: 37 Successes: 26 (70.3%) Failures: 11 (29.7%) Total Time: 185.9s Average Time: 5.0s per test Results by Category Biology - Classic: 3/3 (100% success, avg 0.7s) Biology - Recent Classic: 1/1 ..."/><meta property="og:image:alt" content="Paper Finder - Comprehensive Benchmark Report Generated: 2025-12-06 18:21:48 Summary Statistics Total Tests: 37 Successes: 26 (70.3%) Failures: 11 (29.7%) Total Time: 185.9s Average Time: 5.0s per test Results by Category Biology - Classic: 3/3 (100% success, avg 0.7s) Biology - Recent Classic: 1/1 ..."/><meta property="twitter:domain" content="glecko.xyz"/><meta property="og:url" content="https://glecko.xyz/PAPER_DOWNLOADER/tests/benchmark_report_comprehensive"/><meta property="twitter:url" content="https://glecko.xyz/PAPER_DOWNLOADER/tests/benchmark_report_comprehensive"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Paper Finder - Comprehensive Benchmark Report Generated: 2025-12-06 18:21:48 Summary Statistics Total Tests: 37 Successes: 26 (70.3%) Failures: 11 (29.7%) Total Time: 185.9s Average Time: 5.0s per test Results by Category Biology - Classic: 3/3 (100% success, avg 0.7s) Biology - Recent Classic: 1/1 ..."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2dsZW5uL0RvY3VtZW50cy9TZWNvbmRCcmFpbi9fQ09ERS9xdWFydHotYnVpbGRlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://glecko.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://glecko.xyz/PAPER_DOWNLOADER/tests/benchmark_report_comprehensive-og-image.webp"/><meta property="og:image:url" content="https://glecko.xyz/PAPER_DOWNLOADER/tests/benchmark_report_comprehensive-og-image.webp"/><meta name="twitter:image" content="https://glecko.xyz/PAPER_DOWNLOADER/tests/benchmark_report_comprehensive-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="PAPER_DOWNLOADER/tests/benchmark_report_comprehensive"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Web Of Biocatalysis</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="bnv3ed"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../PAPER_DOWNLOADER/">PAPER_DOWNLOADER</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../PAPER_DOWNLOADER/tests/">tests</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>benchmark_report_comprehensive</a></div></nav></div></div><article class="popover-hint"><h1 id="paper-finder---comprehensive-benchmark-report">Paper Finder - Comprehensive Benchmark Report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#paper-finder---comprehensive-benchmark-report" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Generated</strong>: 2025-12-06 18:21:48</p>
+<h2 id="summary-statistics">Summary Statistics<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#summary-statistics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Total Tests</strong>: 37
+<strong>Successes</strong>: 26 (70.3%)
+<strong>Failures</strong>: 11 (29.7%)
+<strong>Total Time</strong>: 185.9s
+<strong>Average Time</strong>: 5.0s per test</p>
+<h2 id="results-by-category">Results by Category<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#results-by-category" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Biology - Classic</strong>: 3/3 (100% success, avg 0.7s)</li>
+<li><strong>Biology - Recent Classic</strong>: 1/1 (100% success, avg 2.0s)</li>
+<li><strong>Book - Biology</strong>: 1/1 (100% success, avg 7.4s)</li>
+<li><strong>Book - Philosophy</strong>: 1/1 (100% success, avg 6.6s)</li>
+<li><strong>Book - Physics</strong>: 1/1 (100% success, avg 2.8s)</li>
+<li><strong>Chemistry - Classic</strong>: 3/3 (100% success, avg 0.7s)</li>
+<li><strong>Edge Case - Garbage</strong>: 0/1 (0% success, avg 0.0s)</li>
+<li><strong>Edge Case - Invalid</strong>: 0/1 (0% success, avg 0.8s)</li>
+<li><strong>Edge Case - Messy</strong>: 1/1 (100% success, avg 1.0s)</li>
+<li><strong>Edge Case - URL</strong>: 1/1 (100% success, avg 0.6s)</li>
+<li><strong>Edge Case - Whitespace</strong>: 1/1 (100% success, avg 0.5s)</li>
+<li><strong>Medical - BMJ</strong>: 0/1 (0% success, avg 0.2s)</li>
+<li><strong>Medical - Lancet</strong>: 0/1 (0% success, avg 0.2s)</li>
+<li><strong>Medical - NEJM</strong>: 0/1 (0% success, avg 0.4s)</li>
+<li><strong>Obscure - 19th Century</strong>: 0/1 (0% success, avg 0.2s)</li>
+<li><strong>Obscure - German</strong>: 1/1 (100% success, avg 1.5s)</li>
+<li><strong>Obscure - Soviet</strong>: 0/1 (0% success, avg 0.2s)</li>
+<li><strong>Open Access - Biology</strong>: 1/1 (100% success, avg 1.9s)</li>
+<li><strong>Open Access - Health</strong>: 1/1 (100% success, avg 3.7s)</li>
+<li><strong>Philosophy - Recent</strong>: 0/3 (0% success, avg 0.3s)</li>
+<li><strong>Physics - Classic</strong>: 3/3 (100% success, avg 0.8s)</li>
+<li><strong>Preprint - AI</strong>: 2/2 (100% success, avg 1.0s)</li>
+<li><strong>Preprint - Virology</strong>: 1/1 (100% success, avg 12.5s)</li>
+<li><strong>Recent 2024 - Cell</strong>: 3/3 (100% success, avg 4.2s)</li>
+<li><strong>Recent 2024 - Nature</strong>: 1/1 (100% success, avg 3.7s)</li>
+<li><strong>Recent 2024 - Science</strong>: 0/1 (0% success, avg 117.6s)</li>
+</ul>
+<h2 id="detailed-results">Detailed Results<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#detailed-results" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="oa_plos_biology----pass">oa_plos_biology - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#oa_plos_biology----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1371/journal.pone.0134116</code></li>
+<li><strong>Category</strong>: Open Access - Biology</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 1.9s</li>
+<li><strong>File</strong>: <code>10.1371_journal.pone.0134116.pdf</code></li>
+</ul>
+<h3 id="oa_plos_health----pass">oa_plos_health - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#oa_plos_health----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1371/journal.pone.0286208</code></li>
+<li><strong>Category</strong>: Open Access - Health</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 3.7s</li>
+</ul>
+<h3 id="arxiv_transformer----pass">arxiv_transformer - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#arxiv_transformer----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.48550/arXiv.1706.03762</code></li>
+<li><strong>Category</strong>: Preprint - AI</li>
+<li><strong>Source</strong>: arXiv Direct</li>
+<li><strong>Time</strong>: 1.1s</li>
+<li><strong>File</strong>: <code>arxiv_1706.03762.pdf</code></li>
+</ul>
+<h3 id="arxiv_gpt3----pass">arxiv_gpt3 - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#arxiv_gpt3----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.48550/arXiv.2005.14165</code></li>
+<li><strong>Category</strong>: Preprint - AI</li>
+<li><strong>Source</strong>: arXiv Direct</li>
+<li><strong>Time</strong>: 0.9s</li>
+<li><strong>File</strong>: <code>arxiv_2005.14165.pdf</code></li>
+</ul>
+<h3 id="biorxiv_covid----pass">biorxiv_covid - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#biorxiv_covid----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1101/2020.07.01.182741</code></li>
+<li><strong>Category</strong>: Preprint - Virology</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 12.5s</li>
+</ul>
+<h3 id="chem_woodward_hoffmann----pass">chem_woodward_hoffmann - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#chem_woodward_hoffmann----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1021/ja01080a054</code></li>
+<li><strong>Category</strong>: Chemistry - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.8s</li>
+<li><strong>File</strong>: <code>10.1021_ja01080a054.pdf</code></li>
+</ul>
+<h3 id="chem_hammond----pass">chem_hammond - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#chem_hammond----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1021/ja01616a027</code></li>
+<li><strong>Category</strong>: Chemistry - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.7s</li>
+<li><strong>File</strong>: <code>10.1021_ja01616a027.pdf</code></li>
+</ul>
+<h3 id="chem_corey_winter----pass">chem_corey_winter - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#chem_corey_winter----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1021/ja00074a086</code></li>
+<li><strong>Category</strong>: Chemistry - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.6s</li>
+<li><strong>File</strong>: <code>10.1021_ja00074a086.pdf</code></li>
+</ul>
+<h3 id="bio_watson_crick----pass">bio_watson_crick - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bio_watson_crick----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1038/171737a0</code></li>
+<li><strong>Category</strong>: Biology - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.6s</li>
+<li><strong>File</strong>: <code>10.1038_171737a0.pdf</code></li>
+</ul>
+<h3 id="bio_sanger----pass">bio_sanger - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bio_sanger----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1073/pnas.74.12.5463</code></li>
+<li><strong>Category</strong>: Biology - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.7s</li>
+<li><strong>File</strong>: <code>10.1073_pnas.74.12.5463.pdf</code></li>
+</ul>
+<h3 id="bio_pcr----pass">bio_pcr - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bio_pcr----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1126/science.2448875</code></li>
+<li><strong>Category</strong>: Biology - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.8s</li>
+<li><strong>File</strong>: <code>10.1126_science.2448875.pdf</code></li>
+</ul>
+<h3 id="bio_crispr----pass">bio_crispr - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bio_crispr----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1126/science.1225829</code></li>
+<li><strong>Category</strong>: Biology - Recent Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 2.0s</li>
+<li><strong>File</strong>: <code>10.1126_science.1225829.pdf</code></li>
+</ul>
+<h3 id="physics_dirac----pass">physics_dirac - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#physics_dirac----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1098/rspa.1928.0023</code></li>
+<li><strong>Category</strong>: Physics - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.6s</li>
+<li><strong>File</strong>: <code>10.1098_rspa.1928.0023.pdf</code></li>
+</ul>
+<h3 id="physics_einstein_relativity----pass">physics_einstein_relativity - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#physics_einstein_relativity----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1002/andp.19053220607</code></li>
+<li><strong>Category</strong>: Physics - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.8s</li>
+<li><strong>File</strong>: <code>10.1002_andp.19053220607.pdf</code></li>
+</ul>
+<h3 id="physics_higgs----pass">physics_higgs - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#physics_higgs----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1016/0031-9163(64)91136-9</code></li>
+<li><strong>Category</strong>: Physics - Classic</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 1.0s</li>
+<li><strong>File</strong>: <code>10.1016_0031-9163(64)91136-9.pdf</code></li>
+</ul>
+<h3 id="cell_2024_cancer----pass">cell_2024_cancer - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cell_2024_cancer----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1016/j.cell.2024.02.009</code></li>
+<li><strong>Category</strong>: Recent 2024 - Cell</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 3.8s</li>
+</ul>
+<h3 id="cell_2024_singlecell----pass">cell_2024_singlecell - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cell_2024_singlecell----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1016/j.cell.2024.03.009</code></li>
+<li><strong>Category</strong>: Recent 2024 - Cell</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 4.1s</li>
+</ul>
+<h3 id="cell_2024_ubiquitin----pass">cell_2024_ubiquitin - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cell_2024_ubiquitin----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1016/j.cell.2024.03.024</code></li>
+<li><strong>Category</strong>: Recent 2024 - Cell</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 4.6s</li>
+</ul>
+<h3 id="nature_2024_alphafold3----pass">nature_2024_alphafold3 - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nature_2024_alphafold3----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1038/s41586-024-07487-w</code></li>
+<li><strong>Category</strong>: Recent 2024 - Nature</li>
+<li><strong>Source</strong>: Open Access (Browser)</li>
+<li><strong>Time</strong>: 3.7s</li>
+</ul>
+<h3 id="science_2024_rosettafold----fail">science_2024_rosettafold - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#science_2024_rosettafold----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1126/science.adl2528</code></li>
+<li><strong>Category</strong>: Recent 2024 - Science</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 117.6s</li>
+<li><strong>Error</strong>: All acquisition methods failed</li>
+</ul>
+<h3 id="phil_european----fail">phil_european - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phil_european----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1111/ejop.12955</code></li>
+<li><strong>Category</strong>: Philosophy - Recent</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.4s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1111/ejop.12955</li>
+</ul>
+<h3 id="phil_political----fail">phil_political - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phil_political----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1111/jopp.12190</code></li>
+<li><strong>Category</strong>: Philosophy - Recent</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.3s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1111/jopp.12190</li>
+</ul>
+<h3 id="phil_social----fail">phil_social - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#phil_social----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1111/josp.12541</code></li>
+<li><strong>Category</strong>: Philosophy - Recent</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.3s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1111/josp.12541</li>
+</ul>
+<h3 id="med_lancet_hp----fail">med_lancet_hp - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#med_lancet_hp----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1016/S0140-6736(86)90837-8</code></li>
+<li><strong>Category</strong>: Medical - Lancet</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.2s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1016/S0140-6736(86)90837-8</li>
+</ul>
+<h3 id="med_nejm_viagra----fail">med_nejm_viagra - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#med_nejm_viagra----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1056/NEJM199805143382003</code></li>
+<li><strong>Category</strong>: Medical - NEJM</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.4s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1056/NEJM199805143382003</li>
+</ul>
+<h3 id="med_bmj_parachute----fail">med_bmj_parachute - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#med_bmj_parachute----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1136/bmj.327.7414.557</code></li>
+<li><strong>Category</strong>: Medical - BMJ</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.2s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1136/bmj.327.7414.557</li>
+</ul>
+<h3 id="book_kuhn----pass">book_kuhn - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#book_kuhn----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>978-0226458083</code></li>
+<li><strong>Category</strong>: Book - Philosophy</li>
+<li><strong>Source</strong>: Anna’s Archive (Book Browser)</li>
+<li><strong>Time</strong>: 6.6s</li>
+</ul>
+<h3 id="book_darwin----pass">book_darwin - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#book_darwin----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>978-0451529060</code></li>
+<li><strong>Category</strong>: Book - Biology</li>
+<li><strong>Source</strong>: Anna’s Archive (Book Browser)</li>
+<li><strong>Time</strong>: 7.4s</li>
+</ul>
+<h3 id="book_feynman----pass">book_feynman - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#book_feynman----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>978-0465025275</code></li>
+<li><strong>Category</strong>: Book - Physics</li>
+<li><strong>Source</strong>: Anna’s Archive (Book Browser)</li>
+<li><strong>Time</strong>: 2.8s</li>
+</ul>
+<h3 id="obscure_1893_chemistry----fail">obscure_1893_chemistry - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#obscure_1893_chemistry----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1039/CT8936300634</code></li>
+<li><strong>Category</strong>: Obscure - 19th Century</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.2s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1039/CT8936300634</li>
+</ul>
+<h3 id="obscure_soviet_physics----fail">obscure_soviet_physics - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#obscure_soviet_physics----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1070/PU1968v010n04ABEH003699</code></li>
+<li><strong>Category</strong>: Obscure - Soviet</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.2s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1070/PU1968v010n04ABEH003699</li>
+</ul>
+<h3 id="obscure_german_einstein----pass">obscure_german_einstein - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#obscure_german_einstein----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1002/andp.19053221004</code></li>
+<li><strong>Category</strong>: Obscure - German</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 1.5s</li>
+<li><strong>File</strong>: <code>10.1002_andp.19053221004.pdf</code></li>
+</ul>
+<h3 id="edge_url_format----pass">edge_url_format - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge_url_format----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>https://doi.org/10.1038/171737a0</code></li>
+<li><strong>Category</strong>: Edge Case - URL</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.6s</li>
+<li><strong>File</strong>: <code>10.1038_171737a0.pdf</code></li>
+</ul>
+<h3 id="edge_messy_paste----pass">edge_messy_paste - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge_messy_paste----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>ja01080a054https://pubs.acs.org/doi/10.1021/ja01080a054</code></li>
+<li><strong>Category</strong>: Edge Case - Messy</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 1.0s</li>
+<li><strong>File</strong>: <code>10.1021_ja01080a054.pdf</code></li>
+</ul>
+<h3 id="edge_whitespace----pass">edge_whitespace - ✅ PASS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge_whitespace----pass" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code> 10.1038/171737a0 </code></li>
+<li><strong>Category</strong>: Edge Case - Whitespace</li>
+<li><strong>Source</strong>: SciHub</li>
+<li><strong>Time</strong>: 0.5s</li>
+<li><strong>File</strong>: <code>10.1038_171737a0.pdf</code></li>
+</ul>
+<h3 id="edge_invalid_doi----fail">edge_invalid_doi - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge_invalid_doi----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>10.1234/FAKE.DOI.12345</code></li>
+<li><strong>Category</strong>: Edge Case - Invalid</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.8s</li>
+<li><strong>Error</strong>: DOI not found in Crossref/doi.org: 10.1234/FAKE.DOI.12345</li>
+</ul>
+<h3 id="edge_garbage----fail">edge_garbage - ❌ FAIL<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge_garbage----fail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Reference</strong>: <code>not-a-doi-at-all</code></li>
+<li><strong>Category</strong>: Edge Case - Garbage</li>
+<li><strong>Source</strong>: Unknown</li>
+<li><strong>Time</strong>: 0.0s</li>
+<li><strong>Error</strong>: Input appears malformed and cannot be resolved: not-a-doi-at-all</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="toc-content"><ul id="kx1zwn" class="overflow"><li class="depth-0"><a href="#paper-finder---comprehensive-benchmark-report" data-for="paper-finder---comprehensive-benchmark-report">Paper Finder - Comprehensive Benchmark Report</a></li><li class="depth-1"><a href="#summary-statistics" data-for="summary-statistics">Summary Statistics</a></li><li class="depth-1"><a href="#results-by-category" data-for="results-by-category">Results by Category</a></li><li class="depth-1"><a href="#detailed-results" data-for="detailed-results">Detailed Results</a></li><li class="depth-2"><a href="#oa_plos_biology----pass" data-for="oa_plos_biology----pass">oa_plos_biology - ✅ PASS</a></li><li class="depth-2"><a href="#oa_plos_health----pass" data-for="oa_plos_health----pass">oa_plos_health - ✅ PASS</a></li><li class="depth-2"><a href="#arxiv_transformer----pass" data-for="arxiv_transformer----pass">arxiv_transformer - ✅ PASS</a></li><li class="depth-2"><a href="#arxiv_gpt3----pass" data-for="arxiv_gpt3----pass">arxiv_gpt3 - ✅ PASS</a></li><li class="depth-2"><a href="#biorxiv_covid----pass" data-for="biorxiv_covid----pass">biorxiv_covid - ✅ PASS</a></li><li class="depth-2"><a href="#chem_woodward_hoffmann----pass" data-for="chem_woodward_hoffmann----pass">chem_woodward_hoffmann - ✅ PASS</a></li><li class="depth-2"><a href="#chem_hammond----pass" data-for="chem_hammond----pass">chem_hammond - ✅ PASS</a></li><li class="depth-2"><a href="#chem_corey_winter----pass" data-for="chem_corey_winter----pass">chem_corey_winter - ✅ PASS</a></li><li class="depth-2"><a href="#bio_watson_crick----pass" data-for="bio_watson_crick----pass">bio_watson_crick - ✅ PASS</a></li><li class="depth-2"><a href="#bio_sanger----pass" data-for="bio_sanger----pass">bio_sanger - ✅ PASS</a></li><li class="depth-2"><a href="#bio_pcr----pass" data-for="bio_pcr----pass">bio_pcr - ✅ PASS</a></li><li class="depth-2"><a href="#bio_crispr----pass" data-for="bio_crispr----pass">bio_crispr - ✅ PASS</a></li><li class="depth-2"><a href="#physics_dirac----pass" data-for="physics_dirac----pass">physics_dirac - ✅ PASS</a></li><li class="depth-2"><a href="#physics_einstein_relativity----pass" data-for="physics_einstein_relativity----pass">physics_einstein_relativity - ✅ PASS</a></li><li class="depth-2"><a href="#physics_higgs----pass" data-for="physics_higgs----pass">physics_higgs - ✅ PASS</a></li><li class="depth-2"><a href="#cell_2024_cancer----pass" data-for="cell_2024_cancer----pass">cell_2024_cancer - ✅ PASS</a></li><li class="depth-2"><a href="#cell_2024_singlecell----pass" data-for="cell_2024_singlecell----pass">cell_2024_singlecell - ✅ PASS</a></li><li class="depth-2"><a href="#cell_2024_ubiquitin----pass" data-for="cell_2024_ubiquitin----pass">cell_2024_ubiquitin - ✅ PASS</a></li><li class="depth-2"><a href="#nature_2024_alphafold3----pass" data-for="nature_2024_alphafold3----pass">nature_2024_alphafold3 - ✅ PASS</a></li><li class="depth-2"><a href="#science_2024_rosettafold----fail" data-for="science_2024_rosettafold----fail">science_2024_rosettafold - ❌ FAIL</a></li><li class="depth-2"><a href="#phil_european----fail" data-for="phil_european----fail">phil_european - ❌ FAIL</a></li><li class="depth-2"><a href="#phil_political----fail" data-for="phil_political----fail">phil_political - ❌ FAIL</a></li><li class="depth-2"><a href="#phil_social----fail" data-for="phil_social----fail">phil_social - ❌ FAIL</a></li><li class="depth-2"><a href="#med_lancet_hp----fail" data-for="med_lancet_hp----fail">med_lancet_hp - ❌ FAIL</a></li><li class="depth-2"><a href="#med_nejm_viagra----fail" data-for="med_nejm_viagra----fail">med_nejm_viagra - ❌ FAIL</a></li><li class="depth-2"><a href="#med_bmj_parachute----fail" data-for="med_bmj_parachute----fail">med_bmj_parachute - ❌ FAIL</a></li><li class="depth-2"><a href="#book_kuhn----pass" data-for="book_kuhn----pass">book_kuhn - ✅ PASS</a></li><li class="depth-2"><a href="#book_darwin----pass" data-for="book_darwin----pass">book_darwin - ✅ PASS</a></li><li class="depth-2"><a href="#book_feynman----pass" data-for="book_feynman----pass">book_feynman - ✅ PASS</a></li><li class="depth-2"><a href="#obscure_1893_chemistry----fail" data-for="obscure_1893_chemistry----fail">obscure_1893_chemistry - ❌ FAIL</a></li><li class="depth-2"><a href="#obscure_soviet_physics----fail" data-for="obscure_soviet_physics----fail">obscure_soviet_physics - ❌ FAIL</a></li><li class="depth-2"><a href="#obscure_german_einstein----pass" data-for="obscure_german_einstein----pass">obscure_german_einstein - ✅ PASS</a></li><li class="depth-2"><a href="#edge_url_format----pass" data-for="edge_url_format----pass">edge_url_format - ✅ PASS</a></li><li class="depth-2"><a href="#edge_messy_paste----pass" data-for="edge_messy_paste----pass">edge_messy_paste - ✅ PASS</a></li><li class="depth-2"><a href="#edge_whitespace----pass" data-for="edge_whitespace----pass">edge_whitespace - ✅ PASS</a></li><li class="depth-2"><a href="#edge_invalid_doi----fail" data-for="edge_invalid_doi----fail">edge_invalid_doi - ❌ FAIL</a></li><li class="depth-2"><a href="#edge_garbage----fail" data-for="edge_garbage----fail">edge_garbage - ❌ FAIL</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.0</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>

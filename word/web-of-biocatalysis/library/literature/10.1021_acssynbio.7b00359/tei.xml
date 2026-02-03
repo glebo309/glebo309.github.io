@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Subscriber access provided by UNIVERSITY OF TOLEDO LIBRARIES</title>
+				<funder>
+					<orgName type="full">Merck Research Labs of Merck, Sharp and Dohme</orgName>
+					<orgName type="abbreviated">MSD</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-05-22">May 22, 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+							<email>jeffrey_moore@merck.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Biocatalysis, Biochemical Engineering and Structure</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Jeffrey C. Moore</orgName>
+								<orgName type="institution">Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>RY800-C363 07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Agustina</forename><surname>Rodriguez-Granillo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Modeling and Informatics</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Crespo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Modeling and Informatics</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sridhar</forename><surname>Govindarajan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">ATUM</orgName>
+								<address>
+									<addrLine>37950 Central Court</addrLine>
+									<postCode>94560</postCode>
+									<settlement>Newark</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Welch</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">ATUM</orgName>
+								<address>
+									<addrLine>37950 Central Court</addrLine>
+									<postCode>94560</postCode>
+									<settlement>Newark</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kaori</forename><surname>Hiraga</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Protein Engineering, Biochemical Engineering and Structure</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Katrina</forename><surname>Lexa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Modeling and Informatics</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><surname>Marshall</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Protein Engineering, Biochemical Engineering and Structure</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">David</forename><surname>Truppo</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Biochemical Engineering and Structure</orgName>
+								<orgName type="institution">MRL, Merck &amp; Co., Inc</orgName>
+								<address>
+									<postBox>PO Box 2000</postBox>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Denali Therapeutics</orgName>
+								<address>
+									<addrLine>151 Oyster Point Blvd South</addrLine>
+									<postCode>94080</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Subscriber access provided by UNIVERSITY OF TOLEDO LIBRARIES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-05-22">May 22, 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7CC5C0A99F73CB1F07A35E06E11985CE</idno>
+					<idno type="DOI">10.1021/acssynbio.7b00359</idno>
+					<note type="submission">Just Accepted &quot;Just Accepted&quot; manuscripts have been peer-reviewed and accepted for publication. They are posted online prior to technical editing, formatting for publication and author proofing. The American Chemical Society provides &quot;Just Accepted&quot; as a service to the research community to expedite the dissemination of scientific material as soon as possible after acceptance. &quot;Just Accepted&quot; manuscripts appear in full in PDF format accompanied by an HTML abstract. &quot;Just Accepted&quot; manuscripts have been fully peer reviewed, but should not be considered the official version of record. They are citable by the Digital Object Identifier (DOI®). &quot;Just Accepted&quot; is an optional service offered to authors. Therefore, the &quot;Just Accepted&quot; Web site may not include all articles that will be published in the journal. After a manuscript is technically edited and formatted, it will be removed from the &quot;Just Accepted&quot; Web site and published as an ASAP article. Note that technical editing may introduce minor changes to the manuscript text and/or graphics which could affect content, and all legal disclaimers and ethical guidelines that apply to the journal pertain. ACS cannot be held responsible for errors or consequences arising from the use of information contained in these &quot;Just Accepted&quot; manuscripts.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T21:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>ACS Paragon Plus Environment ACS Synthetic Biology</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Directed evolution experiments designed to improve the activity of a biocatalyst have increased in sophistication from the early days of completely random mutagenesis. Sequence-based and structure-based methods have been developed to identify "hotspot" positions that when randomized provide a higher frequency of beneficial mutations that improve activity. These focused mutagenesis methods reduce library sizes and therefore reduce screening burden, accelerating the rate of finding improved enzymes. Looking for further acceleration in finding improved enzymes, we investigated whether two existing methods, one sequence-based (Protein GPS) and one structurebased (using Bioluminate and MOE), were sufficiently predictive to provide not just the hotspot position, but also the amino acid substitution that improved activity at that position. By limiting the libraries to variants that contained only specific amino acid substitutions, library sizes were kept to less than 100 variants. For an initial round of ATA-117 R-selective transaminase evolution, we found that the methods used produced libraries where 9% and 18% of the amino acid substitutions chosen were amino acids that improved reaction performance in lysates . The ability to create combinations of mutations as part of the initial design was confounded by the relatively large number of predicted mutations that were inactivating (30% and 45% for the sequence-based and structure-based methods respectively). Despite this, combining several mutations identified within a given method produced variant lysates 7 and 9 fold more active than the wild type lysate, highlighting the capability of mutations chosen this way to generate large advances in activity in addition to the reductions in screening. KEYWORDS directed evolution / in silico mutagenesis / R-specific transaminase ATA-117 / Bioluminate / MOE / Protein GPS ACS Paragon Plus Environment ACS Synthetic Biology 3 Directed Evolution has become a foundational technology for improving a wide variety of enzyme properties, of which activity and selectivity are the two most notable for industrial biocatalysis. The technology initiated in the early 1990s as a Nature-inspired approach to improve enzyme function through random mutation of the protein's amino acid sequence and screening for desired effect. 1</p><p>Over the intervening years, Directed Evolution has become more sophisticated, 2 such that today, several strategies exist that enable practitioners to reduce the randomness of the initial approach by making educated guesses as to the location of mutations likely to be responsible for improvement of activity or selectivity, which has been extensively reviewed. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> By limiting the random mutations to a subset of well-chosen amino acid residues (often called "hotspots") rather than the entire protein, the pool of variant sequences decreases dramatically, reducing the number of screening samples required to identify improved enzymes, giving rise to the name "small, but smart" libraries and accelerating evolution projects often limited by screening efforts. Being able to move activity and selectivity quickly in early rounds of directed evolution experiments by increasing the magnitude of improvement, decreasing the time of each round, or both is critically important to delivering on the promise of industrial biocatalysis. 9 When the method for mutation selection is well suited to the desired property improvement, such as the FRESCO method for stability, large changes in performance can be made in extremely small libraries. <ref type="bibr" target="#b9">10</ref> The strategies for generating small, but smart libraries for improved activity focus generally on two fundamental approaches to identify hotspots. The first uses the large collections of sequence information in enzyme sequence databases to identify and catalog natural diversity under the presumption that natural evolution has sampled a significant amount of mutation space and identified the critical residues, their key interactions with substrates and each other, and that the prediction of hotspots can be inferred from an analysis of these data. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> The second approach uses 3-dimensional protein structural information combined with an understanding of the substrate, transition state or product binding within the enzyme active site to identify residues likely to control reaction progress. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b12">13</ref> A recent advancement highlights the combination of tools from both ACS Paragon Plus Environment ACS Synthetic Biology 25 distibution anlaysis of mutations; recombination methodology for generating round 2 sequences; round 2 screening results and deconvolution of mutations; evaluation of sequence and structure method orthogonality.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="31" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="32" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="33" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="34" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="35" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="36" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="37" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="38" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>strategies into a single software package, which should generate more accurate predictions of hotspots in the future. <ref type="bibr" target="#b13">14</ref> With few exceptions, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> small, but smart Directed Evolution experiments have relied on sitesaturation mutagenesis as a "site directed, randomized substitution" approach to incorporate random diversity at the hotspot positions chosen and screened to identify the best substitution for the chosen position. A number of degenerate codon sets have also been developed to limit bias and control redundancy in the genetic code and in some cases to reduce the overall amino acids sampled to keep screening effort to a minimum. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b10">11</ref> These and other strategies for generating "small, but smart" libraries narrow search space for improved variants from many thousands to several hundreds of variants screened. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> Although the reduced degree of randomness in the pool of variants construction limits the screening burden, it still creates theoretically unnecessary screening.</p><p>Screening could be maximally accelerated if the correct amino acid substitution could also be inferred from the hotspot analysis. We were interested in understanding how close current methodologies are to correctly identifying valuable amino acid substitutions in addition to hotspot position.</p><p>Small, but smart libraries were used in what was then (circa 2008) the state-of-the-art directed evolution effort of a transaminase to synthesize sitagliptin, including the initial round of substrate walking that was designed to bridge the substrate scope of the (R)-selective transaminase ATA-117 with the desired sitagliptin molecule. <ref type="bibr" target="#b20">21</ref> This initial round screened for activity improvements against a truncated ketone analog of sitagliptin (1-(3-(trifluoromethyl)-5,6-dihydro- [1,2,4]triazolo [4,3-a]pyrazin-7(8H)-yl)butane-1,3-dione, abbreviated THTP-BDO, Scheme 1) and examined site-SCHEME 1 saturation mutagenesis to randomize the amino acids at 12 positions, resulting in the identification 8 positions where at least 1 amino acid substitution improved reaction rate. Since this work was done, predictive tools have improved with continued development of sequence alignment analyses (3DM, ATUM (formerly DNA2.0), HotSpot Wizard) alongside the expansion of sequences in the databases, and with improved structural computational capabilities.</p><p>Here we re-investigated this initial round of sitagliptin evolution using "site directed, specific substitution" capabilities by examining two existing hotspot prediction methodologies representative of the sequence-based and structurally-based strategies that also provide amino acid substitution predictions and testing whether the predicted substitutions improve the activity of the enzyme. We evaluated both total and specific activity of variant sequences to validate the predictions and to maximally move the activity of the catalyst produced. At this early stage of an evolution effort, moving the activity forward is paramount, and as a result activity improvements from a variety of mechanisms (expression, stability if it improves activity, reduced inhibition, etc) are valuable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS &amp; DISCUSSION</head><p>The sequence-based strategy used multiple sequence alignments of 1250 homologues of the ATA-117 gene to identify ~1900 natural variations as diversity potentially useful for substitution. Using ATUM's Protein GPS Engineering technology as described in the Methods section, 66 unique mutations (Table <ref type="table" target="#tab_6">4</ref>, Methods Section) were prioritized for evaluation and arranged into 95 sequences. One of the advantages of this small library approach is that the relatively few number of samples allows for more detailed data collection to provide higher quality data overall. In this case, it allowed for quantitation of enzyme expression in each lysate, providing information on a significant source of variability and enabling access to higher quality specific activity data. Under the screening conditions where the substrate concentration is much less than the K M , the specific activity data is a scaled measurement of an apparent catalytic efficiency (k cat /K M ) app for this reaction. This sequence-based Round 1 (R1) library was arranged with 3 mutations per sequence (allowing each mutation to be observed in 5 different variants, SI-Table <ref type="table" target="#tab_0">S1</ref>) under the premise that the prescreening of these mutations in homologous sequences in Nature would provide a high degree of tolerability in the resulting variant set. Screening this sequenced-based R1 library (SI-Figure <ref type="figure" target="#fig_8">S1A</ref>) identified 3 lysates with more activity than the wild type lysate, including the best variant comprised of mutations I84L, F122Y and S223P that was 4.6 fold improved in total activity, 3.9 fold improved in specific activity and 1.2 fold improved in expression (Figure <ref type="figure" target="#fig_8">S1B</ref>, Table <ref type="table">S2</ref>). Twelve additional variants had specific activities between 1.2-fold and 2.2 fold improved relative to wild type, although expression of these variants was sufficiently poor that total activity was reduced relative to the wild type lysate.</p><p>The premise that the pre-screening of substitutions in Nature would provide a majority of well tolerated substitutions and ensure reasonable activity in the collection did not hold for this library. This is a direct result of having every mutation seen in 5 variants -if a given mutation is deleterious, 5 inactive variants are expected. Sixty-three of the 95 variant sequences displayed activity below the threshold of detection and were deemed inactive. Of these, 39 sequences had low expression, with levels 0-10% of the wild type transaminase as measured by gel electrophoresis (SI-FIGURE <ref type="figure" target="#fig_8">S1B</ref>).</p><p>When further examined, 20 substitutions (~30%) were not present in any active sequence; these were presumed responsible for inactivating the variant sequences. Unfortunately, the small number of sequences with measurable activity (32) relative to the number of mutations introduced (66) made deconvolution of the impact of individual mutations unfeasible.</p><p>To fully evaluate the original amino acid analysis, 26 mutations responsible for inactive or nonexpressing variants were dropped from the original 66, and the remaining 40 mutations were rearrayed in 95 sequences at 2-6 substitutions per sequence (sequence-based R2). No new mutations were introduced in the sequence-based R2. The resynthesis of the genes in this collection also allowed for a re-weighting of mutations, such that mutations appearing in the three sequences that produced more activity than wild type in R1 were more heavily weighted in this second library, appearing in more than 10 sequences each (SI-Table <ref type="table" target="#tab_4">S3</ref>). <ref type="bibr" target="#b21">22</ref> This library did not attempt to compile any clones that combined only the best mutations from R1, but modulated the frequencies of amino-acid changes seen in the library to provide an overall improved library. This R2 library performed much better than the original (Figure <ref type="figure" target="#fig_8">1A</ref>), with only 17 sequences (vs. 63 in the first case)</p><p>showing non-detectable activity, and no mutations showing up only in inactive sequences. Not FIGURE <ref type="figure" target="#fig_1">1</ref> surprisingly, a large proportion of sequences have specific activities greater than wild type because the mutation(s) responsible for the improved variants in the first round were incorporated into more sequences. Although this round has greater scatter in protein expression (Figure <ref type="figure" target="#fig_8">1B</ref>), this had little effect on the ranking of activities as the top 5 variants in total and specific activity were identical, with only a slight rank ordering difference between them (Table <ref type="table" target="#tab_6">S4</ref>). Two improved variants have activities above the R1 best variant; the first at 4.7 fold improved specific activity containing all three mutations from the R1 variant (I84L, F122Y and S223P) and additionally A91C, A114R, and V125L, and the second at 4.5 fold improved specific activity containing two mutations from the R1 variant (F122Y, S223P), and the two additional mutations Y60F and V235L. Both of these variants additionally benefit from improvements in expression, providing another 1.5 fold improvement over the wild type lysate activity.</p><p>If we assume that the effects of each mutation are additive, a mathematical model can quickly determine the impact of each individual mutation (the calculation details are given in the SI and results are shown in Figure <ref type="figure" target="#fig_3">2</ref>). Deconvolution of the sequence-based R2 total activity data (Figure <ref type="figure" target="#fig_3">2</ref>, black bars) indicated that 6 mutations of the original 66 are greater than 20% improved over wild FIGURE <ref type="figure" target="#fig_3">2</ref> type, corresponding to 9% (1 in 11) of the original library. The mutations in order of degree of improvement are: S223P, F122Y, Y60F, T282S, V69G and A91C. Similar deconvolution of the specific activity (Figure <ref type="figure" target="#fig_3">2</ref>, white bars) identified the same residues, and in addition highlighted 3 more: V227I, V278I and C281T. Although V278I and C281T were the 3 rd and 4 th best specific activity substitutions according to the deconvolution, they did not appear in any improved sequences. They also have the largest difference between low total activity and high specific activity, suggesting that these residues have significant negative impact on enzyme expression, and might need to be installed in a construct that is already highly expressed. These are mutations that would be revisited in future rounds of evolution.</p><p>The structure-based substitutions were identified in silico by making every possible single amino acid substitution in an enzyme crystal structure containing the docked PLP aldimine intermediate (Figure <ref type="figure" target="#fig_4">3</ref>), followed by ranking based on stability and binding free energy scores using both Bioluminate and FIGURE <ref type="figure" target="#fig_4">3</ref> MOE computational programs as described in the Methods section. The enzyme is known to be (R)selective, and the aldimine intermediate allowed the modeling of the correct chirality in the enzyme active site. We believed the catalytic machinery of the transaminase was sufficiently active on preferred substrates based on previous use of ATA-117, <ref type="bibr" target="#b22">23</ref> and that the THTP-BDO substrate simply did not fit well in the active site and was therefore poorly accepted. Thus, optimizing intermediate binding should be a reasonable predictor of activity improvement, justifying the use of binding free energy score calculations to predict improvement. We also reasoned new mutations should not destabilize the enzyme structure, which justified using improvements in stability scores to rank variants. All substitutions chosen were calculated to be improved in both binding free energy and in stability (SI-Figure <ref type="figure" target="#fig_9">2a</ref>,<ref type="figure">b</ref>). Because a large number of predicted substitutions occupied the improved binding and improved stability space (SI-Figure <ref type="figure" target="#fig_9">2c</ref>,<ref type="figure">d</ref>), we chose to sample two groups of mutations for improved activity: those that ranked highest in binding energy and those that ranked highest in stability. In addition, preferential treatment was given to residues within 5Å of the substrate, making sure that at least one amino acid substitution was represented at each of these residues.</p><p>The 93 mutations selected comprising structure-based R1 and the summary of their selection are shown in Table <ref type="table" target="#tab_6">4</ref> (Methods section); the screening results are shown in Figure <ref type="figure" target="#fig_11">4a</ref>. FIGURE 4   In this single mutation library, 17 of 93 lysates demonstrated greater than 20% improvement over the wild type lysate (18%, or 1 in 5.5); 15 of 93 variants met this criteria for improved specific activity (Table <ref type="table" target="#tab_0">1</ref>). H62Y and F122Y were the top two variants in both specific activity (5.7 and 1.8 fold improved respectively) and in total lysate activity (5.3 and 2.2 fold improved respectively). Keeping the library as single substitution sequences proved a correct choice as 42 single mutations (45%) were below the limit of detection in the assay and were deemed inactive, although only a few variants were poorly expressed (10 variants with levels 0-10% of WT, Figure <ref type="figure" target="#fig_12">5b</ref>).</p><p>In addition to the fold improvement, Table <ref type="table" target="#tab_0">1</ref> also highlights from which program and score mutation selections were derived. Comparing the structure-based R1 library (SI-Figure <ref type="figure" target="#fig_10">S3</ref>), Bioluminate significantly outperforms MOE in the use of improved binding free energy and improved stability to Improvement Variant Total Activity Specific Activity Expresssion Program Score H62Y* 5.33 5.67 0.94 MOE Active Site/Binding F122Y* 2.21 1.81 1.22 MOE Active Site Q155Y 1.15 1.79 0.64 MOE Active Site P135Q 1.23 1.75 0.71 Bioluminate Stability E42T 0.43 1.68 0.26 Bioluminate Binding T13H* 1.25 1.53 0.82 Bioluminate Binding D274I 0.60 1.42 0.42 Bioluminate Binding Q146R 0.64 1.41 0.45 Bioluminate Binding E85R 1.29 1.40 0.92 Bioluminate Stability A169M* 1.55 1.37 1.13 Bioluminate Stability S49Y 1.22 1.31 0.93 Bioluminate Stability F190Y* 1.71 1.25 1.37 MOE Active Site E92R 1.26 1.24 1.01 Bioluminate Binding I10P 0.95 1.23 0.77 Bioluminate Stability L61M 0.73 1.22 0.60 Bioluminate Binding G136N* 1.59 1.18 1.35 Bioluminate Binding T13R* 1.34 1.11 1.21 Bioluminate Stability E256R 1.33 1.06 1.25 Bioluminate Stability G136R* 1.34 1.02 1.31 Bioluminate Binding G239H 1.22 0.93 1.31 Bioluminate Binding A209H 1.32 0.89 1.49 Bioluminate Stability I196R 1.27 0.86 1.48 Bioluminate Stability G136Y* 1.23 0.72 1.70 Bioluminate/MOE Stability predict improvements in overall catalytic activity. Twenty of the 60 variants (33.3%) selected by Bioluminate's calculations were more active than wild type (9 of 34 or 26% of variants improved from binding free energy and 11 of 21 or 52% improved from stability group) compared with 2 of 29 for MOE. Additionally, 79% of MOE predicted variants in the binding energy and stability categories were completely inactive compared with 27% of Bioluminate's. However, MOE was markedly better than Bioluminate for active site residue substitution, with 4 of 8 or 50% amino acid substitutions</p><p>generating more active variants compared to 0 of 8 improved variants from Bioluminate. In addition, the MOE active site collection contained the top 3 mutations found overall. This underscores the importance of selecting active site mutations regardless of their relative scores with respect to the entire collection of possible mutations.</p><p>The evaluation of the computationally derived mutations was completed by confirming that the single mutations identified in the structure-based R1 library would successfully work in combination.</p><p>Therefore, the top 6 positions containing the top 7 substitutions plus 2 additional substitutions (improved variants at same 6 positions, highlighted with a * in Table <ref type="table" target="#tab_0">1</ref>) were combined in a PCRbased synthesis of all 192 possible combinations of mutations, followed by pooling the resulting DNA, cloning, transformation and plating. Seven 96 well plates were picked from the transformants and screened. The 30 variants showing 1.5x or more improvement relative to the H62Y parent from each plate were collected into one plate (structure-based R2), sequenced and rescreened in triplicate using the WT as reference (SI-Figure <ref type="figure" target="#fig_11">S4</ref>, sequences in Table <ref type="table">S6</ref>). The best resulting variant lysate was 9-fold improved in total activity and contained 3 mutations (T13R/H62Y/F122Y).</p><p>Deconvolution of these data is provided in SI-Figure <ref type="figure" target="#fig_12">S5</ref>. Interestingly, when arrayed in combination H62Y is still the most improved mutation, but F122Y and F190Y are no longer second and third.</p><p>T13R is a better performer than T13H and as expected, both are preferred to the wild type amino acid. However, the mutations of G136 have completely inverted in order of improvement, with G136Y being the best and G136N providing a slight negative contribution to activity.</p><p>The best variants along both evolution paths were scaled up and kinetically characterized both in lysates and in purified form in order to understand the nature of the improvements. The solubility of the substrate in the reaction system was approximately 100 mM, which is well below the apparent K M of the wild type enzyme, making accurate predictions of discrete values for both k cat and K M scientifically unsound, and as a result only the catalytic efficiency (k cat /K M ) is generally reported. The lysates were prepared using the same chemical lysis method as the screening samples and transaminase protein content measured by densitometry of stained SDS-PAGE gels. The lysate data from the scaled-up fermentations agrees generally with the fold improvement trends in the original screening data (Table <ref type="table">2</ref>), although the wild type enzyme was less active, resulting in larger</p><p>Table 2. Kinetic Analysis of Lysates and Purified Enzyme Variants Lysate Purified Enzyme k cat (s -1 ) K M (M) (k cat /K M ) app FIOWT k cat (s -1 ) K M (M) k cat /K M FIOWT wt 0.19 1.00 1.01 1.00 Seq-R1:S1 1.26 6.70 1.15 1.14 Seq-R2:S2 1.91 10.1 1.70 1.69 Seq-R2:S1 1.51 8.03 1.10 1.08 Struct-R1:S2 0.36 1.92 0.51 0.51 Struct-R1:S1 0.11 0.043 2.57 13.6 1.48 1.46 Struct-R2:S1 0.24 0.046 5.17 27.4 0.33 0.1 3.29 3.26</p><p>than expected fold improvements. The purified enzyme variants were created using a mechanical lysis method and then chromatographed to &gt;90% purity. The catalytic efficiencies between the pairs of lysate and purified protein samples are generally in good agreement except for the purified wild type enzyme, which is 5.4 fold more active than expected based on the lysate data. Repeating the lysate preparations and purifications reproduced this result. Mechanically lysed wild type cultures were not similarly negatively affected in lysate form, suggesting that a chemical lysis component might be responsible for the wild type enzyme inactivation. Diluting the purified wild type enzyme in the lysis solution, as well as in solutions of each potentially inhibiting component (PMSF, EDTA, 0.1% deoxycholate, buffers, lysozyme) independently had negligible effect on the purified enzyme activity (except for the 0.1% deoxycholate, which reduced all variant activites by ~50%). Diluting purified enzyme in negative control (no expressed enzyme) lysate and in the poorly active wild type lysate also had negligible effect. Additionally, little to no change in thermal stability between the purified enzyme samples was seen. Taken together, this suggests that the chemical lysis method indirectly inactivated or inhibited the wild type enzyme, perhaps by liberating inhibiting components from the E. coli host that were not seen in the mechanical lysis method or by interfering with the dimerization maturation process required to develop active enzyme.</p><p>Regardless of the mechanism, the loss of activity because of the chemical lysis is improved by evolution. The sequence-based R1 library generated one variant with significantly improved activity in lysate. The mutations in this variant were partially re-assorted into the R2 library, and the resulting sequences with those mutations (F122Y or S223P) comprised 30 of the 34 positive sequences (Table <ref type="table" target="#tab_6">S4</ref>). Thus the beneficial mutations discovered in round 1 led to a heritable improvement in population performance in round 2, despite the fact that the catalytic efficiency of the purified enzyme (Seq-R1:S1, I84L_F122Y_S223P) is improved over the wild type enzyme only slightly (1.14 fold). Additionally when purified, a second of the sequence-based variants (Seq-R2:S1: I84L_A91C_A114R_F122Y_V125L_S223P) has similar catalytic efficiency compared to the wild type (1.08 fold), but much larger apparent catalytic efficiency than wild type in lysate (8 fold), further illustrating specific targeting of inhibition by key mutations. As a result, the course of the evolution and the impact of the mutations are best understood from the context of the apparent catalytic efficiency in lysates, and the corresponding specific activity fold improvements in the screening data.</p><p>Addressing systemic improvements is no less important to the overall success of an evolution programs than catalytic efficiency improvements. Chemical lysis methods are the primary approach to lysing even small libraries of variants in a parallel manner. Improvements that increase activity in the screening lysate allow for the necessary increasing of screening pressure toward the desired reaction in subsequent rounds in exactly the same manner that kinetic improvements do. As an example, the previous sitagliptin work on this substrate and using this wild type enzyme reported that the mutation S223P also found in these lysate-only improvements was responsible for a similar 12-fold improvement using chemically lysed cultures. More importantly, the next round of evolution, which involved switching substrates to the more demanding pro-sitagliptin ketone, could not be advanced without the S223P mutation due to lack of activity. <ref type="bibr" target="#b20">21</ref> In addition to the variants whose effects are primarily seen in the lysate screening, one of the two top variants from the sequence-based round 2 (the Seq-R2:S2 variant) contained a 1.69-fold increase in catalytic efficiency in addition to a full recovery of the activity lost by the wild type enzyme in the lysate. The structure-based libraries also demonstrated significantly improved catalytic efficiency, with R1 and R2 variants improving catalytic efficiency 1.46 and 3.26 fold respectively. The greater improvements in catalyic efficiency of these variants might be a direct result of the structural focus on substrate-enzyme interaction in the mutation design. These variants improved substrate binding sufficiently that k cat and K M values could be estimated.</p><p>The mutations from both methods were mapped onto the 3D structure of the protein. Most mutations from the sequence-based method address the inhibition of activity in the lysate. Of these, 4 are in the active site (S223P and F122Y as the two most significant, and V69G and T282S), A91C is in the core of the protein, and Y60F is located in the dimer interface likely improving interactions between the two monomers (Figure <ref type="figure" target="#fig_6">5</ref>). Of those in the active site, S223P and T282S are FIGURE <ref type="figure" target="#fig_6">5</ref> located in a loop and turn adjacent to the PLP cofactor and help structure the cofactor binding site;</p><p>F122Y is expected to interact with the contents of the active site; and V69G creates additional space for substrates (Figure <ref type="figure" target="#fig_12">5b</ref>). Four mutations of the 66 in the entire library were located in positions that model as interacting with the substrate (V69G, V69T, F122Y, F190L); 2 of these (50%) were identified as more active in lysates.</p><p>The mutations in more active variants (FIO WT &gt; 1.2; Table <ref type="table" target="#tab_0">1</ref>) identified with the structure-based design are mostly located in the active site or on the surface of the protein (Figure <ref type="figure" target="#fig_12">5c</ref>). The top active mutants (H62Y, F122Y, F190Y, G136N/R/Y and P135Q) correspond to first shell positions within the active site, participating in direct contacts with the substrate. In the structural models, H62Y improves the contacts with the CF 3 group consistent with its improvement of K M , whereas G136N/R and P135Q donate a HB to the N of the triazole ring (Figure <ref type="figure" target="#fig_10">3d</ref>). Mutations of G136 are known to exert conformation control over a substrate determining loop from residues 129 to 145. <ref type="bibr" target="#b23">24</ref> Of 6 active mutations on the surface of the protein (T13R, E256R, E85R, E92R, G239H, S49Y), 4 are to Arg and 3 of these are making a salt bridge with nearby Asp or Glu residues in the structural models.</p><p>A169M improves the packing of the hydrophobic core, A209H in the second shell of the active site donates a HB to a nearby backbone O, whereas I196R is located in the dimer interface and engages in a salt bridge with an Asp residue from the other monomer.</p><p>The ATA-117 transaminase enzyme that we chose to evolve in this evaluation is 330 amino acids long. This corresponds to 330 positions for 19 amino acid substitutions for a total of 6270 possible single amino acid substitutions. To screen this library completely assuming a randomization step would require in excess of 10,000 samples. By reducing the positions for mutation by 10-fold through rational means and randomizing each position (33 positions x 19 possible substitutions = 627) reduces the screening burden 10-fold to on the order of 1,000 samples. Here we evaluated whether two standard methods for making predictions about position and amino acid substitution were sufficiently advanced to provide significant improvement to transaminase activity in lysates against a non-natural substrate, while at the same time limiting the number of mutations evaluated and therefore limiting the screening burden of the evolution effort an additional order of magnitude to less than 100 samples for each library. Table <ref type="table" target="#tab_4">3</ref> summarizes a comparison of the results. Both positive residues underlined)</p><p>I84L, A91C, A14R, F122Y, V125L, S223P T13R, H62Y, F122Y methods significantly reduce the number of mutations made and the corresponding screening burden. The sequence specific method was capped at about 1% of the overall possible mutations made, while the computational method was designed to fill 1 entire 96-well plate (1.5% of the possible mutations).</p><p>Despite the orthogonality of the two different methods (SI-Figure <ref type="figure">S6</ref>), they both were successful at identifying positive variants at high frequency, making the two methods highly complementary. The sequence-based prediction method generated amino acid substitutions more active than wild type in 9% of the amino acids selected. The structure-based method provided positive amino acid substitutions in 18% of predicuted mutations. Each method identified 2 amino acid substitutions that resulted in &gt; 2-fold improvement in activity under the reaction conditions (S223P and F122Y; and H62Y and F122Y for the sequence-and structure-based R1 libraries, respectively). Two-fold improvements are the typical benchmark improvement seen historically per round of directed evolution experiments, although early in evolution programs such as in this experiment, larger jumps in activity per successful mutation are seen. In this effort, the best mutations in each case are 2.4-fold and 5.6-fold improved. Both libraries identified the substitution F122Y as the second of the &gt; 2 fold improved mutations, and this was the only mutation overlap between the two methods.</p><p>During the first round of the sitagliptin evolution on this same substrate, 8 mutations were identified. <ref type="bibr" target="#b20">21</ref> Four of those 8 mutations were identified by the two libraries designed here, including 3 of the top 5. Mutations at position 122, such as F122Y were not identified in the original sitagliptin evolution as that work focused significantly on the large binding pocket. Mutations at position 122 were found as part of opening up the small binding pocket to fit the entire sitagliptin molecule. However, 7 new positive activity positions were identified in these two libraries that have not been previously seen, including mutations at position T13, such as T13R that contributes 1.85 fold improvement in total activity to the most improved variant resulting from structure-based R2.</p><p>The frequencies of positive mutations at 9 and 18% are sufficiently high enough to incorporate multiple mutations per sequence in order to accelerate evolution progress. In fact, the 9% positive mutation frequency from the original library was sufficient to locate the best double point mutant (F122Y, S223P) in the initial screening despite the high number of inactivating mutations. Finding a few "double point mutants" is likely in this screening scenario as the likelihood of finding any 2 positive mutations in each 3 mutation sequence is 2.3%, 1 although this falls to 1.5% 2 when incorporating the effects of a potential inactivating mutation as seen in the original library. Additionally, given these underlying positive mutation frequencies and assuming a library where every triple mutant could be made, triple mutants consisting of 3 positive mutations would be expected to occur between 1 in every 164 (0.183 3 ) to 1 in every 1330 (0.091 3 ) which is easily within reach of a more conventional screening paradigm where larger sampling is allowed. These double and triple mutant scenarios highlight the main advantage of being able to predict with greater <ref type="bibr" target="#b0">1</ref> This is calculated as the combination of ways 2 mutations can be arrayed within 3 positions times the probability of a positive (P mut ) or non-positive mutation (P no mut ) at each position, i.e. 3 C 2 • P mut • P mut • P no mut = 3 x 0.091 x 0.091 x 0.909 = 0.0226, or 2.3%. <ref type="bibr" target="#b1">2</ref> As before, except positive sequences arise only when P no mut is not inactivating (inactivating mutations were 30% of the original library), i.e. 3 C 2 • P mut • P mut • (P no mut -P inact mut ) = 3 x 0.091 x 0.091 x (0.909 -0.30) = 0.0151, or 1.5%. accuracy "site directed, specific substitutions" -the ability to compile multiple mutations in single sequences in a single round of evolution with the intent to move the evolution along faster than a single positive mutation each round. To further underscore this point, the two 'second round' libraries constructed with higher frequencies of positive mutations and with inactivating mutations removed each successfully combine three positive mutations derived from their respective initial libraries to produce 7-and 9-fold more active variant lysates.</p><p>To make this multiple mutation per sequence approach a strategy that moves evolution programs to rapid successful conclusions without additional recombination steps, the successful mutations need to be as prevalent as the non-successful ones, so that accumulating mutations occur as often or more often than they are omitted, requiring a hit rate of 50% or greater. This represents a 2.7 fold improvement in the structure-based predictions and a 5.5 fold improvement in the sequence-based hit rate over the predictions seen here. A suggestion of this level of improvement exists in this data set already as the active site predictions made by the sequence-based method and MOE in the structure-based method were beneficial in improving activity in 2 of 4 (50%) and 4 of 8 (50%) amino acid substitutions, respectively. Further, Bioluminate predictions using the binding free energy and stability changes were improved in activity in 20 of 55 mutations, including 11 improved actives in 21 predictions (52%) that utilized the stability scoring function. This warrants additional investigation in the future to understand whether these are general phenomena, or whether they are specific to this example.</p><p>The prediction of mutations that improve activity are not yet as successful as those that improve stability. As a comparison to this work, a study that examined predictive methods for improving the stability of an α/β-hydrolase enzyme to temperature and to urea found that the sequence-based methods employed successfully predicted 15/19 (79%) stabilizing mutations, while the computational methods were successful in 13/28 (46%) of predictions; each mutation averaged 2.6 fold improvement in stability. <ref type="bibr" target="#b24">25</ref> Further, a round of recombination of 26 positive mutations at 24 positions produced several variants containing between 7-19 substitutions, each greater than 40fold more stable than wild type. At the 79% positive prediction frequency, screening sequences containing 10 mutations each from the outset should produce sequences where 1 in every 10 sequences contain only beneficial mutations. These sequences should readily produce stabilities approaching 20-40-fold improvements within 100-200 variants screened in a single evolution experiment -exactly the rapid evolution result desired.</p><p>The naturally pre-screened substitutions lead to an expectation of a low frequency of inactivating mutations. This was not true in the sequence-based prediction in this case (sequence-based R1 library) and serves to highlight the detrimental impact of the inactivating mutations. A 9% beneficial mutation success frequency suggests that 25% of the sequences should contain at least one beneficial mutation, <ref type="bibr" target="#b2">3</ref> and 2.3% should contain 2 (see footnote 1). The high inactivation frequency of 30% eliminated many of the improved sequences from consideration, leaving only 3 sequences improved in activity relative to wild type in the initial round -2 single amino acid improvements, and the double mutation described above. This also made the deconvolution of mutations impossible to solve as the number of equations (non-zero screening data) dropped below the number of unknowns (mutations). The structure-based library's inactivation frequency is much worse at 45%, requiring larger additional improvements in inactivating mutation elimination in order to produce these mutations in combination. Under the circumstances where the number of detrimental changes is high, creating additional constructs in R2 that eliminated detrimental mutations and screening an additional ~100 variants provided an improved library despite keeping the number of variants screened fewer than 200. Combining the orthogonal approaches in R2 could lead to better libraries, screening fewer variants and providing more improved variants.</p><p>Improvements in the sequence-based predictions might come from the increasing numbers of sequences filling the databases and in refinements to the analysis of selection methods. An exciting new tool from Bio-Prodict called CorNet deduced not just variable positions, but also the residues that co-vary in a correlated network indicated for enantioselectivity within the α/β-hydrolase family. <ref type="bibr" target="#b25">26</ref> Variants from within this pool were improved relative to wild type in enantioselectivity at a frequency of 17%, about twice as often as seen here for activity. Structure-based predictions would certainly be improved with bound substrate crystal structures rather than docked substrates, and possibly be improved with more computationally demanding methods described in the literature.</p><p>Molecular Dynamics (MD) simulations have been used to filter out beneficial mutations from high throughput in silico screens for enzyme activity or selectivity. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b26">27</ref> In these cases, MD simulations were shown to increase the chance of successfully combining beneficial mutations, and thus appear as the next logical step to incorporate into current enzyme design workflows. MD simulations followed by an MMGBSA calculation of an ensemble of structures, as has been previously employed for a related transaminase in silico mutagenesis study, <ref type="bibr" target="#b27">28</ref> would be able to more accurately capture the effect of mutations that induce significant conformational changes. Additionally, Free Energy Perturbation 29 is another promising method to interrogate changes in stability <ref type="bibr" target="#b29">30</ref> and substrate binding free energy for individual and combinatorial mutations. Finally, by optimizing for substrate binding only, enzyme turnover rate (k cat ) has not been considered, which will contribute to the overall efficiency of the enzyme. To this end, each transition state of the multi-step reaction would need to be optimized using QM/MM hybrid methods to estimate the activation barriers for each mutant (good reviews in <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> ). To our knowledge, these have not been evaluated in high throughput with thousands of variants because of the computational cost of these calculations. With the continuous improvements in force fields and computational power, these methodologies will likely be incorporated into the enzyme design workflows in the near future.</p><p>As the science behind the mutation identification predictions improves, and as importantly, the understanding and reduction in the frequency of inactivating mutations also improves, the number of simultaneous positive mutations incorporated into newly designed sequences can increase, enabling larger jumps in activity performance. A 3-5 fold improvement in predictive power in both the positive variants and in the control of inactivating mutations would fully enable this predictive combination approach as a primary strategy for directed evolution efforts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The ultimate solution to the directed evolution improvement of an enzyme with some initial activity on a non-natural, industrially-relevant substrate should be to examine sources of mutational diversity and through some scientific algorithm, simply re-write the amino acid sequence with the new substitutions that will render the enzyme suitably effective -screening one or at most a few variants for confirmation of the desired activity. While this goal appears impossible, great strides have already been made in this direction. Starting from the Nature-inspired technique of random mutagenesis and screening of 10,000 variants, many scientists have moved to smart libraries that identify smaller subsets of amino acid positions that are randomly mutated ("site directed, random substitutions") that reduce the screening burden to the order of 1,000 variants. Here we scouted the next advance -we examined two existing methods for determining "site directed, specific substitutions" that successfully identified mutations that improve the ATA-117 transaminase's activity on a non-natural substrate, each while examining on the order of 100 variants. The two orthogonal methods, one based on the evaluation of sequence alignments and the other on structure-based in silico prediction provided hit rates of 1 positive variant for every 11 and 5.5 mutations predicted, respectively. These frequencies are already valuable from a directed evolution perspective, rapidly enabling 7-and 9-fold improvements in transaminase activity by taking advantage of recombination strategies. Additionally, subsets of the structure-based in silico prediction data reached 1 positive variant in every 2 sequences. By combining these two enzyme design approaches, the orthogonal diversity generated here could potentially serve as a way to accelerate an evolution campaign by limiting the number of variants to screen in each round and by reducing the number of rounds necessary to achieve a desired fold improvement. Improving the predictive science of both methods through better analysis of sequence information and improved computational techniques should lead to significant improvements in evolving enzyme activity in a small number of screening samples, and very large improvements in single rounds of evolution when traditional screening efforts are applied.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>A sequence-based library consisting of 95 variant sequences and one wild type control was designed by ATUM through their proprietary Protein GPS Engineering technology (sequence-based R1), similar to the imagabalin transaminase effort. <ref type="bibr" target="#b33">34</ref> This method relies on sequence alignments from a large collection of homologues and their own algorithms to identify specific amino acid substitutions to investigate. <ref type="bibr" target="#b17">18</ref> In brief, multiple sequence alignments of 1250 homologues were performed to identify natural diversity as pre-vetted accepted mutations. An analysis of the mutations in conjunction with the associated pattern of site-specific and branch-specific variations was performed using a phylogenetic tree generated from the alignment, as previously described in detail, <ref type="bibr" target="#b34">35</ref> resulting in a numerical scoring of each observed mutation related to its acceptability in the sequence. All possible substitutions (~1900 in this case) seen in the alignment were ranked ordered and a set of 250 were identified as candidate mutations for the directed evolution process. The 66 highest ranking mutations were selected for evaluation in Round 1 (Table <ref type="table" target="#tab_6">4</ref>). Because of the conservative nature of these mutations, 3 substitutions were evaluated simultaneously in each sequence. Substitutions were grouped such that each mutation was seen 5 times in the collection of 95 variants, each time with a different context of partnered substitutions. <ref type="bibr" target="#b21">22</ref> Thus, all substitutions are equally represented in the designed variants with no random mutations. From this design ATUM then created the DNA sequences, expressed the enzyme variants and produced clarified lysates, <ref type="bibr" target="#b35">36</ref> which were then screened on THTP-BDO and analyzed as described below.</p><p>Each of the constructs made was used to transform E. coli strain BL21(DE3) (Agilent). Transformants were selected on LB agar with 30mg/L kanamycin at 37 º C. Transformants were picked to 0.5 mL LB medium containing 30mg/L kanamycin and cultures were incubated with shaking for 16h at 37 º C.</p><p>Ten microliters of each culture were used to inoculate 0.5mL of fresh LB media containing 30mg/L kanamycin and the resulting cultures were incubated at 37 º C with shaking until OD of 0.6 at 600nm. For purification, cells were resuspended in buffer (25 mM Bis-Tris pH 6.5, 300 mM NaCl) and lysed by sonication. Cell debris was discarded by centrifugation, and the supernatant was loaded onto a HiTrap Q HP column (GE Healthcare Lifescience). The resin was washed with buffer, then proteins were eluted with NaCl using a 10 column volume linear gradient. The transaminase frations were collected, desalted into phosphate buffered saline (PBS) using PD-10 spin columns. SDS-PAGE or capillary electrophoresis (Perkin Elmer GXII) confirmed that the protein was &gt;90% pure, and finally enzyme concentration was determined by A 280 (Nanodrop).</p><p>E. coli lysates were screened using the reaction system in Scheme 1 described previously such that all reagents other than the transaminase were supplied in significant excess. <ref type="bibr" target="#b22">23</ref> Ketone and amine standards were made as described previously. <ref type="bibr" target="#b20">21</ref> The final concentration of all added reaction components were 0.38 mM nicotinamide adenine dinucleotide (NAD), 2 mM pyridoxal-5-phosphate (PLP), 0.15 mg/ml lactate dehydrogenase-101, 0.5 mg/ml glucose dehydrogenase-105, 0.6 M Dalanine, 0.3 M glucose, 5 vol% methanol and 18 mM substrate in 0.1 M phosphate buffer. Reactions were run at pH 7.5 overnight. Lysate concentrations were 40 vol% in round 1 screens and 20 vol% in round 2 screens. The samples were evaluated on a Waters UPLC using an Atlantis T3 column run isocratically at 95% solution A (0.05% trifluoroacetic acid -TFA) and 5% solution B (acetonitrile with 0.05% TFA) over 2 minutes, followed by a 95% B wash for 0.3 minutes. The amine eluted at 1.26 minutes and the ketone at 1.49 minutes.</p><p>A second library was constructed using a structure-based approach (structure-based R1). To generate all possible single-point mutations computationally, we first docked the PLP-aldimine intermediate of THTP-BDO (Figure <ref type="figure" target="#fig_5">4</ref>) into the wild-type cofactor-bound structure (3WWH.pdb) <ref type="bibr" target="#b23">24</ref> using Glide (Schrödinger Release 2015-1: Glide, Schrödinger, LLC, New York, NY, 2015). We then performed a full residue scan (i.e. mutating each amino acid to all others) and calculated both the change in ligand-binding free energy and stability scores using two different software packages:</p><p>Bioluminate from Schrödinger (Release 2016-3) and the protein design module in MOE (Molecular Operating Environment 2013.08, Chemical Computing Group, Montreal, Canada. Details in SI). <ref type="bibr" target="#b36">37</ref> For each software package (Bioluminate and MOE) and for each score (ligand binding free energy and protein stability), the top mutants were selected (excluding mutations to catalytic residues) from the quadrant where both the stability and binding scores were improved relative to ATA-117, up to a maximum of 5 mutants per position (SI Figure <ref type="figure" target="#fig_3">2</ref>). Additionally, for active site residues (residues within 5Å of ligand) not selected with either program/score, the best single mutant was also selected taking into account both programs and scores simultaneously. The 93 unique structurebased mutants are shown in Table <ref type="table" target="#tab_6">4</ref>. ATUM created the DNA sequences, expressed wild</p><p>Table 4. 93 in silico mutants selected as structure-based R1. I10P T13H T13R D25T E27R D29S P33R E42T P48I S49Y S54M D57N L61M L61W H62R H62Y T66W V69I D81V E85Q E85R E92H E92R</p><formula xml:id="formula_0">K106R K115R F122Y S124I S124M S124Q S124R S126Y P135Q P135W G136N G136R G136Y D139C H143Y P145M Q146R Y150C Y150I Q155M Q155Y P159F A169M Q173R S174Q T178M T178W S181I N189R N189T F190R F190Y G193C G193I I196R D204W A209H G217L E221I E221Q G224C G224L G224M G239H G245F G245I G245L G245N G245Y I246L I246Y R248W R248Y E256R D274H D274I D274R G280I T282M T282W T282Y A284M G285C G285I G285Y G286I V293Y P297V S299R G301Y</formula><p>type and the enzyme variants and produced clarified lysates, which were then screened on THTP-BDO and analyzed as described above.</p><p>The top mutants were recombined into a structure-based R2 combinatorial library. The recombination of variants chosen as described in the text for the structure-based R2 combinatorial library was accomplished by multiple PCR overlap extensions (SOEing) and ligation. A combination of terminal primers and primers located in between every mutation were used to individually synthesize all possible variations of mutation sequences as described in detail in the Supplemental Information. These sequences were transformed, expressed, clarified lysates generated and screened as described in the SI and above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Sequence-based approach round 1 and round 2 sequences, round 1 and round 2 screening results and activities; description of mutation deconvolution algorithm; Structure-based approach computational methods and calculation results; Structure-based round 1 and round 2 sequences, amine donor and lactate dehydrogenase, NAD, glucose and glucose dehydrogenase to irreversibly shift the equilibrium to product formation. library. WT variant is highlighted in white. (B) The same FIO WT activity data plotted against the associated expression data. WT variant is circled. The diagonal line represents the activity expected from wild type across the range of expression levels seen in the screen. Variants above this line represent specific activity improvements, while variants with a FIO WT activity greater than 1.0 represent total activity improvements. using the Solver routine of Excel. Dark bars reflect total activity contributions, white bars reflect specific activity contributions. Bold line indicates WT amino acid activity. transaminase structure for computational calculations. are highlighted in white, all sequences provided in Table S5. (B) The same conversion data plotted against the FIO WT protein expression level with WT variants circled. The diagonal line is the theoretically expected data of wild type across the entire range of enzyme concentrations. Data above this line are specific activity improvements; data over a FIOP WT Activity of 1.0 represent total activity improvements. by the sequence-based approach depicted as yellow spheres. The two intermediate-cofactor complexes are rendered as sticks. (B) Close up view of the active site showing the 4 positions Page 31 of 37 ACS Paragon Plus Environment ACS Synthetic Biology Page 32 of 37 ACS Paragon Plus Environment ACS Synthetic Biology Page 33 of 37 ACS Paragon Plus Environment ACS Synthetic Biology Page 34 of 37 ACS Paragon Plus Environment ACS Synthetic Biology Page 35 of 37 ACS Paragon Plus Environment ACS Synthetic Biology Page 36 of 37 ACS Paragon Plus Environment ACS Synthetic Biology</p><note type="other">FIGURE LEGENDS</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Cultures were cooled to 25 º C and induced with addition of 1mM IPTG. Induced cultures were incubated with shaking at 25 º C for 19h and cells were harvested by centrifugation at 5000 x g for 10min at 4 º C. Final ODs at 600nm were 7.0 on average. Cell pellets were frozen at -20 º C, thawed at 25 º C and then fully lysed with lysozyme and detergent treatment in a total volume of 0.4ml as follows. Cells were resuspended in 0.2ml 200mM Tris-HCl (pH 7.5), 20% sucrose, 1mM EDTA, 1mM PMSF and 30U/µl Ready-Lyse lysozyme (Epicentre) and incubated for 15min at 25 º C. To this mixture, 0.2ml of 10mM Tris-HCl (pH 7.5), 50mM KCl, 1mM EDTA, 1mM PMSF, 20mM MgCl 2 , 0.1% deoxycholate, and 80U of OmniCleave endonuclease (Epicentre) were added and incubation at 25 º C was continued for 15min. The soluble crude lysate fraction was recovered after centrifugation at 5000 x g for 10min at 4 º C, combined with an equal volume of glycerol and stored at -20 º C. Lysate fractions were analyzed by quantitative PAGE using densitometry relative to protein concentration standards after staining with Simply Blue (Invitrogen). Full-length transaminase was estimated for each sample.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Scheme 1 :</head><label>1</label><figDesc>Scheme 1: Truncated sitagliptin ketone (THTP-BDO) to amine reaction, shown with pyruvate as the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (A) Fold Improvement over wild type activity obtained by screening the sequence-based R2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Calculated contribution of each single-point mutation for the sequence-based R2 library</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: PLP-aldimine of THTP-BDO, the transaminase reaction intermediate that was docked into</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: (A) FIO WT conversion obtained by screening the structure-based R1 library. WT variants</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: (A) 3D homodimeric structure of the WT ATA-117 with the positions identified as beneficial</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Scheme 1 :</head><label>1</label><figDesc>Scheme 1: Truncated sitagliptin ketone (THTP-BDO) to amine reaction, shown with pyruvate as the amine donor and lactate dehydrogenase, NAD, glucose and glucose dehydrogenase to irreversibly shift the equilibrium to product formation. 134x65mm (300 x 300 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (A) Fold Improvement over wild type activity obtained by screening the sequence-based R2 library. WT variant is highlighted in white. (B) The same FIO WT activity data plotted against the associated expression data. WT variant is circled. The diagonal line represents the activity expected from wild type across the range of expression levels seen in the screen. Variants above this line represent specific activity improvements, while variants with a FIO WT activity greater than 1.0 represent total activity improvements. 363x138mm (150 x 150 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Calculated contribution of each single-point mutation for the sequence-based R2 library using the Solver routine of Excel. Dark bars reflect total activity contributions, white bars reflect specific activity contributions. Bold line indicates WT amino acid activity. 508x381mm (96 x 96 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: PLP-aldimine of THTP-BDO, the transaminase reaction intermediate that was docked into transaminase structure for computational calculations. 63x45mm (300 x 300 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: (A) FIO WT conversion obtained by screening the structure-based R1 library. WT variants are highlighted in white. (B) The same conversion data plotted against the FIO WT protein expression level with WT variants circled. The diagonal line is the theoretically expected data of wild type across the entire range of enzyme concentrations. Data above this line are specific activity improvements; data over a FIOP WT Activity of 1.0 represent total activity improvements. 393x146mm (150 x 150 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: (A) 3D homodimeric structure of the WT ATA-117 with the positions identified as beneficial by the sequence-based approach depicted as yellow spheres. The two intermediate-cofactor complexes are rendered as sticks. (B) Close up view of the active site showing the 4 positions identified as beneficial. (C) 3D homodimeric structure of the WT ATA-117 with the positions identified as beneficial by the structurebased R1 library depicted as yellow spheres. (D) Close up view of the active site showing the 5 positions identified as beneficial. The G136N and P135Q mutations show a hydrogen bond to the triazole ring. 483x344mm (150 x 150 DPI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Mutation analysis for the structure-based R1 library (variants with FIO WT &gt; 1.2 only).</figDesc><table><row><cell>Fold</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 :</head><label>3</label><figDesc>Summary of evolution results from the two methods evaluated.</figDesc><table><row><cell>Sequence-Based Model Structure-Based Model</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4 :</head><label>4</label><figDesc>Mutations selected on the basis of homolog diversity</figDesc><table><row><cell>A44E</cell><cell>R52K</cell><cell>I55V</cell><cell>F56L</cell><cell>Y60F</cell><cell>V69G</cell><cell>V69T</cell><cell>F70V</cell><cell>H71R W73Y</cell></row><row><cell>I84L</cell><cell>E85D</cell><cell>L87F</cell><cell>N90S</cell><cell>A91C</cell><cell>A91L</cell><cell cols="3">A114R F122Y V123I V125L</cell></row><row><cell cols="5">V125P S126I S126V Y131V E137L</cell><cell>Y148I</cell><cell cols="3">Y154I V171T V187A V187I</cell></row><row><cell cols="9">N189S F190L G193L L195N I196V H203Y F207A A209E D214N</cell></row><row><cell cols="5">A220T S223P F225A F225S V227I</cell><cell cols="4">V228F V229A V234K V235L</cell></row><row><cell cols="5">R236Y A242I P244E H260I L269R</cell><cell>V278I</cell><cell cols="3">G280L C281T T282G</cell></row><row><cell cols="6">T282N T282S A284T G285A G286E F290V</cell><cell cols="3">I298V R313A Y314F</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0"><p>This probability is equal to 1 minus the probability of the sequence with zero positive mutations, or 1 -(0.909 x 0.909 x 0.909) = 0.249, or 25%.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was funded entirely by <rs type="funder">Merck Research Labs of Merck, Sharp and Dohme (MSD)</rs>. In silico calculations were performed within the MSD internal modeling environment and relied heavily upon the resources of our High Performance Computing group.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Enzyme engineering for nonaqueous solvents: random mutagenesis to enhance activity of subtilisin E in polar organic media</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnology (N Y)</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1073" to="1077" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, K. Q., and Arnold, F. H. (1991) Enzyme engineering for nonaqueous solvents: random mutagenesis to enhance activity of subtilisin E in polar organic media, Biotechnology (N Y) 9, 1073- 1077.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Engineering the third wave of biocatalysis</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer, U. T., Huisman, G. W., Kazlauskas, R. J., Lutz, S., Moore, J. C., and Robins, K. (2012) Engineering the third wave of biocatalysis, Nature 485, 185-194.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Strategies for the discovery and engineering of enzymes for biocatalysis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davids</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bottcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Chemical Biology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="215" to="220" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davids, T., Schmidt, M., Bottcher, D., and Bornscheuer, U. T. (2013) Strategies for the discovery and engineering of enzymes for biocatalysis, Current Opinion in Chemical Biology 17, 215-220.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Recent Advances in Directed Evolution of Stereoselective Enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Directed Enzyme Evolution: Advances and Applications</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Alcalde</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="69" to="99" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M. T. (2017) Recent Advances in Directed Evolution of Stereoselective Enzymes, In Directed Enzyme Evolution: Advances and Applications (Alcalde, M., Ed.), pp 69-99, Springer International Publishing, Cham.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Natural diversity to guide focused directed evolution</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jochens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1861" to="1866" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jochens, H., and Bornscheuer, U. T. (2010) Natural diversity to guide focused directed evolution, Chembiochem 11, 1861-1866.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Computational tools for enzyme improvement: why everyone can -and should -use them</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="89" to="96" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebert, M. C., and Pelletier, J. N. (2017) Computational tools for enzyme improvement: why everyone can -and should -use them, Curr Opin Chem Biol 37, 89-96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Beyond directed evolution--semi-rational protein engineering and design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="734" to="743" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S. (2010) Beyond directed evolution--semi-rational protein engineering and design, Curr Opin Biotechnol 21, 734-743.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Better library design: datadriven protein engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Chaparro-Riggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Polizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Bommarius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="180" to="191" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaparro-Riggers, J. F., Polizzi, K. M., and Bommarius, A. S. (2007) Better library design: data- driven protein engineering, Biotechnol J 2, 180-191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Biocatalysis in the Pharmaceutical Industry: The Need for Speed</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Truppo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Med Chem Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Truppo, M. D. (2017) Biocatalysis in the Pharmaceutical Industry: The Need for Speed, ACS Med Chem Lett 8, 476-480.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Computationally designed libraries for rapid enzyme stabilization</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wijma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Floor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Jekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="49" to="58" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wijma, H. J., Floor, R. J., Jekel, P. A., Baker, D., Marrink, S. J., and Janssen, D. B. (2014) Computationally designed libraries for rapid enzyme stabilization, Protein Eng Des Sel 27, 49-58.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Switch in Cofactor Specificity of a Baeyer-Villiger Monooxygenase</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bordewick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Genz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="2312" to="2315" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beier, A., Bordewick, S., Genz, M., Schmidt, S., van den Bergh, T., Peters, C., Joosten, H. J., and Bornscheuer, U. T. (2016) Switch in Cofactor Specificity of a Baeyer-Villiger Monooxygenase, Chembiochem 17, 2312-2315.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">HotSpot Wizard 2.0: automated design of site-specific mutations and smart libraries in protein engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bendl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stourac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sebestova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vavra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Musil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brezovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="479" to="487" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bendl, J., Stourac, J., Sebestova, E., Vavra, O., Musil, M., Brezovsky, J., and Damborsky, J. (2016) HotSpot Wizard 2.0: automated design of site-specific mutations and smart libraries in protein engineering, Nucleic Acids Res 44, W479-487.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Enantioselective enzymes by computational design and in silico screening</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wijma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Floor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bjelic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed Engl</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="3726" to="3730" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wijma, H. J., Floor, R. J., Bjelic, S., Marrink, S. J., Baker, D., and Janssen, D. B. (2015) Enantioselective enzymes by computational design and in silico screening, Angew Chem Int Ed Engl 54, 3726-3730.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">NewProt -a protein engineering portal</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Genz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Skalden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nobili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vickers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Melse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stourac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bendl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Baakman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Venselaar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwarte, A., Genz, M., Skalden, L., Nobili, A., Vickers, C., Melse, O., Kuipers, R., Joosten, H. J., Stourac, J., Bendl, J., Black, J., Haase, P., Baakman, C., Damborsky, J., Bornscheuer, U., Vriend, G., and Venselaar, H. (2017) NewProt -a protein engineering portal, Protein Eng Des Sel, 1-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Simultaneous use of in silico design and a correlated mutation network as a tool to efficiently guide enzyme engineering</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nobili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Pavlidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="805" to="810" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nobili, A., Tao, Y., Pavlidis, I. V., van den Bergh, T., Joosten, H. J., Tan, T., and Bornscheuer, U. T. (2015) Simultaneous use of in silico design and a correlated mutation network as a tool to efficiently guide enzyme engineering, Chembiochem 16, 805-810.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Computational structure-based redesign of enzyme activity</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Donald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="3764" to="3769" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C. Y., Georgiev, I., Anderson, A. C., and Donald, B. R. (2009) Computational structure-based redesign of enzyme activity, Proc Natl Acad Sci U S A 106, 3764-3769.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Use of &apos;small but smart&apos; libraries to enhance the enantioselectivity of an esterase from Bacillus stearothermophilus towards tetrahydrofuran-3-yl acetate</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nobili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Pavlidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="3084" to="3093" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nobili, A., Gall, M. G., Pavlidis, I. V., Thompson, M. L., Schmidt, M., and Bornscheuer, U. T. (2013) Use of &apos;small but smart&apos; libraries to enhance the enantioselectivity of an esterase from Bacillus stearothermophilus towards tetrahydrofuran-3-yl acetate, FEBS J 280, 3084-3093.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Predicting enzyme function from protein sequence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="202" to="209" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minshull, J., Ness, J. E., Gustafsson, C., and Govindarajan, S. (2005) Predicting enzyme function from protein sequence, Curr Opin Chem Biol 9, 202-209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Improving and repurposing biocatalysts via directed evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Denard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="55" to="64" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Denard, C. A., Ren, H., and Zhao, H. (2015) Improving and repurposing biocatalysts via directed evolution, Curr Opin Chem Biol 25, 55-64.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Computational tools for designing smart libraries</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sebestova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bendl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brezovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damborsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">1179</biblScope>
+			<biblScope unit="page" from="291" to="314" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sebestova, E., Bendl, J., Brezovsky, J., and Damborsky, J. (2014) Computational tools for designing smart libraries, Methods Mol Biol 1179, 291-314.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Savile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Janey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Colbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krebber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Fleitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="305" to="309" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savile, C. K., Janey, J. M., Mundorff, E. C., Moore, J. C., Tam, S., Jarvis, W. R., Colbeck, J. C., Krebber, A., Fleitz, F. J., Brands, J., Devine, P. N., Huisman, G. W., and Hughes, G. J. (2010) Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture, Science 329, 305-309.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Engineering proteinase K using machine learning and synthetic genes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liao, J., Warmuth, M. K., Govindarajan, S., Ness, J. E., Wang, R. P., Gustafsson, C., and Minshull, J. (2007) Engineering proteinase K using machine learning and synthetic genes, BMC Biotechnol 7, 16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Girardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ouellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gauvreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>O'shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Campeau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Process Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="61" to="68" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Girardin, M., Ouellet, S. G., Gauvreau, D., Moore, J. C., Hughes, G., Devine, P. N., O&apos;shea, P. D., and Campeau, L. C. (2013) Convergent Kilogram-Scale Synthesis of Dual Orexin Receptor Antagonist, Org Process Res Dev 17, 61-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A new target region for changing the substrate specificity of amine transaminases</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ohtsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iwasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yasohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanokura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">10753</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guan, L. J., Ohtsuka, J., Okai, M., Miyakawa, T., Mase, T., Zhi, Y., Hou, F., Ito, N., Iwasaki, A., Yasohara, Y., and Tanokura, M. (2015) A new target region for changing the substrate specificity of amine transaminases, Sci Rep 5, 10753.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Comparison of Five Protein Engineering Strategies for Stabilizing an alpha/beta-Hydrolase</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="6521" to="6532" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, B. J., Lim, H. Y., Huang, J., and Kazlauskas, R. J. (2017) Comparison of Five Protein Engineering Strategies for Stabilizing an alpha/beta-Hydrolase, Biochemistry 56, 6521-6532.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">CorNet: Assigning function to networks of co-evolving residues by automated literature mining</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nobili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K P</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vroling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Schaap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Desmet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nidetzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Joosten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">176427</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van den Bergh, T., Tamo, G., Nobili, A., Tao, Y., Tan, T., Bornscheuer, U. T., Kuipers, R. K. P., Vroling, B., de Jong, R. M., Subramanian, K., Schaap, P. J., Desmet, T., Nidetzky, B., Vriend, G., and Joosten, H. J. (2017) CorNet: Assigning function to networks of co-evolving residues by automated literature mining, PLoS One 12, e0176427.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Computationally efficient and accurate enantioselectivity modeling by clusters of molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wijma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Inf Model</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2079" to="2092" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wijma, H. J., Marrink, S. J., and Janssen, D. B. (2014) Computationally efficient and accurate enantioselectivity modeling by clusters of molecular dynamics simulations, J Chem Inf Model 54, 2079-2092.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A computational approach to enzyme design: predicting omegaaminotransferase catalytic activity using docking and MM-GBSA scoring</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sirin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Karmilowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Abramov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sherman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Inf Model</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2334" to="2346" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sirin, S., Kumar, R., Martinez, C., Karmilowicz, M. J., Ghosh, P., Abramov, Y. A., Martin, V., and Sherman, W. (2014) A computational approach to enzyme design: predicting omega- aminotransferase catalytic activity using docking and MM-GBSA scoring, J Chem Inf Model 54, 2334- 2346.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern free-energy calculation protocol and force field</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Krilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lupyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Dahlgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Masse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Steinbrecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beuming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Damm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Harder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murcko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Frye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Farid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Berne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Friesner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="2695" to="2703" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, L., Wu, Y., Deng, Y., Kim, B., Pierce, L., Krilov, G., Lupyan, D., Robinson, S., Dahlgren, M. K., Greenwood, J., Romero, D. L., Masse, C., Knight, J. L., Steinbrecher, T., Beuming, T., Damm, W., Harder, E., Sherman, W., Brewer, M., Wester, R., Murcko, M., Frye, L., Farid, R., Lin, T., Mobley, D. L., Jorgensen, W. L., Berne, B. J., Friesner, R. A., and Abel, R. (2015) Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern free-energy calculation protocol and force field, J Am Chem Soc 137, 2695-2703.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Examining the Feasibility of Using Free Energy Perturbation (FEP+) in Predicting Protein Stability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Babaoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Inf Model</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1276" to="1285" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ford, M. C., and Babaoglu, K. (2017) Examining the Feasibility of Using Free Energy Perturbation (FEP+) in Predicting Protein Stability, J Chem Inf Model 57, 1276-1285.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Garcia-Guevara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Avelar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Segovia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Tools Applied to Enzyme Design -a review</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="109" to="117" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Biocatalysis</note>
+	<note type="raw_reference">Garcia-Guevara, F., Avelar, M., Ayala, M., and Segovia, L. (2015) Computational Tools Applied to Enzyme Design -a review, Biocatalysis 1, 109-117.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Combined quantum mechanics/molecular mechanics (QM/MM) methods in computational enzymology</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Van Der Kamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mulholland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2708" to="2728" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van der Kamp, M. W., and Mulholland, A. J. (2013) Combined quantum mechanics/molecular mechanics (QM/MM) methods in computational enzymology, Biochemistry 52, 2708-2728.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Challenges in computational studies of enzyme structure, function and dynamics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barrozo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kilshtain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Major</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kamerlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Graph Model</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="62" to="79" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carvalho, A. T., Barrozo, A., Doron, D., Kilshtain, A. V., Major, D. T., and Kamerlin, S. C. (2014) Challenges in computational studies of enzyme structure, function and dynamics, J Mol Graph Model 54, 62-79.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Redesigning and characterizing the substrate specificity and activity of Vibrio fluvialis aminotransferase for the synthesis of imagabalin</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Midelfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Karmilowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Gehlhaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mistry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Villalobos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Midelfort, K. S., Kumar, R., Han, S., Karmilowicz, M. J., McConnell, K., Gehlhaar, D. K., Mistry, A., Chang, J. S., Anderson, M., Villalobos, A., Minshull, J., Govindarajan, S., and Wong, J. W. (2013) Redesigning and characterizing the substrate specificity and activity of Vibrio fluvialis aminotransferase for the synthesis of imagabalin, Protein Eng Des Sel 26, 25-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Protein engineering of improved prolyl endopeptidases for celiac sprue therapy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ehren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng Des Sel</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="699" to="707" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ehren, J., Govindarajan, S., Moron, B., Minshull, J., and Khosla, C. (2008) Protein engineering of improved prolyl endopeptidases for celiac sprue therapy, Protein Eng Des Sel 21, 699-707.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Engineering genes for predictable protein expression</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Villalobos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr Purif</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gustafsson, C., Minshull, J., Govindarajan, S., Ness, J., Villalobos, A., and Welch, M. (2012) Engineering genes for predictable protein expression, Protein Expr Purif 83, 37-46.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Applying physicsbased scoring to calculate free energies of binding for single amino acid mutations in protein-protein complexes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cholleti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pearlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Loving</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">82849</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beard, H., Cholleti, A., Pearlman, D., Sherman, W., and Loving, K. A. (2013) Applying physics- based scoring to calculate free energies of binding for single amino acid mutations in protein-protein complexes, PLoS One 8, e82849.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Enzyme-like proteins by computational design</title>
+				<funder>
+					<orgName type="full">Howard Hughes Medical Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ralph M. Parsons Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_dyMynfx">
+					<orgName type="full">Arthur McCallum Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2001-10-17">October 17, 2001</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">N</forename><surname>Bolon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biochemistry and Molecular Biophysics Option</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Communicated by Douglas C. Rees</orgName>
+								<orgName type="laboratory">The Howard Hughes Medical Institute and Division of Biology</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>Mail Code 147-75</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">The Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">California Institute of Technology</orgName>
+								<address>
+									<addrLine>1200 East California Boulevard</addrLine>
+									<postCode>91125- 7500</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Enzyme-like proteins by computational design</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2001-10-17">October 17, 2001</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4C8993F207357F7B054181E443829BE5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="630.0" lry="802.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report the development and initial experimental validation of a computational design procedure aimed at generating enzymelike protein catalysts called ''protozymes.'' Our design approach utilizes a ''compute and build'' strategy that is based on the physical͞chemical principles governing protein stability and catalytic mechanism. By using the catalytically inert 108-residue Escherichia coli thioredoxin as a scaffold, the histidine-mediated nucleophilic hydrolysis of p-nitrophenyl acetate as a model reaction, and the ORBIT protein design software to compute sequences, an active site scan identified two promising catalytic positions and surrounding active-site mutations required for substrate binding. Experimentally, both candidate protozymes demonstrated catalytic activity significantly above background. One of the proteins, PZD2, displayed ''burst'' phase kinetics at high substrate concentrations, consistent with the formation of a stable enzyme intermediate. The kinetic parameters of PZD2 are comparable to early catalytic Abs. But, unlike catalytic Ab design, our design procedure is independent of fold, suggesting a possible mechanism for examining the relationships between protein fold and the evolvability of protein function.</p><p>A prominent goal of protein design is the generation of proteins with novel functions, including the catalytic rate enhancement of chemical reactions. The ability to design an enzyme to perform a given chemical reaction has considerable practical application for industry and medicine, particularly for the synthesis of pharmaceuticals <ref type="bibr" target="#b0">(1)</ref>. Significant progress has been made at enhancing the catalytic properties of existing enzymes through directed evolution <ref type="bibr" target="#b1">(2)</ref>. In contrast, the design of proteins with novel catalytic properties has met with relatively limited success <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. We present a general computational approach for the design of enzyme-like proteins with novel catalytic activities.</p><p>The use of transition-state analogs as haptens to elicit catalytic Abs has been the most successful technique to date for generating novel protein catalysts <ref type="bibr" target="#b5">(6)</ref>. Natural enzymes combine transition-state stabilization with precisely oriented catalytic side chains. Although a reactive hapten has been used in the generation of an Ab with a powerful nucleophile at the active site <ref type="bibr" target="#b6">(7)</ref>, current catalytic Ab technology does not efficiently select for both catalytic side chains and tight noncovalent affinity in the same molecule. The relationship between the general backbone fold of an enzyme and its catalytic properties is not well understood. This observation is particularly relevant to catalytic Abs that are currently constrained to the Ab fold and which have yet to show catalytic activity on par with natural enzymes.</p><p>Rational design efforts have recently succeeded at altering the catalytic reactions of two different enzymes <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>. Cyclophilin, a cis-trans isomerase of X-Pro peptide bonds, was engineered into an endopeptidase by grafting a triad of catalytic residues commonly found in serine proteases at the binding cleft <ref type="bibr" target="#b7">(8)</ref>. In a more complicated design effort, Fersht and coworkers <ref type="bibr" target="#b8">(9)</ref> were able to convert indoleglycerol-phosphate synthase into phosphoribosylanthranilate isomerase. The naturally occurring versions of these enzymes share a similar fold and catalyze consecutive reactions in the tryptophan biosynthetic pathway with the product of the isomerase being the substrate for the synthase. On the basis of a comparison of the crystal structures of both natural enzymes, loops were altered in the synthase to resemble the target isomerase, followed by directed evolution. These two successful design efforts both used starting proteins with substantial substrate affinity and altered existing active-site residues to catalyze new reactions.</p><p>Compared with altering substrate specificity or catalytic mechanism, one of the most significant challenges of enzyme design utilizes a starting protein scaffold devoid of substrate binding and catalytic activity and introduces residues that convert the scaffold into an enzyme <ref type="bibr" target="#b9">(10)</ref>. Computational techniques have been used to design novel metal binding sites into proteins <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>. By leaving one of the primary coordination spheres of the metal unligated by the protein, nascent metalloenzymes with a variety of oxygen redox chemistries have been generated <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>. The general design of metalloenzymes to react specifically with more complicated organic molecules has not been demonstrated.</p><p>Numerous studies of natural proteins have revealed the basic principles of enzymatic catalysis, including proximity and orientation of substrate molecules, transition-state stabilization, acidbase catalysis, and covalent catalysis <ref type="bibr" target="#b15">(16)</ref>. The continued improvement in computer speed combined with the development and improvement of computational protein design algorithms <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref> and force fields <ref type="bibr" target="#b19">(20)</ref> makes this an opportune time to apply our understanding of enzyme mechanism to the rational, computational design of enzymes with novel functions. We model a high-energy state along a specified reaction pathway including the interaction of at least one catalytic residue with the high-energy state. The computational techniques described below, which have been incorporated into the ORBIT (Optimization of Rotamers By Iterative Techniques) protein design software <ref type="bibr" target="#b16">(17)</ref>, identify catalytic sites within a protein structure as well as mutations necessary to accommodate substrate binding (that is, to build the active site).</p><p>The histidine-mediated nucleophilic hydrolysis of pnitrophenyl acetate (PNPA) into p-nitrophenol (PNP) and acetate (Fig. <ref type="figure" target="#fig_0">1A</ref>) was selected as the target reaction. This reaction has a moderate activation barrier in pH neutral aqueous solution and is similar to the ester and carbonate hydrolysis reactions studied by the first catalytic Abs <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. Nucleophile-catalyzed hydrolysis is commonly achieved by using a catalytic serine or cysteine in natural proteases. Histidine is often used as a general acid or base, but occasionally histidine acts as a nucleophile in phosphate transfer reactions. For nucleophilic catalysis to be effective, the acylated enzyme intermediate must be unstable relative to substrate in buffer to increase the rate of product formation over the uncatalyzed buffer rate. An acyl-histidine intermediate would be less stable than either an acyl-serine or an acyl-cysteine intermediate. Therefore, we modeled histidine as the nucleophile in our design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Molecular Modeling. For the histidine-PNPA high-energy state rotamers, a backbone-independent rotamer library was generated that included nucleophilic attack by both the N␦ and N atoms of histidine and attack on both enantiotopic faces of PNPA. The 1 and 2 dihedral angles were based on histidine dihedral angles in a survey of protein structures <ref type="bibr" target="#b22">(23)</ref> and were expanded by Ϯ1 SD from the reported values. Dihedral angles for 3 (Ϯ30, Ϯ90, and Ϯ150°), 4 (Ϯ60 and 180°), and 5 (Ϯ90°) were based on canonical values for the relevant central atom hybridizations as described in the DREIDING force field <ref type="bibr" target="#b23">(24)</ref>. Bond lengths and angles as well as additional dihedral angles were optimized by using the DREIDING force field <ref type="bibr" target="#b23">(24)</ref>. All other side chains were modeled by using a backbone-dependent rotamer library <ref type="bibr" target="#b22">(23)</ref> that was expanded about 1 and 2 dihedral angles for aromatic residues, expanded about 1 dihedral angle for aliphatic residues, and unexpanded for polar residues as described <ref type="bibr" target="#b24">(25)</ref>.</p><p>The calculations used an energy function based on the DREIDING force field <ref type="bibr" target="#b23">(24)</ref>. A Lennard-Jones 12-6 potential with van der Waals radii scaled by 0.9 was applied to all side chain-backbone and side chain-side chain interactions as described <ref type="bibr" target="#b25">(26)</ref>. An explicit hydrogen bond potential was applied to all groups that contained hydrogen bond donors and͞or acceptors (including the high-energy state complex). The 12-10 hydrogen bond potential used a well depth of 8.0 kcal͞mol, an equilibrium donor͞acceptor distance of 2.8 Å, and a hybridization-dependent angle term as described <ref type="bibr" target="#b26">(27)</ref>. Electrostatic energies were computed by using a distance-dependent dielectric constant of 40r with partial atomic charges as described <ref type="bibr" target="#b26">(27)</ref>. Partial atomic charges for the high-energy state rotamers were generated by using the same bond polarization scheme used for the other amino acids and included a net ϩ1 charge on the histidine moiety and a net Ϫ1 charge on the high-energy state substrate (Table <ref type="table">2</ref>, which is published as supporting information on the PNAS web site, <ref type="url" target="www.pnas.org">www.pnas.org</ref>). A surface area-based atomic solvation potential was selectively applied to the highenergy state rotamers to favor interaction of the substrate with the protein (i.e., only surface area burial of atoms on the high-energy state rotamers was considered). This selective application of the solvation potential, which differs from our previous work, was required to reduce the tendency of generating predominately wild-type amino acid sequence solutions. Surface areas for the solvation potential were calculated by using the Connolly algorithm <ref type="bibr" target="#b27">(28)</ref> and the definition of solventaccessible surface area by Lee and Richards <ref type="bibr" target="#b28">(29)</ref> with unscaled atomic radii and an add-on radius of 1.4 Å. A hydrophobic burial benefit of 48 cal͞mol͞Å 2 and a hydrophobic exposure penalty of 76.8 cal͞mol͞Å 2 were used with the two-body decomposition method of Street and Mayo <ref type="bibr" target="#b29">(30)</ref>. The solvation potential was not applied to polar atoms.</p><p>The hydrophobic solvent-accessible surface area of substrate atoms was used to evaluate recognition. For this assessment, solvent-accessible surface area was computed by using the Connolly algorithm <ref type="bibr" target="#b27">(28)</ref> and the Lee and Richards definition of solvent-accessible surface area ( <ref type="formula">29</ref>) with an add-on radius of 1.4 Å. The solvent-accessible surface area of the substrate was determined by using all atoms in the folded structure as well as by using an unfolded reference that included only the highenergy state rotamer and the local backbone. Active-site designs were ranked by the fraction-accessible surface area defined as the ratio of hydrophobic-accessible surface area in the folded structure and the hydrophobic-accessible surface area in the unfolded reference. Computed designs with zero total solventaccessible surface area for the substrate atoms were considered inaccessible to substrate and were eliminated from further consideration.</p><p>Experimental Validation. The background mutation D26I was included in both protozyme design (PZD) 1 and 2. D26I was predicted by ORBIT in an independent calculation and results in increased thermodynamic stability similar to the previously reported D26A protein <ref type="bibr" target="#b30">(31)</ref>. Position 26 is distant in space to the designed active sites in both PZD1 and PZD2.</p><p>The genes for PZD1 and PZD2 were constructed by sitedirected mutagenesis, using the wild-type thioredoxin gene (Invitrogen) cloned into PET-11A. Protein expression was induced with 0.5 mM IPTG from BL21(DE3) cells grown to mid-log phase. Cells were lysed by sonication and pelleted twice at 20,000 ϫ g for 30 min. The soluble fraction was brought to 60% acetonitrile, pelleted, and rotary-evaporated to half volume. For initial studies, purification was accomplished by reversed-phase HPLC. For subsequent studies with PZD2, all protein samples were additionally purified by ion exchange and size exclusion chromatography to a purity of Ͼ99% as judged by silver-stained PAGE.</p><p>PZD2 was dialyzed extensively against 10 mM sodium phosphate buffer at pH 6.95. Kinetic experiments at 22°C were started by the addition of substrate dissolved in acetonitrile to buffer solution with and without PZD2 (final protein concentration of 4 M). Protein concentration was determined by UV absorbance in 6 M guanidinium hydrochloride assuming an extinction coefficient of 12,400 M Ϫ1 cm Ϫ1 at 280 nm. Product concentration was determined by the change in absorbance at 400.5 nm assuming an extinction coefficient for deprotonated PNP of 19,700 M Ϫ1 cm Ϫ1 . Final acetonitrile concentration was 1% for all experiments. The steady-state rate of hydrolysis by PZD2 was corrected for the buffer rate. Burst-phase hydrolysis assays were performed at a substrate concentration of 1.6 mM. Protein concentration was 4 M, with the exception of wild-type thioredoxin. Wild-type thioredoxin was assayed at 50 M to improve signal to noise and extrapolated to a protein concentration of 4 M. The dead time for this experiment was Ϸ30 sec.</p><p>The ϩ42 mass unit species detected in the trapping experiment is a result of replacement of a hydrogen (Ϫ1) with an acetyl group (ϩ43). PZD2 (100 M ) in 10 mM Tris at pH 7.0 was reacted with 1.6 mM PNPA to steady-state conditions, and a mass spectrum was acquired. The same protein solution without PNPA was used as a control. Burst-phase kinetics in this buffer system yielded essentially identical results as in phosphate buffer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>An important step in the design of a protein catalyst is locating the substrate relative to the protein scaffold. We took advantage of the observation that the vast majority of natural enzymes contain one or more side chains in highly specific geometric relation to substrate. In the case of PNPA hydrolysis catalyzed by histidine, the histidine side chain should be positioned with a nitrogen atom approaching the carbonyl carbon adjacent to the scissile bond. In a procedure reminiscent of transition-state analog synthesis for catalytic Ab design, we modeled a highenergy state of histidine-catalyzed PNPA hydrolysis as a series of side chain rotamers (Fig. <ref type="figure" target="#fig_0">1B</ref>). The rotamer model focuses the subsequent search on the relevant phase space where a catalytic side chain can be positioned to interact with substrate atoms. Modeling a high-energy state and optimizing the surrounding protein sequence for binding to the high-energy state may lead to a reduction in activation energy for the reaction and catalytic rate enhancement <ref type="bibr" target="#b31">(32)</ref>. Substrate affinity is explicitly included in the design because chemical similarity exists between the highenergy state and the substrate.</p><p>The well studied protein Escherichia coli thioredoxin (33) was selected as a scaffold because of its favorable expression properties, thermodynamic stability <ref type="bibr" target="#b33">(34)</ref>, and successful history in computational design <ref type="bibr" target="#b14">(15)</ref>. Naturally occurring thioredoxin can supply the reducing power for ribonucleotide reductase by way of its disulfide bond, but is essentially catalytically inert with respect to PNPA binding and hydrolysis. The high thermodynamic stability of thioredoxin suggests that it can tolerate destabilizing mutations that are required to build an active site <ref type="bibr" target="#b34">(35)</ref>. An active site scan was performed to identify favorable positions for the catalytic histidine as well as mutations necessary for substrate recognition and binding. In separate calculations using the ORBIT computational protein design programs, each position in the protein structure of thioredoxin was modeled by using the set of high-energy state rotamers (Fig. <ref type="figure" target="#fig_0">1B</ref>). All other positions in the protein were allowed to choose (with proper consideration for rotamer flexibility) between their wild-type identity and alanine to accommodate the substrate and to build the active site. After computing the optimal solution by using algorithms based on the Dead-End Elimination theorem <ref type="bibr" target="#b35">(36,</ref><ref type="bibr" target="#b36">37)</ref>, positions that changed to alanine can be subsequently allowed to change identity to other amino acids to form better interactions with the high-energy state rotamer. The results reported below are based on the first stage calculation that allows only mutation to alanine. The initial limited combinatorial complexity approach provides for tractable calculations and is expected to generate enzyme-like proteins that we call protozymes. As computer power and computational methods become more sophisticated, the need for a two-stage calculation will diminish. All 94 nonglycine nonproline positions, a combinatorial complexity of Ϸ10 26 amino acid sequences that corresponded to 10 101 rotamer sequences, were scanned in approximately 2 days on 14 195 MHz R10000 processors (Silicon Graphics, Mountain View, CA) running in parallel. Hydrophobic solvent-accessible surface area of the substrate atoms in the computed high-energy state was used as a measure of substrate recognition to rank designs (resulting from the limited combinatorial complexity calculations) (Table <ref type="table">1</ref>). In addition, the simple requirement that the total solvent-accessible surface area of the substrate atoms be greater than zero was used to eliminate designs where the active site would not be accessible.  and <ref type="figure">C</ref>). An active-site cleft is present in the design of PZD2 that is largely filled in the wild-type structure. Wild-type residues that were mutated to create the active site are shown in C (F12, L17, and Y70). In the design of PZD2, all side chains were allowed to change geometry, resulting in a slightly different surface compared with that of the wild-type protein.</p><p>Table 1. Top 10 designs from active site scan Design Catalytic His position Fraction hydrophobic exposure Active site mutations PZD1 12 0.11 F12H Y70A PZD2 17 0.15 F12A L17H Y70A PZD3 86 0.29 V86H I38A L42A L99A PZD4 72 0.34 I72H L79A PZD5 66 0.34 T66H F12A Y70A PZD6 6 0.36 None PZD7 39 0.37 A39H K57A PZD8 91 0.39 V91H T77A PZD9 49 0.39 Y49H K52A PZD10 77 0.43 T77H L79A T89A</p><p>Ranked based on hydrophobic surface area burial of substrate atoms in the high-energy state complex. The top two designs, PZD1 and PZD2, were experimentally tested for catalytic activity.</p><p>The top two sequences from the limited combinatorial complexity active site scan were selected for experimental analysis. PZD1 contains two mutations (F12H and Y70A) required to introduce the catalytic histidine and to build the active site, whereas PZD2 contains three mutations (F12A, L17H, and Y70A). Experimentally, both proteins demonstrated catalytic hydrolysis of PNPA at a rate significantly above background. Based on preliminary kinetic experiments at high substrate concentration, PZD2 was approximately twice as effective a catalyst as PZD1 and was selected for further analysis. The designed structure of PZD2 computed by ORBIT shows the substrate atoms in a cleft (Fig. <ref type="figure" target="#fig_1">2A</ref>). This cleft is not present in the wild-type thioredoxin x-ray structure (ref. <ref type="bibr" target="#b37">38</ref>; Fig. <ref type="figure" target="#fig_1">2B</ref>), indicating that the space-creating mutations (F12A and Y70A) are necessary to create the putative substrate-binding site (Fig. <ref type="figure" target="#fig_1">2C</ref>).</p><p>The rate of PNPA hydrolysis by PZD2 at 22°C in 10 mM sodium phosphate buffer at pH 6.95 was experimentally determined over a range of substrate concentrations with standard Briggs-Haldane steady-state treatment (Fig. <ref type="figure" target="#fig_2">3</ref>). The reaction velocity of PZD2 demonstrated saturation kinetics with respect to increasing substrate concentration (Fig. <ref type="figure" target="#fig_3">4</ref>), indicating that the molecule is acting as an enzyme-like protein with both substrate affinity and catalytic rate enhancement. Hofstee analysis of the data gives a K m of 170 Ϯ 20 M, k cat of 4.6 Ϯ 0.2 ϫ 10 Ϫ4 sec Ϫ1 , and k cat ͞k uncat of 180 where k uncat (2.5 ϫ 10 Ϫ6 sec Ϫ1 ) is the rate of hydrolysis under the same conditions. The kinetics of PZD2 are comparable to those of the first catalytic Abs: K m of 208 M and k cat ͞k uncat of 770 for MOPC167 <ref type="bibr" target="#b20">(21)</ref> and K m of 1.9 M and k cat ͞k uncat of 960 for 6D4 <ref type="bibr" target="#b21">(22)</ref>.</p><p>De novo-designed peptides have recently been designed which catalyze PNPA hydrolysis by a second-order mechanism (i.e., without substrate saturation). The second-order rates for these peptides were determined under different conditions than those used here, making direct comparisons difficult. At pH 5.1, rates of 0.29 M Ϫ1 sec Ϫ1 and 0.056 M Ϫ1 sec Ϫ1 have been reported <ref type="bibr" target="#b38">(39,</ref><ref type="bibr" target="#b39">40)</ref>. Extrapolation based on the pH rate profiles (39) reported for the hydrolysis of similarly activated esters suggests rates of Ϸ0.7 and 0.2 M Ϫ1 sec Ϫ1 for PNPA hydrolysis at pH 7, respectively. The second-order rate of hydrolysis by 4-methyl imidazole (determined under the conditions used in the analysis of PZD2) is 0.11 M Ϫ1 sec Ϫ1 . Computing a second-order rate of hydrolysis for PZD2 as k cat ͞K m gives 2.7 M Ϫ1 sec Ϫ1 , which is a factor of 25 better than catalysis by 4-methyl imidazole and about an order of magnitude better than the peptide systems. It is extremely important to note, however, that the lack of substrate saturation in the second-order systems complicates this analysis because substrate affinity was determined for PZD2. Substrate affinity is central to enzyme catalysis and clearly will be important in the design of protein-based catalysts for more complicated reactions.</p><p>At high substrate concentrations, an initial ''burst'' phase is a common feature of natural enzymes and is a consequence of a kinetic bottleneck on the reaction pathway. PZD2 displays burst-phase kinetics at high substrate concentration (Fig. <ref type="figure" target="#fig_4">5</ref>) consistent with the formation of an enzyme intermediate. The observed burst-phase kinetics could also be a result of slow product release; however, this is unlikely given the kinetic parameters of PZD2. Based on the burst-phase data, we estimate K s ϭ 1 mM, k 2 ϭ 3 ϫ 10 Ϫ3 sec Ϫ1 , and k 3 ϭ 8 ϫ 10 Ϫ4 sec Ϫ1 . Analysis of the magnitude of the burst indicates that Ϸ30% of PZD2 is in an active state. Using the burst magnitude as a metric of the enzyme concentration indicates a k cat of 1.5 Ϯ 0.1 ϫ 10 Ϫ3 sec Ϫ1 , approximately 3 times larger than the kinetic analysis with enzyme concentrations determined from protein U V absorbance.</p><p>Wild-type thioredoxin is essentially inactive, but does show weak second-order PNPA hydrolysis consistent with its single surface-exposed histidine at position 6. Mutation of the designed catalytic histidine to alanine in PZD2 (H17A) results in a protein with catalytic activity similar to wild-type thioredoxin, indicating that the designed catalytic histidine at position 17 is necessary for the enzyme-like activity in PZD2 (Fig. <ref type="figure" target="#fig_4">5</ref>). Mutation of the two other active site residues in PZD2 back to their wild-type identities (A12F and A70Y) also results in a protein with activity   similar to wild type. Additionally, at pH 5.7 the activity of PZD2 is almost entirely eliminated, consistent with protonation of the catalytic histidine (data not shown). The kinetic and mutational evidence strongly indicate that PZD2 is working as designed with H17 acting as a catalytic nucleophile, and the space-creating mutations (F12A and Y70A) forming a binding site for substrate.</p><p>According to its design, reaction of PZD2 with PNPA should yield an acyl-histidine enzyme intermediate, increasing the population of a ϩ42-mass unit species compared with free protein. Mass spectrometry of PZD2 clearly indicates increased population of an acylated species on reaction with PNPA (Fig. <ref type="figure" target="#fig_5">6 A</ref> and <ref type="figure">B</ref>). Acylation due to reaction with PNPA is essentially absent for the H17A mutant of PZD2 (Fig. <ref type="figure" target="#fig_5">6</ref> C and D), indicating that acylation depends on H17. From the data it is not possible to distinguish between direct acylation of H17 or H17-mediated (acid͞base or acyl transfer) acylation of a different residue.</p><p>Naturally occurring enzymes are frequently inhibited in a competitive manner by inert compounds resembling the substrate molecule. With this in mind, we assayed the inhibitory effects of p-nitrophenyl glycerol (PNPG) a highly soluble compound with structural similarity to PNPA. A double reciprocal analysis of PZD2 catalyzed PNPA hydrolysis in the presence and absence of inhibitor shows the hallmark features of competitive inhibition (Fig. <ref type="figure" target="#fig_6">7</ref>) implying that PNPG is able to bind in the active site and block PNPA binding. A Dixon analysis, varying PNPG concentration at a fixed substrate concentration of 200 M yielded a K i of 20 mM. The decreased binding affinity of PNPG relative to PNPA may be due to burial of polar hydroxyl groups against hydrophobic regions in the active site or differences in the steric requirements for PNPG and PNPA. No inhibition was detected with PNP phosphate at concentrations up to 20 mM, suggesting that PZD2 binds preferentially to uncharged nitrophenyl molecules.</p><p>To further test the substrate specificity of PZD2, we assayed its kinetics with PNP propionate (PNPP), which has an additional methylene group compared with PNPA. Hofstee analysis indicates within error an identical k cat ͞k uncat and a K m of 110 Ϯ 20 M for PNPP, compared with 170 Ϯ 20 M for PNPA. Inspection of the designed structure of PZD2 with bound PNPA shows that space exists to accommodate the additional methylene of PNPP. Both favorable van der Waals interactions and hydrophobic burial afforded by the relatively open active site likely explain the slightly increased affinity of PZD2 for PNPP compared with PNPA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The computational design method presented here successfully identified enzyme-like active sites within a protein scaffold essentially devoid of relevant catalytic activity. Although the reaction catalyzed (PNPA hydrolysis) and the level of activity of PZD2 are likely to be insufficient for practical applications, clear paths for improvement exist including further computational optimization and experimentally directed evolution. Computational optimization of the identity of residues proximal in space to the high-energy state complex could result in improved shape and charge complementarity with the high-energy state, improving both substrate affinity and catalytic rate enhancement. Directed evolution, combining mutagenesis and recombination with screening and͞or selection, has been an effective method for increasing catalytic activity. The use of computational modeling to focus directed evolution experiments promises to in- A large increase in the population of a ϩ42 species occurs on reaction of PZD2 with substrate, indicating the buildup of an acyl-enzyme intermediate. This ϩ42 species is dramatically reduced for PZD2 H17A where the designed catalytic histidine was mutated to alanine. A small increase in the population of a ϩ42 species is detected in PZD2 H17A on reaction with substrate and is likely the result of acylation at the single surface-exposed histidine at position 6. Consistent with this analysis, a small increase in the population of a double acetylated ϩ84 product is detected on reaction of PZD2 with substrate. A copper matrix adduct (ϩ63) is present <ref type="bibr" target="#b37">(38)</ref> in all spectra and in combination with free and acylated protein results in multiple peaks. crease the effectiveness of directed evolution methods <ref type="bibr" target="#b40">(41)</ref>. For the creation and optimization of novel protein catalysts, computational protein design and experimentally directed evolution complement each other well. Use of the design methods presented here to generate proteins with novel catalytic activity and directed evolution to further enhance this activity is a promising path to the production of novel high efficiency protein catalysts.</p><p>The relationship between protein fold and function is a fundamental question in enzymology. From numerous structural studies, insight has been gained into the properties of the ␣͞␤ barrel fold that have facilitated its evolution to catalyze many different chemical reactions <ref type="bibr" target="#b41">(42)</ref>. With the methods presented here, we may now address the evolvability of essentially any fold through the computational design of novel enzymatic function followed by directed evolution. The comparison of an Ab fold to an ␣͞␤ barrel fold, for example, may prove particularly insightful. Studies of this type may advance our understanding of the functional potential of protein folds, provide insight into natural evolution, and aid in the selection of scaffolds for future design efforts.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (A) Nucleophile-mediated catalysis of PNPA hydrolysis. (B) Highenergy state structure used in the computational active site scan. Labeled dihedral angles were varied to generate the set of high-energy state rotamers used in the design calculations.</figDesc><graphic coords="2,64.18,60.80,240.00,268.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Molecular surfaces<ref type="bibr" target="#b42">(43)</ref> focusing on the active site of PZD2 with substrate atoms in green (A) and the corresponding region in the x-ray crystal structure<ref type="bibr" target="#b37">(38)</ref> of the wild-type scaffold (B and C). An active-site cleft is present in the design of PZD2 that is largely filled in the wild-type structure. Wild-type residues that were mutated to create the active site are shown in C (F12, L17, and Y70). In the design of PZD2, all side chains were allowed to change geometry, resulting in a slightly different surface compared with that of the wild-type protein.</figDesc><graphic coords="3,63.14,532.21,504.00,163.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Kinetic model used to analyze the activity of PZD2.</figDesc><graphic coords="4,71.70,60.36,225.18,65.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Velocity vs. substrate concentration for the hydrolysis of PNPA by PZD2.</figDesc><graphic coords="4,85.23,509.21,198.24,204.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Buffer-corrected hydrolysis of PNPA by PZD2 (F), PZD2 H17A (ᮀ), wild-type thioredoxin (OE), and wild-type L17H͞D26I (ϫ). Data are shown for high substrate concentration and equivalent low protein concentration.</figDesc><graphic coords="4,335.70,60.66,222.24,205.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Trapping of an acylated intermediate by mass spectrometry. (A) PZD2, (B) PZD2 reacted with substrate, (C) PZD2 H17A, and (D) PZD2 H17A reacted with substrate.A large increase in the population of a ϩ42 species occurs on reaction of PZD2 with substrate, indicating the buildup of an acyl-enzyme intermediate. This ϩ42 species is dramatically reduced for PZD2 H17A where the designed catalytic histidine was mutated to alanine. A small increase in the population of a ϩ42 species is detected in PZD2 H17A on reaction with substrate and is likely the result of acylation at the single surface-exposed histidine at position 6. Consistent with this analysis, a small increase in the population of a double acetylated ϩ84 product is detected on reaction of PZD2 with substrate. A copper matrix adduct (ϩ63) is present<ref type="bibr" target="#b37">(38)</ref> in all spectra and in combination with free and acylated protein results in multiple peaks.</figDesc><graphic coords="5,90.24,60.97,188.00,345.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Lineweaver-Burk analysis of PZD2-catalyzed PNPA hydrolysis in the presence (ᮀ) and absence (F) of 10 mM PNPG.</figDesc><graphic coords="5,337.20,60.68,219.48,212.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Bolon and Mayo PNAS ͉ December 4, 2001 ͉ vol. 98 ͉ no. 25 ͉ 14275 BIOCHEMISTRY</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14276" xml:id="foot_1"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.251555398Bolon and Mayo</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14278" xml:id="foot_2"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.251555398Bolon and Mayo</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We acknowledge <rs type="person">F. S. Lee</rs> and <rs type="person">D. Bo</rs> ¨kenkamp for their important early efforts and <rs type="person">P. Strop</rs> and <rs type="person">R. A. Olofson</rs> for helpful discussions. We thank <rs type="person">G. Hathaway</rs> and the <rs type="institution">Protein͞Peptide Micro Analytical Laboratory</rs> for mass spectra. This work was supported by the <rs type="funder">Howard Hughes Medical Institute</rs> and the <rs type="funder">Ralph M. Parsons Foundation</rs> (S.L.M.), the Helen G. and <rs type="funder">Arthur McCallum Foundation</rs>, the <rs type="grantName">Evelyn Sharp Graduate Fellowship</rs>, and by a training grant from the <rs type="funder">National Institutes of Health</rs> (D.N.B.).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_dyMynfx">
+					<orgName type="grant-name">Evelyn Sharp Graduate Fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Filho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="595" to="603" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liese, A. &amp; Filho, M. V. (1999) Curr. Opin. Biotechnol. 10, 595-603.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Volkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="54" to="59" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F. H. &amp; Volkov, A. A. (1999) Curr. Opin. Chem. Biol. 3, 54-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Corey</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA</title>
+		<meeting>Natl. Acad. Sci. USA</meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="11428" to="11434" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Corey, M. J. &amp; Corey, E. (1996) Proc. Natl. Acad. Sci. USA 93, 11428-11434.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Petsko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="page" from="606" to="607" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petsko, G. A. (2000) Nature (London) 403, 606-607.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baltzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nilsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="355" to="360" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baltzer, L. &amp; Nilsson, J. (2001) Curr. Opin. Biotechnol. 12, 355-360.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="751" to="793" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hilvert, D. (2000) Annu. Rev. Biochem. 69, 751-793.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Barbas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="1797" to="1800" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>3rd</note>
+	<note type="raw_reference">Wagner, J., Lerner, R. A. &amp; Barbas, C. F., 3rd. (1995) Science 270, 1797-1800.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quemeneur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moutiez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Charbonnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Menez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="301" to="304" />
+			<date type="published" when="1998">1998</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quemeneur, E., Moutiez, M., Charbonnier, J. B. &amp; Menez, A. (1998) Nature (London) 391, 301-304.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Altamirano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aguayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Fersht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="page" from="617" to="622" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altamirano, M. M., Blackburn, J. M., Aguayo, C. &amp; Fersht, A. R. (2000) Nature (London) 403, 617-622.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Nixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Firestine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Salinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="3568" to="3571" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nixon, A. E., Firestine, S. M., Salinas, F. G. &amp; Benkovic, S. J. (1999) Proc. Natl. Acad. Sci. USA 96, 3568-3571.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="page" from="763" to="785" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hellinga, H. W. &amp; Richards, F. M. (1991) J. Mol. Biol. 222, 763-785.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Farid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Urbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mulholland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pidikiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Lear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Degrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Dutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page" from="425" to="432" />
+			<date type="published" when="1994">1994</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robertson, D. E., Farid, R. S., Moser, C. C., Urbauer, J. L., Mulholland, S. E., Pidikiti, R., Lear, J. D., Wand, A. J., DeGrado, W. F. &amp; Dutton, P. L. (1994) Nature (London) 368, 425-432.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klemba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Regan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="368" to="373" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klemba, M., Gardner, K. H., Marino, S., Clarke, N. D. &amp; Regan, L. (1995) Nat. Struct. Biol. 2, 368-373.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Caradonna</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA</title>
+		<meeting>Natl. Acad. Sci. USA</meeting>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="5562" to="5567" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinto, A. L., Hellinga, H. W. &amp; Caradonna, J. P. (1997) Proc. Natl. Acad. Sci. USA 94, 5562-5567.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Benson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Wisz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA 97</title>
+		<meeting>Natl. Acad. Sci. USA 97</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="6292" to="6297" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benson, D. E., Wisz, M. S. &amp; Hellinga, H. W. (2000) Proc. Natl. Acad. Sci. USA 97, 6292-6297.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fersht</surname></persName>
+		</author>
+		<title level="m">Enzyme Structure and Mechanism</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Freeman</publisher>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fersht, A. (1985) Enzyme Structure and Mechanism (Freeman, New York).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Dahiyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="82" to="87" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahiyat, B. I. &amp; Mayo, S. L. (1997) Science 278, 82-87.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Harbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Plecs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tidor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1462" to="1467" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harbury, P. B., Plecs, J. J., Tidor, B., Alber, T. &amp; Kim, P. S. (1998) Science 282, 1462-1467.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Street</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Struct. Fold. Des</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="105" to="R109" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Street, A. G. &amp; Mayo, S. L. (1999) Struct. Fold. Des. 7, R105-R109.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="509" to="513" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gordon, D. B., Marshall, S. A. &amp; Mayo, S. L. (1999) Curr. Opin. Struct. Biol. 9, 509-513.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="1570" to="1573" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pollack, S. J., Jacobs, J. W. &amp; Schultz, P. G. (1986) Science 234, 1570-1573.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tramontano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Janda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lerner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="1566" to="1570" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tramontano, A., Janda, K. D. &amp; Lerner, R. A. (1986) Science 234, 1566-1570.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Dunbrack</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karplus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">230</biblScope>
+			<biblScope unit="page" from="543" to="574" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunbrack, R. L., Jr., &amp; Karplus, M. (1993) J. Mol. Biol. 230, 543-574.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Olafson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Goddard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="8897" to="8909" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note>3rd.</note>
+	<note type="raw_reference">Mayo, S. L., Olafson, B. D. &amp; Goddard, W. A., 3rd. (1990) J. Phys. Chem. 94, 8897-8909.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Dahiyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Sarisky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="789" to="796" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahiyat, B. I., Sarisky, C. A. &amp; Mayo, S. L. (1997) J. Mol. Biol. 273, 789-796.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Dahiyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="10172" to="10177" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahiyat, B. I. &amp; Mayo, S. L. (1997) Proc. Natl. Acad. Sci. USA 94, 10172-10177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Dahiyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1333" to="1337" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahiyat, B. I., Gordon, D. B. &amp; Mayo, S. L. (1997) Protein Sci. 6, 1333-1337.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Connolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="709" to="713" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Connolly, M. L. (1983) Science 221, 709-713.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="379" to="400" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, B. &amp; Richards, F. M. (1971) J. Mol. Biol. 55, 379-400.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Street</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fold. Des</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="253" to="258" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Street, A. G. &amp; Mayo, S. L. (1998) Fold. Des. 3, 253-258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Gleason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="609" to="616" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gleason, F. K. (1992) Protein Sci. 1, 609-616.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pauling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="1948">1948</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pauling, L. (1948) Am. Sci. 36, 51-58.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="237" to="271" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holmgren, A. (1985) Annu. Rev. Biochem. 54, 237-271.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ladbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sturtevant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="7526" to="7530" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ladbury, J. E., Wynn, R., Hellinga, H. W. &amp; Sturtevant, J. M. (1993) Biochemistry 32, 7526-7530.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="11203" to="11209" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hellinga, H. W., Wynn, R. &amp; Richards, F. M. (1992) Biochemistry 31, 11203-11209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Desmet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Maeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hazes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lasters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="539" to="542" />
+			<date type="published" when="1992">1992</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Desmet, J., Maeyer, M. D., Hazes, B. &amp; Lasters, I. (1992) Nature (London) 356, 539-542.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Spriet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Desmet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="999" to="1009" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pierce, N. A., Spriet, J. A., Desmet, J. &amp; Mayo, S. L. (2000) J. Comput. Chem. 21, 999-1009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Katti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lemaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eklund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="167" to="184" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katti, S. K., LeMaster, D. M. &amp; Eklund, H. (1990) J. Mol. Biol. 212, 167-184.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Broo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brive</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ahlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baltzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="11362" to="11372" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broo, K. S., Brive, L., Ahlberg, P. &amp; Baltzer, L. (1997) J. Am. Chem. Soc. 119, 11362-11372.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baltzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2214" to="2220" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nilsson, J. &amp; Baltzer, L. (2000) Chemistry 6, 2214-2220.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA</title>
+		<meeting>Natl. Acad. Sci. USA</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="3778" to="3783" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voigt, C. A., Mayo, S. L., Arnold, F. H. &amp; Wang, Z. (2001) Proc. Natl. Acad. Sci. USA 98, 3778-3783.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Farber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="497" to="503" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reardon, D. &amp; Farber, G. K. (1995) FASEB J. 9, 497-503.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Honig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="281" to="296" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nicholls, A., Sharp, K. A. &amp; Honig, B. (1991) Proteins 11, 281-296.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

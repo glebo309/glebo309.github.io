@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biotechnology -A To ol to Transform Givaudan&apos;s Fragrance Ingredients Palette</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Eric</forename><surname>Eichhorn</surname></persName>
+							<email>eric.eichhorn@givaudan.com</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Corinne</forename><surname>Baumgartner</surname></persName>
+							<email>corinne.baumgartner@givaudan.com</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Marc</forename><surname>Biermann</surname></persName>
+							<email>marc.biermann@givaudan.com</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Fragrances S&amp;T, Ingredients Research</orgName>
+								<orgName type="institution">Givaudan Schweiz AG</orgName>
+								<address>
+									<addrLine>Kemptpark 50</addrLine>
+									<postCode>CH-8310</postCode>
+									<settlement>Kemptthal</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Ecole Supérieure de Biotechnologie de Strasbourg (EUCOR)</orgName>
+								<orgName type="institution" key="instit1">Université Louis Pasteur in Strasbourg</orgName>
+								<orgName type="institution" key="instit2">Bielefeld University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biotechnology -A To ol to Transform Givaudan&apos;s Fragrance Ingredients Palette</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7257B2B8FD686EFFF5D8D88EC4BA3F0F</idno>
+					<idno type="DOI">10.2533/chimia.2023.384</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T22:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Alcohol dehydrogenase</term>
+					<term>Biocatalysis</term>
+					<term>Ene reductase</term>
+					<term>Fragrances</term>
+					<term>Squalene-hopene cyclase</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To support perfumers in their creation of olfactive signatures resulting in unique and instantly recognizable perfumes, there is a constant demand for the development of new odorant molecules and of novel processes for their production. Increasing the sustainability of both the molecules and the processes is a crucial activity at Givaudan. Biocatalysis has the potential to positively influence metrics applied at Givaudan that drive and measure our ambition to innovate responsibly, which is summarized in the FiveCarbon Path™. It targets an increased use of renewable carbon, carbon efficiency in synthesis, and the production of powerful and biodegradable odorant molecules while maximizing the use of upcycled carbon available from waste and side streams. This review illustrates with some examples how enzymes selected from the oxidoreductase and isomerase enzyme classes are applied at Givaudan for the preparation of odorant molecules both at laboratory and industrial scale.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Natural as well as synthetic odorant molecules play a starring role in some of the world's most famous perfumes and appear in many much-loved consumer products, from laundry detergents to shampoos. At Givaudan, the development of new odorant molecules and novel processes to access them allows the perfumers to create olfactive signatures resulting in unique and instantly recognizable perfumes.</p><p>Increasing the sustainability of Givaudan's palette of odorant molecules has become a crucial activity over the last decade to keep perfumery creation relevant and to meet consumers' future expectations. To drive and measure our approach to innovating responsibly, Givaudan has launched the FiveCarbon Path TM (Fig. <ref type="figure" target="#fig_0">1</ref>). Odorant molecules may contain only a few heteroatoms, and the skeletons are predominantly built from carbon atoms. Consequently, we have to ensure that we use today's carbon sources wisely. Our ambition for developing sustainable molecules and processes, therefore, focuses on five measurable dimensions: (1)  increasing the use of renewable carbon, (2) increasing carbon efficiency in synthesis, (3) maximizing biodegradable carbon, (4) increasing the 'odour per carbon ratio' with high-impact materials, and (5) using upcycled carbon from side streams.</p><p>Each petal of Givaudan's FiveCarbon Path TM flower represents one sustainability dimension. Whilst two of the petals are related to the intrinsic properties of odorant molecules being biodegradable and performing, three petals are linked to the development of efficient processes according to green chemistry principles. <ref type="bibr" target="#b0">[1]</ref> At Givaudan, we see biotechnology as one of the crucial tools that enables us to transform our palette and deliver on our ambition. Whilst as illustrated by Domínguez de María biotechnology is not per se sustainable, <ref type="bibr" target="#b1">[2]</ref> both fermentative processes and biocatalysis have the potential to positively influence the metrics used to assess each of the five petals of our FiveCarbon Path TM .</p><p>substrates for the industrial production of commercially relevant cyclic terpenoids and derivatives.</p><p>In the fragrance industry (-)-ambrox (2) (Fig. <ref type="figure">2</ref>), with its characteristic and memorable ambery and woody odour reminiscent of tobacco and clary sage, is one of the most widely used biodegradable fragrance ingredients. We developed an industrial process for its production as Ambrofix TM through a single-step cyclization of (E,E)-homofarnesol, a substrate resulting from a C 1 -elongation of farnesene (C 15 ). <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> This new process is of significantly improved carbon efficiency compared to the original processes producing (-)-ambrox (2) in a multistep synthesis from the diterpene sclareol (C 20 ) <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> currently isolated from clary sage (Salvia sclarea). Random mutagenesis evolution resulted in SHC enzyme variants able to cyclize up to 300 g/l (E,E)-homofarnesol in three days in whole cell bioconversion systems with a cells-tosubstrate ratio of 1:1 (Scheme 1). <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref> The example of Ambrofix TM demonstrated for the first time that by taking advantage of their promiscuity, plasticity, and the possibility to be evolved, SHC enzymes can be turned into biocatalysts applicable at an industrial scale. In addition, we were able to show at a laboratory scale that SHC enzymes can be used for the production of other odorant molecules or intermediates (Fig. <ref type="figure">2</ref>).</p><p>The A. acidocaldarius variants created through random mutagenesis and screened for improved (E,E)-homofarnesol cyclization to (-)-ambrox also proved to be robust biocatalysts for ambra oxide (3) production. <ref type="bibr" target="#b27">[28]</ref> The whole cell reaction systems developed converted 125 g/l (E,E)-bishomofarnesol with a cells-to-substrate ratio of 2:1 in 2 days depending on the SHC variant considered.</p><p>The fragrance ingredient Grisalva ( <ref type="formula">4</ref>) is described as having ambery, animalic and leathery odour notes. Some of the variants that can efficiently produce (-)-ambrox (2) also showed an up to 8-fold increased (E,E)-ethylhomofarnesol cyclization to Grisalva (4) compared to the parent wild-type enzyme. <ref type="bibr" target="#b44">[29]</ref> To extend the substrate scope, we also demonstrated that SHC enzymes are applicable for the production of 2-oxygenated decalins. These compounds can be used as fragrance molecules directly, or serve as intermediates in the synthesis of other fragrance ingredients. <ref type="bibr" target="#b45">[30]</ref> In contrast to chemical cyclization methods that require harsh and highly acidic conditions, SHC enzymes allow for the production of 2-oxygenated decalins using milder reaction conditions and more control over the resulting stereo-and/or regioisomers. The reaction proceeds possibly via the formation of a secondary or vinylic carbocation, depending on the starting material used (alkene or alkyne), which reacts with water to form With regard to increasing the renewability of our odorant molecules, the numerous advances in the field led to the development of fermentative processes at an industrial scale producing, for example, terpene mixtures similar to essential oils or single molecules such as renewable farnesene, which can then be transformed further into odorant molecules. <ref type="bibr" target="#b2">[3]</ref> The 'odour per carbon' ratio, on the other hand, and thus the creation of powerful odorant molecules can be influenced by using enzymes that allow us to access the most performing isomer selectively. This performance is linked to the perceived or measurable intensity, evaluated e.g. in terms of bloom, strength, odour threshold, or long-lastingness over time of the single isomers of an odorant molecule vs. the isomeric mixture. Consequently, perfumers can use less material to achieve a similar olfactive effect in their creations. A further critical aspect to reducing the environmental impact is the development of efficient processes for the production of odorant molecules. Again, using biotechnology can help to reduce waste generation, reduce energy consumption, or increase the use of green solvents. <ref type="bibr" target="#b3">[4]</ref> In the following sections, we illustrate with some examples how Givaudan has successfully applied enzymes selected from specific enzyme classes to biocatalytic processes for the preparation of odorant molecules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Squalene-Hopene Cyclases</head><p>Squalene-hopene cyclase (SHC) enzymes transform the C 30 terpene squalene into the pentacyclic product hopene (1) via a cationic polycyclization involving five C-C bond formations (Fig. <ref type="figure">2</ref>). This remarkable step in triterpenoid synthesis occurs via a Brønsted acid-catalyzed mechanism <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref> with initial protonation of the C=C double bond of the terminal isoprene unit. The fact that these enzymes, unlike other terpene cyclases, do not require a phosphorylated precursor has attracted the attention of chemists and biochemists for several decades.</p><p>The prokaryotic SHC prototype was isolated from Alicyclobacillus acidocaldarius and characterized almost forty years ago in 1986. <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> Although intended for the cyclization of squalene to hopene (1) to rigidify the membrane of the thermophilic bacterium A. acidocaldarius, the observations that it could also cyclize molecules ranging from C 10 monoterpenoids to C 35 squalene analogues <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> suggested that SHC enzymes could accommodate substrates distantly related in structure.</p><p>Since then, the enzyme has been heterologously produced in E. coli <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref> allowing for mutagenesis studies, <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref> which, together with the determination of its crystal structure in 1997 <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref> unveiled its reaction mechanism. In addition, new members of the SHC enzyme family were discovered, some of them characterized in detail, enlarging the genetic diversity of available SHC enzymes. <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> At the same time, their plasticity and availability to be evolved was demonstrated. <ref type="bibr" target="#b21">[22]</ref> All this set the basis for evolving SHC enzymes, be it by means of directed evolution or rational design, towards the cyclization of natural and unnatural target Fig. 2. Products of Squalene-hopene cyclase-catalyzed reactions starting from linear building blocks A. Hopene (1), (-)-ambrox (2), ambra oxide (3), Grisalva (4), intermediates to fragrance compounds (5 and 6). The dotted line with the C-C bond represents either a C=C double bond or a C≡C triple bond.</p><p>catalysts in multi-enzyme cascades, as well as in chemoenzymatic systems, photoenzymatic, photoelectrochemical, and radical-mediated processes, was recently reviewed. <ref type="bibr" target="#b65">[50]</ref> Ene reductases are in great demand in the pharmaceutical industry due to intrinsic properties such as their excellent stereo-and regioselectivity. With regard to applications for odorant molecules (Fig. <ref type="figure">3</ref>), an ERED isolated from a Kazachstania exigua yeast strain was recently described, which reduces the monocyclic b-ionone to dihydro-b-ionone (7). <ref type="bibr" target="#b58">[43]</ref> Another ene reductase acting on large monocyclic C 12 to C 15 -membered ring enones isolated from the yeast-like fungus Sporidiobolus salmonicolor was characterized, <ref type="bibr" target="#b66">[51]</ref> which catalyzes the asymmetric reduction of the b-methyl substituted C 15 ring enone to Muscone (8) (Fig. <ref type="figure">3</ref>). Several EREDs of the Old Yellow Enzyme family reduce (E/Z)-citral producing both enantiomers of citronellal (9) (Fig. <ref type="figure">3</ref>) in excellent ee values, <ref type="bibr" target="#b56">[41]</ref> which can then be transformed into isopulegol, an intermediate in the synthesis of menthol, upon cyclization with SHC variants. <ref type="bibr" target="#b67">[52]</ref><ref type="bibr" target="#b68">[53]</ref><ref type="bibr" target="#b69">[54]</ref> An ERED-based biocatalytic process was recently described for the production of decanal, a powerful aldehydic waxy and floral note with orange and citrus peel facets. Decanal was produced from the linear substrate 2E-decenal in preparative scale reactions with 10 g/l substrate. <ref type="bibr" target="#b70">[55]</ref> In a two-enzyme cascade in combination with alcohol dehydrogenases (ADH), an ene reductase from the Old Yellow Enzyme family was used to produce the two main odour vectors out of the four stereoisomers of Muguesia ® (10) (Fig. <ref type="figure">3</ref>), a transparent floral, muguet, rosy fragrance molecule with green and mentholic facets. <ref type="bibr" target="#b71">[56]</ref> In the same odour family (muguet, lily of the valley), EREDs served to prepare non-racemic a-methyl dihydrocinnamaldehyde derivatives such as Lilial ® (11)  and Tropional ® (12) (Fig. <ref type="figure">3</ref>). These compounds were produced in quantitative yield and with high selectivity (&gt; 95% ee). <ref type="bibr" target="#b72">[57]</ref> a decalin alcohol (5) or ketone (6). Surprisingly, a decalin ketone is formed from a terminal acetylenic substrate since the formation of a carbon-carbon bond between the terminal acetylene carbon atom and the tertiary carbocation requires an unexpected change in geometry of the otherwise rigid linear acetylene moiety.</p><p>A further aspect of the applicability of SHC enzymes to the production of fragrance compounds was illustrated recently with the example of g-dihydroionone. <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b46">31]</ref> The ability of these enzymes to discriminate between geometric isomers of a substrate was highlighted, and our findings strengthened the view that stereodivergent and enantioselective transformation of geometric isomers is a general principle in SHC catalysis.</p><p>The versatility, plasticity, and attractiveness of SHC enzymes due to their independence of cofactors will undoubtedly translate into further industrial applications of these enzymes both in and outside the field of fragrance chemistry. Current trends in the areas of substrate engineering to generate novel terpenoids, genetic engineering of SHC enzymes to diversify product portfolio, and metagenomic investigations to add novel cyclases to the toolbox will certainly foster this development.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ene Reductases</head><p>Biocatalytic alkene reduction is catalyzed by families of enzymes known collectively as ene reductases (ERED). Members of the Old Ye llow Enzyme family dominate the scene in the enzyme-catalyzed reduction of activated C=C double bonds. However, enoate reductases, medium-chain dehydrogenases, short-chain dehydrogenases and quinone reductase-like EREDs are other players in this area. <ref type="bibr" target="#b47">[32]</ref> These enzymes catalyze the trans-hydrogenation of the C=C double bond of a,b-unsaturated carbonyl compounds, which has the potential to generate up to two stereogenic centers. <ref type="bibr" target="#b48">[33,</ref><ref type="bibr" target="#b49">34]</ref> They represent an attractive alternative method to the syn-addition of hydrogen to alkenes in the presence of metal catalysts.</p><p>Due to their wide substrate scope, ene reductases gained broad practical use as they accept a,b-unsaturated aldehydes, ketones, carboxylic acids and derivatives (esters, lactones, cyclic acids anhydrides, carboxylic acids) as substrates. <ref type="bibr" target="#b50">[35,</ref><ref type="bibr" target="#b51">36]</ref> Their applicability at a preparative scale with excellent yields and enantiomeric excess was demonstrated, and their utility in biocatalytic applications is well established. <ref type="bibr" target="#b52">[37,</ref><ref type="bibr" target="#b53">38]</ref> Recent efforts extend the product portfolio of these enzymes not only by exploiting genetic diversity and introducing new EREDs to the palette, <ref type="bibr" target="#b54">[39]</ref><ref type="bibr" target="#b55">[40]</ref><ref type="bibr" target="#b56">[41]</ref><ref type="bibr" target="#b57">[42]</ref><ref type="bibr" target="#b58">[43]</ref> but also by means of enzyme engineering, <ref type="bibr" target="#b59">[44]</ref> substrate functionalization and set-up of multi-enzyme cascades <ref type="bibr" target="#b54">[39]</ref> in combination with, e.g. alcohol dehydrogenases, <ref type="bibr" target="#b60">[45,</ref><ref type="bibr" target="#b61">46]</ref> transaminases, <ref type="bibr" target="#b62">[47]</ref> or Baeyer-Villiger monooxygenases. <ref type="bibr" target="#b63">[48]</ref> These efforts also tend to develop alternatives to natural NADH or NADPH cofactor regeneration leading to cost-effective hydride sources for application at laboratory and industrial scale. <ref type="bibr" target="#b63">[48,</ref><ref type="bibr" target="#b64">49]</ref> The versatility of EREDs acting as individual Fig. 3. Various odorant molecules prepared from building blocks B using ene reductases. Dihydro-b-ionone (7), Muscone (8), citronellal (9), Muguesia ® (10), Lilial ® (11), Tropional ® (12).</p><p>Dehydromahonial conversion in approx. 6 h, Mahonial (13) representing &gt; 95% of the product mixture. <ref type="bibr" target="#b74">[59]</ref> The finding that EREDs can be used for the selective hydrogenation of a,b,g,d-di-unsaturated aldehydes was extended to the example of Calmusal (14). It was found that the enzymes able to reduce Dehydrocalmusal to Calmusal (14) differed from those observed for the reduction of Dehydromahonial to Mahonial (13). Interestingly and in contrast to Mahonial (13), Calmusal ( <ref type="formula">14</ref>) was stable and not further reduced to the corresponding alcohol by ERED-unrelated reduction reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Alcohol Dehydrogenases</head><p>Alcohols, aldehydes, and ketones are among the most important odorants, covering many olfactive families with iconic ingredients. <ref type="bibr" target="#b75">[60,</ref><ref type="bibr" target="#b28">61]</ref> While chemically reducing aldehydes and ketones to alcohols can be done very selectively via catalytic hydrogenation, oxidations are often less selective. As a result, they require stoichiometric amounts of oxidizing agents (e.g. PCC, Dess-Martin, and Swern oxidations), producing a large amount of waste.</p><p>Enzymatically, alcohol oxidations are performed either by alcohol oxidases, which can utilize oxygen directly but have a relatively narrow substrate scope or by alcohol dehydrogenases (ADH; or keto reductases, KRED), whose primary oxidant is a cofactor. <ref type="bibr" target="#b29">[62,</ref><ref type="bibr" target="#b30">63]</ref> In fact, ADHs can catalyze both the reduction of C=O double bonds (i.e. ketones or aldehydes) using NAD(P)H and the oxidation of primary or secondary alcohols using NAD(P) + . The reaction is reversible, and the direction in which it is performed can be controlled by the oxidation state of the cofactor offered to the enzyme and other means of shifting equilibria, such as an excess substrate or product removal. <ref type="bibr" target="#b32">[64]</ref> As it is not economically feasible to use stoichiometric amounts of the cofactor, a cofactor regeneration system is generally used to recycle the cofactor employing reducing or oxidizing a most cost-efficient co-substrate.</p><p>Olfactive receptors are proteins and, as such, inherently chiral. Therefore, it is not uncommon to find the different stereoisomers of a fragrance ingredient to have significantly different olfactive properties. While a simple difference in odour threshold is not usually enough to justify a stereoselective process, especially when looking at a racemic resolution where 50% of the material is lost, a different olfactive character can make it worthwhile.</p><p>ADHs have been extensively used in the synthesis of odorants in the past. <ref type="bibr" target="#b33">[65]</ref> Hernik et al. <ref type="bibr" target="#b34">[66]</ref> recently employed ADH-containing whole cells of the Rhodococcus genus to obtain the four isomers of whisky lactone. A combination of commercial ADHs and lipases was used by Vieira et al. <ref type="bibr" target="#b35">[67]</ref> to produce both enantiomers of Mugetanol selectively. In a recent review, Ribeaucourt et al. <ref type="bibr" target="#b36">[68]</ref> summarized the biocatalytic approaches, including ADHs in the oxidative direction, to prepare fatty aldehydes from fatty alcohols, such as hexanal or nonanal.</p><p>Together with InnoSyn and c-LEcta within the European Horizon 2020 project ROBOX, we have developed an enzymatic, racemic resolution of Undecavertol (15) using an (S)-selective ADH in the oxidative direction. <ref type="bibr" target="#b37">[69,</ref><ref type="bibr" target="#b38">70]</ref> An oxygen-dependent NAD(P)H oxidase, engineered by c-LEcta, was used for cofactor regeneration producing only water as a by-product and driving the reaction in the desired direction. Thus, (S)-Undecavertol ((S)-15) is oxidized by the enzyme to Undecavertone (16). Whilst (R)-Undecavertol ((R)-15) is left untouched, (S)-15 is fully converted to 16 (Scheme 2). Both products are subsequently separated by fractionated distillation.</p><p>The ADH used was found to be highly stable in the presence of high concentrations of substrate and products. For example, on a laboratory scale, we could reach up to 680 g/l of the substrate while only using 5.2 g/l of the enzyme and still completing the reaction within 16 h, making this a highly productive process.</p><p>With regard to substrate scope, interestingly, no reports were available so far relating to the treatment of a,b,g,d-di-unsaturated linear aldehydes using ene reductases. A few similar examples were described using a deazaflavin-dependent enzyme in combination with an F 420 -dependent glucose-6-phosphate dehydrogenase. <ref type="bibr" target="#b73">[58]</ref> At Givaudan we were interested in accessing g,d-unsaturated odorant aldehydes like Mahonial (13) and Calmusal (14) (Fig. <ref type="figure" target="#fig_2">4</ref>) and our investigations indicated that EREDs can be used for the selective hydrogenation of the a,b double bond of the corresponding di-unsaturated aldehydes. <ref type="bibr" target="#b74">[59]</ref> Ten commercially available EREDs were tested in combination with five glucose dehydrogenases (GDH) for cofactor regeneration. In addition, six ene reductases were heterologously produced in E. coli: OPR1 (Lycopersicon esculentum), OYE2.6 (Pichia stipitis), XENB (Pseudomonas fluorescens), NCR (Zymomonas mobilis), DBVPG (Kazachstania lodderae) and OYE3 (Saccharomyces cerevisiae), and their ability to catalyze the reaction of interest was tested using lyophilized cell-free extracts in combination with GDH for cofactor regeneration.</p><p>Conversion of Dehydromahonial to Mahonial (13) heavily depended on the ERED used. Screening for GDH enzymes also revealed the importance of choosing the appropriate GDH preparation for ensuring the highest production level of Mahonial (13)  as well as stability of both the substrate and the product. Observed side reactions were the ene reductase-independent reduction of the aldehydes by alcohol or aldehyde dehydrogenases present in enzyme lyophilisates, leading to the corresponding alcohols of the starting material as well as of the product.</p><p>Another aspect of the investigations dealt with the use of water-miscible co-solvents in place of DMSO and the use of toluene to test the suitability of two-phase systems for enabling high levels of substrate conversion and ensuring product stability. Any of the tested water-miscible solvents could replace DMSO when supplied at 5% v/v. At 10% v/v methanol, complete and selective (&gt; 95%) conversion of Dehydromahonial to Mahonial (13) was obtained. In a two-phase system, the water-immiscible toluene could be applied at 5 and 10% v/v, allowing for fast and full conversion of Dehydromahonial (&gt; 96% in 3 h). This approach ensured excellent substrate and product stability, with Mahonial (13) accounting for ≥ 99% of the product mixture.</p><p>The influence of surfactants or other agents like cyclodextrins was not investigated although these additives may help increasing substrate conversion while increasing the solubility of water-insoluble compounds.</p><p>The volumetric productivity could be further improved by increasing substrate concentration to e.g. 20 g/l in reaction mixtures containing 1 g/l ERED and NADP in the presence of 2 g/l GDH. Supplying the reaction with appropriate concentrations of glucose and running the reaction at a temperature and pH defined as optimal for the combination of ERED/GDH used led to &gt; 80% </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion and Perspective on Artificial Intelligence in Biocatalysis</head><p>As illustrated in the previous chapters with a few selected examples, biotechnology as a whole and biocatalysis, in particular, have tremendous potential as complementary tools to classic chemical synthesis, even for the production of fragrance ingredients, which generally require very (cost)-efficient processes. Hence, to further establish biocatalytic processes on an industrial scale in our industry, simplifying the access to enzymes and/or decreasing the efforts to develop these processes will be critical.</p><p>Ve ry encouraging are, therefore, the recent advances in computational enzyme engineering, which will help to understand structure-function relationships, discover new enzymatic activities, and improve biocatalysts to become even more cost-efficient and widely applicable.</p><p>The function of an enzyme is inherently connected to its structure. However, until a few years ago, only a tiny fraction of the known proteins had crystal structures available. While homology modelling and early structure predictions helped close some of the gaps, the advancement in deep learning algorithms has opened a new world of possibilities.</p><p>Methods such as AlphaFold <ref type="bibr" target="#b39">[71,</ref><ref type="bibr" target="#b40">72]</ref> (by DeepMind), RoseTTAFold <ref type="bibr" target="#b41">[73]</ref> (by the Baker lab), and ESM Fold <ref type="bibr" target="#b42">[74]</ref> (by Meta AI) use neural networks trained on large databases of known protein structures to de novo predict three-dimensional protein structures from sequence data.</p><p>With breakthroughs at the CASP13 and 14 contests in 2018 and 2020, DeepMind's AlphaFold algorithms have paved the way for subsequent developments in the area. They have been recognized as a solution to the decades-old Anfinsen's dogma of amino acid sequence and protein-folding, which states that the structure of a globular protein is solely determined by its amino acid sequence ('protein-folding problem') <ref type="bibr" target="#b43">[75]</ref> with a prediction accuracy down to the atomic level. In mid-2021, the group predicted and published the structures of all human proteins and those of another 20 model organisms. By mid-2022, an additional 200 million structures had been published, covering most proteins in NCBI and UniProt databases. Meanwhile, Meta AI's team has published the ESM Metagenomic Atlas <ref type="bibr">[76]</ref> containing predicted structures of all over 600 million proteins in the Mgnify90 <ref type="bibr">[77]</ref> metagenomic database.</p><p>All three algorithms were published under permissive licenses, allowing educational and commercial use as well as distribution and modification. In addition, they provide servers with easy-to-use interfaces and the possibility to use the algorithms locally. This Open Source mindset ultimately facilitates scientific innovation and accelerates developments, especially in data-driven disciplines like biotechnology. Artificial intelligence already significantly impacts our daily lives but will also transform how we analyze data and work as scientists.</p><p>While Artificial Intelligence will not completely replace the need for experiments, it will significantly reduce their number and, therefore, the time and resources needed. By improving the efficiency and specificity of enzymes, AI-driven enzyme engineering will help to reduce waste and energy consumption in industrial processes. It will accelerate the transformation of the chemical industry by making these processes more efficient and environmentally friendly, contributing to a more sustainable future and supporting Givaudan to deliver on our ambition in line with the FiveCarbon Path TM .</p><p>Received: March 29, 2023  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Givaudan's FiveCarbon Path TM</figDesc><graphic coords="2,36.85,69.45,259.37,128.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Scheme 1 .Fig. 3 .</head><label>13</label><figDesc>Scheme 1. (-)-Ambrox produced as Ambrofix TM from (E,E)homofarnesol with Squalenehopene cyclase.</figDesc><graphic coords="3,28.35,69.42,400.39,178.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Selective ene reductase reduction of the a,b-double bond of conjugated dienals C to deconjugated enals. Reaction products: Mahonial (13) and Calmusal (14).</figDesc><graphic coords="4,36.85,200.01,259.37,111.12" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>License and Terms</head><p>This is an Open Access article under the terms of the Creative Commons Attribution License CC BY 4.0. The material may not be used for commercial purposes. The license is subject to the CHIMIA terms and conditions: (<ref type="url" target="https://chimia.ch/chimia/about">https://chimia.ch/chimia/about</ref>).</p><p>The definitive version of this article is the electronic one that can be found at <ref type="url" target="https://doi.org/10.2533/chimia.2023.384">https://doi.org/10.2533/chimia.2023.384</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Green chemistry: theory and practice</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Anastas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Warner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Anastas, J. Warner, &apos;Green chemistry: theory and practice&apos;, Oxford University Press, Oxford, 1998.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domínguez De María</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cogsc.2021.100514</idno>
+		<ptr target="https://doi.org/10.1016/j.cogsc.2021.100514" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Green Sus. Chem</title>
+		<imprint>
+			<biblScope unit="page" from="31" to="100514" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Domínguez de María, Curr. Opin. Green Sus. Chem. 2021, 31, 100514, https://doi.org/10.1016/j.cogsc.2021.100514.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lecourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Antoniotti</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cssc.202001661</idno>
+		<ptr target="https://doi.org/10.1002/cssc.202001661" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">5600</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Lecourt, S. Antoniotti, ChemSusChem 2020, 13, 5600, https://doi.org/10.1002/cssc.202001661.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domínguez De María</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Littlechild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schürmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wohlgemuth</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cssc.202102709</idno>
+		<ptr target="https://doi.org/10.1002/cssc.202102709" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<date type="published" when="2022">2022, 15, e2021027</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. R. Alcántara, P. Domínguez de María, J. A. Littlechild, M. Schürmann, R. A. Sheldon, R. Wohlgemuth, ChemSusChem 2022, 15, e2021027, https://doi.org/10.1002/cssc.202102709.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kumai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ohashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B407001A</idno>
+		<ptr target="https://doi.org/10.1039/B407001A" />
+	</analytic>
+	<monogr>
+		<title level="j">Org. Biomol. Chem</title>
+		<imprint>
+			<date type="published" when="2004">2004, 2, 2650</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Hoshino, Y. Kumai, I. Kudo, S. Nakano, S. Ohashi, Org. Biomol. Chem. 2004, 2, 2650, https://doi.org/10.1039/B407001A.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.00300-11</idno>
+		<ptr target="https://doi.org/10.1128/AEM.00300-11" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Siedenburg, D. Jendrossek, Appl. Environ. Microbiol. 2011, 77, 3905, https://doi.org/10.1128/AEM.00300-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/bchm3.1986.367.2.723</idno>
+		<ptr target="https://doi.org/10.1515/bchm3.1986.367.2.723" />
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Chem. Hoppe-Seyler</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Neumann, H. Simon, Biol. Chem. Hoppe-Seyler 1986, 367, 723, https://doi.org/10.1515/bchm3.1986.367.2.723.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-4165(86)90027-9</idno>
+		<ptr target="https://doi.org/10.1016/0304-4165(86)90027-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">881</biblScope>
+			<biblScope unit="page">356</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Seckler, K. Poralla, Biochim. Biophys. Acta 1986, 881, 356, https://doi.org/10.1016/0304-4165(86)90027-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Noguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja020973u</idno>
+		<ptr target="https://doi.org/10.1021/ja020973u" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">14514</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Abe, H. Tanaka, H. Noguchi, J. Am. Chem. Soc. 2002, 124, 14514, https://doi.org/10.1021/ja020973u.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klebensberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebenhaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcatb.2012.02.007</idno>
+		<ptr target="https://doi.org/10.1016/j.molcatb.2012.02.007" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Seitz, J. Klebensberger, S. Siebenhaller, M. Breuer, G. Siedenburg, D. Jendrossek, B. Hauer, J. Mol. Catal. B Enzym. 2012, 84, 72, https://doi.org/10.1016/j.molcatb.2012.02.007.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rohmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Prestwich</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr00022a009</idno>
+		<ptr target="https://doi.org/10.1021/cr00022a009" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">2189</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Abe, M. Rohmer, G. D. Prestwich, Chem. Rev. 1993, 93, 2189, https://doi.org/10.1021/cr00022a009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ochs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Entian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beck-Sickinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/jb.174.1</idno>
+		<ptr target="https://doi.org/10.1128/jb.174.1" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page">298</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ochs, C. Kaletta, K. D. Entian, A. Beck-Sickinger, K. Poralla, J. Bacteriol. 1992, 174, 298, https://doi.org/10.1128/jb.174.1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ochs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gärtner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1432-1033.1990.tb19429.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1432-1033.1990.tb19429.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ochs, C. H. Tappe, P. Gärtner, R. Kellner, K. Poralla, Eur. J. Biochem. 1990, 194, 75, https://doi.org/10.1111/j.1432-1033.1990.tb19429.x.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pale-Grosdemange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Merkofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rohmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0040-4039(99)01248-4</idno>
+		<ptr target="https://doi.org/10.1016/S0040-4039(99)01248-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Pale-Grosdemange, T. Merkofer, M. Rohmer, K. Poralla, Tetrahedron Lett. 1999, 40, 6009, https://doi.org/10.1016/S0040-4039(99)01248-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sato</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B108995C</idno>
+		<ptr target="https://doi.org/10.1039/B108995C" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Hoshino, T. Sato, Chem. Commun. 2002, 291, https://doi.org/10.1039/B108995C.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Wendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lenhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.1998.2470</idno>
+		<ptr target="https://doi.org/10.1006/jmbi.1998.2470" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. U. Wendt, A. Lenhart, G. E. Schulz, J. Mol. Biol. 1999, 286, 175, https://doi.org/10.1006/jmbi.1998.2470.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Wendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.277.5333.1811</idno>
+		<ptr target="https://doi.org/10.1126/science.277.5333.1811" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page">1811</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. U. Wendt, K. Poralla, G. E. Schulz, Science 1997, 277, 1811, https://doi.org/10.1126/science.277.5333.1811.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eichenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hüppi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Patsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aeberli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berweger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dossenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flachsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hortencio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vo Irol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vo Llenweider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buller</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202108037</idno>
+		<ptr target="https://doi.org/10.1002/anie.202108037" />
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">26080</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Eichenberger, S. Hüppi, D. Patsch, N. Aeberli, R. Berweger, S. Dossenbach, E. Eichhorn, F. Flachsmann, L. Hortencio, F. Vo irol, S. Vo llenweider, U. T. Bornscheuer, R. Buller, Angew. Chem. Int. Ed. 2021, 60, 26080, https://doi.org/10.1002/anie.202108037.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Perzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Kannenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00221287-143-4-1235</idno>
+		<ptr target="https://doi.org/10.1099/00221287-143-4-1235" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">1235</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Perzl, P. Müller, K. Poralla, E. L. Kannenberg, Microbiology 1997, 143, 1235, https://doi.org/10.1099/00221287-143-4-1235.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tippelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jahnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poralla</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0005-2760(97)00212-9</idno>
+		<ptr target="https://doi.org/10.1016/S0005-2760(97)00212-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="1391">1998, 1391</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Tippelt, L. Jahnke, K. Poralla, Biochim. Biophys. Acta 1998, 1391, 223, https://doi.org/10.1016/S0005-2760(97)00212-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fbioe.2020.00426</idno>
+		<ptr target="https://doi.org/10.3389/fbioe.2020.00426" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Bioeng. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">426</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Liu, Y. Zhang, J. Sun, W.-C. Huang, C. Xue, X. Mao, Front. Bioeng. Biotechnol. 2020, 8, 426, https://doi.org/10.3389/fbioe.2020.00426.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P. -O</forename><surname>Syrén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klebensberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbic.201300018</idno>
+		<ptr target="https://doi.org/10.1002/cbic.201300018" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Seitz, P. -O. Syrén, L. Steiner, J. Klebensberger, B. M. Nestl, B. Hauer. ChemBioChem 2013, 14, 436, https://doi.org/10.1002/cbic.201300018.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Locher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guillemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fourage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schilling</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adsc.201800132</idno>
+		<ptr target="https://doi.org/10.1002/adsc.201800132" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page">2339</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Eichhorn, E. Locher, S. Guillemer, D. Wahler, L. Fourage, B. Schilling, Adv. Synth. Catal. 2018, 360, 2339, https://doi.org/10.1002/adsc.201800132.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Fo od Chem</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schröder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Agric</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jafc.2c09010</idno>
+		<ptr target="https://doi.org/10.1021/acs.jafc.2c09010" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">5042</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Eichhorn, F. Schröder, J. Agric. Fo od Chem. 2023, 71, 5042, https://doi.org/10.1021/acs.jafc.2c09010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hinder</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hlca.19500330518</idno>
+		<ptr target="https://doi.org/10.1002/hlca.19500330518" />
+	</analytic>
+	<monogr>
+		<title level="j">Helv. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">1251</biblScope>
+			<date type="published" when="1950">1950</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Stoll, M. Hinder, Helv. Chim. Acta 1950, 33, 1251, https://doi.org/10.1002/hlca.19500330518.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hinder</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hlca.19500330527</idno>
+		<ptr target="https://doi.org/10.1002/hlca.19500330527" />
+	</analytic>
+	<monogr>
+		<title level="j">Helv. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">1308</biblScope>
+			<date type="published" when="1950">1950</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Stoll, M. Hinder, Helv. Chim. Acta 1950, 33, 1308, https://doi.org/10.1002/hlca.19500330527.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fourage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Locher</surname></persName>
+		</author>
+		<title level="m">Int. Patent WO 2016/170099 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2015-04-24">Apr 24, 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Eichhorn, B. Schilling, D. Wahler, L. Fourage, E. Locher, Int. Patent WO 2016/170099 to Givaudan SA (Apr 24, 2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Scheme 2. Enzymatic, racemic resolution of Undecavertol (15). The products (R)-15 and 16 are produced in a 1:1 ratio</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ullmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Patent WO 2021/110848 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2019-12-04">Dec 4, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Eichhorn, C. Ullmann, Int. Patent WO 2021/110848 to Givaudan SA (Dec 4, 2019). Scheme 2. Enzymatic, racemic resolution of Undecavertol (15). The products (R)-15 and 16 are produced in a 1:1 ratio.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Armanino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Charpentier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flachsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liniger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kraft</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202005719</idno>
+		<ptr target="https://doi.org/10.1002/anie.202005719" />
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">16310</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Armanino, J. Charpentier, F. Flachsmann, A. Goeke, M. Liniger, P. Kraft, Angew. Chem. Int. Ed. 2020, 59, 16310, https://doi.org/10.1002/anie.202005719.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Opperman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Paul</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202001876</idno>
+		<ptr target="https://doi.org/10.1002/anie.202001876" />
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">5644</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Hollmann, D. J. Opperman, C. E. Paul, Angew. Chem. Int. Ed. 2021, 60, 5644, https://doi.org/10.1002/anie.202001876.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Green Oxidation in Organic Synthesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wedde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zumbrägel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gröger</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">S. Wedde, M. Biermann, J. E. Choi, K. Oike, N. Zumbrägel, H. Gröger, in &apos;Green Oxidation in Organic Synthesis&apos;, Eds.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Wiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sons</forename><surname>Ltd</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119304197.ch16</idno>
+		<ptr target="https://doi.org/10.1002/9781119304197.ch16" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page">439</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Jiao, S. S. Stahl, John Wiley &amp; Sons Ltd., 2019, p. 439, https://doi.org/10.1002/9781119304197.ch16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gröger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiotec.2014.07.449</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiotec.2014.07.449" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Hummel, H. Gröger, J. Biotechnol. 2014, 191, 22, https://doi.org/10.1016/j.jbiotec.2014.07.449.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fuganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Serra</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr100289r</idno>
+		<ptr target="https://doi.org/10.1021/cr100289r" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Brenna, C. Fuganti, F. G. Gatti, S. Serra, Chem. Rev. 2011, 111, 4036, https://doi.org/10.1021/cr100289r.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hernik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Szczepańska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Olejniczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boratyński</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Front</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2023.1117835</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2023.1117835" />
+		<imprint>
+			<date type="published" when="2023">Microbiol. 2023, 14, 1117835</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Hernik, F. Gatti, E. Brenna, E. Szczepańska, T. Olejniczak, F. Boratyński, Front. Microbiol. 2023, 14, 1117835, https://doi.org/10.3389/fmicb.2023.1117835.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A B</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L G</forename><surname>Lemos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>De Mattos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Da Conceicão</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M M</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Gonzalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gotor-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gotor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tetasy.2009.01.016</idno>
+		<ptr target="https://doi.org/10.1016/j.tetasy.2009.01.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahdron Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. B. Vieira, T. L. G. Lemos, M. C. de Mattos, M. da Conceicão F. de Oliveira, V. M. M. Melo, G. de Gonzalo, V. Gotor-Fernández, V. Gotor, Tetrahdron Asymmetry 2009, 20, 214, https://doi.org/10.1016/j.tetasy.2009.01.016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ribeaucourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bissaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lafond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-G</forename><surname>Berrin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biotechadv.2021.107787</idno>
+		<ptr target="https://doi.org/10.1016/j.biotechadv.2021.107787" />
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Adv</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">107787</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ribeaucourt, B. Bissaro, F. Lambert, M. Lafond, F.-G. Berrin, Biotechnol. Adv. 2022, 56, 107787, https://doi.org/10.1016/j.biotechadv.2021.107787.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schürmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schmitges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vo Gel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brummund</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.oprd.1c00415</idno>
+		<ptr target="https://doi.org/10.1021/acs.oprd.1c00415" />
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<date type="published" when="2021">2022, 26, 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Biermann, M. Schürmann, T. Schmitges, A. Vo gel, J. Brummund, Org. Process Res. Dev. 2022, 26, 2021, https://doi.org/10.1021/acs.oprd.1c00415.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Baumgartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ellwood</surname></persName>
+		</author>
+		<title level="m">Int. Patent WO 2019/158558A1 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2018-02-14">Feb 14, 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Biermann, C. Baumgartner, S. Ellwood, Int. Patent WO 2019/158558A1 to Givaudan SA (Feb 14, 2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Žídek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Potapenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridgland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A A</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cowie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Romera-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Clancy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pacholska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Berghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bodenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vinyals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Senior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hassabis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+		<ptr target="https://doi.org/10.1038/s41586-021-03819-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">583</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Jumper, R. Evans, A. Pritzel, T. Green, M. Figurnov, O. Ronneberger, K. Tunyasuvunakool, R. Bates, A. Žídek, A. Potapenko, A. Bridgland, C. Meyer, S. A. A. Kohl, A. J. Ballard, A. Cowie, B. Romera-Paredes, S. Nikolov, R. Jain, J. Adler, T. Back, S. Petersen, D. Reiman, E. Clancy, M. Zielinski, M. Steinegger, M. Pacholska, T. Berghammer, S. Bodenstein, D. Silver, O. Vinyals, A. W. Senior, K. Kavukcuoglu, P. Kohli, D. Hassabis, Nature 2021, 596, 583, https://doi.org/10.1038/s41586-021-03819-2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Žídek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Potapenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridgland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A A</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cowie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Romera-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Clancy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pacholska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Berghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vinyals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Senior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hassabis</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.26257</idno>
+		<ptr target="https://doi.org/10.1002/prot.26257" />
+	</analytic>
+	<monogr>
+		<title level="j">Proteins</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">1711</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Jumper, R. Evans, A. Pritzel, T. Green, M. Figurnov, O. Ronneberger, K. Tunyasuvunakool, R. Bates, A. Žídek, A. Potapenko, A. Bridgland, C. Meyer, S. A. A. Kohl, A. J. Ballard, A. Cowie, B. Romera-Paredes, S. Nikolov, R. Jain, J. Adler, T. Back, S. Petersen, D. Reiman, E. Clancy, M. Zielinski, M. Steinegger, M. Pacholska, T. Berghammer, D. Silver, O. Vinyals, A. W. Senior, K. Kavukcuoglu, P. Kohli, D. Hassabis, Proteins 2021, 89, 1711, https://doi.org/10.1002/prot.26257.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dimaio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Anishchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dauparas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ovchinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Cong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Kinch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Millán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Glassman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Degiovanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Van Dijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ebrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Opperman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sagmeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buhlheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pavkov-Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Rathinaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Dalwadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Grishin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.abj8754</idno>
+		<ptr target="https://doi.org/10.1126/science.abj8754" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">871</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Baek, F. DiMaio, I. Anishchenko, J. Dauparas, S. Ovchinnikov, G. Rie Lee, J. Wang, Q. Cong, L. N. Kinch, R. D. Schaeffer, C. Millán, H. Park, C. Adams, C. R. Glassman, A. DeGiovanni, J. H. Pereira, A. V. Rodrigues, A. A. van Dijk, A. C. Ebrecht, D. J. Opperman, T. Sagmeister, C. Buhlheller, T. Pavkov-Keller, M. K. Rathinaswamy, U. Dalwadi, C. K. Yip, J. E. Burke, K. C. Garcia, N. V. Grishin, P. D. Adams, R. J. Read, D. Baker, Science 2021, 373, 871, https://doi.org/10.1126/science.abj8754.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Smetanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ve Rkuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kabeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shmueli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dos Santos Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fazel-Zarandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sercu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Candido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rives</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.ade2574</idno>
+		<ptr target="https://doi.org/10.1126/science.ade2574" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page">1123</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Lin, H. Akin, R. Rao, B. Hie, Z. Zhu, W. Lu, N. Smetanin, R. Ve rkuil, O. Kabeli, Y. Shmueli, A. dos Santos Costa, M. Fazel- Zarandi, T. Sercu, S. Candido, A. Rives, Science 2023, 379, 1123, https://doi.org/10.1126/science.ade2574.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Anfinsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.181.4096.223</idno>
+		<ptr target="https://doi.org/10.1126/science.181.4096.223" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="page" from="181" to="223" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. B. Anfinsen, Science 1973, 181, 223, https://doi.org/10.1126/science.181.4096.223.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flachsmann</surname></persName>
+		</author>
+		<title level="m">Int. Patent WO 2021/110858 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2019-12-04">Dec 4, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Eichhorn, F. Flachsmann, Int. Patent WO 2021/110858 to Givaudan SA (Dec 4, 2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flachsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<title level="m">Int. Patent WO 2020/173977 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2019-02-27">Feb 27, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Flachsmann, E. Eichhorn, Int. Patent WO 2020/173977 to Givaudan SA (Feb 27, 2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jegl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202101228</idno>
+		<ptr target="https://doi.org/10.1002/anie.202101228" />
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">13251</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Schneider, P. Jegl, B. Hauer, Angew. Chem. Int. Ed. 2021, 60, 13251, https://doi.org/10.1002/anie.202101228.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sievers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buller</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbic.201800770</idno>
+		<ptr target="https://doi.org/10.1002/cbic.201800770" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<date type="published" when="1569">2019, 20, 1569</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Peters, D. Frasson, M. Sievers, R. Buller, ChemBioChem 2019, 20, 1569, https://doi.org/10.1002/cbic.201800770.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Classen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pietruszka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bmc.2017.06.045</idno>
+		<ptr target="https://doi.org/10.1016/j.bmc.2017.06.045" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">1285</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Classen. J. Pietruszka, Bioorg. Med. Chem. 2018, 26, 1285, https://doi.org/10.1016/j.bmc.2017.06.045.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Toogood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Scrutton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpa.2014.01.019</idno>
+		<ptr target="https://doi.org/10.1016/j.cbpa.2014.01.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. S. Toogood, N. S. Scrutton, Curr. Opin. Chem. Biol. 2014, 19, 107, https://doi.org/10.1016/j.cbpa.2014.01.019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stuermer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpa.2007.02.025</idno>
+		<ptr target="https://doi.org/10.1016/j.cbpa.2007.02.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">203</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Stuermer, B. Hauer, M. Hall, K. Faber, Curr. Opin. Chem. Biol. 2007, 11, 203, https://doi.org/10.1016/j.cbpa.2007.02.025.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rohdich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wiese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feicht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M008656200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M008656200" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page">5779</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Rohdich, A. Wiese, R. Feicht, H. Simon, A. Bacher, J. Biol. Chem. 2001, 276, 5779, https://doi.org/10.1074/jbc.M008656200.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Toogood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gardiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Scrutton</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201000094</idno>
+		<ptr target="https://doi.org/10.1002/cctc.201000094" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<date type="published" when="2010">2010, 2, 892</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. S. Toogood, J. M. Gardiner, N. S. Scrutton, ChemCatChem 2010, 2, 892, https://doi.org/10.1002/cctc.201000094.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tasnádi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiotec.2012.03.023</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiotec.2012.03.023" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page">381</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. K. Winkler, G. Tasnádi, D. Clay, M. Hall, K. Faber, J. Biotechnol. 2012, 162, 381, https://doi.org/10.1016/j.jbiotec.2012.03.023.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.enzmictec.2012.03.009</idno>
+		<ptr target="https://doi.org/10.1016/j.enzmictec.2012.03.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microbiol. Technol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Gao, J. Ren, Q. Wu, D. Zhu, Enzyme Microbiol. Technol. 2012, 51, 26, https://doi.org/10.1016/j.enzmictec.2012.03.009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-R</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y. -L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/d1sc02666f</idno>
+		<ptr target="https://doi.org/10.1039/d1sc02666f" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci. 2021</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">14883</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Xu, R. Yin, Z. Zhou, G. Gu, S. Zhao, J.-R. Xu, J. Liu, Y. -L. Peng, D. Lai, L. Zhou, Chem. Sci. 2021, 12, 14883, https://doi.org/10.1039/d1sc02666f.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schlotissek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Ullrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mühling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schlömann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tischler</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-016-7782-3</idno>
+		<ptr target="https://doi.org/10.1007/s00253-016-7782-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">609</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Schlotissek, S. R. Ullrich, M. Mühling, M. Schlömann, C. E. Paul, D. Tischler. Appl. Microbiol. Biotechnol. 2017, 101, 609, https://doi.org/10.1007/s00253-016-7782-3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Robescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loprete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cendron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/microorganisms9050953</idno>
+		<ptr target="https://doi.org/10.3390/microorganisms9050953" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">953</biblScope>
+			<pubPlace>Bergantino, Microorganisms</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. S. Robescu, M. Niero, G. Loprete, L. Cendron, E. Bergantino, Microorganisms 2021, 9, 953, https://doi.org/10.3390/microorganisms9050953.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10529-023-03355-1</idno>
+		<ptr target="https://doi.org/10.1007/s10529-023-03355-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">499</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Long, K. Li, Y. Xue, Y. Sun, J. Li, Z. Su, J. Sun, Q. Liu, H. Liu, T. Wei, Biotechnol. Lett. 2023, 45, 499, https://doi.org/10.1007/s10529-023-03355-1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Toogood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Scrutton</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acscatal.8b00624</idno>
+		<ptr target="https://doi.org/10.1021/acscatal.8b00624" />
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">3532</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. S. Toogood, N. S. Scrutton, ACS Catal. 2018, 8, 3532, https://doi.org/10.1021/acscatal.8b00624.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbic.201500604</idno>
+		<ptr target="https://doi.org/10.1002/cbic.201500604" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Reich, B. M. Nestl, B. Hauer, ChemBioChem 2016, 17, 561, https://doi.org/10.1002/cbic.201500604.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Parmeggiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sacchetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201100418</idno>
+		<ptr target="https://doi.org/10.1002/cctc.201100418" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<date type="published" when="2012">2012, 4, 653</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Brenna, F. G. Gatti, D. Monti, F. Parmeggiani, A. Sacchetti, ChemCatChem 2012, 4, 653, https://doi.org/10.1002/cctc.201100418.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Skalden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ratz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tet.2015.11.005</idno>
+		<ptr target="https://doi.org/10.1016/j.tet.2015.11.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Skalden, C. Peters, L. Ratz, U. T. Bornscheuer. Tetrahedron 2016, 72, 7207, https://doi.org/10.1016/j.tet.2015.11.005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rudroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mihovilovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/hsz-2016-0150</idno>
+		<ptr target="https://doi.org/10.1515/hsz-2016-0150" />
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">398</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Peters, F. Rudroff, M. D. Mihovilovic, U. T. Bornscheuer, Biol. Chem. 2017, 398, 31, https://doi.org/10.1515/hsz-2016-0150.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpa.2017.12.003</idno>
+		<ptr target="https://doi.org/10.1016/j.cbpa.2017.12.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">97</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. K. Winkler, K. Faber, M. Hall, Curr. Opin. Chem. Biol. 2018, 43, 97, https://doi.org/10.1016/j.cbpa.2017.12.003.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sreedharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maiti</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chem.202103949</idno>
+		<ptr target="https://doi.org/10.1002/chem.202103949" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<date type="published" when="2022">2022, 28, e202103949</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. K. Roy, R. Sreedharan, P. Ghosh, T. Gandhi, D. Maiti, Chem. Eur. J. 2022, 28, e202103949, https://doi.org/10.1002/chem.202103949.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ya Mamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Izumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ebata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Asano</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201700244</idno>
+		<ptr target="https://doi.org/10.1002/cctc.201700244" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page">3697</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Ya mamoto, Y. Oku, A. Ina, A. Izumi, M. Doya, S. Ebata, Y. Asano, ChemCatChem 2017, 9, 3697, https://doi.org/10.1002/cctc.201700244.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kreß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201700734</idno>
+		<ptr target="https://doi.org/10.1002/cctc.201700734" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page">4364</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. A. Bastian, S. C. Hammer, N. Kreß, B. M. Nestl, B. Hauer, ChemCatChem 2017, 9, 4364, https://doi.org/10.1002/cctc.201700734.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siedenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jendrossek</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-012-4008-1</idno>
+		<ptr target="https://doi.org/10.1007/s00253-012-4008-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">1571</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Siedenburg, M. Breuer, D. Jendrossek, Appl. Microbiol. Biotechnol. 2013, 97, 1571, https://doi.org/10.1007/s00253-012-4008-1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buller</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/znc-2018-0146</idno>
+		<ptr target="https://doi.org/10.1515/znc-2018-0146" />
+	</analytic>
+	<monogr>
+		<title level="j">Z. Naturforsch. C</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Peters, R. Buller, Z. Naturforsch. C 2019, 74, 63, https://doi.org/10.1515/znc-2018-0146.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Papadopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borchert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buller</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.oprd.2c00096</idno>
+		<ptr target="https://doi.org/10.1021/acs.oprd.2c00096" />
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">2102</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Papadopoulou, C. Peters, S. Borchert, K. Steiner, R. Buller. Org. Process Res. Dev. 2022, 26, 2102, https://doi.org/10.1021/acs.oprd.2c00096.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Parmeggiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pugliese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santangelo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcatb.2014.10.006</idno>
+		<ptr target="https://doi.org/10.1016/j.molcatb.2014.10.006" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Brenna, M. Crotti, F. G. Gatti, D. Monti, F. Parmeggiani, A. Pugliese, S. Santangelo, J. Mol. Catal. B Enzym. 2015, 114, 37, https://doi.org/10.1016/j.molcatb.2014.10.006.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stueckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Glueck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Steinkellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dalton</forename><surname>Trans</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C002971H</idno>
+		<ptr target="https://doi.org/10.1039/C002971H" />
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="39" to="8472" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Stueckler, N. J. Mueller, C. K. Winkler, S. M. Glueck, K. Gruber, G. Steinkellner, K. Faber, Dalton Trans. 2010, 39, 8472, https://doi.org/10.1039/C002971H.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trajkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Fraaije</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8CC04449J</idno>
+		<ptr target="https://doi.org/10.1039/C8CC04449J" />
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">11208</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Mathew, M. Trajkovic, H. Kumar, Q.-T. Nguyen, M. W. Fraaije, Chem. Commun. 2018, 54, 11208, https://doi.org/10.1039/C8CC04449J.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Granier</surname></persName>
+		</author>
+		<title level="m">UK Patent GB2589854 to Givaudan SA</title>
+		<imprint>
+			<date type="published" when="2019-12-09">Dec 9, 2019</date>
+		</imprint>
+	</monogr>
+	<note>and unpublished results</note>
+	<note type="raw_reference">E. Eichhorn, T. Granier, UK Patent GB2589854 to Givaudan SA (Dec 9, 2019); and unpublished results.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kraft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bajgrowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Denis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fráter</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1521-3773(20000901)39:17</idno>
+		<idno>&lt;2980::aid-anie2980&gt;3.0</idno>
+		<ptr target="https://doi.org/10.1002/1521-3773(20000901)39:17" />
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="page" from="2" to="23" />
+			<date type="published" when="2000">2000, 39, 2980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Kraft, J. A. Bajgrowicz, C. Denis, G. Fráter, Angew. Chem. Int. Ed. 2000, 39, 2980, https://doi.org/10.1002/1521-3773(20000901)39:17&lt;2980::aid-anie2980&gt;3.0. CO;2-%23.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

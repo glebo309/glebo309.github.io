@@ -1,0 +1,185 @@
+{
+  "summary": "Linclust is an algorithm that clusters protein sequences in linear time, significantly reducing runtime compared to existing methods like CD-HIT and UCLUST.",
+  "key_claims": [
+    "Linclust can cluster 1.6 billion metagenomic sequence fragments in 10 hours on a single server.",
+    "Linclust has a runtime that scales as N, independent of the number of clusters K."
+  ],
+  "process_signals": [],
+  "entities": {
+    "enzymes": [],
+    "reaction_types": [],
+    "immobilization": [],
+    "media": [],
+    "reactor": []
+  },
+  "confidence": 0.8,
+  "_refs": [
+    {
+      "doi": "",
+      "title": "The uncultured microbial majority",
+      "year": 2003
+    },
+    {
+      "doi": "",
+      "title": "The MG-RAST metagenomics database and portal in 2015",
+      "year": 2016
+    },
+    {
+      "doi": "",
+      "title": "IMG/M 4 version of the integrated metagenome comparative analysis system",
+      "year": 2014
+    },
+    {
+      "doi": "",
+      "title": "Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "From genomics to metagenomics",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "Functional assignment of metagenomic data: challenges and applications",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "CD-HIT: accelerated for clustering the next-generation sequencing data",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "Search and clustering orders of magnitude faster than BLAST",
+      "year": 2010
+    },
+    {
+      "doi": "",
+      "title": "Ultrafast clustering algorithms for metagenomic sequence analysis",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "MMseqs software suite for fast and deep clustering and searching of large protein sequence sets",
+      "year": 2016
+    },
+    {
+      "doi": "",
+      "title": "Fast and sensitive protein alignment using diamond",
+      "year": 2015
+    },
+    {
+      "doi": "",
+      "title": "Mash: fast genome and metagenome distance estimation using minhash",
+      "year": 2016
+    },
+    {
+      "doi": "",
+      "title": "RAPSearch2: a fast and memory-efficient protein similarity search tool for next-generation sequencing data",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "Basic local alignment search tool",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "Uniclust databases of clustered and deeply annotated protein sequences and alignments",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "Gene ontology consortium: going forward",
+      "year": 2015
+    },
+    {
+      "doi": "",
+      "title": "The pfam protein families database: towards a more sustainable future",
+      "year": 2016
+    },
+    {
+      "doi": "",
+      "title": "Prodigal: prokaryotic gene recognition and translation initiation site identification",
+      "year": 2010
+    },
+    {
+      "doi": "",
+      "title": "The sequence read archive: explosive growth of sequencing data",
+      "year": 2012
+    },
+    {
+      "doi": "",
+      "title": "Structure and function of the global ocean microbiome",
+      "year": 2015
+    },
+    {
+      "doi": "",
+      "title": "Protein structure determination using metagenome sequence data",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "Mutation effects predicted from sequence co-variation",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "Efficient algorithms for agglomerative hierarchical clustering methods",
+      "year": 1984
+    },
+    {
+      "doi": "",
+      "title": "Efficient clustering of highdimensional data sets with application to reference matching",
+      "year": 2000
+    },
+    {
+      "doi": "",
+      "title": "Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences",
+      "year": 2006
+    },
+    {
+      "doi": "",
+      "title": "kClust: fast and sensitive clustering of large protein sequence databases",
+      "year": 2013
+    },
+    {
+      "doi": "",
+      "title": "Exact clustering in linear time",
+      "year": 2017
+    },
+    {
+      "doi": "",
+      "title": "Hashing for similarity search: a survey",
+      "year": 2014
+    },
+    {
+      "doi": "",
+      "title": "Genome sequences of rare, uncultured bacteria obtained by differential coverage binning of multiple metagenomes",
+      "year": 2013
+    },
+    {
+      "doi": "",
+      "title": "The Universal Protein Resource (UniProt)",
+      "year": 2005
+    },
+    {
+      "doi": "",
+      "title": "An SIMD Smith-Waterman C/C++ library for use in genomic applications",
+      "year": 2013
+    },
+    {
+      "doi": "",
+      "title": "ALP & FALP: C++ libraries for pairwise local alignment E-values",
+      "year": 2015
+    }
+  ],
+  "_title": "Clustering huge protein sequence sets in linear time",
+  "_abstract": "Metagenomic datasets contain billions of protein sequences that could greatly enhance largescale functional annotation and structure prediction. Utilizing this enormous resource would require reducing its redundancy by similarity clustering. However, clustering hundreds of millions of sequences is impractical using current algorithms because their runtimes scale as the input set size N times the number of clusters K, which is typically of similar order as N, resulting in runtimes that increase almost quadratically with N. We developed Linclust, the first clustering algorithm whose runtime scales as N, independent of K. It can also cluster datasets several times larger than the available main memory. We cluster 1.6 billion metagenomic sequence fragments in 10 h on a single server to 50% sequence identity, >1000 times faster than has been possible before. Linclust will help to unlock the great wealth contained in metagenomic and genomic sequence databases."
+}

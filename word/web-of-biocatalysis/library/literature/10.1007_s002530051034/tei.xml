@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bioconversion of 2-cyanopyrazine to 5-hydroxypyrazine-2-carboxylic acid with Agrobacterium sp. DSM 6336</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Wieser</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Heinzmann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Kiener</surname></persName>
+						</author>
+						<title level="a" type="main">Bioconversion of 2-cyanopyrazine to 5-hydroxypyrazine-2-carboxylic acid with Agrobacterium sp. DSM 6336</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7756CFFD03DCC2229798A9E6F85CF367</idno>
+					<note type="submission">Received: 28 February 1997 / Received revision: 28 April 1997 / Accepted: 4 May 1997</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>5-Hydroxypyrazine-2-carboxylic acid, a versatile building block for the synthesis of new antituberculous agents, was prepared by whole-cell biotransformation from 2-cyanopyrazine via pyrazinecarboxylic acid using Agrobacterium sp. DSM 6336. By developing a fermentation process for this two-enzyme-step bioconversion, a product concentration of 286 mM (40 g/l) was obtained. After the isolation method had been optimized the total yield was 80%.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Since the appearance of AIDS and the growing number of multiresistent Mycobacterium strains in the last decade, the treatment of tuberculosis and the prevention of its dissemination is of increased interest. In fact, among infectious diseases, tuberculosis is the leading cause of death <ref type="bibr" target="#b1">(Bloom and Murray 1992)</ref>. To circumvent resistance, a multidrug therapy consisting of rifampicin, isoniazid and pyrazinamide has been used to cure tuberculosis (Van Scoy and Wilkowske 1992). Pyrazinamide, one of the ®rst-generation antituberculous drugs, has a narrow spectrum of activity, inhibiting only M. tuberculosis. To by-pass resistance, increase the ecacy of treatment and broaden the spectrum of susceptible strains, the pharmaceutical industry is highly interested in developing new tuberculostatic agents. One method of achieving this is the derivatisation of wellknown tuberculostatics such as pyrazinamide.</p><p>In previous in vitro experiments, various 5-chloropyrazine-2-carboxylic acid esters, prepared from 5-hydroxypyrazine-2-carboxylic acid, were up to 1000-fold more active against M. tuberculosis and other Mycobac-terium strains than pyrazinamide, indicating a high potential for this biotransformation product as a building block for new antituberculous agents <ref type="bibr" target="#b2">(Cynamon et al. 1995;</ref><ref type="bibr" target="#b0">Bergmann et al. 1996)</ref>. However, the chemical synthesis of 5-substituted pyrazine-2-carboxylic acids <ref type="bibr" target="#b3">(Felder et al. 1964;</ref><ref type="bibr" target="#b12">Sato and Arai 1982)</ref> requires multiple steps and leads to a mixture of 5-and 6-substituted pyrazinecarboxylic acids.</p><p>The regiospeci®c biocatalytic hydroxylation of aromatic N-heterocycles has already been described for 6hydroxy-3-cyanopyridine from 3-cyanopyridine <ref type="bibr" target="#b14">(Yasuda et al. 1995)</ref>, 6-hydroxynicotinic acid from nicotinic acid <ref type="bibr" target="#b4">(Hurh et al. 1994</ref>) and 6-hydroxypicolinic acid from 2-cyanopyridine <ref type="bibr" target="#b6">(Kiener 1992)</ref>. In shake-¯ask experiments <ref type="bibr" target="#b7">(Kiener 1994)</ref>, we have shown the production of 86 mM (12 g/l) 5-hydroxypyrazine-2-carboxylic acid from 2-cyanopyrazine by Agrobacterium sp. DSM 6336, which is also capable of degrading 3-cyanopyridine via 6-hydroxynicotinic acid (Fig. <ref type="figure">1</ref>). Here we describe the scale-up to a practical fermentation process yielding 286 mM (40 g/l) 5-hydroxypyrazine-2-carboxylic acid before isolation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head><p>2-Cyanopyrazine was obtained from Koei Chemicals, Osaka, Japan. Other chemicals were purchased from Fluka, Switzerland. Agrobacterium sp. DSM 6336, deposited at the Deutsche Sammlung fuÈ r Mikroorganismen und Zellkulturen, Braunschweig, Germany, was maintained on mineral-salt medium/agar plates <ref type="bibr" target="#b9">(Kulla et al. 1983</ref>) containing 1 g/l 3-cyanopyridine and 1 g/l yeast extract. An overnight preculture in the same medium was used to inoculate a 20-l fermenter containing 13 l mineral-salt medium plus 2 g/l 3cyanopyridine, 6 g/l glucose and 6 g/l yeast extract. During growth, the aeration rate was 10 l/min and the oxygen partial pressure (PO 2 ) was controlled by the agitation speed and limited to 90 mbar. After feeding a total amount of 2 l 3-cyanopyridine solution (10% w/v) as the sole source of carbon and energy (successively increasing from 0.5 ml/min to 10 ml/min), the biotransformation was started by adding 286 mM (30 g/l) 2-cyanopyrazine and 1 g/l yeast extract to the cell suspension. During transformation, the aeration rate and the PO 2 were reduced to 2 l/min and 50 mbar; respectively. The bioconversion was followed by thin-layer chromatog-Appl Microbiol <ref type="bibr">Biotechnol (1997)</ref> 48: 174±176 Ó Springer-Verlag 1997 M. Wieser á K. Heinzmann á A. Kiener (8) Biotechnology Research Department, Lonza AG, CH-3930 Visp, Switzerland Tel.: +41 27 9486083; Fax: +41 27 9476083 email: andreas.kiener@Lonia.ch raphy on pre-coated silica gel plates (Merck 60 F 254 ) with ethanol/ CHCl 3 /25% NH 3 in H 2 O (55:30:10, v/v/v) as solvent (R F values: 2cyanopyrazine 0.95, pyrazinecarboxylic acid 0.2, 5-hydroxypyrazine-2-carboxylic acid 0.05). The concentration of 5-hydroxypyrazine-2-carboxylic acid was determined photometrically (e 316 5819 M A1 cm A1</p><p>). After biotransformation the biomass was removed by ultra®ltration (10 kDa) and 5-hydroxypyrazine-2-carboxylic acid was precipitated from the permeate by acidi®cation with H 2 SO 4 to pH 2.5. The product was ®ltered, redissolved in NH 4 OH (pH 6.5) and treated with active charcoal (10% w/w product). The active charcoal was removed by ®ltration, and the product was precipitated from the ®ltrate as described above.</p><p>The purity of the product was determined by alcalimetric titration. About 1.1 g product was dissolved in 60 ml acetone and 20 ml water. After addition of 10 ml 1 M HCl, the solution was titrated with 1 M NaOH to three in¯exion points. The amount of the 5-hydroxypyrazine-2-carboxylic acid was calculated from the third in¯exion point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Growth of the biocatalyst</head><p>With high PO 2 , we observed signi®cant cell death and the formation of a blue pigment, and therefore the PO 2 was limited to 90 mbar during cell growth. The blue pigment is a well known, non-enzymatically (autoxidative) formed dimerisation product of di-or trihydroxylated pyridines, often seen during growth of microorganisms on nicotinic acid <ref type="bibr" target="#b5">(Kaiser et al. 1996)</ref>.</p><p>To prevent the accumulation of 6-hydroxynicotinic acid, the feed rate of 3-cyanopyridine during cell growth was carefully controlled. The 6-hydroxynicotinic acid concentration was determined photometrically at 292 nm (e 292 5436 M A1 cm A1 ) and was maintained at a concentration of less than 0.5 g/l.</p><p>After growth on 3-cyanopyridine, glucose and yeast extract, an absorbance at 650 nm (A 650 ) of 4 was reached and, after inductive growth on the 3-cyanopyridine feed, an A 650 20 was obtained. The doubling time was approximately 3.5 h (Fig. <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optimization of the biotransformation</head><p>Both the addition of 1 g/l yeast extract to the transformation medium and the further reduction of the PO 2 to 50 mbar increased the biotransformation productivity. No eect was observed after addition of 1 g/l glucose, 3-cyanopyridine, fumarate or nicotinic acid during the biotransformation. After 60 h total fermentation time, 286 mM (40 g/l) 5-hydroxypyrazine-2-carboxylic acid was obtained with an analytical yield of above 95%, as judged by thin-layer chromatography. The production rate was approximately 11 mM (1.5 g) l A1 h A1 . No 3-or 6-hydroxypyrazine-2-carboxylic acid was detected by 1 H-NMR.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Product isolation</head><p>During product isolation, traces of the biotransformation intermediate pyrazinecaboxylic acid were removed by two acid precipitations. After the ®rst precipitation, a brown product was obtained. In order to remove coloured impurities, the acid was redissolved by addition of NH 4 OH and treated with active charcoal. After the Fig. <ref type="figure">2</ref> Growth of the biocatalyst (A 650 , m) and bioconversion of 2cyanopyrazine (h) to 5-hydroxypyrazine-2-carboxylic acid (j) via pyrazinecarboxylic acid (s). As indicated by the arrow, 286 mM (30 g/l) 2-cyanopyrazine was added to the cell suspension after 28 h second precipitation, most of the coloured impurities had been removed. However, the precipitation of 5-hydroxypyrazine-2-carboxylic acid resulted in product loss due to the pH-dependent solubility of this compound. It was determined that the solubility of 5-hydroxypyrazine-2-carboxylic acid (25°C) was about 36 mM (5 g/l) at pH 3.0 and 21 mM (3 g/l) at pH 2.5. To minimize the product loss, a pH of 2.5 was chosen for the precipitation. Thereafter, the isolated yield was 80%. The purity of the product was above 99%, as determined by titration.</p><p>Discussion 5-Hydroxypyrazine-2-carboxylic acid is a versatile building block for the synthesis of various 2,5-disubstituted pyrazines <ref type="bibr" target="#b8">(Kiener et al. 1994;</ref><ref type="bibr" target="#b11">Roduit 1995</ref>). The two-enzyme-step biotransformation described here involves the hydrolysis of the nitrile group of 2-cyanopyrazine to pyrazinecarboxylic acid by a nitrilase and the subsequent regioselective hydroxylation to 5-hydroxypyrazine-2-carboxylic acid, catalysed by a nicotinate dehydrogenase. A similar dehydrogenase has been pu-ri®ed from Bacillus niacini <ref type="bibr" target="#b10">(Nagel and Andreesen 1990)</ref>. 5-Hydroxypyrazine-2-carboxylic acid accumulates in the medium and can be isolated by precipitation of the free acid. Previous attempts to increase the product concentration of 12 g/l were unsuccessful because of the accumulation of the intermediate pyrazinecarboxylic acid. The incomplete bioconversion was probably caused by a weak dehydrogenase activity (Fig. <ref type="figure">1</ref>). In order to obtain cells with a highly active dehydrogenase, the organism was grown on 3-cyanopyridine as the main carbon and energy source. This was found to be a prerequisite for a complete bioconversion. We assume that this induction leads to an optimal expression of enzymes required for the biotransformation, including the dehydrogenase.</p><p>The biotransformation yield was optimized by reducing the PO 2 to 50 mbar. None of the enzymes of this organism has been investigated, but a possible explanation could be that the dehydrogenase performs better under microaerobic conditions. The addition of yeast extract extended the activity of the biomass during biotransformation.</p><p>In order to remove traces of pyrazinecarboxylic acid, the pH of the acid precipitation was initially adjusted to pH 3, a value in between the pK s values of 2.7 for pyrazinecarboxylic acid and 4.5 for 5-hydroxypyrazine-2carboxylic acid. However, the pH value of 3.0 resulted in high product losses and therefore the pH was reduced to 2.5. The overall product loss of 20% is due to the re-peated precipitation during isolation of 5-hydroxypyrazine-2-carboxylic acid.</p><p>We are currently further improving the fermentation process for an industrial application of this biotransformation.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig</head><figDesc>Fig. 1 Reaction sequence analogies of 3-cyanopyridine (1) degradation and 2-cyanopyrazine (4) transformation [nicotinic acid (2), 6-hydroxynicotinic acid (3), pyrazinecarboxylic acid (5), 5hydroxypyrazine-2-carboxylic acid (6)]</figDesc><graphic coords="2,215.43,86.17,325.98,165.38" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements The authors are grateful to <rs type="person">Dr. D. Putzas</rs> for titration analysis and <rs type="person">R. GloÈ ckler</rs> for support during fermentations.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Quantitative structure-activity relationships for the in vitro antimycobacterial activity of pyrazinoic acid esters</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cynamon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">3400</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergmann KE, Cynamon MH, Welch JT (1996) Quantitative structure-activity relationships for the in vitro antimycobacterial activity of pyrazinoic acid esters. J Med Chem 39: 3394±3400</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Tuberculosis: commentary on a reemergent killer</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cjl</forename><surname>Murray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page" from="1055" to="1064" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bloom BR, Murray CJL (1992) Tuberculosis: commentary on a reemergent killer. Science 257: 1055±1064</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Pyrazinoic acid esters with broad spectrum in vitro antimycobacterial activity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cynamon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gyenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Sharpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Gregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rapolu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luciano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">3907</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cynamon MH, Gimi R, Gyenes F, Sharpe CA, Bergmann KE, Han HJ, Gregor LB, Rapolu R, Luciano G, Welch JT (1995) Pyrazinoic acid esters with broad spectrum in vitro antimyco- bacterial activity. J Med Chem 38: 3902±3907</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">U È ber die Herstellung von 2-Amino-5-PyrazincarbonsaÈ ure und Derivaten</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Felder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pitreâ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Grabitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Helv Chim Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="873" to="876" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felder E, PitreÂ D, Grabitz EB (1964) U È ber die Herstellung von 2- Amino-5-PyrazincarbonsaÈ ure und Derivaten. Helv Chim Acta 47: 873±876</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microbial production of 6-hydroxynicotinic acid, an important building block for the synthesis of modern insecticides</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hurh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagasawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Ferment Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">385</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hurh B, Ohshima M, Yamane T, Nagasawa T (1994) Microbial production of 6-hydroxynicotinic acid, an important building block for the synthesis of modern insecticides. J Ferment Bio- eng 77: 382±385</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microbial metabolism of pyridine, quinoline, acridine, and their derivatives under aerobic and anaerobic conditions</title>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Bollag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="483" to="498" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaiser J-P, Feng Y, Bollag J-M (1996) Microbial metabolism of pyridine, quinoline, acridine, and their derivatives under aero- bic and anaerobic conditions. Microbiol Rev 60: 483±498</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Mikrobiologisches Verfahren zur Herstellung von 6-HydroxypicolinsaÈ ure. European patent application</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiener</surname></persName>
+		</author>
+		<idno>EP 504 818 A2</idno>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiener A (1992) Mikrobiologisches Verfahren zur Herstellung von 6-HydroxypicolinsaÈ ure. European patent application EP 504 818 A2</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Mikrobiologisches Verfahren zur Herstellung von 5-Hydroxy-2-pyrazincarbonsaÈ ure. European patent application EP 578 137 A1 (M. Wieser is not coinventor of this patent application)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiener</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiener A (1994) Mikrobiologisches Verfahren zur Herstellung von 5-Hydroxy-2-pyrazincarbonsaÈ ure. European patent application EP 578 137 A1 (M. Wieser is not coinventor of this patent application)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Regiospeci®c enzymatic hydroxylations of pyrazinecarboxylic acid and a practical synthesis of 5-chloropyrazine-2carboxylic acid</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Roduit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tschech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tinschert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinzmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synlett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="814" to="816" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiener A, Roduit J-P, A. Tschech A, Tinschert A, Heinzmann K (1994) Regiospeci®c enzymatic hydroxylations of pyrazinecar- boxylic acid and a practical synthesis of 5-chloropyrazine-2- carboxylic acid. Synlett 10: 814±816</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Interference of aromatic sulfo groups in microbial degradation of the azo dyes Orange I and Orange II</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klausener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luè Deke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leisinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kulla H, Klausener F, Meyer U, LuÈ deke B, Leisinger T (1983) Interference of aromatic sulfo groups in microbial degradation of the azo dyes Orange I and Orange II. Arch Microbiol 135: 1±</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Puri®cation and characterization of the molybdoenzymes nicotinate dehydrogenase and 6-hydroxynicotinate dehydrogenase from Bacillus niacini</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Andreesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="605" to="613" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagel M, Andreesen JR (1990) Puri®cation and characterization of the molybdoenzymes nicotinate dehydrogenase and 6-hy- droxynicotinate dehydrogenase from Bacillus niacini. Arch Microbiol 154: 605±613</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Process for the preparation of carboxylic acid chlorides of aromatic nitrogen-containing heterocycles. European patent application</title>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Roduit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EP</title>
+		<imprint>
+			<biblScope unit="volume">561</biblScope>
+			<biblScope unit="page" from="421" to="A421" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roduit J-P (1995) Process for the preparation of carboxylic acid chlorides of aromatic nitrogen-containing heterocycles. Euro- pean patent application EP 561 421 A1</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The synthesis of 5-chloropyrazinecarboxylic acid</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Heterocycl Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="407" to="408" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Studies on pyrazines</note>
+	<note type="raw_reference">Sato N, Arai S (1982) Studies on pyrazines. 7 (1). The synthesis of 5-chloropyrazinecarboxylic acid. J Heterocycl Chem 19: 407± 408</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Antituberculous agents</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Van Scoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wilkowske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mayo Clin Proc</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">187</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Scoy RE, Wilkowske CJ (1992) Antituberculous agents. Mayo Clin Proc 67: 179±187</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microbial hydroxylation of 3-cyanopyridine to 3-cyano-6-hydroxypyridine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sashida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagasawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci Biotechnol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">575</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yasuda M, Sakamoto T, Sashida R, Ueda M, Morimoto Y, Nagasawa T (1995) Microbial hydroxylation of 3-cyanopyri- dine to 3-cyano-6-hydroxypyridine. Biosci Biotechnol Biochem 59: 572±575</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

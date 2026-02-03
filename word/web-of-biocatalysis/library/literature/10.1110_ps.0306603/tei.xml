@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Library analysis of SCHEMA-guided protein recombination</title>
+				<funder>
+					<orgName type="full">Burroughs-Welcome Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">W.M. Keck Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Howard Hughes Medical Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Defense Science and Engineering Fellowship</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Army Research Office</orgName>
+				</funder>
+				<funder ref="#_DzfRUJt">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michelle</forename><forename type="middle">M</forename><surname>Meyer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">J</forename><surname>Silberg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">B</forename><surname>Endelman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Division of Biology</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">California Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhen-Gang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+							<email>frances@cheme.caltech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>mail code 210- 41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Library analysis of SCHEMA-guided protein recombination</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DB0A7F88EA536C30CB8858E80614EFEC</idno>
+					<idno type="DOI">10.1110/ps.0306603</idno>
+					<note type="submission">RECEIVED February 17, 2003; FINAL REVISION May 1, 2003; ACCEPTED May 1, 2003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chimera</term>
+					<term>lactamase</term>
+					<term>PSE-4</term>
+					<term>recombination</term>
+					<term>schema</term>
+					<term>TEM-1</term>
+					<term>directed evolution</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The computational algorithm SCHEMA was developed to estimate the disruption caused when amino acid residues that interact in the three-dimensional structure of a protein are inherited from different parents upon recombination. To evaluate how well SCHEMA predicts disruption, we have shuffled the distantly-related ␤-lactamases PSE-4 and TEM-1 at 13 sites to create a library of 2 14 (16,384) chimeras and examined which ones retain lactamase function. Sequencing the genes from ampicillin-selected clones revealed that the percentage of functional clones decreased exponentially with increasing calculated disruption (E ‫ס‬ the number of residue-residue contacts that are broken upon recombination). We also found that chimeras with low E have a higher probability of maintaining lactamase function than chimeras with the same effective level of mutation but chosen at random from the library. Thus, the simple distance metric used by SCHEMA to identify interactions and compute E allows one to predict which chimera sequences are most likely to retain their function. This approach can be used to evaluate crossover sites for recombination and to create highly mosaic, folded chimeras.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Numerous protein traits can be improved or altered when recombination is coupled with a screening or selection strategy (for review, see <ref type="bibr" target="#b13">Minshull and Stemmer 1999;</ref><ref type="bibr">Arnold 2001a,b)</ref>. During laboratory evolution, as in nature, recombination promotes the rapid accumulation of beneficial mutations from multiple parents onto a single offspring <ref type="bibr">(Stemmer 1994b;</ref><ref type="bibr" target="#b14">Moore et al. 1997;</ref><ref type="bibr" target="#b3">Crameri et al. 1998)</ref>. It also explores a part of sequence space that is particularly rich in folded and functional proteins. Recombination plays a key role in natural evolution of proteins through the swapping of well-defined structural domains <ref type="bibr" target="#b16">(Ostermeier and Benkovic 2001)</ref>. Where a domain structure is not obvious, however, how recombination contributes to the evolution and diversification of protein sequence and function is less well understood.</p><p>Recently we developed an algorithm, called SCHEMA, for predicting which fragments of homologous proteins can be recombined without disturbing the integrity of the structure <ref type="bibr" target="#b24">(Voigt et al. 2002)</ref>. Based on the 3D structures of the parent proteins, the algorithm identifies pairs of amino acids that are interacting, defined as those residues within a cutoff distance of 4.5 Å, and determines the net number of interactions broken when a chimeric protein inherits portions of its sequence from different parents (defined as E). Because calculating E for all possible crossover combinations is computationally intractable, it is difficult to identify which crossover locations are optimal with respect to their ability to yield folded chimeras. One version of SCHEMA circumvents this computational difficulty by finding compact, con-tiguous polypeptides with the largest number of intrablock interactions-these polypeptides correspond to fragments which in theory can be swapped with minimal cost. This is achieved by scanning the protein sequence with a window of defined size to create a disruption profile whose minima are predicted to represent crossover locations that preserve more interactions. It was proposed that the resulting fragments, or schemata, could be recombined using available laboratory recombination methods <ref type="bibr" target="#b6">(Horton et al. 1989;</ref><ref type="bibr" target="#b21">Solaiman et al. 2000;</ref><ref type="bibr" target="#b4">Gibbs et al. 2001;</ref><ref type="bibr" target="#b15">O'Maille et al. 2002)</ref> to generate novel mosaic sequences that retain the parental structure.</p><p>A strong correlation exists between SCHEMA disruption profiles and existing experimental data on chimeras from site-directed recombination and DNA-shuffling experiments. In particular, the vast majority of the crossovers found in functional chimeras containing one or two crossovers appear in or near the minima of their calculated disruption profiles <ref type="bibr" target="#b24">(Voigt et al. 2002)</ref>, suggesting that crossovers at other locations (e.g., profile maxima) are unfavorable. Furthermore, functional analysis of 12 lactamase chimeras revealed that proteins tolerate a limited level of E; only those with E Յ 26 were functional <ref type="bibr" target="#b24">(Voigt et al. 2002)</ref>. However, the small numbers of functional and nonfunctional chimeras analyzed in these studies and the small number of crossovers incorporated make it difficult to determine just how SCHEMA predictions correlate with functional and structural disruption. We would like to know whether chimeras with low E have a higher probability of retaining parental function than those with the same effective level of mutation but chosen at random. We would also like to know whether the minima in the profile still correspond to the best recombination sites when multiple crossovers are allowed.</p><p>To better test how well SCHEMA predicts crossovers that generate new folded proteins, we have created a large library of chimeras with a broad range of E, and examined which recombination events conserve function. For this test, we recombined two ␤-lactamases, using antibiotic selection to identify functional proteins. The parent PSE-4 and TEM-1 ␤-lactamases share 40% amino acid identity, have very similar structures (0.98 Å RMS deviation; <ref type="bibr" target="#b7">Jelsch et al. 1993;</ref><ref type="bibr" target="#b9">Lim et al. 2001)</ref>, and exhibit similar substrate specificities and activities towards the antibiotic ampicillin (k cat / K m ca. 10 7 M -1 s -1 ; <ref type="bibr" target="#b11">Matagne et al. 1998;</ref><ref type="bibr" target="#b19">Savoie et al. 2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The SCHEMA-calculated profile shown in Figure <ref type="figure" target="#fig_0">1</ref> was used to guide the creation of a diverse library of lactamase chimeras exhibiting a broad range of disruption. Eight major peaks in the profile correspond to eight polypeptides with the largest number of intrablock interactions. We allowed recombination at seven minima and six maxima of the disruption profile, yielding a library containing 2 14 (16,384) possible unique chimeras. By calculating the exact disruption (E) of every sequence, we determined that the library contains chimeras with disruption values ranging from 7 to 113. Additionally, the chimeras display a broad range of effective mutations, from 7 to 75 amino acid substitutions relative to the closest parent.</p><p>Twenty-eight gene modules were synthesized chemically or by PCR (14 for each parent). Gene modules encoding structurally related elements contained identical unique 5Ј overhangs, but the sequences of the overhangs at each module boundary were distinct and nonpalindromic. Each parental gene was assembled to confirm that no mutations were present in the modules and to validate that full-length genes could be created. Because ligation efficiency decreased as the number of fragments increased, we used a serial assembly protocol. Two or three adjacent gene frag- ments were ligated and purified using an agarose gel to create six distinct sets of products. This process was repeated using the ligated products until the full-length genes were assembled. After assembly, pse-4 and tem-1 were amplified by PCR and cloned into the vector pMon•1A2; this bacterial vector contains a constitutive PSE-4 promoter and kanamycin selectable marker <ref type="bibr" target="#b18">(Sabbagh et al. 1998)</ref>. Escherichia coli transformed with pMonTEM1 and pMonPSE4 were selected on LB-agar plates containing a range of ampicillin concentrations (5 to 5000 g/mL). Cells containing tem-1 and pse-4 grew on plates containing up to ∼1000 and 3000 g/mL of ampicillin, respectively, similar to that previously reported <ref type="bibr" target="#b18">(Sabbagh et al. 1998)</ref>. The minimum inhibitory concentration (MIC) of ampicillin for the strain of E. coli used was &lt;5 g/mL. Sequencing showed that no mutations were introduced into pse-4 or tem-1 during assembly.</p><p>To create the library of chimeric lactamases, equimolar mixtures of modules from each parent were mixed and ligated using a procedure similar to that for assembling the parental genes. E. coli were transformed with this library, and thousands of variants were plated on nonselective medium, that is, LB-agar plates containing kanamycin. To determine if the library contained any significant sequence biases, we measured the distribution of pse-4 and tem-1 modules in 79 randomly chosen chimeras using oligonucleotide probe hybridization <ref type="bibr" target="#b8">(Joern et al. 2002)</ref>. Figure <ref type="figure" target="#fig_1">2</ref> shows the incorporation of the different parental sequences at seven positions throughout the genes and the frequency of crossovers between the modules probed, that is, how often adjacent probed positions had sequence from the same parent. All chimeras exhibited a near-random crossover frequency between the probed modules (46 ± 5%), and the average frequency of observing the rarer of the two parents at each position was 40 ± 6%. When we treat all chimeras as occurring with an equal frequency in the unselected library, we calculate that a selection of 200,000 variants will contain &gt;99% of the unique chimera sequences.</p><p>Approximately 200,000 variants were plated on selective medium, LB-agar containing kanamycin and 20 g/mL ampicillin. More than 100 colonies were observed, and sequencing 50 of these clones identified 23 unique functional lactamase chimeras, in addition to PSE-4 and TEM-1. Identification of the parental clones is consistent with predictions from hybridization results that suggest more than half of the chimeras were analyzed. Despite the PCR steps involved in library construction, the selected library displays a low point mutagenesis rate (0.005%). Only one chimera, the third sequence shown in Figure <ref type="figure" target="#fig_2">3</ref>, has amino acid substitutions. In this chimera, PSE-4 residues 265 and 266 are mutated from glutamine to histidine and threonine to serine, respectively. Examination of the TEM-1 and PSE-4 crystal structures reveal that these residues are both on the surface of the protein, and neither is in the active site <ref type="bibr" target="#b7">(Jelsch et al. 1993;</ref><ref type="bibr" target="#b9">Lim et al. 2001)</ref>.</p><p>As shown in Figure <ref type="figure" target="#fig_2">3</ref>, the functional chimeras are highly mosaic, with one, two, three, four, five, six, or seven mod-   <ref type="formula">m</ref>) is the minimum number of mutations required to convert a chimera into one of its parents at only those residues recognized by SCHEMA, that is, residues whose coordinates are defined in the TEM-1 structure <ref type="bibr" target="#b7">(Jelsch et al. 1993)</ref>.</p><p>ules swapped, and have between 7 and 67 effective mutations per chimera; the maximum possible in the library is 75. Furthermore, selected chimeras exhibited an average of 3.7 ± 1.5 crossovers, significantly lower than that expected from a random library (6.5 ± 1.8), and all chimeras have an even number of crossovers (two, four, or six), that is, each functional chimera derives the A and N modules from the same parent. Modules A and N are derived from different parents in 41% of the clones in the unselected library.</p><p>Of the 50 functional lactamases sequenced, only four derived both terminal fragments from TEM-1: three chimeras and one TEM-1. This indicates that chimeras that derive sequence from opposite parents at each position (chimera mirrors) are not functionally equivalent, even though SCHEMA does not distinguish them. Sequence analysis of randomly picked clones from the unselected library showed that 34% of the clones that acquire the A N modules from the same parent contain TEM-1 at these positions. This small bias in the library does not account for the low level of TEM-1 terminal modules in functional chimeras (8%). The enrichment of one chimera from a mirror pair may arise because functional chimeras with TEM-1 terminal modules exhibit lower activity than those with PSE-4 at those positions. In fact, functional chimeras with TEM-1 terminal modules exhibit a significantly lower average MIC (250 g/mL) than those with PSE-4 termini (1400 g/mL). Also, for the mirror chimeras isolated, the TEM-like clone exhibits lower activity (Fig. <ref type="figure" target="#fig_2">3</ref>).</p><p>To determine if conservation of function corresponds to low E, we compared the distribution of E for the functional sequences with every theoretically possible unique chimera in our library. Figure <ref type="figure" target="#fig_3">4A</ref> shows the distributions of disruption for all chimeras in the selected and theoretical unselected libraries. The average E observed for functional clones (32 ± 17) is significantly lower than that calculated for the entire library (72 ± 16), indicating a strong association of low levels of disruption with maintenance of function. More than 90% of the functional chimeras have E Յ 52, while only 11% of the chimeras in the theoretical library fall below this threshold. We quantified the fraction of functional chimeras at each E in Figure <ref type="figure" target="#fig_3">4A</ref> by dividing the number of different functional sequences by the number of different sequences in the unselected library at each E (see Fig. <ref type="figure" target="#fig_3">4B</ref>). This analysis reveals that the fraction of chimeras that retain lactamase activity decreases exponentially with increasing disruption.</p><p>The fraction of chimeras in our library that retain function also depends on the level of mutation (see Fig. <ref type="figure" target="#fig_5">5</ref>), which raises the possibility that the low average E of functional chimeras could arise because low E corresponds to a lower average number of mutations. To investigate this, we calculated the relative difference (E selected -〈 E〉 )/〈 E〉 for each functional chimera, where E selected is the disruption of the functional chimera, and 〈 E〉 is the average disruption of all chimeras in the theoretical library with the same effective level of mutation (see Fig. <ref type="figure" target="#fig_4">6</ref>). The average relative difference for all functional chimeras in our library is -17.6%, suggesting that functional chimeras have lower disruption than those chosen at random with the same level of mutation. We then applied the Wilcoxon signed-rank test to evaluate the significance of these relative differences (Bernstein and Bernstein 1999). The Wilcoxon analysis yielded a Ն99% probability that the median relative difference for all functional chimeras in any library is &lt;0. Thus, chimeras that minimize E will have a greater likelihood of exhibiting undisturbed function than those chosen at random with the same level of mutation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our results demonstrate that SCHEMA-calculated disruption (E) is a good metric for predicting functional conser-vation upon recombination. Sequence analysis of functional lactamases selected from a large library shows that chimeras with low E have a higher probability of retaining function than do chimeras with the same effective level of mutation but chosen at random. Our results also show that functional conservation decreases exponentially as E increases. This complements our previous finding, based on a small number of chimeras, that recombination disrupts protein function when it breaks many contacts in the three-dimensional structure (high E; <ref type="bibr" target="#b24">Voigt et al. 2002)</ref>.</p><p>A simple probabilistic model can be invoked to anticipate the likelihood that lactamase chimeras will retain function. Assuming all contacts defined by SCHEMA are statistically independent, the fraction of possible recombinants at each E that retain function P f is</p><formula xml:id="formula_0">P f = ͑1 -f d EրN) N (1)</formula><p>where N is the total number of interactions in the parental structures that can be disrupted upon recombination, and f d is the probability that a disrupted contact yields a nonfunctional chimera. When N is large, as it is for proteins, this model yields a P f that decays exponentially with E. Fitting Equation 1 to our data yields f d ‫ס‬ 0.095 (see Fig. <ref type="figure" target="#fig_3">4B</ref>). Because the experiment selected for functional chimeras, it could not uncover nonfunctional proteins that nonetheless retain proper fold. Furthermore, our use of a weak constitutive lactamase promoter to express chimeras in E. coli limits our ability to identify lactamases with very low activity. Therefore, this value for f d should be considered an upper bound on the probability that a disrupted contact yields unstructured or misfolded proteins, and the value of P f that we calculate from f d is therefore a conservative estimate of the probability that a protein structure will not be disrupted by recombination. Structure-guided recombination identifies highly mosaic chimeras that retain lactamase structure and exhibits greater effective levels of mutation than previously found with other methods. Several of our functional chimeras differ by more than 40 amino acids from the closest parent; one is 67 amino acids distant, and the sequences of these distant chimeras all contain four to six crossovers (see Fig. <ref type="figure" target="#fig_2">3</ref>). Annealing-based recombination methods such as DNA shuffling <ref type="bibr">(Stemmer 1994a;</ref><ref type="bibr" target="#b14">Moore et al. 1997;</ref><ref type="bibr" target="#b3">Crameri et al. 1998)</ref>, StEP <ref type="bibr" target="#b26">(Zhao et al. 1998)</ref>, or in vivo techniques <ref type="bibr" target="#b25">(Volkov et al. 1999</ref>) cannot recombine proteins exhibiting sequence identity as low as PSE-4 and TEM-1. Multiplecrossover chimeras can only be created using homologs with very high (often &gt;70%) sequence identity; therefore, a maximum of ∼40 effective mutations can be incorporated when two proteins the size of TEM-1 are recombined. The maximum level of mutation is often less than this because annealing-based techniques direct crossovers overwhelm-  ingly to regions of high identity. Sequence-independent methods that can randomly recombine distantly related proteins to create high levels of mutation have also been described <ref type="bibr" target="#b17">(Ostermeier et al. 1999;</ref><ref type="bibr" target="#b10">Lutz et al. 2001;</ref><ref type="bibr" target="#b20">Sieber et al. 2001</ref>). However, these methods have only created chimeras with one or two crossovers.</p><p>To simplify the identification of chimeras with low disruption, the SCHEMA algorithm generated a disruption profile such as shown in Figure <ref type="figure" target="#fig_0">1</ref> by calculating the contribution each residue makes to the internal interactions within a fragment covered by a sliding window of a given size. We previously found that nondisruptive crossovers frequently occur in or near minima of SCHEMA profiles in chimeras with one or two crossovers, suggesting these minima may be a useful guide for generating folded and functional chimeras <ref type="bibr" target="#b24">(Voigt et al. 2002)</ref>. Interestingly, crossovers in functional lactamase chimeras from our library did not occur predominantly at these minima. Almost half of all crossovers in the functional lactamases occurred at the sites corresponding to profile maxima (see Fig. <ref type="figure" target="#fig_2">3</ref>). In addition, no functional chimeras were found with an odd number of crossovers: Only two, four, and six crossovers generated functional chimeras. This crossover distribution is similar to that predicted for chimeras with a Ն10% probability of exhibiting undisturbed function (E Յ 24; see Fig. <ref type="figure" target="#fig_3">4B</ref>); of these chimeras, 88% have even numbers of crossovers, and almost half of the crossovers (46%) occur at maxima. These findings suggest that interactions between polypeptides distal in the primary sequence, that is, those not included in the profile calculation, should be considered when choosing crossover locations. In other words, profile minima become a poor guide for predicting nondisruptive crossover locations when many crossovers can take place.</p><p>A better way to identify crossover points that minimize functional disruption is to determine which chimeras have the lowest E. But, because crossovers that do not lead to mutation will always minimize E, we also have to maintain a desired level of mutation. For chimeras arising from a small number of crossovers, it is easy to enumerate E for all possible chimera and identify crossover locations that minimize disruption. However, complete enumeration becomes impossible when multiple crossovers are allowed. For example, it is computationally intractable to calculate E for all possible seven crossovers between PSE-4 and TEM-1 and identify which seven-crossover library encodes chimeras with the lowest average E values, among libraries encoding chimeras with similar average levels of mutation. However, it is not difficult to evaluate thousands of randomly-chosen seven-crossover libraries using SCHEMA to determine which ones encode chimeras with lower than average E. We find that this type of analysis is better than using profile minima to choose nondisruptive crossover locations for multiple-crossover libraries. For example, a PSE-4 and TEM-1 recombinant library made by allowing crossovers at the seven profile minima of Figure <ref type="figure" target="#fig_0">1</ref> is predicted to encode 10 times fewer functional chimeras (〈 E〉 ‫ס‬ 52 ± 17) than the best library found by searching 10,000 randomly generated libraries with seven crossovers (〈 E〉 ‫ס‬ 33 ± 10), even though both libraries encode chimeras with similar levels of mutation.</p><p>In future studies we will examine whether SCHEMAguided recombination of distantly related proteins can yield libraries of shuffled sequences from which novel functions can be obtained by screening or selection. Recombination techniques such as DNA shuffling <ref type="bibr">(Stemmer 1994b;</ref><ref type="bibr" target="#b3">Crameri et al. 1998)</ref>, StEP <ref type="bibr" target="#b26">(Zhao et al. 1998)</ref>, ITCHY <ref type="bibr" target="#b17">(Ostermeier et al. 1999)</ref>, SHIPREC <ref type="bibr" target="#b20">(Sieber et al. 2001)</ref>, and in vivo techniques <ref type="bibr" target="#b25">(Volkov et al. 1999)</ref> do not control the location or frequency of crossovers in combinatorial libraries, and therefore, do not minimize structural disruption or maximize sequence diversity. However, the results described here suggest that libraries created using targeted recombination methods <ref type="bibr" target="#b6">(Horton et al. 1989;</ref><ref type="bibr" target="#b21">Solaiman et al. 2000;</ref><ref type="bibr" target="#b4">Gibbs et al. 2001;</ref><ref type="bibr" target="#b15">O'Maille et al. 2002;</ref><ref type="bibr">K. Hiraga and F.H. Arnold, in prep.)</ref> to make crossovers at sites predicted to minimize disruption will be simultaneously rich in folded proteins and diverse sequences. With such libraries we will be able to explore the evolution of protein function as well as rapidly assess sequence-function relationships <ref type="bibr" target="#b8">(Joern et al. 2002)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>E. coli XL1-Blue was from Stratagene. Enzymes for DNA manipulations were obtained from New England Biolabs, Roche Biochemicals, or United States Biochemical Corp. Synthetic oligonucleotides were obtained from Invitrogen. DNA purification kits were from Zymo Research and Qiagen, and other reagents were from Sigma Chemical Co. or Fisher Scientific.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculations</head><p>For hybrids in which fragment(s) ␣ and ␤ are inherited from PSE-4 and TEM-1, respectively, the disruption (E) of the hybrid was calculated using Equation <ref type="formula">2</ref>, where c ij ‫ס‬ 1 if residues are contacting (otherwise c ij ‫ס‬ 0), and P ij ‫ס‬ 0 if i or j are identical in PSE-4 and TEM-1 (otherwise P ij ‫ס‬ 1; <ref type="bibr" target="#b24">Voigt et al. 2002)</ref>. Two residues were considered contacting if any atoms in the TEM-1 structure (1BTL; <ref type="bibr" target="#b7">Jelsch et al. 1993)</ref>, excluding hydrogens, backbone nitrogens, and backbone oxygens, were within 4.5 Å.</p><formula xml:id="formula_1">E = ͚ i∈ ␣ ͚ j∈ ␤ c ij P ij (2)</formula><p>To calculate the SCHEMA profile, a window of w residues is defined, and the number of intrawindow interactions are counted.</p><p>The profile disruption of all residues in this window is incremented by the number of contacts within the window. The window is then slid along the protein sequence, and a profile is generated by incrementing the disruption of each residue (S i ) for all windows in which it resides. The numerical value of the SCHEMA-profile function S at residue i is defined by Equation 3; the magnitude of S i corresponds with the level of predicted structural disruption for a crossover at a residue. A window of 14 residues was used to calculate the profile in Figure <ref type="figure" target="#fig_0">1</ref>.</p><formula xml:id="formula_2">S i = ͑w -1ր2 ͒ ͚ j= i-w+ 1 i ͚ k= j j+ w-2 ͚ l= k+ 1 j+ 2-1 c kl P kl (3)</formula><p>Software for performing SCHEMA calculations is available on the Web at <ref type="url" target="www.che.caltech.edu/groups/fha/code.html">www.che.caltech.edu/groups/fha/code.html</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vectors</head><p>Lactamases were cloned into the vector pMon•1A2, which was created by cloning the gene encoding the heme domain of cytochrome P450 1A2 into pMon711 <ref type="bibr" target="#b18">(Sabbagh et al. 1998)</ref>. This vector was used for all selections. However, because this vector yields high background in oligonucleotide probe hybridization experiments, chimeras were cloned into pBC KS+ (Stratagene) for these studies. E. coli XL1-Blue transformed with these vectors were used for all analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library construction</head><p>Twenty-eight gene modules were created to assemble the lactamase genes (14 for each parent).  <ref type="bibr" target="#b5">(Guex and Peitsch 1997)</ref>. All modules used in assembly were double stranded and contained unique nonpalindromic overhangs that allow for specific sequential ligation without concatamer production. Silent mutations were introduced into both genes at module boundaries (overhangs) to allow for facile assembly. Chemically synthesized oligonucleotides used to create modules B, C, D, E, F, G, H, I, K, and M were phosphorylated using T4 polynucleotide kinase, and double-stranded modules were created from these by heating a reaction mixture containing 2.5 M of complementary oligonucleotides, 10 mM Tris pH 8.0, 1 mM EDTA, and 50 mM NaCl at 95°C for 2 min and subsequently cooling the reaction to room temperature at a rate of 0.1°C per second. Modules larger than 70 base pairs (A, J, L, and N) were amplified with Vent DNA polymerase using primers containing SapI restriction sites; this allowed for rapid generation of complementary overhangs after amplification. Primers that amplified the terminal modules had a single SacI or HindIII site to allow for subsequent cloning. Amplified modules were purified by agarose gel electrophoresis, each (200 ng) was cut with 10 units of SapI at 37°C for 24 h, and digested modules were purified using agarose gel electrophoresis before assembly.</p><p>T4 DNA ligase was used to assemble pse-4, tem-1, and chimeric genes through a sequential process where pairs of adjacent modules were ligated, purified by agarose gel electrophoresis, and subsequently ligated to other assembled modules. Gene fragments composed of modules AB, CD, EFG, HIJ, KL, and MN were created in the first ligation reactions. For reactions in which the chimeric library was assembled, equimolar mixtures of modules derived from each parent were used in this step. The ligated mod-ule dimers and trimers were further assembled, using the ligated fragments that had been purified with an agarose gel, to construct ABCDEFG and HIJKLMN using T4 DNA ligase. Because yields were low, ABCDEFG and HIJKLMN were amplified using Vent DNA polymerase and cleaved by SapI prior to assembly of fulllength lactamases in a third ligation step; SapI created complementary overhangs at the G and H termini. Full-length constructs were treated with SacI and HindIII, purified using a Zymo DNA Clean and Concentrator Kit, and ligated into pMon•1A2 and pBC KS(+), which were prepared similarly, to create the chimeric library.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oligonucleotide probe hybridization</head><p>Sequences of 79 randomly-selected chimeras from the unselected library in pBC KS+ were determined for 7 modules (A, D, F, G, H, L, and N) using oligonucleotide probe hybridization <ref type="bibr" target="#b8">(Joern et al. 2002;</ref><ref type="bibr" target="#b12">Meinhold et al. 2003)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional chimera selection</head><p>The minimal inhibitory concentration (MIC) of ampicillin for XL1-Blue E. coli containing pMon•1A2 is &lt;5 g/mL on LB-agar medium containing 10 g/mL kanamycin. Therefore, functional selections using the pMon plasmid were performed under conditions that gave no background, that is, 20 g/mL ampicillin and 10 g/mL kanamycin. XL1-Blue were transformed with the unselected library using a heat-shock protocol recommended by the supplier, plated on selective medium, and incubated at 37°C for 24 h. Plasmid DNA was purified from all functional clones and digested with HindIII and SacI to confirm pse-4 and tem-1 length inserts (ca. 1 kb) were present. In addition, XL1-Blue were transformed with the purified DNA to verify the purified vectors conferred the ampicillin resistance. A majority of the clones had plasmids with an appropriate size insert and conferred resistance in a second selection; 50 of these were sequenced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wilcoxon signed-rank test</head><p>The Wilcoxon signed-rank test is a nonparametric technique for investigating hypotheses about the median of a population <ref type="bibr">(Bernstein and Bernstein 1999)</ref>. Although this test has less power than a t-test for small sample sizes, that is, less likely to yield as dramatic a P-value, we used this method because it makes no assumptions about the data being sampled from a normal distribution. To calculate the test statistic (W), we ranked the relative differences, (E selected -〈 E〉 )/〈 E〉 , at each level of mutation according to their absolute magnitude and summed the rank scores according to the sign of the relative difference. This yielded W+ and W-values of 58 and -218, respectively. The critical value (62) for a one-tailed Wilcoxon test for 23 functional chimeras with a P ‫ס‬ 0.01 is larger than W+, indicating that there is a &lt;1% probability that the median relative difference is Ն0.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Polypeptides recombined between TEM-1 and PSE-4. (A) Polypeptide modules swapped between lactamases are mapped onto the structure of TEM-1. (B) Profile disruption S was calculated for recombination of TEM-1 and PSE-4 using the crystal structure coordinates for TEM-1 (Jelsch et al. 1993) and a window size of 14 (see Materials and Methods). Residues are numbered based on the sequence of TEM-1. Vertical dashed lines represent crossover sites.</figDesc><graphic coords="2,101.06,513.93,430.20,152.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Incorporation of tem-1 and pse-4 at different sequence positions in the unselected library. The presence of sequence from tem-1 and pse-4 at seven different module positions in 79 randomly picked unselected chimeras was determined using oligonucleotide probe hybridization. Asterisks represent the percentage of chimeras with crossovers occurring between adjacent probed positions. The dashed line represents the expected percentage of genes and crossovers in an unbiased library (50%).</figDesc><graphic coords="3,78.94,72.20,217.02,194.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Sequences, calculated disruption, and effective level of mutation of functional lactamases. Closed triangles indicate profile minima, and filled and open blocks represent TEM-1 and PSE-4 sequences, respectively. The calculated disruption E represents the number of interactions broken by recombination. Minimal inhibitory concentrations of ampicillin (MIC) are in g/mL and were determined using liquid cultures. Effective level of mutation (m) is the minimum number of mutations required to convert a chimera into one of its parents at only those residues recognized by SCHEMA, that is, residues whose coordinates are defined in the TEM-1 structure<ref type="bibr" target="#b7">(Jelsch et al. 1993</ref>).</figDesc><graphic coords="3,325.14,423.88,240.00,182.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Relationship between E and chimera function. (A) The disruption distribution of all possible chimeras (solid line) is compared with those discovered in the selection for activity (filled circles). (B) The fraction of theoretical chimeras identified as functional is shown for each E. The data were fit to Equation 1 using N ‫ס‬ 322 to obtain the probability that a disruption leads to a nonfunctional chimera, f d ‫ס‬ 0.095.</figDesc><graphic coords="4,325.21,72.20,239.34,383.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. E and m for all possible chimeras. At each level of mutation (m) where functional chimeras were obtained, the possible E values (filled circles), the mean E for all possible chimeras (solid line), and the E of functional chimeras (open circles) are shown. Highly mutated chimeras have significantly lower disruption than the mean.</figDesc><graphic coords="5,67.71,415.87,240.30,240.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Relationship between level of mutation and chimera function. The underlying distributions for the number of effective mutations (m) of all possible chimeras (solid line) and selected (filled circles) chimeras are shown.</figDesc><graphic coords="5,69.37,72.20,236.16,204.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>The protein modules correspond to TEM-1 residues 1-39 (A), 40-57 (B), 58-67 (C), 68-84 (D), 85-102 (E), 103-115 (F), 116-131 (G), 132-146 (H), 147-163 (I), 164-204 (J), 205-222 (K), 223-249 (L), 250-264 (M), 265-286 (N), and structurally related residues in PSE-4 identified using a structure-based alignment with Swiss-Pdb Viewer</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Protein Science (2003), 12:1686-1693. Published by Cold Spring Harbor Laboratory Press. Copyright © 2003 The Protein Society</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>www.proteinscience.org 1689</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">Army Research Office</rs>, <rs type="funder">NIH</rs> Fellowship <rs type="grantNumber">F32 GM64949-01</rs> (J.J.S.), <rs type="funder">Howard Hughes Medical Institute</rs> graduate research fellowship (M.M.M.), <rs type="funder">National Defense Science and Engineering Fellowship</rs> (J.B.E.), <rs type="funder">National Science Foundation</rs> (C.A.V.), and <rs type="funder">Burroughs-Welcome Fund</rs> (C.A.V.). Z.G.W. acknowledges support by the <rs type="funder">W.M. Keck Foundation</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_DzfRUJt">
+					<idno type="grant-number">F32 GM64949-01</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>S.L.M. is supported by the Howard Hughes Medical Institute, the Ralph M. Parsons Foundation, and an IBM Shared University Research Grant.</p><p>The publication costs of this article were defrayed in part by payment of page charges. This article must therefore be hereby marked "advertisement" in accordance with 18 USC section 1734 solely to indicate this fact.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in protein chemistry</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<date type="published" when="2001">2001</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F.H., ed. 2001a. Advances in protein chemistry, Vol. 55. Academic Press, San Diego, CA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Combinatorial and computational challenges for biocatalyst design</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="253" to="257" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 2001b. Combinatorial and computational challenges for biocatalyst design. Nature 409: 253-257.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Elements of statistics II: Inferential statistics</title>
+		<editor>Bernstein, S. and Bernstein, R.</editor>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernstein, S. and Bernstein, R., eds. 1999. Elements of statistics II: Inferential statistics. McGraw-Hill, New York.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA shuffling of a family of genes from diverse species accelerates directed evolution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crameri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Raillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bermudez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Stemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="288" to="291" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crameri, A., Raillard, S.A., Bermudez, E., and Stemmer, W.P. 1998. DNA shuffling of a family of genes from diverse species accelerates directed evolution. Nature 391: 288-291.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Degenerate oligonucleotide gene shuffling (DOGS): A method for enhancing the frequency of recombination with family shuffling</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Nevalainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Bergquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="13" to="20" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibbs, M.D., Nevalainen, K.M., and Bergquist, P.L. 2001. Degenerate oligo- nucleotide gene shuffling (DOGS): A method for enhancing the frequency of recombination with family shuffling. Gene 271: 13-20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">SWISS-MODEL and the Swiss-PdbViewer: An environment for comparative protein modeling</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Peitsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2714" to="2723" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guex, N. and Peitsch, M.C. 1997. SWISS-MODEL and the Swiss-PdbViewer: An environment for comparative protein modeling. Electrophoresis 18: 2714-2723.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Engineering hybrid genes without the use of restriction enzymes: Gene splicing by overlap extension</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Pease</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="61" to="68" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horton, R.M., Hunt, H.D., Ho, S.N., Pullen, J.K., and Pease, L.R. 1989. Engi- neering hybrid genes without the use of restriction enzymes: Gene splicing by overlap extension. Gene 77: 61-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Crystal structure of Escherichia coli TEM1 ␤-lactamase at 1.8 Å resolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jelsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mourey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Masson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Samama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="364" to="383" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jelsch, C., Mourey, L., Masson, J.M., and Samama, J.P. 1993. Crystal structure of Escherichia coli TEM1 ␤-lactamase at 1.8 Å resolution. Proteins 16: 364-383.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Analysis of shuffled gene libraries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Joern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="643" to="656" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joern, J.M., Meinhold, P., and Arnold, F.H. 2002. Analysis of shuffled gene libraries. J. Mol. Biol. 316: 643-656.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Insights into the molecular basis for the carbenicillinase activity of PSE-4 ␤-lactamase from crystallographic and kinetic studies</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sanschagrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Passmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Levesque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Strynadka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="395" to="402" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lim, D., Sanschagrin, F., Passmore, L., De Castro, L., Levesque, R.C., and Strynadka, N.C. 2001. Insights into the molecular basis for the carbenicil- linase activity of PSE-4 ␤-lactamase from crystallographic and kinetic stud- ies. Biochemistry 40: 395-402.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Creating multiple-crossover DNA libraries independent of sequence identity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11248" to="11253" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S., Ostermeier, M., Moore, G.L., Maranas, C.D., and Benkovic, S.J. 2001. Creating multiple-crossover DNA libraries independent of sequence iden- tity. Proc. Natl. Acad. Sci. 98: 11248-11253.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Catalytic properties of class A ␤-lactamases: Efficiency and diversity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lamotte-Brasseur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="581" to="598" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matagne, A., Lamotte-Brasseur, J., and Frere, J.M. 1998. Catalytic properties of class A ␤-lactamases: Efficiency and diversity. Biochem. J. 330: 581-598.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Analysis of shuffled libraries by oligonucleotide probe hybridization</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Joern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Silberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="177" to="188" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meinhold, P., Joern, J., and Silberg, J.J. 2003. Analysis of shuffled libraries by oligonucleotide probe hybridization. Methods Mol. Biol. 231: 177-188.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Protein evolution by molecular breeding</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Stemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="284" to="290" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minshull, J. and Stemmer, W.P. 1999. Protein evolution by molecular breeding. Curr. Opin. Chem. Biol. 3: 284-290.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Strategies for the in vitro evolution of protein function: Enzyme evolution by random recombination of improved sequences</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kuchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="336" to="347" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore, J.C., Jin, H.M., Kuchner, O., and Arnold, F.H. 1997. Strategies for the in vitro evolution of protein function: Enzyme evolution by random recom- bination of improved sequences. J. Mol. Biol. 272: 336-347.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Structure-based combinatorial protein engineering (SCOPE)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>O'maille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakhtina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page">677</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Maille, P., Bakhtina, M., and Tsai, M. 2002. Structure-based combinatorial protein engineering (SCOPE). J. Mol. Biol. 321: 677.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Evolution of protein function by domain swapping</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Protein Chem</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="29" to="77" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ostermeier, M. and Benkovic, S.J. 2001. Evolution of protein function by do- main swapping. Adv. Protein Chem. 55: 29-77.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A combinatorial approach to hybrid enzymes independent of DNA homology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1205" to="1209" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ostermeier, M., Shim, J.H., and Benkovic, S.J. 1999. A combinatorial approach to hybrid enzymes independent of DNA homology. Nat. Biotechnol. 17: 1205-1209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Characterization of a PSE-4 mutant with different properties in relation to penicillanic acid sulfones: Importance of residues 216 to 218 in class A ␤-lactamases</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sabbagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Theriault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sanschagrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Voyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Palzkill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Levesque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2319" to="2325" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sabbagh, Y., Theriault, E., Sanschagrin, F., Voyer, N., Palzkill, T., and Levesque, R.C. 1998. Characterization of a PSE-4 mutant with different properties in relation to penicillanic acid sulfones: Importance of residues 216 to 218 in class A ␤-lactamases. Antimicrob. Agents Chemother. 42: 2319-2325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Structure-function analysis of ␣-helix H4 using PSE-4 as a model enzyme representative of class A ␤-lactamases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Savoie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sanschagrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Palzkill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Voyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Levesque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="267" to="274" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savoie, A., Sanschagrin, F., Palzkill, T., Voyer, N., and Levesque, R.C. 2000. Structure-function analysis of ␣-helix H4 using PSE-4 as a model enzyme representative of class A ␤-lactamases. Protein Eng. 13: 267-274.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Libraries of hybrid proteins from distantly related sequences</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="456" to="460" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sieber, V., Martinez, C.A., and Arnold, F.H. 2001. Libraries of hybrid proteins from distantly related sequences. Nat. Biotechnol. 19: 456-460.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Modular retro-vectors for transgenic and therapeutic use</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Solaiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Zink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grunkemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cosgrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Hodgson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Reprod. Dev</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="309" to="315" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Solaiman, F., Zink, M.A., Xu, G., Grunkemeyer, J., Cosgrove, D., Saenz, J., and Hodgson, C.P. 2000. Modular retro-vectors for transgenic and therapeutic use. Mol. Reprod. Dev. 56: 309-315.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">DNA shuffling by random fragmentation and reassembly: In vitro recombination for molecular evolution</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Stemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="10747" to="10751" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stemmer, W.P. 1994a. DNA shuffling by random fragmentation and reassem- bly: In vitro recombination for molecular evolution. Proc. Natl. Acad. Sci. 91: 10747-10751.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Rapid evolution of a protein in vitro by DNA shuffling</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="389" to="391" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">---. 1994b. Rapid evolution of a protein in vitro by DNA shuffling. Nature 370: 389-391.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Protein building blocks preserved by recombination</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="553" to="558" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voigt, C.A., Martinez, C., Wang, Z.G., Mayo, S.L., and Arnold, F.H. 2002. Protein building blocks preserved by recombination. Nat. Struct. Biol. 9: 553-558.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Recombination and chimeragenesis by in vitro heteroduplex formation and in vivo repair</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Volkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Volkov, A.A., Shao, Z., and Arnold, F.H. 1999. Recombination and chimer- agenesis by in vitro heteroduplex formation and in vivo repair. Nucleic Acids Res. 27: e18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Molecular evolution by staggered extension process (StEP) in vitro recombination</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Affholter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="258" to="261" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, H., Giver, L., Shao, Z., Affholter, J.A., and Arnold, F.H. 1998. Molecular evolution by staggered extension process (StEP) in vitro recombination. Nat. Biotechnol. 16: 258-261.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

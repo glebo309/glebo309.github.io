@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Phage display as a tool for the directed evolution of enzymes</title>
+				<funder>
+					<orgName type="full">Belgian National Fund for Scientific Research (FNRS)</orgName>
+				</funder>
+				<funder ref="#_jtYU4y2">
+					<orgName type="full">Action de Recherche Concerte ´e</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ana</forename><surname>Fernandez-Gacio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut des Sciences de la Vie</orgName>
+								<orgName type="laboratory">Laboratoire de Biochimie Physique et des Biopolyme `res</orgName>
+								<orgName type="institution">Universite ´Catholique de Louvain, Place L. Pasteur</orgName>
+								<address>
+									<addrLine>1</addrLine>
+									<postCode>B1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marilyne</forename><surname>Uguen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut des Sciences de la Vie</orgName>
+								<orgName type="laboratory">Laboratoire de Biochimie Physique et des Biopolyme `res</orgName>
+								<orgName type="institution">Universite ´Catholique de Louvain, Place L. Pasteur</orgName>
+								<address>
+									<addrLine>1</addrLine>
+									<postCode>B1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jacques</forename><surname>Fastrez</surname></persName>
+							<email>fastrez@bioc.ucl.ac.be</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut des Sciences de la Vie</orgName>
+								<orgName type="laboratory">Laboratoire de Biochimie Physique et des Biopolyme `res</orgName>
+								<orgName type="institution">Universite ´Catholique de Louvain, Place L. Pasteur</orgName>
+								<address>
+									<addrLine>1</addrLine>
+									<postCode>B1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Institut des Sciences de la Vie</orgName>
+								<orgName type="laboratory">Laboratoire de Biochimie Physique et des Biopolyme `res</orgName>
+								<orgName type="institution">Universite ´Catholique de Louvain, Place L. Pasteur</orgName>
+								<address>
+									<addrLine>1</addrLine>
+									<postCode>B1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Phage display as a tool for the directed evolution of enzymes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B1720E4AE0AE9E3045B6E4B5ED85E1B6</idno>
+					<idno type="DOI">10.1016/S0167-7799(03)00194-X</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Since its introduction in 1985, phage display has had a tremendous impact on the discovery of peptides that bind to a variety of receptors, the generation of binding sites within predefined scaffolds, and the creation of high-affinity antibodies without immunization. Its application to enzymology has required the development of techniques that couple enzymatic activity to selection protocols based on affinity chromatography. Here, we describe both indirect methods, using transition-state analogues and suicide substrates, and direct methods, using the ability of active phage-enzymes to transform substrate into product. The methods have been applied to large libraries for mechanistic-based studies and to generate variants with new or improved properties. In addition, such techniques have been successfully used to select catalytic antibodies and improve their catalytic efficiency.</p><p>Enzymes -the catalysts of life -have been selected by natural evolution to sustain the development of living cells and organisms in their natural environment. Consequently, natural enzymes do not necessarily have adequate properties, specificity, stability or catalytic activity to make them suitable for biotechnological applications. Several strategies have been envisaged to modify the properties of natural enzymes. Site-directed mutagenesis, guided by molecular modelling or hypotheses about natural evolution, has sometimes been successful in providing enzymes with novel expected properties <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. However, our present understanding of structure-function relationships remains too limited to guarantee the success of designed mutations. In view of this difficulty, the alternative strategy of creating libraries of mutants and screening or selecting for interesting mutants, is increasingly being followed. The success of this strategy depends on the size, quality and diversity of the libraries and, crucially, on the sensitivity, efficiency and discriminating power of the screening or selection technique available.</p><p>In screening protocols, individual clones are examined in small liquid cultures or on Petri dishes to determine the properties of an enzyme that they produce. Their efficiency depends on the concentration and specific activity of the catalyst, the sensitivity of the test, the rate of the corresponding uncatalysed reaction, and possible interference with other enzymes. The term selection is reserved for situations where only clones producing a certain level of activity survive. In vivo selection protocols are the simplest but require the expression of the gene to confer a significant biological advantage. In vitro selection techniques are based on a physical link between a protein and its encoding gene -the best known system is phage display. In principle, selection processes are more efficient because they can handle larger libraries (frequently $ 10 7 clones), whereas screening protocols are better suited for libraries of a few-thousand clones. In both strategies, however, success depends on the quality of the designed protocols.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction and characterization of phage enzymes</head><p>In phage display technology <ref type="bibr">[3 -6]</ref>, nucleotide sequences encoding random peptides, antibodies cloned from natural repertoires, or libraries of enzyme mutants, are inserted within a gene that encodes a phage coat protein in such a way that, upon phage morphogenesis, the encoded polypeptides are displayed on the phage surface (Fig. <ref type="figure" target="#fig_0">1</ref>). The most widespread vectors are the filamentous bacteriophages fd, M13, or related phagemids <ref type="bibr" target="#b6">[7]</ref>. These phages infect Escherichia coli strains with the F 0 episome, are non-lytic, and consist of a single-stranded DNA molecule encapsulated in a long cylindrical capsid made up of five proteins. The major protein -the product of gene 8 (g8p)is a small protein of 5.2 kDa that forms the cylinder of the capsid; its number of copies (2700 for the wild-type phage) is adjusted to the size of the DNA. The other coat proteins (g3p, g6p, g7p and g9p) close the extremities of the cylinder. The product of gene 3 -present in three to five copies -is responsible for phage infectivity.</p><p>Most of the phage enzymes described to date were created by cloning in gene 3 <ref type="bibr" target="#b7">[8]</ref>. The displayed enzymes are fused by their C-terminal to g3p through a linker peptide. In this construction, all copies of g3p should display the cloned enzyme. In practice, proteolytic degradation of either the enzyme or the connecting peptide reduces the number of copies. Indeed, in addition to the fusion protein, non-fused g3p and other degradation products are frequently detected on western blot analysis of the phage coat proteins using an anti-g3p antibody for detection <ref type="bibr" target="#b8">[9]</ref>. For steric reasons, it is not possible to assemble phage particles from the rather bulky enzyme-g8p fusion proteins. Gene 3 or gene 8 fusions have also been constructed in phagemids <ref type="bibr" target="#b7">[8]</ref>. Production of phagemid particles is then triggered by infection with a helper phage. In this case, there are two copies of g3p or g8p: the fusion and the non-fused coat proteins. Cloning in gene 8 becomes feasible as fusion proteins are scattered among non-fused g8ps. On both g8p and g3p, the level of display depends on the relative efficiency of incorporation of non-fused and fusion proteins on phage morphogenesis. This varies between 1% and 2 -5% for those phage for which data are available <ref type="bibr" target="#b7">[8]</ref>, and can be improved by optimization of the signal peptide, at least for the g3p fusions <ref type="bibr" target="#b9">[10]</ref>. Phagemid vectors are used to display toxic proteins because, under control of an inducible promoter, their expression can be activated simultaneously with helper-phage infection <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. cDNA libraries can be displayed functionally on phage via C-terminal fusion to either g6p <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref> or g3p <ref type="bibr" target="#b14">[15]</ref>, or to the leucine zipper Fos <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. In this case, the Fos fusion assembles with its Jun-partner-fused N-terminal to g3p.</p><p>Phage enzymes produced from E. coli infected cultures are easily purified by precipitation with polyethylene glycol following elimination of the bacteria. Their catalytic parameters (V max and K m ) are measured as for free enzymes. Values of k cat are obtained by dividing the V max by the phage-enzyme concentration, which is itself determined from the absorbance of stock phage solutions at 265 nm. Comparisons of the k cat of phage enzymes and free enzymes enable the number of copies of active enzymes per phage to be determined. One practical difficulty arises from the molecular weight of phage enzymes (. 2 £ 10 7 kDa), which limits their maximum concentration in solution to , 10 27 M. Long measurement times are needed for low activities, and background reactions can interfere.</p><p>The largest enzyme that has been displayed on fd is penicillin acylase (86 kDa), with one copy per phage <ref type="bibr" target="#b17">[18]</ref>. Smaller enzymes (#30 kDa) can be displayed in up to three to four copies at the g3p site. Subunit dimerization can take place as shown by the functional display of a glutathione-S-transferase (GST) <ref type="bibr" target="#b18">[19]</ref>. Free thiols are disfavoured possibly because they interact with the g3p cysteines <ref type="bibr" target="#b19">[20]</ref>. Several enzymes featuring disulfide bridges were active on phage.</p><p>Given that cytoplasmic enzymes and large proteins might not withstand exportation through the cytoplasmic membrane and the canal provided in the external membrane by phage g4p, cloning in lytic phage such as l and T4 has been considered <ref type="bibr">[21 -23]</ref>. However, these display formats have been used rarely in enzyme engineering.</p><p>In vitro selection for catalytic activity Display on filamentous phage has been used extensively to select peptide ligands or antibodies with high affinities for specific receptors or haptens <ref type="bibr">[3 -6]</ref>. Phage displaying binders are isolated from libraries by affinity chromatography using supports on which receptors or haptens are immobilized. Several rounds of selection are required to obtain high-affinity clones. The power of this technology lies in the physical link between a gene and its encoded peptide. In highly diverse libraries, the number of copies of individual clones is small; therefore, if an efficient protocol succeeds in extracting an interesting phage, its concentration is below the detection of available techniques. Nevertheless, phage infection and replication in bacterial culture enables the number of copies to be amplified to any desirable level.</p><p>Libraries of phage-enzyme mutants are easily generated using error-prone PCR or by the insertion of cassettes of degenerated oligonucleotides. However, selection of interesting mutants based on catalytic activity is far more demanding than selection of protein variants based on affinity for a specific target. It is therefore necessary to find a technique that couples the ability of an enzyme to catalyse a chemical transformation with its acquired binding ability. Several strategies have been developed, including indirect methods, which use inhibitors, and direct methods, which use substrates. g8p Single stranded DNA g6p g3p g7p g9p 5′ 3′ Linker peptide Protein of interest fused tog3p Sequence encoding protein of interest Sequence encoding resistance to tetracycline g3p signal peptide Sequence encoding g3p Sequence encoding linker peptide</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Indirect selection with inhibitors</head><p>The first selection protocols were based on binding to substrate, product, or transition state analogues (TSAs) (Fig. <ref type="figure" target="#fig_1">2a</ref>) <ref type="bibr">[19,24 -27]</ref>. Because they are designed to mimic the geometry and charge distribution of transition states, and because the catalytic power of enzymes arises from their higher affinity for TSAs over substrates, selection by binding to TSAs should be more efficient. This prediction appears to be confirmed in experiments that aimed to modify the specificity of the A1-1 GST, an enzyme that catalyses the conjugation of toxic compounds to glutathione to facilitate their elimination. Upon selection with product-like affinity ligands, derived from libraries of 5 £ 10 6 variants in which ten residues lining the pocket for activated aromatic electrophiles had been randomized, mutants in which specificity was altered in favour of charged substrates were isolated, but their specific activity was reduced 1000-fold compared with the wild-type enzyme <ref type="bibr" target="#b18">[19]</ref>. Selection from another library featuring four randomized residues with a sigma complex mimicking the transition state resulted in a mutant that had an activity only 20 -90-fold lower than the wild-type enzyme, depending on the substrate <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>. The possibility of improving the activity of catalytic antibodies by random mutagenesis and selection has also been tested. Selection on TSAs from libraries of variants with an esterase activity led to conflicting results: in one case, mutants with higher TSA affinity but lower activity were selected <ref type="bibr" target="#b27">[28]</ref>; in another, better binders were found to be more active <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>.</p><p>The second indirect selection technique uses suicide substrates that irreversibly block the enzyme (Fig. <ref type="figure" target="#fig_1">2b</ref>). Also called mechanism-based inhibitors, these are relatively nonreactive compounds, transformed by an enzyme, using its normal mechanism, into very reactive inhibitors <ref type="bibr" target="#b30">[31]</ref>. For these selections, libraries of mutants are incubated under kinetic control with a limiting concentration of biotinylated inhibitor. The most active phage-enzymes react faster, are covalently labelled and can be extracted by adsorption on to streptavidin-coated beads. Bound phage are recovered either by reductive cleavage of a disulfide bond introduced in the labelling agent or by proteolytic cleavage of the peptide connector between the displayed enzyme and g3p.</p><p>This method enabled selection of the most active phageenzymes from mixtures of TEM-b-lactamase mutants <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>, and clones possessing b-lactamase activity, from a combinatorial library of single chain antibodies <ref type="bibr" target="#b33">[34]</ref>. Surprisingly, however, application to a library of b-lactamase mutants generated by error-prone PCR resulted in inactive phage-enzymes. This was shown to arise from the mechanism of suicide inhibition: if irreversible labelling originates from a covalent intermediate (in this case an acyl-enzyme), slower deacylation gives more time for conversion into the reactive inhibitory form. Consequently, mutants are selected that acylate rapidly but have a slow turnover. This problem was addressed in a library of 10 7 clones. Slowly deacylating mutants were blocked by preincubation with a true substrate and then active phageenzymes were labelled and efficiently selected from the library <ref type="bibr" target="#b34">[35]</ref>. Using substrates immobilized through a biotinylated suicide leaving group, Janda et al. selected antibodies with a glycosidase activity <ref type="bibr" target="#b35">[36]</ref>, whereas Plu ¨ckthun et al. obtained phosphatase antibodies from a naı ¨ve library and selected mutants with a ten-fold faster turnover following random mutagenesis <ref type="bibr" target="#b36">[37]</ref>.</p><p>Phosphonylating agents -although not strictly suicide substrates -have been used to select for esterolytic or proteolytic activities. Esters of biotinylated acyl-aminophosphonic acids, with structures that correspond closely to that of the target substrate, were used as labelling agents to extract mutants with a modified specificity from a library of subtilisin variants. Mutants were isolated that, on a charged substrate, had an activity of 4% of that of the TRENDS in Biotechnology TSA Elution by protease Cleavage site of protease Streptavidin Substrate Interaction g3p Phage Phage Elution by protease Elution by addition of soluble TSA High affinity Low affinity (a) (b) Cleavage site of protease g3p Phage Phage Phage Biotinylated suicide substrate</p><p>wild-type enzyme on its neutral substrate <ref type="bibr" target="#b8">[9]</ref>, which is satisfactory given the small size of the model library.</p><p>Similarly, selection with a triolein-emulsified biotinylated p-nitrophenyl-phosphate extracted active lipases from a library of 5 £ 10 7 mutants in which nine residues of the hinge region controlling the opening of the active site were randomized. However, although presumably present in the library, none of the analysed clones was more active than the wild-type enzyme on p-nitrophenyl palmitate, particularly in the presence of detergents <ref type="bibr" target="#b37">[38]</ref>. This might result from the different behaviours of the biotinylated inhibitor and the lipid substrate within the lipid phase. Surprisingly, biotinylated phosphonate mono-or di-esters were also successful in extracting proteolytic antibodies from human lupus or murine immunized antibodies libraries <ref type="bibr" target="#b38">[39]</ref>. The success of these selection protocols depends on the rate of labelling with the inhibitor and the rate of substrate turnover being sensitive to the same structural features. This criterion was apparently fulfilled in some experiments but is not generally easy to meet. Another obvious restriction is that adequate suicide substrates are not available for all classes of enzymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Direct selection with substrates</head><p>In view of the potential limitations of the TSA and suicide inhibitor approaches, efforts have focused on developing new selection techniques based directly on substrate transformation. In the first reports, both enzyme and substrate were attached to the phage. The ability of active phage-enzymes to transform the substrates enabled their selection by adsorption on to a product binding support. This strategy has been tested on a nuclease, two proteases and two ligases. Pedersen et al. attached a biotinylated double-stranded DNA substrate to the staphylococcal nuclease phage-enzyme preliminarily inactivated by Ca 2þ extraction (Fig. <ref type="figure">3</ref>). After adsorption on streptavidin support, they reactivated the enzyme by Ca 2þ addition, which led to DNA cleavage and phage elution. The elution yield was 100-fold higher than with a control phage displaying a Fab fragment <ref type="bibr" target="#b39">[40]</ref>. Demartis et al. designed phage for engineering enzymes that act on peptide substrates (Fig. <ref type="figure" target="#fig_3">4</ref>). They feature enzyme-calmodulin -g3p fusions on which peptides containing a calmodulin-binding motif adsorb. The protease-displaying versions could be selected by their ability to release a new N-terminal recognized by a specific antibody. The GST-displaying version was selected by streptavidin binding following conjugation of a glutathione-containing peptide to a biotinylated electrophilic aromatic co-substrate. A biotin ligase was selected directly after biotinylation of the peptide. Enrichment factors of active phage-enzymes versus control were satisfactory with model mixtures (up to 2000-fold) <ref type="bibr" target="#b40">[41]</ref> but application to a library was not successful <ref type="bibr" target="#b41">[42]</ref>. Biotinylation by ligation of a biotin peptide onto their extended N-terminus has also been used to select improved variants of subtiligase, a double mutant of Fig. <ref type="figure">3</ref>. A g3p-enzyme fusion and a g3p acid peptide, containing a C-terminal cystein, are displayed on the surface of the phage. In a second step, a base peptide linked to a biotinylated substrate is added. After the heterodimerization of the acid and base peptides, and cross-linking through the cysteines, phage-enzymes are attached to streptavidin beads through their biotinylated substrate. Ca þ2 addition releases active phage-enzymes by catalytic cleavage of the substrate. g3p Phage Ca 2+ Enzyme Calmodulin Substrate Calmodulin high affinity peptide Specific product ligand Catalysis EDTA Elution Phage Phage P Ca 2+ S Review</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TRENDS in Biotechnology</head><p>subtilisin that catalyses peptide ligation, from 10 9 clone libraries <ref type="bibr" target="#b42">[43]</ref>.</p><p>In these 'intraphage' transformations, a single catalytic event leads to selection but has the consequence that low activity enzymes are also selected. Jestin et al. tried to solve this problem by coupling two orthogonal reactionsthe enzymatic reaction, presumed to occur intermolecularly, and a chemical reaction leading to phage labelling by the substrate or the product of the enzymatic reaction (Fig. <ref type="figure" target="#fig_4">5</ref>). Selection was achieved with product-specific binders. Using this strategy, model mixtures of phagedisplayed DNA polymerases containing inactive mutants were enriched into active ones <ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b16">17]</ref>.</p><p>The most recent substrate-based selection applicable to metallo-enzymes was tested with the Bacillus cereus metallo-b-lactamase (Fig. <ref type="figure" target="#fig_5">6</ref>). It uses affinity chromatography in association with catalytic elution in a three-step protocol: (1) phage enzymes are inactivated by extraction of the catalytic metal ion; (2) they are adsorbed on to a support coated with substrate; and (3) phage displaying active enzymes are selectively eluted on metal ion addition because they transform the substrate into a product for which they usually have a lower affinity. This method requires the apo-enzymes to bind their substrate, and the results suggest that a high level of display and a high density of ligand on the support are favourable for binding. This protocol succeeded in extracting active enzymes from a library of 5 £ 10 6 clones generated by error-prone PCR <ref type="bibr" target="#b44">[45]</ref>.</p><p>Selection for stability or regulation Phage display has also been used to engineer or optimize other properties in enzymes. Enzymes for which stability versus proteolytic degradation is increased have been isolated from repertoires of variants by cloning in gene 3 between sequences encoding two domains essential for infectivity. Exposure to a protease led to degradation of unstable enzymes and loss of the g3p domains. Consequently, only those phage displaying stable variants were propagated <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref>. Functionality under unfavourable conditions could also be selected: amylases with improved starch binding at low pH were selected by phage display <ref type="bibr" target="#b48">[49]</ref>.</p><p>Allosteric regulation is an important property of enzymes. In an effort to generate regulatable enzymes, libraries of variants of the phage-displayed TEM-blactamase were constructed in which random hexapeptides are inserted in loops in the vicinity of the active site. Potentially interesting clones were selected on three criteria: catalytic activity, affinity for a target protein, and modulation of activity on ligand binding. Clones with activity regulated by binding to monoclonal antibodies were easily isolated <ref type="bibr" target="#b8">[9]</ref>. The affinity of clones binding to ferritin, chosen as a model protein devoid of a binding site for polypeptide partners, had to be optimized by errorprone PCR and selection <ref type="bibr" target="#b49">[50]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hidden in vivo selection in phage display</head><p>Although in principle, phage display enables selection protocols to be performed in vitro under conditions chosen by the researcher, a hidden in vivo selection is always present. Clones that produce toxic proteins or poorly exported mutants disappear from libraries. Occasionally, growth of a culture is strongly inhibited after transformation with phage displaying a supposedly innocuous protein, and only mutants carrying deletions or stop codons are found after selection. When detected, these problems can sometimes be solved by cloning in a phagemid under the control of promoter that is activated only on helper-phage infection <ref type="bibr" target="#b11">[12]</ref>. The level of display might also influence the selection. A high level of displaycharacteristic of proteolysis-resistant proteins -reduces infectivity. However, this can be restored before infection N O O N H O O P O O -O N x CGC AAG ATG TGG CGT T n GCG TTC TAC ACC GCA AAA TAA Enzyme (polymerase) dUTP dNTP Biotin g3p Phage Cross-linking Catalysis Substrate Product Elution Binding Enzyme EDTA or phenantroline g3p Phage Phage Zn 2+ Zn 2+ Phage Zn 2+ Zn 2+ Zn 2+</p><p>Phage by cleavage of the peptide connector between the displayed enzyme and the phage coat protein. A low level of display disfavours in vitro selection because these phage are discarded at the affinity chromatography stage. To solve the problems associated with the in vivo stage of phage display, alternative techniques have been introduced that run entirely in vitro <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref>, although to date they have been rarely associated with selections for enzymatic activity <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>. Phenotype-genotype linkage has also been achieved by compartmentalization in micro-emulsion <ref type="bibr" target="#b54">[55]</ref> and has resulted in the evolution of an extremely fast phosphotriesterase <ref type="bibr" target="#b55">[56]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks</head><p>Although phage display has quickly developed into an efficient tool for the selection of peptide binders, its application to the directed evolution of enzymes is just beginning to emerge. Indeed, it has proved more difficult to set up selection protocols in which efficient catalysis could be coupled to affinity selection. Several strategies, each adapted to different classes of catalytic mechanisms, have been devised. The availability of robust in vitro selection protocols should now enable researchers to take full advantage of the ability of phage display technology to handle very large libraries. Furthermore, the ability to deal with weakly active enzymes or abzymes offers new possibilities for the generation of catalytic activities de novo.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. The protein of interest is fused to the amino-terminal of g3p. The foreign gene is inserted between the sequences encoding the signal peptide and the mature coat protein g3p of the phage fd-tet. On phage morphogenesis, the fusion protein is displayed on the phage surface.TRENDS in Biotechnology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Indirect selection with inhibitors. (a) A phage-enzyme library is binding selectively to a transition state analogue attached to a solid support. A proteolytic cleavage between the displayed enzyme and g3p allows recovery of the phages when interaction between transition state analogue (TSA) and enzyme is of high affinity and addition of soluble TSA allows the recovery of the phages when interaction between TSA and enzyme is of low affinity. (b) Active phage-enzymes transform a biotinylated suicide substrate into an inhibitor through their normal mechanism. Then the biotinylated phage-enzymes are extracted from the mixture by binding to streptavidin coated beads. A proteolytic cleavage between the displayed enzyme and g3p allows recovery of the bound phage.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. The phages display enzyme -calmodulin chimeras fused to g3p. The substrate contains a calmodulin Ca 2þ -dependent high-affinity peptide. After catalysis, the active phages are rescued using a product-specific solid support. Finally, the active phages are recovered by elution with a Ca 2þ -chelating agent (EDTA).TRENDS in Biotechnology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Polymerase-g3p fusions are displayed on phage. The active polymerases are capable of extending a maleimidyl-derivatized primer by incorporating dNTP and biotinylated dUTP. The phage coat is labeled by reaction with the maleimidyl group. Subsequently, the catalytically active polymerases are captured on immobilized streptavidin.TRENDS in Biotechnology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. The phage-enzymes are initially inactivated by extracting the essential metallic cofactor and are captured with an immobilised substrate. Addition of the metallic cofactor (Zn 2þ ) results in the catalytic elution of the active phage-enzyme.TRENDS in Biotechnology</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>TRENDS in Biotechnology Vol.21 No.9 September 2003</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>http://tibtec.trends.com 0167-7799/$ -see front matter q 2003 Elsevier Ltd. All rights reserved. doi:10.1016/S0167-7799(03)00194-X</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>http://tibtec.trends.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>A.F-G. acknowledges a <rs type="grantName">Marie Curie training grant</rs>. M.U. acknowledges grants from the <rs type="institution">FSR-UCL</rs> and from an <rs type="funder">Action de Recherche Concerte ´e</rs>. This work was supported by the <rs type="funder">Belgian National Fund for Scientific Research (FNRS)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jtYU4y2">
+					<orgName type="grant-name">Marie Curie training grant</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Do you want to reproduce material from a Trends journal?</head><p>This publication and the individual contributions within it are protected by the copyright of Elsevier. Except as outlined in the terms and conditions (see p. ii), no part of any Trends journal can be reproduced, either in print or electronic form, without written permission from Elsevier. Please address any permission requests to:</p><p>Rights and Permissions, Elsevier Ltd, PO Box 800, Oxford, UK OX5 1DX.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Tailoring new enzyme functions by rational redesign</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cedrone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cedrone, F. et al. (2000) Tailoring new enzyme functions by rational redesign. Curr. Opin. Struct. Biol. 10, 405 -410</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mutants of 4-oxalocrotonate tautomerase catalyze the decarboxylation of oxaloacetate through an imine mechanism</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="845" to="851" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brik, A. et al. (2002) Mutants of 4-oxalocrotonate tautomerase catalyze the decarboxylation of oxaloacetate through an imine mechanism. Chem. Biochem 3, 845 -851</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="1315" to="1317" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, G.P. (1985) Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface. Science 228, 1315 -1317</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Phage display</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Petrenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="391" to="410" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, G. and Petrenko, V.A. (1997) Phage display. Chem. Rev. 97, 391 -410</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Protein design and phage display</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Hoess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="3205" to="3218" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoess, R.H. (2001) Protein design and phage display. Chem. Rev. 101, 3205 -3218</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Biotechnological applications of phage and cell display</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Benhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Adv</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benhar, I. (2001) Biotechnological applications of phage and cell display. Biotechnol. Adv. 19, 1 -33</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Filamentous bacteriophage</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Model</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Russel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Bacteriophages</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Calendar</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Plenum Press</publisher>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="375" to="456" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Model, P. and Russel, M. (1988) Filamentous bacteriophage. In The Bacteriophages (Vol. 2) (Calendar, R., ed.), pp. 375 -456, Plenum Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Investigation of phage display for the directed evolution of enzymes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soumillion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fastrez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Directed Molecular Evolution of Proteins</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Brakmann</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Johnsson</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Weinheim</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="79" to="110" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Soumillion, P. and Fastrez, J. (2002) Investigation of phage display for the directed evolution of enzymes. In Directed Molecular Evolution of Proteins (Brakmann, S. and Johnsson, K., eds), pp. 79 -110, Wiley- VCH, Weinheim</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Display of active subtilisin 309 on phage: analysis of parameters influencing the selection of subtilisin variants with changed substrate specificity from libraries using phosphonylating inhibitors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Legendre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="87" to="102" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Legendre, D. et al. (2000) Display of active subtilisin 309 on phage: analysis of parameters influencing the selection of subtilisin variants with changed substrate specificity from libraries using phosphonylat- ing inhibitors. J. Mol. Biol. 296, 87 -102</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Improving the display of proteins on filamentous phage</title>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Jestin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="187" to="191" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jestin, J-L. et al. (2001) Improving the display of proteins on filamentous phage. Res. Microbiol. 152, 187-191</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A stable phage-display system using a phagemid vector: phage display of hen egg-white lysozyme (HEL), Escherichia coli alkaline, phosphatase, and anti-HEL monoclonal antibody, HyHEL10</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maenaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="682" to="687" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maenaka, K. et al. (1996) A stable phage-display system using a phagemid vector: phage display of hen egg-white lysozyme (HEL), Escherichia coli alkaline, phosphatase, and anti-HEL monoclonal antibody, HyHEL10. Biochem. Biophys. Res. Commun. 218, 682-687</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A phagemid vector using the E. coli phage shock promoter facilitates phage display of toxic proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beekwilder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beekwilder, J. et al. (1999) A phagemid vector using the E. coli phage shock promoter facilitates phage display of toxic proteins. Gene 228, 23 -31</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Surface expression and ligand-based selection of cDNA libraries on filamentous phage</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jespers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="378" to="382" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jespers, L. et al. (1995) Surface expression and ligand-based selection of cDNA libraries on filamentous phage. Biotechnology 13, 378 -382</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Identification of a novel human peroxisomal 2,4-dienoyl-CoA reductase related protein using the M13 phage protein VI phage display technology</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Amery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comb. Chem. High Throughput Screen</title>
+		<imprint>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="545" to="552" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amery, L. et al. (2001) Identification of a novel human peroxisomal 2,4-dienoyl-CoA reductase related protein using the M13 phage protein VI phage display technology. Comb. Chem. High Throughput Screen. 4, 545 -552</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Engineering M13 for phage display</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sidhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomol. Eng</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="57" to="63" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sidhu, S.S. (2001) Engineering M13 for phage display. Biomol. Eng. 18, 57 -63</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Display of biologically-active proteins on the surface of filamentous phages -a cDNA cloning system for the selection of functional gene-products linked to the genetic information responsible for their production</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Crameri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="69" to="75" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crameri, R. and Suter, M. (1993) Display of biologically-active proteins on the surface of filamentous phages -a cDNA cloning system for the selection of functional gene-products linked to the genetic information responsible for their production. Gene 137, 69-75</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A novel strategy for the functional cloning of enzymes using filamentous phage display: the case of nucleotidyl transferase</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brunet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brunet, E. et al. (2002) A novel strategy for the functional cloning of enzymes using filamentous phage display: the case of nucleotidyl transferase. Nucleic Acids Res. 30, 1-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Processing and functional display of the 86 kDa heterodimeric penicillin G acylase on the surface of phage fd</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M D</forename><surname>Verhaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="415" to="422" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verhaert, R.M.D. et al. (1999) Processing and functional display of the 86 kDa heterodimeric penicillin G acylase on the surface of phage fd. Biochem. J. 342, 415 -422</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Glutathione transferases with novel active-sites isolated by phage display from a library of random mutants</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mannervik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="115" to="122" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Widersten, M. and Mannervik, B. (1995) Glutathione transferases with novel active-sites isolated by phage display from a library of random mutants. J. Mol. Biol. 250, 115 -122</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Display of Ras on filamentous phage through cystein replacement</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wind</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimie</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1079" to="1087" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wind, T. et al. (1999) Display of Ras on filamentous phage through cystein replacement. Biochimie 81, 1079 -1087</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Lambda-Foo -a lambda-phage vector for the expression of foreign proteins</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maruyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="8273" to="8277" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maruyama, I. et al. (1994) Lambda-Foo -a lambda-phage vector for the expression of foreign proteins. Proc. Natl. Acad. Sci. U. S. A. 91, 8273-8277</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Assembly of functional bacteriophage-lambda virions incorporating C-terminal peptide or protein fusions with the major tail protein</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="page" from="497" to="506" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn, I.S. (1995) Assembly of functional bacteriophage-lambda virions incorporating C-terminal peptide or protein fusions with the major tail protein. J. Mol. Biol. 248, 497 -506</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Surface display of proteins on bacteriophage lambda heads</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Mikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="21" to="30" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikawa, Y.G. et al. (1996) Surface display of proteins on bacteriophage lambda heads. J. Mol. Biol. 262, 21 -30</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Phage-enzymes: expression and affinity chromatography of functional alkaline phosphatase on the surface of bacteriophage</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccafferty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="955" to="961" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCafferty, J. et al. (1991) Phage-enzymes: expression and affinity chromatography of functional alkaline phosphatase on the surface of bacteriophage. Protein Eng. 4, 955 -961</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Random mutagenesis of staphylococcal nuclease and phage display selection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Light</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lerner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="955" to="967" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Light, J. and Lerner, R.A. (1995) Random mutagenesis of staphylo- coccal nuclease and phage display selection. Bioorg. Med. Chem. 3, 955-967</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanism-based phage display selection of active-site mutants of human glutathione transferase A1-1 catalyzing SNAr reactions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="11252" to="11260" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansson, L.O. et al. (1997) Mechanism-based phage display selection of active-site mutants of human glutathione transferase A1-1 catalyzing SNAr reactions. Biochemistry 36, 11252 -11260</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">An approach to optimizing the active site in a glutathione transferase by evolution in vitro</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="93" to="100" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansson, L.O. et al. (1999) An approach to optimizing the active site in a glutathione transferase by evolution in vitro. Biochem. J. 344, 93 -100</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Phage display of a catalytic antibody to optimize affinity for transition-state analog binding</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="10063" to="10068" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baca, M. et al. (1997) Phage display of a catalytic antibody to optimize affinity for transition-state analog binding. Proc. Natl. Acad. Sci. U. S. A. 94, 10063 -10068</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Evolving catalytic antibodies in a phage-displayed combinatorial library</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fujii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="463" to="467" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fujii, I. et al. (1998) Evolving catalytic antibodies in a phage-displayed combinatorial library. Nat. Biotechnol. 16, 463 -467</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">In vitro abzyme evolution to optimize antibody recognition for catalysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="563" to="567" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takahashi, N. et al. (2001) In vitro abzyme evolution to optimize antibody recognition for catalysis. Nat. Biotechnol. 19, 563 -567</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Mechanism-based (suicide) enzyme inactivation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ator</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Ortiz De Montellano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Enzymes</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Sigman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Boyer</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="213" to="282" />
+			<date type="published" when="1990">1990</date>
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+	<note>3rd edn</note>
+	<note type="raw_reference">Ator, M.A. and Ortiz de Montellano, P.R. (1990) Mechanism-based (suicide) enzyme inactivation. In Enzymes (Vol. 19), 3rd edn, (Sigman, D.S. and Boyer, P.D., eds), pp. 213 -282, Academic Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Selection of b-lactamase on filamentous bacteriophage by catalytic activity</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soumillion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="415" to="422" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Soumillion, P. et al. (1994) Selection of b-lactamase on filamentous bacteriophage by catalytic activity. J. Mol. Biol. 237, 415-422</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Selection of the most active enzymes from a mixture of phage-displayed b-lactamase mutants</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vanwetswinkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="789" to="792" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanwetswinkel, S. et al. (1996) Selection of the most active enzymes from a mixture of phage-displayed b-lactamase mutants. Bioorg. Med. Chem. Lett. 6, 789-792</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Catalytic single-chain antibodies possessing b-lactamase activity selected from a phage displayed combinatorial library using a mechanism-based inhibitor</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="8063" to="8066" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanaka, F. et al. (1999) Catalytic single-chain antibodies possessing b-lactamase activity selected from a phage displayed combinatorial library using a mechanism-based inhibitor. Tetrahedron Lett. 40, 8063-8066</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Selection of b-lactamases and penicillin binding mutants from a library of phage displayed TEM-1 b-lactamase randomly mutated in the active site V-loop</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vanwetswinkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="527" to="540" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanwetswinkel, S. et al. (2000) Selection of b-lactamases and penicillin binding mutants from a library of phage displayed TEM-1 b-lactamase randomly mutated in the active site V-loop. J. Mol. Biol. 295, 527 -540</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Chemical selection for catalysis in combinatorial antibody libraries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Janda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="945" to="948" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Janda, J.D. et al. (1997) Chemical selection for catalysis in combinatorial antibody libraries. Science 275, 945 -948</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Turnover-based in vitro selection and evolution of biocatalysts from a fully synthetic antibody library</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cesaro-Tadic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="679" to="685" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cesaro-Tadic, S. et al. (2003) Turnover-based in vitro selection and evolution of biocatalysts from a fully synthetic antibody library. Nat. Biotechnol. 21, 679 -685</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">In vitro selection of enzymatically active lipase variants from phage libraries using a mechanism-based inhibitor</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Danielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="267" to="274" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Danielsen, S. et al. (2001) In vitro selection of enzymatically active lipase variants from phage libraries using a mechanism-based inhibitor. Gene 272, 267-274</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Phosphonate ester probes for proteolytic antibodies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="28314" to="28320" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paul, S. et al. (2001) Phosphonate ester probes for proteolytic antibodies. J. Biol. Chem. 276, 28314 -28320</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A method for directed evolution and functional cloning of enzymes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="10523" to="10528" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedersen, H. et al. (1998) A method for directed evolution and functional cloning of enzymes. Proc. Natl. Acad. Sci. U. S. A. 95, 10523 -10528</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A strategy for the isolation of catalytic activities from repertoires of enzymes displayed on phage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Demartis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="617" to="633" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Demartis, S. et al. (1999) A strategy for the isolation of catalytic activities from repertoires of enzymes displayed on phage. J. Mol. Biol. 286, 617 -633</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Selection of catalytically active biotin ligase and trypsin mutants by phage display</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Heinis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1043" to="1052" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heinis, C. et al. (2001) Selection of catalytically active biotin ligase and trypsin mutants by phage display. Protein Eng. 14, 1043 -1052</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Selection for improved subtiligases by phage display</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="9497" to="9502" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atwell, S. and Wells, J.A. (1999) Selection for improved subtiligases by phage display. Proc. Natl. Acad. Sci. U. S. A. 96, 9497-9502</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A method for the selection of catalytic activity using phage display and proximity coupling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Jestin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1124" to="1127" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jestin, J.L. et al. (1999) A method for the selection of catalytic activity using phage display and proximity coupling. Angew. Chem. Int. Ed. Engl. 38, 1124 -1127</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A method for the selection of metalloenzymes by catalytic activity using phage display and catalytic elution</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ponsard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="253" to="259" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ponsard, I. et al. (2001) A method for the selection of metalloenzymes by catalytic activity using phage display and catalytic elution. Chembiochem 2, 253-259</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Proteolytic selection for protein folding using filamentous bacteriophages</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kristensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fold. Design</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="321" to="328" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kristensen, P. and Winter, G. (1998) Proteolytic selection for protein folding using filamentous bacteriophages. Fold. Design 3, 321 -328</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Selecting proteins with improved stability by a phage-based method</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sieber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="955" to="960" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sieber, V. et al. (1998) Selecting proteins with improved stability by a phage-based method. Nat. Biotechnol. 16, 955 -960</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Directed evolution of barnase using proteolytic selection</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="page" from="115" to="123" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedersen, J.S. et al. (2002) Directed evolution of barnase using proteolytic selection. J. Mol. Biol. 323, 115 -123</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Phage display selects for amylases with improved low pH starch-binding</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M D</forename><surname>Verhaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="103" to="118" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verhaert, R.M.D. et al. (2002) Phage display selects for amylases with improved low pH starch-binding. J. Biotechnol. 96, 103 -118</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">TEM-1 b-lactamase as a scaffold for protein recognition and assay</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Legendre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1506" to="1518" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Legendre, D. et al. (2002) TEM-1 b-lactamase as a scaffold for protein recognition and assay. Protein Sci. 11, 1506-1518</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">In vitro selection and evolution of functional proteins by using ribosome display</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pluckthun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="4937" to="4942" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanes, J. and Pluckthun, A. (1997) In vitro selection and evolution of functional proteins by using ribosome display. Proc. Natl. Acad. Sci. U. S. A. 94, 4937-4942</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The use of mRNA display to select highaffinity protein-binding peptides</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="3750" to="3755" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson, D.S. et al. (2001) The use of mRNA display to select high- affinity protein-binding peptides. Proc. Natl. Acad. Sci. U. S. A. 98, 3750-3755</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">In vitro selection for catalytic activity with ribosome display</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Amstutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="9396" to="9403" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amstutz, P. et al. (2002) In vitro selection for catalytic activity with ribosome display. J. Am. Chem. Soc. 124, 9396-9403</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Ribosome display for selection of active dihydrofolate reductase mutants using immobilized methotrexate on agarose beads</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">514</biblScope>
+			<biblScope unit="page" from="106" to="110" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takahashi, F. et al. (2002) Ribosome display for selection of active dihydrofolate reductase mutants using immobilized methotrexate on agarose beads. FEBS Lett. 514, 106-110</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Man-made enzymes -from design to in vitro compartmentalization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="338" to="353" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griffiths, A.D. and Tawfik, D.S. (2000) Man-made enzymes -from design to in vitro compartmentalization. Curr. Opin. Biotechnol. 11, 338-353</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="24" to="35" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griffiths, A.D. and Tawfik, D.S. (2003) Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization. EMBO J. 22, 24 -35</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

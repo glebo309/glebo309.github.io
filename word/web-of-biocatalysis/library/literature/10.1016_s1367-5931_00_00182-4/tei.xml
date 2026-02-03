@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The efficient application of biocatalysts requires the availability of suitable enzymes with high activity and stability under process conditions, desired substrate selectivity and high enantioselectivity. However, wild-type enzymes often need to be optimized to fulfill these requirements. Two rather contradictory tools can be used on a molecular level to create tailor-made biocatalysts: directed evolution and rational protein design</title>
+				<funder>
+					<orgName type="full">German research foundation (DFG, Bonn, Germany)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Addresses *Institute for Chemistry &amp; Biochemistry</orgName>
+								<orgName type="department" key="dep2">Department of Technical Chemistry &amp; Biotechnology</orgName>
+								<orgName type="institution">Greifswald University</orgName>
+								<address>
+									<addrLine>Soldmannstrasse 16</addrLine>
+									<postCode>D-17487</postCode>
+									<settlement>Greifswald</settlement>
+									<country>Germany;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">MPB Cologne GmbH</orgName>
+								<address>
+									<addrLine>Neurather Ring 1</addrLine>
+									<postCode>D-51063</postCode>
+									<settlement>Köln</settlement>
+									<country>Germany;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The efficient application of biocatalysts requires the availability of suitable enzymes with high activity and stability under process conditions, desired substrate selectivity and high enantioselectivity. However, wild-type enzymes often need to be optimized to fulfill these requirements. Two rather contradictory tools can be used on a molecular level to create tailor-made biocatalysts: directed evolution and rational protein design</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A798A0813CCC2161CD55C3A9FBCB6205</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The application of enzymes -especially in organic synthesis -is now well documented in the literature [1 • ,2-4]. In the past decade, a considerable number of processes have been commercialized in industry [5 • ]. Characteristic features of many biocatalysts, such as high chemo-, regioand stereoselectivity at ambient temperatures, often makes them superior to chemical catalysts. In addition, recent progress in genetic-manipulation techniques enables the large-scale supply of many enzymes at reasonable prices. However, identification of new biocatalysts (for example, by screening of soil samples or strain collections by enrichment cultures) does not always yield suitable enzymes for a given synthetic problem. To overcome this limitation, tailor-made biocatalysts can be created from wild-type enzymes by protein engineering using computer-aided molecular modeling and site-directed mutagenesis, or by directed (molecular) evolution techniques (Figure <ref type="figure">1</ref>; see also Update).</p><p>Rational design usually requires both the availability of the structure of the enzyme and knowledge about the relationships between sequence, structure and mechanism/function, and is therefore very information-intensive. On the other hand, rapid progress in solving protein structures by NMR spectroscopy instead of by X-ray diffraction of crystals and the enormously increasing number of sequences stored in public data bases have significantly eased access to data and structures. Using molecular modeling, it has been possible to predict how to increase the selectivity, activity and the stability of enzymes, even if there are no structural data available and the structure of a homologous enzyme is used as a model. For details concerning the potential of this method, readers are referred to a recent review [6 • ]. Depending on the purpose of the mutagenesis, amino acid substitutions are often selected by sequence comparison with homologous sequences. The results have to be carefully interpreted, however, because minor sequence changes by a single point-mutation may cause significant structural disturbance. Thus, comparison of the three-dimensional structures of mutant and wild-type enzymes are necessary to ensure that a single mutation is really site-directed.</p><p>In sharp contrast, directed evolution (also called evolutive biotechnology or molecular evolution <ref type="bibr" target="#b9">[7]</ref><ref type="bibr" target="#b10">[8]</ref><ref type="bibr" target="#b11">[9]</ref><ref type="bibr" target="#b12">[10]</ref><ref type="bibr" target="#b13">[11]</ref><ref type="bibr" target="#b14">[12]</ref>; see also Update) involves either a random mutagenesis of the gene encoding the catalyst (e.g. by error-prone PCR) or recombination of gene fragments (e.g. derived from DNase degradation, the staggered extension process or random priming recombination). Libraries thus created are then usually assayed using high-throughput technologies to identify improved variants.</p><p>For both approaches to protein engineering, the gene(s) encoding the enzyme(s) of interest, a suitable (usually microbial) expression system, and a sensitive detection system are prerequisites.</p><p>In this review, we present successful examples of the creation of suitable biocatalysts, concentrating on those published since 1999. Methods for the generation of mutant libraries as well as principles of screening or selection are out of the scope of this article and readers are referred to the references given above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Directed evolution</head><p>Mutants of an esterase from Pseudomonas fluorescens produced by directed evolution using the mutator strain Epicurian coli XL1-Red were assayed for altered substrate specificity using a combination of screening and selection ( [13 • ]; see also Update). Key to the identification of improved variants acting on a sterically hindered 3-hydroxy ester was an agar-plate assay system based on pH indicators that give a change in color upon hydrolysis of the ethyl ester. Parallel assaying of replica-plated colonies on agar plates supplemented with the glycerol derivative of the 3hydroxy ester was used to refine the identification, because only E. coli colonies producing active esterases had access</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improved biocatalysts by directed evolution and rational protein design</head><p>Uwe T Bornscheuer* and Martina Pohl † Figure 1 Rational Protein Design Directed Evolution Protein structure 1. Planning of mutants 2. Site-directed mutagenesis Vectors containing mutated genes 1. Protein expression 2. Purification In vitro-recombination ('DNA-shuffling') Random mutagenesis Library of mutated genes Protein expression in microtiter plates Selection parameters: Transformation in E. coli Transformation in E. coli Mutant 1 Mutant 2 Mutant library &gt; 10,000 clones Analytics Mutant enzymes Product analysis achiral, chiral Protein characterization -Substrate range -Kinetics -Stability -Enantioselectivity -Sequencing of genes Instable Low enantioselectivity Genes Negative mutations Low activity -Substrate range -Stability in organic solvents -Stability towards reaction conditions -thermostability Improved mutant enzymes Current Opinion in Chemical Biology</p><p>Comparison of rational protein design and directed evolution. During rational protein design, mutants are planned on the basis of their protein structure and then prepared by SDM. After transformation in the host organism (e.g. E. coli), the variant is expressed, purified and analyzed for desired properties. Directed evolution starts with the preparation of mutant gene libraries by random mutagenesis, which are then expressed in the host organism. Protein libraries are usually screened in microtiter plates using a range of selection parameters. Protein characterization and product analysis sort out desired and negative mutations. In vitro recombination by DNA shuffling, for example, can be used for further improvements. Both protein engineering approaches can be repeated or combined until biocatalysts with desired properties are generated.</p><p>to the carbon source glycerol, thus leading to enhanced growth and, in turn, larger colonies. In another example, a growth selection based on adipyl-leucine or adipyl-serine was used to identify acylase mutants acting on adipic acid instead of glutaric acid sidechains in cephalosporins (CF Sio, JM van der Laan, AM Riemens, WJ Quax, personal communication). Random mutagenesis of the α-subunit, then growth selection of active variants followed by saturation mutagenesis identified three mutants showing decreased V max /K M values for glutaryl substrates and higher values towards the adipyl analog.</p><p>Another alternative for selection is the use of phage display <ref type="bibr" target="#b17">[14,</ref><ref type="bibr" target="#b18">15]</ref> to select for mutants with catalytic activity. Anchoring the substrate to the phage in such a way that the product remains bound too, might enable capturing of active catalysts [16 • ,17].</p><p>In an excellent contribution, Fersht and co-workers [18 •• ] evolved phosphoribosylanthranilate isomerase (PRAI) activity from the α/β-barrel scaffold of indole-3-glycerol phosphate synthase (IGPS). Their success provides a striking example for testing the 'conserved scaffold' hypothesis of enzyme evolution. Reetz and co-workers <ref type="bibr" target="#b24">[19,</ref><ref type="bibr" target="#b25">20]</ref> considerably increased the enantioselectivity (E) of a lipase from Pseudomonas aeruginosa PAO1 towards 2-methyldecanoate by screening mutant libraries using optically pure (R)-or (S)-p-nitrophenyl ester. Further improvement of the best mutant (E ~11, 81% enantiomeric excess [ee]) by saturation mutagenesis led to E ~26 for a mutant bearing five amino acid substitutions. The recently solved structure of this lipase <ref type="bibr" target="#b26">[21]</ref> suggests that the increased enantioselectivity is caused by increasing the flexibility of distinct loops of the enzyme; however, none of the mutations are located near the binding pocket.</p><p>In a similar approach, the enantioselectivity of an esterase from P. fluorescens was increased from E = 3.5 to E = 5.2-6.6 in a single round of mutation <ref type="bibr" target="#b27">[22]</ref>. Here, resorufin esters of (R)-or (S)-3-phenylbutyric acid were used for the determination of E values, enabling measurement of fluorescence in microtiter plates and thereby avoiding problems with interfering compounds present in the culture medium.</p><p>In both examples, the mutants screened for might be 'adapted' to the bulky chromophor ester, rather than the 'true' ester used in organic synthesis applications (i.e. an acetate of a racemic alcohol). To overcome this problem, Reetz and co-workers developed more sophisticated methods using isotopically labelled acetates [23 • ] or capillary electrophoresis [24 •• ]. The latter method allows accurate ee determination of amines with a throughput of at least 7000 samples per day. Digital-image screening was used by Arnold's group [25 • ] to identify P450 cam variants showing enhanced activity in naphthalene hydroxylations, in the absence of the cofactor NADPH, via a 'peroxide shunt' pathway. Co-expression of P450 cam with horseradish peroxidase from E. coli converted hydroxylation products into fluorescent products amenable by digital screening. In another example, a triple mutant of P450 BM-3 obtained by directed evolution was found to hydroxylate indole, producing indigo and indirubin <ref type="bibr" target="#b34">[26]</ref>. Interestingly, the authors screened for P450 variants with altered chain-length specificity, but by chance discovered variants hydroxylating indole.</p><p>Recently, Arnold and co-workers [27 • ] also reported the inversion of enantioselectivity of a hydantoinase, from D-selectivity (40% ee) to moderate L-preference (20% ee at 30% conversion) by a combination of error-prone PCR (epPCR) and saturation mutagenesis. Only one amino acid substitution was sufficient to invert enantioselectivity. Thus, production of L-methionine from D,L-5-(2-methylthioethyl)hydantoin in a whole-cell system of recombinant E. coli, also containing a L-carbamoylase and a racemase, at high conversion became feasible. The substrate specificity of a peroxidase from Saccharomyces cerevisiae towards guaiacol was increased 300-fold by means of DNA shuffling [28 • ].</p><p>It is often assumed that improving a biocatalyst in one direction affects other desired enzyme characteristics. It has been demonstrated, however, that it is possible to increase the thermostability of a cold-adapted protease to 60°C while maintaining high activity at 10°C [29,30 • ]. The best psychrophilic subtilisin S41 variant contained only seven amino acid substitutions resembling only a tiny fraction of the usual 30-80% sequence difference found between psychrophilic enzymes and mesophilic counterparts.</p><p>In an excellent contribution, researchers at Maxygen (USA) and Novo Nordisk (Denmark) simultaneously screened for four properties -activity at 23°C, thermostability, organicsolvent tolerance and pH-profile -in a library of family-shuffled subtilisins, and reported variants with considerably improved characteristics for all parameters [31 •• ].</p><p>Instead of improving one specific biocatalyst, the engineering of entire metabolic pathways by means of directed evolution is also feasible. The first example has recently been demonstrated in which phytoene desaturases and lycopene cyclases were shuffled in the context of a carotenoid biosynthetic pathway assembled from different bacterial species [32 •• ]. Molecular breeding based on mixing genes and in vitro evolution using E. coli as host, resulted in the generation of new products (e.g. fully conjugated and cyclic carotenoids).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rational protein design</head><p>Rational protein design by site-directed mutagenesis (SDM) is still a very effective strategy to elaborate improved enzymes. Useful strategies such as the reinforcement of a promiscuous reaction, change of enzyme mechanism, substrate specificity, cofactor specificity enantioselectivity, and stability, as well as the elucidation of enzyme mechanisms have been reported. Comprehensive overviews can be found in a number of reviews <ref type="bibr" target="#b35">[33]</ref><ref type="bibr" target="#b36">[34]</ref><ref type="bibr" target="#b37">[35]</ref>.</p><p>Rational protein design has successfully been used for stabilization of enzymes towards thermoinactivation and oxidation. Examples of successful strategies to enhance thermostability are the removal of asparagine residues in α-amylase <ref type="bibr" target="#b38">[36]</ref>, the introduction of more rigid structural elements such as proline into α-amylase <ref type="bibr" target="#b39">[37]</ref> and D-xylose isomerase <ref type="bibr" target="#b40">[38]</ref>, or disulfide bridges to stabilize hen lysozyme <ref type="bibr" target="#b41">[39]</ref>. The introduction of additional hydrophobic contacts was shown to stabilize 3-isopropylmalate dehydrogenase <ref type="bibr" target="#b42">[40]</ref> and formate dehydrogenase from Pseudomonas sp. <ref type="bibr" target="#b43">[41]</ref>. Factors influencing thermostability have recently been elucidated by a structural comparison of various enzymes from mesophilic and thermophilic organisms <ref type="bibr" target="#b44">[42]</ref>.</p><p>To increase stability towards oxidation, removal of cysteine and methionine residues exhibited positive effects in the case of formate dehydrogenase <ref type="bibr" target="#b45">[43]</ref>, (R)-3-hydroxybutyrate dehydrogenase <ref type="bibr" target="#b46">[44]</ref>, and D-amino acid oxidase <ref type="bibr" target="#b47">[45]</ref>.</p><p>In contrast to directed evolution, successful examples of improved and inverted enantioselectivity of enzymes by SDM are rare. The effects of certain mutations are more difficult to predict compared with those from efforts focusing on altering other catalytic properties. A very good example is the inversion of the enantioselectivity of vanillyl-alcohol oxidase by two point mutations, which switched the enzyme from (R)-to (S)-specificity (80% ee) with respect to the formation of 1-(4′-hydroxyphenyl)ethanol by hydroxylation of 4-ethylethanol [46 • ]. Another successful example has been reported by Schmid and co-workers [47,48 • ], who investigated the molecular bases of stereoselectivity of two different lipases by SDM based on molecular modeling studies, and thereby generated mutants with altered stereoselectivity compared with that of the wild-type enzyme.</p><p>Compared with factors influencing stereospecificity and enantioselectivity, the prediction of molecular factors effecting catalytic activity are easier to predict. In the case of pyruvate decarboxylase from Zymomonas mobilis, mutation of Trp392, a bulky residue in the substrate-binding channel, increased the carboligase side-reaction of the enzyme by a factor of six, without negatively influencing the stability and the enantioselectivity <ref type="bibr" target="#b53">[49]</ref>. Sterical principles were also valid in the case of PepC, which is an aminopeptidase, because of four carboxy-terminal residues interacting with the active site. Removal of the carboxy-terminal tetrapeptide converted the aminopeptidase into an oligopeptidase ( <ref type="bibr" target="#b54">[50]</ref>; see also Update). The substrate range of P450 cam was extended from camphor to polycyclic aromatic hydrocarbons by mutation of two aromatic residues (Phe87 and Tyr96) in the substrateaccess channel <ref type="bibr" target="#b55">[51]</ref>. On the basis of a homology model, various mutants of PER-1 β-lactamase have been generated with improved activity towards different β-lactam-based antibiotics <ref type="bibr" target="#b56">[52]</ref>. By point mutation of Gln27 -a residue located in a cap closing the back of the active site -the catalytic properties of an Aspergillus fumigatus phytase were successfully optimized <ref type="bibr" target="#b57">[53]</ref>. The sidechain of this non-conserved residue is in close contact with the substrate during catalysis. Thus, mutation of glutamine to leucine or isoleucine prevents the formation of a hydrogen bond between the substrate and the sidechain. Alteration of substrate specificity was achieved by SDM of human leukocyte 5-lipoxygenase, yielding a 15-lipoxygenating biocatalyst [54 • ].</p><p>An example for the generation of a new enzymatic activity by protein design has been reported by the Christen group <ref type="bibr" target="#b59">[55]</ref>, who obtained a dicarboxylic amino acid β-lyase, an enzyme not found in nature, by SDM of a tyrosine phenol-lyase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Combination of both methods</head><p>An impressive example of the use of directed evolution and rational protein design was shown by researchers at Novo Nordisk (Bagsvaerd, Denmark). They targeted a heme peroxidase from Coprinus cinereus to be used as a dyetransfer inhibitor in laundry detergent [56 •• ]. Screening for improved stability was performed by measuring residual activity after incubation under conditions mimicking those in a washing machine (e.g. pH 10.5, 50°C, 5-10 mM peroxide). Mutants were obtained by epPCR (out of 64,000) as well as by rational design. Surprisingly, for both methods sequencing of the best variants identified position Glu239 to be crucial for success. Saturation mutagenesis showed that replacement with glycine -as predicted by computer-modeling -gave the best performance. Subsequent in vivo shuffling led to dramatic improvements, yielding a mutant with 174 times the thermal stability and 100 times the oxidative stability of the wild-type peroxidase.</p><p>Another example of the successful combination of both mutagenesis strategies is the improvement of the thermal stability of a 3-isopropylmalate dehydrogenase variant from Bacillus subtilis, which was obtained by a triple mutation using SDM followed by epPCR. The latter mutagenesis identified two further stabilizing point-mutations, which were then combined using SDM <ref type="bibr" target="#b62">[57]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Recent work in the area of protein engineering, summarised in this article, shows that rational design and directed evolution are both applicable to creating desired mutant enzymes, although the positions of mutations often differ considerably. For rational protein design, those amino acid residues that appear 'logical' to the researcher examining the three-dimensional structure are usually modified (i.e. they are close to the active site, the binding pocket etc.). In sharp contrast, sequencing of variants obtained by directed evolution followed by their structural analysis very often reveals that mutations are far away from the place where the reaction takes place (as was shown for improved enantioselectivity <ref type="bibr" target="#b24">[19]</ref> and altered substrate specificity [13 • ] of hydrolases). First examples from careful analysis of three-dimensional structures of mutants and wild types help to identify how 'irrational' mutations affect the catalytic properties of a biocatalyst [58</p><p>•• ,59</p><p>•• ]. Further work will surely help to increase our understanding of structure/function relationships and will see more combinations of both protein engineering tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Update</head><p>Recent work has shown that the chain-length specificity of P450 BM-3 can be modulated by rational design <ref type="bibr" target="#b67">[60]</ref>. In contrast to the wild-type, a variant bearing five mutations accepted a p-nitrophenoxyoctanoic acid (C8-pNCA), whilst the activity towards C10-and C12-pNCA remained unchanged.</p><p>Phospholipase activity was introduced into a Staphylococcus aureus lipase by directed evolution using epPCR and gene shuffling <ref type="bibr" target="#b68">[61]</ref>. The best variant contained six mutations and displayed a 11.6-fold increase in phospholipase activity and a 11.5-fold increased phospholipase : lipase ratio compared to the wild type. A very brief opinion on the same subject as this review compares mutational and selective mechanisms and basic requirements of rational design and directed evolution <ref type="bibr" target="#b69">[62]</ref>. Also, two reviews summarizing recent achievements and future prospects in the field of directed evolution were recently published <ref type="bibr" target="#b70">[63,</ref><ref type="bibr" target="#b71">64]</ref>. An excellent contribution exemplifying that directed evolution can be applied for molecular breeding of entire pathways.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>27. May O, Nguyen PT, Arnold FH: Inverting enantioselectivity by• directed evolution of hydantoinase for improved production of L L-methionine. Nat Biotechnol 2000, 18:317-320. This example of inverting enantioselectivity of an enzyme is especially interesting, because it addresses a problem with high impact on an industrial application.28. Iffland A, Tafelmeyer P, Saudan C, Johnson K: Directed molecular • evolution of cytochrome c peroxidase. Biochemistry 2000, 39:10790-10798. Interestingly, sequencing revealed that in the superfamily of peroxidase the fully conversed residue Arg48 was changed to histidine. The authors believe that this mutation plays a key role in the increase in activity toward the phenolic substrate guaiacol. 29. Miyazaki K, Arnold FH: Exploring nonnatural evolutionary pathways by saturation mutagenesis: rapid improvement of protein function. J Mol Evol 1999, 49:716-720. 30. Miyazaki K, Wintrode PL, Grayling RA, Rubingh DN, Arnold FH: • Directed evolution study of temperature adaptation in a psychrophilic enzyme. J Mol Biol 2000, 297:1015-1026. Directed evolution gave mutants showing stability and high activity over a very broad temperature range. 31. Ness JE, Welch M, Giver L, Bueno M, Cherry JR, Borchert TV, •• Stemmer WP, Minshull J: DNA shuffling of subgenomic sequences of subtilisin. Nat Biotechnol 1999, 17:893-896. DNA family shuffling of 26 protease genes yielded chimeras possessing positive combinations of properties of individual parents. 32. Schmidt-Dannert C, Umeno D, Arnold FH: Molecular breeding of •• carotenoid biosynthetic pathways. Nat Biotechnol 2000, 18:750-753.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>UT Bornscheuer thanks the <rs type="funder">German research foundation (DFG, Bonn, Germany)</rs> for financial support. <rs type="person">M Pohl</rs> is grateful to the <rs type="institution">DFG</rs> for funding in frame of Sonderforschungsbereich 380 and to the <rs type="institution">BMBF (Bonn, Germany</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">References and recommended reading Papers of particular interest, published within the annual period of review, have been highlighted as: • of special interest •</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">References and recommended reading Papers of particular interest, published within the annual period of review, have been highlighted as: • of special interest •• of outstanding interest</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">This monograph provides a comprehensive and up-to-date summary of stereoselective and regioselective biotransformations using different hydrolases</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>Wiley-VCH</publisher>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Hydrolases in Organic Synthesis • Regio-and Stereoselective Biotransformations</note>
+	<note type="raw_reference">Bornscheuer UT, Kazlauskas RJ: Hydrolases in Organic Synthesis • Regio-and Stereoselective Biotransformations. Weinheim: Wiley- VCH; 1999. This monograph provides a comprehensive and up-to-date summary of stere- oselective and regioselective biotransformations using different hydrolases.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Biotransformations in Organic Chemistry</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faber K: Biotransformations in Organic Chemistry. Berlin: Springer; 2000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</author>
+		<title level="m">Stereoselective Biocatalysis</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Marcel Dekker</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patel RN: Stereoselective Biocatalysis. New York: Marcel Dekker; 2000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<title level="m">Enzymes in Lipid Modification</title>
+		<meeting><address><addrLine>Weinheim</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer UT: Enzymes in Lipid Modification. Weinheim: Wiley-VCH; 2000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seelbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wandrey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial Biotransformations</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Wiley-VCH</publisher>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liese A, Seelbach K, Wandrey C: Industrial Biotransformations. • Weinheim: Wiley-VCH; 2000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">This book lists a wide variety of industrialized processes with a plethora of detailed information. The division based on enzyme nomenclature provides rapid access to the given data</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">This book lists a wide variety of industrialized processes with a plethora of detailed information. The division based on enzyme nomenclature provides rapid access to the given data.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Molecular modeling and biocatalysis: explanations, • predictions, limitations, and opportunities</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="81" to="88" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kazlauskas RJ: Molecular modeling and biocatalysis: explanations, • predictions, limitations, and opportunities. Curr Opin Chem Biol 2000, 4:81-88.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">A good overview about successful and less successful applications of molecular modeling as a tool to analyze and predict the function of certain amino acid sidechains in enzymes</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A good overview about successful and less successful applications of mol- ecular modeling as a tool to analyze and predict the function of certain amino acid sidechains in enzymes.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Directed evolution of biocatalysts</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Volkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="54" to="59" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold FH, Volkov AA: Directed evolution of biocatalysts. Curr Opin Chem Biol 1999, 3:54-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Directed evolution of enzymes</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed Engl</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="3105" to="3108" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer UT: Directed evolution of enzymes. Angew Chem Int Ed Engl 1998, 37:3105-3108.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Superior biocatalysts by directed evolution. Topic Curr Chem</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-E</forename><surname>Jaeger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="31" to="57" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz MT, Jaeger K-E: Superior biocatalysts by directed evolution. Topic Curr Chem 1999, 200:31-57.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Designed evolution of enzymatic properties</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Petrounia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="325" to="330" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrounia IP, Arnold FH: Designed evolution of enzymatic properties. Curr Opin Biotechnol 2000, 11:325-330.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Directed evolution: the &apos;rational&apos; basis for &apos;irrational&apos; design</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Tobin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="421" to="427" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tobin MB, Gustafsson C, Huisman GW: Directed evolution: the &apos;rational&apos; basis for &apos;irrational&apos; design. Curr Opin Struct Biol 2000, 10:421-427.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evolutionary optimisation of enzymes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Sutherland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="263" to="269" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sutherland JD: Evolutionary optimisation of enzymes. Curr Opin Chem Biol 2000, 4:263-269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Directed evolution of • an esterase: screening of enzyme libraries based on pH-indicators and a growth assay</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Altenbuchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2169" to="2173" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer UT, Altenbuchner J, Meyer HH: Directed evolution of • an esterase: screening of enzyme libraries based on pH-indicators and a growth assay. Bioorg Med Chem 1999, 7:2169-2173.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Although this assay is very useful to screen large libraries in an agar-plate format, it is rather restricted to the identification of a first active enzyme variant. Identification of more active mutants in subsequent generations is therefore difficult to perform</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Although this assay is very useful to screen large libraries in an agar-plate format, it is rather restricted to the identification of a first active enzyme vari- ant. Identification of more active mutants in subsequent generations is there- fore difficult to perform.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Substrate phage: selection of protease substrates by monovalent phage display</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page" from="1113" to="1117" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews DJ, Wells JA: Substrate phage: selection of protease substrates by monovalent phage display. Science 1993, 260:1113-1117.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Processing and functional display of the 86 kDa heterodimeric penicillin G acylase on the surface of phage fd</title>
+		<author>
+			<persName><forename type="first">Rmd</forename><surname>Verhaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Duin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Quax</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="415" to="422" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verhaert RMD, Duin JV, Quax WJ: Processing and functional display of the 86 kDa heterodimeric penicillin G acylase on the surface of phage fd. Biochem J 2000, 342:415-422.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A strategy for the isolation of catalytic activities from repertoires of enzymes displayed on phage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Demartis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Viti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giovannoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Neri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">•</forename><surname>Neri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="617" to="633" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Demartis S, Huber A, Viti F, Lozzi L, Giovannoni L, Neri P, Winter G, • Neri D: A strategy for the isolation of catalytic activities from repertoires of enzymes displayed on phage. J Mol Biol 1999, 286:617-633.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">A selection of catalysts was achieved by binding the reaction product to the surface of a phage to which the enzyme is fused. Access using specific antiproduct affinity reagents enabled isolation of catalytically active phages</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A selection of catalysts was achieved by binding the reaction product to the surface of a phage to which the enzyme is fused. Access using specific anti- product affinity reagents enabled isolation of catalytically active phages.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A method for directed evolution and functional cloning of enzymes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hölder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Sutherlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwitter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="10523" to="10528" />
+			<date type="published" when="1998">1998</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedersen H, Hölder S, Sutherlin DP, Schwitter U, King DS, Schultze PG: A method for directed evolution and functional cloning of enzymes. Proc Natl Acad Sci USA 1998, 95:10523-10528.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Directed •• evolution of new catalytic activity using the α α/β β-barrel scaffold</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Altamirano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aguayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Fersht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="page" from="617" to="622" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altamirano MM, Blackburn JM, Aguayo C, Fersht AR: Directed •• evolution of new catalytic activity using the α α/β β-barrel scaffold. Nature 2000, 403:617-622.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Active variants were identified by an agar-plate assay using an E. coli strain that does not grow in the absence of tryptophan, which in turn is the product of PRAI activity</title>
+	</analytic>
+	<monogr>
+		<title level="m">The mutant obtained had 28% identity to PRAI and 90% identity to IGPS</title>
+		<imprint/>
+	</monogr>
+	<note>Careful design of the basic PRAI loop system into IGPS created the scaffold for directed evolution by DNA-shuffling and StEP (staggered extention process)</note>
+	<note type="raw_reference">Careful design of the basic PRAI loop system into IGPS created the scaf- fold for directed evolution by DNA-shuffling and StEP (staggered extention process). Active variants were identified by an agar-plate assay using an E. coli strain that does not grow in the absence of tryptophan, which in turn is the product of PRAI activity. The mutant obtained had 28% identity to PRAI and 90% identity to IGPS.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Directed evolution of an enantioselective lipase</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jäger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="709" to="718" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liebeton K, Zonta A, Schimossek K, Nardini M, Lang D, Dijkstra BW, Reetz MT, Jäger K: Directed evolution of an enantioselective lipase. Chem Biol 2000, 7: 709-718.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Evolution in the test tube as a means to create enantioselective enzymes for use in organic synthesis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Prog</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="157" to="172" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz MT: Evolution in the test tube as a means to create enantioselective enzymes for use in organic synthesis. Sci Prog 2000, 83:157-172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Crystal structure of Pseudomonas aeruginosa lipase in the open conformation: the prototype for family I.1 of bacterial lipases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Jäger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Dijkstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="31219" to="31225" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nardini M, Lang DA, Liebeton K, Jäger KE, Dijkstra BW: Crystal structure of Pseudomonas aeruginosa lipase in the open conformation: the prototype for family I.1 of bacterial lipases. J Biol Chem 2000, 275:31219-31225.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Random mutagenesis by error-prone PCR or a mutator strain and identification of mutants showing enhanced enantioselectivity by a resorufin-based fluorescence assay</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="1029" to="1033" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>Directed evolution of an esterase from Pseudomonas fluorescens</note>
+	<note type="raw_reference">Henke E, Bornscheuer UT: Directed evolution of an esterase from Pseudomonas fluorescens. Random mutagenesis by error-prone PCR or a mutator strain and identification of mutants showing enhanced enantioselectivity by a resorufin-based fluorescence assay. Biol Chem 1999, 380:1029-1033.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A method for high • throughput screening of enantioselective catalysts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stöckigt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed Engl</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1758" to="1761" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz MT, Becker MH, Klein HW, Stöckigt D: A method for high • throughput screening of enantioselective catalysts. Angew Chem Int Ed Engl 1999, 38:1758-1761.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Screening for enzymes showing enhanced enantioselectivity was achieved by using isotopically labelled substrates in combination with high-throughput mass spectrometry at a capacity of about 1000 samples per day. Thus, mutants can be assayed with the &apos;true&apos; substrate bearing no bulky chromophoric groups</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Screening for enzymes showing enhanced enantioselectivity was achieved by using isotopically labelled substrates in combination with high-throughput mass spectrometry at a capacity of about 1000 samples per day. Thus, mutants can be assayed with the &apos;true&apos; substrate bearing no bulky chromophoric groups.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Super-high •• throughput screening of enantioselective catalysts by using capillary array electrophoresis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kühling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deege</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hinrichs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Belder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed Engl</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="3891" to="3893" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz MT, Kühling KM, Deege A, Hinrichs H, Belder D: Super-high •• throughput screening of enantioselective catalysts by using capillary array electrophoresis. Angew Chem Int Ed Engl 2000, 39:3891-3893</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Chiral-modified electrolytes used for capillary electrophoresis allowed efficient separation of a range of FITC-labelled amines in a specially designed capillary electrophoresis system amenable to direct microtiter plate sampling. The authors claim that shorter analysis times enable super-highthroughput of up to 30,000 samples per day. This elegant method should be easily applicable to the separation of other chiral molecules, thus enabling the efficient screening of huge mutant libraries</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Chiral-modified electrolytes used for capillary electrophoresis allowed effi- cient separation of a range of FITC-labelled amines in a specially designed capillary electrophoresis system amenable to direct microtiter plate sam- pling. The authors claim that shorter analysis times enable super-high- throughput of up to 30,000 samples per day. This elegant method should be easily applicable to the separation of other chiral molecules, thus enabling the efficient screening of huge mutant libraries.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Laboratory evolution of peroxide-mediated • cytochrome P450 hydroxylation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">399</biblScope>
+			<biblScope unit="page" from="670" to="673" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joo H, Lin Z, Arnold FH: Laboratory evolution of peroxide-mediated • cytochrome P450 hydroxylation. Nature 1999, 399:670-673.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Directed evolution of a cofactor-free monooxygenase in combination with a well-designed high-throughput screening eased access to improved variants</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Directed evolution of a cofactor-free monooxygenase in combination with a well-designed high-throughput screening eased access to improved variants.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Directed evolution of the fatty acid hydroxylase P450 BM-3 into an indolehydroxylating catalyst</title>
+		<author>
+			<persName><forename type="first">Q-S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Eur J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1531" to="1536" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li Q-S, Schwaneberg U, Fischer P, Schmid RD: Directed evolution of the fatty acid hydroxylase P450 BM-3 into an indole- hydroxylating catalyst. Chem Eur J 2000, 6:1531-1536.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Towards understanding and tailoring the specificity of synthetically useful enzymes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desantis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc Chem Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="99" to="107" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeSantis G, Jones JB: Towards understanding and tailoring the specificity of synthetically useful enzymes. Acc Chem Res 1999, 32:99-107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Tailoring new enzyme functions by rational redesign</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cedrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quéméneur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cedrone F, Ménez A, Quéméneur E: Tailoring new enzyme functions by rational redesign. Curr Opin Struct Biol 2000, 10:405-410.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Engineering enzyme specificity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Craik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="127" to="132" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harris JL, Craik CS: Engineering enzyme specificity. Curr Opin Chem Biol 1998, 2:127-132.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Probing structural determinants specifying high thermostability in Bacillus licheniformis α α-amylase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Declerck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Machius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wiegand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caillardin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">301</biblScope>
+			<biblScope unit="page" from="1041" to="1057" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Declerck N, Machius M, Wiegand G, Huber R, Caillardin C: Probing structural determinants specifying high thermostability in Bacillus licheniformis α α-amylase. J Mol Biol 2000, 301:1041-1057.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Increasing the thermostability of D D-xylose isomerase by introduction of a proline into the turn of a random coil</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="635" to="638" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu GP, Xu C, Teng MK, Tao LM, Zhu XY, Wu CJ, Hang J, Niu LW, Wang YZ: Increasing the thermostability of D D-xylose isomerase by introduction of a proline into the turn of a random coil. Protein Eng 1999, 12:635-638.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Thermostabilization by proline substitution in an alkaline, liquefying α α-amylase from Bacillus sp. strain KSM-1378</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ozawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ikawakitayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Araki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Endo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci Biotechnol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1535" to="1540" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Igarashi K, Ozawa T, Ikawakitayama K, Hayashi Y, Araki H, Endo K, Hagihara H, Ozaki K, Kawai S, Ito S: Thermostabilization by proline substitution in an alkaline, liquefying α α-amylase from Bacillus sp. strain KSM-1378. Biosci Biotechnol Biochem 1999, 63:1535-1540.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Remarkable thermal stability of doubly intramolecularly cross-linked hen lysozyme</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Masumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ishibashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Imoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="193" to="196" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ueda T, Masumoto K, Ishibashi R, So T, Imoto T: Remarkable thermal stability of doubly intramolecularly cross-linked hen lysozyme. Protein Eng 2000, 13:193-196.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Further improvement of the thermal stability of a partially stabilized Bacillus subtilis 3-isopropylmalate dehydrogenase variant by random and sitedirected mutagenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akanuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yamagishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oshima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page" from="499" to="504" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akanuma S, Yamagishi A, Tanaka N, Oshima T: Further improvement of the thermal stability of a partially stabilized Bacillus subtilis 3-isopropylmalate dehydrogenase variant by random and site- directed mutagenesis. Eur J Biochem 1999, 260:499-504.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Bacterial formate dehydrogenase. Increasing the enzyme thermal stability by hydrophobization of α α-helices</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rojkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Galkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Kulakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Serov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Savitsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Fedorchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Tishkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">445</biblScope>
+			<biblScope unit="page" from="183" to="188" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rojkova AM, Galkin AG, Kulakova LB, Serov AE, Savitsky PA, Fedorchuk VV, Tishkov VI: Bacterial formate dehydrogenase. Increasing the enzyme thermal stability by hydrophobization of α α-helices. FEBS Lett 1999, 445:183-188.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Factors enhancing protein thermostability</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nussinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="179" to="191" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar S, Tsai CJ, Nussinov R: Factors enhancing protein thermostability. Protein Eng 2000, 13:179-191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Stabilization of NADdependent formate dehydrogenase from Candida boidinii by sitedirected mutagenesis of cysteine residues</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Slusarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Felber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Kula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="1280" to="1289" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slusarczyk H, Felber S, Kula MR, Pohl M: Stabilization of NAD- dependent formate dehydrogenase from Candida boidinii by site- directed mutagenesis of cysteine residues. Eur J Biochem 2000, 267:1280-1289.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Phosphatidylcholine activation of human heart (R)-3hydroxybutyrate dehydrogenase mutants lacking active center sulfhydryls: site-directed mutagenesis of a new recombinant fusion protein</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Loeb-Hennard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fleischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Marks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Philipp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="9687" to="9697" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chelius D, Loeb-Hennard C, Fleischer S, McIntyre JO, Marks AR, De S, Hahn S, Jehl MM, Moeller J, Philipp R et al.: Phosphatidylcholine activation of human heart (R)-3- hydroxybutyrate dehydrogenase mutants lacking active center sulfhydryls: site-directed mutagenesis of a new recombinant fusion protein. Biochemistry 2000, 39:9687-9697.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Substitution of the critical methionine residues in Trigonopsis variabilis D-amino acid oxidase with leucine enhances its resistance to hydrogen peroxide</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Chien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="215" to="219" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ju SS, Lin LL, Chien HR, Hsu WH: Substitution of the critical methionine residues in Trigonopsis variabilis D-amino acid oxidase with leucine enhances its resistance to hydrogen peroxide. FEMS Microbiol Lett 2000, 186:215-219.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Inversion of stereospecificity of vanillyl-alcohol oxidase</title>
+		<author>
+			<persName><forename type="first">Rhh</forename><surname>Van Den Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Fraaije</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mattevi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">•</forename><surname>Van Berkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wjm</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="9455" to="9460" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van den Heuvel RHH, Fraaije MW, Ferrer M, Mattevi A, • van Berkel WJM: Inversion of stereospecificity of vanillyl-alcohol oxidase. Proc Natl Acad Sci USA 2000, 97:9455-9460.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">A very nice study on alteration of enantioselectivity based on structural comparison of two members of structurally related FAD-dependent oxidoreductases, of which one is (R)-specific and the other (S)-specific. Site-directed mutagenesis introduced (S)-selectivity in the (R)-selective wild-type enzyme</title>
+		<imprint/>
+	</monogr>
+	<note>Structural analysis of the mutant enzyme revealed that the mutations are really site-directed</note>
+	<note type="raw_reference">A very nice study on alteration of enantioselectivity based on structural compari- son of two members of structurally related FAD-dependent oxidoreductases, of which one is (R)-specific and the other (S)-specific. Site-directed mutagenesis introduced (S)-selectivity in the (R)-selective wild-type enzyme. Structural analy- sis of the mutant enzyme revealed that the mutations are really site-directed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Rational design of Rhizopus oryzae lipase with modified stereoselectivity toward triradylglycerols</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scheib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stadler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kovac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Potthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Haalck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Spener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paltauf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="675" to="682" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheib H, Pleiss J, Stadler P, Kovac A, Potthoff AP, Haalck L, Spener F, Paltauf F, Schmid RD: Rational design of Rhizopus oryzae lipase with modified stereoselectivity toward triradylglycerols. Protein Eng 1998, 11:675-682.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Stereoselectivity • of Mucorales lipases toward triracylglycerols -a simple solution to a complex problem</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scheib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kovac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paltauf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="215" to="221" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheib H, Pleiss J, Kovac A, Paltauf F, Schmid RD: Stereoselectivity • of Mucorales lipases toward triracylglycerols -a simple solution to a complex problem. Protein Sci 1999, 8:215-221.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Triglyceride derivatives bearing non-carboxylic ester groups in sn2-position (amide-, ether-, alkyl-groups) lead to lowered and even inverted stereoselectivity in hydrolysis using lipase mutants</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Triglyceride derivatives bearing non-carboxylic ester groups in sn2-position (amide-, ether-, alkyl-groups) lead to lowered and even inverted stereose- lectivity in hydrolysis using lipase mutants.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Optimierung von Biokatalysatoren für technische Prozesse</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Ing Technik</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="883" to="885" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>Title translation: Optimization of biocatalysts for technical processes</note>
+	<note type="raw_reference">Pohl M: Optimierung von Biokatalysatoren für technische Prozesse. Chem Ing Technik 2000, 72:883-885. [Title translation: Optimization of biocatalysts for technical processes.]</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Deletion of the four C-terminal residues of PepC converts an aminopeptidase into an oligopeptidase</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gripon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Mistou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="681" to="686" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mata L, Gripon JC, Mistou MY: Deletion of the four C-terminal residues of PepC converts an aminopeptidase into an oligopeptidase. Protein Eng 1999, 12:681-686.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Protein engineering of cytochrome p450(cam) (CYP101) for the oxidation of polycyclic aromatic hydrocarbons</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Harford-Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Allan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Rouch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="121" to="128" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harford-Cross CF, Carmichael AB, Allan FK, England PA, Rouch DA, Wong LL: Protein engineering of cytochrome p450(cam) (CYP101) for the oxidation of polycyclic aromatic hydrocarbons. Protein Eng 2000, 13:121-128.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">237 and 242 in PER-1 β β-lactamase hydrolysing expanded-spectrum cephalosporins</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Bouthors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Delettre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mugnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jarlier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sougakoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sitedirected mutagenesis of residues 164</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="313" to="318" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bouthors AT, Delettre J, Mugnier P, Jarlier V, Sougakoff W: Site- directed mutagenesis of residues 164, 170, 171, 179, 220, 237 and 242 in PER-1 β β-lactamase hydrolysing expanded-spectrum cephalosporins. Protein Eng 1999, 12:313-318.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Optimization of the catalytic properties of Aspergillus fumigatus phytase based on the threedimensional structure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tomschy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tessier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wyss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brugger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Broger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schnoebelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Van Loon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pasamontes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1304" to="1311" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomschy A, Tessier M, Wyss M, Brugger R, Broger C, Schnoebelen L, van Loon AP, Pasamontes L: Optimization of the catalytic properties of Aspergillus fumigatus phytase based on the three- dimensional structure. Protein Sci 2000, 9:1304-1311.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">• Structural basis for lipoxygenase specificity. Conversion of the human leukocyte 5-lipoxygenase to a 15-lipoxygenating enzyme species by site-directed mutagenesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anton</forename><forename type="middle">M</forename><surname>Gerth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feussner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kühn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="773" to="779" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Introduction of space-filling amino acid residues in the substrate-binding pocket of human 5-lipoxygenase altered substrate specificity Single mutants gave no effect, but a quadruple mutant was found to be sufficient</note>
+	<note type="raw_reference">Schwarz K, Walther M, Anton M, Gerth C, Feussner I, Kühn H: • Structural basis for lipoxygenase specificity. Conversion of the human leukocyte 5-lipoxygenase to a 15-lipoxygenating enzyme species by site-directed mutagenesis. J Biol Chem 2001, 276:773-779. Introduction of space-filling amino acid residues in the substrate-binding pocket of human 5-lipoxygenase altered substrate specificity. Single mutants gave no effect, but a quadruple mutant was found to be sufficient.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Conversion of tyrosine phenol-lyase to dicarboxylic amino acid β β-lyase, an enzyme not found in nature</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mouratou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gehring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christen</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="1320" to="1325" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mouratou B, Kasper P, Gehring H, Christen P: Conversion of tyrosine phenol-lyase to dicarboxylic amino acid β β-lyase, an enzyme not found in nature. J Biol Chem 1999, 274:1320-1325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Directed evolution of a fungal peroxidase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Lamsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">••</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="379" to="384" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cherry JR, Lamsa MH, Schneider P, Vind J, Svendsen A, Jones A, •• Pedersen AH: Directed evolution of a fungal peroxidase. Nat Biotechnol 1999, 17:379-384.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">An impressive example of the combination of site-directed mutagenesis, epPCR and DNA shuffling</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">An impressive example of the combination of site-directed mutagenesis, epPCR and DNA shuffling.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Further improvement of the thermal stability of a partially stabilized Bacillus subtilis 3-isopropylmalate dehydrogenase variant by random and sitedirected mutagenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akanuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yamagishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oshima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page" from="499" to="504" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akanuma S, Yamagishi A, Tanaka N, Oshima T: Further improvement of the thermal stability of a partially stabilized Bacillus subtilis 3-isopropylmalate dehydrogenase variant by random and site- directed mutagenesis. Eur J Biochem 1999, 260:499-504.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A structural view •• of evolutionary divergence</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gershenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Stevens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="12305" to="12310" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spiller B, Gershenson A, Arnold FH, Stevens RC: A structural view •• of evolutionary divergence. Proc Natl Acad Sci USA 2000, 96:12305-12310.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Comparison of structures of different mutants of a p-nitrobenzyl esterase (one evolved for increased activity in aqueous-organic solvents, the other for increased thermostability) were compared with the wild-type structure. Careful analysis of structural changes identified networks of mutations that collectively remodel the active site in a way hardly predictable by rational design. Only a few of the common motifs that are believed to be</title>
+		<imprint/>
+	</monogr>
+	<note>involved in making an enzyme thermophilic were found</note>
+	<note type="raw_reference">Comparison of structures of different mutants of a p-nitrobenzyl esterase (one evolved for increased activity in aqueous-organic solvents, the other for increased thermostability) were compared with the wild-type structure. Careful analysis of structural changes identified networks of mutations that collectively remodel the active site in a way hardly predictable by rational design. Only a few of the common motifs that are believed to be involved in making an enzyme thermophilic were found.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Redesigning the •• substrate specificity of an enzyme by cumulative effects of the mutations of non-active site residues</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagamiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="2344" to="2349" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oue S, Okamoto A, Yano T, Kagamiyama H: Redesigning the •• substrate specificity of an enzyme by cumulative effects of the mutations of non-active site residues. J Biol Chem 1999, 274:2344-2349.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Directed evolution created an aspartate aminotransferase showing 2.1 × 10 6fold increased activity towards the non-native substrate, valine. Interestingly, only one of 17 mutations appears to contact the substrate, none interacted with the cofactor. Structural analysis revealed that the active site is remodelled, the subunit interface is altered and the domain enclosing the substrate is shifted</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Directed evolution created an aspartate aminotransferase showing 2.1 × 10 6 - fold increased activity towards the non-native substrate, valine. Interestingly, only one of 17 mutations appears to contact the substrate, none interacted with the cofactor. Structural analysis revealed that the active site is remodelled, the subunit interface is altered and the domain enclosing the substrate is shifted.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Rational evolution of a medium chain-specific cytochrome P450 BM-3 variant</title>
+		<author>
+			<persName><forename type="first">Q-S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz-Wahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1545</biblScope>
+			<biblScope unit="page" from="114" to="121" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li Q-S, Schwaneberg U, Fischer M, Schmitt J, Pleiss J, Lutz-Wahl S, Schmid RD: Rational evolution of a medium chain-specific cytochrome P450 BM-3 variant. Biochim Biophys Acta 2001, 1545:114-121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Directed evolution: from a staphylococcal lipase to a phospholipase</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Van Kampen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Egmond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Lipid Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="717" to="726" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Kampen MD, Egmond MR: Directed evolution: from a staphylococcal lipase to a phospholipase. Eur J Lipid Sci Technol 2000, 102:717-726.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Enzyme engineering: rational redesign versus directed evolution</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="13" to="14" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen R: Enzyme engineering: rational redesign versus directed evolution. Trends Biotechnol 2001, 19:13-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Combinatorial and evolution-based methods in the creation of enantioselective catalysts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed Engl</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="284" to="310" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz MT: Combinatorial and evolution-based methods in the creation of enantioselective catalysts. Angew Chem Int Ed Engl 2001, 40:284-310.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Combinatorial and computational challenges for biocatalyst design</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="253" to="257" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold FH: Combinatorial and computational challenges for biocatalyst design. Nature 2001, 409:253-257.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

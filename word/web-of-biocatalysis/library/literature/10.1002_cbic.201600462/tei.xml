@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">BioCatNet: a database system for the integration of enzyme sequences and biocatalytic experiments</title>
+				<funder ref="#_Gz4UHJ5">
+					<orgName type="full">Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Patrick</forename><forename type="middle">C F</forename><surname>Buchholz</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Constantin</forename><surname>Vogel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Waldemar</forename><surname>Reusch</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Martina</forename><surname>Pohl</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Örte</forename><surname>Rother</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Antje</forename><surname>Spieß</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Ürgen Pleiss</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Dörte</forename><surname>Rother</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">-Ing</forename><surname>Antje</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Spieß</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Jürgen</forename><surname>Pleiss</surname></persName>
+						</author>
+						<title level="a" type="main">BioCatNet: a database system for the integration of enzyme sequences and biocatalytic experiments</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5E041EE7B3243EC2038E1736763DC208</idno>
+					<idno type="DOI">10.1002/cbic.201600462</idno>
+					<note type="submission">This manuscript has been accepted after peer review and the authors have elected to post their Accepted Article online prior to editing, proofing, and formal publication of the final Version of Record (VoR). This work is currently citable by using the Digital Object Identifier (DOI) given below. The VoR will be published online in Early View as soon as possible and may be different to this Accepted Article as a result of editing. Readers should obtain the VoR from the journal website shown below when it is published to ensure accuracy of information. The authors are responsible for the content of this Accepted Article.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>protein design</term>
+					<term>sequence-function relationship</term>
+					<term>protein family database</term>
+					<term>kinetics</term>
+					<term>biocatalytic data management</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The development of novel enzymes for biocatalytic processes requires knowledge on substrate profile and selectivity which can be derived from separate databases and publications. Often, these data sources lack the time courses of substrate or product, and an unambiguous link between experiment and enzyme sequence. The lack of integrated, original data hampers the comprehensive analysis of enzyme kinetics and the evaluation of sequence-function relationships. To accelerate enzyme engineering, BioCatNet integrates protein sequence, structure, and original experimental data for a given enzyme family. BioCatNet explicitly assigns the enzyme sequence to an experiment, which consists of information on reaction conditions and time course data. BioCatNet facilitates the consistent documentation of reaction conditions, the archiving of measured time course data, and the efficient exchange of original experimental data among collaborators. Data integration is demonstrated for three case studies using the Thiamine diphosphate-dependent Enzymes Engineering Database (<ref type="url" target="https://teed.biocatnet.de">https://teed.biocatnet.de</ref>).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Enzymes are widely used as biocatalysts with desirable activity and selectivity for an increasing range of interesting synthetic applications. <ref type="bibr" target="#b4">[1]</ref> Since the availability of known, natural enzymes that perform in a given process is still limited, there is an urgent need for efficient methods to identify new enzyme candidates and to improve enzymes by enzyme engineering, especially for non-natural reactions. The development of new enzymes aims at desired properties such as optimized catalytic activity, solvent stability, chemo-, regio-or stereoselectivity <ref type="bibr" target="#b5">[2]</ref> . The efficient development of new enzymes by computational methods such as data mining and molecular modeling is based on a profound knowledge of sequencestructure-function relationships. <ref type="bibr" target="#b6">[3]</ref> Consequently, data on protein sequences, structures, and the effects of mutations on biochemical properties have become precious raw materials for successful protein design. <ref type="bibr" target="#b7">[4]</ref> Comprehensive online repositories such as the National Center for Biotechnology Information (NCBI) Protein Database, <ref type="bibr" target="#b8">[5]</ref> UniProt, <ref type="bibr" target="#b9">[6]</ref> DNA Data Bank of Japan (DDBJ), <ref type="bibr" target="#b10">[7]</ref> and Protein Data Bank (PDB) <ref type="bibr" target="#b11">[8]</ref> enable systematic analyses of sequences and structures of biocatalysts, while the experimental results from mutational studies are reported in scientific papers and are accessible by repositories such as NCBI PubMed, <ref type="bibr" target="#b12">[9]</ref> Web of Science, <ref type="bibr">[10]</ref> Google Scholar <ref type="bibr" target="#b13">[11]</ref> or SciFinder. <ref type="bibr" target="#b14">[12]</ref> This article is protected by copyright. All rights reserved</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Manuscript</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FULL PAPER</head><p>A systematic analysis of available protein sequence and structure data allows for identification of functionally relevant amino acids and the prediction of promising mutation sites by determining conserved, <ref type="bibr" target="#b15">[13,</ref><ref type="bibr" target="#b16">14]</ref> family-specific, <ref type="bibr" target="#b17">[15]</ref><ref type="bibr" target="#b18">[16]</ref><ref type="bibr" target="#b19">[17]</ref> or correlated positions. <ref type="bibr" target="#b20">[18,</ref><ref type="bibr" target="#b21">19]</ref> To enable the analysis of a rapidly increasing number of protein sequences and structures, enzyme family databases have been established for cytochrome P450 monooxygenases, <ref type="bibr" target="#b22">[20]</ref> βlactamases, <ref type="bibr" target="#b23">[21]</ref> triterpene-cyclases, <ref type="bibr" target="#b24">[22]</ref> imine reductases, <ref type="bibr" target="#b25">[23]</ref> lipases and other α/β-hydrolases, <ref type="bibr" target="#b26">[24,</ref><ref type="bibr" target="#b27">25]</ref> carbohydrate-active enzymes, <ref type="bibr" target="#b28">[26]</ref> and thiamine diphosphate-dependent enzymes. <ref type="bibr" target="#b29">[27]</ref> The commercially available 3DM databases follow a similar approach by using multiple structure alignments of reference enzymes to describe an enzyme family. <ref type="bibr" target="#b30">[28]</ref> Among others, the application of 3DM databases includes the automated assignment of mutations from literature sources. <ref type="bibr" target="#b31">[29]</ref> Apart from enzyme family databases, the UniProt database contains information on natural variants of proteins. <ref type="bibr" target="#b9">[6]</ref> While enzyme family databases make a rapidly increasing number of Braunschweig Enzyme Database (BRENDA), <ref type="bibr" target="#b32">[30]</ref> ExplorEnz, <ref type="bibr" target="#b33">[31]</ref> Kyoto Encyclopedia of Genes and Genomes (KEGG) REACTION, <ref type="bibr" target="#b34">[32]</ref> and SABIO-RK <ref type="bibr" target="#b35">[33]</ref> incorporate biochemical information obtained by literature mining and provide comprehensive repositories of enzyme function. However, these databases lack unambiguous information on the complete protein sequence of an enzyme as well as information on the reaction conditions and the kinetic models which were used to derive the reported kinetic parameters.</p><p>To fill this gap, community-wide standards on reporting enzymatic data <ref type="bibr" target="#b36">[34,</ref><ref type="bibr" target="#b37">35]</ref> and comprehensive databases on biocatalytic experiments have been proposed. <ref type="bibr" target="#b38">[36]</ref> Minimal requirements for reporting biocatalytic results were suggested by the Standards for Reporting Enzyme Data (STRENDA) Consortium. <ref type="bibr" target="#b36">[34,</ref><ref type="bibr" target="#b39">37]</ref> These recommendations include an unambiguous identification of the applied enzyme, the reaction conditions and the experimental outcome.</p><p>However, all currently available databases report only kinetic parameters such as Km and kcat rather than the underlying time course data monitoring the conversion of substrate(s) to product(s).</p><p>While the kinetic parameters are a consequence of the assumed kinetic model, reporting the underlying time course data would allow for the comparison of different kinetic models to characterize biochemical function. <ref type="bibr" target="#b40">[38,</ref><ref type="bibr" target="#b41">39]</ref> For a model-independent documentation of biochemical function, it would be crucial to report original data on substrate conversion or product formation rather than kinetic parameters only. Enzymes Engineering Database, <ref type="bibr" target="#b29">[27]</ref> have been migrated to the BioCatNet system, updated, and enriched by experimentally and computationally derived information. The BioCatNet system can be used as a comprehensive platform to store and exchange biochemical data on any protein family and to make this data accessible to selected users for later systematic analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>The BioCatNet Concept</p><p>The a set of seed sequences. <ref type="bibr" target="#b42">[40]</ref> Model-derived information for sequence data comprises hierarchical sorting of individual sequences to proteins and homologous families by the USEARCH clustering algorithm, <ref type="bibr" target="#b43">[41]</ref> sequence alignments generated by Clustal Omega, <ref type="bibr" target="#b44">[42]</ref> generation of family-specific sequence profiles by profile hidden Markov models, <ref type="bibr" target="#b45">[43]</ref> assignment of standard position numbers, <ref type="bibr" target="#b46">[44]</ref> links to literature entries, <ref type="bibr" target="#b47">[45]</ref> and the annotation of structurally or functionally relevant positions. Additionally, structure data can be used for homology modeling.</p><p>Experimental data is provided by experimenters rather than parsed automatically from literature sources. Each experimental data set refers unambiguously to the protein sequence of the respective enzyme. BioCatNet has been designed as a tool for experimenters to store, organize, retrieve, and analyze their own experimental data or data from collaborative projects. Experimental data include the reaction conditions as suggested by the STRENDA Consortium <ref type="bibr" target="#b36">[34]</ref> ,</p><p>as well as time-dependent data of substrate and product concentrations or of derived properties such as enantiomeric excess (ee values), conversions, or yields (Table <ref type="table" target="#tab_0">1</ref>).</p><p>As an initial example of an enzyme family database, the TEED <ref type="bibr" target="#b29">[27]</ref> was migrated to BioCatNet (<ref type="url" target="https://teed.biocatnet.de">https://teed.biocatnet.de</ref>). <ref type="bibr" target="#b48">[46]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting of Experimental Data</head><p>The minimal requirements for submission of experimental measurement data to BioCatNet constitute a compromise between completeness and usability (Table <ref type="table" target="#tab_0">1</ref>). Therefore, BioCatNet distinguishes between mandatory and optional attributes for data submission. Since the description of the reaction under investigation was considered as indispensable to map sequence-function relationships, the involved substrates and products as well as the reaction stoichiometry are mandatory inputs. To describe the reaction conditions, the specification of the reaction buffer is mandatory, while additional information such as pH and temperature are optional but recommended inputs. All additional information on preparation of enzymes, analytical methods and other laboratory routines are considered not to be mandatory, but are usually documented in laboratory journals or by a laboratory information management system (LIMS).</p><p>Before experimental measurement data can be uploaded, BioCatNet requires the distinct protein sequence of the respective enzyme, which guarantees an unambiguous distinction between the biocatalytic properties of enzyme variants or homologues. We recommend the mentioning of source organism and expression host for a given enzyme. The usage of the SMILES code (simplified molecular-input line-entry system) <ref type="bibr" target="#b49">[47]</ref> is recommended as unambiguous identifier of a substrate or product, which facilitates the search for experimental data by compounds. In order to ease usage This article is protected by copyright. All rights reserved</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted</head><p>Manuscript FULL PAPER of the SMILES code, the BioCatNet documentation (<ref type="url" target="http://wiki.biocatnet.de/">http://wiki.biocatnet.de/</ref>) links to the SMILES generator NCBI PubChem Sketcher. <ref type="bibr" target="#b50">[48]</ref> Substrates, enzymes, and additive compounds can be quantified either by a combination of amount of substance and volume or by concentration.</p><p>To facilitate submission of biocatalytic data to BioCatNet, a Microsoft</p><p>Excel template is provided within the documentation page (ApPDC) and the variant E469G <ref type="bibr" target="#b51">[49]</ref><ref type="bibr" target="#b52">[50]</ref><ref type="bibr" target="#b53">[51]</ref> were uploaded to the TEED.</p><p>The sequence of the ApPDC variant was uploaded, and annotations of mutated residues, domain boundaries of the catalytically relevant pyrophosphate-and pyrimidine-interacting domains, and the standard position numbers for ThDP-dependent decarboxylases <ref type="bibr" target="#b46">[44]</ref> were generated, thus facilitating the communication of mutation sites and the analysis of conserved positions (Figure <ref type="figure" target="#fig_10">3</ref>). varying initial concentrations of substrate and product. <ref type="bibr" target="#b54">[52]</ref> The Cterminally His-tagged sequence, reaction conditions, and the time course data of one experiment were uploaded to the TEED. The time course data are visualized on the web interface (Figure <ref type="figure" target="#fig_12">5</ref>). An</p><p>Excel file of the experiment is available as supporting information (example2.xlsx) and can be downloaded from the documentation page (<ref type="url" target="http://wiki.biocatnet.de/">http://wiki.biocatnet.de/</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Example 3: Experiments under Varying Conditions</head><p>The conversion of benzaldehyde and acetaldehyde to (S)-2-hydroxy-1-phenylpropan-1-one was catalyzed by C-terminally His-tagged benzoylformate decarboxylase under varying pH to find the optimum pH for the recently described 'µMORE' microfluidics reactor. <ref type="bibr" target="#b55">[53]</ref> The time courses of benzaldehyde and (S)-2-hydroxy-1-phenylpropan-1one were monitored in an 'experiment set' for the pH values of 6.5 This article is protected by copyright. All rights reserved</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted</head><p>Manuscript</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FULL PAPER</head><p>The Benefit of Unambiguously Linking Sequence and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biochemical Function</head><p>The protein sequence uniquely identifies an enzyme. Nevertheless, in many publications the respective enzyme is specified ambiguously by naming its enzymatic function and its source organism, e.g.</p><p>'pyruvate decarboxylase from Acetobacter pasteurianus'. A search for this term in the NCBI protein database matches 30 protein entries, which differ not only in length but also in positions distributed over the entire protein sequence (Supporting Information Figure <ref type="figure" target="#fig_9">S2</ref>).</p><p>While highly similar sequences commonly fold into similar threedimensional structures <ref type="bibr" target="#b56">[54]</ref> and usually resemble each other in their catalytic function, <ref type="bibr" target="#b57">[55]</ref> single mutations might affect the activity and specificity, even if the mutated positions are outside the active site. <ref type="bibr" target="#b58">[56]</ref> Specifically, the effect of protein fusion tags for affinity chromatography on activity, stability, and selectivity of an enzyme is often neglected scientific publications. <ref type="bibr" target="#b59">[57]</ref> Thus, protein sequence, structure, and experimental results have to be assigned consistently in order to enable a comprehensive investigation of the sequencefunction relationships of a biocatalyst.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Representation of Biochemical Data</head><p>It has been widely recognized that detailed results from biocatalytic experiments are an invaluable source of data for many fields of research, including protein design, <ref type="bibr" target="#b4">[1]</ref><ref type="bibr" target="#b5">[2]</ref><ref type="bibr" target="#b6">[3]</ref><ref type="bibr" target="#b7">[4]</ref> synthetic biochemical pathway construction, <ref type="bibr" target="#b60">[58]</ref> reaction optimization and process design. Therefore, guidelines for reporting enzymatic <ref type="bibr" target="#b36">[34]</ref> and biocatalytic data <ref type="bibr" target="#b37">[35]</ref> have been proposed. Guidelines have also been proposed in other fields of research such as systems biology <ref type="bibr" target="#b61">[59]</ref> and crystallization. <ref type="bibr" target="#b62">[60]</ref> Storing Michaelis-Menten equation is only valid under specific conditions <ref type="bibr" target="#b38">[36]</ref> and excludes enzyme inhibition or inactivation by substrate or product.</p><formula xml:id="formula_0">data</formula><p>The lack of time course data results from difficulties in data generation, especially in former studies when methods like high performance liquid chromatography (HPLC) or fluorimeters where yet unavailable. We suggest to make time-resolved data accessible, whenever they have been determined. Besides time course data, ratios like conversion, yield and enantiomeric excess allow for computational comparison of potential enzyme candidates, as previously shown for data on activity and selectivity for cyclododecanone monooxygenase. <ref type="bibr" target="#b63">[61]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The availability of original time course data enables researchers to determine kinetic parameters and to explore different enzymatic mechanisms. <ref type="bibr" target="#b40">[38]</ref> Kinetic modeling provides a link between individual biochemical experiments, and bioprocess design facilitates the search for productive reaction conditions to improve the performance of a biocatalyst and the overall process in a bioreactor. <ref type="bibr" target="#b64">[62]</ref> In this context, the BioCatNet system supports both the design of enzymes and the optimization of reaction parameters by linking sequence, structure and biochemical data of an enzyme family within collaborative projects. While the current version of BioCatNet describes reactions catalyzed by a single enzyme, the data model will be extended in the future to describe more complex reaction schemes such as pre-incubation or cascade reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The BioCatNet Data Model</head><p>The BioCatNet data model integrates original data such as protein sequence, protein structure, reactions conditions, and time course data (concentrations or derived properties as a function of time).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BioCatNet uses the relational database management system</head><p>This article is protected by copyright. All rights reserved</p><note type="other">Accepted Manuscript FULL PAPER</note><p>Firebird. <ref type="bibr" target="#b65">[63]</ref> The data model of the DWARF system <ref type="bibr" target="#b42">[40]</ref> was extended by tables for taxonomic relations, experimental data, and tables for user management.</p><p>The DWARF model organizes sequences in four hierarchical levels of sequences, proteins, homologous families, and superfamilies. In BioCatNet, groups of homologous families and groups of superfamilies were added to the hierarchy to allow for additional sorting by biological knowledge like similarities in domain arrangement and annotation. For each sequence, individual positions can be annotated in BioCatNet by standard positions <ref type="bibr" target="#b46">[44]</ref> or function. The data model of the DWARF system was amended in BioCatNet for taxonomic information about the biological source, including taxonomic synonyms, represented by links to NCBI taxonomy.</p><p>Additional tables were added for data on the reaction under investigation, reaction conditions, compounds, and time course data.</p><p>The link between the respective sequence entry of the experimentally applied enzyme and the experimental time course data was established by a dedicated table (Figure <ref type="figure" target="#fig_8">S1</ref>). In addition, the data model was enabled to cope with compounds that are neither substrates nor products, such as inhibitors or detergents. To allow for cascade reactions, a single experiment can include multiple enzymes. For fed-batch experiments, the time points of enzyme or substrate addition can be specified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The BioCatNet Web Interface</head><p>The web-accessible user interface for BioCatNet was developed in PHP 5 <ref type="bibr" target="#b66">[64]</ref> (backend) and HTML5/JavaScript (frontend) and is hosted on an Apache webserver. <ref type="bibr" target="#b67">[65]</ref> While sequence and structure data usually is accessible to all users, access to individual biocatalytic data sets is limited to registered users or user groups. Users can navigate between the hierarchical levels of sequence information and taxonomic lineage. Sequences are available as FASTA files and as alignments of homologous families or superfamilies.</p><p>Experimentally determined structural data and homology models are presented using PV protein viewer. <ref type="bibr" target="#b68">[66]</ref> Biocatalytic data is grouped in 'experiments' and 'experiment sets'. Currently, the upload of the sequences and of experimental data will be done by the BioCatNet administrator in the framework of collaborative projects. In the future, we plan to allow direct upload via a web form to registered users. This article is protected by copyright. All rights reserved   ChemBioChem 10.1002/cbic.201600462</p><note type="other">Accepted Manuscript FULL PAPER Legends for Figures and Schemes</note><p>This article is protected by copyright. All rights reserved    </p><note type="other">Accepted Manuscript FULL PAPER</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>protein sequences and structures accessible to systematic analysis, they lack biocatalytic experimental data. Providing consistently linked data on sequence, structure, and experimentally determined biochemical properties of enzyme variants will result in an invaluable information resource for directly deriving sequence-function relationships. Experimental characterization of enzymes and designed variants results in a large quantity of highly heterogeneous data, which is usually reported as plain text, tables or figures in publications or laboratory notebooks. It would be desirable if the information on the enzyme, the reaction conditions, and the biochemical properties were integrated and accessible to an automated analysis. In most studies systematic experiments have been performed by varying the sequence of the biocatalyst, the substrate scope, or the reaction conditions, and by measuring the respective catalytic activity, chemo-, regio-or stereoselectivity, but only a subset of most relevant data was selected for publication, which results in a substantial loss of information. Since scientific publications are the only available source of experimental data on sequence-function relationships, a scientist has to invest considerable time in finding, collecting, and combining this fragmented and sparse data. To support this data collection process, databases such as the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>The combination of time course data, a documentation of reaction conditions, and an unambiguous link to the respective protein sequence would considerably improve the reproducibility of published experiments and allow for systematic computational analyses of sequence-function relationships. Therefore, we established the BioCatNet system which integrates sequence and structure of enzymes with biocatalytic data such as reaction conditions and time-dependent biochemical data (Figure 1). Besides substrate or product concentration, BioCatNet can store conversion, yield or enantiomeric excess, since these types of data are usually This article is protected by copyright. All rights reserved Accepted Manuscript FULL PAPER generated upon screening potential enzyme candidates for activity or selectivity towards various substrates. Application of BioCatNet is demonstrated on reactions catalyzed by thiamine diphosphate (ThDP)-dependent enzymes. Therefore, sequence and structure data from the TEED, the ThDP-dependent</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>BioCatNet database system was established as a repository to analyze the sequence-function relationships of a complete enzyme family. Original data is parsed from data repositories or experiments, such as sequences, structures or biocatalytic measurements (Figure 2). Data analysis is based on mathematical models and therefore produces 'model-derived information'. Examples are sequence alignments, which are derived from original sequence data by applying a distance metric and alignment parameters, and kinetic parameters, which are derived from original time course data by applying a kinetic model. Original sequence data is parsed from the NCBI protein database by BLAST (Basic Local Alignment Search Tool) searches starting from</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>(Example 1 :</head><label>1</label><figDesc>http://wiki.biocatnet.de/wiki/examples/BioCatNet_template.xlsx).The following examples describe case studies for experiments combining a substrate with different enzyme variants, measurement of time courses for substrate and product concentrations, and conversion of substrates under varying conditions.Experiments with Different Substrates and EnzymeVariantsAs a first example, biocatalytic experiments using C-terminally Histagged pyruvate decarboxylase from Acetobacter pasteurianus</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Example 2 :</head><label>2</label><figDesc>In the biocatalytic experiments, the ApPDC-catalyzed coupling reactions of benzaldehyde with pyruvate was monitored by measuring conversion of benzaldehyde and enantiomeric excess (ee) of phenylacetylcarbinol after a reaction time of 16 hours. Each experiment describes the measurement using one enzyme. For each experiment, the enzymatic reaction, the reaction conditions including a description of the reaction buffer and the enzyme preparation, the substrate, and the enzyme sequence are specified. The two experiments were grouped into a single 'experiment set'. Reaction conditions and experimental results are visualized as tables in the web interface (Figure 4). A summary of the experimental setup can be displayed as full-text for a comprehensive documentation of the biocatalytic experiments. Excel files for the two experiments were created by filling in the Excel template (Supporting Information example1a.xlsx, example1b.xlsx) and can be downloaded from the documentation page (http://wiki.biocatnet.de/). Experiments with Measured Time Courses of Substrate and Product Concentration Time-dependent substrate and product concentrations upon selfligation of benzaldehyde to benzoin catalyzed by benzaldehyde lyase from Pseudomonas fluorescens (PfBAL) were measured for</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>and 8 .</head><label>8</label><figDesc>0. Two independent experiments were conducted for each pH value. While a publication usually contains only mean values and standard deviations, BioCatNet keeps all original time courses in a readable format for future analyses. The storage of original time course data allows for a model-based analysis of multiple data sets to study the effect of reaction conditions (pH, temperature) on the reaction kinetics, which might later serve as a basis for reaction optimization process design. Excel files of the experiment set are available as supporting information (example3a.xlsx, example3b.xlsx, example3c.xlsx, example3d.xlsx) and can be downloaded from the documentation page (http://wiki.biocatnet.de/).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>in the BioCatNet system or in the Excel files facilitates the collaboration of different research groups ranging from biocatalysis to modeling. In BioCatNet, biocatalytic data is represented either as time courses of substrate or product concentrations or as time-dependent ratios such as conversion, yield or enantiomeric excess, depending on the desired type of experiment. The availability of original data circumvents the limitation of data retrieved manually from scientific papers and facilitates documentation of results. For many published kinetic parameters, the underlying original data or the detailed reaction conditions are not available, hindering in-depth analysis of kinetic properties by different kinetic models. The widely used</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Furthermore, we would</head><figDesc>also encourage the use of our Excel template for documentation and communication of biocatalytic data outside BioCatNet. A documentation of the interface and the data model is available online (http://wiki.biocatnet.de/).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Workflow between bioinformatics and experiment using the BioCatNet database system. Arrows pointing from left to right represent data analysis or modeling, arrows pointing from right to left represent submission of biocatalytic data via file upload. Dashed arrows mark initial procedures and modeling steps beyond the scope of the database.</figDesc><graphic coords="9,46.80,109.26,314.65,175.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Concept of the established BioCatNet database system. Original data are stored in the individual enzyme family database on the levels of protein sequence, structure and experimental data. Analysis of data leads to new knowledge which helps to amend the database (model-derived information). Sequences and structures are parsed from other repositories whereas experimenters contribute experimental data and sequences of their applied enzymes. Expansions of the workflow are currently under development to include metagenomic sequences and establish a framework for estimation of kinetic parameters (*).</figDesc><graphic coords="9,46.80,322.70,378.20,147.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Screenshot detail from the BioCatNet web interface depicting a C-terminally His-tagged variant of pyruvate decarboxylase from Acetobacter pasteurianus.The Mutated residue (G469), domain boundaries (PYR: pyrimidine interaction, PP: pyrophosphate interaction) and the His-tag are annotated. 'DC' indicates the respective standard position number.[44]   </figDesc><graphic coords="9,46.80,529.95,323.24,199.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Exemplary screenshot detail from the BioCatNet web interface, showing the possibility to display a plain text summarizing the reaction conditions from the individual tables.</figDesc><graphic coords="10,46.80,86.46,430.40,191.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Screenshot detail from the BioCatNet web interface for a measurement of substrate and product concentrations over time (here: self-ligation from benzaldehyde to benzoin).</figDesc><graphic coords="10,46.80,308.36,356.22,286.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><figDesc>Table of ContentsThe BioCatNet database system integrates enzyme sequences and biocatalytic data (reaction conditions, time courses of substrates and products). It facilitates long-term storage and exchange of experimental data between research groups. We suggest BioCatNet as a valuable tool for data mining, reaction engineering, and enzyme design. reaction condition initial reaction volume [a], pH, temperature, pressure, shaking frequency, further description reaction buffer unique name, description enzyme exact protein sequence, sequence name, expression host, time of addition preparation/purification/immobilization/crude cell extract/whole cell transformation, source organism (recommended), concentration or amount and volume [a] substrate compound name, time of addition or measurement preparation, measurement method, concentration or amount and volume [a], measurement replication number product compound name, time of measurement preparation, measurement method, concentration or amount and volume [a], measurement replication number additive compound name, time of addition preparation, concentration or amount and volume [a] parameter compound of reference, time of measurement, parameter, value and unit parameter abbreviation, wild-type/reference sequence [b], measurement method, additional information [a] Enzymes, substrates and additive compounds (e.g. enzyme inhibitors) are quantified by chemical amount and volume (if the initial reaction volume is specified) or by concentration. [b] Some measured parameters might refer to a wild-type or reference sequence.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Overview of mandatory and optional input for submitting experimental data to BioCatNet. Experimental data can be experimenter-defined or measured concentrations as well as derived properties like conversion, yield or enantiomeric excess.</figDesc><table><row><cell>topic</cell><cell>mandatory input</cell><cell>optional input</cell><cell></cell></row><row><cell>reaction</cell><cell>reaction name, involved substrates and products, stoichiometry</cell><cell>SMILES code for compounds</cell><cell>[47]</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors thank <rs type="person">Anna Baierl</rs>, <rs type="person">Maryam Beigi</rs>, <rs type="person">Saskia Bock</rs>, <rs type="person">Alexander Fries</rs>, <rs type="person">Sabrina Loschonsky</rs>, <rs type="person">Michael Müller</rs>, <rs type="person">Rüdiger Ohs</rs>, <rs type="person">Simon Waltzer</rs>, and <rs type="person">Robert Westphal</rs> for valuable discussion on the data model and the necessary standardization in biocatalysis, as well as helpful suggestions concerning the user interface. Support of <rs type="person">Michael Widmann</rs> in the early phase of the development of the BioCatNet system and suggestions by <rs type="person">Catharina Zeil</rs> are gratefully acknowledged. This work was funded by the <rs type="funder">Deutsche Forschungsgemeinschaft</rs> within the framework of <rs type="grantNumber">FOR 1296</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Gz4UHJ5">
+					<idno type="grant-number">FOR 1296</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article is protected by copyright. All rights reserved</p><note type="other">Accepted Manuscript FULL PAPER</note></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Buchholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prof</forename><forename type="middle">J</forename><surname>Dr</surname></persName>
+		</author>
+		<ptr target="Juergen.Pleiss@itb.uni-stuttgart.de" />
+	</analytic>
+	<monogr>
+		<title level="j">Allmandring</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<pubPlace>Stuttgart, Germany E-mail</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Pleiss Institute of Technical Biochemistry, University of Stuttgart</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">C. F. Buchholz, Dr. C. Vogel, W. Reusch, Prof. Dr. J. Pleiss Institute of Technical Biochemistry, University of Stuttgart. Allmandring 31, 70569 Stuttgart, Germany E-mail: Juergen.Pleiss@itb.uni-stuttgart.de</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><surname>Prof</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dr</surname></persName>
+		</author>
+		<title level="m">Martina Pohl, Prof. Dr. Dörte Rother IBG-1: Biotechnology, Forschungszentrum Jülich GmbH. 52425</title>
+		<meeting><address><addrLine>Jülich, Germany</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Prof. Dr. Martina Pohl, Prof. Dr. Dörte Rother IBG-1: Biotechnology, Forschungszentrum Jülich GmbH. 52425 Jülich, Germany</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Rebenring</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<pubPlace>Braunschweig, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Prof. Dr.-Ing. Antje C. Spieß Institute of Biochemical Engineering, Technical University of Braunschweig</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Prof. Dr.-Ing. Antje C. Spieß Institute of Biochemical Engineering, Technical University of Braunschweig. Rebenring 56, 38106 Braunschweig, Germany</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">AVT.EPT. Worringerweg</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date>52074</date>
+			<pubPlace>Aachen, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Prof. Dr.-Ing. Antje C. Spieß RWTH Aachen University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Prof. Dr.-Ing. Antje C. Spieß RWTH Aachen University, AVT.EPT. Worringerweg 1, 52074 Aachen, Germany</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Adrio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Demain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomolecules</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="117" to="139" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. L. Adrio, A. L. Demain, Biomolecules 2014, 4, 117-139.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. T. Bornscheuer, G. W. Huisman, R. J. Kazlauskas, S. Lutz, J. C. Moore, K. Robins, Nature 2012, 485, 185-194.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="4372" to="4373" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. T. Bornscheuer, Angew. Chem., Int. Ed. 2016, 55, 4372-4373.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="944" to="950" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Pleiss, ChemCatChem 2014, 6, 944-950.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Benson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karsch-Mizrachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ostell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sayers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="32" to="D37" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. A. Benson, I. Karsch-Mizrachi, D. J. Lipman, J. Ostell, E. W. Sayers, Nucleic Acids Res. 2011, 39, D32-D37.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<orgName type="collaboration">UniProt Consortium</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="191" to="D198" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">UniProt Consortium, Nucleic Acids Res. 2014, 42, D191-D198.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kaminuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kosuge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kodama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gojobori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sugawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ogasawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Okubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="22" to="D27" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Kaminuma, T. Kosuge, Y. Kodama, H. Aono, J. Mashima, T. Gojobori, H. Sugawara, O. Ogasawara, T. Takagi, K. Okubo, Y. Nakamura, Nucleic Acids Res. 2011, 39, D22-D27.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gilliland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weissig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Shindyalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Bourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T. N. Bhat, H. Weissig, I. N. Shindyalov, P. E. Bourne, Nucleic Acids Res. 2000, 28, 235-242.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Ncbi Pubmed</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">NCBI PubMed, to be found under http://www.ncbi.nlm.nih.gov/pubmed</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Google</forename><surname>Scholar</surname></persName>
+		</author>
+		<ptr target="https://scholar.google.de/" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Google Scholar, to be found under https://scholar.google.de/</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Scifinder</surname></persName>
+		</author>
+		<ptr target="http://www.cas.org/products/scifinder" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">SciFinder, to be found under http://www.cas.org/products/scifinder</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Loch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Middendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Studer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Lassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pasamontes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P G M</forename><surname>Van Loon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wyss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="403" to="411" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Lehmann, C. Loch, A. Middendorf, D. Studer, S. F. Lassen, L. Pasamontes, A. P. G. M. van Loon, M. Wyss M, Protein Eng. 2002, 15, 403-411.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">O</forename><surname>Sezerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="3458" to="3464" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Anbar, O. Gul, R. Lamed, U. O. Sezerman, E. A. Bayer, Appl. Environ. Microbiol. 2012, 78, 3458-3464.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Mazin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Gelfand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Mironov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Rakhmaninova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Rubinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Kalinina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Algorithms Mol. Biol</title>
+		<imprint>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. V. Mazin, M. S. Gelfand, A. A. Mironov, A. B. Rakhmaninova, A. R. Rubinov, R. B. Russell, O. V. Kalinina, Algorithms Mol. Biol. 2010, 5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Suplatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Besenmatter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Švedas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Svendsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng., Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="689" to="697" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. A. Suplatov, W. Besenmatter, V. K. Švedas, A. Svendsen, Protein Eng., Des. Sel. 2012, 25, 689-697.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Suplatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Panin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kirilin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shcherbakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kudryavtsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Švedas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Suplatov, N. Panin, E. Kirilin, T. Shcherbakova, P. Kudryavtsev, V. Švedas, PLoS One 2014, 9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K P</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Verwiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Akerboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Oost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G H</forename><surname>Leferink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J H</forename><surname>Van Berkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Schaap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="608" to="616" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. K. P. Kuipers, H.-J. Joosten, E. Verwiel, S. Paans, J. Akerboom, J. van der Oost, N. G. H. Leferink, W. J. H. van Berkel, G. Vriend, P. J. Schaap, Proteins. 2009, 76, 608-616.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kowarsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frishman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pagel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Kowarsch, A. Fuchs, D. Frishman, P. Pagel, PLoS Comput. Biol. 2010, 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sirim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Funke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2015" to="2017" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Fischer, M. Knoll, D. Sirim, F. Wagner, S. Funke, J. Pleiss, Bioinformatics 2007, 23, 2015-2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Oelschlaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="3481" to="3491" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Widmann, J. Pleiss, P. Oelschlaeger, Antimicrob. Agents Chemother. 2012, 56, 3481-3491.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Racolta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Juhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sirim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct., Funct., Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<date type="published" when="2009">2012. 2009-2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Racolta, P. B. Juhl, D. Sirim, J. Pleiss, Proteins: Struct., Funct., Bioinf. 2012, 80, 2009-2019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Scheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fademrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hofelzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leipold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nestl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2201" to="2204" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. N. Scheller, S. Fademrecht, S. Hofelzer, J. Pleiss, F. Leipold, N. J. Turner, B. M. Nestl, B. Hauer, ChemBioChem 2014, 15, 2201-2204.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="319" to="321" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Fischer, J. Pleiss, Nucleic Acids Res. 2003, 31, 319-321.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hotelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Renault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cousin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Negre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marchot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chatonnet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="145" to="D147" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Hotelier, L. Renault, X. Cousin, V. Negre, P. Marchot, A. Chatonnet, Nucleic Acids Res. 2004, 32, D145-D147.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Ramulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Drula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Coutinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="490" to="D495" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Lombard, H. G. Ramulu, E. Drula, P. M. Coutinho, B. Henrissat, Nucleic Acids Res. 2014, 42, D490-D495.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Radloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biochem</title>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Widmann, R. Radloff, J. Pleiss, BMC Biochem. 2010, 11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J H</forename><surname>Van Berkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G H</forename><surname>Leferink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rooijen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ittmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Zimmeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jochens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A P</forename><surname>Martins Dos Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Schaap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct., Funct., Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="2101" to="2113" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. K. Kuipers, H.-J. Joosten, W. J. H. van Berkel, N. G. H. Leferink, E. Rooijen, E. Ittmann, F. van Zimmeren, H. Jochens, U. Bornscheuer, G. Vriend, V. A. P. Martins dos Santos, P. J. Schaap, Proteins: Struct., Funct., Bioinf. 2010, 78, 2101-2113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Lekanne Dit Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M A M</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Schaap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mutat</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1026" to="1032" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Kuipers, T. van den Bergh, H.-J. Joosten, R. H. Lekanne dit Deprez, M. M. A. M. Mannens, P. J. Schaap, Hum. Mutat. 2010, 31, 1026-1032.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Schomburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Placzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Söhngen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Munaretto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ulas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stelzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schomburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="764" to="D772" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Schomburg, A. Chang, S. Placzek, C. Söhngen, M. Rother, M. Lang, C. Munaretto, S. Ulas, M. Stelzer, A. Grote, M. Scheer, D. Schomburg, Nucleic Acids Res. 2013, 41, D764-D772.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B F</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Tipton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biochem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. G. McDonald, S. Boyce, G. P. Moss, H. B. F. Dixon, K. F. Tipton, BMC Biochem. 2007, 8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hattori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Aoki-Kinoshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Araki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirakawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="354" to="D357" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Kanehisa, S. Goto, M. Hattori, K. F. Aoki-Kinoshita, M. Itoh, S. Kawashima, T. Katayama, M. Araki, M. Hirakawa, Nucleic Acids Res. 2006, 34, D354-D357.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wittig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Golebiewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Algaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weidemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sauer-Danzwith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bittkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wetsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="790" to="D796" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Wittig, R. Kania, M. Golebiewski, M. Rey, L. Shi, L. Jong, E. Algaa, A. Weidemann, H. Sauer-Danzwith, S. Mir, O. Krebs, M. Bittkowski, E. Wetsch, I. Rojas, W. Müller, Nucleic Acids Res. 2012, 40, D790-D796.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Tipton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bairoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cornish-Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Halling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Hofmeyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Leyh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Raushel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rohwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schomburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Steinbeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives in Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="131" to="137" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. F. Tipton, R. N. Armstrong, B. M. Bakker, A. Bairoch, A. Cornish- Bowden, P. J. Halling, J.-H. Hofmeyr, T. S. Leyh, C. Kettner, F. M. Raushel, J. Rohwer, D. Schomburg, C. Steinbeck, Perspectives in Science 2014, 1, 131-137.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gardossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ballesteros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hult</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Švedas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ð</forename><surname>Vasić-Rački</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carrea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wohlgemuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Halling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="171" to="180" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Gardossi, P. B. Poulsen, A. Ballesteros, K. Hult, V. K. Švedas, Ð. Vasić-Rački, G. Carrea, A. Magnusson, A. Schmid, R. Wohlgemuth, P. J. Halling, Trends Biotechnol. 2010, 28, 171-180.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bairoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cornish-Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Halling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><forename type="middle">S</forename><surname>Hofmeyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Leyh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rohwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schomburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Steinbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tipton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Apweiler, R. Armstrong, A. Bairoch, A. Cornish-Bowden, P. J. Halling, J.-H. S. Hofmeyr, C. Kettner, T. S. Leyh, J. Rohwer, D. Schomburg, C. Steinbeck, K. Tipton, Nat. Chem. Biol. 2010, 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<ptr target="http://www.beilstein-institut.de/en/projects/strenda" />
+		<title level="m">STRENDA Standards for reporting enzymology data</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">STRENDA Standards for reporting enzymology data, to be found under http://www.beilstein-institut.de/en/projects/strenda</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zavrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Michalik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ansorge-Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Marquardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Büchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Spiess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Zavrel, T. Schmidt, C. Michalik, M. Ansorge-Schumacher, W. Marquardt, J. Büchs, A. C. Spiess, Biotechnol. Bioeng. 2008, 101, 27- 38.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schnell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS J</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="464" to="472" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Schnell, FEBS J. 2014, 281, 464-472.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">K</forename><surname>Thai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grieb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bioinf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Fischer, Q. K. Thai, M. Grieb, J. Pleiss, BMC Bioinf. 2006, 7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2460" to="2461" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. C. Edgar, Bioinformatics 2010, 26, 2460-2461.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sievers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dineen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mcwilliam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Remmert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Söding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Higgins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Syst. Biol</title>
+		<imprint>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Sievers, A. Wilm, D. Dineen, T. J. Gibson, K. Karplus, W. Li, R. Lopez, H. McWilliam, M. Remmert, J. Söding, J. D. Thompson, D. G. Higgins, Mol. Syst. Biol. 2011, 7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Eddy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="755" to="763" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. R. Eddy, Bioinformatics 1998, 14, 755-763.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Widmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biochem</title>
+		<imprint>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Vogel, M. Widmann, M. Pohl, J. Pleiss, BMC Biochem. 2012, 13.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Ł</forename><surname>Gricman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Struct., Funct., Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1593" to="1603" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ł. Gricman, C. Vogel, J. Pleiss, Proteins: Struct., Funct., Bioinf. 2015, 83, 1593-1603.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<pubPlace>Stuttgart (Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">C. Vogel, PhD thesis, University of Stuttgart (Germany), 2015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weininger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="31" to="36" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Weininger, J. Chem. Inf. Comput. Sci. 1988, 28, 31-36.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Ihlenfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheminf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. D. Ihlenfeldt, E. E. Bolton, S. H. Bryant, J. Cheminf. 2009, 1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kolter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gerhards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Berthold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gauchenova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1587" to="1596" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Rother, G. Kolter, T. Gerhards, C. L. Berthold, E. Gauchenova, M. Knoll, J. Pleiss, M. Müller, G. Schneider, M. Pohl, ChemCatChem 2011, 3, 1587-1596.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Westphal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+		<title level="m">DE 102014013642 A1</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Sehl, L. Marx, R. Westphal, M. Pohl, D. Rother, DE 102014013642 A1, 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Maugeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Westphal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Menyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Erhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Green</forename><surname>Chem</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">T. Sehl, S. Bock, L. Marx, Z. Maugeri, L. Walter, R. Westphal, C. Vogel, U. Menyes, M. Erhardt, M. Müller, M. Pohl, D. Rother, Green Chem., submitted.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ohs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leipnitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schöpping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Spiess</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>in preparation</note>
+	<note type="raw_reference">R. Ohs, M. Leipnitz, M. Schöpping, A. C. Spiess, in preparation.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Soltner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wiechert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lieres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="174" to="182" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Jussen, H. Soltner, B. Stute, W. Wiechert, E. von Lieres, M. Pohl, J. Biotechnol. 2016, 231, 174-182.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C T</forename><surname>North</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Vanaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="65" to="86" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. J. Browne, A. C. T. North, D. C. Phillips, K. Brew, T. C. Vanaman, R. L. Hill, J. Mol. Biol. 1969, 42, 65-86.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lazar-Molnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vigdorovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">A</forename><surname>Ramagopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bonanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Nathenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Almo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page" from="356" to="386" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Chattopadhyay, E. Lazar-Molnar, Q. Yan, R. Rubinstein, C. Zhan, V. Vigdorovich, U. A. Ramagopal, J. Bonanno, S. G. Nathenson, S. C. Almo, Immunol. Rev. 2009, 229, 356-386.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Drawz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bethel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hujer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Hurless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Prati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bonomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="4557" to="4566" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. M. Drawz, C. R. Bethel, K. M. Hujer, K. N. Hurless, A. M. Distler, E. Caselli, F. Prati, R. A. Bonomo, Biochemistry 2009, 48, 4557-4566.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Majorek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chruszcz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Minor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1359" to="1368" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. A. Majorek, M. L. Kuhn, M. Chruszcz, W. F. Anderson, W. Minor, Protein Sci. 2014, 23, 1359-1368.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A G</forename><surname>Koffas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1137" to="1143" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Bhan, P. Xu, M. A. G. Koffas, Curr. Opin. Biotechnol. 2013, 24, 1137-1143.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pfeifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Klingmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="354" to="359" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Schilling, A. C. Pfeifer, S. Bohl, U. Klingmüller, Curr. Opin. Biotechnol 2008, 19, 354-359.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raccuglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Elbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D F</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Falk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Wenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Friedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Norquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">533</biblScope>
+			<biblScope unit="page" from="73" to="76" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Raccuglia, K. C. Elbert, P. D. F. Adler, C. Falk, M. B. Wenny, A. Mollo, M. Zeller, S. A. Friedler, J. Schrier, A. J. Norquist, Nature 2016, 533, 73-76.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Rial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kapitanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lengar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rehdorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rudroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mihovilovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="3491" to="3500" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Fink, D. V. Rial, P. Kapitanova, A. Lengar, J. Rehdorf, Q. Cheng, F. Rudroff, M. D. Mihovilovic, Adv. Synth. Catal. 2012, 354, 3491-3500.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Ð</forename><surname>Vasić-Rački</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kragl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biochem. Eng. Q</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="7" to="18" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ð. Vasić-Rački, U. Kragl, A. Liese, Chem. Biochem. Eng. Q. 2003,17, 7-18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Firebird</surname></persName>
+		</author>
+		<ptr target="http://www.firebirdsql.org" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Firebird, to be found under http://www.firebirdsql.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Php</surname></persName>
+		</author>
+		<ptr target="http://php.net/" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">PHP, to be found under http://php.net/</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Apache</surname></persName>
+		</author>
+		<ptr target="https://httpd.apache.org" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Apache, to be found under https://httpd.apache.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<ptr target="https://biasmv.github.io/pv" />
+		<title level="m">PV protein viewer, to be found under</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">PV protein viewer, to be found under https://biasmv.github.io/pv</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

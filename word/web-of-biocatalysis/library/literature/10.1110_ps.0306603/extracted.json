@@ -1,0 +1,168 @@
+{
+  "summary": "The study evaluates the SCHEMA algorithm's ability to predict functional protein chimeras by measuring disruption based on broken residue-residue contacts. Chimeras with lower disruption scores are more likely to retain functionality.",
+  "key_claims": [
+    "Chimeras with low E have a higher probability of maintaining lactamase function compared to randomly chosen ones.",
+    "The SCHEMA algorithm predicts recombination sites by identifying fragments with minimal disruption."
+  ],
+  "process_signals": [
+    {
+      "name": "disruption",
+      "value": "26",
+      "unit": "",
+      "context": "maximum E value for functional chimeras"
+    },
+    {
+      "name": "percentage_of_functional_clones",
+      "value": "decreases exponentially",
+      "unit": "",
+      "context": "with increasing calculated disruption"
+    }
+  ],
+  "entities": {
+    "enzymes": [],
+    "reaction_types": [],
+    "immobilization": [],
+    "media": [],
+    "reactor": []
+  },
+  "confidence": 0.8,
+  "_refs": [
+    {
+      "doi": "",
+      "title": "Advances in protein chemistry",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "Combinatorial and computational challenges for biocatalyst design",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "Elements of statistics II: Inferential statistics",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "DNA shuffling of a family of genes from diverse species accelerates directed evolution",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Degenerate oligonucleotide gene shuffling (DOGS): A method for enhancing the frequency of recombination with family shuffling",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "SWISS-MODEL and the Swiss-PdbViewer: An environment for comparative protein modeling",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Engineering hybrid genes without the use of restriction enzymes: Gene splicing by overlap extension",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "Crystal structure of Escherichia coli TEM1 ␤-lactamase at 1.8 Å resolution",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "Analysis of shuffled gene libraries",
+      "year": 2002
+    },
+    {
+      "doi": "",
+      "title": "Insights into the molecular basis for the carbenicillinase activity of PSE-4 ␤-lactamase from crystallographic and kinetic studies",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "Creating multiple-crossover DNA libraries independent of sequence identity",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "Catalytic properties of class A ␤-lactamases: Efficiency and diversity",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Analysis of shuffled libraries by oligonucleotide probe hybridization",
+      "year": 2003
+    },
+    {
+      "doi": "",
+      "title": "Protein evolution by molecular breeding",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Strategies for the in vitro evolution of protein function: Enzyme evolution by random recombination of improved sequences",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Structure-based combinatorial protein engineering (SCOPE)",
+      "year": 2002
+    },
+    {
+      "doi": "",
+      "title": "Evolution of protein function by domain swapping",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "A combinatorial approach to hybrid enzymes independent of DNA homology",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Characterization of a PSE-4 mutant with different properties in relation to penicillanic acid sulfones: Importance of residues 216 to 218 in class A ␤-lactamases",
+      "year": 1998
+    },
+    {
+      "doi": "",
+      "title": "Structure-function analysis of ␣-helix H4 using PSE-4 as a model enzyme representative of class A ␤-lactamases",
+      "year": 2000
+    },
+    {
+      "doi": "",
+      "title": "Libraries of hybrid proteins from distantly related sequences",
+      "year": 2001
+    },
+    {
+      "doi": "",
+      "title": "Modular retro-vectors for transgenic and therapeutic use",
+      "year": 2000
+    },
+    {
+      "doi": "",
+      "title": "DNA shuffling by random fragmentation and reassembly: In vitro recombination for molecular evolution",
+      "year": 1994
+    },
+    {
+      "doi": "",
+      "title": "Rapid evolution of a protein in vitro by DNA shuffling",
+      "year": 1994
+    },
+    {
+      "doi": "",
+      "title": "Protein building blocks preserved by recombination",
+      "year": 2002
+    },
+    {
+      "doi": "",
+      "title": "Recombination and chimeragenesis by in vitro heteroduplex formation and in vivo repair",
+      "year": 1999
+    },
+    {
+      "doi": "",
+      "title": "Molecular evolution by staggered extension process (StEP) in vitro recombination",
+      "year": 1998
+    }
+  ],
+  "_title": "Library analysis of SCHEMA‐guided protein recombination",
+  "_abstract": "The computational algorithm SCHEMA was developed to estimate the disruption caused when amino acid residues that interact in the three-dimensional structure of a protein are inherited from different parents upon recombination. To evaluate how well SCHEMA predicts disruption, we have shuffled the distantly-related ␤-lactamases PSE-4 and TEM-1 at 13 sites to create a library of 2 14 (16,384) chimeras and examined which ones retain lactamase function. Sequencing the genes from ampicillin-selected clones revealed that the percentage of functional clones decreased exponentially with increasing calculated disruption (E ‫ס‬ the number of residue-residue contacts that are broken upon recombination). We also found that chimeras with low E have a higher probability of maintaining lactamase function than chimeras with the same effective level of mutation but chosen at random from the library. Thus, the simple distance metric used by SCHEMA to identify interactions and compute E allows one to pred"
+}

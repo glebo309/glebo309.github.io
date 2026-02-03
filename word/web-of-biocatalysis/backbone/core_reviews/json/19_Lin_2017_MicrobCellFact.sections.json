@@ -1,0 +1,990 @@
+{
+  "review_id": "19_Lin_2017_MicrobCellFact",
+  "sections": [
+    {
+      "header": "Background",
+      "raw_header": "Background",
+      "text": "Developing sustainable bio-based processes for production of fuels, chemicals, and materials is increasingly attractive due to increased concern for the environment. Chemical synthesis processes are generally high-yield, however they are often environmentally unfriendly and are associated with the production of unwanted byproducts, thus reducing efficiency and increasing downstream costs. In comparison with chemical catalysis, whole-cell biocatalysis offer some unique advantages (Table 1) and provides an efficient and environmentally friendly alternative to traditional chemical synthesis for production of bulk and fine chemicals [1,2]. In the past several decades, many biocatalytic processes have been implemented to produce a wide variety of products in various industries [3,4]. The most important advantage of a biocatalyst is its high selectivity. The high selectivity, including regio-, chemo-, diastereo-and enantioselectivity, is very desirable in chemical synthesis and produces benefits such as reduced (or zero) use of protecting groups, minimized side reactions, easier separation of products, and fewer environmental problems [5]. Other advantages such as multi-step reactions in single strain with cofactor regeneration; high catalytic efficiency and mild conditions are also very attractive in commercial applications. In some cases, such as the asymmetric synthesis of chiral target compounds or the synthesis of some sophisticated chemicals, generating the desired products by traditional chemical means is challenging, and biotransformations can be the solution to these challenges. In addition, according to the FDA and European legislation, products obtained by biotechnological methods can also be considered natural, if the substrate for the process is of natural origin [6]. The label of natural is important for the profitability of bioprocess produced products. For example, 2-phenylethanol (2-PE) obtained by chemical synthesis from benzene or styrene is of a price about US$5/kg. However, natural 2-PE is about US$ 1000/kg [7]. By far, 20.4-26.5 g/L 2-PE (space-time yields of 0.3 g/L/h) can be achieved in bioprocess [8,9]. The yield of bioprocess may be not as high as chemical synthesis (yield >98%) [10]. The label of \"natural\" and difference in price of a natural compound and its chemically synthesized counterpart can be considerable. Therefore, whole-cell bioprocess holds promise to be the commercially viable route to produce compounds that used in food, beverages, and cosmetics field. The most common drawbacks of biocatalysts include the presence of substrate or product inhibition, the presence of metabolic by-products, and the membrane acting as a mass transport barrier. A biocatalyst can be tailored with protein engineering and metabolic engineering methods to cope with these constraints. Nonetheless, conventional chemical synthesis still remains the staple of the chemical and pharmaceutical industries by far. The most important reason for industry to not shift to bio-based production of chemicals is its higher production cost. A multi-pronged approach to constructing efficient wholecell biocatalysts and improved production processes would be required. Whole-cell catalysis approaches can broadly be classified into biotransformation (biocatalysis) and fermentation bioprocesses. In fermentations, the products are synthesized from growth substrates via the host cells' native metabolism and are accompanied in the fermentation broth by metabolic intermediates that make downstream processing complicated [11,12]. In biotransformations, cell growth (the enzyme manufacturing phase) and production phase are separated. Substrates are converted to the desired products by resting cells [3,13]. The key advantages of whole-cell biocatalysis are its abilities to use cheap and abundant raw materials and to catalyse multistep reactions. Gehring et al. reported the synthesis of rhamnolipids from the cheap raw material butane using a tailored whole-cell biocatalyst. The AlkBGT system from Pseudomonas putida (for butane activation) and the RhlABC system from Pseudomonas aeruginosa (for rhamnolipid assembly) were integrated into the cell strain to result in rhamnolipid biosynthesis that used butane as the sole carbon and energy source. This approach represents a one-pot convergent total synthesis with more than 25 steps [14]. Whole-cell biocatalysts that include active enzymes or pathways make the time-consuming and material-intensive enzyme purification process more efficient. In addition to this upstream simplification, downstream processing can also be simplified, further decreasing environmental and economic costs [13]. In an economic evaluation of a process, the cost of the product is considered. The cost of a product (US$/kg) = A + B/Yield + C/Pv, where A is the capital cost, B is the raw material cost and C is the operating cost. Here, Pv is the volumetric productivity in the unit of g/L/h. Cheap raw materials, efficient bioconversion, and the ability to reuse the biocatalyst many times reduce the cost of product and make whole-cell biocatalysis very cost-competitive with fermentation [12,[15][16][17][18][19]. Efficient whole-cell biocatalysts are very important for an economically feasible biocatalysis process with optimal titre, yield and productivity. The principles for designing whole-cell biocatalysts for bioconversions are quite different from those for designing the microbial cell factories that are used in fermentations [15][16][17][18][19]. Single or multiple enzymes, depending on the complexity of the synthetic pathway that produces the target products from the feedstock, need to be introduced into host cells to construct whole-cell biocatalysts for the production of value-added chemicals. It is important to consider whole cells, in their entirety, as catalysts and not only focus on the individual active enzymes to fully exploit the synthetic potential of microbial biocatalysts. Maximizing the flux through a synthetic pathway plays a pivotal role in obtaining the best volumetric productivity of a bioconversion, which thus lowers the production cost of the targeted chemicals. The emerging tools of synthetic biology, integrated with comprehensive omics data, facilitate metabolic engineering of microbial cells at an unprecedented level, holding promise for the development of a balanced, stable, productive, and efficient whole-cell workhorse platform [20,21]. Escherichia coli is perhaps the most widely used microbial platform for cell factories. This dominance is largely because of its well-studied genetic background, a mature and powerful genetic toolset for metabolic engineering,",
+      "snippet": "Developing sustainable bio-based processes for production of fuels, chemicals, and materials is increasingly attractive due to increased concern for the environment. Chemical synthesis processes are generally high-yield, however they are often environmentally unfriendly and are associated with the production of unwanted byproducts, thus reducing efficiency and increasing downstream costs. In comparison with chemical catalysis, whole-cell biocatalysis offer some unique advantages (Table 1) and provides an efficient and environmentally friendly alternative to traditional chemical synthesis for production of bulk and fine chemicals [1,2]. In the past several decades, many biocatalytic processes have been implemented to produce a wide variety of products in various industries [3,4]. The most important advantage of a biocatalyst is its high selectivity. The high selectivity, including regio-, chemo-, diastereo-and enantioselectivity, is very desirable in chemical synthesis and produces benefits such as reduced (or zero) use of protecting groups, minimized side reactions, easier separation of products, and fewer environmental problems [5]. Other advantages such as multi-step reactions in single strain with cofactor regeneration; high catalytic efficiency and mild conditions are also very attractive in commercial applications. In some cases, such as the asymmetric synthesis of chiral target compounds or the synthesis of some sophisticated chemicals, generating the desired products b…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[1,",
+          "target_xml_id": "b0"
+        },
+        {
+          "ref_marker": "2]",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[3,",
+          "target_xml_id": "b2"
+        },
+        {
+          "ref_marker": "4]",
+          "target_xml_id": "b3"
+        },
+        {
+          "ref_marker": "[5]",
+          "target_xml_id": "b4"
+        },
+        {
+          "ref_marker": "[6]",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "[7]",
+          "target_xml_id": "b6"
+        },
+        {
+          "ref_marker": "[8,",
+          "target_xml_id": "b7"
+        },
+        {
+          "ref_marker": "9]",
+          "target_xml_id": "b8"
+        },
+        {
+          "ref_marker": "[10]",
+          "target_xml_id": "b9"
+        },
+        {
+          "ref_marker": "[11,",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "12]",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[3,",
+          "target_xml_id": "b2"
+        },
+        {
+          "ref_marker": "13]",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "[14]",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "[13]",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "[12,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[15]",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[17]",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "[18]",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "[19]",
+          "target_xml_id": "b18"
+        },
+        {
+          "ref_marker": "[15]",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[17]",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "[18]",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "[19]",
+          "target_xml_id": "b18"
+        },
+        {
+          "ref_marker": "[20,",
+          "target_xml_id": "b19"
+        },
+        {
+          "ref_marker": "21]",
+          "target_xml_id": "b20"
+        }
+      ]
+    },
+    {
+      "header": "Table 1 Advantages and disadvantages of whole-cell biocatalysis in comparison with chemical catalysis",
+      "raw_header": "Table 1 Advantages and disadvantages of whole-cell biocatalysis in comparison with chemical catalysis",
+      "text": "Table 1 Advantages and disadvantages of whole-cell biocatalysis in comparison with chemical catalysis",
+      "snippet": "Table 1 Advantages and disadvantages of whole-cell biocatalysis in comparison with chemical catalysis",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Advantages Disadvantages",
+      "raw_header": "Advantages Disadvantages",
+      "text": "High selectivity (which can be chiral, positional, and functional group-specific) Catalyst stability: biocatalyst is susceptible to substrate or product inhibition; inactivation may occur at high temperatures, at extremes of pH, or in organic solvents",
+      "snippet": "High selectivity (which can be chiral, positional, and functional group-specific) Catalyst stability: biocatalyst is susceptible to substrate or product inhibition; inactivation may occur at high temperatures, at extremes of pH, or in organic solvents",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "High catalytic efficiency",
+      "raw_header": "High catalytic efficiency",
+      "text": "The cell membrane may act as a mass transport barrier Multi-step reactions in single strain with cofactor regeneration Much more likely to have undesirable metabolic by-products, which may be toxic to the cells and difficult to separate Recycling is sometimes possible Milder operational conditions Environmentally friendly and relatively well-developed fermentation processes with low-cost raw materials [12,13,16]. Whole-cell biocatalysis has even been implemented by coupling two recombinant strains [22][23][24]. The catalytic efficiency of such processes is low due to high mass transfer resistance, and the processes are generally too complex for use on an industrial scale [25,26]. Assembling the synthetic pathways in a single strain reduces the mass transfer problem by avoiding the transfer of intermediates and thus greatly simplifies the operation [16,27]. Whole-cell biocatalysis using engineered E. coli seems to be the most promising method and offers the potential for largescale and low-cost production. Consequently, this review focuses on whole-cell biocatalysis using microbial cell factories based on E. coli. Biocatalysis using a single strain as the sole catalytic unit can offer a broad scope of substrates that is not limited to natural pathways and thus opens the door to versatile multistep biocatalysis. Additionally, whole-cell biocatalysts can be rationally designed and readily tailored to their specific applications. In this review, we summarize the different strategies and efforts that have been used in designing and optimizing various whole-cell biocatalysts to convert cheap feedstocks to value-added chemicals.",
+      "snippet": "The cell membrane may act as a mass transport barrier Multi-step reactions in single strain with cofactor regeneration Much more likely to have undesirable metabolic by-products, which may be toxic to the cells and difficult to separate Recycling is sometimes possible Milder operational conditions Environmentally friendly and relatively well-developed fermentation processes with low-cost raw materials [12,13,16]. Whole-cell biocatalysis has even been implemented by coupling two recombinant strains [22][23][24]. The catalytic efficiency of such processes is low due to high mass transfer resistance, and the processes are generally too complex for use on an industrial scale [25,26]. Assembling the synthetic pathways in a single strain reduces the mass transfer problem by avoiding the transfer of intermediates and thus greatly simplifies the operation [16,27]. Whole-cell biocatalysis using engineered E. coli seems to be the most promising method and offers the potential for largescale and low-cost production. Consequently, this review focuses on whole-cell biocatalysis using microbial cell factories based on E. coli. Biocatalysis using a single strain as the sole catalytic unit can offer a broad scope of substrates that is not limited to natural pathways and thus opens the door to versatile multistep biocatalysis. Additionally, whole-cell biocatalysts can be rationally designed and readily tailored to their specific applications. In this review, we summarize the different strateg…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[12,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "13,",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[22]",
+          "target_xml_id": "b21"
+        },
+        {
+          "ref_marker": "[23]",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "[24]",
+          "target_xml_id": "b23"
+        },
+        {
+          "ref_marker": "[25,",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "26]",
+          "target_xml_id": "b25"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "27]",
+          "target_xml_id": "b26"
+        }
+      ]
+    },
+    {
+      "header": "Advantages of whole-cell biocatalysis",
+      "raw_header": "Advantages of whole-cell biocatalysis",
+      "text": "Advantages of whole-cell biocatalysis",
+      "snippet": "Advantages of whole-cell biocatalysis",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Efficiency",
+      "raw_header": "Efficiency",
+      "text": "Whole-cell biocatalysts allow for the facile implementation of enzymatic cascades that span multiple reactions, with an integrated supply of the myriad cofactors that are needed for such complex biotransformations [12]. This internal supply greatly simplifies cofactor regeneration and makes the addition of expensive external cofactors unnecessary. Furthermore, the presence and protective nature of the cellular envelope helps stabilize the enzymes and can enable enzyme applications under harsh reaction conditions [16,28]. Moreover, the close proximity of reactants and catalysts, as well as the inherent presence of what would otherwise be expensive external cofactors, greatly improves biocatalyst efficiency [12,28].",
+      "snippet": "Whole-cell biocatalysts allow for the facile implementation of enzymatic cascades that span multiple reactions, with an integrated supply of the myriad cofactors that are needed for such complex biotransformations [12]. This internal supply greatly simplifies cofactor regeneration and makes the addition of expensive external cofactors unnecessary. Furthermore, the presence and protective nature of the cellular envelope helps stabilize the enzymes and can enable enzyme applications under harsh reaction conditions [16,28]. Moreover, the close proximity of reactants and catalysts, as well as the inherent presence of what would otherwise be expensive external cofactors, greatly improves biocatalyst efficiency [12,28].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[12]",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "28]",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "[12,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "28]",
+          "target_xml_id": "b27"
+        }
+      ]
+    },
+    {
+      "header": "Catalyst cost",
+      "raw_header": "Catalyst cost",
+      "text": "As with any catalytic process, the cost and stability of the catalyst are highly relevant to its economical application in chemical manufacturing [2]. The use of whole cells circumvents the need for cell lysis and enzyme purification that is associated with biocatalysis with isolated enzymes and inherently greatly reduces the catalyst cost. No external cofactors are needed because the expensive cofactors can be supplied and regenerated by the cell, which also reduces the cost. Whole-cell biocatalysts are generally more readily prepared, the cost of fermentation is usually not prohibitive, and furthermore, the cells can often be used repeatedly [12,16]. Therefore, whole-cell biocatalysts have outstanding inherent cost advantages.",
+      "snippet": "As with any catalytic process, the cost and stability of the catalyst are highly relevant to its economical application in chemical manufacturing [2]. The use of whole cells circumvents the need for cell lysis and enzyme purification that is associated with biocatalysis with isolated enzymes and inherently greatly reduces the catalyst cost. No external cofactors are needed because the expensive cofactors can be supplied and regenerated by the cell, which also reduces the cost. Whole-cell biocatalysts are generally more readily prepared, the cost of fermentation is usually not prohibitive, and furthermore, the cells can often be used repeatedly [12,16]. Therefore, whole-cell biocatalysts have outstanding inherent cost advantages.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[2]",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[12,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "16]",
+          "target_xml_id": "b15"
+        }
+      ]
+    },
+    {
+      "header": "Downstream processing",
+      "raw_header": "Downstream processing",
+      "text": "Typical biotransformation processes comprise two stages: growth of the living \"catalyst\" and conversion of the substrate(s). After cells are cultured, they are harvested and washed with water or a buffer solution and suspended in the desired buffer for biocatalysis. When the cells are washed, unconsumed growth substrates and nutrients, as well as undesired metabolites that were produced during growth, are removed from the system, allowing significantly better product recovery rates and greatly simplifying downstream processing [28]. Furthermore, the removal of necessary nutrients arrests cell growth, and resting cells can produce higher yields from their carbon source since the available carbon and energy is overwhelmingly used for product synthesis instead of biomass production [13].",
+      "snippet": "Typical biotransformation processes comprise two stages: growth of the living \"catalyst\" and conversion of the substrate(s). After cells are cultured, they are harvested and washed with water or a buffer solution and suspended in the desired buffer for biocatalysis. When the cells are washed, unconsumed growth substrates and nutrients, as well as undesired metabolites that were produced during growth, are removed from the system, allowing significantly better product recovery rates and greatly simplifying downstream processing [28]. Furthermore, the removal of necessary nutrients arrests cell growth, and resting cells can produce higher yields from their carbon source since the available carbon and energy is overwhelmingly used for product synthesis instead of biomass production [13].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[28]",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "[13]",
+          "target_xml_id": "b12"
+        }
+      ]
+    },
+    {
+      "header": "Whole-cell biocatalyst design principles",
+      "raw_header": "Whole-cell biocatalyst design principles",
+      "text": "The construction of effective whole-cell biocatalysts requires that single or multiple enzymes are introduced into host cells to construct synthetic pathways for the conversion of the desired feedstocks into the targeted products. Metabolic engineering and synthetic biology efforts aim to enable rational design and construction of biosynthetic pathways that maximize the pathway flux to products by providing preoptimized chassis cells that enhance the production of target compounds. The strategies that are employed in the design and optimization of whole-cell biocatalysts are discussed below (Fig. 1).",
+      "snippet": "The construction of effective whole-cell biocatalysts requires that single or multiple enzymes are introduced into host cells to construct synthetic pathways for the conversion of the desired feedstocks into the targeted products. Metabolic engineering and synthetic biology efforts aim to enable rational design and construction of biosynthetic pathways that maximize the pathway flux to products by providing preoptimized chassis cells that enhance the production of target compounds. The strategies that are employed in the design and optimization of whole-cell biocatalysts are discussed below (Fig. 1).",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Design and construction of the biosynthetic pathways",
+      "raw_header": "Design and construction of the biosynthetic pathways",
+      "text": "Many new genes and pathways have been discovered with the recent advances in genomics, proteomics, and bioinformatics. The numerous potentially valuable enzymes and pathways that are present in nature are being identified at an increasing pace [2,12], and these enzymes and pathways may represent the most valuable resource for reconstructing synthetic pathways to produce specific molecules; their importance emphasizes the industrial and commercial need for continued funding for basic science. The identified pathways can be transferred to microbial hosts such as E. coli to generate heterologous biosynthesis pathways for the production of exogenous and non-natural molecules. Heterologous expression of genes from the designed pathway in E. coli can be controlled independent of the host's regulatory network [12,20], resulting in easy control of the product-forming pathway. Here, we describe the basic design principles recently used to construct single-and multistep biosynthesis pathways, including de novo biosynthetic pathways, of various chemicals.",
+      "snippet": "Many new genes and pathways have been discovered with the recent advances in genomics, proteomics, and bioinformatics. The numerous potentially valuable enzymes and pathways that are present in nature are being identified at an increasing pace [2,12], and these enzymes and pathways may represent the most valuable resource for reconstructing synthetic pathways to produce specific molecules; their importance emphasizes the industrial and commercial need for continued funding for basic science. The identified pathways can be transferred to microbial hosts such as E. coli to generate heterologous biosynthesis pathways for the production of exogenous and non-natural molecules. Heterologous expression of genes from the designed pathway in E. coli can be controlled independent of the host's regulatory network [12,20], resulting in easy control of the product-forming pathway. Here, we describe the basic design principles recently used to construct single-and multistep biosynthesis pathways, including de novo biosynthetic pathways, of various chemicals.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[2,",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "12]",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[12,",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "20]",
+          "target_xml_id": "b19"
+        }
+      ]
+    },
+    {
+      "header": "Single-step pathways",
+      "raw_header": "Single-step pathways",
+      "text": "Although whole-cell biocatalysis is primarily an alternative for in vitro multienzyme cascades, a number of successful and commercially viable whole-cell biocatalysts that use single-step reactions to produce fine chemicals exist [13,29]. For whole-cell biocatalysis via single-step \"pathways\", recombinant plasmid-based expression of the enzyme results in high expression levels (overexpression) and thus make large amounts of the recombinant enzyme available. Whole-cell biocatalysis for one-step synthesis is especially preferred to catalysis by the isolated enzyme when the enzyme is unstable in vitro or requires expensive co-substrates or cofactors [29,30]. In these cases, enzymes should be screened for high activity, efficient heterologous expression, and a method of blocking the catabolism of the substrate and product, if present in the host cells, as they are the most important issues to be considered. A whole-cell catalyst that expressed a novel esterase (EstK1) in E. coli produced cinnamyl acetate as a result of its high transesterification activity. The conversion ratio of cinnamyl alcohol reached 94.1% at 1 h and was even higher (97.1%) at 2 h [31]. For whole-cell biocatalysis of l-carnosine production, two enzymes (DmpA from Ochrobactrum anthropi and BapA from Sphingosinicella xenopeptidilytica 3-2W4) were screened. High yields of l-carnosine (up to 71%) were obtained by optimizing relevant reaction conditions for the best-performing recombinant strain (E. coli DmpA syn ). The biocatalyst had a high stability and could be used in at least five sequential batches. In another case, whole-cell biocatalysts for γ-aminobutyric acid (GABA) production were developed by overexpressing glutamate decarboxylase (GAD; EC 4.1.1.15). GADs from different species were expressed and screened, and the enzyme from Lactococcus lactis was chosen. The gene gadAB was subsequently deleted from the genome of the E. coli host to prevent the degradation of GABA. As a result, 614.15 g/L GABA was produced with a high molar yield (over 99%) [30]. In this case, the engineered whole-cell biocatalyst stabilizes the enzyme and reduces the degradation of the product under the reaction conditions. Proline-4-hydroxylase, which catalyses the biotransformation of l-proline to trans-4-hydroxy-l-proline (Hyp), is a 2-oxoglutarate (2-OG)-dependent oxygenase [32]. The proline-4-hydroxylase gene from Dactylosporangium sp. RH1 was overexpressed in a putA-deficient E. coli mutant that cannot degrade l-proline. The co-substrate 2-OG, an intermediate of the citric acid cycle, was supplied by glucose via the central carbon metabolism of the cells. Hyp was accumulated to a final concentration of 41 g/L with a productivity of 0.41 g/L/h [32]. In this case, using the recombinant strain as whole-cell biocatalyst avoided the extrinsic addition of the expensive co-substrate 2-OG. In whole-cell biocatalysis for 2-OG production, l-glutamate oxidase (LGOX) catalyzes the transformation of l-glutamic acid to 2-OG along with the production of NH 3 and H 2 O 2 . In order to remove H 2 O 2 , catalase was co-expressed with l-glutamate oxidase, which substantially enhanced the efficiency of 2-OG production. 77.4 g/L 2-OG with a conversion rate of 98.5% was obtained in 12 h [33].",
+      "snippet": "Although whole-cell biocatalysis is primarily an alternative for in vitro multienzyme cascades, a number of successful and commercially viable whole-cell biocatalysts that use single-step reactions to produce fine chemicals exist [13,29]. For whole-cell biocatalysis via single-step \"pathways\", recombinant plasmid-based expression of the enzyme results in high expression levels (overexpression) and thus make large amounts of the recombinant enzyme available. Whole-cell biocatalysis for one-step synthesis is especially preferred to catalysis by the isolated enzyme when the enzyme is unstable in vitro or requires expensive co-substrates or cofactors [29,30]. In these cases, enzymes should be screened for high activity, efficient heterologous expression, and a method of blocking the catabolism of the substrate and product, if present in the host cells, as they are the most important issues to be considered. A whole-cell catalyst that expressed a novel esterase (EstK1) in E. coli produced cinnamyl acetate as a result of its high transesterification activity. The conversion ratio of cinnamyl alcohol reached 94.1% at 1 h and was even higher (97.1%) at 2 h [31]. For whole-cell biocatalysis of l-carnosine production, two enzymes (DmpA from Ochrobactrum anthropi and BapA from Sphingosinicella xenopeptidilytica 3-2W4) were screened. High yields of l-carnosine (up to 71%) were obtained by optimizing relevant reaction conditions for the best-performing recombinant strain (E. coli DmpA syn…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[13,",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "29]",
+          "target_xml_id": "b28"
+        },
+        {
+          "ref_marker": "[29,",
+          "target_xml_id": "b28"
+        },
+        {
+          "ref_marker": "30]",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "[31]",
+          "target_xml_id": "b30"
+        },
+        {
+          "ref_marker": "[30]",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "[32]",
+          "target_xml_id": "b31"
+        },
+        {
+          "ref_marker": "[32]",
+          "target_xml_id": "b31"
+        },
+        {
+          "ref_marker": "[33]",
+          "target_xml_id": "b32"
+        }
+      ]
+    },
+    {
+      "header": "Multi-step biosynthesis pathways",
+      "raw_header": "Multi-step biosynthesis pathways",
+      "text": "In cases of complex multistep bioconversions, entire metabolic pathways can be transferred to the host from other organisms. The aromatic alcohol 2-phenylethanol (2-PE) is synthesized from l-phenylalanine (l-Phe) via the three-step Ehrlich pathway in yeast and via the phenylacetaldehyde synthase (PAAS) pathway in plants. The reconstitution of the Ehrlich pathway in E. coli introduced the enzymes that perform the necessary decarboxylation and reduction steps into the bacterial cells and resulted in 2-PE production. Approximately 96% of the final product was produced from l-phenylalanine (based on the initial 40 mM l-phenylalanine) using the recombinant E. coli [34]. In another case, a novel pathway that used the PAAS from Rosa hybrid, a pyridoxal 5′-phosphate (PLP)dependent enzyme and endogenous alcohol dehydrogenases was introduced into E. coli to produce 2-PE. This biotransformation, which was based only on internal de novo PLP synthesis, produced 0.34 g/L 2-PE [35,36]. The construction of de novo biosynthetic pathways denotes the assembly of genes from different nonrelated organisms to construct artificial pathways in the desired host. This approach enables retrosynthetic pathway design and opens the door to the development of unprecedented multistep biocatalysts. The seven-step metabolic pathway from glucose-6-p to N-acetyl-d-neuraminic acid (Neu5Ac) in bacteria has been identified. Although researchers have tried to metabolically engineer a corresponding E. coli strain, only 1.5 g/L Neu5Ac was obtained by fermentation [37]. In contrast, a de novo two-step biosynthetic pathway for Neu5Ac was designed and assembled in a single E. coli strain; this new pathway co-expressed GlcNAc 2-epimerase (EC 5.1.3.8, AGE) from cyanobacteria and Neu5Ac aldolase (EC 4.1.3.3, NanA) [16,38,39] or Neu5Ac synthase (EC 4.1.3.19, NeuB) from bacteria [23,25,40]. Whole-cell biocatalysts were developed for Neu5Ac production by assembling a heterologous biosynthetic pathway in E. coli. Ishikawa et al. constructed a recombinant E. coli N18-14 by overexpressing genes of GlcNAc 2-epimerase (slr1975) and neuB resulting in a yield of 53 g/L of Neu5Ac (2.41 g/L/h) after 22 h [25]. Recently, recombinant E. coli co-expressing slr1975 and nanA for Neu5Ac production was reported and Neu5Ac accumulated at 59 g/L after 36 h (1.64 g/L/h) [39] and 61.3 g/L in 60 h [38]. Recombinant E. coli consisting of AGE from Anabaena sp. PCC7120 and NanA from E. coli was used as whole-cell biocatalyst [16]. A yield of 74.2 g/L was achieved with a productivity of 6.2 g Neu5Ac/L/h. The engineered strain could be reused in at least five cycles with a productivity of >6 g/L/h [16]. Once a de novo engineered pathway has been designed and demonstrated, it can be integrated into existing platforms for secondary metabolite production in two different ways: (1) the de novo pathway can be extended by connecting it to other pathways, and (2) biocatalysts can be used to produce product derivatives by starting from chemically modified substrates. For example, Neu5Ac is the precursor of polysialic acid (PSA) and sialylated oligosaccharides. Thus, an enhanced Neu5Ac biosynthetic module can also improve production of PSA and sialylated oligosaccharides [41,42]. Whole-cell biocatalyst that was designed for Neu5Ac has been used to produce 11 Neu5Ac derivatives using chemically modified GlcNAc analogues as substrates [16,43]. The synthesis of optically pure secondary epoxy alcohols from racemic allylic alcohols using a whole-cell biocatalyst that is composed of recombinant E. coli co-expressing a styrene monooxygenase and two alcohol dehydrogenases was described by Liu et al. [44]. With the successful establishment of both the 2S and 2R systems for substrate (rac)-1a, this approach was extended to other substrates. As a result, excellent enantio-and diastereoselectivity were achieved for most of the 12 substrates [44]. Finally, it is conceivable that strains that improve production of a wide variety of derivatives can be obtained via protein engineering of the target enzymes.",
+      "snippet": "In cases of complex multistep bioconversions, entire metabolic pathways can be transferred to the host from other organisms. The aromatic alcohol 2-phenylethanol (2-PE) is synthesized from l-phenylalanine (l-Phe) via the three-step Ehrlich pathway in yeast and via the phenylacetaldehyde synthase (PAAS) pathway in plants. The reconstitution of the Ehrlich pathway in E. coli introduced the enzymes that perform the necessary decarboxylation and reduction steps into the bacterial cells and resulted in 2-PE production. Approximately 96% of the final product was produced from l-phenylalanine (based on the initial 40 mM l-phenylalanine) using the recombinant E. coli [34]. In another case, a novel pathway that used the PAAS from Rosa hybrid, a pyridoxal 5′-phosphate (PLP)dependent enzyme and endogenous alcohol dehydrogenases was introduced into E. coli to produce 2-PE. This biotransformation, which was based only on internal de novo PLP synthesis, produced 0.34 g/L 2-PE [35,36]. The construction of de novo biosynthetic pathways denotes the assembly of genes from different nonrelated organisms to construct artificial pathways in the desired host. This approach enables retrosynthetic pathway design and opens the door to the development of unprecedented multistep biocatalysts. The seven-step metabolic pathway from glucose-6-p to N-acetyl-d-neuraminic acid (Neu5Ac) in bacteria has been identified. Although researchers have tried to metabolically engineer a corresponding E. coli strain, o…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[34]",
+          "target_xml_id": "b33"
+        },
+        {
+          "ref_marker": "[35,",
+          "target_xml_id": "b34"
+        },
+        {
+          "ref_marker": "36]",
+          "target_xml_id": "b35"
+        },
+        {
+          "ref_marker": "[37]",
+          "target_xml_id": "b36"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "38,",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "39]",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "[23,",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "25,",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "40]",
+          "target_xml_id": "b39"
+        },
+        {
+          "ref_marker": "[25]",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "[39]",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "[38]",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[41,",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "42]",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "43]",
+          "target_xml_id": "b42"
+        },
+        {
+          "ref_marker": "[44]",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "[44]",
+          "target_xml_id": "b43"
+        }
+      ]
+    },
+    {
+      "header": "Improving whole-cell biocatalysts by metabolic engineering",
+      "raw_header": "Improving whole-cell biocatalysts by metabolic engineering",
+      "text": "The introduction or creation of biosynthetic pathways in microbial hosts has allowed the biocatalytic conversion of non-native chemicals. However, these pathways rarely function optimally when first introduced into the host organism, resulting in suboptimal yields of the desired product [45]. Thus, systematic optimization by metabolic engineering of both the specific pathways and the overall cellular chassis of the microbial cell factory is essential to enhance the biosynthesis of the target compound. In this section, we discuss the attempts at pathway flux maximization and chassis optimization using metabolic engineering. The strategies that were used to improve the engineered biosynthetic pathways included the identification of rate-controlling steps and relieving of bottlenecks, pathway balancing to eliminate the accumulation of toxic intermediates or by-products, and the maximization of the pathway's flux towards the product by, for example, blocking competing pathways, enhancing the supply of precursors and co-substrates, and improving the balance of cofactors [2,[11][12][13]46]. Metabolic engineering of the chassis is also necessary and may involve, among other approaches, increasing the cell's uptake of substrates, reducing substrate and product degradation and enhancing product transport [2,11,46].",
+      "snippet": "The introduction or creation of biosynthetic pathways in microbial hosts has allowed the biocatalytic conversion of non-native chemicals. However, these pathways rarely function optimally when first introduced into the host organism, resulting in suboptimal yields of the desired product [45]. Thus, systematic optimization by metabolic engineering of both the specific pathways and the overall cellular chassis of the microbial cell factory is essential to enhance the biosynthesis of the target compound. In this section, we discuss the attempts at pathway flux maximization and chassis optimization using metabolic engineering. The strategies that were used to improve the engineered biosynthetic pathways included the identification of rate-controlling steps and relieving of bottlenecks, pathway balancing to eliminate the accumulation of toxic intermediates or by-products, and the maximization of the pathway's flux towards the product by, for example, blocking competing pathways, enhancing the supply of precursors and co-substrates, and improving the balance of cofactors [2,[11][12][13]46]. Metabolic engineering of the chassis is also necessary and may involve, among other approaches, increasing the cell's uptake of substrates, reducing substrate and product degradation and enhancing product transport [2,11,46].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[45]",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "[2,",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[11]",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "[12]",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "[13]",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "46]",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "[2,",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "11,",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "46]",
+          "target_xml_id": "b45"
+        }
+      ]
+    },
+    {
+      "header": "Identification and relief of bottlenecks",
+      "raw_header": "Identification and relief of bottlenecks",
+      "text": "Expression of foreign pathways often results in suboptimal performance due to unintended factors such as introduction of toxic metabolites or poor expression of pathway components [45]. The identification of ratecontrolling steps is particularly important in pathway optimization. Once the bottleneck of the pathway is identified, its limiting power can be reduced by improving the expression of rate-controlling enzymes, substituting ratecontrolling enzymes with a higher activity from other species, and modifying the enzymes by protein engineering [16,45,47]. Enhancing the expression of the ratecontrolling enzyme is usually the easiest change to enact. A whole-cell biocatalyst for Neu5Ac production was developed by assembling a heterologous biosynthetic pathway in E. coli that consisted of AGE and NanA. NanA was identified to be the rate-controlling enzyme of the engineered pathway. Efforts had been made to alleviate the NanA bottleneck by manipulating the amount of the recombinant enzyme. When the expression of NanA increased, a nine-fold increase in Neu5Ac production was achieved [16]. For the biosynthesis of polysialic acid (PSA), N-acetylneuraminate (Neu5Ac), 7-O (or 9-O)-acetyltransferase (NeuD), CMP-Neu5Ac synthetase (NeuA) and alpha-Neu5Ac alpha-2,8-sialyltransferase (NeuS) were required [48]. Overexpressing the key enzyme NeuD resulted in a threefold increase in PSA production relative to that in the parent strain [15].",
+      "snippet": "Expression of foreign pathways often results in suboptimal performance due to unintended factors such as introduction of toxic metabolites or poor expression of pathway components [45]. The identification of ratecontrolling steps is particularly important in pathway optimization. Once the bottleneck of the pathway is identified, its limiting power can be reduced by improving the expression of rate-controlling enzymes, substituting ratecontrolling enzymes with a higher activity from other species, and modifying the enzymes by protein engineering [16,45,47]. Enhancing the expression of the ratecontrolling enzyme is usually the easiest change to enact. A whole-cell biocatalyst for Neu5Ac production was developed by assembling a heterologous biosynthetic pathway in E. coli that consisted of AGE and NanA. NanA was identified to be the rate-controlling enzyme of the engineered pathway. Efforts had been made to alleviate the NanA bottleneck by manipulating the amount of the recombinant enzyme. When the expression of NanA increased, a nine-fold increase in Neu5Ac production was achieved [16]. For the biosynthesis of polysialic acid (PSA), N-acetylneuraminate (Neu5Ac), 7-O (or 9-O)-acetyltransferase (NeuD), CMP-Neu5Ac synthetase (NeuA) and alpha-Neu5Ac alpha-2,8-sialyltransferase (NeuS) were required [48]. Overexpressing the key enzyme NeuD resulted in a threefold increase in PSA production relative to that in the parent strain [15].",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[45]",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "45,",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "47]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "[48]",
+          "target_xml_id": "b47"
+        },
+        {
+          "ref_marker": "[15]",
+          "target_xml_id": "b14"
+        }
+      ]
+    },
+    {
+      "header": "Pathway balance to maximize flux towards the product",
+      "raw_header": "Pathway balance to maximize flux towards the product",
+      "text": "Imbalances in pathway gene expression can lead to the accumulation of toxic intermediates or by-products, and the resulting metabolic burden on the host cells leads to suboptimal performance [47]. Targeted modifications on the gene level can optimize expression levels through codon usage, promoter and RBS optimization, the use of alternative genes, and the use of enzymes from other species [45,49]. Maximizing the flux of a synthetic pathway plays a pivotal role in obtaining the best volumetric productivity of a bioconversion and thus lowering the production cost of the targeted chemicals. A very illustrative example of these approaches is the optimization of the mevalonic acid (MVA) pathway to enhance isoprenoid production. The strategies aimed to balance the pathways and eliminate the accumulation of toxic intermediates in addition to maximizing the flux towards the product. A mevalonate-based isopentenyl pyrophosphate biosynthesis pathway (MVA) was introduced into an E. coli strain to produce large quantities of isoprenoids [47,50,51]. The MVA pathway was introduced into E. coli in the form of two synthetic operons, an \"upper pathway\" that converted acetyl-CoA to MVA and a \"lower pathway\" that produced dimethylallyl diphosphate (DMAPP) from MVA, that were a combination of bacterial and yeast enzymes [49,52]. The upper pathway comprises two genes (MvaE and MvaS) from Enterococcus faecalis, while the lower pathway comprises the MVK, PMK, MVD, and IDI enzymes from Saccharomyces cerevisiae and Methanosarcina mazei [52]. The isoprene synthetic pathway was introduced by expressing the isoprene synthase IspS. Subsequently, the upper pathway was optimized by regulating the expression of the key enzyme (MvaE) via the incorporation of rare codons, and the lower pathway was enhanced by overexpressing the rate-controlling enzyme MVK [47]. Additionally, the upper pathway flux was regulated by origin replacement, and the lower pathway was integrated into the chromosome, effectively balancing the two pathways [47,51,53]. Metabolite analysis revealed that the accumulation of intermediates was eliminated by combining these multiple strategies, demonstrating that the pathway was balanced. As a result, the growth inhibition caused by the toxic intermediate mevalonate was relieved, and the lycopene yield increased [47,51,53]. Due to rapid advances in synthetic biology research, efficient techniques for the combinatorial assembly of large numbers of genes, operons and pathways are becoming readily available [54]. DNA assembly methods such as Gibson, Golden Gate, and randomized BioBrick assembly have been developed to enable easy construction of combinatorial libraries for the optimization of metabolic pathways. Recently, a DNA assembly method named oligo-linker mediated assembly (OLMA) was developed to simultaneously optimize multiple targets of a pathway [55]. This approach was used to fine-tune the lycopene synthetic pathway. The crtEBI genes from different species including Pantoea ananatis, Pantoea agglomerans, Pantoea vagans and Rhodobacter sphaeroides in combination with the host's native IDI were assembled in E. coli to construct the basic lycopene synthesis pathway. The pathway in the library was varied by recombining four RBS targets and the crtEBI genes from different species and by varying the gene order. Strikingly, all of this variation was implemented in a single assembly step using the OLMA method. The library was subsequently directly analysed for lycopene production, and the enzymes of the lycopene synthesis pathway and their expression levels were optimized to result in a striking increase in yield from 0.14 to 15.17 mg/g DCW [55].",
+      "snippet": "Imbalances in pathway gene expression can lead to the accumulation of toxic intermediates or by-products, and the resulting metabolic burden on the host cells leads to suboptimal performance [47]. Targeted modifications on the gene level can optimize expression levels through codon usage, promoter and RBS optimization, the use of alternative genes, and the use of enzymes from other species [45,49]. Maximizing the flux of a synthetic pathway plays a pivotal role in obtaining the best volumetric productivity of a bioconversion and thus lowering the production cost of the targeted chemicals. A very illustrative example of these approaches is the optimization of the mevalonic acid (MVA) pathway to enhance isoprenoid production. The strategies aimed to balance the pathways and eliminate the accumulation of toxic intermediates in addition to maximizing the flux towards the product. A mevalonate-based isopentenyl pyrophosphate biosynthesis pathway (MVA) was introduced into an E. coli strain to produce large quantities of isoprenoids [47,50,51]. The MVA pathway was introduced into E. coli in the form of two synthetic operons, an \"upper pathway\" that converted acetyl-CoA to MVA and a \"lower pathway\" that produced dimethylallyl diphosphate (DMAPP) from MVA, that were a combination of bacterial and yeast enzymes [49,52]. The upper pathway comprises two genes (MvaE and MvaS) from Enterococcus faecalis, while the lower pathway comprises the MVK, PMK, MVD, and IDI enzymes from Saccharomyce…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[47]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "[45,",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "49]",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "[47,",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "50,",
+          "target_xml_id": "b49"
+        },
+        {
+          "ref_marker": "51]",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "[49,",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "52]",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "[52]",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "[47]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "[47,",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "51,",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "53]",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "[47,",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "51,",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "53]",
+          "target_xml_id": "b52"
+        },
+        {
+          "ref_marker": "[54]",
+          "target_xml_id": "b53"
+        },
+        {
+          "ref_marker": "[55]",
+          "target_xml_id": "b54"
+        },
+        {
+          "ref_marker": "[55]",
+          "target_xml_id": "b54"
+        }
+      ]
+    },
+    {
+      "header": "Blocking competing pathways",
+      "raw_header": "Blocking competing pathways",
+      "text": "Blocking the competing pathways that drain substrates and intermediates prevents their diversion from the desired biosynthesis pathway and usually increases the flux and final titre of the product, as expected. The removal of the nanA and nanT genes that encode the Neu5Ac aldolase and Neu5Ac transporter, respectively, abolished sialic acid catabolism, while knocking out the nanK (encoding the Neu5Ac transporter) and nanA genes prevented ManNAc and Neu5Ac from being diverted from the biosynthetic pathway [37,42]. When the nanTEK genes of engineered E. coli were knocked out, Neu5Ac production was enhanced threefold, resulting in 173.8 mM Neu5Ac [16]. The combination of blocking Neu5Ac uptake and preventing the diversion of ManNAc from the desired biosynthetic pathway pushed the two reversible reactions towards the synthesis of Neu5Ac, which synergistically resulted in the production of a large amount of Neu5Ac.",
+      "snippet": "Blocking the competing pathways that drain substrates and intermediates prevents their diversion from the desired biosynthesis pathway and usually increases the flux and final titre of the product, as expected. The removal of the nanA and nanT genes that encode the Neu5Ac aldolase and Neu5Ac transporter, respectively, abolished sialic acid catabolism, while knocking out the nanK (encoding the Neu5Ac transporter) and nanA genes prevented ManNAc and Neu5Ac from being diverted from the biosynthetic pathway [37,42]. When the nanTEK genes of engineered E. coli were knocked out, Neu5Ac production was enhanced threefold, resulting in 173.8 mM Neu5Ac [16]. The combination of blocking Neu5Ac uptake and preventing the diversion of ManNAc from the desired biosynthetic pathway pushed the two reversible reactions towards the synthesis of Neu5Ac, which synergistically resulted in the production of a large amount of Neu5Ac.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[37,",
+          "target_xml_id": "b36"
+        },
+        {
+          "ref_marker": "42]",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "[16]",
+          "target_xml_id": "b15"
+        }
+      ]
+    },
+    {
+      "header": "Improving the precursor supply",
+      "raw_header": "Improving the precursor supply",
+      "text": "In engineered strains, bioconversion efficiency is determined not only by metabolic flux but also by the efficient turnover of precursors [55]. When a heterologous pathway is introduced into a production host, the pathway will unavoidably compete with the native metabolism for common precursors. Consequently, elevating the levels of important precursors by redirecting the corresponding fluxes can be an efficient strategy to enhance production of target compounds. For 2-C-methyl-d-erythritol 4-phosphate (MEP)dependent carotenoid biosynthesis, an imbalanced supply of glyceraldehyde 3-phosphate (G3P) and pyruvate precursors is one of the major metabolic bottlenecks, especially considering the limit of the G3P precursor's availability. Systematic modification of targets within central metabolic pathways was conducted to promote the redistribution of metabolic fluxes towards MEPdependent carotenoid biosynthesis. The flux to the EMP pathway was rewired towards the ED/PP pathways by knocking out phosphoglucose isomerase (PGI). Tweaking the flux at the branch point between ED and PP by overexpressing eda and fine-tuning gnd expression in a PGI-deficient strain (Δpgi) improved the G3P/Pyr supply and rebalanced precursor availability, which relieved the bottleneck. Further improvements in DXS expression led to efficient use of G3P and pyruvate in the MEP pathway and significantly increased productivity [55]. Thus, the established flux distribution resulted in an efficient supply and optimal ratio of precursors, resulting in a stable balance between carotenoid biosynthesis and cell growth that yielded optimal overall productivity.",
+      "snippet": "In engineered strains, bioconversion efficiency is determined not only by metabolic flux but also by the efficient turnover of precursors [55]. When a heterologous pathway is introduced into a production host, the pathway will unavoidably compete with the native metabolism for common precursors. Consequently, elevating the levels of important precursors by redirecting the corresponding fluxes can be an efficient strategy to enhance production of target compounds. For 2-C-methyl-d-erythritol 4-phosphate (MEP)dependent carotenoid biosynthesis, an imbalanced supply of glyceraldehyde 3-phosphate (G3P) and pyruvate precursors is one of the major metabolic bottlenecks, especially considering the limit of the G3P precursor's availability. Systematic modification of targets within central metabolic pathways was conducted to promote the redistribution of metabolic fluxes towards MEPdependent carotenoid biosynthesis. The flux to the EMP pathway was rewired towards the ED/PP pathways by knocking out phosphoglucose isomerase (PGI). Tweaking the flux at the branch point between ED and PP by overexpressing eda and fine-tuning gnd expression in a PGI-deficient strain (Δpgi) improved the G3P/Pyr supply and rebalanced precursor availability, which relieved the bottleneck. Further improvements in DXS expression led to efficient use of G3P and pyruvate in the MEP pathway and significantly increased productivity [55]. Thus, the established flux distribution resulted in an efficient supply and op…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[55]",
+          "target_xml_id": "b54"
+        },
+        {
+          "ref_marker": "[55]",
+          "target_xml_id": "b54"
+        }
+      ]
+    },
+    {
+      "header": "Engineering cofactor or co-substrate balance",
+      "raw_header": "Engineering cofactor or co-substrate balance",
+      "text": "A whole-cell biocatalyst is usually preferred for cofactor-dependent reactions since the inherent presence of cofactors that are generated by the host cell and the ease of their recycling greatly improve the economics of the process [2]. In cells, the cofactors, such as nicotinamide, 2-oxoglutarate, acetyl-CoA and ATP, are mainly used in glycolysis and the citric acid cycle and are present at low concentrations. Cofactor supply and regeneration may be limited if the target biosynthetic reaction is rapid. Therefore, metabolic engineering to increase cofactor supply and regeneration is necessary. Cofactor recycling is key not only to lowering the cost of a process but also to driving the reaction of interest to completion. Increased cofactor regeneration is traditionally accomplished using an in situ regeneration reaction (Fig. 2a). For oxidoreductase-catalysed reactions that depend on nicotinamide cofactors, cofactor recycling in whole-cell biocatalysts is achieved by cascading the reaction with a dehydrogenase and thus coupling the recycling of the nicotinamide cofactor to the conversion of a sacrificial co-substrate by formate dehydrogenase, glucose dehydrogenase, alcohol dehydrogenase, phosphite dehydrogenase or hydrogenase [56][57][58][59]. The dehydrogenases that are most commonly exploited for the recycling of NAD(P)H are formate dehydrogenase and glucose dehydrogenase, which obtain reduction equivalents by enzymatically oxidizing the sacrificial substrates formate and glucose, respectively [60,61]. Recently, a self-sufficient redox system that utilizes the direct coupling of oxidizing and reducing enzymatic reactions has been developed [59,[62][63][64]. Thus, neither additional substrate nor another regenerating enzyme is required for this type of recycling reaction. This elegant method is applicable in special cases only, but increasing numbers of examples have been reported in the last few years [59,[62][63][64]. Cascading alcohol oxidation and l-alanine-dependent transamination with an l-alanine dehydrogenase enabled the self-sufficient redox conversion of alcohols to the corresponding amines (Fig. 2b) [62,63]. Efficient self-sufficient redox amination of aliphatic and aromatic (di)alcohols was achieved in vivo so that the addition of the (very expensive) transaminase cofactor pyridoxal phosphate and the alcohol dehydrogenase cofactor NAD + was not necessary to obtain complete conversion [62,63]. Recently, Mutti et al. designed an elegant self-sufficient in vitro redox system that converted alcohols to amines using alcohol dehydrogenase (ADH) and amine dehydrogenase (AmDH) (Fig. 2c), which operated in tandem while hydrogen was shuttled by a nicotinamide coenzyme. This self-sufficient redox cascade demonstrates high atom efficiency by sourcing nitrogen from ammonium and generating water as the sole byproduct, which results in an exceedingly clean system [64]. The 2-OG-dependent oxygenases have emerged as the largest known family of nonheme-oxidase enzymes and are involved in the biosynthesis of a truly vast variety of metabolites, including materials of medicinal or agrochemical importance (e.g., gibberellins and antibiotics such as cephalosporins and clavulanic acid) [65]. These reactions require 2-OG, which undergoes oxidative decarboxylation to form succinate, as a co-substrate. However, 2-OG is normally metabolized via the TCA cycle, and thus little flux normally goes into the synthesis pathway of the desired product. To address this problem, An elegant strategy had been developed by by constructing a modified TCA cycle that changed the role of 2-OG from co-substrate to cofactor and then regenerated it (Fig. 2d) [66]. In this work, E. coli cells expressing deacetoxycephalosporin-C synthase (DAOCS) were developed as a whole-cell biocatalyst to convert penicillin G to G-7-ADCA [66]. The TCA cycle was engineered in vivo by blocking the normal TCA reaction leading from 2-OG to succinate, effectively coupling it with the DAOCS-catalysed reaction to form a modified TCA cycle. Thus, the metabolic flux from the central metabolism was forced to go through the DAOCS-catalysed reaction to produce G-7-ADCA. This strategy was combined with other efforts including reducing the accumulation of acetate and blocking the degradation of penicillin G and G-7-ADCA, which led to an 11-fold increase of the efficiency of the whole-cell biocatalyst. This example thus demonstrates the feasibility of redirecting the TCA cycle to drive a desired enzymatic reaction-a strategy which will most certainly be applied to other products that require 2-OG in the near future. For biosynthetic pathways that encompass both co-substrate-and redox-dependent reactions, e.g., Fig. 2 Engineering cofactor or co-substrate balance. a NAD(P)H regeneration systems formed via coupling with a regeneration reaction [56]; b redox self-sufficient amination via coupling with an alcohol dehydrogenase, l-alanine-dependent transaminase and l-alanine dehydrogenase [62,63]; c redox self-sufficiency via a two-enzyme cascade for the hydrogen-borrowing amination of alcohols [54]; d reconstitution of TCA cycle using a DAOCS-catalysed reaction for 2-OG supply and regeneration [66]; e cofactor self-sufficient system established via a bridging mechanism (enzymes) to enable the simultaneous regeneration of cofactors and redox equivalent 2-phenylethanol (2-PE) biosynthesis, cofactors such as 2-OG and NAD(P)H are required for the transamination and dehydrogenation reactions, respectively. The simultaneous regeneration of cofactors and redox equivalents remains a challenge. However, it is possible to construct a \"bridge\" between an amino acid and a structurally equivalent fusel alcohol by using glutamate dehydrogenase. Thus, to develop a self-sufficient cofactor system to enhance production of 2-PE in E. coli, the researchers coupled bridging enzymes with transaminase and alcohol dehydrogenase so that the cofactor and redox equivalents were regenerated simultaneously and no external cofactor or redox source was required [67]. A self-sufficient cofactor system based on a bridging mechanism was thus developed, improving the biocatalyst efficiency by 3.8fold (unpublished data). This self-sufficient cofactor strategy offers a new method to resolve the cofactor/redox imbalance.",
+      "snippet": "A whole-cell biocatalyst is usually preferred for cofactor-dependent reactions since the inherent presence of cofactors that are generated by the host cell and the ease of their recycling greatly improve the economics of the process [2]. In cells, the cofactors, such as nicotinamide, 2-oxoglutarate, acetyl-CoA and ATP, are mainly used in glycolysis and the citric acid cycle and are present at low concentrations. Cofactor supply and regeneration may be limited if the target biosynthetic reaction is rapid. Therefore, metabolic engineering to increase cofactor supply and regeneration is necessary. Cofactor recycling is key not only to lowering the cost of a process but also to driving the reaction of interest to completion. Increased cofactor regeneration is traditionally accomplished using an in situ regeneration reaction (Fig. 2a). For oxidoreductase-catalysed reactions that depend on nicotinamide cofactors, cofactor recycling in whole-cell biocatalysts is achieved by cascading the reaction with a dehydrogenase and thus coupling the recycling of the nicotinamide cofactor to the conversion of a sacrificial co-substrate by formate dehydrogenase, glucose dehydrogenase, alcohol dehydrogenase, phosphite dehydrogenase or hydrogenase [56][57][58][59]. The dehydrogenases that are most commonly exploited for the recycling of NAD(P)H are formate dehydrogenase and glucose dehydrogenase, which obtain reduction equivalents by enzymatically oxidizing the sacrificial substrates formate and g…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[2]",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "[56]",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "[57]",
+          "target_xml_id": "b56"
+        },
+        {
+          "ref_marker": "[58]",
+          "target_xml_id": "b57"
+        },
+        {
+          "ref_marker": "[59]",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "[60,",
+          "target_xml_id": "b59"
+        },
+        {
+          "ref_marker": "61]",
+          "target_xml_id": "b60"
+        },
+        {
+          "ref_marker": "[59,",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "[62]",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "[63]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[64]",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "[59,",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "[62]",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "[63]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[64]",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "[62,",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "63]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[62,",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "63]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[64]",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "[65]",
+          "target_xml_id": "b64"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[56]",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "[62,",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "63]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[54]",
+          "target_xml_id": "b53"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[67]",
+          "target_xml_id": "b66"
+        }
+      ]
+    },
+    {
+      "header": "Chassis optimization",
+      "raw_header": "Chassis optimization",
+      "text": "Metabolic engineering of the chassis cell to further improve the performance of whole-cell biocatalysts may involve increasing the cells' uptake of substrate(s), reducing substrate and product degradation, and blocking the effects of proteases to stabilize overexpressed intracellular enzymes [55,66]. GlcNAc is transported by GlcNAc-specific PTS into cells as GlcNAc-6-P and then enters the NAG pathway to be utilized as a carbon and nitrogen source. Elimination of GlcNAc-specific PTS reduced GlcNAc-related side reactions and increased Neu5Ac production by 1.28-fold [39]. The outer membrane protein AlkL of P. putida GPo1 was reported to improve hydrophobic substrate uptake into E. coli [68]. E. coli cells overexpressing the monooxygenase system AlkBGT and the uptake facilitator AlkL were used as a whole-cell biocatalyst to oxyfunctionalize renewable fatty acid methyl esters [69]. However, extensive dodecanoic acid methyl ester uptake that was mediated by high AlkL levels led to whole-cell biocatalyst toxification. By fine-tuning the AlkL expression and reducing alkBGT expression, the product titre was increased from 4.3 to 229 g/L in a two-liquid phase bioprocess [69]. Reducing the degradation of substrate and product is important for increasing substrate utilization and thus increasing the overall conversion rate. For example, penicillin G and G-7-ADCA are susceptible to decomposition; knocking out the gene that encoded β-lactamase (ampC) resulted in a 3.9-fold increase in the G-7-ADCA production over that of the parent strain [66]. Low amounts of the relevant enzymes are obtained, which leads to suboptimal performance, if the enzymes of the synthesis pathway are susceptible to protease attack [70]. In such cases, the protease(s) that is responsible for biocatalyst degradation must be identified, possibly by screening corresponding deletion mutants and hopefully finding a suitable chassis.",
+      "snippet": "Metabolic engineering of the chassis cell to further improve the performance of whole-cell biocatalysts may involve increasing the cells' uptake of substrate(s), reducing substrate and product degradation, and blocking the effects of proteases to stabilize overexpressed intracellular enzymes [55,66]. GlcNAc is transported by GlcNAc-specific PTS into cells as GlcNAc-6-P and then enters the NAG pathway to be utilized as a carbon and nitrogen source. Elimination of GlcNAc-specific PTS reduced GlcNAc-related side reactions and increased Neu5Ac production by 1.28-fold [39]. The outer membrane protein AlkL of P. putida GPo1 was reported to improve hydrophobic substrate uptake into E. coli [68]. E. coli cells overexpressing the monooxygenase system AlkBGT and the uptake facilitator AlkL were used as a whole-cell biocatalyst to oxyfunctionalize renewable fatty acid methyl esters [69]. However, extensive dodecanoic acid methyl ester uptake that was mediated by high AlkL levels led to whole-cell biocatalyst toxification. By fine-tuning the AlkL expression and reducing alkBGT expression, the product titre was increased from 4.3 to 229 g/L in a two-liquid phase bioprocess [69]. Reducing the degradation of substrate and product is important for increasing substrate utilization and thus increasing the overall conversion rate. For example, penicillin G and G-7-ADCA are susceptible to decomposition; knocking out the gene that encoded β-lactamase (ampC) resulted in a 3.9-fold increase in the …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[55,",
+          "target_xml_id": "b54"
+        },
+        {
+          "ref_marker": "66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[39]",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "[68]",
+          "target_xml_id": "b67"
+        },
+        {
+          "ref_marker": "[69]",
+          "target_xml_id": "b68"
+        },
+        {
+          "ref_marker": "[69]",
+          "target_xml_id": "b68"
+        },
+        {
+          "ref_marker": "[66]",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "[70]",
+          "target_xml_id": "b69"
+        }
+      ]
+    },
+    {
+      "header": "Process engineering",
+      "raw_header": "Process engineering",
+      "text": "To develop an economically feasible whole-cell biocatalysis process, in addition to the rational design of whole-cell biocatalysts, it is of great importance to also optimize the entire production process to achieve economic viability. Whole-cell biocatalysis processes must, by definition, involve a growth process and a substrate conversion process. Cells are cultured, removed from the growth medium and then resuspended in different biotransformation media to convert substrates into desired products [3,13]. Several considerations influence the optimal growth of the biocatalyst, as with any fermentation, but the major issues regarding their use in biotransformations are the expression level(s) of the enzyme(s) of interest and the biomass yield. For most whole-cell biocatalysts that contain multistep pathways, coordinated expression, but not necessarily overexpression of the many enzymes involved in the pathways, is of great importance [16,41,49,51]. A good balance is a prerequisite for the efficiency of the biocatalyst. In single-step biotransformations, on the other hand, optimal overexpression of a single enzyme is usually sought [29,30]. In both cases, biomass is an important factor to consider in the cell growth process since a higher biomass, especially if obtained from a cheap fermentation medium, means a lower cost of the biocatalyst. To implement a whole-cell biotransformation, the substrate of interest must be transported across the cell membrane to reach the active enzyme or enzyme system. The same issues exist for the product. Even though the substrate can usually enter the cell by passive diffusion [28], mass transport must be considered. The mass transfer resistance is mainly caused by the cell membrane, which acts as a mass transport barrier for both the substrate and the product. Several studies have shown that it is possible to improve substrate transfer across cell walls and membranes by increasing their permeabilization level by chemical (detergents and solvents) or physical (e.g., temperature shock) means. For example, surfactants and organic solvents (Triton X-100, Tween 80, Xylene and CTAB) were added to the reaction mixture to enhance the transport of GlcNAc into cells, which resulted in improved production [16,23,39]. The permeabilized cells effectively had \"holes\" in their cellular membrane while leaving enough of the cell membrane and cell wall intact to contain the enzymes and other macromolecules [13]. This technique is especially useful when transport issues are found to be limiting.",
+      "snippet": "To develop an economically feasible whole-cell biocatalysis process, in addition to the rational design of whole-cell biocatalysts, it is of great importance to also optimize the entire production process to achieve economic viability. Whole-cell biocatalysis processes must, by definition, involve a growth process and a substrate conversion process. Cells are cultured, removed from the growth medium and then resuspended in different biotransformation media to convert substrates into desired products [3,13]. Several considerations influence the optimal growth of the biocatalyst, as with any fermentation, but the major issues regarding their use in biotransformations are the expression level(s) of the enzyme(s) of interest and the biomass yield. For most whole-cell biocatalysts that contain multistep pathways, coordinated expression, but not necessarily overexpression of the many enzymes involved in the pathways, is of great importance [16,41,49,51]. A good balance is a prerequisite for the efficiency of the biocatalyst. In single-step biotransformations, on the other hand, optimal overexpression of a single enzyme is usually sought [29,30]. In both cases, biomass is an important factor to consider in the cell growth process since a higher biomass, especially if obtained from a cheap fermentation medium, means a lower cost of the biocatalyst. To implement a whole-cell biotransformation, the substrate of interest must be transported across the cell membrane to reach the active e…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[3,",
+          "target_xml_id": "b2"
+        },
+        {
+          "ref_marker": "13]",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "41,",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "49,",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "51]",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "[29,",
+          "target_xml_id": "b28"
+        },
+        {
+          "ref_marker": "30]",
+          "target_xml_id": "b29"
+        },
+        {
+          "ref_marker": "[28]",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "[16,",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "23,",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "39]",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "[13]",
+          "target_xml_id": "b12"
+        }
+      ]
+    },
+    {
+      "header": "Conclusion and perspective",
+      "raw_header": "Conclusion and perspective",
+      "text": "Whole-cell biocatalysts can convert cheap feedstocks into complex, value-added fine chemicals with a range of applications in pharmaceutical and chemical industries. What is more, efficient whole-cell biocatalysts can increasingly be rationally designed. The present work reviews strategies for the metabolic engineering of whole-cell biocatalysts based on the well-established E. coli platform. As described above, advances in metabolic engineering and synthetic biology have markedly improved the productivities and yields of products that are synthesized using whole-cell biocatalysts. Despite the advantages outlined in this article, there are certain limitations that should be considered. The mass transport barrier that the cell membrane represents is one limitation. Cells often have a specific system to transport compounds in or out of the cell. Enhancing the transport system may help the transportation of substrates and products. Another method that can be used to improve substrate transfer across cell walls and membranes is to increase their permeabilization level by chemical means. However, these methods may damage the cell integrity and cause leakage of cellular components, complicating downstream process engineering; therefore, the best conditions for permeabilizing cells should be determined. Second, metabolic engineering strategies that are used in rational strain design involve the overexpression, deletion or down-regulation of genes in their native metabolic pathways [46,71,72]. However, a precise control of native gene expression levels is important for cell growth. Total deletion or overexpression of metabolic branches can sometimes result in poor growth and thus in poor biocatalyst expression, especially when the targets are in the central metabolic pathways. Several recent studies aimed at overcoming these limitations have focused on the experimental and theoretical advantages that are associated with the dynamic control of enzyme levels [72][73][74][75][76][77]. For example, a molecular switch for the dynamic control of gene expression is expected to activate target gene expression in the cell growth phase and deactivate it in the bioconversion stage. The whole-cell biocatalyst will be in its optimal state for cell growth and for efficient biotransformation when such dynamic control is used. Whole cell biocatalysis has been successful in bioconverting non-native substrates into target products. However, challenges still remain when whole-cell biocatalysis uses glucose as a substrate for fine chemical production. Although cells are in a resting state in the conversion stage, the enzymes of central metabolism are still active; thus, the introduced biosynthesis pathways compete with the native enzymes of the central pathways for substrates and energy. Metabolically engineering targets in the central metabolic pathways would affect cell physiology and lead to fluctuations in cell growth. Redirecting fluxes of central metabolism to cell growth or to biosynthesis pathways through dynamic control of native enzyme expression are expected to solve the problem [72][73][74][75][76][77]. Dynamic gene expression profiles enable better management of the balance between growth and chemical production and can thus help avoid accumulation of undesired intermediates. The increasingly sophisticated synthetic biology and metabolic engineering toolbox is already having an impact on the number and frequency of reported successful whole-cell biocatalytic processes. This field will thus be highly dynamic for the foreseeable future.",
+      "snippet": "Whole-cell biocatalysts can convert cheap feedstocks into complex, value-added fine chemicals with a range of applications in pharmaceutical and chemical industries. What is more, efficient whole-cell biocatalysts can increasingly be rationally designed. The present work reviews strategies for the metabolic engineering of whole-cell biocatalysts based on the well-established E. coli platform. As described above, advances in metabolic engineering and synthetic biology have markedly improved the productivities and yields of products that are synthesized using whole-cell biocatalysts. Despite the advantages outlined in this article, there are certain limitations that should be considered. The mass transport barrier that the cell membrane represents is one limitation. Cells often have a specific system to transport compounds in or out of the cell. Enhancing the transport system may help the transportation of substrates and products. Another method that can be used to improve substrate transfer across cell walls and membranes is to increase their permeabilization level by chemical means. However, these methods may damage the cell integrity and cause leakage of cellular components, complicating downstream process engineering; therefore, the best conditions for permeabilizing cells should be determined. Second, metabolic engineering strategies that are used in rational strain design involve the overexpression, deletion or down-regulation of genes in their native metabolic pathways […",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[46,",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "71,",
+          "target_xml_id": "b70"
+        },
+        {
+          "ref_marker": "72]",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "[72]",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "[73]",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "[74]",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "[75]",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "[76]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "[77]",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "[72]",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "[73]",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "[74]",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "[75]",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "[76]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "[77]",
+          "target_xml_id": "b76"
+        }
+      ]
+    },
+    {
+      "header": "Abbreviations Authors' contributions Competing interests Publisher's Note",
+      "raw_header": "Abbreviations Authors' contributions Competing interests Publisher's Note",
+      "text": "E. coli: Escherichia coli; TCA: tricarboxylic acid cycle; ED: Entner-Doudoroff pathway; PP: pentose phosphate pathway; NAD(P)H: nicotinamide adenosine dinucleotide (phosphate); 7-ADCA: 7-aminodeacetoxycephalosporanic acid. BL investigated references and wrote the review; YT outlined and assembled the manuscript. Both authors read and approved the final manuscript. The authors declare that they have no competing interests. Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "snippet": "E. coli: Escherichia coli; TCA: tricarboxylic acid cycle; ED: Entner-Doudoroff pathway; PP: pentose phosphate pathway; NAD(P)H: nicotinamide adenosine dinucleotide (phosphate); 7-ADCA: 7-aminodeacetoxycephalosporanic acid. BL investigated references and wrote the review; YT outlined and assembled the manuscript. Both authors read and approved the final manuscript. The authors declare that they have no competing interests. Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Abbreviations",
+      "raw_header": "Abbreviations",
+      "text": "E. coli: Escherichia coli; TCA: tricarboxylic acid cycle; ED: Entner-Doudoroff pathway; PP: pentose phosphate pathway; NAD(P)H: nicotinamide adenosine dinucleotide (phosphate); 7-ADCA: 7-aminodeacetoxycephalosporanic acid.",
+      "snippet": "E. coli: Escherichia coli; TCA: tricarboxylic acid cycle; ED: Entner-Doudoroff pathway; PP: pentose phosphate pathway; NAD(P)H: nicotinamide adenosine dinucleotide (phosphate); 7-ADCA: 7-aminodeacetoxycephalosporanic acid.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Authors' contributions",
+      "raw_header": "Authors' contributions",
+      "text": "BL investigated references and wrote the review; YT outlined and assembled the manuscript. Both authors read and approved the final manuscript.",
+      "snippet": "BL investigated references and wrote the review; YT outlined and assembled the manuscript. Both authors read and approved the final manuscript.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Competing interests",
+      "raw_header": "Competing interests",
+      "text": "The authors declare that they have no competing interests.",
+      "snippet": "The authors declare that they have no competing interests.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Publisher's Note",
+      "raw_header": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "snippet": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Untitled section",
+      "raw_header": "Untitled section",
+      "text": "Transformation of biomass into commodity chemicals using enzymes or cells AJStraathof Chem Rev 114 2013 Recent advances in whole cell biocatalysis techniques bridging from investigative to industrial scale JWachtmeister DRother Curr Opin Biotechnol 42 2016 Whole-cell biocatalysis for selective and productive C–O functional group introduction and modification ManfredSchrewe MattijsKJulsing BrunoBühler AndreasSchmid 10.1039/c3cs60011d Chemical Society Reviews Chem. Soc. Rev. 0306-0012 1460-4744 42 15 6346 2013 Royal Society of Chemistry (RSC) Expanding the chemical palate of cells by combining systems biology and metabolic engineering KACurran HSAlper Metab Eng 14 2012 TJohannes MRSimurdiak HZhao Biocatalysis Encyclopedia of chemical processing 2006 Microbial transformation of propenylbenzenes for natural flavour production PingXu DongliangHua CuiqingMa 10.1016/j.tibtech.2007.08.011 Trends in Biotechnology Trends in Biotechnology 0167-7799 25 12 2007 Elsevier BV Recent advances in biotechnological production of 2-phenylethanol DHua PXu Biotechnol Adv 29 2011 An aqueous–organic two-phase bioprocess for efficient production of the natural aroma chemicals 2-phenylethanol and 2-phenylethylacetate with yeast MM WEtschmann JSchrader 10.1007/s00253-005-0281-6 Applied Microbiology and Biotechnology Appl Microbiol Biotechnol 0175-7598 1432-0614 71 4 2006 Springer Science and Business Media LLC Bioproduction of the aroma compound 2‐Phenylethanol in a solid–liquid two‐phase partitioning bioreactor system by <i>Kluyveromyces marxianus</i> FangGao AndrewJDaugulis 10.1002/bit.22387 Biotechnology and Bioengineering Biotech & Bioengineering 0006-3592 1097-0290 104 2 2009 Wiley Direct synthesis of 2-phenylethanol by hydrogenation of methyl phenylacetate using homogeneous rutheniumphosphine catalysis under low hydrogen pressure KNomura HOgura YImanishi J Mol Catal A Chem 166 2001 Systems strategies for developing industrial microbial strains SYLee KimHu Nat Biotechnol 33 2015 The microbial cell — functional unit for energy dependent multistep biocatalysis NadineLadkau AndreasSchmid BrunoBühler 10.1016/j.copbio.2014.06.003 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 30 2014 Elsevier BV Whole cell biocatalysts: essential workers from nature to the industry CCDe Carvalho Microb Biotechnol 10 2017 The Power of Biocatalysis: A One‐Pot Total Synthesis of Rhamnolipids from Butane as the Sole Carbon and Energy Source ChristianGehring MirjaWessel SteffenSchaffer OliverThum 0000-0002-2568-1450 10.1002/open.201600127 ChemistryOpen ChemistryOpen 2191-1363 5 6 2016 Wiley Enhanced production of polysialic acid by metabolic engineering of Escherichia coli FChen YTao JinCXu YLin B-X Appl Microbiol Biotechnol 99 2015 Enhanced production of N-acetyl-d-neuraminic acid by multi-approach whole-cell biocatalyst B-XLin Z-JZhang W-FLiu Z-YDong YTao Appl Microbiol Biotechnol 97 2013 R)-acetoin production from meso-2,3-butanediol using a new whole-cell biocatalyst with co-expression of meso-2,3-butanediol dehydrogenase, NADH oxidase and Vitreoscilla hemoglobin ZGuo XZhao YHe TYang HGao GLi FChen MSun JKLee LZhang Efficient J Microbiol Biotechnol 27 3 2017 Engineering a pyridoxal 5′-phosphate supply for cadaverine production by using Escherichia coli whole-cell biocatalysis WMa WCao BZhang KChen QLiu YLi POuyang Sci Rep 5 15630 2015 Three-steps in one-pot: whole-cell biocatalytic synthesis of enantiopure (+)- and (−)-pinoresinol via kinetic resolution EstherRicklefs MarcoGirhard VladaBUrlacher 10.1186/s12934-016-0472-0 Microbial Cell Factories Microb Cell Fact 1475-2859 15 1 78 2016 Springer Science and Business Media LLC Microbial production of building block chemicals and polymers JeongWookLee HyunUkKim SolChoi JonghoYi SangYupLee 10.1016/j.copbio.2011.02.011 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 22 6 2011 Elsevier BV Microbial engineering for the production of advanced biofuels PPPeralta-Yahya FZhang DelCardayre SBKeasling JD Nature 488 2012 Production of N-acetyl-d-neuraminic acid by recombinant whole cells expressing Anabaena sp. CH1 N-acetyl-d-glucosamine 2-epimerase and Escherichia coli N-acetyl-d-neuraminic acid lyase YCLee HCChien WHHsu J Biotechnol 129 2007 Production of N-acetyl-d-neuraminic acid by coupling bacteria expressing N-acetyl-d-glucosamine 2-epimerase and N-acetyl-d-neuraminic acid synthetase KazuhikoTabata SatoshiKoizumi TetsuoEndo AkioOzaki 10.1016/s0141-0229(01)00515-4 Enzyme and Microbial Technology Enzyme and Microbial Technology 0141-0229 30 3 2002 Elsevier BV Multistep Enzymatic Synthesis of Long‐Chain α,ω‐Dicarboxylic and ω‐Hydroxycarboxylic Acids from Renewable Fatty Acids and Plant Oils Ji‐wonSong Eun‐yeongJeon Da‐hyunSong Hyun‐youngJang UweTBornscheuer Deok‐kunOh Jin‐byungPark 10.1002/anie.201209187 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 52 9 2013 Wiley Microbial production of N-acetylneuraminic acid by genetically engineered Escherichia coli MIshikawa SKoizumi Carbohydr Res 345 2010 An efficient method for N-acetyl-d-neuraminic acid production using coupled bacterial cells with a safe temperature-induced system YZhang FTao MDu CMa JQiu LGu XHe PXu Appl Microbiol Biotechnol 86 2010 Production of ω-hydroxyundec-9-enoic acid and n-heptanoic acid from ricinoleic acid by recombinant Escherichia coli-based biocatalyst Hyun-YoungJang Eun-YeongJeon AHBaek Sun-MeeLee Jin-ByungPark 10.1016/j.procbio.2014.01.025 Process Biochemistry Process Biochemistry 1359-5113 49 4 2014 Elsevier BV Industrial Enzymes and Biocatalysis JosephCMcauliffe 10.1007/978-1-4614-4259-2_31 Handbook of Industrial Chemistry and Biotechnology JAKent Boston Springer US 2012 Industrial enzymes and biocatalysis Simple enzymatic procedure for l-carnosine synthesis: wholecell biocatalysis and efficient biocatalyst recycling JHeyland NAntweiler JLutz THeck BGeueke HPKohler LMBlank ASchmid Microb Biotechnol 3 2010 Whole-cell conversion of l-glutamic acid into gamma-aminobutyric acid by metabolically engineered Escherichia coli ChongrongKe XinweiYang HuanxinRao WenchaoZeng MeirongHu YongTao JianzhongHuang 10.1186/s40064-016-2217-2 SpringerPlus SpringerPlus 2193-1801 5 1 591 2016 Springer Science and Business Media LLC Whole-Cell Biocatalytic Synthesis of Cinnamyl Acetate with a Novel Esterase from the DNA Library of <i>Acinetobacter hemolyticus</i> HaoDong FrancescoSecundo ChanghuXue XiangzhaoMao 0000-0002-6315-1338 10.1021/acs.jafc.6b05799 Journal of Agricultural and Food Chemistry J. Agric. Food Chem. 0021-8561 1520-5118 65 10 2017 American Chemical Society (ACS) Enzymatic Production of<i>trans</i>-4-Hydroxy-<scp>L</scp>-proline by Regio- and Stereospecific Hydroxylation of<scp>L</scp>-Proline TakeshiShibasaki HideoMori AkioOzaki 10.1271/bbb.64.746 Bioscience, Biotechnology, and Biochemistry Bioscience, Biotechnology, and Biochemistry 0916-8451 1347-6947 64 4 2000 Oxford University Press (OUP) Co-expression of l-glutamate oxidase and catalase in Escherichia coli to produce α-ketoglutaric acid by whole-cell biocatalyst QLiu XMa HCheng NXu JLiu YMa Biotechnol Lett 39 2017 Simultaneous synthesis of 2‐phenylethanol and <scp>L</scp>‐homophenylalanine using aromatic transaminase with yeast Ehrlich pathway Joon‐youngHwang JihyangPark Joo‐hyunSeo MinhoCha Byung‐kwanCho JuhanKim Byung‐geeKim 10.1002/bit.22178 Biotechnology and Bioengineering Biotech & Bioengineering 0006-3592 1097-0290 102 5 2009 Wiley Cloning Rosa hybrid phenylacetaldehyde synthase for the production of 2-phenylethanol in a whole cell Escherichia coli system YAchmon Ben-BarakZelas ZFishman A Appl Microbiol Biotechnol 98 2014 Production of 2-phenylethanol in roses as the dominant floral scent compound from l-phenylalanine by two key enzymes, a PLPdependent decarboxylase and a phenylacetaldehyde reductase MSakai HHirata HSayama KSekiguchi HItano TAsai HDohra MHara NWatanabe Biosci Biotechnol Biochem 71 2007 Metabolically engineered Escherichia coli for enhanced production of sialic acid CNBoddy BRLundgren US Patent 8722365. 2009 Construction and expression of a polycistronic plasmid encoding N-acetylglucosamine 2-epimerase and N-acetylneuraminic acid lyase simultaneously for production of N-acetylneuraminic acid WSun JiWLi NTong PCheng JHe YChen YChen XWu JOuyang P Bioresour Technol 130 2013 One-pot bio-synthesis: N-acetyl-d-neuraminic acid production by a powerful engineered whole-cell catalyst FTao YZhang CMa PXu Sci Rep 1 142 2011 Efficient whole-cell biocatalyst for Neu5Ac production by manipulating synthetic, degradation and transmembrane pathways DZhu XZhan JWu MGao ZZhao Biotech Lett 39 2017 Polysialic acid biosynthesis and production in Escherichia coli: current state and perspectives BXLin YQiao BShi YTao Appl Microbiol Biotechnol 100 2016 Genetic engineering of Escherichia coli for the economical production of sialylated oligosaccharides NFierfort ESamain J Biotechnol 134 2008 Methods of biosynthesis of sialylated oligosaccharides XBLi Lx YTao BXLin 2014. 201410068732 4 China Patent Enzymatic cascades for the stereo-complementary epimerisation of in situ generated epoxy alcohols Yu-ChangLiu ChaoGuo YanLiu Hai-BoWang Zhong-LiuWu 0000-0002-0189-5892 10.1039/c7ob00015d Organic & Biomolecular Chemistry Org. Biomol. Chem. 1477-0520 1477-0539 15 12 2017 Royal Society of Chemistry (RSC) Optimization of a heterologous mevalonate pathway through the use of variant HMG-CoA reductases SMMa DEGarcia AMRedding-Johanson GDFriedland RChan TSBatth JRHaliburton DChivian JDKeasling CJPetzold Metab Eng 13 2011 Toward design-based engineering of industrial microbes KeithEjTyo KanokarnKocharin JensNielsen 10.1016/j.mib.2010.02.001 Current Opinion in Microbiology Current Opinion in Microbiology 1369-5274 13 3 2010 Elsevier BV Optimization of the mevalonate-based isoprenoid biosynthetic pathway in Escherichia coli for production of the anti-malarial drug precursor amorpha-4,11-diene JenniferRAnthony LarryCAnthony FarnazNowroozi GinaKwon JackDNewman JayDKeasling 10.1016/j.ymben.2008.07.007 Metabolic Engineering Metabolic Engineering 1096-7176 11 1 2009 Elsevier BV NeuA O-acetylesterase activity is specific for CMP-activated O-acetyl sialic acid in Streptococcus suis serotype 2 LSong HZhou XCai CLi JLiang JinC Biochem Biophys Res Commun 410 2011 Combinatory optimization of chromosomal integrated mevalonate pathway for beta-carotene production in Escherichia coli LYe CZhang CBi QLi XZhang Microb Cell Fact 15 202 2016 Engineering a mevalonate pathway in Escherichia coli for production of terpenoids VincentJ JMartin DouglasJPitera SydnorTWithers JackDNewman JayDKeasling 10.1038/nbt833 Nature Biotechnology Nat Biotechnol 1087-0156 1546-1696 21 7 2003 Springer Science and Business Media LLC Balancing a heterologous mevalonate pathway for improved isoprenoid production in Escherichia coli DouglasJPitera ChrisJPaddon JackDNewman JayDKeasling 10.1016/j.ymben.2006.11.002 Metabolic Engineering Metabolic Engineering 1096-7176 9 2 2007 Elsevier BV Technology update: development of a gas-phase bioprocess for isoprene-monomer production using metabolic pathway engineering GMWhited FJFeher DABenko MACervin GKChotani JCMcauliffe RJLaduca EABen-Shoshan KJSanford Ind Biotechnol 6 2010 Metabolic Engineering Mevalonate Pathway Mediated by RNA Scaffolds for Mevalonate and Isoprene Production in Escherichia coli FFeng YXu YTao WLiu BLin 10.1021/acssynbio.2c00226.s001 Sheng Wu Gong Cheng Xue Bao 31 2015 American Chemical Society (ACS) Functional optimization of gene clusters by combinatorial design and assembly MJSmanski SBhatia DZhao YPark LBWoodruff GGiannoukos DCiulla MBusby JCalderon RNicol Nat Biotechnol 32 2014 Modification of targets related to the Entner-Doudoroff/pentose phosphate pathway route for methyl-d-erythritol 4-phosphate-dependent carotenoid biosynthesis in Escherichia coli CLi LQYing SSZhang NChen WFLiu YTao Microb Cell Fact 14 117 2015 GTorrelo UHanefeld FHollmann Biocatalysis Catal Lett 145 2015 Reductive amination by recombinant Escherichia coli: whole cell biotransformation of 2-keto-3-methylvalerate to l-isoleucine ELorenz SKlatte VFWendisch J Biotechnol 168 2013 Strategies for cofactor regeneration in biocatalyzed reductions SKara JHSchrittwieser FHollmann Synthetic Methods for Biologically Active Molecules Wiley-VCH Verlag GmbH & Co. KGaA 2013 Strategies for regeneration of nicotinamide coenzymes emphasizing self-sufficient closed-loop recycling systems WHummel HGroger J Biotechnol 191 2014 Whole-cell bioreduction of aromatic α-keto esters using Candida tenuis xylose reductase and Candida boidinii formate dehydrogenase co-expressed in Escherichia coli ReginaKratzer MatejPukl SigridEgger BerndNidetzky 10.1186/1475-2859-7-37 Microbial Cell Factories Microb Cell Fact 1475-2859 7 1 37 2008 Springer Science and Business Media LLC Rules for biocatalyst and reaction engineering to implement effective, NAD(P)H-dependent, whole cell bioreductions ReginaKratzer JohnMWoodley BerndNidetzky 10.1016/j.biotechadv.2015.08.006 Biotechnology Advances Biotechnology Advances 0734-9750 33 8 2015 Elsevier BV Redox self-sufficient whole cell biotransformation for amination of alcohols StephanieKlatte VolkerFWendisch 10.1016/j.bmc.2014.05.012 Bioorganic & Medicinal Chemistry Bioorganic & Medicinal Chemistry 0968-0896 22 20 2014 Elsevier BV Role of l-alanine for redox self-sufficient amination of alcohols SKlatte VFWendisch Microb Cell Fact 14 9 2015 Conversion of alcohols to enantiopure amines through dual-enzyme hydrogen-borrowing cascades FGMutti TKnaus NSScrutton MBreuer NJTurner Science 349 2015 Structural and mechanistic studies on 2-oxoglutarate-dependent oxygenases and related enzymes ChristopherJSchofield ZhihongZhang 10.1016/s0959-440x(99)00036-6 Current Opinion in Structural Biology Current Opinion in Structural Biology 0959-440X 9 6 1999 Elsevier BV Reconstitution of TCA cycle with DAOCS to engineer <i>Escherichia coli</i> into an efficient whole cell catalyst of penicillin G BaixueLin KeqiangFan JianZhao JunjieJi LinjunWu KeqianYang YongTao 10.1073/pnas.1502866112 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 112 32 2015 Proceedings of the National Academy of Sciences USA Cofactor self-sufficient whole-cell biocatalysts for the production of 2-phenylethanol PengchaoWang XinweiYang BaixueLin JianzhongHuang YongTao 10.1016/j.ymben.2017.09.013 Metabolic Engineering Metabolic Engineering 1096-7176 44 2016 Elsevier BV Identification and use of an alkane transporter plug-in for applications in biocatalysis and whole-cell biosensing of alkanes CGrant DDeszcz Y-CWei Martínez-Torres RJMorris PFolliard TSreenivasan RWard JDalby PWoodley JM Sci Rep 4 5844 2014 Maximization of cell viability rather than biocatalyst activity improves whole‐cell ω‐oxyfunctionalization performance MarvinKadisch MattijsKJulsing ManfredSchrewe NicoJehmlich BenjaminScheer MartinVon Bergen AndreasSchmid BrunoBühler 10.1002/bit.26213 Biotechnology and Bioengineering Biotech & Bioengineering 0006-3592 1097-0290 114 4 2017 Wiley coli proteome microarrays identified the substrates of ClpYQ protease CHTsai YHHo TCSung WFWu CseChen Mol Cell Proteom 16 2016 Systems metabolic engineering of microorganisms for natural and non-natural chemicals JWLee NaDPark JMLee JChoi S LeeSy Nat Chem Biol 8 2012 Dynamic knockdown of E. coli central metabolism for redirecting fluxes of primary metabolites IMBrockman KLPrather Metab Eng 28 2015 Engineering static and dynamic control of synthetic pathways WJHoltz JDKeasling Cell 140 2010 Dynamic metabolic engineering: new strategies for developing responsive cell factories IMBrockman KLPrather Biotechnol J 10 2015 Sensitive cells: enabling tools for static and dynamic control of microbial metabolic pathways BradyFCress EmmanouilATrantas FilipposVerveridis RobertJLinhardt MattheosAgKoffas 10.1016/j.copbio.2015.09.007 Current Opinion in Biotechnology Current Opinion in Biotechnology 0958-1669 36 2015 Elsevier BV Precision metabolic engineering: the design of responsive, selective, and controllable metabolic systems MPMcnerney DMWatstein MPStyczynski Metab Eng 31 2015 Designing RNA-based genetic control systems for efficient production from engineered metabolic pathways JTStevens JMCarothers ACS Synth Biol 4 2015",
+      "snippet": "Transformation of biomass into commodity chemicals using enzymes or cells AJStraathof Chem Rev 114 2013 Recent advances in whole cell biocatalysis techniques bridging from investigative to industrial scale JWachtmeister DRother Curr Opin Biotechnol 42 2016 Whole-cell biocatalysis for selective and productive C–O functional group introduction and modification ManfredSchrewe MattijsKJulsing BrunoBühler AndreasSchmid 10.1039/c3cs60011d Chemical Society Reviews Chem. Soc. Rev. 0306-0012 1460-4744 42 15 6346 2013 Royal Society of Chemistry (RSC) Expanding the chemical palate of cells by combining systems biology and metabolic engineering KACurran HSAlper Metab Eng 14 2012 TJohannes MRSimurdiak HZhao Biocatalysis Encyclopedia of chemical processing 2006 Microbial transformation of propenylbenzenes for natural flavour production PingXu DongliangHua CuiqingMa 10.1016/j.tibtech.2007.08.011 Trends in Biotechnology Trends in Biotechnology 0167-7799 25 12 2007 Elsevier BV Recent advances in biotechnological production of 2-phenylethanol DHua PXu Biotechnol Adv 29 2011 An aqueous–organic two-phase bioprocess for efficient production of the natural aroma chemicals 2-phenylethanol and 2-phenylethylacetate with yeast MM WEtschmann JSchrader 10.1007/s00253-005-0281-6 Applied Microbiology and Biotechnology Appl Microbiol Biotechnol 0175-7598 1432-0614 71 4 2006 Springer Science and Business Media LLC Bioproduction of the aroma compound 2‐Phenylethanol in a solid–liquid two‐phase partitioning b…",
+      "pages": null,
+      "citations": []
+    }
+  ]
+}

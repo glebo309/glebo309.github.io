@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Novel methods for directed evolution of enzymes: quality, not quantity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2004-06-05">5th June 2004</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Stefan</forename><surname>Lutz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Addresses Department of Chemistry</orgName>
+								<orgName type="institution">Emory University</orgName>
+								<address>
+									<addrLine>1515 Dickey Drive</addrLine>
+									<postCode>30322</postCode>
+									<settlement>Atlanta</settlement>
+									<region>Georgia</region>
+									<country>USA Ã</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wayne</forename><forename type="middle">M</forename><surname>Patrick</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Addresses Department of Chemistry</orgName>
+								<orgName type="institution">Emory University</orgName>
+								<address>
+									<addrLine>1515 Dickey Drive</addrLine>
+									<postCode>30322</postCode>
+									<settlement>Atlanta</settlement>
+									<region>Georgia</region>
+									<country>USA Ã</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karl-Erich</forename><surname>Jaeger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Addresses Department of Chemistry</orgName>
+								<orgName type="institution">Emory University</orgName>
+								<address>
+									<addrLine>1515 Dickey Drive</addrLine>
+									<postCode>30322</postCode>
+									<settlement>Atlanta</settlement>
+									<region>Georgia</region>
+									<country>USA Ã</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Novel methods for directed evolution of enzymes: quality, not quantity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2004-06-05">5th June 2004</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">236F5C3054D9EBAC408154A82D6BBCA0</idno>
+					<idno type="DOI">10.1016/j.copbio.2004.05.004</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the past decade methods of directed molecular evolution have proven revolutionary in protein engineering. An increasing number of powerful new combinatorial techniques have joined rational design methods as effective tools for the manipulation and tailoring of biocatalysts. More and more, research in this maturing field is focusing on the quality and comprehensiveness of library construction and analysis. Additionally, in-depth studies have begun to highlight the underlying evolutionary mechanisms, limitations, and consequences of the various methodologies. Together, these investigations are creating a framework for future engineering projects.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="794.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The laboratory approach to Darwinian evolution of biological macromolecules, often referred to as directed molecular evolution, presents a powerful means for exploring and altering enzyme substrate specificity and catalysis. In contrast to rational design, which generally concentrates on a small number of variants, evolutionary methods for protein engineering rely on the generation of vast molecular diversity by random mutagenesis and recombination. From among the thousands, millions or even billions of progeny, effective search engines such as genetic complementation and high-throughput screening identify candidates with improvements in a desired phenotype. Multiple iterations of this two-step process have led to the identification of numerous proteins with novel catalytic, biophysical, and molecular recognition properties (reviewed in <ref type="bibr" target="#b1">[1]</ref>).</p><p>Methods for constructing diverse molecular libraries continue to accumulate. More important than the motivation to circumvent patent laws, these new approaches aim to generate more comprehensive, less biased libraries. This emerging focus on library quality is also reflected in new computational methods. Increasingly sophisticated algorithms offer valuable assistance in the design and analysis of directed evolution experiments.</p><p>New and exciting trends in directed evolution extend beyond library construction. Although the maxim that 'you get what you select for' <ref type="bibr" target="#b2">[2]</ref> remains unavoidable, methods for identifying the properties that we actually desire are improving. Joining the ranks of genetic selection, panning for binding, and high-throughput screening, elegant in vitro selection systems for true catalysis now provide a powerful tool for library deconvolution.</p><p>Finally, several groups have started to address the fundamentals of directed molecular evolution. These detailed library analyses characterizing evolutionary intermediates and comparing existing methodologies provide valuable lessons for shaping the next generation of techniques and experimental design strategies.</p><p>In this review we will discuss each of these aspects, emphasizing their general applicability to, and implications for, the field of directed molecular evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods for creating molecular diversity</head><p>Oligonucleotide-directed randomization, the error-prone polymerase chain reaction (epPCR), and in vitro recombination remain the cornerstones of directed molecular evolution (reviewed in <ref type="bibr" target="#b3">[3,</ref><ref type="bibr" target="#b4">4]</ref>). However, several groups have recently reported interesting variations and modifications to these protocols (summarized in Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oligonucleotide-directed randomization</head><p>Synthesizing partially or fully randomized oligonucleotides provides a means to generate diversity at specific locations in a gene. However, as discussed by Hughes et al. <ref type="bibr" target="#b5">[5 ]</ref>, the degeneracy of the genetic code ensures that increasing the number of randomized codons decreases the efficiency of randomization. They provide a novel solution, in which a set of primers containing 20 MAX (for 'maximum efficiency') codons -those used preferentially to encode each amino acid in Escherichia coli -are hybridized to a template containing fully randomized (NNN or NNK, where N represents any nucleotide and K represents G or T) codons. Replacement of the template strand is then effected by PCR. This MAX randomization necessitates the synthesis of at least 20 oligonucleotides per experiment, and does not allow for the randomization of multiple adjacent codons. However, by removing superfluous redundancy it offers the considerable advantage of decreasing library sizes required at the DNA level, while maintaining diversity amongst the encoded proteins. A method for the inverse outcome, protecting one specified codon while the remainder of the gene is targeted for randomization, has also been described <ref type="bibr" target="#b7">[6]</ref>.</p><p>In a second example, palindromic hexamer DNA duplexes representing the 20 proteinogenic amino acids as codon pairs have been used to replace large sections of the TEM-1 b-lactamase gene <ref type="bibr" target="#b8">[7]</ref>. Remarkably, by ligat-ing hexamer pools with a minimal segment of the blactamase gene -with no selection for the size of the resulting randomized constructs -several soluble, functional daughter sequences were obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Whole gene randomization</head><p>In addition to oligonucleotide-directed methods for random mutagenesis at selected positions (vide supra), whole gene epPCR approaches have also been modified and improved. A method of 'sequence saturation mutagenesis' <ref type="bibr" target="#b9">[8]</ref> has been devised to address the polymeraseinduced biases inherent in traditional protocols <ref type="bibr" target="#b10">[9]</ref>. It makes use of universal bases such as inosine to afford control over the mutational spectra obtained, although lacks the technical simplicity of epPCR. Polymerases Increases number of crossovers; some variability in crossover location <ref type="bibr" target="#b28">[24 ]</ref> Abbreviations: WT, wild-type; GST, glutathione-S-tranferase; nr, not reported.</p><p>such as Stratagene's second-generation Mutazyme 1 (<ref type="url" target="http://www.stratagene.com/">http://www.stratagene.com/</ref>) -which in combination with Taq DNA polymerase displays a uniform mutational spectrum -would appear to provide a simpler, more generally applicable method for constructing unbiased epPCR libraries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Homology-dependent recombination</head><p>The most dramatic results in the field of directed evolution are united in their utilization of in vitro recombination. One intuitive and significant advance came with the near-simultaneous descriptions of 'degenerate homoduplex recombination' <ref type="bibr" target="#b11">[10 ]</ref>, 'synthetic shuffling' <ref type="bibr" target="#b13">[11 ]</ref> and 'assembly of designed oligonucleotides' <ref type="bibr" target="#b15">[12 ]</ref>. In each, overlapping oligonucleotides encoding all of the degeneracy found in two or more parental genes are used as substrates in a polymerasemediated reassembly reaction. The result is a library in which all shuffled variants are equally likely, regardless of whether or not parental diversity is tightly linked. The statistical basis of the advantages of this approach has also been discussed <ref type="bibr" target="#b16">[13]</ref>.</p><p>Other variant methods for homology-dependent recombination include 'recombination-dependent exponential amplification PCR' (RDA-PCR) <ref type="bibr" target="#b17">[14]</ref>, 'mutagenic and unidirectional reassembly' (MURA) <ref type="bibr" target="#b18">[15]</ref>, and 'recombined extension on truncated templates' (RETT) <ref type="bibr" target="#b19">[16]</ref>.</p><p>The former is closely related to staggered extension process (StEP) PCR <ref type="bibr" target="#b20">[17]</ref>, with the use of gene-specific primers guaranteeing an odd number of crossovers (but most commonly only one). MURA consists of a combination of incremental truncation (ITCHY <ref type="bibr" target="#b21">[18,</ref><ref type="bibr" target="#b22">19]</ref>) and DNA shuffling mediated by a unidirectional primer; the result is a library of shuffled sequences that have been randomly truncated from one terminus. Finally, RETT seeks to avoid possible sequence biases arising from the use of DNase I digestion to generate shuffling blocks by instead using unidirectional, random priming from a singlestranded template. Template switching during reassembly results in recombination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Homology-independent recombination</head><p>Homology-independent or structure-guided recombination has also seen several recent developments. 'Sequence-independent site-directed chimeragenesis' (SISDC) <ref type="bibr" target="#b23">[20 ]</ref> has expanded the concept of library construction by shuffling semi-rationally designed peptide building blocks. Although somewhat similar to 'structurebased combinatorial protein engineering' (SCOPE) <ref type="bibr" target="#b25">[21]</ref>, which uses visual inspection of protein structures to guide building block design, SISDC instead relies on the computational predictor SCHEMA (vide infra) to define peptide fragments from the parental proteins that can be interchanged with minimal structural interference. The subsequent combinatorial reassembly of these peptide fragments through clever use of restriction sites resulted in chimeras of the desired diversity, including hybrids that retained activity. However, these methods are (at least currently) limited to proteins with known threedimensional structures.</p><p>An attractive approach to homology-independent recombination remains the construction of multiple-crossover libraries in which crossover positions are randomly distributed. SCRATCHY, the first method described for creating such libraries <ref type="bibr" target="#b26">[22]</ref>, yielded a minority of clones containing greater than one crossover. Moreover, a preselection for catalytically active, single-crossover parents was necessary to identify in-frame clones. This step inevitably eliminated numerous in-frame singlecrossover clones that may have proven beneficial in the shuffled multiple-crossover SCRATCHY library. A new vector for the purpose of reading frame selection was subsequently constructed <ref type="bibr" target="#b27">[23]</ref>. In addition, a method to increase the number of crossovers in SCRAT-CHY libraries was reported by Georgiou, Benkovic and coworkers <ref type="bibr" target="#b28">[24 ]</ref>. Single-crossover ITCHY libraries were divided into arbitrary sections and amplified with skewed sets of primers. The goal was to enrich for crossovers within broad sections of the chimera, rather than at strictly defined locations, and also to allow for some control over crossover number. The amplification products were used in the subsequent DNA shuffling step, where the increased concentration of heterologous fragments led to higher crossover numbers in the reassembled progeny.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational methods in directed evolution</head><p>In parallel with experimental techniques for directed molecular evolution, computational predictive frameworks have made dramatic advances in recent years (reviewed in <ref type="bibr" target="#b30">[25]</ref>). Although the field of de novo protein design has enjoyed some spectacular successes <ref type="bibr" target="#b31">[26,</ref><ref type="bibr" target="#b32">27]</ref>, this review will focus on computational approaches developed to complement directed evolution experiments.</p><p>Computational methods in the context of directed evolution can rationalize published experimental results and guide future engineering studies. Potentially, the integration of computational data in library design will also allow researchers to focus on smaller -but more targeted and comprehensive -libraries, making previously untenable screening methods viable. In turn, this should generate a more detailed picture of the sequence space under investigation and provide insight into the structure-function relationships of proteins.</p><p>Recent reports demonstrate the increasingly successful use of iterations between modeling and experimental testing to evolve more reliable in silico predictors for protein engineering. Conceptually, these algorithms can be divided into two groups: simulating DNA recombination; and predicting the functional consequences of amino acid and peptide fragment substitution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA models</head><p>Algorithms to model recombination have relied on the hydrogen-bonding requirement between complementary strands and the energetics of nearest-neighbor interactions <ref type="bibr" target="#b30">[25]</ref>. By integrating various contributing factors to DNA shuffling, such as fragmentation conditions, thermodynamic constraints and kinetic effects, Maheshri and Schaffer have improved the model for in vitro recombination <ref type="bibr" target="#b33">[28]</ref>. Their predictions were largely confirmed by an accompanying set of experimental data. However, the main drawback of previous algorithms still remains: modeling the processes of library generation at the nucleic acid level provides no information on the functions of translated protein products.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein models</head><p>Computational methods have also been employed to simulate directed evolution by quantifying the impact of replacement, insertion, and deletion of building blocks in proteins. Scanning the known three-dimensional structures of protein engineering candidates for local networks of interactions, the SCHEMA algorithm <ref type="bibr" target="#b34">[29]</ref> can identify recombination points between proteins that minimize the disruption of favorable steric and electrostatic interactions. Although the approach has shown some promise in guiding the generation of hybrid b-lactamases <ref type="bibr">[20 ,30]</ref>, it only sums interactions within defined primary sequence windows and does not account for equally important interactions between distal residues.</p><p>Alternatively, the second-order mean-field identification of residue-residue clashes in hybrid proteins (SIRCH) procedure <ref type="bibr" target="#b36">[31 ]</ref> can identify and quantify potential conflicts (in terms of energy) between residues from parental sequences in the context of their tertiary structures.</p><p>Relying on the proteins' total energy, as calculated from individual rotamer energies at each position, the approach successfully predicted local and long-distance clashes on two model systems. Although the calculated severity of unfavorable interactions was not always consistent with the experimental findings, overall predictions of preferred crossover points showed a promising correlation with laboratory data. Two other approaches, dubbed 'residue correlation analysis' (RCA) <ref type="bibr" target="#b38">[32]</ref> and FamClash <ref type="bibr" target="#b39">[33]</ref>, borrow from bioinformatics by using multiple sequence alignments to recognize protein residues that vary in a coordinated fashion. Tested on dihydrofolate reductase, the resulting correlation maps identify potential clashes between regions of the parental structures. An interesting aspect of these results was the discovery of distant residues (&gt;8 A ˚apart) that showed correlated amino acid substitution patterns. Networks of coupled motions, affecting the dynamic and even the functional properties of proteins, may explain this phenomenon <ref type="bibr" target="#b40">[34]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vitro selection for catalysis</head><p>For a successful directed evolution experiment, generating a large library is optional, but being able to recover the targeted progeny is mandatory. The development of novel and improved methods for library analysis is therefore as important as new approaches for creating library diversity. Among the variety of selection and screening techniques <ref type="bibr" target="#b41">[35]</ref>, particularly exciting advances have been reported in three areas of in vitro selection.</p><p>Blackburn, Plu ¨ckthun and co-workers recently demonstrated the ability of phage display to select for catalytic activity, describing a selection based on the complete catalytic cycle of phosphate monoester hydrolysis <ref type="bibr" target="#b42">[36 ]</ref>.</p><p>In their system, catalytic antibodies were identified that could hydrolyze an aryl phosphate. By design, the hydrolysis product spontaneously rearranged into a quinonemethide, which in turn reacted with nucleophiles at or near the active site of the catalyst, thereby capturing the phage particle.</p><p>Although phage display remains the most common technique for in vitro selection, water-in-oil in vitro compartmentalization (IVC) <ref type="bibr" target="#b44">[37]</ref> has emerged as a promising and robust alternative for selecting or screening for catalytic function. Recent implementations have included selection for a HaeIII methyltransferase with altered sequence specificity <ref type="bibr" target="#b45">[38]</ref> and the description of water-in-oil-inwater double emulsions that are readily amenable to screening via fluorescence-activated cell sorting <ref type="bibr" target="#b46">[39]</ref>. IVC has also been used with DNA display libraries, in which biotinylated DNA templates encode streptavidin fusion proteins <ref type="bibr" target="#b47">[40]</ref>. Improvements in this method make it a useful complement to phage display for identifying peptide ligands <ref type="bibr" target="#b48">[41]</ref>. Finally, Griffiths and Tawfik adapted their IVC system to identify functional phosphotriesterase variants from a microbead-displayed library <ref type="bibr" target="#b49">[42 ]</ref>. In an outcome similar to most genetic selections, all 35 variants analyzed had different sequences, and in spite of activities ranging from &lt;1% to 180% that of the wild-type enzyme, the parental sequence was not observed. This observation emphasizes the strong analogy between compartmentalization in the cell and by IVC.</p><p>In an extension of the ribosome display and mRNAprotein fusion systems <ref type="bibr" target="#b51">[43]</ref>, McGregor and co-workers described CIS display <ref type="bibr" target="#b52">[44 ]</ref>. Their approach exploits the ability of the RepA protein to bind exclusively to the DNA from which it has been expressed. A library variant fused to the N terminus of RepA therefore remains tightly associated with its encoding DNA and the stability issues of the RNA-based techniques are avoided. The fidelity of this cis-activity obviates the requirement for any compartmentalization and facilitates transcription and translation entirely in vitro, potentially giving access to very large libraries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks: quality over quantity</head><p>The most heartening developments in the field over the past year have been ideological, not methodological. Inspection of Table <ref type="table" target="#tab_0">1</ref> makes apparent the trend away from simply constructing the largest libraries possible towards identifying variants from smaller, higher quality libraries. As discussed above, improvements in predictive algorithms will facilitate increasingly reliable in silico library prescreening. Further -and in contrast to the approach of the 'blind watchmaker' that typifies most results to date -two noteworthy papers indicate a new willingness to dissect more fundamental aspects of directed evolution in carefully defined systems.</p><p>Rothman and Kirsch have investigated the evolution of tyrosine aminotransferase (TATase) from a narrowspecificity aspartate aminotransferase (AATase) ancestor <ref type="bibr" target="#b54">[45 ]</ref>. Their study compared directly the outcomes of rational redesign <ref type="bibr" target="#b56">[46]</ref> and DNA shuffling. Summarizing the similarities and differences between the two enzymes using Venn diagrams provided a particularly elegant way of investigating 'what makes a TATase'. As expected, mutations in the set AAT -TAT (i.e. residues conserved in AATases but not in TATases) were heavily over-represented in evolved variants. The results also provided an illustration of how directed evolution can be employed to elucidate pathways of natural evolution. In this case they provided further evidence for a model in which the evolution of one specialized enzyme from another, be it in nature or in the laboratory, proceeds via broadspecificity intermediates <ref type="bibr" target="#b57">[47,</ref><ref type="bibr" target="#b58">48]</ref>.</p><p>Finally, Matsumura and co-workers applied the theory and terminology of classical genetics in presenting the first rigorous side-by-side comparison of methods for generating molecular diversity <ref type="bibr" target="#b59">[49 ]</ref>. In addition to their discussion of how sexual and asexual evolutionary approaches lead to distinct progeny, their data demonstrated that even small changes in the screening protocol could alter the experimental outcome.</p><p>In summary, we expect that the powerful combination of in silico and in vitro methods for directed evolution will further accelerate the successful manipulation and tailoring of biocatalysts. Equally exciting, these tools will herald an era in which the untapped potential of directed evolution is applied to fundamental questions of macromolecular structure-function relationships and evolutionary biology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Update</head><p>Liu and co-workers have recently described a modified version of their nonhomologous random recombination (NRR) method for nucleic acid evolution <ref type="bibr" target="#b61">[50]</ref>, enabling its use for protein-encoding genes <ref type="bibr" target="#b62">[51]</ref>. Their novel approach utilized DNA hairpins during gene fragment ligation, affording some control over the reassembly process. Protein NRR on a chorismate mutase model system yielded functional hybrids containing dramatically reordered and recombined parental sequences.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Summary of new technologies for generating molecular diversity.</figDesc><table><row><cell>Methodology</cell><cell>Target</cell><cell cols="2">Library size Outcome</cell><cell>Advantage/disadvantage</cell><cell>Ref.</cell></row><row><cell cols="2">Oligonucleotide-directed randomization</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>MAX randomization</cell><cell>Zinc-finger protein</cell><cell>1 Â 10 2</cell><cell>More uniform codon distribution;</cell><cell>Reduces target</cell><cell>[5 ]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>bias from genetic code removed</cell><cell>library size</cell><cell></cell></row><row><cell>Codon shuffling</cell><cell>TEM-1 b-lactamase</cell><cell>1 Â 10 3</cell><cell>Severely truncated, divergent</cell><cell>Randomization not</cell><cell>[7]</cell></row><row><cell>(hexamer assembly)</cell><cell></cell><cell></cell><cell>sequences retain near-WT activity</cell><cell>constrained by length</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>of parental gene</cell><cell></cell></row><row><cell>Whole gene randomization</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sequence Saturation</cell><cell>Green fluorescent</cell><cell>nr</cell><cell>100 clones sequenced; 88%</cell><cell>Unbiased or controllable</cell><cell>[8]</cell></row><row><cell>Mutagenesis(SeSaM)</cell><cell>protein</cell><cell></cell><cell>of point mutations attributable</cell><cell>mutation spectrum</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>to SeSaM</cell><cell></cell><cell></cell></row><row><cell cols="2">Homology-dependent recombination</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Degenerate homoduplex</cell><cell>Mammalian epidermal</cell><cell>3 Â 10 6</cell><cell>Mouse-human hybrid has</cell><cell>All shuffled variants</cell><cell>[10 ]</cell></row><row><cell>recombination (DHR)</cell><cell>growth factors</cell><cell></cell><cell>123-fold greater mitogenic</cell><cell>equally likely</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>potency</cell><cell></cell><cell></cell></row><row><cell>Synthetic shuffling</cell><cell>15 Bacillus subtilisins</cell><cell>1.5 Â 10 3</cell><cell>20% of variants active; improved</cell><cell>All shuffled variants</cell><cell>[11 ]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>pH and thermostability profiles</cell><cell>equally likely</cell><cell></cell></row><row><cell>Assembly of designed</cell><cell>B. subtilis lipases</cell><cell>3 Â 10 3</cell><cell>Twofold improvements in</cell><cell>All shuffled variants</cell><cell>[12 ]</cell></row><row><cell>oligonucleotides (ADO)</cell><cell>LipA and LipB</cell><cell></cell><cell>conversion and/or</cell><cell>equally likely</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>enantioselectivity</cell><cell></cell><cell></cell></row><row><cell>Recombination-</cell><cell>Green and yellow</cell><cell>nr</cell><cell>All clones analyzed have</cell><cell>Guarantees odd</cell><cell>[14]</cell></row><row><cell>dependent exponential</cell><cell>fluorescent proteins</cell><cell></cell><cell>fluorescence similar to parents</cell><cell>number of crossovers</cell><cell></cell></row><row><cell>amplification PCR</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(RDA-PCR)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Mutagenic and</cell><cell>Serratia</cell><cell>3 Â 10 3</cell><cell>Lipase activity increased</cell><cell>Combines epPCR, DNA</cell><cell>[15]</cell></row><row><cell>unidirectional</cell><cell>phospholipase PlaA</cell><cell></cell><cell>1000-fold; no decrease in</cell><cell>shuffling and unidirectional</cell><cell></cell></row><row><cell>reassembly (MURA)</cell><cell></cell><cell></cell><cell>phospholipase activity</cell><cell>random truncation</cell><cell></cell></row><row><cell>Recombined extension</cell><cell>Two Serratia</cell><cell>8 Â 10 2</cell><cell>1.5-fold increase in activity;</cell><cell>Removes sequence bias</cell><cell>[16]</cell></row><row><cell>on truncated templates</cell><cell>chitinases</cell><cell></cell><cell>epPCR improved thermostability</cell><cell>of DNase I digestion</cell><cell></cell></row><row><cell>(RETT)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Homology-independent recombination</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sequence-independent</cell><cell>TEM-1 and</cell><cell>1.5 Â 10 3</cell><cell>Of 256 possible variants,</cell><cell>Number and locations</cell><cell>[20 ]</cell></row><row><cell>site-directed</cell><cell>PSE-4b-lactamases</cell><cell></cell><cell>14 retain up to 30% WT activity</cell><cell>of crossovers specified</cell><cell></cell></row><row><cell>chimeragenesis (SISDC)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Structure-based</cell><cell>DNA polymerases</cell><cell>6.5 Â 10 5</cell><cell>Hybrids with up to five crossovers</cell><cell>Some variability in linkers</cell><cell>[21]</cell></row><row><cell>combinatorial protein</cell><cell>b and X</cell><cell></cell><cell>complement auxotroph</cell><cell>between specified</cell><cell></cell></row><row><cell>engineering (SCOPE)</cell><cell></cell><cell></cell><cell></cell><cell>subdomain building blocks</cell><cell></cell></row><row><cell>Enhanced crossover</cell><cell>Rat and humanGSTs</cell><cell>1 Â 10 5</cell><cell>Average of 1.4 crossovers per</cell><cell></cell><cell></cell></row><row><cell>SCRATCHY</cell><cell></cell><cell></cell><cell>gene; 1% retain parental activity</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Current Opinion in Biotechnology 2004, 15:291-297 www.sciencedirect.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors wish to thank <rs type="person">Monica Gerth</rs> for her critical reading of this manuscript.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">References and recommended reading Papers of particular interest, published within the annual period of review, have been highlighted as: of special interest of outstanding interest</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">References and recommended reading Papers of particular interest, published within the annual period of review, have been highlighted as: of special interest of outstanding interest</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Discovery of superior enzymes by directed molecular evolution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brakmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="865" to="871" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brakmann S: Discovery of superior enzymes by directed molecular evolution. ChemBioChem 2001, 2:865-871.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Combinatorial protein design: strategies for screening protein libraries</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="480" to="485" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao H, Arnold FH: Combinatorial protein design: strategies for screening protein libraries. Curr Opin Struct Biol 1997, 7:480-485.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chemical and biochemical strategies for the randomization of protein encoding DNA sequences: library construction methods for directed evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Neylon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1448" to="1459" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neylon C: Chemical and biochemical strategies for the randomization of protein encoding DNA sequences: library construction methods for directed evolution. Nucleic Acids Res 2004, 32:1448-1459.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Georgiou</surname></persName>
+		</author>
+		<title level="m">Directed Evolution Library Construction: Methods and Protocols</title>
+		<meeting><address><addrLine>Totowa, New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold FH, Georgiou G (Ed): Directed Evolution Library Construction: Methods and Protocols Totowa, New Jersey: Humana Press; 2003.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Removing the redundancy from randomised gene libraries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Nagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Hine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="973" to="979" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes MD, Nagel DA, Santos AF, Sutherland AJ, Hine AV: Removing the redundancy from randomised gene libraries. J Mol Biol 2003, 331:973-979.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">A description of an oligonucleotide-based randomization procedure for removing library biases that arise from degeneracy in the genetic code. This &apos;MAX&apos; randomization also has the advantage of decreasing target library sizes at the DNA level</title>
+		<imprint/>
+	</monogr>
+	<note>with no loss of diversity at the protein level</note>
+	<note type="raw_reference">A description of an oligonucleotide-based randomization procedure for removing library biases that arise from degeneracy in the genetic code. This &apos;MAX&apos; randomization also has the advantage of decreasing target library sizes at the DNA level, with no loss of diversity at the protein level.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Method to protect a targeted amino acid residue during random mutagenesis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Umeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">91</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Umeno D, Hiraga K, Arnold FH: Method to protect a targeted amino acid residue during random mutagenesis. Nucleic Acids Res 2003, 31:e91.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Protein evolution by &apos;codon shuffling&apos;: a novel method for generating highly variant mutant libraries by assembly of hexamer DNA duplexes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ranganathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="917" to="926" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chopra S, Ranganathan A: Protein evolution by &apos;codon shuffling&apos;: a novel method for generating highly variant mutant libraries by assembly of hexamer DNA duplexes. Chem Biol 2003, 10:917-926.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sequence saturation mutagenesis (SeSaM): a novel method for directed evolution</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Tee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">26</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong TS, Tee KL, Hauer B, Schwaneberg U: Sequence saturation mutagenesis (SeSaM): a novel method for directed evolution. Nucleic Acids Res 2004, 32:e26.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Randomization of genes by PCR mutagenesis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Cadwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Joyce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PCR Methods Appl</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="28" to="33" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cadwell RC, Joyce GF: Randomization of genes by PCR mutagenesis. PCR Methods Appl 1992, 2:28-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Growth factor engineering by degenerate homoduplex gene family recombination</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Coco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Encell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Levinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Crist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Loomis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Licato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Arensdorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Pienkos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Monticello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1246" to="1250" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coco WM, Encell LP, Levinson WE, Crist MJ, Loomis AK, Licato LL, Arensdorf JJ, Sica N, Pienkos PT, Monticello DJ: Growth factor engineering by degenerate homoduplex gene family recombination. Nat Biotechnol 2002, 20:1246-1250.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">A novel method for synthetic recombination in vitro, in which all polymorphisms from a variety of mammalian epidermal growth factor genes were encoded in three &apos;top-strand&apos; and two &apos;bottom-strand&apos; oligonucleotides. Regions of overlap between top and bottom strands facilitated partial homoduplex formation, allowing top strand synthesis to be completed by gap filling and ligation. The result was completely unbiased randomization</title>
+		<imprint/>
+	</monogr>
+	<note>independent of the tightness of linkage between parental polymorphisms</note>
+	<note type="raw_reference">A novel method for synthetic recombination in vitro, in which all poly- morphisms from a variety of mammalian epidermal growth factor genes were encoded in three &apos;top-strand&apos; and two &apos;bottom-strand&apos; oligonucleo- tides. Regions of overlap between top and bottom strands facilitated partial homoduplex formation, allowing top strand synthesis to be com- pleted by gap filling and ligation. The result was completely unbiased randomization, independent of the tightness of linkage between parental polymorphisms.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Synthetic shuffling expands functional protein diversity by allowing amino acids to recombine independently</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gottman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krebber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Borchert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Mundorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minshull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1251" to="1255" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ness JE, Kim S, Gottman A, Pak R, Krebber A, Borchert TV, Govindarajan S, Mundorff EC, Minshull J: Synthetic shuffling expands functional protein diversity by allowing amino acids to recombine independently. Nat Biotechnol 2002, 20:1251-1255.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">As with [10 ] and [12 ], the synthetic shuffling protocol makes all shuffled progeny equally likely regardless of linkage, effectively increasing library diversity</title>
+		<author>
+			<persName><surname>Designed</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>overlapping oligonucleotides encoding all the genetic diversity in 15 Bacillus subtilisin genes were assembled in a modified DNA shuffling reaction</note>
+	<note type="raw_reference">Designed, overlapping oligonucleotides encoding all the genetic diversity in 15 Bacillus subtilisin genes were assembled in a modified DNA shuffling reaction. As with [10 ] and [12 ], the synthetic shuffling protocol makes all shuffled progeny equally likely regardless of linkage, effectively increas- ing library diversity.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Assembly of designed oligonucleotides as an efficient method for gene recombination: a new tool in directed evolution</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Eipper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="34" to="39" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zha D, Eipper A, Reetz MT: Assembly of designed oligonucleotides as an efficient method for gene recombination: a new tool in directed evolution. ChemBioChem 2003, 4:34-39.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">User-friendly algorithms for estimating completeness and diversity in randomized protein-encoding libraries</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Patrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Firth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Blackburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="451" to="457" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patrick WM, Firth AE, Blackburn JM: User-friendly algorithms for estimating completeness and diversity in randomized protein-encoding libraries. Protein Eng 2003, 16:451-457.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Chimeric gene library construction by a simple and highly versatile method using recombination-dependent exponential amplification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ikeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawarasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shinbata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Prog</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1460" to="1467" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ikeuchi A, Kawarasaki Y, Shinbata T, Yamane T: Chimeric gene library construction by a simple and highly versatile method using recombination-dependent exponential amplification. Biotechnol Prog 2003, 19:1460-1467.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Construction of DNAshuffled and incrementally truncated libraries by a mutagenic and unidirectional reassembly method: changing from a substrate specificity of phospholipase to that of lipase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Rhee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="6146" to="6151" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Song JK, Chung B, Oh YH, Rhee JS: Construction of DNA- shuffled and incrementally truncated libraries by a mutagenic and unidirectional reassembly method: changing from a substrate specificity of phospholipase to that of lipase. Appl Environ Microbiol 2002, 68:6146-6151.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A new approach to directed gene evolution by recombined extension on truncated templates (RETT)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E-S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Piao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jyj</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Catal, B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="119" to="129" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee SH, Ryu EJ, Kang MJ, Wang E-S, Piao Z, Choi YJ, Jung KH, Jeon JYJ, Shin YC: A new approach to directed gene evolution by recombined extension on truncated templates (RETT). J Mol Catal, B Enzym 2003, 26:119-129.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Molecular evolution by staggered extension process (StEP) in vitro recombination</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Affholter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="258" to="261" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao H, Giver L, Shao Z, Affholter JA, Arnold FH: Molecular evolution by staggered extension process (StEP) in vitro recombination. Nat Biotechnol 1998, 16:258-261.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A combinatorial approach to hybrid enzymes independent of DNA homology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1205" to="1209" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ostermeier M, Shim JH, Benkovic SJ: A combinatorial approach to hybrid enzymes independent of DNA homology. Nat Biotechnol 1999, 17:1205-1209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Rapid generation of incremental truncation libraries for protein engineering using a-phosphothioate nucleotides</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz S, Ostermeier M, Benkovic SJ: Rapid generation of incremental truncation libraries for protein engineering using a-phosphothioate nucleotides. Nucleic Acids Res 2001, 29:e16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">General method for sequence-independent site-directed chimeragenesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="287" to="296" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hiraga K, Arnold FH: General method for sequence-independent site-directed chimeragenesis. J Mol Biol 2003, 330:287-296.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Computer-aided combinatorial engineering of b-lactamases, using the authors&apos; SCHEMA algorithm [29]. The seamless fusion of predicted protein fragments from TEM-1 and PSE-4 via type II restriction endonucleases resulted in homology-independent recombination with high numbers of crossovers</title>
+		<imprint/>
+	</monogr>
+	<note>Functional hybrids were identified</note>
+	<note type="raw_reference">Computer-aided combinatorial engineering of b-lactamases, using the authors&apos; SCHEMA algorithm [29]. The seamless fusion of predicted protein fragments from TEM-1 and PSE-4 via type II restriction endonu- cleases resulted in homology-independent recombination with high num- bers of crossovers. Functional hybrids were identified.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Structure-based combinatorial protein engineering (SCOPE)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>O'maille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakhtina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="677" to="691" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Maille PE, Bakhtina M, Tsai MD: Structure-based combinatorial protein engineering (SCOPE). J Mol Biol 2002, 321:677-691.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Creating multiple-crossover DNA libraries independent of sequence identity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11248" to="11253" />
+			<date type="published" when="2001">2001</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz S, Ostermeier M, Moore GL, Maranas CD, Benkovic SJ: Creating multiple-crossover DNA libraries independent of sequence identity. Proc Natl Acad Sci USA 2001, 98:11248-11253.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A universal, vector-based system for nucleic acid reading-frame selection</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1025" to="1030" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz S, Fast W, Benkovic SJ: A universal, vector-based system for nucleic acid reading-frame selection. Protein Eng 2002, 15:1025-1030.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Enhanced crossover SCRATCHY: construction and high-throughput screening of a combinatorial library containing multiple non-homologous crossovers</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawarasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Griswold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Stevenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Selzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Georgiou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">126</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawarasaki Y, Griswold KE, Stevenson JD, Selzer T, Benkovic SJ, Iverson BL, Georgiou G: Enhanced crossover SCRATCHY: construction and high-throughput screening of a combinatorial library containing multiple non-homologous crossovers. Nucleic Acids Res 2003, 31:e126.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">A simple but effective method for addressing the original SCRATCHY protocol&apos;s limited crossover numbers. Portions of parental ITCHY libraries containing crossovers are amplified before shuffling, raising the probability of incorporating such fragments during subsequent reassembly and increasing the mean number of crossovers per sequence</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A simple but effective method for addressing the original SCRATCHY protocol&apos;s limited crossover numbers. Portions of parental ITCHY libraries containing crossovers are amplified before shuffling, raising the probability of incorporating such fragments during subsequent reas- sembly and increasing the mean number of crossovers per sequence.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Computational challenges in combinatorial library design for protein engineering</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIChE J</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="262" to="272" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore GL, Maranas CD: Computational challenges in combinatorial library design for protein engineering. AIChE J 2004, 50:262-272.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Computational design of a Zn 2R receptor that controls bacterial gene expression</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dwyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Looger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hellinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="11255" to="11260" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dwyer MA, Looger LL, Hellinga HW: Computational design of a Zn 2R receptor that controls bacterial gene expression. Proc Natl Acad Sci USA 2003, 100:11255-11260.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Design of a novel globular protein fold with atomic-level accuracy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuhlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dantas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Ireton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Varani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">302</biblScope>
+			<biblScope unit="page" from="1364" to="1368" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuhlman B, Dantas G, Ireton GC, Varani G, Stoddard BL, Baker D: Design of a novel globular protein fold with atomic-level accuracy. Science 2003, 302:1364-1368.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Computational and experimental analysis of DNA shuffling</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maheshri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Schaffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="3071" to="3076" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maheshri N, Schaffer DV: Computational and experimental analysis of DNA shuffling. Proc Natl Acad Sci USA 2003, 100:3071-3076.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Protein building blocks preserved by recombination</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="553" to="558" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voigt CA, Martinez C, Wang ZG, Mayo SL, Arnold FH: Protein building blocks preserved by recombination. Nat Struct Biol 2002, 9:553-558.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Library analysis of SCHEMA-guided protein recombination</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Silberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Endelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1686" to="1693" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyer MM, Silberg JJ, Voigt CA, Endelman JB, Mayo SL, Wang ZG, Arnold FH: Library analysis of SCHEMA-guided protein recombination. Protein Sci 2003, 12:1686-1693.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Identifying residue-residue clashes in protein hybrids by using a second-order mean-field approach</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="5091" to="5096" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore GL, Maranas CD: Identifying residue-residue clashes in protein hybrids by using a second-order mean-field approach. Proc Natl Acad Sci USA 2003, 100:5091-5096.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">A detailed predictive framework offering valuable guidance for the identification and quantification of residue-residue clashes in protein hybrids. Calculations on two model systems, dihydrofolate reductase and glycinamide ribonucleotide formyltransferase</title>
+		<imprint/>
+	</monogr>
+	<note>demonstrated the accuracy of the simulations</note>
+	<note type="raw_reference">A detailed predictive framework offering valuable guidance for the iden- tification and quantification of residue-residue clashes in protein hybrids. Calculations on two model systems, dihydrofolate reductase and glyci- namide ribonucleotide formyltransferase, demonstrated the accuracy of the simulations.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Using multiple sequence correlation analysis to characterize functionally important protein regions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Saraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="397" to="406" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saraf MC, Moore GL, Maranas CD: Using multiple sequence correlation analysis to characterize functionally important protein regions. Protein Eng 2003, 16:397-406.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">FamClash: a method for ranking the activity of engineered enzymes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Saraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Horswill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Benkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maranas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="4142" to="4147" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saraf MC, Horswill AR, Benkovic SJ, Maranas CD: FamClash: a method for ranking the activity of engineered enzymes. Proc Natl Acad Sci USA 2004, 101:4142-4147.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Evolutionarily conserved networks of residues mediate allosteric communication in proteins</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Suel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Lockless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ranganathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="59" to="69" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suel GM, Lockless SW, Wall MA, Ranganathan R: Evolutionarily conserved networks of residues mediate allosteric communication in proteins. Nat Struct Biol 2003, 10:59-69.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Georgiou</surname></persName>
+		</author>
+		<title level="m">Directed Enzyme Evolution: Screening and Selection Methods</title>
+		<meeting><address><addrLine>Totowa, New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold FH, Georgiou G (Ed): Directed Enzyme Evolution: Screening and Selection Methods Totowa, New Jersey: Humana Press; 2003.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Plu ¨ckthun A: Turnover-based in vitro selection and evolution of biocatalysts from a fully synthetic antibody library</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cesaro-Tadic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lagos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Honegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Rickard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Partridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blackburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="679" to="685" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cesaro-Tadic S, Lagos D, Honegger A, Rickard JH, Partridge LJ, Blackburn GM, Plu ¨ckthun A: Turnover-based in vitro selection and evolution of biocatalysts from a fully synthetic antibody library. Nat Biotechnol 2003, 21:679-685.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">When incubated with immobilized 2-difluoromethylphenyl phosphate as the substrate, proteins that cleaved the phosphate ester bond generated a reactive intermediate, which immediately captured the catalyst and its associated phage particle</title>
+		<imprint/>
+	</monogr>
+	<note>An excellent example of functional selection based on single-turnover chemistry. The authors sought novel phosphatases from a phagedisplayed antibody library Phage recovery led to the identification of several novel functional phosphatases</note>
+	<note type="raw_reference">An excellent example of functional selection based on single-turnover chemistry. The authors sought novel phosphatases from a phage- displayed antibody library. When incubated with immobilized 2-difluo- romethylphenyl phosphate as the substrate, proteins that cleaved the phosphate ester bond generated a reactive intermediate, which immediately captured the catalyst and its associated phage particle. Phage recovery led to the identification of several novel functional phosphatases.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Man-made cell-like compartments for molecular evolution</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="652" to="656" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tawfik DS, Griffiths AD: Man-made cell-like compartments for molecular evolution. Nat Biotechnol 1998, 16:652-656.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Promiscuous methylation of non-canonical DNA sites by HaeIII methyltransferase</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="3880" to="3885" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen HM, Tawfik DS, Griffiths AD: Promiscuous methylation of non-canonical DNA sites by HaeIII methyltransferase. Nucleic Acids Res 2002, 30:3880-3885.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">In vitro compartmentalization by double emulsions: sorting and gene enrichment by fluorescence activated cell sorting</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bernath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mastrobattista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magdassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Biochem</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernath K, Hai M, Mastrobattista E, Griffiths AD, Magdassi S, Tawfik DS: In vitro compartmentalization by double emulsions: sorting and gene enrichment by fluorescence activated cell sorting. Anal Biochem 2004, 325:151-157.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">STABLE: protein-DNA fusion system for screening of combinatorial protein libraries in vitro</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yanagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doi N, Yanagawa H: STABLE: protein-DNA fusion system for screening of combinatorial protein libraries in vitro. FEBS Lett 1999, 457:227-230.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">DNA display for in vitro selection of diverse peptide libraries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yonezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashinakagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yanagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">118</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yonezawa M, Doi N, Kawahashi Y, Higashinakagawa T, Yanagawa H: DNA display for in vitro selection of diverse peptide libraries. Nucleic Acids Res 2003, 31:e118.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="24" to="35" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griffiths AD, Tawfik DS: Directed evolution of an extremely fast phosphotriesterase by in vitro compartmentalization. EMBO J 2003, 22:24-35.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">In vitro compartmentalization provides the opportunity to select not only for substrate binding, product formation and rate acceleration, but also for turnover. Testing their system on bacterial phosphotriesterases, the authors identified variants with up to 63-fold increased k cat</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">In vitro compartmentalization provides the opportunity to select not only for substrate binding, product formation and rate acceleration, but also for turnover. Testing their system on bacterial phosphotriesterases, the authors identified variants with up to 63-fold increased k cat .</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">In vitro selection and evolution of proteins</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Plu ¨ckthun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schaffitzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jermutus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Protein Chem</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="367" to="403" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Plu ¨ckthun A, Schaffitzel C, Hanes J, Jermutus L: In vitro selection and evolution of proteins. Adv Protein Chem 2000, 55:367-403.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">CIS display: In vitro selection of peptides from libraries of protein-DNA complexes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Odegrip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Coomber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hederer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kuhlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ullman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcgregor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="2806" to="2810" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Odegrip R, Coomber D, Eldridge B, Hederer R, Kuhlman PA, Ullman C, FitzGerald K, McGregor D: CIS display: In vitro selection of peptides from libraries of protein-DNA complexes. Proc Natl Acad Sci USA 2004, 101:2806-2810.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">An elegant and potentially very powerful new in vitro selection system. On fusing the genes for a peptide library to repA, in vitro transcription/ translation results in a translation product that can capture its own DNA template before polymerase and ribosome dissociation. Formed exclusively in cis, the tightly bound protein-DNA complex comprises a stable link of genotype and phenotype</title>
+		<imprint/>
+	</monogr>
+	<note>ready for functional selection</note>
+	<note type="raw_reference">An elegant and potentially very powerful new in vitro selection system. On fusing the genes for a peptide library to repA, in vitro transcription/ translation results in a translation product that can capture its own DNA template before polymerase and ribosome dissociation. Formed exclusively in cis, the tightly bound protein-DNA complex comprises a stable link of genotype and phenotype, ready for functional selec- tion.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">How does an enzyme evolved in vitro compare to naturally occurring homologs possessing the targeted function? Tyrosine aminotransferase from aspartate aminotransferase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Rothman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kirsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="page" from="593" to="608" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothman SC, Kirsch JF: How does an enzyme evolved in vitro compare to naturally occurring homologs possessing the targeted function? Tyrosine aminotransferase from aspartate aminotransferase. J Mol Biol 2003, 327:593-608.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Detailed comparisons of rational design with DNA shuffling and of natural evolution with directed evolution. The novel use of set theory in the analysis of the parental and evolved enzymes proved particularly insightful</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Detailed comparisons of rational design with DNA shuffling and of natural evolution with directed evolution. The novel use of set theory in the analysis of the parental and evolved enzymes proved particularly insightful.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Redesign of the substrate specificity of Escherichia coli aspartate aminotransferase to that of Escherichia coli tyrosine aminotransferase by homology modeling and site-directed mutagenesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Onuffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kirsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1750" to="1757" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Onuffer JJ, Kirsch JF: Redesign of the substrate specificity of Escherichia coli aspartate aminotransferase to that of Escherichia coli tyrosine aminotransferase by homology modeling and site-directed mutagenesis. Protein Sci 1995, 4:1750-1757.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">In vitro evolution of b-glucuronidase into a b-galactosidase proceeds through non-specific intermediates</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Matsumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Ellington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">305</biblScope>
+			<biblScope unit="page" from="331" to="339" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matsumura I, Ellington AD: In vitro evolution of b-glucuronidase into a b-galactosidase proceeds through non-specific intermediates. J Mol Biol 2001, 305:331-339.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Site-directed mutagenesis of Tyr354 in Geobacillus stearothermophilus alanine racemase identifies a role in controlling substrate specificity and a possible role in the evolution of antibiotic resistance</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Patrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weisner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Blackburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="789" to="792" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patrick WM, Weisner J, Blackburn JM: Site-directed mutagenesis of Tyr354 in Geobacillus stearothermophilus alanine racemase identifies a role in controlling substrate specificity and a possible role in the evolution of antibiotic resistance. ChemBioChem 2002, 3:789-792.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A comparison of directed evolution approaches using the b-glucuronidase model system</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Geddie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">B</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Matsumura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="851" to="860" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowe LA, Geddie ML, Alexander OB, Matsumura I: A comparison of directed evolution approaches using the b-glucuronidase model system. J Mol Biol 2003, 332:851-860.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">The authors used their well-defined model system to compare the results of DNA shuffling and epPCR approaches, under selection pressures of varying but controlled stringency</title>
+		<imprint/>
+	</monogr>
+	<note>Their analysis offered a glimpse of the fundamental processes determining the outcomes of directed evolution experiments</note>
+	<note type="raw_reference">The authors used their well-defined model system to compare the results of DNA shuffling and epPCR approaches, under selection pressures of varying but controlled stringency. Their analysis offered a glimpse of the fundamental processes determining the outcomes of directed evolution experiments.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Nucleic acid evolution and minimization by nonhomologous random recombination</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bittker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1024" to="1029" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bittker JA, Le BV, Liu DR: Nucleic acid evolution and minimization by nonhomologous random recombination. Nat Biotechnol 2002, 20:1024-1029.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Directed evolution of protein enzymes using nonhomologous random recombination</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bittker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="7011" to="7016" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bittker JA, Le BV, Liu JM, Liu DR: Directed evolution of protein enzymes using nonhomologous random recombination. Proc Natl Acad Sci USA 2004, 101:7011-7016.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

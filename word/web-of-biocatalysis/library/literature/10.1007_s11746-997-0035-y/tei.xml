@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparative Study of Commercially Available Lipases in Hydrolysis Reaction of Phosphatidylcholine</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Fumiko</forename><surname>Hara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Toshimitsu</forename><surname>Nakashima</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hideki</forename><surname>Fukuda</surname></persName>
+							<email>fukuda@appchem.chme.kobe-u.ac.jp</email>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Research Laboratories</orgName>
+								<orgName type="institution" key="instit1">a Research Institute</orgName>
+								<orgName type="institution" key="instit2">Kaneka Corporation</orgName>
+								<address>
+									<postCode>676</postCode>
+									<settlement>Hyogo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Sci- ence and Technology</orgName>
+								<orgName type="institution">Kobe University</orgName>
+								<address>
+									<addrLine>1-1 Rokkodaicho</addrLine>
+									<postCode>657</postCode>
+									<settlement>Nada Kobe</settlement>
+									<region>Hyogo</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Molecular Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Science and Technology</orgName>
+								<orgName type="institution">Kobe University</orgName>
+								<address>
+									<postCode>657</postCode>
+									<settlement>Hyogo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Comparative Study of Commercially Available Lipases in Hydrolysis Reaction of Phosphatidylcholine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">52BE7DC6A0E21D17FF7071B49A702E8E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Fungi</term>
+					<term>hydrolysis</term>
+					<term>lipase</term>
+					<term>phosphatidylcholine</term>
+					<term>positional specificity</term>
+					<term>reverse micelle</term>
+					<term>source organism</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Nineteen commercial lipase preparations were compared with respect to their ability to hydrolyze phosphatidylcholine (PC) in a reverse micellar system. In terms of the source organism, lipases from Mucor or Rhizopus species showed comparatively high reactivity, while those from Aspergillus and Humicola sp. exhibited little PC hydrolysis activity. Almost no hydrolysis reaction was observed by positionally nonspecific lipases derived from Candida sp. The results suggest that particular attention should be paid to the source organism in selecting lipases for use in the enzymatic conversion of phospholipids.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Phospholipids, which are important structural components of cell membranes, have recently been receiving increasing attention in the pharmaceutical, food, cosmetics, and other industries because of their inherent physiological activities <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>, as well as for use as natural emulsifiers <ref type="bibr" target="#b4">(5)</ref>. Phospholipids that exist in nature contain several fatty acids, the proportions depending on the source. For some practical applications, it is desirable to obtain phospholipids with specific fatty acids, which has prompted much research into changing the fatty acid composition of phospholipids by enzymatic conversion methods, such as hydrolysis <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>, esterification <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref>, or transesterification <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>.</p><p>Enzymes are attractive catalysts for these transformations because of the mild reaction conditions employed and their high stereochemical or positional specificities. Lipases are frequently used in such reactions because phospholipids are generally included within their substrate range, and they are commercially available from a wide range of organisms. In selecting an enzyme to catalyze a reaction, it is important to choose one with a good level of reactivity for the target substrate. Although lipases from many sources have appeared in the literature on phospholipid modification research, including those from Mucor miehei (Lipozyme) <ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b21">22)</ref>, M. javan-icus <ref type="bibr" target="#b18">(19)</ref>, Candida cylindracea (rugosa ) <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref>, C. antartica <ref type="bibr" target="#b10">(11)</ref>, Candida sp. <ref type="bibr" target="#b13">(14)</ref>, Humicola lanuginosa <ref type="bibr" target="#b11">(12)</ref>, Rhizopus delemar <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20)</ref>, R. niveus <ref type="bibr" target="#b11">(12)</ref>, R. javanicus <ref type="bibr" target="#b11">(12)</ref>, R. arrhizus <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b17">18)</ref>, Rhizopus sp. <ref type="bibr" target="#b18">(19)</ref>, Penicillium cyclopium <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b11">12)</ref>, Aspergillus niger <ref type="bibr" target="#b9">(10)</ref>, Pseudomonas sp. <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>, potato tubers <ref type="bibr" target="#b16">(17)</ref>, porcine pancreas <ref type="bibr" target="#b16">(17)</ref>, and calf pregastric <ref type="bibr" target="#b11">(12)</ref>, the reaction conditions used in these studies have varied widely, making it difficult to compare the various lipases in terms of their reactivities for phospholipids. We therefore attempted in the present work to compare a broad range of commercially available lipase preparations under identical reaction conditions. Hydrolysis of phosphatidylcholine (PC) in a reverse micellar system with sodium bis(2-ethylhexyl) sulfosuccinate (AOT) was chosen as the reaction for evaluating the reactivities of the lipases, our reasoning being that, because enzymes added to this system would be dissolved in the reverse micelles and adsorb onto the hydrophobic interface, they would be fully activated by what is known as "interfacial activation" <ref type="bibr" target="#b22">(23)</ref>, unlike in microaqueous organic media in which transesterification occurs <ref type="bibr" target="#b23">(24)</ref>.</p><p>The performances of nineteen commercial lipases in hydrolyzing PC in this reverse micellar system are compared with respect to their source organism and positional specificity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials.</head><p>Lipases from R. delemar (6000 U/mg) and C. cylindracea (10,000 U/mg) were purchased from Seikagaku Kogyo Co., Ltd. (Tokyo, Japan). Lipozyme 10.000L (10 U/mg), SP388 (20 U/mg), SP398 (50 U/mg), SP523 (4000 U/mg), SP524 (2500 U/mg), SP525 (150 U/mg), SP526 (25 U/mg), Paratase A (0.75 U/mg), Paratase M (1 U/mg), and the immobilized lipases Lipozyme IM20 [25 Batch Interesterification Units (BIU)/g] and SP435 (7 U/mg) were generous gifts from Novo Nordisk (Bagsvaerd, Denmark). Lipase A6 (60 U/mg), Lipase AY30 (30 U/mg), Lipase F (150 U/mg), Lipase M10 (10 U/mg), Newlase F (30 U/mg), and Pancreatin F (0.75 U/mg) were kindly supplied by Amano Pharmaceutical Co., Ltd. (Nagoya, Japan). The source organisms of all these lipases are listed in Table <ref type="table">1</ref>. Phospholipase C (PLC) (Type III, from Bacillus cereus), which was used to determine the positional specificity of the above lipases for PC, was obtained from Sigma Chemical Company (St. Louis, MO). Egg yolk phosphatidylcholine (PC), used as the substrate, was purchased from Asahi Chemical Industry (Osaka, Japan). All other chemicals were of analytical grade and were obtained from commercial sources.</p><p>Hydrolysis reaction and analysis. A reaction mixture consisting of 5 mL isooctane, containing PC (50 mg, 65 µmol) and AOT (50 mg), 1 mL buffer (0.1 M borate-HCl with 1 mM CaCl 2 , pH 7.5), and 250 U lipase, unless otherwise stated, was stirred magnetically in sealed screw-capped tubes at 30°C. Periodically, 100-µL aliquots were withdrawn and mixed with 100 µL CHCl 3 /MeOH (2:1, vol/vol) and 100 µL H 2 O. After centrifugation, the organic layer was applied onto a silica gel rod (SIII; Iatron Laboratories, Tokyo, Japan) and developed by CHCl 3 /MeOH/H 2 O (20:10:1, vol/vol/vol). The amounts of PC and lysophosphatidylcholine (LPC) in the hydrolysates were determined by an Iatroscan TH-10 TLC analyzer, equipped with an SIC chromatorecorder II (Iatron Laboratories) by using the relationship between the peak area ratio and the molar ratio, obtained in advance. The degree of PC hydrolysis was calculated according to Equation 1: degree of hydrolysis (%) = LPC/(LPC + remaining PC) × 100 <ref type="bibr" target="#b0">[1]</ref> Determination of positional specificity. To investigate the positional specificities of the lipases for PC, the LPC produced was hydrolyzed to monoglycerides (MG) with PLC as follows (1-MG and 2-MG are formed from 1-LPC and 2-LPC, respectively). After the hydrolysis reaction, 1 mL of the reaction mixture was added to 2 mL CHCl 3 /MeOH (2:1, vol/vol) to stop the reaction, and the solvent was then removed by evaporation. The residue was dissolved into 1 mL diethyl ether, and dispersed in 200 µL of 20 mM Tris-HCl buffer (pH 7.5) that contained 10 mM CaCl 2 , followed by incubation with 2.5 U PLC at 30°C until the LPC was completely hydrolyzed. The upper layer was then developed by CHCl 3 /acetone (9:1, vol/vol) on an HBO 3 -coated silica gel rod capable of separating MG isomers. The resulting MG isomers were qualitatively identified from their respective R f values with the same analytical devices described in the Hydrolysis reaction and analysis section.</p><p>To confirm the positional specificity of one of the lipases, Pancreatin F, against triglycerides, we also carried out the hydrolysis reaction with olive oil, and identified the structural isomers of the hydrolyzed products (diglycerides and MG). The reaction procedure was the same as that described for the hydrolysis of PC, expect that olive oil was used in place of PC. After allowing the reaction to proceed for over 4 h, the organic layer was directly analyzed on an HBO 3 -coated silica gel rod in a similar manner to that described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>The degrees of hydrolysis by the 19 lipases after 24-and 48h reactions are given in Table <ref type="table">1</ref>, together with the names of the suppliers, source organisms, and information on the positional specificity of the lipases for triglycerides, obtained</p><p>1130 F. HARA ET AL.</p><p>JAOCS, Vol. 74, no. 9 (1997)</p><p>TABLE 1 Comparison of Commercially Available Lipases in Hydrolysis of Phosphatidylcholine (PC) Degree of hydrolysis [%] Positional specificity Enzyme Supplier a Source organism (at 24 h) (at 48 h) (for PC) (for triglycerides) Lipase M10 A Mucor javanicus 100 b sn-1 Specific 1,3-Specific Lipozyme IM20 N M. miehei 100 c sn-1 Specific 1,3-Specific Pancreatin F A Hog pancreas 100 sn-2 Specific 1,3-Specific SP388 N M. miehei d 74.1 89.0 sn-1 Specific 1,3-Specific Lipozyme 10.000L N M. miehei 77.1 94.0 sn-1 Specific 1,3-Specific SP524 N Mucor sp. d 53.0 84.0 sn-1 Specific 1,3-Specific Lipase F A Rhizopus sp. 48.7 62.7 sn-1 Specific 1,3-Specific Lipase (from R. delemar) S R. delemar 42.9 46.0 sn-1 Specific 1,3-Specific Newlase F A R. delemar 21.6 35.5 sn-1 Specific 1,3-Specific SP435 N Candida antartica d 4.1 7.2 sn-1 Specific Nonspecific Paratase A N Aspergillus sp. 2.9 7.2 sn-1 Specific 1,3-Specific Lipase A6 A A. niger 1.3 2.6 1,3-Specific SP523 N Humicola sp. d 0.0 11.0 sn-1 Specific 1,3-Specific SP398 N Humicola sp. 0.0 6.0 sn-1 Specific 1,3-Specific Paratase M N M. miehei 0.0 1.0 1,3-Specific SP525 N Candida sp. d 0.0 0.0 Nonspecific SP526 N Candida sp. d 0.0 0.0 Unknown e Lipase AY30 A C. cylindracea 0.0 0.0 Nonspecific Lipase (from C. cylindracea) S C. cylindracea 0.0 0.0 Nonspecific</p><p>from the respective suppliers. The positional specificities of these lipases for PC, obtained in this work, are also shown. The commercially available lipases tested could be classified into three groups. The first group (type 1), Lipozyme IM 20, Lipase M10, and Pancreatin F, had high hydrolysis activity for PC, hydrolyzing it completely within 24 h. Of the three type-1 lipases, that obtained from M. javanicus (Lipase M10) was the most active, the PC being completely hydrolyzed after only 1.5-h reaction. Lipozyme IM20 and Lipase M10 showed sn-1 positional specificity for PC, which is the same as that for triglycerides. Pancreatin F, however, attacked the sn-2 position of PC, which is different from its specificity for triglycerides. Pancreatin F is derived from hog pancreas, in which another lipolytic enzyme, phospholipase A 2 (PLA 2 ), capable of attacking the sn-2 position of phospholipids, is known to occur <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b24">25)</ref>. It is thus thought that Pancreatin F may consist of a mixture of lipases and PLA 2 . To verify this, Pancreatin F was employed in a hydrolysis reaction with olive oil. In this situation, the enzyme exhibited 1, 3-positional specificity for olive oil, indicating that it is obviously a mixture of the two enzymes, and that the PLA 2 in Pancreatin F dominantly hydrolyze PC because of their superiority over lipases in PC hydrolysis.</p><p>The second group (type 2), consisting of SP388, SP524, Lipozyme 10.000L, Lipase F, Newlase F and Lipase from R. delemar, showed moderate activity in PC hydrolysis; the degree of hydrolysis increased gradually with reaction time, but complete hydrolysis was not attained during 48-h reaction. To determine whether the hydrolysis reactions of these lipases ceased while incomplete or whether it was only that the reaction rates were slower than those of the type-1 lipases, similar hydrolysis reactions were performed with an increased amount of enzyme from 250 to 1000 U (for SP388, SP524, Lipozyme 10.000L, and Lipase F) or 2000 U (for Newlase F, and Lipase from R. delemar). As a result, all type-2 lipases completely hydrolyzed PC, suggesting that type-1 and type-2 lipases differ only in their reaction rates. The positional specificities of all type-2 lipases for PC were the same as those for triglycerides.</p><p>Lipases of the third group (type 3), which consisted of SP398, SP435, SP523, SP525, SP526, Paratase A, Paratase M, Lipase A6, Lipase AY30, and Lipase from C. cylindracea, showed little or no hydrolysis of PC, and almost no improvement was realized when the amount of enzyme added was increased in the same way as for the type-2 lipases.</p><p>The lipases belonging to type 1 are from Mucor species, while those of type 2 are from Mucor or Rhizopus sp. Lipases derived from Aspergillus and Humicola sp. (type 3) had little PC hydrolysis activity, in spite of being derived from fungi and/or showing 1,3-positional specificity for triglycerides like the lipases of type 1 and 2. It is also interesting that all positionally nonspecific lipases, derived from Candida sp. as tested in this study, were of type 3 and showed almost no PC hydrolysis activity. These results suggest that lipases from Mucor or Rhizopus sp. should preferably be selected for use in the enzymatic conversion of phospholipids.</p><p>Svensson et al. <ref type="bibr" target="#b16">(17)</ref> compared the reactivities of commer-cial lipases toward phospholipids in a transesterification reaction, paying special attention to their source organisms, and found a tendency similar to that observed in the present study. However, several other researchers have reported appreciable activities for lipases from Candida sp. <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b20">21)</ref>, A. niger <ref type="bibr" target="#b9">(10)</ref> or Humicola sp. <ref type="bibr" target="#b11">(12)</ref> in the hydrolysis or transesterification of phospholipids. The discrepancy between their results and ours is probably due to differences in the reaction conditions employed [i.e., hydrolysis or transesterification reaction with limited water <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14)</ref>] and enzyme purity [for instance, A. niger seems to have the potential to produce PLA 1 or PLA 2 <ref type="bibr" target="#b9">(10)</ref>], and/or modification of lipases by polyethylene glycol <ref type="bibr" target="#b20">(21)</ref>.</p><p>Although not all lipase preparations that are commercially available worldwide were examined in this work, we believe that the results presented here provide information that will be useful in selecting lipases suitable for use in the enzymatic conversion of phospholipids.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENT</head><p>The authors are grateful to <rs type="person">Prof. T. Yamane</rs>, <rs type="affiliation">Department of Applied Biological Sciences, Faculty of Agriculture, Nagoya University</rs>, for his valuable comments.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Antioxidant Role of Vitamin C</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bendich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Machlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Scandurra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D M</forename><surname>Wayner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Free Radicals Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="419" to="444" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bendich, A., L.J. Machlin, O. Scandurra, G.W. Burton, and D.D.M. Wayner, The Antioxidant Role of Vitamin C, Adv. Free Radicals Biol. Med. 2:419-444 (1986).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Phosphatidylglycerol in Lung Surfactant III. Possible Modifier of Surfactant Fraction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hallman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gluck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="257" to="262" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hallman, M., and L. Gluck, Phosphatidylglycerol in Lung Sur- factant III. Possible Modifier of Surfactant Fraction, J. Lipid Res. 17:257-262 (1976).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Activation of Human Brain Galactosylceramidase by Phosphatidylserine</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hanada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">575</biblScope>
+			<biblScope unit="page" from="410" to="420" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanada, E., and K. Suzuki, Activation of Human Brain Galacto- sylceramidase by Phosphatidylserine, Biochim. Biophys. Acta 575:410-420 (1979).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Molecular Heterogeneity of Protein Kinase C and Its Implications for Cellular Regulation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nishizawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="661" to="665" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nishizawa, Y., The Molecular Heterogeneity of Protein Kinase C and Its Implications for Cellular Regulation, Nature 334:661-665 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Function of Phospholipids of Soybean Lecithin in Emulsions</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rydhag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wilton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="830" to="837" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rydhag, L., and I. Wilton, The Function of Phospholipids of Soybean Lecithin in Emulsions, J. Am. Oil Chem. Soc. 58:830-837 (1981).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lipase and Phospholipase Catalyzed Transformations in Microemulsions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Holmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eriksson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J. Chem</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="886" to="890" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holmberg, K., and C. Eriksson, Lipase and Phospholipase Cat- alyzed Transformations in Microemulsions, Indian J. Chem. 31B:886-890 (1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Method for Synthesis of Isomerically Pure Saturated Mixed-Chain Phosphatidylcholines</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Broccoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="96" to="101" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mason, J.T., A.V. Broccoli, and C. Huang, A Method for Syn- thesis of Isomerically Pure Saturated Mixed-Chain Phos- phatidylcholines, Anal. Biochem. 113:96-101 (1981).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Enzymatic Hydrolysis of Oat and Soya Lecithin: Effect on Functional Properties</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Aura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Forssell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mustranta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suortt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poutanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="887" to="891" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aura, A.M., P. Forssell, A. Mustranta, T. Suortt, and K. Pouta- nen, Enzymatic Hydrolysis of Oat and Soya Lecithin: Effect on Functional Properties, J. Am. Oil Chem. Soc. 71:887-891 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Hydrolysis of Phosphatidylcholine by an Immobilized Lipase: Optimization of Hydrolysis in Organic Solvents</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cichowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moreau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ibid</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="111" to="117" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haas, M.J., D.J. Cichowicz, J. Phillips, and R. Moreau, The Hy- drolysis of Phosphatidylcholine by an Immobilized Lipase: Op- timization of Hydrolysis in Organic Solvents, Ibid. 70:111-117 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Modification of Phospholipids with Lipases and Phospholipases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mustranta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Forssell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Aura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suortti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poutanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biocatalysis</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="181" to="194" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mustranta, A., P. Forssell, A.M. Aura, T. Suortti, and K. Pouta- nen, Modification of Phospholipids with Lipases and Phospholi- pases, Biocatalysis 9:181-194 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Enzymatic Hydrolysis of Triglyceride-Phospholipid Mixtures in an Organic Solvent</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cichowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="519" to="525" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haas, M.J., D.J. Cichowicz, W. Jun, and K. Scott, The Enzy- matic Hydrolysis of Triglyceride-Phospholipid Mixtures in an Organic Solvent, J. Am. Oil Chem. Soc. 72:519-525 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Enzymatic Phosphatidylcholine Hydrolysis in Organic Solvents: An Examination of Selected Commercially Available Lipases, Ibid</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Janssen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="483" to="490" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haas, M.J., K. Scott, W. Jun, and G. Janssen, Enzymatic Phos- phatidylcholine Hydrolysis in Organic Solvents: An Examina- tion of Selected Commercially Available Lipases, Ibid. 71:483-490 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">The Effect of 2,4,6,8-Tetramethyldecanoic Acid on the Hydrolysis and Acylation of Phospholipid by Lipase in Isooctane</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fortkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Schmid</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="826" to="828" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamaoka, M., J. Fortkamp, M. Morr, and R.D. Schmid, The Ef- fect of 2,4,6,8-Tetramethyldecanoic Acid on the Hydrolysis and Acylation of Phospholipid by Lipase in Isooctane, Ibid. 69:826-828 (1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Lipase-Catalyzed Modification of Phospholipids: Incorporation of n-3 Fatty Acids into Biosurfactants, Ibid</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Mutua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Akoh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="125" to="128" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mutua, L.N., and C.C. Akoh, Lipase-Catalyzed Modification of Phospholipids: Incorporation of n-3 Fatty Acids into Biosurfac- tants, Ibid. 70:125-128 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Phospholipid Synthesis by Extracellular Phospholipase A 2 in Organic Solvents</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pernas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Legoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bereziat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Com</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="644" to="650" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pernas, P., J.L. Olivier, M.D. Legoy, and G. Bereziat, Phospho- lipid Synthesis by Extracellular Phospholipase A 2 in Organic Solvents, Biochem. Biophys. Res. Com. 168:644-650 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Preparation of Therapeutic Phospholipids Through Porcine Pancreatic Phospholipase A 2 -Mediated Esterification and Lipozyme-Mediated Acidolysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kikuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1287" to="1291" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hosokawa, M., K. Takahashi, Y. Kikuchi, and M. Hatano, Preparation of Therapeutic Phospholipids Through Porcine Pan- creatic Phospholipase A 2 -Mediated Esterification and Lipozyme-Mediated Acidolysis, J. Am. Oil Chem. Soc. 72:1287-1291 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Interesterification of Phosphatidylcholine with Lipases in Organic Media</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Adlercreutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mattiasson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="255" to="258" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Svensson, I., P. Adlercreutz, and B. Mattiasson, Interesterifica- tion of Phosphatidylcholine with Lipases in Organic Media, Appl. Microbiol. Biotechnol. 33:255-258 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Lipase-Catalyzed Transesterification of Phosphatidylcholine at Controlled Water Activity</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Adlercreutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mattiasson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="986" to="991" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Svensson, I., P. Adlercreutz, and B. Mattiasson, Lipase-Cat- alyzed Transesterification of Phosphatidylcholine at Controlled Water Activity, J. Am. Oil Chem. Soc. 69:986-991 (1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Enzymatic Acyl Exchange of Phospholipids with Lipases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoshizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fukui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ferment. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="23" to="25" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yagi, T., T. Nakanishi, Y. Yoshizawa, and F. Fukui, The Enzy- matic Acyl Exchange of Phospholipids with Lipases, J. Fer- ment. Bioeng. 69:23-25 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Preparation of Polyunsaturated Phospholipids by Lipase-Catalyzed Transesterification</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Totani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="848" to="851" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Totani, Y., and S. Hara, Preparation of Polyunsaturated Phos- pholipids by Lipase-Catalyzed Transesterification, J. Am. Oil Chem. Soc. 68:848-851 (1991).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Synthesis of Eicosapentaenoyl Phosphatidylcholines by Polyethylene Glycol-Modified Lipase in Benzene</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Funada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Inada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="771" to="776" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoshimoto, T., M. Nakata, S. Yamaguchi, T. Funada, Y. Saito, and Y. Inada, Synthesis of Eicosapentaenoyl Phosphatidyl- cholines by Polyethylene Glycol-Modified Lipase in Benzene, Biotechnol. Lett. 8:771-776 (1986).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Transesterification of Soy Lecithin by Lipase and Phospholipase</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Aura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Forssell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mustranta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poutaren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Oil Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1375" to="1379" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aura, A.M., P. Forssell, A. Mustranta, and K. Poutaren, Trans- esterification of Soy Lecithin by Lipase and Phospholipase, J. Am. Oil Chem. Soc. 72:1375-1379 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martinek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Klyachko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kabanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Khmelnitsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Levashov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Micellar Enzymology: Its Relation to Membranology</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="volume">981</biblScope>
+			<biblScope unit="page" from="161" to="172" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinek K., N.L. Klyachko, A.V. Kabanov, Y.L. Khmelnitsky, and A.V. Levashov, Micellar Enzymology: Its Relation to Mem- branology, Biochim. Biophys. Acta 981:161-172 (1989).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">On the Issue of Interfacial Activation of Lipase in Nonaqueous Media</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Louwrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Drtina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Klibanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Louwrier, A., G.J. Drtina, and A.M. Klibanov, On the Issue of Interfacial Activation of Lipase in Nonaqueous Media, Biotech- nol. Bioeng. 50:1-5 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Study of Bound Phospholipase Activites of Fungal Mycelia Using an Organic Solvent System</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D E</forename><surname>Pattterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Akhtar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lipids</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="553" to="560" />
+			<date type="published" when="1976-01-22">1976. January 22. 1997</date>
+		</imprint>
+	</monogr>
+	<note>Received accepted May 1, 1997</note>
+	<note type="raw_reference">Blain, J.A., J.D.E. Pattterson, C.E. Shaw, and M.W. Akhtar, Study of Bound Phospholipase Activites of Fungal Mycelia Using an Organic Solvent System, Lipids 11:553-560 (1976). [Received January 22, 1997; accepted May 1, 1997]</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

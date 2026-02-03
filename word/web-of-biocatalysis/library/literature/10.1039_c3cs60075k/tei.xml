@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Enzyme immobilisation in biocatalysis: why, what and how †</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-03-27">27 March 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Roger</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+							<email>r.a.sheldon@tudelft.nl</email>
+						</author>
+						<author>
+							<persName><forename type="first">Sander</forename><surname>Van Pelt</surname></persName>
+							<email>s.vanpelt@clea.nl</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CLEA Technologies B. V</orgName>
+								<address>
+									<addrLine>Delftechpark 34</addrLine>
+									<postCode>2628 XH</postCode>
+									<settlement>Delft</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution">Delft University of Technology</orgName>
+								<address>
+									<addrLine>Julianalaan 136, Delft 2628BL</addrLine>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Enzyme immobilisation in biocatalysis: why, what and how †</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-03-27">27 March 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BA9B2B01B30896425EFAFD12E79B12FD</idno>
+					<idno type="DOI">10.1039/c3cs60075k</idno>
+					<note type="submission">Received 24th February 2013</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T19:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this tutorial review, an overview of the why, what and how of enzyme immobilisation for use in biocatalysis is presented. The importance of biocatalysis in the context of green and sustainable chemicals manufacture is discussed and the necessity for immobilisation of enzymes as a key enabling technology for practical and commercial viability is emphasised. The underlying reasons for immobilisation are the need to improve the stability and recyclability of the biocatalyst compared to the free enzyme. The lower risk of product contamination with enzyme residues and low or no allergenicity are further advantages of immobilised enzymes. Methods for immobilisation are divided into three categories: adsorption on a carrier (support), encapsulation in a carrier, and cross-linking (carrier-free).</p><p>General considerations regarding immobilisation, regardless of the method used, are immobilisation yield, immobilisation efficiency, activity recovery, enzyme loading (wt% in the biocatalyst) and the physical properties, e.g. particle size and density, hydrophobicity and mechanical robustness of the immobilisate, i.e. the immobilised enzyme as a whole (enzyme + support). The choice of immobilisate is also strongly dependent on the reactor configuration used, e.g. stirred tank, fixed bed, fluidised bed, and the mode of downstream processing. Emphasis is placed on relatively recent developments, such as the use of novel supports such as mesoporous silicas, hydrogels, and smart polymers, and cross-linked enzyme aggregates (CLEAs).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key learning points</head><p>(1) The importance of immobilisation for improving the operational performance and, hence, cost-effectiveness of enzymes in sustainable biocatalytic processes.</p><p>(2) The advantages and limitations of different approaches to immobilising enzymes, i.e. adsorption on prefabricated supports (carriers), encapsulation and carrier-free cross-linking, e.g. as cross-inked enzyme aggregates (CLEAs).</p><p>(3) Clarification of the terminology of enzyme immobilisation, e.g. immobilisation yield and efficiency, activity recovery and enzyme loading. (4) The effects of various physical parameters, e.g. particle size and density, porosity, hydrophilicity-hydrophobicity, on the properties of immobilised enzymes.</p><p>(5) Methods for preparing 'smart' immobilised enzymes, e.g. using thermoresponsive polymers as supports or magnetic nanoparticles for producing magnetisable immobilisates such as the magnetic cross-linked enzyme aggregates.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Enzymes are Nature's sustainable catalysts. They are biocompatible, biodegradable and are derived from renewable resources. Enzymatic processes are conducted under mild conditions (close to ambient temperature, atmospheric pressure and physiological pH) in water, with high rates and selectivities. Furthermore, the use of enzymes generally obviates the need for functional group protection and/or activation, affording synthetic routes that are more step economic, generate less waste and are more energy efficient than conventional organic syntheses. In short, enzymatic processes are more environmentally friendly, more cost-effective and, ultimately, more sustainable. Consequently, in the last two decades biocatalysis has emerged as an important technology for meeting the growing demand for green and sustainable chemicals manufacture, <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> particularly in the synthesis of pharmaceuticals, flavour and fragrances, vitamins and other fine chemicals. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> Thanks to advances in biotechnology and protein engineering it is now possible to produce most enzymes for commercially acceptable prices and to manipulate them such that they exhibit the desired properties with regard to, inter alia, substrate specificity, activity, selectivity, stability and pH optimum. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Notwithstanding all these advantages, industrial application of enzymes is often hampered by a lack of long-term operational stability and difficult recovery and re-use of the enzyme. These drawbacks can generally be overcome by immobilisation of the enzyme. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> In addition to more convenient handling of the enzyme, as a solid rather than a liquid formulation, it provides for its facile separation from the product, thereby minimising or eliminating protein contamination of the product. Moreover, an immobilised enzyme cannot easily penetrate the skin and, therefore, exhibits low or no allergenicity. Immobilisation also facilitates the efficient recovery and re-use of the enzyme, thus enabling its cost-effective use in, for example, continuous, fixed-bed operation. A further benefit is generally enhanced stability, under both storage and operational conditions, e.g. towards denaturation by heat or organic solvents or by autolysis. Improved enzyme performance and repeated re-use is reflected in higher catalyst productivities (kg product per kg enzyme) which, in turn, determine the enzyme costs per kg product.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Types of immobilisation</head><p>Basically, methods of enzyme immobilisation can be divided into three categories, binding to a support (carrier), entrapment (encapsulation) and cross-linking (Fig. <ref type="figure" target="#fig_0">1</ref>):</p><p>(i) Binding to a support (carrier) can be physical (such as hydrophobic and van der Waals interactions), ionic, or covalent in nature. <ref type="bibr" target="#b10">11</ref> However, physical binding is generally too weak to keep the enzyme fixed to the carrier under rigorous industrial conditions of high reactant and product concentrations and high ionic strength. Ionic binding is generally stronger and covalent binding of the enzyme to the support would generally prevent the enzyme from leaching from the surface. On the other hand, covalent bonding to the enzyme has the disadvantage that if the enzyme is irreversibly deactivated, both the enzyme and the (often costly) support are rendered unusable. Typical supports for enzyme immobilisation are synthetic resins, biopolymers, such as polysaccharides, or inorganic solids such as (mesoporous) silicas or zeolites.</p><p>(ii) Entrapment via inclusion of an enzyme in a polymer network, typically organic or inorganic polymer matrices, such as polyacrylamide and silica sol-gel, respectively, or a membrane device such as a hollow fiber or a microcapsule. The physical restraints generally are too weak, however, to prevent enzyme leakage entirely. Hence, additional covalent attachment is often required. The difference between entrapment and support binding is often not clear. For the purpose of this tutorial review we define support binding as the binding of an enzyme to a prefabricated support (carrier) irrespective of whether the enzyme is situated on the external or internal surface. Entrapment generally requires the synthesis of the polymeric matrix in the presence of the enzyme. For example, when an enzyme is immobilised in a prefabricated mesoporous silica the enzyme may be situated largely in the mesopores but this would not be entrapment. On the other hand when the enzyme is present during the synthesis of a silica sol-gel the enzyme is entrapped.</p><p>(iii) Cross-linking of enzyme aggregates or crystals, employing a bifunctional reagent, is used to prepare carrierless macroparticles. The use of a carrier inevitably leads to 'dilution of activity', owing to the introduction of a large portion of noncatalytic ballast, ranging from 90% to &gt;99%, which results in lower space-time yields and productivities. This is not alleviated Roger A. Sheldon Roger Sheldon is a recognised authority on Green Chemistry and Catalysis and Professor Emeritus of Biocatalysis and Organic Chemistry at Delft University of Technology. He is widely known for developing the concept of E factors for assessing the environmental footprint of chemical processes. He has a PhD in organic chemistry from the University of Leicester (UK). Prior to joining Delft University in 1991, he was Vice President for Research and Development at DSM/Andeno from 1980 to 1990 and with Shell Research Amsterdam from 1969 to 1980. He is currently CEO of CLEA Technologies BV, a biotech company. Sander van Pelt Sander van Pelt studied Chemical Technology and Bioprocess Technology at the Technical University of Delft. After obtaining a masters degree in 2005, during which he was an intern at Degussa and Codexis, a PhD position was taken in the group of Roger Sheldon. This research resulted in 2010 in a thesis entitled: ''The Application of Nitrile Hydratases in Organic Synthesis''. In 2010 he joined CLEA Technologies BV, where he is currently Chief Technical Officer.</p><p>by using higher enzyme loadings as this leads to loss of activity owing to difficult accessibility of some of the enzyme molecules when they consist of multiple layers on the surface of the carrier or are situated deeply within the carrier pores, inaccessible to substrate. The optimum situation, from a specific activity viewpoint, is a monolayer of enzyme molecules adsorbed on the surface of the carrier. Consequently, there is an increasing interest in carrier-free immobilized enzymes, such as crosslinked enzyme crystals (CLECs), <ref type="bibr" target="#b12">12</ref> and cross-linked enzyme aggregates (CLEAs). <ref type="bibr" target="#b13">13</ref> This approach offers clear advantages: highly concentrated enzyme activity in the catalyst, high stability and low production costs owing to the exclusion of an additional (expensive) carrier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Terminology and general considerations</head><p>The terminology of immobilisation is often inconsistent and/or confusing. The three terms most often used to determine the success of enzyme immobilisation are the immobilisation yield, the immobilisation efficiency and the activity recovery. The immobilisation yield should be used to describe the percentage of total enzyme activity from the free enzyme solution that is immobilised: Yield (%) = 100 Â (immobilised activity/starting activity)</p><p>The ''activity that is immobilised'' can only be correctly determined by measuring the total residual enzyme activity that remains in the enzyme solution after immobilisation and by subtracting this activity from the total starting activity. In some cases a parallel blank experiment should be carried out to compensate for free enzyme deactivation under the immobilisation conditions. Sometimes protein measurements are used to determine the immobilisation yield. This could be misleading, especially when a crude protein mixture is used for immobilisation, as the different proteins can have different immobilisation yields. It can however be useful to monitor both enzyme activity and protein concentration in the supernatant, to rule out any deactivation of the free enzyme and to determine the protein and/or enzyme loading (wt%) of the immobilised biocatalyst.</p><p>The second term often used to describe the success of immobilisation is the immobilisation efficiency. The immobilisation efficiency describes the percentage of bound enzyme activity that is observed in the immobilisate: Efficiency (%) = (observed activity/immobilised activity)</p><p>In theory one can have an immobilisation yield of 100% and an immobilisation efficiency of 0% when all of the enzyme in solution is immobilised but no activity is found in the immobilisate because the enzyme was deactivated or became inaccessible for some reason upon immobilisation.</p><p>The third term to describe the success of immobilisation is the activity recovery. Activity recovery is the immobilisation yield multiplied by the immobilisation efficiency, which in one number gives you an idea of the success of the total immobilisation process. With activity recovery, the activity of the immobilisate is compared to that of the total starting activity of the free enzyme: Activity recovery (%) = (observed activity/starting activity) Needless to say, all the terms above have to be calculated by using total activities (units, i.e. mmol min À1 ) and not by using specific activities (i.e. U mL À1 , U mg À1 ). Furthermore, the exact same activity assay conditions should be used to determine all of the activities.</p><p>For example: A lipase is immobilised by hydrophobic adsorption on a bead-like carrier. 1 gram of beads is incubated in an enzyme solution containing a total of 100 units of lipase activity and 50 mg of protein. After 24 hours the beads are filtered and washed. Total lipase activity left in the enzyme solution and wash water is 20 units and the total left-over protein concentration is 10 mg. The washed beads are assayed for activity and the total activity of the beads is found to be 40 units. In this case the immobilisation yield would be 80%, the immobilisation efficiency 50% and the activity recovery 40%. Protein loading on the beads would be 4 wt%.</p><p>The observed activity in the immobilisate relative to the activity of the free enzyme (immobilisation efficiency and immobilisation yield) can be highly dependent on the activity assay used (i.e. type of substrate, substrate concentration, pH and temperature) and on the physical properties of the immobilised biocatalyst (i.e. particle size, hydrophobicityhydrophilicity and pore size). This dependency is most often caused by mass transfer limitations of substrate and/or product in the immobilisation matrix, leading to varying immobilisation yields and activity recoveries.</p><p>For example, an enzyme immobilised in a dense polar matrix will have a higher immobilisation yield and activity recovery when the activity assay is carried out with a small polar substrate at high concentration than when a big apolar substrate at low concentration is used, assuming the original free enzyme is equally active on both compounds.</p><p>Although the difference in the example above is quite obvious, smaller less evident differences can have a large influence on the results. It is therefore vital for the economics of the immobilisation process to design the immobilised biocatalyst for a specific application and to carry out activity assays as close as possible to the final application in which the immobilised enzyme will be applied.</p><p>For use in organic solvents the calculation of activity recoveries becomes more complicated, since the comparison of suspensions of a free enzyme powder and the enzyme in immobilised form in an organic solvent is not always easy. In general, one would expect an immobilised enzyme to give higher rates, owing to a better accessibility of the individual enzyme molecules, when they are neatly spread out on a surface compared to the bulk enzyme powder which, to make matters worse, often contains additives such as (poly)saccharides. Direct comparisons of activities in these cases often lead to activity recoveries higher than 100%.</p><p>Chem Soc Rev Tutorial Review Open Access Article. Published on 27 March 2013. Downloaded on 3/22/2025 4:39:37 AM. This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.</p><p>In short, one has to distinguish between intrinsic loss of activity by deactivation and (apparent) loss of activity owing to inaccessibility of a fraction of the enzyme molecules in the immobilisate. This can be determined using active-site titration. <ref type="bibr" target="#b15">14</ref> The latter technique enables measurement of the amount of active enzyme by employing compounds that irreversibly inhibit the enzyme, by binding successfully to the active-site of the enzyme, while at the same time releasing a compound that can be easily detected. Knowing the amount of active enzyme available in an immobilised biocatalyst is very useful to understand the immobilisation process, diffusional limitations, and how the enzyme responds to a certain material. It could be used, for example, to determine whether the inherent catalytic activity of an enzyme changes as a result of conformational changes caused by interaction with the support, such as the so called ''hyper activation'' phenomenon observed with lipases (see later).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Immobilisation on prefabricated supports</head><p>The properties of supported enzyme preparations are governed by the properties of both the enzyme and the carrier material. The interaction between the two provides an immobilised enzyme with specific chemical, biochemical, mechanical and kinetic properties. The support (carrier) can be a synthetic organic polymer, a biopolymer or an inorganic polymer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Synthetic organic polymers</head><p>Various porous acrylic resins, such as Amberlite XAD-7, are used to immobilise enzymes via simple adsorption. For example, the widely used enzyme C. antarctica lipase B, (CaLB), <ref type="bibr" target="#b16">15</ref> is commercially available in immobilised form as Novozym 435 which consists of the enzyme adsorbed on a macroporous acrylic resin. A disadvantage of immobilisation in this way is that, because it is not covalently bound, the enzyme can be leached from the support in an aqueous medium or in the presence of substrates and/or products with surfactant-like properties.</p><p>In order to suppress leaching, covalent attachment to surface-functionalised acrylic resins, such as Eupergit s C, a macroporous copolymer of N,N 0 -methylene-bi-(methacrylamide), glycidyl methacrylate, allyl glycidyl ether and methacrylamide, is widely used for immobilisation of enzymes. <ref type="bibr" target="#b17">16</ref> Eupergit C is highly hydrophilic and stable, both chemically and mechanically, over a pH-range from 0 to 14, and does not swell or shrink even upon drastic pH changes in this range. The average particle size is 170 mm and the pore diameter is 25 nm. Protein binding involves reaction of surface oxirane moieties with the free amino groups of the enzyme to form covalent bonds which have long-term stability within a pH range of pH 1 to 12 (see Fig. <ref type="figure" target="#fig_2">2</ref>). The remaining epoxy-groups can be quenched with a variety of reagents, such as mercaptoethanol, ethanolamine and glycine. Due to the high density of oxirane groups on the surface of the beads enzymes are immobilised at various sites on their surface. This ''multi-point-attachment'' is largely responsible for the high operational stability of enzymes bound to Eupergit s C.</p><p>Immobilisation by covalent attachment to Eupergit C has been successfully applied in a variety of industrial settings. Penicillin amidase on Eupergit C, for example, maintained 60% of its initial activity over &gt;800 cycles. <ref type="bibr" target="#b18">17</ref> Sepabeads FP-EP consist of a polymethacrylate-based resin functionalised with oxirane groups and exhibit characteristics similar to Eupergit C. In a comparison of the immobilisation of various lipases on supports with varying hydrophobicity, in the esterification of oleic acid with 1-butanol in isooctane, the highest activity was observed with sepabeads containing octadecyl chains <ref type="bibr" target="#b19">18</ref> which was attributed to the hydrophobic nature of the support facilitating opening of the hydrophobic lid of the lipase.</p><p>Alternatively, an enzyme immobilised on a prefabricated support, by simple adsorption, can be stabilised towards leaching and mechanical stress by deposition of a silicone coating formed from inexpensive readily available raw materials. <ref type="bibr" target="#b20">19</ref> For example, Novozyme 435 was coated with a silicone polymer obtained in a hydrosilylation reaction. The silicone was not only deposited as an external layer but also permeated into the porous carrier. The resulting silicone coated Novozyme 435 exhibited high mechanical strength with excellent stability towards leaching. Moreover, the high activity retention (92%) indicated that no significant diffusion limitations were caused by the silicone coating.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Natural polymers</head><p>A variety of naturally occurring polymers, mainly water-insoluble polysaccharides such as cellulose, starch, agarose and chitosan <ref type="bibr" target="#b21">20</ref> and proteins such as gelatin and albumin have been widely used as supports for immobilising enzymes. Indeed, the Tanabe process, <ref type="bibr" target="#b22">21</ref> for the production of L-amino acids by resolution of racemic acylamino acids (Fig. <ref type="figure">3</ref>), commercialised more than 40 years ago, employs a fixed bed of aminoacylase from Aspergillus oryzae immobilised by ionic adsorption on DEAE-Sephadex (cellulose modified with diethylaminoethyl functionalities).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Inorganic polymers</head><p>A variety of inorganic supports are used for the immobilisation of enzymes, e.g., silica, <ref type="bibr" target="#b23">22</ref> zeolites <ref type="bibr" target="#b24">23</ref> and mesoporous silicas <ref type="bibr" target="#b25">24</ref> such as MCM-41, and SBA-15. One of the simplest and most inexpensive methods to immobilise an enzyme is by silica granulation. <ref type="bibr" target="#b16">15</ref> It is used in detergent formulations which release the enzyme into the washing liquid during washing. Granulation technology was used to immobilise CaLB lipase on silica granules, by first adsorbing the lipase on silica powder followed by agglomeration. <ref type="bibr" target="#b16">15</ref> Granulates are only suitable for use in organic media. In an aqueous medium the lipase is desorbed and the particle slowly disintegrates. However, the CaLB silica granules can be used in a direct ester synthesis if the water is removed by e.g. evaporation under vacuum. Applying the granules in packed bed reactors also minimises the contact time with high water concentrations. The CaLB silica granules exhibited a similar activity to Novozyme 435 in the direct synthesis of the skin emollient, isopropyl myristate. In order to maintain stability in an aqueous environment the enzyme needs to be covalently attached to a functionalised silica support.</p><p>Mesoporous silicas, nowadays often referred to as nanosilicas, have several advantages as supports. They have uniform pore diameters (2-40 nm), very high surface areas (300-1500 m 2 g À1 ) and pore volumes (ca. 1 ml g À1 ), and are inert and stable at elevated temperatures. Moreover, the surface can be easily functionalised. The large pores and cages of these materials can accommodate relatively small enzymes. Whether the enzyme is situated inside the pores or cages or on the outer surface can be determined by comparing immobilisation on calcined and non-calcined material (i.e. the latter still contains the template). If these values are roughly the same then most of the enzyme is on the outer surface whereas when the calcined material adsorbs much more enzyme this indicates that most of the enzyme resides in the pores.</p><p>Covalent binding of a-chymotrypsin (EC 3.4.21.2) to a mesoporous sol-gel glass, which had been modified by reaction of surface hydroxyls with 3,3,3-trimethoxypropanal, afforded an immobilised catalyst with a half-life one thousand times that of the free enzyme. <ref type="bibr" target="#b26">25</ref> Similarly, immobilization of Mucor javanicus lipase (EC 3.1.1.3) on functionalized silica nanoparticles resulted in enhanced thermal stability and a high retention of activity over a wider pH range. <ref type="bibr" target="#b27">26</ref> Another approach to preventing the leaching of immobilised enzymes from mesoporous hosts is to form physical aggregates of enzyme molecules by precipitation in the nanopores and cages of the host. Subsequent addition of a cross-linker results in the formation of cross-linked enzyme aggregates (CLEAs; see later) entrapped in the nanoscale channels while still allowing accessibility of substrates to the active sites. <ref type="bibr" target="#b24">23</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Protein-coated microcrystals (PCMCs)</head><p>So-called protein-coated microcrystals (PCMCs) comprise a novel immobilisation of enzymes on an inorganic support. <ref type="bibr" target="#b28">27</ref> It is based on the fact that lyophilised enzyme powders can be stabilised through the addition of carbohydrates or inorganic salts. PCMCs are prepared by mixing an aqueous solution of the enzyme with a concentrated solution of a salt such as potassium sulphate, an amino acid or a sugar. The resulting solution is added dropwise with vigorous mixing to a water-miscible solvent such as isopropanol, whereupon micron-sized crystals, containing the enzyme on the surface, are formed. A major advantage of the technique is that the enzyme molecules are dehydrated by a mechanism that leaves the majority of the enzymes in an active conformation and minimises denaturation. The PCMCs can be separated and stored or used as a suspension in an organic solvent. Obviously in an aqueous medium they dissolve to liberate the free enzyme. In a transesterification of N-acetyl tyrosine ethyl ester with isopropanol (Fig. <ref type="figure" target="#fig_3">4</ref>) PCMCs of subtilisin Carlsberg (EC 3.4.21.62) exhibited an activity three orders of magnitude higher than that of the lyophilised powder. <ref type="bibr" target="#b29">28</ref> Fig. <ref type="figure">3</ref> Tanabe aminoacylase process using a packed bed of biocatalyst. Chem Soc Rev Tutorial Review Open Access Article. Published on 27 March 2013. Downloaded on 3/22/2025 4:39:37 AM. This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">Smart polymers</head><p>A novel approach to immobilisation of enzymes is via covalent attachment to stimulus-responsive or 'smart polymers' which undergo dramatic conformational changes in response to small changes in their environment, e.g. temperature, pH and ionic strength. <ref type="bibr" target="#b30">29</ref> The most well-known example is the thermoresponsive and biocompatible polymer, poly-N-isopropylacrylamide (polyNIPAM). Aqueous solutions of polyNIPAM exhibit a critical solution temperature (LCST) around 32 1C, below which the polymer readily dissolves in water while, above the LCST it becomes insoluble owing to expulsion of water molecules from the polymer network. Hence, the biotransformation can be performed under conditions where the enzyme is soluble, thereby minimising diffusional limitations and loss of activity owing to protein conformational changes on the surface of a support. Subsequently, raising the temperature above the LCST leads to precipitation of the immobilised enzyme, thus facilitating its recovery and reuse. An additional advantage is that runaway conditions are avoided because when the reaction temperature exceeds the LCST the catalyst precipitates and the reaction shuts down.</p><p>Two methods are generally used to prepare the enzyme-polyNIPAM conjugates: (i) introduction of polymerisable vinyl groups into the enzyme followed by copolymerisation with NIPAM or (ii) reaction of NH 2 groups on the surface of the enzyme with a copolymer of NIPAM containing reactive ester groups (Fig. <ref type="figure" target="#fig_4">5</ref>) or the homopolymer containing an N-succinimide ester function as the end group.</p><p>For example, penicillin G amidase was immobilised by condensation with a copolymer of NIPAM containing active ester groups. <ref type="bibr" target="#b31">30</ref> The resulting enzyme-polymer conjugate exhibited hydrolytic activity close to that of the free enzyme and was roughly as effective in the synthesis of the semi-synthetic cephalosporin, cephalexin, an important beta lactam antibiotic, by reaction of D-phenylglycine amide with 7-ADCA (Fig. <ref type="figure" target="#fig_5">6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6">Smart immobilisation: enzyme-magnetic nanoparticle hybrids</head><p>Immobilisation of enzymes on solid carriers allows for their separation by filtration or centrifugation. For good filterability the particles should be relatively large but increasing the particle size can result in loss of activity owing to diffusion limitations, i.e. slow diffusion of the substrate through the large particles. This means that in practice a compromise has to be made where the particles are large enough to facilitate filtration or centrifugation but not too large that diffusion limitations become an issue. This is even more so in the production of larger volume products where processes are often conducted in continuous operation over a packed bed of (bio)catalyst. In this case it is important to have relatively large particles in order to avoid a pressure drop over the column. Here again, a compromise has to be struck to avoid the pressure drop without decreasing activity as a result of diffusion limitations. In contrast, very small (micron-or even nano-size) particles can be successfully used in a so-called fluidised bed, whereby the liquid feed is passed through the bed of solid catalyst at high enough velocities to suspend the solid and cause it to behave as though it were a fluid. The particles should be small but relatively dense to avoid them being blown out of the column.</p><p>Alternatively, enzymes can be immobilised by attaching them to functionalised magnetic nanoparticles (MNPs) which can be separated from the reaction mixture by magnetic decantation or used in magnetically stabilised fluidised bed reactors. <ref type="bibr" target="#b32">31</ref> Functionalised MNPs have become commercially available in the last decade driven by various biomedical and biotechnological applications. They consist of an iron oxide core (Fe 3 O 4 ) coated with, for example, silica containing pendant amine or carboxyl moieties. The latter can be employed to bind the enzyme to the MNP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Entrapment</head><p>In the case of enzyme immobilisation by entrapment the support is not prefabricated. It is formed in the presence of the enzyme whereby the latter becomes entrapped inside rather than on the support. In practice, the technique is used more with whole cell biocatalysts rather than with free enzymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Silica sol gels</head><p>Enzymes can be immobilised by entrapment in silica sol gels prepared by hydrolytic polymerisation of tetraethoxysilane. The morphologies of the silica sol-gels depend on the method of drying. <ref type="bibr" target="#b33">32</ref> Drying by evaporation affords so-called xerogels in which capillary stress causes a shrinkage of the nano cages and pores. When alkyl siloxanes, RSi(OR) 3 are used together with Si(OR) 4 the surface of the sol-gel is more densely populated by the hydrophobic alkyl groups and the capillary stresses which operate during evaporation are largely attenuated, affording a so-called ambigel in which there is no contraction of the nano cages. Alternatively, drying with supercritical carbon dioxide affords so-called aerogels in which the delicate pore structure and accompanying high porosity is maintained.</p><p>Entrapment of lipases in sol-gels derived from Si(OEt) 4 afforded immobilisates with disappointingly low activities in the esterification of lauric acid by 1-octanol. <ref type="bibr" target="#b34">33</ref> In contrast, entrapment in a sol-gel prepared from a mixture of Si(OMe) 4  and RSi(OMe) 3 afforded a more hydrophobic matrix exhibiting rate enhancements of 2-8 fold compared with the corresponding lyophilised powder. This method has been widely used for the immobilisation of enzymes. <ref type="bibr" target="#b35">34,</ref><ref type="bibr" target="#b36">35</ref> An interesting elaboration involves the addition of porous supports such as Celite during the sol-gel process to bind the lipase-containing gels. This ''double immobilisation'' afforded materials with higher thermal stability and activity. <ref type="bibr" target="#b37">36</ref> Lipases from Burkholderia cepacia and Candida antarctica were entrapped in silica aerogels, prepared from mixtures of Si(OMe) 4 and MeSi(OMe) 3 and reinforced with silica quartz fibre felt to improve their mechanical properties. <ref type="bibr" target="#b38">37</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Hydrogels</head><p>Enzymes can also be immobilised in natural or synthetic hydrogels or cryogels. Polyvinylalcohol (PVA) cryogels, for example, have been widely used for immobilisation of whole cells. <ref type="bibr" target="#b39">38</ref> Partial drying of PVA hydrogels (3-5 mm diameter and 200-400 mm thickness) at room temperature afforded lensshaped hydrogels, so-called Lentikats, exhibiting good mechanical stability, easy separation and stability towards degradation. <ref type="bibr" target="#b40">39</ref> Lentikats are useful for the entrapment of whole cell biocatalysts. In principle free enzymes can also be entrapped in Lentikats by mixing them directly with the liquid precursor of the Lentikat. Unfortunately the dimensions of most enzymes are not large enough to prevent them leaching from the hydrogel network in an aqueous environment. In order to prevent this the reaction should be performed in non-aqueous media or the size of the enzyme should be increased, e.g. by cross-linking. For example, Gro ¨ger and coworkers <ref type="bibr" target="#b41">40</ref> entrapped an (R)-hydroxynitrile lyase in a Lentikat PVA hydrogel by crosslinking it using a mixture of glutaraldehyde and chitosan (Fig. <ref type="figure">7</ref>). The resulting immobilised biocatalyst had a well-defined particle size of 3-5 mm and showed no leaching during the enantioselective hydrocyanation of benzaldehyde in a biphasic aqueous buffer-organic solvent system. It could be recycled 20 times without loss of yield or enantioselectivity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Carrier-free immobilisation by cross-linking</head><p>In the early 1960s, studies of solid phase protein chemistry led to the discovery that cross-linking of dissolved enzymes via reaction of surface NH 2 groups with a bi-functional chemical cross-linker, such as glutaraldehyde, afforded insoluble crosslinked enzymes (CLEs) with retention of catalytic activity. However, this methodology had several drawbacks: low activity retention, poor reproducibility, low mechanical stability, and difficulties in handling the gelatinous CLEs. Mechanical stability and ease of handling could be improved by cross-linking the enzyme in a gel matrix or on a carrier but this led to a disadvantageous dilution of activity. Consequently, in the late 1960s, emphasis switched to carrier-bound enzymes, which became the most widely used methodology for enzyme immobilisation for the following three decades.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Cross-linked enzyme crystals (CLECs)</head><p>Cross-linked enzyme crystals (CLECs) are prepared by allowing the enzyme to crystallise from aqueous buffer at the optimum pH and then adding a bifunctional reagent, usually glutaraldehyde, to cross link the crystals. The resulting CLECs are robust, Chem Soc Rev Tutorial Review Open Access Article. Published on 27 March 2013. Downloaded on 3/22/2025 4:39:37 AM. This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.</p><p>highly active immobilisates of controllable particle size, varying from 1 to 100 mm, depending on the enzyme : cross-linker ratio and the cross-linking time. The use of CLECs as industrial biocatalysts was commercialised by Altus Biologics in the 1990s. <ref type="bibr" target="#b42">41</ref> The method was broadly applicable, the only requirement being that the enzyme could be crystallised. CLECs are significantly more stable to denaturation by heat, organic solvents and proteolysis than the corresponding soluble enzyme or lyophilised powder. Their operational stability and ease of recycling, coupled with their high catalyst and volumetric productivities, renders them ideally suited for industrial biotransformations. However, an inherent drawback of CLECs is the need to crystallise the enzyme, an often laborious procedure requiring enzyme of high purity. In practice this translates to prohibitively high costs for many applications. To our knowledge CLECs are no longer commercially available and have now been superseded by the closely related CLEAs (see next section).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">Cross-linked enzyme aggregates (CLEAS s )</head><p>A simpler, and less expensive, alternative to crystallisation is precipitation. The addition of salts, or water miscible organic solvents or non-ionic polymers, to aqueous solutions of proteins leads to their precipitation as physical aggregates of protein molecules, held together by non-covalent bonding without perturbation of their tertiary structure, that is without denaturation. Subsequent cross-linking of these physical aggregates renders them permanently insoluble while maintaining their pre-organised superstructure, and, hence their catalytic activity. This led to the development of a new technology for immobilising enzymes as so-called cross-linked enzyme aggregates (CLEA s ) (Fig. <ref type="figure" target="#fig_6">8</ref>). Since precipitation from an aqueous medium, by addition of ammonium sulfate or polyethylene glycol, is often used to purify enzymes, the CLEA methodology essentially combines purification and immobilisation into a single unit operation that does not require a highly pure enzyme. It can be used, for example, for the direct immobilisation of an enzyme from a crude fermentation broth.</p><p>The CLEA can be modified by performing the cross-linking in the presence of a monomer that undergoes (co)polymerisation under these conditions. This affords CLEA-polymer composites with tunable physical properties. For example, if the cross-linking is performed in the presence of a siloxane, e.g. Si(OMe) 4 or RSi(OMe) 3 , the latter undergoes simultaneous polymerisation to afford a CLEA-silica composite. <ref type="bibr" target="#b13">13</ref> The latter is fundamentally different to the sol gel encapsulated free enzymes formed by polymerisation of an alkoxysilane in the presence of a free enzyme (see Section 5.1). The silica-CLEA composites can be produced with much higher enzyme loadings, and are much less susceptible to enzyme leaching, than the corresponding sol gel encapsulated enzymes. The hydrophobic-hydrophilic properties and particle size of the silica-CLEA composites can be tailored by manipulating the structure of the siloxane used. In an elaboration of this concept, 'smart' magnetic CLEAs were prepared by conducting the cross-linking in the presence of functionalised magnetic nanoparticles. <ref type="bibr" target="#b43">42</ref> These mCLEAs can be separated by magnetic decantation or can be used in a magnetically stabilised fluidised bed reactor, affording novel combinations of bioconversions and downstream processing. Another variation on the theme of cross-linked enzyme aggregates are the so-called spherezymes, prepared by addition of precipitant and a crosslinker to water-in-oil emulsions of, inter alia, lipases. <ref type="bibr" target="#b44">43</ref> Fig. <ref type="figure">7</ref> Immobilisation of (R)-hydroxynitrile lyase as a CLEA in a lentikat.</p><p>The first examples of CLEAs were derived from penicillin G amidase an industrially important enzyme used in the synthesis of semi-synthetic penicillin and cephalosporin antibiotics (see earlier). The free enzyme exhibits limited thermal stability and a low tolerance to organic solvents, making it an ideal candidate for stabilisation by immobilisation. Indeed, penicillin G amidase CLEAs, proved to be effective catalysts for the synthesis of beta lactam antibiotics, such as the semi-synthetic penicillin, ampicillin, in organic media (Fig. <ref type="figure" target="#fig_7">9</ref>). <ref type="bibr" target="#b45">44</ref> Glutaraldehyde is generally the cross-linker of choice as it is inexpensive and readily available in commercial quantities. However, other cross-linkers, such as dextran polyaldehyde, have been used successfully in cases where glutaraldehyde gave poor results. <ref type="bibr" target="#b46">45</ref> Cross-linking involves reaction of the primary amino groups of lysine residues on the enzyme surface with dialdehydes resulting in reversible Schiff's base formation. Subsequent reduction with, e.g. sodium borohydride, to form the corresponding amine, renders the cross-linking irreversible. However, this is generally not necessary with glutaraldehyde as cross-linker because reaction of the latter with the enzyme is more complicated than simple Schiff's base formation.</p><p>Since cross-linking largely involves reaction of the amino groups of lysine residues on the external surface of the enzyme, every enzyme can be expected to perform differently. For example, electronegative enzymes contain a paucity of lysine residues on their surface and, hence, cross-linking is expected to be less effective. One way of compensating for this lack of surface amino groups is to coprecipitate the enzyme with a polymer containing numerous free amino groups, e.g. poly-Llysine, <ref type="bibr" target="#b47">46</ref> polyethylene imine <ref type="bibr" target="#b48">47</ref> or a second protein containing multiple lysine residues <ref type="bibr" target="#b49">48</ref> such as bovine serum albumin (BSA) as a so-called ''proteic feeder''.</p><p>CLEAs have several benefits in the context of industrial applications. There is no need for highly pure enzyme; they  Chem Soc Rev Tutorial Review Open Access Article. Published on 27 March 2013. Downloaded on 3/22/2025 4:39:37 AM. This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.</p><p>can be prepared from very crude enzyme preparations, even directly from crude cell-free extracts obtained from fermentation broth. Since they are carrier-free they avoid the costs associated with the use of (often expensive) carriers. They exhibit high catalyst productivities (kgs product per kg biocatalyst) and facile recovery and recycle. They generally have improved storage and operational stability with regard to denaturation by heat, organic solvents and autolysis and are stable towards leaching in aqueous media. Another benefit of the CLEA technology is that it is an excellent method for stabilising the quaternary structures of multimeric enzymes, a structural feature encountered with many industrially important enzymes, such as alcohol dehydrogenases, oxidases, peroxidases and nitrile hydratases (see later). <ref type="bibr" target="#b50">49</ref> An important property of CLEAs, from the point of view of large scale applications, is their particle size which obviously has a direct effect on mass transfer limitations and filterability. The particle size is generally in the region of 5-50 mm and filtration or, better still, centrifugation does not pose a problem. If necessary the particle size can be tuned by, inter alia, varying the enzyme/cross-linker ratio and cross-linking time.</p><p>The CLEA technology has broad scope and has been applied to an increasingly wide selection of hydrolases, oxidoreductases and lyases. <ref type="bibr" target="#b13">13</ref> The majority of the CLEAs that have been reported to date involve hydrolases, inter alia proteases, lipases, esterases, amidases, nitrilases and glycosidases, mainly because they are the enzymes that have the most industrial applications and are often the simplest enzymes to work with.</p><p>CLEAs have been prepared from a variety of proteases. A pertinent example is the alcalase-CLEA prepared from the Bacillus licheniformis alkaline protease (E.C.3.4.21.62), a laundry detergent enzyme. Alcalase-CLEA has been widely used in amino acid and peptide biotransformations in organic media. For example, under nearly anhydrous conditions, alcalase-CLEA catalysed the mild and cost-efficient synthesis of C-terminal arylamides of amino acids and peptides by aminolysis of the corresponding free carboxylic acid, or the methyl or benzyl ester, with aromatic amines (Fig. <ref type="figure" target="#fig_8">10</ref>). <ref type="bibr" target="#b51">50</ref> The products were obtained in high chemical and enantio-and diastereomeric purities. In contrast to with state of the art chemical methods, no racemisation was observed with the enzymatic method.</p><p>The same group described <ref type="bibr" target="#b52">51</ref> an elegant, fully enzymatic procedure for the synthesis of peptides via a novel C-terminal ester interconversion catalysed by alcalase-CLEA (Fig. <ref type="figure" target="#fig_9">11</ref>).</p><p>This fully enzymatic elongation strategy via C-terminal ester interconversion was successfully applied to the synthesis of biologically active peptides up to the pentamer level.</p><p>In the example shown in Fig. <ref type="figure" target="#fig_10">12</ref> the alcalase-CLEA was used to catalyse the enantioselective hydrolysis of racemic N-protected 2-chlorophenylglycine methyl ester, affording the S-acid in 34% isolated yield and 98% ee. <ref type="bibr" target="#b53">52</ref> The product is an intermediate in the synthesis of the anti-thrombotic drug Clopidogrel (Plavix).</p><p>CLEAs have been successfully prepared from a wide variety of lipases (EC 3.1.1.3). <ref type="bibr" target="#b13">13</ref> In one study <ref type="bibr" target="#b54">53</ref> hyperactivation of certain lipases was observed by coprecipitation with additives, such as surfactants and crown ethers, that are known to have an activating effect on lipases. Subsequent cross-linking of the enzyme aggregates, can 'lock' the enzyme in a more favourable conformation and, since it is not covalently bonded to the enzyme, the additive can subsequently be washed from the CLEA with an appropriate organic solvent to leave the immobilised enzyme locked in the favourable confirmation. The experimental procedure was further simplified by combining precipitation, in the presence or absence of additives, with cross-linking into a single operation.</p><p>Initial studies of CLEAs derived from the popular Candida antarctica lipase B (CaLB) revealed that the excellent performance observed in water, compared to that of the standard immobilised form, Novozyme 435 (CaLB immobilised on a macroporous acrylic resin), could not be directly translated to organic media. In contrast, when the procedure was modified to produce a more lipophilic CLEA a dramatic improvement in activity was observed in the enantioselective acylation of 1-phenethylamine in diisopropyl ether as solvent. <ref type="bibr" target="#b13">13</ref> Recyclable CLEAs were also prepared from a variety of oxidoreductases, e.g. an alcohol dehydrogenase (EC 1.1.1.1), chloroperoxidase (CPO; E.C.1.11.1.10), glucose oxidase (EC 1.1.3.4), galactose oxidase (EC 1.1.3.9) and laccase (EC 1.10.3.2). Laccase, in particular, has many potential applications, e.g. for bleaching in the pulp and paper or textile industries, aqueous effluent treatment and, in combination with the stable radical TEMPO, for the catalytic aerobic oxidation of alcohols, diols and polyols. <ref type="bibr" target="#b55">54</ref> Similarly, CLEAs have been prepared from a variety of lyases. For example, Fe-and Co-dependent nitrile hydratases (NHases; E.C. 4.2.1.84) catalyse the addition of water to nitrile moieties, a reaction of considerable industrial relevance. <ref type="bibr" target="#b56">55</ref> NHases are multimeric enzymes that are generally used as whole-cell biocatalysts because of the limited stability of the isolated enzymes outside the cell, probably owing to dissociation of tetramers resulting in the loss of activity. CLEA formation affords a dramatic increase in operational stability and recyclability, presumably by holding the catalytically active multimer together, analogous to that observed with other multimeric enzymes. <ref type="bibr" target="#b50">49</ref> CLEAs have been successfully prepared from various C-C bond forming lyases, notably the R-and S-specific hydroxynitrile lyases (EC 4.1.2.10) which catalyse the enantioselective hydrocyanation of aldehydes. <ref type="bibr" target="#b13">13</ref> For example, a CLEA prepared from the (R)-specific oxynitrilase from almonds, Prunus amygdalis (PaHnL) was highly effective in the hydrocyanation of aldehydes under microaqueous conditions and could be recycled ten times without loss of activity. <ref type="bibr" target="#b57">56</ref> CLEAs were similarly prepared from the (S)-specific oxynitrilases from Manihot esculenta and Hevea brasiliensis. <ref type="bibr" target="#b13">13</ref> These hydroxynitrile lyase CLEAs perform exceptionally well in organic solvents, affording higher enantioselectivities than those observed with the free enzymes owing to the essentially complete suppression of competing non-enzymatic hydrocyanation. <ref type="bibr" target="#b58">57</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3">Combi-CLEAs and catalytic cascade processes</head><p>The ultimate in environmental and economic efficiency is to combine atom efficient, catalytic steps into a one-pot, catalytic cascade process without the need for separation of intermediates. Catalytic cascade processes have numerous potential benefits: fewer unit operations, less reactor volume, and higher volumetric and space-time yields, shorter cycle times and less waste generation. Furthermore, by coupling steps together unfavourable equilibria can be driven towards product. In principle, this can be achieved by co-precipitation and cross-linking of two or more enzymes in 'combi CLEAs'. For example, combi CLEAs have been prepared from catalase in combination with glucose oxidase or galactose oxidase. The catalase serves to catalyse the rapid degradation of the hydrogen peroxide formed in the aerobic oxidation of glucose and galactose, respectively, catalysed by these enzymes.</p><p>A combi CLEA containing an S-selective hydroxynitrile lyase from Manihot esculenta and a nonselective nitrilase from Pseudomonas fluorescens, catalysed the smooth, one-pot conversion of benzaldehyde to S-mandelic acid (Fig. <ref type="figure" target="#fig_0">13</ref>) <ref type="bibr" target="#b59">58</ref> in di-isopropyl ether-water (9 : 1 v/v) at pH 5.5. Enantioselectivity is provided by the hydroxynitrile lyase and in situ conversion by the nitrilase serves to drive the equilibrium of the first step towards product  formation. Interestingly, the combi-CLEA was more effective than a mixture of the two separate CLEAs. A possible explanation for this observation is that the close proximity of the two enzymes inside the combi-CLEA is more favourable, compared to the case with two separate CLEAs, for transfer of the product of the first step to the active site of the enzyme for the second step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Enzyme-immobilised microchannel reactors: process intensification</head><p>Process intensification through the use of microchannel reactors (microfluidic devices) has many advantages compared with traditional batch process technologies: rapid mass and heat transfer and large surface area to volume ratios. These are attractive features for conducting catalytic reactions in microreactors containing the enzyme immobilised on the inner walls of the microchannels, as an enzyme-polymer membrane, for example. <ref type="bibr" target="#b60">59</ref> Thus, a solution of a-chymotrypsin in aqueous buffer was mixed with glutaraldehyde and formaldehyde as cross-linkers in commercially available polytetrafluoroethylene (PTFE) tubing (inner diameter 500 mm). In this way a CLEA membrane was formed on the inner walls of the tubing. With electronegative enzymes coprecipitation of the enzyme in the presence of poly-L-lysine was used to realise fast and efficient CLEA formation. <ref type="bibr" target="#b47">46</ref> The use of such enzyme immobilised microchannel reactors clearly has considerable potential for the design of green and sustainable biotransformations. Littlechild and coworkers 60 employed a different strategy. They prepared CLEAs from a thermophilic L-aminoacylase from Thermococcus litorali, which had been overexpressed in E. coli and subsequently mixed them with controlled pore glass before packing them in a capillary reactor fitted with a silica frit to contain them in the reactor. The CLEA microchannel reactor retained activity for at least two months during storage at 4 1C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Conclusions and prospects</head><p>Enzyme immobilisation continues to be a subject of immense interest, in both industry and academia. The commercial viability of industrial biotransformations stands or falls with the cost contribution of the enzyme. Immobilisation is an enabling technology that, in addition to providing an active and stable biocatalyst, should be a relatively simple operation not requiring a highly pure enzyme preparation or an expensive support that may not be commercially available. Immobilisation as silica granulates, for example, meets all these criteria but the methodology is not compatible with aqueous environments (see earlier). Cross-linked enzyme aggregates (CLEAs) would appear to have considerable industrial potential based on their high activity retention and stability coupled with ease of preparation from crude enzyme samples and no requirement for a support. Because they consist mainly of active catalyst they also display high catalyst productivities and space time yields. It is also clear that every enzyme is different and, consequently, there is no all-encompassing, 'one size fits all' solution to enzyme immobilisation. Driven by the industrial and societal need for sustainable chemical products and processes, and the attractive features of biocatalysis in this context, we expect that interest in improving the operational performance of enzymes by effective immobilisation will continue unabated in the future.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Different methods for immobilising enzymes.</figDesc><graphic coords="2,311.47,49.83,233.21,97.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>. Published on 27 March 2013. Downloaded on 3/22/2025 4:39:37 AM. This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Covalent binding of an enzyme to a functionalised support.</figDesc><graphic coords="4,314.19,49.83,227.72,110.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Transesterification over protein-coated microcrystals of subtilisin Carlsberg.</figDesc><graphic coords="5,98.59,609.73,398.04,92.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Polymer-enzyme conjugates as thermoresponsive biocatalysts.</figDesc><graphic coords="6,118.09,469.59,359.21,232.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6</head><label>6</label><figDesc>Fig.6Cephalexin synthesis with a thermoresponsive polymer-penicillin G amidase conjugate.</figDesc><graphic coords="7,120.47,49.83,354.27,80.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 Formation of cross-linked enzyme aggregates (CLEAs).</figDesc><graphic coords="9,141.34,49.83,312.68,220.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9</head><label>9</label><figDesc>Fig.9Ampicillin synthesis using penicillin G amidase-CLEA.</figDesc><graphic coords="9,120.36,540.40,354.56,161.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10</head><label>10</label><figDesc>Fig. 10 Alcalase-CLEA catalysed amidation of a peptide ester.</figDesc><graphic coords="10,122.80,601.46,349.63,100.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 11</head><label>11</label><figDesc>Fig. 11 Alcalase-CLEA catalysed peptide synthesis.</figDesc><graphic coords="11,135.04,49.83,325.19,206.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 12</head><label>12</label><figDesc>Fig. 12 Alcalase-CLEA catalysed hydrolysis of a protected amino ester.</figDesc><graphic coords="11,64.63,300.87,205.23,254.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,120.64,49.83,353.94,261.24" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Chem. Soc. Rev., 2013, 42, 6223--6235 6225</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>This journal is c The Royal Society of Chemistry 2013</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Biocatalysis for Green Chemistry and Chemical Process Development</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlaukas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>Hoboken, New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Tao and R. J. Kazlaukas, Biocatalysis for Green Chemistry and Chemical Process Development, Wiley, Hoboken, New Jersey, 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wohlgemuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="713" to="724" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Wohlgemuth, Curr. Opin. Biotechnol., 2010, 21, 713-724.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Munoz</forename><surname>Solano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hoyos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hernaiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Alcantara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sanchez-Montero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="196" to="207" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Munoz Solano, P. Hoyos, M. J. Hernaiz, A. R. Alcantara and J. M. Sanchez-Montero, Bioresour. Technol., 2012, 115, 196-207.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Clouthierz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1585" to="1605" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. M. Clouthierz and J. N. Pelletier, Chem. Soc. Rev., 2012, 41, 1585-1605.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. T. Bornscheuer, G. W. Huisman, R. J. Kazlauskas, S. Lutz, J. C. Moore and K. Robins, Nature, 2012, 485, 185-194.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Illanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cauerhff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Castro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="48" to="57" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Illanes, A. Cauerhff, L. Wilson and G. R. Castro, Bioresour. Technol., 2012, 115, 48-57.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="page" from="1289" to="1307" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Sheldon, Adv. Synth. Catal., 2007, 349, 1289-1307.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Balkus</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="956" to="968" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. N. Tran and K. J. Balkus, Jr., ACS Catal., 2011, 1, 956-968.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Garcia-Galan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berenguer-Murcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Lafuente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Rodrigues</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="page" from="2885" to="2904" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Garcia-Galan, A. Berenguer-Murcia, R. Fernandez-Lafuente and R. C. Rodrigues, Adv. Synth. Catal., 2011, 353, 2885-2904.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hanefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gardossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Magner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="453" to="468" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Hanefeld, L. Gardossi and E. Magner, Chem. Soc. Rev., 2009, 38, 453-468.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<title level="m">Carrier-bound Immobilized Enzymes, Principles, Applications and Design</title>
+		<meeting><address><addrLine>Weinheim</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cao, Carrier-bound Immobilized Enzymes, Principles, Appli- cations and Design, Wiley-VCH, Weinheim, 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">13 Conversion of benzaldehyde to (S)-mandelic acid with a combi-CLEA</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Fig. 13 Conversion of benzaldehyde to (S)-mandelic acid with a combi-CLEA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Abraham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="3705" to="3721" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Roy and T. E. Abraham, Chem. Rev., 2004, 104, 3705-3721.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="467" to="477" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Sheldon, Appl. Microbiol. Biotechnol., 2011, 92, 467-477;</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="213" to="223" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Sheldon, Org. Process Res. Dev., 2011, 15, 213-223.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H A</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="425" to="432" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. H. A. Janssen, L. M. van Langen, S. R. M. Pereira, F. van Rantwijk and R. A. Sheldon, Biotechnol. Bioeng., 2002, 78, 425-432.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="446" to="451" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Kirk and M. W. Christensen, Org. Process Res. Dev., 2002, 6, 446-451.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Katchalski-Katzir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Kraemer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="157" to="176" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Katchalski-Katzir and D. M. Kraemer, J. Mol. Catal. B: Enzym., 2000, 10, 157-176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Kallenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="905" to="926" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Kallenberg, F. van Rantwijk and R. A. Sheldon, Adv. Synth. Catal., 2005, 347, 905-926.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daminati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="83" to="90" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Petkar, A. Lali, P. Caimi and M. Daminati, J. Mol. Catal. B: Enzym., 2006, 39, 83-90.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Wiemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Weisshaupt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nieguth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Ansorge-Schumacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="617" to="620" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. O. Wiemann, P. Weisshaupt, R. Nieguth, O. Thum and M. B. Ansorge-Schumacher, Org. Process Res. Dev., 2009, 13, 617-620.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Krajewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enzyme</forename><surname>Microb</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="126" to="139" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Krajewska, Enzyme Microb. 2004, 35, 126-139.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chibata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzymologia</title>
+		<imprint>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Tosa, T. Mori, N. Fuse and I. Chibata, Enzymologia, 1966, 31, 214.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marconcini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Salvadori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="219" to="224" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Petri, P. Marconcini and P. Salvadori, J. Mol. Catal. B: Enzym., 2005, 32, 219-224.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Balkus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="115" to="126" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Diaz and K. J. Balkus, J. Mol. Catal. B: Enzym., 1996, 2, 115-126.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hartmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Top. Catal</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1081" to="1100" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Zhou and M. Hartmann, Top. Catal., 2012, 55, 1081-1100.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Waezsada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Tsao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Davison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="249" to="255" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Wang, S. Dai, S. D. Waezsada, A. Y. Tsao and B. H. Davison, Biotechnol. Bioeng., 2001, 74, 249-255.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">O</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="62" to="68" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. I. Kim, H. O. Ham, S. D. Ho, H. G. Park, H. N. Chang and S. H. Choi, J. Mol. Catal. B: Enzym., 2006, 39, 62-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kreiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Parker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1571" to="1577" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Kreiner and M.-C. Parker, Biotechnol. Lett., 2005, 27, 1571-1577.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kreiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Parker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page" from="1096" to="1097" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Kreiner, B. D. Moore and M.-C. Parker, Chem. Commun., 2001, 1096-1097.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m">Smart Polymers for Bioseparation and Bioprocessing</title>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Galaev</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Mattiasson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Taylor</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Francis</forename></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smart Polymers for Bioseparation and Bioprocessing, ed. I. Y. Galaev and B. Mattiasson, Taylor and Francis, London, 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Edink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Galaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Arendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bruggink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mattiasson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Prog</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1167" to="1175" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. E. Ivanov, E. Edink, A. Kumar, I. Y. Galaev, A. F. Arendsen, A. Bruggink and B. Mattiasson, Biotechnol. Prog., 2003, 19, 1167-1175.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H P</forename><surname>Yiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Keane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Technol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. H. P. Yiu and M. A. Keane, J. Chem. Technol. Biotechnol., 2012, 87, 583-594.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pierre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pajonk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="4243" to="4265" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. C. Pierre and G. M. Pajonk, Chem. Rev., 2002, 102, 4243-4265.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Simpelkamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="373" to="376" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Reetz, A. Zonta and J. Simpelkamp, Angew. Chem., 1995, 107, 373-376.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tielmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wiesenho ¨fer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ko ¨nen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="717" to="718" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Reetz, P. Tielmann, W. Wiesenho ¨fer, W. Ko ¨nen and A. Zonta, Adv. Synth. Catal., 2003, 345, 717-718.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pierre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biocatal. Biotransform</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="145" to="170" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. C. Pierre, Biocatal. Biotransform., 2004, 22, 145-170.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Simpelkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ko ¨nen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page" from="1397" to="1398" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Reetz, A. Zonta, J. Simpelkamp and W. Ko ¨nen, Chem. Commun., 1996, 1397-1398.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Orçaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pierre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B: Enzym</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="106" to="113" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Orçaire, P. Buisson and A. C. Pierre, J. Mol. Catal. B: Enzym., 2006, 42, 106-113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Lozinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Plieva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="227" to="242" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. I. Lozinski and F. M. Plieva, Enzyme Microb. Technol., 1998, 23, 227-242.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Willke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-D</forename><surname>Vorlop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eng. Technol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="275" to="278" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Jekel, A. Buhr, T. Willke and K.-D. Vorlop, Chem. Eng. Technol., 1998, 21, 275-278.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gro ¨ger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Capine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barthuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-D</forename><surname>Vorlop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1969" to="1972" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Gro ¨ger, E. Capine, A. Barthuber and K.-D. Vorlop, Org. Lett., 2001, 3, 1969-1972.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Margolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Navia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">2204</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. L. Margolin and M. A. Navia, Angew. Chem., Int. Ed., 2001, 40, 2204.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sorgedrager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kondor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012/ 023847A2, 2012</date>
+		</imprint>
+	</monogr>
+	<note>to CLEA Technologies B.V.</note>
+	<note type="raw_reference">R. A. Sheldon, M. J. Sorgedrager and B. Kondor, WO2012/ 023847A2, 2012, to CLEA Technologies B.V.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jordaan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1639" to="1650" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Brady and J. Jordaan, Biotechnol. Lett., 2009, 31, 1639-1650.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1361" to="1364" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cao, F. van Rantwijk and R. A. Sheldon, Org. Lett., 2000, 2, 1361-1364.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mateo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Palomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="273" to="276" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Mateo, J. M. Palomo, L. M. van Langen, F. van Rantwijk and R. A. Sheldon, Biotechnol. Bioeng., 2004, 86, 273-276.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="2163" to="2171" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Honda, M. Miyazaki, H. Nakamura and H. Maeda, Adv. Synth. Catal., 2006, 348, 2163-2171.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lopez-Gallego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Betancor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Lafuenta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Guisan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomacromolecules</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1839" to="1842" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Lopez-Gallego, L. Betancor, A. Hidalgo, N. Alonso, R. Fernandez-Lafuenta and J. M. Guisan, Biomacromolecules, 2005, 6, 1839-1842.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="207" to="213" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Shah, A. Sharma and M. N. Gupta, Anal. Biochem., 2006, 351, 207-213.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Lafuente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="405" to="418" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Fernandez-Lafuente, Enzyme Microb. Technol., 2009, 45, 405-418.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nuijens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cusan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A W</forename><surname>Kruijtzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T S</forename><surname>Rijkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M J</forename><surname>Liskamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J L M</forename><surname>Quaedflieg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="5145" to="5151" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Nuijens, C. Cusan, J. A. W. Kruijtzer, D. T. S. Rijkers, R. M. J. Liskamp and P. J. L. M. Quaedflieg, J. Org. Chem., 2009, 74, 5145-5151.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nuijens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cusan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J G M</forename><surname>Van Dooren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merkx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J A W</forename><surname>Kruijtzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T S</forename><surname>Rijkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M J</forename><surname>Liskamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J L M</forename><surname>Quaedflieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L M</forename><surname>Peter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page" from="2399" to="2404" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Nuijens, C. Cusan, T. J. G. M. van Dooren, H. M. Moody, R. Merkx, R. J. A. W. Kruijtzer, D. T. S. Rijkers, R. M. J. Liskamp, P. J. L. M. Quaedflieg and J. L. M. Peter, Adv. Synth. Catal., 2010, 352, 2399-2404.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferraboschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Mieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Galimberti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron: Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2136" to="2141" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Ferraboschi, M. De Mieri and F. Galimberti, Tetrahedron: Asymmetry, 2010, 21, 2136-2141.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lopez-Serrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1379" to="1383" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Lopez-Serrano, L. Cao, F. van Rantwijk and R. A. Sheldon, Biotechnol. Lett., 2002, 24, 1379-1383.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diaz-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lavandera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kanbak-Aksu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gotor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gotor-Fernandez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="3405" to="3408" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Diaz-Rodriguez, I. Lavandera, S. Kanbak-Aksu, R. A. Sheldon, V. Gotor and V. Gotor-Fernandez, Adv. Synth. Catal., 2012, 354, 3405-3408.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Pelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chim. Oggi</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. van Pelt, F. van Rantwijk and R. A. Sheldon, Chim. Oggi 2008, 26(3), 2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Van Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Selassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="327" to="329" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. M. van Langen, R. P. Selassa, F. van Rantwijk and R. A. Sheldon, Org. Lett., 2005, 7, 327-329.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roberge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fleitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<imprint>
+			<biblScope unit="page">1473</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Roberge, F. Fleitz, D. Pollard and P. Devine, Tetrahedron Lett., 2007, 48, 1473.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mateo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rustler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Rantwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron: Asymmetry</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="320" to="323" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Mateo, A. Chmura, S. Rustler, F. van Rantwijk, A. Stolz and R. A. Sheldon, Tetrahedron: Asymmetry, 2006, 17, 320-323.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="463" to="470" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Miyazaki and H. Maeda, Trends Biotechnol., 2006, 24, 463-470.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mccreedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Greenway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Littlechild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1621" to="1623" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. M. Hickey, L. Marle, T. McCreedy, P. Watts, G. M. Greenway and J. A. Littlechild, Biochem. Soc. Trans., 2007, 35, 1621-1623.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

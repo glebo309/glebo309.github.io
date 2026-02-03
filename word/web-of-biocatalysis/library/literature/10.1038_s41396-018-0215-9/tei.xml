@@ -1,0 +1,2546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metagenomics reveals functional synergy and novel polysaccharide utilization loci in the Castor canadensis fecal microbiome</title>
+				<funder>
+					<orgName type="full">Genome British Columbia</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Tula Foundation funded Centre for Microbial Diversity and Evolution</orgName>
+				</funder>
+				<funder ref="#_uVSJZ7Q">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Genome Canada</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Natural Sciences and Engineering Research Council</orgName>
+					<orgName type="abbreviated">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Canada Foundation for Innovation</orgName>
+					<orgName type="abbreviated">CFI</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Canadian Institute for Advanced Research (CIFAR)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-07-16">16 July 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Zachary</forename><surname>Armstrong</surname></persName>
+							<idno type="ORCID">0000-0002-4086-2946</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Genome Science and Technology Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2329 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><surname>Mewis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Genome Science and Technology Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2329 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Feng</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2036 Main Mall</addrLine>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Connor</forename><surname>Morgan-Lang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Microbiology &amp; Immunology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Melanie</forename><surname>Scofield</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Microbiology &amp; Immunology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evan</forename><surname>Durno</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Microbiology &amp; Immunology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hong</forename><forename type="middle">Ming</forename><surname>Chen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2036 Main Mall</addrLine>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Mehr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Genome Science and Technology Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2329 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><forename type="middle">G</forename><surname>Withers</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Genome Science and Technology Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2329 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2036 Main Mall</addrLine>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Centre for High-Throughput Biology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z3 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biochemistry and Molecular Biology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z3 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">ECOSCOPE Training Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z3 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+							<email>shallam@mail.ubc.ca</email>
+							<idno type="ORCID">0000-0002-4889-6876</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Genome Science and Technology Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2329 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Microbiology &amp; Immunology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">ECOSCOPE Training Program</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z3 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Graduate Program in Bioinformatics</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z4 BC</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Peter Wall Institute for Advanced Studies</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1</postCode>
+									<settlement>Vancouver</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metagenomics reveals functional synergy and novel polysaccharide utilization loci in the Castor canadensis fecal microbiome</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-07-16">16 July 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A874EE29072F1E463A4EB4C21789C57E</idno>
+					<idno type="DOI">10.1038/s41396-018-0215-9</idno>
+					<note type="submission">Received: 23 August 2017 / Revised: 15 April 2018 / Accepted: 1 June 2018 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The North American beaver (Castor canadensis) has long been considered an engineering marvel, transforming landscapes and shaping biological diversity through its dam building behavior. While the beaver possesses conspicuous morphological features uniquely adapted for the use of woody plants as construction materials and dietary staples, relatively little is known about the specialized microorganisms inhabiting the beaver gastrointestinal tract and their functional roles in determining host nutrition. Here we use a combination of shotgun metagenomics, functional screening and carbohydrate biochemistry to chart the community structure and metabolic power of the beaver fecal microbiome. We relate this information to the metabolic capacity of other wood feeding and hindgut fermenting organisms and profile the functional repertoire of glycoside hydrolase (GH) families distributed among and between population genome bins. Metagenomic screening revealed novel mechanisms of xylan oligomer degradation involving GH43 enzymes from uncharacterized subfamilies and divergent polysaccharide utilization loci, indicating the potential for synergistic biomass deconstruction. Together, these results open a functional metagenomic window on less conspicuous adaptations enabling the beaver microbiome to efficiently convert woody plants into host nutrition and point toward rational design of enhanced enzyme mixtures for biorefining process streams.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Microbial communities inhabiting the mammalian digestive tract, gut microbiomes, affect host health and mediate essential services including dietary access to recalcitrant glycans such as starches and fibers <ref type="bibr" target="#b0">[1]</ref>. With respect to digestion, the taxonomic composition of these communities correlates with host diet and nutrient acquisition strategies across different mammalian lineages <ref type="bibr" target="#b1">[2]</ref>. Multiple studies indicate that mammalian gut microbiomes consist of specialized communities that respond to complex glycans derived from specific dietary sources such as lignocellulosic biomass and release products that can be absorbed into the digestive tract <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>. Consistent with these observations, the digestive tracts of herbivores and wood-feeding (xylotrophic) organisms harbor microbial communities enriched in genes or gene cassettes encoding the corresponding These authors contributed equally: Zachary Armstrong and Keith <ref type="bibr">Mewis.</ref> biocatalysts and polysaccharide utilization systems <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. These communities provide a frame of reference for understanding how lignocellulosic biomass is converted into dietary macronutrients, as well as a deep reservoir of genomic information with potential biotechnological applications <ref type="bibr" target="#b12">[13]</ref>.</p><p>The North American beaver, Castor canadensis, provides a useful animal model for the study of xylotrophic microbiomes, as its diet is largely composed of bark, shoots, leaves, and other fibers from hardwood deciduous trees such as poplar, aspen, and cottonwood, which have commercial value in the forestry sector <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Hardwoods such as poplar typically have a total polysaccharide content comprising 60-80% of the dry mass of the wood <ref type="bibr" target="#b15">[16]</ref>. Some 35-50% of this dry mass consists of cellulose followed by hemicellulose (20% primarily glucuronoxylan) and pectin. Previous studies have shown that beavers are capable of digesting up to 32% of the available cellulose in consumed hardwoods <ref type="bibr" target="#b16">[17]</ref>. However little is known about the utilization of the hemicellulose component by the beaver microbiome, and much less about the enzyme repertoire effecting its deconstruction.</p><p>Gruninger and colleagues recently used small subunit ribosomal RNA (SSU rRNA) gene sequencing to profile the microbial community structure of beaver cecum and feces, indicating a typical mammalian hindgut community dominated by Bacteroidetes and Firmicutes <ref type="bibr" target="#b17">[18]</ref>. As a hindgut fermenter, commensal microbes in the lower digestive tract of the beaver are expected to mediate the degradation and fermentation of complex sugars to provide short chain fatty acids that provision host nutrition <ref type="bibr" target="#b18">[19]</ref>. Given that the proclivity of beavers to consume wood differentiates them from other hindgut fermenting herbivores, several questions arise from the initial microbiome study: At what taxonomic level does the beaver microbiome differ from other xylotrophic and hindgut fermenting organisms? Does the microbiome encode specialized genes or gene cassettes mediating complete conversion of lignocellulosic biomass? Are some components of the lignocellulose targeted for digestion more than others? To what extent are these functions distributed at the population and community levels? Could analysis of these differences reveal new insight into sequential biomass deconstruction of woodbased fibers transferrable to industrial process streams? To begin answering these questions, we used a combination of SSU rRNA gene sequencing, shotgun metagenomics and functional screening to evaluate the community structure and metabolic potential of the beaver microbiome in relation to other wood-feeding organisms and to recover activities mediating lignocellulosic biomass deconstruction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>To profile the microbial community composition of the beaver fecal microbiome, we performed 454 pyrotag sequencing of the V6-V8 region of the SSU rRNA gene with three-domain resolution on composite fecal samples from 2 captive beavers. A total of 12,579 rRNA pyrotag sequences, recovered from the fecal sample, were clustered with a 97% similarity cut-off into 404 operational taxonomic units (OTUs) after singleton removal. Of the OTUs identified, only two could not be affiliated with described microbial taxa based on homology to sequences in the Silva database <ref type="bibr" target="#b19">[20]</ref> (Fig. <ref type="figure">1</ref>). One of these OTUs showed 99% identity to the Castor canadensis mitochondrial DNA sequence <ref type="bibr" target="#b20">[21]</ref>, while the other had at most 75% sequence identity to SSU rRNA sequences from uncultured bacteria. The majority of sequences were affiliated with the bacterial phyla Firmicutes (214 OTUs, 58.4%) and Bacteroidetes (93 OTUs, 24.4%). Within the Firmicutes, 200 OTUs were affiliated with the class Clostridia (55.9%), with 143 OTUs (43.6%) affiliated with the family Lachnospiraceae, which is known to harbor xylanotrophic, butyric acid producing members <ref type="bibr" target="#b21">[22]</ref>. Within the Bacteroidetes, 68 of the 93 OTUs (21.3%) were affiliated with the class Bacteroidia, with 39 OTUs (15.5%) affiliated with the uncultivated S24-7 group. In a recent cultivationdependent study, S24-7 comprised approximately 4% of the beaver fecal microbiome prior to methanogenic enrichment on different lignocellulosic biomass substrates <ref type="bibr" target="#b22">[23]</ref>. Overall, these results are consistent with the observations of Gruninger and colleagues, although the proportions of Firmicutes and Bacteroidetes were not identical <ref type="bibr" target="#b17">[18]</ref>. Additionally, the dominance of Firmicutes and Bacteroidetes is also seen in other wild rodents <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>. As a high proportion of identified OTUs lacked cultured representatives (354 of 370 bacterial OTUs) specific metabolic roles could not be inferred with confidence. To this end</p><p>SSU rRNA gene abundance (%) Betaproteobacteria Other Proteobacteria Bacteroidetes Firmicutes Tenericutes Other Bacteria Archaeplastida Opisthokonta SAR Other Eukaryota Other Metagenome Pyrotags 0 1 0 2 0 3 0 4 0 5 0 6 0</p><p>Fig. <ref type="figure">1</ref> Beaver fecal community composition. The relative abundance of 16s rDNA genes found in the metagenome are compared to those identified by pyrotags. Both methods reveal a metagenome dominated by Firmicutes (green), Bacteroidetes (red) and Proteobacteria (purple) phyla</p><p>we used shotgun metagenome sequencing to predict metabolic functions encoded in the beaver microbiome. Shotgun metagenomic sequencing was conducted on the 454 platform from the same fecal DNA preparations used in SSU rRNA gene pyrotag analysis resulting in the production of 469.2 million base pairs (Mbp) of total sequence information (616,811 reads with average length 761 bp). Raw sequences were trimmed to Q30 quality score using prinseq lite+ <ref type="bibr" target="#b25">[26]</ref> and assembled using MIRA <ref type="bibr" target="#b26">[27]</ref>, resulting in 75,523 contigs with an N50 of 1,787 bp and 130.5 Mbp of consensus sequence. One of these assembled contigs (beaver_rep_c845) had 99% identity with the 16 kb beaver mitochondria assembled by Horn and colleagues providing an additional reference for host population studies <ref type="bibr" target="#b20">[21]</ref>.</p><p>To explore potential bias in community structure based on pyrotag analysis, we examined SSU rRNA gene sequences recovered from the metagenome by comparing unassembled reads to the Silva SSU database using Meta-Pathways <ref type="bibr" target="#b27">[28]</ref>. Of the unassembled reads 1,812 were annotated as having SSU rRNA genes (Supplementary Table <ref type="table" target="#tab_1">1</ref>). The majority of these sequences were affiliated with either Firmicutes (890) or Bacteriodetes (438), consistent with pyrotag results (Fig. <ref type="figure">1</ref>). A notable exception was the relative abundance of Tenericutes within the metagenome, which was greater than that seen in the pyrotag data (percentages of 5.8% and 0.02% respectively). This may be due to amplification bias, as has previously been observed for Mycoplasma, the dominant Tenericutes genus identified in the beaver fecal metagenome <ref type="bibr" target="#b28">[29]</ref>. In addition to bacteria, we detected SSU rRNA gene sequences affiliated with Archaeplastida (predominant class Liliopsida) and Opisthokonta (predominant class Insecta) at low abundance. The presence of these eukaryotic taxa in the beaver microbiome could reflect captive dietary intake or colonization post defecation.</p><p>Given the similarities between the taxonomic composition of the beaver fecal microbiome and other hindgut fermenters we initially looked for differences in carbohydrate active enzymes (CAZymes). Unassembled reads from the metagenome were queried against the CAZy database <ref type="bibr" target="#b29">[30]</ref> using MetaPathways <ref type="bibr" target="#b27">[28]</ref> and compared to 37 other mammalian species <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32]</ref>. Because older datasets tended to have reduced and variable coverage per sample, unassembled metagenomic reads were compared using a variance stabilizing transformation (VST) <ref type="bibr" target="#b32">[33]</ref>. CAZymes (all classes) constituted 3.85% of predicted genes within the beaver fecal microbiome compared to 2.89-6.95% for other organisms (Supplementary Table <ref type="table">2</ref>). Consistent with previous reports, CAZymes formed distinct clusters with glycoside hydrolase (GH) families encoding cellulases, hemicellulases, and pectinases overrepresented in herbivores, and families encoding glycosaminoglycanases overrepresented in carnivores <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">5]</ref> (Supplementary Fig. <ref type="figure">1</ref>). Overall, the beaver CAZyme profile was most similar to those of hindgut-fermenting herbivores.</p><p>To determine the metabolic context of GH families in the beaver fecal microbiome we reconstructed metabolic pathways on open reading frames (ORFs) predicted on assembled contigs and annotated using MetaPathways <ref type="bibr" target="#b27">[28]</ref>. Of the 48,959 ORFs mapped to KEGG pathways, 9514 or 19.4% were associated with carbohydrate metabolism (Supplementary Table <ref type="table">3</ref>). In particular, ORFs encoding beta-glucosidase (bglX: K05349) and beta-galactosidase (lacZ: K01190), were similar in abundance to those of other mammals (bglX mean = 0.313 ± 0.14%, beaver = 0.347%; lacZ mean = 0.342 ± 0.13%, beaver = 0.368%).</p><p>Based on observed functional similarities between CAZymes and KEGG pathways present in the beaver fecal microbiome and other hindgut fermenting herbivores, we wondered if functional organization of these genes at the population or community levels could in part explain the capacity of the beaver to digest wood fibers efficiently. Contigs and functionally identified fosmids (described below) were binned into population genomes using MaxBin 2.0 <ref type="bibr" target="#b33">[34]</ref> which were refined using the Anvi'o metagenomics workflow <ref type="bibr" target="#b34">[35]</ref>. This binning produced 8 medium-quality (completeness &gt;50% and contamination &lt;10%) and 22 lowquality metagenome-assembled genomes (MAGs) <ref type="bibr" target="#b35">[36]</ref>. Together these bins accounted for 6.2% of the assembled metagenome (Supplementary Table <ref type="table">4</ref>). Further analysis was confined to the medium-quality bins. We then used Phylo-Sift to assign taxonomy to these bins <ref type="bibr" target="#b36">[37]</ref>. Two bins were assigned to the Bacteroidetes phylum (Bins 1 and 2), five to the order Clostridiales <ref type="bibr">(3, 5, 7, 8, 13 and 16</ref>) and one to an undefined genus within the Burkholderiales order (Bin 6). Three Clostridiales bins could be further classified beyond the order level, with one classified at the Genus level as a Flavobacterium (Bin8), and two classified at the species level as Coprococcus sp. ART55/1 (Bin13) and Eubacterium eligens (Bin16). This species-level assignment was cross-validated using average nucleotide identity (ANI) to known isolate genomes, revealing that Bin13 had 97.5% ANI to the Coprococcus sp. ART55/1 genome, while Bin16 had 95.6% ANI to Eubacterium eligens strain ATCC 27750. The strain Coprococcus sp. ART55/1, which belongs to the family Lachnospiraceae, is likely involved in the generation of fermentation products within the beaver gut as it has previously been shown to produce butyrate <ref type="bibr" target="#b37">[38]</ref>.</p><p>The abundance of plant carbohydrate active GH families within the identified population genome bins was then investigated (Supplementary Table <ref type="table">5</ref>). All medium-quality bins exhibited incomplete enzyme repertoires involved in lignocellulosic biomass deconstruction consistent with combinatorial substrate conversion processes. One set of bins <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16</ref>) contained a wide range of genes encoding hemicellulose degrading enzymes (average 2.1% of all ORFs), but lacked genes encoding enzymes necessary for glucuronoxylan debranching (GH families 67 and 115). Cellulose degradation appeared to be chiefly performed by bins 1, 2, 7, and 13, as these were the only bins to contain GH families with endo-cellulase activity. Three of the eight bins appeared to target pectins (1, 7, and 16) with Bin16, the Eubacterium eligens bin, having the most extensive array of pectin targeting genes. This fits well with the previous observations of pectin degradation by this species <ref type="bibr" target="#b38">[39]</ref>. The Coprococcus bin (Bin13) contained plant biomass targeting GH and CE families (GH43, GH95, CE4) that were absent in the Coprococcus sp. ART55/1 genome, suggesting expanded ability to degrade carbohydrates by the strain found in the beaver feces. The remaining bins (2, 3, and 8) appeared to have a comparatively reduced capacity to degrade lignocellulosic biomass, but contained multiple enzymes for starch or glycogen degradation as well as simple glucosides and gluco-oligosaccharides present within the beaver diet or liberated by the endoacting enzymes of co-occurring microorganisms.</p><p>While this analysis provided more specific information regarding metabolic potential of observed community members, specific CAZyme functions were inferred solely on the basis of sequence homology. Although enzyme activity often correlates with CAZy family, new activities are often identified within existing families, such as those identified by Ndeh et al. <ref type="bibr" target="#b39">[40]</ref>. To better validate gene models we conducted functional screening to recover active CAZymes from large insert (fosmid) clones.</p><p>A fosmid library containing over 4,500 clones was constructed from the same DNA used in shotgun metagenome sequencing using the pCC1 copy control system expressed in E. coli EPI300. Activity assays were based on methods described by Mewis and colleagues <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref> but instead of chromogenic substrates we utilized cellobioside, xyloside, and xylobioside fluorogenic substrates bearing the screening (C: CMU-cellobiose, X: CMU-xylose, X2: CMU-xylobiose). Colored bars within each fosmid represent GH domains as predicted by BLASTP against the CAZy database. b Histogram displays color encoding of GH gene families as well as abundance of each family in the complete fosmid dataset compared to the abundance of the same gene families in the unassembled metagenomic dataset.</p><p>The abundance relative to the total number of ORFs is shown in parentheses 6-chloro-7-hydroxy-4-methylcoumarin aglycone, resulting in greater sensitivity with improved signal to noise ratio <ref type="bibr" target="#b42">[43]</ref>. We combined the three substrates in a multiplex format to reduce both the time required and materials costs (Supplementary Fig. <ref type="figure" target="#fig_0">2</ref>). Multiplex screening identified 51 fosmids that hydrolyzed at least one of the three fluorogenic substrates (z-score &gt; 3); a hit rate of 1 in 88 (Supplementary Fig. <ref type="figure" target="#fig_1">3</ref>). Substrate specificities of active clones recovered in multiplex screening were further assessed against a panel of nine separate fluorogenic substrates (Supplementary Fig. <ref type="figure">4</ref>). A majority of clones were most active against either βglucosides or β-xylosides However, six clones displayed higher activities against alternative substrates including arabinose (06_E19, 09_O03, 09_O15), galactose (10_J12), lactose (9_I18), and mannose (5_B01). This suggests that either the active enzymes encoded on these fosmids possess broad substrate specificities, or that multiple functions are encoded and expressed from individual clones consistent with gene cassettes e.g., cellulosomes or polysaccharide utilization loci (PULs) involved in the extracellular deconstruction of insoluble biomass <ref type="bibr" target="#b43">[44]</ref> and the utilization of soluble carbohydrates within the cell respectively <ref type="bibr" target="#b44">[45]</ref>.</p><p>To identify individual genes or gene cassettes mediating substrate conversion we fully sequenced the 51 active clones. Reads were assembled using ABySS <ref type="bibr" target="#b45">[46]</ref> and ORFs predicted and annotated using the MetaPathways pipeline <ref type="bibr" target="#b27">[28]</ref>. Comparison between sequences identified 38 nonredundant clones based on &gt;95% similarity across &gt;90% of insert length (Fig. <ref type="figure" target="#fig_0">2a</ref>). The reads mapped per kilobase of fosmid per million mapped reads (RPKM) from the metagenome was highly variable between fosmids, with an average value of 8.7 ± 13.0 per fosmid; a maximum of 81.9 and a minimum of 0.1 (Supplementary Table <ref type="table">6</ref>). Few fosmids had greater than 90% metagenome coverage (04_O22, 05_H01, 12_E14) with two fosmids (09_N21, 09_N22) recruiting less than 5% of their total sequence length (Supplementary Table <ref type="table">6</ref>). LCA assignment of 1,267 predicted ORFs indicated that 13 active clones were affiliated with Firmicutes and 38 were affiliated with Bacteroidetes donor genotypes (Supplementary Fig. <ref type="figure">5</ref>). When queried against the medium-quality metagenomic bins, 5 active clones had &gt;97% identity to a contig larger than 1 kb (Supplementary Table <ref type="table">6</ref>). This number includes 04_O22, the only fosmid to be assigned to a medium-quality bin. The four remaining fosmids (05_H01, 09_K06, 11_G03, and 12_E14) all aligned with over 75% of their lengths to Bin 1.</p><p>Queries of sequenced fosmids against the CAZy database identified 135 GH genes from 28 GH families encompassing 11.13% of the annotated ORFs (Fig. <ref type="figure" target="#fig_0">2b</ref>). Unexpectedly, active fosmids harbored only 5 GH genes from families with annotated cellobiohydrolases or endoglucanases, one each from GH families 5 and 51, and three from GH8 with none from the cellulolytic GH families 6, 7, 9, 12, 26, 44, 45, 48, 74, or 124. As the metagenome encodes for a total of 1,085 cellulases from 9 of 14 cellulase families (0.15% of all predicted metagenome ORFs) it may be that we have only captured the most abundant taxa within the fosmid library and that cellulose is being degraded by rarer taxa within the community. In contrast, there was an abundance of genes encoding hemicellulose converting enzymes, particularly xylan. The most abundant GH family recovered was GH3, which contains both β-xylosidases and β-glucosidases. This was followed in abundance by GH43, a family containing both β-xylosidases and xylanases <ref type="bibr" target="#b46">[47]</ref>. Within the unassembled metagenome, 115 GH43 genes (0.015% of all metagenomic genes) from 23 subfamilies were identified, the second highest diversity of GH43 subfamilies seen in any of the mammalian metagenomes analyzed (Supplementary <ref type="bibr">Table 7)</ref>. A total of 27 GH43 genes (1.8% of fosmid genes) from subfamilies were identified on active clones (Table <ref type="table" target="#tab_1">1</ref>). Three GH43 genes, 12_H03 (two genes -subfamilies 2 and 7) and 12_J03 (subfamily 28), belonged to subfamilies containing no previously characterized members thus were of unknown specificities. Genes encoding xylan side-chain removing enzymes (α-glucuronidase from GH67; α-galactosidases from GH 28 and 97) were also present. Interestingly, we identified a number of genes encoding multiple GH domains (Supplementary Fig. <ref type="figure">6</ref>). Four of these encoded predicted endo-acting and exo-acting domains. These include 4_C21-10 and 12_B18-19 which contain both GH43 and GH10 domains and are likely involved in xylan degradation, as well as 10_G11-03 and 12_H03-13, both of which contain GH43 and GH8 domains consistent with a role in xyloglucan or xylan degradation. The presence of both endo-and exo-glycosidase domains within the same protein can lead to synergism in efficient deconstruction of polysaccharides, as has been observed previously <ref type="bibr" target="#b47">[48]</ref>.</p><p>To better understand the substrate specificities and activities of the enzymes present, we focused our attention on the uncharacterized GH43 subfamilies identified by functional screening. To this end we generated constructs that were used to overexpress and purify recombinant proteins (12_H03-13 from subfamily 2, 12_H03-12 from subfamily 7, and 12_J03-18 from subfamily 28). Since 12_H03-13, also contained a GH8 domain, we created two additional constructs in which the GH8 and GH43 domains were inactivated independently by mutation of the catalytic acid residue (GH8 domain mutant H03-13_E507A and GH43 domain mutant H03-13_E209A). Of the three wildtype enzymes, two had detectable cleavage activity on monosaccharide aryl glycosides. Both 12_H03-13 and 12_J03-18 cleaved CMU-xyloside, with the specificity constant of the 12_H03-13 wild-type enzyme being the same, within error, as that of the H03_E507A variant in which the GH8 activity was abated (Table <ref type="table">2</ref>), indicating that it was the GH43 domain that was responsible for the xylosidase activity. Surprisingly, none of the enzymes cleaved any of the other aryl glycosides tested (Supplementary Table <ref type="table">8</ref>), reinforcing the utility of these inherently more reactive chlorocoumarin glycosides for detection of previously unknown activities.</p><p>The activities of enzymes 12_H03-12, 12_H03-13 and its variants were also tested on a set of arabinoxylan oligosaccharides. This revealed a synergistic degradation mechanism in which the GH43 domain of 12_H03-13 (subfamily 2) releases undecorated xylose from the non-reducing end of the oligosaccharides while the GH8 domain of 12_H03-13 (a reducing end xylose-releasing exo-oligoxylanase [Rex]) releases xylose from the reducing end of decorated oligosaccharides (Fig. <ref type="figure" target="#fig_1">3</ref>). The activity displayed by 12_H03-13 is further complemented by GH43 12_H03-12 (subfamily 7), which cleaves α-1-3-linked arabinose decorations from arabinoxylans, releasing arabinose and xylobiose. This activity is only observed in the presence of 12_H03-13. This establishes the intriguing possibility that 12_H03-12 is activated by 12_H03-13. The xylobiose generated by these two enzymes appears to be resistant to further degradation by these enzymes. As GH8 Rex genes typically require at least a trisaccharide for activity, this domain is not expected to hydrolyze xylobiose. The GH43 domain of 12_H03-13 was expected to further degrade xylobiose, yet this is not the case, suggesting that the presence of an arabinose sidechain may be important for the xylosidase activity of this domain. This represents, to our knowledge, the first multi-domain protein containing both a GH43 and GH8 domain to be characterized and the first description of how these two domains function synergistically on arabinoxylan oligosaccharides converting them into arabinose and xylobiose. Collectively these results illuminate substrate specificity and activity of GH43 subfamilies 2, 7, and 28 within the context of the beaver fecal microbiome with direct relevance to lignocellulosic biomass conversion and host nutrition.</p><p>In addition to providing a route toward functional validation of predicted GH genes, active clone sequences contained information about the structural organization of GH gene cassettes. This has revealed several GH gene clusters that appear to target plant cell wall hemicelluloses (Fig. <ref type="figure">4a</ref>). The fosmid 04_C03 contains a motif (GH16 and GH3 adjacent to SusC and SusD-like proteins) with synteny to a PUL recently shown to be active against mixed-linkage glucans <ref type="bibr" target="#b48">[49]</ref>. Several fosmids (04_C21, 10_G11, 11_G02, 12_H03, and 11_K01) also appear to target xylans. The four fosmids 04_C21, 11_G02, 12_H03, and 11_K01 all harbor GH10 genes, which often act as endo-xylanases, and GH43s which may have exoxylanase activity. Furthermore, Fosmid 04_C21 contains a motif (GH10-GH43 (GH43 subfamily 12) protein followed by an additional GH43 (subfamily 1) and a GH67 with synteny to a gene cluster identified in Bacteroides intestinalis <ref type="bibr" target="#b49">[50]</ref>. The GH10-GH43 homolog from B. intestinalis has endoxylanase and arabinofuranosidase activity, which is able to release xylose, xylo-oligosaccharides and arabinose from arabinoxylans <ref type="bibr" target="#b49">[50]</ref>. Although Fosmid 10_G11 lacks a GH10 it does contain a two domain GH43-GH8 gene, which we speculate may have similar activity to H03-13 in targetting arabinoxylan oligomers. The presence of a GH29 (a family of α-L-fucosidases), GH42 (a family cotaining β-galactosidases) and GH31 (a family containing</p><p>Table 2 Kinetic parameters determined for purified GH43 enzymes with 6-chloro-4-methylumbelliferyl β-D-xyloside Enzyme K M (mM) k cat (s -1 ) k cat/ K M (s -1 mM -1 ) 12_J03-18 0.48 ± .06 0.22 ± .02 0.45 ± .09 12_H03-13 WT 0.19 ± .03 0.80 ± .06 4.2 ± 0 .7 12_H03-13_E507A 0.14 ± .01 0.73 ± .02 5.2 ± 0.4</p><p>α-xylosidases) on the three fosmids 09_O03, 12_H03, and 11_K01 leads us to speculate that these fosmids may target fucogalactoxyloglucan which is present in most dicots and gymnosperms <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref> Moreover, we identified 15 fosmids spanning 5 identity groups containing Sus-like genes (SusC or SusD), leading indicators for the identification of PULs using an automated PUL prediction tool <ref type="bibr" target="#b52">[53]</ref> (Fig. <ref type="figure">4b</ref>). Eight of these clones exhibited near complete nucleotide identity (5_O06, 05_O07d, 5_O08, 5_P05, 5_P06, 5_P07, 5_P08, and 5_P12) and 4 clones shared near complete nucleotide identity specifically in the PUL interval (12_E14, 11_G03, 5_H01, and 9_K06). The remaining 4 clones (4_C03, 9_C22, and 9_G01) contained unique PUL intervals. Representative PULs from each identity group were compared to the RefSeq database to see if they are also found in sequenced microbial genomes. PULs from 9_C22 and 9_G01 exhibited 99% and 98% nucleotide identity respectively to distinct regions of the Alistipes senegalensis JC50 genome whereas the most common PUL represented by 5_P08 exhibited 99% nucleotide identity to the genome of Alistipes finegoldii DSM17242. The remaining identity groups exhibited less than 7% nucleotide identity to reference genomes, indicating previously unrecognized architectures. In addition to the fosmids which appear to target hemicelluloses mentioned above, 05_H01 and homologs appear to target pectic polymers as they contain a GH28 (a family containing polygalacturonases) and a GH88 which may target the unsaturated reducing ends generated by pectate lyases. The substrates targeted by the PULs present on fosmids 05_P08, 09_G01, and 09_C22 are not immediately apparent, and further biochemical characterization will be needed to reveal their activity.</p><p>Taken together, the PULs and gene clusters identified on fosmids appear to target many of the hemicellulosic components of plant cell walls, including glucuronylxylan, xyloglucan, and pectins, which would be present in hard woods. Some of the polymers which these gene cassettes likely act on, however, are not present in hardwoods, such as mixed-linkage glucans, which are mainly found in</p><p>PAD Response Retention Time (min) 2 4 6 8 2 4 6 8 2 4 6 8 (1) (2) (3)</p><formula xml:id="formula_0">a b GH43 GH8 GH43 GH43 GH8 GH43 GH43 X GH8 X Enzymes<label>(1) (2)</label></formula><p>(3)  <ref type="formula">2</ref>). The GH43 domain of 12_H03-13 releases xylose from the non-reducing end of (1). 12-H03-12, a GH43</p><formula xml:id="formula_1">α1-2 α1-3 α1-2 /α1-3 GH43 GH8 GH43 X X X X X X Xylose Arabinose GH43 12_H03-12 GH43 GH8 12_H03-13</formula><p>belonging to subfamily 7 is able to release arabinose from only the oligomers containing an arabinose α-1-3-linkage. b High performance anion exchange chromatography with pulsed amperometric detection (HPAEC-PAD) analysis of the degradation of ( <ref type="formula" target="#formula_0">1</ref>), ( <ref type="formula">2</ref>) and ( <ref type="formula">3</ref>) catalyzed by H03-12, H03-13, H03-13_E209A (GH43 domain mutant, denoted with an X on the GH43 domain) or H03-13_E507A (GH8 domain mutant, denoted with an X on the GH8 domain) and their combinations grasses, and arabinoxylans, which are present in grasses and softwoods. The ability to degrade these polymers may support host nutrition when preferential food sources are scarce. Future characterization of these PULs and gene clusters has potential to shed light on combinatorial biomass deconstruction within the beaver microbiome at the population and community levels of organization <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>.</p><p>Beavers have been described as nature's engineers due to their prolific capacity to reshape forest ecosystems into ponds and meadows, raising groundwater levels and creating new habitats for diverse plants and animals. Beyond their capacity to transform landscapes, beavers are extremely efficient consumers of woody biomass relying on bark, shoots, leaves, and other fibers from hardwood deciduous trees as primary nutritional resources. The current study opens a functional metagenomic window on the capacity of the beaver fecal microbiome to deconstruct woody plants into soluble sugars supporting host nutrition. Although beavers are classified as xylotrophic organisms, their microbiome composition is most similar to those of hindgut-fermenting mammals dominated by Bacteroidetes and Firmicutes. However, the specific strains inhabiting the beaver fecal microbiome harbor abundant and diverse genomic adaptations underlying woody biomass deconstruction, particularly xylan substrates that can be funneled into central metabolism. These adaptations are distributed among and between different populations within the fecal microbiome and encompass multiple GH43 subfamilies (including one containing both GH8 and GH43 domains) that synergize in combination. Several of these subfamilies</p><formula xml:id="formula_2">04_C03 05_P08 09_G01 09_C22 05_H01 11_G03 12_E14 09_K06 04_C03 04_C21 09_O03 10_G11 11_G02 11_K01 12_H03 Mixed-Linkage Glucans Xylans Xyloglucans GH43-GH8 GH29-GH42 a b GH97 SusC SusD Other 5kb GH2 GH3 GH10 GH11 GH16 GH13 GH25 GH29 GH28 GH32 GH31 GH35 GH36 GH43 GH50 GH42 GH72 GH88 GH95 GH67 GH29-GH42 GH10-GH43 GH43-GH8</formula><p>Fig. <ref type="figure">4</ref> Gene organization of putative hemicellulose targeting fosmids and SusC/SusD-like encoding fosmids. a Fosmids with gene clusters that may target the hemicellulosic portion of plant biomass within the beaver diet. b SusC/SusD-like encoding fosmids. Putative glycoside hydrolases and SusC/ SusD-like proteins are colored with the same scheme as Fig. <ref type="figure" target="#fig_0">2</ref>.</p><p>ORFs not annotated as a glycoside hydrolase, SusC-like, or SusD-like, are shown in gray. Fosmids Identical to 5_P08 have been omitted for simplicity are encoded in PULs representing previously unknown genomic architectures. Targeted conversion screens identified potential substrates for three GH43 subfamilies expanding our mechanistic understanding of this important group of CAZymes. Interestingly we did not identify an abundance of fosmid genes encoding cellulases, indicating the potential for overexpression by specialized strains or compartmentalization of function along the beaver gastrointestinal tract.</p><p>The panoply of genes encoding enzymes with hemicellulose degrading activities is presumably required to tackle the complex structures of hardwood biomass in which glucan and xylan backbones are extensively decorated with appended sugars. The presence of two-domain enzymes endows the beaver fecal microbiome with synergistic capacity to efficiently degrade the specific linkages present within the hemicellulose. Not only does this liberate monosaccharides, but the degradation of hemicellulose scaffolds also exposes the underlying cellulose fibers for digestion by the cellulase repertoire, enhancing conversion efficiency. Taken together these results provide a unique perspective on the modular domain architecture and functional specialization driving combinatorial biomass deconstruction in the beaver fecal microbiome. It will be of interest to determine the extent to which beavers combine compartmentalization and sequential biomass deconstruction with combinatorial enzymatic activities acting on lignocellulosic substrates. These deconstruction principles can in turn be used in the design of enhanced enzyme mixtures and whole cell biocatalysts tuned to xylan inputs in modern biorefining ecosystems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection</head><p>Fecal samples were collected in 50 mL Falcon tubes on April 12th, 2012 from two beavers that were being cared for at the Critter Care Wildlife Society located in Langley, British Columbia, Canada. Animals were fed branches from a variety of woody plant species, native to the Pacific Northwest. Due to the difficulty of obtaining fresh fecal matter, as beavers defecate underwater, samples were collected from material that had accumulated at the enclosure water outflow grating, within 12 h of cleaning. The enclosure was open to the environment and not heated. The temperature fluctuated between 7 and 15 °C in the time before sample collection. As both beavers shared the same enclosure, it was not possible to identify which animal the samples came from. Samples were frozen in a slurry of dry-ice and ethanol and transported to the laboratory on dryice and were stored at -80 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction</head><p>High molecular weight DNA was extracted from four grams of beaver feces as described previously <ref type="bibr" target="#b57">[58]</ref>. Extracted DNA was purified by isopropanol precipitation and quantified using the PicoGreen assay (Invitrogen).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PCR amplification of ribosomal SSU rRNA gene sequences</head><p>Following DNA isolation, the V6-V8 region of the small subunit ribosomal RNA (SSU rRNA) gene was PCR amplified with the universal three-domain primers 926F and 1392R containing barcodes for pooled sequencing. Duplicate reactions were pooled and purified and then quantified. Samples were diluted to 10 ng/µL and pooled in equal concentrations. See supplemental methods for further details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SSU rRNA amplicon sequencing and analysis</head><p>SSU rRNA amplicon pools were sent to the Génome Québec Innovation Centre at McGill University for 454 pyrosequencing using the Roche 454 GS FLX Titanium platform. QIIME <ref type="bibr" target="#b58">[59]</ref> was used to quality control and analyze the amplicon sequences, which were then queried against the SILVA database version 111 <ref type="bibr" target="#b19">[20]</ref>. See supplementary information for detailed methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metagenomic sequencing and analysis</head><p>Genomic DNA was sent to the Génome Québec Innovation Centre at McGill University for whole genome shotgun sequencing using the Roche 454 GS FLX Titanium platform. 454 sequence data were assembled using MIRA version 4.0.2 <ref type="bibr" target="#b26">[27]</ref>. Open reading frames (ORFs) were predicted using Prodigal <ref type="bibr" target="#b59">[60]</ref> implemented in the MetaPathways pipeline <ref type="bibr" target="#b27">[28]</ref>. The assembled metagenome yielded 151,180 ORFs &gt;180 nucleotides in length annotated using LAST <ref type="bibr" target="#b60">[61]</ref> implemented in the MetaPathways pipeline based on queries of KEGG <ref type="bibr" target="#b61">[62]</ref>, COG <ref type="bibr" target="#b62">[63]</ref>, RefSeq <ref type="bibr" target="#b63">[64]</ref>, MetaCyc <ref type="bibr" target="#b64">[65]</ref>, and CAZy <ref type="bibr" target="#b29">[30]</ref> databases. Metagenomic data from previous studies <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b65">66]</ref> were downloaded from the RAST online database and used for comparison.</p><p>Metagenomic binning of the MIRA contigs and the 53 assembled fosmid sequences was performed using MaxBin 2.0 <ref type="bibr" target="#b33">[34]</ref>. The default MaxBin abundance estimation workflow was unable to estimate abundance of these contigs due to the single-end nature of pyrosequenced reads, therefore abundance files for binning were generated by BWA MEM and a custom script for generating RPKM values in a compatible format <ref type="bibr" target="#b66">[67]</ref>. Apart from this, default parameters were used resulting in 30 metagenome-assembled genomes (MAGs). All 51 fosmids were binned across 12 different MAGs. MAGs were refined using the Anvi'o metagenomics workflow <ref type="bibr" target="#b34">[35]</ref>. Centrifuge was used to assign taxonomy to contigs to assist with manual MAG refinement within this workflow <ref type="bibr" target="#b67">[68]</ref>. Additionally, the '--clustercontigs' flag was used to estimate the relatedness of these contigs without abundance information from multiple samples and a minimum contig length of 1,500 bp was enforced to reduce marker gene redundancy from short contigs. checkM was used to evaluate the final completeness and contamination of these MAGs <ref type="bibr" target="#b68">[69]</ref>, yielding 8 medium-quality (completeness &gt;50% and contamination &lt;10%) and 22 low-quality MAGs <ref type="bibr" target="#b35">[36]</ref>. Taxonomy was assigned to the medium-quality MAGs using Phylosift by taking the deepest taxonomic assignment with &gt;70% of the taxonomic annotations <ref type="bibr" target="#b36">[37]</ref>, see Table <ref type="table">S4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fosmid library construction and screening</head><p>Genomic DNA was further purified by cesium chloride gradient ultracentrifugation prior to library creation <ref type="bibr" target="#b69">[70]</ref>. A large insert library was constructed as described previously <ref type="bibr" target="#b70">[71]</ref> using the CopyControl™ Fosmid Library Production Kit with pCC1FOS™ Vector Kit (EpiCentre). This resulted in a library containing 4608 clones. Functional screening was performed according to procedures by Mewis et al. <ref type="bibr" target="#b41">[42]</ref> with modifications. Screening was carried out in phosphate buffer (25 mM sodium phosphate, pH 6.0), containing 100 µM each of the three fluorogenic substrates (6-chloro-4-methylumbelliferyl β-cellobioside, 6-chloro-4-methylumbelliferyl β-xylobioside, and 6-chloro-4-methylumbelliferyl β-D-xylopyranoside). Screening was performed at a temperature of 37 °C, which is the body temperature of Castor canadensis <ref type="bibr" target="#b71">[72]</ref>. Fosmids chosen for sequencing (z-score &gt; 3 for each substrate) were rearrayed using an automated colonypicking robot (Qpix2, Molecular Devices), into a 96 well plate (Costar 3370) containing 200 µL of LB chloramphenicol (12.5 µg/mL) and 10% glycerol. This master plate was incubated overnight at 37 °C and then stored at -80 °C.</p><p>The frozen master plate was then used to assay the clones against a panel of eleven different fluorogenic substrates, see supplemental methods for detailed description.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fosmid sequencing and analysis</head><p>The 96 well master plate was used to inoculate a 96 deepwell plate (Costar) containing 1.65 mL LB with chloramphenicol (12.5 µg/mL) and arabinose (100 µg/mL). This plate was incubated with shaking (37 °C, 320 rpm) for 20 h, then centrifuged at 1,500 ×g for 10 min and the supernatant was decanted. Fosmids were purified from the pelleted cells using a Montage Plasmid MiniprepHTS 96 Kit (Millipore), treated with PlasmidSafe ATP-dependent DNAse (Epicentre) and quantified using the PicoGreen assay (Invitrogen). Purified DNA was prepared for sequencing on the Illumina MiSeq platform using Nextera XT library preparation kit and 96 sample Nextera V1 index kit. Samples were sequenced using paired end 150 bp reads (2 × 150 bp mode). Fosmid sequence quality control and assembly are detailed in the supporting methods. Assembled fosmid contigs were were annotated in the same manner as the assembled metagenome. The resulting RefSeq output files were imported into MEGAN <ref type="bibr" target="#b72">[73]</ref> as a way of assigning taxonomy to each fosmid according to the LCAstar algorithm <ref type="bibr" target="#b73">[74]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cloning and expression of GH43 genes</head><p>One GH43 gene from each of the uncharacterized subfamilies 2, 7, and 28 was chosen for cloning, expression and characterization. The three genes (12_H03-12, 12_H03-13, 12_J03-18), were inserted into a pET28 vector by use of the polymerase incomplete primer extension method <ref type="bibr" target="#b74">[75]</ref>. The mutant enzymes H03-13_E507A and H03-13_E209A were produced by means of modified QuikChange mutagenesis <ref type="bibr" target="#b75">[76]</ref>. PCR parameters and primers used are detailed in the supplemental methods. The His-tagged proteins were purified by nickel-metal affinity chromatography, as described in the supplemental methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GH43 activity assays</head><p>Purified GH43 enzymes were tested against a variety of glycosidase substrates, see supplemental information for detailed methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance with ethical standards</head><p>Conflict of interest The authors declare that they have no conflict of interest.</p><p>Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.  org/licenses/by/4.0/</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2</head><label>2</label><figDesc>Fig.2Fosmids identified from high throughput screening. a Schematic representing the identified fosmids, gene presence and similarity. Gray bars represent each fosmid and are proportional to their length. Fosmids sharing 100% identity with another fosmid were removed as duplicates. Connections in the center represent areas of 90% or greater nucleotide identity between fosmids as identified by BLASTN. Inner track represents the locations of identified PULs. Outer colored track represents activities identified for each fosmid from functional</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Activity of GH43s belonging to subfamilies 2 and 7 identified on fosmid 12_H03. a Schematic of the activities of the individual domains of 12_H03-13 and 12_H03-12 on arabinoxylans. These two enzymes were tested for activity on a mixture of 2 3 -α-L-arabinofuranosyl-xylotetraose and 3 3 -α-L-arabinofuranosyl-xylotetraose (1), 2 3α-L-arabinofuranosyl-xylotriose (2) and 3 2 -α-L-arabinofuranosylxylobiose (3). The GH8 domain of 12_H03-13 releases xylose from the reducing end of (1) and (2). The GH43 domain of 12_H03-13 releases xylose from the non-reducing end of (1). 12-H03-12, a GH43</figDesc><graphic coords="7,152.05,214.64,209.08,109.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>GH43 subfamilies identified on functionally active fosmids</figDesc><table><row><cell>Fosmid</cell><cell>ORF</cell><cell>GH43 subfamily</cell></row><row><cell>Beaver_04_C21</cell><cell>10</cell><cell></cell></row><row><cell>Beaver_04_C21</cell><cell>11</cell><cell>1</cell></row><row><cell>Beaver_04_M22</cell><cell>11</cell><cell></cell></row><row><cell>Beaver_04_O22</cell><cell>25</cell><cell></cell></row><row><cell>Beaver_05_D18</cell><cell>17</cell><cell></cell></row><row><cell>Beaver_05_H01</cell><cell>3</cell><cell></cell></row><row><cell>Beaver_06_E19</cell><cell>1</cell><cell></cell></row><row><cell>Beaver_09_K06</cell><cell>1</cell><cell></cell></row><row><cell>Beaver_10_G11</cell><cell>3</cell><cell>2</cell></row><row><cell>Beaver_10_G11</cell><cell>4</cell><cell></cell></row><row><cell>Beaver_10_G11</cell><cell>8</cell><cell></cell></row><row><cell>Beaver_10_J12</cell><cell>4</cell><cell></cell></row><row><cell>Beaver_10_J12</cell><cell>7</cell><cell></cell></row><row><cell>Beaver_11_G02</cell><cell>25</cell><cell>1</cell></row><row><cell>Beaver_11_G03</cell><cell>16</cell><cell></cell></row><row><cell>Beaver_11_K01</cell><cell>12</cell><cell></cell></row><row><cell>Beaver_11_K01</cell><cell>19</cell><cell></cell></row><row><cell>Beaver_12_A10</cell><cell>9</cell><cell></cell></row><row><cell>Beaver_12_B18</cell><cell>18</cell><cell></cell></row><row><cell>Beaver_12_B18</cell><cell>19</cell><cell></cell></row><row><cell>Beaver_12_E14</cell><cell>11</cell><cell></cell></row><row><cell>Beaver_12_H03</cell><cell>10</cell><cell></cell></row><row><cell>Beaver_12_H03</cell><cell>12</cell><cell>7</cell></row><row><cell>Beaver_12_H03</cell><cell>13</cell><cell>2</cell></row><row><cell>Beaver_12_H03</cell><cell>3</cell><cell></cell></row><row><cell>Beaver_12_J03</cell><cell>15</cell><cell></cell></row><row><cell>Beaver_12_J03</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements This work was performed under the auspices of the <rs type="funder">Natural Sciences and Engineering Research Council (NSERC) of Canada</rs>, <rs type="funder">Genome British Columbia</rs>, <rs type="funder">Genome Canada</rs>, <rs type="funder">Canada Foundation for Innovation (CFI)</rs>, the <rs type="funder">Tula Foundation funded Centre for Microbial Diversity and Evolution</rs> and the <rs type="funder">Canadian Institute for Advanced Research (CIFAR)</rs>. ZA and KM were both supported by the <rs type="funder">NSERC</rs> <rs type="programName">CREATE Genome Sciences and Technology (GSAT) training program</rs> at the <rs type="institution">University of British Columbia</rs>. We would like to thank <rs type="person">Bernard Henrissat</rs> and <rs type="person">Nicolas Terrapon</rs> for use of PULDB. We would like to thank <rs type="person">Rahul Singh</rs> and <rs type="person">Lindsay Eltis</rs> for insightful conversations regarding biomass deconstruction and the future of biorefining.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uVSJZ7Q">
+					<orgName type="program" subtype="full">CREATE Genome Sciences and Technology (GSAT) training program</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data accession</head><p>Data is deposited in the NCBI BioProject portal (Bioproject ID: PRJNA261082), for assembled metagenomic reads (BioSample ID: SAMN04122864), unassembled metagenomic reads (BioSample ID: SAMN03389401), functionally identified fosmids (Biosample ID: SAMN03389402), and pyrotags (Biosample ID: SAMN03389403).</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The devil lies in the details: how variations in polysaccharide fine-structure impact the physiology and evolution of gut microbes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tauzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brumer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="3851" to="3865" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martens EC, Kelly AG, Tauzin AS, Brumer H. The devil lies in the details: how variations in polysaccharide fine-structure impact the physiology and evolution of gut microbes. J Mol Biol. 2014;426:3851-65.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diet drives convergence in gut microbiome functions across mammalian phylogeny and within humans</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Muegge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Knights</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Clemente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fontana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="970" to="974" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muegge BD, Kuczynski J, Knights D, Clemente JC, Gonzalez A, Fontana L, et al. Diet drives convergence in gut microbiome functions across mammalian phylogeny and within humans. Sci- ence. 2011;332:970-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Diet rapidly and reproducibly alters the human gut microbiome</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Maurice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Carmody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Gootenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Button</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Wolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">505</biblScope>
+			<biblScope unit="page" from="559" to="563" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David LA, Maurice CF, Carmody RN, Gootenberg DB, Button JE, Wolfe BE, et al. Diet rapidly and reproducibly alters the human gut microbiome. Nature. 2013;505:559-63.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Evolution of mammals and their gut microbes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lozupone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Turnbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Ramey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bircher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="1647" to="1651" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ley RE, Hamady M, Lozupone C, Turnbaugh PJ, Ramey RR, Bircher JS, et al. Evolution of mammals and their gut microbes. Science. 2008;320:1647-51.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Baleen whales host a unique gut microbiome with similarities to both carnivores and herbivores</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Beichman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Emerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8285</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanders JG, Beichman AC, Roman J, Scott JJ, Emerson D, Mccarthy JJ, et al. Baleen whales host a unique gut microbiome with similarities to both carnivores and herbivores. Nat Commun. 2015;6:8285.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Diet-microbiota interactions as moderators of human metabolism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sonnenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bäckhed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">535</biblScope>
+			<biblScope unit="page" from="56" to="64" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sonnenburg JL, Bäckhed F. Diet-microbiota interactions as moderators of human metabolism. Nature. 2016;535:56-64.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mining for hemicellulases in the fungus-growing termite Pseudacanthotermes militaris using functional metagenomics</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bastien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arnal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bozonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laguerre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Faure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Biofuels</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bastien G, Arnal G, Bozonnet S, Laguerre S, Ferreira F, Faure R, et al. Mining for hemicellulases in the fungus-growing termite Pseudacanthotermes militaris using functional metagenomics. Biotechnol Biofuels. 2013;6:78.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Metagenomic discovery of biomass-degrading genes and genomes from cow rumen</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sczyrba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Egan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chokhawala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schroth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="463" to="467" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess M, Sczyrba A, Egan R, Kim TW, Chokhawala H, Schroth G, et al. Metagenomic discovery of biomass-degrading genes and genomes from cow rumen. Science. 2011;331:463-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Gill bacteria enable a novel digestive strategy in a wood-feeding mollusk</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Benner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcclung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cushing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="5096" to="5104" />
+			<date type="published" when="2014">2014</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;connor RM, Fung JM, Sharp KH, Benner JS, Mcclung C, Cushing S, et al. Gill bacteria enable a novel digestive strategy in a wood-feeding mollusk. Proc Natl Acad Sci USA. 2014;111: E5096-104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Adaptation to herbivory by the Tammar wallaby includes bacterial and glycoside hydrolase profiles different from other herbivores</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Denman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Tringe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Malfatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="14793" to="14798" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pope PB, Denman SE, Jones M, Tringe SG, Barry K, Malfatti SA, et al. Adaptation to herbivory by the Tammar wallaby includes bacterial and glycoside hydrolase profiles different from other herbivores. Proc Natl Acad Sci. 2010;107:14793-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Metagenomic profiling reveals lignocellulose degrading system in a microbial community associated with a wood-feeding beetle</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Scully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Geib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Tringe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">73827</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scully ED, Geib SM, Hoover K, Tien M, Tringe SG, Barry KW, et al. Metagenomic profiling reveals lignocellulose degrading system in a microbial community associated with a wood-feeding beetle. PLoS ONE. 2013;8:e73827.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Metagenomic and functional analysis of hindgut microbiota of a wood-feeding higher termite</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Warnecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Luginbuhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghassemian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Stege</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="page" from="560" to="565" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warnecke F, Luginbuhl P, Ivanova N, Ghassemian M, Richardson TH, Stege JT, et al. Metagenomic and functional analysis of hindgut microbiota of a wood-feeding higher termite. Nature. 2007;450:560-5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Biocatalysts for biomass deconstruction from environmental genomics</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strachan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="18" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armstrong Z, Mewis K, Strachan C, Hallam SJ. Biocatalysts for biomass deconstruction from environmental genomics. Curr Opin Chem Biol. 2015;29:18-25.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Food caching behavior of beavers (Castor canadensis): selection and use of woody species</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Busher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Midl Nat</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="343" to="348" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Busher PE. Food caching behavior of beavers (Castor canadensis): selection and use of woody species. Am Midl Nat. 1996;135: 343-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The digestive tract and digestive function in the North American porcupine and beaver</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vispo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hume</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="967" to="974" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vispo C, Hume ID. The digestive tract and digestive function in the North American porcupine and beaver. Can J Zool. 1995;73: 967-74.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Polysaccharides in some industrially important hardwood species</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willför</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pranovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Holmbom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wood Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="601" to="617" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willför S, Sundberg A, Pranovich A, Holmbom B. Poly- saccharides in some industrially important hardwood species. Wood Sci Technol. 2005;39:601-17.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cellulose digestion in the beaver (Castor canadensis)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Currier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Kitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1109" to="1116" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Currier A, Kitts WD, I. C. Cellulose digestion in the beaver (Castor canadensis). Can J Zool. 1960;38:1109-16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Bacterial and archaeal diversity in the gastrointestinal tract of the north american beaver (Castor canadensis)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gruninger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Mcallister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Forster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">156457</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruninger RJ, Mcallister TA, Forster RJ. Bacterial and archaeal diversity in the gastrointestinal tract of the north american beaver (Castor canadensis). PLoS ONE. 2016;11:e0156457.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Host-gut microbiota metabolic interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kinross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burcelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1262" to="1267" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nicholson JK, Holmes E, Kinross J, Burcelin R, Gibson G, Jia W, et al. Host-gut microbiota metabolic interactions. Science. 2012;336:1262-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The SILVA ribosomal RNA gene database project: improved data processing and web-based tools</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pruesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gerken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schweer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yarza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="590" to="D596" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quast C, Pruesse E, Yilmaz P, Gerken J, Schweer T, Yarza P, et al. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucl. Acids Res. 2013;41:D590-D596.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mitochondrial genomes reveal slow rates of molecular evolution and the timing of speciation in beavers (Castor), one of the largest rodent species</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Durka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ermala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stubbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stubbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">14622</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horn S, Durka W, Wolf R, Ermala A, Stubbe A, Stubbe M, et al. Mitochondrial genomes reveal slow rates of molecular evolution and the timing of speciation in beavers (Castor), one of the largest rodent species. PLoS ONE. 2011;6:e14622.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Family Lachnospiraceae, Including the Genera Butyrivibrio, Lachnospira and Roseburia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Forster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">The Prokaryotes</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Dworkin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Falkow</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Schleifer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Stackebrandt</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="1002" to="1021" />
+			<date type="published" when="2006">2006</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cotta M., Forster R. (2006) The Family Lachnospiraceae, Including the Genera Butyrivibrio, Lachnospira and Roseburia. In: Dworkin M., Falkow S., Rosenberg E., Schleifer KH., Stackebrandt E. (eds) The Prokaryotes. Springer, New York, NY, pages 1002-1021.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Substrate-driven convergence of the microbial community in lignocellulose-amended enrichments of gut microflora from the Canadian beaver (Castor canadensis) and North American Moose (Alces americanus)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lacourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Master</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">961</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong, MT, Wang, W, Lacourt, M, Couturier, M, Edwards, EA &amp; Master, ER (2016). Substrate-driven convergence of the microbial community in lignocellulose-amended enrichments of gut microflora from the Canadian beaver (Castor canadensis) and North American Moose (Alces americanus). Front. Microbiol. 7:961.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The gut microbiota of wild mice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Favia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abolins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Riley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">134643</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Favia G, Weldon L, Abolins S, Lenzi L, Bourne C, Riley EM, et al. The gut microbiota of wild mice. PLoS ONE. 2015;10: e0134643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Marked seasonal variation in the wild mouse gut microbiota</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Maurice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cl</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ladau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Fenton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2423" to="2434" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maurice CF, Cl Knowles S, Ladau J, Pollard KS, Fenton A, Pedersen AB, et al. Marked seasonal variation in the wild mouse gut microbiota. ISME J. 2015;9:2423-34.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Quality control and preprocessing of metagenomic datasets</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schmieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="863" to="864" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmieder R, Edwards R. Quality control and preprocessing of metagenomic datasets. Bioinformatics. 2011;27:863-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chevreux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pfisterer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Drescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Driesel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weg</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1147" to="1159" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chevreux B, Pfisterer T, Drescher B, Driesel AJ, Müller WEG, Wetter T, et al. Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs. Genome Res. 2004;14:1147-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">MetaPathwaysv2.5: quantitative functional, taxonomic and usability improvements</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Konwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3345" to="3347" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Konwar KM, Hanson NW, Bhatia MP, Kim D, Wu SJ, Hahn AS, et al. MetaPathwaysv2.5: quantitative functional, taxonomic and usability improvements. Bioinformatics. 2015;31:3345-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Target region selection is a critical determinant of community fingerprints generated by 16S pyrosequencing</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Brooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Dowd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Camerlengo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 20956</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar PS, Brooker MR, Dowd SE, Camerlengo T. Target region selection is a critical determinant of community fingerprints generated by 16S pyrosequencing. PLoS ONE. 2011;6:e20956.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The carbohydrate-active enzymes database (CAZy) in 2013</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Golaconda</forename><surname>Ramulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Drula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coutinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Henrissat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="490" to="495" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lombard V, Golaconda Ramulu H, Drula E, Coutinho PM, Henrissat B. The carbohydrate-active enzymes database (CAZy) in 2013. Nucl Acids Res. 2014;42:D490-5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Metagenomics of the svalbard reindeer rumen microbiome reveals abundance of polysaccharide utilization loci</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sundset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Mchardy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">38571</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pope PB, Mackenzie AK, Gregor I, Smith W, Sundset MA, Mchardy AC, et al. Metagenomics of the svalbard reindeer rumen microbiome reveals abundance of polysaccharide utilization loci. PLoS ONE. 2012;7:e38571.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Evidence of cellulose metabolism by the giant panda gut microbiome</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="17714" to="17719" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu L, Wu Q, Dai J, Zhang S, Wei F. Evidence of cellulose metabolism by the giant panda gut microbiome. Proc Natl Acad Sci. 2011;108:17714-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Waste not, want not: why rarefying microbiome data is inadmissible</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1003531</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mcmurdie PJ, Holmes S. Waste not, want not: why rarefying microbiome data is inadmissible. PLoS Comput Biol. 2014;10: e1003531.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">MaxBin 2.0: an automated binning algorithm to recover genomes from multiple metagenomic datasets</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="605" to="607" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, YW, Simmons, BA &amp; Singer, SW (2015). MaxBin 2.0: an automated binning algorithm to recover genomes from multiple metagenomic datasets. Bioinformatics. 32;4:605-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Anvi&apos;o: an advanced analysis and visualization platform for &apos;omics data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Eren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">C</forename><surname>Esen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Vineis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Sogin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1319</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eren AM, Esen OC, Quince C, Vineis JH, Morrison HG, Sogin ML, et al. Anvi&apos;o: an advanced analysis and visualization platform for &apos;omics data. PeerJ. 2015;3:e1319.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Kyrpides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stepanauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harmon-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tbk</forename><surname>Reddy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="725" to="731" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowers RM, Kyrpides NC, Stepanauskas R, Harmon-Smith M, Doud D, Reddy TBK, et al. Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea. Nat Biotechnol. 2017;35:725-31.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">PhyloSift: phylogenetic analysis of genomes and metagenomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Darling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jospin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fat</forename><surname>Matsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Bik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Eisen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">243</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Darling AE, Jospin G, Lowe E, Matsen FAT, Bik HM, Eisen JA. PhyloSift: phylogenetic analysis of genomes and metagenomes. PeerJ. 2014;2:e243.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Restricted distribution of the butyrate kinase pathway among butyrate-producing bacteria from the human colon</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Mccrae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Millar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Flint</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="2099" to="2106" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Louis P, Duncan SH, Mccrae SI, Millar J, Jackson MS, Flint HJ. Restricted distribution of the butyrate kinase pathway among butyrate-producing bacteria from the human colon. J Bacteriol. 2004;186:2099-106.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Fermentation of mucins and plant polysaccharides by anaerobic bacteria from the human colon</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Salyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Vercellotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Wilkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="529" to="533" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salyers AA, West SE, Vercellotti JR, Wilkins TD. Fermentation of mucins and plant polysaccharides by anaerobic bacteria from the human colon. Appl Environ Microbiol. 1977;34:529-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Complex pectin metabolism by gut bacteria reveals novel catalytic functions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ndeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cartmell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Luis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baslé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">544</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ndeh D, Rogowski A, Cartmell A, Luis AS, Baslé A, Gray J, et al. Complex pectin metabolism by gut bacteria reveals novel catalytic functions. Nature. 2017;544:65-70.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Biomining active cellulases from a mining bioremediation system</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="462" to="471" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mewis K, Armstrong Z, Song YC, Baldwin SA, Withers SG, Hallam SJ. Biomining active cellulases from a mining bior- emediation system. J Biotechnol. 2013;167:462-71.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A high throughput screen for biomining cellulase activity from metagenomic libraries</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M &amp;</forename><surname>Taupp</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">2461</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mewis, K, Taupp, M &amp; Hallam, SJ (2011). A high throughput screen for biomining cellulase activity from metagenomic libraries. J Vis Exp. 48:2461.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Synthesis and evaluation of a series of 6-chloro-4-methylumbelliferyl glycosides as fluorogenic reagents for screening metagenomic libraries for glycosidase activity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Withers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr Res</title>
+		<imprint>
+			<biblScope unit="volume">421</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen HM, Armstrong Z, Hallam SJ, Withers SG. Synthesis and evaluation of a series of 6-chloro-4-methylumbelliferyl glycosides as fluorogenic reagents for screening metagenomic libraries for glycosidase activity. Carbohydr Res. 2016;421:33-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Cellulosomes: highly efficient nanomachines designed to deconstruct plant cell wall complex carbohydrates</title>
+		<author>
+			<persName><forename type="first">Cmga</forename><surname>Fontes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biochem</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="655" to="681" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fontes CMGA, Gilbert HJ. Cellulosomes: highly efficient nano- machines designed to deconstruct plant cell wall complex carbo- hydrates. Annu Rev Biochem. 2010;79:655-81.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Complex glycan catabolism by the human gut microbiota: the bacteroidetes sus-like paradigm</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Koropatkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Gordon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="24673" to="24677" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martens EC, Koropatkin NM, Smith TJ, Gordon JI. Complex glycan catabolism by the human gut microbiota: the bacteroidetes sus-like paradigm. J Biol Chem. 2009;284:24673-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">ABySS: a parallel assembler for short read sequence data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jackman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Schein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjm</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Birol</forename><surname>Ƒnß</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1117" to="1123" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson JT, Wong K, Jackman SD, Schein JE, Jones SJM, Birol ƑNß. ABySS: a parallel assembler for short read sequence data. Genome Res. 2009;19:1117-23.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Dividing the large glycoside hydrolase family 43 into subfamilies: a motivation for detailed enzyme characterization</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1686" to="1692" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mewis K, Lenfant N, Lombard V, Henrissat B. Dividing the large glycoside hydrolase family 43 into subfamilies: a motivation for detailed enzyme characterization. Appl Environ Microbiol. 2016; 82:1686-92.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Revealing nature&apos;s cellulase diversity: the digestion mechanism of Caldicellulosiruptor bescii CelA</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brunecky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alahuhta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Donohoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Kataeva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="1513" to="1516" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brunecky R, Alahuhta M, Xu Q, Donohoe BS, Crowley MF, Kataeva IA, et al. Revealing nature&apos;s cellulase diversity: the digestion mechanism of Caldicellulosiruptor bescii CelA. Science. 2013;342:1513-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Molecular mechanism by which prominent human gut bacteroidetes utilize mixed-linkage beta-glucans, major healthpromoting cereal polysaccharides</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Hemsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Déjean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Pudlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Urs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="417" to="430" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tamura K, Hemsworth GR, Déjean G, Rogers TE, Pudlo NA, Urs K, et al. Molecular mechanism by which prominent human gut bacteroidetes utilize mixed-linkage beta-glucans, major health- promoting cereal polysaccharides. Cell Rep. 2017;21:417-30.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Bacteroides intestinalis DSM 17393, a member of the human colonic microbiome, upregulates multiple endoxylanases during growth on xylan</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cavalcante</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jjv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mackie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, K, Pereira, GV, Cavalcante, JJV, Zhang, M, Mackie, R &amp; Cann, I (2016). Bacteroides intestinalis DSM 17393, a member of the human colonic microbiome, upregulates multiple endox- ylanases during growth on xylan. Scientific Reports, 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structures of xyloglucans in primary cell walls of gymnosperms, monilophytes (ferns sensu lato) and lycophytes</title>
+		<author>
+			<persName><forename type="first">Ysy</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="87" to="101" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hsieh YSY, Harris PJ. Structures of xyloglucans in primary cell walls of gymnosperms, monilophytes (ferns sensu lato) and lycophytes. Phytochemistry. 2012;79:87-101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of the plant cell wall matrix polysaccharide xyloglucan</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pauly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Keegstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="235" to="259" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pauly M, Keegstra K. Biosynthesis of the plant cell wall matrix polysaccharide xyloglucan. Annu Rev Plant Biol. 2016;67: 235-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Automatic prediction of polysaccharide utilization loci in Bacteroidetes species</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Terrapon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="647" to="655" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terrapon N, Lombard V, Gilbert HJ, Henrissat B. Automatic prediction of polysaccharide utilization loci in Bacteroidetes species. Bioinformatics. 2015;31:647-55.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Human gut Bacteroidetes can utilize yeast mannan through a selfish mechanism</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cuskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Temple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Pudlo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="165" to="169" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cuskin F, Lowe EC, Temple MJ, Zhu Y, Cameron EA, Pudlo NA, et al. Human gut Bacteroidetes can utilize yeast mannan through a selfish mechanism. Nature. 2015;517:165-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A discrete genetic locus confers xyloglucan metabolism in select human gut Bacteroidetes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larsbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Hemsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mckee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tauzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Spadiut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">506</biblScope>
+			<biblScope unit="page" from="498" to="502" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larsbrink J, Rogers TE, Hemsworth GR, Mckee LS, Tauzin AS, Spadiut O, et al. A discrete genetic locus confers xyloglucan metabolism in select human gut Bacteroidetes. Nature. 2014a;506: 498-502.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A complex gene locus enables xyloglucan utilization in the model saprophyte Cellvibrio japonicus</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larsbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brumer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="418" to="433" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larsbrink J, Thompson AJ, Lundqvist M, Gardner JG, Davies GJ, Brumer H. A complex gene locus enables xyloglucan utilization in the model saprophyte Cellvibrio japonicus. Mol Microbiol. 2014b;94:418-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Glycan complexity dictates microbial resource allocation in the large intestine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mortimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tryfona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Terrapon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7481</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rogowski A, Briggs JA, Mortimer JC, Tryfona T, Terrapon N, Lowe EC, et al. Glycan complexity dictates microbial resource allocation in the large intestine. Nat Commun. 2015;6: 7481.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Extraction of High Molecular Weight Genomic DNA from Soils and Sediments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/1569</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments : JoVE</title>
+		<imprint>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page">1569</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee S, Hallam SJ. Extraction of High Molecular Weight Genomic DNA from Soils and Sediments. Journal of Visualized Experi- ments : JoVE. 2009;(33):1569. doi:10.3791/1569.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">QIIME allows analysis of high-throughput community sequencing data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stombaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bittinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Bushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Costello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Meth</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="335" to="336" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caporaso JG, Kuczynski J, Stombaugh J, Bittinger K, Bushman FD, Costello EK, et al. QIIME allows analysis of high-throughput community sequencing data. Nat Meth. 2010;7: 335-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Prodigal: prokaryotic gene recognition and translation initiation site identification</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Locascio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Land</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Larimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Hauser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">119</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hyatt D, Chen GL, Locascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initia- tion site identification. BMC Bioinforma. 2010;11:119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Adaptive seeds tame genomic sequence comparison</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kielbasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Frith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="487" to="493" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kielbasa SM, Wan R, Sato K, Horton P, Frith MC. Adaptive seeds tame genomic sequence comparison. Genome Res. 2011;21: 487-93.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">KEGG: kyoto encyclopedia of genes and genomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="27" to="30" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucl Acids Res. 2000;28:27-30.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The COG database: new developments in phylogenetic classification of proteins from complete genomes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Tatusov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Garkavtsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Tatusova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Shankavaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="22" to="28" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tatusov RL, Natale DA, Garkavtsev IV, Tatusova TA, Shanka- varam UT, Rao BS, et al. The COG database: new developments in phylogenetic classification of proteins from complete genomes. Nucl Acids Res. 2001;29:22-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">RefSeq and LocusLink: NCBI genecentered resources</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Pruitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Maglott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pruitt KD, Maglott DR. RefSeq and LocusLink: NCBI gene- centered resources. Nucl Acids Res. 2001;29:137-40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Fulcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Subhraveti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Keseler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="742" to="753" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caspi R, Altman T, Dreher K, Fulcher CA, Subhraveti P, Keseler IM, et al. The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucl Acids Res. 2012;40:D742-53.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Phylogenetic and gene-centric metagenomics of the canine intestinal microbiome reveals similarities with humans and mice</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Dowd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Suchodolski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Middelbos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Vester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="639" to="649" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swanson KS, Dowd SE, Suchodolski JS, Middelbos IS, Vester BM, Barry KA, et al. Phylogenetic and gene-centric metage- nomics of the canine intestinal microbiome reveals similarities with humans and mice. ISME J. 2010;5:639-49.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1303.3997" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>ArXiv e-prints</note>
+	<note type="raw_reference">Li, H 2013. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. ArXiv e-prints [Online]. http://arxiv.org/abs/1303.3997</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Centrifuge: rapid and sensitive classification of metagenomic sequences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Breitwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1721" to="1729" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim D, Song L, Breitwieser FP, Salzberg SL. Centrifuge: rapid and sensitive classification of metagenomic sequences. Genome Res. 2016;26:1721-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imelfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Skennerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tyson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1043" to="1055" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Res. 2015;25:1043-55.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">DNA Extraction from 0.22 μM Sterivex Filters and Cesium Chloride Density Gradient Centrifugation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zaikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/1352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments : JoVE</title>
+		<imprint>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page">1352</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright JJ, Lee S, Zaikova E, Walsh DA, Hallam SJ. DNA Extraction from 0.22 μM Sterivex Filters and Cesium Chloride Density Gradient Centrifugation. Journal of Visualized Experi- ments : JoVE. 2009;(31):1352. doi:10.3791/1352.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Large Insert Environmental Genomic Library Production</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hawley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/1387</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments : JoVE</title>
+		<imprint>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page">1387</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taupp M, Lee S, Hawley A, Yang J, Hallam SJ. Large Insert Environmental Genomic Library Production. Journal of Visua- lized Experiments : JoVE. 2009;(31):1387. doi:10.3791/1387.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Seasonal patterns of body-temperature and activity in free-ranging beaver (Castor-Canadensis)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Dyck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Macarthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool-Rev Can De Zool</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1668" to="1672" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dyck AP, Macarthur RA. Seasonal patterns of body-temperature and activity in free-ranging beaver (Castor-Canadensis). Can J Zool-Rev Can De Zool. 1992;70:1668-72.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Microbial community analysis using MEGAN</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">531</biblScope>
+			<biblScope unit="page" from="465" to="485" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huson DH, Weber N. Microbial community analysis using MEGAN. Methods Enzymol. 2013;531:465-85.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">LCA*: an entropy-based measure for taxonomic assignment within assembled metagenomes</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Konwar</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanson, NW, Konwar, KM &amp; Hallam, SJ (2016). LCA*: an entropy-based measure for taxonomic assignment within assem- bled metagenomes. Bioinformatics.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The polymerase incomplete primer extension (PIPE) method applied to high-throughput cloning and site-directed mutagenesis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Klock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lesley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">498</biblScope>
+			<biblScope unit="page" from="91" to="103" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klock HE, Lesley SA. The polymerase incomplete primer extension (PIPE) method applied to high-throughput cloning and site-directed mutagenesis. Methods Mol Biol. 2009;498:91-103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The efficiency and specificity of apurinic/apyrimidinic site bypass by human DNA polymerase eta and Sulfolobus solfataricus Dpo4</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kokoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kunkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="50537" to="50545" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kokoska RJ, Mcculloch SD, Kunkel TA. The efficiency and specificity of apurinic/apyrimidinic site bypass by human DNA polymerase eta and Sulfolobus solfataricus Dpo4. J Biol Chem. 2003;278:50537-45.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

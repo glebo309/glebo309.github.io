@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Recent advances in whole cell biocatalysis techniques bridging from investigative to industrial scale</title>
+				<funder ref="#_WYmQbt2">
+					<orgName type="full">Helmholtz Association</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-06-15">15th June 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jochen</forename><surname>Wachtmeister</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Do</forename><surname>¨rte Rother</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christoph</forename><surname>Wittmann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ramon</forename><surname>Gonzalez</surname></persName>
+						</author>
+						<title level="a" type="main">Recent advances in whole cell biocatalysis techniques bridging from investigative to industrial scale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-06-15">15th June 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5A1429042DE7F1211A265B78D7093772</idno>
+					<idno type="DOI">10.1016/j.copbio.2016.05.005</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T19:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Recent advances in biocatalysis have strongly boosted its recognition as a valuable addition to traditional chemical synthesis routes. As for any catalytic process, catalyst's costs and stabilities are of highest relevance for the economic application in chemical manufacturing. Employing biocatalysts as whole cells circumvents the need of cell lysis and enzyme purification and hence strongly cuts on cost. At the same time, residual cell wall components can shield the entrapped enzyme from potentially harmful surroundings and aid to enable applications far from natural enzymatic environments. Further advantages are the close proximity of reactants and catalysts as well as the inherent presence of expensive cofactors. Here, we review and comment on benefits and recent advances in whole cell biocatalysis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In search of novel techniques towards a sustainable and biobased economy, biocatalysis contributes to various areas from the production of bulk chemicals from renewable resources to highly selective syntheses of fine chemicals or pharma products <ref type="bibr" target="#b1">[1]</ref><ref type="bibr" target="#b2">[2]</ref><ref type="bibr" target="#b3">[3]</ref><ref type="bibr" target="#b4">[4]</ref>. In all these applications, whole cell biocatalysts supply some unique advantages over the use of crude, purified, or immobilized enzyme preparations. In addition to being the cheapest form of catalyst formulation, whole cells already supply the cofactors needed for biotransformations and simplify their regeneration, usually making an external and expensive cofactor addition obsolete (see Section 'Cofactor regeneration'). Furthermore, residual cell wall compounds act in a protective manner also for resting or dead cells and thus enable enzyme applications under harsh reaction conditions or in unconventional (non-aqueous) reaction media <ref type="bibr" target="#b5">[5]</ref>. Especially for hydrophobic substrates, applications in such media are strongly desired, as the originally proclaimed inherent greenness of biocatalytic reactions under aqueous conditions had to make way for a new perception: unconventional media can be ecologically advantageous, due to less generation of solvent waste during the reaction (less dilution) and during downstream processing (no extraction). Furthermore, such reactions become economically favorable due to higher product titers <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b7">7]</ref>. As a result, the combination of whole cell catalysts and unconventional reaction media is highly appealing for economically and ecologically beneficial process designs (see Section 'Applications in unconventional media'). These and other advantages and advances of whole cell biocatalysis are highlighted in this review. To keep a reasonable scope, we focus mostly on publications since 2012 and do not consider synthetic biology approaches utilizing entire natural or artificially introduced reaction pathways, which have been recently summarized <ref type="bibr" target="#b8">[8]</ref><ref type="bibr" target="#b9">[9]</ref><ref type="bibr" target="#b10">[10]</ref>. The dynamic field of immobilization of whole cell catalysts will only be considered in context of particularly remarkable or novel techniques and reactor concepts, as immobilization of Escherichia coli whole cell has been nicely reviewed by Zajkoska et al. recently <ref type="bibr" target="#b11">[11]</ref>. The second part focusses on approaches to overcome or alleviate common limitations in application of whole cell biocatalysts and presents novel reactor setups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advantages of whole cell catalysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Catalyst costs</head><p>Whole cell catalysts, either in form of naturally occurring organisms or genetically modified expression hosts, represent the cheapest catalyst formulation possible. In a study on the cost contribution of biocatalyst production to biocatalytic processes, Tufvesson and co-workers found purified enzyme roughly 10-fold more expensive than whole cells <ref type="bibr" target="#b12">[12]</ref>. Subsequent catalyst immobilization added even more costs to the analyzed process, with the carrier material being particularly impactful to the cost increase. Additionally, the scale in which whole cells are produced is decisive for the final catalyst price, meaning the bigger the scale the cheaper the catalyst (economy of scale). As soon as a sufficient market size for an aspired product is given, it is advisable to either invest into large scale production vessels or search for a contract manufacturer with appropriate facilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cofactor regeneration</head><p>Especially in the case of cofactor-dependent reactions, whole cell biocatalyst is frequently used, as the inherent presence of cofactors generated by the host itself and the ease of recycling grants significant advantages over the expensive external addition thereof. Consequently, especially reactions catalyzed by oxidoreductases, depending on nicotinamide cofactors, are often performed in whole cells, while the cofactor is traditionally regenerated by conversion of a sacrificial cosubstrate or by regeneration in an enzyme-coupled approach <ref type="bibr" target="#b13">[13 ]</ref>. Despite advances in the fields of electrochemical or photochemical regeneration methods <ref type="bibr" target="#b13">[13 ]</ref>, the coupling of enzymatic reactions in redox-neutral multi-step reactions found great interest recently. Here, monooxygenase and alcohol dehydrogenase-catalyzed processes are frequently combined <ref type="bibr" target="#b15">[14,</ref><ref type="bibr" target="#b16">15,</ref><ref type="bibr" target="#b17">16 ]</ref>. Of course, such approaches rely on proper balancing of reaction rates of both enzymatic reactions and on the effectiveness and efficiency of such a route to access the product of interest. Another novel strategy is the use of 'smart' diol cosubstrates (Figure <ref type="figure">1</ref>) <ref type="bibr" target="#b19">[17]</ref>. After double oxidation of the diol, a stable lactone ring is formed, which drives the thermodynamic equilibrium to the product side. Because of this shift and the supply of two reduction equivalents per molecule of cosubstrate, 90 mol% of cosubstrate are saved in comparison to traditional alcohol cosubstrates, which usually require at least a five-fold molar excess. At the same time, many of the lactones produced in these approaches find potential applications as polymer building blocks and hence represent valuable co-products <ref type="bibr" target="#b20">[18]</ref>.</p><p>Many more examples of redox-neutral cascades <ref type="bibr">[16 ,19,20 ,21,22]</ref> and other co-factor regeneration strategies can be found in the publications by Hummel and Gro ¨ger <ref type="bibr" target="#b15">[14]</ref> and Kara et al. <ref type="bibr">[13 ,23 ]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Applications in unconventional media</head><p>Productivity metrics of biocatalytic processes often suffer from low substrate and product loads, given the fact that biocatalytic reactions are either investigated in aqueous environments, which enable only poor solubility of many synthetic hydrophobic substrates, or because maximum concentrations are not tested. Nevertheless, increasing research effort has been spent on enzymatic conversions in unconventional media and the number of publications grows together with the increasing number and type of non-conventional solvents <ref type="bibr" target="#b5">[5]</ref>. Because of numerous publications in these fields, we will neither consider lipasecatalyzed applications (which are frequently investigated in organic environment) <ref type="bibr" target="#b27">[24]</ref> nor biphasic systems of water-immiscible organic solvent (which we consider as already widely known) <ref type="bibr" target="#b28">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Neat substrate systems</head><p>Neat substrate systems (NSSs; also termed solvent-free systems) represent the ideal case of a reaction setup, since they are built from the minimum components needed as the substrate(s) represent the solvent(s) at the same time.</p><p>To add smallest amounts of water to restore activity of dried catalyst, the catalyst and substrates are pre-equilibrated over saturated salt hydrate solution resulting in a defined water activity <ref type="bibr" target="#b29">[26]</ref>. Alternatively, water or buffer is added resulting in a micro-aqueous system, in which ideally no second phase is observed as the water is taken up by the solvent or the catalyst <ref type="bibr" target="#b30">[27]</ref>. In 2011, Jakoblinnert et al. applied lyophilized E. coli whole cells expressing Candida parapsilosis carbonyl reductase (CPCR) in a mixture of only acetophenone as main substrate and n-propanol as a cosubstrate for cofactor regeneration. After optimization, product titers of 300-500 g L À1 were reached and downstream processing involved only catalyst removal and the evaporation of cosubstrate and coproduct to get hands on gained (S)-phenylethanol (ee &gt; 99%) <ref type="bibr" target="#b29">[26]</ref>. Hibino and Ohtake took a similar approach, but expressed two Thermus thermophiles HB27 alcohol dehydrogenases in the hydrophobic expression host Rhodococcus rhodochrous NBRC15564. Because of the high affinity of the catalyst to organic media/substrates, 97% of the model substrate 2,2,2-trifluoroacetophenon could be converted within 48 h to a remarkable product concentration of 634 g L À1 <ref type="bibr" target="#b31">[28]</ref>. The concept of neat substrate systems was further adapted to the stereoselective production of (R)-and (S)-2-butanol O ADH ADH ADH R NAD(P)H+H + NAD(P)H+H + NAD(P) + NAD(P) + O OH OH OH R OH HO O O O n n n n Current Opinion in Biotechnology 'Smart' diol cosubstrates are oxidized twice thus generating two equivalents of regenerated cofactor before lactone formation [17].</p><p>[29 ]. This synthesis is particularly challenging, as the reversibility of the reaction leads to racemization of the product, which decreases the optical purity. To allow thorough control of the reaction progress, a continuous process was developed, retaining lyophilized E. coli cells, either harboring CPCR or Lactobacillus brevis alcohol dehydrogenase (LbADH), inside a membrane reactor. This reactor was constantly flushed with a mixture of 2-butanon, 2-propanol (as cosubstrate for cofactor regeneration) and 10% triethanolamine buffer. The reactions in this almost neat, monophasic substrate system could be optimized for maximum productivity yielding 2278 g L À1 d À1 (R)-2-butanol with a stereoselectivity of 96.6% and 180-461 g L À1 d À1 (S)-2-butanol (ee 98%), respectively <ref type="bibr" target="#b32">[29 ]</ref>.</p><p>The simplicity of such processes together with the small waste volume generated make these approach particularly impactful, even though the success of these reaction systems is strongly depending on the catalyst's tolerance towards such high substrate concentrations, which might not be given in cases of substrate excess inhibition or catalyst inactivation due to excessive substrate loads.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Micro-aqueous solvent systems</head><p>Micro-aqueous solvents are an alternative when the high substrate loads of NSSs are prohibited, for example due to catalyst inactivation or safety concerns. Still, the advantages of high substrate loads, minimum water addition, and working in a monophasic system remain when diluting the substrates in organic solvent. As an example, the benefits of a micro-aqueous solvent system were demonstrated for the biocatalytic synthesis of cyanohydrins using recombinant E. coli cells containing Arabidopsis thaliana hydroxynitrile lyase (AtHNL). Since product formation also proceeds non-catalytically in the presence of water, only the application in micro-aqueous methyl tert-butyl ether (MTBE) enabled the hydrocyanation in a stereoselective manner (ee &gt; 98% for (R)-mandelonitrile) <ref type="bibr" target="#b34">[30]</ref>. For a similarly executed carboligation of aldehydes, pronounced aldehyde reactivity/toxicity towards the catalyst forbade using a NSS. Nevertheless, substrate concentrations of 500 mM could be achieved in micro-aqueous MTBE in a 2-step reaction employing recombinant whole cell catalyst for carboligation and oxidoreduction, respectively. Even with highly inactivating acetaldehyde and benzaldehyde as substrates, space-time-yields and product concentration of the batch reactions were outstandingly high, with up to 327 g L À1 d À1 and 49 g L À1 for (1R,2R)-phenylpropane-1,2-diol production <ref type="bibr" target="#b30">[27]</ref>.</p><p>Despite the benefits obtained from these organic systems, a current challenge remains in the desired switch to more benign solvents or those which can be produced from renewable resources such as 2-methyltetrahydrofuran <ref type="bibr" target="#b35">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ionic liquids and deep eutectic solvents</head><p>In the last decades ionic liquids (ILs) evolved as a potentially greener alternative to the use of organic solvents, granting the advantages of lower toxicity, flammability, and vapor pressure <ref type="bibr" target="#b36">[32,</ref><ref type="bibr" target="#b37">33]</ref>. As multiple recent and comprehensive reviews on ionic liquids <ref type="bibr" target="#b36">[32,</ref><ref type="bibr" target="#b37">33]</ref> and their application in whole cell catalysis <ref type="bibr" target="#b38">[34,</ref><ref type="bibr" target="#b39">35]</ref> can be found, we would like to only highlight some particularly impressive publications.</p><p>A systematic study on the influence of 90 different ionic liquids on cell viability was performed by Wood et al. <ref type="bibr" target="#b40">[36]</ref>.</p><p>Even though the compatibility was screened for living cells, and not with resting/dead cells in biotransformations, the results serve as a useful hint for IL selection. Good compatibility was generally found for imidazolium-based salts of short alkyl chain length, especially when they were mixed with alkyl sulfate anions <ref type="bibr" target="#b40">[36]</ref>, which might be another reason why these cations represent the most frequently used ILs in biocatalytic contexts in addition to their good commercial availability and wide application <ref type="bibr" target="#b39">[35]</ref>. A trend of increasing catalyst activity with decreasing alkyl chain length described by Wood et al. was confirmed in the stereoselective reduction of ethyl acetoacetate using immobilized Acetobacter cells in biphasic systems <ref type="bibr" target="#b41">[37]</ref>. In that study, immobilized whole cell catalyst retained activity in ten repetitive batches better in an IL-buffer-mixture than in pure aqueous buffer and the best performing organic-solvent-buffer mixture <ref type="bibr" target="#b41">[37]</ref>. As an example of outstanding product concentration achieved with ILs, Wang et al. recently managed to yield remarkable 987 mM of (R)-[3,5-bis(trifluoromethyl)phenyl] ethanol using recombinant E. coli expressing an engineered carbonyl reductase from Leifsonia <ref type="bibr" target="#b42">[38]</ref>.</p><p>When highlighting ILs, it needs to be mentioned that the often proposed greenness of ILs has undergone some reevaluation upon consideration of their ecotoxicity and the waste generation during production <ref type="bibr" target="#b43">[39]</ref>. As a result, deep eutectic solvents (DESs) currently evolve as a more sustainable alternative granting similar advantages as ILs in comparison to classical organic solvents <ref type="bibr" target="#b43">[39,</ref><ref type="bibr" target="#b44">40]</ref>. Compatibility of DESs with purified enzyme preparations has been demonstrated already for enzymes of different classes, but also recently for whole cell catalysts, such as wildtype Arthrobacter <ref type="bibr" target="#b45">[41]</ref> or Acetobacter <ref type="bibr" target="#b46">[42]</ref> species, baker's yeast <ref type="bibr" target="#b47">[43,</ref><ref type="bibr" target="#b48">44]</ref>, and recombinant E. coli <ref type="bibr" target="#b49">[45]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Multi-step biocatalysis</head><p>Combining enzymes into multi-step cascade reactions can grant access to complex and valuable products from inexpensive starting substrates. Coexpression of multiple enzymes in one cell allows for an efficient reaction cascade due to the close proximity of catalysts for consecutive steps within a confined space. On the other hand, coexpression of multiple proteins may lead to a high metabolic burden during cell growth, which can result in poor overexpression and thus impaired catalytic performance <ref type="bibr" target="#b50">[46]</ref>. Therefore, in some cases it can be beneficial to express each enzyme in single and later combine the cells into cascade reactions flexibly <ref type="bibr" target="#b30">[27]</ref>. Anyhow, cascade biocatalysis becomes particularly sophisticated yet appealing when redox-neutral (see Section 'Cofactor regeneration') or recycling cascades <ref type="bibr" target="#b51">[47]</ref> are designed. A couple of excellent and comprehensive reviews on synthetic cascade reactions can be suggested to the reader <ref type="bibr" target="#b52">[48]</ref><ref type="bibr" target="#b53">[49]</ref><ref type="bibr" target="#b54">[50]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overcoming limitations of whole cell biocatalysis</head><p>Despite the advantages outlined so far, some drawbacks remain for whole cell catalysts. In the following we like to comment on frequently named downsides and show up novel strategies to overcome limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optimizing stability, recovery, and recyclability by immobilization</head><p>To facilitate recovery, recyclability and ideally stability of the catalyst, immobilization of whole cell catalysts is often desired and researchers strive for novel materials and techniques. After the first publication in 1998 employing the 'Lentikat' technology, numerous studied have been published on these lense-shaped polyvinyl alcohol immobilizates. A recent in depth characterization of Lentikat particles unveiled a pronounced physical strength of the lenses <ref type="bibr" target="#b55">[51]</ref>, making them well suited for stirred tank reactor setups. Of further importance, Lentikats including E. coli whole cell catalyst were proven storable for up to 15 month <ref type="bibr" target="#b56">[52]</ref>, enable almost identical reaction rates as free cells, and maintain their catalytic activity much better than freely suspended catalyst <ref type="bibr" target="#b57">[53]</ref>. Another stabilizing technology is the silicone coating of recombinant E. coli adhesively grown on ion exchange resin. In doing so, hydrophobic as well as hydrophilized silicone coatings maintain the initial rate activity in comparison to uncoated immobilizate, whereas the hydrophobic coating even enables the immobilizate application in NSSs <ref type="bibr" target="#b58">[54 ]</ref>.</p><p>Applications in which immobilization was used to enable highly productive reactor concepts were published recently with glutaraldehyde-crosslinked whole cell catalyst <ref type="bibr" target="#b60">[55,</ref><ref type="bibr" target="#b61">56]</ref>. In the example given by Stojkovic ˇand Z ˇnidars ˇic ˇ-Plazl a 25 mL microreactor could be loaded with such a high catalyst load that space-time-yields 3.5 times higher than in a comparable 1 L membrane reactor were achieved <ref type="bibr" target="#b61">[56]</ref>.</p><p>As a carrier-free and particularly easy-to-prepare option for whole cell immobilization, we have recently transferred the handy and modularly applicable concept of 'teabag catalysis' to whole cell applications, by entrapment of lyophilized cells into containers of polyvinylidene difluoride membrane (cut-off 0.2 mm). The catalytic 'teabags' were not only shown to properly retain active catalyst, but also showed excellent recyclability even under challenging micro-aqueous conditions and extraordinarily high substrate loads (400 mM) <ref type="bibr" target="#b62">[57]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Regulatory issues</head><p>Some regulatory concerns might be raised when whole cell catalyst is used in the production of active pharmaceutical ingredients, which might prevent some researchers from using whole cells in such projects. Since catalyst formulation choice is a case to case decision usually based on economic considerations, we point out that numerous applications of whole cell reactions can be found in established pharmaceutical processes <ref type="bibr" target="#b63">[58]</ref>. In some cases the use of dead whole cells can fullfill regulatory contraints. For almost any downstream processing challenge following biocatalytic reactions, technical solutions can be found <ref type="bibr" target="#b64">[59]</ref>. Furthermore, the often proclaimed lowered selectivity of whole cell catalyst compared to purified enzyme, which may lead to unwanted sideproducts, can widely be overcome by a selective knockout of host cells enzymes if necessary, but is mostly obsolete when using powerful overexpression techniques <ref type="bibr" target="#b65">[60,</ref><ref type="bibr" target="#b66">61]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overcoming mass transfer limitations</head><p>Among the commonly named disadvantages of whole cell biocatalysts, the limitation in mass transfer due to the catalysts' cell membrane is the most prominent one. A classical way to decrease this negative effect is the deliberate permeabilization of the cell wall compounds by treatment with surfactants, chelating agents, or organic solvent (Figure <ref type="figure" target="#fig_2">2a</ref>) <ref type="bibr" target="#b11">[11,</ref><ref type="bibr" target="#b67">62]</ref>. An alternative to enhance mass transfer is the coexpression of membrane transporters as recently shown for the biocatalytic conversion of C7 to C16 alkanes (Figure <ref type="figure" target="#fig_2">2b</ref>). Coexpression of the alkL gene from Pseudomonas putida enhanced the cell specific product yield up to 100-fold, due to an increased substrate uptake <ref type="bibr" target="#b68">[63 ]</ref>. Many more such examples of influx as well as efflux transporters potentially useful for biocatalysis have been summarized recently by Kell et al. <ref type="bibr" target="#b70">[64]</ref>. Instead of enhancing the transfer of substrate towards the enzyme, others employed cell surface display techniques to rather bring the enzyme to the substrate (Figure <ref type="figure" target="#fig_2">2c</ref>). As an example, Candida antarctica lipase B was displayed on Pichia pastoris, with the additional result of increased solvent and thermal stability <ref type="bibr" target="#b71">[65]</ref>. Also for E. coli whole cell catalyst expressing a monooxygenase, the benefits of such systems have been demonstrated by Stro ¨hle et al. <ref type="bibr" target="#b72">[66]</ref>. Because of the facilitated recovery and reusability of the catalyst, a remarkable turnover number (TON) of &gt;54,000 was reached, representing the highest TON ever reported for P450 monooxygenase according to the authors <ref type="bibr" target="#b72">[66]</ref>. Su ¨hrer et al. proposed a different strategy enabling almost 28,000 fusion proteins per cell, by fusing galactosidase to an inner membrane anchor from rabbit liver cytochrome b 5 . In addition, they introduced a lytic phage protein in order to induce temperature-controlled cell lysis by pore formation after biocatalyst production (Figure <ref type="figure" target="#fig_2">2d</ref>). As a result, host cells interior components leach to the outside and can be washed away, leaving only the cellular envelope, carrying the recombinantly integrated enzyme, behind. This approach did not only increase enzyme activity by 35% compared to free enzyme (presumably by stabilization of the tetrameric enzyme structure), but also increased activity of the catalytic cell envelope particles more than 3-fold when compared to intact whole cell catalyst <ref type="bibr" target="#b73">[67 ]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advances in reactor concepts for whole cell biocatalysis</head><p>For preparative biocatalytic processes, reactors are needed which give the best compromise of maximum mass transfer at minimum mechanical abrasion of the catalyst. Additionally, the reliable scalability from investigatory scale to large scale manufacturing is desired, especially for challenging, unconventional biphasic or viscous media. Therefore, novel reactor concepts as well as screening platforms are constantly optimized to enable a fast and reliable process development. In a recent advance, a platform of 48 parallelized 10 mL reactors has been tested for biocatalytic reactions with whole cells in biphasic systems with 20% ionic liquids <ref type="bibr" target="#b75">[68]</ref>. Each reactor was stirred with a small impeller, which was proven to allow identical local energy dissipation as a comparable 200 mL reactor equipped with a rushton turbine. When compared in the reduction of 2octanone mediated by recombinant E. coli including recombinantly expressed LbADH, the reaction progress was the same on the 10 mL scale as on 200 mL scale for four different ionic liquids (content 40%) <ref type="bibr" target="#b75">[68]</ref>.</p><p>In another work, even the application of 24 well microtiter plates was shown to be adjustable to screen for scalable reaction conditions in biphasic systems <ref type="bibr" target="#b76">[69]</ref>. Prerequisite is the utilization of small amounts of surfactant (0.1%</p><p>Recent advances in whole cell biocatalysis techniques Wachtmeister and Rother 173 (a) (b) (c) enzyme substrate product transporter anchor cellular contaminants phage protein (d) Current Opinion in Biotechnology Modifications in cell morphology to increase mass transfer. (a) Cell permeabilization [11,62]. (b) Coexpression of membrane-integrated transport proteins for active influx and efflux [63 ,64]. (c) Fusion protein of enzyme and membrane anchors to display enzymes on the cell surface [65,66].</p><p>(d) Fusion protein of enzyme and inner membrane anchors followed by belated induction of phage protein induction, leading to pore formation, efflux of cellular contaminants, and increased mass transfer of substrates and products <ref type="bibr" target="#b73">[67 ]</ref>.</p><p>Triton X-100) and sealing with a special silicone cover. By these optimization, the conversion of n-dodecane into 1dodecanol by recombinant E. coli in a 1.2 mL well proceeded with similar conversion rates than those obtained in a 120 mL shake flask and in a 1.2 L stirred tank reactor <ref type="bibr" target="#b76">[69]</ref>.</p><p>An emerging field in chemical catalysis is flow chemistry, as it offers the advantages of continuous operation, online-analytics and simple scale-up <ref type="bibr" target="#b77">[70]</ref>. The first application of whole cell biocatalysis in flow has been published by Tamborini and co-workers in 2013 <ref type="bibr" target="#b78">[71]</ref>. The deracemization of flurbiprofen was catalyzed by lipase within dried mycelium of Aspergillus oryzae. The esterification efficiency could greatly be increased by adding a module to capture generated water, thus shifting the thermodynamic equilibrium, and by an in-line capturing method to recover unreacted (S)-flurbiprofen for racemization and re-application into the reactor. In another example, the 2step formation of cyanohydrins from cyclic aldehydes using recombinant E. coli whole cells was performed <ref type="bibr" target="#b79">[72 ]</ref>. Cyanide was released from ethyl cyanoformate by immobilized C. antarctica lipase B (Novozyme 435), mixed with different cyclic aldehydes, and converted into cyanohydrins by recombinantly expressed A. thaliana hydroxynitrile lyase in E. coli (Figure <ref type="figure">3</ref>). This in situ O O O O O O OH O CN CN Ar Ar Ar O CN CalB (Novozyme 435) H C N E. coli AtHNL Current Opinion in Biotechnology Biocatalytic 2-step synthesis of aromatic cyanohydrins. The entirely closed flow system allows a safe in situ generation of cyanide which is stereoselectively converted to various aromatic cyanohydrins. An in-line acetylation step further enables an in situ protection of the generated products [72 ]. (a) (b) Current Opinion in Biotechnology Schematic side view (a) and top view (b) cross sections of the SpinChem reactor concept. Rotation of the reactor leads to suction of reaction medium from the bottom of the hollow stirrer shaft inside the reactor. The flow streams through four immobilizate-filled compartments and is extruded to the outside. Alternatively to immobilizate particles polymeric membrane bags including lyophilized whole cell catalyst can be used (b, top left) [74,75].</p><p>generation and conversion of cyanide in the closed flow reactor greatly increased the process safety compared to classical batch processes.</p><p>Without the need for novel flow chemistry equipment, similar setups of continuous reactors can be set up by means of traditional plug flow or fluidized bed applications. Simply adding filter paper of appropriate cutoff to both ends of an empty HPLC column enables utilization of recombinant, lyophilized E. coli whole cell catalyst, as recently shown for the lipase-mediated conversion of glyceryl triacetate with methanol <ref type="bibr" target="#b81">[73]</ref>.</p><p>Another novel reactor technology enabling high mass transfer at a minimum mechanical force has been developed by Nordic ChemQuest AB. The so-called SpinChem has been proven feasible in biocatalytic transformation using immobilized enzyme, but also for whole cell catalyst entrapped in alginate beads (Figure <ref type="figure" target="#fig_3">4</ref>). In comparison to stirred tank reactors, mechanical abrasion of catalyst is reduced while maintaining identical reaction rates <ref type="bibr" target="#b82">[74]</ref>. As an alternative to the entrapment of whole cell catalyst into alginate beads, we recently demonstrated the application of catalytic 'teabags' inside the SpinChem reactor, exhibiting the same reaction rate as in a 140 mL model stirred tank reactor and 5 mL vial scale. Furthermore, the simple catalyst exchange when using the SpinChem reactor makes it particularly appealing for set-up and optimization of biocatalytic multi-step reactions <ref type="bibr" target="#b83">[75]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion and future perspective</head><p>Whole cell biocatalysis offers many advantages over the use of purified or immobilized enzymes, among them (i) significantly reduced catalyst costs, (ii) an inherently higher stability due to the residual cell wall compounds, and (iii) no need for external cofactor addition. Disadvantages in terms of mass transfer limitations can be conquered at multiple stages, either by modifications of the cell wall or by engineering tools. In order to increase product concentrations, we see a huge potential of whole cell biocatalysts in the field of unconventional reaction media, which provides increasing numbers of biocompatible and sustainable solvents. In combination with novel, particularly atom-efficient cofactor regeneration tools, one can profit from two main advantages of whole cell catalysts: the high catalysts' stability in unconventional media and the cost savings for catalyst and cofactor production. Especially when enzymes are recombinantly expressed at high titers, when catalyst recyclability is facilitated by immobilization, and when a continuous reaction mode is applicable, whole cell catalysts can exhibit productivities far beyond industrial benchmarks. Such processes will become even more appealing when the production of fine chemicals or pharmaceutical building blocks is connected to precursors from renewable resources, thus not only boosting valorization, but also getting closer to the common goal of a more biobased economy. Here we see big potential, especially if synthetic biology techniques from the metabolic engineering field as well as recent advances in multi-step biocatalysis are combined.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Figure 1</figDesc><graphic coords="2,97.64,584.63,138.52,122.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Biocatalytic 2 -</head><label>2</label><figDesc>Figure 3</figDesc><graphic coords="6,94.58,110.03,138.78,116.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4</head><label>4</label><figDesc>Figure 4</figDesc><graphic coords="6,108.08,503.45,141.64,105.07" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Available online at www.sciencedirect.com</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>www.sciencedirect.comCurrent Opinion in Biotechnology 2016, 42:169-177</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Current Opinion in Biotechnology 2016, 42:169-177 www.sciencedirect.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank <rs type="person">Johannes Do</rs> ¨bber for proof-reading the manuscript. This work was partially funded by the <rs type="funder">Helmholtz Association</rs> in frame of the <rs type="projectName">Helmholtz Young Investigator Group 'Synthetic Enzyme Cascades</rs>'.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_WYmQbt2">
+					<orgName type="project" subtype="full">Helmholtz Young Investigator Group &apos;Synthetic Enzyme Cascades</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">References and recommended reading Papers of particular interest, published within the period of review, have been highlighted as: of special interest of outstanding interest</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">References and recommended reading Papers of particular interest, published within the period of review, have been highlighted as: of special interest of outstanding interest</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Biobased chemicals: the convergence of green chemistry with industrial biotechnology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Philp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jem</forename><surname>Allan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="219" to="222" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philp JC, Ritchie RJ, Allan JEM: Biobased chemicals: the convergence of green chemistry with industrial biotechnology. Trends Biotechnol 2013, 31:219-222.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Transformation of biomass into commodity chemicals using enzymes or cells</title>
+		<author>
+			<persName><forename type="first">Ajj</forename><surname>Straathof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="1871" to="1908" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Straathof AJJ: Transformation of biomass into commodity chemicals using enzymes or cells. Chem Rev 2014, 114:1871- 1908.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Biocatalysis in the fine chemical and pharmaceutical industries</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Auriol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Branneby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Collis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eckrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fotheringham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Halle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Practical Methods for Biocatalysis and Biotransformations</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Whittall</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Sutton</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="page" from="1" to="59" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sutton PW, Adams JP, Archer I, Auriol D, Branneby C, Collis AJ, Dumas B, Eckrich T, Fotheringham I, Halle R et al.: Biocatalysis in the fine chemical and pharmaceutical industries. In Practical Methods for Biocatalysis and Biotransformations 2. Edited by Whittall J, Sutton PW. John Wiley &amp; Sons, Ltd.; 2012:1-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Industrial applications of enzyme biocatalysis: current status and future aspects</title>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Adv</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1443" to="1454" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choi J-M, Han S-S, Kim H-S: Industrial applications of enzyme biocatalysis: current status and future aspects. Biotechnol Adv 2015, 33:1443-1454.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Enzymatic and whole cell catalysis: finding new strategies for old processes</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cccr</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Adv</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="75" to="83" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Carvalho CCCR: Enzymatic and whole cell catalysis: finding new strategies for old processes. Biotechnol Adv 2011, 29:75-83.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">How green is biocatalysis? To calculate is to know</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holtmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="930" to="943" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ni Y, Holtmann D, Hollmann F: How green is biocatalysis? To calculate is to know. ChemCatChem 2014, 6:930-943.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Advances in the process development of biocatalytic processes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tufvesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lima-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al</forename><surname>Haque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gernaey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Process Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1233" to="1238" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tufvesson P, Lima-Ramos J, Al Haque N, Gernaey KV, Woodley JM: Advances in the process development of biocatalytic processes. Org Process Res Dev 2013, 17:1233- 1238.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Advances in metabolic pathway and strain engineering paving the way for sustainable production of chemical building blocks</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="965" to="972" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen Y, Nielsen J: Advances in metabolic pathway and strain engineering paving the way for sustainable production of chemical building blocks. Curr Opin Biotechnol 2013, 24:965- 972.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Bu ¨hler B: The microbial cell -functional unit for energy dependent multistep biocatalysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ladkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="178" to="189" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ladkau N, Schmid A, Bu ¨hler B: The microbial cell -functional unit for energy dependent multistep biocatalysis. Curr Opin Biotechnol 2014, 30:178-189.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Advancing metabolic engineering through systems biology of industrial microorganisms</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="8" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dai Z, Nielsen J: Advancing metabolic engineering through systems biology of industrial microorganisms. Curr Opin Biotechnol 2015, 36:8-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Biocatalysis with immobilized Escherichia coli</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zajkoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rebros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rosenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1441" to="1455" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zajkoska P, Rebros M, Rosenberg M: Biocatalysis with immobilized Escherichia coli. Appl Microbiol Biotechnol 2013, 97:1441-1455.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Guidelines and cost analysis for catalyst production in biocatalytic processes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tufvesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lima-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nordblad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Process Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="266" to="274" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tufvesson P, Lima-Ramos J, Nordblad M, Woodley JM: Guidelines and cost analysis for catalyst production in biocatalytic processes. Org Process Res Dev 2011, 15:266-274.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Strategies for cofactor regeneration in biocatalyzed reductions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Synthetic Methods for Biologically Active Molecules: Exploring the Potential of Bioreductions</title>
+		<editor>
+			<persName><forename type="first">Brenna</forename><forename type="middle">E</forename><surname>Wiley</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>VCH Verlag GmbH &amp; Co. KGaA</publisher>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="209" to="238" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kara S, Schrittwieser JH, Hollmann F: Strategies for cofactor regeneration in biocatalyzed reductions. In Synthetic Methods for Biologically Active Molecules: Exploring the Potential of Bioreductions. Edited by Brenna E. Wiley-VCH Verlag GmbH &amp; Co. KGaA; 2014:209-238.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">A comprehensive summary of state-of-the-art technologies for cofactor regeneration</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A comprehensive summary of state-of-the-art technologies for cofactor regeneration.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Strategies for regeneration of nicotinamide coenzymes emphasizing self-sufficient closedloop recycling systems</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gro ¨ger H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="22" to="31" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hummel W, Gro ¨ger H: Strategies for regeneration of nicotinamide coenzymes emphasizing self-sufficient closed- loop recycling systems. J Biotechnol 2014, 191:22-31.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">In vitro characterization of an enzymatic redox cascade composed of an alcohol dehydrogenase, an enoate reductases and a Baeyer-Villiger monooxygenase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oberleitner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rudroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mihovilovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="393" to="399" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oberleitner N, Peters C, Rudroff F, Bornscheuer UT, Mihovilovic MD: In vitro characterization of an enzymatic redox cascade composed of an alcohol dehydrogenase, an enoate reductases and a Baeyer-Villiger monooxygenase. J Biotechnol 2014, 192:393-399.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">An enzyme cascade synthesis of e-caprolactone and its oligomers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scherkus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muschiol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Menyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gro ¨ger H, Liese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-G</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2784" to="2787" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmidt S, Scherkus C, Muschiol J, Menyes U, Winkler T, Hummel W, Gro ¨ger H, Liese A, Herz H-G, Bornscheuer UT: An enzyme cascade synthesis of e-caprolactone and its oligomers. Angew Chem Int Ed 2015, 54:2784-2787.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">A two-step, redox self-sufficient cascade generates e-caprolacton from cyclohexanol. Addition of lipase leads to a ring-opening polymerization of e-caprolacton hence overcoming product inhibition and increasing substrate loads at the same time</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A two-step, redox self-sufficient cascade generates e-caprolacton from cyclohexanol. Addition of lipase leads to a ring-opening polymerization of e-caprolacton hence overcoming product inhibition and increasing sub- strate loads at the same time.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">More efficient redox biocatalysis by utilising 1,4-butanediol as a &apos;&apos;smart cosubstrate</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Spickermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leggewie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wjh</forename><surname>Van Berkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iwce</forename><surname>Arends</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="330" to="335" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kara S, Spickermann D, Schrittwieser JH, Leggewie C, van Berkel WJH, Arends IWCE, Hollmann F: More efficient redox biocatalysis by utilising 1,4-butanediol as a &apos;&apos;smart cosubstrate&apos;&apos;. Green Chem 2013, 15:330-335.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Access to lactone building blocks via horse liver alcohol dehydrogenasecatalyzed oxidative lactonization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Spickermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weckbecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leggewie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iwce</forename><surname>Arends</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2436" to="2439" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kara S, Spickermann D, Schrittwieser JH, Weckbecker A, Leggewie C, Arends IWCE, Hollmann F: Access to lactone building blocks via horse liver alcohol dehydrogenase- catalyzed oxidative lactonization. ACS Catal 2013, 3:2436- 2439.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Redox self-sufficient biocatalyst network for the amination of primary alcohols</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Sattler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Mutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pfeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kroutil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="9156" to="9159" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sattler JH, Fuchs M, Tauber K, Mutti FG, Faber K, Pfeffer J, Haas T, Kroutil W: Redox self-sufficient biocatalyst network for the amination of primary alcohols. Angew Chem Int Ed 2012, 51:9156-9159.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Introducing an in situ capping strategy in systems biocatalysis to access 6-aminohexanoic acid</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Sattler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Mutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pfeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kroutil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="14153" to="14157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sattler JH, Fuchs M, Mutti FG, Grischek B, Engel P, Pfeffer J, Woodley JM, Kroutil W: Introducing an in situ capping strategy in systems biocatalysis to access 6-aminohexanoic acid. Angew Chem Int Ed 2014, 53:14153-14157.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">A particularly sophisticated cofactor self-sufficient cascade design is presented. Combination of two redox-neutral cascades composed of six enzymes yields the polymer building block 6-aminohexanoic acid from cyclohexanol</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A particularly sophisticated cofactor self-sufficient cascade design is presented. Combination of two redox-neutral cascades composed of six enzymes yields the polymer building block 6-aminohexanoic acid from cyclohexanol.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An enzymatic toolbox for cascade reactions: a showcase for an in vivo redox sequence in asymmetric synthesis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oberleitner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muschiol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kadow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schaaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Iqbal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rudroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mihovilovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3524" to="3528" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oberleitner N, Peters C, Muschiol J, Kadow M, Saß S, Bayer T, Schaaf P, Iqbal N, Rudroff F, Mihovilovic MD et al.: An enzymatic toolbox for cascade reactions: a showcase for an in vivo redox sequence in asymmetric synthesis. ChemCatChem 2013, 5:3524-3528.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Process for enzymatic amination of alcohols coupled with cofactor regeneration</title>
+		<author>
+			<persName><forename type="first">K-U</forename><surname>Baldenius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ditrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Navickas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Knaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Turner</surname></persName>
+		</author>
+		<idno>EP 2963121</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baldenius K-U, Breuer M, Ditrich K, Navickas V, Mutti F, Knaus T, Turner N: Process for enzymatic amination of alcohols coupled with cofactor regeneration. 2016, European patent application EP 2963121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Full oxidation of methanol regenerates three equivalents of cofactor. The proposed cascade could generally be combined with any NADH-dependent reduction and gives an example on particularly sustainable reaction designs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gargiulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yanase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Opperman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wjh</forename><surname>Van Berkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Synth Catal</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="page" from="1687" to="1691" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Complete enzymatic oxidation of methanol to carbon dioxide: towards more eco-efficient regeneration systems for reduced nicotinamide cofactors</note>
+	<note type="raw_reference">Kara S, Schrittwieser JH, Gargiulo S, Ni Y, Yanase H, Opperman DJ, van Berkel WJH, Hollmann F: Complete enzymatic oxidation of methanol to carbon dioxide: towards more eco-efficient regeneration systems for reduced nicotinamide cofactors. Adv Synth Catal 2015, 357:1687-1691. Full oxidation of methanol regenerates three equivalents of cofactor. The proposed cascade could generally be combined with any NADH-depen- dent reduction and gives an example on particularly sustainable reaction designs.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Organic solvent tolerant lipases and applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kanwar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci World J</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharma S, Kanwar SS: Organic solvent tolerant lipases and applications. Sci World J 2014, 2014:1-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Biocatalysis in biphasic systems: general</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jms</forename><surname>Cabral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Organic Synthesis with Enzymes in Non-Aqueous Media</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Carrea</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Riva</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>KGaA</publisher>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="page" from="189" to="210" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernandes P, Cabral JMS: Biocatalysis in biphasic systems: general. In Organic Synthesis with Enzymes in Non-Aqueous Media. Edited by Carrea G, Riva S. Wiley-VCH Verlag GmbH &amp; Co. KGaA; 2012:189-210.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Domı ´nguez de Marı ´a PD: Asymmetric reduction of ketones with recombinant E. coli whole cells in neat substrates</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jakoblinnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mladenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sibilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ansorge-</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Commun</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="12230" to="12232" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jakoblinnert A, Mladenov R, Paul A, Sibilla F, Schwaneberg U, Ansorge-Schumacher MB, Domı ´nguez de Marı ´a PD: Asymmetric reduction of ketones with recombinant E. coli whole cells in neat substrates. Chem Commun 2011, 47:12230-12232.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A two-step biocatalytic cascade in micro-aqueous medium: using whole cells to obtain high concentrations of a vicinal diol</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jakoblinnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="3472" to="3482" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jakoblinnert A, Rother D: A two-step biocatalytic cascade in micro-aqueous medium: using whole cells to obtain high concentrations of a vicinal diol. Green Chem 2014, 16:3472-3482.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Use of hydrophobic bacterium Rhodococcus rhodochrous NBRC15564 expressed thermophilic alcohol dehydrogenases as whole-cell catalyst in solvent-free organic media</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hibino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohtake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Process Biochem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="838" to="843" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hibino A, Ohtake H: Use of hydrophobic bacterium Rhodococcus rhodochrous NBRC15564 expressed thermophilic alcohol dehydrogenases as whole-cell catalyst in solvent-free organic media. Process Biochem 2013, 48:838-843.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Enantioselective, continuous (R)-and (S)-2-butanol synthesis: achieving high space-time yields with recombinant E. coli cells in a micro-aqueous, solvent-free reaction system</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Erdmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mackfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jakoblinnert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="106" to="112" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erdmann V, Mackfeld U, Rother D, Jakoblinnert A: Enantioselective, continuous (R)-and (S)-2-butanol synthesis: achieving high space-time yields with recombinant E. coli cells in a micro-aqueous, solvent-free reaction system. J Biotechnol 2014, 191:106-112.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The stereoselective production of both 2-butanol enantiomers is achieved under solvent-free conditions using two oxidoreductases. A continuous reactor setup enables space-time-yields up to 2278 g</title>
+	</analytic>
+	<monogr>
+		<title level="j">L À1 d À</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The stereoselective production of both 2-butanol enantiomers is achieved under solvent-free conditions using two oxidoreductases. A continuous reactor setup enables space-time-yields up to 2278 g L À1 d À1 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Synthesis of chiral cyanohydrins by recombinant Escherichia coli cells in a micro-aqueous reaction system</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Okrob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kopka</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gru ¨nberger A</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-E</forename><surname>Jaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Krauss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="5025" to="5027" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scholz KE, Okrob D, Kopka B, Gru ¨nberger A, Pohl M, Jaeger K-E, Krauss U: Synthesis of chiral cyanohydrins by recombinant Escherichia coli cells in a micro-aqueous reaction system. Appl Environ Microbiol 2012, 78:5025-5027.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Domı ´nguez de Marı ´a P, Alca ´ntara AR: 2-Methyltetrahydrofuran (2-MeTHF): a biomass-derived solvent with broad application in organic chemistry</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hoyos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Castoldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1369" to="1379" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pace V, Hoyos P, Castoldi L, Domı ´nguez de Marı ´a P, Alca ´ntara AR: 2-Methyltetrahydrofuran (2-MeTHF): a biomass-derived solvent with broad application in organic chemistry. ChemSusChem 2012, 5:1369-1379.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Biocatalytic reactions in ionic liquids</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kragl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ionic Liquids Further UnCOILed: Critical Expert Overviews</title>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Plechkova</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Seddon</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="193" to="216" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stein F, Kragl U: Biocatalytic reactions in ionic liquids. In Ionic Liquids Further UnCOILed: Critical Expert Overviews. Edited by Plechkova N, Seddon K. John Wiley &amp; Sons, Inc.; 2014:193-216.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Recent developments in chemical synthesis with biocatalysts in ionic liquids</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Potdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Kelso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtw</forename><surname>Hearn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="16788" to="16816" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Potdar MK, Kelso GF, Schwarz L, Zhang C, Hearn MTW: Recent developments in chemical synthesis with biocatalysts in ionic liquids. Molecules 2015, 20:16788-16816.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Ionic liquids and whole-cellcatalyzed processes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dennewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weuster-Botz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ionic Liquids in Biotransformations and Organocatalysis: Solvents and Beyond</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Domı ´nguez De Marı ´a</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="page" from="261" to="314" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dennewald D, Weuster-Botz D: Ionic liquids and whole-cell- catalyzed processes. In Ionic Liquids in Biotransformations and Organocatalysis: Solvents and Beyond. Edited by Domı ´nguez de Marı ´a P. John Wiley &amp; Sons, Inc.; 2012:261-314.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Whole-cell biocatalytic processes with ionic liquids</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G-W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-H</forename><surname>Zong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-Y</forename><surname>Lou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Sustain Chem Eng</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="371" to="386" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu P, Zheng G-W, Du P-X, Zong M-H, Lou W-Y: Whole-cell biocatalytic processes with ionic liquids. ACS Sustain Chem Eng 2016, 4:371-386.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Screening ionic liquids for use in biotransformations with whole microbial cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hqn</forename><surname>Gunaratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Seddon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Goodacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1843" to="1851" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wood N, Ferguson JL, Gunaratne HQN, Seddon KR, Goodacre R, Stephens GM: Screening ionic liquids for use in biotransformations with whole microbial cells. Green Chem 2011, 13:1843-1851.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Use of ionic liquid to significantly improve asymmetric reduction of ethyl acetoacetate catalyzed by Acetobacter sp. CCTCC M209061 cells</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind Eng Chem Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="12550" to="12558" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang X, Yue D, Zong M, Lou W: Use of ionic liquid to significantly improve asymmetric reduction of ethyl acetoacetate catalyzed by Acetobacter sp. CCTCC M209061 cells. Ind Eng Chem Res 2013, 52:12550-12558.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Bioreduction of 3,5bis(trifluoromethyl)acetophenone using ionic liquid as a cosolvent catalyzed by recombinant Escherichia coli cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Eng J</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="119" to="125" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang N, Li J, Sun J, Huang J, Wang P: Bioreduction of 3,5- bis(trifluoromethyl)acetophenone using ionic liquid as a co- solvent catalyzed by recombinant Escherichia coli cells. Biochem Eng J 2015, 101:119-125.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Marı ´a P: Deep eutectic solvents promising solvents and nonsolvent solutions for biocatalysis</title>
+		<author>
+			<persName><surname>Domı ´nguez De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Environmentally Friendly Syntheses Using Ionic Liquids</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Dupont</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Itoh</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Lozano</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Malhotra</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="67" to="86" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Domı ´nguez De Marı ´a P: Deep eutectic solvents promising solvents and nonsolvent solutions for biocatalysis. In Environmentally Friendly Syntheses Using Ionic Liquids. Edited by Dupont J, Itoh T, Lozano P, Malhotra S. CRC Press; 2014:67-86.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Domı ´nguez de Marı ´a P: Deep eutectic solvents for organocatalysis, biotransformations, and multistep organocatalyst/enzyme combinations</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guajardo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mu ¨ller Cr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schrebler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carlesi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cctc.201501133</idno>
+		<ptr target="http://dx.doi.org/10.1002/cctc" />
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<date type="published" when="2015">2015. 201501133</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guajardo N, Mu ¨ller CR, Schrebler R, Carlesi C, Domı ´nguez de Marı ´a P: Deep eutectic solvents for organocatalysis, biotransformations, and multistep organocatalyst/enzyme combinations. ChemCatChem 2015 http://dx.doi.org/10.1002/ cctc.201501133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Evaluation of deep eutectic solvents as co-solvent for steroids 1-en-dehydrogenation biotransformation by Arthrobacter simplex</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jctb.4691</idno>
+		<ptr target="http://dx.doi.org/10.1002/jctb.4691" />
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Technol Biotechnol</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mao S, Yu L, Ji S, Liu X, Lu F: Evaluation of deep eutectic solvents as co-solvent for steroids 1-en-dehydrogenation biotransformation by Arthrobacter simplex. J Chem Technol Biotechnol 2015 http://dx.doi.org/10.1002/jctb.4691.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Enhancing asymmetric reduction of 3-chloropropiophenone with immobilized Acetobacter sp. CCTCC M209061 cells by using deep eutectic solvents as cosolvents</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B-Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-H</forename><surname>Zong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-Y</forename><surname>Lou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Sustain Chem Eng</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="718" to="724" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu P, Xu Y, Li X-F, Zhao B-Y, Zong M-H, Lou W-Y: Enhancing asymmetric reduction of 3-chloropropiophenone with immobilized Acetobacter sp. CCTCC M209061 cells by using deep eutectic solvents as cosolvents. ACS Sustain Chem Eng 2015, 3:718-724.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Domı ´nguez de Marı ´a P: Whole-cell biocatalysis in deep-eutectic-solvents/aqueous mixtures</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Maugeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1535" to="1537" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maugeri Z, Domı ´nguez de Marı ´a P: Whole-cell biocatalysis in deep-eutectic-solvents/aqueous mixtures. ChemCatChem 2014, 6:1535-1537.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Rados ˇevic ´K, Radojc ˇic Ŕedovnikovic ´I: Baker&apos;s yeast-mediated asymmetric reduction of ethyl 3-oxobutanoate in deep eutectic solvents</title>
+		<author>
+			<persName><forename type="first">Cvjetko</forename><surname>Bubalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Process Biochem</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1788" to="1792" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cvjetko Bubalo M, Mazur M, Rados ˇevic ´K, Radojc ˇic Ŕedovnikovic ´I: Baker&apos;s yeast-mediated asymmetric reduction of ethyl 3-oxobutanoate in deep eutectic solvents. Process Biochem 2015, 50:1788-1792.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Gotor-Ferna ´ndez V, Domı ´nguez de Marı ´a P: Performance of recombinant-whole-cell-catalyzed reductions in deep-eutectic-solvent-aqueous-media mixtures</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mu ¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lavandera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2654" to="2659" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mu ¨ller CR, Lavandera I, Gotor-Ferna ´ndez V, Domı ´nguez de Marı ´a P: Performance of recombinant-whole-cell-catalyzed reductions in deep-eutectic-solvent-aqueous-media mixtures. ChemCatChem 2015, 7:2654-2659.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Whole-cell double oxidation of nheptane</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Mu ¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Welters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gro ¨ger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schwaneberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="196" to="204" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mu ¨ller CA, Dennig A, Welters T, Winkler T, Ruff AJ, Hummel W, Gro ¨ger H, Schwaneberg U: Whole-cell double oxidation of n- heptane. J Biotechnol 2014, 191:196-204.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Synthetic enzyme cascades for valuable diols and amino alcohols: smart composition and optimization strategies</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kulig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Westphal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Industrial Biocatalysis</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Grunwald</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Pan Stanford Publishing Pte. Ltd</publisher>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="887" to="930" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sehl T, Kulig J, Westphal R, Rother D: Synthetic enzyme cascades for valuable diols and amino alcohols: smart composition and optimization strategies. In Industrial Biocatalysis. Edited by Grunwald P. Pan Stanford Publishing Pte. Ltd.; 2014:887-930.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Cascade catalysis -strategies and challenges en route to preparative synthetic biology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muschiol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oberleitner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mihovilovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rudroff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Commun</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="5798" to="5811" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muschiol J, Peters C, Oberleitner N, Mihovilovic M, Bornscheuer U, Rudroff F: Cascade catalysis -strategies and challenges en route to preparative synthetic biology. Chem Commun 2015, 51:5798-5811.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Chemo)enzymatic cascades -nature&apos;s synthetic strategy transferred to the laboratory</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garcı ´a-Junceda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lavandera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schrittwieser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Catal B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcı ´a-Junceda E, Lavandera I, Rother D, Schrittwieser JH: (Chemo)enzymatic cascades -nature&apos;s synthetic strategy transferred to the laboratory. J Mol Catal B Enzym 2015, 114:1-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Oroz-Guinea I, Garcı ´a-Junceda E: Enzyme catalysed tandem reactions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="236" to="249" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oroz-Guinea I, Garcı ´a-Junceda E: Enzyme catalysed tandem reactions. Curr Opin Chem Biol 2013, 17:236-249.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Physical and bioengineering properties of polyvinyl alcohol lens-shaped particles versus spherical polyelectrolyte complex microcapsules as immobilisation matrices for a whole-cell Baeyer-Villiger monooxygenase</title>
+		<author>
+			<persName><surname>Schenkmayerova ´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buc ˇko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gemeiner</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trel'ova</surname></persName>
+		</author>
+		<author>
+			<persName><surname>´d</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lacı ´k</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chorva</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ac</forename><surname>ˇai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Polakovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">ˇm</forename><surname>Lipta ´k</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rebros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">ˇm</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Biochem Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="1834" to="1849" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schenkmayerova ´a, Buc ˇko M, Gemeiner P, Trel&apos;ova ´D, Lacı ´k I, Chorva ´t D Jr, Ac ˇai P, Polakovic ˇM, Lipta ´k L, Rebros ˇM et al.: Physical and bioengineering properties of polyvinyl alcohol lens-shaped particles versus spherical polyelectrolyte complex microcapsules as immobilisation matrices for a whole-cell Baeyer-Villiger monooxygenase. Appl Biochem Biotechnol 2014, 174:1834-1849.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Rebros ˇM: Immobilised whole-cell recombinant monoamine oxidase biocatalysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zajkoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stloukal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1229" to="1236" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zajkoska P, Rosenberg M, Heath R, Malone KJ, Stloukal R, Turner NJ, Rebros ˇM: Immobilised whole-cell recombinant monoamine oxidase biocatalysis. Appl Microbiol Biotechnol 2015, 99:1229-1236.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Immobilization of Escherichia coli containing vtransaminase activity in LentiKats W</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ca ´rdenas-Ferna ´ndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Neto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lo ´pez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tufvesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Prog</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="693" to="698" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ca ´rdenas-Ferna ´ndez M, Neto W, Lo ´pez C, A ´lvaro G, Tufvesson P, Woodley JM: Immobilization of Escherichia coli containing v- transaminase activity in LentiKats W . Biotechnol Prog 2012, 28:693-698.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Biocatalytically active silCoat-composites entrapping viable Escherichia coli</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Findeisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ansorge-</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="1557" to="1566" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Findeisen A, Thum O, Ansorge-Schumacher MB: Biocatalytically active silCoat-composites entrapping viable Escherichia coli. Appl Microbiol Biotechnol 2014, 98:1557-1566.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Immobilizates with whole cell catalyst are modified by hydrophobic and hydrophilic silicone coatings. The coatings effectively diminish leakage of whole cell catalyst while being well applicable in aqueous or neat substrate systems</title>
+		<imprint/>
+	</monogr>
+	<note>respectively</note>
+	<note type="raw_reference">Immobilizates with whole cell catalyst are modified by hydrophobic and hydrophilic silicone coatings. The coatings effectively diminish leakage of whole cell catalyst while being well applicable in aqueous or neat sub- strate systems, respectively.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Development of a continuous bioconversion system using a thermophilic whole-cell biocatalyst</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Ninh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yokohigashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Okano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Omasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohtakea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<date type="published" when="1996">2013. 1996-2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ninh PH, Honda K, Yokohigashi Y, Okano K, Omasa T, Ohtakea H: Development of a continuous bioconversion system using a thermophilic whole-cell biocatalyst. Appl Environ Microbiol 2013, 79:1996-2001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Continuous synthesis of L-malic acid using whole-cell microreactor</title>
+		<author>
+			<persName><forename type="first">ˇg</forename><surname>Stojkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>ˇnidars ˇic ˇ-Plazl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Process Biochem</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1102" to="1107" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stojkovic ˇG, Z ˇnidars ˇic ˇ-Plazl P: Continuous synthesis of L-malic acid using whole-cell microreactor. Process Biochem 2012, 47:1102-1107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Whole-cell teabag catalysis for the modularisation of synthetic enzyme cascades in micro-aqueous systems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wachtmeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jakoblinnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kulig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Offermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1051" to="1058" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wachtmeister J, Jakoblinnert A, Kulig J, Offermann H, Rother D: Whole-cell teabag catalysis for the modularisation of synthetic enzyme cascades in micro-aqueous systems. ChemCatChem 2014, 6:1051-1058.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Application of whole-cell biotransformation in the pharmaceutical industry</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Lam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biocatalysis for the Pharmaceutical Industry: Discovery, Development, and Manufacturing</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Tao</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">(</forename><surname>Alex</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">)</forename><surname>Lin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G-Q</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Liese</forename><forename type="middle">A John</forename><surname>Wiley</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Asia</forename><surname>Sons</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Pte) Ltd</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="213" to="228" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lam KS: Application of whole-cell biotransformation in the pharmaceutical industry. In Biocatalysis for the Pharmaceutical Industry: Discovery, Development, and Manufacturing. Edited by Tao J, (Alex), Lin G-Q, Liese A. John Wiley &amp; Sons Asia (Pte) Ltd.; 2009:213-228.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Use of enzymes in the manufacture of active pharmaceutical ingredients -a science and safety-based approach to ensure patient safety and drug quality</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Finch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Process Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1986" to="1993" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wells AS, Finch GL, Michels PC, Wong JW: Use of enzymes in the manufacture of active pharmaceutical ingredients -a science and safety-based approach to ensure patient safety and drug quality. Org Process Res Dev 2012, 16:1986-1993.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Biotransformations in Organic Chemistry</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faber K (Ed): Biotransformations in Organic Chemistry. Springer; 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Recombinant protein expression in Escherichia coli: advances and challenges</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Rosano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ceccarelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosano GL, Ceccarelli EA: Recombinant protein expression in Escherichia coli: advances and challenges. Front Microbiol 2014, 5:1-17.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Coupling of permeabilized cells of Gluconobacter oxydans and Ralstonia eutropha for asymmetric ketone reduction using H 2 as reductant</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rundba ¨ck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fidanoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Adlercreutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="154" to="158" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rundba ¨ck F, Fidanoska M, Adlercreutz P: Coupling of permeabilized cells of Gluconobacter oxydans and Ralstonia eutropha for asymmetric ketone reduction using H 2 as reductant. J Biotechnol 2012, 157:154-158.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Identification and use of an alkane transporter plug-in for applications in biocatalysis and whole-cell biosensing of alkanes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deszcz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martı</forename><surname>´nez-Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Folliard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sreenivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dalby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grant C, Deszcz D, Wei Y-C, Martı ´nez-Torres RJ, Morris P, Folliard T, Sreenivasan R, Ward J, Dalby P, Woodley JM et al.: Identification and use of an alkane transporter plug-in for applications in biocatalysis and whole-cell biosensing of alkanes. Sci Rep 2014, 4:1-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Coexpression of membrane transporters solves mass transfer problems, without the need for deliberate cell membrane destruction</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Coexpression of membrane transporters solves mass transfer problems, without the need for deliberate cell membrane destruction.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Membrane transporter engineering in industrial biotechnology and whole cell biocatalysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Kell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Swainston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Oliver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="237" to="246" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kell DB, Swainston N, Pir P, Oliver SG: Membrane transporter engineering in industrial biotechnology and whole cell biocatalysis. Trends Biotechnol 2015, 33:237-246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Displaying lipase B from Candida antarctica in Pichia pastoris using the yeast surface display approach: prospection of a new anchor and characterization of the whole cell biocatalyst</title>
+		<author>
+			<persName><forename type="first">Mvh</forename><surname>Moura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Acdo</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fag</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmg</forename><surname>Freire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Almeida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">141454</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moura MVH, da Silva GP, Machado ACDO, Torres FAG, Freire DMG, Almeida RV: Displaying lipase B from Candida antarctica in Pichia pastoris using the yeast surface display approach: prospection of a new anchor and characterization of the whole cell biocatalyst. PLOS ONE 2015, 10:e0141454.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">A simplified process design for P450 driven hydroxylation based on surface displayed enzymes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Stro ¨hle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kranen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Maas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holtmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bit.25885</idno>
+		<ptr target="http://dx.doi.org/10.1002/bit.25885" />
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Bioeng</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stro ¨hle FW, Kranen E, Schrader J, Maas R, Holtmann D: A simplified process design for P450 driven hydroxylation based on surface displayed enzymes. Biotechnol Bioeng 2015 http:// dx.doi.org/10.1002/bit.25885.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">A novel one-step expression and immobilization method for the production of biocatalytic preparations</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Su ¨hrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Langemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lubitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weuster-Botz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Castiglione</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12934-015-0371-9</idno>
+		<ptr target="http://dx.doi.org/10.1186/s12934-015-0371-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Microb Cell Fact</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Su ¨hrer I, Langemann T, Lubitz W, Weuster-Botz D, Castiglione K: A novel one-step expression and immobilization method for the production of biocatalytic preparations. Microb Cell Fact 2015 http://dx.doi.org/10.1186/s12934-015-0371-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Membrane-anchoring of the recombinantly expressed model enzyme and co-expression of lytic phage protein E results in catalytically active cell debris. Additionally, removal of non-membrane-bound host cell proteins is achieved, thus circumventing potential side reactions</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Membrane-anchoring of the recombinantly expressed model enzyme and co-expression of lytic phage protein E results in catalytically active cell debris. Additionally, removal of non-membrane-bound host cell proteins is achieved, thus circumventing potential side reactions.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Evaluation of parallel milliliter-scale stirred-tank bioreactors for the study of biphasic whole-cell biocatalysis with ionic liquids</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dennewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hortsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weuster-Botz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="253" to="257" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dennewald D, Hortsch R, Weuster-Botz D: Evaluation of parallel milliliter-scale stirred-tank bioreactors for the study of biphasic whole-cell biocatalysis with ionic liquids. J Biotechnol 2012, 157:253-257.</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Tools for characterizing the whole-cell bio-oxidation of alkanes at microscale</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-P</forename><surname>Lui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baganz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="2179" to="2189" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grant C, Pinto AC, da SD, Lui H-P, Woodley JM, Baganz F: Tools for characterizing the whole-cell bio-oxidation of alkanes at microscale. Biotechnol Bioeng 2012, 109:2179-2189.</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Flow chemistry: recent developments in the synthesis of pharmaceutical products</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benaglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Puglisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org Process Res Dev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="2" to="25" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Porta R, Benaglia M, Puglisi A: Flow chemistry: recent developments in the synthesis of pharmaceutical products. Org Process Res Dev 2016, 20:2-25.</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Biotransformation with whole microbial systems in a continuous flow reactor: resolution of (RS)flurbiprofen using Aspergillus oryzae by direct esterification with ethanol in organic solvent</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tamborini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Contente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Iannuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Conti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Molinari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="6090" to="6093" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tamborini L, Romano D, Pinto A, Contente M, Iannuzzi MC, Conti P, Molinari F: Biotransformation with whole microbial systems in a continuous flow reactor: resolution of (RS)- flurbiprofen using Aspergillus oryzae by direct esterification with ethanol in organic solvent. Tetrahedron Lett 2013, 54:6090- 6093.</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">An orthogonal biocatalytic approach for the safe generation and use of HCN in a multistep continuous preparation of chiral O-acetylcyanohydrins</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brahma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Musio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Ismayilova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nikbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kamptmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Siegert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jeromin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synlett</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="262" to="266" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brahma A, Musio B, Ismayilova U, Nikbin N, Kamptmann S, Siegert P, Jeromin G, Ley S, Pohl M: An orthogonal biocatalytic approach for the safe generation and use of HCN in a multistep continuous preparation of chiral O-acetylcyanohydrins. Synlett 2016, 27:262-266.</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">The synergistic potential of flow chemistry and biocatalysis is demonstrated. Process safety is greatly increased by in situ generation and biocatalytic conversion of hydrogen cyanide. The biocatalytic flow synthesis grants access to differently substituted</title>
+		<imprint/>
+	</monogr>
+	<note>chiral cyanohydrins</note>
+	<note type="raw_reference">The synergistic potential of flow chemistry and biocatalysis is demon- strated. Process safety is greatly increased by in situ generation and biocatalytic conversion of hydrogen cyanide. The biocatalytic flow synth- esis grants access to differently substituted, chiral cyanohydrins.</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Short-chain flavor ester synthesis in organic media by an E. coli whole-cell biocatalyst expressing a newly characterized heterologous lipase</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shareck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hurtubise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Le ´pine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doucet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">91872</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brault G, Shareck F, Hurtubise Y, Le ´pine F, Doucet N: Short-chain flavor ester synthesis in organic media by an E. coli whole-cell biocatalyst expressing a newly characterized heterologous lipase. PLOS ONE 2014, 9:e91872.</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Efficient biocatalysis with immobilized enzymes or encapsulated whole cell microorganism by using the SpinChem reactor system</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mallin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muschiol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bystro ¨m</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3529" to="3532" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mallin H, Muschiol J, Bystro ¨m E, Bornscheuer UT: Efficient biocatalysis with immobilized enzymes or encapsulated whole cell microorganism by using the SpinChem reactor system. ChemCatChem 2013, 5:3529-3532.</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Modularized biocatalysis: immobilization of whole cells for preparative applications in microaqueous organic solvents</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wachtmeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mennicken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hunold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rother</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="607" to="614" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wachtmeister J, Mennicken P, Hunold A, Rother D: Modularized biocatalysis: immobilization of whole cells for preparative applications in microaqueous organic solvents. ChemCatChem 2016, 8:607-614.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

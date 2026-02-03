@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ultrahigh-throughput discovery of promiscuous enzymes by picodroplet functional metagenomics</title>
+				<funder>
+					<orgName type="full">Biological and Biotechnological Research Council (BBSRC)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Engineering and Physical Sciences Research Council</orgName>
+					<orgName type="abbreviated">EPSRC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Marie-Curie</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">EU ITN PhosChemRec</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-12-07">7 Dec 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pierre-Yves</forename><surname>Colin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Balint</forename><surname>Kintses</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabrice</forename><surname>Gielen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charlotte</forename><forename type="middle">M</forename><surname>Miton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerhard</forename><surname>Fischer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marko</forename><surname>Hyvo ¨nen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Diego</forename><forename type="middle">P</forename><surname>Morgavi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">INRA</orgName>
+								<address>
+									<addrLine>UMR1213 Herbivores</addrLine>
+									<postCode>F-63122</postCode>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Saint-Gene `s- Champanelle</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dick</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Groningen Biomolecular Science and Biotechnology Institute</orgName>
+								<orgName type="laboratory">UMR Herbivores</orgName>
+								<orgName type="institution">Clermont Universite ´</orgName>
+								<address>
+									<addrLine>VetAgro Sup</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Florian</forename><surname>Hollfelder</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Synthetic and Systems Biology Unit</orgName>
+								<orgName type="institution">University of Groningen</orgName>
+								<address>
+									<addrLine>Nijenborgh 4</addrLine>
+									<postCode>9747 AG</postCode>
+									<settlement>Groningen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Biological Research Centre</orgName>
+								<orgName type="institution" key="instit1">Institute of Biochemistry</orgName>
+								<orgName type="institution" key="instit2">Hungarian Academy of Sciences</orgName>
+								<address>
+									<postCode>6726</postCode>
+									<settlement>Szeged</settlement>
+									<country key="HU">Hungary</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ultrahigh-throughput discovery of promiscuous enzymes by picodroplet functional metagenomics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-12-07">7 Dec 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D041C0F3BC0134620B399E05BF03315F</idno>
+					<idno type="DOI">10.1038/ncomms10008</idno>
+					<note type="submission">Received 30 Jun 2015 | Accepted 25 Oct 2015 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Unculturable bacterial communities provide a rich source of biocatalysts, but their experimental discovery by functional metagenomics is difficult, because the odds are stacked against the experimentor. Here we demonstrate functional screening of a million-membered metagenomic library in microfluidic picolitre droplet compartments. Using bait substrates, new hydrolases for sulfate monoesters and phosphotriesters were identified, mostly based on promiscuous activities presumed not to be under selection pressure. Spanning three protein superfamilies, these break new ground in sequence space: promiscuity now connects enzymes with only distantly related sequences. Most hits could not have been predicted by sequence analysis, because the desired activities have never been ascribed to similar sequences, showing how this approach complements bioinformatic harvesting of metagenomic sequencing data. Functional screening of a library of unprecedented size with excellent assay sensitivity has been instrumental in identifying rare genes constituting catalytically versatile hubs in sequence space as potential starting points for the acquisition of new functions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A much broader range of enzyme catalysts than currently known is needed to address a number of challengesfrom the implementation of green, sustainable processes in white biotechnology <ref type="bibr" target="#b0">1</ref> to a fundamental understanding of the evolutionary origin and mechanistic basis of biocatalysis. Microbial ecosystems are viewed as enormous reservoirs of genetic diversity 2 , but 99% of environmental microorganisms are understood to be unculturable as yet <ref type="bibr" target="#b2">3</ref> . Extensive sequencing efforts using DNA that was directly extracted from environmental samples (eDNA) have already given unprecedented insight into the make-up and genetic diversity of such ecosystems <ref type="bibr" target="#b3">4</ref> . However, extrapolation from sequence to protein function is not trivial and often gives only a rough idea of functional assignments <ref type="bibr" target="#b4">5</ref> . As a consequence, annotations frequently prove to be incorrect when tested experimentally <ref type="bibr" target="#b5">6</ref> . Large-scale experimental characterization would be the preferred basis of functional annotation of proteins, but is currently time-consuming and expensive: which is why sequencing dominates metagenomic explorations. Furthermore, it is especially difficult to predict entirely new enzymes without precedent: genes without significant homology, encoding catalysts for unfamiliar reactions that have not yet been comprehensively assigned are likely to be overlooked (or remain unannotated). As a consequence, the percentage of genes with unknown functions in newly sequenced genomes has remained constant over the last decade (at B30-40%) <ref type="bibr" target="#b6">7</ref> .</p><p>Functional annotation is further complicated by increasing evidence for catalytic promiscuity (that is, the ability of enzymes to process more than one type of substrate). Promiscuous side activities assist evolutionary adaptation by providing a head start activity after gene duplication, enabling a smoother route from one enzyme function to another by avoiding loss of function during their interconversion <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> . Enzyme promiscuity is even harder (and often impossible) to predict by sequence analysis than primary activities <ref type="bibr" target="#b9">10</ref> , thus adding multiple dimensions to the challenge of experimental identification of function. As a consequence, the functional potential of this 'underground network' <ref type="bibr" target="#b10">11</ref> remains largely unexplored. Functional characterizations of protein families suggest however that promiscuity is an intrinsic enzyme property <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> , a potential marker for evolutionary related proteins <ref type="bibr" target="#b13">14</ref> and a rich source of new functions <ref type="bibr" target="#b14">15</ref> . Apart from chance observations no comprehensive system for detection of promiscuity exists. Discovery of promiscuous activities will be valuable: by analogy to natural neofunctionalization based on promiscuity, the identification of promiscuous activities similarly provides starting points for enzyme repurposing by directed evolution and can ultimately yield useful catalysts of practical utility.</p><p>Experimental screening of eDNA, where the corresponding proteins are heterologously expressed in a surrogate host, is a powerful method to functionally identify and annotate novel enzymes without relying on homology <ref type="bibr" target="#b15">16</ref> . However, success depends on the efficiency of the heterologous expression <ref type="bibr" target="#b16">17</ref> and hit rates are typically extremely low (estimated at one hit per 10 4 -10 5 variants, depending on the target activity) <ref type="bibr" target="#b17">18</ref> . Efficient ultrahigh-throughput systems are therefore essential to cover enough eDNA sequence space to beat the odds <ref type="bibr" target="#b18">19</ref> . Apart from costly robotic screening of individual metagenomic library members, requiring expensive liquid handling systems <ref type="bibr" target="#b19">20</ref> and labour-intensive procedures, no direct screening system for catalytic product formation (and able to screen large libraries to yield large numbers of hits) has been used to isolate novel catalysts in functional metagenomics. Apart from providing ultrahigh throughput, an experimental system for identifying promiscuous activities in metagenomes must be sensitive enough to pick up potentially weak side activities, as their rates are often several orders of magnitude slower than native activities <ref type="bibr" target="#b14">15</ref> .</p><p>To address the challenge of performing sensitive functional screening with ultrahigh throughput, we use water-in-oil droplets, a biomimetic compartment acting as a genotypephenotype linkage <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> , in analogy to cells. Monodisperse droplets are produced in microfluidic chips so that quantitative and sensitive measurements can be performed <ref type="bibr" target="#b22">23</ref> and ultrahighthroughput sorting <ref type="bibr" target="#b23">24</ref> enables selection of droplets according to their fluorescence. Using this format, up to B10 8 biochemical reactions can be performed per day, typically in pico-to femtolitre volumes, resulting in dramatically lower screening costs compared with robotic screening <ref type="bibr" target="#b24">25</ref> . Microfluidic droplets have been successfully used for directed evolution <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> strain selections <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> or bioprospecting <ref type="bibr" target="#b29">30</ref> . We now employ such droplets as vessels to miniaturize cell lysate assays <ref type="bibr" target="#b26">27</ref> -the most frequently used screening formats in metagenomics <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b30">31</ref> -to the single-cell level. In this experimental set-up, each library member is represented by a single cell, statistically compartmentalized into one droplet and assayed for catalytic activity after cell lysis. A microfluidic screening platform is used to recover and identify various hydrolases from metagenomic sources by screening for the hydrolysis of two substrates: sulfate monoesters, containing one of the most unreactive functional groups in biology <ref type="bibr" target="#b31">32</ref> , and phosphate triesters. The latter are non-natural environmental pollutants historically used as pesticides <ref type="bibr" target="#b32">33</ref> that we now use to probe the catalytic potential of microbial communities for degradation of xenobiotics. The high sensitivity of our platform enabled us to isolate enzymes with strong and weak activities, including promiscuous side activities that have not been selected in the course of evolution and could not be predicted by sequence homology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Screening for new hydrolases in microfluidic droplets. A metagenomic library of 1,250,000 variants pooled from a variety of sources (combining libraries derived from soil, degraded plant material and cow rumen samples; 'SCV', Supplementary Table <ref type="table" target="#tab_2">1</ref>) was screened in droplets following the strategy illustrated in Fig. <ref type="figure" target="#fig_1">1</ref>. Library members were expressed in Escherichia coli and single cells were compartmentalized (with a Poisson distribution that gives an average of B0.8 cells per droplet) into monodisperse 2 pl droplets (a volume found to allow suitably sensitive screening of metagenomic libraries-Fig. <ref type="figure" target="#fig_0">2a</ref> and Supplementary Figs <ref type="figure" target="#fig_1">1</ref> and <ref type="figure" target="#fig_0">2</ref>). Bacteria were co-compartmentalized with lysis agents and the respective fluorogenic substrates (sulfate monoester 1d or phosphate triester 2d; Fig. <ref type="figure" target="#fig_1">1</ref>) in two different screening experiments. After a two-day off-chip incubation, the emulsions were re-injected into the sorting chip, where B20 million droplets (covering the library size more than 15 times and found to be sufficient to recover all hits in a model library; Supplementary Figs <ref type="figure" target="#fig_2">3</ref> and <ref type="figure" target="#fig_3">4</ref>) were analysed in B2 h and the brightest 0.01% (sulfatases) or 0.01 and 0.001% (phosphotriesterases (PTEs), in two sorts performed in parallel and later combined) of the droplets selected (Fig. <ref type="figure" target="#fig_0">2b</ref>). This relatively tolerant detection threshold was chosen to avoid loss of potential hits. The selected droplets were subsequently deemulsified and plasmid DNA was recovered. The high-copy plasmid DNA allowed its direct re-transformation into E. coli <ref type="bibr" target="#b26">27</ref> . The final number of transformants exceeded 10 4 (one droplet gave on average approximately five transforming clones depending on the plasmid copy number found to vary as a function of the insert size; Supplementary Fig. <ref type="figure" target="#fig_6">6</ref>). To enrich the hits further, a second microfluidic screening cycle (Fig. <ref type="figure" target="#fig_1">1</ref>) was performed with a lower cell/droplet ratio (0.1 cells per droplet), reducing the number of droplets containing multiple cells. Out of B10 million screened, B500 droplets were collected as arylsulfatase hits and B300 as PTEs (corresponding to B0.007% or B0.003% of droplets for sulfatases and PTEs, respectively; Supplementary Figs <ref type="figure">7</ref> and <ref type="figure">8</ref>). The resulting transformants were screened on Petri dishes or in 96-well plates for hydrolysis of sulfate monoester 1c or phosphate triester 2d, respectively. In 10% of the variants hydrolytic turnover was confirmed (Supplementary Fig. <ref type="figure">9</ref>). Sequencing the plasmids of the confirmed positive hits revealed six and eight unique sequences for sulfatases and PTEs, respectively (Fig. <ref type="figure" target="#fig_2">3</ref>). The low positive/ negative ratio observed at the end of the screening campaign can be explained mainly by the deliberately tolerant sorting gate chosen to avoid loss of relevant clones at the cost of  (3) Emulsion droplets were incubated off-chip; after single cell lysis, cytoplasmically expressed protein catalysts were able to turn over substrate. The arrow designates the droplets (B3 Â 10 7 ) at the interface between fluorous oil and mineral oil (on top). ( <ref type="formula">4</ref>) Emulsion droplets were re-injected (Supplementary Movie 1) into a sorting chip and strongly fluorescent droplets (' þ ' channel) were separated from those with fluorescence below the threshold (' À ' channel) by dielectrophoresis <ref type="bibr" target="#b23">24</ref> (Supplementary Movie 2). ( <ref type="formula">5</ref>) Selected droplets were de-emulsified and high-copy plasmid DNA was recovered following by re-transformation into E. coli. For further enrichment, iterative selections could be performed. ( <ref type="formula">6</ref>) Plasmids containing eDNA coding for active catalysts were sequenced. The microfluidic devices are shown in Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>.</p><p>collecting false positives: droplets with a two-to fivefold higher fluorescence than background were selected (Fig. <ref type="figure" target="#fig_0">2b</ref> and Supplementary Fig. <ref type="figure">7</ref>).</p><p>Assessing enrichment over microfluidic rounds. Despite the permissive sorting gate applied (Fig. <ref type="figure" target="#fig_0">2b</ref> and Supplementary Fig. <ref type="figure">7</ref>), we sought to quantify the enrichment obtained in our screening campaign. To this end, the abundance of one PTE hit in the library (PC86; Fig. <ref type="figure" target="#fig_2">3</ref>) was analysed using quantitative PCR before and after the two rounds of sorting. Figure <ref type="figure" target="#fig_0">2c</ref> shows that the plasmid content of this hit in the library increased 41,000fold during the first round and 4100-fold during the second round of sorting, corresponding to an overall enrichment of 410 5 (from 10 À 6 % to nearly 0.5%; Supplementary Fig. <ref type="figure" target="#fig_1">10</ref>). Such enrichment capacity betters previously reported hit rates in functional metagenomic selections (estimated to be between 1/10,000 and 1/100,000) <ref type="bibr" target="#b17">18</ref> , demonstrating the utility of the microdroplet format to recover extremely rare hits. An enrichment of more than 1,000-fold in one round of screening (despite a permissive sorting gate) is similar to or exceeds other studies using microfluidic droplets <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b33">34</ref> . Sorting with greater stringency could be applied to achieve a similar enrichment in fewer rounds <ref type="bibr" target="#b34">35</ref> . The objective of extending coverage to include hits even with weak activity, however, was made possible by a low detection threshold (o3,000 fluorescein molecules being detected; Fig. <ref type="figure" target="#fig_0">2a</ref> and Supplementary Fig. <ref type="figure" target="#fig_0">2</ref>) and exemplified the ability to detect low activities (Supplementary Fig. <ref type="figure" target="#fig_1">11</ref>).</p><p>Characterization of metagenomic hits. (a) Sulfatase hits. Our screening workflow yielded six unique variants (Fig. <ref type="figure" target="#fig_2">3</ref>) that turned over sulfate ester 1d (Fig. <ref type="figure" target="#fig_1">1</ref>). Three hits possessed genes predicted to be part of the sulfatase family (see Fig. <ref type="figure" target="#fig_2">3</ref> for the assignments by Pfam, the protein families database <ref type="bibr" target="#b35">36</ref> ). One gene (p35) was recloned, the protein P35 was purified and shown to hydrolyse sulfate ester 1a (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>) with high efficiency (k cat /K M ¼ 1.7 Â 10 5 s À 1 M À 1 ; Supplementary</p><p>Table 3) and high proficiency (k cat /K M /k uncat ¼ 1.5 Â 10 14 M À 1 ; Supplementary  high specific activities from our metagenomic libraries. Three hits contained genes that were assigned to the Pfam arylsulfotransferase family (p40, b1 and p82). We experimentally verified this assignment after recloning and purification of the protein P40 (Fig. <ref type="figure" target="#fig_2">3</ref>). P40 was shown to catalyse sulfate transfer from sulfate ester 1a to phenolate following a ping-pong mechanism (Supplementary Fig. <ref type="figure" target="#fig_2">13</ref>) and can therefore be considered as a new adenosine 3-phosphate-5phosphosulfate-independent sulfotransferase <ref type="bibr" target="#b36">37</ref> . Reactions in droplets were followed by the release of the fluorescent leaving group of 1d. Transferases able to transfer sulfate groups to acceptors present in the cell lysate were therefore also selected, indicating that multiple types of related reactions can be recovered by the fluorogenic miniaturized cell lysate assay.</p><formula xml:id="formula_0">PTE (PF02126) AH (CL0034) Lactamase B (PF00753) Lactamase B (PF00753) Lactamase B (PF00753) Lactamase B (PF00753) MBL (CL0381) MBL (CL0381) MBL (CL0381) MBL (CL0381) MBL (CL0381) Rubredoxin (PF00301) P88.1 AH5 (PF13574) +AH1 (PF01979) P88.2 AH5 (PF13574)+AH4 (PF13147) AH (CL0034) Lactamase B (PF00753)</formula><p>(b) PTE hits. Applying the screening workflow to PTEs (using triester 2d as substrate) led to the isolation of eight unique and novel sequences, mostly originating from unknown microorganisms (Supplementary Table <ref type="table">2</ref>). Only one of these genes (p83) was predicted as a potential PTE by Pfam domain recognition (Fig. <ref type="figure" target="#fig_2">3</ref>). To confirm PTE activity, we identified the genes most likely to encode triesterase enzymes and cloned them into an expression vector. Nine genes in total (p83, p84, p85, p86, p87, p88.1, p88.2, p90 and p91; highlighted in green in Fig. <ref type="figure" target="#fig_2">3</ref>) were recloned and their encoded proteins purified. All enzymes were active towards the fluorogenic triester 2d (Fig. <ref type="figure" target="#fig_1">1</ref>) used for screening, confirming the isolation of genuine PTEs (Table <ref type="table" target="#tab_2">1</ref>). When tested with the pesticides paraoxon 2a or parathion 2b (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>), 5-to 100-fold slower rates than for the fluorogenic triester 2d were observed (8 M À 1 s À 1 for P84 to 3 Â 10 3 M À 1 s À 1 for P83; Table <ref type="table" target="#tab_2">1</ref>). All hits degraded the fluorogenic screening substrate and the pesticide, suggesting that triester 2d is a suitable bait for identifying paraoxon hydrolases. Despite rather low second-order rates (8-3 Â 10 3 M À 1 s À 1 ), most of these enzymes substantially accelerated hydrolysis of 2a with rate enhancements up to 10 12 (k cat /K M /k w ), when compared with the spontaneous hydrolysis in water (Supplementary Table <ref type="table" target="#tab_1">4</ref>).</p><p>Access to unexplored sequence space. Sequence-similarity networks <ref type="bibr" target="#b37">38</ref> (SSNs) (Fig. <ref type="figure" target="#fig_3">4</ref> and Supplementary Fig. <ref type="figure" target="#fig_4">15</ref>) were constructed to map hit sequences: instead of being clustered together they were spread over three superfamilies (defined by the Pfam database <ref type="bibr" target="#b35">36</ref> ; Fig. <ref type="figure" target="#fig_2">3</ref>) and covered a large sequence diversity.</p><p>The only predicted triesterase (p83) located within the PTE /PTElike lactonase cluster of the amidohydrolase superfamily (AH; Fig. <ref type="figure" target="#fig_3">4a</ref>) and its higher activity towards lactone 8c (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref> and <ref type="figure">k</ref>  <ref type="table" target="#tab_2">1</ref>) were verified experimentally, indicating that P83 is a new lactonase endowed with phosphotriesterase activity.</p><formula xml:id="formula_1">cat /K M ¼ 5 Â 10 4 s À 1 M À 1 ; Table</formula><p>The remaining hits defied prediction and were scattered over three superfamilies. (i) Two were also AH superfamily members (P88.1 and P88.2) but were located in a completely different region of the SSN (Fig. <ref type="figure" target="#fig_3">4a</ref>) and shared very little sequence identity (o15%) with other PTEs from the same superfamily (Supplementary Fig. <ref type="figure" target="#fig_6">16</ref>). No other native function was predicted, making them completely unassigned. (ii) All hits assigned to the metallo-b-lactamase (MBL) superfamily (P84, P85, P86, P87 and P90) have close homologues in the NCBI non-redundant database predicted as putative b-lactamases. However, none of the five hits was able to degrade the chromogenic b-lactam 10 (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>), a frequently used probe of b-lactamase activity <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b38">39</ref> . In the SSNs (Fig. <ref type="figure" target="#fig_3">4b</ref>), the genes p85, p86 and p87 located in proximity to sequences coding for PTEs and lactonases. However, no lactonase activity was detected in any of these hits (with lactones 8a, 8b, 8c and 8d 1-2 ; Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>), confirming that sequence similarity is not a good predictor for activity. P84 and P90 are positioned away from other known triesterases and seem more related to glyoxalase II (Fig. <ref type="figure" target="#fig_3">4b</ref>), a family of thioesterases from the glyoxalase system that catalyses the hydrolysis of S-lactoylglutathione into glutathione and lactate <ref type="bibr" target="#b39">40</ref> . Experimental verification (Table <ref type="table" target="#tab_2">1</ref>) of their ability to hydrolyse S-lactoylglutathione 7 (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>) suggested that these enzymes were a subgroup of the glyoxalase II family. (iii) One hit, P91, is a member of the a/b-hydrolase (a/b) superfamily related to dienelactone hydrolases (DLHs; Fig. <ref type="figure" target="#fig_2">3</ref>). Members of this superfamily possess a catalytic triad <ref type="bibr" target="#b40">41</ref> , whereas most bacterial PTEs described to date use catalytic divalent ions to activate a water nucleophile <ref type="bibr" target="#b41">42</ref> . The X-ray structure of the protein was determined at a resolution of 1.7 Å (Supplementary Fig. <ref type="figure" target="#fig_1">18</ref>) and structural alignment with a previously characterized DLH <ref type="bibr" target="#b42">43</ref> (also identified in the SSNs, shown in Supplementary Fig. <ref type="figure" target="#fig_4">15</ref>) confirmed an a/b hydrolase fold (Fig. <ref type="figure" target="#fig_4">5a</ref>), and highlighted a homologous catalytic triad in the active site of P91 (C118, D167 and H199; Fig. <ref type="figure" target="#fig_4">5b</ref>). Site-directed knockdown mutagenesis of C118, D167 and H199 led to enzyme inactivation, </p><formula xml:id="formula_2">k cat /K M (s À 1 M À 1 ) P35 2 Â 10 5 -w ND 2 Â 10 À 1 9 Â 10 À 3 3 Â 10 1 - N D N D P83 - 3 Â 10 3 9 Â 10 5 - - - 1 Â 10 2 ND 5 Â 10 4 P84 - 7.6 52 - 4 Â 10 À 2 3 Â 10 À 1 5 Â 10 2 2 Â 10 3 2 Â 10 3 P85 - 9 Â 10 1 9 Â 10 2 - 5 Â 10 À 3 2 Â 10 À 1 4 Â 10 1 ND - P86 - 2 Â 10 2 1 Â 10 3 - 9 Â 10 À 3 1 Â 10 À 1 3 Â 10 1 ND - P87 - 1 Â 10 2 4 Â 10 2z - 7 Â 10 À 2 1 Â 10 À 1 4 Â 10 1 ND - P88.1 - 4 Â 10 2 3 Â 10 3 - - - 6 Â 10 2 ND - P88.2 - 2 Â 10 2 1 Â 10 3 - - 1 Â 10 À 1 1 Â 10 1 ND - P90 - 5 Â 10 1 2 Â 10 2 - - 8 Â 10 À 1 1 Â 10 2 2 Â 10 3 6 Â 10 3 P91 - 3 Â 10 2 9 Â 10 3 - - 1 Â 10 À 1 1 Â 10 4 ND 4 Â 10 3</formula><p>ND, not determined. The substrates tested were suggested by previous observations of promiscuity <ref type="bibr" target="#b55">56</ref> and the superfamily context (Fig. <ref type="figure" target="#fig_3">4</ref>). Michaelis-Menten plots and all k cat and K M values are shown in Supplementary Fig. <ref type="figure" target="#fig_3">14</ref> and Supplementary Table <ref type="table">3</ref>, respectively. *Activity measured using different lactones: 8a (P84, P90 and P91); 8c (P83)-no activity detected for 8b and 8d 1-2 (see different lactones; Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>). w( À ) No activity was detected with high enzyme (1 mM) and substrate (1 mM) concentrations after incubation for 3 h. zThe magnitude of the fluorescence signal change suggests that only one of the two phosphate groups of triester 2d was cleaved.</p><p>consistent with catalysis by the cysteine-based catalytic triad in P91 (Fig. <ref type="figure" target="#fig_4">5c</ref>), which was expected to provide nucleophilic and charge relay catalysis. We observed electron density consistent with two orientations of C118. Figure <ref type="figure" target="#fig_4">5b</ref> highlights potential 'protecting' residues (E37 and H141) that may play a role in stabilizing an inactive conformation of the nucleophile cysteine, as previously invoked <ref type="bibr" target="#b43">44</ref> . The lack of electron density in the vicinity of the active site supported the absence of a metalbinding site, underlining a role for the triad instead of a metal cofactor in catalysis. Functional tests further ruled out P91 as a metallo-enzyme: treatment of P91 with chelating agents did not affect its activity towards triester 2a, whereas a reduction (or complete abolition) of activity was observed in all other PTE hits tested (Supplementary Fig. <ref type="figure" target="#fig_1">17</ref>). Acetylcholine esterases are the biological targets of organophosphate (OP) pesticides, acting as suicide substrates leading to acetylcholine esterase inactivation and belong to the a/b superfamily (see SSNs of the superfamily in Supplementary Fig. <ref type="figure" target="#fig_4">15</ref>). It has been reported that a/b hydrolases have evolved in insects (for example, Lucilla cuprina) to slowly degrade OPs <ref type="bibr" target="#b44">45</ref> , conferring insecticide resistance in the absence of a metal cofactor. However, P91 is the first metal-free bacterial (or archaeal) triesterase to be described, unrelated to insect carboxylesterases (Supplementary Fig. <ref type="figure" target="#fig_4">15</ref>). Most of these carboxylesterases have evolved ageing-resistant variants <ref type="bibr" target="#b45">46</ref> and are characterized by low turnover rates combined with tight binding <ref type="bibr" target="#b44">45</ref> . In contrast, P91 is a weak paraoxon binder (K M BmM) but with relatively high turnover rates (B1 s À 1 ), suggesting that P91 does not suffer enzyme ageing, allowing up to four orders of magnitude higher k cat (ref. 45).</p><p>Selection of catalysts via a promiscuous function. The comparison of the Michaelis-Menten parameters (k cat /K M and K M ) of our triesterase hits with those of (i) OP hydrolases isolated from pesticide-contaminated soils and (ii) enzymes with known promiscuous triesterase activity (Fig. <ref type="figure" target="#fig_6">6a</ref> and Supplementary Table <ref type="table">5</ref>) suggests that paraoxon 2a (or parathion 2b with lower or similar catalytic rates measured; Supplementary Table <ref type="table">3</ref>) and, by extension, the synthetic triester 2d are not the physiological substrates of our hits. This conclusion was also supported by the experimental verification of higher activities in P83, P84, P90 and P91 towards lactone 8c, thioester 7 and ester 6, respectively (Table <ref type="table" target="#tab_2">1</ref> and Supplementary Table <ref type="table">3</ref>).</p><p>This observation provides further evidence for the widespread existence of latent enzymatic activities, enabling biocatalysts to promote 'unnatural reactions' besides their native function. Most PTEs known to date were isolated from OP-degrading bacteria, providing a selective advantage in highly OP contaminated soils <ref type="bibr" target="#b46">47</ref> . As OP-based pesticides were only introduced into the environment in the 1940s (ref. 42), these enzymes are examples of rapid evolutionary adaptation. Our screens suggest the availability of additional points for 'head starts' in adaptive evolution, spread over three superfamilies. Previously, only B20 experimentally characterized PTEs were reported in the literature (Supplementary Table <ref type="table">6</ref>). We now have increased this number by a third and doubled the number of enzymes with promiscuous triesterase activity.</p><p>Many PTEs seem to have evolved from lactonases and retain some degree of lactonase activity <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> . However, most of our hits were not active (Table <ref type="table" target="#tab_2">1</ref>) towards the natural lactones tested (8b, 8c and 8d 1-2 ), suggesting that they have different evolutionary ancestors than other known PTEs (also supported by their position in the SSNs in Fig. <ref type="figure" target="#fig_3">4</ref> and Supplementary Fig. <ref type="figure" target="#fig_4">15</ref>) and implying that diverse native activities can accommodate promiscuous triesterase function. As the hits locate mostly in sparsely annotated regions in their respective SSNs (Fig. <ref type="figure" target="#fig_3">4</ref>) and because of the relatively short insert sizes, only limited additional information is provided by the genome context (Fig. <ref type="figure" target="#fig_2">3</ref> and Supplementary Note 1), the native activities and physiological roles of the hits remain unknown. The majority of the triesterase hits constitute first examples of enzymes endowed with triesterase activity within their respective superfamily subgroup underlining that a different region of sequence space is accessible by droplet screening compared with metagenome mining by bioinformatics. Accessing such new isolated but functionally characterized points in sequence space makes them hubs for exploration of close homologous sequences that may share similar activities <ref type="bibr" target="#b49">50</ref> .</p><p>Novel entry points to promiscuous networks. The two bait reactions (that is, phosphotriester hydrolysis and arylsulfate hydrolysis) unearthed six different activities in total: sulfate monoesterase, phosphate monoesterase, phosphate diesterase, PTE, phosphonate monoesterase and (thio)-esterase activities (Fig. <ref type="figure" target="#fig_6">6b</ref>). Promiscuity emerged as a feature of all hits, with more than two chemically distinct substrates turned over besides the mostly unknown native ones, confirming the insight that promiscuity is ubiquitous <ref type="bibr" target="#b14">15</ref> and worthwhile harvesting. Many reactions were common among the hits despite their extreme sequence divergence (Supplementary Fig. <ref type="figure" target="#fig_6">16</ref>) and their different catalytic machineries (Fig. <ref type="figure" target="#fig_4">5b</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">17</ref>). A comparison of the observed promiscuity suggests trends that reflect the respective bait: sulfatases favour charged substrates, triesterases neutral ones. Phosphonate hydrolase and phosphodiesterase activities are common to the two groups (Fig. <ref type="figure" target="#fig_6">6b</ref>), but triesterases support these activities only at a low level (Table <ref type="table" target="#tab_2">1</ref>). Testing a range of bait substrates in future experiments may lead to empirical cross-reactivity maps (similar to Fig. <ref type="figure" target="#fig_6">6b</ref>) that describe active site recognition features (that is, geometric or electrostatic complementarity, or the availability of reactive active site groups, for example, nucleophiles).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>One of the main limitations in functional metagenomics is the difficulty of discovering rare genes. Indeed, much work in this field has focused on widely occuring enzymes such as lipases, esterases and carbohydrate-converting enzymes <ref type="bibr" target="#b17">18</ref> . To identify potentially less widespread activities, effective screening technologies are key <ref type="bibr" target="#b30">31</ref> to covering larger metagenomic sequence space <ref type="bibr" target="#b20">21</ref> and beating the odds. In this work, we establish droplet screening as a general method to find new, rare enzymes (6 and 8 hits out of 1,250,000 clones for sulfatase and PTE, respectively) in metagenomes using hydrolytic turnover of two different baits as initial target activities. Previous attempts at harvesting environmental samples by droplet screening have not successfully identified DNA sequences that correspond to the selected phenotype <ref type="bibr" target="#b29">30</ref> . By contrast, this present work has yielded functional information on new metagenomic sequences from droplet experiments, for the first time. More generally, no metagenomic campaign had so far identified triesterases or sulfatases, possibly because they are much less abundant than the above-mentioned enzymes (and certainly with fewer known examples in the literature). Our screening capacity of 45 Â 10 6 assays per hour enables B10 8 assays per day so that libraries of on survival-based assays <ref type="bibr" target="#b50">51</ref> or substrate-induced regulators (for example, in SIGEX) <ref type="bibr" target="#b51">52</ref> . The high sensitivity of the miniaturized cell lysate assay allowed the isolation of enzymes with catalytic efficiencies (k cat /K M ) ranging from 54 M À 1 s À 1 (P84) to 9 Â 10 5 M À 1 s À 1 (P83; Table <ref type="table" target="#tab_2">1</ref>), providing evidence that this microfluidic platform is able to identify slow and fast catalysts, with a wide dynamic range extending over four orders of magnitude. Our protocol is straightforward as the readout is directly reporting on enzymatic activity, so that promiscuous activities are accessible. The versatility of microfluidic workflows <ref type="bibr" target="#b52">53</ref> makes our platform adaptable for different challenges: to further increase our assay sensitivity (or diminish incubation time) bacterial growth in droplets could be implemented after cell encapsulation, by implementation of an additional microfluidic injection (or droplet fusion) step to supply lysis agents and substrates. Furthermore, the microfluidic platform is readily applicable to other enzymatic activities, as long as a fluorogenic assay can be implemented.</p><p>Most (if not all) triesterase hits identified in this work must be presumed not to have evolved in response to an environmental OP triester challenge. Promiscuous activities can be recruited during evolution to give rise to new protein functions <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b14">15</ref> . Our hits may therefore constitute alternative starting points for adaptive evolution in OP-contaminated environments giving rise to different OP-degrading enzymes than currently known. The systematic detection of such catalytic starting points can form the basis of evolutionary models that account for the adaptive potential of a microbial community to degrade exogenous compounds, such as pesticides and antibiotics. Likewise, directed evolution in the laboratory 10 can use hits with low promiscuous activities as starting points that can be enhanced to generate new efficient catalysts.</p><p>In contrast to methods for active site mapping that rely on single turnover suicide inhibition <ref type="bibr" target="#b53">54</ref> , the droplet format enables detection of multiple turnovers and indeed all catalysts selected show 410 3 turnovers per enzyme molecule. As demonstrated here, weak or promiscuous activities are directly accessible by</p><p>a 10 8 10 6 10 4 1 Hits OPH Pro 0.01 0.1 1 10 10 2 Hits OPH Pro b K M (mM) Substrate charge -2 -1 0 for our hits with known enzymes catalysing phosphotriester hydrolysis suggests that our screening has identified promiscuous activities. 'OPH' summarizes PTE recovered from bacteria isolated from a pesticide-polluted environment and therefore assigned as enzymes that evolved specifically for triester hydrolysis. 'Pro' designates enzymes for which PTE activity was shown to be a promiscuous side activity. The rates reported here are towards paraoxon 2a (for metagenomic hits) or-in the case of known PTEs-towards paraoxon 2a or methylparathion 2b. Full names (Supplementary Table <ref type="table">6</ref>) and reported catalytic efficiencies (Supplementary Table <ref type="table">7</ref>) of known PTEs are listed. (b) The catalytic promiscuity among the triesterase hits reflects bait substrate charge attributes. Substrates 1d and 2d are the bait substrates and substrates 3-8c were used for catalytic profiling. The likely bonds cleaved are represented in red. Black lines indicate that the hits share these two activities. Their width represents how often this type of enzyme promiscuity was observed. The x axis groups substrates by their charges and suggests that the bait activities select hits with consistent promiscuous activity patterns in which substrate charge is a key determinant. R 0 ¼ fluorescein; R 1 ¼ 4-nitrophenyl; R 2 ¼ ethyl; R 3 ¼ methyl; R 4 ¼ glutathione (which has two additional negative charges remote from the reaction centre) R 5 ¼ C 6 H 13 . See Supplementary Fig. <ref type="figure" target="#fig_1">12</ref> for structures of all substrates.</p><formula xml:id="formula_3">k cat /K M (s -1 M -1 ) P O O - O - R 1 O P OR 2 O - O R 1 O P O - O R 3 R 1 O SR 4 O OH O O R 5 O R 1 O O O S O O 1d</formula><p>droplet screening. This is a powerful method to identify new enzymes for further improvement by protein engineering <ref type="bibr" target="#b54">55</ref> and also new entry points into networks of promiscuous activities <ref type="bibr" target="#b55">56</ref> , for which there is currently no systematic prediction tool in bioinformatics. The choice of the bait substrate alone determines which catalytic processes are identified. The ultrahigh throughput and the high sensitivity of our method make microfluidic droplets a powerful format to explore this 'promiscuome' (i.e. the collection of promiscuous activities from complex metaproteomes), where other indirect methods fail. Additional optical detection modes and systematic exploration of libraries with assays for new substrates will be useful to exhaustively harvest many different classes of enzymes. Sensitive, fast and affordable microfluidic droplet screening is now validated as an alternative technology for enzyme discovery that can yield information not accessible by other approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Metagenomic material. Environmental libraries from various soils <ref type="bibr" target="#b56">57</ref> and vanilla pods were constructed <ref type="bibr" target="#b57">58</ref> starting with shearing eDNA using a nebulizer and blunting it using Klenow fragment. Next, the resulting 3-5 kbp fragments were cloned into the EcoRV restriction site in the high-copy plasmid pZero-2 (Invitrogen). DNA from cow rumen was partially digested with the restriction enzyme MluCI. DNA fragments with sizes around 3 kbp were isolated by gel electrophoresis and cloned into the EcoRI site of the same high-copy plasmid pZero-2. The resulting ten libraries (Supplementary Table <ref type="table" target="#tab_2">1</ref>) were pooled together, constituting a library of about 1,250,000 variants, called the 'SCV library'.</p><p>Chip design and microfluidic device fabrication. The designs for the poly(dimethyl)siloxane (PDMS) chip devices were prepared using Autocad CAD software and designs are shown in Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>. The corresponding CAD files can be downloaded from <ref type="url" target="http://openwetware.org/wiki/DropBase">http://openwetware.org/wiki/DropBase</ref> (a database of microfluidic device designs). The devices were fabricated with standard soft lithographic procedures <ref type="bibr" target="#b58">59</ref> . The photoresist material SU-8 2015 was used to obtain a 15 mm channel height. PDMS monomer and curing agent were mixed at a ratio 10:1 and then poured onto the lithographic plate before degassing. After PDMS solidification (65 °C, 4 h), PDMS was activated by exposure to an oxygen plasma and devices were sealed onto a microscope glass slide (or cover slip (thickness: 0.13 mm) for the sorting chip). Hydrophobic modification of the channels surface was achieved by injecting a solution of 1% (v/v) trichloro(1H,1H,2H,2H-perfluorooctyl)silane (Sigma) in HFE-7500 oil into the channels. Electrodes for the sorting devices were prepared using low melting point indium composite solder (51 In/32.5 Bi/16.5 Sn, Indium Corporation).</p><p>Preparation of bacterial suspensions for droplet encapsulation. Transformation of B10 ng of the metagenomic library SCV into E. coli (E. cloni 10G Elite, Lucigen) yielded B10 8 variants on agar plate (containing 40 mg ml À 1 kanamycin) covering the library size B100 times. Bacteria were grown overnight at 37 °C, then incubated at 22 °C for 2 days. Colonies were subsequently scraped from the agar plates, washed, filtered using a 5-mm filter (Sartorius) and resuspended in MOPS (100 mM, pH 8.0) containing NaCl (115 mM), kanamycin (40 mg ml À 1 ), complete EDTA-free protease inhibitor (one tablet per 50 ml; Roche) and Percoll (25% v/v; Sigma). The cell density was adjusted by dilution to obtain the required cell/droplet ratio after compartmentalization. Assuming a Poisson distribution for bacterial encapsulation <ref type="bibr" target="#b59">60</ref> , a cell density OD 600 nm B1 should result in B35% of droplets with single cells and B20% of droplets with higher occupancy (for | 15 mm droplets).</p><p>Generation of water-in-oil picolitre droplets. Water-in-oil droplets (volume B2 pl, |: 15 mm) were generated using a flow-focusing device (Fig. <ref type="figure" target="#fig_1">1</ref>) (dimensions width Â height of 16 Â 15 mm) bearing three inlets. Two inlets carry aqueous solutions prepared in MOPS buffer (100 mM, pH 8.0), NaCl (115 mM), kanamycin (40 mg ml À 1 ), EDTA-free protease inhibitor (one tablet per 50 ml; Roche). The streams from these inlets supplied (i) a cell suspension (OD 600 nm depending on cell occupancy (i.e. number of cell per droplets) required) in Percoll (25%, v/v, Sigma) and (ii) a mixture of the cell lysis reagents BugBuster (20% v/v, Novagen) and lysozyme (30 kU ml À 1 ; Novagen), as well as the respective substrate (10 mM of sulfate monoester 1d or phosphate triester 2d). From the third inlet, fluorinated oil HFE-7500 (3 M) containing EA surfactant (1%, w/w, RainDance Technologies) was injected. Aqueous solutions and the oil phase were injected using plastic syringes (BD; 1 or 3 ml) at a rate of 50 and 500 ml h À 1 , respectively, with PHD 2000 Harvard Apparatus pumps.</p><p>Droplet storage and incubation. Droplets were stored in a glass syringe (500 ml, SGE) in HFE-7500 (3 M) with EA surfactant (1%, w/w), covered with mineral oil (Sigma). The fluorous phase containing droplets is not miscible with mineral oil and droplets remain at the interface between HFE-7500 and mineral oil. Droplets were incubated from 1 to up to 3 days in the syringe at room temperature (B22 °C).</p><p>Droplet sorting and electronics. After mounting the incubation syringe vertically on a syringe pump (PHD 2000 Harvard Apparatus), water-in-oil droplets were re-injected into the sorting device at a rate of 30 ml h À 1 . The distance between droplets was increased to facilitate the sorting of single droplets by electric pulses.</p><p>To this end, additional fluorous oil (HFE-7500 (3 M) with EA surfactant (0.5%, w/w) was injected at 300 ml h À 1 in the sorting chip. This set-up with a parallel channel design (with a width ratio of 1.3 between waste and positive channels, Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>) resulted in a droplet sorting rate of 2-2.5 kHz, without the need for pressure equilibration between the two outlets as previously required <ref type="bibr" target="#b26">27</ref> .</p><p>A 488-nm laser was focused 180 mm upstream of the sorting junction through a Â 40 microscope objective (UPlanFLN, Olympus) for fluorophore excitation and the emitted fluorescent light was collected and amplified using photomultiplier tubes (H8249, Hamamatsu Photonics). The amplified fluorescence signal was processed by a data acquisition card operating at 38 kHz (National Instruments, USB-6009) that was linked to a peak detection algorithm, which recorded fluorescence distributions (LabView 8.2, National Instrument). Hardware triggering was implemented via a voltage comparator (LM339N, Texas Instruments), which compared the voltage readout by the photomultiplier tube with a user-defined arbitrary voltage generated via the acquisition card and doubled using an operational amplifier (LM358N, STMicroelectronics), to generate voltages between 0 and 10 V. A pull-up resistor (1 kO) was used to force the logical high state of the comparator to 5 V and send the trigger signal to the pulse generator. Whenever the fluorescence peak reached a user-defined voltage threshold (typically corresponding to two-to fivefold increase over the average fluorescence of droplets not containing active enzymes), a pulse generator triggered a single square pulse of 500 ms length and an amplitude of 0.6-0.8 V p . This pulse was amplified 1,000-fold by a high voltage amplifier (610E, Trek) and applied to the electrodes on the sorting device. With the current electronics implementation, 500 ms was found to be the minimal pulse length able to trigger the fast camera used as a control, to monitor the success of sorting. The electric pulse applied between the two electrodes dielectrophoretically attracted the highly fluorescent droplet towards the narrower channel (Fig. <ref type="figure" target="#fig_1">1</ref> and Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>). The sorting events were recorded with a fast camera (Phantom V7.2) that was triggered by the voltage comparator, to allow analysis of whether the desired droplets with increased fluorescence were selected. Optical inspection of the movies thus recorded monitored that only single droplets were selected for each pulse. Detection of useful hits in this format was only possible after improvements to the sensitivity of the previously described miniaturized cell lysate assay <ref type="bibr" target="#b26">27</ref> . This was achieved by adapting our microfluidic platform to generate and sort 2 pl droplet compartments (| 15 mm). To test whether smaller droplets led to higher sensitivity, we measured the accumulation of fluorescein over time in two droplet populations with different volumes (2 and 8 pl) containing single bacteria transformed with a metagenomic variant active towards sulfate monoester 1d (Fig. <ref type="figure" target="#fig_1">1</ref>). Fluorescence signal change (average fluorescence of droplets containing bacteria divided by average fluorescence of empty droplets) increased approximately twice as fast in 2 pl droplets than in 8 pl droplets (Supplementary Fig. <ref type="figure" target="#fig_1">1</ref>), confirming that sensitivity was improved by scaling down the droplet size.</p><p>DNA recovery. Plasmid DNA from fluorescent droplets was recovered by deemulsification using 1H,1H,2H,2H-perfluorooctanol <ref type="bibr" target="#b26">27</ref> . The use of a high copy number plasmid (pZero-2; 41,000 copies per cell) in an E. coli endonuclease knockout strain (E. cloni 10G, Lucigen, bearing the mutation endA1) allowed plasmid DNA recovery from droplets even after 2 days of incubation, without additional PCR amplification.</p><p>Quantification of enrichment of hits by quantitative PCR. To quantify the total number of plasmids from the library, a set of primers annealing to the vector was used:</p><p>5 0 -TTTCTGCGGACTGGCTTT-3 0 (qPZeroFwd) 5 0 -ACAGGATTAGCAGAGCGAGG-3 0 (qPZeroRev).</p><p>To quantify plasmids containing PC86 (as a representative metagenomic hit), primers annealing to the inserted PC86 sequence were designed: 5 0 -ATACCGACGAAGCCCTGT-3 0 (qPC86Fwd) 5 0 -TCGGCAGGGTCATACACATA-3 0 (qPC86Rev). All primers were supplied by Invitrogen Life Technologies. Quantitative realtime PCR experiments (see also Supplementary Fig. <ref type="figure" target="#fig_1">10</ref>) were performed in triplicate using Sensimix SYBR green (Bioline) in the Rotor-Gene 6000 (Corbett Life Sciences). The PCR conditions were as follows: initial DNA denaturation at 95 °C for 10 min, 40 cycles (95 °C for 10 s; 52 °C for 15 s; 72 °C for 20 s) and a temperature gradient enabling determination of the DNA melting temperature (between 72 °C and 95 °C). Reference curves using both sets of primers were obtained with correlation coefficients R 2 40.99.</p><p>Metagenomic screening on plates. Metagenomic libraries (ENR-S, ENR-G, ENR-M and ENR-L; Supplementary Table <ref type="table" target="#tab_2">1</ref>) were transformed into electrocompetent E. coli (E. cloni 10G Elite, Lucigen) and B100,000 clones were plated on 10 different | 14 cm Petri dishes with Luria Bertani (LB) Agar (1.5%) containing 40 mg ml À 1 kanamycin. After overnight growth at 37 °C, plates were incubated at 22 °C for 24 h. Colonies were then transferred onto nitrocellulose membranes (Pall Corporation) and lysed by three cycles of 10 min incubation at À 20 °C and 37 °C before being overlaid with 100 mM Tris-HCl pH 8.0, 0.5% agarose (w/v) containing 135 mM of sulfate monoester 1c (Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>). Colonies that turned blue after B15 h of incubation at 25 °C were isolated and their plasmid DNA extracted using a miniprep kit (Zymo Research) and sequenced.</p><p>Fidelity of droplet sorting. We probed whether our miniaturized cell lysate screen in droplets was able to recover hits from metagenomic libraries. Thus, a subset of the library (B100,000 clones) (Supplementary Table <ref type="table" target="#tab_2">1</ref>) was screened for sulfate hydrolases in two experiments: (i) in microfluidic droplets using sulfate monoester 1d (410 7 droplets in 100 ml, protocol shown in Fig. <ref type="figure" target="#fig_1">1</ref>) and (ii) in a classic colony screening procedure <ref type="bibr" target="#b60">61</ref> (400,000 colonies using 40 Petri dishes) using sulfate monoester 1c as a substrate. When the two screens were compared, all hits found on plates were recovered within 0.5 h by droplet screening (Supplementary Figs <ref type="figure" target="#fig_2">3</ref> and <ref type="figure" target="#fig_3">4</ref>), except one that was later isolated when the ENR-G library was screened alone. The ability of our system to detect and sort hits was further addressed by analysing the relationship between hit rate and sample size. When covering the library size with a variety of oversampling ratios (by screening a number of droplets corresponding to 2 Â , 10 Â , 20 Â and 25 Â the library size) we observed an increasing number of recovered model hits (Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>), suggesting that the increase in screening capacity indeed leads to more hits (assuming a library contains them). We found that a 410-fold oversampling of the library is sufficient to recover every hit confidently, thereby achieving perfect coverage (Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>).</p><p>Protein production and purification. Open reading frames coding for sulfatase P35 and the sulfotransferase P40 were recloned into a modified expression vector pRSFDuet (Novagen) using the restriction sites NdeI-XhoI (P35) and NcoI-XhoI (P40). Recombinant plasmids pRSFDuetP35 and pRSFDuetP40 were transformed into E. coli BL21(DE3). For protein expression transformants were grown in 750 ml LB broth (containing 40 mg ml À 1 kanamycin) at 37 °C until an OD 600 nm B0.5 was reached. At this stage, expression was induced with isopropyl-b-D-thiogalactoside (1 mM) for 15 h at 25 °C. Cells were harvested by centrifugation, resuspended in LB medium (30 ml) and lysed by sonication. Cell lysate was obtained by centrifugation (30,000g, 1 h, 4 °C) and diluted in a 1:1 ratio with Tris-HCl (50 mM, pH 8.0). All subsequent steps were carried out in this buffer, unless stated otherwise. The desired enzyme was purified from diluted cell lysates using a sequence of three columns as follows: (i) anion exchange (Q-sepharose Fast Flow; GE Healthcare) using NaCl gradients 0-400 mM (P35) or 0-1 M (P40), (ii) affinity chromatography (P-sepharose Fast Flow; GE Healthcare) using (NH 4 ) 2 SO 4 gradients 1-0 M (P35) or 500-0 M (P40), and (iii) gel filtration (Superdex 200) running in a Tris-HCl buffer (20 mM, pH 8.0). Chromatographic steps of the purification were carried out in a AKTA FPLC apparatus (GE Healthcare).</p><p>Open reading frames coding for PTEs were recloned into the pASKIBA5plus plasmid (Iba Life) using the BsaI restriction site (P83, P84, P85, P87, P881, P90 and P91) or EcoRI-NcoI restriction sites (P86 and P882). Recombinant plasmids were transformed by electroporation into E. coli BL21(DE3). Cells were grown at 37 °C in LB containing 100 mg ml À 1 ampicillin (750 ml) until OD 600 nm B0.5. The expression of the amino-terminal Strep-tagged proteins was induced with anhydrotetracyclin (200 mg l À 1 ) at 25 °C for 15 h. Cells were harvested by centrifugation and resuspended in Tris-HCl (30 ml of a 100 mM solution, pH 8.0) containing NaCl (150 mM) before cell lysis by sonication. The lysate was centrifuged (30,000g, 1 h, 4 °C) and the extract was directly loaded onto Strep-Tactin Superflow resin (Iba Life) that was previously equilibrated with Tris-HCl (100 mM, pH 8.0, containing 150 mM NaCl). Washing steps were performed using Tris-HCl (100 mM, pH 8.0), NaCl (150 mM) and Strep-tagged proteins were eluted in Tris-HCl buffer (100 mM, pH 8.0, containing 150 mM NaCl and 2.5 mM d-desthiobiotin (d-biotin)). Columns were regenerated using Tris-HCl buffer (100 mM, pH 8.0; containing 150 mM NaCl, 1 mM EDTA and 1 mM 2-(4-hydroxyphenyl-azo)benzoic acid). Eluted proteins were concentrated to a final volume of 2 ml and further purified by gel filtration (Superdex 200, in 20 mM Tris-HCl pH 8.0). Mutant P91 C118 was purified in the same way as wild-type P91, but mutants P91 D167N and H199A were prepared using Strep-Tactin spin columns (Iba Life). Mutant-encoding plasmids were transformed by electroporation into E. coli BL21(DE3). Small volume cultures (15 ml) were grown under the same conditions as described above. Cells were pelleted and lysed using 500 ml of a solution containing 1 Â Bugbuster (Novagen) and 0.001 Â Lysonase (Novagen) in MilliQ water (Millipore) before addition of Tris-HCl buffer (1 ml, 100 mM, pH 8.0; containing 150 mM NaCl) and centrifugation to remove cell debris. After equilibration using Tris-HCl buffer, Strep-Tactin columns were loaded with the cleared cell lysates and centrifuged for 30 s at 700 g (at 4 °C). After a washing step to remove weakly bound proteins, P91 mutants were eluted in Tris-HCl (150 ml of 100 mM, pH 8.0), containing 150 mM NaCl and 2 mM d-biotin. To remove d-biotin, the elutions were buffer exchanged by successive concentration-dilution cycles using 1 ml Amicon 10 k concentrator columns.</p><p>Substrates. Sulfate monoester 1d, phosphotriester 2d, phosphate diester 4 and phosphonate 5 were synthetized from the respective chlorides or chloridates <ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref> . Sulfate monoester 1c was purchased from Fluka. Sulfate monoester 1a, phosphate monoester 3, acetate ester 6, thioester 7, lactones 8a, 8b, 8c, 8d 1 , 8d 2 and acetamide 9 were purchased from Sigma-Aldrich. Chromogenic b-lactamase substrate 10 (CENTA) was purchased from Merck Millipore. Enzyme Assays. All enzymatic assays were conducted at 25 °C in a final volume of 200 ml, in the activity buffer (100 mM MOPS-NaOH pH 8.0, containing 150 mM NaCl) that was used throughout the experiments, unless otherwise stated. Measurements were performed in 96-well plate format and product formation followed in SpectraMax M5 or 190 microplate readers. Hydrolysis of substrates with fluorescein leaving groups (1d and 2d) was monitored at the following wavelengths: l excitation ¼ 488 nm and l emission ¼ 525 nm. A calibration curve (linearly fit to the equation: fluorescence ¼ 1.2 Â 10 10 M À 1 [fluorescein]) was used to quantify fluorescein release. Hydrolysis of esters 1, 2a, 2b, 3, 4, 5, 6 and acetamide 9 was monitored by measuring absorbance of p-nitrophenolate at 400 nm (eE17,700 M À 1 cm À 1 ). Hydrolysis of thioester 7 was measured in the presence of the indicator 5,5'-dithiobis-(2-nitrobenzoic acid) (500 mM); the increase of 2-nitro-5-thiobenzoate was monitored at 412 nm (eE13,100 M À 1 cm À 1 ) <ref type="bibr" target="#b38">39</ref> . Hydrolysis of lactones 8b, 8c, 8d 1 , 8d 2 was measured using a pH-shift assay in 2.5 mM Bicine, 200 mM NaCl, 0.3 mM cresol purple pH 8.3 (ref. 65). The pH drop was monitored by the decrease in the absorbance of the indicator dye cresol purple at 577 nm (eE4,000 M À 1 cm À 1 ). Hydrolysis of lactone 8a was measured at 270 nm in an ultraviolet-transparent 96-well plate. Hydrolysis of b-lactam 10 was measured at 405 nm in phosphate buffer (100 mM, pH 8.0). All kinetic parameters were calculated by fitting initial rates v o to the Michaelis-Menten equations (or, if saturation could not be reached due to solubility limits, to linear correlations) using Kaleidagraph. Example data and details of equations used for fitting are shown in Supplementary Fig. <ref type="figure" target="#fig_3">14</ref>.</p><p>Sequence similarity networks. All protein sequences from superfamilies (AH: Pfam CL0034; MBLs: Pfam PF00753; a/b: Pfam PF07859, PF00135 and PF01738) were retrieved from the EMBL-EBI Pfam database <ref type="bibr" target="#b35">36</ref> . To limit the number of sequences and to reduce eventual bias that could induce too many homologous sequences in a network, a cutoff on the sequence identity was applied using CD-HIT 66 (40% for AH and MBL, and 30% for a/b). Our metagenomic hits protein sequences and several known characterized members of each protein families were subsequently added to the protein lists to help network functional annotations. The data sets were composed of 5,042 (AH), 2,984 (MBL) and 1,345 (a/b) sequences. Each data set was subjected to an all-versus-all BLAST (National Center for Biotechnology Information, version 2.2.29 þ ), considering sequence similarity only when alignment score was below an appropriate threshold (E-values: 1 Â e À 9 (AH), 1 Â e À 14 (MBL) and 1 Â e À 19 (a/b)). The sequence similarity scores (E-values) were then imported into Cytoscape (version 3.0.2) and networks were constructed using the organic layout (in which the lengths of the edges correlate with the dissimilarity of the connected sequences (represented by nodes)). Functional annotations were then imported from the Uniprot database and mapped onto the networks. Recently, the process of generating SSNs from any Pfam families has been made much more convenient by the Enzyme Function Initiative: (<ref type="url" target="http://efi.igb.illinois.edu/efi-est/">http://efi.igb.illinois.edu/efi-est/</ref>) <ref type="bibr" target="#b66">67</ref> .</p><p>Metal removal. P83, P85, P86, P87, P88.1, P88.2, P90 and P91 were incubated at 4 °C in MOPS (100 mM, pH 8) containing NaCl (150 mM) and the chelators EDTA, (25 mM), pyridine-2,6-dicarboxylic acid (25 mM) and phenanthroline (2 mM). After 4 days of incubation, chelating agents were removed by successive centrifugations using centrifugation filter tubes (Amicon Ultra-2 ml, 10 kDa; Millipore) and washed with MOPS buffer (as above). To restore divalent metals, the samples were incubated at 25 °C with MnCl 2 (200 mM) and activity towards phosphate triester 2a (800 mM) was measured by monitoring the increase of 4-nitrophenolate absorbance at 400 nm. Samples that were subjected to the metal removal procedure, without restoring the metal, were used as controls to assay any residual activity in the apo-enzyme.</p><p>Crystallization and structure determination. Crystallization conditions were screened in 96-well plates using the sitting-drop vapour diffusion method at 292 K. Crystals of P91 appeared after 36 h in a condition of 0.2 ml P91 (10 mg ml À 1 ) and 0.2 ml reservoir solution (0.1 M Tris pH 8.5, 0.2 M MgCl 2 and 20% (w/v) PEG 8,000). Diffraction data were collected from a single crystal at 100 K at the Swiss Light Source (beamline X06DA) at 0.9188 Å. Data were processed using autoPROC/XDS/AIMLESS software <ref type="bibr" target="#b67">68</ref> . As the crystal suffered significant radiation damage, affected images were removed from processing, leading to a slightly reduced completeness of 87%-the observed electron density however is of good quality and continuous. Phases were obtained through molecular replacement using BALBES/Phaser 69 , which used a putative DLH from Klebsiella pneumoniae (PDB ID 3F67) as the search model. Two molecules of P91 were found in the asymmetric unit. Iterative structure refinement was performed using Refmac5 (ref. 70) from the CCP4 suite <ref type="bibr" target="#b70">71</ref> and Coot <ref type="bibr" target="#b71">72</ref> . 97.7% of residues are found within the Ramachandran-favoured, 2.3% in the allowed and none in the disallowed regions. Loop 74-80 (in both monomers) shows higher flexibility than the rest of the protein and multiple conformations that could not be modelled accurately. Full data collection and refinement statistics are shown in Supplementary Table <ref type="table">8</ref>. The structure has been deposited with PDB code 4ZI5.</p><p>Site-directed mutagenesis. P91 nucleophile mutant C118A was constructed by overlap extension PCR and cloned into the pASKIBA5plus (Iba Life) using the BsaI restriction site. P91 mutants D167N and H199A were constructed using the QuikChange protocol (Stratagene) with pASKIBA5plus-P91 as DNA template.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 |</head><label>2</label><figDesc>Figure 2 | High sensitivity of the microfluidic platform allows selection and enrichment of active metagenomic variants. (a) Minimal number of fluorescein molecules detected. (1) In a 200 ml well of a microtiter plate (conventional technology), (2) in 20 pl droplets<ref type="bibr" target="#b26">27</ref> and (3) in 2 pl droplets (according to respective calibration curves; Supplementary Fig.2). Errors bars are set to 10% of the calculated value, corresponding to an estimation of the uncertainty of measurement. (b) Fluorescence signal distribution of 10 7 droplets containing metagenomic cell lysate after 2 days of incubation at 22 °C. The sorting gate was set up such that droplets with two-to fivefold increased fluorescence over the population average were selected (sorting gate). All histograms corresponding to the two screening campaigns are shown in Supplementary Fig.7. (Note: as the photomultiplier tube saturated at around 10 AU, values shown here as B10 AU may be higher). (c) The selection stringency was tested by monitoring the enrichment of a PTE variant PC86 over multiple rounds of microfluidic sorting. Three samples-metagenomic library before selection; DNA recovered from round 1; DNA recovered from round 2-were analysed for (i) their total plasmid content and (ii) the number of plasmids encoding PC86 by quantitative PCR. The proportion of PC86 in each DNA sample (library before selection, round 1 and round 2) was calculated by dividing the number of plasmid PC86 by the total number of plasmids. (Detailed data are shown in Supplementary Fig.10). Error bars, s.d. from triplicates. AU, arbitrary units.</figDesc><graphic coords="3,226.73,438.49,92.31,78.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 |</head><label>1</label><figDesc>Figure 1 | Functional metagenomic using microfluidic droplets. General procedure. (1) Environmental DNA (eDNA) was cloned into a high-copy plasmid and transformed into E. coli. (2) Single bacteria were encapsulated into water-in-oil droplets together with substrate (1d or 2d) and lysis agents.(3) Emulsion droplets were incubated off-chip; after single cell lysis, cytoplasmically expressed protein catalysts were able to turn over substrate. The arrow designates the droplets (B3 Â 10 7 ) at the interface between fluorous oil and mineral oil (on top). (4) Emulsion droplets were re-injected (Supplementary Movie 1) into a sorting chip and strongly fluorescent droplets (' þ ' channel) were separated from those with fluorescence below the threshold (' À ' channel) by dielectrophoresis<ref type="bibr" target="#b23">24</ref> (Supplementary Movie 2). (5) Selected droplets were de-emulsified and high-copy plasmid DNA was recovered following by re-transformation into E. coli. For further enrichment, iterative selections could be performed. (6) Plasmids containing eDNA coding for active catalysts were sequenced. The microfluidic devices are shown in Supplementary Fig.5.</figDesc><graphic coords="3,64.73,76.45,455.66,227.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 |</head><label>3</label><figDesc>Figure 3 | Unique hits isolated from metagenomic libraries. Open reading frames (ORFs) encoding hits are highlighted in orange or green (sulfate hydrolases/transferases or PTEs, respectively). Numbers between brackets indicate the number of amino acids in the protein sequence. Grey arrows represent other ORFs isolated together with the hit sequence. As it was less obvious which of the p88.1 or p88.2 gene was most likely to code for the active triesterase, both were recloned. Selections were carried out with either sulfate ester 1d or phosphate triester 2d. (a,b) Data extracted from the Pfam database 36 . MBL, metallo b-lactamase, also called metallo-hydrolase/oxidoreductase; AH, amidohydrolase. The other genes isolated (grey arrows) have their closest homologues in the NCBI non-redundant database predicted as: (1) transcription regulator; (2) formylglycine generating enzyme; (3) ABC transporter or membrane protein; (4) TonB-dependent receptor; (5) succinate-semialdehyde dehydrogenase; (6) carnitine dehydratase; (7) penicillinbinding protein; (8) radical SAM protein; (9) K þ /H þ antiporter; (10a,b) cobalamin biosynthesis protein; (11) YKuD transpeptidase; (12) peptidase M15; (13) aminotransferase; (14a,b) permease (see Supplementary Note 1).</figDesc><graphic coords="4,117.65,50.77,360.14,359.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 |</head><label>4</label><figDesc>Figure 4 | SSNs highlight the novelty of the triesterases hits. Hits are spread over (a) the AH clan (Pfam number: CL0034) and (b) the MBL superfamily (Pfam family PF00753). Bright green nodes represent the sequences of metagenomic hits identified in this work. Annotations retrieved from the Uniprot database were used to putatively characterize sequence clusters (represented by coloured nodes).To confirm these annotations, experimentally characterized proteins (red nodes) were added into each network. Previously described OP-degrading enzymes (PTE, phosphotriesterase) are highlighted in yellow; PLL (PTE-like lactonases) are reported in the AH superfamily. 5,042 and 2,984 sequences define the AH and the MBL networks, respectively. Edges lengths represent protein sequence similarity. Only edges corresponding to similarity scores below E-values of 1 Â e À 9 (AH) and 1 Â e À 14 (MBL) are considered; the worst edges displayed correspond to a median 26.5% (or 27.9%) identity over an alignment length of 210 (or 218) residues for the AH (and MBL) networks, respectively. See also the position of additional hits in the a/b superfamily (Supplementary Fig.15).</figDesc><graphic coords="6,59.93,298.69,226.86,198.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 |</head><label>5</label><figDesc>Figure 5 | A triad is the catalytic feature of the a/b-hydrolase fold of the triesterase P91. (a) The P91 structure (red) is aligned with DLH (green), a wellcharacterized a/b hydrolase fold (PDB ID: 1ZIC 43 ). (b) Active site superposition with DLH reveals the catalytic triad of P91 consisting of C118, D167 and H199. E37 and H141 stabilize an alternative cysteine conformation. (c) Site-directed knockdown mutagenesis of the residues in the triad compromises P91's PTE activity (v obs ¼ v/[E 0 ]) (shown by Michaelis-Menten plot and time-course measurements using B1 mM of substrate (framed)). Conditions: activity towards paraoxon 2a measured at 25 °C (100 mM Tris-HCl, 150 mM NaCl pH 8.0).</figDesc><graphic coords="7,131.09,50.77,325.26,304.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 |</head><label>6</label><figDesc>Figure6| Promiscuity is a general feature of the selected hits. (a) Comparison of the data (catalytic efficiencies k cat /K M (left) and K M values (right)) for our hits with known enzymes catalysing phosphotriester hydrolysis suggests that our screening has identified promiscuous activities. 'OPH' summarizes PTE recovered from bacteria isolated from a pesticide-polluted environment and therefore assigned as enzymes that evolved specifically for triester hydrolysis. 'Pro' designates enzymes for which PTE activity was shown to be a promiscuous side activity. The rates reported here are towards paraoxon 2a (for metagenomic hits) or-in the case of known PTEs-towards paraoxon 2a or methylparathion 2b. Full names (Supplementary Table6) and reported catalytic efficiencies (Supplementary Table7) of known PTEs are listed. (b) The catalytic promiscuity among the triesterase hits reflects bait substrate charge attributes. Substrates 1d and 2d are the bait substrates and substrates 3-8c were used for catalytic profiling. The likely bonds cleaved are represented in red. Black lines indicate that the hits share these two activities. Their width represents how often this type of enzyme promiscuity was observed. The x axis groups substrates by their charges and suggests that the bait activities select hits with consistent promiscuous activity patterns in which substrate charge is a key determinant. R 0 ¼ fluorescein; R 1 ¼ 4-nitrophenyl; R 2 ¼ ethyl; R 3 ¼ methyl; R 4 ¼ glutathione (which has two additional negative charges remote from the reaction centre) R 5 ¼ C 6 H 13 . See Supplementary Fig.12for structures of all substrates.</figDesc><graphic coords="8,141.41,209.29,298.70,175.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 4 )</head><label>4</label><figDesc>, demonstrating the ability to recover an enzyme with</figDesc><table><row><cell cols="2">Hit (substrate)</cell><cell></cell><cell cols="2">Open reading frames Scale: 0.5 kbp</cell><cell>Pfam family homology a</cell><cell>Superfamily b</cell></row><row><cell cols="2">PC32 (1d)</cell><cell>1</cell><cell>2</cell><cell>p32 (554)</cell><cell>Sulfatase (PF00884)</cell><cell>AP-like (CL0088)</cell></row><row><cell>PC35</cell><cell>(1d)</cell><cell>p35 (443)</cell><cell></cell><cell>3</cell><cell>Sulfatase (PF00884)</cell><cell>AP-like (CL0088)</cell></row><row><cell>PC40</cell><cell>(1d)</cell><cell>p40 (484)</cell><cell>3</cell><cell>3</cell><cell>Arysulfotransferase (PF05935)</cell><cell>Beta-propeller (CL0186)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Arysulfotransferase</cell><cell>Beta-propeller</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(PF05935)</cell><cell>(CL0186)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Sulfatase</cell><cell>AP-like</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(PF00884)</cell><cell>(CL0088)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Arysulfotransferase</cell><cell>Beta-propeller</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(PF05935)</cell><cell>(CL0186)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 |</head><label>1</label><figDesc>Catalytic efficiencies of the metagenomic hits towards the tested substrates.</figDesc><table><row><cell>Sulfate</cell><cell cols="2">Phosphate</cell><cell>Phosphate</cell><cell>Phosphate diester</cell><cell>Phosphonate</cell><cell cols="3">Ester Thioester Lactone*</cell></row><row><cell>monoester</cell><cell></cell><cell>triester</cell><cell>monoester</cell><cell></cell><cell>monoester</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1a</cell><cell>2a</cell><cell>2d</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>6</cell><cell>7</cell><cell>8</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE COMMUNICATIONS | 6:10008 | DOI: 10.1038/ncomms10008 | www.nature.com/naturecommunications</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This research was funded by the <rs type="funder">Engineering and Physical Sciences Research Council (EPSRC)</rs> and the <rs type="funder">Biological and Biotechnological Research Council (BBSRC)</rs>. F.H. is an ERC Starting Investigator. P.-Y.C. holds a fellowship of the <rs type="funder">EU ITN PhosChemRec</rs>, C.M.M. of the ITN ProSA and ENEFP. B.K. and M.F.M. were supported by postdoctoral <rs type="funder">Marie-Curie</rs> fellowships. We thank <rs type="person">Sean Devenish</rs> and <rs type="person">Nobuhiko Tokuriki</rs> for useful</p><p>comments on the manuscript, and <rs type="person">Gabrielle Potocki-Veronese</rs> and <rs type="person">Stephane Emond</rs> for help with the design of the library strategy. We thank <rs type="institution">Raindance</rs> for the gift of EA surfactant. We thank the <rs type="institution">Paul Scherrer Institut, Villigen, Switzerland</rs>, for the provision of beamtime at beamline X06SA at the <rs type="affiliation">Swiss Light Source</rs> for crystallographic data collection.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Accession codes: The sequences for all hits were submitted to the NCBI GenBank and can be found with the following accession numbers: KP212134 (p32), KP212135 (p35), KP212136 (p40), KP212137 (bk1), KP212138 (p76), KP212139 (p82), KP212140 (p83), KP212141 (p84), KP212142 (p85), KP212143 (p86), KP212144 (p87), KP212145 (p88.1), KP212146 (p88.2), KP212147 (p90), KP212148 (p91). The structure of P91 is available from the Protein Data Bank (ID: 4ZI5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information accompanies this paper at http://www.nature.com/ naturecommunications</head><p>Competing financial interests: The authors declare no competing financial interests. This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reprints and permission</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Engineering the third wave of biocatalysis</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer, U. T. et al. Engineering the third wave of biocatalysis. Nature 485, 185-194 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The metagenomics of soil</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Daniel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="470" to="478" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daniel, R. The metagenomics of soil. Nat. Rev. Microbiol. 3, 470-478 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Phylogenetic identification and in situ detection of individual microbial cells without cultivation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Schleifer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="143" to="169" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amann, R. I., Ludwig, W. &amp; Schleifer, K.-H. Phylogenetic identification and in situ detection of individual microbial cells without cultivation. Microbiol. Rev. 59, 143-169 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Environmental genome shotgun sequencing of the Sargasso Sea</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Venter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Venter, J. C. et al. Environmental genome shotgun sequencing of the Sargasso Sea. Science 304, 66-74 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Quantitative assessment of protein function prediction from metagenomics shotgun sequences</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Harrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="13913" to="13918" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harrington, E. D. et al. Quantitative assessment of protein function prediction from metagenomics shotgun sequences. Proc. Natl Acad. Sci. USA 104, 13913-13918 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Annotation error in public databases: misannotation of molecular function in enzyme superfamilies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Schnoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dodevski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Babbitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1000605</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schnoes, A. M., Brown, S. D., Dodevski, I. &amp; Babbitt, P. C. Annotation error in public databases: misannotation of molecular function in enzyme superfamilies. PLoS Comput. Biol. 5, e1000605 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">From complete genome sequence to &apos;complete&apos; understanding?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Galperin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Koonin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="398" to="406" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galperin, M. Y. &amp; Koonin, E. V. From complete genome sequence to &apos;complete&apos; understanding? Trends Biotechnol. 28, 398-406 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Enzyme recruitment in evolution of new function</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="409" to="425" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jensen, R. A. Enzyme recruitment in evolution of new function. Annu. Rev. Microbiol. 30, 409-425 (1976).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Catalytic promiscuity and the evolution of new enzymatic activities</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herschlag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Brien, P. J. &amp; Herschlag, D. Catalytic promiscuity and the evolution of new enzymatic activities. Chem. Biol. 6, 91-105 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Protein promiscuity and its implications for biotechnology</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nobeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Favia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Thornton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="157" to="167" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nobeli, I., Favia, A. D. &amp; Thornton, J. M. Protein promiscuity and its implications for biotechnology. Nat. Biotechnol. 27, 157-167 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Network-level architecture and the evolutionary potential of underground metabolism</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Notebaart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="11762" to="11767" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Notebaart, R. A. et al. Network-level architecture and the evolutionary potential of underground metabolism. Proc. Natl Acad. Sci. USA 111, 11762-11767 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Revealing the hidden functional diversity of an enzyme family</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bastard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bastard, K. et al. Revealing the hidden functional diversity of an enzyme family. Nat. Chem. Biol. 10, 42-49 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Panoramic view of a superfamily of phosphatases through substrate profiling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>E1974-E1983</note>
+	<note type="raw_reference">Huang, H. et al. Panoramic view of a superfamily of phosphatases through substrate profiling. Proc. Natl Acad. Sci. USA 112, E1974-E1983 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Connectivity between catalytic landscapes of the metallo-beta-lactamase superfamily</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tokuriki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="2442" to="2456" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baier, F. &amp; Tokuriki, N. Connectivity between catalytic landscapes of the metallo-beta-lactamase superfamily. J. Mol. Biol. 426, 2442-2456 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Enzyme promiscuity: a mechanistic and evolutionary perspective</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="471" to="505" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khersonsky, O. &amp; Tawfik, D. S. Enzyme promiscuity: a mechanistic and evolutionary perspective. Annu. Rev. Biochem. 79, 471-505 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Metagenomics: application of genomics to uncultured microorganisms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Handelsman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="669" to="685" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Handelsman, J. Metagenomics: application of genomics to uncultured microorganisms. Microbiol. Mol. Biol. Rev. 68, 669-685 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Quantifying the accessibility of the metagenome by random expression cloning techniques</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gabor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Alkema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="879" to="886" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabor, E. M., Alkema, W. B. &amp; Janssen, D. B. Quantifying the accessibility of the metagenome by random expression cloning techniques. Environ. Microbiol. 6, 879-886 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Metagenomics and industrial applications</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorenz, P. &amp; Eck, J. Metagenomics and industrial applications. Nat. Rev. Microbiol. 3, 510-516 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Functional metagenomics for enzyme discovery: challenges to efficient screening</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyazaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="616" to="622" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uchiyama, T. &amp; Miyazaki, K. Functional metagenomics for enzyme discovery: challenges to efficient screening. Curr. Opin. Biotechnol. 20, 616-622 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">GigaMatrixt: an ultra high-throughput tool for accessing biodiversity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dycaico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lab. Autom</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="200" to="208" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lafferty, M. &amp; Dycaico, M. J. GigaMatrixt: an ultra high-throughput tool for accessing biodiversity. J. Lab. Autom. 9, 200-208 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Interplay of metagenomics and in vitro compartmentalization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferrer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="31" to="39" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferrer, M. et al. Interplay of metagenomics and in vitro compartmentalization. Microb. Biotechnol. 2, 31-39 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The potential of microfluidic water-in-oil droplets in experimental biology</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Schaerli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biosyst</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1392" to="1404" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schaerli, Y. &amp; Hollfelder, F. The potential of microfluidic water-in-oil droplets in experimental biology. Mol. Biosyst. 5, 1392-1404 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microdroplets in microfluidics: an evolving platform for discoveries in chemistry and biology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Theberge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="5846" to="5868" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Theberge, A. B. et al. Microdroplets in microfluidics: an evolving platform for discoveries in chemistry and biology. Angew. Chem. Int. Ed. Engl. 49, 5846-5868 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fluorescence-activated droplet sorting (FADS): efficient microfluidic cell sorting based on enzymatic activity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Baret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Chip</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1850" to="1858" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baret, J. C. et al. Fluorescence-activated droplet sorting (FADS): efficient microfluidic cell sorting based on enzymatic activity. Lab. Chip. 9, 1850-1858 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ultrahigh-throughput screening in drop-based microfluidics for directed evolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Agresti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="4004" to="4009" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agresti, J. J. et al. Ultrahigh-throughput screening in drop-based microfluidics for directed evolution. Proc. Natl Acad. Sci. USA 107, 4004-4009 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Enzyme engineering in biomimetic compartments</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zinchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="42" to="51" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colin, P. Y., Zinchenko, A. &amp; Hollfelder, F. Enzyme engineering in biomimetic compartments. Curr. Opin. Struct. Biol. 33, 42-51 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Picoliter cell lysate assays in microfluidic droplet compartments for directed enzyme evolution</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kintses</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1001" to="1009" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kintses, B. et al. Picoliter cell lysate assays in microfluidic droplet compartments for directed enzyme evolution. Chem. Biol. 19, 1001-1009 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">High-throughput screening for industrial enzyme production hosts by droplet microfluidics</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sjostrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Chip</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="806" to="813" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sjostrom, S. L. et al. High-throughput screening for industrial enzyme production hosts by droplet microfluidics. Lab. Chip. 14, 806-813 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Microfluidic high-throughput culturing of single cells for selection based on extracellular metabolite production or consumption</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="473" to="478" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, B. L. et al. Microfluidic high-throughput culturing of single cells for selection based on extracellular metabolite production or consumption. Nat. Biotechnol. 32, 473-478 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Droplet-based microfluidics platform for ultra-high-throughput bioprospecting of cellulolytic microorganisms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Najah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1722" to="1732" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Najah, M. et al. Droplet-based microfluidics platform for ultra-high-throughput bioprospecting of cellulolytic microorganisms. Chem. Biol. 21, 1722-1732 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The art and design of functional metagenomic screens</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hallam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="465" to="472" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taupp, M., Mewis, K. &amp; Hallam, S. J. The art and design of functional metagenomic screens. Curr. Opin. Biotechnol. 22, 465-472 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Catalytic proficiency: the extreme case of S-O cleaving sulfatases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lohman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wolfenden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="525" to="531" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edwards, D. R., Lohman, D. C. &amp; Wolfenden, R. Catalytic proficiency: the extreme case of S-O cleaving sulfatases. J. Am. Chem. Soc. 134, 525-531 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hassall</surname></persName>
+		</author>
+		<title level="m">The Biochemistry and Uses of Pesticides</title>
+		<meeting><address><addrLine>Weinheim</addrLine></address></meeting>
+		<imprint>
+			<publisher>VCH</publisher>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hassall, K. A. (ed.) The Biochemistry and Uses of Pesticides (VCH, Weinheim, 1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A high-throughput screen for antibiotic drug discovery</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Scanlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Dostal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Griswold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="232" to="243" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scanlon, T. C., Dostal, S. M. &amp; Griswold, K. E. A high-throughput screen for antibiotic drug discovery. Biotechnol. Bioeng. 111, 232-243 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">One in a million: flow cytometric sorting of single celllysate assays in monodisperse picolitre double emulsion droplets for directed evolution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zinchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="2526" to="2533" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zinchenko, A. et al. One in a million: flow cytometric sorting of single cell- lysate assays in monodisperse picolitre double emulsion droplets for directed evolution. Anal. Chem. 86, 2526-2533 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Pfam: the protein families database</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">230</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Finn, R. D. et al. Pfam: the protein families database. Nucleic Acids Res. 42, D222-D230 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A structural and biochemical basis for PAPS-independent sulfuryl transfer by aryl sulfotransferase from uropathogenic Escherichia coli</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Malojcic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="19217" to="19222" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Malojcic, G. et al. A structural and biochemical basis for PAPS-independent sulfuryl transfer by aryl sulfotransferase from uropathogenic Escherichia coli. Proc. Natl Acad. Sci. USA 105, 19217-19222 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Using sequence similarity networks for visualization of relationships across diverse protein superfamilies</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Ferrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Babbitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4345</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atkinson, H. J., Morris, J. H., Ferrin, T. E. &amp; Babbitt, P. C. Using sequence similarity networks for visualization of relationships across diverse protein superfamilies. PLoS ONE 4, e4345 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structural and functional characterization of Salmonella enterica serovar Typhimurium YcbL: an unusual type II glyoxalase</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Stamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1897" to="1905" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stamp, A. L. et al. Structural and functional characterization of Salmonella enterica serovar Typhimurium YcbL: an unusual type II glyoxalase. Protein Sci. 19, 1897-1905 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Expansion of the zinc metallohydrolase family of the b-lactamase fold</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Daiyasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Osaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Toh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daiyasu, H., Osaka, K., Ishino, Y. &amp; Toh, H. Expansion of the zinc metallo- hydrolase family of the b-lactamase fold. FEBS Lett. 503, 1-6 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Of barn owls and bankers: a lush variety of a/b hydrolases</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heikinheimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jeffries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Ollis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="141" to="146" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heikinheimo, P., Goldman, A., Jeffries, C. &amp; Ollis, D. L. Of barn owls and bankers: a lush variety of a/b hydrolases. Structure 7, R141-146 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Catalytic mechanisms for phosphotriesterases</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Bigley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Raushel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1834</biblScope>
+			<biblScope unit="page" from="443" to="453" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigley, A. N. &amp; Raushel, F. M. Catalytic mechanisms for phosphotriesterases. Biochim. Biophys. Acta 1834, 443-453 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Following directed evolution with crystallography: structural changes observed in changing the substrate specificity of dienelactone hydrolase</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Ollis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="920" to="931" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim, H. K., Liu, J. W., Carr, P. D. &amp; Ollis, D. L. Following directed evolution with crystallography: structural changes observed in changing the substrate specificity of dienelactone hydrolase. Acta Crystallogr. Sect. D Biol. Crystallogr. 61, 920-931 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Substrate-induced activation of dienelactone hydrolase: an enzyme with a naturally occurring Cys-His-Asp triad</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cheah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Ollis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="575" to="583" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheah, E., Austin, C., Ashley, G. W. &amp; Ollis, D. L. Substrate-induced activation of dienelactone hydrolase: an enzyme with a naturally occurring Cys-His-Asp triad. Protein Eng. 6, 575-583 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The evolution of new enzyme function: lessons from xenobiotic metabolizing bacteria versus insecticide-resistant insects</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="225" to="248" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell, R. J. et al. The evolution of new enzyme function: lessons from xenobiotic metabolizing bacteria versus insecticide-resistant insects. Evol. Appl. 4, 225-248 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Structure and function of an insect alpha-carboxylesterase (alphaEsterase7) associated with insecticide resistance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="10177" to="10182" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jackson, C. J. et al. Structure and function of an insect alpha-carboxylesterase (alphaEsterase7) associated with insecticide resistance. Proc. Natl Acad. Sci. USA 110, 10177-10182 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Organophosphorus-degrading bacteria: ecology and industrial applications</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="156" to="164" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Singh, B. K. Organophosphorus-degrading bacteria: ecology and industrial applications. Nat. Rev. Microbiol. 7, 156-164 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The latent promiscuity of newly identified microbial lactonases is linked to a recently diverged phosphotriesterase</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Afriat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roodveldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Manco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="13677" to="13686" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Afriat, L., Roodveldt, C., Manco, G. &amp; Tawfik, D. S. The latent promiscuity of newly identified microbial lactonases is linked to a recently diverged phosphotriesterase. Biochemistry 45, 13677-13686 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Divergence and convergence in enzyme evolution: parallel evolution of paraoxonases from quorum-quenching lactonases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elias, M. &amp; Tawfik, D. S. Divergence and convergence in enzyme evolution: parallel evolution of paraoxonases from quorum-quenching lactonases. J. Biol. Chem. 287, 11-20 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Zooming in on metagenomics: molecular microdiversity of Subtilisin Carlsberg in soil</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gabor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Niehaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Aehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="page" from="16" to="20" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabor, E., Niehaus, F., Aehle, W. &amp; Eck, J. Zooming in on metagenomics: molecular microdiversity of Subtilisin Carlsberg in soil. J. Mol. Biol. 418, 16-20 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Functional characterization of the antibiotic resistance reservoir in the human microflora</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dantas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="1128" to="1131" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sommer, M. O., Dantas, G. &amp; Church, G. M. Functional characterization of the antibiotic resistance reservoir in the human microflora. Science 325, 1128-1131 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Substrate-induced geneexpression screening of environmental metagenome libraries for isolation of catabolic genes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ikemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="88" to="93" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uchiyama, T., Abe, T., Ikemura, T. &amp; Watanabe, K. Substrate-induced gene- expression screening of environmental metagenome libraries for isolation of catabolic genes. Nat. Biotechnol. 23, 88-93 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Microfluidic droplets: new integrated workflows for biological experiments</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kintses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Devenish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="548" to="555" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kintses, B., van Vliet, L. D., Devenish, S. R. &amp; Hollfelder, F. Microfluidic droplets: new integrated workflows for biological experiments. Curr. Opin. Chem. Biol. 14, 548-555 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Mapping enzyme active sites in complex proteomes</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kozarich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Patricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Cravatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1363" to="1368" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adam, G. C., Burbaum, J., Kozarich, J. W., Patricelli, M. P. &amp; Cravatt, B. J. Mapping enzyme active sites in complex proteomes. J. Am. Chem. Soc. 126, 1363-1368 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Enzyme recruitment and its role in metabolic expansion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="836" to="845" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schulenburg, C. &amp; Miller, B. G. Enzyme recruitment and its role in metabolic expansion. Biochemistry 53, 836-845 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Efficient, crosswise catalytic promiscuity among enzymes that catalyze phosphoryl transfer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1834</biblScope>
+			<biblScope unit="page" from="417" to="424" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohamed, M. F. &amp; Hollfelder, F. Efficient, crosswise catalytic promiscuity among enzymes that catalyze phosphoryl transfer. Biochim. Biophys. Acta 1834, 417-424 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Construction, characterization, and use of small-insert gene banks of DNA isolated from soil and enrichment cultures for the recovery of novel amidases</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gabor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="948" to="958" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabor, E. M., de Vries, E. J. &amp; Janssen, D. B. Construction, characterization, and use of small-insert gene banks of DNA isolated from soil and enrichment cultures for the recovery of novel amidases. Environ. Microbiol. 6, 948-958 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Efficient recovery of environmental DNA for expression cloning by indirect extraction methods</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gabor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="153" to="163" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabor, E. M., Vries, E. J. &amp; Janssen, D. B. Efficient recovery of environmental DNA for expression cloning by indirect extraction methods. FEMS Microbiol. Ecol. 44, 153-163 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Fabrication of microfluidic systems in poly(dimethylsiloxane)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonald, J. C. et al. Fabrication of microfluidic systems in poly(dimethylsiloxane). Electrophoresis 21, 27-40 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Drop-based microfluidic devices for encapsulation of single cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Chip</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1110" to="1115" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koster, S. et al. Drop-based microfluidic devices for encapsulation of single cells. Lab. Chip. 8, 1110-1115 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Reverse evolution leads to genotypic incompatibility despite functional and active site convergence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaltenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tokuriki</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">6492</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaltenbach, M., Jackson, C. J., Campbell, E. C., Hollfelder, F. &amp; Tokuriki, N. Reverse evolution leads to genotypic incompatibility despite functional and active site convergence. eLife 4, e06492 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Evolution of enzyme catalysts caged in biomimetic gel-shed beads</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischlechner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="791" to="796" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fischlechner, M. et al. Evolution of enzyme catalysts caged in biomimetic gel-shed beads. Nat. Chem. 6, 791-796 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Metal ion promoted phosphate ester hydrolysis. Intramolecular attack of coordinated hydroxide ion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hendry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Sargeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="2521" to="2527" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hendry, P. &amp; Sargeson, A. M. Metal ion promoted phosphate ester hydrolysis. Intramolecular attack of coordinated hydroxide ion. J. Am. Chem. Soc. 111, 2521-2527 (1989).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Synthesis of fluorescein phosphates and sulfates</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scheigetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zamboni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Prep. Proc. Int</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="561" to="568" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheigetz, J., Gilbert, M. &amp; Zamboni, R. Synthesis of fluorescein phosphates and sulfates. Org. Prep. Proc. Int. 29, 561-568 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A pH sensitive colorimetric assay for the high-throughput screening of enzyme inhibitors and substrates: a case study using kinases</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="551" to="555" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chapman, E. &amp; Wong, C.-H. A pH sensitive colorimetric assay for the high-throughput screening of enzyme inhibitors and substrates: a case study using kinases. Bioorg. Med. Chem. 10, 551-555 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">CD-HIT Suite: a web server for clustering and comparing biological sequences</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="680" to="682" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, Y., Niu, B., Gao, Y., Fu, L. &amp; Li, W. CD-HIT Suite: a web server for clustering and comparing biological sequences. Bioinformatics 26, 680-682 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Enzyme Function Initiative-Enzyme Similarity Tool (EFI-EST): A web tool for generating protein sequence similarity networks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gerlt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">854</biblScope>
+			<biblScope unit="page" from="1019" to="1037" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerlt, J. A. et al. Enzyme Function Initiative-Enzyme Similarity Tool (EFI-EST): A web tool for generating protein sequence similarity networks. Biochim. Biophys. Acta 854, 1019-1037 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Data processing and analysis with the autoPROC toolbox</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vonrhein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vonrhein, C. et al. Data processing and analysis with the autoPROC toolbox. Acta Crystallogr. Sect. D Biol. Crystallogr. 67, 293-302 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Phaser crystallographic software</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="658" to="674" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCoy, A. J. et al. Phaser crystallographic software. J. Appl. Crystallogr. 40, 658-674 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Refinement of macromolecular structures by the maximum-likelihood metho</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Murshudov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Vagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Dodson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="240" to="255" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murshudov, G. N., Vagin, A. A. &amp; Dodson, E. J. Refinement of macromolecular structures by the maximum-likelihood metho. Acta Crystallogr. Sect. D Biol. Crystallogr. 53, 240-255 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The CCP4 suite: programs for protein crystallography</title>
+		<author>
+			<persName><surname>Ccp4</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="760" to="763" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CCP4. The CCP4 suite: programs for protein crystallography. Acta Crystallogr. Sect. D Biol. Crystallogr. 50, 760-763 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Coot: model-building tools for molecular graphics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowtan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. D Biol. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="2126" to="2132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emsley, P. &amp; Cowtan, K. Coot: model-building tools for molecular graphics. Acta Crystallogr. Sect. D Biol. Crystallogr. 60, 2126-2132 (2004).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

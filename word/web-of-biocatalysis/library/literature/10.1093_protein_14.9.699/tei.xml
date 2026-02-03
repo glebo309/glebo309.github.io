@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Expression and stabilization of galactose oxidase in Escherichia coli by directed evolution</title>
+				<funder>
+					<orgName type="full">Biotechnology Research and Development Corporation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lianhong</forename><surname>Sun</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ioanna</forename><forename type="middle">P</forename><surname>Petrounia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Makoto</forename><surname>Yagasaki</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Geethani</forename><surname>Bandara</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Frances</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+							<email>frances@cheme.caltech.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>210-41</addrLine>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Kyowa Hakko Kogyo Co. Ltd</orgName>
+								<address>
+									<addrLine>1-1 Kyowa-chou, Hofu-shi</addrLine>
+									<postCode>747-8522</postCode>
+									<settlement>Yamaguchi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Expression and stabilization of galactose oxidase in Escherichia coli by directed evolution</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3B68C5B4E73D3FD33BA12C551A2980FD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>directed evolution</term>
+					<term>galactose oxidase</term>
+					<term>random mutagenesis</term>
+					<term>StEP recombination</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We have used directed evolution methods to express a fungal enzyme, galactose oxidase (GOase), in functional form in Escherichia coli. The evolved enzymes retain the activity and substrate specificity of the native fungal oxidase, but are more thermostable, are expressed at a much higher level (up to 10.8 mg/l of purified GOase), and have reduced negative charge compared to wild type, all properties which are expected to facilitate applications and further evolution of the enzyme. Spectroscopic characterization of the recombinant enzymes reveals a tyrosyl radical of comparable stability to the native GOase from Fusarium.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="791.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Galactose oxidase <ref type="bibr" target="#b9">(Cooper et al., 1959;</ref><ref type="bibr" target="#b3">Avigad et al., 1962)</ref> (D-galactose: oxygen 6-oxidoreductase, GOase; EC 1.1.3.9) is a copper enzyme secreted by a number of fungal species. The GOase from Fusarium NRRL 2903 <ref type="bibr" target="#b13">(Ito et al., 1991;</ref><ref type="bibr" target="#b21">McPherson et al., 1992</ref><ref type="bibr" target="#b22">McPherson et al., , 1993;;</ref><ref type="bibr" target="#b4">Baron et al., 1994;</ref><ref type="bibr" target="#b35">Whittaker et al., 1998;</ref><ref type="bibr" target="#b36">Whittaker and Whittaker, 1988;</ref><ref type="bibr" target="#b26">Rogers et al., 2000)</ref>, a glycoprotein (carbohydrate content ~1.7%) of 639 amino acid residues and molecular mass ~68 kDa, catalyzes the oxidation of primary alcohols to corresponding aldehydes coupled with reduction of O 2 to H 2 O 2 (Figure <ref type="figure" target="#fig_0">1</ref>). GOase accepts substrates ranging from glycerol and allyl alcohol to D-galactose, galactopyranosides, oligo-and polysaccharides <ref type="bibr" target="#b29">(Schlegel et al., 1968;</ref><ref type="bibr" target="#b2">Avigad, 1985;</ref><ref type="bibr" target="#b6">Bretting and Jacobs, 1987;</ref><ref type="bibr" target="#b23">Mendonca and Zancan, 1987)</ref>. X-ray crystallography revealed a multi-domain structure dominated by β-sheets with a square pyramidal copper active center consisting of ligands from Tyr272, Tyr495, His496 and His581 <ref type="bibr" target="#b13">(Ito et al., 1991</ref><ref type="bibr" target="#b14">(Ito et al., , 1994))</ref>. A novel thioether bond between Cys228 and Tyr272 supports the radical mechanism first proposed based on spectroscopic studies <ref type="bibr" target="#b36">(Whittaker and Whittaker, 1988;</ref><ref type="bibr" target="#b37">Whittaker et al., 1989)</ref>.</p><p>GOase has numerous applications in biosensors, chemical synthesis and diagnostics. Sensors incorporating GOase have been used to measure D-galactose, lactose and other GOase substrate concentrations <ref type="bibr" target="#b32">(Vega et al., 1998;</ref><ref type="bibr" target="#b31">Tkac et al., 1999)</ref> in process monitoring <ref type="bibr" target="#b30">(Szabo et al., 1996)</ref>, blood samples <ref type="bibr" target="#b33">(Vrbova et al., 1992)</ref> and quality control in the dairy industries <ref type="bibr" target="#b0">(Adanyi et al., 1999;</ref><ref type="bibr" target="#b18">Mannino et al., 1999)</ref>. Enzymatic synthesis of carbohydrates by GOase circumvents the require-ment for protecting the hydroxyl groups <ref type="bibr" target="#b27">(Root et al., 1985;</ref><ref type="bibr" target="#b20">Mazur and Hiler, 1997;</ref><ref type="bibr" target="#b17">Liu and Dordick, 1999)</ref>. GOasecatalyzed oxidation of cell surface polysaccharides is an essential step in the radiolabeling of membrane bound glycoproteins <ref type="bibr" target="#b7">(Calderhead and Lienhard, 1988;</ref><ref type="bibr" target="#b11">Gahmberg and Tolvanen, 1994)</ref>. The enzyme can also be used to detect a disaccharide tumor marker in colon cancer and precancer <ref type="bibr" target="#b40">(Yang and Shamsuddin, 1996;</ref><ref type="bibr" target="#b28">Said et al., 1999)</ref>.</p><p>These applications of GOase would benefit from access to enzyme variants that are more stable and active towards nonnatural substrates. A prerequisite to enzyme modification by powerful directed evolution methods <ref type="bibr" target="#b1">(Arnold, 1998;</ref><ref type="bibr" target="#b24">Petrounia and Arnold, 2000)</ref> is functional expression in a host organism that permits creation and rapid screening of mutant libraries. Escherichia coli is an excellent host for directed evolution, but does not support functional expression of many important eukaryotic enzymes. To date, all biochemical studies of GOase have been performed on the enzyme obtained from its natural source or from fungal <ref type="bibr" target="#b22">(McPherson et al., 1993;</ref><ref type="bibr" target="#b38">Xu et al., 2000)</ref> and yeast <ref type="bibr" target="#b34">(Whittaker and Whittaker, 2000)</ref> expression systems not suitable for directed evolution. Expression of GOase in E.coli has been attempted <ref type="bibr" target="#b22">(McPherson et al., 1993)</ref>, but functional enzyme was obtained only as a lacZ fusion <ref type="bibr" target="#b16">(Lis and Kuramitsu, 1997)</ref>. Biochemical characterization of the E.coli-expressed GOase was not reported. Herein we report on functional expression of GOase in E.coli achieved by directed evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>All chemicals were reagent grade or better. 2,2Ј-Azino-bis(3ethylbenzthiazoline-6-sulfonic acid) (ABTS), D-galactose and horseradish peroxidase (HRP) were from Sigma (St Louis, MO). Native Fusarium GOase was obtained from Worthington Biochemical Corporation (Lakewood, NJ). Escherichia coli strain BL21(DE3) and vector plasmid pUC18 were purchased from Novagen (Madison, WI). Restriction enzymes and ligase were obtained from Boehringer Mannheim (Indianapolis, IN), Life Technologies (Grand Island, NY) or New England Biolabs (Beverly, MA). Bacterial strain and plasmids Bacterial strain BL21(DE3) was used for cloning and library construction. Plasmid pR3 containing the gene for mature GOase fused to the 5Ј-end of the lacZ fragment was kindly provided by Dr Howard K. Kuramitsu (Department of Oral Biology, State University of New York at Buffalo). The GOase gene was amplified from pR3 by PCR to introduce a HindIII L.Sun et al.</p><p>restriction site followed by an ATG initiation codon immediately upstream from the mature GOase sequence and XbaI site immediately downstream from the stop codon. The PCR product was subcloned into a modified vector pUC18 (containing a double lac promoter and lacking the PstI site) to yield pGAO-036.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction of GOase mutant libraries</head><p>GOase was expressed in E.coli using plasmid pGAO-036. Two approaches were followed for directed evolution: (A) random mutagenesis of the complete GOase gene (bases 1-1917) by error-prone PCR (generations A1 and A2) and StEP recombination of improved variants from library A2 (generation A3) and (B) sequential random mutagenesis of a region of the GOase gene (bases 518-1917) by error-prone PCR (generations B1-B4).</p><p>Random mutagenesis and StEP recombination of the complete GOase gene. Error-prone PCR and StEP recombination <ref type="bibr" target="#b41">(Zhao et al., 1998)</ref> were carried out using primers 5Ј-AATTCGAAGCTTATGGCCTCAGCACCTATCGGAAG-C-3Ј (HindIII site underlined) and 5Ј-CCTCCTTCTAGAT-TACTGAGTAACGCGAATCGT-3Ј (XbaI site underlined). The mutagenic PCR reaction contained 10 mM Tris-HCl, 50 mM KCl buffer (pH 8.5 at 25°C), ~0.3 µg plasmid DNA as template, 30 pmol of each primer, 0.2 mM dGTP, 0.2 mM dATP, 1 mM dCTP, 1 mM dTTP, 7 mM MgCl 2 , 0.1 mM MnCl 2 and 1.5 U Taq polymerase (Perkin-Elmer, Gaithersburg, MD or Qiagen, Valencia, CA) in a total volume of 100 µl. PCR reactions were carried out on an MJ Research (Watertown, MA) thermal cycler (PTC-200) for 30 cycles with the following parameters: 94°C for 30 s, 50°C for 30 s and 72°C for 60 s. StEP recombination of four improved variants identified in generation A2 was performed in a 100 µl reaction containing 10 mM Tris-HCl, 50 mM KCl buffer (pH 8.5), ~0.3 µg (total) plasmid DNA as template (prepared by mixing equal amounts of the four plasmids), 10 pmol of each primer, 0.5 mM of each dNTP, 2.5 mM MgCl 2 and 5 U Taq polymerase. PCR conditions were as follows: 95°C for 3 min and 100 cycles of 94°C for 30 s and 58°C for 10 s. Mutagenic PCR or recombination products were purified using a DNA purification kit (Qiagen or Zymo Research, Orange, CA) and cloned (using the HindIII and XbaI restriction sites) back into the expression vector. Ligation mixtures were transformed into BL21(DE3) cells by electroporation. Random mutagenesis of GOase gene region 518-1917. Errorprone PCR was carried out using primers 5Ј-TTGTTCCTG-CGGCTGCAGCAATTGAACCG-3Ј (PstI site underlined) and 5Ј-TGCCGGTCGACTCTCTAGATTACTGAGTAACG-3Ј (XbaI site underlined). Mutagenic PCR was performed in a 100 µl reaction mixture containing 10 mM Tris-HCl, 50 mM KCl buffer (pH 8.3 at 25°C), 10 ng plasmid DNA as template, 50 pmol of each primer, 0.2 mM of each dNTP, 7 mM (generations B1 and B2) or 4 mM MgCl 2 (generations B3 and B4) and 5 U Taq polymerase (Boehringer Mannheim). PCR conditions were as follows: 94°C for 2 min and 25 cycles of 94°C for 30 s, 58°C for 30 s and 72°C for 60 s. Purified restricted inserts from PCR reactions were ligated with an expression vector generated by PstI-XbaI digestion of pGAO-036. Ligation products were transformed into BL21(DE3) cells by a modified chemical transformation method (SuperComp protocol, Bio 101, Inc., Carlsbad, CA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Screening GOase libraries</head><p>Transformed cells were plated on Luria-Bertani (LB) agar plates supplemented with 100 µg/ml ampicillin and grown overnight at 30°C. Screening of libraries A1-A3. Single colonies were picked into deep-well plates (well depth 2.4 cm, volume 1 ml; Beckton Dickinson Labware, Lincoln Park, NJ) and cells were grown for 10 h at 30°C and 270 r.p.m. in 200 µl LB medium containing 100 µg/ml ampicillin (LB-Amp). The master plates were duplicated by transferring a 10 µl aliquot to a new deepwell plate containing 300 µl LB-Amp and 1 mM IPTG and grown for 12 h at 30°C and 250 r.p.m. The cultures were then centrifuged for 10 min at 5000 r.p.m. and the cell pellet was resuspended in 300 µl 100 mM sodium phosphate (NaPi) buffer, pH 7.0, containing 0.4 mM CuSO 4 . Following addition of 0.5 mg/ml lysozyme (35 min at 37°C) and 2.5% (w/v) SDS (overnight at 4°C), the GOase activity was assayed using a GOase-HRP coupled assay <ref type="bibr" target="#b4">(Baron et al., 1994)</ref>. Aliquots of the cell extracts were reacted with D-galactose (50 mM for generation A1 or 25 mM for generations A2 and A3) at pH 7.0. The initial rate of H 2 O 2 formation was followed by monitoring the HRP-catalyzed oxidation of ABTS at 405 nm on a Thermomax microplate reader (Molecular Devices, Sunnyvale, CA). Thermostability was assayed as follows: aliquots of the cell extracts were heated at 55-70°C for 10 min and then chilled on ice for 10 min. The samples were equilibrated to room temperature, at which point they were assayed for activity. The ratio of residual to initial activity was used to characterize thermostability. 1500-2000 clones from each library were screened and the clones with improved activity or enhanced thermostability accompanied with activity comparable to the parents were picked for further verification. Screening of libraries B1-B4. Single colonies were picked into deep-well plates (well depth 4.4 cm, volume 2.2 ml; Qiagen) and cells were grown for 8 h at 30°C and 270 r.p.m. in 500 µl LB-Amp. The master plates were duplicated by transferring a 10 µl aliquot to a new deep-well plate containing 500 µl LB-Amp and 1mM IPTG and grown overnight at 30°C and 270 r.p.m. An aliquot of the culture was transferred to a microtiter plate. Following addition of 0.5 mg/ml lysozyme (30 min at 37°C) and 0.4% (w/v) SDS-0.4 mM CuSO 4 in 100 mM NaPi buffer, pH 7.0 (4 h at 4°C), the GOase activity was assayed using the GOase-HRP coupled assay as described above. The galactose concentration was 25 mM (generations B1 and B2) or 10 mM (generations B3 and B4). Approximately 1000 clones from each library were screened.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein purification and characterization</head><p>Escherichia coli cultures were grown for 16 h at 30°C in LB medium with 100 µg/ml ampicillin. Cells were harvested by centrifugation, resuspended in 100 mM sodium phosphate buffer, pH 7.0, containing 0.1 mM EDTA and disrupted by sonication. Cell debris was removed by centrifugation and the resulting supernatant was made 0.4 mM in CuSO 4 and stirred for ~2 h at 4°C. (NH 4 ) 2 SO 4 was added to 25% saturation (w/v) and after centrifugation the supernatant was further saturated to 65% of (NH 4 ) 2 SO 4 . The pellet was dissolved in 100 mM CH 3 COONH 4 buffer, pH 7.2, and chromatographed on Sepharose 6B (Amersham Pharmacia, Piscataway, NJ) according to published procedures <ref type="bibr" target="#b12">(Hatton and Regoeczi, 1982)</ref>. Fractions with the highest GOase activity were collected and precipitated by addition of (NH 4 ) 2 SO 4 to 95% saturation. The pellet was dissolved in 100 mM NaPi, pH 7.0, and</p><p>Table I. Mutants identified during directed evolution of GOase Generation GOase name Base substitutions Mutations identified a Relative total activity for D-galactose 0 Wild-type 1.0 A1 A1.D2 A1609G N537D 1.6 A1 A1.D12 T408C/T1481C P136/V494A 5.9 A2 A2.D3 T408C/T1481C/T28C P136/V494A/S10P 11.1 A2 A2.C3 T408C/T1481C/A9C/ P136/V494A/A3/ 9.1 G584C G195E A2 A2.D6 T408C/T1481C/T654C/ P136/V494A/T218/ 11.7 A936G/A1603G L312/N535D A2 A2.E12 T408C/T1481C/A208G P136/V494A/M70V 16.4 A3 A3.E7 T408C/T1481C/T28C/ P136/V494A/S10P/ 63.4 A208G/G584A/A1603G M70V/G195E/N535D B1 B1.D4 A1237G N413D 2.4 B2 B2.G4 A1237G/T1650A N413D/S550 3.8 B3 B3.H7 A1237G/T1650A/T1481C N413D/S550/V494A 10.5 B4 B4.F12 A1237G/T1650A/T1481C/ N413D/S550/V494A/ 15.2 T1830A S610 a Synonymous mutations are indicated by italics.</p><p>dialyzed extensively against the same buffer (the first dialysis buffer contained 0.2 mM CuSO 4 ). The dialyzed protein was filtered through a 0.2 µm filter and frozen immediately at -80°C. Fungal GOase was purified by passage through a Sepharose 6B column. The eluted protein was incubated with 0.1 mM CuSO 4 for 4 h at 4°C and desalted using a Biogel column (Bio-Rad, Hercules, CA). The purified protein ran as a single band during SDS-PAGE (Novex, San Diego, CA). Protein concentrations were determined from the absorbance at 280 nm (ε ϭ 1.05ϫ10 5 M -1 cm -1 ) <ref type="bibr" target="#b10">(Ettinger, 1974)</ref>. Kinetic measurements were performed in 100 mM NaPi buffer, pH 7.0, over a range of D-galactose concentrations from 15 to 250 mM using the HRP-ABTS coupled assay <ref type="bibr" target="#b4">(Baron et al., 1994)</ref>. The rate of absorbance change was monitored by a Shimadzu (Columbia, MD) UV-Vis spectrophotometer at 420 nm (ε ϭ 42.3ϫ 10 3 M -1 cm -1 ) <ref type="bibr" target="#b39">(Yamazaki et al., 1997)</ref>. A Lineweaver-Burk plot was applied, and the kinetic parameters were calculated using the program KinetAsyst (IntelliKinetics, State College, PA).</p><p>UV-Vis spectra of wild-type and mutant GOases were recorded from 320 to 900 nm. Oxidation of GOase was performed in 100 mM NaPi, pH 7.0, by incubation with 100 mM K 3 [Fe(CN) 6 ] for 10 min followed by removal of the oxidant on a Biogel column at 4°C <ref type="bibr" target="#b36">(Whittaker and Whittaker, 1988)</ref>.</p><p>Thermostability of the purified native, wild-type and mutant GOases was assessed by measuring residual activity/initial activity over the temperature range 24-75°C. Enzymes (30 µl each, 0.054 mg/ml) were incubated at each temperature for 10 min in an MJ Research thermal cycler and chilled on ice before they were assayed in a microtiter plate. Stability at ambient temperature was measured by incubating 0.04 mg/ml GOase in the presence of 0.5 mM CuSO 4 and 3 U of catalase in a total volume of 100 µl and measuring activity as a function of time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GOase expression and directed evolution in E.coli</head><p>The GOase gene from pR3 was amplified to introduce the ATG initiation codon as well as the HindIII and XbaI restriction sites, and the amplified fragment was subcloned into a pUC18 vector. Introduction of a second lac promoter led to increased expression (data not shown) and yielded plasmid pGAO-036. The cloned gaoA gene includes a pro-sequence encoding 41 amino acid residues, the N-terminal part of which has been proposed to be associated with secretion <ref type="bibr" target="#b22">(McPherson et al., 1993)</ref> and which is cleaved in a copper-mediated self-processing reaction <ref type="bibr" target="#b26">(Rogers et al., 2000)</ref>. Functional expression of low levels of mature GOase in E.coli was accomplished in the absence of the pro-sequence.</p><p>To increase the total activity of GOase in E.coli, random mutagenesis was applied to the entire mature GOase gene and also to just the region of the gene encoding domains II and III which are responsible for catalytic activity <ref type="bibr" target="#b22">(McPherson et al., 1993)</ref>. Adjusting the concentration of Mn 2ϩ or Mg 2ϩ during the PCR led to an error rate of ~2-3 base substitutions per gene. Mutant libraries were screened for activity on D-galactose, using HRP to detect the hydrogen peroxide produced during the reaction <ref type="bibr" target="#b4">(Baron et al., 1994)</ref>. Higheractivity mutants identified in each round were subjected to further mutagenesis or recombination.</p><p>Screening 1600 mutants in the first round of mutagenesis of the complete GOase gene (library A1) generated two variants with 6-and 1.5-fold higher total activity toward D-galactose than the wild type (Table <ref type="table">I</ref>). The most active variant A1.D12 showed enhanced thermostability as well and was used as template for the second generation. Screening ~1600 clones in the second generation identified four variants with improved activity and enhanced thermostability (A2.C3). Recombination of these four generated A3.E7 with ~60-fold higher total activity than wild-type GOase.</p><p>Screening the first generation library created by random mutagenesis of domains II and III (library B1) produced variant B1.D4 with approximately twice the total activity of the wild type. Three more rounds of mutagenesis and screening yielded variant B4.F12 with ~15-fold higher total activity than the wild type. Recombining the best mutants (A3.E7 and B4.F12) and screening ~3200 clones yielded no further improvement in total activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein purification, kinetics and spectroscopy</head><p>A rapid two-step procedure consisting of fractionation by (NH 4 ) 2 SO 4 and chromatography on Sepharose 6B was</p><p>Table II. Yields and kinetic parameters of purified native fungal, wild-type and mutant GOases GOase Yield (mg l -1 ) K M (mM) k cat (s -1 ) k cat /K M (M -1 s -1 ) Native 95 Ϯ 8 1391 Ϯ 115 14 600 Ϯ 1700 Wild-type 0.6 57 Ϯ 3 1070 Ϯ 43 18 800 Ϯ 1200 B4.F12 4.7 57 Ϯ 3 1195 Ϯ 77 21 000 Ϯ 1700 A3.E7 10.8 43 Ϯ 2 1376 Ϯ 35 32 000 Ϯ 1700</p><p>developed for purification of GOase. Recombinant wild-type GOase and mutants B4.F12 and A3.E7 were purified and characterized. All three migrated on SDS-PAGE with an apparent molecular mass of 66 kDa rather than the 68.5 kDa predicted by the DNA sequence. The faster migration rate indicates that the thioether bond between Cys228 and Tyr272 is formed in all enzyme samples <ref type="bibr" target="#b4">(Baron et al., 1994;</ref><ref type="bibr" target="#b26">Rogers et al., 2000)</ref>, in contrast to results with an earlier GOase E.coli expression system in which the majority of the enzyme produced was inactive because it lacked the thioether bond <ref type="bibr" target="#b22">(McPherson et al., 1993)</ref>. Kinetic parameters for fungal GOase and E.coli-expressed wild-type and mutant GOases are reported in Table <ref type="table">II</ref>, as are the yields of purified enzymes. The fungal and wild-type recombinant GOases exhibit similar kinetic behavior. Variant B4.F12 shows an 8-fold increase in production of GOase at shake-flask level while retaining the catalytic efficiency of the wild type. The 30-fold increase in total activity for variant A3.E7 relative to wild-type reflects an 18-fold increase in GOase expression and a 1.7-fold increase in catalytic efficiency. This variant yields 10.8 mg/l purified enzyme.</p><p>The broad substrate specificity of wild-type GOase <ref type="bibr" target="#b29">(Schlegel et al., 1968;</ref><ref type="bibr" target="#b2">Avigad, 1985;</ref><ref type="bibr" target="#b6">Bretting and Jacobs, 1987;</ref><ref type="bibr" target="#b23">Mendonca and Zancan, 1987)</ref> is retained in the evolved enzymes. Glycerol, xylitol, β-D-lactose and IPTG are oxidized by the wild type at 0.4, 1.5, 5 and 40% the rate of galactose oxidation, respectively. Similar relative activities were observed for the variant GOases (data not shown).</p><p>Solutions of pure GOase as isolated are a mixture of two oxidation states, oxidized (Cu 2ϩ -Tyr o ) and semireduced (Cu 2ϩ -Tyr) <ref type="bibr" target="#b36">(Whittaker and Whittaker, 1988)</ref>. These states may be interconverted by treatment with oxidizing or reducing agents and are distinguished by their absorption spectra: the semireduced form shows weak absorption over the visible region whereas the oxidized form is characterized by an intense absorption band at 445 nm and a broad band with a maximum near 810 nm <ref type="bibr" target="#b36">(Whittaker and Whittaker, 1988;</ref><ref type="bibr" target="#b4">Baron et al., 1994)</ref>. Treatment of wild-type and evolved GOases with K 3 [Fe(CN) 6 ] at 4°C led to the generation of the tyrosyl radical and the spectrum of the oxidized species was found to persist for several hours at ambient temperature (Figure <ref type="figure" target="#fig_1">2</ref>) indicating that the oxidized form of the enzyme produced in E.coli has redox potential and stability comparable to the GOase from Fusarium <ref type="bibr" target="#b4">(Baron et al., 1994;</ref><ref type="bibr" target="#b25">Reynolds et al., 1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of GOase and mutants</head><p>The thermostabilities of the purified fungal and E.coliexpressed wild-type and mutant GOases are shown in Figure <ref type="figure" target="#fig_2">3</ref>. The T 50 (the temperature at which the enzyme loses 50% of its activity following incubation for 10 min) is increased to 67°C for both B4.F12 and A3.E7 relative to a T 50 of 63°C for wild type. However, the E.coli-expressed wild type is less stable than the fungal enzyme, whose T 50 is 67°C. Similar  results were obtained in the presence of 0.5 mM CuSO 4 (data not shown). Possible reasons for the reduced thermostability of the recombinant wild-type enzyme may be that the disulfide bonds do not form properly, or may be related to the lack of glycosylation.</p><p>The stabilities of the enzymes have also been determined under conditions used in the synthetic applications of GOase, i.e. at room temperature in the presence of CuSO 4 and catalase <ref type="bibr" target="#b27">(Root et al., 1985;</ref><ref type="bibr" target="#b20">Mazur and Hiler, 1997;</ref><ref type="bibr" target="#b17">Liu and Dordick, 1999)</ref>. As shown in Figure <ref type="figure" target="#fig_3">4</ref>, variants B4.F12 and A3.E7 and the fungal GOase are extremely stable, retaining ~80% activity following an 8-day incubation. In contrast, the wild type has lost ~50% activity under these conditions.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequences of evolved GOases</head><p>The mutations identified in the most highly expressed GOase variants are listed in Table <ref type="table">I</ref>. Amino acid substitutions S10P, M70V and N413D as well as the synonymous mutations in codons S550 and S610 contribute to enhanced expression. The V494A substitution leads to increases in expression (variant B3.H7) and thermostability (variant A1.D12). G195E is a thermostabilizing mutation that appeared in clone A2.C3. The advantageous effect of N535D on expression became evident when recombined with other mutations in generation A3.</p><p>Identifying the mechanisms for the increased expression is difficult. However, we can provide some speculation. The mutation leading to amino acid substitution S10P is located at the N-terminal of the GOase gene; the nucleotide sequence in this region strongly influences gene transcription <ref type="bibr" target="#b5">(Boer and Hui, 1990)</ref>. Mutations could also contribute to changes in the secondary structure of GOase mRNA, which can affect protein expression <ref type="bibr" target="#b8">(Cheong and Oriel, 2000)</ref>. Synonymous mutations S550 and S610 generate codons that are much less frequently used (TCT, 17.4 per 1000 to TCA, 1.0 per 1000). Using rare codons in specific regions of the gene can be advantageous for protein expression <ref type="bibr" target="#b15">(Komar et al., 1999)</ref>, probably by inducing pauses in translation which result in a slower rate of protein synthesis and decreased levels of protein misfolding.</p><p>Screening the library made by recombining mutants A3.E7 and B4.F12 did not identify a more active variant than A3.E7. Nor did introduction of the N413D substitution into mutant A3.E7 by site-directed mutagenesis lead to a more active clone, demonstrating that the effects of the mutations are not cumulative.</p><p>Figure <ref type="figure" target="#fig_4">5</ref> shows the positions of the amino acid substitutions in variants B4.F12 and A3.E7. The V494A substitution is adjacent to the Cu(II) ligands Tyr495 and His496. The thermostabilizing mutation G195E occurs in a loop at the active site entrance and 10 Å away from copper. In wild type, Gly195 forms a hydrogen bond (2.90 Å) with Tyr189. A second charged hydrogen bond to Gly196 (2.40 Å) is introduced upon replacement of Gly with Glu, which may explain the beneficial influence of this mutation on GOase stability.</p><p>Three of the mutations identified in the evolved GOases (Figure <ref type="figure" target="#fig_4">5</ref>) result in the replacement of neutral residues with negatively charged ones on the surface of the enzyme. Introduction of the negative charges reduces the unusually high basicity of the enzyme (pI ϭ 12) <ref type="bibr" target="#b19">(Mazur, 1991)</ref> and is expected to weaken interactions with other macromolecules. This will attenuate the sensitivity of GOase to inhibition and inactivation by macromolecular contaminants as well as promote reactivity with glycoconjugates attached on the cell membranes <ref type="bibr" target="#b19">(Mazur, 1991)</ref>. This effect, along with the thermostabilizing influence of V494A, need not be confined to E.coli as host for GOase expression; since these mutations are not detrimental to catalytic efficiency (Table <ref type="table">II</ref>), introduction of these amino acid substitutions to GOase and expression of the enzyme in highlevel expression hosts such as Pichia pastoris <ref type="bibr" target="#b34">(Whittaker and Whittaker, 2000)</ref> and Aspergillus oryzae <ref type="bibr" target="#b38">(Xu et al., 2000)</ref> should generate active GOase of reduced basicity and increased stability. Enhanced thermostability and improved expression in E.coli facilitate protein purification and characterization. Enhanced expression also improves the reproducibility and sensitivity of screening. Thus the evolved GOase will be advantageous as a template for further evolution.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Reaction catalyzed by GOase.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Optical absorption spectra of 16 µM A3.E7 GOase in the semireduced and oxidized states. Spectra of oxidized GOase were recorded immediately and at 12 and 24 h following redox-activation by K 3 [Fe(CN) 6 ].</figDesc><graphic coords="4,329.88,52.59,217.66,229.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Thermostability of wild-type, mutant and native GOases. Enzyme samples (1.6 µg) were assayed for thermal stability (residual activity/initial activity) after incubation for 10 min in 100 mM NaPi, pH 7.0, in a temperature range of 24 to 75°C.</figDesc><graphic coords="4,339.82,339.09,197.67,196.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Long-term stability of the native and E.coli-expressed GOases. Four micrograms of each enzyme were incubated at room temperature in the presence of 0.5 mM CuSO 4 and 3 U of catalase.</figDesc><graphic coords="5,49.24,52.59,241.64,186.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Amino acid substitutions identified in GOase variants A3.E7 and B4.F12. Mutations are illustrated in ball-and-stick form. Inset shows the copper ion and residues comprising the GOase active site.</figDesc><graphic coords="5,58.69,284.78,223.14,169.01" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>This work was supported by the <rs type="funder">Biotechnology Research and Development Corporation</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Eur</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Adanyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="220" to="226" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adanyi,N., Szabo,E.E. and Varadi,M. (1999) Eur. Food Res. Technol., 209, 220-226.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="125" to="131" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold,F.H. (1998) Acc. Chem. Res., 31, 125-131.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Avigad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page" from="531" to="537" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Avigad,G. (1985) Arch. Biochem. Biophys., 239, 531-537.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Avigad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Amaral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Asensio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Horecker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="2736" to="2743" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Avigad,G., Amaral,D., Asensio,C. and Horecker,B.L. (1962) J. Biol. Chem, 237, 2736-2743.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilmot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Seneviratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Blakeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dooley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page" from="25095" to="25105" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baron,A.J., Stevens,C., Wilmot,C., Seneviratne,K.D., Blakeley,V., Dooley,D.M., Phillips,S.E.V., Knowles,P.F. and McPherson,M.J. (1994) J. Biol. Chem., 269, 25095-25105.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="103" to="114" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boer,H.D. and Hui,A.S. (1990) Methods Enzymol., 185, 103-114.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bretting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">913</biblScope>
+			<biblScope unit="page" from="342" to="348" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bretting,H. and Jacobs,G. (1987) Biochim. Biophys. Acta, 913, 342-348.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Calderhead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Lienhard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="12171" to="12174" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calderhead,D.M. and Lienhard,G.E. (1988) J. Biol. Chem., 263, 12171-12174.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Cheong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Oriel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="152" to="158" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheong,T.K. and Oriel,P.J. (2000) Enzyme Microb. Technol., 26, 152-158.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A D</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Smithe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bacila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="445" to="448" />
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooper,J.A.D., Smithe,W., Bacila,M. and Medina,H. (1959) J. Biol. Chem., 234, 445-448.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ettinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1242" to="1251" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ettinger,M.J. (1974) Biochemistry, 13, 1242-1251.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Gahmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tolvanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">230</biblScope>
+			<biblScope unit="page" from="32" to="44" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gahmberg,C.G. and Tolvanen,M. (1994) Methods Enzymol., 230, 32-44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Regoeczi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="172" to="176" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hatton,M. and Regoeczi,E. (1982) Methods Enzymol., 89, 172-176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Ogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Keen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D S</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ito,N., Phillips,S.E.V., Stevens,C., Ogel,Z.B., McPherson,M.J., Keen,J.N., Yadav,K.D.S. and Knowles,P.F. (1991) Nature, 350, 87-90.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D S</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">238</biblScope>
+			<biblScope unit="page" from="794" to="814" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ito,N., Phillips,S.E.V., Yadav,K.D.S. and Knowles,P.F. (1994) J. Mol. Biol., 238, 794-814.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Komar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lesnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">462</biblScope>
+			<biblScope unit="page" from="387" to="391" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Komar,A.A., Lesnik,T. and Reiss,C. (1999) FEBS Lett., 462, 387-391.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Kuramitsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="999" to="1003" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lis,M. and Kuramitsu,H.K. (1997) Antimicrob. Agents Chemother., 41, 999- 1003.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Dordick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="466" to="467" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu,X.C. and Dordick,J.S. (1999) J. Am. Chem. Soc., 121, 466-467.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mannino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Cosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buratti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ital. J. Food Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mannino,S., Cosio,M.S. and Buratti,S. (1999) Ital. J. Food Sci., 11, 57-65.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Mazur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Symp. Ser</title>
+		<imprint>
+			<biblScope unit="volume">466</biblScope>
+			<biblScope unit="page" from="99" to="110" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazur,A.W. (1991) ACS Symp. Ser., 466, 99-110.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Hiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="4471" to="4475" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazur,A.W. and Hiler,G.D. (1997) J. Org. Chem., 62, 4471-4475.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Ogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D S</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Keen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="8146" to="8152" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McPherson,M.J., Ogel,Z.B., Stevens,C., Yadav,K.D.S., Keen,J.N. and Knowles,P.F. (1992) J. Biol. Chem., 267, 8146-8152.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Ogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seneviratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilmot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brocklebank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Soc. Trans</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="752" to="756" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McPherson,M.J., Stevens,C., Baron,A.J., Ogel,Z.B., Seneviratne,K., Wilmot,C., Ito,N., Brocklebank,I., Phillips,S.E.V. and Knowles,P.F. (1993) Biochem. Soc. Trans., 21, 752-756.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Mendonca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Zancan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">252</biblScope>
+			<biblScope unit="page" from="507" to="514" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendonca,M.H. and Zancan,G.T. (1987) Arch. Biochem. Biophys., 252, 507-514.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Petrounia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="325" to="330" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrounia,I.P. and Arnold,F.H. (2000) Curr. Opin. Biotechnol., 11, 325-330.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wilmot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vinesombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="327" to="335" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reynolds,M.P., Baron,A.J., Wilmot,C.M., Vinesombe,E., Stevens,C., Phillips,S.E.V., Knowles,P.F. and McPherson,M.J. (1997) J. Biol. Inorg. Chem, 2, 327-335.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dooley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="990" to="991" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rogers,M.S., Baron,A.J., McPherson,M.J., Knowles,P.F. and Dooley,D.M. (2000) J. Am. Chem. Soc., 122, 990-991.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Root</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Durrwachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="2997" to="2999" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Root,R.L., Durrwachter,J.R. and Wong,C.H. (1985) J. Am. Chem. Soc., 107, 2997-2999.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Said</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Shamsuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sherief</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Taleb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Aref</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Histol. Histopathol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="351" to="357" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Said,I.T., Shamsuddin,A.M., Sherief,M.A., Taleb,S.G., Aref,W.F. and Kumar,D. (1999) Histol. Histopathol., 14, 351-357.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Schlegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Gerbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Montgomery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr. Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="193" to="199" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schlegel,R.A., Gerbeck,C.M. and Montgomery,R. (1968) Carbohydr. Res., 7, 193-199.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Adanyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosens. Bioelectron</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1051" to="1058" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Szabo,E.E., Adanyi,N. and Varadi,M. (1996) Biosens. Bioelectron., 11, 1051-1058.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tkac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gemeiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sturdik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Tech</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="931" to="936" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tkac,J., Gemeiner,P. and Sturdik,E. (1999) Biotechnol. Tech., 13, 931-936.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Weigel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hitzmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C D</forename><surname>Ricci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="57" to="62" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vega,F.A., Nunez,C.G., Weigel,B., Hitzmann,B. and Ricci,J.C.D. (1998) Anal. Chim. Acta, 373, 57-62.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vrbova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peckova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Collect. Czech. Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="2287" to="2294" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vrbova,E., Peckova,J. and Marek,M. (1992) Collect. Czech. Chem. Commun., 57, 2287-2294.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Protein Express Purif</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whittaker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="105" to="111" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittaker,M. and Whittaker,J. (2000) Protein Express Purif., 20, 105-111.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ballou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whittaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="8426" to="8436" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittaker,M., Ballou,D. and Whittaker,J. (1998) Biochemistry, 37, 8426-8436.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Whittaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="6074" to="6080" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittaker,M.M. and Whittaker,J.W. (1988) J. Biol. Chem., 263, 6074-6080.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Devito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Asher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Whittaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page" from="7104" to="7106" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittaker,M.M., Devito,V.L., Asher,S.A. and Whittaker,J.W. (1989) J. Biol. Chem., 264, 7104-7106.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Golightly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johnstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fuglsang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Svendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klotz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Biochem. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="23" to="32" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu,F., Golightly,E., Schneider,P., Berka,R., Brown,K., Johnstone,J., Baker,D., Fuglsang,C., Brown,S., Svendsen,A. and Klotz,A. (2000) Appl. Biochem. Biotechnol., 88, 23-32.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tsugawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sode</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Denki Kagaku</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="435" to="439" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamazaki,T., Tsugawa,W. and Sode,K. (1997) Denki Kagaku, 65, 435-439.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Shamsuddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Histol. Histopathol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="801" to="806" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang,G.Y. and Shamsuddin,A.M. (1996) Histol. Histopathol., 11, 801-806.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Affholter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="258" to="261" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao,H.M., Giver,L., Shao,Z.X., Affholter,J.A. and Arnold,F.H. (1998) Nature Biotechnol., 16, 258-261.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

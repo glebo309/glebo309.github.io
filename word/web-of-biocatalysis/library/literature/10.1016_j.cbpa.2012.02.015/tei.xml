@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biocatalysts and their small molecule products from metagenomic studies</title>
+				<funder>
+					<orgName type="full">Howard Hughes Medical Institute</orgName>
+				</funder>
+				<funder ref="#_wpnGjeZ">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-10-01">2012 October 01</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Hala</forename><forename type="middle">A</forename><surname>Iqbal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhiyang</forename><surname>Feng</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Sean</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+							<email>sbrady@rockefeller.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Genetically Encoded Small Molecules</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">The Rockefeller University</orgName>
+								<address>
+									<addrLine>1230 York Avenue</addrLine>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratory of Genetically Encoded Small Molecules</orgName>
+								<orgName type="institution">The Rockefeller University</orgName>
+								<address>
+									<addrLine>1230 York Avenue</addrLine>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biocatalysts and their small molecule products from metagenomic studies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-10-01">2012 October 01</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4024CBE9931097AC2FCB19C53076F3C0</idno>
+					<idno type="DOI">10.1016/j.cbpa.2012.02.015</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The vast majority of bacteria present in environmental samples have never been cultured and therefore they have not been available to exploit their ability to produce useful biocatalysts or collections of biocatalysts that can biosynthesize interesting small molecules. Metagenomic libraries constructed using DNA extracted directly from natural bacterial communities offer access to the genetic information present in the genomes of these as yet uncultured bacteria. This review highlights recent efforts to recover both discrete enzymes and small molecules from metagenomic libraries.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>It is estimated that up to 99% of bacteria in the environment are not readily cultured in the lab and as a result, most bacteria in the earth's biosphere have never been explored for the production of potentially useful products <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. While it is not possible to characterize the enzymes and small molecules produced by uncultured bacteria using traditional microbiological methods, it is possible to extract microbial DNA directly from an environmental sample (environmental DNA, eDNA) and clone this DNA into easily cultured bacteria. This general strategy has been termed "metagenomics" <ref type="bibr" target="#b2">[3]</ref>. Metagenomic libraries constructed using DNA extracted directly from naturally occurring bacterial populations are now used extensively to screen for clones that have the genetic capacity to produce new biocatalysts as well as their small molecule products. Whether looking for novel enzymes or new small molecules, most approaches employed to examine metagenomic libraries can be divided into two general categories: 1. functional screening, which relies on the heterologous expression of eDNA in a model cultured host to yield a phenotype of interest and 2. homology screening, which relies on DNA sequence similarity to identify clones containing a specific gene of interest (Figure <ref type="figure" target="#fig_0">1</ref>). Here we present recent functional and homology-based metagenomic studies that have identified either novel bacterial enzymes (Table <ref type="table">1</ref>) or collections of enzymes (gene clusters) that encode the biosynthesis of interesting small molecules (Figure <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional Screening for Discrete Biocatalysts</head><p>Functional screening of metagenomic libraries for industrially relevant enzymes has often been conducted using the desired enzymatic activity as a direct readout. In recent years, functional screening efforts have expanded beyond these simple assays to include the use of reporter genes and complementation as tools for identifying metagenomic clones encoding enzymes of interest.</p><p>In simple direct readout assays, libraries are plated on media containing a substrate for an enzyme of interest, and the appearance of either a halo or color is then used to identify clones encoding the product of the desired enzyme. For example, plates containing 5bromo-4-chloro-3-indolyl caprylate (X-caprylate) or 5-bromo-4-chloro-3-indolyl-β-Dgalactopyranoside (X-gal), both of which yield a blue precipitate upon hydrolysis, have been used to recover novel esterases and β-galactosidases from metagenomic libraries <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. In another recent study, Hu et. al. screened an Antarctic desert soil metagenomic library for esterases using agar plates containing the substrate triglyceride tributyrin <ref type="bibr" target="#b5">[6]</ref>. From a clone surrounded by a clear halo, which indicated tributyrin hydrolysis, they characterized a coldactive esterase only distantly related to reported lipases. Other examples of identifying novel enzymes from metagenomic libraries using this approach include screening for proteases on plates supplemented with skim milk, amylases on starch plates and cellulases on carboxymethylcellulose plates <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>.</p><p>Unfortunately, most enzymes are not amenable to identification by simply screening for changes in colony appearance. Uchiyama and Miyazaki have developed "gene-expression" reporter assays in an attempt to overcome these limitations. In their product-induced geneexpression (PIGEX) assay, a reporter gene is coupled to a product-sensitive transcription factor such that the presence of the product of a desired enzymatic reaction leads to the transcription of the reporter gene <ref type="bibr" target="#b9">[10]</ref>. Their proof of principle study used green fluorescent protein (GFP) placed under the control of a benzoate-sensitive transcription factor to screen for new amidases. In this assay, amidases convert benzamide to benzoate resulting in the expression of GFP by the benzoate-sensitive transcription factor. Using a wastewater sludge metagenomic library, the authors found 11 unique amidases, three of which were distantly related to known amidases. Conceptually similar assays, including a substrate-induced geneexpression (SIGEX) assay designed to identify enzymes involved in the catabolism of a compound of interest and a lacZ-based reporter assay designed to identify attenuators of quorum sensing, have also been used to screen metagenomic libraries <ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref><ref type="bibr" target="#b13">[13]</ref>.</p><p>In addition to reporter gene assays, complementation has been used as a strategy for isolating novel biocatalysts from metagenomic libraries. In these studies, the ability of metagenomic clones to restore, or complement, a mutation in a reporter strain, is used to detect the expression of an enzyme of interest. This approach was used by Simon et. al. to identify new DNA polymerases from uncultured environmental bacteria. In this study, a glacial ice metagenomic library was transformed into a temperature-sensitive strain of E. coli harboring a cold-inactive polymerase mutation that is lethal below 20°C [14]. When the library was shifted to 18°C only E. coli containing clones capable of complementing the temperature-sensitive polymerase mutation could grow. In total, nine complementing clones were recovered and they were found to encode either DNA polymerases or domains typical of polymerase enzymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Homology-Based Screening</head><p>Homology-based screening has typically involved the use of PCR and/or colony hybridization to identify new members of a known gene family. PCR screening has been used, for example, to identify new proteases, herbicide-degrading genes and copper resistance enzymes <ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref>. In an extension of this strategy, Wang et al generated a library of chimeric lipases with distinct substrate specificities by shuffling pools of eDNA derived PCR amplified lipase gene fragments <ref type="bibr" target="#b18">[18]</ref>.</p><p>With advances in next generation sequencing, it has now become possible to bypass experimental hybridization methods and instead use bioinformatics to detect conserved enzymatic sequence motifs in shotgun sequenced eDNA. This approach is intrinsically higher throughput and allows for more flexible homology searches than PCR. Hess, et. al. shotgun sequenced a 286 Gb cow rumen metagenomic library and searched this dataset for cellulolytic enzymes with potential applications in the biofuel industry <ref type="bibr" target="#b19">[19]</ref>. Their homology search revealed 28,000 potential carbohydrate active genes, of which 90 candidate genes were amplified from cow rumen eDNA, expressed and tested for activity against 10 different carbohydrate substrates. More than half of these enzymes were verified as active on at least one substrate.</p><p>The utility of sequence-based screening has also been extended to existing metagenomic datasets. Although the DNA encoding sequences found in public databases are not directly available for functional analysis, enzymes of interest can be characterized using what has been called "synthetic metagenomics" <ref type="bibr" target="#b20">[20]</ref>. In this approach, genes of interest are codon optimized, chemically synthesized, cloned and then expressed in a heterologous host. Bayer, et. al. bioinformatically mined methyl halide transferase (MHT) enzymes, which can be used to produce agriculturally relevant fumigants, from the NCBI sequence database comprising both cultured and uncultured organisms. Their homology search revealed 89 potential MHT genes, which were chemically synthesized and then expressed in E. coli. All but 5 of the enzymes were verified to produce methyl halides in the presence of halide salts. A similar approach coupling sequence-based screening with gene synthesis, was used by Allgaier et. al. to study glycoside hydrolases from metagenomic sequencing data derived from compost bacteria <ref type="bibr" target="#b21">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>From Discrete Enzymes to Biosynthetic Pathways</head><p>Beyond industrially relevant enzymes, bacteria are the source of numerous small molecules with pharmaceutically important activities such as antibiosis, cytotoxicity and immunosuppression <ref type="bibr" target="#b22">[22,</ref><ref type="bibr" target="#b23">23]</ref>. As with the search for discrete biocatalysts, the search for collections of biocatalysts that can biosynthesize small molecules of interest has been carried out using both functional and homology-based approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional Screening</head><p>Assays for detecting clones of interest have focused primarily on simple phenotypically identifiable traits such as antibiosis and color that are often associated with secondary metabolite production. The small number of high throughput assays available for detecting clones that produce small molecules has limited functional screening, thus new assays are needed. In an example of a novel screen, Fujita et. al. reported the use of the indicator Chrome Azurol S (CAS), which changes from orange to blue in the presence of iron, to isolate clones encoding siderophores (iron chelators) from marine metagenomic libraries hosted in E. coli. In these studies they recovered gene clusters from the known siderophores Bisucaberin (1) and Vibrioferrin (2) <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b25">25]</ref>. Other functional studies have focused on expanding the phylogenetic diversity of bacterial hosts available for metagenomic based small molecule discovery efforts <ref type="bibr" target="#b26">[26,</ref><ref type="bibr" target="#b27">27]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Homology-based Screening</head><p>In homology-based small molecule discovery efforts, a metagenomic library, or even crude eDNA sequencing data, is probed to identify gene clusters containing conserved sequences that are predicted to be associated with the biosynthesis of a molecule of interest. Complete eDNA derived gene clusters and individual eDNA derived enzymes have been used to generate both new and known bioactive secondary metabolites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glycopeptides</head><p>Vancomycin and teicoplanin are clinically used glycopeptide antibiotics that exhibit activity against methicillin resistant Gram-positive bacteria. Banik et. al. used degenerate primers based on OxyC, a conserved oxidative coupling enzyme found in vancomycin and teicoplanin-like glycopeptide gene clusters, to identify and recover multiple predicted glycopeptide-encoding gene clusters from soil metagenomic libraries <ref type="bibr" target="#b28">[28]</ref>. The recovery of complete biosynthetic gene clusters in these studies required the construction of megalibraries containing in excess of 10,000,000 unique cosmid clones. Recombinant sulfotransferases from one pathway were used in vitro to modify the teicoplanin aglycone, producing novel mono, di-and tri-sulfated glycopeptide derivatives <ref type="bibr" target="#b2">(3)</ref>. In a subsequent study, tailoring enzymes found in eDNA-derived glycopeptide biosynthetic clusters were expressed in Streptomyces toyocaensis, which naturally produces the mono-sulfated glycopeptide A47934 <ref type="bibr" target="#b29">[29]</ref>. This resulted in new glycopeptide derivatives featuring methyl, sulfur and sugar substituents, which were further derivatized in vitro using sulfotransferases. In total 15 new anionic (sulfated) glycopeptide antibiotics were generated in these studies <ref type="bibr" target="#b3">(4)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyanobactins</head><p>Cyanobactins are ribosomally-produced cyclic peptides that are prevalent in extracts derived from marine samples, and they frequently display interesting cytotoxic activities <ref type="bibr" target="#b30">[30]</ref>. In 2005, two separate groups reported the cloning and heterologous expression of biosynthetic gene clusters for the cyanobactins patellamide from metagenomic libraries of uncultured cyanobacterial symbionts associated with marine Didemnidae sponges <ref type="bibr" target="#b31">[31,</ref><ref type="bibr" target="#b32">32]</ref>. Using end sequencing data and PCR primers based on conserved cyanobactin biosynthetic genes, gene clusters that encode both known and novel cyanobactins have subsequently been recovered from other marine symbiont metagenomic libraries. Donia et. al. recovered the complete gene cluster for the known cyanobactin trunkamide (5) on a single fosmid found in an ascidian metagenomic library, and in a similar study, the same group cloned the gene cluster for minimide <ref type="bibr" target="#b5">(6)</ref>, which they predicted would be a novel cyanobactin <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34]</ref>. Upon reengineering and optimization of this gene cluster, minimide was successfully heterologously expressed in E. coli. The Schmidt group took advantage of the fact that the structural diversity seen in cyanobactins largely arises from small changes in the gene encoding the ribosomally translated precursor peptide and employed a combination of orthogonal tRNAs loaded with unnatural amino acids, precursor peptide mutagenesis, and gene shuffling to generate a library of hybrid cyanobactins using the eDNA derived trunkamide biosynthetic machinery <ref type="bibr" target="#b35">[35]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Type II polyketides</head><p>A structurally diverse collection of aromatic small molecules, including many antimicrobial and anticancer agents (e.g. tetracycline and doxorubicin), arise from iterative or Type II polyketide synthases <ref type="bibr" target="#b36">[36]</ref>. While the gene clusters that code for the biosynthesis of these molecules are very different in their details, they all contain a minimal polyketide synthase that is composed of three highly conserved genes (two ketosynthases and an acyl carrier protein). Both PCR studies and high throughput sequencing efforts have shown that eDNA samples are rich in novel minimal PKS genes <ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b38">38]</ref>. In an effort to identify novel bioactive metabolites, Feng et al. used degenerate primers based on conserved sequences found in minimal polyketide synthase genes to recover polyketide biosynthetic gene clusters captured in soil eDNA libraries. Minimal PKS containing eDNA clones were introduced into model cultured Streptomyces hosts for heterologous expression studies. Characterization of the metabolites produced in these studies identified a number of new metabolites with either previously unknown or rare carbon skeletons (7-10), one family of which exhibits activity against antibiotic resistant bacteria <ref type="bibr" target="#b39">[39]</ref><ref type="bibr" target="#b40">[40]</ref><ref type="bibr" target="#b41">[41]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trans-acyltransferse (trans-AT) polyketides</head><p>A number of pharmacologically interesting polyketides isolated from uncultured marine symbionts are predicted to be biosynthesized using freestanding acyltransferases, or trans-ATs <ref type="bibr" target="#b42">[42]</ref>. A productive strategy for identifying gene clusters encoding these metabolites has been to probe marine metagenomic libraries for trans-AT specific sequences. Trans-AT ketosynthase (KS) domains phylogenetically cluster in accordance with the specific substrate used by the KS domain. Using primers designed to recognize KS domains that utilize acetyl-derived starter units, Fisch et. al. isolated a single amplicon present in a psymberin-producing marine sponge library that was absent in libraries from samples that did not produce the compound <ref type="bibr" target="#b43">[43]</ref>. They then used this sequence to recover the psymberin <ref type="bibr" target="#b11">(11)</ref> gene cluster from a Psammocinia bulbosa fosmid metagenomic library. Although no report of the heterologous expression of the complete psymberin gene cluster has yet appeared in the literature, the Piel group has reported the use of eDNA derived tailoring enzymes to modify trans-AT polyketides in vitro. They used an O-methyltransferase from the pederin gene clusters, which they cloned a number of years ago from a beetle symbiont metagenomic library, to site-specifically methylate the mycalamide A resulting in the production of a hybrid compound 18-O-methylmycalamide <ref type="bibr" target="#b12">(12)</ref> with enhanced antitumor activity <ref type="bibr" target="#b44">[44,</ref><ref type="bibr" target="#b45">45]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ET-743</head><p>Rath et. al recovered the biosynthetic cluster for the anticancer agent ET-743 (13) from a metagenomic library of uncultured tunicate bacterial symbionts <ref type="bibr" target="#b46">[46]</ref>. The parallels between ET-743 and other tetrahydroisoquinoline structures such as saframycin and safracin led the authors of this study to the hypothesis that ET-743 was of bacterial origin and encoded by a non-ribosomal peptide synthase similar to that seen in other tetrahydroisoquinoline gene clusters. In a cloning-independent strategy, DNA isolated directly from field collected bacterial symbionts found in a tunicate shown to produce ET-743 was 454 pyrosequenced. This data was assembled and candidate ET-743 related nonribosomal peptide synthetase (NRPS) genes were identified by their similarity to saframycin and safracin biosynthetic genes. One NRPS cluster found in these experiments was predicted to contain all of the biosynthetic genes necessary for the assembly of a tetrahydroisoquinoline core. The enzymatic activity of the predicted reductive termination domain seen in this cluster was subsequently confirmed in vitro using saframycin intermediates as substrates, linking the gene cluster to ET-743 biosynthesis in a cloning-independent manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Single Cell Genomics</head><p>Single cell genomics has been used to aid sequence-based screening efforts. In this strategy, single bacterial cells are isolated from complex microbial communities and then subjected to multiple displacement amplification (MDA) in order to obtain sufficient genomic DNA for sequencing <ref type="bibr" target="#b47">[47]</ref>. In a study by Grindberg, et al., single cells of Lyngbya bouillonii were isolated from cyanobacterial filaments containing a consortium of symbiotic bacteria <ref type="bibr" target="#b48">[48]</ref>. DNA from these cells was amplified by MDA, sequenced and confirmed to be L. bouilonii by 16S analysis. Biosynthetic genes of the known polyketide/nonribosomal peptide hybrid Apratoxin <ref type="bibr" target="#b14">(14)</ref> were identified by screening in silico for genes predicted to be involved in the introduction of the β-alkylation seen in this metabolite. Clones containing the apratoxin biosynthetic gene cluster were subsequently recovered from a Lyngbya bouillonii-symbiont metagenomic genomic library. In other examples of this approach, fluorescence-activated cell sorting (FACS) has been used to obtain single cells prior to MDA and the sequence data obtained from these cells has shed light on the biosynthetic capacities of individual sponge symbionts <ref type="bibr" target="#b49">[49,</ref><ref type="bibr" target="#b50">50]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future Prospects</head><p>The reservoir of potentially useful products encoded by the earth's microbiome is still largely underexplored, as only a small minority of bacterial species has been cultured in the laboratory. Metagenomic methods have begun to provide access to both biocatalysts and metabolites encoded within the genomes of these previously inaccessible bacteria. In the years to come, advances in sequencing technologies, bioinformatics prediction tools, heterologous expression methods and synthetic biology will undoubtedly increase the efficiency and utility of this general approach.  Representative small molecules studied using metagenomic methods. Enzymatic Modifications to molecules are highlighted in red.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1.Overview of metagenomic screening methods.</figDesc><graphic coords="11,174.00,61.00,324.00,389.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2.</figDesc><graphic coords="12,156.00,61.00,360.00,419.76" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Curr Opin Chem Biol. Author manuscript; available in PMC 2012 October 01.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by <rs type="funder">NIH</rs> <rs type="grantNumber">GM077516</rs>. SFB is a <rs type="funder">Howard Hughes Medical Institute</rs> early career scientist.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wpnGjeZ">
+					<idno type="grant-number">GM077516</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Highlights</head><p>• The majority of environmental bacteria remain uncultured</p><p>• Metagenomics provides access to the genomes of uncultured bacteria • Biocatalysts have been discovered using functional and sequence based screening</p><p>• Collections of biocatalysts that produce small molecules have also been discovered</p><p>Table <ref type="table">1</ref> Summary of representative biocatalyst directed metagenomic screens. Curr Opin Chem Biol. Author manuscript; available in PMC 2012 October 01.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">High diversity in DNA of soil bacteria</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Torsvik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goksøyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Daae</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="782" to="787" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 2317046</note>
+	<note type="raw_reference">Torsvik V, Goksøyr J, Daae FL. High diversity in DNA of soil bacteria. Appl Environ Microbiol. 1990; 56:782-787. [PubMed: 2317046]</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The uncultured microbial majority</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rappé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Giovannoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="369" to="394" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 14527284</note>
+	<note type="raw_reference">Rappé MS, Giovannoni SJ. The uncultured microbial majority. Annu Rev Microbiol. 2003; 57:369- 94. [PubMed: 14527284]</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Handelsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Rondon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="R245" to="249" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 9818143</note>
+	<note type="raw_reference">Handelsman J, Rondon MR, Brady SF, Clardy J, Goodman RM. Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products. Chem Biol. 1998; 5:R245- 249. [PubMed: 9818143]</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Isolation and Characterization of a Novel Tannase from a Metagenomic Library</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3812" to="3818" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21388130</note>
+	<note type="raw_reference">Yao J, Fan XJ, Lu Y, Liu YH. Isolation and Characterization of a Novel Tannase from a Metagenomic Library. J Agric Food Chem. 2011; 59:3812-3818. [PubMed: 21388130]</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A novel metagenome-derived beta-galactosidase: gene cloning, overexpression, purification and characterization</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="155" to="165" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang K, Li G, Yu SQ, Zhang CT, Liu YH. A novel metagenome-derived beta-galactosidase: gene cloning, overexpression, purification and characterization. Appl Environ Microbiol. 2010; 88:155- 165.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A novel, extremely alkaliphilic and cold-active esterase from Antarctic desert soil</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tuffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Extremophiles</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22052561</note>
+	<note type="raw_reference">Hu XP, Heath C, Taylor MP, Tuffin M, Cowan D. A novel, extremely alkaliphilic and cold-active esterase from Antarctic desert soil. Extremophiles. 2011; 16:79-86. [PubMed: 22052561]</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of two serine proteases from metagenomic libraries of the Gobi and Death Valley deserts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neveu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Regeard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Dubow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="635" to="644" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neveu J, Regeard C, Dubow MS. Isolation and characterization of two serine proteases from metagenomic libraries of the Gobi and Death Valley deserts. Appl Environ Microbiol. 2011; 91:635-644.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Identification and Phylogenetic Characterization of a New Subfamily of α-Amylase Enzymes from Marine Microorganisms</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">201110.1007/s10126-011-9414-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biotechnol</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Liu Y, Lei Y, Zhang X, Gao Y, Xiao Y, Peng H. Identification and Phylogenetic Characterization of a New Subfamily of α-Amylase Enzymes from Marine Microorganisms. Mar Biotechnol. 201110.1007/s10126-011-9414-3</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Identification of cellulase genes from the metagenomes of compost soils and functional characterization of one novel endoglucanase</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-J</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-C</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-X</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="404" to="408" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19159974</note>
+	<note type="raw_reference">Pang H, Zhang P, Duan C-J, Mo X-C, Tang J-L, Feng J-X. Identification of cellulase genes from the metagenomes of compost soils and functional characterization of one novel endoglucanase. Curr Microbiol. 2009; 58:404-408. [PubMed: 19159974]</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">*</forename><forename type="middle">*</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">**.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">This paper describes a gene expression reporter assay for detecting enzymes via their products. A metabolite-sensitive transcription factor is coupled to a reporter gene to allow detection of the product</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyazaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="7029" to="7035" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>PIGEX (Product-Induced Gene Expression</orgName>
+		</respStmt>
+	</monogr>
+	<note>Product-Induced Gene Expression, a Product-Responsive Reporter Assay Used To Screen Metagenomic Libraries for Enzyme-Encoding Genes In this proof of principle study was used to find known and novel amidases PubMed: 20833789</note>
+	<note type="raw_reference">Uchiyama T, Miyazaki K. Product-Induced Gene Expression, a Product-Responsive Reporter Assay Used To Screen Metagenomic Libraries for Enzyme-Encoding Genes. Appl Environ Microbiol. 2010; 76:7029-7035. This paper describes a gene expression reporter assay for detecting enzymes via their products. A metabolite-sensitive transcription factor is coupled to a reporter gene to allow detection of the product. In this proof of principle study, PIGEX (Product- Induced Gene Expression) was used to find known and novel amidases. [PubMed: 20833789]</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Substrate-induced gene-expression screening of environmental metagenome libraries for isolation of catabolic genes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ikemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="88" to="93" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15608629</note>
+	<note type="raw_reference">Uchiyama T, Abe T, Ikemura T, Watanabe K. Substrate-induced gene-expression screening of environmental metagenome libraries for isolation of catabolic genes. Nat Biotechnol. 2005; 23:88- 93. [PubMed: 15608629]</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A Novel Metagenomic Short-Chain Dehydrogenase/Reductase Attenuates Pseudomonas aeruginosa Biofilm Formation and Virulence on Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Utpatel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bijtenhoorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mayerhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hornung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Szesny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thu</forename><forename type="middle">A</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dierking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 26278</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22046268</note>
+	<note type="raw_reference">Utpatel C, Bijtenhoorn P, Mayerhofer H, Mu J, Hornung C, Szesny M, Grond S, Thu A, Daniel R, Dierking K, et al. A Novel Metagenomic Short-Chain Dehydrogenase/Reductase Attenuates Pseudomonas aeruginosa Biofilm Formation and Virulence on Caenorhabditis elegans. PLoS One. 2011; 6:e26278. [PubMed: 22046268]</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Metagenome-Derived Clones Encoding Two Novel Lactonase Family Proteins Involved in Biofilm Inhibition in Pseudomonas aeruginosa</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schipper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hornung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bijtenhoorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Quitschau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Streit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="224" to="233" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18997026</note>
+	<note type="raw_reference">Schipper C, Hornung C, Bijtenhoorn P, Quitschau M, Streit WR, Grond S. Metagenome-Derived Clones Encoding Two Novel Lactonase Family Proteins Involved in Biofilm Inhibition in Pseudomonas aeruginosa. Appl Environ Microbiol. 2009; 75:224-233. [PubMed: 18997026]</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Rapid Identification of Genes Encoding DNA Polymerases by Function-Based Screening of Metagenomic Libraries Derived from Glacial Ice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rockstroh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Daniel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="2964" to="2968" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19270136</note>
+	<note type="raw_reference">Simon C, Herath J, Rockstroh S, Daniel R. Rapid Identification of Genes Encoding DNA Polymerases by Function-Based Screening of Metagenomic Libraries Derived from Glacial Ice. Appl Environ Microbiol. 2009; 75:2964-2968. [PubMed: 19270136]</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Enzymes for the laundry industries: tapping the vast metagenomic pool of alkaline proteases</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Niehaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gabor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wieland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Siegert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="767" to="776" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21895993</note>
+	<note type="raw_reference">Niehaus F, Gabor E, Wieland S, Siegert P, Maurer KH, Eck J. Enzymes for the laundry industries: tapping the vast metagenomic pool of alkaline proteases. Microb Biotechnol. 2011; 4:767-776. [PubMed: 21895993]</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Abundance of Novel and Diverse tfdA-Like Genes, Encoding Putative Phenoxyalkanoic Acid Herbicide-Degrading Dioxygenases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zaprasis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>-Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-Jiang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soil. Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="119" to="128" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19880651</note>
+	<note type="raw_reference">Zaprasis A, Liu Y-jun, Liu S-jiang, L H, Horn MA, Drake HL. Abundance of Novel and Diverse tfdA-Like Genes, Encoding Putative Phenoxyalkanoic Acid Herbicide-Degrading Dioxygenases, in Soil. Appl Environ Microbiol. 2010; 76:119-128. [PubMed: 19880651]</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Novel polymerase chain reaction primers for the specific detection of bacterial copper P-type ATPases gene sequences in environmental isolates and metagenomic DNA</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>De La Iglesia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Valenzuela-Heredia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Pavissich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Freyhoffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Correa</forename><surname>Ja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gonzáez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lett Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="552" to="562" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20337927</note>
+	<note type="raw_reference">De la Iglesia R, Valenzuela-Heredia D, Pavissich JP, Freyhoffer S, Andrade S, Correa Ja, Gonzáez B. Novel polymerase chain reaction primers for the specific detection of bacterial copper P-type ATPases gene sequences in environmental isolates and metagenomic DNA. Lett Appl Microbiol. 2010; 50:552-562. [PubMed: 20337927]</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Prospecting metagenomic enzyme subfamily genes for DNA family shuffling by a novel PCR-based approach</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="41509" to="41516" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20962349</note>
+	<note type="raw_reference">Wang Q, Wu H, Wang A, Du P, Pei X, Li H, Yin X, Huang L, Xiong X. Prospecting metagenomic enzyme subfamily genes for DNA family shuffling by a novel PCR-based approach. J Biol Chem. 2010; 285:41509-41516. [PubMed: 20962349]</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">In this report, a sequence-based approach is used to uncover novel biocatalysts. Shotgun sequencing data from the microbial community of cow rumen was searched in silico for new cellulases</title>
+		<author>
+			<persName><forename type="first">*</forename><forename type="middle">*</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="463" to="467" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Metagenomic Discovery of Biomass-Degrading Genes and Genomes from Cow Rumen PubMed: 21273488</note>
+	<note type="raw_reference">**. Hess M. Metagenomic Discovery of Biomass-Degrading Genes and Genomes from Cow Rumen. Science. 2011; 331:463-467. In this report, a sequence-based approach is used to uncover novel biocatalysts. Shotgun sequencing data from the microbial community of cow rumen was searched in silico for new cellulases. [PubMed: 21273488]</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Synthesis of Methyl Halides from Biomass Using Engineered Microbes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Widmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Temme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Mirsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Santi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Voigt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6508" to="6515" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19378995</note>
+	<note type="raw_reference">Bayer TS, Widmaier DM, Temme K, Mirsky EA, Santi DV, Voigt CA. Synthesis of Methyl Halides from Biomass Using Engineered Microbes. J Am Chem Soc. 2009; 131:6508-6515. [PubMed: 19378995]</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Targeted Discovery of Glycoside Hydrolases from a Switchgrass-Adapted Compost Community</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Allgaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Sapra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hazen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Vandergheynst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20098679</note>
+	<note type="raw_reference">Allgaier M, Reddy A, Park JI, Ivanova N, D P, Sapra R, Hazen TC, Simmons BA, Vandergheynst JS. Targeted Discovery of Glycoside Hydrolases from a Switchgrass-Adapted Compost Community. PLoS One. 2010; 5:e8812. [PubMed: 20098679]</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Mother Nature&apos;s gifts to diseases of man: the impact of natural products on anti-infective, anticholestemics and anticancer drug discovery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Newman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Drug Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="3" to="44" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Butler MS, Newman DJ. Mother Nature&apos;s gifts to diseases of man: the impact of natural products on anti-infective, anticholestemics and anticancer drug discovery. Prog Drug Res. 2008; 65:3-44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Natural products as sources of new drugs over the last 25 years</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Cragg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nat Prod</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">17309302</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newman DJ, Cragg GM. Natural products as sources of new drugs over the last 25 years. J Nat Prod. 2007; 70:461-477. [PubMed: 17309302]</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Heterologous production of bisucaberin using a biosynthetic gene cluster cloned from a deep sea metagenome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yokose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Otsuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biosyst</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="482" to="485" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22051782</note>
+	<note type="raw_reference">Fujita MJ, Kimura N, Yokose H, Otsuka M. Heterologous production of bisucaberin using a biosynthetic gene cluster cloned from a deep sea metagenome. Mol Biosyst. 2012; 8:482-485. [PubMed: 22051782]</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Cloning and Heterologous Expression of the Vibrioferrin Biosynthetic Gene Cluster from a Marine Metagenomic Library</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Otsuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci Biotechnol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="2283" to="2287" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22146715</note>
+	<note type="raw_reference">Fujita MJ, Kimura N, Sakai A, Ichikawa Y, Hanyu T, Otsuka M. Cloning and Heterologous Expression of the Vibrioferrin Biosynthetic Gene Cluster from a Marine Metagenomic Library. Biosci Biotechnol Biochem. 2011; 75:2283-2287. [PubMed: 22146715]</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Expanding small-molecule functional metagenomics through parallel screening of broad-host-range cosmid environmental DNA libraries in diverse proteobacteria</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F-Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Obiajulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1633" to="1641" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20081001</note>
+	<note type="raw_reference">Craig JW, Chang F-Y, Kim JH, Obiajulu SC, Brady SF. Expanding small-molecule functional metagenomics through parallel screening of broad-host-range cosmid environmental DNA libraries in diverse proteobacteria. Appl Environ Microbiol. 2010; 76:1633-1641. [PubMed: 20081001]</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Gram negative shuttle BAC vector for heterologous expression of metagenomic libraries</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kakirde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godiska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mead</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Wiggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Szybalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Liles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page" from="57" to="62" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21112378</note>
+	<note type="raw_reference">Kakirde KS, Wild J, Godiska R, Mead Da, Wiggins AG, Goodman RM, Szybalski W, Liles MR. Gram negative shuttle BAC vector for heterologous expression of metagenomic libraries. Gene. 2011; 475:57-62. [PubMed: 21112378]</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Cloning and characterization of new glycopeptide gene clusters found in an environmental DNA megalibrary</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Banik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="17273" to="17277" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18987322</note>
+	<note type="raw_reference">Banik JJ, Brady SF. Cloning and characterization of new glycopeptide gene clusters found in an environmental DNA megalibrary. Proc Natl Acad Sci USA. 2008; 105:17273-17277. [PubMed: 18987322]</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Tailoring enzyme-rich environmental DNA clones: a source of enzymes for generating libraries of unnatural natural products</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Banik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Calle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="15661" to="15670" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20945895</note>
+	<note type="raw_reference">Banik JJ, Craig JW, Calle PY, Brady SF. Tailoring enzyme-rich environmental DNA clones: a source of enzymes for generating libraries of unnatural natural products. J Am Chem Soc. 2010; 132:15661-15670. [PubMed: 20945895]</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cyanobactins-ribosomal cyclic peptides produced by cyanobacteria</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sivonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leikoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Fewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jokela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="1213" to="1225" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sivonen K, Leikoski N, Fewer DP, Jokela J. Cyanobactins-ribosomal cyclic peptides produced by cyanobacteria. Appl Environ Microbiol. 2010; 86:1213-1225.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Shotgun cloning and heterologous expression of the patellamide gene cluster as a strategy to achieving sustained metabolite production</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Battershill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaspars</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1760" to="1765" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15988766</note>
+	<note type="raw_reference">Long PF, Dunlap WC, Battershill CN, Jaspars M. Shotgun cloning and heterologous expression of the patellamide gene cluster as a strategy to achieving sustained metabolite production. Chembiochem. 2005; 6:1760-1765. [PubMed: 15988766]</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Patellamide A and C biosynthesis by a microcin-like pathway in Prochloron didemni, the cyanobacterial symbiont of Lissoclinum patella</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rasko</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sudek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eisen</forename><surname>Ja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Haygood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ravel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="7315" to="7320" />
+			<date type="published" when="2005">2005</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15883371</note>
+	<note type="raw_reference">Schmidt EW, Nelson JT, Rasko Da, Sudek S, Eisen Ja, Haygood MG, Ravel J. Patellamide A and C biosynthesis by a microcin-like pathway in Prochloron didemni, the cyanobacterial symbiont of Lissoclinum patella. Proc Natl Acad Sci USA. 2005; 102:7315-7320. [PubMed: 15883371]</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A global assembly line for cyanobactins</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Donia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ravel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="341" to="343" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18425112</note>
+	<note type="raw_reference">Donia MS, Ravel J, Schmidt EW. A global assembly line for cyanobactins. Nat Chem Biol. 2008; 4:341-343. [PubMed: 18425112]</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The authors report a library of novel cyanobactins that was produced using a combination of orthogonal tRNAs loaded with unnatural amino acids, precursor peptide mutagenesis, and gene shuffling</title>
+		<author>
+			<persName><forename type="first">*</forename><forename type="middle">*</forename><surname>Donia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ruffner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1230" to="1236" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Accessing the Hidden Majority of Marine Natural Products through Metagenomics PubMed: 21542088</note>
+	<note type="raw_reference">**. Donia MS, Ruffner DE, Cao S, Schmidt EW. Accessing the Hidden Majority of Marine Natural Products through Metagenomics. Chembiochem. 2011; 12:1230-1236. The authors report a library of novel cyanobactins that was produced using a combination of orthogonal tRNAs loaded with unnatural amino acids, precursor peptide mutagenesis, and gene shuffling. [PubMed: 21542088]</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ribosomal Route to small molecule diversity</title>
+		<author>
+			<persName><forename type="first">Mdb</forename><surname>Tianero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Donia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="418" to="425" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 22107593</note>
+	<note type="raw_reference">Tianero MDB, Donia MS, Young TS, Schultz PG, Schmidt EW. Ribosomal Route to small molecule diversity. J Am Chem Soc. 2012; 134:418-425. [PubMed: 22107593]</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Type II polyketide synthases: gaining a deeper insight into enzymatic teamwork</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hertweck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luzhetskyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rebets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bechthold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Prod Rep</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">17268612</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertweck C, Luzhetskyy A, Rebets Y, Bechthold A. Type II polyketide synthases: gaining a deeper insight into enzymatic teamwork. Nat Prod Rep. 2007; 24:162-190. [PubMed: 17268612]</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Biogeography of actinomycete communities and type II polyketide synthase genes in soils collected in New Jersey and Central Asia</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wawrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kutliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdivasievna</forename><surname>Ua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kukor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Zylstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kerkhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="2982" to="2989" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 17337547</note>
+	<note type="raw_reference">Wawrik B, Kutliev D, Abdivasievna Ua, Kukor JJ, Zylstra GJ, Kerkhof L. Biogeography of actinomycete communities and type II polyketide synthase genes in soils collected in New Jersey and Central Asia. Appl Environ Microbiol. 2007; 73:2982-2989. [PubMed: 17337547]</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Identification of Unique Type II Polyketide Synthase Genes in Soil</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wawrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kerkhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Zylstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jerome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kukor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="2232" to="2238" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 15870305</note>
+	<note type="raw_reference">Wawrik B, Kerkhof L, Zylstra GJ, Jerome J, Kukor JJ. Identification of Unique Type II Polyketide Synthase Genes in Soil. Appl Environ Microbiol. 2005; 71:2232-2238. [PubMed: 15870305]</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">An environmental DNA-derived type II polyketide biosynthetic pathway encodes the biosynthesis of the pentacyclic polyketide erdacin</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem Int Ed</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="6257" to="6261" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King RW, Bauer JD, Brady SF. An environmental DNA-derived type II polyketide biosynthetic pathway encodes the biosynthesis of the pentacyclic polyketide erdacin. Angew Chem Int Ed. 2009; 48:6257-61.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Fluostatins Produced by the Heterologous Expression of a TAR Reassembled Environmental DNA Derived Type II PKS Gene Cluster</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="11902" to="11903" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20690632</note>
+	<note type="raw_reference">Feng Z, Kim JH, Brady SF. Fluostatins Produced by the Heterologous Expression of a TAR Reassembled Environmental DNA Derived Type II PKS Gene Cluster. J Am Chem Soc. 2010; 132:11902-11903. [PubMed: 20690632]</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">In this paper, degenerate primers based on the minimal type II PKS were used to recover metagenomic clones containing polyketide gene clusters, and heterologous expression of these clusters led to the identification novel metabolites</title>
+		<author>
+			<persName><forename type="first">*</forename><forename type="middle">*</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kallifidas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="12629" to="12634" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Functional analysis of environmental DNA-derived type II polyketide synthases reveals structurally diverse secondary metabolites PubMed: 21768346</note>
+	<note type="raw_reference">**. Feng Z, Kallifidas D, Brady SF. Functional analysis of environmental DNA-derived type II polyketide synthases reveals structurally diverse secondary metabolites. Proc Natl Acad Sci USA. 2011; 108:12629-12634. In this paper, degenerate primers based on the minimal type II PKS were used to recover metagenomic clones containing polyketide gene clusters, and heterologous expression of these clusters led to the identification novel metabolites. [PubMed: 21768346]</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of polyketides by trans-AT polyketide synthases</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Prod Rep</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="996" to="1047" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20464003</note>
+	<note type="raw_reference">Piel J. Biosynthesis of polyketides by trans-AT polyketide synthases. Nat Prod Rep. 2010; 27:996- 1047. [PubMed: 20464003]</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Polyketide assembly lines of uncultivated sponge symbionts from structure-based gene targeting</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gurgui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Heycke</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Der Sar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anderson</forename><surname>Sa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Taudien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Platzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Rubio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="494" to="501" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19448639</note>
+	<note type="raw_reference">Fisch KM, Gurgui C, Heycke N, van der Sar Sa, Anderson Sa, Webb VL, Taudien S, Platzer M, Rubio BK, Robinson SJ, et al. Polyketide assembly lines of uncultivated sponge symbionts from structure-based gene targeting. Nat Chem Biol. 2009; 5:494-501. [PubMed: 19448639]</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A polyketide synthase-peptide synthetase gene cluster from an uncultured bacterial symbiont of Paederus beetles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="14002" to="14007" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 12381784</note>
+	<note type="raw_reference">Piel J. A polyketide synthase-peptide synthetase gene cluster from an uncultured bacterial symbiont of Paederus beetles. Proc Natl Acad Sci USA. 2002; 99:14002-14007. [PubMed: 12381784]</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Pederin-type pathways of uncultivated bacterial symbionts: analysis of o-methyltransferases and generation of a biosynthetic hybrid</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Engeser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Blunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mhg</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="2780" to="2781" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 19206228</note>
+	<note type="raw_reference">Zimmermann K, Engeser M, Blunt JW, Munro MHG, Piel J. Pederin-type pathways of uncultivated bacterial symbionts: analysis of o-methyltransferases and generation of a biosynthetic hybrid. J Am Chem Soc. 2009; 131:2780-2781. [PubMed: 19206228]</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Meta-omic characterization of the marine invertebrate microbial consortium that produces the chemotherapeutic natural product ET-743</title>
+		<author>
+			<persName><forename type="first">*</forename><forename type="middle">*</forename><surname>Rath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Earl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dahlgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kreft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The biosynthetic cluster of ET-743 was identified in shotgun sequencing data obtained from field collected marine invertebrates</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1244" to="1256" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21875091</note>
+	<note type="raw_reference">**. Rath CM, Janto B, Earl J, Ahmed A, Hu FZ, Hiller L, Dahlgren M, Kreft R, Yu F, Wolff JJ, et al. Meta-omic characterization of the marine invertebrate microbial consortium that produces the chemotherapeutic natural product ET-743. ACS Chem Bio. 2011; 6:1244-56. The biosynthetic cluster of ET-743 was identified in shotgun sequencing data obtained from field collected marine invertebrates. [PubMed: 21875091]</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Comprehensive human genome amplification using multiple displacement amplification</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hosono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Faruqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bray-Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="5261" to="5266" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>PubMed: 11959976</note>
+	<note type="raw_reference">Dean FB, Hosono S, Fang L, Wu X, Faruqi aF, Bray-Ward P, Sun Z, Zong Q, Du Y, Du J, et al. Comprehensive human genome amplification using multiple displacement amplification. Proc Natl Acad Sci USA. 2002; 99:5261-5266. [PubMed: 11959976]</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Single cell genome amplification accelerates identification of the apratoxin biosynthetic pathway from a complex microbial assemblage</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Grindberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishoey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brinza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Esquenazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-Ting</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gerwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pevzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lasken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 18565</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 21533272</note>
+	<note type="raw_reference">Grindberg RV, Ishoey T, Brinza D, Esquenazi E, Coates RC, Liu W-ting, Gerwick L, Dorrestein PC, Pevzner P, Lasken R, et al. Single cell genome amplification accelerates identification of the apratoxin biosynthetic pathway from a complex microbial assemblage. PloS One. 2011; 6:e18565. [PubMed: 21533272]</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">PKS and NRPS gene clusters from microbial symbiont cells of marine sponges by whole genome amplification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siegl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hentschel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol Reports</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="507" to="513" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegl A, Hentschel U. PKS and NRPS gene clusters from microbial symbiont cells of marine sponges by whole genome amplification. Environ Microbiol Reports. 2010; 2:507-513.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Single-cell genomics reveals the lifestyle of Poribacteria, a candidate phylum symbiotically associated with marine sponges</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siegl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kamke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hochmuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dandekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hentschel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>PubMed: 20613790</note>
+	<note type="raw_reference">Siegl A, Kamke J, Hochmuth T, Piel J, Richter M, Liang C, Dandekar T, Hentschel U. Single-cell genomics reveals the lifestyle of Poribacteria, a candidate phylum symbiotically associated with marine sponges. ISME J. 2011; 5:61-70. [PubMed: 20613790]</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

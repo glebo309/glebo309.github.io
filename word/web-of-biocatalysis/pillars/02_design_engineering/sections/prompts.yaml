@@ -1,0 +1,166 @@
+
+# Prompts for Pillar 02 — Design & Engineering
+# Inputs are injected by the generator from the foundation JSON.
+# For every section below the generator provides:
+# - DEFINITION: short scope text (markdown)
+# - CORE_REVIEW_BUNDLES: optional compact review context (topics + 2–3 summaries)
+# - EVIDENCE: a curated list of items S1..Sn {title, year, doi, snippet}
+# - (For stitcher) FRAGMENTS: {INTRO, EXAMPLES, WHEN, ML_INTEGRATION}
+
+section_prompts:
+
+  # -------- Overview (fragments → stitch) --------
+
+  overview_intro:
+    prompt: |
+      You are writing 2–3 sentences that introduce Pillar 02 (Design & Engineering).
+      Inputs: DEFINITION (scope) and EVIDENCE (S1..Sn).
+      Task:
+      - State the goal (fit-to-process enzymes: activity, selectivity, stability, scope). [S#]
+      - Name the three approaches (rational, semi-rational, directed evolution). [S#]
+      Constraints:
+      - End every sentence with [S#].
+      - Use only EVIDENCE; do not copy DEFINITION verbatim; reframe with evidence.
+      - No hype, no decade-generalities (“over decades”), no “first/earliest/began with/invented by”.
+
+  overview_examples:
+    prompt: |
+      Write 2–3 sentences with concrete tactics/examples drawn ONLY from EVIDENCE (S1..Sn).
+      - Examples can include: tunnel/access-channel edits, consensus/ancestral swaps, CAST/ISM, DNA shuffling, microdroplet UHTS.
+      - If a metric is present in a snippet (ΔTm, ee, kcat/KM, library size), include exactly one metric. [S#]
+      - End every sentence with [S#].
+      - Do not invent examples or numbers.
+
+  overview_when:
+    prompt: |
+      Write 2–3 sentences that explain WHEN to use each approach, grounded in EVIDENCE (S1..Sn).
+      - Rational: strong structural/mechanistic prior or consensus/ancestral stability. [S#]
+      - Semi-rational: identifiable hot-spots, focused libraries (CAST, site-saturation). [S#]
+      - Directed evolution: weak priors but scalable assays, multi-objective trade-offs, epistasis. [S#]
+      Constraints: plain, compact wording; end every sentence with [S#].
+
+  overview_ml_integration:
+    prompt: |
+      Write 2–3 sentences about ML-guided strategies ONLY if present in EVIDENCE (S1..Sn).
+      - If none, output the exact sentence: “⚠️ Not enough evidence for ML-guided strategies in this set.”
+      - If some ML-adjacent evidence exists, keep the warning sentence AND attach one [S#] to the warning.
+      - Conclude with one sentence on integration
+        (rational → semi-rational → evolution; ML can compress rounds or widen scope) with [S#] if supported.
+      - End every sentence with [S#] unless the warning is the only sentence.
+
+  overview_stitch:
+    prompt: |
+      You are given four fragments: INTRO, EXAMPLES, WHEN, ML_INTEGRATION.
+      Task: stitch them into EXACTLY 2 short paragraphs (each ≤140 words).
+      - Paragraph 1 = INTRO + EXAMPLES
+      - Paragraph 2 = WHEN + ML_INTEGRATION
+      Rules:
+      - Do not drop content or [S#] tags.
+      - Smooth transitions; remove repetition; keep wording compact.
+      - No new facts/citations; output only the two paragraphs.
+
+  # -------- History --------
+
+  history_narrative:
+    prompt: |
+      Inputs: CORE_REVIEW_BUNDLES (optional) and EVIDENCE (S1..Sn) with milestone snippets.
+      Task: write 4 short paragraphs (≤100 words each), one per era:
+        1) Early stability engineering (1990s–2000s)
+        2) Directed evolution mainstream (2000s)
+        3) UHTS & microfluidics scale (2010s)
+        4) ML-guided and closed loop (2020s)
+      Emphasize why each transition happened (e.g., focused libraries → higher hit rates; microfluidics → scale; ML → fewer rounds/scope ↑).
+      Constraints:
+      - Use only provided EVIDENCE/CORE reviews; no new events.
+      - Every sentence ends with [S#].
+      - If a required point lacks support, write the literal: ⚠️ Not enough evidence for that slot.
+
+  history_timeline:
+    prompt: |
+      Inputs: EVIDENCE (S1..Sn) milestone snippets (already year-tagged).
+      Task: output 10–12 lines, sorted by year: `Year — Event — Impact [S#]`
+      - Each line ≤ 26 words.
+      - Use only given items; omit unsupported items.
+      - No extra commentary.
+
+  # -------- Design Patterns --------
+
+  design_patterns:
+    prompt: |
+      Inputs: EVIDENCE (S1..Sn) with DOIs.
+      Task: Synthesize 5–10 design patterns. Each pattern must cite ≥2 DISTINCT DOIs from EVIDENCE.
+      Output (repeat per pattern):
+      ## Pattern {n}: [Short title]
+      **Problem:** one sentence.
+      **Tactic:** one sentence (e.g., tunnel widening; consensus swaps; CAST).
+      **Expected effect:** one sentence (e.g., ΔTm ↑, scope ↑, rounds ↓, ee ↑).
+      **When to use:** one sentence (diagnostic cues from the evidence).
+      **Evidence:** [Title (Year, DOI)] — 1 line; [Title (Year, DOI)] — 1 line; [optional third]
+      Rules:
+      - Ground every claim in EVIDENCE; no speculation.
+      - ≤22 words per field.
+      - Reject any pattern with <2 distinct DOIs.
+      - Do not reuse the same DOI across different patterns.
+
+  # -------- Methods Overview --------
+
+  methods_overview:
+    prompt: |
+      Inputs: CORE_REVIEW_BUNDLES (optional) and EVIDENCE (S1..Sn).
+      Task: Write 3–6 method overviews (one paragraph each), clustered by natural groupings apparent in the evidence
+      (e.g., microfluidic UHTS; CAST/ISM; ML-guided; stability engineering).
+      For each paragraph explain: WHAT it is, WHY it’s used, WHEN it’s preferred.
+      End the paragraph with: `References: [A (Year, DOI)], [B], [C]`
+      Constraints:
+      - Exactly 3 references per paragraph; if fewer available, use the literal placeholder ⚠️.
+      - No inline citations; references only on the last line.
+      - Use only DOIs present in EVIDENCE.
+
+  # -------- Key Papers --------
+
+  key_papers:
+    prompt: |
+      Inputs: EVIDENCE (S1..Sn) ranked or pre-filtered by the generator.
+      Task: Output one bullet per paper:
+      - **Title** (Year) — ≤20-word rationale (concrete: scope, ΔTm, UHTS, fewer rounds, multi-objective). DOI: <doi>
+      Constraints: vary rationales; no fluff; use only given details.
+
+  # -------- Metrics Narrative --------
+
+  metrics_narrative:
+    prompt: |
+      Inputs: METRICS (summary stats from foundation) + optional EVIDENCE lines that mention metrics.
+      Task: Write one paragraph (≤120 words) characterizing the field:
+      - Typical ΔTm gains (IQR), rounds, library sizes
+      - Trends in technique share by year
+      - Notable skews (enzyme classes, conditions)
+      Rules:
+      - Interpret; do not restate raw numbers.
+      - If data is sparse for a measure, say so explicitly.
+
+  # -------- Open Questions --------
+
+  open_questions:
+    prompt: |
+      Inputs: EVIDENCE sentences marked as limitations/challenges.
+      Task: Output EXACTLY 6 bullets, each a question (1–2 lines), concrete and testable, ending with “?”.
+      Rules: no solutions, no new ideas, no citations in this section.
+
+  # -------- Latest Feed --------
+
+  latest_feed:
+    prompt: |
+      Inputs: most recent EVIDENCE items.
+      Task: For each paper output: `Year — **Title** — DOI — ≤16-word takeaway`
+      - If no clear takeaway in the snippet, output “Takeaway unclear.”
+
+  # -------- Provenance --------
+
+  provenance:
+    prompt: |
+      Inputs: PROVENANCE + METRICS.counts from the foundation.
+      Task: One paragraph (≤90 words) describing how this page was built:
+      review-seeded classifier → pillar cache → thresholds → dedup (e.g., Angew/Anie).
+      Include only counts provided; do not add new numbers.
+      Append: `Generated: {{date}}`.
+

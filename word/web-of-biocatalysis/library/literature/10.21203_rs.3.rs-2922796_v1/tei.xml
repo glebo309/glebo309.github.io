@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Non-Canonical Nucleophile Unlocks a New Mechanistic Pathway in a Designed Enzyme</title>
+				<funder ref="#_zPSSBrP">
+					<orgName type="full">European Research Council</orgName>
+				</funder>
+				<funder ref="#_b88nHAY #_ue8EyeE #_GG7wcDS #_rp9hZfM">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Henry Royce Institute for Advanced Materials</orgName>
+				</funder>
+				<funder ref="#_AxFsf9w">
+					<orgName type="full">BBSRC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">GSK</orgName>
+				</funder>
+				<funder ref="#_XGyrBhv">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_Uyv3DpP">
+					<orgName type="full">BBSRC Industrial CASE</orgName>
+				</funder>
+				<funder ref="#_Vhap9ds">
+					<orgName type="full">Human Frontier Science Program</orgName>
+				</funder>
+				<funder ref="#_4HXDcSm #_pVNStyH">
+					<orgName type="full">Future Biomanufacturing Hub</orgName>
+				</funder>
+				<funder ref="#_dUjzEwe #_ur9M8ze #_m6sS6B7">
+					<orgName type="full">Biotechnology and Biological Sciences Research Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">E</forename><surname>Crossley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><surname>Crawshaw</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Florence</forename><forename type="middle">J</forename><surname>Hardy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linus</forename><surname>Johannissen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><forename type="middle">M</forename><surname>Lister</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emilie</forename><forename type="middle">F</forename><surname>Gérard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Obexer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sam</forename><surname>Hay</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zachary</forename><surname>Birch-Price</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Manchester Institute of Biotechnology Zachary Birch-Price Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="department" key="dep3">School of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit7">University of Manchester</orgName>
+								<orgName type="institution" key="instit8">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit9">University of Manchester</orgName>
+								<address>
+									<region>Manchester, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Non-Canonical Nucleophile Unlocks a New Mechanistic Pathway in a Designed Enzyme</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5835A11F1F57FDBF2E1A0F34C02DE879</idno>
+					<idno type="DOI">10.21203/rs.3.rs-2922796/v1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T21:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Posted Date: May 29th, 2023</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Directed evolution of computationally designed enzymes has provided new insights into the emergence of sophisticated catalytic sites in proteins. In this regard, we have recently shown that a histidine nucleophile and a flexible arginine can work in synergy to accelerate the Morita-Baylis-Hillman (MBH) reaction with unrivalled efficiency. Here, we show that replacing the catalytic histidine with a non-canonical Nδ-methylhistidine (MeHis23) nucleophile leads to a substantially altered evolutionary outcome in which the catalytic Arg124 has been abandoned. Instead, a Glu26 has emerged, which mediates a rate-limiting proton transfer step to deliver an enzyme (BHMeHis1.8) that is an order of magnitude more active than our earlier MBHase. Interestingly, the MeHis nucleophile of BHMeHis1.8 can be replaced by a canonical histidine with only a modest, 4-fold reduction in kcat. However, analysis of the BHMeHis1.8 evolutionary trajectory reveals that the non-canonical nucleophile was crucial in the early stages of engineering to unlock the new mechanistic pathway. This study demonstrates how even subtle perturbations to key catalytic elements of designed enzymes can lead to vastly different evolutionary outcomes, resulting in new mechanistic solutions to complex chemical transformations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Computational enzyme design offers exciting opportunities to develop enzymes with catalytic mechanisms and functions that are beyond those found in nature. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Powerful programs such as ORBIT, <ref type="bibr" target="#b2">3</ref> RosettaMatch and RosettaDesign <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> have allowed the design of protein catalysts for a range of transformations, including Diels-Alder cycloadditions, <ref type="bibr" target="#b5">6</ref> Kemp eliminations, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> and retro-aldol reactions. <ref type="bibr" target="#b8">9</ref> Although the efficiencies of these designs have been relatively low, they can be optimized through directed evolution to generate proficient catalysts, in some cases with efficiencies approaching natural enzymes. <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> Recently, our lab and others have shown how an expanded genetic code can be used to broaden the range of catalytic mechanisms that can be embedded into proteins. <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> Of particular note, we have shown that the non-canonical amino acid Nδ-methylhistidine (MeHis) can serve as a competent catalytic nucleophile for the development of de novo hydrolases. <ref type="bibr" target="#b19">20</ref> In this case, histidine methylation is important for catalytic function as it avoids the formation of unreactive acyl-enzyme intermediates that compromise the activity of designed hydrolases equipped with canonical nucleophiles. <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> MeHis can thus be considered a genetically encodable surrogate of the widely employed nucleophilic catalyst DMAP, <ref type="bibr" target="#b22">23</ref> and essentially serves as a condensed version of the catalytic triad commonly found in natural hydrolases.</p><p>In light of the favourable catalytic properties of MeHis, we wondered whether this non-canonical amino acid would also serve as a superior nucleophile when developing enzymes for more complex chemical transformations. To explore this hypothesis, we looked to our recently engineered enzyme (BH32.14) for enantioselective Morita-Baylis-Hillman reactions, <ref type="bibr" target="#b12">13</ref> which involve the coupling of activated alkenes with carbon electrophiles (Figure <ref type="figure" target="#fig_4">1A</ref>). MBH reactions are valuable carbon-carbon bond forming transformations in organic synthesis, for which no natural enzymes are known. <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> To develop BH32.14, we subjected a modestly active computational design (BH32) to extensive evolutionary optimization (Figure <ref type="figure" target="#fig_4">1B</ref>), affording a biocatalyst that is orders of magnitude more efficient than analogous small molecule catalysts. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b26">27</ref> BH32.14 catalysis relies on a designed His23 nucleophile paired with a flexible Arg124, which emerged during evolution and shuttles between conformational states to stabilise multiple oxyanion intermediates formed along the reaction coordinate. Here we show that evolution of a BH32 variant with MeHis in place of His23 not only affords a more efficient enzyme, but also results in a dramatically altered mechanistic outcome.  (3). Previous work has afforded the MBHase BH32.14 <ref type="bibr" target="#b12">13</ref> which promotes catalysis via a histidine nucleophile. In this work, His23 is replaced by Nδmethylhistidine (MeHis) for the creation of a more efficient MBHase. B) Crystal structure of BH32.12 (PDB: 6Z1L) showing the positions of the amino acids mutated during BH32.14 evolution (represented as spheres at the Cα). Mutations are shaded according to their order of introduction corresponding to the evolutionary trajectory shown in Figure <ref type="figure" target="#fig_4">1C</ref>. C) Comparisons of activity of BH32.14 and selected variants along the BH32 evolutionary trajectory with either His (grey scale) or MeHis (blue) as the catalytic nucleophile at position 23. BH32.8 His23MeHis (subsequently referred to as BHMeHis1.0) was selected for further engineering. Biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and enzyme (60 µM) in PBS (pH 7.4) with 3% (v/v) MeCN as cosolvent and analysed by ultra-high performance liquid chromatography (UPLC) following 5 h incubation at 30 °C. Error bars represent the standard deviation of measurements made in triplicate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evolution of a proficient MBHase with a non-canonical MeHis nucleophile</head><p>To identify a suitable starting template for engineering a MeHis-containing MBHase, we replaced the His23 nucleophile of BH32 and selected evolved descendants with MeHis using an engineered pyrrolysyl-tRNA synthetase_tRNA pair. <ref type="bibr" target="#b27">28</ref> These variants were evaluated for activity towards the MBH coupling of 2-cyclohexen-1-one (1) and 4-nitrobenzaldehyde (2) (Figure <ref type="figure" target="#fig_4">1A</ref>). In contrast to the improved hydrolytic activity observed upon His23MeHis substitution in BH32, <ref type="bibr" target="#b19">20</ref> MBH activity was reduced upon MeHis incorporation across all BH32 variants (Figure <ref type="figure" target="#fig_4">1C</ref>, Supplementary Figure <ref type="figure" target="#fig_0">1</ref>). Of the modified variants tested, BH32.8 His23MeHis (subsequently referred to as BHMeHis1.0) was found to have the highest activity and was selected for further engineering. It is interesting to note that while evolutionary progression from BH32.8 to BH32.14 led to a 20-fold increase in MBH activity with His as a nucleophile, the analogous progression with MeHis23 led to a reduction in activity (Figure <ref type="figure" target="#fig_4">1C</ref>). BHMeHis1.0 was also found to have an altered pH optimum compared to BH32.8, with the highest conversion observed at pH 6.0 (Supplementary Figure <ref type="figure" target="#fig_1">2</ref>).</p><p>To improve enzyme activity, BHMeHis1.0 was subjected to successive rounds of laboratory evolution. Individual library variants were arrayed in 96-well plates and evaluated as clarified cell lysate using a UPLC assay monitoring conversion of 1 and 2 to MBH adduct 3. The evolutionary strategy employed a combination of local and global mutagenesis (See Supplementary Table <ref type="table">1</ref>). The most active (ca. 1%) clones from each round were selected for further evaluation as purified proteins. Beneficial mutations identified in each round were subsequently combined by DNA shuffling. Following evaluation of &gt;18,000 clones, a BHMeHis1.8 variant emerged containing 23 mutations (Figure <ref type="figure" target="#fig_6">2A</ref> and <ref type="figure">B</ref>). The relative activities of variants along the evolutionary trajectory were compared and show how steady improvements in performance have culminated in a variant that is 440-fold more active than BHMeHis1.0 (Figure <ref type="figure" target="#fig_6">2A</ref>). This improvement in catalytic performance also correlated with improvements in enantioselectivity, with the (R)-enantiomer of 3 formed in 91% e.e. with BHMeHis1.8 compared with a more modest 55% e.e with the starting variant (Figure <ref type="figure" target="#fig_6">2C</ref> and Supplementary Table <ref type="table">2</ref>). Notably, with BHMeHis1.8, 3 is formed as the exclusive product with no detectable aldol by-product S1, as observed in biotransformations with BHMeHis1.0 (Supplementary Figure <ref type="figure" target="#fig_2">3</ref>). Despite performing evolution at pH 6.0, the pH optimum of BHMeHis1.8 has increased compared to BHMeHis1.0, with maximum conversions achieved at pH 7.0 (Supplementary Figure <ref type="figure" target="#fig_3">4</ref>). More detailed kinetic characterization of BHMeHis1.8 reveals a kcat of 4.5 ± 0.19 min -1 , making it 13-fold more active than our previously engineered MBHase BH32.14 (0.35 ± 0.03 min -1 ) and 2000-fold more active than the original BH32 design (0.13 ± 0.01 h -1 )(Figure <ref type="figure" target="#fig_6">2D</ref>, Supplementary Figure <ref type="figure">5A</ref> and Table <ref type="table">3</ref>). <ref type="bibr" target="#b12">13</ref> BHMeHis1.8 can perform greater than 2500 turnovers, can operate at temperatures up to 55°C without compromising activity, and readily tolerates 20% DMSO as an organic cosolvent (Supplementary Figure <ref type="figure">6</ref> and <ref type="figure">7</ref>, Supplementary Table <ref type="table">4</ref>). To demonstrate synthetic utility, we performed a preparative-scale biotransformation to produce 500 mg of 3 (96% conversion, 82% isolated yield) using only 0.1 mol% of BHMeHis1.8 (Supplementary Figure <ref type="figure">8</ref> and Table <ref type="table">5</ref>). BHMeHis1.8 is also able to promote MBH reactions with a range of alkene and aldehyde coupling partners, to generate a diverse array of MBH products 4a-k (Figure <ref type="figure" target="#fig_2">3</ref>). With all substrates tested, BHMeHis1.8 shows significantly improved efficiency compared with our previously reported MBHase (BH32.14). <ref type="bibr" target="#b12">13</ref> This enhanced efficiency allows us to access MBH adducts with electron rich aromatic substituents (e.g. p-methoxy), which could only be formed with extremely low conversions (~1%) using BH32.14, even with high catalyst loadings. BHMeHis1.8 can also perform selective transformations of unsymmetrical dialdehyde substrates with high levels of regio-control (4j:k, 15:1), which contrasts with the modest regioselectivity observed with BH32.14 (4j:k, 2:1). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Structure and Catalytic Mechanism</head><p>Against our expectations, Arg124, which was essential to catalysis in BH32.14, <ref type="bibr" target="#b12">13</ref> was abandoned during the evolution of BHMeHis1.8, suggesting a substantially altered catalytic mechanism has emerged. To gain insights into this mechanism, crystal structures of apo-BHMeHis1.0 and apo-BHMeHis1.8 were solved (Supplementary Table <ref type="table">6</ref>). Efforts to obtain structures complexed with either substrate(s) or product have thus far been unsuccessful. Comparison of the BHMeHis1.8 and BHMeHis1.0 structures reveals that the 23 mutations installed during evolution cause minimal changes to the overall protein fold (secondary structure root mean square deviation 0.47 Å, Supplementary Figure <ref type="figure">9</ref>). The MeHis nucleophile adopts a single conformation in both structures, however a notable 120° rotation of the imidazole ring has occurred (Supplementary Figure <ref type="figure">9</ref>). In BHMeHis1.8, MeHis23 is positioned by an adjacent Trp42 residue installed during evolution. Molecular docking of (R)-3 into the apo-BHMeHis1.8 structure reveals a binding mode with the aromatic nitrobenzene ring sandwiched between Trp124 and Phe132 and the polar 1,3-hydroxyketone motif pointing towards a newly introduced Glu26 (Supplementary Figure <ref type="figure" target="#fig_4">10</ref>). Interestingly, a ProPKa 29 calculation predict that Glu26 has an unusually high pKa of 8.1.</p><p>To explore the role of Glu26 in catalysis, we performed assays with Glu26Gln and Glu26Ala variants of BHMeHis1.8. These substitutions led substantial 20-fold and 100-fold reductions in reaction rates, respectively, underscoring the importance of Glu26 to the catalytic mechanism (Supplementary Figure <ref type="figure" target="#fig_4">11</ref>). While mutation of Glu26 is detrimental for MBH catalysis, it has minimal effect on the rate of reaction with a mechanistic inhibitor designed to report on stabilisation of oxyanions at C1 (Int1 and Int3) (Supplementary Figure <ref type="figure" target="#fig_6">12</ref>). <ref type="bibr" target="#b12">13</ref> MBH reactions performed with 2-deuterocyclohex-2-en-1-one (S2) revealed a kinetic isotope effect (KIE) of 1.7 with BHMeHis1.8, which is increased to 4.0 in the Glu26Gln variant (Figure <ref type="figure" target="#fig_8">4A</ref>, Supplementary Table <ref type="table">7</ref>). These data suggest that the transition from Int2 to Int3 is at least partially rate limiting in both variants and that Glu26 plays an important role in this proton transfer step. Interestingly, inverse solvent KIEs of 0.9 and 0.6 are also observed in BHMeHis1.8 and the Glu26Gln variant, respectively (Supplementary Table <ref type="table">7</ref>). Such inverse isotope effects can be attributed to a rapid equilibrium process that is more favourable in D2O and precedes the rate-limiting step. <ref type="bibr" target="#b29">30</ref> To gain further insights into the role of Glu26, we generated two models: A. a BHMeHis1.8:Int2 complex with a protonated glutamic acid (Glu(H)26) and B. a BHMeHis1.8:Int2H complex where the proton has been transferred from Glu(H)26 to Int2, and performed MD simulations over 500 ns (Figure <ref type="figure" target="#fig_8">4B</ref> and Supplementary Figures <ref type="figure" target="#fig_5">13</ref><ref type="figure" target="#fig_8">14</ref><ref type="figure" target="#fig_4">15</ref>). In model A, Glu(H)26 is well-poised to mediate proton transfer from the C2 proton to the C3-alkoxide (Figure <ref type="figure" target="#fig_8">4B</ref>, relevant O-H distance plots are shown in Supplementary Figure <ref type="figure" target="#fig_8">14C</ref> and <ref type="figure">D</ref>). In model B, Glu26 is also well positioned to act as a catalytic base for the ratelimiting C2 deprotonation (Supplementary Figure <ref type="figure" target="#fig_4">15C</ref>). Taken together, these models further support the importance of Glu26 in promoting proton transfer from Int2 to generate Int3, either through a concerted (model A) or stepwise (model B) process (Figure <ref type="figure" target="#fig_8">4C</ref>). In the absence of Glu26, we propose that MBH catalysis may proceed through a less effective, water-mediated proton transfer, as previously proposed for small-molecule catalysed MBH reactions in protic solvents and for our previously engineered BH32.14 enzyme. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Significance of the Non-Canonical MeHis Nucleophile</head><p>To investigate the importance of the non-canonical nucleophile to BHMeHis1.8 catalysis, we generated variants with MeHis replaced by Ala and His. As anticipated, the MeHis23Ala mutation abolishes catalytic activity (Supplementary Table <ref type="table">5</ref>). In contrast, introduction of a canonical His23 nucleophile leads to only a 4-fold reduction in activity (kcat = 1.13 ± 0.05 min -1 , Supplementary Figure <ref type="figure">5</ref> and Table <ref type="table">3</ref>). Interestingly, this MeHis23His variant is 4-fold more active than our previously engineered MBHase BH32.14 (kcat = 0.35 min -1 ). <ref type="bibr" target="#b12">13</ref> These data show that in the context of BHMeHis1.8, the non-canonical nucleophile is beneficial but not essential to catalytic function. Instead, analysis of the BHMeHis1.8 evolutionary trajectory reveals that the MeHis nucleophile was critical in unlocking the new mechanistic pathway observed in this enzyme (Supplementary Figure <ref type="figure" target="#fig_4">16</ref>). The first four mutations introduced into BHMeHis1.0 during rounds 1 and 2 of evolution gave a &gt;4-fold increase in activity. In contrast, these mutations lead to a slight reduction in activity in the analogous His23 containing variant (BH32.8), and therefore would not have been selected if evolving with His23 as the catalytic nucleophile. These mutations include the key catalytic residue Glu26 and Trp42, which plays a role in positioning the MeHis23 nucleophile. Interestingly, while the early stages of BHMeHis1.8 evolution were strongly linked to the identity of the nucleophile, mutations introduced from round 3 onwards gave activity improvements with either MeHis or His (Supplementary Figure <ref type="figure" target="#fig_4">16</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In this study, an expanded genetic code has allowed us to explore divergent evolutionary trajectories where the only distinguishing feature was the identity of the key catalytic nucleophile. Interestingly, introduction of a non-canonical nucleophile led to a dramatically altered evolutionary outcome, giving rise to a more efficient biocatalyst and providing a new mechanistic solution to the MBH reaction. Our work suggests that the strategy of replacing of key catalytic elements of designed enzymes by subtly altered analogues can allow us to efficiently shift onto new evolutionary trajectories. In contrast to our previously designed hydrolase, where catalysis was strictly dependent on MeHis, <ref type="bibr" target="#b19">20</ref> a MeHis to His substitution is well tolerated in BHMeHis1.8. Given the increased cost of producing enzymes with noncanonical amino acids, this His23 variant may serve as a more valuable starting point for developing practically useful MBHases in the future. In summary, this work further underscores how the wider range of functional components enabled by an expanded genetic code presents exciting opportunities for developing biocatalysts with new and improved functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>All chemicals and biological materials were obtained from commercial suppliers. Lysozyme, DNase I, kanamycin sulphate and chloramphenicol were purchased from Sigma-Aldrich; polymyxin B sulfate from AlfaAesar; LB agar, LB medium, 2×YT medium and arabinose from Formedium; Escherichia coli (E. coli) 5 alpha, Q5 DNA polymerase, T4 DNA ligase and restriction enzymes from New England BioLabs; Nδ-methylhistidine (MeHis; H-His(3-Me)-OH) form Bachem; E. coli DH10B from Thermo Fisher; and oligonucleotides were synthesized by Integrated DNA Technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction of pBbE8k_BH32_His23MeHis and variants</head><p>The His23 CAT codon of the BH32 gene and its variants <ref type="bibr" target="#b12">13</ref> was mutated to TAG for stop codon suppression with a MeHis using overlap extension PCR (see Supplementary Table <ref type="table">9</ref> for primer sequences). The gene was subcloned using NdeI and XhoI restriction sites into a pBbE8K vector <ref type="bibr" target="#b30">31</ref> containing a C-terminal 6xHis tag to yield pBbE8K_BH32_His23MeHis and its variants. Similarly, MeHis23Ala, MeHis23His, Glu26Ala and Glu26Gln mutations were introducted into BHMeHis1.8 to generate pBbE8K_BHMeHis1.8_MeHis23Ala, pBbE8K_BHMeHis1.8_MeHis23His, pBbE8K_BHMeHis1.8_Glu26Ala and pBbE8K_BHMeHis1.8_Glu26Gln respectively in the same way. BHMeHis1.0, BHMeHis1.8 and BHMeHis1.8_MeHis23His were also subcloned, using NdeI and XhoI restriction sites, into a pBbE8K vector modified to include a Strep-tag after the XhoI restriction site to yield pBbE8K_BHMeHis1.0_Strep, pBbE8K_BHMeHis1.8_Strep and pBbE8K_BHMeHis1.8_MeHis23His_Strep, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction of pEVOL_PylRSMeHis/tRNACUA</head><p>The Methanosarcina mazei analogue of Methanosarcina barkeri PylRS 28 (Mm Leu305Ile/Tyr306Phe/Leu309Gly/Cys348Phe/Tyr384Phe) was prepared by overlap extension PCR. Two copies of the gene were cloned into pEVOL using BglII/SalI and NdeI/PstI restriction sites. The vector also contained the M. mazei tRNACUA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein production and purification</head><p>For expression of BH32 and its variants and BHMeHis1.8 His23Ala and His variants, chemically competent E. coli 5α were transformed with the relevant pBbE8k_BH32 constructs. Single colonies of freshly transformed cells were cultured for 18 h in 5 mL LB medium containing 25 µg mL -1 kanamycin sulphate. Starter cultures (500 µL) were used to inoculate 50 mL 2×YT medium supplemented with 25 µg mL -1 kanamycin sulphate. Cultures were grown at 37 °C, 200 r.p.m. to an optical density at 600 nm (OD600) of around 0.6. Protein expression was induced with the addition of L-arabinose to a final concentration of 10 mM.</p><p>For the expression of BH32_MeHis, BHMeHis1.0 and their variants, chemically competent E. coli DH10B cells containing pEVOL_PylRSMeHis/tRNACUA were transformed with the appropriate pBbE8K construct. Protein production was carried out as described above with the addition of 25 µg mL -1 chloramphenicol and MeHis (10 mM final concentration).</p><p>Induced cultures were incubated for 20 h at 25 °C and the cells were subsequently collected by centrifugation (3,220g for 10 min). Pelleted cells were resuspended in lysis buffer (50 mM HEPES, 300 mM NaCl, pH 7.5 containing 20 mM imidazole) and lysed by sonication (10 mins, 1 s on/off pulse, 50% intensity). Cell lysates were cleared by centrifugation (27,216g for 30 min), and supernatants were subjected to affinity chromatography using Ni-NTA Agarose (Qiagen). Purified protein was eluted using 50 mM HEPES, 300 mM NaCl, pH 7.5 containing 250 mM imidazole.</p><p>For Strep-tagged variants, pelleted cells were resuspended in NP buffer (50 mM NaH2PO4, 300 mM NaCl, pH 8.0) and lysed by sonication. Cell lysates were cleared by centrifugation (27,216g for 30 min), supernatants were subjected to a Strep-Tactin Superflow Plus resin (Qiagen), which was washed with 10 column volumes of NP buffer and purified protein was eluted using 50 mM NaH2PO4, 300 mM NaCl and 2.5 mM desthiobiotin at pH 8.0.</p><p>Proteins were desalted using 10DG desalting columns (Bio-Rad) with PBS buffer (pH as stated in reaction conditions) and analysed by SDS-PAGE. Proteins were aliquoted, flash-frozen in liquid nitrogen and stored at -80 °C. Protein concentrations were determined by measuring the absorbance at 280 nm using calculated extinction coefficients (ExPASy ProtParam).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass spectrometry</head><p>Purified protein samples were desalted into 0.1% acetic acid using a 10k MWCO Vivaspin (Sartorius) and diluted to a final concentration of 0.5 mg mL -1 . Mass spectrometry was performed using a 1200 series Agilent LC, with a 5 µL injection into 5% acetonitrile (with 0.1% formic acid) and desalted inline for 1 min. Protein was eluted over 1 min using 95% acetonitrile with 5% water. The resulting multiply charged spectrum was analysed using an Agilent QTOF 6510 and deconvoluted using Agilent MassHunter Software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library construction</head><p>Primer sequences used to generate DNA libraries are shown in Supplementary Table <ref type="table">10</ref>.</p><p>Saturation mutagenesis: rounds 1, 3, 5-7, 9 and 10. Between 20-28 positions were individually randomised using primers with NNK degenerate codons (Supplementary Table <ref type="table">10</ref>). DNA libraries were constructed using overlap extension PCR (templates and targeted positions for each round are summarised in Supplementary Table <ref type="table">1</ref>). The linear library fragments were digested using NdeI and XhoI restriction enzymes and ligated into pBbE8K using T4 DNA ligase.</p><p>Combinatorial active site saturation testing (CASTing): round 2. A single CASTing library between L42 and Y45 was prepared by overlap extension PCR using pBbE8k_BHMeHis1.1 as a template and degenerate primer pairs (22c-trick <ref type="bibr" target="#b31">32</ref> ). The library genes were subcloned as described above.</p><p>Random mutagenesis using error-prone PCR: rounds 4 and 8. The library was generated by error-prone PCR of the entire gene using an Agilent GeneMorph®II Random Mutagenesis Kit according to the manufacturer's protocol to generate an average of 2.5 mutations per gene (the templates for rounds 2 and 8 are summarised in Supplementary Table <ref type="table">1</ref>). The gene was cloned as described above. Identified 'hotspots' were individually randomised in subsequent rounds by saturation mutagenesis (rounds 5 and 9, see above).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shuffling by overlap extension PCR</head><p>After each round of evolution, beneficial diversity was combined by DNA shuffling of fragments generated by overlap extension PCR. Primers were designed that encoded either the parent amino acid or the identified mutation. These primers were used to generate short fragments (up to 6) which were gel-purified and mixed appropriately in overlap extension PCR to generate genes containing all possible combinations of mutations. Genes were cloned as described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library screening</head><p>For protein expression and screening, all transfer and aliquoting steps were performed using Hamilton liquid-handling robots. Chemically competent E. coli DH10B cells containing pEVOL_PylRSMeHis/tRNACUA were transformed with the library plasmids. Freshly transformed clones were used to inoculate 150 μL of 2xYT medium supplemented with 25 μg mL -1 kanamycin sulphate and 25 μg mL -1 chloramphenicol in Corning ® Costar ® 96-well microtiter round bottom plates. For reference, each plate contained 6 freshly transformed clones of the parent template and 2 clones containing an empty pBbE8k vector. Plates were incubated overnight at 30 °C, 80% humidity in a shaking incubator at 850 r.p.m. 20 µL of overnight culture was used to inoculate 480 μL 2xYT medium supplemented with 25 μg mL -1 kanamycin sulphate, 25 μg mL -1 chloramphenicol and 10 mM MeHis in 96-deep-well plates. The cultures were incubated at 30 °C, 80% humidity with shaking at 850 r.p.m. until an OD600 of about 0.6 was reached, and L-arabinose was added to a final concentration of 10 mM. Induced plates were incubated for 20 h at 30 °C, 80% humidity with shaking at 850 r.p.m. Cells were harvested by centrifugation at 2,900 g for 10 min. The supernatant was discarded, and the pelleted cells were resuspended in 400 μL of lysis buffer (PBS pH 6.0, buffer supplemented with 1.0 mg mL -1 lysozyme, 0.5 mg mL -1 polymixin B and 10 μg mL -1 DNase I) and incubated for 2 h at 30 °C, 80% humidity with shaking at 850 r.p.m. Cell debris was removed by centrifugation at 2,900 g for 10 min.</p><p>Rounds 1-5: 75 µL clarified lysate were transferred to 96-well polypropylene microtiter plates. Reactions were initiated with the addition of 25 µL assay mix (2-cyclohexen-1-one 1 (15 mM final concentration), 4-nitrobenzaldehyde 2 (1.5 mM final concentration), 12% (v/v) MeCN in PBS pH 6.0). Assay plates were sealed and incubated for 20 h at 30 °C, 80% humidity with shaking 850 r.p.m. Reactions were quenched with addition of 100 µL MeCN, heat sealed and incubated for 2 h at 850 r.p.m. at 30 °C. Precipitated protein was removed by centrifugation at 2,900g for 10 min. 100 µL of the clarified reactions were transferred to 96-well polypropylene microtiter plates and heat sealed with pierceable foil for UPLC analysis as described below. From round 2 and onwards, the amount of lysate and the reaction time were reduced to achieve &lt;10% conversion on average. Rounds 6-10: Reaction plates were prepared as above with lower substrate loading. 25 µL of assay mix (2-cyclohexen-1-one 1 (3 mM final concentration), 4-nitrobenzaldehyde 2 (0.6 mM final concentration), 12% (v/v) MeCN in PBS pH 6.0) was added to lysate to initiate the reactions. As above, assay conditions were altered throughout the rounds to keep conversion &lt;10% including reducing reaction time, volume of lysate and increasing lysis volume. For round 10, the lysate was further diluted 2.5-fold. 25 µL of diluted lysate was transferred to a 96-well polypropylene microtiter plate with the addition of 50 µL PBS pH 6.0 and 25 µL assay mix. Reactions were quenched after 2 h and prepared for UPLC analysis as stated above.</p><p>Following each round, the top (ca. 1%) variants were rescreened in triplicate. Expression and screening were performed as described above but from glycerol stocks prepared from the original overnight culture. Confirmed hits were evaluated in purified protein before shuffling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General procedure for analytical scale biotransformations</head><p>Analytical scale biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and the relevant biocatalyst (1.5-60 µM) in PBS (pH 6.0, 7.0 or 7.4) with 3% (v/v) MeCN (or 20% (v/v) DMSO for e.e. measurements) as a cosolvent at 30 °C. Following incubation, reactions were quenched with 1 volume MeCN. Quenched reactions were shaken (850 r.p.m) for 2 h. Precipitated protein was removed by centrifugation (14,000g for 10 minutes) and supernatants were transferred for UPLC analysis to a fresh plate (see chromatographic analysis). For SFC analysis, the substrates and products were extracted with 3 volumes of ethyl acetate. Precipitated protein was removed by centrifugation (14,000g for 10 minutes), the organic phase was separated and directly injected onto the SFC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General procedure for substrate scope biotransformations</head><p>Biotransformations for substrate scope (Figure <ref type="figure" target="#fig_2">3</ref>) were performed using the specified alkene (50 mM) and aldehyde (10 mM) with BHMeHis1.8 (100 µM) in PBS (pH 7.0) with 20% (v/v) DMSO as cosolvent at 30 °C. Following incubation for 24 h, reactions were quenched with 1 volume MeCN. Quenched reactions were shaken (850 r.p.m) for 2 h. Precipitated protein removed by centrifugation (14,000g for 10 minutes) and supernatant was analysed by UPLC (see chromatographic analysis). For SFC analysis, the substrates and products were extracted with 3 volumes of ethyl acetate. Precipitated protein was removed by centrifugation (14,000g for 10 minutes), the organic phase was separated and directly injected onto the SFC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chromatographic analysis</head><p>UPLC analysis was performed on a 1290 Infinity II Agilent LC system with a Kinetex® 5 µm XB-C18 100 Å LC Column, 50 x 2.1 mm (Phenomenex). For library screening an isocratic method using 22% MeCN in water at 1 mL min -1 for 2 minutes was used. Peaks were integrated using Agilent OpenLab software. As 4-nitrobenzaldehyde (2) was the limiting reagent, product conversions were calculated using the extinction coefficient of 600 mM -1 cm -1 for both 4-nitrobenzaldehyde (2) and MBH product (3). For characterising the substrate scope, substrates and products (4a-k) were eluted over 25 minutes using a gradient of 5-95% acetonitrile in water at 1 mL min -1 . Peaks were assigned by comparison to chemically synthesised standards and the peak areas were integrated using Agilent OpenLab software. Previously reported extinction coefficients by our lab were used to calculate conversions. <ref type="bibr" target="#b12">13</ref> Chiral analysis was performed using an SFC 1290 Infinity II Agilent system. Enantiomers of the MBH product 3 were separated using a Daicel 80S82 CHIRALPAK ® IA-3 SFC column, 3 mm, 50 mm, 3 µm, and an isocratic method with 35% methanol in CO2 at 1 mL min -1 for 1 minute. For characterising the substrate scope, previously reported methods were used. <ref type="bibr" target="#b12">13</ref> Peaks were integrated using Aglient OpenLabs software for calculation of enantioselectivity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kinetic characterization</head><p>Initial velocity (v0) vs [4-nitrobenzaldehyde] kinetic data were measured using Strep-tagged purified enzyme (60 µM BHMeHis1.0, 0.5 µM BHMeHis1.8 MeHis23His and 0.25 µM BHMeHis1.8), a fixed concentration of 1 (25 mM) and varying concentrations of 2 (0.1-2 mM). Reactions were performed using PBS pH 7.0 with 3% (v/v) MeCN and were incubated at 30 °C with shaking (850 r.p.m.). BHMeHis1.8 and BHMeHis1.8 MeHis23His were sampled at 10-minute intervals for 1 h and after 75 and 90 minutes. BHMeHis1.0 was sampled every hour from 2 h to 7 h. Samples were quenched with MeCN and analysed by UPLC as described above (see chromatographic analysis). v0 vs [2-cyclohexen-1-one] kinetic data were measured using a fixed concentration of 2 (2 mM) and varying concentrations of 1 (2-25mM) as described above. Linear fits of conversion vs time allowed determination of v0 (Supplementary Figure <ref type="figure">5</ref>). The combined v0 vs [4-nitrobenzaldehyde] and v0 vs [2-cyclohexen-1-one] steady state kinetic data were fitted globally using the random order binding model (Eq. 1)</p><formula xml:id="formula_0">v = kcat[E][A][B]/((KmA + [A])(KmB + [B])) (Eq. 1)</formula><p>Where kcat corresponds to the turnover number, [E] is the total enzyme concentration, [A] and [B] are the initial 2-cyclohexen-1-one and 4-nitrobenzaldehyde concentrations respectively, KmA and KmB are the corresponding apparent Michaelis constants. Kinetic constants are shown in Supplementary Table <ref type="table">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Total turnover numbers</head><p>Total turnover numbers achieved by BHMeHis1.8 were determined as follows. BHMeHis1.8 (0.1, 0.05 or 0.01 mol%) catalysed biotransformations were performed in glass vials using 1 (50 mM) and 2 (10 mM) in PBS (pH 7.0) with 20% (v/v) DMSO cosolvent (Supplementary Figure <ref type="figure">6</ref>). Reactions were incubated at 30 °C with shaking (850 r.p.m.) and samples were taken at 4, 8.5, 24, 32.5 and 72 hours. For UPLC analysis, reactions were quenched at the stated time points with the addition of 1 volume MeCN. Samples were vortexed and precipitated proteins were removed by centrifugation (14,000g for 10 minutes) followed by UPLC analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cosolvent tolerance</head><p>To investigate cosolvent tolerance, analytical scale biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and BHMeHis1.8 (3 µM) in PBS pH 7.0 with either 3%, 5%, 10%, 15%, 20%, 30%, 40% and 50% (v/v) MeCN or DMSO as cosolvent (Supplementary Table <ref type="table">4</ref>). All reactions were incubated at 30 °C and shaken (850 r.p.m.) for 2 h. Reactions were quenched with 1 volume MeCN, shaken (850 r.p.m.) for 2 h, centrifuged (14,000g for 10 minutes) and analysed by UPLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Temperature profile</head><p>To evaluate the activity of BHMeHis1.8 at elevated temperatures (Supplementary Figure <ref type="figure">7</ref>) analytical scale biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and BHMeHis1.8 (3 µM) in PBS pH 7.0 with 3% (v/v) MeCN as a cosolvent. Enzyme solutions were pre-incubated at the required temperature (25-80 °C at 5 °C intervals) for 15 minutes prior to initiation by substrate addition. Reactions were quenched with 1 volume MeCN, shaken (850 r.p.m.) for 2 h, centrifuged (14,000g for 10 minutes) and analysed by UPLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>pH profile</head><p>To determine the pH optimum for BH32.8, BHMeHis1.0, BHMeHis1.8 and BH32.14, (Supplementary Figures <ref type="figure" target="#fig_6">2</ref> and <ref type="figure" target="#fig_3">4</ref>) analytical scale biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and enzyme (3 µM BHMeHis1.8, 30 µM BH32.14 or 60uM BH32.8 and BHMeHis1.0) with 3% (v/v) MeCN as cosolvent over a range of pH values (pH 5.8-pH 8.0) in PBS. All reactions were incubated at 30 °C and shaken (850 r.p.m.) for either 2 h (for BHMeHis1.8 and BH32.14) or 21 h (for BH32.8 and BHMeHis1.0). Reactions were quenched with 1 volume MeCN, shaken (850 r.p.m.) for 2 h, centrifuged (14,000g for 10 minutes) and analysed by UPLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kinetic Isotope Effects (KIE) and Solvent Kinetic Isotope Effects (SKIE)</head><p>KIE and SKIE experiments were performed in PBS pH/pD 7.0 (Figure <ref type="figure" target="#fig_7">3A</ref>, Supplementary Table <ref type="table">7</ref>). Deuterated buffers were prepared using 99.9% D2O with pD adjusted according to the following relationship: pD = pHobs + 0.38. Analytical scale biotransformations were performed using 1 or S2 (25 mM), 2 (2 mM) and the relevant biocatalyst (1 µM BHMeHis1.8, 3 µM BHMeHis1.8 MeHis23His, 10 µM BHMeHis1.8 Glu26Gln) in both deuterated and non-deuterated PBS buffer with 3% (v/v) MeCN as cosolvent. Reactions were performed in triplicate. Reactions in deuterated buffer contained &lt;1% H2O final concentration. All reactions were incubated at 30 °C with shaking (850 r.p.m.) with samples taken every 10 minutes for 1 h. For UPLC analysis, reactions were quenched by the addition of 1 volume of MeCN, shaken (850 r.p.m.) for 2 h and centrifuged (14,000g) for 10 minutes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inhibition Assay</head><p>Stopped-flow absorbance experiments were performed on an Applied Photophysics SX18 stoppedflow spectrophotometer (Applied Photophysics Ltd., Leatherhead, UK) equipped with a xenon arc lamp and a 1 cm path length in PBS, pH 7.0 buffer. To follow inhibitor binding, a single mixing experiment was performed whereby the drive syringes were loaded with the respective enzyme variant (10 µM) and inhibitor (25 µM). Data was collected at 325 nm at RT using a (PDA) detector and XSCAN software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparative-scale biotransformation</head><p>A preparative-scale biotransformation was performed using 1 (50 mM), 2 (10 mM), Strep-tag purified BHMeHis1.8 (10 µM) in PBS (pH 7.0, 200 mL) with 20% DMSO (50 mL) as a cosolvent. The reaction was incubated at 30 °C with shaking at 100 r.p.m. for 13 hours. An aliquot (100 µL) was removed and quenched with MeCN for UPLC analysis, which showed the reaction had proceeded to 96% conversion. The reaction mixture was extracted with ethyl acetate (2 x 400 mL), dried over MgSO4, filtered and the solvent was removed in vacuo. The crude product (Supplementary Figure <ref type="figure">8</ref>) was purified by flash column chromatography (5:1 cyclohexane:ethyl acetate) to give 2-(hydroxy(4nitrophenyl)methyl)cyclohex-2-en-1-one, 3 as a light yellow solid (505 mg, 82%). Spectral data is consistent with literature values. <ref type="bibr" target="#b32">33</ref> δH (400 MHz, CDCl3): 8.20 (m, 2H), 7.55 (m, 2H), 6.80 (t, J = 4.1 Hz, 1H), 5.61 (s, 1 H), 3.44 (br s, 1H), 2.45 (m, 4H), 2.02 (m, 2H).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of product standards 3, S1 and 4a-k</head><p>All product standards were prepared as previously reported. <ref type="bibr" target="#b12">13</ref> Preparation of MBH product 3 afforded aldol side product S1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2-(hydroxy(4-nitrophenyl)methyl)cyclohex-2-en-1-one (3) (562 mg, 23%</head><p>). Spectral data is consistent with literature values. <ref type="bibr" target="#b32">33</ref> δH (400 MHz, CDCl3): 8.20 (m, 2H), 7.55 (m, 2H), 6.80 (t, J = 4.1 Hz, 1H), 5.61 (s, 1 H), 3.44 (br s, 1H), 2.45 (m, 4H), 2.02 (m, 2H). ESI+ m/z = 270 ([M +Na] + ,100). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6-(hydroxy(4-nitrophenyl)methyl)cyclohex-2-en</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2-((4-nitrophenyl)(hydroxy)methyl)cyclopent-2-en-1-one (4a) (62 mg, 8%</head><p>). The spectral data are consistent with literature values. <ref type="bibr" target="#b34">35</ref> 1 H NMR (400 MHz, CDCl3) δ 8.25-8.20 (m, 2H), 7.62-7.57 (m, 2H), 7.29 (td, J = 2.8, 1.2 Hz, 1H), 5.68 (s, 1H), 3.56 (s, 1H), 2.67-2.61 (m, 2H), 2.52-2.46 (m, 2H). <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 209.5, 159.9, 148.6, 147.9, 146.8, 127.2, 123.9, 69.3, 35.3, 26.9. ESI+ m/z = 216 ([M -OH] + , 100).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3-(hydroxy(4-nitrophenyl)methyl)-5,6-dihydro-2H-pyran-2-one (4b) (23 mg, 9%</head><p>). The spectral data are consistent with literature values. <ref type="bibr" target="#b35">36</ref> 1 H NMR (400 MHz, CDCl3) δ 8.27-8.15 (m, 2H), 7.64-7.54 (m, 2H), 6.77 (t, J = 4.3 Hz, 1H), 5.66 (d, J = 4.9 Hz, 1H), 4.44-4.33 (m, 2H), 3.63 (d, J = 5.5 Hz, 1H), 2.62-2.47 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 164.5, 148.3, 147.6, 141.8, 134.2, 127.5, 123.8, 71.8, 66.5, 24.3. ESIm/z = 248 ([M -H] -, 100).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2-((4-chlorophenyl)(hydroxy)methyl)cyclohex-2-en-1-one (4c) (114 mg, 15%</head><p>). The spectral data are consistent with literature values. <ref type="bibr" target="#b34">35</ref> 1 H NMR (400 MHz, CDCl3) δ 7.30-7.22 (m, 4H), 6.74 (t, J = 4.3 Hz, 1H), 5.48 (s, 1H), 3.46 (br s, 1H), 2.45-2.32 (m, 4H), 1.95 (apparent quintet (app quint), J = 6.3 Hz, 2H). 2-((4-bromophenyl)(hydroxy)methyl)cyclohex-2-en-1-one (4d) (128 mg, 14%). The spectral data are consistent with literature values. <ref type="bibr" target="#b34">35</ref> 1 H NMR (400 MHz, CDCl3) δ 7.49-7.44 (m, 2H), 7.25-7.21 (m, 2H), 6.73 (t, J = 4.2 Hz, 1H), 5.50 (s, 1H), 2.56-2.28 (m, 4H), 2.09-1.89 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.5, 147.7, 140.9, 140.8, 131.6, 128.3, 121.5, 72.3, 38.7, 25.9, 22.6. ESI+ m/z = 265.0070 ([M 81 Br -OH] + , 100), 263 ([M 79 Br -OH] + , 91). 2-((4-(trifluoromethyl)phenyl)(hydroxy)methyl)cyclohex-2-en-1-one (4e) (196 mg, 22%). The spectral data are consistent with literature values. 37 1 H NMR (400 MHz, CDCl3) δ 7.58 (d, J = 8.1 Hz, 2H), 7.47 (d, J = 8.2 Hz, 2H), 6.77 (t, J = 4.3 Hz, 1H), 5.57 (d, J = 5.4 Hz, 1H), 3.59 (d, J = 5.7 Hz, 1H), 2.48-2.37 (m, 4H), 2.04-1.95 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.4, 147.9, 145.9, 140.7, 129.6 (q, J = 32.3 Hz), 126.8, 125.4 (q, J = 3.8 Hz), 122.8, 72.4, 38.6, 25.9, 22.6. ESI+ m/z = 253 ([M -OH] + , 100). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2-((3-bromophenyl)(hydroxy)methyl</head><p>)cyclohex-2-en-1-one (4h) (67 mg, 7%). The spectral data are consistent with literature values. <ref type="bibr" target="#b34">35</ref> 1 H NMR (400 MHz, CDCl3) δ 7.55-7.47 (m, 1H), 7.42-7.36 (m, 1H), 7.31-7.26 (m, 1H), 7.20 (t, J = 7.8 Hz, 1H), 6.76 (t, J = 4.2 Hz, 1H), 5.50 (d, J = 5.3 Hz, 1H), 3.48 (d, J = 5.6 Hz, 1H), 2.48-2.38 (m, 4H), 2.04-1.96 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.4, 147.9, 144.3, 140.7, 130.7, 130.0, 129.6, 125.2, 122.7, 72.2, 38.6, 25.9, 22.6. ESI+ m/z = 265 ([M 81 Br -OH] + , 100), 263 ([M 79 Br -OH] + , 94).  1 H NMR (400 MHz, CDCl3) δ 9.88 (d, J = 1.2 Hz, 1H), 7.69 (d, J = 1.5 Hz, 1H), 7.64 (m, 1H), 6.86 (t, J = 4.2 Hz, 1H), 5.57 (s, 1H), 2.54-2.39 (m, 4H), 2.09-1.96 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.49, 183.12, 147.70, 145.20, 144.2, 140.23, 135.10, 131.11, 69.70, 38.65, 25.89, 22.59. ESI+ m/z = 219([M -OH] + , 100). 4k was obtained as a yellow oil (23 mg, 3%). 1 H NMR (400 MHz, CDCl3) δ 9.81 (s, 1H), 8.02 (d, J = 1.3 Hz, 1H), 7.28-7.24 (m, 1H), 6.96 (t, J = 4.0 Hz, 1H), 5.63 (br s, 1H), 2.54-2.38 (m, 4H), 2.08-1.99 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.5, 185.3, 149.7, 148.4, 142.8, 139.4, 136.9, 121.4, 70.2, 38.6, 25.9, 22.5. ESI+ m/z = 219 ([M -OH] + , 100), 191 ([M -OH -CO] + , 15).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of chiral standards</head><p>The enantiomers of 3 were separated by preparative chiral HPLC by Reach Separations (Nottingham) to afford (R)-3 (99.5% e.e.) and (S)-3 (99.9% e.e.) as white solids. The absolute stereochemistry was determined by measuring the optical rotation ((R)-3 (-52.5°) and (S)-3 (+50.0°) at 0.008 g ml -1 in dichloromethane (DCM) at 27 °C) and comparison to literature values. <ref type="bibr" target="#b38">39</ref> Preparation of 2-Deutero-cyclohex-2-en-1-one (S2) 2-Deutero-cyclohex-2-en-1-one (S2) was prepared in a 4-step synthesis via intermediates S3-5 detailed below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of 2-Bromo-cyclohex-2-en-1-one (S3):</head><p>To a stirred solution of 2-cyclohexen-1-one (3.0 mL, 31.0 mmol) in dichloromethane (80 mL) at 0°C, a mixture of bromine (1.42 mL, 13.6 mmol) in dichloromethane (80 mL) was added dropwise over 1.5 h. Triethylamine (7.2 mL, 51.8 mmol) was added in a single portion and the reaction was warmed to room temperature and stirred for 1.5 h. The reaction mixture was quenched with 1 M HCl (50 mL), the organic phase was washed with brine (50 mL), dried over MgSO4, filtered and solvent was removed in vacuo. S3 was afforded as a brown crystalline solid (5.40 g, quant.) that was used in the subsequent step without purification. Spectral data is consistent with literature values. <ref type="bibr" target="#b39">40</ref> δH (400 MHz, CDCl3): 7.39 (t, J = 1.5 Hz, 1H), 2.65-2.52 (m, 2H), 2.49-2.35 (m, 2H), 2.12-1.95 (m, 2H). <ref type="bibr" target="#b12">13</ref>  Preparation of 6-Bromo-1,4-dioxaspiro [4.5]dec-6-ene (S4): A mixture of 2-bromocyclohex-2-en-1-one (5.40 g, 30.8 mmol), toluene (154 mL), p-toluenesulfonic acid (290 mg, 1.54 mmol) and ethylene glycol (3.43 mL, 61.6 mmol) was heated to reflux under Dean-Stark setup for 2.5 h. The reaction was cooled, extracted with NaHCO3 (75 mL), washed with brine, dried over MgSO4, filtered and concentrated in vacuo. The crude product was purified by flash chromatography (0:100 -6:94 Et2O:hexane) to afford S4 as a colourless oil (3.34 g, 49%). Spectral data is consistent with literature values. <ref type="bibr" target="#b40">41</ref> δH (400 MHz, CDCl3): 6.38-6.31 (m, 1H), 4.26-4.14 (m, 2H), 4.05-3.93 (m, 2H), 2.14-2.06 (m, 2H), 1.97-1.89 (m, 2H), 1.88-1.74 (m, 2H). 13 C NMR (101 MHz, CDCl3): 136.3, 124.8, 106.0, 66.0, 35.8, 27.7, 20.5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of 6-Deutero-1,4-dioxaspiro[4.5]dec-6-ene (S5):</head><p>A solution of 6-bromo-1,4dioxaspiro[4.5]dec-6-ene (2.44 g, 11.1 mmol) in dry THF (111 mL) was cooled to -78°C under N2. n-Butyl lithium (6.2 mL, 15.5 mmol) was added dropwise and the resultant mixture was stirred at -78°C for 1 h before addition of MeOD-d4 (4.5 mL, 0.111 mol, 99.8% D). The reaction was warmed to room temperature over 1 h, quenched with saturated NH4Cl (10 mL) and extracted with Et2O (50 mL x 3). Organic fractions were combined, washed with brine, dried over MgSO4, filtered and concentrated in vacuo. The crude product (1.51 g, 97%) was used directly in the next step without further purification. Key product peaks in the 1 H NMR spectrum matched the literature data. <ref type="bibr" target="#b41">42</ref> δH (400 MHz, CDCl3): 5.96 (s, 1H), 4.03-3.91 (m, 4H), 2.13-1.95 (m, 2H), 1.92-1.68 (m, 4H). <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3): 132.95, 105.8, 64.6, 33.7, 25.0, 20.9.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of 2-Deutero-cyclohex-2-en-1-one (S2):</head><p>A mixture of oxalic acid (2.6 g, 28.2 mmol), H2O (60 mL), 6-deutero-1,4-dioxaspiro [4.5]dec-6-ene (1.27 g, 9.01 mmol) and dichloromethane (60 mL) was vigorously stirred for 3 h at room temperature. The organic phase was removed and the aqueous phase extracted with Et2O (75 mL x 3). The organic layers were combined, washed with NaHCO3 (30 mL) and brine, dried over MgSO4 then filtered and dried in vacuo. Purification via flash chromatography (3:97 Et2O:dichloromethane) afforded S2 as a pale yellow oil (720 mg, 82% w/ 20% w/w dichloromethane, 93% D-incorporation). Spectral data consistent with literature values. <ref type="bibr" target="#b41">42</ref> δH (400 MHz, CDCl3): 7.02-6.92 (m, 1H), 6.00 (dt, J = 10.1, 2.1 Hz, 0.07 H, non-D product), 2.45-2.37 (m, 2H), 2.37-2.29 (m, 2H), 2.06-1.95 (m, 2H). <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3): 199.9, 150.8, 150.7, 130.0 (non-D product), 129.7 (t, J = 25.3 Hz), 129.5, 38.2, 27.0, 25.8 (non-D product), 25.7, 22.8.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystallization, refinement and model building</head><p>Crystals of BHMeHis1.0 and BHMeHis1.8 were prepared by mixing 200 nl of 7 mg ml -1 protein in 50 mM HEPES pH 7.0 with an equal volume of precipitant. Crystallisation conditions were identified using the SG1 screen (Molecular Dimensions). Crystallisation conditions for BHMeHis1.0: 0.1 M sodium citrate, 0.1 M magnesium acetate tetrahydrate, 29% (w/v) PEG 4000, pH 6.5. Crystallisation conditions for BHMeHis1.8: 0.2 M magnesium chloride hexahydrate, 0.1 M Bis-Tris, pH = 6.5, 25% PEG 3350. All trials were conducted by sitting-drop vapour diffusion and incubated at 4 °C. Prior to data collection crystals were cryo-protected by the addition of 20% PEG 400 to the mother liquor and plunge cooled in liquid nitrogen. All data were collected at Diamond Light Source (Harwell, UK) using beamline i03. Data reduction was performed with Dials and the structure solved by molecular replacement using a search model derived from PDB: 7O1D. Iterative rounds of model building and refinement were performed in COOT and Phenix.refine, respectively. <ref type="bibr" target="#b42">43</ref> Validation with MOLPROBITY and PDBREDO <ref type="bibr" target="#b43">44</ref> were incorporated into the iterative rebuild and refinement process. Data collection and refinement statistics are shown in Supplementary Information Table <ref type="table">6</ref>. The coordinates and structure factors have been deposited in the Protein Data Bank under accession numbers 8BP1 and 8BP0 for BHMeHis1.0 and BHMeHis1.8, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular docking</head><p>Molecular docking was performed using MolsoftICM64-Pro (version 3.9-2d). The protein was kept rigid during docking. For docking of product 3 into BHMeHis1.8 a distance restraint of 4 Å between the MeHis23 and the position of nucleophilic attack was imposed on the calculation to ensure a productive pose for catalysis (weighting 3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular dynamics simulations</head><p>A model of BHMeHis1.8:Int2 complex with a protonated glutamic acid (Glu(H)26) (model A) was initially built based on the docked product state. After MD simulation of model A, the ideal position for the protonation of the Int2 C3 alkoxide (Figure <ref type="figure" target="#fig_3">4</ref>) prompted the simulation of BHMeHis1.8:Int2H complex where the proton has been transferred from Glu(H)26 to Int2 (model B). Model B was created by modifying the structure model A after 100 ns of MD. The protonation state of titratable residues was calculated using propka3, <ref type="bibr" target="#b28">29</ref> and bonding parameters for the MeHis23_Int2 adducts were generated using the AmberTools ANTECHAMBER <ref type="bibr" target="#b44">45</ref> module with charges parameterized by RESP fitting to the HF/6-31G(d,p) electron density of a B3LYP/6-31+G(d,p) structure optimized in Gaussian16 Revision C.01. <ref type="bibr" target="#b45">46</ref> MD simulations of model A were then carried out using Gromacs 2018 <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> with the Amber14 force field <ref type="bibr" target="#b48">49</ref> with a solvation box with a minimum 10 Å buffering distance around the protein and counter-ions generated using AmberTools, retaining crystallographic waters, for a total of 59,405 atoms. Simulations were performed using constant temperature (velocity-rescaling thermostat, 50 300 K) and pressure (Parrinello-Rahman barostat, <ref type="bibr" target="#b50">51</ref> 1 bar), 10 Å van der Waals and electrostatic cutoffs, particle mesh Ewald for long-range electrostatics, LINCS bond constraints, <ref type="bibr" target="#b51">52</ref> periodic boundary conditions and a 2 fs timestep. The protocol for running simulations was as follows: (i) energy minimisation with (a) 10 kJ mol -1 Å -2 constraints on the protein, (b) 1 kJ mol -1 Å -2 constraints on the protein, (c) 1 kJ mol -1 Å -2 constraints on the backbone, (d) no constraints; (ii) 200 ps constant volume (NVT) equilibration of the solvent with 10 kJ mol -1 Å -2 constraints on the protein; (iii) four 200 ps constant pressure (NPT) equilibration stages with the same decreasing position constraints as for the minimizations; (iv) 500 ns of unconstrained production MD.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Investigation of the utility of MeHis as a nucleophile for the MBH reaction and identification of a suitable starting point for directed evolution. A) Chemical scheme for the MBH reaction between 2-cyclohexen-1-one (1) and 4-nitrobenzaldehyde (2) to form MBH product 2-(hydroxy(4-nitrophenyl)methyl)cyclohex-2-en-1-one(3). Previous work has afforded the MBHase BH32.14<ref type="bibr" target="#b12">13</ref> which promotes catalysis via a histidine nucleophile. In this work, His23 is replaced by Nδmethylhistidine (MeHis) for the creation of a more efficient MBHase. B) Crystal structure of BH32.12 (PDB: 6Z1L) showing the positions of the amino acids mutated during BH32.14 evolution (represented as spheres at the Cα). Mutations are shaded according to their order of introduction corresponding to the evolutionary trajectory shown in Figure1C. C) Comparisons of activity of BH32.14 and selected variants along the BH32 evolutionary trajectory with either His (grey scale) or MeHis (blue) as the catalytic nucleophile at position 23. BH32.8 His23MeHis (subsequently referred to as BHMeHis1.0) was selected for further engineering. Biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and enzyme (60 µM) in PBS (pH 7.4) with 3% (v/v) MeCN as cosolvent and analysed by ultra-high performance liquid chromatography (UPLC) following 5 h incubation at 30 °C. Error bars represent the standard deviation of measurements made in triplicate.</figDesc><graphic coords="4,72.00,234.42,451.30,152.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Characterization of BHMeHis1.0, BHMeHis1.8, and selected variants. A) Bar chart showing the mean relative conversion achieved along the BHMeHis1.8 evolutionary trajectory. Biotransformations were performed using 1 (15 mM), 2 (1.5 mM) and enzyme (1.5 µM) in PBS (pH 6.0) with 3% (v/v) MeCN as cosolvent and analysed by UPLC following 3 h incubation. Error bars represent the standard deviation of measurements made in triplicate. To eliminate errors arising from determination of low conversions, BHMeHis1.0 was monitored over a longer timeframe and conversions were interpolated using linear regression. B) Structure showing the amino acid positions mutated in BHMeHis1.8 (PDB 8BP0). Mutations represented as spheres at the Cα and coloured according to their order of introduction, corresponding to the variants shown in Figure 2A. C) Bar chart showing the enantiomeric excess of BHMeHis1.0 (blue) and BHMeHis1.8 (red) towards the (R)-enantiomer of MBH product 3. Reactions performed using BHMeHis1.0 (60 µM) or BHMeHis1.8 (10 µM) with 1 (15 mM), 2 (1.5 mM), PBS pH 6.0 with 20% (v/v) DMSO as cosolvent and analysed following 23 h incubation. D) Michaelis-Menten plot for the MBH reaction between 1 and 2 catalysed by BHMeHis1.8 (red), BHMeHis1.0 (blue) and BH32.14 (grey dashed) 18 . Assays were performed at a fixed concentration of 1 (25 mM) and varying concentrations of 2 (0.1-2 mM). Data points shown are averages of triplicate measurements. Representative Michaelis-Menten plots at fixed concentrations of 1 and 2 are shown in SupplementaryFigure5.</figDesc><graphic coords="5,72.00,257.86,451.30,194.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Substrate scope of BHMeHis1.8. BHMeHis1.8 promotes the MBH reaction with a range of alkene and aldehyde coupling partners with high conversions and selectivities. Reactions were performed in triplicate using BHMeHis1.8 (100 µM), alkene (50 mM) and aldehyde (10 mM) in PBS pH 7.0 with 20% (v/v) DMSO as cosolvent and incubation at 30 °C for 24 h. X = CH2 or O, n = 0 or 1.</figDesc><graphic coords="6,151.90,398.79,291.50,205.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Investigation of the catalytic mechanism of BHMeHis1.8. A) KIE plots showing changes in reaction rate using either 2-cyclohexen-1-one (1, red lines) or 2-deuterocyclohex-2-en-1-one (S2, black lines) for BHMeHis1.8 and BHMeHis1.8 Glu26Gln. Reactions were performed using 1 or S2 (25 mM), 2 (2 mM) in PBS pH 7.0 with 3% (v/v) MeCN as cosolvent. Reactions were performed in triplicate. B) Representative MD snapshot of BHMeHis1.8:Int2 complex with a protonated glutamic acid Glu(H)26 (model A) from a 500 ns simulation. Int2 (black) and key amino acid residues (blue) are shown in ball and stick representation with hydrogen bonds shown as black dashed lines. C) Proposed mechanisms of BHMeHis1.8 showing a concerted (top) and a stepwise (bottom) proton transfer from Int2 and Int3 mediated by Glu(H)26.</figDesc><graphic coords="8,72.00,72.00,451.30,187.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>- 1 -</head><label>1</label><figDesc>one (S1) (180 mg, 7%) as a 4:1 mixture of diastereoisomers. Spectral data is consistent with literature values.<ref type="bibr" target="#b33">34</ref> δH (400 MHz, CDCl3): 8.26-8.20 (m, 2H), 7.57-7.51 (m, 2H), 7.10-6.97 (m, 1H), 6.13-6.08 (m, 1H), 5.70 (d, J = 2.3 Hz, 1Hmaj), 4.99 (d, J = 8.7 Hz, 1Hmin), 4.95 (br s, OHmin), 2.95 (br s, OHmaj), 2.72-2.65 (m, 1Hmaj), 2.62-2.53 (m, 1Hmin), 2.48-2.25 (m, 2H), 2.06-1.93 (m, 1H), 1.57-1.46 (m, 1H). ESI+ m/z = 270 ([M +Na] + ,100)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>13 C</head><label>13</label><figDesc>NMR (101 MHz, CDCl3) δ 200.4, 147.6, 140.8, 140.4, 133.2, 128.5, 127.9, 71.8, 38.5, 25.8, 22.5. ESI+ m/z = 221.0564 ([M 37 Cl -OH] + , 30), 219 ([M 35 Cl -OH] + , 100).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>2 -</head><label>2</label><figDesc>(hydroxy(4-methoxyphenyl)methyl)cyclohex-2-en-1-one (4f) (440 mg, 19%). The spectral data are consistent with literature values.<ref type="bibr" target="#b37">38</ref> 1 H NMR (400 MHz, CDCl3) δ 7.30-7.25 (m, 2H), 6.90-6.85 (m, 2H), 6.74 (t, J = 4.2 Hz, 1H), 5.51 (s, 1H), 3.80 (s, 3H), 3.35 (br s, 1H), 2.48-2.42 (m, 2H), 2.42-2.35 (m, 2H), 2.03-1.96 (m, 2H). 13 C NMR (100 MHz, CDCl3) δ 200.4, 158.9, 147.0, 141.1, 133.8, 127.7, 113.7, 72.0, 55.2, 38.5, 25.7, 22.5. ESI+ m/z = 255 ([M +Na] + ,100)2-((3-nitrophenyl)(hydroxy)methyl)cyclohex-2-en-1-one (4g) (132 mg, 16%). The spectral data are consistent with literature values.<ref type="bibr" target="#b34">35</ref> 1 H NMR (400 MHz, CDCl3) δ 8.21-8.18 (m, 1H), 8.09 (dd, J = 8.3, 1.2 Hz, 1H), 7.70 (d, J = 7.6 Hz, 1H), 7.49 (t, J = 7.9 Hz, 1H), 6.86 (t, J = 4.2 Hz, 1H), 5.58 (d, J = 5.7 Hz, 1H), 3.67 (d, J = 5.8 Hz, 1H), 2.48-2.37 (m, 4H), 2.00 (app quint, J = 6.3 Hz, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.2, 148.4, 148.2, 144.4, 140.3, 132.7, 129.3, 122.5, 121.4, 71.9, 38.5, 25.9, 22.5. ESI+ m/z = 230 ([M -OH] + , 100).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>2-(( 3 -</head><label>3</label><figDesc>fluoro-4-bromophenyl)(hydroxy)methyl)cyclohex-2-en-1-one (4i) (43 mg, 4%). 1 H NMR (400 MHz, CDCl3) δ 7.48 (dd, J = 8.3, 7.0 Hz, 1H), 7.16-7.11 (m, 1H), 7.01 (dd, J = 8.2, 2.0 Hz, 1H), 6.79 (t, J = 4.1, 1H), 5.46 (s, 1H), 3.50 (br s, 1H), 2.49-2.35 (m, 4H), 2.06-1.92 (m, 2H). 13 C NMR (101 MHz, CDCl3) δ 200.3, 159.1 (d, J = 247.4 Hz), 147.9, 144.1 (d, J = 6.2 Hz), 140.4, 133.3, 123.3 (d, J = 3.3 Hz), 114.7 (d, J = 23.1 Hz), 107.8 (d, J = 20.9 Hz), 71.7 (d, J = 1.6 Hz), 38.6, 25.9, 22.5. ESI+ m/z = 283 ([M 81 Br -OH] + , 95), 281 ([M 79 Br -OH] + , 100).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>4 -</head><label>4</label><figDesc>(hydroxy(6-oxocyclohex-1-en-1-yl)methyl)thiophene-2-carbaldehyde (4j) and 5-(hydroxy(6oxocyclohex-1-en-1-yl)methyl)thiophene-3-carbaldehyde (4k) 4j was obtained as a yellow oil (10 mg, 2%).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>C NMR (101 MHz, CDCl3): δ 191.3, 151.4, 123.8, 38.4, 28.4, 22.7.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge the <rs type="funder">European Research Council</rs> (<rs type="grantName">ERC Starting Grant</rs> no. <rs type="grantNumber">757991</rs> to A.P.G.), the <rs type="funder">Biotechnology and Biological Sciences Research Council</rs> (<rs type="grantName">David Phillips Fellowship</rs> <rs type="grantNumber">BB/M027023/1</rs> to A.P.G. and grants <rs type="grantNumber">BB/W014483/1</rs> and <rs type="grantNumber">BB/X000974/1</rs>), the <rs type="funder">Human Frontier Science Program</rs> research grant (<rs type="grantNumber">RGP0004/2022</rs>). A.E.C. was supported by a <rs type="funder">BBSRC Industrial CASE</rs> PhD studentship (<rs type="grantNumber">BB/S507040/1</rs>) supported by <rs type="funder">GSK</rs>. R.C. was supported by a <rs type="funder">BBSRC</rs> <rs type="grantName">Flexible Talent Mobility Account Award</rs> (<rs type="grantNumber">BB/S507969/1</rs>). T.M.L was supported by an integrated catalysis Doctoral Training Program (<rs type="grantNumber">EP/023755/1</rs>). We are grateful to <rs type="institution" subtype="infrastructure">Diamond Light Source</rs> for time on beamline I03 under proposal MX24447, to the <rs type="institution">Manchester SYNBIOCHEM Centre</rs> (<rs type="grantNumber">BB/M017702/1</rs>), the <rs type="funder">Future Biomanufacturing Hub</rs> (<rs type="grantNumber">EP/S01778X/1</rs>) and the <rs type="funder">Henry Royce Institute for Advanced Materials</rs> (financed through <rs type="funder">EPSRC</rs> grant nos. <rs type="grantNumber">EP/R00661X/1</rs>, <rs type="grantNumber">EP/S019367/1</rs>, <rs type="grantNumber">EP/P025021/1</rs> and <rs type="grantNumber">EP/P025498/1</rs>) for access to their facilities and to <rs type="person">M. Dunstan</rs> (<rs type="affiliation">Manchester Institute of Biotechnology</rs>) for guidance on automating directed-evolution workflows. We thank <rs type="person">C. Levy</rs> for assistance with X-ray crystallography, <rs type="person">R. Spiess</rs> and <rs type="person">R. Sung</rs> (<rs type="affiliation">Manchester Institute of Biotechnology</rs>) for acquiring protein mass spectra and for assistance with UPLC method development.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zPSSBrP">
+					<idno type="grant-number">757991</idno>
+					<orgName type="grant-name">ERC Starting Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_dUjzEwe">
+					<idno type="grant-number">BB/M027023/1</idno>
+					<orgName type="grant-name">David Phillips Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_ur9M8ze">
+					<idno type="grant-number">BB/W014483/1</idno>
+				</org>
+				<org type="funding" xml:id="_m6sS6B7">
+					<idno type="grant-number">BB/X000974/1</idno>
+				</org>
+				<org type="funding" xml:id="_Vhap9ds">
+					<idno type="grant-number">RGP0004/2022</idno>
+				</org>
+				<org type="funding" xml:id="_Uyv3DpP">
+					<idno type="grant-number">BB/S507040/1</idno>
+				</org>
+				<org type="funding" xml:id="_AxFsf9w">
+					<idno type="grant-number">BB/S507969/1</idno>
+					<orgName type="grant-name">Flexible Talent Mobility Account Award</orgName>
+				</org>
+				<org type="funding" xml:id="_XGyrBhv">
+					<idno type="grant-number">EP/023755/1</idno>
+				</org>
+				<org type="funding" xml:id="_4HXDcSm">
+					<idno type="grant-number">BB/M017702/1</idno>
+				</org>
+				<org type="funding" xml:id="_pVNStyH">
+					<idno type="grant-number">EP/S01778X/1</idno>
+				</org>
+				<org type="funding" xml:id="_b88nHAY">
+					<idno type="grant-number">EP/R00661X/1</idno>
+				</org>
+				<org type="funding" xml:id="_ue8EyeE">
+					<idno type="grant-number">EP/S019367/1</idno>
+				</org>
+				<org type="funding" xml:id="_GG7wcDS">
+					<idno type="grant-number">EP/P025021/1</idno>
+				</org>
+				<org type="funding" xml:id="_rp9hZfM">
+					<idno type="grant-number">EP/P025498/1</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Diamond Light Source</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>Coordinates and structure factors have been deposited in the Protein Data Bank under accession numbers 8BP1 and 8BP0 for BHMeHis1.0 and BHMeHis1.8, respectively. The authors declare that the data supporting the findings of this study are available within the paper and its Supplementary Information files. Source data are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>A.E.C carried out molecular biology, protein production and crystallisation, directed evolution and enzyme characterisation. A.E.C and R.C. synthesised the mechanistic inhibitor, product standards, developed chromatographic methods and carried out kinetic characterisation. F.J.H. interpreted, analysed and presented structural data. L.J., E.F.G., S.H. performed and analysed the molecular dynamics simulations. T.M.L. synthesised the deuterium labelled alkene substrate. A.P.G., A.E.C., R.C., F.J.H., R.O. discussed the results and participated in writing the manuscript. All authors provided input throughout project progression. A.P.G. initiated and directed the research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Files</head><p>This is a list of supplementary les associated with this preprint. Click to download.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crossley2023SI.pdf</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The road to fully programmable protein catalysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lovelock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">606</biblScope>
+			<biblScope unit="page" from="49" to="58" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lovelock, S. L. et al. The road to fully programmable protein catalysis. Nature 606, 49-58 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Design of Protein Catalysts</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="447" to="470" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hilvert, D. Design of Protein Catalysts. Annu. Rev. Biochem. 82, 447-470 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Enzyme-like proteins by computational design</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Bolon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="14274" to="14279" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolon, D. N. &amp; Mayo, S. L. Enzyme-like proteins by computational design. Proc. Natl. Acad. Sci. U.S.A. 98, 14274-14279 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">New algorithms and an in silico benchmark for computational enzyme design</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2785" to="2794" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zanghellini, A. et al. New algorithms and an in silico benchmark for computational enzyme design. Protein Sci. 15, 2785-2794 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Computational enzyme design</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Çelebi-Ölçüm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="5700" to="5725" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiss, G., Çelebi-Ölçüm, N., Moretti, R., Baker, D. &amp; Houk, K. N. Computational enzyme design. Angew. Chem. Int. Ed. 52, 5700-5725 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Computational design of an enzyme catalyst for a stereoselective bimolecular diels-alder reaction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="309" to="313" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegel, J. B. et al. Computational design of an enzyme catalyst for a stereoselective bimolecular diels-alder reaction. Science 329, 309-313 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Iterative approach to computational enzyme design</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Privett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="3790" to="3795" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Privett, H. K. et al. Iterative approach to computational enzyme design. Proc. Natl. Acad. Sci. U.S.A. 109, 3790-3795 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Kemp elimination catalysts by computational enzyme design</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Röthlisberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Röthlisberger, D. et al. Kemp elimination catalysts by computational enzyme design. Nature 453, 190-195 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">De novo computational design of retro-aldol enzymes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1387" to="1391" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiang, L. et al. De novo computational design of retro-aldol enzymes. Science 319, 1387-1391 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Precision is essential for efficient catalysis in an evolved Kemp eliminase</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blomberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="418" to="421" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomberg, R. et al. Precision is essential for efficient catalysis in an evolved Kemp eliminase. Nature 503, 418-421 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Impact of scaffold rigidity on the design and evolution of an artificial Diels-Alderase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Preiswerk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="8013" to="8018" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Preiswerk, N. et al. Impact of scaffold rigidity on the design and evolution of an artificial Diels- Alderase. Proc. Natl. Acad. Sci. U.S.A. 111, 8013-8018 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Emergence of a catalytic tetrad during evolution of a highly active artificial aldolase</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Obexer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="50" to="56" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obexer, R. et al. Emergence of a catalytic tetrad during evolution of a highly active artificial aldolase. Nat. Chem. 9, 50-56 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Engineering an efficient and enantioselective enzyme for the Morita-Baylis-Hillman reaction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Crawshaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="313" to="320" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crawshaw, R. et al. Engineering an efficient and enantioselective enzyme for the Morita- Baylis-Hillman reaction. Nat. Chem. 14, 313-320 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evolution of a designed retro-aldolase leads to complete active site remodeling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="494" to="498" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giger, L. et al. Evolution of a designed retro-aldolase leads to complete active site remodeling. Nat. Chem. Biol. 9, 494-498 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Enzymes with noncanonical amino acids</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, J., Burke, A. J. &amp; Green, A. P. Enzymes with noncanonical amino acids. Curr. Opin. Chem. Biol. 55, 136-144 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Engineering enzyme activity using an expanded amino acid alphabet</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Birch-Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ortmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Eng. Des. Sel</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Birch-Price, Z., Taylor, C. J., Ortmayer, M. &amp; Green, A. P. Engineering enzyme activity using an expanded amino acid alphabet. Protein Eng. Des. Sel. 36, gzac013 (2023).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A designer enzyme for hydrazone and oxime formation featuring an unnatural catalytic aniline residue</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Drienovská</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roelfes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="946" to="952" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drienovská, I., Mayer, C., Dulson, C. &amp; Roelfes, G. A designer enzyme for hydrazone and oxime formation featuring an unnatural catalytic aniline residue. Nat. Chem. 10, 946-952 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A Designed Photoenzyme for Enantioselective [2+2]-Cycloadditions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Trimble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">611</biblScope>
+			<biblScope unit="page" from="709" to="714" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trimble, J. S. et al. A Designed Photoenzyme for Enantioselective [2+2]-Cycloadditions. Nature 611, 709-714 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Enantioselective [2+2]-cycloadditions with triplet photoenzymes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">611</biblScope>
+			<biblScope unit="page" from="715" to="720" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, N. et al. Enantioselective [2+2]-cycloadditions with triplet photoenzymes. Nature 611, 715-720 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Design and evolution of an enzyme with a non-canonical organocatalytic mechanism</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">570</biblScope>
+			<biblScope unit="page" from="219" to="223" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burke, A. J. et al. Design and evolution of an enzyme with a non-canonical organocatalytic mechanism. Nature 570, 219-223 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Computational Design of Catalytic Dyads and Oxyanion Holes for Ester Hydrolysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="16197" to="16206" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richter, F. et al. Computational Design of Catalytic Dyads and Oxyanion Holes for Ester Hydrolysis. J. Am. Chem. Soc. 134, 16197-16206 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Installing hydrolytic activity into a completely de novo protein framework</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Woolfson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="837" to="844" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burton, A. J., Thomson, A. R., Dawson, W. M., Brady, R. L. &amp; Woolfson, D. N. Installing hydrolytic activity into a completely de novo protein framework. Nat. Chem. 8, 837-844 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Chiral dialkylaminopyridine catalysts in asymmetric synthesis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Wurz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="5570" to="5595" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wurz, R. P. Chiral dialkylaminopyridine catalysts in asymmetric synthesis. Chem. Rev. 107, 5570-5595 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Recent advances in organocatalytic asymmetric Morita-Baylis-Hillman/aza-Morita-Baylis-Hillman reactions</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="6659" to="6690" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wei, Y. &amp; Shi, M. Recent advances in organocatalytic asymmetric Morita-Baylis-Hillman/aza- Morita-Baylis-Hillman reactions. Chem. Rev. 113, 6659-6690 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Recent advances in the Baylis-Hillman reaction and applications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Basavaiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Satyanarayana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="811" to="892" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Basavaiah, D., Rao, A. J. &amp; Satyanarayana, T. Recent advances in the Baylis-Hillman reaction and applications. Chem. Rev. 103, 811-892 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Recent contributions from the Baylis-Hillman reaction to organic chemistry</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Basavaiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Badsara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5447" to="5674" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Basavaiah, D., Reddy, B. S. &amp; Badsara, S. S. Recent contributions from the Baylis-Hillman reaction to organic chemistry. Chem. Rev. 110, 5447-5674 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Computational design of enone-binding proteins with catalytic activity for the Morita-Baylis-Hillman reaction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bjelic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="749" to="757" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bjelic, S. et al. Computational design of enone-binding proteins with catalytic activity for the Morita-Baylis-Hillman reaction. ACS Chem. Biol. 8, 749-757 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Genetic incorporation of histidine derivatives using an engineered pyrrolysyl-tRNA synthetase</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1092" to="1096" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiao, H. et al. Genetic incorporation of histidine derivatives using an engineered pyrrolysyl- tRNA synthetase. ACS Chem. Biol. 9, 1092-1096 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">PROPKA3: consistent treatment of internal and surface residues in empirical pKa predictions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Søndergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rostkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="525" to="537" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Olsson, M. H., Søndergaard, C. R., Rostkowski, M. &amp; Jensen, J. H. PROPKA3: consistent treatment of internal and surface residues in empirical pKa predictions. J. Chem. Theory Comput. 7, 525-537 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Inverse solvent isotope effects in enzyme-catalyzed reactions</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Murkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">1933</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernandez, P. L. &amp; Murkin, A. S. Inverse solvent isotope effects in enzyme-catalyzed reactions. Molecules. 25, 1933 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">BglBrick vectors and datasheets: A synthetic biology platform for gene expression</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Eng</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="15" to="17" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, T. S. et al. BglBrick vectors and datasheets: A synthetic biology platform for gene expression. J. Biol. Eng. 5, 15-17 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Reducing codon redundancy and screening effort of combinatorial protein libraries created by saturation mutagenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kille, S. et al. Reducing codon redundancy and screening effort of combinatorial protein libraries created by saturation mutagenesis. ACS Synth. Biol. 2, 83-92 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Remarkable rate acceleration of imidazole-promoted Baylis-Hillman reaction involving cyclic enones in basic water solution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="555" to="558" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luo, S., Wang, P. G. &amp; Cheng, J. P. Remarkable rate acceleration of imidazole-promoted Baylis-Hillman reaction involving cyclic enones in basic water solution. J. Org. Chem. 69, 555- 558 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The Chalcogeno-Baylis-Hillman Reaction : A new preparation of allylie alcohols from aldehydes and electrondeficient alkenes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kataoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsujiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11813" to="11824" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kataoka, T., Iwama, T., Tsujiyama, S., Iwamura, T. &amp; Watanabe, S. The Chalcogeno-Baylis- Hillman Reaction : A new preparation of allylie alcohols from aldehydes and electron- deficient alkenes. Tetrahedron 54, 11813-11824 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Asymmetric Morita-Baylis-Hillman reaction of arylaldehydes with 2cyclohexen-1-one catalyzed by chiral bis(thio)urea and DABCO</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1043" to="1046" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shi, M. &amp; Liu, X. G. Asymmetric Morita-Baylis-Hillman reaction of arylaldehydes with 2- cyclohexen-1-one catalyzed by chiral bis(thio)urea and DABCO. Org. Lett. 10, 1043-1046 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Correlation between pKa and reactivity of quinuclidine-based catalysts in the Baylis-Hillman Reaction : Discovery of quinuclidine as optimum catalyst leading to substantial enhancement of scope</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Emme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Fulford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="692" to="700" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aggarwal, V. K., Emme, I. &amp; Fulford, S. Y. Correlation between pKa and reactivity of quinuclidine-based catalysts in the Baylis-Hillman Reaction : Discovery of quinuclidine as optimum catalyst leading to substantial enhancement of scope. J. Org. Chem. 68, 692-700 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">TiCl4-mediated Baylis-Hillman and aldol reactions without the direct use of a Lewis base</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Caputo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, G., Wei, H., Gao, J. J. &amp; Caputo, T. D. TiCl4-mediated Baylis-Hillman and aldol reactions without the direct use of a Lewis base. Tetrahedron 41, 1-5 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The effect of chiral N-substituents with methyl or trifluoromethyl groups on the catalytic performance of mono-and bifunctional</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vazquez-Chavez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Biomol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="10045" to="10051" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vazquez-chavez, J. et al. The effect of chiral N-substituents with methyl or trifluoromethyl groups on the catalytic performance of mono-and bifunctional. Org. Biomol. Chem. 17, 10045-10051 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A highly efficient kinetic resolution of Morita-Baylis-Hillman adducts achieved by N-Ar axially chiral Pd-complexes catalyzed asymmetric allylation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="12813" to="12815" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, F. et al. A highly efficient kinetic resolution of Morita-Baylis-Hillman adducts achieved by N-Ar axially chiral Pd-complexes catalyzed asymmetric allylation. Chem. Commun. 47, 12813-12815 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Asymmetric conjugate addition to α-halo enones: Dramatic effect of styrene on the enantioselectivity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alexakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="7600" to="7603" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, K. &amp; Alexakis, A. Asymmetric conjugate addition to α-halo enones: Dramatic effect of styrene on the enantioselectivity. Angew. Chem. Int. Ed. 45, 7600-7603 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Total Synthesis of Malyngamides K, L, and 5&apos;&apos;-epi-C and absolute configuration of Malyngamide L</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="3946" to="3959" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, J. et al. Total Synthesis of Malyngamides K, L, and 5&apos;&apos;-epi-C and absolute configuration of Malyngamide L. J. Org. Chem. 76, 3946-3959 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Carbocyclic Ring Expansion Reactions Via Radical Chain Processes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Adlington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Robertson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Soc., Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1404" to="1406" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baldwin, J. E., Adlington, R. M. &amp; Robertson, J. Carbocyclic Ring Expansion Reactions Via Radical Chain Processes. J. Chem. Soc., Chem. Commun. 21, 1404-1406 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">PHENIX: A comprehensive Python-based system for macromolecular structure solution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Cryst</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="213" to="221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams, P. D. et al. PHENIX: A comprehensive Python-based system for macromolecular structure solution. Acta Cryst. 66, 213-221 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Automatic rebuilding and optimization of crystallographic structures in the Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perrakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3392" to="3398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joosten, R. P., Joosten, K., Cohen, S. X., Vriend, G. &amp; Perrakis, A. Automatic rebuilding and optimization of crystallographic structures in the Protein Data Bank. Bioinformatics 27, 3392- 3398 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Antechamber: an accessory software package for molecular mechanical calculations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Case</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1157" to="1174" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, J., Wang, W., Kollman, P. A. &amp; Case, D. A. Antechamber: an accessory software package for molecular mechanical calculations. J. Chem. Comput. Chem. 25, 1157-1174 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Frisch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gaussian</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Revision C.01 (Gaussian</note>
+	<note type="raw_reference">Frisch, M. J. et al. Gaussian 16, Revision C.01 (Gaussian, 2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Abraham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SoftwareX</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abraham, M. J. et al. GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. SoftwareX, 1, 19-25 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Tackling Exascale Software Challenges in Molecular Dynamics Simulations with GROMACS</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Páll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kutzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lindahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Markidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Laure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solving Software Challenges for Exascale</title>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="3" to="27" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Páll, S., Abraham, M. J., Kutzner, C., Hess, B. &amp; Lindahl, E. Tackling Exascale Software Challenges in Molecular Dynamics Simulations with GROMACS. in Solving Software Challenges for Exascale (eds. Markidis, S., Laure, E.) 3-27 (Springer, Cham, 2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">ff14SB: improving the accuracy of protein side chain and backbone parameters from ff99SB</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3696" to="3713" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maier, J. A. et al. ff14SB: improving the accuracy of protein side chain and backbone parameters from ff99SB. J. Chem. Theory Comput. 11, 3696-3713 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Canonical sampling through velocity rescaling</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bussi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Donadio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parrinello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">14101</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bussi, G., Donadio, D. &amp; Parrinello, M. Canonical sampling through velocity rescaling. J. Chem. Phys. 126, 014101 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Constant pressure molecular dynamics for molecular systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nosé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Physics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1055" to="1076" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nosé, S. Klein, M. L. Constant pressure molecular dynamics for molecular systems. Molecular Physics 50, 1055-1076 (1983).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">LINCS: a linear constraint solver for molecular simulations</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J C</forename><surname>Berendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G E</forename><surname>Fraaije</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1463" to="1472" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, B., Bekker, H., Berendsen, H. J. C. &amp; Fraaije, J. G. E. M. LINCS: a linear constraint solver for molecular simulations. J. Comput. Chem. 18, 1463-1472 (1997).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

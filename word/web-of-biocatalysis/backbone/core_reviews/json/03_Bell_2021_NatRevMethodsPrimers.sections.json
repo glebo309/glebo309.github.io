@@ -1,0 +1,1237 @@
+{
+  "review_id": "03_Bell_2021_NatRevMethodsPrimers",
+  "sections": [
+    {
+      "header": "Enzymes have been employed for a wide variety of chemical processes for decades …",
+      "raw_header": "Enzymes have been employed for a wide variety of chemical processes for decades …",
+      "text": "Enzymes have been employed for a wide variety of chemical processes for decades (Fig. 1). For example, nitrile hydratases are used to make acrylamide on the thousands of tons scale, and enzymes have been added to detergents for more than 30 years 1,2 . More recently, the use of proteins as catalysts for chemical synthesis of more complex molecules, such as pharmaceuticals, has become increasingly widespread. Enzymes are particularly powerful because they merge the advantages of a directing group controlling selectivity and a catalyst in a single reagent 3 , which can also be used with other enzymes in a one-pot reaction. Over the past 20 years, combined synthetic-enzymatic systems have enabled multiple total synthesis endeavours, and the use of enzymes is becoming routine in some process chemistry groups in industry 4 . Until recently, only a subset of enzymes, such as lipases or ketoreductases (KREDs), were available for chemical synthesis applications 5 . However, the growth of potential sources of enzymes for process chemistry applications has accelerated, resulting in a diverse toolkit of enzymes now available to researchers. In 2014, the development of a total enzymatic synthesis of the nucleoside didanosine highlighted the possibility of 'bio-retrosynthesis' 6 . Based on the principles of retrosynthesis, where the target molecule is transformed into simple precursors by 'breaking' bonds that can be formed from synthetic transformations, 'bio-retrosynthesis' involves the design of an artificial enzyme cascade -a synthetic biochemical pathway -that offers a possible route towards the desired target molecule by choosing enzymes as catalysts for the required chemistry. The fully biocatalyst-driven synthesis of the HIV inhibitor islatravir (Fig. 1), which will be discussed in more detail in the Applications section, demonstrates the power of combining modern approaches towards designing new enzyme cascades, including repurposing of known biosynthetic pathways, screening of saturation mutagenesis libraries of enzyme variants and directed evolution against selected residues towards increased enzyme stability and turnover 7 . In this Primer, we discuss the different development stages (reaction design, biocatalyst choice and optimization, and bioprocess development) that can lead to a range of industrial products as shown in Fig. 1. These stages are interdependent and need to be closely integrated. Starting with a target molecule, a single or multistep biocatalytic process needs to be designed, often by manual design using expertise and precedent literature from organic synthesis and biocatalysis. More recently, programmes such as RetroBioCat 8 including biocatalyst databases are being developed to speed up this step and enable the automatic design of de novo biosynthetic pathways. Once a process has been designed, suitable enzymes need to be selected for each step and tested (Experimentation). The increasing adoption of biocatalysis by the pharmaceutical industry has been driven by innovative tools in protein engineering, which allow fast optimization of catalyst activity, including laboratory evolution and computational design (Experimentation). As a result, strict reaction parameters (Results) can now be met at reasonable timescales for successful bioprocess development (Applications). These parameters include non-physiological reaction conditions such as high activity on non-natural substrates, high temperature, high concentration of substrates and tolerance of organic solvents and wide pH ranges. Alongside protein engineering tools, databases of available biocatalysts with their reaction profiles are starting to be established (Reproducibility and data deposition). We also detail the current limitations of biocatalysis and areas of importance for further advancing this method to expand the breadth of applications (Limitations and optimizations). Finally, we highlight what the future holds for biocatalysis and the impact it will likely have in the next decade (Outlook).",
+      "snippet": "Enzymes have been employed for a wide variety of chemical processes for decades (Fig. 1). For example, nitrile hydratases are used to make acrylamide on the thousands of tons scale, and enzymes have been added to detergents for more than 30 years 1,2 . More recently, the use of proteins as catalysts for chemical synthesis of more complex molecules, such as pharmaceuticals, has become increasingly widespread. Enzymes are particularly powerful because they merge the advantages of a directing group controlling selectivity and a catalyst in a single reagent 3 , which can also be used with other enzymes in a one-pot reaction. Over the past 20 years, combined synthetic-enzymatic systems have enabled multiple total synthesis endeavours, and the use of enzymes is becoming routine in some process chemistry groups in industry 4 . Until recently, only a subset of enzymes, such as lipases or ketoreductases (KREDs), were available for chemical synthesis applications 5 . However, the growth of potential sources of enzymes for process chemistry applications has accelerated, resulting in a diverse toolkit of enzymes now available to researchers. In 2014, the development of a total enzymatic synthesis of the nucleoside didanosine highlighted the possibility of 'bio-retrosynthesis' 6 . Based on the principles of retrosynthesis, where the target molecule is transformed into simple precursors by 'breaking' bonds that can be formed from synthetic transformations, 'bio-retrosynthesis' involves the…",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Experimentation",
+      "raw_header": "Experimentation",
+      "text": "In this section, we highlight several sources available to scientists looking for an enzyme as a starting point to develop a new biocatalyst. We discuss how one can optimize biocatalysts using directed evolution and computational design as well as how to incorporate non-canonical amino acids to enable novel chemistries.",
+      "snippet": "In this section, we highlight several sources available to scientists looking for an enzyme as a starting point to develop a new biocatalyst. We discuss how one can optimize biocatalysts using directed evolution and computational design as well as how to incorporate non-canonical amino acids to enable novel chemistries.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Sources of biocatalysts",
+      "raw_header": "Sources of biocatalysts",
+      "text": "Enzymes can be sourced from a few outlets that include commercial sources, adaptation of enzymes from biosynthesis, screening of metagenomic libraries and in silico mining of databases. Commercial sources of biocatalysts. Purified enzymes or lyophilized crude cell lysates are often available for direct purchase through chemical vendors (Fig. 2a). For example, one can purchase specific dehydrogenases, reductases or carbohydrate-active enzymes, and directly employ them in chemical synthesis. Libraries of commercially produced enzymes can be screened against specific substrates to identify candidate biocatalysts. Available libraries include oxidoreductases (KREDs, imine reductases (IREDs), ene reductases, Baeyer-Villiger monooxygenases, monoamine oxidases), transferases (transaminases), lyases (nitrilases, halohydrin dehalogenases, acylases), carbon-carbon bond-forming enzymes and carbon-nitrogen bond-forming enzymes 9 (Box 1). In addition to these types of commercial sources and kits, the wide availability of commercial gene synthesis means that, in principle, any enzyme with a known amino acid sequence can be obtained through gene synthesis. Researchers can order the synthetic gene corresponding to the protein, recombinantly express it in a desirable host organism or by cell-free protein synthesis and, then, purify the protein for testing as one would similarly do with a catalyst in a chemical synthesis. Databases ranging from SciFinder (with a licence) to UniProt 10 and BioCatNet 11 allow researchers to identify enzymes that catalyse desired chemical transformations. Thus, through the combination of publicly available sequence data and commercial gene synthesis, any enzyme reported is available to the researcher, for a cost. Natural product biosynthetic enzymes. Enzymes involved in the synthesis of specialized metabolites, or natural products, are particularly useful as starting points for biocatalysis. Natural products tend to have diverse chemical",
+      "snippet": "Enzymes can be sourced from a few outlets that include commercial sources, adaptation of enzymes from biosynthesis, screening of metagenomic libraries and in silico mining of databases. Commercial sources of biocatalysts. Purified enzymes or lyophilized crude cell lysates are often available for direct purchase through chemical vendors (Fig. 2a). For example, one can purchase specific dehydrogenases, reductases or carbohydrate-active enzymes, and directly employ them in chemical synthesis. Libraries of commercially produced enzymes can be screened against specific substrates to identify candidate biocatalysts. Available libraries include oxidoreductases (KREDs, imine reductases (IREDs), ene reductases, Baeyer-Villiger monooxygenases, monoamine oxidases), transferases (transaminases), lyases (nitrilases, halohydrin dehalogenases, acylases), carbon-carbon bond-forming enzymes and carbon-nitrogen bond-forming enzymes 9 (Box 1). In addition to these types of commercial sources and kits, the wide availability of commercial gene synthesis means that, in principle, any enzyme with a known amino acid sequence can be obtained through gene synthesis. Researchers can order the synthetic gene corresponding to the protein, recombinantly express it in a desirable host organism or by cell-free protein synthesis and, then, purify the protein for testing as one would similarly do with a catalyst in a chemical synthesis. Databases ranging from SciFinder (with a licence) to UniProt 10 and BioCa…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "9",
+          "target_xml_id": "b0"
+        },
+        {
+          "ref_marker": "10",
+          "target_xml_id": "b1"
+        },
+        {
+          "ref_marker": "11",
+          "target_xml_id": "b2"
+        }
+      ]
+    },
+    {
+      "header": "Enzyme cascade",
+      "raw_header": "Enzyme cascade",
+      "text": "Within the biocatalysis community this term is used broadly for concurrent, multienzyme one-pot biocatalytic reactions as well as reactions in which components are added sequentially or process steps are telescoped.",
+      "snippet": "Within the biocatalysis community this term is used broadly for concurrent, multienzyme one-pot biocatalytic reactions as well as reactions in which components are added sequentially or process steps are telescoped.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Metagenomic libraries",
+      "raw_header": "Metagenomic libraries",
+      "text": "genomic libraries constructed by the direct cloning of the large fragments of the environmental DNA into an appropriate vector, transformed into the host bacteria. • SciFinder • UniProt • BioCatNet Identifying enzymes Gene synthesis Protein expression Enzyme libraries Substrate specificity screening b Natural product biosynthetic enzymes c Metagenomic and in silico screening Biocatalyst example: conversion of A antigen into H antigen Fe(II) and 2-oxoglutarate-dependent enzyme, GriE GriE Fe 2+ ,O 2 , αKG GriF, H, A, B, C Chemoenzymatic synthesis Biosynthesis Substrate specificity Microbiomes Environmental samples DNA extraction and cloning Sequence-base screening Function-base screening H antigen N-Acetyl galactosamine N-Acetyl glucosamine Galactose Fucose Transformed cell DNA",
+      "snippet": "genomic libraries constructed by the direct cloning of the large fragments of the environmental DNA into an appropriate vector, transformed into the host bacteria. • SciFinder • UniProt • BioCatNet Identifying enzymes Gene synthesis Protein expression Enzyme libraries Substrate specificity screening b Natural product biosynthetic enzymes c Metagenomic and in silico screening Biocatalyst example: conversion of A antigen into H antigen Fe(II) and 2-oxoglutarate-dependent enzyme, GriE GriE Fe 2+ ,O 2 , αKG GriF, H, A, B, C Chemoenzymatic synthesis Biosynthesis Substrate specificity Microbiomes Environmental samples DNA extraction and cloning Sequence-base screening Function-base screening H antigen N-Acetyl galactosamine N-Acetyl glucosamine Galactose Fucose Transformed cell DNA",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Recombinant protein expression",
+      "raw_header": "Recombinant protein expression",
+      "text": "Cell-free protein synthesis Fig. 2 | Sources of biocatalysts. a | Types of biocatalyst useful in chemoenzymatic synthesis and biochemical applications. b | Natural product biosynthetic enzymes. In the biosynthetic pathway of griselimycin, the Fe(II) and 2-oxoglutaratedependent enzyme, GriE, reacts with l-leucine to give (2S,4R)-5-hydroxy-leucine. This regioselective and stereoselective hydroxylation enables a chemoenzymatic synthesis of manzacidin C. c | Metagenomic screening approaches. Top: first step of metagenomics screening is extraction of total DNA from environmental samples such as marine sponges or soil microorganism communities. This DNA is constructed into a metagenomic library and is commonly screened using sequence-based or function-based approaches. Bottom: enzymatic conversion of A/B antigens into H antigen. All blood group antigens depicted are type I. structures, and studies on the biosynthesis of such natural products have unveiled a correspondingly diverse set of biosynthetic enzymes. Therefore, natural product biosynthetic enzymes are a potential source for diverse catalysts. A recent review discusses the wide-ranging chemical and enzymatic diversity found in natural product biosynthesis 12 . From a biocatalytic point of view, the most important criteria in selecting a potential biosynthetic enzyme include its substrate specificity, cofactor dependence, turnover, stability, functional recombinant expression and ability to perform a stand-alone function outside its natural pathway within a cell. One group of biosynthetic enzymes widely found in natural product biosynthesis are oxidative Fe(II) and 2-oxoglutarate-dependent enzymes, which can catalyse challenging reactions such as hydroxylation, halogenation and oxidative cyclizations, typically for C(sp 3 )-H functionalization, due to the reactive intermediates generated in the catalytic cycle 13 . These powerful enzymes have emerged as useful biocatalysts for chemical synthesis 14 . One example is GriE -an enzyme involved in the synthesis of the peptide griselimycin in Streptomyces 15 that hydroxylates the δ-carbon of l-leucine and was employed for a key step in the total synthesis of manzacidin C 16 (Fig. 2b). Other examples include halogenases such as BesD, which chlorinate free amino acids to generate non-proteinogenic amino acids 17 . A final example is KabC, which catalyses an oxidative cyclization and was employed in a biocatalytic synthesis of the neurochemical kainic acid 18 . These types of Fe(II) and 2-oxoglutarate-dependent enzymes represent a promising group of biocatalysts for further development as they can be reconstituted either using Escherichia coli cell lysates or in vitro 19 . Other known natural product biosynthetic enzymes with demonstrated use in chemical synthesis include methyltransferases 20 , Diels-Alderases that catalyse cycloadditions 21 , halogenases 22 , uridine diphosphatedependent glycosyltransferases 23 , laccases 24 and pyridoxal phosphate-dependent enzymes 25 . However, biosynthetic enzymes are typically sluggish catalysts, with Michaelis constant k cat values typically about 30-fold lower than those of primary metabolism 26 , which is probably owing to the constraints at work in their evolutionary histories 26,27 . To this end, biosynthetic enzymes are viewed as starting points for directed evolution efforts to improve rates of catalysis, substrate tolerance as well as stability and solubility in desired solvents, which include ionic liquids and water-soluble organic solvents 23 . Metagenomic and in silico screening. Metagenomic libraries are an additional source for new biocatalysts 28 ; these are genomic libraries of DNA obtained from environmental samples such as marine sponges, soil or faeces 29 . Functional-based screening or sequence-based screening is often used to search through a genomic library to find enzymes of interest (Fig. 2c). Functionalbased screening can incorporate the use of colorimetric assays [30][31][32] , mechanism-based probes 33 and/or droplet microfluidics 34 . Researchers are looking for enzymes in these libraries that demonstrate catalysis of the desired",
+      "snippet": "Cell-free protein synthesis Fig. 2 | Sources of biocatalysts. a | Types of biocatalyst useful in chemoenzymatic synthesis and biochemical applications. b | Natural product biosynthetic enzymes. In the biosynthetic pathway of griselimycin, the Fe(II) and 2-oxoglutaratedependent enzyme, GriE, reacts with l-leucine to give (2S,4R)-5-hydroxy-leucine. This regioselective and stereoselective hydroxylation enables a chemoenzymatic synthesis of manzacidin C. c | Metagenomic screening approaches. Top: first step of metagenomics screening is extraction of total DNA from environmental samples such as marine sponges or soil microorganism communities. This DNA is constructed into a metagenomic library and is commonly screened using sequence-based or function-based approaches. Bottom: enzymatic conversion of A/B antigens into H antigen. All blood group antigens depicted are type I. structures, and studies on the biosynthesis of such natural products have unveiled a correspondingly diverse set of biosynthetic enzymes. Therefore, natural product biosynthetic enzymes are a potential source for diverse catalysts. A recent review discusses the wide-ranging chemical and enzymatic diversity found in natural product biosynthesis 12 . From a biocatalytic point of view, the most important criteria in selecting a potential biosynthetic enzyme include its substrate specificity, cofactor dependence, turnover, stability, functional recombinant expression and ability to perform a stand-alone function out…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "12",
+          "target_xml_id": "b3"
+        },
+        {
+          "ref_marker": "13",
+          "target_xml_id": "b4"
+        },
+        {
+          "ref_marker": "14",
+          "target_xml_id": "b5"
+        },
+        {
+          "ref_marker": "17",
+          "target_xml_id": "b8"
+        },
+        {
+          "ref_marker": "18",
+          "target_xml_id": "b9"
+        },
+        {
+          "ref_marker": "19",
+          "target_xml_id": "b10"
+        },
+        {
+          "ref_marker": "20",
+          "target_xml_id": "b11"
+        },
+        {
+          "ref_marker": "21",
+          "target_xml_id": "b12"
+        },
+        {
+          "ref_marker": "22",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "23",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "24",
+          "target_xml_id": "b15"
+        },
+        {
+          "ref_marker": "25",
+          "target_xml_id": "b16"
+        },
+        {
+          "ref_marker": "26",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "26,",
+          "target_xml_id": "b17"
+        },
+        {
+          "ref_marker": "27",
+          "target_xml_id": "b18"
+        },
+        {
+          "ref_marker": "23",
+          "target_xml_id": "b14"
+        },
+        {
+          "ref_marker": "28",
+          "target_xml_id": "b19"
+        },
+        {
+          "ref_marker": "29",
+          "target_xml_id": "b20"
+        },
+        {
+          "ref_marker": "[30]",
+          "target_xml_id": "b21"
+        },
+        {
+          "ref_marker": "[31]",
+          "target_xml_id": "b22"
+        },
+        {
+          "ref_marker": "[32]",
+          "target_xml_id": "b23"
+        },
+        {
+          "ref_marker": "33",
+          "target_xml_id": "b24"
+        },
+        {
+          "ref_marker": "34",
+          "target_xml_id": "b25"
+        }
+      ]
+    },
+    {
+      "header": "Box 1 | Common biocatalysis enzymes and their associated chemical transformations",
+      "raw_header": "Box 1 | Common biocatalysis enzymes and their associated chemical transformations",
+      "text": "The interconversion between alcohols and aldehydes or ketones is catalysed by alcohol dehydrogenases, ketoreductases (KREDs) and alcohol oxidases (reaction i). Imine reductases catalyse the reduction of imines to amines (reaction ii). Reductive aminases and transaminases transfer amino groups to prochiral ketones or aldehydes, giving rise to chiral amine products. Monoamine oxidases catalyse the oxidation of compounds containing one amino group and the resulting imine spontaneously forms a ketone in water (reaction iii). Ene reductases reduce C-C double bonds (reaction iv). Nitrile hydratases catalyse the addition of water across nitriles producing amides (reactions v, vi). The hydrolysis of nitriles to carboxylic acids and ammonia is catalysed by nitrilases (reaction vii). Baeyer-Villiger monooxygenases oxidize ketones to esters (reaction viii). Halohydrin dehalogenases produce enantiopure epoxides and corresponding ringopening products (reaction ix). Acylases hydrolyse amide bonds, whereas lipases and esterases do so for ester bonds (reaction x). Part of the esterase group, thioesterases catalyse the hydrolysis of the thioester bonds. Carboxylic acid reductases reduce aromatic or aliphatic acids to aldehydes (reaction xi). Aldolases catalyse Aldol reactions (reaction xii). Amine dehydrogenases catalyse the reductive amination of carbonyl compounds (reaction xiii). Imine reductase (IRED) Reductive aminase (RedAm) Transaminase (TA) Monoamine oxidase (MAO) Ene reductase (ERED) Nitrile hydratase (NHase) Alcohol dehydrogenase (ADH) Ketoreductase (KRED) Oxidase (alcohol to aldehyde/ketone) (i) (ii) (iii) (iv) (v) (vi) Halohydrin dehalogenase, X = Br, Cl Carboxylic acid reductase Amine dehydrogenase Aldolase Nitrilase (vii) Baeyer-Villiger monooxygenase target reaction within these screening platforms. For example, mammalian microbiomes are a rich source of carbohydrate-active enzymes, which are often encoded in polysaccharide utilization loci in specific bacterial genomes. Screening of a human metagenomic library using a fluorogenic substrate identified a pair of enzymes that convert the A antigen into the H antigen of O-type blood, enabling a biocatalytic approach to produce universal donor O-type blood from A-type blood 35 . By contrast, sequence-based screening is based on finding new enzymes with sequence similarity to known enzymes. One approach involves the use of PCR amplification of genomic sequences with degenerate primers. These primers are a mixture of oligonucleotide sequences that code for highly conserved regions of a desired type of catalyst, and therefore allow amplification of genes encoding for this catalyst from naturally derived DNA libraries. For example, sponge microbiomes are known for their biosynthetic capabilities, and in a case of sequence-based screening with degenerate primers, a new halogenase Krml was isolated from a sponge microbiome and employed for the regioselective halogenation of tryptophan and a range of indole-derived peptide substrates 36 . Another approach is the direct analysis of sequencing data, where specific types of desired enzymes can be found through in silico analysis 37 . For example, the sequencing of a domestic drain metagenome was analysed in silico to find transaminase candidates, which were then tested for their ability to carry out transaminations on diverse substrates. One enzyme from this set of candidates retained activity in 50% dimethyl sulfoxide (DMSO), a solvent tolerance that had not been reported in a transaminase previously. As these examples demonstrate, once a gene encoding a desired enzyme is identified, the gene can be cloned and the enzyme can be expressed recombinantly to establish its function 38 .",
+      "snippet": "The interconversion between alcohols and aldehydes or ketones is catalysed by alcohol dehydrogenases, ketoreductases (KREDs) and alcohol oxidases (reaction i). Imine reductases catalyse the reduction of imines to amines (reaction ii). Reductive aminases and transaminases transfer amino groups to prochiral ketones or aldehydes, giving rise to chiral amine products. Monoamine oxidases catalyse the oxidation of compounds containing one amino group and the resulting imine spontaneously forms a ketone in water (reaction iii). Ene reductases reduce C-C double bonds (reaction iv). Nitrile hydratases catalyse the addition of water across nitriles producing amides (reactions v, vi). The hydrolysis of nitriles to carboxylic acids and ammonia is catalysed by nitrilases (reaction vii). Baeyer-Villiger monooxygenases oxidize ketones to esters (reaction viii). Halohydrin dehalogenases produce enantiopure epoxides and corresponding ringopening products (reaction ix). Acylases hydrolyse amide bonds, whereas lipases and esterases do so for ester bonds (reaction x). Part of the esterase group, thioesterases catalyse the hydrolysis of the thioester bonds. Carboxylic acid reductases reduce aromatic or aliphatic acids to aldehydes (reaction xi). Aldolases catalyse Aldol reactions (reaction xii). Amine dehydrogenases catalyse the reductive amination of carbonyl compounds (reaction xiii). Imine reductase (IRED) Reductive aminase (RedAm) Transaminase (TA) Monoamine oxidase (MAO) Ene reductase (ERED)…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "35",
+          "target_xml_id": "b26"
+        },
+        {
+          "ref_marker": "36",
+          "target_xml_id": "b27"
+        },
+        {
+          "ref_marker": "37",
+          "target_xml_id": "b28"
+        },
+        {
+          "ref_marker": "38",
+          "target_xml_id": "b29"
+        }
+      ]
+    },
+    {
+      "header": "Directed evolution",
+      "raw_header": "Directed evolution",
+      "text": "Wild-type enzymes are often not suitable for direct use in industrial applications and must first undergo optimization to improve properties such as substrate specificity and selectivity as well as catalytic efficiency and stability. Directed evolution is a powerful and versatile technology for adapting these enzymes to perform new functions (as highlighted by the award of the 2018 Nobel Prize for Chemistry) [39][40][41] . The directed evolution cycle involves iterative rounds of DNA library design and generation, gene expression and screening of enzyme library members (Fig. 3). Multiple properties can be optimized in parallel and improved variants can be isolated, charac terized and used as templates for further rounds of evolution. Following identification of a suitable starting template, DNA libraries are generated using numerous standard molecular biology techniques, such as random mutagenesis or site saturation mutagenesis. The chosen method of library generation depends on factors such as the availability of structural information and screening capacity. The design of smaller, more focused libraries (10 2 -10 4 variants) often employs computational modelling and bioinformatics to guide the selection of amino acid residues for randomization. These libraries are generated using techniques such as saturation mutagenesis or iterative combinatorial active site testing 42 and often employ reduced codons 43,44 . Larger library diversity C(sp 3 )-H functionalization A type of reaction in which a C-H bond, in which the carbon is sp 3 hybridized, is cleaved and a new C-x bond is formed (where x is usually carbon, oxygen, nitrogen or a halide).",
+      "snippet": "Wild-type enzymes are often not suitable for direct use in industrial applications and must first undergo optimization to improve properties such as substrate specificity and selectivity as well as catalytic efficiency and stability. Directed evolution is a powerful and versatile technology for adapting these enzymes to perform new functions (as highlighted by the award of the 2018 Nobel Prize for Chemistry) [39][40][41] . The directed evolution cycle involves iterative rounds of DNA library design and generation, gene expression and screening of enzyme library members (Fig. 3). Multiple properties can be optimized in parallel and improved variants can be isolated, charac terized and used as templates for further rounds of evolution. Following identification of a suitable starting template, DNA libraries are generated using numerous standard molecular biology techniques, such as random mutagenesis or site saturation mutagenesis. The chosen method of library generation depends on factors such as the availability of structural information and screening capacity. The design of smaller, more focused libraries (10 2 -10 4 variants) often employs computational modelling and bioinformatics to guide the selection of amino acid residues for randomization. These libraries are generated using techniques such as saturation mutagenesis or iterative combinatorial active site testing 42 and often employ reduced codons 43,44 . Larger library diversity C(sp 3 )-H functionalization A type of r…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[39]",
+          "target_xml_id": "b30"
+        },
+        {
+          "ref_marker": "[40]",
+          "target_xml_id": "b31"
+        },
+        {
+          "ref_marker": "[41]",
+          "target_xml_id": "b32"
+        },
+        {
+          "ref_marker": "43,",
+          "target_xml_id": "b34"
+        },
+        {
+          "ref_marker": "44",
+          "target_xml_id": "b35"
+        }
+      ]
+    },
+    {
+      "header": "Diels-Alderases",
+      "raw_header": "Diels-Alderases",
+      "text": "Enzymes that catalyse a [4 + 2] cycloaddition reaction between a conjugated diene and a substituted alkene forming a cyclohexene derivative.",
+      "snippet": "Enzymes that catalyse a [4 + 2] cycloaddition reaction between a conjugated diene and a substituted alkene forming a cyclohexene derivative.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Rates of catalysis",
+      "raw_header": "Rates of catalysis",
+      "text": "The rates by which substrates are converted into products in catalytic reactions.",
+      "snippet": "The rates by which substrates are converted into products in catalytic reactions.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Saturation mutagenesis",
+      "raw_header": "Saturation mutagenesis",
+      "text": "A method that allows the randomization of a target codon or set of codons in a gene. First step in the evolution cycle involves creating a library of DNA variants using standard molecular biology techniques (step 1). Host cells are transformed with the DNA library and target proteins are produced (step 2). Proteins are evaluated using high-throughput screening techniques such as plate-based assays coupled with high performance liquid chromatography analysis, colony-based assays coupled with colorimetric detection or microfluidicsbased assays coupled with fluorescence detection, where X represents the starting material and Y represents the fluorescent product or by-product (step 3). Final step of the evolution cycle involves isolation and characterization of the most active clones. The most active variant will serve as a template for subsequent rounds of evolution (step 4).",
+      "snippet": "A method that allows the randomization of a target codon or set of codons in a gene. First step in the evolution cycle involves creating a library of DNA variants using standard molecular biology techniques (step 1). Host cells are transformed with the DNA library and target proteins are produced (step 2). Proteins are evaluated using high-throughput screening techniques such as plate-based assays coupled with high performance liquid chromatography analysis, colony-based assays coupled with colorimetric detection or microfluidicsbased assays coupled with fluorescence detection, where X represents the starting material and Y represents the fluorescent product or by-product (step 3). Final step of the evolution cycle involves isolation and characterization of the most active clones. The most active variant will serve as a template for subsequent rounds of evolution (step 4).",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Iterative combinatorial active site testing",
+      "raw_header": "Iterative combinatorial active site testing",
+      "text": "(10 5 -10 8 variants) can be generated using techniques such as error-prone PCR 45 and gene shuffling 46 . It is common to use multiple mutagenesis techniques during enzyme evolution to target different regions of the protein structure. For example, focused active site mutations can be beneficial for reshaping substrate binding pockets and improving activity towards non-native substrates, and mutations to the protein surface and flexible loop regions can often result in improved solvent tolerance and thermostability. Beneficial mutations are typically combined during evolutionary optimization using DNA shuffling and can be guided by computational algorithms. Transforming cells with DNA libraries leads to spatial separation of library members and establishes a link between genotype and phenotype that must be maintained during protein production and screening to allow characterization of individual library members. Arraying colonies into multiwell plates for protein production and screening offers the greatest versatility, as variants can be evaluated using a wide range of chromato graphic, spectrophotometric and spectroscopic techniques. Although chromatographic methods are of relatively low throughput, they are commonly employed for applications in industrial biocatalysis as the assays are compatible with screening under process conditions, which often employ high substrate loadings (>100 g l -1 ), co-solvents (for example, up to 50% DMSO in aqueous media) and high temperatures (40-50 °C). This workflow can also be automated to improve speed, accuracy and throughput. For example, colony pickers allow users to array 10 3 colonies per hour into 96-well plates, liquid handling robots accelerate aliquoting and transfer steps required for library generation and protein production, and reaction analysis using state-of-the-art ultra-high performance liquid chromatography systems allows evaluation of 10 3 clones per instrument per day. GSK used this approach to engineer an enantioselective IRED with a 38,000-fold improvement over the wild-type enzyme 47 . This IRED variant was employed in a reductive amination and kinetic resolution step to manufacture the lysine-specific demethylase 1 (LSD1) inhibitor GSK2879552, a treatment for small cell lung cancer and acute leukaemia. Following a similar approach, Codexis and Merck have engineered five different enzymes, which form part of an impressive nine-enzyme cascade process to manufacture the HIV treatment islatravir 7 (see Applications section for a more detailed discussion and reaction scheme). In order to evaluate larger libraries of 10 5 -10 8 variants, more specialized screening approaches can be employed, including colony-based assays [48][49][50] , fluorescence-activated cell sorting 51 , phage display 52 , microfluidic-based screening 53,54 , selection-based approaches 55 and continuous evolution 56,57 . For example, monoamine oxidase from Aspergillus niger (MAO-N) has been extensively engineered for the selective oxidation of a wide range of amine substrates using a colorimetric colony-based assay that relies on the detection of the hydrogen peroxide co-product by horseradish peroxidase (HRP) and a reactive dye 58 . The throughput of oxidase evolution based on hydrogen peroxide detection can be further increased by screening variants in picolitre droplets. Indeed, in a recent study, an ultra-high-throughput microfluidic assay was used to screen a library of 10 7 cyclohexylamine oxidase variants and, after only a single round of evolution, the most improved variant isolated had a 960-fold improvement in catalytic efficiency 59 . Although the screening capacity in this example is greatly increased, picolitre droplet sorting is currently restricted to fluorescence as a detection method, which limits the versatility of this approach. Ongoing research is focused on coupling microfluidics with alternative methods of detection, such as mass spectrometry, to provide approaches for a wide host of chemistries 60 . Selection-based approaches including continuous evolution platforms [53][54][55] , where improved catalyst performance is linked to cell viability, offer ultra-high-throughput screening capabilities (10 6 -10 10 variants). These methods are highly specialized as improvements in the enzyme activity of interest must be linked to cell survival. Optimization of these multicomponent systems requires considerable effort and can take up to several years; it is important to have control over the stringency of the selection pressure and to ensure that the host organism is not able to evolve alternative mechanisms of survival. However, for enzymes whose native activities can be associated with organism fitness, this type of assay is particularly powerful as it allows rapid evaluation of broad sequence space. A key example is the development of a selection-based method for engineering pyrrolysyl-tRNA synthetases (PylRS) for the genetic incorporation of non-canonical amino acids into proteins 55 . This versatile approach has been applied by numerous research groups to the evolution of a panel of PylRS variants, which are now able to accept more than 150 different non-canonical amino acids 61 .",
+      "snippet": "(10 5 -10 8 variants) can be generated using techniques such as error-prone PCR 45 and gene shuffling 46 . It is common to use multiple mutagenesis techniques during enzyme evolution to target different regions of the protein structure. For example, focused active site mutations can be beneficial for reshaping substrate binding pockets and improving activity towards non-native substrates, and mutations to the protein surface and flexible loop regions can often result in improved solvent tolerance and thermostability. Beneficial mutations are typically combined during evolutionary optimization using DNA shuffling and can be guided by computational algorithms. Transforming cells with DNA libraries leads to spatial separation of library members and establishes a link between genotype and phenotype that must be maintained during protein production and screening to allow characterization of individual library members. Arraying colonies into multiwell plates for protein production and screening offers the greatest versatility, as variants can be evaluated using a wide range of chromato graphic, spectrophotometric and spectroscopic techniques. Although chromatographic methods are of relatively low throughput, they are commonly employed for applications in industrial biocatalysis as the assays are compatible with screening under process conditions, which often employ high substrate loadings (>100 g l -1 ), co-solvents (for example, up to 50% DMSO in aqueous media) and high temperatur…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "46",
+          "target_xml_id": "b37"
+        },
+        {
+          "ref_marker": "47",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "[48]",
+          "target_xml_id": "b39"
+        },
+        {
+          "ref_marker": "[49]",
+          "target_xml_id": "b40"
+        },
+        {
+          "ref_marker": "[50]",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "52",
+          "target_xml_id": "b43"
+        },
+        {
+          "ref_marker": "53,",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "54",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "55",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "56,",
+          "target_xml_id": "b47"
+        },
+        {
+          "ref_marker": "57",
+          "target_xml_id": "b48"
+        },
+        {
+          "ref_marker": "58",
+          "target_xml_id": "b49"
+        },
+        {
+          "ref_marker": "59",
+          "target_xml_id": "b50"
+        },
+        {
+          "ref_marker": "60",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "[53]",
+          "target_xml_id": "b44"
+        },
+        {
+          "ref_marker": "[54]",
+          "target_xml_id": "b45"
+        },
+        {
+          "ref_marker": "[55]",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "55",
+          "target_xml_id": "b46"
+        },
+        {
+          "ref_marker": "61",
+          "target_xml_id": "b52"
+        }
+      ]
+    },
+    {
+      "header": "Computational enzyme design and engineering",
+      "raw_header": "Computational enzyme design and engineering",
+      "text": "For the most part, the high efficiency of enzymes in accelerating chemical reactions has been attributed to their highly pre-organized active site pockets that precisely position the catalytic residues for transition state stabilization 62 . This precise arrangement in the active site pocket to optimize the chemical steps is complemented by the inherent flexibility of the enzyme structure. Enzymes can adopt multiple conformations that often play critical roles in equally important processes, such as substrate binding and/or product release for restarting the catalytic cycle 63 . To this end, computational enzyme design protocols should propose specific amino acid changes (located in the active site but also in remote positions) to achieve highly pre-organized active site pockets for transition state stabilization, and optimize the enzyme conformational ensemble to favour substrate binding and product release 64 . In practice, available computational protocols focus only on a selected set of the complex features of enzyme catalysis; that is, they design enzymes based on either the chemical steps of the desired chemical transformations (see Fig. 4A), the substrate binding/product release process or the enzyme conformational dynamics (Fig. 4B). Different computational techniques are needed for each of the above features (see Fig. 4).",
+      "snippet": "For the most part, the high efficiency of enzymes in accelerating chemical reactions has been attributed to their highly pre-organized active site pockets that precisely position the catalytic residues for transition state stabilization 62 . This precise arrangement in the active site pocket to optimize the chemical steps is complemented by the inherent flexibility of the enzyme structure. Enzymes can adopt multiple conformations that often play critical roles in equally important processes, such as substrate binding and/or product release for restarting the catalytic cycle 63 . To this end, computational enzyme design protocols should propose specific amino acid changes (located in the active site but also in remote positions) to achieve highly pre-organized active site pockets for transition state stabilization, and optimize the enzyme conformational ensemble to favour substrate binding and product release 64 . In practice, available computational protocols focus only on a selected set of the complex features of enzyme catalysis; that is, they design enzymes based on either the chemical steps of the desired chemical transformations (see Fig. 4A), the substrate binding/product release process or the enzyme conformational dynamics (Fig. 4B). Different computational techniques are needed for each of the above features (see Fig. 4).",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "62",
+          "target_xml_id": "b53"
+        },
+        {
+          "ref_marker": "63",
+          "target_xml_id": "b54"
+        },
+        {
+          "ref_marker": "64",
+          "target_xml_id": "b55"
+        }
+      ]
+    },
+    {
+      "header": "Error-prone PCR",
+      "raw_header": "Error-prone PCR",
+      "text": "A PCR (polymerase chain reaction) that is run under reaction conditions that introduce random mutations into the target DNA sequence.",
+      "snippet": "A PCR (polymerase chain reaction) that is run under reaction conditions that introduce random mutations into the target DNA sequence.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Gene shuffling",
+      "raw_header": "Gene shuffling",
+      "text": "A method that allows for the generation of chimeric libraries of genes.",
+      "snippet": "A method that allows for the generation of chimeric libraries of genes.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "DNA shuffling",
+      "raw_header": "DNA shuffling",
+      "text": "A method that allows the recombination of beneficial mutations in a directed evolution experiment.",
+      "snippet": "A method that allows the recombination of beneficial mutations in a directed evolution experiment.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "High performance liquid chromatography",
+      "raw_header": "High performance liquid chromatography",
+      "text": "An analytical technique that allows for the rapid separation and quantification of compound mixtures using pressurized liquid solvent passed through chromatographic columns. Initial attempts to rationally design enzymes were focused on the chemical steps of the process (Fig. 4A, and selected examples Fig. 4Aa-c). The transition states of the desired transformation in the theoretical enzyme or 'theozyme' active site pocket is modelled with quantum mechanics to assess the potential rate acceleration and the ideal geometric constraints for optimal transition state stabilization (Fig. 4Aa). This optimal arrangement that contains only a few active site residues owing to the high computational cost of quantum mechanics calculations is then grafted onto an existing protein scaffold, and further optimized by means of Rosetta or other related protein design software 65,66 . Further refinements to this original formulation (named inside-out) can be made by incorporating data on protein conformational dynamics by means of short molecular dynamics simulations. In these simulations, the enzyme variant is immersed in a water solvent box, and whether the optimal arrangement of the catalytic residues -also known as the near attack conformation -is maintained throughout the simulation time is assessed. A higher number of near attack conformations explored during the molecular dynamics is attributed to a higher catalytic activity and/or selectivity as the catalytic residues are properly arranged for catalysis most of the simulation time. These observations resulted in the development of some computational methodologies based on Rosetta and molecular dynamics simulations for enhancing the enzyme activity and selectivity (catalytic selectivity by computational design (CASCO), as shown in Fig. 4Ab) or thermostability (framework for rapid enzyme stabilization by computational libraries (FRESCO)) 67 . Additional refinements such as the use of an ensemble of closely related enzyme conformations A Chemical steps B Conformational changes CAVER tunnel Shortest path map Ancestral flexible scaffold Mutations at bottleneck Inside-out: theozyme + Rosetta CASCO Short (nanosecond ) MD + near attack conformation Active site mutations QM MD MC QM/MM EVB Active site pre-organization Chemical step(s) Conformational changes • Impacting tunnels, channels • Substrate binding • Product release Inactive Active a a Multistate design b b c c Distal active mutation sites ps to ns Conformational landscape Free energy (G) ps to ns µs to ms Conformational landscape Free energy (G) Population shi towards + µs to ms Quantum mechanics (QM) is used to model the active site and associated transition states of the desired transformation in the theozyme to evaluate potential changes for rate acceleration. This optimal arrangement is then grafted onto an existing protein scaffold and further optimized by protein design software, such as Rosetta (part Aa). Protein conformational dynamics can be incorporated using short molecular dynamics (MD) simulations to refine this estimation, ultimately enhancing enzyme activity and selectivity (catalytic selectivity by computational design (CASCO)) (part Ab). Additional refinements for multistate design allow for considering a set of related structures often coming from short-timescale MD simulations in the design process (part Ac). B | Methods that consider the conformational changes key for substrate binding or product release: MD simulations and Monte Carlo (MC) simulations. CAVER software is used to model the different tunnels that are available for substrate binding to the active site and product release (part Ba). Tunnel analysis allows identification of the narrowest regions, that is the bottleneck, where mutations are usually introduced (part Ba). Recent approaches take advantage of the information gained from extensive MD simulations for identifying key conformationally relevant residues (not strictly located at the active site), which by mutation can induce a shift in the relative populations of the conformational states stabilizing the catalytically relevant ones (shortest path map, SPM) (part Bb). Selection of an ancestral enzyme scaffold displaying high levels of flexibility can be also used for the design of new enzymatic activities (part Bc). Images of proteins throughout the figure were generated using PyMOL (The PyMOL Molecular Graphics System, Schrödinger, LLC.) from either normal mode analysis, short molecular dynamics simulations or small perturbations in the enzyme backbone angles for multi-state design (Fig. 4Ac) were proposed to include some limited protein flexibility in the design process 68 . Although these strategies include some protein flexibility during the design, the ensemble of conformations used is rather similar as they come from usually short (picosecond to nanosecond) molecular dynamics simulations. Other strategies are based on computing the direct effect of the included mutations on the activation barrier of the enzyme-catalysed process (with the computationally more demanding quantum mechanics/molecular mechanics or empirical valence bond (EVB) strategies, as shown in Fig. 4A), rather than estimating the effect by means of some key geometrical constraints (as in the near attack conformation analysis) 69 . The importance of enzyme conformational dynamics for enzyme design gained popularity in recent years [70][71][72] (Fig. 4B). Conformationally flexible loops adjacent to the active site pocket can regulate substrate binding and/or product release, and some studies have shown these loops as crucial for enhanced enzymatic activity in many enzyme families 73 . Bioinformatic tools such as CAVER have been developed to identify tunnels and channels, and to suggest potential mutational hotspots for novel catalytic activity 74 (Fig. 4Ba). The analysis of some natural and laboratory evolution pathways demonstrated that increased enzymatic activity is often achieved by introducing mutations that alter the enzyme's conformational ensemble 75 . These mutations can be located at the active site or may be located at distal positions and induce a long-range effect that impacts the enzyme active site pocket and, thus, catalysis. This impact on enzymatic activity is often achieved by favouring the enzyme conformational states that are key for the novel functionality (catalytically productive conformations), while disfavouring non-productive conformational states, thus converting computational enzyme design into a population shift problem 64 . In this direction, some conformationally driven computational approaches focused on identifying such long-range allosteric networks of interactions include the shortest path map (SPM) tool and have been used recently for predicting distal and active site mutations 76 (Fig. 4Bb). Multistate computational design based on ensembles of enzyme conformations taken from room-temperature X-ray crystallography corresponds to a successful strategy for efficient computational enzyme design 77 . The reconstruction of ancestral enzymes that display a higher degree of flexibility than their modern counterparts and their use as initial scaffolds for enzyme design has additionally yielded interesting new insights 78 . The higher flexibility observed in many ancestral variants was key for achieving high catalytic activity with only a few mutations located at the active site. Ancestrally reconstructed enzymes are usually less specialized than their modern counterparts, thus often presenting higher levels of substrate and catalytic promiscuity 79 , which makes them excellent starting protein scaffolds for enzyme design (Fig. 4Bc). These examples indicate that both the selection of a conformationally rich scaffold and the consideration of multiple enzyme conformations is crucial for successful computational enzyme design.",
+      "snippet": "An analytical technique that allows for the rapid separation and quantification of compound mixtures using pressurized liquid solvent passed through chromatographic columns. Initial attempts to rationally design enzymes were focused on the chemical steps of the process (Fig. 4A, and selected examples Fig. 4Aa-c). The transition states of the desired transformation in the theoretical enzyme or 'theozyme' active site pocket is modelled with quantum mechanics to assess the potential rate acceleration and the ideal geometric constraints for optimal transition state stabilization (Fig. 4Aa). This optimal arrangement that contains only a few active site residues owing to the high computational cost of quantum mechanics calculations is then grafted onto an existing protein scaffold, and further optimized by means of Rosetta or other related protein design software 65,66 . Further refinements to this original formulation (named inside-out) can be made by incorporating data on protein conformational dynamics by means of short molecular dynamics simulations. In these simulations, the enzyme variant is immersed in a water solvent box, and whether the optimal arrangement of the catalytic residues -also known as the near attack conformation -is maintained throughout the simulation time is assessed. A higher number of near attack conformations explored during the molecular dynamics is attributed to a higher catalytic activity and/or selectivity as the catalytic residues are properly arrang…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "65,",
+          "target_xml_id": "b56"
+        },
+        {
+          "ref_marker": "66",
+          "target_xml_id": "b57"
+        },
+        {
+          "ref_marker": "67",
+          "target_xml_id": "b58"
+        },
+        {
+          "ref_marker": "68",
+          "target_xml_id": "b59"
+        },
+        {
+          "ref_marker": "69",
+          "target_xml_id": "b60"
+        },
+        {
+          "ref_marker": "[70]",
+          "target_xml_id": "b61"
+        },
+        {
+          "ref_marker": "[71]",
+          "target_xml_id": "b62"
+        },
+        {
+          "ref_marker": "[72]",
+          "target_xml_id": "b63"
+        },
+        {
+          "ref_marker": "73",
+          "target_xml_id": "b64"
+        },
+        {
+          "ref_marker": "74",
+          "target_xml_id": "b65"
+        },
+        {
+          "ref_marker": "75",
+          "target_xml_id": "b66"
+        },
+        {
+          "ref_marker": "64",
+          "target_xml_id": "b55"
+        },
+        {
+          "ref_marker": "76",
+          "target_xml_id": "b67"
+        },
+        {
+          "ref_marker": "77",
+          "target_xml_id": "b68"
+        },
+        {
+          "ref_marker": "78",
+          "target_xml_id": "b69"
+        },
+        {
+          "ref_marker": "79",
+          "target_xml_id": "b70"
+        }
+      ]
+    },
+    {
+      "header": "Biocatalysts with non-canonical amino acids",
+      "raw_header": "Biocatalysts with non-canonical amino acids",
+      "text": "The design and engineering of enzymes with an expanded amino acid alphabet is a nascent and rapidly developing area of biocatalysis. Enzymes are exceptionally powerful catalysts capable of promoting chemical transformations with efficiencies and selectivities that are difficult to achieve with small-molecule systems. However, enzymes are typically biosynthesized from the 20 canonical amino acids that contain a limited number of functional groups, restricting the range of catalytic mechanisms that can be installed into designed active sites. The emergence of powerful genetic code expansion methodologies has enabled the site-specific installation of hundreds of structurally and functionally diverse non-canonical amino acids into proteins 80,81 . Careful selection of a suitable non-natural amino acid and its positioning within the target protein scaffold is required to address the application of interest (Fig. 5). For instance, a key active site residue is often replaced with a non-canonical amino acid that is a close structural analogue to modulate catalytic function for mechanistic investigations of natural enzymes [82][83][84][85][86] . Alternatively, to design enzymes with new functions, the selection of amino acid takes inspiration from structural motifs present in small-molecule catalysts with positioning within the protein guided by computation 87,88 . The favoured method for encoding a non-canonical amino acid exploits an engineered aminoacyl-tRNA synthetase/tRNA pair that is orthogonal to the host's translation machinery to direct the incorporation of the non-canonical amino acid by suppression of a nonsense codon, which is most commonly the UAG stop codon. The aminoacyl-tRNA synthetase of the orthogonal translation component pair is typically engineered towards a desired non-canonical amino acid through iterative rounds of positive and negative selections, which link cell viability to aminoacyl-tRNA synthetase activity and selectivity 80,89 . Introducing the non-canonical functionality directly through the cellular translation machinery offers significant advantages over alternative methods of chemically modifying protein structures. For instance, this approach facilitates the homogeneous production of precisely edited proteins, enables the introduction of aminoacyl-tRNA synthetase at diverse sites in any protein scaffold and, perhaps most significantly, allows for rapid optimization of enzyme properties using directed evolution workflows adapted to an expanded genetic code 87,90 . The availability of an expanded set of amino acid building blocks offers exciting new opportunities for biocatalysis. Genetically encoded non-canonical amino acids have been used to improve both biocatalyst activity and stability 91 as well as provide new tools to understand how enzymes function at the molecular level [82][83][84] . Key recent examples include the replacement of serine and cysteine catalytic nucleophiles with 2,3-diaminopropionic acid as a means of trapping acyl-enzyme intermediates for structural characterization 85 , and the use of non-canonical axial haem",
+      "snippet": "The design and engineering of enzymes with an expanded amino acid alphabet is a nascent and rapidly developing area of biocatalysis. Enzymes are exceptionally powerful catalysts capable of promoting chemical transformations with efficiencies and selectivities that are difficult to achieve with small-molecule systems. However, enzymes are typically biosynthesized from the 20 canonical amino acids that contain a limited number of functional groups, restricting the range of catalytic mechanisms that can be installed into designed active sites. The emergence of powerful genetic code expansion methodologies has enabled the site-specific installation of hundreds of structurally and functionally diverse non-canonical amino acids into proteins 80,81 . Careful selection of a suitable non-natural amino acid and its positioning within the target protein scaffold is required to address the application of interest (Fig. 5). For instance, a key active site residue is often replaced with a non-canonical amino acid that is a close structural analogue to modulate catalytic function for mechanistic investigations of natural enzymes [82][83][84][85][86] . Alternatively, to design enzymes with new functions, the selection of amino acid takes inspiration from structural motifs present in small-molecule catalysts with positioning within the protein guided by computation 87,88 . The favoured method for encoding a non-canonical amino acid exploits an engineered aminoacyl-tRNA synthetase/tRNA pair th…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "80,",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "81",
+          "target_xml_id": "b72"
+        },
+        {
+          "ref_marker": "[82]",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "[83]",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "[84]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "[85]",
+          "target_xml_id": "b76"
+        },
+        {
+          "ref_marker": "[86]",
+          "target_xml_id": "b77"
+        },
+        {
+          "ref_marker": "87,",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "88",
+          "target_xml_id": "b79"
+        },
+        {
+          "ref_marker": "80,",
+          "target_xml_id": "b71"
+        },
+        {
+          "ref_marker": "89",
+          "target_xml_id": "b80"
+        },
+        {
+          "ref_marker": "87,",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "90",
+          "target_xml_id": "b81"
+        },
+        {
+          "ref_marker": "91",
+          "target_xml_id": "b82"
+        },
+        {
+          "ref_marker": "[82]",
+          "target_xml_id": "b73"
+        },
+        {
+          "ref_marker": "[83]",
+          "target_xml_id": "b74"
+        },
+        {
+          "ref_marker": "[84]",
+          "target_xml_id": "b75"
+        },
+        {
+          "ref_marker": "85",
+          "target_xml_id": "b76"
+        }
+      ]
+    },
+    {
+      "header": "Nonsense codon",
+      "raw_header": "Nonsense codon",
+      "text": "A codon within the genetic code that does not encode an amino acid but is recognized as a stop codon in transcription and translation of DNA.",
+      "snippet": "A codon within the genetic code that does not encode an amino acid but is recognized as a stop codon in transcription and translation of DNA.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Me-His",
+      "raw_header": "Me-His",
+      "text": "Me-His",
+      "snippet": "Me-His",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Me-His",
+      "raw_header": "Me-His",
+      "text": "Ar O - N N O His23 N N O His23Me-His Ar O Ar O Ar O - O Identification of biocatalytic challenge Identification of suitable target residue and scaffold Engineer aaRS for non-canonical amino acid of interest Optimize catalysis using directed evolution Hypothesize effect of genetic code expansion Acyl-enzyme intermediate + H 2 O Nucleophilic catalysis in de novo enzymes Natural amino acid Limited catalytic turnover OE1 Non-natural amino acid Improved catalytic turnover Me-His N N O His23Me-His Produce protein and check for function of OE1 Modest activity Evaluate function of interest Engineered scaffold OE1.3 with ncAA His BH32 ncAA ncAA A19H S22M L10P D125G P63G E46N 1 2 4 6 3 Stable acyl-enzyme intermediate Reactive acyl-enzyme intermediate 5 Reactive acyl-enzyme intermediate 7 Fast catalysis 3,000 1,000 100 10 1 k (M -1 s -1 ) Free Me-His OE1.3 Orthogonal aaRS Engineered orthogonal aaRS lution OE1.3 9,000-fold increase ligands to unravel the active site features that control the reactivities of high-energy metal-oxo intermediates 86 . The availability of an increased repertoire of covalently embedded functional groups also provides exciting opportunities to design de novo enzymes with catalytic mechanisms inspired by small-molecule catalysis. This approach was recently showcased through the design of an artificial hydrolase OE1 (REF. 87 ) that employs Nδ-methyl histidine (Me-His) as a catalytic nucleophile, which operates with a similar mode of action to the widely employed small-molecule catalyst dimethyaminopyridine (DMAP) 92 . Histidine methylation was integral to catalytic function and leads to the generation of reactive acyl-imidazolium intermediates, which are readily hydrolysed to regenerate the catalytic nucleophile (Fig. 5). By contrast, the catalytic function of de novo hydrolases employing canonical histidine, serine or cysteine nucleophiles was compromised by the formation of unreactive acyl-enzyme intermediates [93][94][95][96] . The modest initial hydrolysis activity of OE1 was subsequently enhanced via iterative rounds of directed evolution giving rise to variant OE1.3 containing six active site mutations 87 . OE1.3 accelerates ester hydrolysis beyond 9,000-fold and 2,800-fold as compared with free Me-His and DMAP, respectively. Further rounds of evolution lead to the enantioselective hydrolase OE1.4. This study showcases how the interplay of genetic code expansion, computational design and directed evolution can provide a truly versatile platform for building de novo biocatalysts with new and improved catalytic functions.",
+      "snippet": "Ar O - N N O His23 N N O His23Me-His Ar O Ar O Ar O - O Identification of biocatalytic challenge Identification of suitable target residue and scaffold Engineer aaRS for non-canonical amino acid of interest Optimize catalysis using directed evolution Hypothesize effect of genetic code expansion Acyl-enzyme intermediate + H 2 O Nucleophilic catalysis in de novo enzymes Natural amino acid Limited catalytic turnover OE1 Non-natural amino acid Improved catalytic turnover Me-His N N O His23Me-His Produce protein and check for function of OE1 Modest activity Evaluate function of interest Engineered scaffold OE1.3 with ncAA His BH32 ncAA ncAA A19H S22M L10P D125G P63G E46N 1 2 4 6 3 Stable acyl-enzyme intermediate Reactive acyl-enzyme intermediate 5 Reactive acyl-enzyme intermediate 7 Fast catalysis 3,000 1,000 100 10 1 k (M -1 s -1 ) Free Me-His OE1.3 Orthogonal aaRS Engineered orthogonal aaRS lution OE1.3 9,000-fold increase ligands to unravel the active site features that control the reactivities of high-energy metal-oxo intermediates 86 . The availability of an increased repertoire of covalently embedded functional groups also provides exciting opportunities to design de novo enzymes with catalytic mechanisms inspired by small-molecule catalysis. This approach was recently showcased through the design of an artificial hydrolase OE1 (REF. 87 ) that employs Nδ-methyl histidine (Me-His) as a catalytic nucleophile, which operates with a similar mode of action to the widely employed …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "86",
+          "target_xml_id": "b77"
+        },
+        {
+          "ref_marker": "87",
+          "target_xml_id": "b78"
+        },
+        {
+          "ref_marker": "92",
+          "target_xml_id": "b83"
+        },
+        {
+          "ref_marker": "[93]",
+          "target_xml_id": "b84"
+        },
+        {
+          "ref_marker": "[94]",
+          "target_xml_id": "b85"
+        },
+        {
+          "ref_marker": "[95]",
+          "target_xml_id": "b86"
+        },
+        {
+          "ref_marker": "[96]",
+          "target_xml_id": "b87"
+        },
+        {
+          "ref_marker": "87",
+          "target_xml_id": "b78"
+        }
+      ]
+    },
+    {
+      "header": "Cascade development",
+      "raw_header": "Cascade development",
+      "text": "Combining multiple enzyme-catalysed steps in the same pot is a very important research area. Biocatalysis is particularly well suited to these cascade processes as enzymes possess inherent chemoselectivity, regioselectivity and stereoselectivity and operate in a common aqueous media. Akin to natural biosynthetic pathways, fully de novo non-natural biocatalytic cascades can be designed and developed for the synthesis of complex targets. It should be pointed out that biocatalytic cascades have only become more commonly used because of the advances in biocatalyst design and build discussed elsewhere in this Primer. Biocatalytic cascades 97,98 typically feature two or more steps (functional group interconversions or bond forming) with at least one enzymatic transformation and without intermediate isolations (Fig. 6a). The definition of 'cascade' is generally broadly applied within the biocatalysis community to describe not only concurrent, multienzyme processes in one pot but also reactions in which components are added sequentially or process steps are telescoped despite attempts to impart order on the nomenclature [99][100][101][102] . The development of novel biocatalytic cascades can be broadly described by a design-build-optimize cycle (Fig. 6b) until a final process is achieved 3,103 . Initially, retrosynthetic analysis is performed using the principles of biocatalytic retrosynthesis [104][105][106][107] and/or retrobiosynthesis 108 to make key bond disconnections and plan the forward route. This can be performed manually or complemented by more recent computer-aided synthesis planning tools that are becoming the focus of increased interest 8, 109,110 . Additionally, selecting a cascade design that will enable the planned synthesis is required, which can range from simple linear to orthogonal or cyclic processes 99 . Any cofactor requirements or potential compound incompatibilities should be considered at this stage. Once a process design is in place, enzymes need to be identified to fulfil each cascade step. Enzymes can be identified from the literature, from screening of enzyme libraries or from enzyme discovery efforts. When it comes to building the cascade, there is a choice of operating the enzymatic steps with purified or crude cell-free extracts (in vitro), with viable whole cells (in vivo) or with a combination of the two (hybrid) 103 . A multitude of factors will help determine which system is best to use, such as enzyme availability, cofactor recycling requirements and reactor/facility infrastructure. Often, each step in the cascade is validated individually before any single-pot combinations are tested. Finally, optimization of the process can help maximize throughput and product titre. Several rounds of protein engineering are typically required, especially for industrial application, to improve enzyme activity and stability to overcome any bottlenecks in the pathway and maximize pathway flux. General process engineering optimizations also complement cascade development; for example, enzyme immobilization strategies to simplify the workup and/or improve a biocatalyst's lifetime, recoverability and reuse 111,112 . Further understanding of the full process can then influence subsequent design-build-optimize cycles in a Biocatalytic cascades b Cascade development Substrate Intermediate Product Enzyme Enzyme or chemical n • Multistep enzymatic reactions in one pot • No intermediate isolations • Avoids build up of unstable intermediates Design • Biocatalytic retrosynthesis • Retrobiosynthesis • Manual or CASP • Linear, orthogonal, cyclic cascade design Build • Enzyme selection or discovery • Cascade implementation • In vitro • In vivo • Hybrid Process time, waste and cost savings -more streamlined manufacturing Optimize • Protein engineering • Process optimization • Flux optimization",
+      "snippet": "Combining multiple enzyme-catalysed steps in the same pot is a very important research area. Biocatalysis is particularly well suited to these cascade processes as enzymes possess inherent chemoselectivity, regioselectivity and stereoselectivity and operate in a common aqueous media. Akin to natural biosynthetic pathways, fully de novo non-natural biocatalytic cascades can be designed and developed for the synthesis of complex targets. It should be pointed out that biocatalytic cascades have only become more commonly used because of the advances in biocatalyst design and build discussed elsewhere in this Primer. Biocatalytic cascades 97,98 typically feature two or more steps (functional group interconversions or bond forming) with at least one enzymatic transformation and without intermediate isolations (Fig. 6a). The definition of 'cascade' is generally broadly applied within the biocatalysis community to describe not only concurrent, multienzyme processes in one pot but also reactions in which components are added sequentially or process steps are telescoped despite attempts to impart order on the nomenclature [99][100][101][102] . The development of novel biocatalytic cascades can be broadly described by a design-build-optimize cycle (Fig. 6b) until a final process is achieved 3,103 . Initially, retrosynthetic analysis is performed using the principles of biocatalytic retrosynthesis [104][105][106][107] and/or retrobiosynthesis 108 to make key bond disconnections and plan …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "97,",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "98",
+          "target_xml_id": "b89"
+        },
+        {
+          "ref_marker": "[99]",
+          "target_xml_id": "b90"
+        },
+        {
+          "ref_marker": "[100]",
+          "target_xml_id": "b91"
+        },
+        {
+          "ref_marker": "[101]",
+          "target_xml_id": "b92"
+        },
+        {
+          "ref_marker": "[102]",
+          "target_xml_id": "b93"
+        },
+        {
+          "ref_marker": "[104]",
+          "target_xml_id": "b95"
+        },
+        {
+          "ref_marker": "[105]",
+          "target_xml_id": "b96"
+        },
+        {
+          "ref_marker": "[106]",
+          "target_xml_id": "b97"
+        },
+        {
+          "ref_marker": "[107]",
+          "target_xml_id": "b98"
+        },
+        {
+          "ref_marker": "108",
+          "target_xml_id": "b99"
+        },
+        {
+          "ref_marker": "109,",
+          "target_xml_id": "b100"
+        },
+        {
+          "ref_marker": "110",
+          "target_xml_id": "b101"
+        },
+        {
+          "ref_marker": "99",
+          "target_xml_id": "b90"
+        },
+        {
+          "ref_marker": "103",
+          "target_xml_id": "b94"
+        },
+        {
+          "ref_marker": "111,",
+          "target_xml_id": "b102"
+        },
+        {
+          "ref_marker": "112",
+          "target_xml_id": "b103"
+        }
+      ]
+    },
+    {
+      "header": "Regioselectivity",
+      "raw_header": "Regioselectivity",
+      "text": "The property that favours bond formation or breaking at a particular atom over all other possible atoms in a molecule. an iterative fashion to streamline the entire synthetic route to the desired compound.",
+      "snippet": "The property that favours bond formation or breaking at a particular atom over all other possible atoms in a molecule. an iterative fashion to streamline the entire synthetic route to the desired compound.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Results",
+      "raw_header": "Results",
+      "text": "Results",
+      "snippet": "Results",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "What makes a good industrial biocatalyst?",
+      "raw_header": "What makes a good industrial biocatalyst?",
+      "text": "Before scientists embark on the challenge of discovering a good (or ideally excellent) industrial biocatalyst, they need to define which properties the biocatalyst must have for efficiently performing a commercially interesting target reaction under select industrial conditions. Here, we describe the beneficial characteristics that are usually found in industrial biocatalysts, metrics to assess their performance in industrial processes and a few exciting examples. Other illustrative examples can be found in excellent recent articles 4, [113][114][115] . New biocatalytic processes aim to generate new molecules of considerable commercial interest. They may also be designed to replace or complement existing non-optimal chemical or biocatalytic syntheses in industry. In either case, the viability and possible bottlenecks of a biocatalytic process can be assessed using both economic and green chemistry process performance metrics 116-119 (TABlE 1). Both high substrate concentration and conversion are desired in industrial reactions to achieve high product concentrations and so reduce the product recovery cost. Reactions resulting in low product concentrations may require additional concentration steps or large volumes of extraction solvent, which will increase costs associated with a rise in energy consumption and/or waste production. Thus, an ideal biocatalyst's activity should not be inhibited by high substrate concentrations (>50 g l -1 ) or the amount of co-solvent required for substrate solubilization. It is worth mentioning that substrate loadings as high as >1 kg l -1 for aldoxime dehydratase, which catalyses the synthesis of linear aliphatic nitriles, have been reported 120 . Nevertheless, frequently observed detrimental effects at high substrate concentration or by organic solvents on biocatalysts can be alleviated using fed-batch strategies 121 . In examples where inhibition of the enzyme by-product, unfavourable thermodynamic reaction equilibria or product side reactions are problematic, in situ product removal can be applied 122 . To remove a product resulting from an ongoing enzyme-catalysed reaction, various techniques can be used such as in situ product crystallization, adsorption, distillation and extraction 122,123 . For example, in situ product crystallization can be achieved by forming a product salt via inclusion of an appropriate counter-ion in the reaction media. Similarly, another option is to perform the bioconversion in the presence of a resin that selectively adsorbs the product from the solution. High stability under industrial process conditions is an essential property of a good biocatalyst. Numerous robust enzymes of industrial interest have been discovered or redesigned over the past decade by enzyme engineering, computational methods, genome mining, ancestral sequence reconstruction or combinations thereof. A recent example using FRESCO generated an alcohol dehydrogenase mutant with a melting temperature -the temperature at which half of the protein is unfolded at equilibrium -of 94 °C (close to water's boiling point) and this has previously been applied successfully to other enzyme classes 124 . Sequence reconstruction of a robust ancestor has been achieved for an increasing number of biocatalysts including cytochrome P450 monooxygenases 125 , carboxylic acid reductases 126 , flavin-containing monooxygenases 127 and laccases 128 , made available in a recently created database of resurrected proteins with 211 members (Revenant) 129 . Enzyme immobilization, which facilitates repeated enzyme reuse, has also been used to enhance enzyme operational stability in industrial processes [130][131][132] . As there is great interest in the utility of enzyme immobilization, especially in continuous flow systems 133 , tolerance to immobilization without significant loss of activity or selectivity is an appealing property for a biocatalyst 134 . Biocatalytic processes outcompete their chemical counterparts regarding sustainability, as illustrated when comparing the chemical and biocatalytic synthetic routes for pregabalin, atorvastatin intermediate, sitagliptin and ambrox 135 . In contrast to chemical catalysts, biocatalysts are derived from renewable resources, are biodegradable, act in aqueous solvent under mild reaction conditions and generate low amounts of waste by-products. Furthermore, biocatalytic synthetic routes obviate the need for hazardous chemicals, high energy usage and additional reagents for functional group activation, protection or deprotection steps. Biocatalytic processes requiring whole-cell fermentations (for either enzyme production or substrate conversion) generate waste biomass, which can be reused as a source of energy or animal feed. To reduce water usage and carbon feedstocks required for cell growth, biotransformations with isolated enzymes or cell lysates can be performed instead of whole-cell fermentations at increased concentrations. A reduction in biocatalyst loading, without reducing productivity as measured by yield and speed, can be accomplished by using engineered biocatalysts that offer improved properties such Table 1 | Metrics used to evaluate efficacy of biocatalytic processes Metric Definition",
+      "snippet": "Before scientists embark on the challenge of discovering a good (or ideally excellent) industrial biocatalyst, they need to define which properties the biocatalyst must have for efficiently performing a commercially interesting target reaction under select industrial conditions. Here, we describe the beneficial characteristics that are usually found in industrial biocatalysts, metrics to assess their performance in industrial processes and a few exciting examples. Other illustrative examples can be found in excellent recent articles 4, [113][114][115] . New biocatalytic processes aim to generate new molecules of considerable commercial interest. They may also be designed to replace or complement existing non-optimal chemical or biocatalytic syntheses in industry. In either case, the viability and possible bottlenecks of a biocatalytic process can be assessed using both economic and green chemistry process performance metrics 116-119 (TABlE 1). Both high substrate concentration and conversion are desired in industrial reactions to achieve high product concentrations and so reduce the product recovery cost. Reactions resulting in low product concentrations may require additional concentration steps or large volumes of extraction solvent, which will increase costs associated with a rise in energy consumption and/or waste production. Thus, an ideal biocatalyst's activity should not be inhibited by high substrate concentrations (>50 g l -1 ) or the amount of co-solvent required fo…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "[113]",
+          "target_xml_id": "b104"
+        },
+        {
+          "ref_marker": "[114]",
+          "target_xml_id": "b105"
+        },
+        {
+          "ref_marker": "[115]",
+          "target_xml_id": "b106"
+        },
+        {
+          "ref_marker": "120",
+          "target_xml_id": "b111"
+        },
+        {
+          "ref_marker": "121",
+          "target_xml_id": "b112"
+        },
+        {
+          "ref_marker": "122",
+          "target_xml_id": "b113"
+        },
+        {
+          "ref_marker": "122,",
+          "target_xml_id": "b113"
+        },
+        {
+          "ref_marker": "123",
+          "target_xml_id": "b114"
+        },
+        {
+          "ref_marker": "124",
+          "target_xml_id": "b115"
+        },
+        {
+          "ref_marker": "125",
+          "target_xml_id": "b116"
+        },
+        {
+          "ref_marker": "126",
+          "target_xml_id": "b117"
+        },
+        {
+          "ref_marker": "127",
+          "target_xml_id": "b118"
+        },
+        {
+          "ref_marker": "128",
+          "target_xml_id": "b119"
+        },
+        {
+          "ref_marker": "129",
+          "target_xml_id": "b120"
+        },
+        {
+          "ref_marker": "[130]",
+          "target_xml_id": "b121"
+        },
+        {
+          "ref_marker": "[131]",
+          "target_xml_id": "b122"
+        },
+        {
+          "ref_marker": "[132]",
+          "target_xml_id": "b123"
+        },
+        {
+          "ref_marker": "133",
+          "target_xml_id": "b124"
+        },
+        {
+          "ref_marker": "134",
+          "target_xml_id": "b125"
+        },
+        {
+          "ref_marker": "135",
+          "target_xml_id": "b126"
+        }
+      ]
+    },
+    {
+      "header": "Economic metrics",
+      "raw_header": "Economic metrics",
+      "text": "Productivity (g l -1 h -1 ) Amount of product made as a function of the reactor volume and time Yield of product on substrate (g g -1 ) Amount of product (grams) made as a function of the amount of substrate (grams) added in the reaction Turnover (mol mol -1 ) Amount of product made as a function of the amount of biocatalyst added in the reaction",
+      "snippet": "Productivity (g l -1 h -1 ) Amount of product made as a function of the reactor volume and time Yield of product on substrate (g g -1 ) Amount of product (grams) made as a function of the amount of substrate (grams) added in the reaction Turnover (mol mol -1 ) Amount of product made as a function of the amount of biocatalyst added in the reaction",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Green chemistry metrics",
+      "raw_header": "Green chemistry metrics",
+      "text": "Atom economy (g mol -1 per g mol -1 ) Molecular weight of the desired product as a function of the sum of the molecular weight of all products E factor (g g -1 ) Amount of waste made as a function of the amount of product made C factor (g g -1 ) Amount of CO 2 equivalents as a function of the amount of product made Process mass intensity (g g -1 ) Amount of raw material input as a function of the amount of desired product made Information based on REF. 116 .",
+      "snippet": "Atom economy (g mol -1 per g mol -1 ) Molecular weight of the desired product as a function of the sum of the molecular weight of all products E factor (g g -1 ) Amount of waste made as a function of the amount of product made C factor (g g -1 ) Amount of CO 2 equivalents as a function of the amount of product made Process mass intensity (g g -1 ) Amount of raw material input as a function of the amount of desired product made Information based on REF. 116 .",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "116",
+          "target_xml_id": "b107"
+        }
+      ]
+    },
+    {
+      "header": "Enzyme operational stability",
+      "raw_header": "Enzyme operational stability",
+      "text": "Retention of enzyme activity when the enzyme is in use. as higher turnover rates and/or stability for reuse. Energy consumption due to biocatalyst recovery from reaction solutions can be minimized by enzyme immobilization. Importantly, inexpensive renewable carriers for enzyme immobilization, such as rice husk, are being developed to replace organic fossil-based carriers 136 . However, a significant expansion of enzyme-based technologies in the production of bulk chemicals (high volume, low priced) must be achieved to increase the impact of biocatalysis on sustainability 137 . So far, biocatalysts are more frequently used to synthesize high-price low-volume products such as pharmaceuticals. Various companies (for example, Merck, Pfizer, GlaxoSmithKline and AstraZeneca) have become active in the development of new biocatalytic processes and often collaborate with academic groups to accelerate progress in this research area. Examples of some of the enzymatic processes developed by industry with biocatalysts including KREDs, transaminases, hydroxylases and IREDs are described in recent review articles 138,139 . When selecting a biocatalyst for process development, it is often desirable to select enzymes that will enable freedom to operate to avoid infringing intellectual property rights or to access desired patented biocatalysts during the early stages of process design. To this end, industries and universities often provide experts in the complex and rapidly evolving field of intellectual property to guide research scientists. A good industrial biocatalyst should combine numerous beneficial properties to deliver higher-value molecules under demanding industrial conditions while achieving satisfactory economic and green metrics for various applications (Fig. 7). A few of the most desired characteristics of efficient industrial biocatalysts have been highlighted above, which include high activity, stability, ease of immobilization, environmental sustainability and accessibility. The importance of other relevant properties of a good biocatalyst, such as substrate selectivity, evolvability and affordability, will be illustrated through various examples in the following sections.",
+      "snippet": "Retention of enzyme activity when the enzyme is in use. as higher turnover rates and/or stability for reuse. Energy consumption due to biocatalyst recovery from reaction solutions can be minimized by enzyme immobilization. Importantly, inexpensive renewable carriers for enzyme immobilization, such as rice husk, are being developed to replace organic fossil-based carriers 136 . However, a significant expansion of enzyme-based technologies in the production of bulk chemicals (high volume, low priced) must be achieved to increase the impact of biocatalysis on sustainability 137 . So far, biocatalysts are more frequently used to synthesize high-price low-volume products such as pharmaceuticals. Various companies (for example, Merck, Pfizer, GlaxoSmithKline and AstraZeneca) have become active in the development of new biocatalytic processes and often collaborate with academic groups to accelerate progress in this research area. Examples of some of the enzymatic processes developed by industry with biocatalysts including KREDs, transaminases, hydroxylases and IREDs are described in recent review articles 138,139 . When selecting a biocatalyst for process development, it is often desirable to select enzymes that will enable freedom to operate to avoid infringing intellectual property rights or to access desired patented biocatalysts during the early stages of process design. To this end, industries and universities often provide experts in the complex and rapidly evolving field of i…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "136",
+          "target_xml_id": "b127"
+        },
+        {
+          "ref_marker": "137",
+          "target_xml_id": "b128"
+        },
+        {
+          "ref_marker": "138,",
+          "target_xml_id": "b129"
+        },
+        {
+          "ref_marker": "139",
+          "target_xml_id": "b130"
+        }
+      ]
+    },
+    {
+      "header": "Applications",
+      "raw_header": "Applications",
+      "text": "An ideal catalyst converts renewable, cheap and readily available raw materials such as plant-derived feedstocks, generates few to no undesired by-products, is safe and exhibits a reduced environmental footprint (low energy consumption and waste). These characteristics are not often observed for industrial chemical catalysts. Also, biocatalysts usually act under mild reaction conditions and can be engineered towards the desired substrate scope. Thus, biocatalysis paves the way for a bio-based economy, less reliant on fossil fuels 117 . Here, we highlight the utility of biocatalysis in various applications, first according to different reaction metrics or enzyme properties that are of importance in biocatalysis followed by an overview of enzyme cascade development.",
+      "snippet": "An ideal catalyst converts renewable, cheap and readily available raw materials such as plant-derived feedstocks, generates few to no undesired by-products, is safe and exhibits a reduced environmental footprint (low energy consumption and waste). These characteristics are not often observed for industrial chemical catalysts. Also, biocatalysts usually act under mild reaction conditions and can be engineered towards the desired substrate scope. Thus, biocatalysis paves the way for a bio-based economy, less reliant on fossil fuels 117 . Here, we highlight the utility of biocatalysis in various applications, first according to different reaction metrics or enzyme properties that are of importance in biocatalysis followed by an overview of enzyme cascade development.",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "117",
+          "target_xml_id": "b108"
+        }
+      ]
+    },
+    {
+      "header": "Activity and productivity",
+      "raw_header": "Activity and productivity",
+      "text": "Biocatalysts should exhibit high activity under the desired industrial conditions to achieve a high reaction productivity. Chemically heterogeneous catalysts are challenging rivals for biocatalysts in terms of productivity, often reaching production rates of 1-10 and 0.001-0.3 kg l -1 h -1 , respectively 140 . High productivities of 50-100 g l -1 h -1 have been achieved using free-resting Rhodococcus cells containing nitrile hydratase for the synthesis of acrylamide from acrylonitrile, considered to be one of the most successful industrial biocatalytic processes 140,141 . Acrylamide is used to produce polyacrylamide, which is used in water treatment, oil exploitation and the textile industry sector, as well as many others. The potential of nitrile hydratase as an industrial biocatalyst for the hydration of nitriles to form higher-value amides was demonstrated in the 1980s 1 . The vast market for acrylamide and the lack of an efficient chemical process for its production have propelled the improvement of the biocatalytic process over the past few years. The selection and optimization of a robust microbial host for nitrile hydratase was instrumental in preventing enzyme inactivation, owing to the high acrylamide concentrations required in the industrial process (300-500 g l -1 ) and the underlying exothermic nature of the reaction 141 . A selective robust transaminase was obtained, by combining rational mutagenesis, directed evolution and a substrate walking approach, for the large-scale manufacture of the antidiabetic drug sitagliptin under demanding industrial conditions (200 g l -1 substrate loading, 50% DMSO and 45 °C) 142 . This is an impressive example of an excellent industrial biocatalytic approach that outcompeted the previously used rhodium-catalysed Highervalue products Excellent Harsh Biocatalyst Conditions B io t r a n s f o r m a t io n Renewable substrates Sustainable Safe Fast Selective Well expressed Available Patentable Cheap Robust Evolvable Reusable Immobilizable Temperature, substrate loading, pH, organic solvent Evolvability Capacity of an enzyme to acquire beneficial properties or functions through genetic modification. sitagliptin synthesis in terms of selectivity, productivity, sustainability and cost. A relatively high productivity (13 g l -1 h -1 ) was recently achieved for IREDs by testing a commercially available IRED collection and various reaction conditions at the pilot plant scale, which was facilitated by a design of experiments strategy 121 . IREDs are of great interest for the industrial synthesis of cyclic and acyclic amines via the reduction of C=N bonds. This study identified reaction bottlenecks (for example, enzyme stability) and exposed possible strategies to overcome them (for example, using a fed-batch process) for a model reaction. Importantly, the first industrial synthesis catalysed by an IRED (on a 20-l scale) was recently reported 47 , highlighting an excellent industrial biocatalyst after three rounds of directed evolution, which outcompeted the corresponding chemical process with respect to green metrics such as lower catalyst requirement. This engineered IRED is used for the industrial synthesis of the LSD1 inhibitor GSK2879552. In contrast to the IRED used as starting point in this study, the engineered IRED is an excellent biocatalyst due to its increased stability under the required reaction conditions (moderately acidic pH and 20 g l -1 substrate concentration) showing a 38,000-fold improvement in turnover. In this case, the selectivity -another requirement for a good biocatalyst -needed no further improvement. The preparation of the fragrance ingredient (-)-ambrox using an engineered squalene hopene cyclase is another example of a successful industrial biocatalytic process, which achieved relatively high productivity (12 g l -1 h -1 ) for catalysing the cyclization of (E,E)-homofarnesol to yield (-)-ambrox 143 . The enzyme variant used in this study, which exhibited a 10-fold increase in productivity over the wild type, was discovered by random mutagenesis. This cyclase whole-cell biotransformation in E. coli was carried out under conditions that were optimized using a design of experiments strategy, in which the optimized parameters included the cell, sodium dodecyl sulfate (SDS) and (E,E)-homofarnesol concentrations, temperature and pH. SDS was required in this process to ensure substrate solubilization and access to the enzyme through the cell membrane.",
+      "snippet": "Biocatalysts should exhibit high activity under the desired industrial conditions to achieve a high reaction productivity. Chemically heterogeneous catalysts are challenging rivals for biocatalysts in terms of productivity, often reaching production rates of 1-10 and 0.001-0.3 kg l -1 h -1 , respectively 140 . High productivities of 50-100 g l -1 h -1 have been achieved using free-resting Rhodococcus cells containing nitrile hydratase for the synthesis of acrylamide from acrylonitrile, considered to be one of the most successful industrial biocatalytic processes 140,141 . Acrylamide is used to produce polyacrylamide, which is used in water treatment, oil exploitation and the textile industry sector, as well as many others. The potential of nitrile hydratase as an industrial biocatalyst for the hydration of nitriles to form higher-value amides was demonstrated in the 1980s 1 . The vast market for acrylamide and the lack of an efficient chemical process for its production have propelled the improvement of the biocatalytic process over the past few years. The selection and optimization of a robust microbial host for nitrile hydratase was instrumental in preventing enzyme inactivation, owing to the high acrylamide concentrations required in the industrial process (300-500 g l -1 ) and the underlying exothermic nature of the reaction 141 . A selective robust transaminase was obtained, by combining rational mutagenesis, directed evolution and a substrate walking approach, for the l…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "140",
+          "target_xml_id": "b131"
+        },
+        {
+          "ref_marker": "140,",
+          "target_xml_id": "b131"
+        },
+        {
+          "ref_marker": "141",
+          "target_xml_id": "b132"
+        },
+        {
+          "ref_marker": "141",
+          "target_xml_id": "b132"
+        },
+        {
+          "ref_marker": "142",
+          "target_xml_id": "b133"
+        },
+        {
+          "ref_marker": "47",
+          "target_xml_id": "b38"
+        },
+        {
+          "ref_marker": "143",
+          "target_xml_id": "b134"
+        }
+      ]
+    },
+    {
+      "header": "Selectivity and substrate scope",
+      "raw_header": "Selectivity and substrate scope",
+      "text": "Enzymes with excellent regioselectivity, chemoselectivity and/or stereoselectivity and the desired substrate scope for industrial applications can be obtained by either mining the enormous diversity evolved by nature or performing protein engineering campaigns in the laboratory. Studies that have uncovered the extraordinary diversity of enzymes involved in natural product biosynthetic pathways have provided promising industrial biocatalysts with complementary selectivity as well as substrate scope. For example, the recent comparison of three similar FAD-dependent monooxygenases, which catalyse the oxidative dearomatization of phenol and resorcinol in different biosynthetic pathways, has revealed their complementary site selectivities and stereoselectivities by testing a diverse panel of unnatural substrates 144 . This approach enabled the identification of an optimal biocatalyst for specific asymmetric transformations of phenols into ortho-quinols, a chemical reaction of great value in the synthesis of various bioactive natural products 144 . In another example that highlights the importance of enzyme discovery and characterization, the substrate scope of 87 putative flavin-dependent halogenases was determined using a high-throughput mass spectrometry-based screen 22 . Various halogenases discovered in this study exhibited complementary regioselectivity on relatively complex substrates. Thus, this enzyme library is attractive for late-stage C-H functionalization of drug leads, leading to diverse drug candidates from common intermediates. Furthermore, this study enabled the discovery of new halogenases for biotechnology applications, which exhibited beneficial properties such as regioselectivity, substrate scope and stability that were engineered in other previously discovered halogenases 22 . An increasing number of studies demonstrate that required selectivities can be readily engineered into different enzyme classes 145 . A recent example is the synthesis of a Janus kinase (JAK) inhibitor, which involved engineering IRED variants with markedly improved selectivity and activity compared with the wild type 146 . Synthesis of enantiomerically pure compounds is a key driver for the implementation of enzymes in the pharmaceutical industry 3 . Enantioselective enzymes are also used industrially for the production of target molecules required in food supplements, flavourings, fragrances and agrochemicals 147 . To this end, a wild-type cytochrome P450 monooxygenase catalyses the enantioselective and regioselective C5 hydroxylation of decanoic acid to form (S)-5-hydroxydecanoic acid, which is subsequently converted by chemical lactonization into the high-value fragrance compound (S)-δ-decalactone 148 . In the food industry, small-scale reactions using an engineered ethylenediamine-N,N′-disuccinic acid lyase have demonstrated its utility for the enantioselective synthesis of chiral synthons for artificial dipeptide sweeteners 149 . The lyase used as a starting scaffold exhibited excellent enantioselectivity for the target substrate but had low activity, which was increased 1,140-fold by rational protein engineering.",
+      "snippet": "Enzymes with excellent regioselectivity, chemoselectivity and/or stereoselectivity and the desired substrate scope for industrial applications can be obtained by either mining the enormous diversity evolved by nature or performing protein engineering campaigns in the laboratory. Studies that have uncovered the extraordinary diversity of enzymes involved in natural product biosynthetic pathways have provided promising industrial biocatalysts with complementary selectivity as well as substrate scope. For example, the recent comparison of three similar FAD-dependent monooxygenases, which catalyse the oxidative dearomatization of phenol and resorcinol in different biosynthetic pathways, has revealed their complementary site selectivities and stereoselectivities by testing a diverse panel of unnatural substrates 144 . This approach enabled the identification of an optimal biocatalyst for specific asymmetric transformations of phenols into ortho-quinols, a chemical reaction of great value in the synthesis of various bioactive natural products 144 . In another example that highlights the importance of enzyme discovery and characterization, the substrate scope of 87 putative flavin-dependent halogenases was determined using a high-throughput mass spectrometry-based screen 22 . Various halogenases discovered in this study exhibited complementary regioselectivity on relatively complex substrates. Thus, this enzyme library is attractive for late-stage C-H functionalization of drug leads…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "144",
+          "target_xml_id": "b135"
+        },
+        {
+          "ref_marker": "144",
+          "target_xml_id": "b135"
+        },
+        {
+          "ref_marker": "22",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "22",
+          "target_xml_id": "b13"
+        },
+        {
+          "ref_marker": "145",
+          "target_xml_id": "b136"
+        },
+        {
+          "ref_marker": "146",
+          "target_xml_id": "b137"
+        },
+        {
+          "ref_marker": "147",
+          "target_xml_id": "b138"
+        },
+        {
+          "ref_marker": "148",
+          "target_xml_id": "b139"
+        },
+        {
+          "ref_marker": "149",
+          "target_xml_id": "b140"
+        }
+      ]
+    },
+    {
+      "header": "Enzyme cascades",
+      "raw_header": "Enzyme cascades",
+      "text": "From an industrial perspective, biocatalytic cascade processes are especially attractive as they eliminate the need for intermediate isolation steps, reducing waste, saving time and costs as well as streamlining the overall synthesis 150 . Some intermediates can be unstable to isolation or have inhibitory effects on the enzymes present in the system, and therefore the use of a cascade process can be beneficial to overcome these challenges and avoid the build up of problematic intermediates. Several recent reviews have been published on enzymatic cascades that reveal the potential and scope of these processes 99,101,102,151,152 . Some examples 97 of industrially applied systems are highlighted here (Fig. 8). Evonik Degussa GmbH described a whole-cell cascade to produce diamines -which are valuable building blocks in the polymer industry -from renewably sourced dicarboxylic acids (Fig. 8a). The patented process 153 details the co-expression of a carboxylic acid reductase and",
+      "snippet": "From an industrial perspective, biocatalytic cascade processes are especially attractive as they eliminate the need for intermediate isolation steps, reducing waste, saving time and costs as well as streamlining the overall synthesis 150 . Some intermediates can be unstable to isolation or have inhibitory effects on the enzymes present in the system, and therefore the use of a cascade process can be beneficial to overcome these challenges and avoid the build up of problematic intermediates. Several recent reviews have been published on enzymatic cascades that reveal the potential and scope of these processes 99,101,102,151,152 . Some examples 97 of industrially applied systems are highlighted here (Fig. 8). Evonik Degussa GmbH described a whole-cell cascade to produce diamines -which are valuable building blocks in the polymer industry -from renewably sourced dicarboxylic acids (Fig. 8a). The patented process 153 details the co-expression of a carboxylic acid reductase and",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "150",
+          "target_xml_id": "b141"
+        },
+        {
+          "ref_marker": "99,",
+          "target_xml_id": "b90"
+        },
+        {
+          "ref_marker": "101,",
+          "target_xml_id": "b92"
+        },
+        {
+          "ref_marker": "102,",
+          "target_xml_id": "b93"
+        },
+        {
+          "ref_marker": "151,",
+          "target_xml_id": "b142"
+        },
+        {
+          "ref_marker": "152",
+          "target_xml_id": "b143"
+        },
+        {
+          "ref_marker": "97",
+          "target_xml_id": "b88"
+        },
+        {
+          "ref_marker": "153",
+          "target_xml_id": "b144"
+        }
+      ]
+    },
+    {
+      "header": "Design of experiments",
+      "raw_header": "Design of experiments",
+      "text": "A statistical approach to analyse the influence of various factors in a system to predict the optimal operating conditions. a transaminase to enable the desired cascade. An alanine dehydrogenase was also incorporated to provide a source of l-alanine, required for the transaminase step, from ammonia as an input nitrogen source. Additional process considerations for the in vivo implementation of the cascade included co-expression of fatty acid transporters to improve substrate uptake or the incorporation of an initial esterase step enabling the use of esters as starting materials. A hydrogen-borrowing, redox-neutral cascade was developed by GSK for the production of GSK2879552 (REF. 47 ) (Fig. 8b). A KRED IRED system was evaluated to take the desired alcohol to the chiral amine via an aldehyde, with internal cofactor recycling between the two enzymes. The main synthetic focus of the work was the engineering of the IRED step, involving reductive amination and concurrent resolution of the racemic amine substrate. The cascade synthesis enabled generation of the desired product in 48% yield with high enantiopurity (99.5% enantiomeric excess). Although the IRED step can operate as a stand-alone process and achieve higher yields, the proof of concept for the cascade was established. Process development and a more active KRED were highlighted as areas of potential focus to further improve the cascade and realize its potential for manufacturing. Recently, Merck & Co. 7 developed a total enzymatic synthesis of the HIV drug islatravir built on five key enzymatic steps (Fig. 8c). The selected enzymes were subjected to multiple rounds of protein engineering to achieve either the desired activity, stability or selectivity for operation of the cascade. A single aqueous reaction ). c | Merck & Co. 7 developed a total enzymatic synthesis of the HIV drug islatravir built on five key enzymatic steps. AcK, acetate kinase; AlaDH, alanine dehydrogenase; CAR, carboxylic acid reductase; DERA, deoxyribose phosphate aldolase; ee, enantiomeric excess; GOase, galactose oxidase; HRP, horseradish peroxidase; IRED, imine reductase; KRED, ketoreductase; PanK, pantothenate kinase; PPM, phosphopentamutase; PNP, purine nucleoside phosphorylase; SP, sucrose phosphorylase; TA, transaminase. stream was employed throughout the entire process, in which the galactose oxidase (GOase) and pantothenate kinase (PanK) steps operated sequentially to avoid cross-reactivity between substrates. The final deoxyribose phosphate aldolase (DERA), phosphopentamutase (PPM) and purine nucleoside phosphorylase (PNP) steps were then run concurrently, and the equilibrium of these steps was pulled through to product formation by an orthogonal sucrose phosphorylase (SP) step that removed phosphate from the reaction mixture. The cascade synthesis of islatravir (and, more recently, of molnupiravir) 154 replaced alternative chemical routes to this drug that required more than double the step count with protecting group manipulations, thereby vastly improving the efficiency of synthesis.",
+      "snippet": "A statistical approach to analyse the influence of various factors in a system to predict the optimal operating conditions. a transaminase to enable the desired cascade. An alanine dehydrogenase was also incorporated to provide a source of l-alanine, required for the transaminase step, from ammonia as an input nitrogen source. Additional process considerations for the in vivo implementation of the cascade included co-expression of fatty acid transporters to improve substrate uptake or the incorporation of an initial esterase step enabling the use of esters as starting materials. A hydrogen-borrowing, redox-neutral cascade was developed by GSK for the production of GSK2879552 (REF. 47 ) (Fig. 8b). A KRED IRED system was evaluated to take the desired alcohol to the chiral amine via an aldehyde, with internal cofactor recycling between the two enzymes. The main synthetic focus of the work was the engineering of the IRED step, involving reductive amination and concurrent resolution of the racemic amine substrate. The cascade synthesis enabled generation of the desired product in 48% yield with high enantiopurity (99.5% enantiomeric excess). Although the IRED step can operate as a stand-alone process and achieve higher yields, the proof of concept for the cascade was established. Process development and a more active KRED were highlighted as areas of potential focus to further improve the cascade and realize its potential for manufacturing. Recently, Merck & Co. 7 developed a tota…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "154",
+          "target_xml_id": "b145"
+        }
+      ]
+    },
+    {
+      "header": "Reproducibility and data deposition Databases for biocatalysis",
+      "raw_header": "Reproducibility and data deposition Databases for biocatalysis",
+      "text": "Over the past decade, the cost of DNA sequencing and synthesis has fallen rapidly; a trend commonly referred to as the Carlson curve 155 . This associated abundance of protein sequence data provides a rich seam for mining for new biocatalysts. The National Center for Biotechnology Information (NCBI) maintains databases of both DNA and protein sequences, regularly updated with new sequencing data, and with the option to search for sequences of interest using tools such as BlAST (Basic Local Alignment Search Tool) 156 . Other databases, such as UniProt, InterPro or Pfam, offer further analysis of protein sequences, structures or families. As the amount of data collected for an increasing number of enzymes and enzymatic transformations rises, it becomes prohibitive for interested researchers to efficiently scour the literature in search of ideal/ appropriate candidates to analyse. Catalyst and enzyme selection, for use in organic chemistry syntheses or synthetic biology pathways, respectively, already benefit from numerous well-developed databases. Reaxys 157 and SciFinder 158 contain a plethora of searchable information related to reaction conditions, choice of catalyst, substrate scope, percentage conversions and analytical information, among others, for use when designing a synthetic chemistry route towards a target molecule, whereas BRENDA 159 and KEGG 160 hold data on the natural substrate specificity, and sequence information, of biosynthetic enzymes to be used in a synthetic biology pipeline. A comparable repository, comprising information collected for synthetic enzyme reactions in biocatalysis, would be of great use for the biocatalysis community. Despite the fact that several databases for the biocatalysis community have been developed, none of them contains information related to the whole biocatalytic toolbox, and the majority do not provide such critical information as the substrate scope of specific enzymes, successful reaction conditions or reaction yields (TABlE 2). In general, the majority of the resources listed in TABlE 2 rely on data extracted from pre-existing databases such as BRENDA and PDB (Protein Data Bank) and, as such, are restricted to solely utilizing the sequence and/or structural information contained within them. Additionally, the curation and maintenance of substantial databases is often laborious and challenging, and so most biocatalyst databases focus on a specific reaction type or enzyme type of interest, rather than compiling data on the field as a whole. One of the few examples of a database recording information related to substrates, products and reaction outcomes in a biocatalysis context has been developed for the prenyltransferase enzyme class (PrenDB) 161 . PrenDB aims to collect data in the literature concerned with prenyltransferase enzymes and use them in various algorithms to achieve wider application of this family of synthetically useful enzymes. The compilation of a biocatalysis database, similar in scope to PrenDB but covering a broad spectrum of the different enzyme classes available in the biocatalytic toolbox, would unquestionably enhance the development of new enzymatic (cascade) reactions. An ideal database dedicated to biocatalytic transformations would capture both successful and unsuccessful transformations on an enzyme by enzyme basis and would broadly collect both enzyme activity data and enzyme sequence data. For example, data regarding the substrate scope, reaction temperature and length, buffer choice and pH, cofactor use, co-solvent use, substrate concentrations, reaction outcomes including percentage conversions and selectivities would all need to be collected to maximize the applicability of such a database. Enzyme homologue information, such as the amino acid sequence, structural information, mutant information and accession codes, would also need to be obtained. Additionally, integration with existing databases, such as those outlined above for chemistry and synthetic biology applications, would allow for extremely powerful synthesis planning towards target molecules. A fully functioning and searchable biocatalyst database could be used to augment tools designed to automate synthesis planning and would, ultimately, benefit researchers from both the chemistry and biocatalysis fields. In related fields such as natural product discovery, crowdsourcing has been successfully utilized for the construction of similar Table 2 | Databases containing information specifically on enzymes for biocatalysis Database Description Substrate specificity PrenDB 161 (http://prendb. pharmazie.uni-marburg.de/ prendb/home/) Contains substrate, product and reaction information for prenyltransferase enzymes Yes Lipase database 193 (http://www. led.uni-stuttgart.de/) Contains sequence and structural information for lipase enzymes No BioCatNet databases 11 (https://biocatnet.de/) Collection of databases containing sequence and structural information for transaminase, P450 and imine reductase (IRED) enzymes, among other enzyme classes No CAZy 194 (http://www.cazy.org/) Contains sequence and structural information for carbohydrate-active enzymes No RedoxiBase 195 (http:// peroxibase.toulouse.inra.fr/) Contains sequence and structural information for peroxidase and other oxidoreductase enzymes No BLAST (Basic local Alignment Search Tool). A tool that compares nucleotide or protein sequences of interest (most commonly to sequences within a database), and finds regions of statistically significant similarity. databases 162 . Indeed, a platform for curation of biocatalysis data has recently been made available to the community with this in mind, as part of the computer-aided synthesis planning tool RetroBioCat 8 .",
+      "snippet": "Over the past decade, the cost of DNA sequencing and synthesis has fallen rapidly; a trend commonly referred to as the Carlson curve 155 . This associated abundance of protein sequence data provides a rich seam for mining for new biocatalysts. The National Center for Biotechnology Information (NCBI) maintains databases of both DNA and protein sequences, regularly updated with new sequencing data, and with the option to search for sequences of interest using tools such as BlAST (Basic Local Alignment Search Tool) 156 . Other databases, such as UniProt, InterPro or Pfam, offer further analysis of protein sequences, structures or families. As the amount of data collected for an increasing number of enzymes and enzymatic transformations rises, it becomes prohibitive for interested researchers to efficiently scour the literature in search of ideal/ appropriate candidates to analyse. Catalyst and enzyme selection, for use in organic chemistry syntheses or synthetic biology pathways, respectively, already benefit from numerous well-developed databases. Reaxys 157 and SciFinder 158 contain a plethora of searchable information related to reaction conditions, choice of catalyst, substrate scope, percentage conversions and analytical information, among others, for use when designing a synthetic chemistry route towards a target molecule, whereas BRENDA 159 and KEGG 160 hold data on the natural substrate specificity, and sequence information, of biosynthetic enzymes to be used in a synthe…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "155",
+          "target_xml_id": "b146"
+        },
+        {
+          "ref_marker": "156",
+          "target_xml_id": "b147"
+        },
+        {
+          "ref_marker": "157",
+          "target_xml_id": "b148"
+        },
+        {
+          "ref_marker": "159",
+          "target_xml_id": "b150"
+        },
+        {
+          "ref_marker": "160",
+          "target_xml_id": "b151"
+        },
+        {
+          "ref_marker": "161",
+          "target_xml_id": "b152"
+        },
+        {
+          "ref_marker": "162",
+          "target_xml_id": "b153"
+        }
+      ]
+    },
+    {
+      "header": "Reproducibility issues in the field",
+      "raw_header": "Reproducibility issues in the field",
+      "text": "A successful biocatalyst database requires a system that captures all useful information on biocatalyst performance reported in the literature. However, the diverse scientific communities that work with and characterize biocatalysts have varying standards when it comes to recording reaction parameters and outcomes, with some favouring kinetic data and others preferring to record percentage conversions and overall yields, for example. These different approaches have resulted in a wealth of information for many different enzyme classes and homologues that may not be directly comparable with one another, and so it becomes necessary to standardize the data collected in order to obtain a better overall picture of where select developments stand. One such way of standardizing data reported in the literature would be to categorize reactions qualitatively for enzyme activities with respect to a given substrate (for example, high, medium, low, none). Different data sources, such as percentage conversions and specific activities, could be categorized in this way and then compared against each other. Alternatively, biocatalytic experiments could be standardized in the laboratory prior to data deposition. For numerous years, the STRENDA (Standards for Reporting Enzyme Data) commission has sought to provide guidelines on the experimental detail required when reporting enzyme activities and kinetics 163 . Recently, these guidelines have been incorporated into an online storage and validation tool, where enzyme data can be deposited and checked for compliance with the STRENDA guidelines 164 . This serves as a useful blueprint for reporting biotransformations in biocatalysis, but likely must be extended to include the additional datatypes often reported in biocatalysis papers, for example percentage conversion. Recently, numerous start-up companies have emerged across biology and chemistry to develop smart-laboratory infrastructures, aiming to make research more reproducible by capturing data on all of the possible variables in an experiment 165 . Others offer platforms to structure the collected data in a process, allowing machine learning to pull insight out of the vast data sets that smart-laboratories might produce 166 . Experimentally, this can allow trends to be observed that might otherwise be missed -for example, a new batch of a reagent causing a drop in yields, or a shift in pH causing improved enantioselectivity. The digitization of experimental procedures and data collection should greatly improve the reproducibility of experiments across biology and chemistry. In particular, this may allow methods sections in journals to offer links to a more atomized record of the experimental procedures carried out. However, uptake by academia may be slow in comparison with industry laboratories, where electronic laboratory notebooks are more commonly employed.",
+      "snippet": "A successful biocatalyst database requires a system that captures all useful information on biocatalyst performance reported in the literature. However, the diverse scientific communities that work with and characterize biocatalysts have varying standards when it comes to recording reaction parameters and outcomes, with some favouring kinetic data and others preferring to record percentage conversions and overall yields, for example. These different approaches have resulted in a wealth of information for many different enzyme classes and homologues that may not be directly comparable with one another, and so it becomes necessary to standardize the data collected in order to obtain a better overall picture of where select developments stand. One such way of standardizing data reported in the literature would be to categorize reactions qualitatively for enzyme activities with respect to a given substrate (for example, high, medium, low, none). Different data sources, such as percentage conversions and specific activities, could be categorized in this way and then compared against each other. Alternatively, biocatalytic experiments could be standardized in the laboratory prior to data deposition. For numerous years, the STRENDA (Standards for Reporting Enzyme Data) commission has sought to provide guidelines on the experimental detail required when reporting enzyme activities and kinetics 163 . Recently, these guidelines have been incorporated into an online storage and validati…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "163",
+          "target_xml_id": "b154"
+        },
+        {
+          "ref_marker": "164",
+          "target_xml_id": "b155"
+        },
+        {
+          "ref_marker": "165",
+          "target_xml_id": "b156"
+        },
+        {
+          "ref_marker": "166",
+          "target_xml_id": "b157"
+        }
+      ]
+    },
+    {
+      "header": "Limitations and optimizations",
+      "raw_header": "Limitations and optimizations",
+      "text": "Limitations and optimizations",
+      "snippet": "Limitations and optimizations",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Cost and accessibility",
+      "raw_header": "Cost and accessibility",
+      "text": "Biocatalyst cost usually has an influence on the viability of an industrial process, but especially in the synthesis of low-priced products. Currently, a wide variety of affordable enzyme collections (kits) are accessible from various vendors (for example, Prozomix, Almac, Codexis and Gecco). Enzyme discovery and production in-house is the alternative approach. Advantages and limitations of these options, 'the buy or build operating models' , have been previously discussed 167 . The choice of biocatalyst format (for example, purified, whole-cell or crude preparations) varies, depending on the particular application and enzyme class. Obviously, well-expressed enzymes are highly desired to reduce costs and effort. Access to an increasingly diverse platform of molecular biology tools allows the tailoring of enzyme performance to meet demanding industrial requirements and to efficiently convert non-natural substrates. Generation of improved biocatalysts by enzyme engineering is possible simply because enzymes are able to tolerate in vitro mutation. Thus, evolvability is another highly desirable property of a good biocatalyst. Engineering one enzyme may take only a few months, but building complex cellular metabolic networks may take years and demand considerable economic investment 168 . These timescales are not fast enough to meet 'the need for speed' in industry 169 . A recent example of a three-step route including two enzymatic steps, which was developed in just 6 months, is the synthesis of the COVID-19 direct-acting antiviral molnupiravir 154 . Development of highly efficient biocatalysts by either rational or evolution techniques will be accelerated in the near future by expanding both the use of machine learning 170 and ultra-high-throughput screening 171 technologies for protein engineering. Machine-learning algorithms use the sequencefunction data resulting from experimental work to predict which new enzyme mutants may exhibit the desired property. Thus, DNA sequences of both improved and unimproved variants are valuable in generating initial data sets. Importantly, machine-learning methods allow a reduction in the number of mutants that have to be produced and tested in the laboratory to discover a significant fraction of improved enzymes, and are particularly interesting in cases that require expensive or labour-intensive screening methods 170 . The additional costs of implementing machine-learning algorithms in a traditional protein engineering laboratory include computation and DNA sequencing, costs that are decreasing and, thus, are affordable for numerous research groups in both academia and industry. To explore a vast protein sequence space (library sizes >10 6 variants), ultra-high-throughput screening technologies have been developed. Many academic or industrial researchers have access to flow cytometers to perform fluorescence-based screenings of up to 10 8 enzyme variants per day 172 . Complementary or improved technologies are rapidly emerging in this field. Miniaturization of the reaction volume is generally pursued because it increases the speed of screening and reduces associated costs and waste. Label-free detection methods are also highly desired, allowing for screening without a reporter molecule. A recent example meeting both objectives allowed the analysis of around 15,000 samples in 6 h using droplet microfluidics (nanolitre scale) coupled to electrospray ionization mass spectrometry for detection 60 . Development and wide access to novel technologies for biocatalysis has been propelled by recent investments from, for example, the European Commission and the UK Biotechnology and Biological Sciences Research Council (BBSRC) to facilitate collaborations between industry and academia. The recent establishment of a Global Biofoundry Alliance represents another example 173 . Biofoundries are facilities to automate the design-build-test iteration cycle for engineering biology, which allows the fast delivery of genetically reprogrammed organisms for biotechnology 77 . Access to biocatalysts is also facilitated by other strategies such as Science Exchange (an online marketplace of research services) and collaborations established between the Centre of Excellence for Biocatalysis, Biotransformations and Biocatalytic Manufacture (CoEBio3) and various companies.",
+      "snippet": "Biocatalyst cost usually has an influence on the viability of an industrial process, but especially in the synthesis of low-priced products. Currently, a wide variety of affordable enzyme collections (kits) are accessible from various vendors (for example, Prozomix, Almac, Codexis and Gecco). Enzyme discovery and production in-house is the alternative approach. Advantages and limitations of these options, 'the buy or build operating models' , have been previously discussed 167 . The choice of biocatalyst format (for example, purified, whole-cell or crude preparations) varies, depending on the particular application and enzyme class. Obviously, well-expressed enzymes are highly desired to reduce costs and effort. Access to an increasingly diverse platform of molecular biology tools allows the tailoring of enzyme performance to meet demanding industrial requirements and to efficiently convert non-natural substrates. Generation of improved biocatalysts by enzyme engineering is possible simply because enzymes are able to tolerate in vitro mutation. Thus, evolvability is another highly desirable property of a good biocatalyst. Engineering one enzyme may take only a few months, but building complex cellular metabolic networks may take years and demand considerable economic investment 168 . These timescales are not fast enough to meet 'the need for speed' in industry 169 . A recent example of a three-step route including two enzymatic steps, which was developed in just 6 months, is …",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "167",
+          "target_xml_id": "b158"
+        },
+        {
+          "ref_marker": "168",
+          "target_xml_id": "b159"
+        },
+        {
+          "ref_marker": "169",
+          "target_xml_id": "b160"
+        },
+        {
+          "ref_marker": "154",
+          "target_xml_id": "b145"
+        },
+        {
+          "ref_marker": "170",
+          "target_xml_id": "b161"
+        },
+        {
+          "ref_marker": "171",
+          "target_xml_id": "b162"
+        },
+        {
+          "ref_marker": "170",
+          "target_xml_id": "b161"
+        },
+        {
+          "ref_marker": "172",
+          "target_xml_id": "b163"
+        },
+        {
+          "ref_marker": "60",
+          "target_xml_id": "b51"
+        },
+        {
+          "ref_marker": "173",
+          "target_xml_id": "b164"
+        },
+        {
+          "ref_marker": "77",
+          "target_xml_id": "b68"
+        }
+      ]
+    },
+    {
+      "header": "Expanding the range of biocatalysis",
+      "raw_header": "Expanding the range of biocatalysis",
+      "text": "Biocatalytic transformations, particularly those routinely applied in industry, often effect functional group interconversions with high conversion and selectivity. However, one of the biggest gaps is broader enzyme platforms that perform C-C bond formation. Despite a plethora of enzymes used in nature for C-C bond formation in primary and secondary metabolism, they are often challenging to repurpose for non-natural substrates. Only a handful of enzymatic C-C bond-forming enzymes have been utilized for industrial applications, mainly limited to aldol reactions, acyloin condensations or cyanohydrin formation catalysed by lyases 174,175 . A recent review highlights progress made in this space to diversify the toolbox of enzymes and the C-C bond-forming reactions they catalyse 176 . Another industrial gap is scalable and robust oxidative enzymes. Despite the potential to catalyse remote and unactivated C-H oxidations, which are chemically challenging, enzymes such as cytochrome P450s and other oxygenases are problematic to scale up due to low activity, instability and promiscuity, resulting in a mixture of products 177 . However, these features are well-suited for small-scale, late-stage diversification of biologically active compounds in which the enzyme promiscuity is advantageous to generate new libraries of compounds for evaluation 178,179 . The synthetic utility of the transformation afforded by these enzymes encourages continued efforts to find solutions and realize the potential of these biocatalysts for large-scale manufacture 180 .",
+      "snippet": "Biocatalytic transformations, particularly those routinely applied in industry, often effect functional group interconversions with high conversion and selectivity. However, one of the biggest gaps is broader enzyme platforms that perform C-C bond formation. Despite a plethora of enzymes used in nature for C-C bond formation in primary and secondary metabolism, they are often challenging to repurpose for non-natural substrates. Only a handful of enzymatic C-C bond-forming enzymes have been utilized for industrial applications, mainly limited to aldol reactions, acyloin condensations or cyanohydrin formation catalysed by lyases 174,175 . A recent review highlights progress made in this space to diversify the toolbox of enzymes and the C-C bond-forming reactions they catalyse 176 . Another industrial gap is scalable and robust oxidative enzymes. Despite the potential to catalyse remote and unactivated C-H oxidations, which are chemically challenging, enzymes such as cytochrome P450s and other oxygenases are problematic to scale up due to low activity, instability and promiscuity, resulting in a mixture of products 177 . However, these features are well-suited for small-scale, late-stage diversification of biologically active compounds in which the enzyme promiscuity is advantageous to generate new libraries of compounds for evaluation 178,179 . The synthetic utility of the transformation afforded by these enzymes encourages continued efforts to find solutions and realize the po…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "174,",
+          "target_xml_id": "b165"
+        },
+        {
+          "ref_marker": "175",
+          "target_xml_id": "b166"
+        },
+        {
+          "ref_marker": "176",
+          "target_xml_id": "b167"
+        },
+        {
+          "ref_marker": "177",
+          "target_xml_id": "b168"
+        },
+        {
+          "ref_marker": "178,",
+          "target_xml_id": "b169"
+        },
+        {
+          "ref_marker": "179",
+          "target_xml_id": "b170"
+        },
+        {
+          "ref_marker": "180",
+          "target_xml_id": "b171"
+        }
+      ]
+    },
+    {
+      "header": "Speeding up synthesis",
+      "raw_header": "Speeding up synthesis",
+      "text": "In the pharmaceutical industry, the acceleration of the drug development process is crucial to be able to deliver new medicines to patients as quickly as possible as well as maximize patent lifetimes for approved drugs. As such, time pressures for synthetic development are increasingly tight, which is driving advancements in the speed of rounds of protein engineering and the establishment of biocatalysis earlier in synthetic route planning 3,169 . These advances include improvements in DNA library syntheses, smart library design and high-throughput screening. On the horizon are technologies such as cell-free expression, which enables skipping the need for growing and harvesting cells that contain enzyme mutants, to further reduce cycle times 181,182 . Although the acceleration of development timelines is often associated with the pharmaceutical industry, these improvements are also beneficial to the wider chemical industry, making development more efficient and cost-effective 140 .",
+      "snippet": "In the pharmaceutical industry, the acceleration of the drug development process is crucial to be able to deliver new medicines to patients as quickly as possible as well as maximize patent lifetimes for approved drugs. As such, time pressures for synthetic development are increasingly tight, which is driving advancements in the speed of rounds of protein engineering and the establishment of biocatalysis earlier in synthetic route planning 3,169 . These advances include improvements in DNA library syntheses, smart library design and high-throughput screening. On the horizon are technologies such as cell-free expression, which enables skipping the need for growing and harvesting cells that contain enzyme mutants, to further reduce cycle times 181,182 . Although the acceleration of development timelines is often associated with the pharmaceutical industry, these improvements are also beneficial to the wider chemical industry, making development more efficient and cost-effective 140 .",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "169",
+          "target_xml_id": "b160"
+        },
+        {
+          "ref_marker": "181,",
+          "target_xml_id": "b172"
+        },
+        {
+          "ref_marker": "182",
+          "target_xml_id": "b173"
+        },
+        {
+          "ref_marker": "140",
+          "target_xml_id": "b131"
+        }
+      ]
+    },
+    {
+      "header": "Outlook",
+      "raw_header": "Outlook",
+      "text": "Advances in protein engineering, genomic database mining and computational methods have enabled a step change in biocatalysis over the past 20 years, and have led to its increasing application in the chemical and pharmaceutical industries as highlighted in this Primer. Adoption of biocatalysis is also driven by reduced cost, the need to develop environmentally friendly processes and use of renewable resources 183 . The number of chemical reactions realized as amenable to biocatalysis has dramatically increased, as new enzyme classes become accessible and non-natural biocatalytic reactions are being developed 184 . However, the range of reactions compared with those used in organic synthesis is still small and there are some obvious gaps in the repertoire of biocatalytic reactions that are currently being identified, including halogenation, amidebond formation, C-C bond formation and cleavage, ether formation, carbonylation, C=C bond functionalization, isomerization and reduction of isolated C=C bonds 140 . Some of these issues are being addressed by combining chemical and enzymatic reactions 185 . Biocatalysis also offers opportunities to develop reactions that are chemically difficult, such as remote and selective C-H activation, which is often observed in nature 148,178 , but the scale and substrate scope remain limitations for biocatalytic C-H activation 186 . The use of enzyme cascades is a particularly attractive aspect of biocatalysis, because of general reaction compatibility and the ability to telescope several reactions either in cell-free systems or whole cells 103 , akin to biosynthetic pathways. The design of such cascades is already starting to become automated using dedicated computational tools and databases that provide rich resources to the scientific community 8 . The accessibility of obtaining biocatalysts through commercial sources or from synthetic genes is continuing to lower the barrier to entry for biosynthesis and the bottleneck for reaction screening is now often at the assay stage, where more label-free high-throughput analytical methods are needed 50 . Current successes for compounds such as islatravir 7 and molnupiravir 154 have demonstrated the application of biocatalysis to multistep syntheses of small molecules. The next challenges will be to extend the application scope to targets of increasing molecular complexity and size, as well as to decrease the time required to develop efficient biocatalytic industrial processes. Examples of production of bulk chemicals and polymers by biocatalysis are still rare and offer a rich opportunity in terms of green chemistries. Biocatalysis also has a role to play in generating new modalities more efficiently and selectively for the biopharmaceutical industries, such as producing biomacromolecules and antibody-drug conjugates. Looking to the future, there are numerous key trends and scientific breakthroughs that are promising to have a significant impact on accelerating the discovery, development and application of biocatalysts. First of all, the range of chemical, new to nature biocatalytic reactions is rapidly expanding using de novo design 187 and/or directed evolution 188 . Increasingly powerful computational tools will allow for better de novo design but will also provide better selection tools for identifying suitable biocatalysts from the rich protein primary sequence information already accessible in databanks. Advances in computational methods to predict the protein structure from sequences through artificial intelligence 189 and subsequent prediction of function and physicochemical properties will provide access to biocatalysts that are finely tuned to the requirements of a desired target reaction and/or product [190][191][192] . To maximize synthetic utility, these tools will need to be integrated with the design of new biocatalytic cascade processes. Many individual steps of biocatalyst development can already be automated at the implementation stage, including desktop DNA printing, cell-free protein expression, enzyme immobilization and analysis, which hints at the potential for 'fully automated biocatalytic synthesizers' being available to individual laboratories 3 within the next decade. In conclusion, biocatalysis has enabled essential contributions to the safe, cheap and sustainable production of high-value chemicals and pharmaceuticals, but still provides many exciting challenges for potential advancements.",
+      "snippet": "Advances in protein engineering, genomic database mining and computational methods have enabled a step change in biocatalysis over the past 20 years, and have led to its increasing application in the chemical and pharmaceutical industries as highlighted in this Primer. Adoption of biocatalysis is also driven by reduced cost, the need to develop environmentally friendly processes and use of renewable resources 183 . The number of chemical reactions realized as amenable to biocatalysis has dramatically increased, as new enzyme classes become accessible and non-natural biocatalytic reactions are being developed 184 . However, the range of reactions compared with those used in organic synthesis is still small and there are some obvious gaps in the repertoire of biocatalytic reactions that are currently being identified, including halogenation, amidebond formation, C-C bond formation and cleavage, ether formation, carbonylation, C=C bond functionalization, isomerization and reduction of isolated C=C bonds 140 . Some of these issues are being addressed by combining chemical and enzymatic reactions 185 . Biocatalysis also offers opportunities to develop reactions that are chemically difficult, such as remote and selective C-H activation, which is often observed in nature 148,178 , but the scale and substrate scope remain limitations for biocatalytic C-H activation 186 . The use of enzyme cascades is a particularly attractive aspect of biocatalysis, because of general reaction compat…",
+      "pages": null,
+      "citations": [
+        {
+          "ref_marker": "183",
+          "target_xml_id": "b174"
+        },
+        {
+          "ref_marker": "184",
+          "target_xml_id": "b175"
+        },
+        {
+          "ref_marker": "140",
+          "target_xml_id": "b131"
+        },
+        {
+          "ref_marker": "185",
+          "target_xml_id": "b176"
+        },
+        {
+          "ref_marker": "148,",
+          "target_xml_id": "b139"
+        },
+        {
+          "ref_marker": "178",
+          "target_xml_id": "b169"
+        },
+        {
+          "ref_marker": "186",
+          "target_xml_id": "b177"
+        },
+        {
+          "ref_marker": "103",
+          "target_xml_id": "b94"
+        },
+        {
+          "ref_marker": "50",
+          "target_xml_id": "b41"
+        },
+        {
+          "ref_marker": "154",
+          "target_xml_id": "b145"
+        },
+        {
+          "ref_marker": "187",
+          "target_xml_id": "b178"
+        },
+        {
+          "ref_marker": "188",
+          "target_xml_id": "b179"
+        }
+      ]
+    },
+    {
+      "header": "Published online xx xx xxxx",
+      "raw_header": "Published online xx xx xxxx",
+      "text": "Published online xx xx xxxx",
+      "snippet": "Published online xx xx xxxx",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Competing interests",
+      "raw_header": "Competing interests",
+      "text": "). All authors contributed equally to planning and revision of the manuscript as described. Please note that co-authors have been listed in alphabetical order. The authors declare no competing interests.",
+      "snippet": "). All authors contributed equally to planning and revision of the manuscript as described. Please note that co-authors have been listed in alphabetical order. The authors declare no competing interests.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "). All authors contributed equally to planning and revision of the manuscript as…",
+      "raw_header": "). All authors contributed equally to planning and revision of the manuscript as…",
+      "text": "). All authors contributed equally to planning and revision of the manuscript as described. Please note that co-authors have been listed in alphabetical order.",
+      "snippet": "). All authors contributed equally to planning and revision of the manuscript as described. Please note that co-authors have been listed in alphabetical order.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Competing interests",
+      "raw_header": "Competing interests",
+      "text": "The authors declare no competing interests.",
+      "snippet": "The authors declare no competing interests.",
+      "pages": null,
+      "citations": []
+    },
+    {
+      "header": "Untitled section",
+      "raw_header": "Untitled section",
+      "text": "SCharnock AMBernardini EMonza MFLucas PWSutton PW Applied Biocatalysis JWhittall Sutton Wiley 2020 UniProt: the universal protein knowledgebase ABateman 10.1093/nar/gkw1099 Nucleic Acids Research Nucleic Acids Res 0305-1048 1362-4962 45 D1 2017 Oxford University Press (OUP) BioCatNet: A Database System for the Integration of Enzyme Sequences and Biocatalytic Experiments PatrickC FBuchholz ConstantinVogel WaldemarReusch MartinaPohl DörteRother AntjeCSpieß JürgenPleiss 10.1002/cbic.201600462 ChemBioChem ChemBioChem 1439-4227 1439-7633 17 21 2016 Wiley The hidden enzymology of bacterial natural product biosynthesis ThomasAScott JörnPiel 0000-0002-2282-8154 10.1038/s41570-019-0107-1 Nature Reviews Chemistry Nat Rev Chem 2397-3358 3 7 2019 Springer Science and Business Media LLC Catalytic Mechanisms of Fe(II)- and 2-Oxoglutarate-dependent Oxygenases SaletteMartinez RobertPHausinger 0000-0002-3643-2054 10.1074/jbc.r115.648691 Journal of Biological Chemistry Journal of Biological Chemistry 0021-9258 290 34 2015 Elsevier BV Harnessing the biocatalytic potential of iron- and α-ketoglutarate-dependent dioxygenases in natural product total synthesis ChristianRZwick HansRenata 0000-0003-2468-2328 10.1039/c9np00075e Natural Product Reports Nat. Prod. Rep. 0265-0568 1460-4752 37 8 2020 Royal Society of Chemistry (RSC) Biosynthesis of methyl-proline containing griselimycins, natural products with anti-tuberculosis activity PLukat Chem. Sci 8 2017 Remote C–H Hydroxylation by an α-Ketoglutarate-Dependent Dioxygenase Enables Efficient Chemoenzymatic Synthesis of Manzacidin C and Proline Analogs ChristianRZwick HansRenata 0000-0003-2468-2328 10.1021/jacs.7b12918 Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 140 3 2018 American Chemical Society (ACS) A family of radical halogenases for the engineering of amino-acid-based products MonicaENeugebauer 0000-0003-4223-9071 KieraHSumida JeffreyGPelton JonathanLMcmurry JorgeAMarchand MichelleC YChang 0000-0003-3747-7630 10.1038/s41589-019-0355-x Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 15 10 2019 Springer Science and Business Media LLC Scalable biosynthesis of the seaweed neurochemical, kainic acid JRChekan Angew. Chem. Int. Ed 58 2019 Scalable biocatalytic C–H oxyfunctionalization reactions SumanChakrabarty 0000-0002-6611-3839 YeWang 0000-0001-8285-8657 JonathanCPerkins 0000-0002-5874-565X AlisonR HNarayan 0000-0001-8290-0077 10.1039/d0cs00440e Chemical Society Reviews Chem. Soc. Rev. 0306-0012 1460-4744 49 22 2020 Royal Society of Chemistry (RSC) Scalable biocatalytic C-H oxyfunctionalization reactions S-adenosylhomocysteine as a methyl transfer catalyst in biocatalytic methylation reactions CangsongLiao FlorianPSeebeck 0000-0003-4625-1369 10.1038/s41929-019-0300-0 Nature Catalysis Nat Catal 2520-1158 2 8 2019 Springer Science and Business Media LLC A Natural Diels‐Alder Biocatalyst Enables Efficient [4+2] Cycloaddition Under Harsh Reaction Conditions CarlOMarsh NicholasRLees Li‐chenHan MatthewJByrne SbusisiweZMbatha LaurenceMaschio SebastianPagden‐ratcliffe PhillipWDuke JamesE MStach PaulCurnow ChristineLWillis PaulRRace 0000-0003-0184-5630 10.1002/cctc.201901285 ChemCatChem ChemCatChem 1867-3880 1867-3899 11 20 2019 Wiley Site-Selective C–H Halogenation Using Flavin-Dependent Halogenases Identified via Family-Wide Activity Profiling BrianFFisher 0000-0003-1727-2494 HarrisonMSnodgrass KrystenAJones 0000-0003-0711-5516 MaryCAndorfer JaredCLewis 0000-0003-2800-8330 10.1021/acscentsci.9b00835 ACS Central Science ACS Cent. Sci. 2374-7943 2374-7951 5 11 2019 American Chemical Society (ACS) Engineering biosynthetic enzymes for industrial natural product synthesis SGalanie DEntwistle JLalonde Nat. Prod. Rep 37 2020 Total Biosynthesis for Milligram-Scale Production of Etoposide Intermediates in a Plant Chassis BaileyJSchultz 0000-0002-4648-0172 SeungYeonKim WarrenLau ElizabethSSattely 0000-0002-7352-859X 10.1021/jacs.9b10717 Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 141 49 2019 American Chemical Society (ACS) Discovery and biocatalytic application of a PLP-dependent amino acid γ-substitution enzyme that catalyzes C-C bond formation MChen CTLiu YTang J. Am. Chem. Soc 142 2020 The Moderately Efficient Enzyme: Evolutionary and Physicochemical Trends Shaping Enzyme Parameters ArrenBar-Even EladNoor YonatanSavir WolframLiebermeister DanDavidi DanSTawfik RonMilo 10.1021/bi2002289 Biochemistry Biochemistry 0006-2960 1520-4995 50 21 2011 American Chemical Society (ACS) Enzyme engineering: reaching the maximal catalytic efficiency peak MosheGoldsmith DanSTawfik 10.1016/j.sbi.2017.09.002 Current Opinion in Structural Biology Current Opinion in Structural Biology 0959-440X 47 2017 Elsevier BV Metagenomics: Application of Genomics to Uncultured Microorganisms JoHandelsman 10.1128/mmbr.68.4.669-685.2004 Microbiology and Molecular Biology Reviews Microbiol Mol Biol Rev 1092-2172 1098-5557 68 4 2004 American Society for Microbiology Biocatalysts and small molecule products from metagenomic studies HAIqbal ZFeng SFBrady Curr. Opin. Chem. Biol 16 2012 Bioprospecting Reveals Class III ω-Transaminases Converting Bulky Ketones and Environmentally Relevant Polyamines CristinaCoscolín NadineKatzke AntonioGarcía-Moyano JoséNavarro-Fernández DavidAlmendral MónicaMartínez-Martínez AlexanderBollinger RafaelBargiela ChristophGertler TatyanaNChernikova DavidRojo CoralBarbas 0000-0003-4722-491X HaiTran OlgaVGolyshina RainhardKoch MichailMYakimov 0000-0003-1418-363X GroE KBjerga PeterNGolyshin 0000-0002-5433-0350 Karl-ErichJaeger 0000-0002-6036-0708 ManuelFerrer 0000-0003-4962-4714 10.1128/aem.02404-18 Applied and Environmental Microbiology Appl Environ Microbiol 0099-2240 1098-5336 85 2 2019 American Society for Microbiology Chiral Amine Synthesis Using ω‐Transaminases: An Amine Donor that Displaces Equilibria and Enables High‐Throughput Screening AnthonyPGreen NicholasJTurner ElaineO'reilly 10.1002/anie.201406571 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 53 40 2014 Wiley A rapid, sensitive colorimetric assay for the high-throughput screening of transaminases in liquid or solid-phase DBaud NLadkau TSMoody JMWard HCHailes Chem. Commun 51 2015 A mechanism-based approach to screening metagenomic libraries for discovery of unconventional glycosidases SANasseri LBetschart DOpaleva PRahfeld SGWithers Angew. Chem. Int. Ed 57 2018 Ultrahigh-throughput discovery of promiscuous enzymes by picodroplet functional metagenomics PYColin Nat. Commun 6 2015 This article identifies a two-enzyme system from a large gut microbiome library that enables generation of universal O-type blood from A-type donors PRahfeld Nat. Microbiol 4 2019 An enzymatic pathway in the human gut microbiome that converts A to universal O type blood An unusual flavin-dependent halogenase from the metagenome of the marine sponge Theonella swinhoei WA DR MSmith ACS Chem. Biol 12 2017 A metagenomics approach for new biocatalyst discovery: application to transaminases and the synthesis of allylic amines DBaud JW EJeffries TSMoody JMWard HCHailes Green. Chem 19 2017 Metagenomics reveals functional synergy and novel polysaccharide utilization loci in the <i>Castor canadensis</i> fecal microbiome ZacharyArmstrong 0000-0002-4086-2946 KeithMewis FengLiu ConnorMorgan-Lang MelanieScofield EvanDurno HongMingChen KevinMehr StephenGWithers StevenJHallam 0000-0002-4889-6876 10.1038/s41396-018-0215-9 The ISME Journal 1751-7362 1751-7370 12 11 2018 Oxford University Press (OUP) Engineering the third wave of biocatalysis UTBornscheuer GWHuisman RJKazlauskas SLutz JCMoore KRobins 10.1038/nature11117 Nature Nature 0028-0836 1476-4687 485 7397 2012 Springer Science and Business Media LLC Directed Evolution: Bringing New Chemistry to Life FrancesHArnold 0000-0002-4027-364X 10.1002/anie.201708408 Angewandte Chemie International Edition Angew Chem Int Ed 1433-7851 1521-3773 57 16 2018 Wiley Directed evolution: bringing new chemistry to life The crucial role of methodology development in directed evolution of selective enzymes GQu ALi CGAcevedo-Rocha ZSun MTReetz Angew. Chem. Int. Ed 59 2020 Expanding the range of substrate acceptance of enzymes: combinatorial active-site saturation test MTReetz MBocola JDCarballeira DZha AVogel Angew. Chem. Int. Ed 44 2005 Addressing the numbers problem in directed evolution MTReetz DKahakeaw RLohmer ChemBioChem 9 2008 Reducing Codon Redundancy and Screening Effort of Combinatorial Protein Libraries Created by Saturation Mutagenesis SabrinaKille CarlosGAcevedo-Rocha LoretoPParra Zhi-GangZhang DiederikJOpperman ManfredTReetz JuanPabloAcevedo 10.1021/sb300037w ACS Synthetic Biology ACS Synth. Biol. 2161-5063 2 2 2013 American Chemical Society (ACS) Mutagenic PCR RCraigCadwell GeraldFJoyce 10.1101/pdb.prot4143 Cold Spring Harbor Protocols Cold Spring Harb Protoc 1559-6095 2006 1 pdb.prot4143 2006 Cold Spring Harbor Laboratory Rapid evolution of a protein in vitro by DNA shuffling WillemP CStemmer 10.1038/370389a0 Nature Nature 0028-0836 1476-4687 370 6488 1994 Springer Science and Business Media LLC Rapid evolution of a protein in vitro by DNA shuffling Chiral synthesis of LSD1 inhibitor GSK2879552 enabled by directed evolution of an imine reductase MarkusSchober ChrisMacdermaid AnneAOllis SandyChang DiluarKhan JosephHosford JonathanLatham 0000-0002-5906-9024 LeighAnne FIhnken MurrayJ BBrown 0000-0002-2393-7686 DouglasFuerst MaheshJSanganee Gheorghe-DoruRoiban 0000-0002-5006-3240 10.1038/s41929-019-0341-4 Nature Catalysis Nat Catal 2520-1158 2 10 2019 Springer Science and Business Media LLC Development of an <i>R</i>‐Selective Amine Oxidase with Broad Substrate Specificity and High Enantioselectivity RachelSHeath MartaPontini BeatriceBechi NicholasJTurner 10.1002/cctc.201301008 ChemCatChem ChemCatChem 1867-3880 1867-3899 6 4 2014 Wiley Glycine oxidase based highthroughput solid-phase assay for substrate profiling and directed evolution of (R)-and (S)-selective amine transaminases MSWeiß IVPavlidis CVickers MHohne UTBornscheuer Anal. Chem 86 2014 This article presents recent approaches to using label-free screening methods based on mass spectrometry CYan J. Am. Chem. Soc 139 2017 Real-time screening of biocatalysts in live bacterial colonies Ultra-high-throughput screening based on cell-surface display and fluorescenceactivated cell sorting for the identification of novel biocatalysts SBecker HUSchmoldt TMAdams SWilhelm HKolmar Curr. Opin. Biotechnol 15 2004 Evolution of thermophilic DNA polymerases for the recognition and amplification of C2′-modified DNA TChen Nat. Chem 8 2016 Correction for Agresti et al., Ultrahigh-throughput screening in drop-based microfluidics for directed evolution JJAgresti 10.1073/pnas.1002891107 Proceedings of the National Academy of Sciences Proc. Natl. Acad. Sci. U.S.A. 0027-8424 1091-6490 107 14 2010 Proceedings of the National Academy of Sciences Emergence of a catalytic tetrad during evolution of a highly active artificial aldolase RObexer Nat. Chem 9 2017 A general approach for the generation of orthogonal tRNAs LeiWang PeterGSchultz 10.1016/s1074-5521(01)00063-1 Chemistry & Biology Chemistry & Biology 1074-5521 8 9 2001 Elsevier BV Continuous directed evolution of aminoacyl-tRNA synthetases DavidIBryson ChenguangFan 0000-0003-0662-1185 Li-TaoGuo CorwinMiller DieterSöll 0000-0002-3077-8986 DavidRLiu 10.1038/nchembio.2474 Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 13 12 2017 Springer Science and Business Media LLC An orthogonal DNA replication system in yeast ArjunRavikumar AdrianArrieta ChangCLiu 10.1038/nchembio.1439 Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 10 3 2014 Springer Science and Business Media LLC Engineering an Enantioselective Amine Oxidase for the Synthesis of Pharmaceutical Building Blocks and Alkaloid Natural Products DiegoGhislieri AnthonyPGreen MartaPontini SimonCWillies IanRowles AnnikaFrank GideonGrogan NicholasJTurner 10.1021/ja4051235 Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 135 29 2013 American Chemical Society (ACS) Ultrahigh-throughput screening enables efficient single-round oxidase remodelling ADebon Nat. Catal 2 2019 This article applies droplet sorting as one of the most successful methods for ultra-high-throughput screening of enzyme libraries DAHolland-Moritz Angew. Chem. Int. Ed 59 2020 Mass activated droplet sorting (MADS) enables high-throughput screening of enzymatic reactions at nanoliter scale Pyrrolysyl-tRNA synthetase: An ordinary enzyme but an outstanding genetic code expansion tool WeiWan JefferyMTharp WensheRLiu 10.1016/j.bbapap.2014.03.002 Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics 1570-9639 1844 6 2014 Elsevier BV Electrostatic basis for enzyme catalysis AWarshel Chem. Rev 106 2006 The role of dynamic conformational ensembles in biomolecular recognition DavidDBoehr RuthNussinov PeterEWright 10.1038/nchembio.232 Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 5 11 2009 Springer Science and Business Media LLC The challenge of predicting distal active site mutations in computational enzyme design SOsuna WIREs Comput. Mol. Sci 11 1502 2021 Computational enzyme design GKiss NÇelebi-Ölçüm RMoretti DBaker KNHouk Angew. Chem. Int. Ed 52 2013 Iterative approach to computational enzyme design HKPrivett Proc. Natl Acad. Sci. USA 109 2012 Enantioselective enzymes by computational design and in silico screening HJWijma Angew. Chem 127 2015 Multistate approaches in computational protein design JADavey RAChica Protein Sci 21 2012 Combinatorial approach for exploring conformational space and activation barriers in computer-aided enzyme design DMondal VKolev AWarshel ACS Catal 10 2020 Role of conformational dynamics in the evolution of novel enzyme function MiguelAMaria-Solano 0000-0002-7837-0429 EilaSerrano-Hervás 0000-0002-9477-0350 AdrianRomero-Rivera 0000-0002-0387-2774 JavierIglesias-Fernández 0000-0001-7773-2945 SílviaOsuna 0000-0003-3657-6469 10.1039/c8cc02426j Chemical Communications Chem. Commun. 1359-7345 1364-548X 54 50 2018 Royal Society of Chemistry (RSC) Laboratory evolution of protein conformational dynamics EleanorCCampbell GalenJCorrey PeterDMabbitt AshleyMBuckle NobuhikoTokuriki ColinJJackson 0000-0001-6150-3822 10.1016/j.sbi.2017.09.005 Current Opinion in Structural Biology Current Opinion in Structural Biology 0959-440X 50 2018 Elsevier BV Harnessing conformational plasticity to generate designer enzymes RMCrean JMGardner SC LKamerlin J. Am. Chem. Soc 142 2020 Unlocked potential of dynamic elements in protein structures: channels and loops NKreß JMHalder LRRapp BHauer Curr. Opin. Chem. Biol 47 2018 CaverDock: a molecular docking-based tool to analyse ligand transport through protein tunnels and channels OndrejVavra JiriFilipovic JanPlhak DavidBednar SergioMMarques JanBrezovsky JanStourac LudekMatyska JiriDamborsky 10.1093/bioinformatics/btz386 Bioinformatics 1367-4803 1367-4811 35 23 2019 Oxford University Press (OUP) How directed evolution reshapes the energy landscape in an enzyme to boost catalysis ROtten Science 370 2020 Role of conformational dynamics in the evolution of retro-aldolase activity ARomero-Rivera MGarcia-Borràs SOsuna ACS Catal 7 2017 A pressure test to make 10 molecules in 90 days: external evaluation of methods to engineer biology ACasini J. Am. Chem. Soc 140 2018 Manipulating conformational dynamics to repurpose ancient proteins for modern catalytic functions JMGardner MBiler VARisso JMSanchez-Ruiz SC LKamerlin ACS Catal 10 2020 Cooperativity and flexibility in enzyme evolution APabis VARisso JMSanchez-Ruiz SCKamerlin Curr. Opin. Struct. Biol 48 2018 This article reviews the methods to expand the genetic code for the introduction of non-natural amino acids into proteins CCLiu PGSchultz Annu. Rev. Biochem 79 2010 Adding new chemistries to the genetic code Expanding and reprogramming the genetic code JWChin Nature 550 2017 Site-specific insertion of 3-aminotyrosine into subunit α2 of E. coli ribonucleotide reductase: direct evidence for involvement of Y730 and Y731 in radical propagation MRSeyedsayamdost JXie CT YChan PGSchultz JStubbe J. Am. Chem. Soc 129 2007 Probing eudesmane cation-π interactions in catalysis by aristolochene synthase with non-canonical amino acids JAFaraldos J. Am. Chem. Soc 133 2011 A critical test of the electrostatic contribution to catalysis with noncanonical amino acids in ketosteroid isomerase YWu SGBoxer J. Am. Chem. Soc 138 2016 Trapping biosynthetic acyl-enzyme intermediates with encoded 2,3-diaminopropionic acid NHuguenin-Dezot Nature 565 2019 Rewiring the 'push-pull' catalytic machinery of a heme enzyme using an expanded genetic code MOrtmayer ACS Catal 10 2020 This article is a recent example of using non-canonical amino acids in protein evolution to obtain new enzyme activities AJBurke Nature 570 2019 Design and evolution of an enzyme with a non-canonical organocatalytic mechanism A designer enzyme for hydrazone and oxime formation featuring an unnatural catalytic aniline residue IDrienovská CMayer CDulson GRoelfes Nat. Chem 10 2018 An efficient system for the evolution of aminoacyl-tRNA synthetase specificity SWSantoro LWang BHerberich DSKing PGSchultz Nat. Biotechnol 20 2002 A noncanonical proximal heme ligand affords an efficient peroxidase in a globin fold MPott J. Am. Chem. Soc 140 2018 Enhancing protein stability with genetically encoded noncanonical amino acids JCLi TLiu YWang APMehta PGSchultz J. Am. Chem. Soc 140 2018 Chiral dialkylaminopyridine catalysts in asymmetric synthesis RPWurz Chem. Rev 107 2007 Enzyme-like proteins by computational design DNBolon SLMayo Proc. Natl Acad. Sci. USA 98 2001 Computational Design of Catalytic Dyads and Oxyanion Holes for Ester Hydrolysis FlorianRichter RebeccaBlomberg SagarDKhare GertKiss AlexandrePKuzin AdamJ TSmith JasmineGallaher ZbigniewPianowski RogerCHelgeson AlexejGrjasnow RongXiao JayaramanSeetharaman MinSu SergeyVorobiev ScottLew FarhadForouhar GregoryJKornhaber JohnFHunt GaetanoTMontelione LiangTong KNHouk DonaldHilvert DavidBaker 10.1021/ja3037367 Journal of the American Chemical Society J. Am. Chem. Soc. 0002-7863 1520-5126 134 39 2012 American Chemical Society (ACS) New Tricks for Old Proteins: Single Mutations in a Nonenzymatic Protein Give Rise to Various Enzymatic Activities YSMoroz 10.1021/jacs.5b07812.s001 J. Am. Chem. Soc 137 2015 American Chemical Society (ACS) Installing hydrolytic activity into a completely de novo protein framework AJBurton ARThomson WMDawson RLBrady DNWoolfson Nat. Chem 8 2016 This review focuses on recent industrial biocatalytic cascades JNazor JLiu GHuisman Curr. Opin. Biotechnol 69 2021 Enzyme evolution for industrial biocatalytic cascades Enzyme engineering for biosynthetic cascades JAMcintosh AOwens Curr. Opin. Green Sustain. Chem 29 100448 2021 Artificial biocatalytic linear cascades for preparation of organic molecules JHSchrittwieser SVelikogne MHall WKroutil Chem. Rev 118 2018 Enzyme-initiated domino (cascade) reactions SFMayer WKroutil KFaber Chem. Soc. Rev 30 2001 (Chemo)enzymatic cascades—Nature's synthetic strategy transferred to the laboratory EduardoGarcía-Junceda IvánLavandera DörteRother JoergHSchrittwieser 10.1016/j.molcatb.2014.12.007 Journal of Molecular Catalysis B: Enzymatic Journal of Molecular Catalysis B: Enzymatic 1381-1177 114 2015 Elsevier BV Opportunities and challenges for combining chemo- and biocatalysis FlorianRudroff 0000-0002-6680-8200 MarkoDMihovilovic 0000-0002-5438-8368 HaraldGröger 0000-0001-8582-2107 RadkaSnajdrova 0000-0002-4809-1066 HansIding 0000-0002-4638-7912 UweTBornscheuer 0000-0003-0685-2696 10.1038/s41929-017-0010-4 Nature Catalysis Nat Catal 2520-1158 1 1 2018 Springer Science and Business Media LLC This article reviews the literature on a wide range of multienzyme de novo cascades using isolated enzymes and whole-cell systems SPFrance LJHepworth NJTurner SLFlitsch ACS Catal 7 2017 Constructing biocatalytic cascades: in vitro and in vivo approaches to de novo multi-enzyme pathways Biocatalytic retrosynthesis NicholasJTurner ElaineO'reilly 10.1038/nchembio.1235 Nature Chemical Biology Nat Chem Biol 1552-4450 1552-4469 9 5 2013 Springer Science and Business Media LLC Biocatalytic retrosynthesis Enantioselective chemo-and biocatalysis: partners in retrosynthesis MHönig PSondermann NJTurner EMCarreira Angew. Chem. Int. Ed 56 2017 Biocatalytic retrosynthesis: redesigning synthetic routes to high-value chemicals APGreen NJTurner Perspect. Sci 9 2016 A retrosynthesis approach for biocatalysis in organic synthesis RO M ADe Souza LS MMiranda UTBornscheuer Chem. A Eur. J 23 2017 Biosynthesis: is it time to go retro? BOBachmann Nat. Chem. Biol 6 2010 Design of computational retrobiosynthesis tools for the design of de novo synthetic pathways NoushinHadadi VassilyHatzimanikatis 10.1016/j.cbpa.2015.06.025 Current Opinion in Chemical Biology Current Opinion in Chemical Biology 1367-5931 28 2015 Elsevier BV Machine learning in computer-aided synthesis planning CWColey WHGreen KFJensen Acc. Chem. Res 51 2018 An overview of technologies for immobilization of enzymes and surface analysis techniques for immobilized enzymes NRMohamad NH CMarzuki NABuang FHuyop RAWahab Biotechnol. Biotechnol. Equip 29 2015 Industrial applications of immobilized enzymes—A review AlessandraBasso SimonaSerban 10.1016/j.mcat.2019.110607 Molecular Catalysis Molecular Catalysis 2468-8231 479 110607 2019 Elsevier BV Biocatalysis in drug discovery and development AnnaFryszkowska PaulNDevine 10.1016/j.cbpa.2020.01.012 Current Opinion in Chemical Biology Current Opinion in Chemical Biology 1367-5931 55 2020 Elsevier BV JLatham Applied Biocatalysis JWhittall Sutton Wiley 2020 Recent preparative applications of redox enzymes CKPrier BKosjek Curr. Opin. Chem. Biol 49 2019 New frontiers in biocatalysis for sustainable synthesis JohnMWoodley 10.1016/j.cogsc.2019.08.006 Current Opinion in Green and Sustainable Chemistry Current Opinion in Green and Sustainable Chemistry 2452-2236 21 2020 Elsevier BV Role of biocatalysis in sustainable chemistry RASheldon JMWoodley Chem. Rev 118 2018 Metrics of green chemistry and sustainability: past, present, and future RASheldon ACS Sustain. Chem. Eng 6 2018 Energising the E-factor: the E+-factor FTieves Tetrahedron 75 2019 Enzymatic synthesis of aliphatic nitriles at a substrate loading of up to 1.4 kg/l: a biocatalytic record achieved with a heme protein AHinzmann SGlinski MWorm HGröger J. Org. Chem 84 2019 Technical considerations for scale-up of imine-reductase-catalyzed reductive amination: a case study ABornadel Org. Process. Res. Dev 23 2019 Application of in situ product crystallization and related techniques in biocatalytic processes DHülsewede LMeyer JVon Langermann Chem. A Eur. J 25 2019 Reactive separations for in situ product removal of enzymatic reactions: a review OFellechner MBlatkiewicz ISmirnova Chem. Ing. Tech 91 2019 Decision letter: Approaching boiling point stability of an alcohol dehydrogenase through computationally-guided enzyme engineering FSAalbers 10.7554/elife.54639.sa1 2020 eLife Sciences Publications, Ltd 9 54639 Engineering highly functional thermostable proteins using ancestral sequence reconstruction YGumulya Nat. Catal 1 2018 Highly thermostable carboxylic acid reductases generated by ancestral sequence reconstruction AThomas RCutlan WFinnigan MVan Der Giezen NHarmer Commun. Biol 2 2019 Ancestral-sequence reconstruction unveils the structural basis of function in mammalian FMOs CRNicoll Nat. Struct. Mol. Biol 27 2020 Ancestral resurrection and directed evolution of fungal mesozoic laccases BJGomez-Fernandez VARisso ARueda JMSanchez-Ruiz MAlcalde Appl. Environ. Microbiol 86 2020 Revenant: a database of resurrected proteins. Database MSCarletti 2020. 2020 31 Development of an immobilized transaminase capable of operating in organic solvent MDTruppo HStrotman GHughes ChemCatChem 4 2012 Natural heterogeneous catalysis with immobilised oxidase biocatalysts APMattey RSC Adv 10 2020 Highly efficient production of chiral amines in batch and continuous flow by immobilized ω-transaminases on controlled porosity glass metal-ion affinity carrier WBöhmer J. Biotechnol 291 2019 Continuous flow biocatalysis JBritton SMajumdar GAWeiss Chem. Soc. Rev 47 2018 Modifying enzyme activity and selectivity by immobilization RafaelCRodrigues ClaudiaOrtiz ÁngelBerenguer-Murcia RodrigoTorres RobertoFernández-Lafuente 10.1039/c2cs35231a Chem. Soc. Rev. Chem. Soc. Rev. 0306-0012 1460-4744 42 15 2013 Royal Society of Chemistry (RSC) Biocatalysis and Green Chemistry RogerASheldon 10.1002/9781118828083.ch1 in Green Biocatalysis (ed. Patel, R. N 2016 Wiley Rice husk as an inexpensive renewable immobilization carrier for biocatalysts employed in the food, cosmetic and polymer sectors MCespugli Catalysts 8 471 2018 Towards the sustainable production of bulk-chemicals using biotechnology JohnMWoodley 0000-0002-7976-2483 10.1016/j.nbt.2020.07.002 New Biotechnology New Biotechnology 1871-6784 59 2020 Elsevier BV Biocatalysis in drug developmenthighlights of the recent patent literature DLHughes Org. Process. Res. Dev 22 2018 PDe María GDe Gonzalo AAlcántara Biocatalysis as useful tool in asymmetric synthesis: an assessment of recently granted patents 2014-2019. 2019 9 802 Embracing Nature’s Catalysts: A Viewpoint on the Future of Biocatalysis BernhardHauer 0000-0001-6259-3348 10.1021/acscatal.0c01708 ACS Catalysis ACS Catal. 2155-5435 10 15 2020 American Chemical Society (ACS) Embracing nature's catalysts: a viewpoint on the future of biocatalysis Advances in acrylamide bioproduction catalyzed with Rhodococcus cells harboring nitrile hydratase SJiao FLi HYu ZShen Appl. Microbiol. Biotechnol 104 2020 Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture CKSavile Science 329 2010 Biocatalytic process for (-)-ambrox production using squalene hopene cyclase EEichhorn Adv. Synth. Catal 360 2018 Biocatalytic site-and enantioselective oxidative dearomatization of phenols SABaker Dockrey ALLukowski MRBecker AR HNarayan Nat. Chem 10 2018 Biocatalysts for the pharmaceutical industry created by structure-guided directed evolution of stereoselective enzymes GLi J.-BWang MTReetz Bioorg. Med. Chem 26 2018 Manufacturing Process and Intermediates for a Pyrrolo KKArora Pyrimidine Compound and use Thereof. US Patent 10 240 2020 2,3-D Directed evolution and the creation of enantioselective biocatalysts K-EJaeger TEggert AEipper MTReetz 10.1007/s002530100643 Applied Microbiology and Biotechnology Applied Microbiology and Biotechnology 0175-7598 1432-0614 55 5 2001 Springer Science and Business Media LLC Regio-and enantio-selective chemo-enzymatic C-H-lactonization of decanoic acid to (S)-δ-decalactone JManning Angew. Chem. Int. Ed 58 2019 Engineered C-N lyase: enantioselective synthesis of chiral synthons for artificial dipeptide sweeteners JZhang Angew. Chem 132 2020 Concepts of nature in organic synthesis: cascade catalysis and multistep conversions in concert ABruggink RSchoevaart TKieboom Org. Process. Res. Dev 7 2003 Multienzyme Cascade Reactions—Status and Recent Advances JosefMSperl VolkerSieber 0000-0001-5458-9330 10.1021/acscatal.7b03440 ACS Catalysis ACS Catal. 2155-5435 8 3 2018 American Chemical Society (ACS) Recent advances in imine reductase-catalyzed reactions MLenz NBorlinghaus LWeinmann BMNestl World J. Microbiol. Biotechnol 33 199 2017 Producing amines and diamines from a carboxylic acid or dicarboxylic acid or a monoester thereof SSchaffer US Patent 9 746 2017 Evolving to an ideal synthesis of molnupiravir, an investigational treatment for COVID-19 TBenkovics 10.26434/chemrxiv.13472373.v1 2020 1 Preprint at Computing platforms for big biological data analytics: perspectives and challenges ZYin Comput. Struct. Biotechnol. J 15 2017 Database resources of the National Center for Biotechnology Information RAgarwala Nucleic Acids Res 44 2016 Computer sSoftware review: Reaxys Reaxys JGoodman NY 10010-1710. www.info. reaxys.com J. Chem. Inf. Model 49 2009 Elsevier Properties SA 360 Park Avenue South New York JRGarritano Evolution of SciFinder, 2011-2013: new features, new content. Sci 2013 32 LJeske SPlaczek ISchomburg AChang DSchomburg Brenda European ELIXIR core data resource 2019. 2019 47 KEGG: new perspectives on genomes, pathways, diseases and drugs MinoruKanehisa MihoFurumichi MaoTanabe YokoSato KanaeMorishima 10.1093/nar/gkw1092 Nucleic Acids Research Nucleic Acids Res 0305-1048 1362-4962 45 D1 2017 Oxford University Press (OUP) PrenDB, a Substrate Prediction Database to Enable Biocatalytic Use of Prenyltransferases JakubGunera FlorianKindinger Shu-MingLi PeterKolb 0000-0003-4089-614X 10.1074/jbc.m116.759118 Journal of Biological Chemistry Journal of Biological Chemistry 0021-9258 292 10 2017 Elsevier BV The natural products atlas: an open access knowledge base for microbial natural products discovery JAVan Santen ACS Cent. Sci 5 2019 Standards for reporting enzyme data: the STRENDA consortium: what it aims to do and why it should be helpful KFTipton Perspect. Sci 1 2014 STRENDA DB: enabling the validation and sharing of enzyme kinetics data NSwainston FEBS J 285 2018 The Internet of Things comes to the lab JeffreyMPerkel 10.1038/542125a Nature Nature 0028-0836 1476-4687 542 7639 2017 Springer Science and Business Media LLC Digital publishing isn't enough: the case for 'blueprints' in scientific communication LDJennings-Antipov TSGardner Emerg. Top. Life Sci 2 2018 Biocatalysis in Medicinal Chemistry: Challenges to Access and Drivers for Adoption NicoleCGoodwin 0000-0002-6093-7175 JamesPMorrison DouglasEFuerst TiminHadi 0000-0003-4272-6478 10.1021/acsmedchemlett.9b00410 ACS Medicinal Chemistry Letters ACS Med. Chem. Lett. 1948-5875 10 10 2019 American Chemical Society (ACS) Engineering Cellular Metabolism JensNielsen JayDKeasling 10.1016/j.cell.2016.02.004 Cell Cell 0092-8674 164 6 2016 Elsevier BV This article presents an excellent review of the adaptation and challenges of biocatalysis in the pharmaceutical industry MDTruppo ACS Med. Chem. Lett 8 2017 Biocatalysis in the pharmaceutical industry: the need for speed with particular focus on timescales of process development Machine-learningguided directed evolution for protein engineering KKYang ZWu FHArnold Nat. Methods 16 2019 Advances in ultrahigh-throughput screening for directed enzyme evolution UMarkel Chem. Soc. Rev 49 2020 Speeding up enzyme discovery and engineering with ultrahigh-throughput methods HansAdrianBunzel XavierGarrabou MoritzPott DonaldHilvert 10.1016/j.sbi.2017.12.010 Current Opinion in Structural Biology Current Opinion in Structural Biology 0959-440X 48 2018 Elsevier BV Building a global alliance of biofoundries NHillson Nat. Commun 10 2019 Engineering aldolases as biocatalysts ClaireLWindle MarionMüller AdamNelson AlanBerry 10.1016/j.cbpa.2013.12.010 Current Opinion in Chemical Biology Current Opinion in Chemical Biology 1367-5931 19 2014 Elsevier BV C-C bond-forming lyases in organic synthesis MBrovetto DGamenara PSaenz Méndez GASeoane Chem. Rev 111 2011 Broadening the scope of biocatalytic C-C bond formation LEZetzsche AR HNarayan Nat. Rev. Chem 4 2020 Engineering cytochrome P450 enzyme systems for biomedical and biotechnological applications ZLi J. Biol. Chem 295 2020 P450 monooxygenases enable rapid late-stage diversification of natural products via C-H bond activation NDFessner ChemCatChem 11 2019 Late-stage lead diversification coupled with quantitative nuclear magnetic resonance spectroscopy to identify new structure-activity relationship vectors at nanomole-scale synthesis: application to loratadine, a human histamine H1 receptor inverse agonist MSLall J. Med. Chem 63 2020 Biocatalytic oxidation reactions: a chemist's perspective JJDong Angew. Chem. Int. Ed 57 2018 Cell-free gene expression: an expanded repertoire of applications ADSilverman ASKarim MCJewett Nat. Rev. Genet 21 2020 Exploring the potential of cell-free protein synthesis for extending the abilities of biological systems KKhambhati Front. Bioeng. Biotechnol 7 248 2019 Designing for a green chemistry future JBZimmerman PTAnastas HCErythropel WLeitner Science 367 2020 Design and evolution of enzymes for non-natural chemistry StephanCHammer AndersMKnight 0000-0001-9665-8197 FrancesHArnold 0000-0002-4027-364X 10.1016/j.cogsc.2017.06.002 Current Opinion in Green and Sustainable Chemistry Current Opinion in Green and Sustainable Chemistry 2452-2236 7 2017 Elsevier BV Static to inducibly dynamic stereocontrol: the convergent use of racemic β-substituted ketones JSDehovitz Science 369 2020 Cytochromes P450 as useful biocatalysts: addressing the limitations EO'reilly VKöhler SLFlitsch NJTurner Chem. Commun 47 2011 Efficient Lewis acid catalysis of an abiological reaction in a de novo protein scaffold SBasler Nat. Chem 13 2021 Peer review information Nature Reviews Methods Primers thanks L. Betancor, A. Fryszkowska and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations ZLiu FHArnold Basic Local Alignment Search Tool 2021 69 New-to-nature chemistry from old protein machinery: carbene and nitrene transferases RELAtEd Links BioCatNet",
+      "snippet": "SCharnock AMBernardini EMonza MFLucas PWSutton PW Applied Biocatalysis JWhittall Sutton Wiley 2020 UniProt: the universal protein knowledgebase ABateman 10.1093/nar/gkw1099 Nucleic Acids Research Nucleic Acids Res 0305-1048 1362-4962 45 D1 2017 Oxford University Press (OUP) BioCatNet: A Database System for the Integration of Enzyme Sequences and Biocatalytic Experiments PatrickC FBuchholz ConstantinVogel WaldemarReusch MartinaPohl DörteRother AntjeCSpieß JürgenPleiss 10.1002/cbic.201600462 ChemBioChem ChemBioChem 1439-4227 1439-7633 17 21 2016 Wiley The hidden enzymology of bacterial natural product biosynthesis ThomasAScott JörnPiel 0000-0002-2282-8154 10.1038/s41570-019-0107-1 Nature Reviews Chemistry Nat Rev Chem 2397-3358 3 7 2019 Springer Science and Business Media LLC Catalytic Mechanisms of Fe(II)- and 2-Oxoglutarate-dependent Oxygenases SaletteMartinez RobertPHausinger 0000-0002-3643-2054 10.1074/jbc.r115.648691 Journal of Biological Chemistry Journal of Biological Chemistry 0021-9258 290 34 2015 Elsevier BV Harnessing the biocatalytic potential of iron- and α-ketoglutarate-dependent dioxygenases in natural product total synthesis ChristianRZwick HansRenata 0000-0003-2468-2328 10.1039/c9np00075e Natural Product Reports Nat. Prod. Rep. 0265-0568 1460-4752 37 8 2020 Royal Society of Chemistry (RSC) Biosynthesis of methyl-proline containing griselimycins, natural products with anti-tuberculosis activity PLukat Chem. Sci 8 2017 Remote C–H Hydroxylation by an α-Ketoglutara…",
+      "pages": null,
+      "citations": []
+    }
+  ]
+}

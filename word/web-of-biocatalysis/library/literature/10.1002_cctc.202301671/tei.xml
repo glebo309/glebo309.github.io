@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biocatalytic Synthesis of l-Pipecolic Acid by a Lysine Cyclodeaminase: Batch and Flow Reactors</title>
+				<funder ref="#_AKcec2t">
+					<orgName type="full">SNSF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-04-22">April 22, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kaja</forename><surname>Stalder</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+							<email>ana.benitez-mateos@chem.ethz.ch</email>
+						</author>
+						<author>
+							<persName><forename type="first">Francesca</forename><surname>Paradisi</surname></persName>
+							<email>francesca.paradisi@unibe.ch</email>
+							<idno type="ORCID">0000-0003-1704-0642</idno>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry, Biochemistry and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of Bern</orgName>
+								<address>
+									<addrLine>Freiestrasse 3</addrLine>
+									<postCode>3012</postCode>
+									<settlement>Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry and Applied Biosciences Institute for Chemical and Bioengineering</orgName>
+								<address>
+									<addrLine>ETH Zürich Vladimir-Prelog-Weg 1</addrLine>
+									<postCode>8093</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biocatalytic Synthesis of l-Pipecolic Acid by a Lysine Cyclodeaminase: Batch and Flow Reactors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-04-22">April 22, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D16A24CBF3E0CE24A10E256B5AD145AD</idno>
+					<idno type="DOI">10.1002/cctc.202301671</idno>
+					<note type="submission">Manuscript received: December 18, 2023 Revised manuscript received: March 26, 2024 Accepted manuscript online: March 26, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>flow biocatalysis</term>
+					<term>pipecolic acid</term>
+					<term>cyclodeaminase</term>
+					<term>enzyme immobilization</term>
+					<term>SpinChem®</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>l-Pipecolic Acid (l-PA) is a valuable building block for the synthesis of pharmaceuticals such as anesthetics and immunosuppressants. Thus, more efficient and greener strategies are desired for its production. Herein, we have applied a previously engineered variant of the Lysine Cyclodeaminase from Streptomyces pristinaespiralis (e-SpLCD) for the bioconversion of l-Lysine into l-PA. The reaction can be performed by the free e-SpLCD reaching full conversion to 50 mM l-PA. From a biotechnological perspective, the process scale-up has been trialed in a SpinChem® reactor, albeit with lower conversion yields. To further enhance the biocatalyst stability, we present a detailed study of the e-SpLCD immobilization on microparticles. This enabled the integration of the immobilized biocatalyst into a packed-bed reactor for the continuous flow synthesis of l-PA. The full conversion was achieved in 90 min, maintaining also high operational stability. Remarkably, the addition of exogenous cofactor was not needed for the flow reaction, although the long-term operational stability was improved by the addition of NAD + .</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Biosynthetic pathways towards non-proteinogenic amino acids (NPAAs) are gaining attention due to the bioactive properties of the NPAAs. <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> One example is l-Pipecolic Acid (l-PA), a Lysinederived NPAA which is widely used as a building block for the synthesis of more complex natural products such as the immunosuppressant Rapamycin (Scheme 1A) as well as many anesthetics (though often used racemic). From an industrial perspective, the optically pure l-PA can be an interesting target since its value is &gt; 100-fold more expensive than its homologous five-membered ring (l-Proline). Moreover, the biosynthetic approaches allow for the use of the low-cost l-Lysine as a starting material, thus increasing the value of the final drug. <ref type="bibr" target="#b2">[3]</ref> Typically, l-PA synthesis has been performed using chemical methods that involve harsh conditions and hazardous reagents, mainly due to the difficulty of obtaining optically pure l-PA. <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> In the last fifty years, several multi-step syntheses including protection-deprotection steps and using organic solvents yielded ~45 % of Pipecolic Acid starting from l-Lysine. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> In 2021, a highly selective method has been developed by starting with Oppolzer chiral sultam and yielding 81 % of Pipecolic Acid. <ref type="bibr" target="#b9">[10]</ref> However, the use of organic solvents (e. g. THF, toluene) and extreme temperatures (e. g. À 78-80 °C) were still required. Recently, biocatalytic approaches have been employed to synthesize l-PA in a more sustainable and selective manner. <ref type="bibr" target="#b4">[5]</ref> Several examples showed the selective deamination and subsequent reduction of l-Lysine to obtain l-PA by using whole-cell biocatalysts. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> However, slow conversion rates have been reported, and the generation of side products can be a problem in whole-cell biocatalysis. <ref type="bibr" target="#b13">[14]</ref> Moreover, downstream processes to obtain the purified l-PA can be more challenging in whole-cell biocatalysis. <ref type="bibr" target="#b14">[15]</ref> We have previously reported two multi-enzymatic cascades that were successfully designed for the synthesis of l-PA with purified enzymes. <ref type="bibr" target="#b15">[16]</ref> Yet, the coordination of several enzymatic steps and the need for the exogenous addition of redox cofactors can limit somewhat the efficiency of a synthetic setup.</p><p>However, in soil bacteria, the biosynthetic route of rapamycin requires only a single enzyme, the LCD (Lysine Cyclodeaminase), to convert l-Lysine into l-PA. <ref type="bibr" target="#b16">[17]</ref> Unlike most redox enzymes, LCDs (RapL homologous) recycle their required cofactor (NAD + ) within the catalytic cycle (Scheme 1B). The proposed mechanism of action starts with the binding of l-Lysine to the active site of LCD, followed by a hydride transfer from the α-amino group to NAD + and the formation of an imine intermediate. <ref type="bibr" target="#b17">[18]</ref> This allows the nucleophilic attack of the ɛ-amine at the imine carbon with loss of ammonia. The resulting cyclic iminium, Δ 1 -Pyrroline-2-Carboxylic Acid, is then reduced to Pipecolic Acid, regenerating the oxidized NAD + . The simplicity of this enzymatic approach has been harnessed for the synthesis of l-PA by using whole-cell biocatalysts containing the recombinant LCD. <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref> An overview of previous works on l-PA biosynthesis by LCDs can be found in Table <ref type="table" target="#tab_0">S1</ref>.</p><p>Herein, we have studied the biotechnological perspectives of two LCDs from Streptomyces hygroscopius (ShLCD) and Streptomyces pristinaespiralis (e-SpLCD) for an efficient and sustainable biosynthesis of l-PA. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b18">19]</ref> Since both enzymes had been previously used as whole-cell biocatalysts, we have investigated their application as purified enzymes. To this end, gene expression, enzymatic activity, and cofactor dependence were analyzed. Moreover, enzyme immobilization on microparticles has been studied, not only for the biocatalyst reusability but also to improve the enzyme stability. Noteworthy, LCD immobilization has not been reported before and the lack of anchoring residues (traditionally Lysines) on the protein surface makes the process less intuitive. Finally, different types of reactors have been studied for the process intensification of the l-Pipecolic Acid synthesis. On the one hand, a rotating-bed reactor (RBR) has been used to scale up the batch biotransformations with free enzyme housed in a dialysis bag. On the other hand, we harnessed the immobilized biocatalyst for their integration into a packed-bed reactor (PBR) for continuous flow biocatalysis. Remarkably, the choice of the reactor also affected the need for the addition of exogenous cofactor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biotransformations of l-Lysine into l-Pipecolic Acid with LCD in Solution</head><p>The genes encoding both enzymes were cloned in pET28b plasmids harboring an N-terminal (6x)His-tag that allowed protein purification (Figure <ref type="figure" target="#fig_0">S1</ref> and <ref type="figure" target="#fig_1">S2</ref>). Specifically, we used the wildtype ShLCD and a variant (I61V-I94V) of SpLCD which was developed by Ying et al. to reduce substrate and product inhibition. <ref type="bibr" target="#b12">[13]</ref> The engineered I61V-I94V-SpLCD (e-SpLCD) showed better protein expression as well as higher enzymatic activity when tested with 10-fold higher substrate concentration than previously reported. <ref type="bibr" target="#b12">[13]</ref> Full conversion of 10 mM l-Lys was achieved with the purified e-SpLCD when adding only 0.1 eq. NAD + , while the purified ShLCD needed at least 1 eq. NAD + and a longer reaction time to reach full conversion at 37 °C (Figure <ref type="figure" target="#fig_2">S3</ref> and <ref type="figure">S4</ref>). This could be related to a lower affinity for the cofactor by ShLCD. Although both enzymes share 54.6 % of sequence identity and most of the residues involved in NAD + binding are conserved, the adenine binding site of e-SpLCD differs from the one of ShLCD (Figure <ref type="figure">S5</ref> and <ref type="figure">S6</ref>). Specifically, W169 and T171 residues of e-SpLCD (without (6x)His-tag) can stabilize the cofactor by forming several hydrogen bonds with the adenine of NAD + . Fewer hydrogen bonds can be formed in ShLCD, with Ser and Ile residues at those respective positions. Therefore, all further experiments were performed with the e-SpLCD.</p><p>To further improve the biocatalytic activity of e-SpLCD, the conditions for the batch biotransformations were also studied. Biotransformations at different temperatures were performed (Figure <ref type="figure">S7A</ref>), and 37 °C was selected to have an optimal balance between the activity and stability of e-SpLCD. Despite HEPES being the buffer of choice in some of the previous works with SpLCD, Byun et al. showed that the enzyme activity is better in PIPES and phosphate buffer. <ref type="bibr" target="#b19">[20]</ref> In agreement with Byun et al., we observed that the activity of e-SpLCD using 100 mM phosphate buffer is up to 2-fold higher than when using 50 mM HEPES buffer (Figure <ref type="figure">S7B</ref>). Additional studies on the reaction conditions (ionic strength of the buffer, DTT supplementation, and Iron(II) sulfate addition) were performed with negligible improvement on the e-SpLCD activity (see more details in supporting information, Figure <ref type="figure">S7B-C</ref>). Interestingly, a previous work by Tsotsou and Barbirato reported that SpLCD does not need any external addition of cofactor for the enzyme activity. <ref type="bibr" target="#b18">[19]</ref> However, more recent studies on SpLCD biotransformations always described the addition of NAD + , even when using whole cells. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22]</ref> Therefore, we tested the e-SpLCD activity in the presence of 0-0.25 mM (0-40 eq. with respect to the enzyme) of NAD + , but no significant differences in the e-SpLCD activity were detected (Figure <ref type="figure">S7D</ref>). These results agree with previous works that reported NAD + as a tightly bound cofactor to e-SpLCD and with our bioinformatic analysis on the cofactor binding site. <ref type="bibr" target="#b18">[19]</ref> Next, we studied the optimal substrate (l-Lys) loading concentration for the biotransformations with e-SpLCD. At the most optimal reaction conditions that we tested, 98 % conversion of 50 mM l-Lysine was reached in 24 h at 37 °C (Figure <ref type="figure" target="#fig_0">1</ref>). These results show a better reaction rate compared to the wild-type SpLCD which needed 60 h at 60 °C to achieve almost full conversion of 5 mM l-Lys. <ref type="bibr" target="#b19">[20]</ref> Then, 100 mM and 200 mM of substrate loading were tested, obtaining 50 % and 25 % conversion, respectively (Figure <ref type="figure" target="#fig_0">1</ref>). Therefore, 50 mM (l-PA titer of 6.45 g/L) of l-PA was produced in all cases (50-200 mM l-Lys) after 24 h of biotransformations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scale-up Biotransformations in Batch: Rotating-bed Reactor (RBR)</head><p>To get closer to large scale, we set up a SpinChem® rotatingbed reactor (RBR) at &gt; 230 mg of the substrate and compared this setup with the previous small-scale biotransformations (l-Lys titer of 0.73 mg). Inspired by previous works, the free enzyme was prepared in a dialysis bag and placed inside the RBR to allow the separation (and recovery) of the biocatalyst from the reaction bulk in the vessel (Figure <ref type="figure" target="#fig_1">2A</ref>). <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> After 24 h, only 43 % (l-PA titer of 89 mg) conversion of l-Lys to l-PA was achieved (Figure <ref type="figure" target="#fig_1">2B</ref> and <ref type="figure">S8 A</ref>). Although the conversion was reduced to less than half in the RBR, the concentration of biocatalyst in this experiment was also 3-fold lower than the small-scale set-up. Higher SpLCD concentrations were not possible as precipitation of SpLCD at concentrations above 5 mg/mL was observed previously during dialysis. Under these conditions, the biocatalyst productivity in the RBR was 1.4-fold higher than in the small-scale reaction (Figure <ref type="figure" target="#fig_1">2B</ref>). In addition, the biocatalyst housed in the dialysis bag could be recovered after completion of the 24 h and reused for a second reaction cycle, maintaining similar conversions for at least 6 h (Figure <ref type="figure">S8B</ref>).</p><p>Since our previous results from the biotransformations with free enzyme indicated that adding exogenous cofactor is not needed for the e-SpLCD biocatalysis, we also tested the RBR in the absence of NAD + . However, we detected a decrease in the conversion and the biocatalyst productivity in the RBR (Figure <ref type="figure" target="#fig_2">3B</ref> and <ref type="figure">S8A</ref>). These results suggest that enzyme stability could be compromised at the reaction conditions in the RBR (strong stirring and 37 °C). Then, enzyme stability was trialed by incubation of the soluble e-SpLCD at 37 °C in the presence (0.1 mM) or absence of NAD + . After 96 h, the free enzyme suffered a decrease in activity, showing 32 % of retained activity in the presence of cofactor, and 28 % without NAD + (Figure <ref type="figure" target="#fig_0">S14A</ref>). Thus, the slight decrease of activity in the absence of cofactor is similar to the lower conversion obtained in the RBR in the absence of cofactor (1.2 and 1.3-fold, respectively).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immobilization of e-SpLCD on Microparticles</head><p>In order to stabilize the e-SpLCD, we studied enzyme immobilization on different types of microparticles. Since the immobilization of LCDs has not been previously reported, we performed a preliminary bioinformatic analysis of the e-SpLCD protein surface using CapiPy, which enabled a rational approach to the e-SpLCD immobilization screening. <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> CapiPy analysis revealed that e-SpLCD contains only two Lys residues per subunit, and only one is minimally exposed on the protein surface, impeding its use as anchoring residue for immobilization (Figure <ref type="figure">S9</ref>). This led us to exclude immobilization on aldehyde-functionalized supports. Nevertheless, we observed other nucleophilic residues on the protein surface such as Cys, Tyr, and mainly His (Figure <ref type="figure">S9B</ref>). For that reason, we focused our immobilization experiments on microparticles functionalized with epoxy groups, and Co 2 + chelates for a first interaction with the (6x)His-tag of the enzyme (Figure <ref type="figure" target="#fig_0">S10A</ref>). <ref type="bibr" target="#b26">[27]</ref> With an offered protein loading of 5 mg of enzyme per g of support, full immobilization was observed on the different epoxy-supports while 20-25 % of the initial enzyme activity was retained (Table <ref type="table" target="#tab_0">1</ref>). Such an activity loss upon enzyme immobilization is something common that occurs when using multi-point and covalent binding chemistries. <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29]</ref> To further improve the retained enzyme activity, we tested the HFA403 microparticles which contain additional amino groups that can interact with negatively charged residues of the protein surface. Despite reaching almost full immobilization, the enzyme did not show any activity after immobilization (Table <ref type="table" target="#tab_0">1</ref>).</p><p>As an alternative covalent immobilization strategy, agarose microbeads functionalized with Divinyl sulfone (DVS) were tested (Figure <ref type="figure" target="#fig_0">S10B</ref>). Despite 90 % of the offered enzyme being immobilized, the e-SpLCD activity was lower than 10 % of the free counterpart (Table <ref type="table" target="#tab_0">1</ref>). This could be due to a strong rigidification of the protein structure after covalent immobilization, as it has been reported for other enzymes immobilized on DVS-agarose. <ref type="bibr" target="#b29">[30]</ref> Additionally, EziG TM resins were tested as a noncovalent immobilization strategy harnessing the (6x)His-tag of the enzyme (Figure <ref type="figure" target="#fig_0">S10C</ref>). <ref type="bibr" target="#b30">[31]</ref> Unfortunately, EziG Amber and EziG Coral showed poor results in the recovered activity (1-6 %) as those supports are more hydrophobic and may promote an inactive conformation of the enzyme. In contrast, EziG Opal is more hydrophilic and resulted in a more active immobilized biocatalyst (28 % recovered activity) (Table <ref type="table" target="#tab_0">1</ref>).</p><p>The reusability of the immobilized biocatalysts was then tested. As expected, e-SpLCD irreversibly immobilized on epoxy supports maintained the initial activity for at least 3 reaction cycles of 24 h (Figure <ref type="figure" target="#fig_0">S11A</ref>). On the contrary, the e-SpLCD immobilized on DVS-agarose, and reversibly immobilized on EziG TM , suffered significant activity loss (Figure <ref type="figure" target="#fig_1">S12</ref>).</p><p>To obtain a more active biocatalyst, higher enzyme loadings (10 and 20 mg/g) were also tested on the epoxy supports. In all cases, at least 85 % immobilization yield was maintained (Figure <ref type="figure" target="#fig_0">S11B</ref>). The immobilization yield only decreased at 20 mg/g on epoxy agarose, but both EP400 and epoxy agarose showed good recovered activity and full reusability for at least 3 cycles at high protein loadings (Figure <ref type="figure" target="#fig_0">S11A</ref>). Also considering the lower cost of the support, EP400 was ultimately selected for immobilization of e-SpLCD. <ref type="bibr" target="#b31">[32]</ref> This immobilized biocatalyst could be reused for at least 10 reaction cycles (although the conversion dropped to 60-70 % after 8 cycles) in the presence or even in the absence of an exogenous cofactor without significant differences (Figure <ref type="figure" target="#fig_2">S13</ref>).</p><p>In addition, we compared the stability of the e-SpLCD (free or immobilized) at 37 °C and in the presence or absence of cofactor. The free enzyme lost 70 % of the initial activity after 96 h (Figure <ref type="figure" target="#fig_0">S14A</ref>). However, the immobilized enzyme fully preserved its activity even after 120 h at 37 °C regardless of the presence of NAD + (Figure <ref type="figure" target="#fig_0">S14B</ref>). These results show the benefits of enzyme immobilization on the operational stability of e-SpLCD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Continuous-Flow Biotransformations with Immobilized e-SpLCD</head><p>To harness the advantages of the immobilized e-SpLCD, the biotransformation of l-Lys to l-PA was tested in a continuous flow reactor. To this end, a packed-bed reactor (PBR) containing 2 g of 20 mg/g of immobilized e-SpLCD on EP400 was set up for process intensification (Figure <ref type="figure" target="#fig_2">3A</ref>). First, we screened different residence times (R.T.), reaching full conversion of 10 mM l-Lys in 90 min (Figure <ref type="figure" target="#fig_2">3B</ref>). Thus, the integration into a flow reactor allowed to get the same conversion than in batch but in a shorter time. While full conversion of 10 mM l-Lys could be achieved in batch in 6 hours with 5 mg/mL e-SpLCD (Figure <ref type="figure" target="#fig_0">1</ref>), the same conversion was achieved 4-fold faster with three times the enzyme concentration in continuous flow. Then, we increased the substrate loading to 20 mM. In this case, 45 % conversion of l-PA was achieved in 90 min, indicating that residence times might be needed to process higher amounts of substrate.</p><p>Since reusability and recyclability of the biocatalyst are some of the major advantages of flow biocatalysis, we studied the operational stability of the immobilized e-SpLCD in flow. During 16 column volumes (24 h), full conversion to l-PA was maintained (Figure <ref type="figure" target="#fig_0">S15A</ref>). Afterwards, the activity decreased slowly. Yet, almost 50 % conversion was maintained after 93 column volumes, which means 140 hours of continuous flow operation at 37 °C. Then, based on our previous results in Figure <ref type="figure" target="#fig_1">2</ref> and Figure <ref type="figure" target="#fig_2">S13</ref>, the flow biotransformation was also tested in the absence of cofactor. As the implementation of cofactor-dependent enzymes is still limited in flow because of the costly cofactors that are lost downstream, this could be a more sustainable approach. <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> Indeed, full conversion was also reached in the absence of NAD + during 10 continuous column volumes either at 10 mM or 20 mM scale (Figure <ref type="figure" target="#fig_0">S15A</ref>). Nonetheless, the conversion suffered a more dramatic drop at longer operation times (&gt; 15 column volumes) in the absence of cofactor, suggesting that NAD + is needed to maintain operational stability (Figure <ref type="figure" target="#fig_0">S15</ref>).</p><p>Regarding the biocatalyst productivity, the immobilized enzyme showed a slightly lower productivity than the free enzyme at small-scale reactions (Figure <ref type="figure" target="#fig_1">2B</ref> and 3C), which can be explained by the loss of activity during the immobilization process (Table <ref type="table" target="#tab_0">1</ref>). Noteworthy, as the immobilized enzyme presented a much higher stability and the flow biotransformations can be performed continuously maintaining full conversion, the biocatalyst productivity is higher if longer reaction times are considered. In terms of process intensification, the integration into a flow reactor resulted in 0.86 g/L/h of spacetime yield (STY), which is 20-fold higher compared to the biotransformations in batch (Figure <ref type="figure" target="#fig_2">3C</ref>). Although this STY is still lower in comparison with our previous work on the flow biocatalytic synthesis of l-PA using a bi-enzymatic system, <ref type="bibr" target="#b15">[16]</ref> the present work shows a more simplified approach by using only one enzyme for two enzymatic steps and the possibility to avoid the addition of exogenous cofactor, making a step towards greener synthesis. In this regard, enzyme immobilization could also offer a more cost-efficient approach compared to the use of free enzymes for long operational times. Despite the additional costs inherent to the immobilization protocol and the activity loss after the immobilization, the immobilized enzyme can achieve a higher amount of product over time (&gt; 250 mM l-PA after 12 h in the flow reactor) (Figure <ref type="figure" target="#fig_0">S15A</ref>). This is possible due to the high biocatalyst concentration that can be obtained in a packed-bed reactor, opposite to the use of free enzyme which is much more diluted. <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Due to the high (chemo-, stereo-, and enantio-) selectivity and the greenness of enzymes, the application of biocatalytic reactions for the synthesis of valuable pharmaceutical building blocks is growing rapidly. In this work, we have tested two Lysine Cyclodeaminases in their purified form for the synthesis of l-Pipecolic Acid, although the e-SpLCD showed the best results. We proved that free-enzyme biotransformations in batch can be scaled up by housing the enzyme in a dialysis bag integrated into a SpinChem® reactor. Moreover, e-SpLCD has been immobilized improving its temperature stability and allowing its reusability in batch biotransformations. The importance of protein analysis before immobilization screening is once again proven essential to maximize the benefits of the enzyme immobilization technology. <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> In addition, enzyme immobilization allowed the integration of e-SpLCD into a flow reactor for the intensified biosynthesis of l-PA, adding another enzymatic reaction to the Flow Biocatalysis portfolio. However, further improvements would be needed to maximize the productivity of this flow biocatalysis in comparison with other immobilized enzymes in continuous operation. <ref type="bibr" target="#b28">[29]</ref> Noteworthy, the use of SpLCD can avoid the need for the addition of exogenous cofactors (at least for 20 h) while still reaching full conversion. Also, in the context of sustainability and cost-efficiency, this biocatalytic approach is a promising method for the production of l-PA as no hazardous co-solvents nor protection steps are needed. In addition, the biodegradable biocatalyst can be reused multiple times, but much higher concentrations of substrate should be processed to make this a truly relevant industrial process. <ref type="bibr" target="#b37">[38]</ref> To sum up, we would like to highlight that the choice of biocatalyst and type of reactor must be carefully evaluated according to the desired output as different biotechnological approaches can be successfully implemented offering different advantages. <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref> Experimental Section Materials All the chemicals were purchased from Sigma Aldrich (Gillingham, UK), Thermo Fisher (Loughborough, UK), Acros Organics (Reinach, Switzerland), and Apollo Scientific and used without further purification. The methacrylate supports were acquired from Resindion S.R.L. (Milan, Italy). 6BCL agarose was acquired from Agarose Beads Technologies (Madrid, Spain).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene Expression</head><p>The pET28b plasmids harboring I61V-I94V-SpLCD (Figure <ref type="figure" target="#fig_0">S1A</ref>) and ShLCD were transformed into E. coli BL21 (DE3) Star cells. 3 mL of an overnight culture was used to inoculate 300 mL medium containing 100 μg mL À 1 Kanamycin in 1 L flasks. e-SpLCD was expressed in the LB medium as described before. <ref type="bibr" target="#b40">[41]</ref> In short, the cells were grown at 37 °C and 150 rpm until the OD 600 reached 0.6-0.8., followed by induction with 0.1 mM IPTG and an expression phase at 25 °C for 20 h. ShLCD was expressed in ZYM-5052 autoinduction medium (10 g/L N-Z-Amine, 5 g/L yeast extract, 50 mM K 2 HPO 4 , 50 mM KH 2 PO 4 , 25 mM (NH 4 ) 2 SO 4 , 2 mM MgSO 4 , trace element solution, 5052 solution) at 37 °C for 20 h. All cells were harvested by centrifugation at 4500 rpm and the cell pellets were frozen until usage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein Purification and Quantification</head><p>For purification of e-SpLCD, the cells were resuspended in 50 mM phosphate buffer, 100 mM NaCl, and 10 mM Imidazole at pH 7.0 followed by sonication (on ice, 40 % amplitude, with pulses of 5 s ON and 10 s OFF, for 8-12 minutes depending on the quantity of cells). After centrifugation at 14500 rpm for 45 min, the supernatant was filtered with 0.45 μm filters and loaded into a Ni-NTA column in the AKTA-pure FPLC. e-SpLCD was then eluted using 50 mM potassium phosphate buffer, 100 mM NaCl, and 300 mM imidazole at pH 7.0. The purified enzyme was dialyzed twice in 50 mM potassium phosphate buffer at pH 7.0 containing 100 g/L glycerol. The protein concentration was determined by Bradford assay, comparing the absorbance at 595 nm to a standard curve done with BSA.</p><p>Similarly, the purification procedure was carried out for ShLCD. The resuspension was performed in 50 mM Tris-HCl buffer, 100 mM NaCl, and 30 mM imidazole at pH 8.0, while elution was performed using 300 mM imidazole in the buffer. Dialysis was performed in 50 mM Tris-HCl buffer, 100 mM NaCl, 0.1 mM DTT, and 100 g/L glycerol at pH 8.0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzymatic Assay</head><p>Biotransformations were performed in 100 mM phosphate buffer at pH 7.0 with 10 mM l-Lysine in a reaction volume of 0.5 mL at 37 °C and 150 rpm. 1 mg/mL of free enzyme (or 25 mg of immobilized enzyme) was used unless otherwise specified. The conversion was monitored by HPLC. To allow for the detection of l-Lysine and l-Pipecolic Acid in UV-Vis FMOC derivatization was used. Specifically, 25 μL of the biotransformation was added to 50 μL of 100 mM borate buffer at pH 9.0 and 100 μL of 15 mM FMOC in acetonitrile (ACN). After 5 minutes, 40 μL of the FMOC-derivatized sample was mixed with 80 μL of 0.2 % HCl in water and 80 μL of ACN. The samples were filtered with a 0.45 μm PTFE filter before the analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HPLC Analysis</head><p>The samples were analyzed by HPLC (Dionex UltiMate 3000 (Thermo Fisher, Loughborough, UK), equipped with a C18 column (3.5 μm, 2.1×100 mm) (Waters, Elstree, UK). 2 μL of the sample were injected and analyzed using a gradient method 5 : 95 to 95 : 5 [H 2 O/ ACN containing 0.1 % trifluoracetic acid (TFA)] over 4 minutes with a flow rate of 0.8 mL min À 1 at 45 °C. The FMOC-derivatized compounds were detected using UV detectors at 265 nm (Lys-FMOC at 7.117 min, l-PA-FMOC at 6.81 min). The conversions of l-Lys to l-PA were calculated by comparison of both peak areas to a calibration curve with authentic standards.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme Stability Tests</head><p>To analyze the enzyme stability, aliquots of the soluble or immobilized enzyme in potassium phosphate buffer (100 mM, pH 7) were incubated at 37 °C with and without 0.1 mM NAD + in the solution. After the incubation, the samples were stored for one hour at 4 °C, before the addition of 20 μl of 0.1 M l-Lysine to start the reaction. The biotransformations (1 mg/mL enzyme, 0.2 mL total volume) were analyzed after 1 h (soluble enzyme) or 4 h (immobilized enzyme). The obtained conversion was compared to the conversion of control reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bioinformatic Studies</head><p>To compare the structure of the two LCDs, a model of ShLCD was created using the AlphaFold Google Colab notebook. <ref type="bibr" target="#b41">[42]</ref> The structure and surface of the two enzymes were then compared using ChimeraX and PyMOL. <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref> Before enzyme immobilization, the sequence and structure of e-SpLCD were analyzed by using CapiPy. <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme Immobilization</head><p>Immobilization on resins with epoxy groups (Figure <ref type="figure" target="#fig_0">S10A</ref>): Different resins functionalized with epoxy groups were tested. Epoxy-agarose (6BCL) was prepared as previously described. <ref type="bibr" target="#b26">[27]</ref> EP400/S (Reli-Sorb TM ), EP403/S, and HFA403/S (ReliZyme TM ) are commercially available resins functionalized with epoxy groups. In all cases, immobilization was performed by incubating 1 g of resin with 2 mL modification buffer (0.1 M sodium borate, 2 M iminodiacetic acid, pH 8.0) for 2 h. After filtration and washing, the support was incubated with 5 mL of Metal Buffer (30 mg/mL of CoCl 2 ). After filtration and washing, 4 mL of enzyme solution was added to the resin, and the suspension was incubated for 16 h under shaking. After 16 h, the remaining protein concentration in the supernatant of the suspension was quantified by Bradford assay to calculate the immobilization yield. The immobilized enzyme was washed with 3 mL of desorption buffer (50 mM EDTA, 0.5 M NaCl in 50 mM potassium phosphate buffer, pH 7.2). Finally, the remaining epoxy groups were blocked by incubation with 4 mL of 3 M Glycine pH 8.5 overnight. Before storage, the immobilized enzyme was washed with 100 mM potassium phosphate buffer at pH 7.0.</p><p>Immobilization on DVS-agarose (Figure <ref type="figure" target="#fig_0">S10B</ref>) Firstly, agarose microbeads (6BLC) were activated with Divinyl sulfone (DVS) as previously described. <ref type="bibr" target="#b44">[45]</ref> Enzyme immobilization on DVS-agarose was performed by adding 4 mL of enzyme solution at pH 7.0 to 1 g of resin followed by incubation for five hours. After 5 hours, the remaining protein concentration in the supernatant of this suspension was quantified by Bradford assay to calculate the immobilization yield. After filtration and washing, the remaining DVS groups were blocked by incubation with 4 mL of 3 M Glycine, pH 8.5 overnight. Before storage, the immobilized enzyme was washed with 100 mM potassium phosphate buffer at pH 7.0.</p><p>Immobilization on EziG TM (Figure <ref type="figure" target="#fig_0">S10C</ref>): For immobilization on EziG resins, 10 mL of enzyme solution per gram of resin was incubated for 5 h under shaking. <ref type="bibr" target="#b30">[31]</ref> After 5 hours, the remaining protein concentration in the supernatant of this suspension was quantified by Bradford assay to calculate the immobilization yield. The immobilized enzyme was washed with 100 mM potassium phosphate buffer at pH 7.0 before storage at 4 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scale-up of Biotransformations in a Rotating-Bed Reactor (RBR)</head><p>The SpinChem® S2 RBR was used to scale up the biotransformations up to 160 mL. To this end, four dialysis bags (pore size: 10 kDa) containing 10 mL of e-SpLCD (5 mg/mL) in 100 mM potassium phosphate buffer pH 7.0 were used to fill the RBR. Then, 150 mL of reaction solution (10 mM l-Lysine, 0-0.125 mM NAD + , and 100 mM potassium phosphate buffer pH 7.0) were added to the reactor vessel. After inserting the RBR in the reactor vessel, the temperature was maintained at 37 °C by using an external water pump, and the stirring was set to 450 rpm. Samples were taken at different time points and analyzed by HPLC as described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biotransformations in Continuous Flow</head><p>Flow biotransformations were performed using an R2S/R4 Vapourtec flow reactor equipped with a V3 pump and an Omnifit glass column (6.6 mm i.d. ×100 mm length) packed with the immobilized enzyme (~2 g with 20 mg/g protein loading). To equilibrate the column, 100 mM potassium phosphate buffer pH 7.0 was run at 0.2 mL/min for 10 min. The biotransformations were performed by pumping a buffer containing the indicated concentrations of substrate and cofactor through the packed-bed reactor (PBR). The flow rate was adapted to the desired residence time for the reaction. Samples were collected after each column volume and analyzed by HPLC as described before.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure1. Biotransformations of l-Lys into l-PA in batch at different substrate concentrations and optimal reaction conditions (5 mg/mL e-SpLCD, 100 mM phosphate buffer pH 7.0, 37 °C). Experiments were carried out in duplicates (SD &lt; 2 % for all data points).</figDesc><graphic coords="2,310.96,586.89,231.36,115.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Biotransformation of l-Lys into l-PA at a small scale and in the SpinChem® reactor. A) Scheme of the rotating-bed reactor (RBR) of the SpinChem® system. The purified e-SpLCD (in purple) was kept in dialysis bags to prevent leakage out of the RBR. B) The reaction mixture contained 10 mM l-Lys and 0-0.125 mM of NAD + in 100 mM phosphate buffer pH 7.0.Small-scale reactions were performed in 0.5 mL with 0.5 mg of e-SpLCD. Biotransformations in the RBR were performed with 50 mg e-SpLCD in a dialysis bag packed in the RBR and a reaction volume of 160 mL. Small-scale reactions were performed in a shaking incubator at 150 rpm, while the RBR was stirred at 450 rpm. Conversions are the average of two replicate measurements after 24 h with SD values &lt; 1 %.</figDesc><graphic coords="3,46.37,380.52,244.57,259.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Continuous flow biotransformation of l-Lys into l-PA by the packed-bed reactor (PBR) containing immobilized e-SpLCD. A) Scheme of PBR used for the synthesis of l-PA in continuous flow. The PBR contained 2 g of 20 mg/g e-SpLCD immobilized on EP400 microparticles. B) Results of the flow biotransformation. The reaction mixture contained 10-20 mM l-Lys and 0.1 mM of NAD + in 100 mM phosphate buffer pH 7.0. Conversions are the average of 4-6 column volumes (SD indicated in the table). To obtain an R.T. of 90 minutes, a flow rate of 0.029 mL/min was applied. C) Comparison of the biotransformations with immobilized enzyme in batch (6 h) and flow reactors (1.5 h). Batch reactions contained 25 mg of e-SpLCD immobilized on EP400 (20 mg/g) in 0.5 mL reaction volume. The reaction buffer in both batch and flow assays contained 0-0.1 mM NAD + and 10 mM l-Lys. Conversion of duplicate samples presented SD values &lt; 1 %.</figDesc><graphic coords="3,302.23,323.04,248.77,298.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Immobilization parameters of e-SpLCD on different supports.</figDesc><table><row><cell>Support</cell><cell>Functional group</cell><cell>Immobilization</cell><cell>Recovered</cell></row><row><cell></cell><cell>on support</cell><cell>yield (%)</cell><cell>Activity</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(%)</cell></row><row><cell>Epoxy</cell><cell>Epoxy/Co 2 +</cell><cell>&gt; 99</cell><cell>20 (� 6)</cell></row><row><cell>Agarose</cell><cell></cell><cell></cell><cell></cell></row><row><cell>EP400</cell><cell></cell><cell>&gt; 99</cell><cell>25 (� 2)</cell></row><row><cell>EP403</cell><cell></cell><cell>&gt; 99</cell><cell>25 (� 2)</cell></row><row><cell>HFA403</cell><cell>Amino-epoxy/Co 2 +</cell><cell>&gt; 95</cell><cell>1 (� 0)</cell></row><row><cell>Agarose</cell><cell>DVS</cell><cell>90</cell><cell>&lt; 10</cell></row><row><cell>DVS</cell><cell></cell><cell></cell><cell></cell></row><row><cell>EziG Amber</cell><cell>Fe 3 +</cell><cell>&gt; 99</cell><cell>1 (� 1)</cell></row><row><cell>EziG Coral</cell><cell></cell><cell>&gt; 99</cell><cell>6 (� 6)</cell></row><row><cell>EziG Opal</cell><cell></cell><cell>&gt; 99</cell><cell>28 (� 9)</cell></row></table><note><p>Immobilization yield (%): (offered protein in solution -protein in the supernatant after immobilization)/offered protein in solution ×100. Recovered activity (%): (conversion obtained with the free enzyme/conversion obtained with the immobilized enzyme) ×100. SD of duplicates is indicated.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>ChemCatChem 2024, 16, e202301671 (3 of 7) © 2024 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>18673899, 2024, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cctc.202301671 by Universitat Bern, Wiley Online Library on [18/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>ChemCatChem 2024, 16, e202301671 (4 of 7) © 2024 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>ChemCatChem 2024, 16, e202301671 (5 of 7)© 2024 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>ChemCatChem 2024, 16, e202301671 (6 of 7)© 2024 Wiley-VCH GmbH</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>were created with BioRender.com. The authors declare no conflict of interest.This project was supported by the <rs type="funder">SNSF</rs> (grant: <rs type="grantNumber">200021_192274</rs>, F.P). The TOC graphic, Scheme 1, and Figures <ref type="figure">2</ref><ref type="figure">3</ref>were created with <rs type="institution">BioRender.com</rs>. The authors declare no conflict of interest.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_AKcec2t">
+					<idno type="grant-number">200021_192274</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>The data that support the findings of this study are available in the supplementary material of this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>The Supporting Information is available free of charge. Supporting content includes Table <ref type="table">S1</ref> and Figure <ref type="figure">S1-S15</ref>. The authors have cited additional references within the Supporting Information. <ref type="bibr" target="#b45">[46]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interests</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Ryan</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.9b00408</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="3161" to="3209" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. B. Hedges, K. S. Ryan, Chem. Rev. 2020, 120, 3161-3209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alfonzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cogsc.2022.100701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Green Sustain. Chem</title>
+		<imprint>
+			<biblScope unit="page">100701</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Alfonzo, A. Das, F. H. Arnold, Curr. Opin. Green Sustain. Chem. 2022, 38, 100701.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10295-018-2030-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ind. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="719" to="734" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Cheng, P. Chen, A. Song, D. Wang, Q. Wang, J. Ind. Microbiol. Biotechnol. 2018, 45, 719-734.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Cant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sutherland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synthesis</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1935" to="1950" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. A. Cant, A. Sutherland, Synthesis 2012, 44, 1935-1950.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Al-Rooqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ullah Mughal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">A</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Obaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadiq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Naeem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qurban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Asghar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Moussa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ahmed</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molstruc.2022.133719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Struct</title>
+		<imprint>
+			<biblScope unit="page">133719</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. M. Al-Rooqi, E. Ullah Mughal, Q. A. Raja, R. J. Obaid, A. Sadiq, N. Naeem, J. Qurban, B. H. Asghar, Z. Moussa, S. A. Ahmed, J. Mol. Struct. 2022, 1268, 133719.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lakshman</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D1OB01329G</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Biomol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="963" to="979" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. K. Singh, M. K. Lakshman, Org. Biomol. Chem. 2022, 20, 963-979.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miyoshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1246/bcsj.48.1341</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Chem. Soc. Jpn</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1341" to="1342" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Fujii, M. Miyoshi, Bull. Chem. Soc. Jpn. 1975, 48, 1341-1342.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Couty</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF01388174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Amino Acids</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="297" to="320" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Couty, Amino Acids 1999, 16, 297-320.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadiq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sewald</surname></persName>
+		</author>
+		<idno type="DOI">10.3998/ark.5550190.0013.504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arkivoc</title>
+		<imprint>
+			<biblScope unit="page" from="28" to="36" />
+			<date type="published" when="2011">2011. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Sadiq, N. Sewald, Arkivoc 2011, 2012, 28-36.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00397911.2021.1961155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Synth. Commun</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="3084" to="3089" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Yang, H. Li, Z. You, X. Zhang, Synth. Commun. 2021, 51, 3084-3089.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pauli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kohlstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lamber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Weiland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wittmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ymben.2023.03.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metab. Eng</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="100" to="117" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Pauli, M. Kohlstedt, J. Lamber, F. Weiland, J. Becker, C. Wittmann, Metab. Eng. 2023, 77, 100-117.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gurav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.enzmictec.2020.109643</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="page">109643</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. H. Han, T. R. Choi, Y. L. Park, J. Y. Park, H. S. Song, H. J. Kim, S. M. Lee, S. L. Park, H. S. Lee, S. K. Bhatia, R. Gurav, Y. H. Yang, Enzyme Microb. Technol. 2020, 140, 109643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8CY02301H</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catal. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="398" to="405" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Ying, J. Wang, T. Shi, Y. Zhao, P. Ouyang, K. Chen, Catal. Sci. Technol. 2019, 9, 398-405.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schallmey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domínguez De María</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bracco</surname></persName>
+		</author>
+		<title level="m">Stereoselective Synthesis of Drugs and Natural Products</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="1" to="26" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Schallmey, P. Domínguez de María, P. Bracco, in Stereoselective Synthesis of Drugs and Natural Products, Wiley, 2013, pp. 1-26.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gurav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12257-021-0236-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioprocess Eng</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="286" to="293" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. M. Lee, H. J. Lee, S. H. Kim, M. J. Suh, J. Y. Cho, S. Ham, R. Gurav, S. H. Lee, S. K. Bhatia, Y. H. Yang, Biotechnol. Bioprocess Eng. 2022, 27, 286-293.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Roura</forename><surname>Padrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Calvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Green</forename><surname>Chem</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D0GC01817A</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="5310" to="5316" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Roura Padrosa, A. I. Benítez-Mateos, L. Calvey, F. Paradisi, Green Chem. 2020, 22, 5310-5316.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Gatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Boyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Kelleher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="3838" to="3847" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. J. Gatto, M. T. Boyne, N. L. Kelleher, C. T. Walsh, J. Am. Chem. Soc. 2006, 128, 3838-3847.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="331" to="341" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Min, H. J. Yoon, A. Matsuura, Y. H. Kim, H. H. Lee, Mol. Cells 2018, 41, 331-341.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Tsotsou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barbirato</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biochi.2006.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimie</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="591" to="604" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. E. Tsotsou, F. Barbirato, Biochimie 2007, 89, 591-604.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Byun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12257-014-0428-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioprocess Eng</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="73" to="78" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. M. Byun, S. W. Jeong, D. H. Cho, Y. H. Kim, Biotechnol. Bioprocess Eng. 2015, 20, 73-78.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biortech.2023.129173</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page">129173</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wang, Y. Wang, Q. Wu, Y. Zhang, Bioresour. Technol. 2023, 382, 129173.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ouyang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.enzmictec.2021.109958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page">109958</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Hu, P. Yang, Y. Li, A. Zhang, K. Chen, P. Ouyang, Enzyme Microb. Technol. 2022, 154, 109958.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<date>202200428</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Marchini, A. I. Benítez-Mateos, S. L. Hutter, F. Paradisi, ChemBioChem 2022, 23, e202200428.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Hugentobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasparini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Jolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blacker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.oprd.6b00346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="195" to="199" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. G. Hugentobler, M. Rasparini, L. A. Thompson, K. E. Jolley, A. J. Blacker, N. J. Turner, Org. Process Res. Dev. 2017, 21, 195-199.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Roura</forename><surname>Padrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btab030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="2761" to="2762" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Roura Padrosa, V. Marchini, F. Paradisi, Bioinformatics 2021, 37, 2761- 2762.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Roura</forename><surname>Padrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<date type="published" when="2023">2023, 24, e202200723</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Roura Padrosa, F. Paradisi, ChemBioChem 2023, 24, e202200723.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mateo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fernández-Lorente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cortés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernández-Lafuente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Guisan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bit.10019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="269" to="276" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Mateo, G. Fernández-Lorente, E. Cortés, J. L. Garcia, R. Fernández- Lafuente, J. M. Guisan, Biotechnol. Bioeng. 2001, 76, 269-276.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bolivar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Lafuente</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/D2CS00083K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="6251" to="6290" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Bolivar, J. M. Woodley, R. Fernandez-Lafuente, Chem. Soc. Rev. 2022, 51, 6251-6290.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bolivar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López-Gallego</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cogsc.2020.04.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Green Sustain. Chem</title>
+		<imprint>
+			<biblScope unit="page">100349</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Bolivar, F. López-Gallego, Curr. Opin. Green Sustain. Chem. 2020, 25, 100349.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>San Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ríos-Lombardía</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Morís</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>González-Sabín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López-Gallego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="16843" to="16852" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Benítez-Mateos, E. San Sebastian, N. Ríos-Lombardía, F. Morís, J. González-Sabín, F. López-Gallego, Chem. Eur. J. 2017, 23, 16843-16852.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Derrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mangas-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Truppo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tet.2018.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="327" to="334" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. P. Thompson, S. R. Derrington, R. S. Heath, J. L. Porter, J. Mangas- Sanchez, P. N. Devine, M. D. Truppo, N. J. Turner, Tetrahedron 2019, 75, 327-334.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Contente</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/catal11070814</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysts</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">814</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Benítez-Mateos, M. L. Contente, Catalysts 2021, 11, 814.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Velasco-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López-Gallego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="771" to="775" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Velasco-Lozano, A. I. Benítez-Mateos, F. López-Gallego, Angew. Chem. Int. Ed. 2017, 56, 771-775.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Majumdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Weiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C7CS00906B</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="5891" to="5918" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Britton, S. Majumdar, G. A. Weiss, Chem. Soc. Rev. 2018, 47, 5891-5918.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romero-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpa.2019.11.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Romero-Fernández, F. Paradisi, Curr. Opin. Chem. Biol. 2020, 55, 1-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sancineto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nascimento</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Braun Azeredo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V M</forename><surname>Orozco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gröger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Santi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms22030990</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">990</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Santi, L. Sancineto, V. Nascimento, J. Braun Azeredo, E. V. M. Orozco, L. H. Andrade, H. Gröger, C. Santi, Int. J. Mol. Sci. 2021, 22, 990.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Roura</forename><surname>Padrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-32-390644-9.00123-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Reference Module in Chemistry</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<biblScope unit="page">2023</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Roura Padrosa, A. I. Benítez-Mateos, F. Paradisi, in Reference Module in Chemistry, Molecular Sciences and Chemical Engineering, Elsevier, 2023. DOI 10.1016/b978-0-32-390644-9.00123-2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Maghraby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>El-Shabasy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ibrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-S</forename><surname>Azzazy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omega</forename><surname>Acs</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsomega.2c07560</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5184" to="5196" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. R. Maghraby, R. M. El-Shabasy, A. H. Ibrahim, H. M. E.-S. Azzazy, ACS Omega 2023, 8, 5184-5196.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brady</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acssuschemeng.1c01742</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Sustainable Chem. Eng</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="8032" to="8052" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Sheldon, D. Brady, ACS Sustainable Chem. Eng. 2021, 9, 8032-8052.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Benítez-Mateos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paradisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Flow</forename><surname>Chem</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41981-023-00283-z</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Benítez-Mateos, F. Paradisi, J. Flow Chem. 2023, DOI 10.1007/ s41981-023-00283-z.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2017.11.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">495</biblScope>
+			<biblScope unit="page" from="306" to="311" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Ying, J. Wang, T. Shi, Y. Zhao, X. Wang, P. Ouyang, K. Chen, Biochem. Biophys. Res. Commun. 2018, 495, 306-311.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tunyasuvunakool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Žídek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Potapenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridgland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A A</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cowie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Romera-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Clancy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pacholska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Berghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bodenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vinyals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Senior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hassabis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="583" to="589" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Jumper, R. Evans, A. Pritzel, T. Green, M. Figurnov, O. Ronneberger, K. Tunyasuvunakool, R. Bates, A. Žídek, A. Potapenko, A. Bridgland, C. Meyer, S. A. A. Kohl, A. J. Ballard, A. Cowie, B. Romera-Paredes, S. Nikolov, R. Jain, J. Adler, T. Back, S. Petersen, D. Reiman, E. Clancy, M. Zielinski, M. Steinegger, M. Pacholska, T. Berghammer, S. Bodenstein, D. Silver, O. Vinyals, A. W. Senior, K. Kavukcuoglu, P. Kohli, D. Hassabis, Nature 2021, 596, 583-589.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Delano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CCP4 Newsl. Protein Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="82" to="92" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. L. DeLano, CCP4 Newsl. Protein Crystallogr 2002, 40, 82-92.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Pettersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Couch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Pearson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Ferrin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">4792</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. C. Meng, T. D. Goddard, E. F. Pettersen, G. S. Couch, Z. J. Pearson, J. H. Morris, T. E. Ferrin, Protein Sci. 2023, 32, e4792.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Fernández-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Medina-Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ramón-Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Arias-Martos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Millán-Linares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pedroche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D M</forename><surname>Yust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R B</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Lafuente</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C4RA16926C</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>RSC Adv</publisher>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="20639" to="20649" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. S. Dos Santos, N. Rueda, O. Barbosa, J. F. Fernández-Sánchez, A. L. Medina-Castillo, T. Ramón-Márquez, M. C. Arias-Martos, M. C. Millán- Linares, J. Pedroche, M. D. M. Yust, L. R. B. Gonçalves, R. Fernandez- Lafuente, RSC Adv. 2015, 5, 20639-20649.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ouyang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcatb.2015.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B Enzym</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="75" to="80" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Ying, J. Wang, Z. Wang, J. Feng, K. Chen, Y. Li, P. Ouyang, J. Mol. Catal. B Enzym 2015, 117, 75-80.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

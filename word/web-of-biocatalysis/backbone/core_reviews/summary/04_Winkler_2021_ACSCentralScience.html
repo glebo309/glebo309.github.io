@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>04_Winkler_2021_ACSCentralScience</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Web Of Biocatalysis"/><meta property="og:title" content="04_Winkler_2021_ACSCentralScience"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="04_Winkler_2021_ACSCentralScience"/><meta name="twitter:description" content="Power of Biocatalysis for Organic Synthesis (Winkler, Schrittwieser, Kroutil, ACS Cent. Sci."/><meta property="og:description" content="Power of Biocatalysis for Organic Synthesis (Winkler, Schrittwieser, Kroutil, ACS Cent. Sci."/><meta property="og:image:alt" content="Power of Biocatalysis for Organic Synthesis (Winkler, Schrittwieser, Kroutil, ACS Cent. Sci."/><meta property="twitter:domain" content="glecko.xyz"/><meta property="og:url" content="https://glecko.xyz/backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience"/><meta property="twitter:url" content="https://glecko.xyz/backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="Power of Biocatalysis for Organic Synthesis (Winkler, Schrittwieser, Kroutil, ACS Cent. Sci."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2dsZW5uL0RvY3VtZW50cy9TZWNvbmRCcmFpbi9fQ09ERS9xdWFydHotYnVpbGRlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://glecko.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://glecko.xyz/backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience-og-image.webp"/><meta property="og:image:url" content="https://glecko.xyz/backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience-og-image.webp"/><meta name="twitter:image" content="https://glecko.xyz/backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="backbone/core_reviews/summary/04_Winkler_2021_ACSCentralScience"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../..">Web Of Biocatalysis</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="bnv3ed"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/">backbone</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/core_reviews/">core_reviews</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../backbone/core_reviews/summary/">summary</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>04_Winkler_2021_ACSCentralScience</a></div></nav></div></div><article class="popover-hint"><h1 id="power-of-biocatalysis-for-organic-synthesis-winkler-schrittwieser-kroutil-acs-cent-sci-2021"><em>Power of Biocatalysis for Organic Synthesis</em> (Winkler, Schrittwieser, Kroutil, <strong>ACS Cent. Sci.</strong> 2021)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#power-of-biocatalysis-for-organic-synthesis-winkler-schrittwieser-kroutil-acs-cent-sci-2021" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Citation &amp; scope</strong><br/>
+Tutorial/overview arguing that enzymes are now a mainstream <strong>toolbox for organic synthesis</strong>, detailing how active-site <strong>3D confinement + dynamics</strong> give high chemo/regio/enantioselectivity; tours core reaction classes, <strong>new-to-nature</strong> reactivity, and <strong>cascades</strong> (industrial case studies included).</p>
+<p><strong>Thesis / what’s new</strong><br/>
+Emphasizes enzymes as <strong>“high-tech catalysts”</strong>: precise substrate positioning (≥3 interactions), gated tunnels, conformational dynamics/allostery, and synergistic residues across shells; stability can be engineered (ancestral reconstruction, salt bridges, disulfides, glycosylation). Modern routes mix <strong>single-step</strong> biotransformations with <strong>multi-enzyme cascades</strong>, and evolution/computation keep expanding scope into <strong>abiological</strong> reactions.</p>
+<p><strong>Higher-order topic map (authors’ framing)</strong></p>
+<ol>
+<li>
+<p><strong>How enzymes achieve selectivity</strong> — binding/activation/TS stabilization/product release; tunnel gating &amp; backbone motion; trade-off between <strong>scope and selectivity</strong>; libraries + evolution to tune both.</p>
+</li>
+<li>
+<p><strong>Established transformations</strong> — hydrolases (kinetic/DKR of esters/amides), <strong>ADHs</strong> (ketone/aldehyde → alcohol), <strong>TAs / IREDs / RedAms / AmDHs</strong> (amines), <strong>OYEs</strong>, <strong>CARs</strong>, P450s/monooxygenases, peroxygenases, halogenases; compact “menu” in Table 2.</p>
+</li>
+<li>
+<p><strong>New-to-nature catalysis</strong> — reaction promiscuity (e.g., <strong>4-oxalocrotonate tautomerase</strong> organocatalyst-like chemistry), <strong>photo-biocatalysis</strong> with flavin EREDs (radical pathways), engineered <strong>P450→P411</strong> for carbene/nitrene transfer (C–C, C–H amination), and <strong>artificial metalloenzymes</strong> (streptavidin–biotin “Suzukiase”).</p>
+</li>
+<li>
+<p><strong>Cascades</strong> — enzymes’ operational compatibility enables <strong>one-pot</strong>, equilibrium-driven sequences; showpieces include <strong>atorvastatin</strong> intermediate and <strong>islatravir</strong>.</p>
+</li>
+<li>
+<p><strong>Process &amp; pedagogy</strong> — productivity/stability still limiters; call for <strong>bigger, public enzyme libraries</strong>, repositories, and ML-assisted design; integrate biocatalysis into chem curricula.</p>
+</li>
+</ol>
+<p><strong>Key exemplars &amp; metrics</strong></p>
+<ul>
+<li>
+<p><strong>Pregabalin</strong> route: lipase kinetic resolution → <strong>E-factor 86 → 17</strong> vs 1st-gen process (waste ↓5×).</p>
+</li>
+<li>
+<p><strong>Atorvastatin</strong> intermediate (ADH reduction + HHDH): <strong>95%</strong> isolated yield, <strong>>99.9% ee</strong>, <strong>STY 480 g·L⁻¹·d⁻¹</strong> after enzyme evolution/cofactor engineering.</p>
+</li>
+<li>
+<p><strong>Sitagliptin</strong> TA: “<strong>substrate walking</strong>” over <strong>11 rounds, 27 mutations</strong> → <strong>275 g·L⁻¹</strong> substrate, <strong>88%</strong> isolated yield, <strong>>99.95% ee</strong>; <strong>productivity +56%</strong>, <strong>waste −19%</strong> vs Rh/Josiphos route.</p>
+</li>
+<li>
+<p><strong>Islatravir</strong> cascade: <strong>9 enzymes</strong> (5 evolved), no workups, <strong>51% overall yield</strong>; design uses oxidation → phosphorylation → aldol assembly + phosphate shuttling/ATP recycling to bias equilibria.</p>
+</li>
+<li>
+<p><strong>New bonds</strong>: engineered <strong>P450/P411</strong> for cyclopropanation and <strong>C–H amination</strong> (high ee, nitrene transfer); <strong>Rma cyt c</strong> and <strong>Suzukiase</strong> illustrate heme and hybrid scaffolds enabling abiological steps.</p>
+</li>
+</ul>
+<p><strong>Limits / gaps (authors’ view)</strong><br/>
+Catalyst <strong>stability/lifetime</strong> dictates STY; development time/costs still high; broader <strong>C–C coupling</strong> (esp. oxidative) remains a frontier; predictive design of dynamics/distal mutations and <strong>scalable SAM/ATP</strong> cofactor logistics are pain points.</p>
+<p><strong>Outlook</strong><br/>
+Expect larger <strong>ready-to-use enzyme libraries</strong>, repository distribution, and increasing <strong>ML-guided design</strong>; more <strong>tight, active-site-controlled</strong> transformations (including oxidative C–C) and <strong>hybrid catalysts</strong> will further compress routes; biocatalysis education is pivotal for adoption.</p>
+<p><strong>Tags</strong><br/>
+Active-site confinement &amp; dynamics; hydrolases/ADHs/TAs/IREDs/RedAms/AmDHs; CARs/OYEs; P450/peroxygenase/halogenase; photo-biocatalysis; <strong>P411 carbene/nitrene</strong>; artificial metalloenzymes (Suzukiase); cascades (atorvastatin, <strong>islatravir</strong>); E-factor/STY; libraries &amp; repositories; ML &amp; education.</p>
+<h1 id="biocatalysis-field-topics---from-winkler-et-al-acs-central-science-2021">Biocatalysis Field Topics - From Winkler et al. ACS Central Science 2021<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#biocatalysis-field-topics---from-winkler-et-al-acs-central-science-2021" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Document ID:</strong> Winkler_2021_ACSCentralScience</p>
+<h2 id="core-topics-extracted">Core Topics Extracted:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#core-topics-extracted" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-enzyme-structure-function-relationships">1. <strong>Enzyme Structure-Function Relationships</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-enzyme-structure-function-relationships" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Understanding how 3D protein architecture drives catalytic performance</li>
+<li><strong>Key aspects</strong>: Active site design, tunnel networks, conformational dynamics, allosteric regulation</li>
+<li><strong>Applications</strong>: Rational enzyme engineering, mechanism elucidation</li>
+</ul>
+<h3 id="2-synergistic-catalysis-in-enzymes">2. <strong>Synergistic Catalysis in Enzymes</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-synergistic-catalysis-in-enzymes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Multiple catalytic residues working cooperatively within active sites</li>
+<li><strong>Key aspects</strong>: Multi-point substrate binding, residue cooperation, transition state stabilization</li>
+<li><strong>Applications</strong>: Design principles for artificial enzymes, understanding natural efficiency</li>
+</ul>
+<h3 id="3-enzyme-engineering-via-directed-evolution">3. <strong>Enzyme Engineering via Directed Evolution</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-enzyme-engineering-via-directed-evolution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Laboratory evolution techniques to optimize enzyme properties</li>
+<li><strong>Key aspects</strong>: Substrate walking, library generation, high-throughput screening</li>
+<li><strong>Applications</strong>: Industrial catalyst development, novel activity introduction</li>
+</ul>
+<h3 id="4-kinetic-resolution-processes">4. <strong>Kinetic Resolution Processes</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-kinetic-resolution-processes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Enantioselective transformation of racemic mixtures</li>
+<li><strong>Key aspects</strong>: Dynamic kinetic resolution, lipase-catalyzed reactions, stereoselectivity enhancement</li>
+<li><strong>Applications</strong>: Pharmaceutical intermediate synthesis, chiral compound production</li>
+</ul>
+<h3 id="5-cofactor-dependent-biocatalysis">5. <strong>Cofactor-Dependent Biocatalysis</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-cofactor-dependent-biocatalysis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Enzymatic processes requiring non-protein helpers for activity</li>
+<li><strong>Key aspects</strong>: NAD(P)H recycling, ATP-dependent reactions, metal cofactors</li>
+<li><strong>Applications</strong>: Reduction reactions, energy-coupled transformations</li>
+</ul>
+<h3 id="6-alcohol-dehydrogenase-systems">6. <strong>Alcohol Dehydrogenase Systems</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-alcohol-dehydrogenase-systems" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Enzymes catalyzing stereoselective carbonyl reduction</li>
+<li><strong>Key aspects</strong>: Prelog’s rule, stereocomplementary enzymes, cofactor recycling</li>
+<li><strong>Applications</strong>: Chiral alcohol synthesis, pharmaceutical building blocks</li>
+</ul>
+<h3 id="7-transaminase-technology">7. <strong>Transaminase Technology</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-transaminase-technology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: PLP-dependent enzymes for stereoselective amine synthesis</li>
+<li><strong>Key aspects</strong>: Amine donor strategies, equilibrium shifting, substrate scope expansion</li>
+<li><strong>Applications</strong>: Pharmaceutical APIs, chiral amine libraries</li>
+</ul>
+<h3 id="8-imine-reductase--reductive-aminase-systems">8. <strong>Imine Reductase &amp; Reductive Aminase Systems</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-imine-reductase--reductive-aminase-systems" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: NADPH-dependent enzymes for direct reductive amination</li>
+<li><strong>Key aspects</strong>: Stereocomplementary variants, substrate tolerance, equilibrium control</li>
+<li><strong>Applications</strong>: One-step amine synthesis, avoiding pre-formed imines</li>
+</ul>
+<h3 id="9-carboxylic-acid-reductase-technology">9. <strong>Carboxylic Acid Reductase Technology</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-carboxylic-acid-reductase-technology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: ATP/NADPH-dependent reduction of carboxylic acids to aldehydes</li>
+<li><strong>Key aspects</strong>: Thioester intermediates, adenylation activity, amide formation capability</li>
+<li><strong>Applications</strong>: Aldehyde synthesis, biocatalytic amidation</li>
+</ul>
+<h3 id="10-ene-reductase-applications">10. <strong>Ene-Reductase Applications</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-ene-reductase-applications" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Flavin-dependent enzymes for stereoselective alkene reduction</li>
+<li><strong>Key aspects</strong>: Activated alkene requirement, stereoselectivity, photobiocatalytic potential</li>
+<li><strong>Applications</strong>: Pharmaceutical synthesis, novel photochemical reactions</li>
+</ul>
+<h3 id="11-cytochrome-p450-engineering">11. <strong>Cytochrome P450 Engineering</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11-cytochrome-p450-engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Heme-dependent monooxygenases for selective oxidations</li>
+<li><strong>Key aspects</strong>: C-H activation, carbene/nitrene chemistry, P411 variants</li>
+<li><strong>Applications</strong>: Late-stage functionalization, new-to-nature reactions</li>
+</ul>
+<h3 id="12-promiscuous-enzyme-activities">12. <strong>Promiscuous Enzyme Activities</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12-promiscuous-enzyme-activities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Non-natural reactions catalyzed by wild-type enzymes</li>
+<li><strong>Key aspects</strong>: Catalytic promiscuity, substrate promiscuity, reaction scope expansion</li>
+<li><strong>Applications</strong>: Novel transformation discovery, evolutionary starting points</li>
+</ul>
+<h3 id="13-photobiocatalysis">13. <strong>Photobiocatalysis</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13-photobiocatalysis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Light-activated enzymatic transformations using photoexcited cofactors</li>
+<li><strong>Key aspects</strong>: Flavin photoexcitation, radical chemistry, C-C bond formation</li>
+<li><strong>Applications</strong>: Radical cyclizations, stereoselective photochemistry</li>
+</ul>
+<h3 id="14-artificial-metalloenzymes">14. <strong>Artificial Metalloenzymes</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14-artificial-metalloenzymes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Hybrid catalysts combining proteins with abiotic metal centers</li>
+<li><strong>Key aspects</strong>: Biotin-streptavidin technology, chiral environment creation, metal coordination</li>
+<li><strong>Applications</strong>: Asymmetric cross-coupling, novel metal-catalyzed reactions</li>
+</ul>
+<h3 id="15-4-oxalocrotonate-tautomerase-engineering">15. <strong>4-Oxalocrotonate Tautomerase Engineering</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15-4-oxalocrotonate-tautomerase-engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Short peptide enzyme repurposed for organocatalytic transformations</li>
+<li><strong>Key aspects</strong>: Proline-based catalysis, conjugate additions, epoxidations</li>
+<li><strong>Applications</strong>: Asymmetric Michael additions, aldol reactions</li>
+</ul>
+<h3 id="16-biocatalytic-cascade-design">16. <strong>Biocatalytic Cascade Design</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16-biocatalytic-cascade-design" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Multi-step enzymatic processes in single reaction vessels</li>
+<li><strong>Key aspects</strong>: Reaction compatibility, equilibrium manipulation, intermediate stability</li>
+<li><strong>Applications</strong>: Complex molecule synthesis, waste reduction</li>
+</ul>
+<h3 id="17-enzyme-stability-engineering">17. <strong>Enzyme Stability Engineering</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17-enzyme-stability-engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Methods to enhance biocatalyst robustness under process conditions</li>
+<li><strong>Key aspects</strong>: Ancestral sequence reconstruction, disulfide bonds, salt bridges</li>
+<li><strong>Applications</strong>: Industrial process development, harsh condition tolerance</li>
+</ul>
+<h3 id="18-space-time-yield-optimization">18. <strong>Space-Time Yield Optimization</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18-space-time-yield-optimization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Maximizing productivity per unit volume and time in biocatalytic processes</li>
+<li><strong>Key aspects</strong>: Substrate loading, catalyst concentration, reaction engineering</li>
+<li><strong>Applications</strong>: Industrial scale-up, economic viability assessment</li>
+</ul>
+<h3 id="19-green-chemistry-integration">19. <strong>Green Chemistry Integration</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#19-green-chemistry-integration" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Incorporating biocatalysis into sustainable synthetic strategies</li>
+<li><strong>Key aspects</strong>: Renewable feedstocks, biodegradable catalysts, circular economy</li>
+<li><strong>Applications</strong>: Pharmaceutical manufacturing, sustainable chemical production</li>
+</ul>
+<h3 id="20-substrate-scope-vs-selectivity-trade-offs">20. <strong>Substrate Scope vs. Selectivity Trade-offs</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20-substrate-scope-vs-selectivity-trade-offs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Balancing broad applicability with high stereoselectivity in enzyme design</li>
+<li><strong>Key aspects</strong>: Library screening, catalyst optimization, specificity engineering</li>
+<li><strong>Applications</strong>: Pharmaceutical development, process chemistry</li>
+</ul>
+<h3 id="21-fed-batch-process-strategies">21. <strong>Fed-Batch Process Strategies</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21-fed-batch-process-strategies" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Controlled substrate addition to optimize biocatalytic reactions</li>
+<li><strong>Key aspects</strong>: Substrate inhibition avoidance, equilibrium control, productivity enhancement</li>
+<li><strong>Applications</strong>: Industrial manufacturing, process intensification</li>
+</ul>
+<h3 id="22-chemoenzymatic-synthesis">22. <strong>Chemoenzymatic Synthesis</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#22-chemoenzymatic-synthesis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Definition</strong>: Integration of chemical and enzymatic steps in synthetic routes</li>
+<li><strong>Key aspects</strong>: Step compatibility, protection-deprotection avoidance, orthogonal reactivity</li>
+<li><strong>Applications</strong>: Natural product synthesis, API manufacturing</li>
+</ul>
+<h2 id="key-synthetic-applications-highlighted">Key Synthetic Applications Highlighted:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-synthetic-applications-highlighted" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="historical-industrial-examples"><strong>Historical Industrial Examples:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#historical-industrial-examples" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Vitamin C synthesis (D-sorbitol oxidation)</li>
+<li>(-)-Ephedrine synthesis (benzoin reaction)</li>
+<li>Hydrocortisone synthesis (C-H oxidation)</li>
+<li>Acrylamide production (nitrile hydratase)</li>
+</ul>
+<h3 id="modern-pharmaceutical-applications"><strong>Modern Pharmaceutical Applications:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#modern-pharmaceutical-applications" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Pregabalin synthesis (lipase kinetic resolution)</li>
+<li>Sitagliptin synthesis (transaminase evolution)</li>
+<li>Atorvastatin intermediate (multi-enzyme cascade)</li>
+<li>Islatravir synthesis (9-enzyme cascade)</li>
+</ul>
+<h3 id="emerging-transformation-classes"><strong>Emerging Transformation Classes:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#emerging-transformation-classes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>C-C bond formations (aldolases, acyltransferases)</li>
+<li>C-H functionalizations (P450s, dioxygenases)</li>
+<li>Halogenation reactions (flavin-dependent halogenases)</li>
+<li>Decarboxylation processes (aromatic substrates)</li>
+</ul>
+<h2 id="methodological-focus-areas">Methodological Focus Areas:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#methodological-focus-areas" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="enzyme-discovery--engineering"><strong>Enzyme Discovery &amp; Engineering:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#enzyme-discovery--engineering" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Rational design based on structure</li>
+<li>Directed evolution campaigns</li>
+<li>Computational enzyme design</li>
+<li>Machine learning applications</li>
+</ul>
+<h3 id="process-development"><strong>Process Development:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#process-development" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Reaction engineering principles</li>
+<li>Cofactor recycling strategies</li>
+<li>Immobilization technologies</li>
+<li>Scale-up considerations</li>
+</ul>
+<h3 id="synthetic-strategy"><strong>Synthetic Strategy:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#synthetic-strategy" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Retrosynthetic analysis with biocatalysts</li>
+<li>Cascade process design</li>
+<li>Chemoenzymatic approaches</li>
+<li>Green chemistry principles</li>
+</ul>
+<h2 id="future-research-directions">Future Research Directions:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#future-research-directions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="technology-development"><strong>Technology Development:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#technology-development" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Machine learning for enzyme design</li>
+<li>Novel hybrid biocatalysts</li>
+<li>Improved stability engineering</li>
+<li>Automated biocatalyst development</li>
+</ul>
+<h3 id="scope-expansion"><strong>Scope Expansion:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#scope-expansion" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Oxidative C-C coupling reactions</li>
+<li>Broader C-C bond formation toolbox</li>
+<li>Enhanced halogenation methods</li>
+<li>Novel cofactor systems</li>
+</ul>
+<h3 id="integration-challenges"><strong>Integration Challenges:</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#integration-challenges" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Chemistry curriculum integration</li>
+<li>Cost reduction strategies</li>
+<li>Timeline acceleration</li>
+<li>Industrial adoption barriers</li>
+</ul>
+<h2 id="notable-distinguishing-features">Notable Distinguishing Features:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notable-distinguishing-features" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>This review uniquely emphasizes:</p>
+<ul>
+<li><strong>Organic chemist’s perspective</strong> on biocatalysis applications</li>
+<li><strong>Detailed mechanistic understanding</strong> of enzyme function</li>
+<li><strong>Practical synthetic examples</strong> with industrial relevance</li>
+<li><strong>Structure-function relationships</strong> in enzyme design</li>
+<li><strong>Integration challenges</strong> for mainstream adoption</li>
+<li><strong>Future vision</strong> of biodegradable catalysts for any transformation</li>
+</ul>
+<p>The paper serves as an excellent bridge between enzymology and synthetic organic chemistry, providing mechanistic depth while maintaining focus on practical applications.</p>
+<h2 id="categories">Categories<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#categories" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>
+<p><strong>Need for a broad (chiral) catalyst toolbox</strong> — motivation, green-chemistry drivers, early industrial examples.</p>
+</li>
+<li>
+<p><strong>Enzymes as an extension of the catalyst toolbox</strong> — what “biocatalyst” means in practice (crude, purified, immobilized; secretion), circular-economy angle.</p>
+</li>
+<li>
+<p><strong>High-tech features of enzymes</strong> — catalytic cycle (binding/activation/TS stabilization/release), active-site architecture, tunnels, dynamics/allostery, cofactors.</p>
+</li>
+<li>
+<p><strong>Developing a unique biocatalyst for a specific reaction</strong> — selectivity vs scope trade-off; libraries; protein engineering; computational routes.</p>
+</li>
+<li>
+<p><strong>Established single-step biotransformations: hydrolases</strong> — lipases/esterases for (dynamic) kinetic resolutions; pregabalin case.</p>
+</li>
+<li>
+<p><strong>Established single-step biotransformations: ADHs</strong> — stereoselective reductions with cofactor recycling; atorvastatin intermediate example.</p>
+</li>
+<li>
+<p><strong>Established single-step biotransformations: amine formation</strong> — TAs, IREDs/RedAms, AmDHs; sitagliptin (engineered TA) route.</p>
+</li>
+<li>
+<p><strong>Catalogue of additional reactions (Table 2)</strong> — C–C bond forming/cleaving enzymes, hydroxylations, Baeyer–Villiger, halogenases, CARs, methyltransferases, etc.</p>
+</li>
+<li>
+<p><strong>Reactions new to nature (enzyme promiscuity)</strong> — e.g., 4-oxalocrotonate tautomerase chemistry; general promiscuity concept.</p>
+</li>
+<li>
+<p><strong>Photobiocatalysis enabling radical chemistry</strong> — light-activated ERED reactivity for cyclizations/intermolecular C–C formation.</p>
+</li>
+<li>
+<p><strong>Engineered heme enzymes for abiological transformations</strong> — P450/P411 carbene and nitrene transfers (cyclopropanation, C–H amination).</p>
+</li>
+<li>
+<p><strong>Protein–small-molecule hybrids</strong> — streptavidin–biotin “Suzukiase” and related hybrid catalysts.</p>
+</li>
+<li>
+<p><strong>Multienzyme one-pot cascades</strong> — principles and the islatravir nine-enzyme case study.</p>
+</li>
+<li>
+<p><strong>Future &amp; implementation needs</strong> — stability/lifetime &amp; STY, faster/cheaper development, education, open libraries/repositories, ML/design outlook; gaps (e.g., oxidative C–C coupling).</p>
+</li>
+</ul>
+<h1 id="winkler_2021_acs_centsci--higher-order-categories">Winkler_2021_ACS_CentSci — Higher-order categories<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#winkler_2021_acs_centsci--higher-order-categories" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ol>
+<li>
+<p><strong>Why biocatalysis now (green-chemistry drivers &amp; synthesis gaps).</strong> Motivation for routes that are cleaner, scalable, and cost-effective.</p>
+</li>
+<li>
+<p><strong>Enzymes as precision catalysts.</strong> Active-site control, confined-space effects, dynamics/allostery — why enzymes deliver chemo/region/stereoselectivity.</p>
+</li>
+<li>
+<p><strong>The “biocatalyst toolbox” for synthesis.</strong> Workhorse enzymatic transformations as a general category (hydrolysis, redox, C–C/CH-functionalization) rather than enumerated reactions.</p>
+</li>
+<li>
+<p><strong>Tailoring catalysts (engineering &amp; selection).</strong> Using directed evolution/rational design to tune scope, activity, and selectivity for target reactions.</p>
+</li>
+<li>
+<p><strong>New-to-nature reactivity from enzyme promiscuity.</strong> Expanding beyond native function (e.g., engineered heme proteins for carbene/nitrene transfer).</p>
+</li>
+<li>
+<p><strong>Photobiocatalysis as a radical-chemistry bridge.</strong> Light-enabled enzyme reactivity opening new bond-forming logic.</p>
+</li>
+<li>
+<p><strong>Chemo–bio hybrids (protein-hosted small-molecule/metal catalysis).</strong> Artificial metalloenzymes and protein-embedded organocatalysts as a general platform.</p>
+</li>
+<li>
+<p><strong>Multienzyme cascades &amp; telescoped routes.</strong> One-pot/linear cascades for step-economic synthesis; showcased by the islatravir case.</p>
+</li>
+<li>
+<p><strong>Process performance &amp; implementation metrics.</strong> Emphasis that productivity metrics (e.g., STY) matter when translating to synthesis.</p>
+</li>
+<li>
+<p><strong>Outlook: diversification, design, ML &amp; training.</strong> Field needs: broader enzyme repertoires, computational/ML design, and integrating biocatalysis into chem curricula.</p>
+</li>
+</ol></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="toc-content"><ul id="kx1zwn" class="overflow"><li class="depth-0"><a href="#power-of-biocatalysis-for-organic-synthesis-winkler-schrittwieser-kroutil-acs-cent-sci-2021" data-for="power-of-biocatalysis-for-organic-synthesis-winkler-schrittwieser-kroutil-acs-cent-sci-2021">Power of Biocatalysis for Organic Synthesis (Winkler, Schrittwieser, Kroutil, ACS Cent. Sci. 2021)</a></li><li class="depth-0"><a href="#biocatalysis-field-topics---from-winkler-et-al-acs-central-science-2021" data-for="biocatalysis-field-topics---from-winkler-et-al-acs-central-science-2021">Biocatalysis Field Topics - From Winkler et al. ACS Central Science 2021</a></li><li class="depth-1"><a href="#core-topics-extracted" data-for="core-topics-extracted">Core Topics Extracted:</a></li><li class="depth-2"><a href="#1-enzyme-structure-function-relationships" data-for="1-enzyme-structure-function-relationships">1. Enzyme Structure-Function Relationships</a></li><li class="depth-2"><a href="#2-synergistic-catalysis-in-enzymes" data-for="2-synergistic-catalysis-in-enzymes">2. Synergistic Catalysis in Enzymes</a></li><li class="depth-2"><a href="#3-enzyme-engineering-via-directed-evolution" data-for="3-enzyme-engineering-via-directed-evolution">3. Enzyme Engineering via Directed Evolution</a></li><li class="depth-2"><a href="#4-kinetic-resolution-processes" data-for="4-kinetic-resolution-processes">4. Kinetic Resolution Processes</a></li><li class="depth-2"><a href="#5-cofactor-dependent-biocatalysis" data-for="5-cofactor-dependent-biocatalysis">5. Cofactor-Dependent Biocatalysis</a></li><li class="depth-2"><a href="#6-alcohol-dehydrogenase-systems" data-for="6-alcohol-dehydrogenase-systems">6. Alcohol Dehydrogenase Systems</a></li><li class="depth-2"><a href="#7-transaminase-technology" data-for="7-transaminase-technology">7. Transaminase Technology</a></li><li class="depth-2"><a href="#8-imine-reductase--reductive-aminase-systems" data-for="8-imine-reductase--reductive-aminase-systems">8. Imine Reductase &amp; Reductive Aminase Systems</a></li><li class="depth-2"><a href="#9-carboxylic-acid-reductase-technology" data-for="9-carboxylic-acid-reductase-technology">9. Carboxylic Acid Reductase Technology</a></li><li class="depth-2"><a href="#10-ene-reductase-applications" data-for="10-ene-reductase-applications">10. Ene-Reductase Applications</a></li><li class="depth-2"><a href="#11-cytochrome-p450-engineering" data-for="11-cytochrome-p450-engineering">11. Cytochrome P450 Engineering</a></li><li class="depth-2"><a href="#12-promiscuous-enzyme-activities" data-for="12-promiscuous-enzyme-activities">12. Promiscuous Enzyme Activities</a></li><li class="depth-2"><a href="#13-photobiocatalysis" data-for="13-photobiocatalysis">13. Photobiocatalysis</a></li><li class="depth-2"><a href="#14-artificial-metalloenzymes" data-for="14-artificial-metalloenzymes">14. Artificial Metalloenzymes</a></li><li class="depth-2"><a href="#15-4-oxalocrotonate-tautomerase-engineering" data-for="15-4-oxalocrotonate-tautomerase-engineering">15. 4-Oxalocrotonate Tautomerase Engineering</a></li><li class="depth-2"><a href="#16-biocatalytic-cascade-design" data-for="16-biocatalytic-cascade-design">16. Biocatalytic Cascade Design</a></li><li class="depth-2"><a href="#17-enzyme-stability-engineering" data-for="17-enzyme-stability-engineering">17. Enzyme Stability Engineering</a></li><li class="depth-2"><a href="#18-space-time-yield-optimization" data-for="18-space-time-yield-optimization">18. Space-Time Yield Optimization</a></li><li class="depth-2"><a href="#19-green-chemistry-integration" data-for="19-green-chemistry-integration">19. Green Chemistry Integration</a></li><li class="depth-2"><a href="#20-substrate-scope-vs-selectivity-trade-offs" data-for="20-substrate-scope-vs-selectivity-trade-offs">20. Substrate Scope vs. Selectivity Trade-offs</a></li><li class="depth-2"><a href="#21-fed-batch-process-strategies" data-for="21-fed-batch-process-strategies">21. Fed-Batch Process Strategies</a></li><li class="depth-2"><a href="#22-chemoenzymatic-synthesis" data-for="22-chemoenzymatic-synthesis">22. Chemoenzymatic Synthesis</a></li><li class="depth-1"><a href="#key-synthetic-applications-highlighted" data-for="key-synthetic-applications-highlighted">Key Synthetic Applications Highlighted:</a></li><li class="depth-2"><a href="#historical-industrial-examples" data-for="historical-industrial-examples">Historical Industrial Examples:</a></li><li class="depth-2"><a href="#modern-pharmaceutical-applications" data-for="modern-pharmaceutical-applications">Modern Pharmaceutical Applications:</a></li><li class="depth-2"><a href="#emerging-transformation-classes" data-for="emerging-transformation-classes">Emerging Transformation Classes:</a></li><li class="depth-1"><a href="#methodological-focus-areas" data-for="methodological-focus-areas">Methodological Focus Areas:</a></li><li class="depth-2"><a href="#enzyme-discovery--engineering" data-for="enzyme-discovery--engineering">Enzyme Discovery &amp; Engineering:</a></li><li class="depth-2"><a href="#process-development" data-for="process-development">Process Development:</a></li><li class="depth-2"><a href="#synthetic-strategy" data-for="synthetic-strategy">Synthetic Strategy:</a></li><li class="depth-1"><a href="#future-research-directions" data-for="future-research-directions">Future Research Directions:</a></li><li class="depth-2"><a href="#technology-development" data-for="technology-development">Technology Development:</a></li><li class="depth-2"><a href="#scope-expansion" data-for="scope-expansion">Scope Expansion:</a></li><li class="depth-2"><a href="#integration-challenges" data-for="integration-challenges">Integration Challenges:</a></li><li class="depth-1"><a href="#notable-distinguishing-features" data-for="notable-distinguishing-features">Notable Distinguishing Features:</a></li><li class="depth-1"><a href="#categories" data-for="categories">Categories</a></li><li class="depth-0"><a href="#winkler_2021_acs_centsci--higher-order-categories" data-for="winkler_2021_acs_centsci--higher-order-categories">Winkler_2021_ACS_CentSci — Higher-order categories</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.0</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>

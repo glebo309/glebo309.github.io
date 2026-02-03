@@ -1,0 +1,310 @@
+{
+  "summary": "The study characterizes the metabolic pathway of styrene degradation in Pseudomonas sp. strain VLB120, identifying key enzymes and their roles in producing enantiomerically pure styrene oxide.",
+  "key_claims": [
+    "Five genes involved in styrene degradation were identified and linked to polypeptides StyRABCD.",
+    "StyA and StyB produce a styrene monooxygenase that converts styrene to (S)-styrene oxide with an enantiomeric excess of over 99%.",
+    "Recombinants producing styrene monooxygenase catalyzed the formation of (S)-styrene oxide at rates up to 180 U g (dry weight) of cells⁻¹."
+  ],
+  "process_signals": [
+    {
+      "name": "enantiomeric excess",
+      "value": "99%",
+      "unit": "%",
+      "context": "production of (S)-styrene oxide"
+    },
+    {
+      "name": "reaction rate",
+      "value": "180",
+      "unit": "U g⁻¹",
+      "context": "formation of (S)-styrene oxide per gram dry weight of cells"
+    }
+  ],
+  "entities": {
+    "enzymes": [
+      {
+        "name": "StySc",
+        "type": "sensor protein"
+      },
+      {
+        "name": "StyR",
+        "type": "response regulator"
+      },
+      {
+        "name": "styrene monooxygenase",
+        "type": "enzyme complex"
+      },
+      {
+        "name": "StyC",
+        "type": "phenylacetaldehyde dehydrogenase"
+      }
+    ],
+    "reaction_types": [
+      {
+        "name": "styrene monooxygenation",
+        "description": "Conversion of styrene to (S)-styrene oxide"
+      },
+      {
+        "name": "kinetic resolution",
+        "description": "Resolution of racemic styrene oxide to (S)-styrene oxide"
+      }
+    ],
+    "immobilization": [],
+    "media": [],
+    "reactor": []
+  },
+  "confidence": 0.9,
+  "_refs": [
+    {
+      "doi": "",
+      "title": "Basic local alignment search tool",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "Constitutively signaling fragments of Tsr, the Escherichia coli serine chemoreceptor",
+      "year": 1994
+    },
+    {
+      "doi": "",
+      "title": "The regulatory status of the fixL-and fixJ-like genes in Bradyrhizobium japonicum may be different from that in Rhizobium meliloti",
+      "year": 1991
+    },
+    {
+      "doi": "",
+      "title": "Sequencing and functional analysis of styrene catabolism genes from Pseudomonas fluorescens ST",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Review of the toxicology of styrene",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "Quantitative analyses of biochemical kinetic resolutions of enantiomers",
+      "year": 1982
+    },
+    {
+      "doi": "",
+      "title": "Identification and sequence analysis of two regulatory genes involved in anaerobic toluene metabolism by strain T1",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "The Ϫ45 region of the Escherichia coli lac promoter: CAP-dependent and CAP-independent transcription",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "The tac promoter: a functional hybrid derived from the trp and lac promoters",
+      "year": 1983
+    },
+    {
+      "doi": "",
+      "title": "Analysis of Pseudomonas gene products using lacI q /Ptrp-lac plasmids and transposons that confer conditional phenotypes",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "Mini-Tn5 transposon derivatives for insertion mutagenesis, promoter probing, and chromosomal insertion of cloned DNA in gram-negative eubacteria",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "Polypeptides expressed in Escherichia coli K-12 minicells by transposition elements Tn1 and Tn3",
+      "year": 1979
+    },
+    {
+      "doi": "",
+      "title": "Expression of naphthalene oxidation genes in Escherichia coli results in the biosynthesis of indigo",
+      "year": 1983
+    },
+    {
+      "doi": "",
+      "title": "Activation of the transcriptional regulator Xy1R of Pseudomonas putida by release of repression between functional domains",
+      "year": 1995
+    },
+    {
+      "doi": "",
+      "title": "Stereoselectivity of styrene oxidation in microsomes and in purified cytochrome P-450 enzymes from rat liver",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "Biodegradation of styrene in samples of natural environments",
+      "year": 1992
+    },
+    {
+      "doi": "",
+      "title": "Biological routes to optically active epoxides",
+      "year": 1992
+    },
+    {
+      "doi": "",
+      "title": "Chirality in industry",
+      "year": null
+    },
+    {
+      "doi": "",
+      "title": "Proposed regulatory pathway encoded by the nodV and nodW genes, determinants of host specificity in Bradyrhizobium japonicum",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "A novel responseregulator is able to suppress the nodulation defect of a Bradyrhizobium japonicum nodW mutant",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "Gene order of the TOL catabolic plasmid upper pathway operon and oxidation of both toluene and benzyl alcohol by the xylA product",
+      "year": 1986
+    },
+    {
+      "doi": "",
+      "title": "Characterization of five genes in the upper-pathway operon of TOL plasmid pWWO from Pseudomonas putida and identification of the gene products",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "Bacterial degradation of styrene involving a novel flavin adenine dinucleotide-dependent styrene monooxygenase",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "Specific-purpose plasmid cloning vectors. I. Low copy number, temperature sensitive, mobilization-defective pSC101-derived containment vectors",
+      "year": 1981
+    },
+    {
+      "doi": "",
+      "title": "Transposon vectors containing non-antibiotic resistance selection markers for cloning and stable chromosomal insertion of foreign genes in gram-negative bacteria",
+      "year": 1990
+    },
+    {
+      "doi": "",
+      "title": "A T7 RNA polymerase-based system for the construction of Pseudomonas strains with phenotypes dependent on TOL-meta pathway effectors",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "Enantioselective synthesis of (Ϫ)-Zeylena from styrene",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "A bacterial basic region leucine zipper histidine kinase regulating toluene degradation",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "NodV and NodW, a second flavonoid recognition system regulating nod gene expression in Bradyrhizobium japonicum",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Tnpho A: a transposon probe for protein export signals",
+      "year": 1985
+    },
+    {
+      "doi": "",
+      "title": "Cloning and characterization of styrene catabolism genes from Pseudomonas fluorescens",
+      "year": 1996
+    },
+    {
+      "doi": "",
+      "title": "Sequence from picomole quantities of proteins electroblotted onto polyvinylidene difluoride membranes",
+      "year": 1987
+    },
+    {
+      "doi": "",
+      "title": "Is acetyl phosphate a global signal in Escherichia coli?",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "New route to bacterial production of indigo",
+      "year": 1986
+    },
+    {
+      "doi": "",
+      "title": "Experiments in molecular genetics",
+      "year": 1972
+    },
+    {
+      "doi": "",
+      "title": "The FixL protein of Rhizobium meliloti can be separated into a heme-binding oxygensensing domain and a functional C-terminal kinase domain",
+      "year": 1992
+    },
+    {
+      "doi": "",
+      "title": "Asymmetric hydrolysis of racemic para-nitrostyrene oxide using an epoxide hydrolase preparation from Aspergillus niger",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Formation and degradation of styrene oxide stereoisomers by different microorganisms",
+      "year": 1994
+    },
+    {
+      "doi": "",
+      "title": "Possible regulatory role for nonaromatic carbon sources in styrene degradation by Pseudomonas putida CA-3",
+      "year": 1995
+    },
+    {
+      "doi": "",
+      "title": "Indigo formation by microorganisms expressing styrene monooxygenase activity",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Response regulators of bacterial signal transduction systems: selective domain shuffling during evolution",
+      "year": 1995
+    },
+    {
+      "doi": "",
+      "title": "Microbiological transformations. 32. Use of epoxide hydrolase mediated biohydrolysis as a way to enantiopure epoxides and vicinal diols: application to substituted styrene oxide derivatives",
+      "year": 1996
+    },
+    {
+      "doi": "",
+      "title": "Microbiological transformations. 28. Enantiocomplementary epoxide hydrolyses as a preparative access to both enantiomers of styrene oxide",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "High cell density cultivation of Pseudomonas oleovorans: growth and production of poly(3-hydroxyalkanoates) in twoliquid phase batch and fed-batch systems",
+      "year": 1993
+    },
+    {
+      "doi": "",
+      "title": "Molecular characterization of 4-hydroxyphenylacetate 3-hydroxylase of Escherichia coli",
+      "year": 1994
+    },
+    {
+      "doi": "",
+      "title": "Transposition of a plasmid deoxyribonucleic acid sequence that mediates ampicillin resistance: independence from host rec functions and orientation of insertion",
+      "year": 1976
+    },
+    {
+      "doi": "",
+      "title": "Molecular cloning: a laboratory manual, 2nd ed. Cold Spring Harbor Laboratory",
+      "year": 1989
+    },
+    {
+      "doi": "",
+      "title": "The 3Ј terminal sequence of Escherichia coli 16S ribosomal RNA: complementarity to nonsense triplets and ribosome binding sites",
+      "year": 1974
+    },
+    {
+      "doi": "",
+      "title": "Biocatalysis with bacterial epoxide hydrolase",
+      "year": 1997
+    },
+    {
+      "doi": "",
+      "title": "Two-component signal transduction systems: structure-function relationships and mechanisms of catalysis",
+      "year": 1995
+    }
+  ],
+  "_title": "Towards a Biocatalyst for (\n            <i>S</i>\n            )-Styrene Oxide Production: Characterization of the Styrene Degradation Pathway of\n            <i>Pseudomonas</i>\n            sp. Strain VLB120",
+  "_abstract": "In order to design a biocatalyst for the production of optically pure styrene oxide, an important building block in organic synthesis, the metabolic pathway and molecular biology of styrene degradation in Pseudomonas sp. strain VLB120 was investigated. A 5.7-kb XhoI fragment, which contained on the same strand of DNA six genes involved in styrene degradation, was isolated from a gene library of this organism in Escherichia coli by screening for indigo formation. T7 RNA polymerase expression experiments indicated that this fragment coded for at least five complete polypeptides, StyRABCD, corresponding to five of the six genes. The first two genes encoded the potential carboxy-terminal part of a sensor, named StySc, and the complete response regulator StyR. Fusion of the putative styAp promoter to a lacZ reporter indicated that StySc and StyR together regulate expression of the structural genes at the transcriptional level. Expression of styScR also alleviated a block that prevented tran"
+}

@@ -1,0 +1,114 @@
+[2025-08-24T14:56:36.170004Z] START doi=10.1002/cbic.200400329 title=Directed evolution of an amine oxidase for the pre pillar=Design & Engineering force=False
+[2025-08-24T14:56:36.979761Z] metadata saved (enhanced)
+[2025-08-24T14:56:37.485732Z] → Attempting Open Access (Unpaywall)...
+[2025-08-24T14:56:37.486169Z] ✗ Unpaywall failed: No OA URL available
+[2025-08-24T14:56:37.486374Z] → Attempting Semantic Scholar...
+[2025-08-24T14:56:38.414996Z] ✗ Semantic Scholar failed: No PDF found via Semantic Scholar
+[2025-08-24T14:56:38.415762Z] → S2 title-based OA PDF fallback...
+[2025-08-24T14:56:38.690854Z] → Attempting publisher direct access...
+[2025-08-24T14:56:39.011969Z] ✗ Publisher direct failed: No PDF found via publisher direct access
+[2025-08-24T14:56:43.595593Z] → Attempting PyPaperBot...
+[2025-08-24T14:56:48.451590Z] ✗ PyPaperBot failed: PyPaperBot failed (code 1): Traceback (most recent call last):
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/pyChainedProxy/__init__.py", line 992, in connect
+    result = self.__do_connect((proxy[P_HOST], portnum))
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/pyChainedProxy/__init__.py", line 938, in __do_connect
+    return self.__sock.connect(addrspec)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x10b3a7ed0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='sci-hub.41610.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10b3a7ed0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/PyPaperBot/__main__.py", line 209, in <module>
+    main()
+    ~~~~^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/PyPaperBot/__main__.py", line 203, in main
+    start(args.query, args.scholar_results, scholar_pages, dwn_dir, proxy, args.min_year , max_dwn, max_dwn_type ,
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          args.journal_filter, args.restrict, DOIs, args.scihub_mirror, args.selenium_chrome_version, args.cites,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          args.use_doi_as_filename, args.annas_archive_mirror, args.skip_words)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/PyPaperBot/__main__.py", line 67, in start
+    downloadPapers(to_download, dwn_dir, num_limit, SciHub_URL, SciDB_URL)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/PyPaperBot/Downloader.py", line 53, in downloadPapers
+    setSciHubUrl()
+    ~~~~~~~~~~~~^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/PyPaperBot/Downloader.py", line 12, in setSciHubUrl
+    r = requests.get(NetInfo.SciHub_URLs_repo, headers=NetInfo.HEADERS)
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/glenn/Documents/SecondBrain/_PROTOTYPE/.venv/lib/python3.13/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='sci-hub.41610.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10b3a7ed0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+[2025-08-24T14:56:48.451795Z] → Attempting SciHub (fixed method)...
+[2025-08-24T14:56:53.586736Z] ✓ SciHub PDF fetched successfully
+[2025-08-24T14:56:55.250024Z] Grobid TEI saved (auto)
+[2025-08-24T14:57:17.173315Z] extraction saved
+[2025-08-24T14:57:17.195187Z] DONE status=extracted_ok

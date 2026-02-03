@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directed evolution of enzymes: new biocatalysts for asymmetric synthesis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-02-22">22 February 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marina</forename><surname>Alexeeva</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reuben</forename><surname>Carr</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+							<email>n.j.turner@ed.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>King&apos;s Buildings West Mains Road 4 1 3 3 -4 1 3 7 Downloaded by</addrLine>
+									<postCode>EH9 3JJ</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Directed evolution of enzymes: new biocatalysts for asymmetric synthesis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-02-22">22 February 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">87FD03F60656EE6932BE453C2774A96C</idno>
+					<idno type="DOI">10.1039/B311055A</idno>
+					<note type="submission">Received 10th September 2003, Accepted 2nd October 2003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T14:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="859.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="859.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="859.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="859.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="859.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The use of combinatorial methods for lead discovery and optimisation has become a powerful and now firmly established technique within the pharmaceutical industry. More recently, analogous approaches of parallel synthesis and screening have been applied to the discovery and development of new catalysts for asymmetric synthesis. <ref type="bibr" target="#b0">1</ref> The underlying principles are simple and very appealing, namely coupling systematic variations in catalyst structure, ligand composition, reaction conditions etc., with effective methods for high-throughput screening for a range of properties (e.g. turnover number, enantioselectivity) resulting in catalysts that are fine tuned and optimised for specific applications. <ref type="bibr" target="#b1">2</ref> Not surprisingly, similar concepts of combinatorial optimisation have recently gained popularity in the discovery and development of biocatalysts. However, here the situation is somewhat different given the relative complexity of enzymes. A typical enzyme is composed of between 250-1000 amino acids and hence the notion of systematically varying even a small number of amino acids in an enzyme sequence, to explore the effect on activity or selectivity, is unrealistic since the number of possible permutations rapidly exceeds the capabilities of high-throughput screens, let alone conventional analytical HPLC or GC-MS methods. Even if only one amino acid in any part of the sequence is replaced by any other of the 19 other amino acids the number of permutations 3 is in the region of ca. 10 4 whereas for combinatorial mutagenesis, wherein two or more residues are simultaneously randomised, the library sizes can become truly vast (no. of permutations = 20 n where n is the number of amino acids that are simultaneously varied). Furthermore, it is generally not obvious which amino acids, or combinations thereof, are important for controlling specific characteristics (e.g. enantioselectivity, catalytic activity, stability). Although the increased availability of X-ray structures can help to guide identification of important residues, in practice it is mainly active-site residues that are targeted on the</p><p>Marina Alexeeva, graduated from the Moscow State Pirogov Medical Institute in 1980 with a degree in Biochemistry. Following a period as a Research Assistant in the Institute of Molecular Genetics at the Russian Academy of Sciences, she joined Edinburgh University in 1992 as a Technical Officer, a position she held for 7 years until beginning her PhD in 1999 with Nick Turner. Her thesis research involved the directed evolution of amine oxidases for deracemisation reactions. At the beginning of 2003 she joined Ingenza as a Senior Scientist. Reuben Carr, graduated with a first class honours degree in Chemistry and Biochemistry from the University of Southampton in 2000. He moved to Edinburgh in 2001 to begin his PhD under the supervision of Nick Turner as a CASE student in collaboration with GlaxoSmithKline. His research involves the deracemisation of chiral amines using enzymes in combination with chemical reducing agents. Nicholas Turner, obtained his D. Phil. in 1985 under the supervision of Professor Sir Jack Baldwin, followed by postdoctoral studies as a Royal Society Junior Research Fellow with Professor George Whitesides at Harvard University, USA. In 1987 he joined the Chemistry Department at Exeter University as a Lecturer before moving to Edinburgh University in 1995 as a Reader. In 1998 he was promoted to a Personal Chair in Biological Chemistry. Recently, along with his colleagues Ian Fotheringham, Robert Speight and Sunil Srivastava, he founded Ingenza, a new company based within the School of Chemistry at Edinburgh, that is developing novel bioprocesses for the pharmaceutical and fine chemical industry. basis that they make important non-bonding interactions with the substrate. <ref type="bibr" target="#b3">4</ref> The past 5-10 years has witnessed the emergence of 'directed evolution' strategies in order to change the properties of enzymes in a targeted manner. <ref type="bibr" target="#b4">5</ref> Directed evolution of enzymes combines two distinct events, namely (i) random mutagenesis of the parent gene to provide a library of variant enzymes and (ii) methods for screening the individual members of the library for specific characteristics (e.g. reactivity towards a specific substrate, resistance to product inhibition, thermal/organic solvent stability) (Fig. <ref type="figure" target="#fig_0">1</ref>). The power of this approach is that it requires no prior knowledge of the structure (or in some cases sequence) of the enzyme since the variants are selected simply on their ability to carry out a specific transformation, without regard to prior assumptions as to which particular amino acids might be important. The real challenge in this area is to devise highthroughput screens that are able to handle sufficiently large libraries (ca. 10 5 -10 9 ) such that significant improvements over the activity of the wild-type enzyme can be achieved. Such levels of throughput (i.e. &gt;10 5 samples per day) have been achieved using in vivo 'life or death' selection and in vitro detection (e.g. colorimetric/fluorescence detection, capillary array electrophoresis) but methods are required to expand the range of enzyme activities that can be detected. <ref type="bibr" target="#b6">6</ref> The aim of this article is to provide an insight into the field of 'directed evolution' and to consider how this technology can best be employed to develop new enzyme-catalysed reactions and processes for the future. To assist in this objective, the authors have provided a personal case study from their own laboratory in which many of the current themes surrounding directed evolution have been encountered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deracemisation reactions: the development of a platform technology</head><p>Inspired by the early work of Hafner et al., <ref type="bibr" target="#b7">7</ref> and Soda et al., <ref type="bibr" target="#b8">8</ref> we set out to develop general and practical methods for the cyclic deracemisation of chiral compounds via an oxidation-reduction sequence (Fig. <ref type="figure" target="#fig_1">2</ref>). In this catalytic cycle the combination of an enantioselective oxidase, together with a non-selective chemical reducing agent, results in the conversion of a racemic mixture to a single enantiomer. Provided that the oxidase enzyme is highly enantioselective, only 7 cycles are required to achieve an ee of &gt;99%. <ref type="bibr" target="#b9">9</ref> We have successfully applied this method to the deracemisation of a variety of α-amino acids in high yield (70-85%) and ee (&gt;98%) using both and -amino acid oxidases together with a variety of reducing agents (NaCNBH 3 ; NaBH 4 ; amine-boranes: Pd/ C-ammonium formate). 10, <ref type="bibr" target="#b11">11</ref> Because the reaction is in essence a stereoinversion process, we have also shown that it can be used to interconvert diastereomeric amino acids bearing more than one stereogenic centre. <ref type="bibr" target="#b12">12</ref> Encouraged by this success with α-amino acids, we sought to broaden the range of substrates amenable to deracemisation and considered amines in view of their increasing value as chiral intermediates for pharmaceutical drugs and also ligands for asymmetric catalysis. <ref type="bibr" target="#b13">13</ref> The key issue at the outset was the availability of enantioselective amine oxidases that could be applied to deracemisation reactions. Unfortunately, we could not find any convincing literature precedent for the presence of enantioselective Type II amine oxidases in microbial sources (some Type I enzymes were known to be enantioselective but these amine oxidases generate an enzyme-bound imine and hence were unsuitable for use in deracemisation reactions). Thus we decided to undertake a directed evolution approach to evolve enzymes that had the characteristics required for our deracemisation reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Directed evolution of an amine oxidase</head><p>The starting point for any successful directed evolution project is a reliable and robust high-throughput screen. In vitro screens, based upon the production of a coloured or fluorescent product, have the advantage that they can be used to screen colonies directly on an agar plate thus enabling 10 5 -10 6 clones to be assayed in a short period of time. We developed a colorimetric screen, based upon capture of the hydrogen peroxide generated  by the oxidase enzyme, and demonstrated that it could be used to detect colonies expressing amino acid or amine oxidases. The next decision concerned the starting gene to be used for generation of the library of variants. It was known that the monoamine oxidase (MAO-N) from Aspergillus niger catalysed the oxidation of simple alkyl amines including benzylamine although no data was reported for any chiral amines. <ref type="bibr" target="#b14">14</ref> A plasmid harbouring the MAO-N gene was obtained, subcloned into Escherichia coli, and used to express the wild-type enzyme which was found to have very low, but detectable activity towards α-methylbenzylamine, the amine chosen for our model studies. Interestingly there was also evidence that the wild-type enzyme was enantioselective although the intrinsic rates were very low. Next the MAO-N gene was randomly mutated, using the E. coli XL1-Red mutator strain, <ref type="bibr" target="#b15">15</ref> and the library of variants (ca. 150 000) screened against (S )-α-methylbenzylamine as a substrate using the agar-plate colorimetric assay. The frequency of mutation was adjusted such that individual clones possessed ca. 1-2 nucleotide mutations per gene. Approximately 30 clones were selected at this stage, on the basis of their activity in the screen, and amongst these one clone in particular was found to have very high (S )-selectivity. Small scale growth of this clone and partial purification of the amine oxidase revealed that this variant possessed approximately 47 fold greater activity, and 6 fold greater enantioselectivity towards α-methylbenzylamine compared with the wild-type enzyme, a substantial improvement from a single round of directed evolution. This variant was sufficiently catalytically active to be used in combination with ammonia-borane to deracemise α-methylbenzylamine yielding the (R)-enantiomer in 77% yield and 93% ee. <ref type="bibr" target="#b16">16</ref> Sequencing of this variant revealed that it possessed a single mutation (Asn336Ser). The variant amine oxidase was subsequently purified to homogeneity, by Ni affinity chromatography, and examined for its reactivity towards a panel of ca. 50 different chiral amines. Interestingly, more than 60% of these structurally different amines were found to be substrates, some with greater activity than a-methylbenzylamine itself (Fig. <ref type="figure" target="#fig_2">3</ref>). For those substrates where the individual enantiomers were available we determined the enantioselectivity and found that in all cases the enzyme was highly (S )-selective (E &gt;10). By contrast, the wild-type enzyme was active towards only ca. 15% of the substrates, confirming that the Asn336Ser variant possessed a substantially different substrate specificity. <ref type="bibr" target="#b17">17</ref> Analysis of the relationship between structure and reactivity led us to propose a simple model to summarise the effect of directed evolution of the wild-type amine oxidase (Fig. <ref type="figure" target="#fig_3">4</ref>). Overall, this first round of directed evolution had resulted in the identification of a variant with substantially improved catalytic activity and enantioselectivity together with significantly broadened substrate specificity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Further rounds of 'real time' directed evolution</head><p>An attractive aspect of directed evolution is that variants selected from the first round of evolution can form the starting  Step 2: DNA library transformed into E. coli, expression strain and colonies streaked and grown on nitrocellulose membrane on agar plate. Step 3: Membrane lifted, colonies partially lysed (freeze-thaw) and then screened for activity using colorimetric assay containing specific amine substrate. Step 4: 'Hits' picked and replated to give single colonies. Active colonies checked for enantioselectivity towards individual (R)-and (S )-enantiomers of amine substrate. Step 5: Variants that are both highly active and enantioselective grown on small scale (100 ml) and screened against range of chiral amines (ca., 32) in 96-well microtitre plate using liquid-phase colorimetric assay. This step allows differentiation between 'expression mutants' and 'specificity mutants'. Step 6: Individual variants purified using Ni-affinity column and subjected to full kinetic characterisation (k cat and K M ). Gene sequenced to identify positions of mutations. Step 7: Steps 1-6 repeated varying target amine substrate or introducing additional selection criteria (e.g., thermostability, high substrate concentration).</p><p>point for further rounds of mutagenesis/selection in the anticipation than additional mutations might lead to further changes in an additive manner. These further cycles can be carried out rapidly (3-4 weeks), in a highly automated fashion, in order to fine tune the enzyme towards substrates of specific interest. Fig. <ref type="figure" target="#fig_4">5</ref> illustrates the approach we have recently developed involving initial passage through the mutator strain, to generate new libraries (ca. 10 000-300 000 clones) which are then screened for specific characteristics including substrate specificity, thermal stability, enantioselectivity etc. Libraries can also be generated at this stage using error-prone PCR or combinatorial mutagenesis in which several amino acids are simultaneously randomised. Any identified 'hits', which typically arise with a frequency of ca. 1 in 10 000 using the mutator strain, are rapidly checked against a panel of substrates (ca. 32 structurally different compounds) in order to roughly define the substrate range and enantioselectivity. At this stage we are also able to identify 'expression mutants' i.e. those variants in which the protein expression levels have been enhanced without any change in specific activity or substrate specificity. Variants of particular interest are subsequently purified to homogeneity, via Ni-chelation chromatography, and then fully characterised against specific chiral amines of interest including determination of k cat and K M values. Further rounds of evolution can then be carried out until an enzyme possessing suitable characteristics is obtained. In this way we have been able to evolve new types of amine and amino acid oxidases, i.e. enzymes that possess greater activity towards secondary, rather than primary, amines or variants that are able to oxidise sterically demanding substrates. The goal is to rapidly generate a family of (S )-and (R)-selective amine and amino acid oxidases that possess complementary substrate specificities allow us to deracemise a wide range of chiral amines and amino acids respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future directions</head><p>Directed evolution represents a powerful strategy for altering the properties of an enzyme in a rapid and targeted manner. However, the challenge now for applying this technology to biocatalysis is to identify the best strategy for evolving enzymes such that they ultimately possess all of the characteristics required for ultimate use in a large scale bioprocess. <ref type="bibr" target="#b18">18</ref> The ideal biocatalyst should possess most, if not all of the following properties; high k cat , K M in the millimolar range, high enantioselectivity (E &gt; 50), broad substrate specificity, high tolerance towards organic solvents and stability at elevated temperatures. Each of these characteristics can probably be screened for by adjusting the assay conditions and in principle it may be possible to select for more than one property in a single step. <ref type="bibr" target="#b19">19</ref> For example in our experience, based upon the directed evolution of amine and amino acid oxidases, variants selected primarily for their activity in the solid-phase assay against a single enantiomer substrate, often turn out to be also highly enantioselective. Since high catalytic activity is a fundamental prerequisite for any biocatalyst, this observation is guiding our thinking in terms of the way forward for the directed evolution enzymes. Perhaps the most exciting aspect of this area is that directed evolution can now be carried out in 'real time', at a rate that is commensurate with the expectations of those wishing to develop and optimise enzymes for applications in the commercial synthesis of fine chemicals and chiral intermediates. <ref type="bibr" target="#b20">20</ref> Undoubtedly, as we learn more about the best strategies for evolving an enzyme in a particular direction, this process of optimisation will become faster, more automated, and hence increasingly attractive to synthetic organic chemists.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Strategies for the directed evolution of enzymes involving (a) generation of libraries of variant genes and (b) high-throughput screening of the libraries using different analytical methods.</figDesc><graphic coords="2,149.81,64.66,311.76,231.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Deracemisation of α-amino acids using an enantioselective amino acid oxidase in combination with a non-selective chemical reducing agent.</figDesc><graphic coords="2,358.81,332.80,143.64,102.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Range of amines that are substrates for the Asn336Ser variant of the amine oxidase from Aspergillus niger., The numbers in italics below the structures indicate the activity relative to α-methylbenzyl amine.</figDesc><graphic coords="3,122.51,65.26,365.64,399.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Schematic illustration of the change in substrate of specificity of the Asn336Ser mutant relative to the wild-type enzyme.</figDesc><graphic coords="4,150.31,64.90,310.56,141.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig.5 Strategy for iterative evolution of enzymes in 'real time' by employing hierarchical screening protocols; Step 1: Library of variants generated from parent gene using E. coli, XL1-Red mutator strain. Step 2: DNA library transformed into E. coli, expression strain and colonies streaked and grown on nitrocellulose membrane on agar plate. Step 3: Membrane lifted, colonies partially lysed (freeze-thaw) and then screened for activity using colorimetric assay containing specific amine substrate. Step 4: 'Hits' picked and replated to give single colonies. Active colonies checked for enantioselectivity towards individual (R)-and (S )-enantiomers of amine substrate. Step 5: Variants that are both highly active and enantioselective grown on small scale (100 ml) and screened against range of chiral amines (ca., 32) in 96-well microtitre plate using liquid-phase colorimetric assay. This step allows differentiation between 'expression mutants' and 'specificity mutants'. Step 6: Individual variants purified using Ni-affinity column and subjected to full kinetic characterisation (k cat and K M ). Gene sequenced to identify positions of mutations. Step 7: Steps 1-6 repeated varying target amine substrate or introducing additional selection criteria (e.g., thermostability, high substrate concentration).</figDesc><graphic coords="4,128.31,231.48,354.60,260.52" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">For recent reviews see</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Stambuli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hartwig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. F. Traverse and M. L. Snapper, Drug Discovery Today</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1002</biblScope>
+			<date type="published" when="2002">2003. 2002</date>
+		</imprint>
+	</monogr>
+	<note>Curr. Opin. Chem. Biol.</note>
+	<note type="raw_reference">For recent reviews see: J. P. Stambuli and J. F. Hartwig, Curr. Opin. Chem. Biol., 2003, 7, 7-420; J. F. Traverse and M. L. Snapper, Drug Discovery Today, 2002, 7, 1002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Berkowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Mathers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">3813</biblScope>
+			<date type="published" when="1603">2002. 1603. 2001</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem., Int. Ed.</note>
+	<note type="raw_reference">D. B. Berkowitz, M. Bose and S. Choi, Angew. Chem., Int. Ed., 2002, 41, 1603; M. Müller, T. W. Mathers and A. P. Davis, Angew. Chem., Int. Ed., 2001, 40, 3813.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The number of permutations (N) of an enzyme, containing X amino acids, in which a single amino acid is replaced by any one of the remaining 19 amino acids is given by the equation: N = 19X!</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">3 The number of permutations (N) of an enzyme, containing X amino acids, in which a single amino acid is replaced by any one of the remaining 19 amino acids is given by the equation: N = 19X!/ [(X Ϫ 1)!].</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Horsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="1933">2003. 1933</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. P. Horsman, A. M. F. Liu, E. Henke, U. T. Bornscheuer and R. J. Kazlauskas, Chem. Eur. J., 2003, 9, 1933.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">For recent reviews see: Directed Molecular Evolution of Proteins</title>
+		<editor>S. Brakmann and K. Johnsson, Wiley VCH</editor>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">For recent reviews see: Directed Molecular Evolution of Proteins, eds. S. Brakmann and K. Johnsson, Wiley VCH, Weinheim, 2002;</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Farinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Sutherland</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">545</biblScope>
+			<date type="published" when="2000">2001. 2000, 4, 263</date>
+		</imprint>
+	</monogr>
+	<note>Curr. Opin. Biotech.</note>
+	<note type="raw_reference">E. T. Farinas, T. Bulter and F. H. Arnold, Curr. Opin. Biotech., 2001, 12, 545; J. D. Sutherland, Curr. Opin. Chem. Biol., 2000, 4, 263.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem, Int Ed</title>
+		<imprint>
+			<biblScope unit="page">1335</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Reetz, Angew Chem, Int Ed, 2002, 41, 1335.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wellner</surname></persName>
+		</author>
+		<title level="m">Proc. Nat. Acad. Sci</title>
+		<meeting>Nat. Acad. Sci</meeting>
+		<imprint>
+			<date type="published" when="1971">1971</date>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">987</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. W. Hafner and D. Wellner, Proc. Nat. Acad. Sci., 1971, 68, 987.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yokoigawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Esaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Soda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yokoigawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Esaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Soda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Biotech. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">2081</biblScope>
+			<date type="published" when="1992">1992. 189. 1992</date>
+		</imprint>
+	</monogr>
+	<note>J. Ferment., Bioeng.</note>
+	<note type="raw_reference">J. W. Huh, K. Yokoigawa, N. Esaki and K. Soda, J. Ferment., Bioeng., 1992, 74, 189; J. W. Huh, K. Yokoigawa, N. Esaki and K. Soda, Biosci. Biotech. Biochem., 1992, 56, 2081.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Faber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<date type="published" when="2001">2001, 7, 5005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Faber, Chem. Eur. J., 2001, 7, 5005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page">246</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Beard and N. J. Turner, Chem. Commun, 2002, 246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F.-R</forename><surname>Alexandre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Pantaleone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Fotheringham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron Lett</title>
+		<imprint>
+			<biblScope unit="page">707</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F.-R. Alexandre, D. P. Pantaleone, P. P. Taylor, I. G. Fotheringham, D. J. Ager and N. J. Turner, Tetrahedron Lett., 2002, 43, 707.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>-R. Alexandre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Fotheringham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page">2636</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Enright, F.-R. Alexandre, G. Roff, I. G. Fotheringham, M. J. Dawson and N. J. Turner, Chem. Commun., 2003, 2636.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berces</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ettmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Neruda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Woisetschläger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">S</forename><surname>France</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Guerin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lectka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">2985</biblScope>
+			<date type="published" when="2001">2001. 2003</date>
+		</imprint>
+	</monogr>
+	<note>Chem. Rev.</note>
+	<note type="raw_reference">M. Berger, B. Albrecht, A. Berces, P. Ettmayer, W. Neruda and M. Woisetschläger, J. Med. Chem., 2001, 44, 3031; S. France, D. J. Guerin, S. J. Miller and T. Lectka, Chem. Rev., 2003, 103, 2985.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Sablin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Yankovskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Singer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Biochem</title>
+		<imprint>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. O. Sablin, V. Yankovskaya, S. Bernard, C. N. Cronin and T. P. Singer, Eur. J. Biochem., 1998, 253, 270.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Greener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jerpseth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biotechnol</title>
+		<imprint>
+			<date type="published" when="1997">1997, 7, 189</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Greener, M. Callahan and B. Jerpseth, Mol. Biotechnol., 1997, 7, 189.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="page">3317</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Alexeeva, A. Enright, M. J. Dawson, M. Mahmoudian and N. J. Turner, Angew. Chem., Int. Ed., 2002, 41, 3317.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alexeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S C</forename><surname>Eve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">4807</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Carr, M. Alexeeva, A. Enright, T. S. C. Eve, M. J. Dawson and N. J. Turner, Angew. Chem., Int. Ed., 2003, 42, 4807.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tibtech</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">474</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. J. Turner, TIBTECH, 2003, 21, 474.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Yazbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page">524</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. R. Yazbeck, J. Tao, C. A. Martinez, B. J. Kline and S. Hu, Adv. Synth. Catal., 2003, 345, 524.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotech</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">587</biblScope>
+			<date type="published" when="2001">2002. 2001</date>
+		</imprint>
+	</monogr>
+	<note>Curr. Opin. Biotech.</note>
+	<note type="raw_reference">G. Huisman and D. Gray, Curr. Opin. Biotech., 2002, 13, 352; R. N. Patel, Curr. Opin. Biotech., 2001, 12, 587.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

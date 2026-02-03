@@ -1,0 +1,1847 @@
+{
+  "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+  "year": 2021,
+  "authors": [
+    "Minkyung Baek",
+    "Frank DiMaio",
+    "Ivan Anishchenko",
+    "Justas Dauparas",
+    "Sergey Ovchinnikov",
+    "Gyu Rie Lee",
+    "Jue Wang",
+    "Qian Cong",
+    "Lisa N. Kinch",
+    "R. Dustin Schaeffer",
+    "Claudia Millán",
+    "Hahnbeom Park",
+    "Carson Adams",
+    "Caleb R. Glassman",
+    "Andy DeGiovanni",
+    "Jose H. Pereira",
+    "Andria V. Rodrigues",
+    "Alberdina A. van Dijk",
+    "Ana C. Ebrecht",
+    "Diederik J. Opperman",
+    "Theo Sagmeister",
+    "Christoph Buhlheller",
+    "Tea Pavkov-Keller",
+    "Manoj K. Rathinaswamy",
+    "Udit Dalwadi",
+    "Calvin K. Yip",
+    "John E. Burke",
+    "K. Christopher Garcia",
+    "Nick V. Grishin",
+    "Paul D. Adams",
+    "Randy J. Read",
+    "David Baker"
+  ],
+  "journal": "Science",
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2025-08-25T21:35:55Z",
+      "timestamp": 1756157755656,
+      "version": "3.37.3"
+    },
+    "reference-count": 82,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6557",
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DP5OD026389"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P01GM063210"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P01GM063210"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RO1-AI51321"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GM127390"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000928",
+        "name": "Welch Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "I-1505"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000928",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001906",
+        "name": "Washington Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001906",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004318",
+        "name": "Microsoft",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004318",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016382",
+        "name": "Schmidt Family Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016382",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016382",
+        "name": "Schmidt Family Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016382",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000024",
+        "name": "Canadian Institutes of Health Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "168998"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000024",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000024",
+        "name": "Canadian Institutes of Health Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "168907"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000024",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016270",
+        "name": "Global Challenges Research Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ST/R002754/1"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100016270",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P29432"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010269",
+        "name": "Wellcome",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "209407/Z/17/Z"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010269",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001906",
+        "name": "Washington Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001906",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014895",
+        "name": "Open Philanthropy Project",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014895",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001906",
+        "name": "Washington Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001906",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100011671",
+        "name": "G. Harold and Leila Y. Mathers Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100011671",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014895",
+        "name": "Open Philanthropy Project",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014895",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004318",
+        "name": "Microsoft",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004318",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DBI 1937533"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DOC50"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P29432"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DOC50"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P29432"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DOC50"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Deep learning takes on protein folding</jats:title>\n          <jats:p>\n            In 1972, Anfinsen won a Nobel prize for demonstrating a connection between a protein’s amino acid sequence and its three-dimensional structure. Since 1994, scientists have competed in the biannual Critical Assessment of Structure Prediction (CASP) protein-folding challenge. Deep learning methods took center stage at CASP14, with DeepMind’s Alphafold2 achieving remarkable accuracy. Baek\n            <jats:italic>et al</jats:italic>\n            . explored network architectures based on the DeepMind framework. They used a three-track network to process sequence, distance, and coordinate information simultaneously and achieved accuracies approaching those of DeepMind. The method, RoseTTA fold, can solve challenging x-ray crystallography and cryo–electron microscopy modeling problems and generate accurate models of protein-protein complexes. —VV\n          </jats:p>",
+    "DOI": "10.1126/science.abj8754",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2021-07-15T19:15:14Z",
+      "timestamp": 1626376514000
+    },
+    "page": "871-876",
+    "source": "Crossref",
+    "is-referenced-by-count": 4416,
+    "title": [
+      "Accurate prediction of protein structures and interactions using a three-track neural network"
+    ],
+    "prefix": "10.1126",
+    "volume": "373",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3414-9404",
+        "authenticated-orcid": true,
+        "given": "Minkyung",
+        "family": "Baek",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7524-8938",
+        "authenticated-orcid": true,
+        "given": "Frank",
+        "family": "DiMaio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3645-2044",
+        "authenticated-orcid": true,
+        "given": "Ivan",
+        "family": "Anishchenko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0030-144X",
+        "authenticated-orcid": true,
+        "given": "Justas",
+        "family": "Dauparas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2774-2744",
+        "authenticated-orcid": true,
+        "given": "Sergey",
+        "family": "Ovchinnikov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Arts and Sciences, Division of Science, Harvard University, Cambridge, MA 02138, USA."
+          },
+          {
+            "name": "John Harvard Distinguished Science Fellowship Program, Harvard University, Cambridge, MA 02138, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9119-5303",
+        "authenticated-orcid": true,
+        "given": "Gyu Rie",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1139-6640",
+        "authenticated-orcid": true,
+        "given": "Jue",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8909-0414",
+        "authenticated-orcid": true,
+        "given": "Qian",
+        "family": "Cong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          },
+          {
+            "name": "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3041-2615",
+        "authenticated-orcid": true,
+        "given": "Lisa N.",
+        "family": "Kinch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6502-1425",
+        "authenticated-orcid": true,
+        "given": "R. Dustin",
+        "family": "Schaeffer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9283-2220",
+        "authenticated-orcid": true,
+        "given": "Claudia",
+        "family": "Millán",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Haematology, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7129-1912",
+        "authenticated-orcid": true,
+        "given": "Hahnbeom",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "given": "Carson",
+        "family": "Adams",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3342-7989",
+        "authenticated-orcid": true,
+        "given": "Caleb R.",
+        "family": "Glassman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Program in Immunology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Department of Structural Biology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          }
+        ]
+      },
+      {
+        "given": "Andy",
+        "family": "DeGiovanni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8456-1774",
+        "authenticated-orcid": true,
+        "given": "Jose H.",
+        "family": "Pereira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+          }
+        ]
+      },
+      {
+        "given": "Andria V.",
+        "family": "Rodrigues",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+          }
+        ]
+      },
+      {
+        "given": "Alberdina A.",
+        "family": "van Dijk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Focus Area Human Metabolomics, North-West University, 2531 Potchefstroom, South Africa."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6471-4964",
+        "authenticated-orcid": true,
+        "given": "Ana C.",
+        "family": "Ebrecht",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Focus Area Human Metabolomics, North-West University, 2531 Potchefstroom, South Africa."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2737-8797",
+        "authenticated-orcid": true,
+        "given": "Diederik J.",
+        "family": "Opperman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biotechnology, University of the Free State, 205 Nelson Mandela Drive, Bloemfontein 9300, South Africa."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6703-5510",
+        "authenticated-orcid": true,
+        "given": "Theo",
+        "family": "Sagmeister",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9358-5316",
+        "authenticated-orcid": true,
+        "given": "Christoph",
+        "family": "Buhlheller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria."
+          },
+          {
+            "name": "Medical University of Graz, Graz, Austria."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7871-6680",
+        "authenticated-orcid": true,
+        "given": "Tea",
+        "family": "Pavkov-Keller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria."
+          },
+          {
+            "name": "BioTechMed-Graz, Graz, Austria."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5584-4313",
+        "authenticated-orcid": true,
+        "given": "Manoj K.",
+        "family": "Rathinaswamy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada."
+          }
+        ]
+      },
+      {
+        "given": "Udit",
+        "family": "Dalwadi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Life Sciences Institute, Department of Biochemistry and Molecular Biology, The University of British Columbia, Vancouver, BC, Canada."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1779-9501",
+        "authenticated-orcid": true,
+        "given": "Calvin K.",
+        "family": "Yip",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Life Sciences Institute, Department of Biochemistry and Molecular Biology, The University of British Columbia, Vancouver, BC, Canada."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7904-9859",
+        "authenticated-orcid": true,
+        "given": "John E.",
+        "family": "Burke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9273-0278",
+        "authenticated-orcid": true,
+        "given": "K. Christopher",
+        "family": "Garcia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Program in Immunology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Department of Structural Biology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4108-1153",
+        "authenticated-orcid": true,
+        "given": "Nick V.",
+        "family": "Grishin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          },
+          {
+            "name": "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          },
+          {
+            "name": "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9333-8219",
+        "authenticated-orcid": true,
+        "given": "Paul D.",
+        "family": "Adams",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+          },
+          {
+            "name": "Department of Bioengineering, University of California, Berkeley, Berkeley, CA 94720, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8273-0047",
+        "authenticated-orcid": true,
+        "given": "Randy J.",
+        "family": "Read",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Haematology, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7896-6217",
+        "authenticated-orcid": true,
+        "given": "David",
+        "family": "Baker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+          },
+          {
+            "name": "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1923-7"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "unstructured": "J. Jumper R. Evans A. Pritzel T. Green M. Figurnov K. Tunyasuvunakool O. Ronneberger R. Bates A. Žídek A. Bridgland C. Meyer S. A. A. Kohl A. Potapenko A. J. Ballard A. Cowie B. Romera-Paredes S. Nikolov R. Jain J. Adler T. Back S. Petersen D. Reiman M. Steinegger M. Pacholska D. Silver O. Vinyals A. W. Senior K. Kavukcuoglu P. Kohli D. Hassabis “High accuracy protein structure prediction using deep learning” in Fourteenth Critical Assessment of Techniques for Protein Structure Prediction: CASP14 Abstract Book (Protein Structure Prediction Center 2020) pp. 22–24."
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1914677117"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Anishchenko T. M. Chidyausiku S. Ovchinnikov S. J. Pellock D. Baker De novo protein design by deep network hallucination. bioRxiv 2020.07.22.211482 [Preprint] (2020); https://doi.org/10.1101/2020.07.22.211482.10.1101/2020.07.22.211482",
+        "DOI": "10.1101/2020.07.22.211482"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq007"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "unstructured": "F. B. Fuchs D. E. Worrall V. Fischer M. Welling SE(3)-Transformers: 3D roto-translation equivariant attention networks. arXiv:2006.10503 [cs.LG] (2020)."
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.25431"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz322"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.25815"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky427"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "unstructured": "A. Jaegle F. Gimeno A. Brock A. Zisserman O. Vinyals J. Carreira Perceiver: General perception with iterative attention. arXiv:2103.03206 [cs.CV] (2021)."
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21511-x"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-3019-7"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1080"
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007597"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2015.12.009"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2006-7-4-213"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jimd.12312"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2015.12.008"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1083/jcb.131.2.275"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/pr100556z"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bcp.2019.03.033"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2003.10.037"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sj.emboj.7601131"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0167-4838(00)00148-5"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.87.14.5578"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "347",
+        "DOI": "10.1002/iub.319",
+        "article-title": "Mammalian ceramide synthases",
+        "volume": "62",
+        "author": "Levy M.",
+        "year": "2010",
+        "unstructured": "M. Levy, A. H. Futerman, Mammalian ceramide synthases. IUBMB Life 62, 347–356 (2010). 20222015",
+        "journal-title": "IUBMB Life"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cellsig.2021.109958"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0968-0004(02)02154-0"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M608092200"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.24170"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaw6718"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.20264"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.01.018"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3943"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "unstructured": "M. Baek F. DiMaio I. Anishchenko J. Dauparas S. Ovchinnikov J. Wang D. Baker RoseTTAFold: The first release of RoseTTAFold. Zenodo (2021); https://zenodo.org/record/5068265."
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "unstructured": "A. Vaswani N. Shazeer N. Parmar J. Uszkoreit L. Jones A. N. Gomez L. Kaiser I. Polosukhin Attention is all you need. arXiv:1706.03762 [cs.CL] (2017)."
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "unstructured": "J. Ho N. Kalchbrenner D. Weissenborn T. Salimans Axial attention in multidimensional transformers. arXiv:1912.12180 [cs.CV] (2019)."
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "unstructured": "K. Choromanski V. Likhosherstov D. Dohan X. Song A. Gane T. Sarlos P. Hawkins J. Davis A. Mohiuddin L. Kaiser D. Belanger L. Colwell A. Weller Rethinking attention with Performers. arXiv:2009.14794 [cs.LG] (2020)."
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rao J. Liu R. Verkuil J. Meier J. F. Canny P. Abbeel T. Sercu A. Rives MSA Transformer bioRxiv 2021.02.12.430858 [Preprint] (2021); .10.1101/2021.02.12.430858",
+        "DOI": "10.1101/2021.02.12.430858"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-22869-8"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Shi Z. Huang S. Feng H. Zhong W. Wang Y. Sun Masked label prediction: Unified message passing model for semi-supervised classification. arXiv:2009.03509 [cs.LG] (2020).",
+        "DOI": "10.24963/ijcai.2021/214"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt473"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1081"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-019-0437-4"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2017.12.007"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444910051218"
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "first-page": "8",
+        "article-title": "phenix.ensembler: A tool for multiple superposition",
+        "volume": "2",
+        "author": "Bunkóczi G.",
+        "year": "2011",
+        "unstructured": "G. Bunkóczi, R. J. Read, phenix.ensembler: A tool for multiple superposition. Comput. Crystallogr. Newsl. 2, 8–9 (2011).",
+        "journal-title": "Comput. Crystallogr. Newsl."
+      },
+      {
+        "key": "e_1_3_2_50_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0021889807021206"
+      },
+      {
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0021889807021206"
+      },
+      {
+        "key": "e_1_3_2_52_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx349"
+      },
+      {
+        "key": "e_1_3_2_53_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1701640114"
+      },
+      {
+        "key": "e_1_3_2_54_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2014.11.020"
+      },
+      {
+        "key": "e_1_3_2_55_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444900005072"
+      },
+      {
+        "key": "e_1_3_2_56_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S2059798319011471"
+      },
+      {
+        "key": "e_1_3_2_57_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S090744490705024X"
+      },
+      {
+        "key": "e_1_3_2_58_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444910007493"
+      },
+      {
+        "key": "e_1_3_2_59_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444912001308"
+      },
+      {
+        "key": "e_1_3_2_60_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3330"
+      },
+      {
+        "key": "e_1_3_2_61_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444910051371"
+      },
+      {
+        "key": "e_1_3_2_62_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00348-5"
+      },
+      {
+        "key": "e_1_3_2_63_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv342"
+      },
+      {
+        "key": "e_1_3_2_64_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.24179"
+      },
+      {
+        "key": "e_1_3_2_65_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1099"
+      },
+      {
+        "key": "e_1_3_2_66_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2021.166915"
+      },
+      {
+        "key": "e_1_3_2_67_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-431"
+      },
+      {
+        "key": "e_1_3_2_68_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky995"
+      },
+      {
+        "key": "e_1_3_2_69_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1132"
+      },
+      {
+        "key": "e_1_3_2_70_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky384"
+      },
+      {
+        "key": "e_1_3_2_71_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gpb.2019.01.004"
+      },
+      {
+        "key": "e_1_3_2_72_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cpbi.108"
+      },
+      {
+        "key": "e_1_3_2_73_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1003926"
+      },
+      {
+        "key": "e_1_3_2_74_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0213712"
+      },
+      {
+        "key": "e_1_3_2_75_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/17.8.700"
+      },
+      {
+        "key": "e_1_3_2_76_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "key": "e_1_3_2_77_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1007"
+      },
+      {
+        "key": "e_1_3_2_78_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq662"
+      },
+      {
+        "key": "e_1_3_2_79_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-0716-0270-6_3"
+      },
+      {
+        "key": "e_1_3_2_80_2",
+        "unstructured": "S. J. Hubbard J. M. Thornton “naccess ” computer program (Department of Biochemistry and Molecular Biology University College London 1993)."
+      },
+      {
+        "key": "e_1_3_2_81_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.25408"
+      },
+      {
+        "key": "e_1_3_2_82_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.2389"
+      },
+      {
+        "key": "e_1_3_2_83_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm404"
+      }
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.abj8754",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.abj8754",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T23:33:39Z",
+      "timestamp": 1705361619000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/science.abj8754"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          20
+        ]
+      ]
+    },
+    "references-count": 82,
+    "journal-issue": {
+      "issue": "6557",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            20
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/science.abj8754"
+    ],
+    "URL": "https://doi.org/10.1126/science.abj8754",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2021.06.14.448402",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.740477162.793587949",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.740477162.793587584",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.740477162.793587452",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0036-8075"
+      },
+      {
+        "type": "electronic",
+        "value": "1095-9203"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          20
+        ]
+      ]
+    }
+  },
+  "semanticscholar": {},
+  "unpaywall": {
+    "doi": "10.1126/science.abj8754",
+    "doi_url": "https://doi.org/10.1126/science.abj8754",
+    "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+    "genre": "journal-article",
+    "is_paratext": false,
+    "published_date": "2021-07-15",
+    "year": 2021,
+    "journal_name": "Science",
+    "journal_issns": "0036-8075,1095-9203",
+    "journal_issn_l": "0036-8075",
+    "journal_is_oa": false,
+    "journal_is_in_doaj": false,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "is_oa": true,
+    "oa_status": "green",
+    "has_repository_copy": true,
+    "best_oa_location": {
+      "url": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+      "url_for_pdf": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+      "url_for_landing_page": "https://escholarship.org/uc/item/3gz3w9v7",
+      "evidence": "deprecated",
+      "license": "cc-by",
+      "version": "submittedVersion",
+      "host_type": "repository",
+      "is_best": true,
+      "pmh_id": "oai:escholarship.org:ark:/13030/qt3gz3w9v7",
+      "endpoint_id": null,
+      "repository_institution": null,
+      "oa_date": "2021-07-15",
+      "updated": "deprecated"
+    },
+    "first_oa_location": {
+      "url": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+      "url_for_pdf": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+      "url_for_landing_page": "https://escholarship.org/uc/item/3gz3w9v7",
+      "evidence": "deprecated",
+      "license": "cc-by",
+      "version": "submittedVersion",
+      "host_type": "repository",
+      "is_best": true,
+      "pmh_id": "oai:escholarship.org:ark:/13030/qt3gz3w9v7",
+      "endpoint_id": null,
+      "repository_institution": null,
+      "oa_date": "2021-07-15",
+      "updated": "deprecated"
+    },
+    "oa_locations": [
+      {
+        "url": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+        "url_for_pdf": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+        "url_for_landing_page": "https://escholarship.org/uc/item/3gz3w9v7",
+        "evidence": "deprecated",
+        "license": "cc-by",
+        "version": "submittedVersion",
+        "host_type": "repository",
+        "is_best": true,
+        "pmh_id": "oai:escholarship.org:ark:/13030/qt3gz3w9v7",
+        "endpoint_id": null,
+        "repository_institution": null,
+        "oa_date": "2021-07-15",
+        "updated": "deprecated"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7612213",
+        "url_for_pdf": null,
+        "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/7612213",
+        "evidence": "deprecated",
+        "license": "cc-by",
+        "version": "submittedVersion",
+        "host_type": "repository",
+        "is_best": false,
+        "pmh_id": "oai:pubmedcentral.nih.gov:7612213",
+        "endpoint_id": "daaf77eacc58eec31bb",
+        "repository_institution": "PubMed Central",
+        "oa_date": "2021-07-15",
+        "updated": "deprecated"
+      },
+      {
+        "url": "https://www.osti.gov/servlets/purl/2470900",
+        "url_for_pdf": "https://www.osti.gov/servlets/purl/2470900",
+        "url_for_landing_page": "https://www.osti.gov/biblio/2470900",
+        "evidence": "deprecated",
+        "license": null,
+        "version": "submittedVersion",
+        "host_type": "repository",
+        "is_best": false,
+        "pmh_id": "oai:osti.gov:2470900",
+        "endpoint_id": "rxvVMHMKBKeG3hsnTZpz",
+        "repository_institution": "U.S. Department of Energy Office of Scientific and Technical Information - OSTI OAI",
+        "oa_date": "2021-07-15",
+        "updated": "deprecated"
+      },
+      {
+        "url": "https://www.repository.cam.ac.uk/handle/1810/325197",
+        "url_for_pdf": "https://www.repository.cam.ac.uk/handle/1810/325197",
+        "url_for_landing_page": "https://www.repository.cam.ac.uk/handle/1810/325197",
+        "evidence": "deprecated",
+        "license": "cc-by",
+        "version": "submittedVersion",
+        "host_type": "repository",
+        "is_best": false,
+        "pmh_id": "oai:www.repository.cam.ac.uk:1810/325197",
+        "endpoint_id": "c3aujqe6swayrrfkx3oe",
+        "repository_institution": "University of Cambridge - Apollo",
+        "oa_date": "2021-07-15",
+        "updated": "deprecated"
+      }
+    ],
+    "oa_locations_embargoed": [],
+    "data_standard": 2,
+    "z_authors": [
+      {
+        "author_position": "first",
+        "raw_author_name": "Minkyung Baek",
+        "is_corresponding": true,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Frank DiMaio",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Ivan Anishchenko",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Justas Dauparas",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Sergey Ovchinnikov",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Faculty of Arts and Sciences, Division of Science, Harvard University, Cambridge, MA 02138, USA.",
+          "John Harvard Distinguished Science Fellowship Program, Harvard University, Cambridge, MA 02138, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Gyu Rie Lee",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Jue Wang",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Qian Cong",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Lisa N. Kinch",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "R. Dustin Schaeffer",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Claudia Millán",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Haematology, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Hahnbeom Park",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Carson Adams",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Caleb R. Glassman",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Program in Immunology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Department of Structural Biology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Andy DeGiovanni",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Jose H. Pereira",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Andria V. Rodrigues",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Alberdina A. van Dijk",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, Focus Area Human Metabolomics, North-West University, 2531 Potchefstroom, South Africa."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Ana C. Ebrecht",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, Focus Area Human Metabolomics, North-West University, 2531 Potchefstroom, South Africa."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Diederik J. Opperman",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biotechnology, University of the Free State, 205 Nelson Mandela Drive, Bloemfontein 9300, South Africa."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Theo Sagmeister",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Christoph Buhlheller",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria.",
+          "Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Tea Pavkov-Keller",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Institute of Molecular Biosciences, University of Graz, Humboldtstrasse 50, 8010 Graz, Austria.",
+          "BioTechMed-Graz, Graz, Austria."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Manoj K. Rathinaswamy",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Udit Dalwadi",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Life Sciences Institute, Department of Biochemistry and Molecular Biology, The University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Calvin K. Yip",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Life Sciences Institute, Department of Biochemistry and Molecular Biology, The University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "John E. Burke",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "K. Christopher Garcia",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Program in Immunology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Department of Structural Biology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Nick V. Grishin",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Paul D. Adams",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Molecular Biophysics &amp; Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "author_position": "additional",
+        "raw_author_name": "Randy J. Read",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Haematology, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "author_position": "last",
+        "raw_author_name": "David Baker",
+        "is_corresponding": false,
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+        ]
+      }
+    ],
+    "updated": "2025-07-30T15:44:52Z"
+  },
+  "oa_pdf_url": "https://escholarship.org/content/qt3gz3w9v7/qt3gz3w9v7.pdf?t=rfdtpb",
+  "oa_license": "cc-by",
+  "doi": "10.1126/science.abj8754",
+  "pillar_primary": "Cascade & Route Design",
+  "fallback_search": false,
+  "raw_citation": "Accurate prediction of protein structures and interactions using a three-track neural network Minkyung Baek 0000-0003-3414-9404 Frank Dimaio 0000-0002-7524-8938 Ivan Anishchenko 0000-0003-3645-2044 Justas Dauparas 0000-0002-0030-144X Sergey Ovchinnikov 0000-0003-2774-2744 Gyu Rie Lee 0000-0002-9119-5303 Jue Wang 0000-0002-1139-6640 Qian Cong 0000-0002-8909-0414 Lisa N Kinch 0000-0003-3041-2615 R Dustin Schaeffer 0000-0001-6502-1425 Claudia Millán 0000-0002-9283-2220 Hahnbeom Park 0000-0002-7129-1912 Carson Adams Caleb R Glassman 0000-0002-3342-7989 Andy Degiovanni Jose H Pereira 0000-0002-8456-1774 Andria V Rodrigues Alberdina A Van Dijk Ana C Ebrecht 0000-0002-6471-4964 Diederik J Opperman 0000-0002-2737-8797 Theo Sagmeister 0000-0002-6703-5510 Christoph Buhlheller 0000-0001-9358-5316 Tea Pavkov-Keller 0000-0001-7871-6680 Manoj K Rathinaswamy 0000-0001-5584-4313 Udit Dalwadi Calvin K Yip 0000-0003-1779-9501 John E Burke 0000-0001-7904-9859 K Christopher Garcia 0000-0001-9273-0278 Nick V Grishin 0000-0003-4108-1153 Paul D Adams 0000-0001-9333-8219 Randy J Read 0000-0001-8273-0047 David Baker 0000-0001-7896-6217 10.1126/science.abj8754 Science Science 0036-8075 1095-9203 373 6557 2021 American Association for the Advancement of Science (AAAS)"
+}

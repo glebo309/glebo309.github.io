@@ -1,0 +1,292 @@
+{
+  "summary": "The study demonstrates the use of a lysine cyclodeaminase (e-SpLCD) for the efficient synthesis of l-pipecolic acid (l-PA) from l-lysine, achieving full conversion in both batch and flow reactors. Immobilization on microparticles enhances stability and enables continuous flow production.",
+  "key_claims": [
+    "The e-SpLCD enzyme was used to convert l-Lysine into l-PA with full conversion to 50 mM.",
+    "Full conversion of l-PA was achieved in 90 minutes using a packed-bed reactor.",
+    "Immobilization on microparticles improved the operational stability of the biocatalyst."
+  ],
+  "process_signals": [
+    {
+      "name": "conversion_yield",
+      "value": "50",
+      "unit": "mM",
+      "context": "batch reaction"
+    },
+    {
+      "name": "reaction_time",
+      "value": "90",
+      "unit": "minutes",
+      "context": "flow reactor"
+    }
+  ],
+  "entities": {
+    "enzymes": [
+      {
+        "name": "e-SpLCD",
+        "type": "Lysine Cyclodeaminase"
+      }
+    ],
+    "reaction_types": [
+      {
+        "type": "batch",
+        "details": "reached full conversion to 50 mM l-PA"
+      },
+      {
+        "type": "flow",
+        "details": "achieved full conversion in 90 minutes"
+      }
+    ],
+    "immobilization": [
+      {
+        "method": "microparticles",
+        "purpose": "improved biocatalyst stability and enabled continuous flow production"
+      }
+    ],
+    "media": [],
+    "reactor": [
+      {
+        "type": "SpinChem® reactor",
+        "details": "used for process scale-up with lower conversion yields"
+      },
+      {
+        "type": "packed-bed reactor",
+        "details": "used in flow reaction to achieve full conversion in 90 minutes"
+      }
+    ]
+  },
+  "confidence": 1.0,
+  "_refs": [
+    {
+      "doi": "10.1021/acs.chemrev.9b00408",
+      "title": "Chem. Rev",
+      "year": 2020
+    },
+    {
+      "doi": "10.1016/j.cogsc.2022.100701",
+      "title": "Curr. Opin. Green Sustain. Chem",
+      "year": 2022
+    },
+    {
+      "doi": "10.1007/s10295-018-2030-8",
+      "title": "J. Ind. Microbiol. Biotechnol",
+      "year": 2018
+    },
+    {
+      "doi": "",
+      "title": "Synthesis",
+      "year": 2012
+    },
+    {
+      "doi": "10.1016/j.molstruc.2022.133719",
+      "title": "J. Mol. Struct",
+      "year": 2022
+    },
+    {
+      "doi": "10.1039/d1ob01329g",
+      "title": "Org. Biomol. Chem",
+      "year": 2022
+    },
+    {
+      "doi": "10.1246/bcsj.48.1341",
+      "title": "Bull. Chem. Soc. Jpn",
+      "year": 1975
+    },
+    {
+      "doi": "10.1007/bf01388174",
+      "title": "Amino Acids",
+      "year": 1999
+    },
+    {
+      "doi": "10.3998/ark.5550190.0013.504",
+      "title": "Arkivoc",
+      "year": 2011
+    },
+    {
+      "doi": "10.1080/00397911.2021.1961155",
+      "title": "Synth. Commun",
+      "year": 2021
+    },
+    {
+      "doi": "10.1016/j.ymben.2023.03.006",
+      "title": "Metab. Eng",
+      "year": 2023
+    },
+    {
+      "doi": "10.1016/j.enzmictec.2020.109643",
+      "title": "Enzyme Microb. Technol",
+      "year": 2020
+    },
+    {
+      "doi": "10.1039/c8cy02301h",
+      "title": "Catal. Sci. Technol",
+      "year": 2019
+    },
+    {
+      "doi": "",
+      "title": "Stereoselective Synthesis of Drugs and Natural Products",
+      "year": 2013
+    },
+    {
+      "doi": "10.1007/s12257-021-0236-5",
+      "title": "Biotechnol. Bioprocess Eng",
+      "year": 2022
+    },
+    {
+      "doi": "10.1039/d0gc01817a",
+      "title": "",
+      "year": 2020
+    },
+    {
+      "doi": "",
+      "title": "J. Am. Chem. Soc",
+      "year": 2006
+    },
+    {
+      "doi": "",
+      "title": "Mol. Cells",
+      "year": 2018
+    },
+    {
+      "doi": "10.1016/j.biochi.2006.12.008",
+      "title": "Biochimie",
+      "year": 2007
+    },
+    {
+      "doi": "10.1007/s12257-014-0428-3",
+      "title": "Biotechnol. Bioprocess Eng",
+      "year": 2015
+    },
+    {
+      "doi": "10.1016/j.biortech.2023.129173",
+      "title": "Bioresour. Technol",
+      "year": 2023
+    },
+    {
+      "doi": "10.1016/j.enzmictec.2021.109958",
+      "title": "Enzyme Microb. Technol",
+      "year": 2022
+    },
+    {
+      "doi": "",
+      "title": "ChemBioChem",
+      "year": null
+    },
+    {
+      "doi": "10.1021/acs.oprd.6b00346",
+      "title": "Org. Process Res. Dev",
+      "year": 2017
+    },
+    {
+      "doi": "10.1093/bioinformatics/btab030",
+      "title": "Bioinformatics",
+      "year": null
+    },
+    {
+      "doi": "",
+      "title": "ChemBioChem",
+      "year": 2023
+    },
+    {
+      "doi": "10.1002/bit.10019",
+      "title": "Biotechnol. Bioeng",
+      "year": 2001
+    },
+    {
+      "doi": "10.1039/d2cs00083k",
+      "title": "Chem. Soc. Rev",
+      "year": 2022
+    },
+    {
+      "doi": "10.1016/j.cogsc.2020.04.010",
+      "title": "Curr. Opin. Green Sustain. Chem",
+      "year": 2020
+    },
+    {
+      "doi": "",
+      "title": "Chem. Eur. J",
+      "year": 2017
+    },
+    {
+      "doi": "10.1016/j.tet.2018.12.004",
+      "title": "Tetrahedron",
+      "year": 2019
+    },
+    {
+      "doi": "10.3390/catal11070814",
+      "title": "Catalysts",
+      "year": null
+    },
+    {
+      "doi": "",
+      "title": "Angew. Chem. Int. Ed",
+      "year": 2017
+    },
+    {
+      "doi": "10.1039/c7cs00906b",
+      "title": "Chem. Soc. Rev",
+      "year": 2018
+    },
+    {
+      "doi": "10.1016/j.cbpa.2019.11.008",
+      "title": "Curr. Opin. Chem. Biol",
+      "year": 2020
+    },
+    {
+      "doi": "10.3390/ijms22030990",
+      "title": "Int. J. Mol. Sci",
+      "year": 2021
+    },
+    {
+      "doi": "10.1016/b978-0-32-390644-9.00123-2",
+      "title": "Reference Module in Chemistry",
+      "year": null
+    },
+    {
+      "doi": "10.1021/acsomega.2c07560",
+      "title": "",
+      "year": 2023
+    },
+    {
+      "doi": "10.1021/acssuschemeng.1c01742",
+      "title": "ACS Sustainable Chem. Eng",
+      "year": null
+    },
+    {
+      "doi": "10.1007/s41981-023-00283-z",
+      "title": "",
+      "year": 2023
+    },
+    {
+      "doi": "10.1016/j.bbrc.2017.11.034",
+      "title": "Biochem. Biophys. Res. Commun",
+      "year": 2018
+    },
+    {
+      "doi": "10.1038/s41586-021-03819-2",
+      "title": "Nature",
+      "year": 2021
+    },
+    {
+      "doi": "",
+      "title": "CCP4 Newsl. Protein Crystallogr",
+      "year": 2002
+    },
+    {
+      "doi": "",
+      "title": "Protein Sci",
+      "year": 2023
+    },
+    {
+      "doi": "10.1039/c4ra16926c",
+      "title": "",
+      "year": 2015
+    },
+    {
+      "doi": "10.1016/j.molcatb.2015.05.001",
+      "title": "J. Mol. Catal. B Enzym",
+      "year": 2015
+    }
+  ],
+  "_title": "Biocatalytic Synthesis of <scp>l</scp>‐Pipecolic Acid by a Lysine Cyclodeaminase: Batch and Flow Reactors",
+  "_abstract": "l-Pipecolic Acid (l-PA) is a valuable building block for the synthesis of pharmaceuticals such as anesthetics and immunosuppressants. Thus, more efficient and greener strategies are desired for its production. Herein, we have applied a previously engineered variant of the Lysine Cyclodeaminase from Streptomyces pristinaespiralis (e-SpLCD) for the bioconversion of l-Lysine into l-PA. The reaction can be performed by the free e-SpLCD reaching full conversion to 50 mM l-PA. From a biotechnological perspective, the process scale-up has been trialed in a SpinChem® reactor, albeit with lower conversion yields. To further enhance the biocatalyst stability, we present a detailed study of the e-SpLCD immobilization on microparticles. This enabled the integration of the immobilized biocatalyst into a packed-bed reactor for the continuous flow synthesis of l-PA. The full conversion was achieved in 90 min, maintaining also high operational stability. Remarkably, the addition of exogenous cofactor "
+}

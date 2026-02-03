@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Designed Photoenzyme Promotes Enantioselective [2+2]-Cycloadditions via Triplet Energy Transfer</title>
+				<funder ref="#_dsSeSHR #_uhKqmwJ">
+					<orgName type="full">Biotechnology and Biological Sciences Research Council</orgName>
+				</funder>
+				<funder ref="#_7JPW5B5">
+					<orgName type="full">BBSRC</orgName>
+				</funder>
+				<funder ref="#_zxNhTY3">
+					<orgName type="full">European Research Council</orgName>
+				</funder>
+				<funder ref="#_MCDvgN9 #_9KQ7zVD">
+					<orgName type="full">Future Biomanufacturing Hub</orgName>
+				</funder>
+				<funder ref="#_RRVmcez">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_A3JCZkh #_zyuWpqj #_tcRwsE5 #_JYaMet9">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Henry Royce Institute for Advanced Materials</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Anthony</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+							<email>anthony.green@manchester.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">S</forename><surname>Trimble</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><surname>Crawshaw</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Florence</forename><forename type="middle">J</forename><surname>Hardy</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Murray</forename><forename type="middle">J B</forename><surname>Brown</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Synthetic Biochemistry, Medicinal Science and Technology</orgName>
+								<orgName type="institution">GlaxoSmithKline Medicines Research Centre</orgName>
+								<address>
+									<settlement>Stevenage</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Douglas</forename><surname>Fuerst Glaxosmithkline</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Obexer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Colin</forename><forename type="middle">W</forename><surname>Levy</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Douglas</forename><forename type="middle">E</forename><surname>Fuerst</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Synthetic Biochemistry</orgName>
+								<orgName type="institution" key="instit1">Medicinal Science &amp; Technology</orgName>
+								<orgName type="institution" key="instit2">GlaxoSmithKline</orgName>
+								<address>
+									<settlement>Collegeville</settlement>
+									<region>PA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Derren</forename><forename type="middle">J</forename><surname>Heyes</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry &amp; Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>131 Princess Street</addrLine>
+									<postCode>M1 7DN</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Manchester Institute of Biotechnology Colin Levy</orgName>
+								<orgName type="institution" key="instit1">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit2">Manchester Institute of Biotechnology</orgName>
+								<orgName type="institution" key="instit3">University of Manchester</orgName>
+								<orgName type="institution" key="instit4">University of Manchester</orgName>
+								<orgName type="institution" key="instit5">Derren Heyes University of Manchester</orgName>
+								<orgName type="institution" key="instit6">Manchester Institute of Biotechnology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Designed Photoenzyme Promotes Enantioselective [2+2]-Cycloadditions via Triplet Energy Transfer</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B52D7F69AE0F043C6B2E6EA0CB5D7174</idno>
+					<idno type="DOI">10.21203/rs.3.rs-1650767/v1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-25T21:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Posted Date: May 19th, 2022</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The ability to programme new modes of catalysis into proteins would allow the development of enzyme families with functions beyond those found in nature. To this end, genetic code expansion methodology holds particular promise, as it allows the site-selective introduction of new functional elements into proteins as non-canonical amino acid side chains. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Here, we exploit an expanded genetic code to develop a photoenzyme that operates via triplet energy transfer catalysis, a versatile mode of reactivity in organic synthesis that is currently not accessible to biocatalysis. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Installation of a genetically encoded photosensitiser into the beta-propeller scaffold of DA_20_00 13 converts a de novo Diels-Alderase into a photoenzyme for [2+2]cycloadditions (EnT1.0). Subsequent development and implementation of a platform for photoenzyme evolution afforded an efficient and enantioselective enzyme (EnT1.3, up to 99% e.e.) that can promote selective cycloadditions that have proven challenging to achieve with small molecule catalysts. EnT1.3 performs &gt;300 turnovers and, in contrast to small molecule photocatalysts, can operate effectively under aerobic conditions. A 1.7 Å resolution X-ray crystal structure of an EnT1.3-product complex shows how multiple functional components work in synergy to promote efficient and selective photocatalysis. This study opens the door to a wealth of new excited-state chemistry in protein active sites and establishes the framework for developing a new generation of evolvable photocatalysts with efficiencies and specificities akin to natural enzymes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="31" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="32" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="33" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="34" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="35" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="36" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="37" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="38" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Triplet energy transfer (EnT) photocatalysis promotes a broad range of valuable chemical transformations including cycloadditions, electrocyclic reactions, deracemizations, migrations, and rearrangements, many of which are not accessible from the ground state. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Photons offer a convenient and tuneable source of energy to selectively access reactive excited state intermediates under mild reaction conditions. Perhaps the most prominent class of photochemical reactions are [2+2]cycloadditions, which construct cyclobutanes, oxetanes and azetidines. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> In contrast to the analogous Diels-Alder [4+2]-cycloadditions, [2+2]-cycloadditions are thermally forbidden due to incompatible ground state orbital symmetries (Figure <ref type="figure" target="#fig_0">1A</ref>). The key stages of EnT photocatalysis are shown in Figure <ref type="figure" target="#fig_0">1B</ref>. Light energy is used to promote a triplet sensitiser from the ground state (S0) to a singlet excited state (S1), which then undergoes intersystem crossing to a triplet state (T1). Since relaxation from T1 to S0 is spin-forbidden, triplet intermediates are relatively long-lived compared with singlet excited states.</p><p>Commonly employed triplet photosensitisers include conjugated aromatic ketones such as benzophenone, xanthone, and thioxanthone, which display high quantum efficiencies for population of the triplet state. The next step involves energy transfer from the triplet photosensitiser to the substrate in an overall spin-allowed process that returns the photosensitiser to the S0 level and simultaneously promotes the substrate from S0 to the reactive T1 state, which can then undergo a variety of intra-and intermolecular processes. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Enantioselective versions of photochemical reactions have been developed through dual catalytic strategies that combine an achiral photosensitiser with a photochemically inactive chiral catalyst (Figure <ref type="figure" target="#fig_0">1C</ref>), <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> or by employing chiral photosensitisers (Figure <ref type="figure" target="#fig_0">1D</ref>). <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b19">20</ref> Although powerful, these approaches do not offer a general solution, and many desirable photochemical processes are not amenable to enantioselective catalysis. Furthermore, these reactions are oxygen sensitive, often require high catalyst loadings, and are restricted to a narrow range of substrates, with even small structural changes leading to substantial reductions in activity or selectivity. <ref type="bibr" target="#b20">21</ref> In principle, enzyme active sites could offer more versatile chiral environments for mediating enantioselective photochemistry, where multiple functional elements can be accurately positioned within a single pocket. Through directed evolution these active sites could be sculpted to maximise productive interactions between the protein, substrate and photosensitiser, to deliver efficient and selective photocatalysts (Figure <ref type="figure" target="#fig_0">1E</ref>). However, while a handful of natural photoenzymes <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> and engineered biocatalysts <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> are known to operate via photo-induced electron transfer, enzymes that operate through EnT are currently unknown. A photosensitiser (PS) is excited into a singlet state (S1), which subsequently undergoes intersystem crossing (ISC) to the triplet state (T1). EnT returns the PS to ground state, while exciting the substrate into T1. C-D. Enantioselective EnT photocatalysis can be achieved using achiral photosensitisers in combination with chiral co-catalysts <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> or using chiral photosensitisers. <ref type="bibr" target="#b19">20</ref> E. The approach to photoenzyme development described in this manuscript, involving selective installation of a genetically encoded photosensitiser into a protein scaffold and subsequent optimisation of the modified protein by directed evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>To develop a selective photoenzyme, we chose the computationally designed Diels-Alderase DA_20_00 as a host scaffold due to mechanistic similarities between [4+2]-and [2+2]-cycloadditions. <ref type="bibr" target="#b12">13</ref> The DA_20_00 active site contains designed hydrogen bonding residues (Tyr121 and Gln195) intended to promote the Diels-Alder reaction, which may prove useful in supporting catalysis of [2+2]cycloadditions. These residues are embedded within a large hydrophobic pocket suitable for accommodating a bulky aromatic photosensitiser (Figure <ref type="figure" target="#fig_1">2A</ref>). To unlock photocatalytic activity, an engineered Methanococcus jannaschii tyrosyl-tRNAsynthetase/tyrosyl-tRNA (MjTyrRS/MjtRNA Tyr ) pair was used to incorporate 4-benzoylphenylalanine (BpA) at several positions around the DA_20_00 active site pocket (Extended Data Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b31">32</ref> Intramolecular [2+2]-cycloaddition of quinolone 1 was selected as the target transformation (Figure <ref type="figure" target="#fig_1">2B</ref>). <ref type="bibr" target="#b19">20</ref> Benzophenone (BP) is a suitable photosensitiser for this reaction and gives rise to racemic straight and crossed chain products (1a and 1b) as a 1.4:1 mixture of regioisomers (Figure <ref type="figure" target="#fig_1">2C</ref>). Placement of BpA at position 173 within the hydrophobic pocket of DA_20_00 provided the active photoenzyme EnT1.0, which is a more effective catalyst than BP and displays modest levels of regio-(2:1, 1a:1b) and enantioselectivity (46% e.e. for the major product (-)-1a). EnT1.0 activity is strictly dependent on light and the presence of the BpA173 photosensitiser (Figure <ref type="figure" target="#fig_1">2C</ref>).  <ref type="table">S1</ref>. Error bars represent the standard deviation of measurements made in triplicate.</p><p>To improve EnT1.0 activity, we initially mutated eight residues that lie in proximity to BpA173 to alanine (Extended Data Figure <ref type="figure" target="#fig_1">2</ref>). An M90A mutation gave rise to a substantial 3-fold increase in conversion to 1a along with a modest improvement in enantioselectivity to 60% e.e. (EnT1.1, Figure <ref type="figure" target="#fig_2">3</ref>, Extended Data Figure <ref type="figure" target="#fig_1">2</ref>). This improved variant facilitated detection of enzyme activity in clarified cell lysate, and enabled the development of a directed evolution workflow suitable for high-throughput engineering of triplet energy transfer photoenzymes. This evolutionary workflow relies on uniform irradiation of enzyme variants arrayed in microtiter plates, which was achieved using a commercial LED array (see Experimental Procedures). The observed coefficient of variance across an assay plate using purified EnT1.0 was shown to be less than 5% (Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>), a value that is in line with established high-throughput screening methods.</p><p>The evolutionary strategy consisted of two rounds of saturation mutagenesis targeting residues in the active site and second coordination sphere, which were individually randomised using NNK degenerate codons. Individual variants arrayed in 96-well microtiter plates were irradiated for 30 mins at 365nm using an LED array in the presence of substrate 1 and reactions analysed by high-throughput ultraperformance liquid chromatography (UPLC, Supplementary Figure <ref type="figure" target="#fig_2">S2-3</ref>). The most active (~1%) clones, identified based on conversion to 1a, were then evaluated as purified proteins for improved activity and enantioselectivity (Supplementary Figure <ref type="figure" target="#fig_3">4</ref>). Beneficial mutations identified during each round were subsequently combined by DNA shuffling. Following evaluation of ~3500 library members, an EnT1.3 variant emerged with improved activity, stability, and selectivity. EnT1.3 contains five mutations (EnT1.0 M90A Q149D P196R K225E A229S, Extended Data Figure <ref type="figure" target="#fig_2">3</ref>) and achieves a substantial 10-fold improvement in reaction conversion of 1 to 1a compared with EnT1.0 following 30 minutes of irradiation (Figure <ref type="figure" target="#fig_2">3C</ref> &amp; 3D). The enhanced performance of EnT1.3 arises from a combination of a 4-fold increase in initial rate (Extended Data Figure <ref type="figure" target="#fig_3">4</ref>), improved regioselectivity (1a:1b 2:1 for EnT1.0 vs 9:1 for EnT1.3, Figure <ref type="figure" target="#fig_2">3C</ref>), and reduced susceptibility to photo-deactivation, that likely arises in EnT1.0 from an intramolecular photo-crosslinking process involving the benzophenone side chain (Extended Data Figure <ref type="figure" target="#fig_4">5</ref>). EnT1.3 also offers high levels of enantio-control, generating (-)-1a with &gt;99% e.e.. Interestingly, EnT1.3 is more active at 4 °C than at room temperature (Extended Data Figure <ref type="figure">6</ref>), which may reflect an increased lifetime of the photosensitiser triplet state at lower temperatures. <ref type="bibr" target="#b32">33</ref> In contrast to small-molecule photocatalysts, which are highly sensitive to oxygen due to triplet quenching, EnT1.3 is tolerant of aerobic buffers (Figure <ref type="figure" target="#fig_2">3D</ref>) and can achieve &gt;300 turnovers under these conditions (Extended Data Figure <ref type="figure">7</ref>). With only 1.5 mol% EnT1.3, near complete conversion of 1 to optically pure (-)-1a can be achieved within 2 hr (Supplementary Table <ref type="table">S3</ref>), underscoring the efficiency of our engineered photoenzyme. We next explored the photocatalytic activity of EnT1.3 towards [2+2]-cycloadditions of allyloxy-, alken-1-yl-, and allyloxy(methyl)-quinolones to generate optically enriched products (2a-12a, Figure <ref type="figure" target="#fig_3">4</ref>). High conversions and selectivities were achieved in the majority of cases. With substrates 3, 7 and 11, introduction of a gem-dimethyl moiety led to a reduction in enantioselectivity and in these cases EnT1.2 proved to be a more selective photocatalyst. The ability of EnT1.3 to generate 2a and 6a with high levels of stereocontrol is particularly noteworthy. Analogous reactions with small chiral photosensitisers proceed with poor selectivity, as cyclizations to form 6-membered ring analogues are relatively slow and competing dissociation of the excited substrate from the photosensitiser erodes e.e.. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b20">21</ref> Small molecule chiral photosensitisers also rely on complementary dual hydrogen-bonding contacts between the substrate and catalyst to achieve enantioselective photochemistry. <ref type="bibr" target="#b19">20</ref> To demonstrate that protein catalysts are not constrained in the same manner, we next investigated cycloaddition of an N-methyl derivative 12. EnT1.3 affords optically enriched 12a, along with its regioisomer 12b, with modest selectivity (2:1 r.r., 36% e.e. for 12a), which could be further enhanced (4:1 r.r., 78% e.e. for 12a) by introducing a rational Y121F mutation (vide infra). This example demonstrates how protein active sites can be readily adapted to augment catalytic function and suggests that our photoenzymes can mediate selective transformations of substrate classes that are beyond the reach of existing small-molecule systems. </p><p>allyloxy)methyl)-quinolone derivatives 1a-2a, 4a-6a, and 8a-10a with high conversions and excellent selectivities. Reactions to produce 3a, 7a and 11a are performed with EnT1.2, which gave higher levels of selectivity compared with EnT1.3. With N-methyl quinolone 12, reactions with EnT1.3 proceed with modest selectivity, which can be improved with a rational Y121F mutation. Reaction conversions are the mean of biotransformations performed in triplicate. The absolute stereochemistry of products 2a-12a were assigned by analogy to the product (-)-1a formed by EnT1.3. Reaction conditions for the synthesis of 1a-12a are presented in Supplementary Table <ref type="table">S3</ref>.</p><p>N R O X n N R O X n EnT1.3 or EnT1.2 365/395nm PBS pH 7.4 4°C aerobic conditions N H O N H O O O N H O O N H O O 1a, 100% conversion 9:1 r.r., 99% e.e. 2a, 99% conversion 15:1 r.r., 90% e.e. 3a, 76% conversion 80% e.e. 4a, 98% conversion 92% e.e. H H H H H H H H N H O N H O 7a, 98% conversion 26% e.e. 8a, 100% conversion 97% e.e. H H H N H O N H O 5a, 100% conversion 95% e.e. 6a, 95% conversion 94% e.e. H H H H N O O Me 12a N H O O N H O O N H O O 9a, 89% conversion 87% e.e. 10a, 92% conversion 81% e.e. 11a, 89% conversion 48% e.e. H H H H H 4-(allyloxy)-quinolone derivatives 4-(alken-1-yl)-quinolone derivatives 4-((allyloxy)methyl) quinolone derivatives EnT1.3 69% conversion, 2:1 r.r., 36% e.e. EnT1.3 Y121F 94% conversion, 4:1 r.r., 78% e.e. N O O Me O N Y121F Q195 4-(allyloxyl)-N-methyl-quinolone derivatives H H 12 H H</p><p>To gain insights into the EnT1.3 catalytic mechanism, a crystal structure of a C-terminally truncated analogue (EnT1.3ΔC310-314, see Supplementary Information) complexed with product (-)-1a was solved (1.7 Å, Figure <ref type="figure" target="#fig_4">5</ref>, Supplementary Table <ref type="table">S5</ref>). This truncation has negligible effect on catalytic activity or selectivity (Supplementary Figure <ref type="figure" target="#fig_4">S5</ref>), and was introduced to circumvent the C-terminus of a neighbouring chain from occluding the EnT1.3 active site in crystallo. The ligand sits in a snug active site pocket with its aromatic ring sandwiched between His287 and the benzophenone sidechain (3.6 Å and 3.8 Å respectively, Figure <ref type="figure" target="#fig_4">5</ref>, Supplementary Figure <ref type="figure">S6</ref>). This pose presumably allows for efficient triplet energy transfer from the excited-state photosensitiser to the parent substrate. The crystal structure suggests that Trp244 may play a role in controlling reaction selectivity in favour of the formation of (-)-1a by shaping the active site cavity to prevent addition of the exocyclic alkene to the enantiotopic face of the excited quinolone. Indeed, a W244A mutation leads to a substantial reduction in activity and racemic product formation (Extended Data Figure <ref type="figure">8</ref>). Ligand binding is further supported by complementary hydrogen bonding interactions with Tyr121, which serves as a hydrogen bond acceptor to the quinolone N-H, and Gln195, which acts as a hydrogen bond donor to the quinolone carbonyl (Figure <ref type="figure" target="#fig_4">5</ref>). Interestingly, Tyr121 and Gln195 were designed to mediate Diels-Alder catalysis in DA_20_00 through hydrogen bonding interactions, albeit with opposite donor/acceptor relationships to those observed in EnT1.3. With substrate 1, mutation of Tyr121 to Phe leads to a 3-fold reduction in activity along with a modest decrease in enantioselectivity (67% e.e., Extended Data Figure <ref type="figure">8</ref>). In contrast, this mutation improves both activity and selectivity towards N-methylated substrate 12 (Figure <ref type="figure" target="#fig_3">4</ref>), where the N-methyl substituent likely occupies the position vacated by removal of the Tyr121 phenolic oxygen. The hydrogen bond from Gln195 to the quinolone carbonyl is particularly short (2.6 Å) and likely serves to lower the triplet energy of the substrate. <ref type="bibr" target="#b33">34</ref> Mutation of Gln195 to Ala leads to a considerable reduction in activity and selectivity, underscoring its importance to EnT1.3 catalysis. Gln195 is anchored in position by an additional hydrogen bond with Arg196, which emerged during evolution. Interestingly, in apo-EnT1.3 Gln195 and Arg196 lie in markedly different orientations, with Arg196 instead interacting with Asp149 and Glu225, suggesting that substrate binding may induce formation of a productive Arg196-Gln195-substrate hydrogen bonding network (Extended Data Figure <ref type="figure">9</ref>). This combined structural analysis offers a first glimpse into active site features governing efficient energy transfer catalysis, and provides an important blueprint for the future design of photoenzymes with new and augmented functions. (shown as a grey surface) in proximity to the BpA173 sidechain (atom-coloured sticks with green carbon), His287 and Trp244 (atom-coloured sticks, with grey carbon). π-stacking interactions are shown as pink dashed lines. B. Expanded view of the active site showing hydrogen bonding interactions (black dashed lines) involving R196, Q195, Y121 and the ligand.</p><p>In summary, our study provides a powerful demonstration of how an expanded genetic code can be used to embed entirely new modes of catalysis into proteins. This technology has allowed the development of a proficient photoenzyme that operates via a triplet energy transfer mechanism, a versatile reaction manifold in organic synthesis that was previously inaccessible to biocatalysis. While EnT1.3 was tailored to promote photochemical [2+2]-cycloadditions, we anticipate that our approach can be readily adapted to alternative chemistries that are enabled by triplet energy transfer. The catalytic performance and structural sophistication of EnT1.3 is particularly notable, given that &lt;1000 protein variants were evaluated across the evolutionary trajectory. Presumably, more efficient photocatalysts will be generated through a deeper exploration of protein sequence. Likewise, combinations of highthroughput experimentation and in silico design will deliver active sites with new geometries and arrangements of functional groups suitable for mediating selective photocatalysis. <ref type="bibr" target="#b34">35</ref> Thus with the mechanistic framework for embedding EnT catalysis into proteins now established, we are optimistic about the prospect of developing photoenzymes for a broad array of valuable photochemical processes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Procedures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials.</head><p>All chemicals and biological materials were obtained from commercial suppliers. Lysozyme, DNase I, chloramphenicol and kanamycin were purchased from Sigma-Aldrich; polymyxin B sulfate from AlfaAesar; LB agar, LB media, 2xYT media, Isopropyl-β-d-1thiogalactopyranoside (IPTG) and arabinose from Formedium; (S)-2-Amino-3-(4benzoylphenyl)propanoic acid from Flurochem; the pEVOL_pBpA/tRNACUA plasmid 32 was purchased from Addgene; Escherichia coli (E. coli) BL21(DE3), Escherichia coli (E. coli) 5α, Q5 DNA polymerase, T4 DNA ligase and restriction enzymes from New England BioLabs; and oligonucleotides and genes were synthesized by Integrated DNA Technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Construction of pET-29b_EnT1.0 and variants.</head><p>The original DA_20_00 design <ref type="bibr" target="#b12">13</ref> was subcloned using NdeI and XhoI restriction sites into a pET-29b(+) vector containing a C-terminal His6-tag to yield pET-29b(+)_DA_20_00. The Ala173BpA mutation was introduced by replacing the Ala173 codon with a TAG stop codon using QuikChange site-directed mutagenesis (Agilent) to yield pET-29b(+)_EnT1.0. Point mutants of EnT1.0 and variants were constructed using the same procedure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein production and purification.</head><p>For expression of EnT1.0 and its variants, chemically competent E. coli BL21(DE3) cells containing pEVOL_pBpA/tRNACUA <ref type="bibr" target="#b31">32</ref> were transformed with the appropriate pET29b(+) construct. A single colony of freshly transformed cells was used to inoculate 5 mL LB medium containing 50 μg mL -1 kanamycin and 25 μg mL -1 chloramphenicol and cultured for 18h at 37 ˚C and 200 r.p.m.. Starter cultures (500 µL) were used to inoculate 50 ml 2xYT medium supplemented with 50 μg mL -1 kanamycin, 25 μg mL -1 chloramphenicol and 1 mM (S)-2-Amino-3-(4-benzoylphenyl)propanoic acid (BpA), which was added as a 1 M stock dissolved in 1 M NaOH. Cultures were grown at 37°C, 200 r.p.m. to an optical density at 600 nm (OD600) of ~0.6 A.U.. Protein expression was induced with the addition of L-arabinose to a final concentration of 0.05% and IPTG to a final concentration of 0.1 mM. Induced cultures were incubated for 20 h at 25 °C and the cells were subsequently collected by centrifugation (3,220g for 10 min). Pelleted cells were resuspended in lysis buffer (50 mM HEPES, 300 mM NaCl, pH 7.5 containing 20 mM imidazole) and lysed by sonication (1 second on/off, 5 minutes total sonication) at 4 ˚C with the addition of 1 µg mL -1 DNase I. Cell lysates were clarified by centrifugation (27,216g for 30 min), and supernatants were subjected to affinity chromatography using Ni-NTA Agarose (Qiagen). His6-tagged proteins were eluted using 50 mM HEPES, 300 mM NaCl, pH 7.5 containing 250 mM imidazole. Buffer exchange of purified proteins was performed using 10DG desalting columns (Bio-Rad) and PBS pH 7.4 (137 mM NaCl; 2.7 mM KCl; 10 mM Na2HPO4; 1.8 mM KH2PO4) and analysed by SDS-PAGE. Proteins were aliquoted, flash-frozen in liquid nitrogen, and stored at -80 °C. Protein concentrations were determined by NanoDrop TM using an extinction coefficient of 46,410 M -1 cm -1 for DA_20_00 and 62,152 M -1 cm -1 for EnT1.0 and variants. Extinction coefficients for variants containing BpA were deduced through a comparison of DA_20_00 and EnT1.0 using a BCA Protein Assay kit (Thermofisher).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass spectrometry.</head><p>Purified protein samples were desalted on 10k MWCO Vivaspin centrifugal concentrators (Sartorius) using 0.1% acetic acid and diluted to a final concentration of 0.4 mg mL -1 . Mass spectrometry was performed on a 1200 series Agilent LC in conjunction with a Agilent QTOF 6510. A 5 µL sample injection was performed followed by a 1 min 5% acetonitrile (with 0.1% formic acid) isocratic wash. Protein was eluted over 1 min using 95% acetonitrile with 5% water. The resulting multiply charged spectrum was deconvoluted using Agilent MassHunter Software. Protein mass spectrometry results are displayed in Supplementary Information, Table <ref type="table">S7</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library construction.</head><p>Rounds 1 &amp; 2: Saturation mutagenesis. Positions were individually randomised using degenerate NNK codons. DNA libraries were constructed by overlap extension PCR. Primers for library generation are given in Supplementary Information Table <ref type="table">S10</ref>. Assembled genes and pET29b(+) vector were digested using NdeI and XhoI endonucleases, gel-purified and subsequently ligated using T4 DNA ligase in a 5:1 ratio, respectively. Ligations were transformed into Escherichia coli (E. coli) 5α cells, resulting colonies were pooled and plasmid DNA was extracted using a Mini-prep kit (Quiagen) to yield plasmid DNA for each library.</p><p>Sequencing was performed by Source Bioscience (Nottingham).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shuffling by overlap extension PCR.</head><p>After each round of evolution, beneficial mutations were combined by DNA shuffling of fragments generated by overlap extension PCR. Primers were designed that encoded either the parent amino acid or the identified mutation. These primers were used to generate short fragments that were gel-purified and mixed for assembly of the full length gene by overlap extension PCR. Final full length genes contain all possible combinations of mutations at specified positions. Genes were cloned as described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library screening.</head><p>For protein expression and screening, all transfer and aliquoting steps were performed using Hamilton liquid-handling robots. Chemically competent E. coli BL21(DE3) cells harbouring pEVOL_pBpA/tRNACUA were transformed with the appropriate library plasmids. Freshly transformed colonies were used to inoculate 180 μL of 2xYT medium supplemented with 50 μg mL -1 kanamycin and 25 μg mL -1 chloramphenicol in Corning ® Costar ® 96-well microtiter round bottom plates. Each plate contained 6 freshly transformed clones of the parent template and 2 clones containing pET-29b(+)_Ent1.0 as internal references. Plates were incubated overnight at 30 °C, 80 % humidity in a shaking incubator at 900 r.p.m. 20 µL of overnight culture was used to inoculate 480 μL 2xYT medium supplemented with 50 μg mL -1 kanamycin, 25 μg mL -1 chloramphenicol and 1 mM BpA which was added as a 1 M stock dissolved in 1 M NaOH. The cultures were incubated at 30 °C, 80 % humidity and 900 r.p.m. until an OD600 of ~0.6. Protein expression was induced by the addition of L-arabinose to a final concentration of 0.05% and IPTG to a final concentration of 0.1 mM. Induced plates were incubated for 20 h at 30 °C, 80 % humidity and 900 r.p.m. Cells were harvested by centrifugation at 2,900 g for 5 min. The supernatant was discarded and the pelleted cells were resuspended in 400 μL of PBS lysis buffer (137 mM NaCl; 2.7 mM KCl; 10 mM Na2HPO4; 1.8 mM KH2PO4, pH 7.4, 1.0 mg mL -1 lysozyme, 0.5 mg mL -1 polymixin B and 1 μg mL -1 DNase I) and incubated for 2 h at 30 °C, 80 % humidity with shaking at 900 r.p.m. Cell debris was removed by centrifugation at 2,900 g for 5 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rounds 1&amp;2:</head><p>A 75 µl volume of clarified lysate was transferred to 96-well polypropylene microtiter plates containing 25 µl of 1.2 mM substrate 1 in PBS buffer pH 7.4 with 20% DMSO as a cosolvent.</p><p>Samples were irradiated at 365nm in a UV curing LED oven (equipped with 365 nm &amp; 395 nm LEDs, UV intensity 750 mW cm -2 , LED module size 100 x 100, NovaChem), with pulsing irradiation (10 seconds on, 10 seconds off) at 4 °C for a total irradiation time of 30 minutes at 100% intensity. Reactions were quenched with the addition of 100 µl of acetonitrile, the plates heat sealed, and incubated for a further 1 h at 30 °C, 80% humidity, and 900 r.p.m. Precipitated proteins were removed by centrifugation at 2,900 g for 10 min. A 100 µl volume of the clarified reaction mixture was transferred to 96-well polypropylene microtiter plates and heat-sealed with pierceable foil. Reactions were evaluated by UPLC analysis (vide infra).</p><p>Following each round, the most active variants were rescreened as purified proteins and evaluated by both Ultra Performance Liquid Chromatography (UPLC) and Supercritical Fluid Chromatography (SFC) analysis (vide infra). Proteins were expressed and purified as described above with the exception that starter cultures were inoculated from glycerol stocks prepared from the original library plate overnight cultures.</p><p>General procedure for analytical scale biotransformations. 96-well microtiter round bottom polypropylene plates were used for biotransformations, using HD clear high-performance tape (Duck), 3-inch x 54.6-yard roll to seal the samples. Biotransformations were performed using 0.</p><p>4 mM substrate 1 and the relevant biocatalyst (20 µM) in PBS buffer pH 7.4 supplemented with 5% DMSO as a cosolvent. Samples were irradiated at 365 or 395nm in a UV curing LED oven (NovaChem), for the specified amount of time with pulsing LEDs (100% intensity, 750 mW cm -2 , 10 seconds on, 10 seconds off) at 4 °C. Conditions for substrate scope characterisation are detailed in Supplementary Information Table, S3. Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anaerobic biotransformations.</head><p>For anaerobic biotransformations samples of EnT1.3 and substrate were incubated in a glovebox overnight on ice to ensure complete removal of oxygen. Reactions were made up in the glovebox in glass vials and performed under general conditions using 2.5 mol% (10 µM) EnT1.3 -samples were taken at 10, 20, 30, 60 and 90 minutes. Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Total turnover numbers.</head><p>Total turnover numbers achieved by EnT1.3 were determined as follows. EnT1.3 (0.2 or 1.5 mol%)-catalysed biotransformations were performed in glass vials using 1 (800 µM) in PBS (pH 7.4) with 10% DMSO cosolvent (Extended Data Figure <ref type="figure">7</ref>). Reactions were performed under general conditions and samples were taken at 10, 20, 30, 40, 50, 60, 90, 120, 150, 180 and 210 minutes. Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EnT1.3 temperature profile.</head><p>Biotransformations were performed at 4 °C and room temperature independently in glass vials using 2.25 µM of EnT1.3 and 300 µM of substrate 1. For reactions at 4 °C, all reaction components were incubated in a cold room maintained at 4 °C for 30 minutes prior to running reactions. For both temperatures reactions were run using 100% intensity irradiation at 365 nm with 10 seconds on/ 10 seconds off intervals and samples were taken at 10, 20, 30, 40, 50, 60, 90 and 120 minutes. Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EnT1.3 cosolvent tolerance.</head><p>To investigate cosolvent tolerance, analytical-scale biotransformations were performed using 1 (400 µM) and EnT1.3 (7.5 µM) in PBS buffer (pH 7.4) with the stated concentration of MeCN or DMSO, for a total irradiation time of 30 minutes at 100% intensity at 365 nm with 10 seconds on/ 10 seconds off intervals at 4 °C (Supplementary Information, Table <ref type="table">S6</ref>).</p><p>Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photodamage biotransformations.</head><p>To investigate the effects of photodamage, aliquots of 30 µM enzyme in PBS (pH 7.4) were pre-irradiated for 90 minutes (10 seconds on/off pulse at 365 nm) 4 °C before performing reactions. Control aliquots of enzyme were incubated in the dark at 4 °C. Light exposed and non-light exposed protein samples (DA_20_00, EnT1.0 and EnT1.3) were analysed by SDS-PAGE (4-20% Mini-PROTEAN® TGX TM Precast Protein Gel, Bio-Rad) running at 100 volts for 90 minutes and stained using InstantBlue TM Coomassie Stain (abcam) (Extended Data Figure <ref type="figure" target="#fig_4">5</ref>). Biotransformations were established with 15 µM enzyme and 1 (400 µM) in PBS (pH 7.4) with 5% DMSO cosolvent and ran at 4 °C using 100% light intensity for 30 minutes irradiation (10 seconds on/off pulse) at 365 nm. Reactions were evaluated by UPLC analysis (vide infra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chromatographic analysis.</head><p>For UPLC analysis, reactions were quenched at the stated time points with the addition of 1 volume acetonitrile. Samples were shaken at 900 r.p.m for 1h and precipitated proteins were removed by centrifugation (2,900 g for 10 minutes). For SFC analysis, the substrates and products were transferred into 1.5 mL eppendorfs and extracted with 3 volumes of ethyl acetate. Precipitated proteins were cleared by centrifugation (14,000 g for 15 minutes), the organic phase was separated and directly injected onto the SFC.</p><p>UPLC analysis was performed on a 1290 Infinity II Agilent LC system with a Kinetex® 5 µm XB-C18 100 Å LC Column, 50 x 2.1 mm (Phenomenex). Peaks were assigned by comparison to chemically synthesized standards and the peak areas were integrated using Agilent OpenLab software. The separation methods for all substrate(s)/product(s) and extinction coefficients used to calculate the conversion are reported in Supplementary Information, Table <ref type="table">S8</ref>.</p><p>Chiral analysis was performed using an SFC 1290 Infinity II Agilent system. Enantiomers of all reaction products 1a-12a were separated using a Diacel 87S82 CHIRALPAK ® IG-3 SFC column, 3 mm, 50 mm, 3 µm. For all adducts (1a-12a) the major stereoisomer formed in the biotransformations was assigned based on an analogy to EnT1.3-derived (-)-1a. Peaks were assigned by comparison to chemically synthesized standards and peak areas were integrated using Agilent OpenLabs software. Separation methods for all substrate(s)/product(s) enantiomers used to determine enantiomeric excess are reported in Supplementary Information, Table <ref type="table">S9</ref>.</p><p>General Procedure 1: Synthesis of 4-(allyloxy)-quinolones* 1-4, 12. Quinoline-2,4-diol (500 mg, 3.10 mmol, 1 eq.) was dissolved in 10 mL of dry DMF with K2CO3 (857 mg, 6.20 mmol, 2 eq.) and stirred at 90°C for 1 h under nitrogen. Subsequently, the corresponding alkenyl bromide (4.65 mmol, 1.5 eq.) was added dropwise, and the solution was stirred overnight at 90°C. The reaction was quenched by addition of aqueous 1M HCl (30 mL) and then extracted with ethyl acetate (3 x 100 mL). The combined organic layers were washed with brine (2 x 50 mL), dried over MgSO4, filtered and the solvent removed in vacuo to give the crude product.</p><p>*Substrate 12 was synthesised in the same manner using 4-hydroxy-1-methylquinolin-2(1H)one as the starting material.</p><p>General Procedure 2 9 : Synthesis of 4-((allyloxy)methyl)quinolones 9-11. A solution of the corresponding allylic alcohol (2.73 mmol, 1.3 eq.) in 3.5 mL of dry THF was added to a suspension of sodium hydride (60% in paraffin oil, 185 mg, 4.62 mmol, 2.2 eq.) in 3.5 mL of dry THF at 0°C. The reaction mixture was stirred at 0°C for 2 h and then heated to reflux for a further 2 h. After cooling to room temperature, the solution was added dropwise to a stirring suspension of 4-bromomethyl-2(1H)-quinolinone (500 mg, 2.10 mmol, 1 eq.) in 3 mL dry THF at 0°C. Subsequently, the reaction mixture was stirred for 6 h at room temperature. The reaction was quenched by addition of aqueous 1M HCl (30 mL) and then extracted with ethyl acetate (3 x 100 mL). The combined organic layers were washed with brine (2 x 50 mL), dried over MgSO4, filtered and the solvent removed in vacuo to give the crude product.</p><p>General Procedure 3 15 : Synthesis of 4-(pent-4-en-1-yl)quinolones 5-8 2-hydroxy-4methylquinoline (500 mg, 3.14 mmol, 1 eq.) was suspended in 17.5 mL dry THF, cooled to 0°C and treated dropwise with n-butyl lithium (2.5M in hexane, 2.76 mL, 6.9 mmol, 2.2 eq.) under a nitrogen environment. The dark red solution was stirred at room temperature for 2 h, cooled to -78°C and treated with tetrabutylammonium iodide (872 mg, 2.36 mmol, 0.75 eq.) and the corresponding alkenyl bromide (6.34 mmol, 2.02 eq.) was added subsequently. The yellow solution was stirred at room temperature under a nitrogen environment for a further 3 h, cooled to 0°C and quenched by slow addition of 1M HCl (30 mL). The resulting solution was extracted with dichloromethane (3 x 100 mL). The combined organic layers were washed with aqueous NaHCO3 (60%, 50 mL) and brine (2 x 50 mL), dried over MgSO4, filtered and the solvent removed in vacuo to give the crude product.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General procedure 4: Synthesis of [2+2] cycloaddition product standards.</head><p>The corresponding quinolone (100 mg) was dissolved in acetonitrile to a concentration of 10 mM and degassed by bubbling nitrogen through the solution for 30 minutes. The solution was irradiated at λ = 300 nm at room temperature until full conversion was achieved (as monitored by TLC). The solvent was removed in vacuo to give the crude product.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-(but-3-en-1-yloxy)quinolin-2(1H)-one (1).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (407 mg, 61%</p><p>). EI-MS m/z = 216 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.49 (s, 1H, NH), 7.90 (d, J = 8.1 Hz, 1H, Ph), 7.50 (t, J = 7.6 Hz, 1H, Ph), 7.43 (d, J = 8.2 Hz, 1H, Ph), 7.19 (t, J = 7.6 Hz, 1H, Ph), 6.02 (s, 1H, CH), 5.94 (ddt, J = 16.9, 10.1, 6.7 Hz, 1H, CH), 5.23 (dq, J = 17.2, 1.6 Hz, 1H, CH), 5.16 (dq, J = 10.3, 1.4 Hz, 1H, CH), 4.17 (t, J = 6.5 Hz, 2H, CH2), 2.67 (q, J = 6.4 Hz, 2H, CH2); 13 C NMR (101 MHz, CDCl3) δ 166.41, 164.28, 138.57, 133.84, 131.29, 122.86, 122.29, 117.83, 116.34, 115.75, 96.42, 67.92, 33.18.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-(pent-4-en-1-yloxy)quinolin-2(1H)-one (2).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (448 mg, 63%</p><p>). EI-MS m/z = 230 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.55 (s, 1H, NH), 7.91 (dd, J = 8.1, 1.4 Hz, 1H, Ph), 7.50 (ddd, J = 8.4, 7.0, 1.4 Hz, 1H, Ph), 7.43 (dd, J = 8.3, 1.2 Hz, 1H, Ph), 7.19 (ddd, J = 8.2, 7.0, 1.3 Hz, 1H, Ph), 6.01 (s, 1H, CH), 5.86 (ddt, J = 16.9, 10.2, 6.7 Hz, 1H, CH), 5.13 -5.00 (m, 2H, CH2), 4.13 (t, J = 6.3 Hz, 2H, CH2), 2.31 (q, J = 7.4 Hz, 2H, CH2), 2.01 (p, J = 6.6 Hz, 2H, CH2).; 13 C NMR (101 MHz, CDCl3) δ 166.49, 164.36, 138.59, 137.35, 131.23, 122.81, 122.23, 116.37, 115.82, 115.78, 96.41, 68.08, 30.24, 27.93.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-((4-methylpent-3-en-1-yl)oxy)quinolin-2(1H)-one (3).</head><p>The crude product was purified by flash chromatography (2:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (422 mg, 56%</p><p>). EI-MS m/z = 244 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 11.96 (s, 1H, NH), 7.83 (d, J = 8.1 Hz, 1H, Ph), 7.48 (t, J = 8.4 Hz, 1H, Ph), 7.41 (d, J = 8.2 Hz, 1H, Ph), 7.18 (t, J = 7.5 Hz, 1H, Ph), 5.92 (s, 1H, CH), 5.19 (t, J = 7.1 Hz, 1H, CH), 3.91 (t, J = 6.7 Hz, 2H, CH2), 2.52 (q, J = 6.9 Hz, 2H, CH2), 1.74 (s, 3H, CH3), 1.69 (s, 3H, CH3); 13 C NMR (101 MHz, CDCl3) δ 166.07, 164.63, 138.13, 135.06, 131.30, 122.86, 122.47, 119.10, 116.42, 115.83, 96.26, 68.59, 27.78, 25.90, 18.06. 4-(allyloxy)quinolin-2(1H)-one (4). The crude product was purified by flash chromatography (2:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (374 mg, 60%). EI-MS m/z = 202 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.01 (s, 1H, NH), 7.97 (d, J = 6.7 Hz, 1H, Ph), 7.53 (t, J = 7.0 Hz, 1H, Ph), 7.42 (d, J = 8.0 Hz, 1H, Ph), 7.23 (t, 1H, Ph), 6.12 (ddt, J = 17.3, 10.6, 5.3 Hz, 1H, CH), 6.05 (s, 1H, CH), 5.52 (dq, J = 17.4, 1.6 Hz, 1H, CH), 5.40 (dt, J = 10.5, 1.3 Hz, 1H, CH), 4.70 (d, J = 5.4 Hz, 2H, CH2); 13 C NMR (101 MHz, CDCl3) δ 164.20, 138.33, 131.53, 131.51, 123.02, 122.62, 119.08, 116.39, 115.87, 96.78, 69.58, 27.05. 4-(pent-4-en-1-yl)quinolin-2(1H)-one (5). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (469 mg, 70%). EI-MS m/z = 214 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.85 (s, 1H, NH), 7.71 (d, J = 8.1 Hz, 1H, Ph), 7.55 -7.45 (m, 2H, Ph), 7.23 (td, J = 8.6, 4.5 Hz, 1H, Ph), 6.61 (s, 1H, CH), 5.85 (ddt, J = 17.0, 10.2, 6.6 Hz, 1H, CH), 5.13 -4.99 (m, 2H, CH2), 2.87 (t, J = 7.7 Hz, 2H, CH2), 2.21 (q, J = 7.2 Hz, 1H, CH), 1.84 (p, J = 7.5 Hz, 2H, CH2); 13 C NMR (101 MHz, CDCl3) δ 164.68, 153.26, 138.75, 137.91, 130.52, 124.21, 122.62, 119.95, 119.52, 117.12, 115.64, 33.49, 31.64, 28.03.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-(hex-5-en-1-yl)quinolin-2(1H)-one (6).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (486 mg, 68%</p><p>). EI-MS m/z = 228 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.77 (s, 1H, NH), 7.72 (d, J = 8.1 Hz, 1H, Ph), 7.55 -7.45 (m, 2H, Ph), 7.29 -7.18 (m, 1H, Ph), 6.61 (s, 1H, CH), 5.81 (ddt, J = 16.9, 10.2, 6.7 Hz, 1H, CH), 5.07 -4.93 (m, 2H, CH2), 2.87 (t, J = 7.7 Hz, 2H, CH2), 2.18 -2.08 (m, 2H, CH2), 1.81 -1.67 (m, 2H, CH2), 1.61 -1.49 (m, 2H, CH2); 13 C NMR (101 MHz, CDCl3) δ 164.61, 153.58, 138.66, 138.50, 130.56, 124.24, 122.70, 120.04, 119.31, 117.16, 114.99, 33.62, 32.23, 28.82, 28.37.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-(5-methylhex-4-en-1-yl)quinolin-2(1H)-one (7).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (500 mg, 66%</p><p>). EI-MS m/z = 242 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.53 (s, 1H, NH), 7.72 (d, J = 7.8 Hz, 1H, Ph), 7.50 (t, J = 7.8 Hz, 1H, Ph), 7.48 (d, J = 6.2 Hz, 1H, Ph), 7.24 (t, J = 6.3 Hz, 1H, Ph), 6.62 (s, 1H, CH), 5.17 (t, J = 7.2 Hz, 1H, CH), 2.86 (t, J = 8.1 Hz, 2H, CH2), 2.14 (q, J = 7.2 Hz, 2H, CH2), 1.78 (p, J = 7.5 Hz, 2H, CH2), 1.72 (s, 3H, CH3), 1.62 (s, 3H, CH3); 13 C NMR (101 MHz, CDCl3) δ 164.47, 153.78, 138.60, 132.83, 130.57, 124.33, 123.69, 122.72, 120.10, 119.32, 117.09, 31.89, 29.13, 27.87, 25.89, 17.98. 4-(4-methylpent-4-en-1-yl)quinolin-2(1H)-one (8). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (465 mg, 65%). EI-MS m/z = 228 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.58 (s, 1H, NH), 7.72 (d, J = 8.1 Hz, 1H, Ph), 7.51 (t, J = 7.4 Hz, 1H, Ph), 7.48 (d, J = 8.1 Hz, 1H, Ph), 7.24 (d, J = 7.4 Hz, 1H, Ph), 6.63 (s, 1H, CH), 4.78 (s, 1H, CH), 4.74 (s, 1H, CH), 2.87 (t, J = 7.9 Hz, 2H, CH2), 2.17 (t, J = 7.5 Hz, 2H, CH2), 1.89 (p, J = 7.5 Hz, 2H, CH2), 1.75 (s, 3H, CH3). 13 C NMR (101 MHz, CDCl3) δ 164.71, 153.29, 144.98, 138.76, 130.50, 124.19, 122.59, 119.97, 119.54, 117.07, 110.81, 37.51, 31.77, 26.68, 22.51.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-((allyloxy)methyl)quinolin-2(1H)-one (9).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (420 mg, 93%</p><p>). EI-MS m/z = 216 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.42 (s, 1H, NH), 7.68 (d, J = 6.9 Hz, 1H, Ph), 7.53 (t, J = 6.9 Hz, 1H, Ph), 7.48 (d, J = 6.8 Hz, 1H, Ph), 7.24 (t, J = 6.7 Hz, 1H, Ph), 6.89 (s, 1H, CH), 5.98 (ddt, J = 17.3, 10.8, 5.5 Hz, 1H, CH), 5.37 (dq, J = 17.2, 1.6 Hz, 1H, CH), 5.26 (dq, J = 10.4, 1.4 Hz, 1H, CH), 4.79 (s, 2H, CH2), 4.16 (dt, J = 5.5, 1.5 Hz, 2H, CH2); 13 C NMR (101 MHz, CDCl3) δ 164.33, 148.89, 138.49, 134.14, 130.83, 123.87, 122.94, 118.84, 118.61, 117.93, 116.96, 72.01, 68.60. 4-(((2-methylallyl)oxy)methyl)quinolin-2(1H)-one (10). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (366 mg, 73%). EI-MS m/z = 230 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.45 (s, 1H, NH), 7.68 (d, J = 7.5 Hz, 1H, Ph), 7.52 (t, J = 7.5 Hz, 1H, Ph), 7.48 (d, J = 6.7 Hz, 1H, Ph), 7.23 (t, J = 7.5 Hz, 1H, Ph), 6.89 (s, 1H, CH), 5.05 (s, 1H, CH), 4.97 (s, 1H, CH), 4.77 (s, 2H, CH2), 4.05 (s, 2H, CH2), 1.79 (s, 3H, CH3); 13 C NMR (101 MHz, CDCl3) δ 164.48, 148.86, 141.67, 138.53, 130.76, 123.82, 122.84, 118.85, 118.57, 116.92, 113.06, 74.98, 68.36, 19.65. 4-(((3-methylbut-2-en-1-yl)oxy)methyl)quinolin-2(1H)-one (11). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (408 mg, 80%). EI-MS m/z = 244 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 12.35 (s, 1H, NH), 7.72 (d, J = 6.9 Hz, 1H, Ph), 7.53 (t, J = 7.6 Hz, 1H, Ph), 7.47 (d, J = 6.9 Hz, 1H, Ph), 7.25 (t, J = 7.4 Hz, 1H, Ph), 6.87 (s, 1H, CH), 5.43 (t, J = 6.9 Hz, 1H, CH), 4.76 (s, 2H, CH2), 4.12 (d, J = 6.9 Hz, 2H, CH2), 1.78 (s, 3H, CH3), 1.69 (s, 3H, CH3); 13 C NMR (101 MHz, CDCl3) δ 164.29, 149.26, 138.46, 138.29, 130.82, 124.08, 122.96, 120.55, 118.99, 118.79, 116.93, 68.54, 67.49, 25.96, 18.28.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-(but-3-en-1-yloxy)-1-methylquinolin-2(1H)-one (12).</head><p>The crude product was purified by flash chromatography (2:1 ethyl acetate:cyclohexane) to give the product as a yellow solid (445 mg, 68%</p><p>). EI-MS = 229 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 7.96 (dd, J = 8.0, 1.6 Hz, 1H, Ph), 7.56 (ddd, J = 8.6, 7.1, 1.6 Hz, 1H, Ph), 7.35 -7.28 (m, 1H, Ph), 7.21 (ddd, J = 8.1, 7.2, 1.1 Hz, 1H, Ph), 6.00 (s, 1H, CH), 5.92 (ddt, J = 17.0, 10.3, 6.7 Hz, 1H, CH), 5.22 (dq, J = 17.2, 1.6 Hz, 1H, CH), 5.15 (dq, J = 10.2, 1.4 Hz, 1H, CH), 4.12 (t, J = 6.5 Hz, 2H, CH2), 3.65 (s, 3H, CH3), 2.64 (qt, J = 6.5, 1.4 Hz, 2H, CH2). 13 C NMR (101 MHz, CDCl3) δ 163.92, 161.86, 139.88, 133.89, 131.28, 123.49, 121.70, 117.74, 116.68, 114.10, 97.06, 67.69, 33.18, 29.14. 3,3a,4,4a-tetrahydro-2H-furo[2',3':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (1a, straightproduct). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (60 mg, 60%). EI-MS m/z = 216 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 9.39 (s, 1H, NH), 7.27 (dd, J = 7.9, 1.6 Hz, 1H, Ph), 7.20 (td, J = 7.6, 1.6 Hz, 1H, Ph), 7.03 (td, J = 7.5, 1.2 Hz, 1H, Ph), 6.82 (d, J = 8.0 Hz, 1H, Ph), 4.45 (ddd, J = 9.2, 7.8, 1.4 Hz, 1H, CH), 4.22 (ddd, J = 10.9, 9.2, 5.6 Hz, 1H, CH), 3.36 (ddd, J = 11.3, 6.9, 1.5 Hz, 1H, CH), 2.96 (td, J = 8.7, 5.2 Hz, 1H, CH), 2.47 -2.36 (m, 1H, CH), 2.25 -2.06 (m, 2H, CH2), 1.83 (dd, J = 12.8, 5.5 Hz, 1H, CH); 13 C NMR (101 MHz, CDCl3) δ 172.38, 136.20, 129.37, 126.44, 124.01, 123.61, 115.84, 83.44, 68.68, 46.83, 42.46, 32.45, 26.87. 2,3,4,4a-tetrahydro-4,10b-methanopyrano[3,2-c]quinolin-5(6H)-one (1b, crossedproduct). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (20 mg, 20%). EI-MS m/z = 216 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 9.36 (s, 1H, NH), 7.39 (dd, J = 7.4, 1.7 Hz 1H, Ph), 7.20 (td, J = 7.6, 1.6 Hz, 1H, Ph), 7.06 (t, J = 7.5 Hz, 1H, Ph), 6.86 (d, J = 7.8 Hz, 1H, Ph), 4.46 -4.35 (m, 1H, CH), 4.32 -4.21 (m, 1H, CH), 3.12 (ddd, J = 6.2, 4.2, 2.4 Hz, 1H, CH), 2.91 (d, J = 7.9 Hz, 1H, CH), 2.62 -2.53 (m, 1H, CH), 2.46 -2.33 (m, 1H, CH), 2.31 -2.21 (m, 1H, CH), 2.18 (dd, J = 11.0, 8.0 Hz, 1H, CH); 13 C NMR (101 MHz, CDCl3) δ 173.19, 135.46, 128.83, 125.22, 123.98, 123.84, 115.65, 80.20, 60.92, 51.23, 36.94, 36.52, 31.69. 3.91 -3.79 (m, 2H, CH2), 2.57 -2.47 (m, 1H, CH), 2.34 -2.24 (m, 1H, CH), 1.94 -1.79 (m, 2H, CH2), 1.76 -1.63 (m, 3H, CH, CH2); 13 C NMR (101 MHz, CDCl3) δ 170.08, 136.13, 129.44, 129.15, 126.62, 124.11, 115.76, 72.56, 63.43, 40.82, 40.36, 27.67, 25.72, 23.44.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3,4,5,5a-tetrahydro-2H-5,11b-methanooxepino[3,2-c]quinolin-6(7H)-one (2b, crossedproduct).</head><p>The crude product was purified by flash chromatography (2:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (24 mg, 24%). EI-MS m/z = 230 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 7.95 (s, 1H, NH), 7.43 (dd, J = 7.8, 1.6 Hz, 1H, Ph), 7.18 (td, J = 7.6, 1.5 Hz, 1H, Ph), 7.04 (td, J = 7.6, 1.2 Hz, 1H, Ph), 6.70 (dd, J = 7.9, 1.2 Hz, 1H, Ph), 4.20 -4.14 (m, 2H, CH2), 3.26 -3.19 (m, 1H, CH), 3.07 -2.97 (m, 1H, CH), 2.61 (dd, J = 13.4, 8.4 Hz, 1H, CH), 2.32 (dd, J = 13.4, 1.5 Hz, 1H, CH), 2.15 -1.98 (m, 3H, CH, CH2), 1.81 -1.69 (m, 1H, CH); <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 172.73, 134.81, 128.77, 126.79, 125.00, 123.95, 115.17, 79.96, 65.62, 48.87, 39.33, 36.95, 29.84, 29.17.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4,4-dimethyl-3,3a,4,4a-tetrahydro-2H-furo[2',3':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (3a).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (93 mg, 93%). EI-MS m/z = 244 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.93 (s, 1H NH), 7.29 (dd, J = 7.7, 1.7 Hz, 1H, Ph), 7.21 (td, J = 7.7, 1.5 Hz, 1H, Ph), 7.04 (td, J = 7.5, 1.2 Hz, 1H, Ph), 6.78 (dd, J = 8.0, 1.2 Hz, 1H, Ph), 4.42 -4.33 (m, 1H, CH), 4.04 (q, 1H, CH), 3.02 (d, J = 1.3 Hz, 1H, CH), 2.57 (dd, J = 6.9, 2.5 Hz, 1H, CH), 2.16 -2.00 (m, 2H, CH2), 1.22 (s, 3H, CH3), 1.12 (s, 3H, CH3); <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 169.39, 136.54, 129.43, 127.50, 124.10, 123.94, 115.91, 79.38, 68.86, 58.17, 51.79, 34.84, 27.80, 26.10, 24.81.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3,3a-dihydro-2H-3,9b-methanofuro[3,2-c]quinolin-4(5H)-one (4a).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (92 mg, 92%). EI-MS m/z = 202 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.66 (s, 1H, NH), 7.43 (dd, J = 7.5, 1.5 Hz, 1H, Ph), 7.25 (td, J = 7.7, 1.5 Hz, 1H, Ph), 7.10 (td, J = 7.5, 1.1 Hz, 1H, Ph), 6.88 (dd, J = 7.9, 1.5 Hz, 1H, Ph), 4.15 (d, J = 6.4 Hz, 1H, CH), 4.12 (d, J = 6.3 Hz, 1H, CH), 3.46 (d, J = 2.9 Hz, 1H, CH), 2.78 (d, J = 9.7 Hz, 1H, CH), 2.64 (dd, J = 8.4, 3.0 Hz, 1H, CH), 1.69 (dd, J = 9.7, 8.4 Hz, 1H, CH); <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 171.09, 137.03, 129.13, 124.01, 123.86, 121.86, 115.59, 86.81, 72.05, 52.77, 42.42, 40.90.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1,2,3,3a,4,4a-hexahydrocyclopenta[2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (5a).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (96 mg, 96%). EI-MS m/z = 214 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 9.20 (s, 1H, NH), 7.11 (d, J = 7.7 Hz, 2H, Ph), 7.00 (t, J = 7.5 Hz, 1H, Ph), 6.78 (d, J = 7.6 Hz, 1H, Ph), 3.01 (t, J = 9.5 Hz, 1H, CH), 2.72 -2.51 (m, 2H, CH2), 2.19 -2.03 (m, 3H, CH, CH2), 1.99 -1.76 (m, 3H, CH, CH2), 1.72 -1.63 (m, 1H,CH); <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 172.67, 136.31, 127.86, 127.53, 126.24, 123.90, 115.97, 49.76, 48.17, 41.80, 39.96, 33.69, 29.82, 25.96.</p><p>2,3,4,4a,5,5a-hexahydro-1H-benzo[2,3]cyclobuta[1,2-c]quinolin-6(7H)-one (6a). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (96 mg, 96%). EI-MS m/z = 228 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 9.35 (s, 1H, NH), 7.26 (d, J = 7.9 Hz, 1H, Ph), 7.14 (t, J = 7.6 Hz, 1H, Ph), 7.04 (t, J = 7.5 Hz, 1H, Ph), 6.81 (d, J = 8.0 Hz, 1H, Ph), 3.30 (t, J = 8.4 Hz, 1H, CH), 2.48 -2.30 (m, 2H, CH2), 2.00 (q, J = 10.1 Hz, 2H, CH2),</p><p>1.89 -1.20 (m, 7H, CH2, CH2, CH2, CH); 13 C NMR (101 MHz, CDCl3) δ 172.35, 136.12, 131.54, 127.98, 127.46, 123.86, 115.86, 42.80, 41.05, 39.70, 35.99, 29.98, 29.38, 22.74, 22.60. 4,4-dimethyl-1,2,3,3a,4,4a-hexahydrocyclopenta[2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (7a). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (92 mg, 92%). EI-MS m/z = 242 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 8.63 (s, 1H, NH), 7.14 (d, J = 7.7 Hz, 1H, Ph), 7.11 (t, J = 6.8 Hz, 1H, Ph), 7.00 (t, J = 7.5 Hz, 1H, Ph), 6.72 (d, J = 7.8 Hz, 1H, Ph), 2.68 (s, 1H, CH), 2.31 (d, J = 8.3 Hz, 1H, CH), 2.08 -1.86 (m, 4H, CH2, CH2), 1.85 -1.65 (m, 2H, CH2), 1.10 (s, 6H, CH3, CH3); 13 C NMR (101 MHz, CDCl3) δ 170.0, 136.36, 129.35, 127.29, 126.95, 123.82, 115.77, 59.36, 50.46, 46.08, 41.78, 38.79, 28.61, 27.03, 26.56, 24.38.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3a-methyl-1,2,3,3a,4,4a-hexahydrocyclopenta[2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (8a).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (91 mg, 91%). EI-MS m/z = 228 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.78 (s, 1H, NH), 7.13 (ddd, J = 8.3, 5.5, 3.0 Hz, 1H, Ph), 7.04 -6.95 (m, 2H, Ph), 6.76 (d, J = 7.9 Hz, 1H, Ph), 2.93 (dd, J = 11.2, 6.9 Hz, 1H, CH), 2.37 (t, J = 11.8 Hz, 1H, CH), 2.14 -1.90 (m, 5H, CH2, CH2, CH), 1.71 (dd, J = 13.0, 4.5 Hz, 1H, CH), 1.54 -1.43 (m, 1H, CH), 0.81 (s, 3H, CH3); <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 175.05, 137.11, 127.60, 127.56, 124.39, 123.24, 115.93, 51.77, 49.85, 41.77, 41.61, 38.28, 37.73, 24.85, 24.55.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3,3a,4,4a-tetrahydro-1H-furo[3',4':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (9a).</head><p>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (97 mg, 97%). EI-MS m/z = 216 [M + H] + . <ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.96 (s, 1H, NH), 7.22 -7.14 (m, 2H, Ph), 7.03 (td, J = 7.4, 1.2 Hz, 1H, Ph), 6.81 (d, J = 8.3 Hz, 1H, Ph), 4.09 (d, J = 9.5 Hz, 1H, CH), 4.02 (d, J = 9.7 Hz, 1H, CH), 3.94 (dd, J = 9.6, 5.6 Hz, 1H, CH), 3.79 (d, J = 9.6 Hz, 1H, CH), 3.30 (dd, J = 10.8, 8.0 Hz, 1H, CH), 2.90 (dd, J = 8.9, 4.7 Hz, 1H, CH), 2.60 (dt, J = 12.6, 8.6 Hz, 1H, CH), 2.31 (ddd, J = 12.6, 10.8, 4.0 Hz, 1H, CH); 13 C NMR (101 MHz, CDCl3) δ 171.64, 137.10, 128.48, 126.30, 123.95, 122.53, 116.30, 79.54, 75.32, 50.80, 49.19, 39.53, 29.38. 2 Hz, 1H, CH), 2.60 (t, J = 11.7 Hz, 1H, CH), 2.16 (dd, J = 12.4, 7.2 Hz, 1H, CH), 0.88 (s, 3H, CH3); C NMR (101 MHz, CDCl3) δ 171.96, 137.83, 128.55, 127.42, 123.45, 119.37, 116.41, 81.13, 79.80, 52.89, 51.11, 37.72, 37.09, 19.96. 13 C NMR (101 MHz, CDCl3) δ 169.03, 137.19, 128.26, 126.82, 123.82, 123.44, 116.15, 78.79, 70.48, 60.29, 50.47, 46.47, 38.46, 25.81, 24.46. 6-methyl-3,3a,4,4a-tetrahydro-2H-furo[2',3':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (12a, straight-product). The crude product was purified by flash chromatography (3:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (79 mg, 79%). EI-MS m/z = 229 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 7.37 -7.29 (m, 2H, Ph), 7.09 (td, J = 7.5, 1.1 Hz, 1H, Ph), 7.01 (dd, J = 8.3, 1.1 Hz, 1H, Ph), 4.44 (ddd, J = 9.4, 7.9, 1.5 Hz, 1H, CH), 4.22 (ddd, J = 11.1, 9.2, 5.7 Hz, 1H, CH), 3.39 (s, 4H, CH, CH3 * ), 2.91 (td, J = 8.5, 5.5 Hz, 1H, CH), 2.33 (ddd, J = 12.9, 9.0, 6.7 Hz, 1H, CH), 2.26 -2.06 (m, 2H, CH2), 1.83 (ddt, J = 12.8, 5.7, 1.4 Hz, 1H, CH). 13 C NMR (101 MHz, CDCl3) δ 170.42, 139.06, 129.43, 126.73, 125.26, 123.55, 114.59, 82.19, 68.67, 46.48, 42.35, 32.43, 29.34, 27.23. *Methyl and aliphatic CH peaks overlap.  <ref type="bibr" target="#b12">13</ref> C NMR (101 MHz, CDCl3) δ 171. 35, 138.49, 128.78, 126.90, 123.95, 123.50, 114.67,  78.95, 60.92, 50.82, 37.47, 36.28, 31.58, 29.76.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of chiral standards.</head><p>The enantiomers of 1a were separated by preparative chiral UPLC by Reach Separations (Nottingham) to afford (-)-1a (98.2% e.e.) and (+)-1a (99.6% e.e.) as white solids. The absolute stereochemistry was determined by measuring the optical rotation (-)-1a (-72.0°) (+)-1a (+72.0°) at 0.017 g ml -1 in methanol (MeOH) at 26 °C.</p><p>Crystallization, refinement and model building. EnT1.0 and EnT1.3 were crystallised by mixing 200 nl of 15 mg ml -1 protein in 20mM HEPES buffer, pH 7.5) with equal volumes of precipitant. All trials were conducted by sitting-drop vapour diffusion and incubated at 20 °C. Crystals of EnT1.3ΔC310-314 (expressed with an Nterminal His6-tag with 310-314 and the protein-tag linker deleted) co-crystallised with optically pure product (-)-1a were obtained by incubating 0.25mg ml -1 protein with 0.75mg ml -1 of (-)-1a in buffer (20mM HEPES, pH 7.5) at room temperature on a roller shaker for 18 hr. The sample was concentrated to ~10mg ml -1 and trays were laid using the sitting-drop vapour diffusion method by mixing 200 nl of protein with equal volumes of precipitant and incubating at 20 °C. Crystallisation conditions were identified using the PACT and JCSG-plus screens (Molecular Dimensions) and are provided in Supplementary Information, Table <ref type="table">S4</ref>.</p><p>Prior to data collection crystals were cryo-protected by the addition of 20% PEG 200 to the mother liquor and plunge cooled in liquid nitrogen. All data were collected at Diamond Light Source (Harwell, UK) using beamline i03. Data reduction was performed with Dials and the structure solved by molecular replacement using a search model derived from the structure of DA20_00_00_A74I (PDB: 3I1C). Iterative rounds of model building and refinement were performed in COOT and Phenix.refine, respectively. <ref type="bibr" target="#b35">36</ref> Validation with MOLPROBITY and PDBREDO <ref type="bibr" target="#b36">37</ref> were incorporated into the iterative rebuild and refinement process. Data collection and refinement statistics are shown in Supplementary Information, Table <ref type="table">S5</ref>. The coordinates and structure factors for EnT1.0, EnT1.3, and a EnT1.3ΔC310-314 with bound product (-)-1a have been deposited in the Protein Data Bank under accession numbers 7ZP5, 7ZP6 and 7ZP7, respectively. Residual FO-FC density is observed near the active site in the structure of EnT1.0 that could not readily be modelled by any components of the crystallisation mix.</p><p>Protein and DNA sequences. B = 4-benzoylphenylalanine, BpA EnT1.0 MEIPVIEPLFTKVTEDIPGAAGPVFDKNGDFYIVAPYVEVNGKPAGEILR IDLKTGKKTVICKPEVNGYGGIPAGCQCDRDANQLFVADMRLGLLVVQTD GTFEEIAKKDSEGRRMQGCAYCAFDYEGNLWITAPAGEVAPADFTISLQE KFGSIYCFTTDGQMIQVDTAFQBPAGIAVRHMNDGRPYQLIVAEQPTKKL WSYDIKGPAKIENKKVWGHIPGTHKGGAAGMDFDEDNNLLVANWGSSHIE VFGPDGGQPKMRIRCPFEKPSALHFKPQTKTIFVTEHENNAVWKFEWQRN GKKQYCETLKFGIFGSLEHHHHHH ATGGAGATCCCTGTCATTGAGCCTTTGTTTACCAAAGTGACCGAAGATAT TCCTGGTGCTGCTGGTCCAGTGTTCGACAAGAATGGGGACTTTTATATTG TGGCTCCATACGTGGAGGTAAACGGTAAACCAGCAGGTGAAATCTTGCGC ATCGATTTGAAGACAGGTAAGAAGACGGTCATCTGTAAGCCTGAAGTCAA CGGCTATGGAGGCATACCAGCCGGGTGCCAGTGCGACCGTGACGCCAACC AGTTATTTGTAGCTGATATGCGTCTGGGCCTTCTTGTTGTGCAAACTGAT GGGACATTTGAAGAAATTGCAAAAAAGGACAGCGAGGGGCGTCGTATGCA GGGTTGCGCCTACTGCGCTTTTGATTATGAAGGAAACTTATGGATTACGG CCCCAGCGGGCGAGGTGGCCCCTGCCGATTTTACCATCTCGTTACAAGAA AAATTCGGGTCAATCTATTGTTTTACCACCGACGGGCAAATGATCCAAGT GGATACCGCATTTCAGTAGCCAGCTGGTATTGCCGTGCGCCACATGAACG ACGGTCGCCCATATCAACTGATTGTGGCCGAGCAGCCAACTAAAAAGTTA TGGTCCTATGACATTAAAGGACCGGCAAAAATTGAAAATAAGAAAGTGTG GGGGCACATCCCGGGCACTCACAAAGGTGGAGCCGCCGGTATGGATTTCG ACGAAGACAACAATTTGTTAGTTGCCAATTGGGGCTCCTCGCATATCGAA GTATTCGGCCCGGATGGAGGTCAACCTAAGATGCGCATCCGCTGCCCGTT CGAAAAACCTTCTGCTTTACACTTTAAGCCACAGACAAAAACCATTTTCG TGACGGAGCACGAAAACAATGCAGTCTGGAAGTTCGAGTGGCAGCGCAAT GGCAAAAAGCAGTATTGCGAAACTCTTAAGTTCGGCATCTTCGGATCGCT CGAGCACCACCACCACCACCAC EnT1.1 MEIPVIEPLFTKVTEDIPGAAGPVFDKNGDFYIVAPYVEVNGKPAGEILR IDLKTGKKTVICKPEVNGYGGIPAGCQCDRDANQLFVADARLGLLVVQTD GTFEEIAKKDSEGRRMQGCAYCAFDYEGNLWITAPAGEVAPADFTISLQE KFGSIYCFTTDGQMIQVDTAFQBPAGIAVRHMNDGRPYQLIVAEQPTKKL WSYDIKGPAKIENKKVWGHIPGTHKGGAAGMDFDEDNNLLVANWGSSHIE VFGPDGGQPKMRIRCPFEKPSALHFKPQTKTIFVTEHENNAVWKFEWQRN GKKQYCETLKFGIFGSLEHHHHHH ATGGAGATCCCTGTCATTGAGCCTTTGTTTACCAAAGTGACCGAAGATAT TCCTGGTGCTGCTGGTCCAGTGTTCGACAAGAATGGGGACTTTTATATTG TGGCTCCATACGTGGAGGTAAACGGTAAACCAGCAGGTGAAATCTTGCGC ATCGATTTGAAGACAGGTAAGAAGACGGTCATCTGTAAGCCTGAAGTCAA CGGCTATGGAGGCATACCAGCCGGGTGCCAGTGCGACCGTGACGCCAACC AGTTATTTGTAGCTGATGCACGTCTGGGCCTTCTTGTTGTGCAAACTGAT GGGACATTTGAAGAAATTGCAAAAAAGGACAGCGAGGGGCGTCGTATGCA GGGTTGCGCCTACTGCGCTTTTGATTATGAAGGAAACTTATGGATTACGG CCCCAGCGGGCGAGGTGGCCCCTGCCGATTTTACCATCTCGTTACAAGAA AAATTCGGGTCAATCTATTGTTTTACCACCGACGGGCAAATGATCCAAGT GGATACCGCATTTCAGTAGCCAGCTGGTATTGCCGTGCGCCACATGAACG ACGGTCGCCCATATCAACTGATTGTGGCCGAGCAGCCAACTAAAAAGTTA TGGTCCTATGACATTAAAGGACCGGCAAAAATTGAAAATAAGAAAGTGTG GGGGCACATCCCGGGCACTCACAAAGGTGGAGCCGCCGGTATGGATTTCG ACGAAGACAACAATTTGTTAGTTGCCAATTGGGGCTCCTCGCATATCGAA GTATTCGGCCCGGATGGAGGTCAACCTAAGATGCGCATCCGCTGCCCGTT CGAAAAACCTTCTGCTTTACACTTTAAGCCACAGACAAAAACCATTTTCG TGACGGAGCACGAAAACAATGCAGTCTGGAAGTTCGAGTGGCAGCGCAAT GGCAAAAAGCAGTATTGCGAAACTCTTAAGTTCGGCATCTTCGGATCGCT CGAGCACCACCACCACCACCAC EnT1.2 MEIPVIEPLFTKVTEDIPGAAGPVFDKNGDFYIVAPYVEVNGKPAGEILR IDLKTGKKTVICKPEVNGYGGIPAGCQCDRDANQLFVADARLGLLVVQTD GTFEEIAKKDSEGRRMQGCAYCAFDYEGNLWITAPAGEVAPADFTISLDE KFGSIYCFTTDGQMIQVDTAFQBPAGIAVRHMNDGRPYQLIVAEQPTKKL WSYDIKGPAKIENKKVWGHIPGTHKGGASGMDFDEDNNLLVANWGSSHIE VFGPDGGQPKMRIRCPFEKPSALHFKPQTKTIFVTEHENNAVWKFEWQRN GKKQYCETLKFGIFGSLEHHHHHH ATGGAGATCCCTGTCATTGAGCCTTTGTTTACCAAAGTGACCGAAGATAT TCCTGGTGCTGCTGGTCCAGTGTTCGACAAGAATGGGGACTTTTATATTG TGGCTCCATACGTGGAGGTAAACGGTAAACCAGCAGGTGAAATCTTGCGC ATCGATTTGAAGACAGGTAAGAAGACGGTCATCTGTAAGCCTGAAGTCAA CGGCTATGGAGGCATACCAGCCGGGTGCCAGTGCGACCGTGACGCCAACC AGTTATTTGTAGCTGATGCACGTCTGGGCCTTCTTGTTGTGCAAACTGAT GGGACATTTGAAGAAATTGCAAAAAAGGACAGCGAGGGGCGTCGTATGCA GGGTTGCGCCTACTGCGCTTTTGATTATGAAGGAAACTTATGGATTACGG CCCCAGCGGGCGAGGTGGCCCCTGCCGATTTTACCATCTCGTTAGATGAA AAATTCGGGTCAATCTATTGTTTTACCACCGACGGGCAAATGATCCAAGT GGATACCGCATTTCAGTAGCCAGCTGGTATTGCCGTGCGCCACATGAACG ACGGTCGCCCATATCAACTGATTGTGGCCGAGCAGCCAACTAAAAAGTTA TGGTCCTATGACATTAAAGGACCGGCAAAAATTGAAAATAAGAAAGTGTG GGGGCACATCCCGGGCACTCACAAAGGTGGAGCCTCGGGTATGGATTTCG ACGAAGACAACAATTTGTTAGTTGCCAATTGGGGCTCCTCGCATATCGAA GTATTCGGCCCGGATGGAGGTCAACCTAAGATGCGCATCCGCTGCCCGTT CGAAAAACCTTCTGCTTTACACTTTAAGCCACAGACAAAAACCATTTTCG TGACGGAGCACGAAAACAATGCAGTCTGGAAGTTCGAGTGGCAGCGCAAT GGCAAAAAGCAGTATTGCGAAACTCTTAAGTTCGGCATCTTCGGATCGCT CGAGCACCACCACCACCACCAC EnT1.3 MEIPVIEPLFTKVTEDIPGAAGPVFDKNGDFYIVAPYVEVNGKPAGEILR IDLKTGKKTVICKPEVNGYGGIPAGCQCDRDANQLFVADARLGLLVVQTD GTFEEIAKKDSEGRRMQGCAYCAFDYEGNLWITAPAGEVAPADFTISLDE KFGSIYCFTTDGQMIQVDTAFQBPAGIAVRHMNDGRPYQLIVAEQRTKKL WSYDIKGPAKIENKKVWGHIPGTHEGGASGMDFDEDNNLLVANWGSSHIE VFGPDGGQPKMRIRCPFEKPSALHFKPQTKTIFVTEHENNAVWKFEWQRN GKKQYCETLKFGIFGSLEHHHHHH ATGGAGATCCCTGTCATTGAGCCTTTGTTTACCAAAGTGACCGAAGATAT TCCTGGTGCTGCTGGTCCAGTGTTCGACAAGAATGGGGACTTTTATATTG TGGCTCCATACGTGGAGGTAAACGGTAAACCAGCAGGTGAAATCTTGCGC ATCGATTTGAAGACAGGTAAGAAGACGGTCATCTGTAAGCCTGAAGTCAA CGGCTATGGAGGCATACCAGCCGGGTGCCAGTGCGACCGTGACGCCAACC AGTTATTTGTAGCTGATGCACGTCTGGGCCTTCTTGTTGTGCAAACTGAT GGGACATTTGAAGAAATTGCAAAAAAGGACAGCGAGGGGCGTCGTATGCA GGGTTGCGCCTACTGCGCTTTTGATTATGAAGGAAACTTATGGATTACGG CCCCAGCGGGCGAGGTGGCCCCTGCCGATTTTACCATCTCGTTAGATGAA AAATTCGGGTCAATCTATTGTTTTACCACCGACGGGCAAATGATCCAAGT GGATACCGCATTTCAGTAGCCAGCTGGTATTGCCGTGCGCCACATGAACG ACGGTCGCCCATATCAACTGATTGTGGCCGAGCAGCGGACTAAAAAGTTA TGGTCCTATGACATTAAAGGACCGGCAAAAATTGAAAATAAGAAAGTGTG GGGGCACATCCCGGGCACTCACGAGGGTGGAGCCTCGGGTATGGATTTCG ACGAAGACAACAATTTGTTAGTTGCCAATTGGGGCTCCTCGCATATCGAA GTATTCGGCCCGGATGGAGGTCAACCTAAGATGCGCATCCGCTGCCCGTT CGAAAAACCTTCTGCTTTACACTTTAAGCCACAGACAAAAACCATTTTCG TGACGGAGCACGAAAACAATGCAGTCTGGAAGTTCGAGTGGCAGCGCAAT GGCAAAAAGCAGTATTGCGAAACTCTTAAGTTCGGCATCTTCGGATCGCT CGAGCACCACCACCACCACCAC EnT1.3 C MGSSHHHHHHSSGLVPRGSHMEIPVIEPLFTKVTEDIPGAAGPVFDKNGD FYIVAPYVEVNGKPAGEILRIDLKTGKKTVICKPEVNGYGGIPAGCQCDR DANQLFVADARLGLLVVQTDGTFEEIAKKDSEGRRMQGCAYCAFDYEGNL WITAPAGEVAPADFTISLDEKFGSIYCFTTDGQMIQVDTAFQBPAGIAVR HMNDGRPYQLIVAEQRTKKLWSYDIKGPAKIENKKVWGHIPGTHEGGASG MDFDEDNNLLVANWGSSHIEVFGPDGGQPKMRIRCPFEKPSALHFKPQTK TIFVTEHENNAVWKFEWQRNGKKQYCETLK ATGGGCAGCAGCCATCATCATCATCATCACAGCAGCGGCCTGGTGCCGCG CGGCAGCCATATGGAGATCCCTGTCATTGAGCCTTTGTTTACCAAAGTGA CCGAAGATATTCCTGGTGCTGCTGGTCCAGTGTTCGACAAGAATGGGGAC TTTTATATTGTGGCTCCATACGTGGAGGTAAACGGTAAACCAGCAGGTGA AATCTTGCGCATCGATTTGAAGACAGGTAAGAAGACGGTCATCTGTAAGC CTGAAGTCAACGGCTATGGAGGCATACCAGCCGGGTGCCAGTGCGACCGT GACGCCAACCAGTTATTTGTAGCTGATGCACGTCTGGGCCTTCTTGTTGT GCAAACTGATGGGACATTTGAAGAAATTGCAAAAAAGGACAGCGAGGGGC GTCGTATGCAGGGTTGCGCCTACTGCGCTTTTGATTATGAAGGAAACTTA TGGATTACGGCCCCAGCGGGCGAGGTGGCCCCTGCCGATTTTACCATCTC GTTAGATGAAAAATTCGGGTCAATCTATTGTTTTACCACCGACGGGCAAA TGATCCAAGTGGATACCGCATTTCAGTAGCCAGCTGGTATTGCCGTGCGC CACATGAACGACGGTCGCCCATATCAACTGATTGTGGCCGAGCAGCGGAC TAAAAAGTTATGGTCCTATGACATTAAAGGACCGGCAAAAATTGAAAATA AGAAAGTGTGGGGGCACATCCCGGGCACTCACGAGGGTGGAGCCTCGGGT ATGGATTTCGACGAAGACAACAATTTGTTAGTTGCCAATTGGGGCTCCTC GCATATCGAAGTATTCGGCCCGGATGGAGGTCAACCTAAGATGCGCATCC GCTGCCCGTTCGAAAAACCTTCTGCTTTACACTTTAAGCCACAGACAAAA ACCATTTTCGTGACGGAGCACGAAAACAATGCAGTCTGGAAGTTCGAGTG GCAGCGCAATGGCAAAAAGCAGTATTGCGAAACTCTTAAG Methods References Extended Data Extended Data Figure <ref type="figure" target="#fig_2">3</ref>: Directed evolution of an efficient and enantioselective photoenzyme. Schematic showing the trajectory from DA_20_00 to EnT1.3. Mutations introduced are represented as CPK spheres at the C-alpha. The original design DA_20_00 contains 13 mutations built into a 6-bladed β-propeller scaffold (PDB 1E1A; a diisopropylfluorophosphatase from Loligo Vulgaris). <ref type="bibr" target="#b12">13</ref> Incorporation of the photosensitiser BpA (green atom-coloured sticks and semi-transparent CPK spheres) at position A173 provided EnT1.0. An alanine scan of EnT1.0 highlighted one variant with increased activity, providing EnT1.1. Two rounds of evolution afforded EnT1.3, which contains six mutations when compared to the original design DA_20_00. Library generation method, positions targeted, the number of clones evaluated, beneficial mutations and the most improved variant for each round are given in the table. A table providing conversion data is given in Supplementary Information, Table <ref type="table">S2</ref>. Error bars represent the standard deviation of measurements made in triplicate (error bars are not shown where they are smaller than the data point marker).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Photochemistry of [2+2]-cycloadditions. A. Comparison of thermally allowed [4+2]-and thermally forbidden [2+2]-cycloadditions and their ground state orbital interactions. B. Jablonski diagram representation of EnT photocatalysis. A photosensitiser (PS) is excited into a singlet state (S1), which subsequently undergoes intersystem crossing (ISC) to the triplet state (T1). EnT returns the PS to ground state, while exciting the substrate into T1. C-D.Enantioselective EnT photocatalysis can be achieved using achiral photosensitisers in combination with chiral co-catalysts<ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> or using chiral photosensitisers. 20 E. The approach to photoenzyme development described in this manuscript, involving selective installation of a genetically encoded photosensitiser into a protein scaffold and subsequent optimisation of the modified protein by directed evolution.</figDesc><graphic coords="4,72.00,364.38,455.20,257.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Development of the first-generation photoenzyme, EnT1.0. A. Genetic incorporation of a BpA photosensitiser (green CPK spheres) into the hydrophobic core of DA_20_00 (PDB: 3I1C) afforded the first-generation photocatalyst EnT1.0 (PDB: 7ZP5). B. Intramolecular [2+2]photocycloaddition of 4-(but-3-en-1-yloxy)quinolin-2(1H)-one (1) gives rise to two regioisomeric products, 3,3a,4,4a-tetrahydro-2H-furo[2',3':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (1a) and 2,3,4,4atetrahydro-4,10b-methanopyrano[3,2-c]quinolin-5(6H)-one (1b) C. Bar chart showing the conversion of 1 to 1a and 1b by EnT1.0, BP, and the unmodified protein DA_20_00. Reaction conditions: 15 µM catalyst, 400 µM 1, 30 minutes irradiation at 365 nm, 4 °C. EnT1.0 activity is dependent on light and affords the major product (-)-1a with 46% e.e.. Conversion and selectivity data are given in Supplementary TableS1. Error bars represent the standard deviation of measurements made in triplicate.</figDesc><graphic coords="5,72.00,357.83,448.48,155.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Directed evolution of an efficient and enantioselective photoenzyme. A. Schematic of the directed evolution workflow for photoenzyme engineering. B. Mutational map of EnT1.3, highlighting the encoded photosensitiser BpA173 (green sticks and semi-transparent CPK spheres) and residues installed during alanine scanning (pink sphere) and rounds 1 and 2 of evolution (peach and blue spheres, respectively). C. Reaction conversion, regioselectivity, and enantioselectivity were improved along the evolutionary trajectory. Reaction conditions: 10 µM catalyst (2.5 mol%), 400 µM 1, 30 minutes irradiation at 365 nm, 4 °C. The ratio of 1a:1b is represented as a pie chart and e.e. is given for (-)-1a. All conversion and selectivity data, including standard deviations, are given in Extended Data Figure 8. D. Reaction time-courses (1 to 1a and 1b, 10 μM catalyst (2.5 mol%), 400 μM 1, 365 nm, 4 °C) catalysed by Ent1.0 (pink) and EnT1.3 (blue). A comparison of EnT1.3 activity under anaerobic conditions is shown in orange.</figDesc><graphic coords="7,72.00,72.00,450.22,317.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Substrate scope of EnT1.3 and selected variants. EnT1.3 promotes intramolecular [2+2]cycloadditions on a range of quinolones to produce 4-(allyloxy)-, 4-(alken-1-yl)-and 4-((allyloxy)methyl)-quinolone derivatives 1a-2a, 4a-6a, and 8a-10a with high conversions and excellent selectivities. Reactions to produce 3a, 7a and 11a are performed with EnT1.2, which gave higher levels of selectivity compared with EnT1.3. With N-methyl quinolone 12, reactions with EnT1.3 proceed with modest selectivity, which can be improved with a rational Y121F mutation. Reaction conversions are the mean of biotransformations performed in triplicate. The absolute stereochemistry of products 2a-12a were assigned by analogy to the product (-)-1a formed by EnT1.3. Reaction conditions for the synthesis of 1a-12a are presented in Supplementary TableS3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: A 1.7 Å crystal structure of EnT1.3ΔC310-314 in complex with product (-)-1a. A. The product (atom-coloured sticks, carbon purple) is well accommodated within the active site pocket</figDesc><graphic coords="9,72.00,516.39,453.95,209.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>The crude product was purified by flash chromatography (2:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (71 mg, 71%). EI-MS m/z = 230 [M + H] + .<ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.70 (s, 1H, NH), 7.45 (dd, J = 7.8, 1.5 Hz, 1H, Ph), 7.25 (td, J = 7.7, 1.5 Hz, 1H, Ph), 7.11 (td, J = 7.5, 1.2 Hz, 1H, Ph), 6.79 (dd, J = 8.0, 1.2 Hz, 1H, Ph), 3.99 -3.91 (m, 1H, CH),</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (89 mg, 89%). EI-MS m/z = 230 [M + H] + .<ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 8.92 (s, 1H, NH), 7.19 (ddd, J = 8.4, 5.9, 2.9 Hz, 1H, Ph), 7.07 -6.99 (m, 2H, Ph), 6.83 (d, J = 7.9 Hz, 1H, Ph), 4.14 (d, J = 9.6 Hz, 1H, CH), 3.97 (d, J = 9.3 Hz, 1H, CH), 3.88 (d, J = 9.7 Hz, 1H, CH), 3.48 (d, J = 9.3 Hz, 1H, CH), 3.22 (dd, J = 11.0, 7.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>4, 4 -</head><label>4</label><figDesc>dimethyl-3,3a,4,4a-tetrahydro-1H-furo[3',4':2,3]cyclobuta[1,2-c]quinolin-5(6H)-one (11a). The crude product was purified by flash chromatography (1:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (95 mg, 95%). EI-MS m/z = 244 [M + H] + . 1 H NMR (400 MHz, CDCl3) δ 8.62 (s, 1H, NH), 7.23 -7.12 (m, 2H, Ph), 7.02 (t, J = 7.5 Hz, 1H, Ph), 6.76 (d, J = 7.9 Hz, 1H, Ph), 4.23 (d, J = 10.3 Hz, 1H, CH), 3.99 (d, J = 9.4 Hz, 1H, CH), 3.82 (dd, J = 10.3, 6.1 Hz, 1H, CH), 3.58 (d, J = 9.3 Hz, 1H, CH), 2.90 (s, 1H, CH), 2.51 (d, J = 6.0 Hz, 1H, CH), 1.20 (s, 3H, CH3), 1.16 (s, 3H, CH3);</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>The crude product was purified by flash chromatography (3:1 ethyl acetate:cyclohexane) to give the product as a colourless solid (18 mg, 18%). EI-MS m/z = 229 [M + H] + .<ref type="bibr" target="#b0">1</ref> H NMR (400 MHz, CDCl3) δ 7.44 (dd, J = 7.5, 1.6 Hz, 1H, Ph), 7.32 -7.26 (m, 1H, Ph), 7.10 (td, J = 7.5, 1.1 Hz, 1H, Ph), 7.00 (dd, J = 8.2, 1.1 Hz, 1H, Ph), 4.39 (dt, J = 11.3, 7.6 Hz, 1H, CH), 4.25 (ddd, J = 11.6, 7.9, 4.1 Hz, 1H, CH), 3.43 (s, 3H, CH3), 3.08 (ddd, J = 6.1, 4.1, 2.4 Hz, 1H, CH), 2.86 (d, J = 8.0 Hz, 1H, CH), 2.50 (ddd, J = 10.9, 5.8, 1.6 Hz, 1H, CH), 2.45 -2.30 (m, 1H, CH), 2.29 -2.20 (m, 1H, CH), 2.15 (dd, J = 10.9, 8.0 Hz, 1H, CH).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Extended Data Figure 1 : 2 :</head><label>12</label><figDesc>BpA positioning in the DA_20_00 scaffold. A) Positions within DA_20_00 selected to incorporate the photosensitiser 4-benzoylphenylalanine (BpA) are shown as green CPK spheres at the C-alpha. B) Bar chart showing reaction conversions and selectivities achieved by DA_20_00 variants with BpA installed at the specified positions. Reaction conditions: 15 µM catalyst, 400 µM 1, 30 minutes irradiation (10 seconds on/off pulse) at 365 nm, 4 °C, PBS (pH 7.4) with 5% DMSO as a cosolvent. Enantiomeric excess is given for the major product, (-)-1a. Error bars represent the standard deviation of measurements made in triplicate.Summary of alanine scan ofEnT1.0 A) Positions within EnT1.0 selected for the alanine scan of the active site are shown as atom-coloured sticks with pink carbon atoms. BpA173 is shown in green CPK spheres. B) Bar chart showing reaction conversions and regioselectivities achieved by EnT1.0 variants. Reaction conditions: 15 µM catalyst, 400 µM 1, 30 minutes irradiation (10 seconds on/off pulse) at 365 nm, 4 °C, PBS (pH 7.4) with 5% DMSO as a cosolvent. Error bars represent the standard deviation of measurements made in triplicate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Extended Data Figure 4 :</head><label>4</label><figDesc>Reaction time-courses of EnT1.0 and EnT1.3. Reaction conditions: 15 µM catalyst, 400 µM 1, 10 seconds on/off pulse at 365 nm, 4 °C, PBS (pH 7.4) with 5% DMSO as a cosolvent. At each time point, 100 μL of reaction mix was quenched with 1 volume MeCN and analysed by UPLC. Reaction conversion of 1 to 1a and 1b is given over 5 minutes. The gradients of a linear fit to the data are given for each variant.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="29,77.71,53.80,445.59,253.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="30,72.00,53.80,439.69,281.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="34,133.35,87.05,309.40,225.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="36,89.25,54.55,410.20,234.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="37,72.00,53.80,433.72,218.35" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge the <rs type="funder">European Research Council</rs> (<rs type="grantName">ERC Starter Grant</rs> no. <rs type="grantNumber">757991</rs> to A.P.G.) and the <rs type="funder">Biotechnology and Biological Sciences Research Council</rs> (<rs type="grantName">David Phillips Fellowship</rs> <rs type="grantNumber">BB/M027023/1</rs> to A.P.G. and Transition Award <rs type="grantNumber">BB/W014483/1</rs>). J.S.T was supported by an integrated catalysis Doctoral Training Programme (<rs type="grantNumber">EP/023755/1</rs>). R.C was supported by a <rs type="funder">BBSRC</rs> <rs type="grantName">Flexible Talent Mobility Account Award</rs> (<rs type="grantNumber">BB/S507969/1</rs>). We are grateful to the <rs type="institution" subtype="infrastructure">Diamond Light Source</rs> for time on beamline i03 under proposal MX24447, to the <rs type="institution">Manchester SYNBIOCHEM Centre</rs> (<rs type="grantNumber">BB/M017702/1</rs>), the <rs type="funder">Future Biomanufacturing Hub</rs> (<rs type="grantNumber">EP/S01778X/1</rs>) and the <rs type="funder">Henry Royce Institute for Advanced Materials</rs> (funded through <rs type="funder">EPSRC</rs> grants nos. <rs type="grantNumber">EP/R00661X/1</rs>, <rs type="grantNumber">EP/S019367/1</rs>, <rs type="grantNumber">EP/P025021/1</rs> and <rs type="grantNumber">EP/P025498/1</rs>) for access to their facilities, and to <rs type="person">M. Dunstan</rs> (<rs type="affiliation">Manchester Institute of Biotechnology</rs>) for guidance on automating directed evolution workflows. We thank <rs type="person">R. Spiess</rs> and <rs type="person">R. Sung</rs> (<rs type="affiliation">Manchester Institute of Biotechnology</rs>) for acquiring protein mass spectra and for assistance with UPLC method development, and <rs type="institution">Reach Separations (Nottingham)</rs> for supplying individual enantiomers of the product 1a. We are grateful to <rs type="institution">GlaxoSmithKline</rs> for access to their facilities, and to <rs type="person">Joseph Hosford</rs> and <rs type="person">Lee J. Edwards</rs> (<rs type="affiliation">GlaxoSmithKline, Stevenage</rs>) for helpful discussions. We are also grateful to <rs type="person">Prof. Daniele Leonori</rs> for helpful discussions throughout the project.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zxNhTY3">
+					<idno type="grant-number">757991</idno>
+					<orgName type="grant-name">ERC Starter Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_dsSeSHR">
+					<idno type="grant-number">BB/M027023/1</idno>
+					<orgName type="grant-name">David Phillips Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_uhKqmwJ">
+					<idno type="grant-number">BB/W014483/1</idno>
+				</org>
+				<org type="funding" xml:id="_7JPW5B5">
+					<idno type="grant-number">EP/023755/1</idno>
+					<orgName type="grant-name">Flexible Talent Mobility Account Award</orgName>
+				</org>
+				<org type="funding" xml:id="_RRVmcez">
+					<idno type="grant-number">BB/S507969/1</idno>
+				</org>
+				<org type="funding" xml:id="_MCDvgN9">
+					<idno type="grant-number">BB/M017702/1</idno>
+				</org>
+				<org type="funding" xml:id="_9KQ7zVD">
+					<idno type="grant-number">EP/S01778X/1</idno>
+				</org>
+				<org type="funding" xml:id="_A3JCZkh">
+					<idno type="grant-number">EP/R00661X/1</idno>
+				</org>
+				<org type="funding" xml:id="_zyuWpqj">
+					<idno type="grant-number">EP/S019367/1</idno>
+				</org>
+				<org type="funding" xml:id="_tcRwsE5">
+					<idno type="grant-number">EP/P025021/1</idno>
+				</org>
+				<org type="funding" xml:id="_JYaMet9">
+					<idno type="grant-number">EP/P025498/1</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Diamond Light Source</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>Coordinates and structure factors have been deposited in the Protein Data Bank under accession numbers 7ZP5, 7ZP6 and 7ZP7. The authors declare that the data supporting the findings of this study are available within the paper and its Supplementary Information files. Source data are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>J.S.T carried out organic synthesis and substrate profiling of EnT variants. R.C. carried out molecular biology, directed evolution experiments and protein crystallisation. J.S.T and R.C carried out protein production, assay development and photochemical assays. F.J.H. and C.L. interpreted, analysed and presented structural data. R.O., D.H., M.J.B.B., and D.F. contributed to experimental design and data analysis. A.P.G, J.S.T, R.C. F.J.H, and R.O. discussed the results and participated in writing the manuscript. All authors provided input throughout project progression. A.P.G. initiated and directed the research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p>Supplementary Information is available for this paper. Correspondence and requests for materials should be addressed to anthony.green@manchester.ac.uk.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B A</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Files</head><p>This is a list of supplementary les associated with this preprint. Click to download. SupplementaryInformation.pdf</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Design and evolution of an enzyme with a non-canonical organocatalytic mechanism</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">570</biblScope>
+			<biblScope unit="page" from="219" to="223" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burke, A. J. et al. Design and evolution of an enzyme with a non-canonical organocatalytic mechanism. Nature 570, 219-223 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A designer enzyme for hydrazone and oxime formation featuring an unnatural catalytic aniline residue</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Drienovská</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roelfes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="946" to="952" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drienovská, I., Mayer, C., Dulson, C. &amp; Roelfes, G. A designer enzyme for hydrazone and oxime formation featuring an unnatural catalytic aniline residue. Nat. Chem. 10, 946-952 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Expanding and reprogramming the genetic code</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="53" to="60" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chin, J. W. Expanding and reprogramming the genetic code. Nature 550, 53-60 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Adding New Chemistries to the Genetic Code</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="413" to="444" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, C. C. &amp; Schultz, P. G. Adding New Chemistries to the Genetic Code. Annu. Rev. Biochem. 79, 413-444 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Enantioselective Photochemical Reactions Enabled by Triplet Energy Transfer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Großkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kratz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rigotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1626" to="1653" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Großkopf, J., Kratz, T., Rigotti, T. &amp; Bach, T. Enantioselective Photochemical Reactions Enabled by Triplet Energy Transfer. Chem. Rev. 122, 1626-1653 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Strieth-Kalthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Glorius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Triplet Energy Transfer Photocatalysis: Unlocking the Next Level. Chem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1888" to="1903" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strieth-Kalthoff, F. &amp; Glorius, F. Triplet Energy Transfer Photocatalysis: Unlocking the Next Level. Chem 6, 1888-1903 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Enantioselective Visible-Light-Mediated Formation of 3-Cyclopropylquinolones by Triplet-Sensitized Deracemization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tröster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="3538" to="3541" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tröster, A., Bauer, A., Jandl, C. &amp; Bach, T. Enantioselective Visible-Light-Mediated Formation of 3-Cyclopropylquinolones by Triplet-Sensitized Deracemization. Angew. Chem. Int. Ed. 58, 3538-3541 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Intermolecular [2π+2σ]-photocycloaddition enabled by triplet energy transfer</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kleinmans</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-022-04636-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleinmans, R. et al. Intermolecular [2π+2σ]-photocycloaddition enabled by triplet energy transfer. Nature (2022). doi:10.1038/s41586-022-04636-x</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A Chiral Thioxanthone as an Organocatalyst for Enantioselective [2+2] Photocycloaddition Reactions Induced by Visible Light</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="4368" to="4371" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alonso, R. &amp; Bach, T. A Chiral Thioxanthone as an Organocatalyst for Enantioselective [2+2] Photocycloaddition Reactions Induced by Visible Light. Angew. Chem. Int. Ed. 53, 4368-4371 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Visible Light Photocatalysis of 6π Heterocyclization</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Münster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Dijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="9468" to="9472" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Münster, N., Parker, N. A., van Dijk, L., Paton, R. S. &amp; Smith, M. D. Visible Light Photocatalysis of 6π Heterocyclization. Angew. Chem. Int. Ed. Engl. 56, 9468-9472 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Deracemization through photochemical E/Z isomerization of enamines</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="869" to="874" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, M., Zhang, L., Pan, T. &amp; Luo, S. Deracemization through photochemical E/Z isomerization of enamines. Science 375, 869-874 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enantioselective Photochemical Rearrangements of Spirooxindole Epoxides Catalyzed by a Chiral Bifunctional Xanthone</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Maturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pöthig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. J. Chem</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1682" to="1692" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maturi, M. M., Pöthig, A. &amp; Bach, T. Enantioselective Photochemical Rearrangements of Spirooxindole Epoxides Catalyzed by a Chiral Bifunctional Xanthone. Aust. J. Chem. 68, 1682- 1692 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Computational Design of an Enzyme Catalyst for a Stereoselective Bimolecular Diels-Alder Reaction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="309" to="313" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegel, J. B. et al. Computational Design of an Enzyme Catalyst for a Stereoselective Bimolecular Diels-Alder Reaction. Science 329, 309-313 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Functionalized azetidines via visible lightenabled aza Paternò-Büchi reactions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Schindler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">5095</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Becker, M. R., Richardson, A. D. &amp; Schindler, C. S. Functionalized azetidines via visible light- enabled aza Paternò-Büchi reactions. Nat. Commun. 10, 5095 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Enantioselective Intramolecular [2 + 2]-Photocycloaddition Reactions of 4-Substituted Quinolones Catalyzed by a Chiral Sensitizer with a Hydrogen-Bonding Motif</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="16689" to="16697" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müller, C. et al. Enantioselective Intramolecular [2 + 2]-Photocycloaddition Reactions of 4- Substituted Quinolones Catalyzed by a Chiral Sensitizer with a Hydrogen-Bonding Motif. J. Am. Chem. Soc. 133, 16689-16697 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Paternò-Büchi Reactions of Silyl Enol Ethers and Enamides</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jödicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schröder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synthesis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="4268" to="4273" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogt, F., Jödicke, K., Schröder, J. &amp; Bach, T. Paternò-Büchi Reactions of Silyl Enol Ethers and Enamides. Synthesis 24, 4268-4273 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Enantioselective photochemistry through Lewis acid catalyzed triplet energy transfer</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Guzei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Yoon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="1391" to="1395" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blum, T. R., Miller, Z. D., Bates, D. M., Guzei, I. A. &amp; Yoon, T. P. Enantioselective photochemistry through Lewis acid catalyzed triplet energy transfer. Science 354, 1391-1395 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A Chiral Thiourea as a Template for Enantioselective Intramolecular [2 + 2] Photocycloaddition Reactions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brimioulle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Org. Chem</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="6965" to="6971" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayr, F., Brimioulle, R. &amp; Bach, T. A Chiral Thiourea as a Template for Enantioselective Intramolecular [2 + 2] Photocycloaddition Reactions. J. Org. Chem. 81, 6965-6971 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Triplet Energy Transfer from Ruthenium Complexes to Chiral Eniminium Ions: Enantioselective Synthesis of Cyclobutanecarbaldehydes by [2+2] Photocycloaddition</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Hörman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="9659" to="9668" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hörman, F. M. et al. Triplet Energy Transfer from Ruthenium Complexes to Chiral Eniminium Ions: Enantioselective Synthesis of Cyclobutanecarbaldehydes by [2+2] Photocycloaddition. Angew. Chem. Int. Ed 59, 9659-9668 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Light-driven enantioselective organocatalysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="6640" to="6642" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müller, C., Bauer, A. &amp; Bach, T. Light-driven enantioselective organocatalysis. Angew. Chem. Int. Ed. Engl. 48, 6640-6642 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Intramolecular [2+2] Photocycloaddition of 3-and 4-(But-3enyl)oxyquinolones: Influence of the Alkene Substitution Pattern, Photophysical Studies, and Enantioselective Catalysis by a Chiral Sensitizer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Maturi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="7461" to="7472" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maturi, M. M. et al. Intramolecular [2+2] Photocycloaddition of 3-and 4-(But-3- enyl)oxyquinolones: Influence of the Alkene Substitution Pattern, Photophysical Studies, and Enantioselective Catalysis by a Chiral Sensitizer. Chem. Eur. J. 19, 7461-7472 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An algal photoenzyme converts fatty acids to hydrocarbons</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sorigué</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="page" from="903" to="907" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sorigué, D. et al. An algal photoenzyme converts fatty acids to hydrocarbons. Science 357, 903- 907 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Photochemical Mechanism of Light-Driven Fatty Acid Photodecarboxylase</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Heyes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="6691" to="6696" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heyes, D. J. et al. Photochemical Mechanism of Light-Driven Fatty Acid Photodecarboxylase. ACS Catal. 10, 6691-6696 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Photocatalysis as the &apos;master switch&apos; of photomorphogenesis in early plant development</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Heyes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Plants</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="268" to="276" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heyes, D. J. et al. Photocatalysis as the &apos;master switch&apos; of photomorphogenesis in early plant development. Nat. Plants 7, 268-276 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The molecular origin of high DNA-repair efficiency by photolyase</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7302</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, C. et al. The molecular origin of high DNA-repair efficiency by photolyase. Nat. Commun. 6, 7302 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A genetically encoded photosensitizer protein facilitates the rational design of a miniature photocatalytic CO2-reducing enzyme</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1201" to="1206" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, X. et al. A genetically encoded photosensitizer protein facilitates the rational design of a miniature photocatalytic CO2-reducing enzyme. Nat. Chem. 10, 1201-1206 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Asymmetric redox-neutral radical cyclization catalysed by flavin-dependent &apos;ene&apos;-reductases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="71" to="75" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Black, M. J. et al. Asymmetric redox-neutral radical cyclization catalysed by flavin-dependent &apos;ene&apos;-reductases. Nat. Chem. 12, 71-75 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Photoenzymatic Synthesis of α-Tertiary Amines by Engineered Flavin-Dependent &quot;Ene&quot;-Reductases</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Turek-Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hyster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="19643" to="19647" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao, X., Turek-Herman, J. R., Choi, Y. J., Cohen, R. D. &amp; Hyster, T. K. Photoenzymatic Synthesis of α-Tertiary Amines by Engineered Flavin-Dependent &quot;Ene&quot;-Reductases. J. Am. Chem. Soc. 143, 19643-19647 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Accessing non-natural reactivity by irradiating nicotinamide-dependent enzymes with light</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Emmanuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Oblinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hyster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">540</biblScope>
+			<biblScope unit="page" from="414" to="417" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emmanuel, M. A., Greenberg, N. R., Oblinsky, D. G. &amp; Hyster, T. K. Accessing non-natural reactivity by irradiating nicotinamide-dependent enzymes with light. Nature 540, 414-417 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Photoinduced chemomimetic biocatalysis for enantioselective intermolecular radical conjugate addition</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41929-022-00777-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Catal</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, X. et al. Photoinduced chemomimetic biocatalysis for enantioselective intermolecular radical conjugate addition. Nat. Catal. (2022). doi:10.1038/s41929-022-00777-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Photoenzymatic enantioselective intermolecular radical hydroalkylation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">584</biblScope>
+			<biblScope unit="page" from="69" to="74" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, X. et al. Photoenzymatic enantioselective intermolecular radical hydroalkylation. Nature 584, 69-74 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Addition of a photocrosslinking amino acid to the genetic code of Escherichia coli</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="11020" to="11024" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chin, J. W., Martin, A. B., King, D. S., Wang, L. &amp; Schultz, P. G. Addition of a photocrosslinking amino acid to the genetic code of Escherichia coli. Proc. Natl. Acad. Sci. U. S. A. 99, 11020-11024 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Triplet-triplet absorption spectra of benzophenone and its derivatives</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Godfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hilpern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="490" to="492" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Godfrey, T. S., Hilpern, J. W. &amp; Porter, G. Triplet-triplet absorption spectra of benzophenone and its derivatives. Chem. Phys. Lett. 1, 490-492 (1967).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Enantioselective [2+2] Cycloadditions of Cinnamate Esters: Generalizing Lewis Acid Catalysis of Triplet Energy Transfer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Daub</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="9543" to="9547" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daub, M. E. et al. Enantioselective [2+2] Cycloadditions of Cinnamate Esters: Generalizing Lewis Acid Catalysis of Triplet Energy Transfer. J. Am. Chem. Soc. 141, 9543-9547 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Road to Fully Programmable Protein Catalysts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lovelock</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-022-04456-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lovelock, S. L. et al. The Road to Fully Programmable Protein Catalysts. Nature (2022). doi:10.1038/s41586-022-04456-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">PHENIX: a comprehensive Python-based system for macromolecular structure solution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams S</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. D</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="213" to="221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams s, P. D. et al. PHENIX: a comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr. D 66, 213-221 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Automatic rebuilding and optimization of crystallographic structures in the Protein Data Bank</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Joosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perrakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3392" to="3398" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joosten, R. P., Joosten, K., Cohen, S. X., Vriend, G. &amp; Perrakis, A. Automatic rebuilding and optimization of crystallographic structures in the Protein Data Bank. Bioinformatics 27, 3392-3398 (2011).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

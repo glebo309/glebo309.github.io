@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">UniProt: the universal protein knowledgebase</title>
+				<funder ref="#_ykrevYh">
+					<orgName type="full">British Heart Foundation</orgName>
+				</funder>
+				<funder ref="#_FSmJtqF">
+					<orgName type="full">Swiss Federal Government</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Molecular Biology Laboratory core funds</orgName>
+				</funder>
+				<funder ref="#_gN4E6qz #_yETSx9b #_5yzzkNT">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">State Secretariat for Education, Research and Innovation</orgName>
+				</funder>
+				<funder ref="#_y7Fcrvt">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-11-28">28 November 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">The</forename><forename type="middle">Uniprot</forename><surname>Consortium</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution">European Bioinformatics Institute (EMBL-EBI)</orgName>
+								<address>
+									<addrLine>Wellcome Genome Campus</addrLine>
+									<postCode>CB10 1SD</postCode>
+									<settlement>Hinxton Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">SIB Swiss Institute of Bioinformatics</orgName>
+								<orgName type="institution" key="instit2">Centre Medical Universitaire</orgName>
+								<address>
+									<addrLine>1 rue Michel Servet 1211 Geneva 4</addrLine>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Protein Information Resource</orgName>
+								<orgName type="institution">Georgetown University Medical Center</orgName>
+								<address>
+									<addrLine>3300 Whitehaven Street NW Suite 1200</addrLine>
+									<postCode>20007</postCode>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Protein Information Resource</orgName>
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution">University of Delaware</orgName>
+								<address>
+									<addrLine>15 Innovation Way Suite 205</addrLine>
+									<postCode>19711</postCode>
+									<settlement>Newark</settlement>
+									<region>DE</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alex</forename><surname>Bateman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wudong</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rodrigo</forename><surname>Lopez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jie</forename><surname>Luo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yvonne</forename><surname>Lussi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Al- Istair</forename><surname>Macdougall</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><surname>Nightingale</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Barbara</forename><surname>Palka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Klemens</forename><surname>Pichler</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Diego</forename><surname>Poggioli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sangya</forename><surname>Pundir</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Pureza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guoying</forename><surname>Qi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Rosanoff</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ioannis</forename><surname>Xenarios</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lydie</forename><surname>Bougueleret</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alan</forename><surname>Bridge</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><surname>Poux</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicole</forename><surname>Redaschi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lucila</forename><surname>Aimo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ghislaine</forename><surname>Argoud- Puy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Auchincloss</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kristian</forename><surname>Axelsen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Parit</forename><surname>Bansal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Delphine</forename><surname>Baratin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marie-Claude</forename><surname>Blatter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Brigitte</forename><surname>Boeck- Mann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jerven</forename><surname>Bolleman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><surname>Boutet</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lionel</forename><surname>Breuza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cristina</forename><surname>Casal-Casas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Edouard</forename><surname>De Castro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elisabeth</forename><surname>Coud- Ert</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Beatrice</forename><surname>Cuche</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mikael</forename><surname>Doche</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dolnide</forename><surname>Dornevil</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sev- Erine</forename><surname>Duvaud</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anne</forename><surname>Estreicher</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Livia</forename><surname>Famiglietti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Feuermann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elisabeth</forename><surname>Gasteiger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sebastien</forename><surname>Gehant</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vivi- Enne</forename><surname>Gerritsen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Arnaud</forename><surname>Gos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nadine</forename><surname>Gruaz-Gumowski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ursula</forename><surname>Hinz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chantal</forename><surname>Hulo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Florence</forename><surname>Jungo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><surname>Keller</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vicente</forename><surname>Lara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Lemercier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Lieber- Herr</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Thierry</forename><surname>Lombardot</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xavier</forename><surname>Martin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrick</forename><surname>Mas- Son</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anne</forename><surname>Morgat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Teresa</forename><surname>Neto</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nevila</forename><surname>Nouspikel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Salvo</forename><surname>Paesano</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ivo</forename><surname>Pedruzzi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sandrine</forename><surname>Pilbout</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Monica</forename><surname>Poz- Zato</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Manuela</forename><surname>Pruess</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Catherine</forename><surname>Rivoire</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bernd</forename><surname>Roechert</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michel</forename><surname>Schneider</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><surname>Sigrist</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Karin</forename><surname>Sonesson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvie</forename><surname>Staehli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andre</forename><surname>Stutz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shyamala</forename><surname>Sundaram</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Tog- Nolli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laure</forename><surname>Verbregue</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anne</forename><forename type="middle">-</forename><surname>Lise</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cathy</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cecilia</forename><forename type="middle">N</forename><surname>Arighi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leslie</forename><surname>Arminski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chuming</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yongxing</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">S</forename><surname>Garavelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hongzhan</forename><surname>Huang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kati</forename><surname>Laiho</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Mc- Garvey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Darren</forename><forename type="middle">A</forename><surname>Natale</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><surname>Ross</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Vinayaka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Qinghua</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yuqi</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lai-Su</forename><surname>Yeh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jian</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">European Bioinformatics Institute (EMBL-EBI)</orgName>
+								<address>
+									<addrLine>Wellcome Genome Campus</addrLine>
+									<postCode>CB10 1SD</postCode>
+									<settlement>Hinxton Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Rabie Saidi</orgName>
+								<address>
+									<addrLine>Tony Sawford</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Aleksandra Shypitsyna</orgName>
+								<address>
+									<addrLine>Elena Speretta Edward Turner</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">Nidhi Tyagi</orgName>
+								<address>
+									<addrLine>Vladimir Volynkin Tony Wardell, Kate Warner</addrLine>
+									<settlement>Xavier Watkins Rossana Zaru</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">European Bioinformatics Institute</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">UniProt: the universal protein knowledgebase</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-11-28">28 November 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CC1BD470DC19DC7680EBCE04252114DC</idno>
+					<idno type="DOI">10.1093/nar/gkw1099</idno>
+					<note type="submission">Received September 19, 2016; Revised October 25, 2016; Editorial Decision October 26, 2016; Accepted November 05, 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The UniProt knowledgebase is a large resource of protein sequences and associated detailed annotation. The database contains over 60 million sequences, of which over half a million sequences have been curated by experts who critically review experimental and predicted data for each protein.</p><p>The remainder are automatically annotated based on rule systems that rely on the expert curated knowledge. Since our last update in 2014, we have more than doubled the number of reference proteomes to 5631, giving a greater coverage of taxonomic diversity. We implemented a pipeline to remove redundant highly similar proteomes that were causing excessive redundancy in UniProt. The initial run of this pipeline reduced the number of sequences in UniProt by 47 million. For our users interested in the accessory proteomes, we have made available sets of pan proteome sequences that cover the diversity of sequences for each species that is found in its strains and sub-strains. To help interpretation of genomic variants, we provide tracks of detailed protein information for the major genome browsers. We provide a SPARQL endpoint that allows complex queries of the more than 22 billion triples of data in UniProt (<ref type="url" target="http://sparql.uniprot.org/">http://sparql.uniprot.org/</ref>). UniProt resources can be accessed via the website at <ref type="url" target="http://www.uniprot.org/">http://www.uniprot.org/</ref>.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.284" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Protein science is entering a new era that promises to unlock many of the mysteries of the cell's inner workings. Next generation sequencing is transforming the way that we access DNA information and, as the variety of protein assays that can be linked to a DNA or RNA read-out grows, we are gaining protein information at an increasing rate. For exam-ple, ribosomal profiling experiments are telling us when and where ribosomes bind for translation while CHIP-seq and CRAC give us information on the DNA and RNA binding properties of proteins. We are also gaining new insights into the mechanics of large assemblies of proteins through the incredible strides being made in electron microscopy technology. However, this wealth of molecular data will be worth little without it being available to and interpretable by the scientific community.</p><p>UniProt is a long-standing collection of databases that enable scientists to navigate the vast amount of sequence and functional information available for proteins. The UniProt Knowledgebase (UniProtKB) is the central resource that combines UniProtKB/Swiss-Prot and UniProtKB/TrEMBL. UniProtKB/Swiss-Prot contains over 550 000 sequences that have been created by our expert biocuration team. For these entries experimental information has been extracted from the literature and organized and summarized, greatly easing scientists access to protein information. UniProtKB/TrEMBL provides a further 60 million sequences that have been largely derived from high throughput sequencing of DNA. These entries are annotated by our rule based automatic annotation systems. We also provide a series of UniRef databases that provide sequence sets trimmed at various levels of sequence identity <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. Finally we provide the UniProt Archive (Uni-Parc) that provides a complete set of known sequences, including historical obsolete sequences <ref type="bibr" target="#b2">(3)</ref>.</p><p>In this article we describe the major developments that we have made since our last update published in this journal in 2014 <ref type="bibr" target="#b3">(4)</ref>. These updates have helped to improve the scalability and usability of UniProt for our end users. We also include a call to all life science authors to include UniProt accession numbers for proteins within their papers to help improve the connections between the literature and scientific databases.</p><p>Nucleic Acids Research, 2017, Vol. 45, Database issue D159 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PROGRESS AND NEW DEVELOPMENTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identifying redundant proteomes</head><p>The accelerating growth of sequenced genomes poses great challenges for databases with their major growth being driven by sequencing of very similar and almost identical strains of the same bacterial species. UniProtKB saw an exponential growth in the 2014-2015 time period, with April 2014 seeing a very high increase, reaching a peak of 90 million sequences with a high level of redundancy (e.g. 4080 proteomes of Staphylococcus aureus comprising 10.88 million proteins), see Figure <ref type="figure" target="#fig_0">1</ref>. While this wealth of protein information presents our users with new opportunities for proteome-wide analysis and interpretation, it also creates challenges in capturing, searching, preserving and presenting proteome data to the scientific community. In 2015, we introduced a method to identify and remove highly redundant bacterial proteomes within species groups, for example, strains of Escherichia coli, in UniProtKB while still making them available for users in UniParc. Briefly, the method identifies redundant proteomes by performing pairwise alignments of sets of sequences for pairs of proteomes and subsequently applies graph theory to find dominating sets that result in removal of proteomes that cause a minimal loss of information. Approximately 47 million proteins were removed from UniProtKB in March 2015. If this procedure were not being applied UniProtKB would now contain over 217 million sequences compared to the current 65 million. We have recently extended this approach to fungal species where there has been a similar if not as large (as yet) explosion in sequencing of highly similar genomes. As a result of this, ∼1 million fungal UniProtKB entries were deprecated in release 2016 08.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Growth of reference proteomes</head><p>The UniProt proteome pages (<ref type="url" target="http://www.uniprot.org/proteomes/">http://www.uniprot.org/  proteomes/</ref>) provide access to proteomes for over 56 000 (56 317, release 2016 07) species with completely sequenced genomes. The majority of these proteomes are based on the translation of genome sequence submissions to the International Nucleotide Sequence Database Consortium (INSDC) but also include predictions from Ensembl, RefSeq reference genomes and vector/parasitespecific databases like VectorBase <ref type="bibr" target="#b4">(5)</ref> and WormBase Par-aSite <ref type="bibr" target="#b6">(6)</ref>. Some proteomes may also include protein sequences based on high quality cDNAs that cannot be mapped to the current genome assemblies (due to sequencing errors or gaps) and have been manually reviewed following supporting evidence, and/or careful analysis of homologous sequences from closely related organisms. Proteomes can include both manually reviewed (UniProtKB/Swiss-Prot) and unreviewed (UniProtKB/TrEMBL) entries. The proportion of reviewed entries varies between proteomes, and is obviously greater for the proteomes of intensively curated model organisms. For example, the proteomes for Saccharomyces cerevisiae 288C and E. coli strain K12 consist entirely of reviewed entries. The unreviewed records are updated by our automatic annotation systems for every release, ensuring consistency and up-to-date annotations. To help in tracking and displaying proteomes, we use a proteome identifier that uniquely identifies the set of proteins corresponding to a single assembly of a completely sequenced genome. An example of a proteome can be found here: <ref type="url" target="http://www.uniprot.org/proteomes/UP000005640">http://www.uniprot.org/proteomes/UP000005640</ref>.</p><p>It is important to realize that there may be additional records for a particular species which do not belong to the defined proteome. For more information, please read <ref type="url" target="http://www.uniprot.org/help/proteome">http://www.uniprot.org/help/proteome</ref>.</p><p>As the number of new proteomes increases, it is important to organize the data in a way that allows users to effectively navigate the proteomes while keeping relevant and pertinent information easily accessible. To achieve this, UniProt provides reference proteomes to give a selection of species representing a broad coverage of the tree of life. These reference proteomes are selected via consultation with the research community or computationally determined from proteome clusters (7) using an algorithm that considers the best overall annotation score, an automatically calculated score which provides a heuristic measure of the annotation content of a proteome. There are currently 5,631 reference proteomes representing a cross-section of the taxonomic diversity found in UniProtKB (Figure <ref type="figure" target="#fig_1">2</ref>). They are the focus of both manual and automatic annotation, aiming to provide the best annotated protein sets for the selected species. They include model organisms and other proteomes of interest to biomedical and biotechnological research. We very much welcome feedback from our user community on our current list of reference proteomes and suggestions for new candidates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pan proteomes</head><p>To complement the growing set of reference proteomes, UniProt has developed pan proteomes analogous to the pan genome concept <ref type="bibr" target="#b8">(8)</ref>. A pan proteome is the full set D160 Nucleic Acids Research, 2017, Vol. 45, Database issue of proteins expressed by a group of highly related organisms (e.g. multiple strains of the same bacterial species). Pan proteomes provide a representative set of all the sequences within a taxonomic group and capture unique sequences not found in the group's reference proteome. UniProtKB pan proteomes encompass all non-redundant proteomes and are aimed at users interested in phylogenetic comparisons and the study of genome evolution and gene diversity.</p><p>For each reference proteome cluster, also known as representative proteome group <ref type="bibr" target="#b7">(7)</ref>, a pan proteome is the set of all the sequences in the reference proteome plus the unique protein sequences that are found in other species or strains of the cluster but not in the reference proteome. Details on how we compute pan proteomes can be found here: <ref type="url" target="http://pir.georgetown.edu/rps/pp.shtml">http://pir.georgetown.edu/rps/pp.shtml</ref>.</p><p>Pan proteomes are available as files of FASTA formatted sequences on the FTP site. On the UniProt website's proteomes pages, you will see a link to download the pan proteome file when a proteome has proteins that are part of a larger pan proteome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manual curation progress</head><p>Expert literature-based curation is stored in the UniProtKB/Swiss-Prot section of the UniProt Knowledgebase (UniProtKB) and constitutes a cornerstone of UniProt. UniProtKB/Swiss-Prot provides high quality annotation for experimentally characterized proteins and represents the world's most comprehensive catalogue of information on proteins. It is composed of more than 550 000 curated proteins, including all protein-coding genes for a number of key organisms such as human, S.</p><p>Nucleic Acids Research, 2017, Vol. 45, Database issue D161 cerevisiae, Schizosaccharomyces pombe, Bacillus subtilis and E. coli and contains in-depth information extracted from more than 210 000 publications that have been fully curated. In the last year we have added 3183 new entries to UniProtKB/Swiss-Prot (releases 2015 10 to 2016 09), which represents the growth in newly characterized proteins.</p><p>In spite of the rise of big data and high-throughput technologies in recent years, which have shifted a number of paradigms in the scientific community, expert curation is by far the most reliable method to report gold-standard information and provide an up-to-date knowledgebase containing experimental information. With more than a million articles indexed every year in PubMed, strict prioritization of articles and proteins for curation is crucial. A key challenge is the identification of relevant high-quality articles that allow for the comprehensive curation of a protein and literature selection is made according to well-established criteria which have been documented elsewhere (see ( <ref type="formula">9</ref>) for a description of categories of literature that are prioritized).</p><p>Literature curation of post-translational modifications (PTMs) and their consequences is a priority due to their crucial role in generating protein complexity and regulating protein activity, thus controlling many biological processes. Curation of experimentally determined PTMs from the literature is important as many PTMs cannot be reliably predicted by computational tools. Over the years, experimental PTMs have been catalogued in UniProtKB/Swiss-Prot, a catalog that can be used both as a high-quality training set for development and enhancement of bioinformatics algorithms, and as an essential library for the identification of proteins by proteomics. Priority is given to articles that describe new PTMs and/or characterize the effects of modifications. In addition, to complement this approach, we have developed a semi-automatic pipeline for integration of high-throughput proteomics data that is distinct from expert curation and which adds PTMs from manually evaluated large-scale proteomics publications <ref type="bibr" target="#b10">(10)</ref>.</p><p>The tubulin-alpha and -beta chains, which regulate microtubule properties and functions, provide a good example of the breadth of PTM curation in UniProtKB. A number of PTMs have been identified on tubulin chains, such as acetylation, phosphorylation, tyrosination/detyrosination, nitration, polyglutamylation and polyglycylation. Interestingly, while these modifications have been known for many years, the roles they play are only now starting to be understood. Recent advances in the field suggest the existence of a tubulin code, similar to the histone code, with a combination of PTMs that are interpreted by reader proteins <ref type="bibr" target="#b11">(11)</ref>.</p><p>In UniProtKB entries, PTM information is stored in the 'PTM/Processing' section, which describes the modified residues and a summary of what is known about the PTMs. Figure <ref type="figure">3</ref> shows the 'PTM/Processing' section for the human tubulin alpha-1A isotype (UniProtKB Q71U36). Descriptions of the modified residues are structured in a machinereadable format with the use of standardized vocabularies being essential to organize knowledge for subsequent retrieval. Four annotation types describe different types of amino acid modifications: modified residue, Disulfide bond, Cross-link and Glycosylation. Each PTM annotation is associated with a controlled vocabulary established in collab-oration with the RESID database <ref type="bibr" target="#b12">(12)</ref> and PSI-MOD <ref type="bibr" target="#b13">(13)</ref>.</p><p>A list of all terms used in UniProtKB is available in the ptmlist.txt document (<ref type="url" target="http://www.uniprot.org/docs/ptmlist">http://www.uniprot.org/docs/ptmlist</ref>).</p><p>Traceability of data is fundamental. Every new piece of knowledge is associated with the original source of the information and the type of supporting evidence, using the Evidence and Conclusion Ontology <ref type="bibr" target="#b14">(14)</ref>. In the example shown in Figure <ref type="figure">3</ref>, detyrosination, acetylation and nitration are supported by experimental evidence and the source references are displayed. In contrast, polyglutamylation (5glutamyl polyglutamate) is inferred by similarity to a related protein where the modification has been experimentally determined, and the source entry (UniProtKB P68369) is indicated. Interestingly, while polyglutamylation, which consists of the formation of glutamate side chains on specific glutamate residues in the C-terminal tail of both tubulinalpha and -beta chains, is well-known, the precise positions are still unclear for most proteins. For tubulin-alpha entries, only one site has been unambiguously identified in mouse.</p><p>In addition to describing amino acid modifications on the protein sequence in a structured format, the 'PTM' subsection provides a comprehensive summary of available PTM information (Figure <ref type="figure">3</ref>). We describe, for example, that tubulin polyglutamylation acts as a rheostat for microtubule severing by spastin (SPAST, UniProtKB Q9UBP0). Spastin specifically recognizes and cuts microtubules that are polyglutamylated: severing activity by spastin increases as the number of glutamates per tubulin rises from one to eight and decreases beyond this glutamylation threshold <ref type="bibr" target="#b15">(15)</ref>. We also describe the glycylation modification and explain why human tubulin is only monoglycylated and not polyglycylated as in other organisms, due to the absence of a functional TTLL10 enzyme in human (UniProtKB Q6ZVT0).</p><p>We attach specific importance to accuracy of knowledge. Information is reported in appropriate entries, which can be challenging in the case of tubulins where researchers often work with extracts containing different isotypes, making the task of precisely assigning information to the appropriate protein-coding gene difficult. When experiments are made on specific tubulin isotypes, information is reported in the entries corresponding to the relevant isotypes. For example, Edde et al. determined the protein sequence of a peptide that is polyglutamylated in mouse <ref type="bibr" target="#b16">(16)</ref>. The peptide sequence corresponded to Tuba1a and Tuba1b proteins and this information is reported in both of these entries (UniProtKB P68369 and P05213). In cases where experiments are done with tubulin extracts containing a mixture of different tubulin isotypes, information is reported in all of the tubulin isotypes that contain the modification: for example, Barisic et al. <ref type="bibr" target="#b17">(17)</ref> performed experiments in human cells and information about detyrosination is reportedin all human tubulin-alpha isotypes that contain a tyrosine residue at the C-terminus (UniProtKB Q71U36, P68363, Q9BQE3, Q13748 and Q6PEY2).</p><p>Annotation consistency and completeness is essential. In the course of PTM curation, curators also check that the annotation content of enzymes that mediate modifications is up-to-date. For example, detailed information can be found on proteins that mediate tubulin polyglutamylation (UniProtKB O95922, Q9BWV7, Q14679, Q6EMB2, Q8N841, Q6ZT98, Q3SXZ7, Q8NHH1, A6NNM8) and Figure 4. Growth of automatic annotation rules within UniRule. UniRule integrates rules from HAMAP, PIRSF and RuleBase.</p><p>Nucleic Acids Research, 2017, Vol. 45, Database issue D163 acetylation (UniProtKB Q5SQI0). We also describe proteins that 'read' modifications, such as the tubulin-severing ATPase spastin (UniProtKB accession Q9UBP0), which specifically acts on microtubules that are polyglutamylated.</p><p>The constant effort over the last 30 years has given rise to a unique resource in terms of PTM information. In total, more than 450 different types of PTMs are described in UniProtKB/Swiss-Prot, 45 000 experimentally proven modification sites are curated and more than 22 000 UniProtKB/Swiss-Prot entries contain experimental information on PTMs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Including UniProt accession numbers in scientific papers</head><p>The biomedical literature is vast, with over one million papers being added to PubMed every year. As mentioned above, UniProt curators triage these and select relevant papers to create and update our protein entries. This large task is made more difficult when the curator cannot easily identify precisely which protein(s) a paper is referring to. This is often due to a lack of information about the species or strain of the source organism of the protein being studied. The simple addition of a UniProt accession number in a paper could go a long way to helping both UniProt and other resources to incorporate the protein knowledge from new papers into their databases. This has many benefits for authors including increasing the reach and impact of their work. We request that authors use the following format (UniProtKB P68369) to describe a protein within the text of a paper. Using this format can also provide a simple mechanism to refer to other data resources. Some journals already have specific formatting requirements for such citations to accessions and these should be given precedence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Automatic annotation</head><p>We have developed two complementary rule-based systems to automatically annotate the unreviewed protein sequences of UniProtKB/TrEMBL with a high degree of accuracy. The first system, UniRule, consists of annotation rules which are created by the biocurators as part of the process of curation of the experimental literature for UniProtKB/Swiss-Prot. Our priorities for UniRule generation are (i) to focus on using and annotating new functional data of interest for proteomes, such as enzymes and pathways and (ii) to expand our coverage into new taxonomic and protein families. The developers ensure that the supporting technical infrastructure enables these rules to be created, maintained and applied both accurately and efficiently. UniRule is complemented by the Statistical Automatic Annotation System (SAAS), a completely automatic decision-tree-based rule-generating system in which rules are derived automatically from UniProtKB/Swiss-Prot entries sharing common annotations and characteristics. Both UniRule and SAAS use the hierarchical InterPro classification of protein family and domain signatures <ref type="bibr" target="#b18">(18)</ref> as a basis for protein classification and functional annotation. These rules share a common syntax that specifies the predicted annotations--including protein nomenclature, function, subcellular location and catalytic residues--and necessary conditions, such as the requirement for conserved functional residues and motifs. InterPro integrates signatures from the HAMAP <ref type="bibr" target="#b19">(19)</ref> and PIRSF <ref type="bibr" target="#b20">(20)</ref> projects within the UniProt Consortium. Figure <ref type="figure">4</ref> illustrates our progress in UniRule generation to date.</p><p>In addition to the ongoing development of our rulebased systems, we have also extended our automatic annotation approach in collaboration with the InterPro team at EMBL-EBI by focussing on enriching the feature annotation (FT) of UniProtKB/TrEMBL. The SAMs (Sequence Analysis Methods) are a suite of methods (Coils v2.2, TMHMM v2.0, Phobius and SignalP v4.0 currently) from external providers used to automatically generate sequence features such as Signal, Chain, Transmembrane and Coil regions. The results of these methods are combined and refined according to UniProt standards with the addition of the appropriate UniProtKB annotation. The new predictions are propagated into all the UniProtKB/TrEMBL records that do not already have feature predictions from UniRule. This data was introduced at UniProt release 2015 10 and is reapplied with each UniProt release. Another recent development in this collaboration is the annotation of domain predictions from the InterPro member databases PROSITE, SMART or Pfam in UniProtKB/TrEMBL entries. The name of the domain is taken from UniProtKB/Swiss-Prot annotation or InterPro entry names. This was introduced at UniProt release 2015 12 and is reapplied with each UniProt release. The resulting enrichment of the annotation present in UniProtKB/TrEMBL has increased significantly with these complementary approaches, as has the coverage. Annotation from the automatic annotation systems is labelled with evidence attribution indicating the specific source rule/method on both the UniProt website and in the UniProtKB files available at <ref type="url" target="http://www.uniprot.org/downloads">http://www.uniprot.org/  downloads</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mapping of proteomic data</head><p>High-throughput proteomics experiments deposited in proteomics repositories are a rich source of annotations for UniProtKB, providing supporting evidence for the existence of specific protein isoforms and PTMs. We have developed a pipeline that provides evidence annotations to UniProtKB records using proteomics datasets currently from PeptideAtlas ( <ref type="formula">21</ref>) MaxQB <ref type="bibr" target="#b22">(22)</ref> and Encyclopedia of Proteome Dynamics <ref type="bibr" target="#b23">(23)</ref>. Speciesspecific lists of identified experimental peptides from these repositories are uniquely matched to the products of a single gene by comparison with a database of in-silico digested peptides within the target UniProtKB species. Unique peptide identifications are used to generate annotations in UniProtKB/TrEMBL and to confirm protein existence. All peptide identifications and their mapped UniProtKB proteins are available via the UniProt FTP site (<ref type="url" target="ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/proteomics_mapping/">ftp://ftp.uniprot.org/pub/databases/uniprot/  current release/knowledgebase/proteomics mapping/</ref>) and as a dedicated track in the UniProt ProtVista feature viewer in the website. We have used our pipeline to annotate and map experimental peptides to UniProtKB proteins in 10 species including Homo sapiens, Mus musculus, Rattus norvegicus, S. cerevisiae, S. pombe, Caenorhabditis elegans, Drosophila melanogaster, Danio rerio, Sus scrofa and Bos taurus. Future work will focus on the annotation of PTMs and the extension of mappings to experimental data sets in the PRIDE repository <ref type="bibr" target="#b24">(24)</ref> and the Consortium for Top Down Proteomics <ref type="bibr" target="#b25">(25)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mapping the UniProt human proteome to the reference genome</head><p>With the increasing interest and progress in genomic-based medicine understanding the effects of variation on protein function is a key component of gene and variant curation <ref type="bibr" target="#b26">(26,</ref><ref type="bibr" target="#b27">27)</ref>. Unfortunately much of this information has not been readily available to medical geneticists. UniProtKB contains decades of literature-based and semi-automated curation describing protein function including variation data <ref type="bibr" target="#b28">(28)</ref>. Standard NGS annotation tools identify simple effects like translation stops and missense mutations, but more subtle effects like disruption of an enzyme active site, protein-binding site or post-translationally modified site are often not included. To make this information available to the genomic community, UniProt in collaboration with Ensembl has now mapped protein sequence annotation in the human reference proteome to the GRCh38 build of the human genome. Figure <ref type="figure" target="#fig_3">5</ref> illustrates pathogenic variants annotated in UniProt but not yet in ClinVar, dbSNP or OMIM. The figure also shows how these variants disrupt protein structural and functional features. Twenty-six positional annotation tracks and a protein sequence track are provided. These include: enzyme active sites; modified residues; protein binding domains; protein isoforms; protein variations; and more. The mappings and related annotation are available on the UniProt FTP site as extended BED text files and binary BigBED files for use on most genome browsers and also programmatically via a REST API (<ref type="url" target="http://www.ebi.ac.uk/proteins/api/doc/swagger/index.html">http://www.  ebi.ac.uk/proteins/api/doc/swagger/index.html</ref>). The mapping and annotation are also available as public Genome tracks on the Ensembl and UCSC genome browsers and via the Track Hub Registry (trackhubregistry.org).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Website developments</head><p>UniProt follows a user-centered design process, involving many users worldwide with varied research backgrounds and use cases, to improve its website and add new features. The most notable new development is the ProtVista feature viewer, a BioJS component that brings together sequence annotations in one compact view. UniProt FTs describe sites and regions of biological interest, such as an enzyme's active site, binding sites, PTMs, domains, etc., which play a critical role in the understanding of what the protein does. With the growth in biological data, integration and visualization become increasingly important for exposing different data aspects. Similar to genome browsers, ProtVista uses tracks to display different protein features, providing an intuitive picture of co-localized elements (see Figure <ref type="figure" target="#fig_4">6</ref>).</p><p>Each track can be expanded to reveal a more in-depth view of the underlying data. Users can zoom into and out of an area and clicking on a feature will trigger a pop-up Clicking on a feature highlights its position across all tracks so that co-localized elements can be easily identified. For example here the highlighted site is at the same position as disease correlated natural variants.</p><p>with more information about the feature, such as the feature position, description and any available evidence. The view can be customized to hide or show feature tracks. The viewer shows all features of a UniProtKB entry and includes additional features that are mapped from large-scale studies, currently for variants and proteomics data. The viewer is available for every UniProtKB protein entry through the 'Feature viewer' link under the 'Display' heading on the left hand side of the entry page.</p><p>The UniProt proteome pages (<ref type="url" target="http://www.uniprot.org/proteomes">http://www.uniprot.org/  proteomes</ref>) were launched in 2015 to enable users to access proteomes for species with completely sequenced genomes. One can query the data by taxonomy as well as genome and proteome identifiers and filter results for reference or nonredundant proteomes. The results table indicates the number of UniProt entries for each proteome and allows users to view or download them in a range of formats.</p><p>Individual proteome pages provide a short overview with details about the organism and genome assembly. The com-ponents of the genome assembly are listed in a table where it is possible to view or download the UniProt entries for selected components or the entire proteome. If a proteome is part of a pan proteome, a download link for the pan proteome is also provided. The pages for redundant proteomes link to the corresponding non-redundant proteome. Relevant publications describing the sequencing of the genome are also listed. Figure <ref type="figure">7</ref> shows the proteome page for B. subtilis 168--a non-redundant proteome. A short video tutorial is available on the UniProt YouTube channel (<ref type="url" target="https://www.youtube.com/watch?v=ZLt3ug0mZ7A">https:  //www.youtube.com/watch?v=ZLt3ug0mZ7A</ref>).</p><p>We have also added new pages for UniProt's automatic annotation systems, UniRule (Unified Rule system) and SAAS, which are used to automatically annotate unreviewed UniProtKB/TrEMBL entries in an efficient and scalable manner. All annotations that are predicted in this way link back to their source rules and users can now inspect these rules to understand which conditions have gen-  erated the annotations and to find other proteins that have been annotated by the same rule (see Figure <ref type="figure">8</ref>).</p><p>UniProtKB protein entries now have an enhanced view of publications relevant for a protein. UniProtKB contains more than 350 000 unique publications, with over 210 000 of these fully curated in UniProtKB/Swiss-Prot and the remainder imported in UniProtKB/TrEMBL. This set is complemented by more than 640 000 additional publications that have been computationally mapped from other resources to UniProtKB entries. The publications annotated in UniProtKB have previously been displayed in the entry view and a link provided access to a separate page that listed the computationally mapped publications. We have now combined all publications into a new 'Publications' view that can be accessed from a link under the 'Display' section (see Figure <ref type="figure" target="#fig_5">9</ref>). This has made it possible to implement filters to narrow the publication list by categories that are based on the type of data a publication contains about the protein (such as function, interaction, sequence, etc.) and it is easy to see if there are mapped publications in a category for which no annotated publications are available.</p><p>We have also introduced a new tool called 'Peptide search' (see Figure <ref type="figure" target="#fig_6">10</ref>) that is available from a link in the header of the UniProt website. Users can enter a peptide sequence (for example from a proteomics experiment) into D168 Nucleic Acids Research, 2017, Vol. 45, Database issue the search field and the tool quickly finds all UniProtKB sequences that match 100% with the query sequence <ref type="bibr" target="#b29">(29)</ref>. Searches can be restricted to a taxonomic subset of UniPro-tKB to further decrease the search time. The tool returns a results page showing the matched UniProtKB entries in a design consistent with the UniProtKB text search results page, including filters on the left, results on the right and an option to customize the results table through the 'Columns' button.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SPARQL endpoint</head><p>UniProt has been distributing its databases in RDF format (<ref type="url" target="https://www.w3.org/RDF/">https://www.w3.org/RDF/</ref>) since 2007. Complete datasets can be download from the UniProt FTP sites and individual records and query result sets can be retrieved programmatically via the UniProt website's REST API. To allow our users to also query these RDF data with SPARQL (<ref type="url" target="https://www.w3.org/TR/rdf-sparql-query/">https:  //www.w3.org/TR/rdf-sparql-query/</ref>), we have collaborated with several database software vendors and provided test datasets and use cases for performance studies to help them improve their RDF storage products over the years. The main challenges for the application of this technology are the data volume (22 billion triples at UniProt release 2016 07) and the highly variable complexity and number of user queries (with monthly averages ranging from app. 90 000 to over 4 million in 2015). By 2014, several RDF storage solutions had reached a stage of maturity that made it feasible to implement a public SPARQL endpoint for beta testing. This allowed us to test the technical infrastructure and also to identify areas for improvements in the data representation. The <ref type="url" target="http://sparql.uniprot.org/">http://sparql.uniprot.org/</ref> server has been running in production since July 2015 and is used by over 1000 unique users every month. It is updated with every UniProt release and can be linked using SPARQL 1.1's federated query capabilities with any remote data resource that has a SPARQL endpoint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Our knowledge of the protein world is rapidly growing, and the complexity of biological systems is becoming increasingly clear. UniProt continues to adapt its data gathering, data processing and data display to improve the availability and utility of protein information for the benefit of all.</p><p>The user community can contact UniProt with feedback and queries through the 'Contact' link on the website or via the e-mail help@uniprot.org. They can also subscribe to our Twitter feed @UniProt, follow our Facebook page or follow our blog 'Inside UniProt' for the latest updates.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Growth of the number of sequences in UniProt databases. The blue line shows the growth in UniProtKB/TrEMBL entries from January 2010 to date. The sharp drop in UniProtKB entries corresponds to the proteome redundancy minimization (PRM) procedure implemented in March 2015. Note that the post-PRM growth in UniProtKB is no longer exponential.</figDesc><graphic coords="2,60.14,69.43,238.22,221.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. The distribution of proteomes and reference proteomes across the tree of life.</figDesc><graphic coords="3,48.26,69.11,501.74,445.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .Figure 4 .</head><label>34</label><figDesc>Figure 3. Screenshot of a part of the 'PTM/Processing' section of human TUBA1A entry (UniProtKB Q71U36, http://www.uniprot.org/uniprot/Q71U36)</figDesc><graphic coords="5,89.26,69.15,419.66,353.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. The GLA gene (P06280, ␣-galactosidase A) associated with Fabry disease (FD) is shown on the UCSC genome browser using UniProt genome tracks plus variations from ClinVar, dbSNP and OMIM. Panel (A) shows UniProt annotation for a disulfide bond and an amino acid variation associated with FD that removes the Cystene required for a structural fold. Similar situations exist in panel (B) where part of the enzyme's Active Site is disrupted and panel (C) where an N-linked carbohydrate is located. Only the pathogenic variation in C is annotated in other public resources.</figDesc><graphic coords="7,48.26,69.39,501.74,280.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>NucleicFigure 6 .</head><label>6</label><figDesc>Figure 6. The ProtVista feature viewer. ProtVista uses tracks to display different protein features providing an integrated intuitive picture. The tracks can be expanded, as shown in this Figure with the Variants track.Clicking on a feature highlights its position across all tracks so that co-localized elements can be easily identified. For example here the highlighted site is at the same position as disease correlated natural variants.</figDesc><graphic coords="8,61.63,69.23,501.74,403.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. The new publications view for UniProtKB entries.</figDesc><graphic coords="10,61.63,69.07,501.74,231.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. The Peptide search interface.</figDesc><graphic coords="10,102.63,332.68,419.66,217.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,48.26,68.91,501.74,296.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,48.26,423.91,501.74,273.60" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>by guest on January 17, 2017 http://nar.oxfordjournals.org/ Downloaded from</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>http://nar.oxfordjournals.org/ Downloaded from</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>UniProt has been prepared by <rs type="person">Alex Bateman</rs>, <rs type="person">Maria Jesus Martin</rs>, <rs type="person">Claire O'Donovan</rs>, <rs type="person">Michele Magrane</rs>, <rs type="person">Emanuele Alpi</rs>, <rs type="person">Ricardo Antunes</rs>, <rs type="person">Benoit Bely</rs>, <rs type="person">Mark Bingley</rs>, <rs type="person">Carlos Bonilla</rs>, <rs type="person">Ramona Britto</rs>, <rs type="person">Borisas Bursteinas</rs>, <rs type="person">Hema Bye-A-Jee</rs>, <rs type="person">Andrew Cowley</rs>, <rs type="person">Alan Da Silva</rs>, <rs type="person">Maurizio De Giorgi</rs>, <rs type="person">Tunca Dogan</rs>, <rs type="person">Francesco Fazzini</rs>, <rs type="person">Leyla Garcia Castro</rs>, <rs type="person">Luis Figueira</rs>, <rs type="person">Penelope Garmiri</rs>, <rs type="person">George Georghiou</rs>, <rs type="person">Daniel Gonzalez</rs>, <rs type="person">Emma Hatton-Ellis</rs>, <rs type="person">Weizhong Li</rs>,</p></div>
+			</div>
+			<div type="funding">
+<div><p>FUNDING <rs type="funder">National Institutes of Health</rs> [<rs type="grantNumber">U41HG007822</rs>, <rs type="grantNumber">U41HG0 02273</rs>, <rs type="grantNumber">R01GM080646</rs>, <rs type="grantNumber">P20GM103446</rs>, U01GM120953]; <rs type="funder">British Heart Foundation</rs> [<rs type="grantNumber">RG/13/5/30112</rs>]; <rs type="programName">Parkinson's Disease United Kingdom</rs> [<rs type="grantNumber">G-1307</rs>]; <rs type="funder">Swiss Federal Government</rs> through the <rs type="funder">State Secretariat for Education, Research and Innovation</rs> and <rs type="funder">European Molecular Biology Laboratory core funds</rs>. Funding for open access charge: <rs type="funder">National Institutes of Health</rs> [U41HG007822].</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_y7Fcrvt">
+					<idno type="grant-number">U41HG007822</idno>
+				</org>
+				<org type="funding" xml:id="_gN4E6qz">
+					<idno type="grant-number">U41HG0 02273</idno>
+				</org>
+				<org type="funding" xml:id="_yETSx9b">
+					<idno type="grant-number">R01GM080646</idno>
+				</org>
+				<org type="funding" xml:id="_ykrevYh">
+					<idno type="grant-number">P20GM103446</idno>
+				</org>
+				<org type="funding" xml:id="_5yzzkNT">
+					<idno type="grant-number">RG/13/5/30112</idno>
+					<orgName type="program" subtype="full">Parkinson&apos;s Disease United Kingdom</orgName>
+				</org>
+				<org type="funding" xml:id="_FSmJtqF">
+					<idno type="grant-number">G-1307</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Conflict of interest statement. None declared.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">UniRef: comprehensive and non-redundant UniProt reference clusters</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Suzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcgarvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1282" to="1288" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suzek,B.E., Huang,H., McGarvey,P., Mazumder,R. and Wu,C.H. (2007) UniRef: comprehensive and non-redundant UniProt reference clusters. Bioinformatics, 23, 1282-1288.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">UniRef clusters: a comprehensive and scalable alternative for improving sequence similarity searches</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Suzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Mcgarvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uniprot</forename><surname>Consortium</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="926" to="932" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suzek,B.E., Wang,Y., Huang,H., McGarvey,P.B., Wu,C.H. and UniProt Consortium. (2015) UniRef clusters: a comprehensive and scalable alternative for improving sequence similarity searches. Bioinformatics, 31, 926-932.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">UniProt archive</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leinonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Diez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fleischmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3236" to="3237" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leinonen,R., Diez,F.G., Binns,D., Fleischmann,W., Lopez,R. and Apweiler,R. (2004) UniProt archive. Bioinformatics, 20, 3236-3237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">UniProt: a hub for protein information</title>
+		<author>
+			<orgName type="collaboration">UniProt Consortium.</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="204" to="D212" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">UniProt Consortium. (2015) UniProt: a hub for protein information. Nucleic Acids Res., 43, D204-D212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Giraldo-Calderon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Emrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Maccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maslen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dialynas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Topalis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gesing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vectorbase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Madey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="707" to="D713" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giraldo-Calderon,G.I., Emrich,S.J., MacCallum,R.M., Maslen,G., Dialynas,E., Topalis,P., Ho,N., Gesing,S., VectorBase,C., Madey,G. et al. (2015) VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases. Nucleic Acids Res., 43, D707-D713.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<idno>issue D169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nucleic Acids Research, 2017, Vol. 45, Database issue D169</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">WormBase 2016: expanding to enable helminth genomic research</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Bolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Done</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Down</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="774" to="D780" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howe,K.L., Bolt,B.J., Cain,S., Chan,J., Chen,W.J., Davis,P., Done,J., Down,T., Gao,S., Grove,C. et al. (2016) WormBase 2016: expanding to enable helminth genomic research. Nucleic Acids Res., 44, D774-D780.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Representative proteomes: a stable, scalable and unbiased proteome set for sequence analysis and functional annotation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mazumder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011">2011. 18910</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen,C., Natale,D.A., Finn,R.D., Huang,H., Zhang,J., Wu,C.H. and Mazumder,R. (2011) Representative proteomes: a stable, scalable and unbiased proteome set for sequence analysis and functional annotation. PLoS One, 6, e18910.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The microbial pan-genome</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Medini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tettelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Genet. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="589" to="594" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Medini,D., Donati,C., Tettelin,H., Masignani,V. and Rappuoli,R. (2005) The microbial pan-genome. Curr. Opin. Genet. Dev., 15, 589-594.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Expert curation in UniProtKB: a case study on dealing with conflicting and erroneous data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Arighi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laiho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Uniprot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Database</title>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poux,S., Magrane,M., Arighi,C.N., Bridge,A., O&apos;Donovan,C., Laiho,K. and UniProt,C. (2014) Expert curation in UniProtKB: a case study on dealing with conflicting and erroneous data. Database, 2014, bau016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The UniProtKB guide to the human proteome</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breuza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estreicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Famiglietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tognolli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baratin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Redaschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uniprot</forename><surname>Consortium</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Database</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+	<note>bav120</note>
+	<note type="raw_reference">Breuza,L., Poux,S., Estreicher,A., Famiglietti,M.L., Magrane,M., Tognolli,M., Bridge,A., Baratin,D., Redaschi,N. and UniProt Consortium. (2016) The UniProtKB guide to the human proteome. Database, 2016, bav120.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The tubulin code: a navigation system for chromosomes during mitosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barisic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maiato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="766" to="775" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barisic,M. and Maiato,H. (2016) The tubulin code: a navigation system for chromosomes during mitosis. Trends Cell Biol., 26, 766-775.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The RESID database of protein modifications as a resource and annotation tool</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Garavelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1527" to="1533" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garavelli,J.S. (2004) The RESID database of protein modifications as a resource and annotation tool. Proteomics, 4, 1527-1533.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The PSI-MOD community standard for representation of protein modification data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montecchi-Palazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beavis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Binz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Chalkley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cottrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Creasy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shofstahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Garavelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="864" to="866" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montecchi-Palazzi,L., Beavis,R., Binz,P.A., Chalkley,R.J., Cottrell,J., Creasy,D., Shofstahl,J., Seymour,S.L. and Garavelli,J.S. (2008) The PSI-MOD community standard for representation of protein modification data. Nat. Biotechnol., 26, 864-866.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Standardized description of scientific evidence using the evidence ontology</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Chibucos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Balakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Christie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Huntley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giglio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>ECO). Database</publisher>
+			<biblScope unit="page">75</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chibucos,M.C., Mungall,C.J., Balakrishnan,R., Christie,K.R., Huntley,R.P., White,O., Blake,J.A., Lewis,S.E. and Giglio,M. (2014) Standardized description of scientific evidence using the evidence ontology (ECO). Database, 2014, bau075.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Graded control of microtubule severing by tubulin glutamylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Valenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roll-Mecak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="911" to="921" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valenstein,M.L. and Roll-Mecak,A. (2016) Graded control of microtubule severing by tubulin glutamylation. Cell, 164, 911-921.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Posttranslational glutamylation of alpha-tubulin</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Edde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rossier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Le Caer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Desbruyeres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Denoulet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="83" to="85" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edde,B., Rossier,J., Le Caer,J.P., Desbruyeres,E., Gros,F. and Denoulet,P. (1990) Posttranslational glutamylation of alpha-tubulin. Science, 247, 83-85.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mitosis. Microtubule detyrosination guides chromosomes during mitosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barisic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Silva E Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Tripathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Magiera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Zaytsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Janke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Grishchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maiato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="799" to="803" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barisic,M., Silva e Sousa,R., Tripathy,S.K., Magiera,M.M., Zaytsev,A.V., Pereira,A.L., Janke,C., Grishchuk,E.L. and Maiato,H. (2015) Mitosis. Microtubule detyrosination guides chromosomes during mitosis. Science, 348, 799-803.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The InterPro protein families database: the classification resource after 15 years</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daugherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcanulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcmenamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pesseat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="213" to="D221" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mitchell,A., Chang,H.Y., Daugherty,L., Fraser,M., Hunter,S., Lopez,R., McAnulla,C., McMenamin,C., Nuka,G., Pesseat,S. et al. (2015) The InterPro protein families database: the classification resource after 15 years. Nucleic Acids Res., 43, D213-D221.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">HAMAP in 2015: updates to the protein family classification and annotation system</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pedruzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rivoire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Auchincloss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coudert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baratin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Cuche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bougueleret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1064" to="D1070" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedruzzi,I., Rivoire,C., Auchincloss,A.H., Coudert,E., Keller,G., de Castro,E., Baratin,D., Cuche,B.A., Bougueleret,L., Poux,S. et al. (2015) HAMAP in 2015: updates to the protein family classification and annotation system. Nucleic Acids Res., 43, D1064-D1070.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">PIRSF family classification system for protein functional and evolutionary analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Nikolskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Arighi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evol. Bioinform. Online</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="197" to="209" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolskaya,A.N., Arighi,C.N., Huang,H., Barker,W.C. and Wu,C.H. (2006) PIRSF family classification system for protein functional and evolutionary analysis. Evol. Bioinform. Online, 2, 197-209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Deutsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kusebauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mendoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shteynberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Omenn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Moritz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">State of the human proteome in 2014/2015 as viewed through PeptideAtlas: Enhancing accuracy and coverage through the AtlasProphet</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3461" to="3473" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deutsch,E.W., Sun,Z., Campbell,D., Kusebauch,U., Chu,C.S., Mendoza,L., Shteynberg,D., Omenn,G.S. and Moritz,R.L. (2015) State of the human proteome in 2014/2015 as viewed through PeptideAtlas: Enhancing accuracy and coverage through the AtlasProphet. J. Proteome Res., 14, 3461-3473.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Analysis of high accuracy, quantitative proteomics data in the MaxQB database</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schaab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stoehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.M111.014068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schaab,C., Geiger,T., Stoehr,G., Cox,J. and Mann,M. (2012) Analysis of high accuracy, quantitative proteomics data in the MaxQB database. Mol. Cell. Proteomics, 11, doi:10.1074/mcp.M111.014068.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Global subcellular characterization of protein degradation using quantitative proteomics</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kirkwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Lamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="638" to="650" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larance,M., Ahmad,Y., Kirkwood,K.J., Ly,T. and Lamond,A.I. (2013) Global subcellular characterization of protein degradation using quantitative proteomics. Mol. Cell. Proteomics, 12, 638-650.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">2016 update of the PRIDE database and its related tools</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vizcaino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Csordas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Del-Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dianes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Griss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lavidas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Perez-Riverol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Reisinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ternent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="447" to="D456" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vizcaino,J.A., Csordas,A., del-Toro,N., Dianes,J.A., Griss,J., Lavidas,I., Mayer,G., Perez-Riverol,Y., Reisinger,F., Ternent,T. et al. (2016) 2016 update of the PRIDE database and its related tools. Nucleic Acids Res., 44, D447-D456.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Proteoform: a single term describing protein complexity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Kelleher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="186" to="187" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Consortium for Top Down Proteomics</note>
+	<note type="raw_reference">Smith,L.M., Kelleher,N.L. and Consortium for Top Down Proteomics. (2013) Proteoform: a single term describing protein complexity. Nat. Methods, 10, 186-187.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Guidelines for investigating causality of sequence variants in human disease</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Macarthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Manolio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Dimmock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Rehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shendure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Abecasis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Antonarakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ashley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">508</biblScope>
+			<biblScope unit="page" from="469" to="476" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacArthur,D.G., Manolio,T.A., Dimmock,D.P., Rehm,H.L., Shendure,J., Abecasis,G.R., Adams,D.R., Altman,R.B., Antonarakis,S.E., Ashley,E.A. et al. (2014) Guidelines for investigating causality of sequence variants in human disease. Nature, 508, 469-476.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American college of medical genetics and genomics and the association for molecular pathology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gastier-Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Grody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hegde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Spector</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Med</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="405" to="424" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richards,S., Aziz,N., Bale,S., Bick,D., Das,S., Gastier-Foster,J., Grody,W.W., Hegde,M., Lyon,E., Spector,E. et al. (2015) Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American college of medical genetics and genomics and the association for molecular pathology. Genet. Med., 17, 405-424.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Genetic variations and diseases in UniProtKB/Swiss-Prot: the ins and outs of expert manual curation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Famiglietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estreicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bolleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gehant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breuza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Redaschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bougueleret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mutat</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="927" to="935" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Famiglietti,M.L., Estreicher,A., Gos,A., Bolleman,J., Gehant,S., Breuza,L., Bridge,A., Poux,S., Redaschi,N., Bougueleret,L. et al. (2014) Genetic variations and diseases in UniProtKB/Swiss-Prot: the ins and outs of expert manual curation. Hum. Mutat., 35, 927-935.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A fast peptide match service for UniProt knowledgebase</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Suzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uniprot</forename><surname>Consortium</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2808" to="2809" />
+			<date type="published" when="2013">2013. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen,C., Li,Z., Huang,H., Suzek,B.E., Wu,C.H. and UniProt Consortium. (2013) A fast peptide match service for UniProt knowledgebase. Bioinformatics, 29, 2808-2809. by guest on January 17, 2017</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

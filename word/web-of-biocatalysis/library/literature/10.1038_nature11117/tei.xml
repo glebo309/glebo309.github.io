@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Engineering the third wave of biocatalysis</title>
+				<funder ref="#_tXbfU8Z #_jShMwdZ">
+					<orgName type="full">US National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_SQgdVK9">
+					<orgName type="full">Ministry of Education, Science and Technology (WCU</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korea Science and Engineering Foundation</orgName>
+				</funder>
+				<funder ref="#_q8bkPS7">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_9T2TaWZ">
+					<orgName type="full">German Research Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Department of Biotechnology &amp; Enzyme Catalysis</orgName>
+								<orgName type="institution">Greifswald University</orgName>
+								<address>
+									<addrLine>Felix-Hausdorff-Straße 4</addrLine>
+									<postCode>D-17487</postCode>
+									<settlement>Greifswald</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Codexis Inc</orgName>
+								<address>
+									<addrLine>200 Penobscot Drive</addrLine>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Biochemistry, Molecular Biology and Biophysics, Biotechnology Institute</orgName>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<addrLine>1479 Gortner Avenue</addrLine>
+									<postCode>55108</postCode>
+									<settlement>Saint Paul</settlement>
+									<region>Minnesota</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemical and Biological Engineering</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>151-744</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Emory University</orgName>
+								<address>
+									<addrLine>1515 Dickey Drive</addrLine>
+									<postCode>30322</postCode>
+									<settlement>Atlanta</settlement>
+									<region>Georgia</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Merck Research Laboratories</orgName>
+								<orgName type="institution">Merck &amp; Co</orgName>
+								<address>
+									<postCode>07065</postCode>
+									<settlement>Rahway</settlement>
+									<region>New Jersey</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">K</forename><surname>Robins</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Valais Works</orgName>
+								<orgName type="institution">Lonza AG</orgName>
+								<address>
+									<postCode>CH-3930</postCode>
+									<settlement>Visp</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Engineering the third wave of biocatalysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C2A52F67B924E8532D267F9459F0201C</idno>
+					<idno type="DOI">10.1038/nature11117</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T19:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.219" lry="782.305"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Over the past ten years, scientific and technological advances have established biocatalysis as a practical and environmentally friendly alternative to traditional metallo-and organocatalysis in chemical synthesis, both in the laboratory and on an industrial scale. Key advances in DNA sequencing and gene synthesis are at the base of tremendous progress in tailoring biocatalysts by protein engineering and design, and the ability to reorganize enzymes into new biosynthetic pathways. To highlight these achievements, here we discuss applications of protein-engineered biocatalysts ranging from commodity chemicals to advanced pharmaceutical intermediates that use enzyme catalysis as a key step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B</head><p>iocatalysis is the application of enzymes and microbes in synthetic chemistry, and uses nature's catalysts for new purposes: applications for which enzymes have not evolved <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> . The field of biocatalysis has reached its present industrially proven level through several waves of technological research and innovations.</p><p>During the first wave of biocatalysis (Fig. <ref type="figure" target="#fig_0">1</ref>), which started more than a century ago, scientists recognized that components of living cells could be applied to useful chemical transformations (in contrast to the fermentation processes, which had been commonplace for millennia already). For example, Rosenthaler synthesized (R)-mandelonitrile from benzaldehyde and hydrogen cyanide using a plant extract <ref type="bibr" target="#b5">6</ref> ; hydroxylation of steroids <ref type="bibr" target="#b6">7</ref> occurring within microbial cells was also known. More recent examples are the use of proteases in laundry detergents <ref type="bibr" target="#b7">8</ref> , glucose isomerase to convert glucose to the sweeter-tasting fructose <ref type="bibr" target="#b8">9</ref> , and penicillin G acylase to make semisynthetic antibiotics <ref type="bibr" target="#b9">10</ref> . The main challenge for these applications is the limited stability of the biocatalyst, and such shortcomings were primarily overcome by immobilization of the enzyme, which also facilitated the reuse of the enzyme.</p><p>During the second wave of biocatalysis, in the 1980s and 1990s, initial protein engineering technologies, typically structure based, extended the substrate range of enzymes to allow the synthesis of unusual synthetic intermediates. This change expanded biocatalysis to the manufacture of pharmaceutical intermediates and fine chemicals. Examples include the lipase-catalysed resolution of chiral precursors for synthesis of diltiazem (a blood pressure drug), hydroxynitrile-lyase-catalysed synthesis of intermediates for herbicides <ref type="bibr" target="#b10">11</ref> , carbonyl-reductase-catalysed synthesis of enantiopure alcohols for cholesterol-lowering statin drugs, lipasecatalysed synthesis of wax esters such as myristyl myristate or cetyl ricinoleate for cosmetics <ref type="bibr" target="#b11">12</ref> , and nitrile-hydratase-catalysed hydration of acrylonitrile to acrylamide for polymers <ref type="bibr" target="#b12">13</ref> (where nitrile hydratase was obtained from whole cells of Rhodococcus rhodochrous). Apart from stabilization, the challenges now included optimizing the biocatalyst for the non-natural substrates.</p><p>The third, and present, wave of biocatalysis started with the work of Pim Stemmer and Frances Arnold in the mid and late 1990s. They pioneered molecular biology methods that rapidly and extensively Still in its infancy is the computational ab initio (or de novo) design of enzymes (g). The structures at the bottom refer to fine chemicals accessible through the different waves of biocatalysis. (R)mandelonitrile (left) could already be obtained 100 yr ago from a plant extract; (1S,3S)-3aminocyclohexanol (centre) is made by Novartis using an immobilized lipase; and 6-chloro-2,4,6trideoxy-D-erythrohexapyranoside (right) is made by DSM in a process that requires an engineered aldolase to withstand high concentrations of acetaldehyde and to achieve high selectivity.</p><p>modify biocatalysts via an in vitro version of Darwinian evolution. The methods are now commonly called directed evolution, although this term has been in use since whole-cell experiments in 1972 <ref type="bibr" target="#b13">14</ref> . The initial versions of this technology involve iterative cycles of random aminoacid changes in a protein, followed by selection or screening of the resulting libraries for variants with improved enzyme stability, substrate specificity and enantioselectivity. Subsequent developments, discussed here, have focused on improving the efficiency of directed evolution to create 'smarter' libraries. Industrial-scale biocatalysis focused primarily on hydrolases, a few ketoreductases (KREDs), and cofactor regeneration and protein stability in organic solvents. In some cases, metabolic pathways were optimized; for example, combining genes from various natural strains to produce 1,3-propanediol (a monomer for polyesters) in a new host made it possible to switch from glycerol to the more convenient glucose as the feedstock <ref type="bibr" target="#b14">15</ref> .</p><p>As a result of the advances made during the present wave of biocatalysis, remarkable new capabilities can now be engineered into enzymes, such as the ability to accept previously inert substrates (a KRED for montelukast <ref type="bibr" target="#b15">16</ref> or a transaminase for sitagliptin <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18 )</ref> or to change the nature of the product that is formed (terpene cyclase variants that favour different terpenes <ref type="bibr" target="#b18">19</ref> or amino-acid metabolism that makes alcohols for biofuels <ref type="bibr" target="#b19">20</ref> ). Novel enzymes are needed today to convert biomass into second-and third-generation biofuels <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> , materials <ref type="bibr" target="#b22">23</ref> and chemicals <ref type="bibr" target="#b23">24</ref> . Key developments that enabled this third wave are advanced protein engineering <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> (including directed evolution), gene synthesis, sequence analysis, bioinformatics tools <ref type="bibr" target="#b27">28</ref> and computer modelling, and the conceptual advance that improvements in enzymes can be more pronounced than previously expected. Engineered enzymes can remain stable at 60 uC in solutions containing organic solvents, can accept new substrates and can catalyse new non-natural reactions. This engineering may now take only a few months, thus greatly expanding the potential applications. In the past, an enzyme-based process was designed around the limitations of the enzyme; today, the enzyme is engineered to fit the process specifications.</p><p>About ten years ago, articles in Nature <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> and Science 31 reviewed the first and second waves of biocatalysis and provided a glimpse at what the third wave might bring. Today it is timely to assess the impact of this third wave and to speculate what the next decade might bring (Box 1). Although biocatalysis involves metabolic engineering <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> and synthetic biology, this Review focuses on enzymatic and whole-cell reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Engineering enzymes to fit the manufacturing process</head><p>To minimize costs, chemical manufacture requires stable, selective and productive catalysts that operate under the desired process conditions. Engineering enzymes for such a process starts by defining the engineering goal, such as increased stability, selectivity, substrate range or, typically, a combination thereof. In 2000, before the third wave, only a few strategies were available to meet these goals. Enzyme immobilization could increase the stability of a protein, but the increases in stability were moderate and often insufficient for most chemical transformations. Directed evolution was also possible, but was still slow because it required construction and screening of large libraries that mostly contained variants with reduced, or even no, activity. Examples of drastic improvements were rarely of industrial relevance. The slow pace meant that the evolved proteins contained only a few changes and, thus, that the enzyme properties changed only slightly. Although several hundred enzymatic processes already had industrial uses <ref type="bibr" target="#b3">4</ref> , most involved enzymes and whole cells that had been marginally altered genetically <ref type="bibr" target="#b28">29</ref> .</p><p>In the past decade, our understanding of proteins and the number of available directed evolution strategies have both increased, making it possible to make large changes in enzyme properties. By and large, enzyme engineering continues to be a collection of case studies resulting from applying one of various possible approaches to the problem at hand, rather than there being a quantitative approach such as those used in disciplines such as civil, electric, software, or chemical engineering. Converting these case studies into engineering principles will require using free energy to connect the design goals to the structural changes needed (Fig. <ref type="figure">2</ref>). Large changes in properties require large changes in free energy. For example, large changes in stability will require large freeenergy changes in the folding-unfolding equilibrium. (Even irreversible protein unfolding starts with a reversible partial unfolding.) A molecular-level understanding of proteins suggests strategies that could be used for the improvements. For example, surface residues contribute to the folding-unfolding equilibrium and adding a proline residue in a loop lowers the entropy of the unfolded form. These strategies replace large libraries of random variants (mostly with poorer properties) with smaller, more focused protein libraries containing a high fraction of active and potentially improved variants (Fig. <ref type="figure" target="#fig_0">1</ref>). Finally, by estimating the strength of various interactions (ion pairs on the surface or entropic contributions of adding a proline residue), researchers can estimate the changes needed to reach the goal. Few researchers explicitly use the freeenergy-based measures to plan protein-engineering strategies today, but converting case studies into engineering principles requires a quantitative approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New and improved methodologies</head><p>Over the past ten years, major advances in DNA technologies and in bioinformatics have provided critical support to the field of biocatalysis. These tools have promoted the discovery of novel enzymes in natural resources and have substantially accelerated the redesign of existing biocatalysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advanced DNA technologies</head><p>Next-generation DNA sequencing technology has allowed parallel sequence analysis on a massive scale and at dramatically reduced cost. Whereas the cost of a human genome sequence analysis in 2002 was estimated at ,US$70,000,000, the price in 2012 has decreased more than 1,000-fold to less than US$10,000 (ref. 34), and LifeTechnologies, Illumina and Oxford Nanopore Technologies have announced that sequencing machines that are designed to sequence the entire human genome in a matter of hours will be available later in 2012 and will lower the cost per genome to less than US$1,000. Sequences of entire genomes from organisms from different environments, as well as environmental BOX 1   Requirements and examples of biocatalysis applications</p><p>N In traditional biocatalysis, natural products are converted into other natural products using natural reactions and pathways. Technical requirements: maintain microorganism cultures; conceptual requirements: possible to control natural biotransformations; examples: bread and cheese making, leather processing, beer and wine fermentation, and natural antibiotic production. N In broad-substrate-range biocatalysis, chemical intermediates (nonnatural products) are converted into other chemical intermediates using natural reactions and pathways. Technical requirements: use of defined enzymes (no interfering activity present); conceptual requirements: many enzymes have a broad substrate range; examples: manufacture of pharmaceutical intermediates using lipases and carbonyl reductases (alcohol dehydrogenases). N In multistep biocatalysis, natural products are converted into fuels, materials and chemical feedstocks (non-natural products) using nonnatural reactions and pathways. Technical requirements: protein engineering for major changes in stability, substrate range and type of reaction catalysed; conceptual requirements: enzymes can catalyse non-natural reactions and new combinations of enzymes create new pathways; examples: fuel molecules created using the isoprene biosynthesis pathways, amino-acid biosynthesis diverted to fuel alcohols.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH REVIEW</head><p>DNA samples that include unculturable organisms (metagenomes), have created a rich resource in which to search for novel biocatalysts <ref type="bibr" target="#b34">35</ref> , and will continue to do so. Massive high-throughput sequencing (.10,000,000 sequence reads) using the Illumina technology also facilitated the exploration and understanding of protein sequence-function relationships <ref type="bibr" target="#b35">36</ref> .</p><p>Low-cost DNA synthesis has replaced isolation of genomic DNA as the starting point for protein engineering. Whole-gene DNA synthesis further allows the codons to be optimized for the host organism and molecular architectural structures such as promoters, terminators, enhancers, restriction sites and so on to be introduced at convenient sites. This DNA synthesis uses traditional phosphoramidite chemistry, but optimized reaction conditions have improved coupling efficiency, increasing the overall quality and quantity of the polymer to make sequences even 200-250 nucleotides long. Parallel DNA synthesis using photolithographic and inkjet printing techniques further cut costs and speed synthesis <ref type="bibr" target="#b36">37</ref> . DNA synthesis has been used to make entire sections of chromosomal DNA and even complete genomes for metabolic pathway engineering <ref type="bibr" target="#b37">38</ref> . Whole-gene synthesis can also be used to make highquality DNA libraries ranging from small, focused, site-saturation libraries to large, comprehensive gene collections. Customized genes and even gene libraries are becoming commodity chemicals similar to reagents and solvents found in today's research laboratories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Novel tools in bioinformatics</head><p>Complementing the experimental advances, bioinformatics tools have become an integral part of modern protein engineering <ref type="bibr" target="#b38">39</ref> . Multiple sequence alignments across large enzyme families and homology searches have identified genes with similar catalytic activities, leading to novel, potent biocatalysts <ref type="bibr" target="#b39">40</ref> . The same sequence information allows the reconstruction of ancestral biocatalysts <ref type="bibr" target="#b39">40</ref> , which may have broader substrate range and catalytic promiscuity (see below). Multiple sequence alignments identify the most common amino acids at each position (the consensus sequence) and amino-acid substitutions that yield stable function enzymes. This data helps in the design of small libraries with a high proportion of catalytically active variants. These libraries have been used to discover biocatalysts with enhanced stabilities, catalytic functions and altered stereoselectivities <ref type="bibr" target="#b40">41</ref> .</p><p>Paralleling the advances in sequence-based protein engineering, structure-guided approaches have benefited from a rapid increase in protein structure coordinates deposited in the RCSB Protein Data Bank (<ref type="url" target="http://www.pdb.org">http://  www.pdb.org</ref>). Over the past decade, the repository has grown by over 450% to contain more than 77,000 protein structures. This facilitates both rational protein design and directed evolution, because structural alignment of related proteins helps to identify distinct similarities and differences guiding the more reliable design of mutant libraries.</p><p>The utility of smaller libraries was demonstrated in two different approaches to increasing the enantioselectivity of an esterase for resolution of methyl 3-bromo-2-methylpropionic acid, a chiral synthon <ref type="bibr" target="#b41">42</ref> . Using random mutagenesis and screening 200 out of thousands of variants, the E-value for the enzyme (the selectivity of the enzyme for one enantiomer over the other) was increased from 12 to 19 (ref. 43). Recognizing that a relatively small increase (0.5 kcal mol <ref type="bibr" target="#b20">21</ref> ) in the difference in activation energy (DDDG { ) for the two enantiomers was needed to generate a practical enzyme (E . 30), mutagenesis was focused at the active site. A library containing all possible single mutations at four positions (76 variants) yielded an enzyme with E 5 61 (DDDG { 5 0.96). Understanding the nature of the problem to be solved focuses the enzyme optimization approach on smaller libraries and gives bigger improvements. In this context, it is worth also mentioning a new method for continuous directed evolution using a combination of a phage infection system and a mutator plasmid in Escherichia coli <ref type="bibr" target="#b43">44</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Examples of engineered enzymes in industrial biocatalysis</head><p>As predicted by Schmid et al. in their forward-looking review in 2001 <ref type="bibr" target="#b28">29</ref> , continuous regeneration of cofactors and a wider range of enzymes have been reported in the past ten years. However, the predicted applications of biochips and combinatorial biocatalysis have not yet materialized. The use of non-metabolizing cells for biocatalysis has proven to be more difficult than predicted and preference has instead shifted towards engineered enzymes used in crude and semipurified form. Whereas historically whole cells offered a simple and effective option for cofactor regeneration and enhanced enzyme stability, protein engineering and the use of single enzymes is now considered more economic and practical. The use of isolated enzymes have other advantages: they are easier to remove (less is added because they have more activity per unit mass), they tolerate harsher conditions, they eliminate potential diffusion limitations caused by cell membranes and they are easier to ship around the world. For example, KRED-based processes have now replaced whole-cell reductions and metal-ligand-based chemocatalysis, which were the industry standards during the past decade <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> . One exception is a whole-cell process to convert racemic hydantoins into</p><p>• Higher activity at process conditions • Increased process stability • Increased thermostability to run at higher temperature • Stability to organic solvents • Absence of substrate and/or product inhibition • Increased thermostability for storage and shipping • Increased selectivity (enantio-, regio-, chemo-) • Accept new substrates • Catalyse new reactions • Process design criteria (one, several or all) • Destabilize unfolded enzyme • Stabilize folded enzyme • Increase substrate binding • Hinder unwanted substrate • Reshape substrate-binding site • Add key mechanistic steps • Protein design goal • Create steric hindrance • Add hydrogen bonds or ion pairs • Decrease or increase flexibility (entropy) by ring formation • Hydrophobic interactions • Protein design strategy (amino-acid changes) Mechanistic and kinetic understanding of protein Structural model desired together with computer modelling ΔG Quantitative measure of property change needed • Generate variants using random mutagenesis, site-directed mutagenesis, site saturation mutagenesis, shuffling of genes and so on • Test under conditions close to process conditions • Identify variants or amino-acid substitutions that improve fitness, optionally using bioinformatics tools such as ProSAR Protein diversification strategy (amino-acid changes) Molecular understanding preferable, but not essential • Improve transcription of the gene of interest (overexpression, fidelity) • Improve stability of the mRNA • Improve translation of the mRNA • Adapt promoter strength • Improve ribosome binding sequences • Improve mRNA stability sequences • Improve codon usage to fit the enzymeproduction organism • Improve codon usage to accelerate/attenuate translation when needed for proper folding • Delete genes that code for enzymes that catalyse side reactions of substrate or product or that degrade the enzyme of interest Nucleic-acid and genome optimization (silent mutations, non-coding changes) ... ... ΔG ... Figure 2 | Free energy (DG) connects design goals to the required structural changes via protein engineering strategies. This reasoning allows the use of more focused libraries. If the design goal lies far from the starting enzyme, then large changes in free energy are needed. Mechanistic and kinetic understanding of the protein unfolding and reaction mechanism identifies an engineering strategy to reach the design goal. Finally, analysis of the structure (which varies from qualitative inspection to extensive computer modelling) can identify the region or amino acids that must be changed. Goals that require large freeenergy changes will likewise require more extensive changes in structure. mRNA, messenger RNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>REVIEW RESEARCH</head><p>optically pure, non-natural a-amino acids. Recombinant E. coli concurrently expressing hydantoinase, carbamoylase and racemase was found to be a simple and efficient production system, replacing the original process based on three immobilized enzymes in consecutive fixed-bed reactors <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> . Moreover, the whole-cell process required no metabolic flux controls and proceeded without undesired side reactions. KREDs and other enzymes have been widely investigated for the manufacture of chiral intermediates for pharmaceuticals such as atorvastatin, the active ingredient in Lipitor, which is a cholesterol-lowering drug that had global sales of US$11,900,000,000 in 2010. Seven enzymatic approaches 2,49,50 (Fig. <ref type="figure" target="#fig_1">3</ref>), differing not only in the choice of enzyme and starting material but also as to whether the product is a raw material (with a single chiral centre) or an advanced intermediate (with two chiral centres), have been developed. In all cases, success requires protein engineering to improve the reaction rate, the enantioselectivity, the stability to high substrate concentrations (up to 3 M, as in the nitrilase process <ref type="bibr" target="#b50">51</ref> ) or the stability to high solvent concentrations (20% butylacetate in the KRED process <ref type="bibr" target="#b51">52</ref> ). Apart from a highly active biocatalyst, a low-cost process also requires inexpensive raw materials and simple isolation of pure product in high yield. One current process leading to the advanced intermediate uses three biocatalytic steps: first, the combination of KRED and glucose dehydrogenase; second, the combination of this with a halohydrin dehalogenase to make the ethyl (R)-4-cyano-3hydroxybutanoate intermediate (Fig. <ref type="figure" target="#fig_1">3</ref>) at a rate of .100 t yr <ref type="bibr" target="#b20">21</ref> ; and, third, the enzymatic reduction for the advanced diol intermediate <ref type="bibr" target="#b51">52</ref> .</p><p>Recent engineering <ref type="bibr" target="#b16">17</ref> expanded the substrate range of transaminases to ketones with two bulky substituents. The enzyme engineering started with a small ketone substrate, created more space in the active site and used increasingly larger ketones. Several rounds of directed evolution increased the activity ,40,000-fold and yielded an engineered amine transaminase (Fig. <ref type="figure" target="#fig_2">4</ref>) that can replace the transition-metal-based hydrogenation catalyst for sitagliptin manufacture. Starting from ATA-117, a close homologue of the wild-type enzyme, which had no detectable activity on the substrate, the first variant provided very low activity (0.2% conversion of 2 g l 21 substrate using 10 g l 21 enzyme) towards prositagliptin; the final variant converts 200 g l 21 ketone to sitagliptin with 99.95% e.e. at 92% yield. The biocatalytic process not only reduced the total waste and eliminated all transition metals, but increased the overall yield and the productivity by 53% by comparison with the metalcatalysed process <ref type="bibr" target="#b17">18</ref> . The numerous biocatalytic routes scaled up for pharmaceutical manufacturing (Table <ref type="table" target="#tab_2">1</ref>) demonstrate their competitiveness with traditional chemical processes.</p><p>Enzyme variants resulting from optimization studies are a unique source of starting points for future programmes, and by using the more stable enzymes engineered for one process the next optimization programme can be even faster. For instance, engineering KREDs to make R3HT (3) (see Table <ref type="table" target="#tab_2">1</ref> for abbreviations and numbering of compounds) created many stable enzyme variants including some that were unsuitable due to low enantioselectivity. However, one of these unsuitable variants was the starting enzyme in engineering a KRED for DCFPE (4). One of the DCFPE enzymes was then the starting point for a montelukast (5) KRED, which in turn was a starting point for the duloxetine (6) KRED. Similarly, the transaminases generated during the evolution of the prositagliptin (18)  transaminase can make other amines and may serve as starting points for new engineered enzymes for amine synthesis. Starting from a nonnatural stabilized enzyme variant that already works in one process thus accelerates catalyst and process development in unprecedented ways.</p><p>Enzymatic conversions that simultaneously set two stereocentres are especially efficient ways to make complex molecules. For example, . These processes use the combination of KRED with a halohydrin dehalogenase (HHDH) (route I), a nitrilase (route II) or an aldolase (route III). They differ not only in class of enzyme, but also in choice of (inexpensive) starting material, activity and selectivity of the biocatalyst, downstream processing, and yield and purity of final product. Routes I and II create one stereocentre, but route III creates both stereocentres required for the advanced pharmaceutical intermediate <ref type="bibr" target="#b51">52</ref> . Introduction of the second chiral centre following routes I and II is also accomplished using KRED. LDA, lithium diisopropylamide; t-Bu, tert-butyl; THF, tetrahydrofuran. for the synthesis of sitagliptin using an engineered amine transaminase is superior to the chemical hydrogenation process, resulting in a higher yield of .99.5% e.e. optically pure product, higher productivity, reduced total waste and elimination of a transition-metal catalyst <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> . atm, atmospheres; e.e., enantiomeric excess; Me, methyl.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH REVIEW</head><p>reduction of a ketone catalysed by a KRED sets the alcohol stereocentre. However, if a second stereocentre next to the ketone carbonyl racemizes rapidly in solution and the KRED is highly selective for one configuration, then the reduction reaction can set two stereocentres in one step. Examples include a penem intermediate (8), pseudoephedrine (12) and phenylephrine (13), as well as similar processes for chiral amines (20). Also, aldolases are now being used for subsequent reaction steps to generate multiple chiral centres, for example in the synthesis of statin intermediates (33). The single-enzyme cascade reactions as catalysed by aldolases have been further expanded to multi-enzyme cascade processes, for instance in the synthesis of 29-deoxyinosine (34) in vitro or of complex molecules such as artemisinin (42) or Taxol in vivo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environmental advantages of biocatalytic processes</head><p>In the context of concerns about the environmental aspects of chemical manufacturing, biocatalysis provides an attractive alternative. The US Environmental Protection Agency awards five prizes each year in the Presidential Green Chemistry Award Challenge. The nominations emphasize the 12 Principles of Green Chemistry <ref type="bibr" target="#b52">53</ref> , which consider environmental factors as well as use of renewable feedstocks, energy efficiency and worker safety. Biocatalysis, using either enzyme technology or whole cells, has won 16 awards since 2000 (Table <ref type="table">2</ref>). Biocatalysts are made from renewable sources and are biodegradable and non-toxic, and their high selectivities simplify reaction work-ups and provide product in higher yields. Biocatalytic processes are also safe as they typically run at ambient temperature, atmospheric pressure and neutral pH. Hence, it is not surprising that so many of the awards go to biocatalysis.</p><p>The broad range of awards in Table <ref type="table">2</ref> shows the application of biocatalysts beyond the pharmaceutical industry. Several applications involve polymers, especially polyesters. The optimized fermentation of lactic acid is the basis for a polylactic acid plant in Nebraska with a capacity of 141,000 tonnes per year, and a new non-natural metabolic route allows synthesis of 1,3-propanediol for the manufacture of SORONA polymer. The 1,4-butanediol fermentation yields a component of another polymer, spandex. In the synthesis of polyhydroxyalkanoates, the biocatalyst catalyses not just the monomer synthesis but also its polymerization. Yang and co-workers recently engineered these polyhydroxyalkanoate synthases to polymerize lactic acid into polylactic acid <ref type="bibr" target="#b53">54</ref> . Several other awards involve new metabolic pathways to manufacture biofuels. For example, LS9, Inc. engineered E. coli bacteria to produce biodiesel. Adding the genes for plant thioesterases to E. coli diverted normal fatty-acid biosynthesis into synthesis of several fatty acids suitable for biodiesel. Then genes were added for enzymes to make ethanol and an enzyme to couple the ethanol and fatty acids to make fatty-acid ethyl esters, which can be used for biodiesel <ref type="bibr" target="#b21">22</ref> . The amount of biodiesel produced is at least tenfold too low for the process to be commercially viable, but further engineering will probably increase the yield.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New concepts in protein engineering</head><p>Large changes in enzyme properties usually require multiple amino-acid substitutions because they make larger changes to the protein structure. However, simultaneous multiple amino-acid substitutions create exponentially more variants for testing. There are 7,183,900 possibilities for two substitutions anywhere in a 200 amino-acid protein and 9,008,610,600 possibilities for three substitutions. Many of these variants are inactive, and either all are created and tested to find the improved variants, or the library is screened only partially and incremental improvements in subsequent rounds of evolution are required.</p><p>The simplest solution to this problem is more efficient screening. Changes in substrate specificity may be monitored by high-throughput methods, such as fluorescence-activated cell sorting <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref> , which can screen tens of millions of variants in a short amount of time. Whittle and Shanklin made six simultaneous substitutions in the active site of a desaturase and then screened for growth on a different substrate. Only those variants with altered substrate specificities could grow <ref type="bibr" target="#b57">58</ref> . Seelig and Szostak used very large random libraries (up to 10 13 variants), from which they could select variants that catalysed an RNA ligation <ref type="bibr" target="#b58">59</ref> based on binding of the product, but not the starting materials, to a column.</p><p>At present, the best approach to creating multiple mutations is to add them simultaneously but to limit the choices using statistical or bioinformatic methods. One statistical correlation approach is based on the ProSAR (protein structure activity relationship) algorithm used by Codexis researchers to improve the reaction rate of a halohydrin dehalogenase .4,000-fold <ref type="bibr" target="#b59">60</ref> . Researchers made random amino-acid substitutions (an average of ten) in the dehalogenase and measured the rate of catalysis by the variants. Then statistical methods identified whether a particular substitution was beneficial. For example, variants that contained a Phe 186 Tyr substitution were, on average, better than those that did not. Some variants that contained such a substitution were not beneficial, owing to the detrimental effects of other mutations, but the statistical analysis identified that, on average, Phe 186 Tyr is a beneficial mutation. The final improved enzyme contained 35 amino-acid substitutions among its 254 amino acids.</p><p>c-Humulene synthase catalyses the cyclization of farnesyl diphosphate via cationic intermediates to c-humulene in 45% yield, but forms 51 other sesquiterpenes in smaller amounts. Keasling and co-workers substituted amino-acid residues in the active site stepwise and identified the contribution of each one to the product distribution <ref type="bibr" target="#b60">61</ref> . Substitutions were combined to favour formation of one of the other sesquiterpenes. For example, one triple substitution created an enzyme that formed 78% sibirene; the natural enzyme forms 23% sibirene.</p><p>Another approach is to limit the location of changes to the active site and the type of changes to those known from sequence comparisons to occur often at these sites. Jochens and Bornscheuer used this approach to increase the enantioselectivity of a Pseudomonas fluorescens esterase. There were 160,000 <ref type="bibr">(20 4</ref> ) ways simultaneously to vary the four amino acids adjacent to the substrate in the active site. The researchers aligned the amino-acid sequences of .2,800 related enzymes to identify which amino acids are most common at these locations. This analysis limited the possibilities to several hundred variants, which were tested to find a double and a triple mutant with the desired selectivities <ref type="bibr" target="#b40">41</ref> . Another important advance that allows multiple mutations is the recognition that mutations often destabilize proteins <ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref> and that starting with a very stable protein therefore allows it to tolerate a greater number and range of changes <ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b65">66</ref> .</p><p>Because the workload for screening larger libraries containing multiple mutations increases exponentially with library size, most researchers work on the assumption that beneficial mutations are mostly additive <ref type="bibr" target="#b66">67</ref> and that synergistic effects are rare, except for nearby changes. Indeed, combining beneficial single mutations often yields additive improvements (for example increasing the stability of an esterase from Bacillus subtilis to an organic solvent <ref type="bibr" target="#b67">68</ref> or increasing the enantioselectivity of a lipase from Pseudomonas aeruginosa 69 ). However, often the contributions do not add up exactly or have unexpected behaviour. For example, mutations A and B by themselves may be deleterious, but together they may be beneficial. Weinreich and co-workers <ref type="bibr" target="#b69">70</ref> investigated such cooperative interactions in the evolution of a b-lactamase with higher activity. Mutation A increased the reaction rate but destabilized the b-lactamase. The overall effect was slightly beneficial. Mutation B did not affect rate but stabilized the b-lactamase; by itself it had no effect. Together mutations A and B were highly beneficial because the b-lactamase was faster and maintained its stability, but adding mutations stepwise will most likely miss these types of synergy. Reetz and Sanchis came to similar conclusions in testing the stepwise addition of mutations to increase enantioselectivity <ref type="bibr" target="#b70">71</ref> . Synergistic effects are important when one of the mutations is a stabilizing mutation and when the mutations are nearby one another. The complication of non-additivity due to stabilizing mutations can be minimized by stabilizing the protein before starting mutagenesis, but the complication of non-additivity due to nearby mutations is the most common one and not easily avoided.</p><p>Consequently, the extent of useful changes made during the improvement of a protein has increased drastically in the past decade. In the early 2000s, 1-5 mutations were typical, whereas by 2010, 30-40 amino-acid  Protein engineering for activity and tolerance to aminoketone substrate. The product of the reaction is a generic API.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>REVIEW RESEARCH</head><p>(Codexis, WO/2011/022548)</p><formula xml:id="formula_0">OH Cl N O OMe Methyl (S,E)-2-(3-(3-(2-(7- chloroquinolin-2-yl)vinyl)phenyl)-3- hydroxypropyl) benzoate<label>(5)</label></formula><p>Directed evolution of a variant identified from the DCFPE (4) project. Protein engineering for activity on the poorly soluble substrate (,10 mg l 21 in 40% toluene, 10% IPA). Intermediate for montelukast (Singulair). (Codexis <ref type="bibr" target="#b15">16</ref>  Protein engineering to develop enzyme with initial activity, followed by activity improvement in increasing DMSO, substrate and isopropylamine, as well as increased thermostability. The product is sitagliptin (Januvia) free base. (Codexis; Merck <ref type="bibr" target="#b16">17</ref> , WO/ 2010/099501) O HN CO 2 Me Methyl (6R)-6-methyl-2oxopiperidine-3-carboxylate (20) A codon-optimized mutant enzyme was used to manufacture 29 kg of this orexin receptor inhibitor. (Merck, WO/2009/ 143033) O O NH 2 (3R,4S)-3-benzyloxy)tetrahydro-2Hpyran-4-amine (19) An enzyme obtained by directed evolution was used for this intermediate for an M1receptor-positive allosteric regulator. (Merck, WO/2011/062853) NO 2 H 2 N (7S)-7-amino-2-nitro-6,7.8.9tetrahydro-5H-benzo[7] annulene (21) A recombinantly expressed (codonoptimized) enzyme was used to manufacture this intermediate for an Axl inhibitor on the gram scale. (Rigel, US/ 2010/0196511) RESEARCH REVIEW Product Technology (company, reference) Product Technology (company, reference) Hydrolases CN CO 2 Et CO 2 Et (R) Intermediate for pregabalin (22) A highly productive process was enabled for this pregabalin intermediate using a natural enzyme after significant reaction engineering. The process produces quantities of the order of 100 tonnes. (Pfizer, WO/2006/000904) O O HO OH CO 2 -NH 4 + Simvastatin ammonium salt (25) Reaction engineering and directed evolution enabled a simple process for manufacture of this high-volume API. The enzyme was improved for reaction conditions and a nonnatural acyl donor. (UCLA 87 ; Codexis, WO/ 2011/041231) O O N F CO 2 Me Intermediate for paroxetine (23) Intermediates for paroxetine. (BioVerdant, WO/2009/005647) F NH 2 CO 2 H L-fluoro-leucine (26) A highly productive process for this odanacatib intermediate was enabled using a natural enzyme after enzyme immobilization and reaction engineering. (Merck 88 ) HO NH 2 (1S,3S)-3-aminocyclohexanol (24) Enzymatic kinetic resolution; lipase from Thermomyces lanuginosus; produced on the kilogram scale. (Novartis 89 ) Boc COOEt HOOC N (3R,4R)-Boc-pyrrolidine-3,4dicarboxylic acid 3-ethyl ester (27) Cascade reaction using two commercial lipases; .100 kg produced. (Roche 90 ) Oxidative enzymes HN HO 2 C (1R,2S,5S)-6,6-dimethyl-3azabicyclo[3,1,0] hexane-2carboxylic acid (28) A fungal amine oxidase was improved for expression in E. coli and activity under process conditions, including substrate and product tolerance. The intermediate is used for boceprevir synthesis. (Codexis, WO/ 2010/008828) R H COOH H 2 N (S)-amino acids (30) (R)-amine oxidase/(S)-amino acid transferase; key intermediate for antidiabetic drug. (Bristol Myers Squibb 91 ) NH CO 2 H (1S,3aR,6aS)octahydrocyclopenta[c]pyrrole-1carboxylic acid (29) An amine oxidase was improved for activity under process conditions, including substrate and product tolerance. The intermediate is used for telaprevir synthesis. (Codexis, WO/2010/008828) OMe N N H S O N MeO Esomeprazole (31) The enantioselectivity of the Baeyer-Villiger monooxygenase was inverted and the enzyme was then improved for activity, stability and chemoselectivity. The product is an API (Nexium). (Codexis, WO/2011/ 071982) Aldolases H N CO 2 H HO 2 C NH 2 OH 2-isopropylpent-4enoate (40) Recombinant pig liver esterase; aliskiren intermediate. (DSM 98 , WO/2010/ 10122175) HOOC NH 2 H R D-amino acids (37) D-carbamoylase, thermo-and pH-stability; industrial scale. (Kaneka 99 ) O O OH NC Ethyl (R)-4-cyano-3-hydroxybutyrate (41) Directed evolution of a halohydrin dehalogenase for improved activity, stability and tolerance to substrate and product provided a catalyst that is now used for commercial manufacture of this atorvastatin intermediate. (Codexis 52 , US/2010/ 7807423) Whole cells H H O O O O O H Artemisinin (42) Pathway engineering; overexpression of additional genes; knockouts; PE. (Amyris; Sanofi-Aventis 100 ) OH OCH 3 CHO Vanillin (43) Increased productivity; decreased byproduct formation. (Givaudan, US/2001/ 6235507) API, active pharma ingredient; Boc, butyloxycarbonyl; Cbz, carbobenzyloxy; CLEC, crosslinked enzyme crystal; d.e., diastereomeric excess; DMSO, dimethylsulphoxide; Et, ethyl; GMP, guanosine-59monophosphate; IMP, inosine-59-monophosphate; IPA, isopropyl alcohol; PE, protein engineering.</p><p>Table 1 | Continued</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>REVIEW RESEARCH</head><p>substitutions were not unusual. For example, directed evolution of the halohydrin dehalogenase for manufacture of the atorvastatin (Lipitor) side chain (Fig. <ref type="figure" target="#fig_1">3</ref>) changed at least 35 of the 254 amino acids 60 (.14%) and directed evolution of the transaminase for sitagliptin manufacture (Fig. <ref type="figure" target="#fig_2">4</ref>) changed 27 of the 330 amino acids 17 (8.2%). Similarly, computational design of a retro aldolase required 8 or 12 amino acid substitutions (4-6%) in the starting enzyme, which was a xylanase composed of 197 amino acids <ref type="bibr" target="#b71">72</ref> .</p><p>A second approach investigated in the past ten years is the creation of new, often non-natural, catalytic activities. The starting point for this new activity is usually a catalytically promiscuous reaction. Catalytic promiscuity is the ability of one active site to catalyse more than one reaction type. Typically, the enzyme catalyses one normal reaction and additional side reactions, which may involve common catalytic steps. The new reaction type is not just a substituent added to the substrate, but involves a different transition state and/or forms different types of chemical bond. For example, pyruvate decarboxylase normally converts pyruvate to acetaldehyde and carbon dioxide. However, a promiscuous catalytic activity of pyruvate decarboxylase is the coupling of this acetaldehyde to another aldehyde in an acyloin condensation. Such a non-natural pyruvate-decarboxylase-catalysed condensation of acetaldehyde with benzaldehyde is the basis for an industrial process developed at BASF in the 1920s to make a precursor of the drug Ephedrine. Recent protein engineering enhanced the promiscuous ability of pyruvate decarboxylase to catalyse the acyloin condensation <ref type="bibr" target="#b72">73</ref> . The normal reaction requires a proton transfer, but the promiscuous reaction does not. A single amino-acid substitution to remove the proton donor disabled the natural activity and increased the promiscuous activity about fivefold.</p><p>The method of disabling unwanted pathways to increase flux to the desired product is further developed by the third advance, metabolic pathway engineering. This allows more complex pathways from secondary metabolism to be transferred into new organisms and entirely new biochemical pathways to be created to make pharmaceutical intermediates and biofuels. The normal metabolisms of terpenes, amino acids and fatty acids have been re-engineered to make hydrocarbons, alcohols and polyesters for use as fuels, bulk chemicals and plastics (see above). may be more effective when the biocatalyst's surface orientation is controlled <ref type="bibr" target="#b75">76</ref> . Similarly, using proteins and nucleic-acid scaffolds to control the number and orientation of enzymes within multi-enzyme pathways also improves efficiency <ref type="bibr" target="#b76">77</ref> . Separately, functional matrices such as carbon nanotubes and quantum dots can substitute for complex biological electron transfer systems, offering new methods for regenerating redox catalysts and interfacing enzymes with semiconductors <ref type="bibr" target="#b77">78</ref> . Nevertheless, the integration of enzymes with non-biological matrices and nanomaterials, and as part of metabolic engineering, is still inefficient. Future protein engineering has to address challenges emerging through the interfacing of individual biocatalysts with other proteins in a metabolic pathway or support matrices.</p><p>Protein engineering solves the previous weaknesses of biocatalysts: low stability and low activity towards unusual substrates. Large amounts of protein were used to compensate for low activity and this caused emulsions that hampered work-up and reduced yield. Highly active enzymes solve this problem because emulsions do not form using smaller amounts of protein. Training chemists in both biocatalysis and chemocatalysis will help them choose the best solution in each case. Improved enzymes with a long shelf life and good activity and stability in organic solvents should help biocatalysis to spread further into industrial laboratories.</p><p>Recent advances in protein engineering have achieved the equivalent of converting mouse proteins into human proteins. The amino-acid sequences of similar proteins in mice and human typically differ by ,13% (ref. 79). Today's advanced protein engineering makes similar changes in converting a wild-type enzyme into an enzyme suitable for chemical process applications. This protein engineering is equivalent to compressing the 75,000,000-yr evolution of an early mammal into modern-day mice and humans into several months of laboratory work. Consistent with the more extensive changes made in these proteins, the properties have also changed more dramatically. The catalytic properties of the enzymes have improved quantitatively by factors of thousands to millions <ref type="bibr" target="#b79">80</ref> , and the engineered enzymes now can act in unusually harsh conditions. The understanding of protein engineering built over the third wave of biocatalysis allows dramatic improvements in enzymatic performance to be realized in parallel with the development of chemical syntheses requiring these catalysts, allowing biocatalysis to develop as an increasingly important tool in chemical synthesis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 |</head><label>1</label><figDesc>Figure 1 | The evolution of enzyme discovery and protein engineering strategies used to identify desired catalysts. Rational design (b) identifies distinct point mutations based on protein structures (a) or homology models, whereas random mutagenesis (c) combined with screening or selection is the basis for directed evolution experiments. Combining these methods makes it possible to create smaller, but smarter, libraries (d). The classical screening of enzymes by enrichment cultures (e) is now replaced by key motif database searches (f) to guide identification of novel enzymes or those with desired properties.Still in its infancy is the computational ab initio (or de novo) design of enzymes (g). The structures at the bottom refer to fine chemicals accessible through the different waves of biocatalysis. (R)mandelonitrile (left) could already be obtained 100 yr ago from a plant extract; (1S,3S)-3aminocyclohexanol (centre) is made by Novartis using an immobilized lipase; and 6-chloro-2,4,6trideoxy-D-erythrohexapyranoside (right) is made by DSM in a process that requires an engineered aldolase to withstand high concentrations of acetaldehyde and to achieve high selectivity.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 |</head><label>3</label><figDesc>Figure3| Different enzymatic routes to the synthesis of the key side chain of atorvastatin (Lipitor). These processes use the combination of KRED with a halohydrin dehalogenase (HHDH) (route I), a nitrilase (route II) or an aldolase (route III). They differ not only in class of enzyme, but also in choice of (inexpensive) starting material, activity and selectivity of the biocatalyst,</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 |</head><label>4</label><figDesc>Figure 4 | Biocatalysis advances synthetic chemistry. The enzymatic route</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>F(</head><figDesc>4S)-3[(5S)-5-(4-fluorophenyl)-5hydroxy-pentanoyl]-4-phenyl-1,3oxazolidin-2-one (11) Protein engineering for activity and solvent stability. Intermediate for ezetimibe (Zetia, Vytorin). (Codexis, WO/2010/025085) overcome product inhibition. The ketone substrate is racemic at C 2 and racemizes during the reaction to give high-e.e. product. The product of the reaction is a generic API. (Daiichi 84 ) -1-(2,6-dichloro-3-fluorophenyl)ethanol (DCFPE) (4) Directed evolution of a variant identified from the R3HT (3) project for increased activity. Note that the ketone is hindered owing to the ortho chloro-substituents. Raw material for crizotinib (Xalkori). (Codexis, WO/2009/036404) HO OH NHMe (R)-phenylephrine (13)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>8 ) 3 (</head><label>83</label><figDesc>Ethyl-((7S)-7-hydroxy-6,7,8,9tetrahydro-pyrido[1,2-a]indol-10-yl) acetate (14) A recombinantly expressed, engineered variant was used to produce 1.6 kg of this intermediate for a CRTH2 receptor antagonist. (Merck, US/2010/0234415) OH N S (S)-N,N-dimethyl-3-hydroxy-3-(2thienyl)-1-propanamine (6) Protein engineering for activity at pH 9 and IPA, conditions where the ketoamine is stable. Intermediate for duloxetine (Cymbalta). (Codexis, WO/2010/025238) -4,4-dimethoxy-tetrahydro-2Hpyran-3-ol (15) Recombinantly produced KRED was used for the stereoselective production of 38 kg of this intermediate. (Merck, US/2008/ 0138866) OH (R)-2-methylpentanol (7) Protein engineering for activity on the aldehyde substrate as well as enantiospecificity towards the desired enantiomer. Intermediate for imagabalin (since discontinued). (Codexis 85 , WO/2010/ 027710) OH CbzN N-Cbz-4R-azepanol (16) A recombinantly expressed enzyme was used to produce this intermediate for a novel b-lactamase inhibitor. (Merck, WO/2008/ 039420) Protein engineering for activity on the racemic ketone as well as for enantiospecificity. The process involves a dynamic kinetic resolution at C 2 to give the desired product in high e.e. and d.e. (Codexis, US/2011/7883879) enzyme was used to produce this deuterium containing pentoxyfylline analogue on the gram scale. (Concert Pharmaceuticals, US/2011/ 0053961) 2R)-4-oxo-[3-(trifluoro-methyl)-5,6dihydro[1,2,3]triazolo[4,3a]pyrazine-7(8H)-yl]-1-(2,4,5trifluorophenyl) butan-2-amine(18)   </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>(</head><figDesc>2S,4S)-monatin(32) (and (2R,4R)monatin) CLEC-subtilisin (chemo-biocatalytic route); kilogram quantities; natural sweetener. (CSIR Biosciences; Altus 92 ) 2-deoxy-D-ribose 5-phosphate aldolase were developed by various companies (DSM, Diversa, Pfizer) for this and other statin intermediates. The enzyme was engineered to withstand high concentrations of acetaldehyde and for product selectivity 93 ; industrial scale. (DSM, nucleoside phosphorylase were used in a combinatorial biosynthesis. (Yuki Gosei 94 ) 3R,4S)-4-hydroxyleucine (38) L-isoleucine dioxygenase. (Ajinomoto 95 )</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 |</head><label>1</label><figDesc>Recently developed biocatalytic processes in the pharmaceutical industry</figDesc><table><row><cell>Product</cell><cell>Technology</cell><cell cols="2">Product</cell><cell></cell><cell></cell><cell>Technology</cell></row><row><cell></cell><cell>(company, reference)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(company, reference)</cell></row><row><cell></cell><cell>KREDs</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>OH Ethyl (S)-4-chloro-3-Cl COOEt hydroxybutanoate (1)</cell><cell>Various protein engineering approaches, including directed evolution, to increase activity, stability and coenzyme specificity. Initial intermediate for atorvastatin (Lipitor) (Kaneka 81 , Codexis 52 ) manufacture on the industrial scale.</cell><cell cols="4">BocHN carbamate (10) OH Cl hydroxy-1-phenylbutan-2-yl-Tert-butyl (2S,3R)-4-chloro-3-</cell><cell>Recombinant expression and also protein engineering for activity. Intermediate for atazanavir (Reyetaz). (Bristol Myers Squibb 82 ; Codexis, WO/2011/005527)</cell></row><row><cell>CO 2 t-Bu dihydroxyhexanoate (2) OH OH NC Tert-butyl 6-cyano-3,5-</cell><cell>Protein engineering for activity and stability acetoacetate impurity, both liquids). hydroxyketone substrate and a tert-butyl to 30% organic substrate (the</cell><cell>OH</cell><cell>Ph</cell><cell>O O N</cell><cell>O</cell></row><row><cell></cell><cell>Intermediate for atorvastatin. (Codexis, US/</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>2011/7879585; Pfizer, US/2008/</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0118962)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>0 M A Y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>0 1 2 | V O L 4 8 5 | N A T U R E | 1 8 5Macmillan Publishers Limited. All rights reserved ©2012</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Macmillan Publishers Limited. All rights reserved ©2012</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_3"><p>0 M A Y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_4"><p>0 1 2 | V O L 4 8 5 | N A T U R E | 1 8 7Macmillan Publishers Limited. All rights reserved ©2012</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_5"><p>0 M A Y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_6"><p>0 1 2 | V O L 4 8 5 | N A T U R E | 1 8 9Macmillan Publishers Limited. All rights reserved ©2012</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_7"><p>0 M A Y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_8"><p>0 1 2 | V O L 4 8 5 | N A T U R E | 1 9 1Macmillan Publishers Limited. All rights reserved ©2012</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements We thank <rs type="person">H.-P. Meyer</rs> and <rs type="person">R. Fox</rs> for discussions. R.J.K. thanks the <rs type="funder">US National Science Foundation</rs> (<rs type="grantNumber">CBET-0932762</rs>) and the <rs type="funder">Korea Science and Engineering Foundation</rs> funded by the <rs type="funder">Ministry of Education, Science and Technology (WCU</rs> programme <rs type="grantNumber">R32-2008-000-10213-0</rs>). U.T.B. and S.L. thank the <rs type="funder">German Research Foundation</rs> (<rs type="grantNumber">SPP 1170</rs>, <rs type="grantNumber">Bo1864/4-1</rs>) and, respectively, the <rs type="funder">US National Science Foundation</rs> (<rs type="grantNumber">CBET-0730312</rs>) for financial support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_tXbfU8Z">
+					<idno type="grant-number">CBET-0932762</idno>
+				</org>
+				<org type="funding" xml:id="_SQgdVK9">
+					<idno type="grant-number">R32-2008-000-10213-0</idno>
+				</org>
+				<org type="funding" xml:id="_9T2TaWZ">
+					<idno type="grant-number">SPP 1170</idno>
+				</org>
+				<org type="funding" xml:id="_jShMwdZ">
+					<idno type="grant-number">Bo1864/4-1</idno>
+				</org>
+				<org type="funding" xml:id="_q8bkPS7">
+					<idno type="grant-number">CBET-0730312</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges remaining in biocatalyst engineering</head><p>Despite the advances, there remain major challenges to harnessing the advantages of biocatalysis fully. Enzyme engineering is much faster than it was ten years ago, but changing 30-40 amino acids and screening tens of thousands of candidates still requires a large research team. Many, if not all, engineering strategies will yield improved variants, but some will yield better variants and find them faster. Which ones are the better strategies is still unclear. Directly comparing strategies for the same problem and testing the assumptions behind different strategies will identify the most efficient ones.</p><p>The first assumption is that the goal can be achieved using enzyme engineering. The thermodynamics of reactions involving non-natural substrates may be less favourable than that of reactions involving natural substrates, and attaining certain enzyme activities may be thermodynamically impossible. Diffusion sets an upper limit to reaction rates. A closer integration of thermodynamics and biocatalytic process development is highly desirable in designing new processes.</p><p>Protein engineering often relies on knowing the quaternary structure of the enzyme because residues at the protein-protein interface can contribute to stability. Researchers assume that the structure of the enzyme under reaction conditions (low enzyme concentrations, high substrate concentration, organic solvents and so on) is very similar to that of the crystallized enzyme (high enzyme concentration, no substrate and/or organic solvent). Because proteins crystallize only under narrow conditions found by extensive experimentation, in solution they probably adopt many conformations besides the ones seen in the crystal structures. Furthermore, our understanding of protein dynamics is still very limited and this makes predictions difficult.</p><p>Third, enzyme engineering assumes that individual mutations are additive <ref type="bibr" target="#b66">67</ref> . Although mutations are mostly non-interactive, many interactive mutations are highly useful but difficult to study. One way of identifying cooperative effects involves statistical analysis using the ProSAR algorithm <ref type="bibr" target="#b59">60</ref> , but better techniques are needed to predict at an early stage of protein engineering which additional mutations are possibly additive and which lead to a dead end.</p><p>Fourth, computer design of new enzyme activities is not accurate. Design still requires testing 10-20 predictions and usually results in an enzyme with low activity, which then requires substantial further engineering. For example, the initial computer-based design of an enzyme for the manufacture of sitagliptin <ref type="bibr" target="#b16">17</ref> yielded an enzyme that converted only 0.1 substrate molecule per day, yet that substrate fits well in the active site within the computer model derived from the crystal structure. New enzymes can be designed to catalyse reactions not found in nature (Kemp-elimination <ref type="bibr" target="#b27">28</ref> , new Diels-Alder reactions <ref type="bibr" target="#b73">74</ref> ), but such activities are so far too low for practical use. Better understanding of the mechanistic, dynamic and structural aspects of enzymatic catalysis is needed.</p><p>Technical challenges also limit biocatalysis. The current DNA synthesis methods are close to their efficiency limits, but still cost approximately US$0.35 per base (,US$300 per 1,000-nucleotide gene), which is too high for large-scale applications requiring thousands of genes. Longer and cheaper DNA fragments would simplify and speed up experiments. Next-generation DNA synthesis methods may involve synthesis of oligodeoxynucleotides by codons (trinucleotides) rather than individual nucleotides. This approach was first suggested two decades ago but never reached the mainstream, presumably owing to instrumental limitations (synthesis starts with 64 phosphoramidite trinucleotides). Nevertheless, the concept recently was used in the rapid assembly of entire genes in a single synthesis and in the preparation of high-quality mutagenesis libraries <ref type="bibr" target="#b74">75</ref> , and thus seems feasible today.</p><p>New ideas for the integration of biocatalysts with nanodevices and in complex multi-enzyme assemblies hold promise for the future. Enzyme immobilization has been a strategy since the early days of biocatalysis, but it RESEARCH REVIEW</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Buchholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kasche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biocatalysts and Enzyme Technology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2012">2012</date>
+			<publisher>Wiley-VCH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buchholz, K., Kasche, V. &amp; Bornscheuer, U. T. Biocatalysts and Enzyme Technology 2nd edn (Wiley-VCH, 2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Enzyme Catalysis in Organic Synthesis Vols 1-3, 3rd edn</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drauz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gro ¨ger</surname></persName>
+		</author>
+		<editor>H. &amp; May, O.</editor>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Wiley-VCH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drauz, K., Gro ¨ger, H. &amp; May, O. (eds) Enzyme Catalysis in Organic Synthesis Vols 1-3, 3rd edn (Wiley-VCH, 2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Hydrolases in Organic Synthesis -Regio-and Stereoselective Biotransformations 2nd edn</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Wiley-VCH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bornscheuer, U. T. &amp; Kazlauskas, R. J. Hydrolases in Organic Synthesis -Regio-and Stereoselective Biotransformations 2nd edn (Wiley-VCH, 2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seelbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wandrey</surname></persName>
+		</author>
+		<title level="m">Industrial Biotransformations 2nd edn</title>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liese, A., Seelbach, K. &amp; Wandrey, C. (eds) Industrial Biotransformations 2nd edn (Wiley-VCH, 2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Industrial biotechnology-the future of green chemistry? Green Chem</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wenda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Illner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kragl</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3007" to="3047" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wenda, S., Illner, S., Mell, A. &amp; Kragl, U. Industrial biotechnology-the future of green chemistry? Green Chem. 13, 3007-3047 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Durch Enzyme bewirkte asymmetrische Synthese</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rosenthaler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Z</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="238" to="253" />
+			<date type="published" when="1908">1908</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenthaler, L. Durch Enzyme bewirkte asymmetrische Synthese. Biochem. Z. 14, 238-253 (1908).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Biotransformations of steroids</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sedlaczek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="187" to="236" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sedlaczek, L. Biotransformations of steroids. Crit. Rev. Biotechnol. 7, 187-236 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">This paper puts forward the basis for the first application of protein engineering in industrial biotechnology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Estell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Graycar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page" from="6518" to="6521" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Engineering an enzyme by site-directed mutagenesis to be resistant to chemical oxidation</note>
+	<note type="raw_reference">Estell, D. A., Graycar, T. P. &amp; Wells, J. A. Engineering an enzyme by site-directed mutagenesis to be resistant to chemical oxidation. J. Biol. Chem. 260, 6518-6521 (1985). This paper puts forward the basis for the first application of protein engineering in industrial biotechnology.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Industrial scale production and application of immobilized glucose isomerase</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="356" to="370" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jensen, V. J. &amp; Rugh, S. Industrial scale production and application of immobilized glucose isomerase. Methods Enzymol. 136, 356-370 (1987).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Penicillin acylase in the industrial production of b-lactam antibiotics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bruggink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Vroom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="128" to="133" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bruggink, A., Roos, E. C. &amp; de Vroom, E. Penicillin acylase in the industrial production of b-lactam antibiotics. Org. Process Res. Dev. 2, 128-133 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The synthesis of chiral cyanohydrins by oxynitrilases</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Griengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fechter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="252" to="256" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griengl, H., Schwab, H. &amp; Fechter, M. The synthesis of chiral cyanohydrins by oxynitrilases. Trends Biotechnol. 18, 252-256 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Industrial use of lipases to produce fatty acid esters</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Lipid Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="601" to="607" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hills, G. Industrial use of lipases to produce fatty acid esters. Eur. J. Lipid Sci. Technol. 105, 601-607 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Production of acrylic acid and methacrylic acid using Rhodococcus rhodochrous J1 nitrilase</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagasawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="322" to="324" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagasawa, T., Nakamura, T. &amp; Yamada, H. Production of acrylic acid and methacrylic acid using Rhodococcus rhodochrous J1 nitrilase. Appl. Microbiol. Biotechnol. 34, 322-324 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Directed evolution of metabolic pathways in microbial populations. I. Modification of the acid phosphatase pH optimum in S. cerevisiae</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Hansche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="59" to="73" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Francis, J. C. &amp; Hansche, P. E. Directed evolution of metabolic pathways in microbial populations. I. Modification of the acid phosphatase pH optimum in S. cerevisiae. Genetics 70, 59-73 (1972).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Metabolic engineering for the microbial production of 1,3-propanediol</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Whited</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="454" to="459" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakamura, C. E. &amp; Whited, G. M. Metabolic engineering for the microbial production of 1,3-propanediol. Curr. Opin. Biotechnol. 14, 454-459 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Development of a biocatalytic process as an alternative to the (-)-DIP-Cl-mediated asymmetric reduction of a key intermediate of montelukast</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liang, J. et al. Development of a biocatalytic process as an alternative to the (-)- DIP-Cl-mediated asymmetric reduction of a key intermediate of montelukast. Org. Process Res. Dev. 14, 193-198 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Savile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="305" to="309" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savile, C. K. et al. Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture. Science 329, 305-309 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Sitagliptin manufacture: a compelling tale of green chemistry, process intensification, and industrial asymmetric catalysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Desai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<date type="published" when="1974">1974-1976 (2011</date>
+		</imprint>
+	</monogr>
+	<note>This highlight article compares in detail two processes for the production of sitagliptin</note>
+	<note type="raw_reference">Desai, A. A. Sitagliptin manufacture: a compelling tale of green chemistry, process intensification, and industrial asymmetric catalysis. Angew. Chem. Int. Ed. 50, 1974-1976 (2011). This highlight article compares in detail two processes for the production of sitagliptin, one catalysed by rhodium and one catalysed by a transaminase.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Quantitative exploration of the catalytic landscape separating divergent plant sesquiterpene synthases</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>O'maille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="617" to="623" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Maille, P. E. et al. Quantitative exploration of the catalytic landscape separating divergent plant sesquiterpene synthases. Nature Chem. Biol. 4, 617-623 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Non-fermentative pathways for synthesis of branched-chain higher alcohols as biofuels</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Liao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">451</biblScope>
+			<biblScope unit="page" from="86" to="89" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>This paper describes the efficient diversion of amino-acid metabolism to the production of alcohols</note>
+	<note type="raw_reference">Atsumi, S., Hanai, T. &amp; Liao, J. C. Non-fermentative pathways for synthesis of branched-chain higher alcohols as biofuels. Nature 451, 86-89 (2008). This paper describes the efficient diversion of amino-acid metabolism to the production of alcohols.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Metabolic engineering of microorganisms for biofuels production: from bugs to synthetic biology to fuels</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Keasling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="556" to="563" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, S. K., Chou, H., Ham, T. S., Lee, T. S. &amp; Keasling, J. D. Metabolic engineering of microorganisms for biofuels production: from bugs to synthetic biology to fuels. Curr. Opin. Biotechnol. 19, 556-563 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Microbial production of fatty-acid-derived fuels and chemicals from plant biomass</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Steen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="559" to="562" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steen, E. J. et al. Microbial production of fatty-acid-derived fuels and chemicals from plant biomass. Nature 463, 559-562 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">High levels of bioplastic are produced in fertile transplastomic tobacco plants engineered with a synthetic operon for the production of polyhydroxybutyrate</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bohmert-Tatarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mcavoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Daughtry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Peoples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Snell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1690" to="1708" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bohmert-Tatarev, K., McAvoy, S., Daughtry, S., Peoples, O. P. &amp; Snell, K. D. High levels of bioplastic are produced in fertile transplastomic tobacco plants engineered with a synthetic operon for the production of polyhydroxybutyrate. Plant Physiol. 155, 1690-1708 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Styrene biosynthesis from glucose by engineered E. coli</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metab. Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="544" to="554" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKenna, R. &amp; Nielsen, D. R. Styrene biosynthesis from glucose by engineered E. coli. Metab. Eng. 13, 544-554 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Finding better protein engineering strategies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="526" to="529" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kazlauskas, R. J. &amp; Bornscheuer, U. T. Finding better protein engineering strategies. Nature Chem. Biol. 5, 526-529 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m">Protein Engineering Handbook</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S. &amp; Bornscheuer, U. T. (eds) Protein Engineering Handbook (Wiley-VCH, 2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Directed evolution drives the next generation of biocatalysts</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="567" to="573" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Turner, N. J. Directed evolution drives the next generation of biocatalysts. Nature Chem. Biol. 5, 567-573 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Kemp elimination catalysts by computational enzyme design</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ro ¨thlisberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ro ¨thlisberger, D. et al. Kemp elimination catalysts by computational enzyme design. Nature 453, 190-195 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Industrial biocatalysis today and tomorrow</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="258" to="268" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmid, A. et al. Industrial biocatalysis today and tomorrow. Nature 409, 258-268 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Combinatorial and computational challenges for biocatalyst design</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="253" to="257" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold, F. H. Combinatorial and computational challenges for biocatalyst design. Nature 409, 253-257 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Dispelling the myths-biocatalysis in industrial synthesis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Schoemaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Wubbolts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page" from="1694" to="1697" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoemaker, H. E., Mink, D. &amp; Wubbolts, M. G. Dispelling the myths-biocatalysis in industrial synthesis. Science 299, 1694-1697 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Manufacturing molecules through metabolic engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Keasling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="1355" to="1358" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keasling, J. D. Manufacturing molecules through metabolic engineering. Science 330, 1355-1358 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Metabolic engineering of poly(3-hydroxyalkanoates): from DNA to plastic</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Madison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="21" to="53" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Madison, L. L. &amp; Huisman, G. W. Metabolic engineering of poly(3-hydroxy- alkanoates): from DNA to plastic. Microbiol. Mol. Biol. Rev. 63, 21-53 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">DNA sequencing costs: data from the NHGRI large-scale genome sequencing program</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Wetterstrand</surname></persName>
+		</author>
+		<ptr target="//www.genome.gov/sequencingcostsae" />
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">National Human Genome Research Project AEhttp</note>
+	<note type="raw_reference">Wetterstrand, K. A. DNA sequencing costs: data from the NHGRI large-scale genome sequencing program. National Human Genome Research Project AEhttp://www.genome.gov/sequencingcostsae (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Metagenomics and industrial applications</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorenz, P. &amp; Eck, J. Metagenomics and industrial applications. Nature Rev. Microbiol. 3, 510-516 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">High-resolution mapping of protein sequence-function relationships</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fowler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="741" to="746" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fowler, D. M. et al. High-resolution mapping of protein sequence-function relationships. Nature Methods 7, 741-746 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Amplification and assembly of chip-eluted DNA (AACED): a method for high-throughput gene synthesis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Richmond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="5011" to="5018" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richmond, K. E. et al. Amplification and assembly of chip-eluted DNA (AACED): a method for high-throughput gene synthesis. Nucleic Acids Res. 32, 5011-5018 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Creation of a bacterial cell controlled by a chemically synthesized genome</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="52" to="56" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, D. G. et al. Creation of a bacterial cell controlled by a chemically synthesized genome. Science 329, 52-56 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Beyond directed evolution-semi-rational protein engineering and design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="734" to="743" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutz, S. Beyond directed evolution-semi-rational protein engineering and design. Curr. Opin. Biotechnol. 21, 734-743 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">In this paper, careful analysis of key motifs of 5,000 pyridoxal-5-phosphatedependent transaminase sequences in public databases identified 20 novel enzymes for which substrate preference (ketone, not a-keto acid)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ho ¨hne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scha ¨tzle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jochens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="807" to="813" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Rational assignment of key motifs for function guides in silico enzyme identification and enantiopreference ((R), not (S)) could be predicted and experimentally confirmed</note>
+	<note type="raw_reference">Ho ¨hne, M., Scha ¨tzle, S., Jochens, H., Robins, K. &amp; Bornscheuer, U. T. Rational assignment of key motifs for function guides in silico enzyme identification. Nature Chem. Biol. 6, 807-813 (2010). In this paper, careful analysis of key motifs of 5,000 pyridoxal-5-phosphate- dependent transaminase sequences in public databases identified 20 novel enzymes for which substrate preference (ketone, not a-keto acid) and enantiopreference ((R), not (S)) could be predicted and experimentally confirmed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Natural diversity to guide focused directed evolution</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jochens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1861" to="1866" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jochens, H. &amp; Bornscheuer, U. T. Natural diversity to guide focused directed evolution. ChemBioChem 11, 1861-1866 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Focusing mutations into the P. fluorescens esterase binding site increases enantioselectivity more effectively than distant mutations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, S. et al. Focusing mutations into the P. fluorescens esterase binding site increases enantioselectivity more effectively than distant mutations. Chem. Biol. 12, 45-54 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mutations in distant residues moderately increase the enantioselectivity of Pseudomonas fluorescens esterase towards methyl 3-bromo-2methylpropanoate and ethyl 3-phenylbutyrate</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Horsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1933" to="1939" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horsman, G. P., Liu, A. M. F., Henke, E., Bornscheuer, U. T. &amp; Kazlauskas, R. J. Mutations in distant residues moderately increase the enantioselectivity of Pseudomonas fluorescens esterase towards methyl 3-bromo-2- methylpropanoate and ethyl 3-phenylbutyrate. Chemistry 9, 1933-1939 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A system for the continuous directed evolution of biomolecules</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Esvelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">472</biblScope>
+			<biblScope unit="page" from="499" to="503" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Esvelt, K. M., Carlson, J. C. &amp; Liu, D. R. A system for the continuous directed evolution of biomolecules. Nature 472, 499-503 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Advances in the enzymatic reduction of ketones</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kosjek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Devine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1412" to="1419" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore, J. C., Pollard, D. J., Kosjek, B. &amp; Devine, P. N. Advances in the enzymatic reduction of ketones. Acc. Chem. Res. 40, 1412-1419 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">This is a review about protein engineering to create biocatalysts for industrial applications</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Strohmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gruber-Khadjawi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="4141" to="4164" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Application of designed enzymes in organic synthesis</note>
+	<note type="raw_reference">Strohmeier, G. A., Pichler, H., May, O. &amp; Gruber-Khadjawi, M. Application of designed enzymes in organic synthesis. Chem. Rev. 111, 4141-4164 (2011). This is a review about protein engineering to create biocatalysts for industrial applications.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cloning, nucleotide sequence and expression of a hydantoinase and carbamoylase gene from REVIEW RESEARCH Arthrobacter aurescens DSM 3745 in Escherichia coli and comparison with the corresponding genes from Arthrobacter aurescens DSM 3747</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wiese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wilms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Syldatk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mattes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Altenbuchner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="750" to="757" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wiese, A., Wilms, B., Syldatk, C., Mattes, R. &amp; Altenbuchner, J. Cloning, nucleotide sequence and expression of a hydantoinase and carbamoylase gene from REVIEW RESEARCH Arthrobacter aurescens DSM 3745 in Escherichia coli and comparison with the corresponding genes from Arthrobacter aurescens DSM 3747. Appl. Microbiol. Biotechnol. 55, 750-757 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Recombinant polycistronic structure of hydantoinase process genes in Escherichia coli for the production of optically pure D-amino acids</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Martinez-Gomez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1525" to="1531" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez-Gomez, A. I. et al. Recombinant polycistronic structure of hydantoinase process genes in Escherichia coli for the production of optically pure D-amino acids. Appl. Environ. Microbiol. 73, 1525-1531 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Advances in biocatalytic synthesis of pharmaceutical intermediates</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Panke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wubbolts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="188" to="194" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Panke, S. &amp; Wubbolts, M. Advances in biocatalytic synthesis of pharmaceutical intermediates. Curr. Opin. Chem. Biol. 9, 188-194 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Industrial methods for the production of optically active intermediates</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Breuer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="788" to="824" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Breuer, M. et al. Industrial methods for the production of optically active intermediates. Angew. Chem. Int. Ed. 43, 788-824 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">This paper describes how a single amino-acid substitution can create a nitrilase with high enantioselectivity at 3 M substrate concentration, for synthesis of an intermediate for atorvastatin</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desantis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="11476" to="11477" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>Creation of a productive, highly enantioselective nitrilase through gene site saturation mutagenesis (GSSM)</note>
+	<note type="raw_reference">DeSantis, G. et al. Creation of a productive, highly enantioselective nitrilase through gene site saturation mutagenesis (GSSM). J. Am. Chem. Soc. 125, 11476-11477 (2003). This paper describes how a single amino-acid substitution can create a nitrilase with high enantioselectivity at 3 M substrate concentration, for synthesis of an intermediate for atorvastatin.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A green-by-design biocatalytic process for atorvastatin intermediate</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="81" to="86" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, S. K. et al. A green-by-design biocatalytic process for atorvastatin intermediate. Green Chem. 12, 81-86 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m">Green Chemistry: Theory and Practice</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Anastas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Warner</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Oxford Univ. Press</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anastas, P. &amp; Warner, J. (eds) Green Chemistry: Theory and Practice (Oxford Univ. Press, 1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of polylactic acid and its copolymers using evolved propionate CoA transferase and PHA synthase</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="150" to="160" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, T. H. et al. Biosynthesis of polylactic acid and its copolymers using evolved propionate CoA transferase and PHA synthase. Biotechnol. Bioeng. 105, 150-160 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">In vitro compartmentalization by double emulsions: sorting and gene enrichment by fluorescence activated cell sorting</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bernath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernath, K. et al. In vitro compartmentalization by double emulsions: sorting and gene enrichment by fluorescence activated cell sorting. Anal. Biochem. 325, 151-157 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Single-cell high-throughput screening to identify enantioselective hydrolytic enzymes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="5085" to="5088" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Becker, S. et al. Single-cell high-throughput screening to identify enantioselective hydrolytic enzymes. Angew. Chem. Int. Ed. 47, 5085-5088 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A combination of in vivo selection and cell sorting for the identification of enantioselective biocatalysts</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ferna ´ndez-Alvaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="8584" to="8587" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferna ´ndez-Alvaro, E. et al. A combination of in vivo selection and cell sorting for the identification of enantioselective biocatalysts. Angew. Chem. Int. Ed. 50, 8584-8587 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Engineering delta 9-16:0-acyl carrier protein (ACP) desaturase specificity based on combinatorial saturation mutagenesis and logical redesign of the castor delta 9-18:0-ACP desaturase</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Whittle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shanklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="21500" to="21505" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whittle, E. &amp; Shanklin, J. Engineering delta 9-16:0-acyl carrier protein (ACP) desaturase specificity based on combinatorial saturation mutagenesis and logical redesign of the castor delta 9-18:0-ACP desaturase. J. Biol. Chem. 276, 21500-21505 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Selection and evolution of enzymes from a partially randomized non-catalytic scaffold</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seelig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Szostak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="page" from="828" to="831" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seelig, B. &amp; Szostak, J. W. Selection and evolution of enzymes from a partially randomized non-catalytic scaffold. Nature 448, 828-831 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Improving catalytic function by ProSAR-driven enzyme evolution</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="338" to="344" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fox, R. J. et al. Improving catalytic function by ProSAR-driven enzyme evolution. Nature Biotechnol. 25, 338-344 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Designed divergent evolution of enzyme function</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoshikuni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Ferrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Keasling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page" from="1078" to="1082" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoshikuni, Y., Ferrin, T. E. &amp; Keasling, J. D. Designed divergent evolution of enzyme function. Nature 440, 1078-1082 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">ProTherm, version 4.0: thermodynamic database for proteins and mutants</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Gromiha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Uedaira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kitajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">&amp;</forename><surname>Sarai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="120" to="D121" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bava, K. A., Gromiha, M. M., Uedaira, H., Kitajima, K., &amp;. Sarai, A. ProTherm, version 4.0: thermodynamic database for proteins and mutants. Nucleic Acids Res. 32, D120-D121 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">This paper shows that about 34% of random amino-acid replacements inactivate a protein&apos;s functions, indicating the importance of starting with a stabilized protein for protein engineering experiments</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Loeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="9205" to="9210" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Protein tolerance to random amino acid change</note>
+	<note type="raw_reference">Guo, H. H., Choe, J. &amp; Loeb, L. A. Protein tolerance to random amino acid change. Proc. Natl Acad. Sci. USA 101, 9205-9210 (2004). This paper shows that about 34% of random amino-acid replacements inactivate a protein&apos;s functions, indicating the importance of starting with a stabilized protein for protein engineering experiments.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Why highly expressed proteins evolve slowly</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Adami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="14338" to="14343" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drummond, D. A., Bloom, J. D., Adami, C., Wilke, C. O. &amp; Arnold, F. H. Why highly expressed proteins evolve slowly. Proc. Natl Acad. Sci. USA 102, 14338-14343 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Directed enzyme evolution via small and effective neutral drift libraries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="939" to="942" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gupta, R. D. &amp; Tawfik, D. S. Directed enzyme evolution via small and effective neutral drift libraries. Nature Methods 5, 939-942 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Neutral genetic drift can alter promiscuous protein functions, potentially aiding functional evolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Direct</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bloom, J. D., Romero, P. A., Lu, Z. &amp; Arnold, F. H. Neutral genetic drift can alter promiscuous protein functions, potentially aiding functional evolution. Biol. Direct 2, 17 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Additivity of mutational effects in proteins</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="8509" to="8517" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wells, J. A. Additivity of mutational effects in proteins. Biochemistry 29, 8509-8517 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Directed evolution of a para-nitrobenzyl esterase for aqueous-organic solvents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="458" to="467" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore, J. C. &amp; Arnold, F. H. Directed evolution of a para-nitrobenzyl esterase for aqueous-organic solvents. Nature Biotechnol. 14, 458-467 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schimossek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liebeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-E</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Edn Engl</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2830" to="2832" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M. T., Zonta, A., Schimossek, K., Liebeton, K. &amp; Jaeger, K.-E. Creation of enantioselective biocatalysts for organic chemistry by in vitro evolution. Angew. Chem. Int. Edn Engl. 36, 2830-2832 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Darwinian evolution can follow only very few mutational paths to fitter proteins</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Weinreich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Depristo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="111" to="114" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinreich, D. M., Delaney, N. F., Depristo, M. A. &amp; Hartl, D. L. Darwinian evolution can follow only very few mutational paths to fitter proteins. Science 312, 111-114 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Constructing and analyzing the fitness landscape of an experimental evolutionary process</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Reetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanchis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2260" to="2267" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reetz, M. T. &amp; Sanchis, J. Constructing and analyzing the fitness landscape of an experimental evolutionary process. ChemBioChem 9, 2260-2267 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">De novo computational design of retro-aldol enzymes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1387" to="1391" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiang, L. et al. De novo computational design of retro-aldol enzymes. Science 319, 1387-1391 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Conversion of pyruvate decarboxylase into an enantioselective carboligase with biosynthetic potential</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="3609" to="3616" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyer, D. et al. Conversion of pyruvate decarboxylase into an enantioselective carboligase with biosynthetic potential. J. Am. Chem. Soc. 133, 3609-3616 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Computational design of an enzyme catalyst for a stereoselective bimolecular Diels-Alder reaction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="309" to="313" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegel, J. B. et al. Computational design of an enzyme catalyst for a stereoselective bimolecular Diels-Alder reaction. Science 329, 309-313 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Codon based mutagenesis using trimer phosphoramidites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Randolph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yagodkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lamaitre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Azhayev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mackie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Symp. Ser</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">479</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Randolph, J., Yagodkin, A., Lamaitre, M., Azhayev, A. &amp; Mackie, H. Codon based mutagenesis using trimer phosphoramidites. Nucleic Acids Symp. Ser. 52, 479 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Engineering the nanoparticle-protein interface: applications and possibilities</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Rotello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="828" to="834" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rana, S., Yeh, Y. C. &amp; Rotello, V. M. Engineering the nanoparticle-protein interface: applications and possibilities. Curr. Opin. Chem. Biol. 14, 828-834 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Synthetic protein scaffolds provide modular control over metabolic flux</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Dueber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="753" to="759" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dueber, J. E. et al. Synthetic protein scaffolds provide modular control over metabolic flux. Nature Biotechnol. 27, 753-759 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Wiring-up hydrogenase with single-walled carbon nanotubes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3528" to="3534" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonald, T. J. et al. Wiring-up hydrogenase with single-walled carbon nanotubes. Nano Lett. 7, 3528-3534 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Initial sequencing and comparative analysis of the mouse genome</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">420</biblScope>
+			<biblScope unit="page" from="520" to="562" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>Mouse Genome Sequencing Consortium</note>
+	<note type="raw_reference">Mouse Genome Sequencing Consortium.. Initial sequencing and comparative analysis of the mouse genome. Nature 420, 520-562 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Biotechnology for the acceleration of carbon dioxide capture and sequestration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Savile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lalonde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="818" to="823" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savile, C. K. &amp; Lalonde, J. J. Biotechnology for the acceleration of carbon dioxide capture and sequestration. Curr. Opin. Biotechnol. 22, 818-823 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Highly active mutants of carbonyl reductase S1 with inverted coenzyme specificity and production of optically active alcohols</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Biotechnol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="544" to="552" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morikawa, S. et al. Highly active mutants of carbonyl reductase S1 with inverted coenzyme specificity and production of optically active alcohols. Biosci. Biotechnol. Biochem. 69, 544-552 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Diastereoselective microbial reduction of (S)-[3chloro-2-oxo-1-(phenylmethyl)propyl]carbamic acid, 1,1-dimethylethyl ester</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mueller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedr. Asymm</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3105" to="3109" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patel, R. N., Chu, L. &amp; Mueller, R. Diastereoselective microbial reduction of (S)-[3- chloro-2-oxo-1-(phenylmethyl)propyl]carbamic acid, 1,1-dimethylethyl ester. Tetrahedr. Asymm. 14, 3105-3109 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Highly enantioselective reduction of a small heterocyclic ketone: biocatalytic reduction of tetrahydrothiophene-3-one to the corresponding (R)alcohol</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="188" to="192" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liang, J. et al. Highly enantioselective reduction of a small heterocyclic ketone: biocatalytic reduction of tetrahydrothiophene-3-one to the corresponding (R)- alcohol. Org. Process Res. Dev. 14, 188-192 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Directed evolution of an aminoalcohol dehydrogenase for efficient production of double chiral aminoalcohols</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Urano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biosci. Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="266" to="271" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Urano, N. et al. Directed evolution of an aminoalcohol dehydrogenase for efficient production of double chiral aminoalcohols. J. Biosci. Bioeng. 111, 266-271 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Development of a practical biocatalytic process for (R)-2methylpentanol</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">W</forename><surname>Gooding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="119" to="126" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gooding, O. W. et al. Development of a practical biocatalytic process for (R)-2- methylpentanol. Org. Process Res. Dev. 14, 119-126 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">The combination of hydroformylation and biocatalysis for the large-scale synthesis of (S)-allysine ethylene acetal</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Cobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simmonds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="284" to="290" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cobley, C. J., Hanson, C. H., Lloyd, M. C. &amp; Simmonds, S. The combination of hydroformylation and biocatalysis for the large-scale synthesis of (S)-allysine ethylene acetal. Org. Process Res. Dev. 15, 284-290 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Biosynthesis of lovastatin analogs with a broadly specific acyltransferase</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Wojcicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1161" to="1169" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xie, X., Watanabe, K., Wojcicki, W. A., Wang, C. C. &amp; Tang, Y. Biosynthesis of lovastatin analogs with a broadly specific acyltransferase. Chem. Biol. 13, 1161-1169 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Development of an improved immobilized CAL-B for the enzymatic resolution of a key intermediate to odanacatib</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Truppo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1033" to="1035" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Truppo, M. D. &amp; Hughes, G. Development of an improved immobilized CAL-B for the enzymatic resolution of a key intermediate to odanacatib. Org. Process Res. Dev. 15, 1033-1035 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Diastereoisomeric salt formation and enzyme-catalyzed kinetic resolution as complementary methods for the chiral separation of cis-/trans-enantiomers of 3-aminocyclohexanol</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brocklehurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laumen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Vecchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vo ¨gtle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="294" to="300" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brocklehurst, C. E., Laumen, K., Vecchia, L. L., Shaw, D. &amp; Vo ¨gtle, M. Diastereoisomeric salt formation and enzyme-catalyzed kinetic resolution as complementary methods for the chiral separation of cis-/trans-enantiomers of 3-aminocyclohexanol. Org. Process Res. Dev. 15, 294-300 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iding</surname></persName>
+		</author>
+		<title level="m">Asymmetric Catalysis on Industrial Scale</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">U</forename><surname>Blaser</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Federsel</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="377" to="396" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iding, H. et al. in Asymmetric Catalysis on Industrial Scale (eds Blaser, H. U. &amp; Federsel, H. J.) 377-396 (Wiley-VCH, 2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Enzymatic preparation of an (S)-amino acid from a racemic amino acid</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="241" to="248" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y. J. et al. Enzymatic preparation of an (S)-amino acid from a racemic amino acid. Org. Process Res. Dev. 15, 241-248 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Scale-up of a chemo-biocatalytic route to (2R,4R)-and (2S,4S)-monatin</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Rousseau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Process Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rousseau, A. L. et al. Scale-up of a chemo-biocatalytic route to (2R,4R)-and (2S,4S)-monatin. Org. Process Res. Dev. 15, 249-257 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Development of an efficient, scalable, aldolase-catalyzed process for enantioselective synthesis of statin intermediates</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Greenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="5788" to="5793" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenberg, W. A. et al. Development of an efficient, scalable, aldolase-catalyzed process for enantioselective synthesis of statin intermediates. Proc. Natl Acad. Sci. USA 101, 5788-5793 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Biochemical retrosynthesis of 29-deoxyribonucleosides from glucose, acetaldehyde, and a nucleobase</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Horinouchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="615" to="621" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horinouchi, N. et al. Biochemical retrosynthesis of 29-deoxyribonucleosides from glucose, acetaldehyde, and a nucleobase. Appl. Microbiol. Biotechnol. 71, 615-621 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Characterization of Bacillus thuringiensis L-isoleucine dioxygenase for production of useful amino acids</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hibi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="6926" to="6930" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hibi, M. et al. Characterization of Bacillus thuringiensis L-isoleucine dioxygenase for production of useful amino acids. Appl. Environ. Microbiol. 77, 6926-6930 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Asymmetric synthesis of (S)-2-indoline carboxylic acid by combining biocatalysis and homogeneous catalysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Lange</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="289" to="292" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Lange, B. et al. Asymmetric synthesis of (S)-2-indoline carboxylic acid by combining biocatalysis and homogeneous catalysis. ChemCatChem 3, 289-292 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">A new enzymatic method of selective phosphorylation of nucleosides</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Asano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Catal. B</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="271" to="277" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asano, Y., Mihara, Y. &amp; Yamada, H. A new enzymatic method of selective phosphorylation of nucleosides. J. Mol. Catal. B 6, 271-277 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Alternative pig liver esterase (APLE) -cloning, identification and functional expression in Pichia pastoris of a versatile new biocatalyst</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="301" to="310" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hermann, M. et al. Alternative pig liver esterase (APLE) -cloning, identification and functional expression in Pichia pastoris of a versatile new biocatalyst. J. Biotechnol. 133, 301-310 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Thermostability reinforcement through a combination of thermostability-related mutations of N-carbamyl-D-amino acid amidohydrolase</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ikenaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Biotechnol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="91" to="95" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ikenaka, Y. et al. Thermostability reinforcement through a combination of thermostability-related mutations of N-carbamyl-D-amino acid amidohydrolase. Biosci. Biotechnol. Biochem. 63, 91-95 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Production of the antimalarial drug precursor artemisinic acid in engineered yeast</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page" from="940" to="943" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ro, D. K. et al. Production of the antimalarial drug precursor artemisinic acid in engineered yeast. Nature 440, 940-943 (2006).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

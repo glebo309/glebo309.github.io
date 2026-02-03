@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lab on a Chip PAPER</title>
+				<funder ref="#_tSRch4f">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">EPSRC and Johnson Matthey</orgName>
+				</funder>
+				<funder ref="#_Z2xErpJ #_yfZpf2Z">
+					<orgName type="full">EU ITN ES-Cat</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-11-12">12 November 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Jannis Zurek</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Raphaëlle</forename><surname>Hours</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ursula</forename><surname>Schell</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Johnson Matthey Plc</orgName>
+								<address>
+									<addrLine>260 Cambridge Science Park</addrLine>
+									<postCode>CB4 0WE</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ahir</forename><surname>Pushpanath</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Johnson Matthey Plc</orgName>
+								<address>
+									<addrLine>260 Cambridge Science Park</addrLine>
+									<postCode>CB4 0WE</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Florian</forename><surname>Hollfelder</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>80 Tennis Court Road</addrLine>
+									<postCode>CB2 1GA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lab on a Chip PAPER</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-11-12">12 November 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9AC9F2EF211969A0CEFF4968A33DBE64</idno>
+					<idno type="DOI">10.1039/d0lc00830c</idno>
+					<note type="submission">Received 14th August 2020, Accepted 10th November 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-08-24T12:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[0], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Microfluidic ultrahigh-throughput screening of enzyme activities provides information on libraries with millions of variants in a day. Each individual library member is represented by a recombinant single cell, compartmentalised in an emulsion droplet, in which an activity assay is carried out. Key to the success of this approach is the precision and sensitivity of the assay. Assay quality is most profoundly challenged when initially weak, promiscuous activities are to be enhanced in early rounds of directed evolution or when entirely novel catalysts are to be identified from metagenomic sources. Implementation of measures to widen the dynamic range of clonal assays would increase the chances of finding and generating new biocatalysts. Here, we demonstrate that the assay sensitivity and DNA recovery can be improved by orders of magnitude by growth of initially singly compartmentalised cells in microdroplets. Homogeneous cell growth is achieved by continuous oxygenation and recombinant protein expression is regulated by diffusion of an inducer from the oil phase. Reaction conditions are adjusted by directed droplet coalescence to enable full control of buffer composition and kinetic incubation time, creating level playing field conditions for library selections. The clonal amplification multiplies the product readout because more enzyme is produced per compartment. At the same time, phenotypic variation is reduced by measuring monoclonal populations rather than single cells and recovery efficiency is increased. Consequently, this workflow increases the efficiency of lysate-based microfluidic enzyme assays and will make it easier for protein engineers to identify or evolve new enzymes for applications in synthetic and chemical biology.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Enzymes are increasingly used for sustainable chemical synthesis, as they are powerful 'green' catalysts providing efficient turnover and remarkable stereo-and enantioselectivity under mild reaction conditions. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> If a reaction that does not exist in nature is to be catalysed, there are two principal routes to enzymes with novel activities: either natural enzymes with secondary, promiscuous activities <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> are fine-tuned to the requisites of industrial processes, often via directed evolution; alternatively, new enzyme functions can either be discovered by functional metagenomics in large samples of natural biodiversity <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> or introduced by computational design. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> In all cases, the initially weak activity of an enzyme is likely to require improvements and directed evolution is usually the method of choice. This artificial Darwinian process consists of repeated cycles of mutagenesis and selection and has led to many successful biocatalysts. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> The prospects of directed evolution campaigns, however, improve with the practical ability to explore greater diversity via ever higher throughput screening approaches. In the last decade, compartmentalisation of single library members and miniaturisation of reaction volumes in droplet microfluidics (see Fig. <ref type="figure" target="#fig_0">1</ref>) has proven a valuable and efficient tool for enzyme evolution. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> Single library members (e.g. cells expressing <ref type="bibr" target="#b18">19</ref> or displaying <ref type="bibr" target="#b19">20</ref> enzyme variants) are co-encapsulated with the substrate and reaction progress is followed in chromogenic or fluorogenic reactions by optical interrogation of dropletcompartmentalised library members. Droplets can be sorted with kHz frequencies, enabling fast screening of tens of millions of variants in a day, in picoliter volumes. <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> In addition to maximal throughput, the dynamic range and sensitivity of the assay (including the analytical technologies for measuring product concentrations) are key features relevant for success. Indeed, concentrations of fluorescent reaction product as low 2.5 nM could be detected in a metagenomic screening of hydrolases, corresponding to just ∼2500 molecules of the reaction product fluorescein in 2 pL droplets. <ref type="bibr" target="#b5">6</ref> Consequently, even hits with relatively low activities (k cat /K M ∼50 M -1 s -1 ) could be identified. This means the sensitivity of droplet screening is increased by several orders of magnitude compared to e.g. conventional plate screening, so that metagenomic hits with inefficient expression and/or low promiscuous activities can be discovered or subsequently evolved in droplets. However, for very low promiscuous activities or enzymes from metagenomic libraries with low expression, detection limits may still preclude catalyst discovery. The superb sensitivity afforded by fluorescence detection is difficult to match when other optical assays that involve detection of product absorbance <ref type="bibr" target="#b21">22</ref> or anisotropy <ref type="bibr" target="#b22">23</ref> are used, where detection limits of 10 μM and 0.1 μM, respectively, have been determined. Other non-optical detection modes have recently been applied to assay enzymatic activity and enabled detection limits in a similar range to the new optical methods, e.g. 1 μM for electrochemical <ref type="bibr" target="#b23">24</ref> and 30 μM for mass spectrometric <ref type="bibr" target="#b24">25</ref> detections. In any case, a crucial condition in all droplet approaches is the necessity to compartmentalise, by Poissondistribution, just one cell (or gene) per droplet compartment. This renders the droplet monoclonal, i.e. defined by just one unique DNA sequence. On the other hand, while necessary for monoclonality, compartmentalisation of single cells imposes limits on the amount of enzyme produced that is in turn leading to formation of detectable product. A larger enzyme concentration would make it easier to detect reaction product, which means that low promiscuous activity or only weakly expressed enzymes (e.g. in metagenomic libraries) can be identified and become selectable.</p><p>Here we establish a general workflow (Fig. <ref type="figure" target="#fig_0">1</ref>) that addresses the problem of detection limits in droplet screening by facilitating homogeneous cell growth in droplet compartments, resulting in increased enzyme content per droplet. We show that the individual enzyme performance necessary for successful product detection is lowered ∼10-fold. We validate the workflow by demonstrating its applicability to the conversion of an amino acid dehydrogenase to an amine dehydrogenase biocatalyst, an important class of biocatalysts for the industrial synthesis of chiral amines. <ref type="bibr" target="#b25">26</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Achieving homogeneous cell growth in droplets</head><p>First, a suitable device for droplet incubation needed to be prepared that allows for robust storage and convenient handling of emulsions, such as direct re-injection into a sorting device. For this purpose, modified 0.5 mL reaction tubes were used (Fig. <ref type="figure">2A</ref> and S1 †). These droplet incubation chambers can easily be prepared by opening access holes into a standard plastic reaction tube with a biopsy punch and attaching access tubing with high-viscosity plastic glue. The droplets are directly collected from the generation device into such a chamber prefilled with oil. During incubation the droplets packed at the Lab Chip, 2021, 21, 163-173 | 165 This journal is © The Royal Society of Chemistry 2021</p><p>top of the oil in the chamber, allowing for a convenient and robust way to incubate large emulsion volumes without destabilization by surface effects and for easy re-injection into subsequent microfluidic devices, as necessary for extensive microfluidic screening campaigns.</p><p>Next, cell growth was established in these incubation chambers. To test the hypothesis that oxygen availability is key to homogeneous growth, static and oxygenated cell growth in droplets was compared. A live cell stain compatible with absorbance-activated droplet sorting (AADS) was found in WST-1 that was injected into the droplets after growth. WST-1 absorbance changes concomitantly with reduction of NAD + in a coupled reaction. <ref type="bibr" target="#b21">22</ref> Amplification of cells in droplets was first tested in the most straightforward format, by encapsulating single cells into droplets filled with growth medium and incubation at 37 °C for 16 h without any oxygenation or mixing. Occupied droplets (empty droplets are ignored) incubated under these static growth conditions showed a main peak at low absorbance values with a very evident tail (Fig. <ref type="figure">2B</ref>), indicating that most droplets show little growth amplification whereas few droplets (showing up in the tail) provide conditions for higher cell growth, so that a mixed population is the result. We sought to establish homogeneity in the droplet population by pushing oil through the incubation chamber, thus providing gentle mixing and oxygen supply. When relatively low oil flow rates for oxygenation (4 μl min -1 per 100 μl of emulsion) were used, homogeneous cell growth could be achieved. To quantify the effect of oxygenation on the growth homogeneity of the population, a robust measure of scale, the interquartile range, was used. This was necessary because of the non-normality of the static growth distribution: droplets with 'extreme' growth values, by convention defined as outliers with an absorbance greater than the third quartile plus 1.5-fold interquartile range (0.35% for a reference normal distribution), are abundant in static growth conditions, resulting in 12.1% of the total number of droplets being 'extreme' outliers. When oxygenation was applied, the peak of occupied droplets showed a reduction to a mere 1.1% droplets with 'extreme' growth, quantifying the beneficial effect of oxygenation on growth homogeneity by removing overly grown outliers.</p><p>This situation that static cell growth in droplets, as demonstrated in previous studies, <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> did not lead to fast growth amplification and homogeneity is unsatisfactory for precise assays: growth homogeneity is crucial for reliable screening, because identical conditions in every droplet are necessary to provide a quantitative readout of enzymatic turnover. The number of cells per droplet determines the enzyme concentration proportionally, thus influencing the enzymatic activity on which selections are based. Previous screening campaigns (e.g. with selections for antimicrobial resistance <ref type="bibr" target="#b30">31</ref> or with initial filtering for cell growth by assessment of light scattering properties in flow cytometry <ref type="bibr" target="#b31">32</ref> ) were based on simple binary or merely qualitative selections, where different degrees of activity were not differentiated. As a consequence, they may not share the same sensitivity to growth homogeneity as screens for catalytic turnover. A possible reason Fig. <ref type="figure">2</ref> Oxygen supply via the oil phase ensures rapid and homogeneous cell growth in droplets. A) Schematic of a droplet incubation chamber, built from a standard 0.5 mL plastic reaction tube, high viscosity glue and polyethylene tubing. These chambers allow for robust storage and convenient handling of droplet emulsions, which pack on top of the oil phase in the chamber. Droplets can easily be collected, stored, oxygenated and ejected from an incubation chamber. B) Histograms of occupied droplets (n = 2500) starting from singly compartmentalised E. coli that are grown in static (gray) or actively oxygenated (blue, 4 μl min -1 HFE-7500 with 1% RAN surfactant) culture for 16 hours at 37 °C. Cell growth was measured via the absorbance of the live cell stain formazan dye WST-1 (that detects NADH) and analysed in AADS. <ref type="bibr" target="#b21">22</ref> The upper fence of the corresponding boxplot for the static culture (corresponding to the third quartile plus 1.5-fold interquartile range) is marked with an asterisk and an arrow, and the static growth distribution beyond this point is coloured in red, highlighting the strong tail of the distribution. C) Illustrative scenarios for distribution of oxygen throughout a droplet sample during incubation for cell growth. Oxygenation by oil flow (left) leads to a homogeneous distribution, whereas a lack of active oxygenation leads to oxygen depletion in the central, static population (right) with little mixing and exchange.</p><p>for the homogeneity in static growth conditions is differential oxygen availability depending on the location of individual droplets in the device. While oxygen can diffuse into the emulsion from the oil, it is also rapidly depleted by the growing cells. As a result, cell growth is not only reduced, butas the availability of oxygen is greater in droplets close to the interface heterogeneity is introduced dependent on a droplet's position in the incubation chamber (Fig. <ref type="figure">2C</ref>). The work of Mahler and colleagues <ref type="bibr" target="#b32">33</ref> has come to a similar conclusion. In their work a custom 3D-printed droplet incubation device was used for oxygenation of cells growing within droplets in a circular set-up, in which a peristaltic pump is used to push oil through an emulsion at high flow rates, to supply a maximal amount of oxygen. Our simple set-up does not yield the cell growth rates comparable to regular shaking flasks achieved by Mahler et al., <ref type="bibr" target="#b32">33</ref> yet oxygenation with comparatively low oil flow rates provides growth homogeneity. This set-up requires only regular syringe pumps for oil flow and self-made reaction tubes as incubation chambers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Induction of recombinant protein expression without droplet manipulation</head><p>In order to carry out enzyme assays in directed evolution, recombinant protein expression must be induced for each member of a gene library (coding for enzyme mutants or a metagenomic collection of proteins). Many protein expression systems rely on the addition of an external inducer after an initial growth phase, such as the T7 expression system <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> present in the pET vector family. Here, recombinant expression is usually induced indirectly by the non-hydrolysable lactose analog IPTG (inducing expression of the T7 RNA polymerase via a lactose promoter, which then expresses the gene of interest via the T7 promoter), allowing control over the timing and extent of the induction. <ref type="bibr" target="#b35">36</ref> In a single cell lysate assay, protein expression can be induced in bulk culture before encapsulation. By contrast, when cell growth is performed for signal amplification, protein expression must be induced after encapsulation and growth in each individual droplet compartment. This poses a challenge to conventional induction systems, as an additional step is required to add the inducer, increasing workload and potentially endangering droplet stability. Therefore, a protein expression system offering similarly good control over cell count and protein expression efficiency without the need for an additional droplet manipulation step was investigated.</p><p>Protein expression was studied in a model system by taking advantage of the easy visualisation of the oxygenindependent fluorescent protein iLOV <ref type="bibr" target="#b36">37</ref> with different induction systems in E. coli BL21 (DE3). (i) Firstly, autoinduction of the aforementioned T7 expression system in a medium containing glucose and lactose was investigated, because it promises expression from the T7 promoter without the external addition of an inducer. Glucose inhibits the recombinant protein expression in the early growth phase, but once it is metabolised the remaining lactose induces protein expression. <ref type="bibr" target="#b37">38</ref> This set-up successfully led to protein expression in droplets (Fig. <ref type="figure">3</ref>). However, finding the concentrations of glucose and lactose required for optimal protein production, as well as incubation times for high expression proved challenging, as conditions from bulk culture were not directly transferable to droplet culture.</p><p>(ii) Secondly, more straightforward constitutive expression was tested. Expression under control of the constitutive lacI promoter showed increased green fluorescence, while the number of cells per droplet increased dramatically. This can be an issue for many enzyme assays, including the one chosen as a model in this study, because of unspecific background activity from cellular components, in this case due to intracellular reducing compounds. <ref type="bibr" target="#b38">39</ref> High background activity reduced the assay sensitivity and introduced undesired variation, making the assay somewhat unreliable.</p><p>(iii) Finally, we tested an induction system allowing for strong protein production in droplets from only a few cells, based on the anhydrotetracycline (aTc) inducible promoter. The inducer aTc was barely soluble in the fluorocarbon carrier oil (HFE-7500) and, if delivered from the oil phase, induces protein expression in droplets by diffusion across the phase barrier into the aqueous droplets. We could thus grow cells in droplets as described in the previous section, and at any chosen time point add aTc to the oil used for oxygenation to induce protein expression. A similar approach has recently been applied to regulate the pH inside aqueous droplets during cell cultivation by adding small amounts of acetic acid or diethylamine to the carrier oil phase. <ref type="bibr" target="#b39">40</ref> The experimentally straightforward supply of inducer via diffusion from the oil phase is practically convenient, does not require any additional droplet manipulation steps and allows for control over the total expression strength and final cell count (by controlling the time point of induction) compared to the other two expression methods. Crucially, the inducible promoter provided the basis for strong protein expression from few cells by changing the time point of induction (Fig. <ref type="figure">3</ref>). For an enzymatic assay (e.g. the detection of WST-1 as a coupled readout for enzymatic activity later in this study), high cellular background prevented the use of 4 h as an induction time point, which shows increased expression strength and cell growth compared to the used 2 h induction time point. However, we expect the achievable improvements in assay sensitivity from cell growth to be even more pronounced in assays with no cellular background, because the onset of stronger cell growth is easily controllable by a freely chosen induction time point. Consequently, this arrangement constitutes a simple and user-friendly way for induction that avoids an additional droplet manipulation step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detection and sorting of low enzyme activities</head><p>To test the utility of the growth amplification for enzyme assays, we chose the conversion of an amino acid dehydrogenase (AADH) to an amine dehydrogenase (AmDH), an industrially valuable class of enzymes. AADHs can be tuned to accept an amine substrate instead of an amino acid via two active site mutations, <ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43</ref> but the rate of this new activity is too low to be conveniently detected. Both activities, however, can in principle be assayed in the same way: NADH produced by the enzyme reaction will reduce WST-1 to its chromatic form, detectable in AADS at 455 nm. <ref type="bibr" target="#b21">22</ref> Indeed, when a well-known AmDH was used as a test case for a novel enzyme or an enzyme having a secondary promiscuous <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> activity (with therefore low k cat /K M = 0.5 s -1 mM -1 ; 42 corresponding to &lt;1% of the original AADH activity of k cat / K M = 71 s -1 mM -1 22 ), no product was detectable using AADS from droplets containing single cells expressing this enzyme (Fig. <ref type="figure" target="#fig_2">4A</ref>). All droplets showed low absorbance, suggesting no detectable activity was apparent over background and single Poisson-distributed cells cannot be distinguished against droplets without a cell. The minimal turnover (determined as approximately 1300 substrate turnovers per enzyme molecule or 10 μM with the formazan-dye coupled absorbent assay described by Gielen et al. <ref type="bibr" target="#b21">22</ref> ) cannot be reached from a single cell. In cases of low AmDH activity and limited enzyme stability, insufficient product is produced to be detected. This scenario makes such enzymes practically unevolvable, as the absence of detectable signal will thwart all selection efforts. Fig. <ref type="figure">3</ref> Cell growth in droplets leads to higher protein level in each compartment. Single cells are encapsulated in 50 pL droplets containing growth medium and droplets are incubated for 16 h at 37 °C in incubation chambers. Growth is performed in TB medium, except for autoinduction in ZYP-5052 <ref type="bibr" target="#b37">38</ref> medium. aTc induction is performed via solubilisation of 400 ng mL -1 of aTc in the oil, followed by exchange of the oil phase at different time points. Cell growth conditions are compared to a conventional single cell control, in which iLOV expression is induced by aTc in bulk, followed by encapsulation of single cells and direct assessment of fluorescence without any growth. A) Cell count (black bars) and fluorescence (green bars) of cells expressing the oxygen-independent fluorescent protein iLOV via different expression systems in droplets. After growth, droplets were de-emulsified with an antistatic gun <ref type="bibr" target="#b40">41</ref>   Cell growth is performed at 37 °C for 2 h, followed by oxygenation with inductor oil (400 ng mL -1 aTc in HFE-7500 with 1% RAN surfactant) for 16 h at 20 °C. After cell growth and protein expression, droplets are fused with 200 pL substrate and lysis solution. Absorbance of droplets is measured after 2 h of incubation to allow for enzymatic turnover. C) Single cells harbouring AmDH plasmid are treated in the cell growth workflow as in B). A large peak of unoccupied droplets with low absorbance is visible, as well as a tail of occupied droplets with higher absorbance due to AmDH activity, with 11.2% of all droplets corresponding roughly to the expected droplet occupancy.</p><p>In our novel workflow this situation is remedied by growing cells for 2 h at 37 °C, followed by overnight protein expression at 20 °C induced via aTc diffusion for increased protein production. To start the enzymatic reaction, substrate and lysis solution were added to the droplets via selective droplet coalescence ('pico-fusion', Fig. <ref type="figure">S2 †</ref>) after cell growth. Control of the timing of addition of these reagents, compared to coencapsulation and incubation with substrate during growth, ensures a level playing field between all clones: the assay reaction starts at the same time for all library members, under identical conditions, minimizing non-enzymatic background reaction signal and avoiding kinetic complications e.g. with the non-linearity of enzymatic time courses. The separate addition of reagent furthermore enables cell lysis to release intracellular enzymes and can be used to create reaction conditions after pico-fusion of a relatively larger volume of buffer that differs from cell growth medium.</p><p>Practically, an emulsion of 100 pL droplets with grown cells was fused with 200 pL droplets containing the substrate and lysis agent in the pico-fusion device. An excess of substrate and lysis solution was added to the cell droplet to enable efficient lysis and buffer adjustment. The enzymatic turnover of the substrate was measured by the absorbance of the coupled reaction product in AADS at multiple timepoints. Droplets containing no cells again showed low absorbance, but now there are also droplets with higher absorbance detectable, corresponding to AmDH activity (Fig. <ref type="figure" target="#fig_2">4C</ref>). To exclude increased cellular background as the reason for increased absorbance in the cell growth assay, cells not expressing the AmDH but only containing an empty plasmid were used in the cell growth workflow as a control. In this case, empty droplets are not distinguishable from droplets containing cells, although the negative peak is wider, indicating potentially increased background activity (Fig. <ref type="figure" target="#fig_2">4B</ref>). Thus, when the cell growth workflow is applied, activity of the AmDH becomes detectable.</p><p>To further verify these findings, highly absorbing droplets were sorted from a 1 : 200 dilution of cells harbouring an AmDH plasmid in cells containing an empty plasmid using the cell growth workflow, resulting in a ∼80-fold enrichment, demonstrating the utility of this workflow to detect enzymes with low activities. However, to make sorting possible, erroneous fusions as well as non-fused droplets must be excluded from the sorting (Fig. <ref type="figure">S3 †</ref>). The previously implemented sorting algorithm for AADS employed a simple point-over-threshold comparison, <ref type="bibr" target="#b21">22</ref> which was extended here to true peak detection (see ESI † for the improved Arduino sorting algorithm). This enables the sorting of a specific range of absorbance, as well as implementing a selection based on the signal duration that served as an approximation for correct droplet size.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantification of improvements to sensitivity and accuracy</head><p>To test whether the improvement in assay sensitivity would affect screening success, an AmDH mutant just active enough to be detected from single cell activity was used, so that a quantitative comparison between conventional and growth enhanced, clonally amplified droplets was possible, yielding an improvement factor. To this end, a computationally stabilized variant of the AADH was generated using the PROSS algorithm. <ref type="bibr" target="#b43">44</ref> The stabilized AADH (AADH mut , Fig. <ref type="figure" target="#fig_2">S4 †</ref>) shows greatly increased soluble expression (soluble fraction = 94%) compared to the nonstabilized parent AADH (soluble fraction = 44%), at a similar level of activity (activity in cell lysate: 77% of the non-stabilized variant). The strong solubilization while maintaining enzyme activity achieved by the PROSS algorithm highlights the success of the combined strategy employed with help of the automated webserver of Goldenzweig et al.: <ref type="bibr" target="#b43">44</ref> using evolutionary precedent to reduce the false positive rate in energy calculations (and prohibiting mutations around the active site) results in strong stabilization with no change of activity. The stabilized AADH mut is turned into an AmDH by active site mutagenesis of residues K66X N262X, in analogy to the reference AmDH. <ref type="bibr" target="#b41">42</ref> Single cells expressing this stabilized variant, AmDH mut , were either (i) directly co-encapsulated with substrate and lysis solution in a single cell lysate assay, or (ii) encapsulated in growth medium to enable cell growth and protein expression in droplets followed by addition of substrate and lysis solution via pico-fusion (as described above). Product formation was measured via interrogation of the absorbance of the droplets in AADS at multiple time points. The average detection signal difference of occupied droplets to the peak of unoccupied droplets was plotted in the line graph in Fig. <ref type="figure" target="#fig_4">5A</ref>. After 0.5 h, the occupied droplets in the cell growth assay reach an average detection voltage difference to the peak of unoccupied droplets of 3.99 V (Fig. <ref type="figure" target="#fig_4">5C</ref>), corresponding to ∼2.5 mM reduced WST-1 indicating conversion of most of the available substrate (3 mM). In contrast, the activity in droplets with single cells start plateauing after 2 h at an average detection voltage difference of 1.32 V (corresponding to ∼1.1 mM reduced WST-1; Fig. <ref type="figure" target="#fig_4">5B</ref>). Consequently, using the cell growth assay the initial rate of product formation by AmDH mut is 12.1-fold increased compared to the single cell assay.</p><p>The distribution of the measured absorbance values for an identical clone in many droplets made it immediately obvious that the cell growth workflow not only increases the signal strength, but also decreases signal variation over the single cell assay (Fig. <ref type="figure" target="#fig_4">5D</ref>). The peaks of occupied droplets showed 5 to 15% relative standard deviation, compared to 20 to 25% for the single cell assay. By comparison, the variation in the assay was at least reduced by half as a consequence of measuring activity of a population of cells rather than a single cell in each droplet (Fig. <ref type="figure" target="#fig_4">5D</ref>). When multiple cells are responsible for protein production, the idiosyncratic or stochastic effects of single cells are averaged, resulting in a more reliable and consistent signal. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The new workflow achieves an increase in the detection limit, sensitivity and recovery efficiency of microdroplet-based screening of enzyme libraries and delivers the following:</p><p>(i) A device for droplet incubation in a densely filled chamber. Emulsions are incubated in modified commercial 0.5 mL reaction tubes requiring no additional equipment, in a much simpler set-up and higher throughput compared to the more complicated devices used previously for cell biological analysis <ref type="bibr" target="#b44">45</ref> or for metagenomic screening. <ref type="bibr" target="#b32">33</ref> Incubation in the modified chamber results in tightly packed emulsions by passively draining the excess oil phase left from droplet generation, providing the large numbers and stability necessary for prolonged screening campaigns. Droplets can easily be withdrawn for analysis or manipulation and returned for incubation under oxygenating conditions. Oxygenation by oil perfusion resulted high growth rates and crucially homogeneous populations.</p><p>(ii) Passive delivery of assay component via the oil phase. Supplying each droplet continuously via the oil flow with oxygen leads to faster cell growth and growth homogeneity in all droplets. Supplementing the oil additionally with the inducer aTc switches on protein expression, allowing separate timescales for cell growth and expression (e.g. for proteins that are toxic or assays with high cellular background). By clonal amplification more enzyme molecules are produced per droplet, leading to a higher product signal and easier detection.</p><p>(iii) Active delivery of assay components via droplet manipulation. Controlled addition of substrate and lysis reagents by pico-fusion of droplets permits precise timing of the reaction start, so that the optimal ratio of signal generated by the enzymatic reaction to noise of the uncatalysed background reactions can be chosen. This increases the dynamic range for reactions with high chemical backgrounds. Furthermore, the buffer composition for reaction is adjusted from the cell growth medium in this step, widening the scope of detectable reactions and allowing cell lysis to release intracellularly expressed enzymes.</p><p>(iv) Clonal amplification multiplies the product readout. Cell growth leads to more expressed enzyme, which, after catalytic turnover, leads to more product generated per droplet compartment. Here, we demonstrated in an absorbance assay in droplets <ref type="bibr" target="#b21">22</ref> that the detection limit (of originally 1300 turnovers per enzyme molecule) could be reduced to ∼100 molecules per enzyme molecule. This improvement was based on the observed 12-fold increase in reaction rate brought about by more available enzyme after expression by multiple cells. It may be possible to grow even larger number of cells to achieve larger amplification factors, potentially resulting in up to 48-fold improvements (based on quantification of GFP expression, see Fig. <ref type="figure">3</ref>). It will also be possible to grow cells displaying proteins, e.g. using dropletcompartmentalised E. coli autodisplay <ref type="bibr" target="#b45">46</ref> or yeast display, <ref type="bibr" target="#b19">20</ref> instead of cell growth combined with lysis to liberate intracellular protein as demonstrated here.</p><p>(v) Increased precision of droplet enzymatic assays. Differential protein expression levels per cell (phenotypic variation) and variability in the time of lysis in single cell assays and have been suggested as sources for droplet-todroplet variation. <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> This variation is reduced here by averaging a population of cells, potentially decreasing the number of false positives and allowing the detection of more genuine hits. This idea had been considered before, <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b31">32</ref> but was never quantified and is achieved here for the first time for enzyme activity. This advance is not only a general improvement of the reliability and efficiency of droplet screening, but could also prove useful for applications such as deep mutational scanning, in which quantitative measures of variant frequencies rely on oversampling and rediscovering the same variant multiple times in distinct gates. <ref type="bibr" target="#b48">49</ref> (vi) Enhanced recovery efficiency. Enhanced recovery efficiency is brought about by an increased number of genetic elements after cell multiplication. After sorting, selected droplets are de-emulsified and the plasmid DNA is isolated for subsequent cell transformation. In case of single cell droplet assays, the recovery efficiency is low, as the amount of plasmid from one cell is not always enough to produce a transformant. In the first study on single cell lysate droplet assays, Kintses et al. describe a theoretical single cell recovery efficiency of 87% with an ultra-high copy plasmid. <ref type="bibr" target="#b18">19</ref> In the case of cell growth in droplets, the transformation of sorted DNA usually yielded between 10 and 100 times the number of sorted droplets, depending on the actual cell count within the droplet, thus recovering all sorted variants with an up to 100-fold higher chance even with the mediumhigh copy aTc-inducible plasmid.</p><p>Taken together, this workflow increases the sensitivity of droplet enzymatic assays by several orders of magnitude, making catalyst discovery campaigns more likely to be successful. While an increasing number of catalyst screens in droplets have been successfully implemented, 50 some approaches categorically require higher sensitivity to meet success. The successful detection of a weak promiscuous activity that remained undetectable (and thus unselectable) without clonal amplification by cell growth was demonstrated in this work in selections of an AADH for its weaker AmDH activity as a paradigm for adaptive evolution of promiscuous reaction. Likewise, metagenomic screenings will detect larger numbers of catalysts as here the low expression efficiency from metagenomic DNA in heterologous hosts (and often in the absence of a useful promotor) is a typical challenge that 'hides' interesting novel enzymes.</p><p>Alternative detection modes beyond fluorescence and absorbance, such as electrochemistry <ref type="bibr" target="#b23">24</ref> or mass spectrometry <ref type="bibr" target="#b24">25</ref> would be useful to enlarge the types of assays (i.e. more substrate and reaction types) to be conducted in droplets, but suffer from low sensitivity. For example, it has not been possible to carry out selections in a monoclonal manner using mass spectrometry, likely due to the requirement of very high total turnover numbers owing to the combination of comparably high detection limits (30 μM) and large droplets (25 nL). <ref type="bibr" target="#b24">25</ref> Assuming a similar expression efficiency as seen by Gielen et al., a single cell would provide ∼8 × 10 5 enzyme molecules to a droplet, <ref type="bibr" target="#b21">22</ref> requiring each enzyme molecule to turn over 22 600 or 565 000 substrate molecules to reach detection limit in electrochemical <ref type="bibr" target="#b23">24</ref> or mass spectrometric 25 detection, respectively. An increased supply of enzyme to the droplet via the workflow presented here may pave the way for better versatility of droplet microfluidics by opening up prospects for these new detection modes.</p><p>More generally, reliable recovery of unstable, poorly expressed or inactive enzyme variants and biocatalysts will be especially relevant in bioprospecting of novel biocatalysts in functional metagenomics or for engineering new functions into enzymes in the early stages of directed evolution. An order of magnitude gain in sensitivity, increasing the number of genuine positive (while decreasing false positives by averaging the readout from multiple cells), enhancing the utility of new assay technologies, a 100-fold better recovery and control over assay timing will reveal catalysts that are currently orders of magnitude short of being detectable. The capacity to detect additional catalytic sequences will no doubt enable more adventurous and challenging bioprospecting and protein engineering campaigns in the future and bring ultrahigh throughput droplet microfluidic screening closer to being a mainstay of combinatorial biochemistry and biotechnology. Polydimethylsiloxane (PDMS, Sylgard 184, Dow Corning) imprints were bonded to glass slides after surface plasma treatment and channels were made hydrophobic by flushing with 1% trichloro(1H,1H,2H,2H-perfluorooctyl)silane in HFE-7500 (3M Novec).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasmid preparation</head><p>The oxygen-independent fluorescent protein iLOV was ordered from Addgene in a pET28a plasmid under control of a T7 promoter (plasmid #63723). The iLOV gene was cloned into pASK-IBA36b+ for aTc inducible expression via Gibson assembly. For constitutive expression, the iLOV gene was cloned to replace the lacI gene in a reduced pRSF-Duet1 plasmid, thus being under control of the placI promoter. The pRSF-Duet1 plasmid was modified before to remove the two original T7 promoter sites by amplification via inverse PCR from T7 terminator to T7 promoter, followed by intramolecular ligation. The Rhodococcus sp. M4 phenylalanine dehydrogenase (Uniprot ID Q59771) with AmDH mutations as determined by Ye et al. <ref type="bibr" target="#b41">42</ref> was ordered as a gene string and cloned into pASK-IBA63b+ for aTc inducible expression. The origin of replication for this plasmid is a medium-high copy ColE1 derivate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell growth in droplets and comparison of induction conditions</head><p>Droplet incubation chambers were built as described in the ESI. † For cell growth, droplets were generally incubated under oil flow to achieve mixing and oxygenation. HFE-7500 with 1% 008-FluoroSurfactant was pushed through the droplet incubation chamber at 4 μl min -1 per 100 μl of droplet emulsion. To quantify the cell growth in comparison to nonoxygenated incubation, a 15 mM WST-1 solution was added to the droplets via pico-fusion (Fig. <ref type="figure">S2 †</ref>). WST-1 detects NADH from live cells and can be measured in AADS as described previously. <ref type="bibr" target="#b21">22</ref> For comparison of induction conditions, iLOV expressing E. coli BL21 (DE3) cells were grown in different expression conditions. Autoinduction was performed by growth in ZYP-5052 medium. <ref type="bibr" target="#b37">38</ref> Growth for all other expression conditions was performed in TB medium (12 g l -1 tryptone, 24 g l -1 yeast extract, 5 g l -1 glycerol, 2.3 g l -1 KH 2 PO 4 , 12.5 g l -1 K 2 HPO 4 ). Induction via aTc was performed by solubilizing 400 ng mL -1 aTc in the carrier oil. After growth and protein expression, droplets were deemulsified with an antistatic gun <ref type="bibr" target="#b40">41</ref> and iLOV fluorescence was measured in a spectrophotometer at 475 nm/510 nm. Cell count was determined by counting colony forming units after plating the de-emulsified droplets on LB-agar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme assay from single cell lysate in droplets</head><p>Single cell lysate assays are performed similarly to the published droplet assay for phenylalanine dehydrogenases (PheDH), except that a substrate for amine dehydrogenases (AmDH) is used. <ref type="bibr" target="#b21">22</ref> After transformation of E. coli BL21 (DE3), all colonies are washed off the agar plate with 3 mL of LB medium. This stock is used to inoculate 4 mL fresh LB in a sterile culture tube to an optical density at 600 nm (OD 600 ) of 0.8. To this culture, inducer is immediately added (200 ng ml -1 aTc (Acros Organics)) and it is incubated overnight shaking (200 rpm) at 20 °C for protein expression. After expression, the OD 600 is measured again and the cells are washed and diluted with encapsulation buffer (25% (v/v) Percoll in 100 mM glycine-KOH pH 9). Dilution is based on the assumption that for E. coli BL21, an OD 600 of 1 is equalling approximately 5 × 10 8 cells per ml, aiming to enable droplet occupancies of 0.15 cells per droplet in order to avoid excess double encapsulations. The cell solution, the substrate and lysis solution (6 mM WST-1 (NBS Biologicals), 6 mM R-1-methyl-3phenylpropylamine, 2 mM NAD + , 5 μg ml -1 1-methoxy-5methylphenazinium methyl sulfate (mPMS), 1 μl ml -1 rLysozyme (Merck) and 0.8× CelLytic B in 100 mM glycine-KOH pH 9) and the oil phase (HFE-7500 with 1% 008-FluoroSurfactant) are drawn up into syringes. A conventional droplet generator (80 μm height and 50 μm width at the flowfocusing junction) was used to generate 300 pl droplets at high frequency (&gt;1 kHz) with flow rates of 30 μl min -1 oil and 8 μl min -1 for each of the two aqueous phases. The emulsion is incubated at 22 °C, absorbance is measured and droplets are sorted as described in Gielen et al. <ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme assays after cell growth in originally monoclonal droplets</head><p>A non-induced cell solution is prepared and diluted as in the early steps of the single cell lysate assay. A conventional droplet generator (50 μm height and 50 μm width at the flow-focusing junction) was used to generate 100 pl droplets at high frequency (&gt;1 kHz) with flow rates of 24 μl min -1 oil (HFE-7500 with 1% 008-FluoroSurfactant) and 8 μl min -1 diluted cell solution. Droplets are collected in an incubation chamber and grown as described above. For induction of protein expression with aTc, the droplets were oxygenated and incubated at 37 °C for 1 h. The oil phase was then changed to inducer oil (HFE-7500 with 1% 008-FluoroSurfactant and 400 ng ml -1 aTc). Inducer oil was pushed for 10 min at 10 μl min -1 from the top to quickly exchange to oil in the emulsion and then used for oxygenation at 4 μl min -1 overnight at 20 °C. After cell growth, the emulsion was injected into the pico-fusion chip (Fig. <ref type="figure">S2 †</ref>). Droplets were injected at 1 μl min -1 and spaced with HFE-7500 flowing at 1.5 μl min -1 . A flow-focusing junction on the same chip (50 μm width, 50 μm height) was used to generate 200 pl droplets of substrate and lysis solution (4.5 mM WST-1, 4.5 mM R-1-methyl-3phenylpropylamine, 3 mM NAD + , 7.5 μg ml -1 mPMS, 200 μg ml -1 streptomycin, 2 μl ml -1 rLysozyme and 0.6× CelLytic B in 100 mM glycine-KOH pH 9). If droplets were incubated for sorting, 4 mM tartrazine was added in the substrate and lysis solution as an absorbant offset. Substrate and lysis droplets were generated with an aqueous flow rate of 2 μl min -1 and oil (HFE-7500 with 1% 008-FluoroSurfactant) at 3 μl min -1 . The injected droplets with grown cells and the generated substrate droplets are synchronized in the delay channel by slight adjustments to the droplet re-injection flow rate. The smaller cell droplets pack behind the larger substrate droplets in the delay channel, before entering the fusion chamber. An electric field of 400 V and 10 kHz is applied on salt water electrodes <ref type="bibr" target="#b51">52</ref> to facilitate droplet coalescence. Fused droplets are collected and incubated in an incubation chamber before injection into a sorting chip to measure absorbance and select droplets with increased absorbance, as described by Gielen et al. <ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Verification of activities in plate screening</head><p>Identity of sorted variants was confirmed in a secondary screening in 96-well plates. Transformed colonies after sorting were used to inoculate 400 μl LB medium in a 96-well deep well plate. After initial growth overnight at 37 °C, 25 μl of this culture were used to inoculate 425 μl fresh LB medium. After 2 h of growth, 50 μl LB with 10× aTc (2 μg ml -1 ) was added for induction of protein expression, which was performed at 20 °C overnight. Cells were pelleted (20 min at 3220 × g) and lysed (200 μl 25 mM tris-HC pH 8, 0.1% Triton X-100, 1 μl/30 ml benzonase (Merck)). In a new plate, the detection reaction was started by adding substrate solution (10 mM R-1-methyl-3-phenylpropylamine, 2 mM NAD + in 100 mM glycine-KOH pH 9) to 20 μl of the cell lysate. Reaction progress was monitored as increase in absorbance at 340 nm for 5 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation of a stabilized AmDH</head><p>The PROSS algorithm <ref type="bibr" target="#b43">44</ref> was used to generate stabilized designs of the parental AADH, based on its crystal structure (PDB ID 1C1D). The active site (all residues less than 8 Å away from either substrate L-phenylalanine and NAD + ) was excluded from alteration. Six designs were synthesised (Geneart) and tested. The design showing the highest expression strength and activity was chosen for further experiments (ESI † sequence 1). Soluble expression was determined via gel densitometry in ImageJ Fiji after SDS-PAGE separation of the clarified lysate and pellet fraction (Fig. <ref type="figure" target="#fig_2">S4A †</ref>) of an expression culture grown and lysed as described above. Activity was tested in lysate assays relative to the non-stabilized variant, as described above (Fig. <ref type="figure" target="#fig_2">S4B †</ref>). The fourth design (Pross 4, ESI † sequence 1) was chosen to be turned into an AmDH as it showed the highest soluble expression strength. AmDH mut was generated from this stabilized AADH by introduction of mutations K66X N262X and screening for AmDH activity in plates, as described above. Variant K66Q N262M with high activity was identified.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Overview of cell lysate screening after growth amplification in comparison to standard single cell activity assays. In each case, E. coli cells are transformed with a plasmid library for expression of enzyme variants. These cells are then Poisson-distributed in microfluidic droplets, so that the majority of droplets has one or no cell ('monoclonal droplets'). A) Conventional single cell lysate assay: bulk cell growth and protein expression (A.1). The cell suspension (A.2 a) is then co-encapsulated with substrate and lysis agent (A.2 b) at the point of droplet formation. After allowing time for sufficient enzymatic turnover to reach a detectable signal, the droplets are sorted on a microfluidic chip. B) Clonal amplification in droplets for enzyme lysate assays: to amplify the signal in microfluidic enzyme assays, single cells are encapsulated and grown in droplets (B.1). Droplets are incubated under oil flow (grey) to allow for homogeneous cell growth as well as protein expression (B.2). Substrate and lysis agent (B.3 b) are added to the droplets (B.3 a) in a second step via selective droplet coalescence (B.3) and subsequently sorted on a microfluidic chip.</figDesc><graphic coords="2,56.30,45.01,482.78,218.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Fig.3Cell growth in droplets leads to higher protein level in each compartment. Single cells are encapsulated in 50 pL droplets containing growth medium and droplets are incubated for 16 h at 37 °C in incubation chambers. Growth is performed in TB medium, except for autoinduction in ZYP-5052<ref type="bibr" target="#b37">38</ref> medium. aTc induction is performed via solubilisation of 400 ng mL -1 of aTc in the oil, followed by exchange of the oil phase at different time points. Cell growth conditions are compared to a conventional single cell control, in which iLOV expression is induced by aTc in bulk, followed by encapsulation of single cells and direct assessment of fluorescence without any growth. A) Cell count (black bars) and fluorescence (green bars) of cells expressing the oxygen-independent fluorescent protein iLOV via different expression systems in droplets. After growth, droplets were de-emulsified with an antistatic gun<ref type="bibr" target="#b40">41</ref> and iLOV fluorescence was measured in a spectrophotometer at 475 nm/510 nm. Cell count was determined by counting colony forming units after plating the de-emulsified droplets on LB-agar. B) Bright field and fluorescence images of cells expressing the oxygen-independent fluorescent protein iLOV via different expression systems in droplets. Strong cell growth visible in the bright field image for constitutive expression. Strong fluorescence is visible for constitutive expression and aTc diffusion, showing the potential of high protein production from few cells via aTc diffusion.</figDesc><graphic coords="5,70.36,45.01,454.71,115.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig.4Absorbance of WST-1 as a readout for enzyme activity in droplets with and without cell growth. Histograms show absorbance of 4000 droplets generated at an occupancy of 15%, WST-1 absorbance is measured at 455 nm. Absorbances greater than 0.02 are coloured blue to indicate activity above background in the single cell assay (shown in A). Arrows and percentages represent values of absorbance &gt;0.03, indicating activity above the cell growth background (shown in B), used to detect AmDH activity in enrichment experiment (shown in C). A) Single AmDH expressing cells are directly co-encapsulated with substrate and lysis solution. Absorbance of droplets is measured after 16 h of incubation. Droplets containing cells are not distinguishable from unoccupied droplets. B) Single cells with an empty plasmid (negative control) are encapsulated into 100 pL growth medium droplets. Cell growth is performed at 37 °C for 2 h, followed by oxygenation with inductor oil (400 ng mL -1 aTc in HFE-7500 with 1% RAN surfactant) for 16 h at 20 °C. After cell growth and protein expression, droplets are fused with 200 pL substrate and lysis solution. Absorbance of droplets is measured after 2 h of incubation to allow for enzymatic turnover. C) Single cells harbouring AmDH plasmid are treated in the cell growth workflow as in B). A large peak of unoccupied droplets with low absorbance is visible, as well as a tail of occupied droplets with higher absorbance due to AmDH activity, with 11.2% of all droplets corresponding roughly to the expected droplet occupancy.</figDesc><graphic coords="5,70.36,468.91,454.71,136.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>Lab Chip, 2021, 21, 163-173 | 169 This journal is The Royal Society of Chemistry 2021</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Quantification of growth effects. A) Difference in absorbance detection signal of the peak of occupied droplets and unoccupied droplet peak for a stabilized AmDH (AmDH mut ) in single cell (dashed line) and cell growth assay (solid line). Average calculated from 2500 detected droplets, error bars show standard deviation. B) Histogram (n = 2500) of the absorbance of droplets containing single AmDH mut expressing cells co-encapsulated with substrate and lysis solution after 4 h of incubation. A peak of unoccupied droplets with low absorbance can clearly be separated from a peak of droplets containing single cells. C) Histogram (n = 650) of the absorbance of droplets containing approximately 20-30 cells grown in droplets and expressing AmDH mut . Absorbance measured 30 minutes after addition of substrate and lysis agent to the droplets. D) Comparison of variation in the in-droplet cell growth (blue) and single cell workflows (green). The detection signal of the occupied droplet peak was isolated and normalized to have a mean of one. Chosen time points are 4 h for single cell assay (22.7% relative standard deviation, fully shown in panel B) and 30 min for cell growth (10.7% relative standard deviation, fully shown in panel C). Sigma intervals are indicated, corresponding to 68% of all droplets.</figDesc><graphic coords="7,98.93,45.02,397.60,301.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>Experimental Materials All chemicals and oligonucleotides were purchased from Sigma-Aldrich unless noted otherwise. Enzymes were purchased from New England Biolabs. The plasmid pASK-IBA36b+ was purchased from IBA lifesciences, the plasmid pRSF-Duet1 from Novagen. The 008-FluoroSurfactant was purchased from RAN biotechnologies. Lab Chip, 2021, 21, 163-173 | 171 This journal © The Royal Society of Chemistry 2021</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,62.70,45.01,206.84,469.53" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>This journal is © The Royal Society of Chemistry 2021</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>This journal is © The Society of Chemistry 2021</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Microfluidic chip fabricationMicrofluidic chips were designed with AutoCAD 2018 and fabricated using standard soft lithography procedures.<ref type="bibr" target="#b50">51</ref> Silicon wafers (3 inch diameter, Siegert Wafer) were coated with photoresist (SU-8 2050, Microchem) and patterned by exposure to UV light through a printed photomask.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Christian Gylstorff</rs> for help with the droplet incubation chambers. We thank <rs type="person">Dr. Tomasz Kaminski</rs> and the members of the Hollfelder group for helpful comments on the manuscript. This work was funded by the <rs type="funder">EPSRC and Johnson Matthey</rs> (studentship to RH), the <rs type="funder">European Union</rs>'s <rs type="programName">Horizon 2020</rs> research and innovation programme (PJZ via the <rs type="funder">EU ITN ES-Cat</rs> (<rs type="grantNumber">722610</rs>); FH via MetaFluidics (685474)). FH holds an <rs type="grantName">ERC Advanced Investigator award</rs> (<rs type="grantNumber">695669</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_tSRch4f">
+					<orgName type="program" subtype="full">Horizon 2020</orgName>
+				</org>
+				<org type="funding" xml:id="_Z2xErpJ">
+					<idno type="grant-number">722610</idno>
+					<orgName type="grant-name">ERC Advanced Investigator award</orgName>
+				</org>
+				<org type="funding" xml:id="_yfZpf2Z">
+					<idno type="grant-number">695669</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>PJZ, RH and FH designed the research. PJZ performed the experiments. PJZ and FH wrote the paper with input from all authors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of interest</head><p>There are no conflicts to declare.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">485</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. T. Bornscheuer, G. W. Huisman, R. J. Kazlauskas, S. Lutz, J. C. Moore and K. Robins, Nature, 2012, 485, 185-194.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="567" to="573" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. J. Turner, Nat. Chem. Biol., 2009, 5, 567-573.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nobeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Favia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Thornton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="157" to="167" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Nobeli, A. D. Favia and J. M. Thornton, Nat. Biotechnol., 2009, 27, 157-167.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">T</forename><surname>Bornscheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="6032" to="6040" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. T. Bornscheuer and R. J. Kazlauskas, Angew. Chem., Int. Ed., 2004, 43, 6032-6040.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kazlauskas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="195" to="201" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. J. Kazlauskas, Curr. Opin. Chem. Biol., 2005, 9, 195-201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P.-Y</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kintses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Miton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hyvönen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Morgavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2015">2015, 6, 10008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.-Y. Colin, B. Kintses, F. Gielen, C. M. Miton, G. Fischer, M. F. Mohamed, M. Hyvönen, D. P. Morgavi, D. B. Janssen and F. Hollfelder, Nat. Commun., 2015, 6, 10008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fernández-Arrojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Guazzaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>López-Cortés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beloqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferrer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="725" to="733" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Fernández-Arrojo, M.-E. Guazzaroni, N. López-Cortés, A. Beloqui and M. Ferrer, Curr. Opin. Biotechnol., 2010, 21, 725-733.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Lorenz and J. Eck, Nat. Rev. Microbiol., 2005, 3, 510-516.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyazaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="616" to="622" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Uchiyama and K. Miyazaki, Curr. Opin. Biotechnol., 2009, 20, 616-622.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tauzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-Y</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Laville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Esque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laguerre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Terrapon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leclerc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Doré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Potocki-Veronese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Microbiome</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">141</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. S. Tauzin, M. R. Pereira, L. D. Van Vliet, P.-Y. Colin, E. Laville, J. Esque, S. Laguerre, B. Henrissat, N. Terrapon, V. Lombard, M. Leclerc, J. Doré, F. Hollfelder and G. Potocki- Veronese, Microbiome, 2020, 8, 141.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="132" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Zanghellini, Curr. Opin. Biotechnol., 2014, 29, 132-138.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Clemente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Röthlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Betker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Barbas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1387" to="1391" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Jiang, E. A. Althoff, F. R. Clemente, L. Doyle, D. Röthlisberger, A. Zanghellini, J. L. Gallaher, J. L. Betker, F. Tanaka, C. F. Barbas, D. Hilvert, K. N. Houk, B. L. Stoddard and D. Baker, Science, 2008, 319, 1387-1391.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Röthlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Khersonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wollacott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dechancie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Betker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanghellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Houk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Röthlisberger, O. Khersonsky, A. M. Wollacott, L. Jiang, J. DeChancie, J. Betker, J. L. Gallaher, E. A. Althoff, A. Zanghellini, O. Dym, S. Albeck, K. N. Houk, D. S. Tawfik and D. Baker, Nature, 2008, 453, 190-195.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Rusli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Ollis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemBioChem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="197" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. L. Porter, R. A. Rusli and D. L. Ollis, ChemBioChem, 2016, 17, 197-203.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeymer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hilvert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="131" to="157" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zeymer and D. Hilvert, Annu. Rev. Biochem., 2018, 87, 131-157.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="866" to="876" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. A. Romero and F. H. Arnold, Nat. Rev. Mol. Cell Biol., 2009, 10, 866-876.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P.-Y</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zinchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="42" to="51" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.-Y. Colin, A. Zinchenko and F. Hollfelder, Curr. Opin. Struct. Biol., 2015, 33, 42-51.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Zurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">643</biblScope>
+			<biblScope unit="page" from="317" to="343" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Neun, P. J. Zurek, T. S. Kaminski and F. Hollfelder, Methods Enzymol., 2020, 643, 317-343.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kintses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischlechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Courtois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lainé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1001" to="1009" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Kintses, C. Hein, M. F. Mohamed, M. Fischlechner, F. Courtois, C. Lainé and F. Hollfelder, Chem. Biol., 2012, 19, 1001-1009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Agresti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Rowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Baret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Klibanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="4004" to="4009" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Agresti, E. Antipov, A. R. Abate, K. Ahn, A. C. Rowat, J.-C. Baret, M. Marquez, A. M. Klibanov, A. D. Griffiths and D. A. Weitz, Proc. Natl. Acad. Sci. U. S. A., 2010, 107, 4004-4009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="137" to="144" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Mair, F. Gielen and F. Hollfelder, Curr. Opin. Chem. Biol., 2017, 37, 137-144.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hours</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Emond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fischlechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="7383" to="E7389" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Gielen, R. Hours, S. Emond, M. Fischlechner, U. Schell and F. Hollfelder, Proc. Natl. Acad. Sci. U. S. A., 2016, 113, E7383-E7389.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Erdelyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moschetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hyvönen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Edel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1092" to="1101" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Gielen, M. Butz, E. J. Rees, M. Erdelyi, T. Moschetti, M. Hyvönen, J. B. Edel, C. F. Kaminski and F. Hollfelder, Anal. Chem., 2017, 89, 1092-1101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yotsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shimokihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shitara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oyobiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Einaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Doi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="852" to="861" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Goto, Y. Kanai, A. Yotsui, S. Shimokihara, S. Shitara, R. Oyobiki, K. Fujiwara, T. Watanabe, Y. Einaga, Y. Matsumoto, N. Miki and N. Doi, Lab Chip, 2020, 20, 852-861.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Holland-Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Wismer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Farasat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Guetschow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mangion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Kennedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="4500" to="4507" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. A. Holland-Moritz, M. K. Wismer, B. F. Mann, I. Farasat, P. Devine, E. D. Guetschow, I. Mangion, C. J. Welch, J. C. Moore, S. Sun and R. T. Kennedy, Angew. Chem., 2020, 132, 4500-4507.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Grogan, Curr. Opin. Chem. Biol., 2018, 43, 15-22.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghaderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Agresti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stephanopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="473" to="478" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. L. Wang, A. Ghaderi, H. Zhou, J. Agresti, D. A. Weitz, G. R. Fink and G. Stephanopoulos, Nat. Biotechnol., 2014, 32, 473-478.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beneyton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Nicaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Drevelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rossignol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Cell Fact</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Beneyton, S. Thomas, A. D. Griffiths, J.-M. Nicaud, A. Drevelle and T. Rossignol, Microb. Cell Fact., 2017, 16, 18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hammar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Angermayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sjostrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hellingwerf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Hudson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Joensson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Biofuels</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">193</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Hammar, S. A. Angermayr, S. L. Sjostrom, J. van der Meer, K. J. Hellingwerf, E. P. Hudson and H. N. Joensson, Biotechnol. Biofuels, 2015, 8, 193.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Khatri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zsohár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kjaerbølling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hammar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marienhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O A</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Joensson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1860" to="1869" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Siedler, N. K. Khatri, A. Zsohár, I. Kjaerbølling, M. Vogt, P. Hammar, C. F. Nielsen, J. Marienhagen, M. O. A. Sommer and H. N. Joensson, ACS Synth. Biol., 2017, 6, 1860-1869.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Painter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Enesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Whyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Garlisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Monsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rehak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1636" to="1643" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Liu, R. E. Painter, K. Enesa, D. Holmes, G. Whyte, C. G. Garlisi, F. J. Monsma, M. Rehak, F. F. Craig and C. A. Smith, Lab Chip, 2016, 16, 1636-1643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barbier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Schaerli</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Synth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1988">2017. 1988-1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Duarte, I. Barbier and Y. Schaerli, ACS Synth. Biol., 2017, 6, 1988-1995.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tovar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Rudolph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ehgartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Figge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adv</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="101871" to="101878" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Mahler, M. Tovar, T. Weber, S. Brandes, M. M. Rudolph, J. Ehgartner, T. Mayr, M. T. Figge, M. Roth and E. Zang, RSC Adv., 2015, 5, 101871-101878.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Studier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Moffatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="113" to="130" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. W. Studier and B. A. Moffatt, J. Mol. Biol., 1986, 189, 113-130.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dubendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Studier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="45" to="59" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. W. Dubendorf and F. W. Studier, J. Mol. Biol., 1991, 219, 45-59.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Rosano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ceccarelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<date type="published" when="2014-05">2014, 5, 172</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. L. Rosano and E. A. Ceccarelli, Front. Microbiol., 2014, 5, 172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Faulkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kaiserli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Garcia-Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Savenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Oparka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Christie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<date type="published" when="2008">2008. 20038-20043</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Chapman, C. Faulkner, E. Kaiserli, C. Garcia-Mata, E. I. Savenkov, A. G. Roberts, K. J. Oparka and J. M. Christie, Proc. Natl. Acad. Sci. U. S. A., 2008, 105, 20038-20043.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Studier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expression Purif</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="207" to="234" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. W. Studier, Protein Expression Purif., 2005, 41, 207-234.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Upp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><forename type="middle">P J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="11709" to="11719" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Huang, H. Chen, D. M. Upp, J. C. Lewis and Y.-H. P. J. Zhang, ACS Catal., 2019, 9, 11709-11719.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tovar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buchheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rosenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Cell Fact</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Tovar, L. Mahler, S. Buchheim, M. Roth and M. A. Rosenbaum, Microb. Cell Fact., 2020, 19, 16.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karbaschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Abate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomicrofluidics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">44107</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Karbaschi, P. Shahi and A. R. Abate, Biomicrofluidics, 2017, 11, 044107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Toh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Snajdrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1119" to="1122" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. J. Ye, H. H. Toh, Y. Yang, J. P. Adams, R. Snajdrova and Z. Li, ACS Catal., 2015, 5, 1119-1122.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Abrahamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Bommarius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Synth. Catal</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="1780" to="1786" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Abrahamson, J. W. Wong and A. S. Bommarius, Adv. Synth. Catal., 2013, 355, 1780-1786.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goldenzweig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goldsmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gertman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laurino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ashani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prilusky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lieberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aharoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Silman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Fleishman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="337" to="346" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Goldenzweig, M. Goldsmith, S. E. Hill, O. Gertman, P. Laurino, Y. Ashani, O. Dym, T. Unger, S. Albeck, J. Prilusky, R. L. Lieberman, A. Aharoni, I. Silman, J. L. Sussman, D. S. Tawfik and S. J. Fleishman, Mol. Cell, 2016, 63, 337-346.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kleine-Brüggeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mulas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Agley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C R</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chalut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<date type="published" when="2019">2019, 15, 1804576</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kleine-Brüggeney, L. D. van Vliet, C. Mulas, F. Gielen, C. C. Agley, J. C. R. Silva, A. Smith, K. Chalut and F. Hollfelder, Small, 2019, 15, 1804576.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Loo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heberlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zinchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schüürmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D G</forename><surname>Eenink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Holstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dilkaute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bornberg-Bauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Synth. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2690" to="2700" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. van Loo, M. Heberlein, P. Mair, A. Zinchenko, J. Schüürmann, B. D. G. Eenink, J. M. Holstein, C. Dilkaute, J. Jose, F. Hollfelder and E. Bornberg-Bauer, ACS Synth. Biol., 2019, 8, 2690-2700.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Elowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Siggia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Swain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="1183" to="1186" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. B. Elowitz, A. J. Levine, E. D. Siggia and P. S. Swain, Science, 2002, 297, 1183-1186.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Oudenaarden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="216" to="226" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Raj and A. van Oudenaarden, Cell, 2008, 135, 216-226.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<date type="published" when="0206">2016, 17, 206</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Peterman and E. Levine, BMC Genomics, 2016, 17, 206.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Zurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hollfelder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">643</biblScope>
+			<biblScope unit="page" from="317" to="343" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Neun, P. J. Zurek, T. S. Kaminski and F. Hollfelder, Methods Enzymol., 2020, 643, 317-343.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Whitesides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="153" to="184" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Xia and G. M. Whitesides, Annu. Rev. Mater. Sci., 1998, 28, 153-184.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sciambi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Abate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2605" to="2609" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Sciambi and A. R. Abate, Lab Chip, 2014, 14, 2605-2609.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
