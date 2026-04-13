@@ -308,33 +308,28 @@ function buildGalleryItem(src, index) {
     return div;
 }
 
-// Auto-detect images from image/galerie/ directory listing
+// Gallery image list (GitHub Pages doesn't support directory listing)
+const galleryImages = [
+    '88b23194-8ebc-4c1a-bc07-85b95763e9c7 (1).jpg',
+    'AA3FA035-1FCD-41E4-942E-D7811C585781-EDIT.jpg',
+    'IMG-20200323-WA0106-EDIT.jpg',
+    'IMG-20200725-WA0001-EDIT.jpg',
+    'IMG_1262-EDIT.jpg',
+    'IMG_1597-EDIT.jpg',
+    'IMG_20210613_052203-EDIT.jpg',
+    'IMG_20210719_151059-EDIT.jpg',
+    'IMG_2040-EDIT.jpg',
+    'IMG_3281-EDIT (1).jpg',
+    'IMG_4156-EDIT.jpg',
+    'WhatsApp Image 2026-04-13 at 22.28.51-EDIT.jpg',
+    'a9a794a5-30f1-47a6-bc8f-82460fc1fb54-EDIT.jpg',
+];
+
 function loadGallery() {
-    fetch('image/galerie/')
-    .then(res => res.text())
-    .then(html => {
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const links = doc.querySelectorAll('a');
-        const imageFiles = [];
-        links.forEach(a => {
-            const href = a.getAttribute('href');
-            if (href && /\.(jpg|jpeg|png|webp|gif|bmp|tiff|heic|heif)$/i.test(href)) {
-                imageFiles.push(href);
-            }
-        });
-        imageFiles.sort();
-        const grid = document.getElementById('gallery-grid');
-        grid.innerHTML = '';
-        imageFiles.forEach((file, i) => {
-            grid.appendChild(buildGalleryItem('image/galerie/' + file, i));
-        });
-        if (imageFiles.length === 0) {
-            grid.innerHTML = '<div class="md:col-span-12 py-20 text-center"><span class="font-label text-[10px] text-on-surface/40 uppercase">No images found in image/galerie/</span></div>';
-        }
-    })
-    .catch(err => {
-        console.error('Gallery load error:', err);
+    const grid = document.getElementById('gallery-grid');
+    grid.innerHTML = '';
+    galleryImages.forEach((file, i) => {
+        grid.appendChild(buildGalleryItem('image/galerie/' + encodeURIComponent(file), i));
     });
 }
 
