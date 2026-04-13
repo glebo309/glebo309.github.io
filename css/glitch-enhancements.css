@@ -1,0 +1,71 @@
+
+/* Text glitch animation */
+@keyframes glitch-anim {
+    0% {
+        clip: rect(42px, 9999px, 44px, 0);
+        transform: skew(0.5deg);
+    }
+    5% {
+        clip: rect(12px, 9999px, 59px, 0);
+        transform: skew(0.1deg);
+    }
+    10% {
+        clip: rect(48px, 9999px, 29px, 0);
+        transform: skew(0.8deg);
+    }
+    15% {
+        clip: rect(42px, 9999px, 73px, 0);
+        transform: skew(0.4deg);
+    }
+    20% {
+        clip: rect(63px, 9999px, 27px, 0);
+        transform: skew(0.2deg);
+    }
+    100% {
+        clip: rect(63px, 9999px, 27px, 0);
+        transform: skew(0.2deg);
+    }
+}
+
+/* Enhanced hover effects - disabled to fix black box issue */
+.section-heading {
+    position: relative;
+}
+
+.section-heading:hover {
+    /* animation disabled */
+}
+
+/* Scanline effect - removed to fix black box issue */
+
+/* Chromatic aberration on scroll */
+@keyframes chromatic {
+    0% {
+        text-shadow: 2px 0 0 rgba(255, 0, 0, 0.5), -2px 0 0 rgba(0, 255, 255, 0.5);
+    }
+    50% {
+        text-shadow: -2px 0 0 rgba(255, 0, 0, 0.5), 2px 0 0 rgba(0, 255, 255, 0.5);
+    }
+    100% {
+        text-shadow: 2px 0 0 rgba(255, 0, 0, 0.5), -2px 0 0 rgba(0, 255, 255, 0.5);
+    }
+}
+
+.hero-heading {
+    animation: chromatic 3s infinite;
+}
+
+/* Flicker effect for backgrounds */
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    41.99% { opacity: 1; }
+    42% { opacity: 0.8; }
+    43% { opacity: 1; }
+    45.99% { opacity: 1; }
+    46% { opacity: 0.6; }
+    46.5% { opacity: 1; }
+}
+
+.bgc-7343 {
+    animation: flicker 5s infinite;
+}

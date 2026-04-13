@@ -20,8 +20,11 @@
 	<script src="./js/glecko-menu.js"></script>
 	<link rel="stylesheet" href="./css/glecko-menu.css">
 
-
-
+    <style>
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #131313; }
+        ::-webkit-scrollbar-thumb { background: #BD0D0D; }
+    </style>
 
 <!-- Analytics -->
  
@@ -633,6 +636,10 @@
 <!-- Video / Audio Player Auto Pause JS -->
 <script>let activePlayer = null; const players = document.querySelectorAll('audio, video'); players.forEach(player => { player.addEventListener('play', function() { if (activePlayer && activePlayer !== this && !activePlayer.hasAttribute('autoplay')) { activePlayer.pause(); } activePlayer = this; }); });</script>
 <!-- Video / Audio Player Auto Pause JS -->
+
+<!-- Simple Text Glitch -->
+<script src="./js/simple-glitch.js"></script>
+<!-- Simple Text Glitch END -->
 
 </body>
 </html>
