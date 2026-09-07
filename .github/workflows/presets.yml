@@ -1,0 +1,50 @@
+# gleck.285 presets inbox: an issue titled "preset: <name>" whose body holds a state link from the page
+# (#n=...&p=z...) is checked, appended to 285/presets.json, committed, and the issue is closed. GitHub Pages
+# then republishes the site, so the preset shows up on glecko.xyz/285 within a minute or two.
+name: 285 presets
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+jobs:
+  add:
+    if: startsWith(github.event.issue.title, 'preset:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs'), zlib = require('zlib');
+            const issue = context.payload.issue;
+            const name = issue.title.replace(/^preset:\s*/i, '').replace(/[<>]/g, '').trim().slice(0, 40);
+            const m = /#(?:n=[^&\s]*&)?p=([A-Za-z0-9_\-]{20,8000})/.exec(issue.body || '');
+            const fail = async (why) => { await github.rest.issues.createComment({ ...context.repo, issue_number: issue.number, body: 'Not added: ' + why }); await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: 'closed' }); core.setFailed(why); };
+            if (!name) return fail('the title needs a name after "preset:"');
+            if (!m) return fail('no state link found in the body (press "add to site" on glecko.xyz/285)');
+            const p = m[1];
+            let state = null;
+            try {
+              const raw = Buffer.from(p.slice(1).replace(/-/g, '+').replace(/_/g, '/'), 'base64');
+              const json = p[0] === 'z' ? zlib.inflateRawSync(raw).toString() : raw.toString();
+              state = JSON.parse(json);
+            } catch (e) { return fail('the link does not decode'); }
+            const lanes = state && state.lanes;
+            const ok = lanes && ['pitch', 'vel', 'aux', 'rank', 'prob', 'cond', 'glen'].every((k) => Array.isArray(lanes[k]) && lanes[k].length === 64 && lanes[k].every((v) => typeof v === 'number'));
+            if (!ok) return fail('the link is not a 285 pattern');
+            const file = '285/presets.json';
+            let list = []; try { list = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) {}
+            const link = '#n=' + encodeURIComponent(name) + '&p=' + p;
+            if (list.some((e) => e.link === link)) return fail('this exact pattern is already on the site');
+            list.push({ name, by: issue.user.login, link });
+            while (list.length > 300) list.shift();
+            fs.writeFileSync(file, JSON.stringify(list, null, 1) + '\n');
+            await exec.exec('git', ['config', 'user.name', 'gleck.285 presets']);
+            await exec.exec('git', ['config', 'user.email', 'presets@glecko.xyz']);
+            await exec.exec('git', ['add', file]);
+            await exec.exec('git', ['commit', '-m', 'preset: ' + name + ' by ' + issue.user.login]);
+            await exec.exec('git', ['push']);
+            await github.rest.issues.createComment({ ...context.repo, issue_number: issue.number, body: 'Added. It is live at https://glecko.xyz/285/ as "' + name + '" as soon as the site rebuilds.' });
+            await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: 'closed' });
