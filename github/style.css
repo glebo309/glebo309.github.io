@@ -7,6 +7,7 @@ body { cursor: crosshair; }
 a:hover { cursor: not-allowed; }
 input, textarea { cursor: text; }
 .brand { display: inline-block; position: relative; }
+.brand:hover { color: inherit; }
 .brand::after {
   content: '';
   position: absolute;
