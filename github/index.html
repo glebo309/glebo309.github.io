@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub | Glecko</title><meta name="description" content="Glenn Bojanov's projects in scientific software, creative coding, and knowledge systems.">
+<link rel="icon" href="/favicon.png"><link rel="stylesheet" href="./style.css"><link rel="canonical" href="https://glecko.xyz/github/">
+</head><body><header class="topbar"><a class="brand" href="/">GLECKO<span>.</span></a><nav aria-label="Project navigation"><a aria-current="page" href="./">Projects</a><a href="./stats/">Traffic</a><a href="https://github.com/glebo309">GitHub ↗</a></nav></header>
+<main class="profile"><div class="eyebrow">Glenn Bojanov / Code</div><h1>Code &amp; projects.</h1><p class="lead">Scientific software, music tools, and experiments in creative coding.</p>
+<div class="actions"><a class="button" href="https://github.com/glebo309">Explore my GitHub ↗</a><a class="text-link" href="./stats/">View project traffic →</a></div>
+<article><p>I work in biocatalysis, scientific software, creative coding, and knowledge systems.</p>
+<p>Across laboratory analysis, audio DSP, and Obsidian automation, most of my code starts with a real point of friction and becomes a tool I want to use myself.</p>
+<h2>Biocatalysis</h2>
+<p>My PhD work is in enzyme discovery, enzyme immobilization, and flow biocatalysis.</p>
+<h2>Scientific software</h2>
+<ul>
+<li><strong><a href="https://github.com/glebo309/brunschwig-search">Brunschwig Search</a>:</strong> a small CLI for searching chemicals by CAS and comparing the pack quantities and cost needed for an experiment</li>
+<li><strong><a href="https://github.com/glebo309/chemdraw-mcp-macos">ChemDraw MCP for macOS</a>:</strong> native, editable chemical drawings from a terminal or MCP client</li>
+<li><strong><a href="https://github.com/glebo309/pasco-inflow">PASCO InFlow</a>:</strong> records full calibrated UV-Vis spectra over time from PASCO Spectrometry during flow experiments</li>
+<li><strong>GeckoPlotter:</strong> HPLC and LC-MS analysis</li>
+<li><strong>DarkzymeScope</strong> <em>(manuscript in preparation)</em></li>
+<li><strong><a href="https://github.com/glebo309/bayesian-reaction-optimizer">Bayesian Reaction Optimizer</a>:</strong> choosing useful experiments from limited data</li>
+</ul>
+<p>GeckoPlotter and DarkzymeScope will appear here when they are ready for public release.</p>
+<h2>Creative coding</h2>
+<p>I build Max/MSP and Max for Live instruments under Glecko. <strong><a href="https://glecko.xyz/285/">285</a></strong> is playable in the browser.</p>
+<p><strong><a href="https://github.com/glebo309/TD-Mac-Diffusion">Mac Diffusion for TouchDesigner</a></strong> <em>(early development):</em> local AI visuals on Apple Silicon, with a reusable image-in/image-out component, shape guidance, and alpha or brightness masking.</p>
+<details>
+<summary><strong>Max for Live devices</strong></summary>
+<h3>Instruments</h3>
+<ul>
+<li><strong>ALTER:</strong> a five-voice polyphonic drone instrument with scale quantization and a full modulation mesh</li>
+<li><strong>MAZE:</strong> a playable dual-oscillator voice with wavefolding, parallel filtering, cross-modulation, and generative sources</li>
+<li><strong>DFAM27:</strong> a percussion synthesizer combining a DFAM-style core with wavefolding, cross-FM, a low-pass gate, external audio, and a large modulation matrix</li>
+<li><strong>RAM:</strong> a bass-drum synthesizer built around the Shakmat Battering Ram architecture</li>
+<li><strong>ADX:</strong> three linked percussion voices for metal, hats, and snare, with open and closed articulation</li>
+<li><strong>ARCHER:</strong> a digital-noise and analog-chain percussion instrument with thirteen sources, nine effects, and per-hit variation</li>
+<li><strong>PULSAR23-BD:</strong> a PULSAR-23 bass-drum voice with the WTF and OMG performance functions, modulation, and MIDI control</li>
+<li><strong>HATS:</strong> a synthesized hi-hat voice built from metallic oscillator clusters, noise, filtering, wavefolding, and open or closed envelopes</li>
+<li><strong>PLAITS:</strong> a focused Max for Live interface around the Mutable Instruments Plaits engine</li>
+<li><strong>NOISE:</strong> a private generative texture instrument that morphs between four evolving sound engines</li>
+</ul>
+<h3>Effects</h3>
+<ul>
+<li><strong>EXPAND:</strong> a stereo saturation and bus-shaping processor inspired by the Overstayer NT-02A signal architecture</li>
+<li><strong>TORSO-RING:</strong> a morphing stereo bank of forty-eight tuned resonators with sidechain and modulation systems</li>
+<li><strong>RINGS:</strong> a Max for Live interface around the Mutable Instruments Rings resonator</li>
+<li><strong>FILTER:</strong> a multi-model character filter covering ladder, diode, Sallen-Key, state-variable, low-pass gate, and Polivoks-style responses</li>
+<li><strong>FILTER.DJ:</strong> the same filter family reduced to one bipolar performance control</li>
+<li><strong>PHASELOCK:</strong> measures and corrects kick and bass alignment using delay, polarity, and continuous phase rotation</li>
+<li><strong>FEEDBACK SHAPER:</strong> shapes repeated feedback passes with drive, tone, short memory, drift, wow, flutter, and dropouts</li>
+<li><strong>STRANGE:</strong> a pitch-tracked nonlinear dynamics processor built from forced Duffing and Van der Pol systems</li>
+<li><strong>COUNTER:</strong> extracts and sustains combination tones from incoming pitched material</li>
+<li><strong>SMEAR:</strong> a period-aligned granular effect that pulls pitch-coherent fragments from the recent past</li>
+<li><strong>MORPH:</strong> an earlier spectral resonator-bank experiment that led to TORSO-RING</li>
+</ul>
+<h3>Sequencing, modulation, and routing</h3>
+<ul>
+<li><strong>285:</strong> a sixty-four-step sequencer with independent lanes, probability, conditions, controlled corruption, snapshots, and external modulation</li>
+<li><strong>CHANCE:</strong> a MIDI probability gate whose value can be changed on every step</li>
+<li><strong>LFO:</strong> one modulation source mapped independently to eight Live parameters, either shared or phase-scattered</li>
+<li><strong><a href="https://github.com/glebo309/Betterbridge">Betterbridge</a></strong> <em>(early development):</em> routes Analog Rytm controls and parameter locks into Live parameters or OSC, with per-route shaping. Tested on Analog Rytm MKI; Analog Four support is planned.</li>
+<li><strong>VOID:</strong> detects the space after a kick and turns that absence into slow modulation envelopes</li>
+<li><strong>FEEDBACK SEND:</strong> sends an independent stereo copy to a chosen Live routing destination</li>
+<li><strong>FEEDBACK LISTEN:</strong> receives a feedback path, measures its energy, and exposes that measurement as modulation</li>
+</ul>
+</details>
+<h2>Knowledge systems</h2>
+<p>My work runs through an Obsidian vault connected to coding agents, retrieval, a knowledge graph, and daily automations. <strong><a href="https://github.com/glebo309/claude-setup">claude-setup</a></strong> contains an earlier portable version of that system.</p>
+<p>I also built <strong><a href="https://github.com/glebo309/spotify-transcript">Spotify Transcript</a></strong> to get Spotify's own podcast transcripts into that workflow without retranscribing them.</p>
+<h2>Research archive</h2>
+<p><strong><a href="https://github.com/glebo309/negative-space">Negative Space</a></strong> is where I share negative, inconclusive, and otherwise unpublishable research results from projects of any field or scale, together with what I learned from them.</p>
+</article>
+<footer>Project descriptions from my <a href="https://github.com/glebo309">GitHub profile</a>. <a href="./stats/">Traffic archive</a></footer></main></body></html>
