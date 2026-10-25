@@ -1,2 +1,18 @@
 prototype
 psychedelics
+
+# Runtime state must never become a static-site asset.
+**/PAPER_DOWNLOADER*/
+**/private/
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+browser_state.json
+storage_state.json
+cookies.txt
+cookies.json
+.env
+.env.*
+!.env.example
+__pycache__/

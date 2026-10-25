@@ -1,0 +1,14 @@
+name: Publication safety
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python3 -m unittest discover -s _tools -p 'test_publication_safety.py' -v
+      - run: python3 _tools/publication_safety.py . --staged
