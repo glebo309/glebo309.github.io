@@ -1,0 +1,336 @@
+media:
+  input: 500ws/assets
+  output: /500ws/assets
+  rename: safe
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - gif
+  - pdf
+content:
+- name: website
+  label: Website pages
+  type: file
+  path: 500ws/content/site.json
+  format: json
+  fields:
+  - name: email
+    label: Contact email
+    type: string
+    required: true
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: headline
+      label: Headline
+      type: text
+      required: true
+      description: One line per line of the headline. The final line is purple.
+    - name: description
+      label: Introduction
+      type: text
+      required: true
+    - name: image
+      label: Main photo
+      type: image
+      required: true
+    - name: imageAlt
+      label: Photo description
+      type: string
+      required: true
+    - name: mission
+      label: Mission introduction
+      type: text
+      required: true
+  - name: pageContent
+    label: About the community
+    type: object
+    fields:
+    - name: aboutHtml
+      label: Our story
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+    - name: goalsHtml
+      label: Our goals
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+    - name: switzerlandHtml
+      label: Swiss association
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+  - name: resources
+    label: Useful resources
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: bodyHtml
+      label: Description and links
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+    - name: url
+      label: Web address
+      type: string
+    list: true
+  - name: reading
+    label: Good reads
+    type: object
+    fields:
+    - name: title
+      label: Book title
+      type: string
+    - name: bodyHtml
+      label: Recommendation
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+    list: true
+  - name: newsletters
+    label: Newsletter archive
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: date
+      label: Date
+      type: date
+      options:
+        format: yyyy-MM-dd
+        time: false
+    - name: file
+      label: Newsletter PDF
+      type: file
+    list: true
+  - name: legacyDocuments
+    label: Archive documents
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: file
+      label: PDF
+      type: file
+    list: true
+- name: members
+  label: Community
+  type: collection
+  path: 500ws/content/members
+  format: json
+  subfolders: false
+  filename:
+    template: '{primary}.json'
+    field: false
+  view:
+    primary: name
+    fields:
+    - name
+    - role
+    sort: name
+    order: asc
+  fields:
+  - name: name
+    label: Name
+    type: string
+    required: true
+  - name: role
+    label: Role
+    type: string
+    required: true
+  - name: image
+    label: Portrait
+    type: image
+  - name: imageAlt
+    label: Portrait description
+    type: string
+  - name: bioHtml
+    label: Biography
+    type: rich-text
+    options:
+      format: html
+      switcher: false
+  - name: links
+    label: Website and social links
+    type: object
+    fields:
+    - name: label
+      label: Link label
+      type: string
+      required: true
+    - name: url
+      label: Web address
+      type: string
+      required: true
+    list: true
+  - name: slug
+    label: Permanent address
+    type: string
+    hidden: true
+  - name: source
+    label: Original source
+    type: string
+    hidden: true
+- name: events
+  label: Events
+  type: collection
+  path: 500ws/content/events
+  format: json
+  subfolders: false
+  filename:
+    template: '{primary}.json'
+    field: false
+  view:
+    primary: title
+    fields:
+    - title
+    - date
+    sort: date
+    order: desc
+  fields:
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: date
+    label: Date
+    type: date
+    required: true
+    options:
+      format: yyyy-MM-dd
+      time: false
+  - name: category
+    label: Category
+    type: string
+    required: true
+  - name: location
+    label: Location
+    type: string
+  - name: bodyHtml
+    label: Content
+    type: rich-text
+    required: true
+    options:
+      format: html
+      switcher: false
+  - name: slug
+    label: Permanent address
+    type: string
+    hidden: true
+  - name: source
+    label: Original source
+    type: string
+    hidden: true
+- name: posts
+  label: Stories
+  type: collection
+  path: 500ws/content/posts
+  format: json
+  subfolders: false
+  filename:
+    template: '{primary}.json'
+    field: false
+  view:
+    primary: title
+    fields:
+    - title
+    - date
+    sort: date
+    order: desc
+  fields:
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: date
+    label: Date
+    type: date
+    required: true
+    options:
+      format: yyyy-MM-dd
+      time: false
+  - name: author
+    label: Author
+    type: string
+    required: true
+  - name: image
+    label: Cover photo
+    type: image
+  - name: bodyHtml
+    label: Content
+    type: rich-text
+    required: true
+    options:
+      format: html
+      switcher: false
+  - name: slug
+    label: Permanent address
+    type: string
+    hidden: true
+  - name: source
+    label: Original source
+    type: string
+    hidden: true
+- name: news
+  label: News & letters
+  type: collection
+  path: 500ws/content/news
+  format: json
+  subfolders: false
+  filename:
+    template: '{primary}.json'
+    field: false
+  view:
+    primary: title
+    fields:
+    - title
+    - date
+    sort: date
+    order: desc
+  fields:
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: date
+    label: Date
+    type: date
+    required: true
+    options:
+      format: yyyy-MM-dd
+      time: false
+  - name: category
+    label: Category
+    type: string
+    required: true
+  - name: bodyHtml
+    label: Content
+    type: rich-text
+    required: true
+    options:
+      format: html
+      switcher: false
+  - name: slug
+    label: Permanent address
+    type: string
+    hidden: true
+  - name: source
+    label: Original source
+    type: string
+    hidden: true
+settings:
+  content:
+    merge: true
