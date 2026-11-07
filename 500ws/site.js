@@ -8,6 +8,9 @@ window.addEventListener('pageshow',syncHeader);
 
 const toggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#site-nav');
+const moreMenu = navigation?.querySelector('.nav-more');
+document.addEventListener('click',event=>{if(moreMenu&&!moreMenu.contains(event.target))moreMenu.open=false;});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&moreMenu?.open){moreMenu.open=false;moreMenu.querySelector('summary').focus();}});
 function closeMenu(){navigation?.classList.remove('open');toggle?.setAttribute('aria-expanded','false');if(toggle)toggle.textContent='Menu';document.body.classList.remove('menu-open');}
 toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'Close':'Menu';navigation.classList.toggle('open',open);document.body.classList.toggle('menu-open',open);});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){closeMenu();toggle.focus();}});
