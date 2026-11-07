@@ -185,6 +185,9 @@ content:
     description: 'Smaller numbers appear first. For example: 10, 20, 30.'
     options:
       min: 0
+  filename:
+    template: '{primary}.json'
+    field: false
 - name: pages
   label: Pages
   type: collection
