@@ -38,7 +38,8 @@ class PublishingTests(unittest.TestCase):
 
     def test_editor_adds_and_removes_event_without_stale_page(self):
         event = {'title': 'Editor workshop', 'slug': 'editor-workshop', 'date': '2030-02-14',
-                 'category': 'Workshop', 'location': 'Bern', 'bodyHtml': '<p>Bring your ideas.</p>'}
+                 'category': 'Workshop', 'location': 'Bern', 'bodyHtml': '<p>Bring your ideas.</p>',
+                 'source': 'https://www.500womenscientistsfribourgbern.ch/upcoming-events/editor-workshop'}
         self.write('content/events/editor-workshop.json', event)
         self.build()
         page = self.root / 'event-2030-02-14-editor-workshop.html'
@@ -47,6 +48,8 @@ class PublishingTests(unittest.TestCase):
         (self.root / 'content/events/editor-workshop.json').unlink()
         self.build()
         self.assertFalse(page.exists(), 'Deleted editor entries must not leave live pages')
+        self.assertFalse((self.root / 'upcoming-events/editor-workshop/index.html').exists(),
+                         'Deleted entries must not leave redirects to missing pages')
 
     def test_editor_changes_about_copy_and_normalizes_uploaded_image(self):
         site_path = self.root / 'content/site.json'

@@ -9,6 +9,12 @@ import json, re, unicodedata, os
 from content_tools import load_content, clean_html, safe_url, portable_url
 ROOT=Path(__file__).resolve().parent
 DATA=load_content(ROOT)
+# Clear previously generated redirects so deleted entries cannot leave broken links.
+if (ROOT/'route-map.json').exists():
+ for old,target in json.loads((ROOT/'route-map.json').read_text()).items():
+  if not old.strip('/') or target.startswith('assets/'):continue
+  redirect=ROOT/old.lstrip('/')/'index.html'
+  if redirect.resolve().is_relative_to(ROOT) and redirect.is_file():redirect.unlink()
 # Remove only generated event/news pages before regenerating changed slugs.
 for pattern in ['event-*.html','news-*.html','story-*.html','member-*.html']:
  for old_page in ROOT.glob(pattern): old_page.unlink()
