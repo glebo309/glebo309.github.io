@@ -7,8 +7,11 @@ from html import escape, unescape
 from urllib.parse import urlparse, unquote
 import json, re, unicodedata, os
 from content_tools import load_content, clean_html, safe_url, portable_url
+from page_management import PageManager
 ROOT=Path(__file__).resolve().parent
 DATA=load_content(ROOT)
+PAGES=PageManager(ROOT)
+for item in DATA.get('legacyPages',[]):PAGES.owners[item['slug']+'.html']='archive'
 # Clear previously generated redirects so deleted entries cannot leave broken links.
 if (ROOT/'route-map.json').exists():
  for old,target in json.loads((ROOT/'route-map.json').read_text()).items():
@@ -16,8 +19,10 @@ if (ROOT/'route-map.json').exists():
   redirect=ROOT/old.lstrip('/')/'index.html'
   if redirect.resolve().is_relative_to(ROOT) and redirect.is_file():redirect.unlink()
 # Remove only generated event/news pages before regenerating changed slugs.
-for pattern in ['event-*.html','news-*.html','story-*.html','member-*.html']:
+for pattern in ['event-*.html','news-*.html','story-*.html','member-*.html','page-*.html']:
  for old_page in ROOT.glob(pattern): old_page.unlink()
+for file in PAGES.owners:
+ if not PAGES.allows(file):(ROOT/file).unlink(missing_ok=True)
 TODAY=datetime.now(ZoneInfo('Europe/Zurich')).date().isoformat()
 E=lambda s:escape(str(s),quote=True)
 ARROW='<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 5l7 7-7 7"/></svg>'
@@ -25,7 +30,8 @@ UP='<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 FLOWER='<svg class="flower" viewBox="0 0 100 100" aria-hidden="true">'+''.join(f'<ellipse cx="50" cy="27" rx="11" ry="23" fill="currentColor" transform="rotate({i*45} 50 50)"/>' for i in range(8))+'<circle cx="50" cy="50" r="11" fill="#f5cd62"/></svg>'
 EMAIL=DATA.get('email','500wsbern@gmail.com')
 HOME=DATA.get('home',{})
-NAV=[('About','about.html'),('Community','members.html'),('Events','events.html'),('Stories','stories.html'),('Resources','resources.html')]
+NAV=PAGES.navigation('showInMenu')
+CONTACT='contact.html' if PAGES.enabled('contact') else 'mailto:'+EMAIL
 BASE='https://www.500womenscientistsfribourgbern.ch'
 def slug(s):
  s=unicodedata.normalize('NFKD',unquote(s)).encode('ascii','ignore').decode().lower()
@@ -54,11 +60,16 @@ def rewrite(body):
 
 def brand():return '<a class="brand" href="index.html" aria-label="500 Women Scientists Bern-Fribourg home"><span class="brand-mark"><img src="assets/home-0.webp" alt="" width="1500" height="1159"></span><span class="brand-words">500 WOMEN<br>SCIENTISTS<small>Bern · Fribourg</small></span></a>'
 def header(active):
- links=''.join(f'<a href="{url}"'+(' aria-current="page"' if active==url else '')+f'>{title}</a>' for title,url in NAV)
- return f'<a class="skip" href="#main">Skip to content</a><div class="header-space"><header class="site-header"><div class="wrap header-inner">{brand()}<button class="menu-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button><nav class="nav" id="site-nav" aria-label="Main navigation">{links}<a class="btn btn-primary" href="contact.html">Join the community {ARROW}</a></nav></div></header></div>'
-def footer():return f'''<footer class="site-footer"><div class="wrap"><div class="footer-grid"><div class="footer-about">{brand()}<p>A local community with a shared belief:<br>science is stronger when everyone belongs.</p></div><div class="footer-links"><h2>Explore the pod</h2><a href="about.html">Our story &amp; mission</a><a href="members.html">Meet the community</a><a href="events.html">Events &amp; gatherings</a><a href="stories.html">Stories from our members</a><a href="news.html">News &amp; open letters</a><a href="archive.html">Newsletters &amp; archive</a><a href="resources.html">Resources &amp; good reads</a></div><div class="footer-links"><h2>Let’s connect</h2><a href="mailto:{EMAIL}">{EMAIL}</a><a href="https://www.instagram.com/500ws_fribourg.bern/">Instagram ↗</a><a href="https://www.linkedin.com/company/500-women-scientists-bern-fribourg">LinkedIn ↗</a><a href="https://m.facebook.com/500-Women-Scientists-Fribourg-Bern-107631694331389/">Facebook ↗</a><a href="contact.html">Join our community</a></div></div><div class="footer-bottom"><span>© 500 Women Scientists Bern-Fribourg</span><span>Independent. Volunteer-led. Open to you.</span></div></div></footer>'''
+ links=[f'<a href="{E(url)}"'+(' aria-current="page"' if active==url else '')+f'>{E(title)}</a>' for title,url in NAV]
+ if len(links)>5:links=links[:4]+['<details class="nav-more"><summary>More</summary><div class="nav-more-links">'+''.join(links[4:])+'</div></details>']
+ return f'<a class="skip" href="#main">Skip to content</a><div class="header-space"><header class="site-header"><div class="wrap header-inner">{brand()}<button class="menu-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button><nav class="nav" id="site-nav" aria-label="Main navigation">{"".join(links)}<a class="btn btn-primary" href="{E(CONTACT)}">Join the community {ARROW}</a></nav></div></header></div>'
+def footer():
+ links=''.join(f'<a href="{E(url)}">{E(title)}</a>' for title,url in PAGES.navigation('showInFooter'))
+ return f'''<footer class="site-footer"><div class="wrap"><div class="footer-grid"><div class="footer-about">{brand()}<p>A local community with a shared belief:<br>science is stronger when everyone belongs.</p></div><div class="footer-links"><h2>Explore the pod</h2>{links}</div><div class="footer-links"><h2>Let’s connect</h2><a href="mailto:{E(EMAIL)}">{E(EMAIL)}</a><a href="https://www.instagram.com/500ws_fribourg.bern/">Instagram ↗</a><a href="https://www.linkedin.com/company/500-women-scientists-bern-fribourg">LinkedIn ↗</a><a href="https://m.facebook.com/500-Women-Scientists-Fribourg-Bern-107631694331389/">Facebook ↗</a><a href="{E(CONTACT)}">Join our community</a></div></div><div class="footer-bottom"><span>© 500 Women Scientists Bern-Fribourg</span><span>Independent. Volunteer-led. Open to you.</span></div></div></footer>'''
 def page(file,title,body,active='',desc='Connecting, supporting and amplifying women in science in Bern and Fribourg. Discover our community, events and stories.'):
+ if not PAGES.allows(file):return
  html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="theme-color" content="#653d82"><meta name="description" content="{E(desc)}"><title>{E(title)} | 500 Women Scientists Bern-Fribourg</title><meta property="og:title" content="{E(title)} | 500 Women Scientists Bern-Fribourg"><meta property="og:description" content="{E(desc)}"><meta property="og:type" content="website"><meta name="referrer" content="strict-origin-when-cross-origin"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="site.js" defer></script><noscript><style>.toolbar{{display:none}}@media(max-width:850px){{.menu-toggle{{display:none}}.header-inner{{flex-wrap:wrap;padding-block:15px}}.nav{{display:flex;position:static;flex-wrap:wrap;padding:0;font-size:12px;box-shadow:none;border:0;max-height:none;gap:15px}}.nav .btn{{margin:0}}}}</style></noscript></head><body>{header(active)}<main id="main">{body}</main>{footer()}</body></html>'''
+ html=PAGES.remove_unavailable_links(html)
  (ROOT/file).write_text("\n".join(line.rstrip() for line in html.splitlines())+"\n")
 def intro(kicker,title,text):return f'<section class="wrap page-intro"><p class="eyebrow">{kicker}</p><h1>{title}</h1><p class="lead">{text}</p></section>'
 def cta():return f'<section class="wrap section"><div class="join-panel"><div><p class="eyebrow">There’s a place for you here</p><h2>Bring your curiosity.<br>Find your community.</h2><p>Every discipline. Every career stage. Join a local network of women making science more open and inclusive.</p></div><a class="btn btn-light" href="contact.html">Say hello {ARROW}</a></div></section>'
@@ -77,7 +88,7 @@ mission=f'''<section class="wrap section"><div class="mission-intro"><div><p cla
 community=f'''<section class="community-band section"><div class="wrap community-grid"><div class="community-photos"><img src="assets/members-8.webp" alt="Claudia Kasper" loading="lazy" width="300" height="400"><img src="assets/members-13.webp" alt="Ana I. Benítez-Mateos" loading="lazy" width="300" height="400"><img src="assets/members-19.webp" alt="Andrea Fortier" loading="lazy" width="300" height="400"></div><div><p class="eyebrow">The people behind the pod</p><h2>Many paths.<br>One community.</h2><p class="lead">Researchers, science communicators and women working across STEM. Our members bring different experiences, and make this community their own.</p><a class="text-link space-top" href="members.html">Meet our members {ARROW}</a></div></div></section>'''
 recent=f'''<section class="wrap section"><div class="section-head"><div><p class="eyebrow">Beyond the everyday</p><h2>Good things happen<br>when we get together.</h2><p class="section-sub">A look back at our gatherings, conversations and shared ideas.</p></div><a class="text-link" href="events.html">Explore our events {ARROW}</a></div>{''.join(eventrow(e) for e in [ev for ev in events if ev['date']<TODAY][:3])}<div class="meeting-callout"><div><h3>New to the pod? Come say hello.</h3><p>Our regular meetings are a relaxed way to meet the community. Email us to find out about the next gathering.</p></div><a class="text-link" href="mailto:{EMAIL}?subject=Next%20pod%20meeting">Ask about the next meeting {ARROW}</a></div></section>'''
 stories=f'''<section class="stories-bg section"><div class="wrap"><div class="section-head"><div><p class="eyebrow">Ideas worth sharing</p><h2>Voices from our community.</h2></div><a class="text-link" href="stories.html">All stories {ARROW}</a></div><div class="story-grid">{''.join(storycard(p) for p in posts[:3])}</div></div></section>'''
-page('index.html','Good science. Stronger together.',hero+mission+community+recent+stories+cta())
+page('index.html','Good science. Stronger together.',hero+(mission if PAGES.enabled('about') else '')+(community if PAGES.enabled('members') else '')+(recent if PAGES.enabled('events') else '')+(stories if PAGES.enabled('stories') else '')+(cta() if PAGES.enabled('contact') else ''))
 # About
 body=intro('Our story','A local community.<br>A shared purpose.','We believe that science should be open, inclusive and collaborative. Our pod brings that belief to life in Bern and Fribourg.')
 body+=f'''<section class="wrap page-section"><div class="community-grid"><img class="about-image" src="assets/contact-0.webp" alt="Members together on a retreat in the Swiss mountains" width="1800" height="1350"><div class="prose">{rewrite(DATA['pageContent']['aboutHtml'])}</div></div></section><section class="community-band section"><div class="article-wrap prose"><p class="eyebrow">What brings us together</p>{rewrite(DATA['pageContent']['goalsHtml'])}</div></section><section class="wrap page-section" id="switzerland"><div class="article-wrap prose"><img src="assets/switzerland-0.webp" alt="500 Women Scientists Switzerland" width="500"><p class="source-note">The following describes the Swiss association and its founding committee in February 2022.</p>{rewrite(DATA['pageContent']['switzerlandHtml'])}<figure><img src="assets/switzerland-1.webp" alt="The Swiss steering committee in 2022" loading="lazy"><figcaption>The Swiss steering committee in 2022.</figcaption></figure></div></section>'''+cta()
@@ -138,9 +149,16 @@ page('contact.html','Join the community',body,'contact.html')
 for letter in DATA.get('letters',[]):
  page('seri-letter.html',letter['title'],intro('Advocacy archive · 23 March 2023',letter['title'],'A letter calling for an independent national reporting centre to address discrimination and harassment in academic institutions.')+'<article class="article-wrap"><p class="source-note">This is a historical campaign page. For questions about the letter, <a href="mailto:500wsbern@gmail.com?subject=2023%20SERI%20letter%20enquiry">contact the pod</a>.</p><div class="prose space-top">'+rewrite(letter['bodyHtml'])+'</div></article>','stories.html')
 page('404.html','Page not found',intro('Let’s get you back','A different path?','This page has moved or is no longer available.')+'<section class="wrap page-section"><a class="btn btn-primary" href="index.html">Back to the homepage '+ARROW+'</a></section>')
+for item in PAGES.pages:
+ body=intro('From our community',E(item['title']),E(item.get('introduction','')))
+ body+='<article class="article-wrap custom-page">'
+ if item.get('image'):body+=f'<img class="article-hero" src="{E(safe_url(item["image"]))}" alt="{E(item.get("imageAlt",""))}">'
+ body+='<div class="prose">'+rewrite(item.get('bodyHtml',''))+'</div></article>'
+ page(item['file'],item['title'],body,item['file'],item.get('introduction') or item['title'])
 (ROOT/'assets/favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="22" fill="#f5cd62"/>'+''.join(f'<ellipse cx="50" cy="30" rx="10" ry="20" fill="#653d82" transform="rotate({i*45} 50 50)"/>' for i in range(8))+'<circle cx="50" cy="50" r="10" fill="#f5cd62"/></svg>')
 (ROOT/'.nojekyll').write_text('')
 # Preserve known incoming links from the former Wix site.
+ROUTES={old:target for old,target in ROUTES.items() if PAGES.allows(target)}
 for old,target in ROUTES.items():
  if not old or target.startswith('assets/'):continue
  p=ROOT/old.lstrip('/')/'index.html'

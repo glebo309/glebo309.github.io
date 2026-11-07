@@ -11,7 +11,7 @@ media:
   - pdf
 content:
 - name: website
-  label: Website pages
+  label: Homepage & shared content
   type: file
   path: 500ws/content/site.json
   format: json
@@ -126,6 +126,120 @@ content:
       label: PDF
       type: file
     list: true
+  operations:
+    delete: false
+- name: sections
+  label: Sections & menu
+  type: collection
+  path: 500ws/content/sections
+  format: json
+  subfolders: false
+  operations:
+    create: false
+    rename: false
+    delete: false
+  view:
+    primary: title
+    fields:
+    - title
+    - enabled
+    - showInMenu
+    - order
+    sort:
+    - order
+    - title
+    default:
+      sort: order
+      order: asc
+  fields:
+  - name: title
+    label: Section
+    type: string
+    hidden: true
+  - name: enabled
+    label: Show on website
+    type: boolean
+    default: true
+    description: Turn off to remove this whole section, its related pages and homepage block from the
+      public website. Saved content stays in the editor. Turn on to restore it.
+  - &id001
+    name: menuLabel
+    label: Menu label
+    type: string
+    description: Optional. Leave empty to use the page title.
+  - &id002
+    name: showInMenu
+    label: Show in main menu
+    type: boolean
+    default: true
+  - &id003
+    name: showInFooter
+    label: Show in footer
+    type: boolean
+    default: true
+  - &id004
+    name: order
+    label: Menu order
+    type: number
+    default: 90
+    description: 'Smaller numbers appear first. For example: 10, 20, 30.'
+    options:
+      min: 0
+- name: pages
+  label: Pages
+  type: collection
+  path: 500ws/content/pages
+  format: json
+  subfolders: false
+  filename:
+    template: '{primary}.json'
+    field: false
+  operations:
+    rename: false
+  view:
+    primary: title
+    fields:
+    - title
+    - published
+    - showInMenu
+    - order
+    sort:
+    - order
+    - title
+    default:
+      sort: order
+      order: asc
+  fields:
+  - name: title
+    label: Page title
+    type: string
+    required: true
+  - name: published
+    label: Show on website
+    type: boolean
+    default: false
+    description: Turn on when ready to publish. Turn off to keep a draft. Use the page menu to delete
+      a page permanently.
+  - name: introduction
+    label: Short introduction
+    type: text
+  - name: bodyHtml
+    label: Page content
+    type: rich-text
+    required: true
+    options:
+      format: html
+      switcher: false
+  - name: image
+    label: Cover photo
+    type: image
+  - name: imageAlt
+    label: Photo description
+    type: string
+  - *id001
+  - *id002
+  - *id003
+  - *id004
 - name: members
   label: Community
   type: collection
