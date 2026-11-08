@@ -36,8 +36,69 @@ zh:{
  faqTitle:'常见问题',faq1:'可以咨询哪些焊枪？',faq1text:'MIG/MAG 和 TIG 焊枪。请提供制造商、型号及所使用的焊机。能否维修或提供合适配置，需根据具体情况确认。',faq2:'维修费用是多少？',faq2text:'费用取决于故障、焊枪类型和所需零件。检查后才能给出具体评估，因此这里不提供统一维修价格。',faq3:'可以购买组装好的焊枪吗？',faq3text:'可以。我们将与您确认适合的配置。请说明焊接工艺、焊机和使用要求。',
  contactTag:'06 / 联系',contactTitle:'我们能为您\n做些什么？',contactText:'焊枪维修、新焊枪或技术咨询。先从基本信息开始。',contactPending:'电话、电子邮箱及详细地址即将补充。',formNote:'在本地准备并下载咨询内容。目前不会发送任何信息。',serviceLabel:'您需要什么服务？',processLabel:'焊接工艺',other:'尚未确定',nameLabel:'姓名 / 公司',emailLabel:'电子邮箱',messageLabel:'请描述您的需求',messagePlaceholder:'焊枪型号、焊机、故障情况或所需配置……',submit:'下载咨询文本',success:'咨询内容已准备好。请保存文件，待联系方式公布后发送给 Boris。',privacy:'您填写的信息仅保留在浏览器中，此表单不会传输数据。',footer:'焊枪销售与维修。',back:'返回顶部',legal:'网站建设中，联系方式及经营者信息将陆续补充。',downloadTitle:'致 BORIS 的咨询',question:'咨询',footerNote:'MIG/MAG · TIG · 克莱沃',menu:'打开菜单',close:'关闭菜单',skip:'跳转到正文',fallback:'焊枪技术示意图',view:'视图',
 }};
+const technicalCopy = {
+  "de": {
+    "technicalTitle": "Ihr Brenner im Detail",
+    "technicalHelp": "Optional: Mit diesen Angaben lässt sich die passende Ausführung gezielter abstimmen.",
+    "machineLabel": "Schweißanlage / Hersteller",
+    "machinePlaceholder": "Hersteller und Modell, falls bekannt",
+    "torchModelLabel": "Brennertyp / Artikelnummer",
+    "torchModelPlaceholder": "Bezeichnung vom vorhandenen Brenner",
+    "coolingLabel": "Kühlung",
+    "air": "Gas- / luftgekühlt",
+    "water": "Flüssigkeitsgekühlt",
+    "cableLengthLabel": "Schlauchpaketlänge",
+    "cablePlaceholder": "Vorhandene oder gewünschte Länge"
+  },
+  "en": {
+    "technicalTitle": "Your torch in detail",
+    "technicalHelp": "Optional: These details help us discuss the right configuration for your equipment.",
+    "machineLabel": "Welding machine / manufacturer",
+    "machinePlaceholder": "Manufacturer and model, if known",
+    "torchModelLabel": "Torch model / part number",
+    "torchModelPlaceholder": "Details from your existing torch",
+    "coolingLabel": "Cooling",
+    "air": "Gas / air cooled",
+    "water": "Liquid cooled",
+    "cableLengthLabel": "Cable assembly length",
+    "cablePlaceholder": "Existing or required length"
+  },
+  "nl": {
+    "technicalTitle": "Uw toorts in detail",
+    "technicalHelp": "Optioneel: Met deze gegevens kunnen we de juiste uitvoering gerichter afstemmen.",
+    "machineLabel": "Lasmachine / fabrikant",
+    "machinePlaceholder": "Fabrikant en model, indien bekend",
+    "torchModelLabel": "Type toorts / artikelnummer",
+    "torchModelPlaceholder": "Gegevens van uw huidige toorts",
+    "coolingLabel": "Koeling",
+    "air": "Gas- / luchtgekoeld",
+    "water": "Vloeistofgekoeld",
+    "cableLengthLabel": "Lengte slangenpakket",
+    "cablePlaceholder": "Huidige of gewenste lengte"
+  },
+  "zh": {
+    "technicalTitle": "焊枪详细信息",
+    "technicalHelp": "选填：这些信息有助于我们为您的设备确认合适的配置。",
+    "machineLabel": "焊机 / 制造商",
+    "machinePlaceholder": "如已知，请填写制造商和型号",
+    "torchModelLabel": "焊枪型号 / 零件编号",
+    "torchModelPlaceholder": "现有焊枪上的型号信息",
+    "coolingLabel": "冷却方式",
+    "air": "气冷 / 风冷",
+    "water": "液冷",
+    "cableLengthLabel": "电缆软管总成长度",
+    "cablePlaceholder": "现有或所需长度"
+  }
+};
+for (const lang of Object.keys(copy)) Object.assign(copy[lang],technicalCopy[lang]);
 export const resolveLanguage = value => Object.hasOwn(copy,value) ? value : 'de';
 export function requestText(lang, data) {
  const t=copy[resolveLanguage(lang)];
- return `${t.downloadTitle}\n\n${t.serviceLabel}: ${t[data.service] || t.question}\n${t.processLabel}: ${data.process}\n${t.nameLabel}: ${data.name}\n${t.emailLabel}: ${data.email}\n\n${data.message}\n`;
+ const lines=[t.downloadTitle, '', `${t.serviceLabel}: ${t[data.service] || t.question}`, `${t.processLabel}: ${data.process}`];
+ for (const [field,label] of [['machine','machineLabel'],['torchModel','torchModelLabel'],['cableLength','cableLengthLabel']]) {
+  if(data[field]?.trim()) lines.push(`${t[label]}: ${data[field].trim()}`);
+ }
+ if(data.cooling) lines.push(`${t.coolingLabel}: ${['air','water'].includes(data.cooling) ? t[data.cooling] : t.other}`);
+ lines.push(`${t.nameLabel}: ${data.name}`, `${t.emailLabel}: ${data.email}`, '', data.message, '');
+ return lines.join('\n');
 }
