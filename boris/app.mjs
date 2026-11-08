@@ -15,6 +15,7 @@ function translate(){
  const t=copy[lang];
  document.documentElement.lang=lang==='zh'?'zh-Hans':lang;
  document.title=t.title;
+ document.querySelector('[data-i18n="navParts"]').href=`teile/?lang=${lang}`;
  document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t[e.dataset.i18n]);
  document.querySelectorAll('[data-list]').forEach(e=>{e.replaceChildren(...t[e.dataset.list].split('|').map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));});
  document.querySelectorAll('[data-placeholder]').forEach(e=>e.placeholder=t[e.dataset.placeholder]);
