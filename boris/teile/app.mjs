@@ -1,13 +1,13 @@
-import {updateMetadata} from '../metadata.mjs?v=guide-1';
-import {initSymptoms} from '../symptom-ui.mjs?v=guide-1';
-import {selectedSymptom,symptomEnquiryURL} from '../symptoms.mjs?v=guide-1';
-import {initHeader} from '../site-header.mjs?v=guide-1';
-import {partEnquiryURL} from '../enquiry.mjs?v=guide-1';
-import {enquiryCopy} from '../enquiry-copy.mjs?v=guide-1';
+import {updateMetadata} from '../metadata.mjs?v=guide-2';
+import {initSymptoms} from '../symptom-ui.mjs?v=guide-2';
+import {selectedSymptom,symptomEnquiryURL} from '../symptoms.mjs?v=guide-2';
+import {initHeader} from '../site-header.mjs?v=guide-2';
+import {partEnquiryURL} from '../enquiry.mjs?v=guide-2';
+import {enquiryCopy} from '../enquiry-copy.mjs?v=guide-2';
 import {initialLanguage,rememberLanguage} from '../language.mjs';
 import {parts,selectPart,catalogueLink} from './data.mjs';
-import {ui,localPart} from './i18n.mjs?v=guide-1';
-import {createAssembly,createPartViewer} from './assembly.mjs?v=guide-1';
+import {ui,localPart} from './i18n.mjs?v=guide-2';
+import {createAssembly,createPartViewer} from './assembly.mjs?v=guide-2';
 const $=s=>document.querySelector(s);
 let lang=initialLanguage(ui);
 const header=initHeader({page:'parts',lang,onLanguage:value=>{lang=value;rememberLanguage(lang);translate();show(selected);}});
@@ -38,8 +38,8 @@ $('#part-list').addEventListener('click',e=>{const b=e.target.closest('[data-par
 $('#assembly-parts').addEventListener('click',e=>{const b=e.target.closest('[data-assembly-part]');if(b)choose(selectPart(family,b.dataset.assemblyPart));});
 function step(delta){const list=parts.filter(p=>p.family===family);choose(list[(list.indexOf(selected)+delta+list.length)%list.length]);}
 $('#previous').addEventListener('click',()=>step(-1));$('#next').addEventListener('click',()=>step(1));
-function fromHash(){show(parts.find(p=>p.id===location.hash.slice(1))||parts.find(p=>p.id===activeSymptom?.partIds[0])||parts[0]);}
-window.addEventListener('hashchange',fromHash);translate();fromHash();
+function fromHash(){const target=parts.find(p=>p.id===location.hash.slice(1));show(target||parts.find(p=>p.id===activeSymptom?.partIds[0])||parts[0]);if(target)document.querySelector(families[target.family].includes(target.id)?'.assembly':'.explorer').scrollIntoView({behavior:'instant',block:'start'});}
+window.addEventListener('hashchange',fromHash);window.addEventListener('pageshow',()=>requestAnimationFrame(fromHash));translate();fromHash();
 try{assembly=createAssembly($('#assembly-stage'),{onSelect:id=>choose(selectPart(family,id))});assembly.setFamily(family);assembly.highlight(selected.id,activeSymptom?.partIds||[]);assembly.setLabels(parts.filter(p=>p.family===family).map(p=>({id:p.id,name:localPart(p,lang).name})));}catch(error){console.warn('Assembly view unavailable',error);}
 try{partViewer=createPartViewer($('#illustration'));partViewer.show(selected.id);}catch(error){console.warn('Part view unavailable',error);}
 document.querySelectorAll('[data-view]').forEach(bar=>bar.addEventListener('click',e=>{const viewer=bar.dataset.view==='assembly'?assembly:partViewer;if(e.target.closest('[data-reset]'))viewer?.reset();const button=e.target.closest('[data-zoom]');if(button)viewer?.zoom(button.dataset.zoom==='in'?.8:1.25);}));

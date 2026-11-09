@@ -1,7 +1,7 @@
 import {THREE} from './models.mjs';
 import {makeInspectionTorch,setExplosion} from './inspection-models.mjs';
 import {createReveal} from './reveal.mjs';
-import {createViewer} from './viewer.mjs?v=guide-1';
+import {createViewer} from './viewer.mjs?v=guide-2';
 import {createPart} from './part-models.mjs';
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 export function createAssembly(el,{onSelect}){

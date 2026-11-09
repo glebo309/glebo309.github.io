@@ -1,6 +1,6 @@
-import {selectedSymptom,symptomCopy} from './symptoms.mjs?v=guide-1';
-import {copy,requestText} from './content.mjs?v=guide-1';
-import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs?v=guide-1';
+import {selectedSymptom,symptomCopy} from './symptoms.mjs?v=guide-2';
+import {copy,requestText} from './content.mjs?v=guide-2';
+import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs?v=guide-2';
 export function initEnquiry(getLanguage){
  const form=document.querySelector('#enquiry'),status=document.querySelector('#form-status'),send=form.querySelector('#send-enquiry');
  const photoInputs=[...form.querySelectorAll('input[type=file]')],urls=new Map();

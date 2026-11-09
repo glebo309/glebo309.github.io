@@ -1,9 +1,9 @@
-import {updateMetadata} from './metadata.mjs?v=guide-1';
-import {initSymptoms} from './symptom-ui.mjs?v=guide-1';
-import {initHeader} from './site-header.mjs?v=guide-1';
-import {initEnquiry} from './enquiry-ui.mjs?v=guide-1';
+import {updateMetadata} from './metadata.mjs?v=guide-2';
+import {initSymptoms} from './symptom-ui.mjs?v=guide-2';
+import {initHeader} from './site-header.mjs?v=guide-2';
+import {initEnquiry} from './enquiry-ui.mjs?v=guide-2';
 import {initialLanguage,rememberLanguage} from './language.mjs';
-import {copy, resolveLanguage, requestText} from './content.mjs?v=guide-1';
+import {copy, resolveLanguage, requestText} from './content.mjs?v=guide-2';
 let lang=initialLanguage(copy);
 let product='mig';
 const header=initHeader({page:'main',lang,onLanguage:value=>{lang=resolveLanguage(value);rememberLanguage(lang);translate();}});

@@ -1,5 +1,5 @@
-import {symptomCopy} from './symptoms.mjs?v=guide-1';
-import {enquiryCopy} from './enquiry-copy.mjs?v=guide-1';
+import {symptomCopy} from './symptoms.mjs?v=guide-2';
+import {enquiryCopy} from './enquiry-copy.mjs?v=guide-2';
 import {extraMain} from './locales-extra.mjs';
 export const copy = {
 de: {

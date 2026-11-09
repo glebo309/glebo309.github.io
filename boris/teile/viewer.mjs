@@ -1,4 +1,4 @@
-import {bindResetGesture} from './reset-gesture.mjs?v=guide-1';
+import {bindResetGesture} from './reset-gesture.mjs?v=guide-2';
 import {THREE,studio} from './models.mjs';
 import {wheelZoomFactor} from './zoom.mjs';
 import {TrackballControls} from '../assets/TrackballControls.js';

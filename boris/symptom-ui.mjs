@@ -1,6 +1,6 @@
-import {symptoms,symptomCopy,selectedSymptom,symptomEnquiryURL,symptomSelectionQuery} from './symptoms.mjs?v=guide-1';
+import {symptoms,symptomCopy,selectedSymptom,symptomEnquiryURL,symptomSelectionQuery} from './symptoms.mjs?v=guide-2';
 import {parts} from './teile/data.mjs';
-import {localPart} from './teile/i18n.mjs?v=guide-1';
+import {localPart} from './teile/i18n.mjs?v=guide-2';
 export function initSymptoms({page,getLanguage,onSelect=()=>{}}){
  const root=document.querySelector('#symptom-guide');
  let selected=selectedSymptom(location.search,getLanguage()),family=selected?.family||'mig';
@@ -23,7 +23,7 @@ export function initSymptoms({page,getLanguage,onSelect=()=>{}}){
   const option=e.target.closest('[data-symptom]');
   if(option){selected=selectedSymptom('?symptom='+option.dataset.symptom,getLanguage());updateURL();render();onSelect(selected,selected.partIds[0]);root.querySelector(`[data-symptom="${selected.id}"]`).focus({preventScroll:true});}
   if(e.target.closest('.symptom-clear')){selected=null;updateURL();render();onSelect(null);root.querySelector('#symptom-process').focus({preventScroll:true});}
-  const part=e.target.closest('[data-symptom-part]');if(part&&page==='parts'){e.preventDefault();onSelect(selected,part.dataset.symptomPart);document.querySelector('.assembly').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
+  const part=e.target.closest('[data-symptom-part]');if(part&&page==='parts'){e.preventDefault();onSelect(selected,part.dataset.symptomPart);document.querySelector(document.querySelector(`[data-assembly-part="${part.dataset.symptomPart}"]`)?'.assembly':'.explorer').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
   if(e.target.closest('.symptom-enquiry')&&page==='main'){e.preventDefault();document.querySelector('#contact').scrollIntoView({behavior:'smooth'});history.replaceState(null,'','#contact');}
  });
  root.querySelector('#symptom-process').addEventListener('change',e=>{family=e.target.value;selected=null;updateURL();render();onSelect(null,null,family);});
