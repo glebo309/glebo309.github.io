@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {copy, requestText, resolveLanguage} from './content.mjs';
-test('all four languages have complete nonempty translations',()=>{
- assert.deepEqual(Object.keys(copy).sort(),['de','en','nl','zh']);
+test('all six languages have complete nonempty translations',()=>{
+ assert.deepEqual(Object.keys(copy).sort(),['bg','de','en','nl','pl','zh']);
  for(const lang of Object.values(copy)){
   assert.deepEqual(Object.keys(lang).sort(),Object.keys(copy.de).sort());
   for(const value of Object.values(lang)) assert.ok(typeof value==='string' && value.trim().length);

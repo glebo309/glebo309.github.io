@@ -1,3 +1,4 @@
+import {extraMain} from './locales-extra.mjs';
 export const copy = {
 de: {
  navParts:'Teileatlas',
@@ -95,6 +96,9 @@ const technicalCopy = {
   }
 };
 for (const lang of Object.keys(copy)) Object.assign(copy[lang],technicalCopy[lang]);
+Object.assign(copy,extraMain);
+const labels={de:['Optional','Sprache'],en:['Optional','Language'],nl:['Optioneel','Taal'],zh:['选填','语言'],pl:['Opcjonalnie','Język'],bg:['По желание','Език']};
+for(const [lang,[optional,languageLabel]] of Object.entries(labels))Object.assign(copy[lang],{optional,languageLabel});
 export const resolveLanguage = value => Object.hasOwn(copy,value) ? value : 'de';
 export function requestText(lang, data) {
  const t=copy[resolveLanguage(lang)];

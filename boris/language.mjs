@@ -1,0 +1,2 @@
+export function initialLanguage(valid){let value=new URL(location.href).searchParams.get('lang');if(!value){try{value=localStorage.getItem('boris-language');}catch{}}return Object.hasOwn(valid,value)?value:'de';}
+export function rememberLanguage(value){try{localStorage.setItem('boris-language',value);}catch{}const url=new URL(location.href);url.searchParams.set('lang',value);history.replaceState(null,'',url);}

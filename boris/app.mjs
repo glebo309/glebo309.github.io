@@ -1,5 +1,6 @@
+import {initialLanguage,rememberLanguage} from './language.mjs';
 import {copy, resolveLanguage, requestText} from './content.mjs';
-let lang=resolveLanguage(new URL(location.href).searchParams.get('lang'));
+let lang=initialLanguage(copy);
 let product='mig';
 const menu=document.querySelector('.menu');
 const navigation=document.querySelector('#navigation');
@@ -20,12 +21,12 @@ function translate(){
  document.querySelectorAll('[data-list]').forEach(e=>{e.replaceChildren(...t[e.dataset.list].split('|').map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));});
  document.querySelectorAll('[data-placeholder]').forEach(e=>e.placeholder=t[e.dataset.placeholder]);
  document.querySelectorAll('[data-alt]').forEach(e=>e.alt=t[e.dataset.alt]);
- document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
+ document.querySelector('#language').value=lang;document.querySelector('#language').setAttribute('aria-label',t.languageLabel);
  menu.setAttribute('aria-label',navigation.classList.contains('open')?t.close:t.menu);
  if(!document.querySelector('#form-status').hidden) document.querySelector('#form-status').textContent=t.success;
  updateProduct();
 }
-document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{lang=resolveLanguage(b.dataset.lang);const url=new URL(location.href);url.searchParams.set('lang',lang);history.replaceState(null,'',url);translate();}));
+document.querySelector('#language').addEventListener('change',e=>{lang=resolveLanguage(e.target.value);rememberLanguage(lang);translate();});
 menu.addEventListener('click',()=>{const open=navigation.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',copy[lang][open?'close':'menu']);});
 navigation.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label',copy[lang].menu);}));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&navigation.classList.contains('open')){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label',copy[lang].menu);menu.focus();}});
