@@ -1,3 +1,4 @@
+import {enquiryCopy} from './enquiry-copy.mjs';
 import {extraMain} from './locales-extra.mjs';
 export const copy = {
 de: {
@@ -99,6 +100,7 @@ for (const lang of Object.keys(copy)) Object.assign(copy[lang],technicalCopy[lan
 Object.assign(copy,extraMain);
 const labels={de:['Optional','Sprache'],en:['Optional','Language'],nl:['Optioneel','Taal'],zh:['选填','语言'],pl:['Opcjonalnie','Język'],bg:['По желание','Език']};
 for(const [lang,[optional,languageLabel]] of Object.entries(labels))Object.assign(copy[lang],{optional,languageLabel});
+for(const lang of Object.keys(copy))Object.assign(copy[lang],enquiryCopy[lang]);
 export const resolveLanguage = value => Object.hasOwn(copy,value) ? value : 'de';
 export function requestText(lang, data) {
  const t=copy[resolveLanguage(lang)];
@@ -106,6 +108,7 @@ export function requestText(lang, data) {
  for (const [field,label] of [['machine','machineLabel'],['torchModel','torchModelLabel'],['cableLength','cableLengthLabel']]) {
   if(data[field]?.trim()) lines.push(`${t[label]}: ${data[field].trim()}`);
  }
+ if(data.partName)lines.push(`${t.selectedTitle}: ${data.partName}`);
  if(data.cooling) lines.push(`${t.coolingLabel}: ${['air','water'].includes(data.cooling) ? t[data.cooling] : t.other}`);
  lines.push(`${t.nameLabel}: ${data.name}`, `${t.emailLabel}: ${data.email}`, '', data.message, '');
  return lines.join('\n');

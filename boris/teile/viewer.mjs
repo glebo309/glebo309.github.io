@@ -1,3 +1,4 @@
+import {bindResetGesture} from './reset-gesture.mjs';
 import {THREE,studio} from './models.mjs';
 import {wheelZoomFactor} from './zoom.mjs';
 import {TrackballControls} from '../assets/TrackballControls.js';
@@ -13,6 +14,7 @@ export function createViewer(el,{tick=()=>false,onPick,onRender=()=>{}}={}){
  let dirty=true,visible=false,baseDistance=8,radius=1,object=null,bounds=null;
  controls.addEventListener('change',()=>dirty=true);
  function reset(){controls.target.set(0,0,0);camera.position.set(0,0,baseDistance);camera.up.set(0,1,0);camera.lookAt(controls.target);controls.update();dirty=true;}
+ bindResetGesture(el,reset);
  function fit(){const half=Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*Math.min(1,camera.aspect));baseDistance=bounds?Math.max(bounds.y/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))),bounds.x/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*camera.aspect))*1.12+bounds.z/2:radius/Math.sin(half);controls.minDistance=baseDistance*.08;controls.maxDistance=baseDistance*4;reset();}
  function resize(){const r=el.getBoundingClientRect();if(!r.width||!r.height)return;renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();controls.handleResize();fit();}
  new ResizeObserver(resize).observe(el);resize();

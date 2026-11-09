@@ -1,15 +1,19 @@
+import {initHeader} from '../site-header.mjs';
+import {partEnquiryURL} from '../enquiry.mjs';
+import {enquiryCopy} from '../enquiry-copy.mjs';
 import {initialLanguage,rememberLanguage} from '../language.mjs';
 import {parts,selectPart,catalogueLink} from './data.mjs';
 import {ui,localPart} from './i18n.mjs';
 import {createAssembly,createPartViewer} from './assembly.mjs';
 const $=s=>document.querySelector(s);
 let lang=initialLanguage(ui);
+const header=initHeader({page:'parts',lang,onLanguage:value=>{lang=value;rememberLanguage(lang);translate();show(selected);}});
 let family='mig',selected=parts[0],assembly=null,partViewer=null;
 const families={mig:parts.filter(p=>p.family==='mig').map(p=>p.id),tig:['tig-cup','tig-body','tig-insulator','tig-collet','tig-backcap']};
 function renderAtlas(){const t=ui[lang];$('#atlas').innerHTML=parts.map(p=>`<tr><td><a href="#${p.id}">${p.family==='mig'?'MIG':'TIG'} / ${localPart(p,lang).name}</a></td><td><a href="${catalogueLink(p)}" target="_blank" rel="noopener">${p.reference.title} ↗</a></td><td>${p.reference.page} / ${p.reference.key==='b40'?t.none:p.reference.printed}</td><td>${p.reference.position}</td></tr>`).join('');}
-function translate(){const t=ui[lang];document.documentElement.lang=lang==='zh'?'zh-Hans':lang;document.title=t.title;document.querySelectorAll('[data-copy]').forEach(e=>e.textContent=t[e.dataset.copy]);document.querySelectorAll('[data-copy-html]').forEach(e=>e.innerHTML=t[e.dataset.copyHtml]);document.querySelectorAll('[data-zoom]').forEach(b=>b.setAttribute('aria-label',t[b.dataset.zoom==='in'?'zoomIn':'zoomOut']));$('#language').value=lang;$('#language').setAttribute('aria-label',t.languageLabel);$('#previous').setAttribute('aria-label',t.previous);$('#next').setAttribute('aria-label',t.next);$('.brand').href=`../?lang=${lang}`;$('header>a:last-child').href=`../?lang=${lang}`;$('footer a').href=`../?lang=${lang}#contact`;renderAtlas();}
+function translate(){const t=ui[lang];document.documentElement.lang=lang==='zh'?'zh-Hans':lang;document.title=t.title;document.querySelectorAll('[data-copy]').forEach(e=>e.textContent=t[e.dataset.copy]);document.querySelectorAll('[data-copy-html]').forEach(e=>e.innerHTML=t[e.dataset.copyHtml]);document.querySelectorAll('[data-zoom]').forEach(b=>b.setAttribute('aria-label',t[b.dataset.zoom==='in'?'zoomIn':'zoomOut']));header.update(lang);document.querySelectorAll('[data-enquiry-copy]').forEach(e=>e.textContent=enquiryCopy[lang][e.dataset.enquiryCopy]);$('#previous').setAttribute('aria-label',t.previous);$('#next').setAttribute('aria-label',t.next);$('footer a').href=`../?lang=${lang}#contact`;renderAtlas();}
 function show(part){
- selected=part;family=part.family;const t=ui[lang],local=localPart(part,lang);
+ selected=part;family=part.family;$('#part-enquiry').href=partEnquiryURL(part.id,lang);const t=ui[lang],local=localPart(part,lang);
  const list=parts.filter(p=>p.family===family),index=list.indexOf(part);
  document.querySelectorAll('[data-family]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.family===family)));
  $('#part-list').innerHTML=list.map((p,i)=>`<button data-part="${p.id}" aria-pressed="${p.id===part.id}"><span>${String(i+1).padStart(2,'0')}</span>${localPart(p,lang).name}</button>`).join('');
@@ -28,7 +32,6 @@ $('#part-list').addEventListener('click',e=>{const b=e.target.closest('[data-par
 $('#assembly-parts').addEventListener('click',e=>{const b=e.target.closest('[data-assembly-part]');if(b)choose(selectPart(family,b.dataset.assemblyPart));});
 function step(delta){const list=parts.filter(p=>p.family===family);choose(list[(list.indexOf(selected)+delta+list.length)%list.length]);}
 $('#previous').addEventListener('click',()=>step(-1));$('#next').addEventListener('click',()=>step(1));
-$('#language').addEventListener('change',e=>{lang=e.target.value;rememberLanguage(lang);translate();show(selected);});
 function fromHash(){show(parts.find(p=>p.id===location.hash.slice(1))||parts[0]);}
 window.addEventListener('hashchange',fromHash);translate();fromHash();
 try{assembly=createAssembly($('#assembly-stage'),{onSelect:id=>choose(selectPart(family,id))});assembly.setFamily(family);assembly.highlight(selected.id);assembly.setLabels(parts.filter(p=>p.family===family).map(p=>({id:p.id,name:localPart(p,lang).name})));}catch(error){console.warn('Assembly view unavailable',error);}
