@@ -1,6 +1,6 @@
-import {symptoms,symptomCopy,selectedSymptom,symptomEnquiryURL,symptomSelectionQuery} from './symptoms.mjs?v=guide-2';
+import {symptoms,symptomCopy,selectedSymptom,symptomEnquiryURL,symptomSelectionQuery} from './symptoms.mjs?v=about-3';
 import {parts} from './teile/data.mjs';
-import {localPart} from './teile/i18n.mjs?v=guide-2';
+import {localPart} from './teile/i18n.mjs?v=about-3';
 export function initSymptoms({page,getLanguage,onSelect=()=>{}}){
  const root=document.querySelector('#symptom-guide');
  let selected=selectedSymptom(location.search,getLanguage()),family=selected?.family||'mig';
