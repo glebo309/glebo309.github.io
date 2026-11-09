@@ -1,10 +1,10 @@
-import {initHeader} from '../site-header.mjs';
-import {partEnquiryURL} from '../enquiry.mjs';
-import {enquiryCopy} from '../enquiry-copy.mjs';
+import {initHeader} from '../site-header.mjs?v=enquiry-2';
+import {partEnquiryURL} from '../enquiry.mjs?v=enquiry-2';
+import {enquiryCopy} from '../enquiry-copy.mjs?v=enquiry-2';
 import {initialLanguage,rememberLanguage} from '../language.mjs';
 import {parts,selectPart,catalogueLink} from './data.mjs';
-import {ui,localPart} from './i18n.mjs';
-import {createAssembly,createPartViewer} from './assembly.mjs';
+import {ui,localPart} from './i18n.mjs?v=enquiry-2';
+import {createAssembly,createPartViewer} from './assembly.mjs?v=enquiry-2';
 const $=s=>document.querySelector(s);
 let lang=initialLanguage(ui);
 const header=initHeader({page:'parts',lang,onLanguage:value=>{lang=value;rememberLanguage(lang);translate();show(selected);}});

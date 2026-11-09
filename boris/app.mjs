@@ -1,7 +1,7 @@
-import {initHeader} from './site-header.mjs';
-import {initEnquiry} from './enquiry-ui.mjs';
+import {initHeader} from './site-header.mjs?v=enquiry-2';
+import {initEnquiry} from './enquiry-ui.mjs?v=enquiry-2';
 import {initialLanguage,rememberLanguage} from './language.mjs';
-import {copy, resolveLanguage, requestText} from './content.mjs';
+import {copy, resolveLanguage, requestText} from './content.mjs?v=enquiry-2';
 let lang=initialLanguage(copy);
 let product='mig';
 const header=initHeader({page:'main',lang,onLanguage:value=>{lang=resolveLanguage(value);rememberLanguage(lang);translate();}});

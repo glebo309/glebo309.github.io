@@ -1,4 +1,4 @@
-import {copy} from './content.mjs';
+import {copy} from './content.mjs?v=enquiry-2';
 export function initHeader({page,lang,onLanguage}){
  const root=document.querySelector('.site-header'),nav=root.querySelector('#navigation'),menu=root.querySelector('.menu');
  let language=lang;

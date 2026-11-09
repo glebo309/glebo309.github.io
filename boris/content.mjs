@@ -1,4 +1,4 @@
-import {enquiryCopy} from './enquiry-copy.mjs';
+import {enquiryCopy} from './enquiry-copy.mjs?v=enquiry-2';
 import {extraMain} from './locales-extra.mjs';
 export const copy = {
 de: {

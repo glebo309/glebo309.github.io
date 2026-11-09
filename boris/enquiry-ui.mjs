@@ -1,5 +1,5 @@
-import {copy,requestText} from './content.mjs';
-import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs';
+import {copy,requestText} from './content.mjs?v=enquiry-2';
+import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs?v=enquiry-2';
 export function initEnquiry(getLanguage){
  const form=document.querySelector('#enquiry'),status=document.querySelector('#form-status'),send=form.querySelector('#send-enquiry');
  const photoInputs=[...form.querySelectorAll('input[type=file]')],urls=new Map();
