@@ -1,11 +1,14 @@
-import {initHeader} from './site-header.mjs?v=enquiry-2';
-import {initEnquiry} from './enquiry-ui.mjs?v=enquiry-2';
+import {updateMetadata} from './metadata.mjs?v=guide-1';
+import {initSymptoms} from './symptom-ui.mjs?v=guide-1';
+import {initHeader} from './site-header.mjs?v=guide-1';
+import {initEnquiry} from './enquiry-ui.mjs?v=guide-1';
 import {initialLanguage,rememberLanguage} from './language.mjs';
-import {copy, resolveLanguage, requestText} from './content.mjs?v=enquiry-2';
+import {copy, resolveLanguage, requestText} from './content.mjs?v=guide-1';
 let lang=initialLanguage(copy);
 let product='mig';
 const header=initHeader({page:'main',lang,onLanguage:value=>{lang=resolveLanguage(value);rememberLanguage(lang);translate();}});
 const enquiry=initEnquiry(()=>lang);
+const symptoms=initSymptoms({page:'main',getLanguage:()=>lang});
 function updateProduct(){
  const t=copy[lang];
  document.querySelector('#product-title').textContent=t[product+'Title'];
@@ -17,13 +20,14 @@ function updateProduct(){
 function translate(){
  const t=copy[lang];
  document.documentElement.lang=lang==='zh'?'zh-Hans':lang;
- document.title=t.title;
+ updateMetadata('main',lang,t.title);
  header.update(lang);
  document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t[e.dataset.i18n]);
  document.querySelectorAll('[data-list]').forEach(e=>{e.replaceChildren(...t[e.dataset.list].split('|').map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));});
  document.querySelectorAll('[data-placeholder]').forEach(e=>e.placeholder=t[e.dataset.placeholder]);
  document.querySelectorAll('[data-alt]').forEach(e=>e.alt=t[e.dataset.alt]);
  enquiry.translate();
+ symptoms.translate();
  updateProduct();
 }
 function selectProduct(value){product=value;updateProduct();window.dispatchEvent(new CustomEvent('productchange',{detail:product}));}

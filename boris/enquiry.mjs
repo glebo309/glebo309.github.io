@@ -1,5 +1,5 @@
 import {parts} from './teile/data.mjs';
-import {localPart} from './teile/i18n.mjs?v=enquiry-2';
+import {localPart} from './teile/i18n.mjs?v=guide-1';
 export const recipient='glebo309@gmail.com';
 export const endpoint=`https://formsubmit.co/ajax/${recipient}`;
 const languages=['de','en','nl','zh','pl','bg'];

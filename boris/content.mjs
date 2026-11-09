@@ -1,9 +1,10 @@
-import {enquiryCopy} from './enquiry-copy.mjs?v=enquiry-2';
+import {symptomCopy} from './symptoms.mjs?v=guide-1';
+import {enquiryCopy} from './enquiry-copy.mjs?v=guide-1';
 import {extraMain} from './locales-extra.mjs';
 export const copy = {
 de: {
  navParts:'Teileatlas',
- title:'BORIS | Schweißbrenner. Verkauf & Reparatur in Kleve.', descriptor:'SCHWEISSTECHNIK', nav1:'Leistungen',nav2:'Brenner',nav3:'Über Boris',nav4:'Kontakt',cta:'Anfrage vorbereiten',
+ title:'Schweißbrenner Reparatur & Verkauf in Kleve | BORIS', descriptor:'SCHWEISSTECHNIK', nav1:'Leistungen',nav2:'Brenner',nav3:'Über Boris',nav4:'Kontakt',cta:'Anfrage vorbereiten',
  eyebrow:'SCHWEISSBRENNER · VERKAUF & REPARATUR · KLEVE', h1a:'Gute Arbeit.',h1b:'Beginnt am',h1c:'Brenner.',intro:'MIG/MAG und WIG. Fachgerecht repariert, passend zusammengestellt. Von jemandem, der sein Handwerk kennt.',primary:'Reparatur anfragen',secondary:'Brenner entdecken',scroll:'SCROLLEN & ENTDECKEN',model:'MIG/MAG · KONZEPTMODELL',renderNote:'Illustrative 3D-Darstellung. Kein konkretes Verkaufsmodell.',
  strip1:'MIG / MAG',strip2:'WIG / TIG',strip3:'REPARATUR',strip4:'BRENNERBAU',
  detailTag:'01 / BIS INS DETAIL',detailTitle:'Jedes Teil zählt.',detailBody:'Ein Brenner muss als Ganzes funktionieren. Deshalb beginnt guter Service mit einem genauen Blick auf die einzelnen Komponenten.',part1:'Gasdüse',part2:'Stromdüse',part3:'Düsenstock',part4:'Brennerhals',detailFoot:'SCROLLEN FÜR DIE EXPLOSIONSANSICHT',
@@ -102,12 +103,17 @@ const labels={de:['Optional','Sprache'],en:['Optional','Language'],nl:['Optionee
 for(const [lang,[optional,languageLabel]] of Object.entries(labels))Object.assign(copy[lang],{optional,languageLabel});
 for(const lang of Object.keys(copy))Object.assign(copy[lang],enquiryCopy[lang]);
 export const resolveLanguage = value => Object.hasOwn(copy,value) ? value : 'de';
+
+const aboutCopy={"de": ["Erfahrung,\ndie mitarbeitet.", "Borislav „Boris“ Bojanov kennt Schweißbrenner aus jahrzehntelanger Praxis. Er versteht ihren Aufbau bis ins einzelne Bauteil und weiß, worauf es im täglichen Einsatz ankommt. Heute bietet er in Kleve Reparaturen und individuell zusammengestellte Schweißbrenner an. Er schaut genau hin, hört zu und bespricht mit Ihnen, welche Lösung für Ihren Einsatz sinnvoll ist. Ihr Ansprechpartner ist dabei auch der Fachmann, der die Arbeit übernimmt.", "Internationale Erfahrung."], "en": ["Experience\nat work.", "Borislav “Boris” Bojanov knows welding torches through decades of practical work. He understands their construction down to the individual component and what matters in everyday use. Today, he offers repairs and individually assembled welding torches in Kleve. He takes a close look, listens and discusses which solution makes sense for your application. The person you speak to is also the specialist who does the work.", "International experience."], "nl": ["Ervaring\ndie meewerkt.", "Borislav “Boris” Bojanov kent lastoortsen vanuit tientallen jaren praktijkervaring. Hij begrijpt de opbouw tot op het afzonderlijke onderdeel en weet wat belangrijk is bij dagelijks gebruik. Vandaag biedt hij in Kleve reparaties en individueel samengestelde lastoortsen aan. Hij kijkt goed, luistert en bespreekt welke oplossing bij uw toepassing past. Uw aanspreekpunt is ook de vakman die het werk uitvoert.", "Internationale ervaring."], "zh": ["让经验\n发挥价值。", "Borislav “Boris” Bojanov 在数十年的实际工作中积累了丰富的焊枪经验。他了解焊枪每个部件的结构，也懂得日常使用中的实际需求。如今，他在德国克莱沃提供焊枪维修和按需组装服务。他会仔细查看、倾听您的需求，并与您讨论适合具体应用的解决方案。与您沟通的专业人士，也将亲自完成工作。", "国际经验。"], "pl": ["Doświadczenie\nw praktyce.", "Borislav „Boris” Bojanov zna uchwyty spawalnicze z dziesięcioleci praktycznej pracy. Rozumie ich budowę aż po pojedyncze elementy i wie, co liczy się w codziennym użytkowaniu. Dziś w Kleve oferuje naprawy i indywidualnie składane uchwyty spawalnicze. Uważnie ogląda sprzęt, słucha i omawia rozwiązanie odpowiednie do Twojego zastosowania. Osoba, z którą rozmawiasz, jest też fachowcem wykonującym pracę.", "Międzynarodowe doświadczenie."], "bg": ["Опит,\nкойто работи.", "Борислав „Борис“ Боянов познава заваръчните горелки от десетилетия практическа работа. Той разбира конструкцията им до отделния компонент и знае какво е важно при ежедневна употреба. Днес в Клеве предлага ремонт и индивидуално сглобени заваръчни горелки. Оглежда внимателно, изслушва Ви и обсъжда кое решение е подходящо за Вашето приложение. Човекът, с когото разговаряте, е и специалистът, който извършва работата.", "Международен опит."]};
+for(const [lang,[aboutTitle,aboutText,aboutSmall]] of Object.entries(aboutCopy))Object.assign(copy[lang],{aboutTitle,aboutText,aboutSmall});
+
 export function requestText(lang, data) {
  const t=copy[resolveLanguage(lang)];
  const lines=[t.downloadTitle, '', `${t.serviceLabel}: ${t[data.service] || t.question}`, `${t.processLabel}: ${data.process}`];
  for (const [field,label] of [['machine','machineLabel'],['torchModel','torchModelLabel'],['cableLength','cableLengthLabel']]) {
   if(data[field]?.trim()) lines.push(`${t[label]}: ${data[field].trim()}`);
  }
+ if(data.symptomLabel)lines.push(`${symptomCopy[resolveLanguage(lang)].selected}: ${data.symptomLabel}`);
  if(data.partName)lines.push(`${t.selectedTitle}: ${data.partName}`);
  if(data.cooling) lines.push(`${t.coolingLabel}: ${['air','water'].includes(data.cooling) ? t[data.cooling] : t.other}`);
  lines.push(`${t.nameLabel}: ${data.name}`, `${t.emailLabel}: ${data.email}`, '', data.message, '');

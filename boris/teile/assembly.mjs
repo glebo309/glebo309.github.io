@@ -1,7 +1,7 @@
 import {THREE} from './models.mjs';
 import {makeInspectionTorch,setExplosion} from './inspection-models.mjs';
 import {createReveal} from './reveal.mjs';
-import {createViewer} from './viewer.mjs?v=enquiry-2';
+import {createViewer} from './viewer.mjs?v=guide-1';
 import {createPart} from './part-models.mjs';
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 export function createAssembly(el,{onSelect}){
@@ -21,6 +21,6 @@ export function createAssembly(el,{onSelect}){
  }});
  function mount(){viewer.setObject(models[family].group);viewer.setBounds(models[family].bounds);progress=-1;}
  mount();
- return {...viewer,setFamily(value){if(value===family)return;family=value;mount();},setLabels(items){for(const [i,item] of items.entries()){const b=markers.get(item.id);if(b){b.textContent=String(i+1).padStart(2,'0');b.setAttribute('aria-label',item.name);b.title=item.name;}}},highlight(id){models[family].group.traverse(o=>{if(o.material?.emissive){o.material.emissive.setHex(o.userData.partId===id?0x9b431b:0);o.material.emissiveIntensity=.6;}});for(const [key,b] of markers)b.setAttribute('aria-pressed',String(key===id));viewer.refresh();}};
+ return {...viewer,setFamily(value){if(value===family)return;family=value;mount();},setLabels(items){for(const [i,item] of items.entries()){const b=markers.get(item.id);if(b){b.textContent=String(i+1).padStart(2,'0');b.setAttribute('aria-label',item.name);b.title=item.name;}}},highlight(id,related=[]){models[family].group.traverse(o=>{if(o.material?.emissive){o.material.emissive.setHex(o.userData.partId===id?0x9b431b:related.includes(o.userData.partId)?0x663015:0);o.material.emissiveIntensity=.6;}});for(const [key,b] of markers){b.setAttribute('aria-pressed',String(key===id));b.classList.toggle('symptom-match',related.includes(key));}viewer.refresh();}};
 }
 export function createPartViewer(el){const viewer=createViewer(el);const cache=new Map();let selected='';return {...viewer,show(id){if(id===selected)return;selected=id;if(!cache.has(id))cache.set(id,createPart(id));viewer.setObject(cache.get(id));}};}

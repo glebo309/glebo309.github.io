@@ -1,15 +1,22 @@
-import {copy,requestText} from './content.mjs?v=enquiry-2';
-import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs?v=enquiry-2';
+import {selectedSymptom,symptomCopy} from './symptoms.mjs?v=guide-1';
+import {copy,requestText} from './content.mjs?v=guide-1';
+import {recipient,selectedPart,validatePhotos,sendEnquiry} from './enquiry.mjs?v=guide-1';
 export function initEnquiry(getLanguage){
  const form=document.querySelector('#enquiry'),status=document.querySelector('#form-status'),send=form.querySelector('#send-enquiry');
  const photoInputs=[...form.querySelectorAll('input[type=file]')],urls=new Map();
  let state='',photoError='',busy=false,accepted=false;
- const initial=selectedPart(location.search,getLanguage());
+ const initial=selectedPart(location.search,getLanguage()),initialSymptom=selectedSymptom(location.search,getLanguage());
+ if(initialSymptom){form.elements.service.value='repair';form.elements.process.value=initialSymptom.family==='mig'?'MIG/MAG':'WIG/TIG';}
  if(initial){form.elements.service.value='repair';form.elements.process.value=initial.process;}
- function data(){const result=Object.fromEntries(new FormData(form)),part=selectedPart(location.search,getLanguage());result.partName=part?.name||'';if(result.process==='?')result.process=copy[getLanguage()].other;return result;}
+ function data(){const result=Object.fromEntries(new FormData(form)),part=selectedPart(location.search,getLanguage());result.partName=part?.name||'';result.symptomLabel=selectedSymptom(location.search,getLanguage())?.label||'';if(result.process==='?')result.process=copy[getLanguage()].other;return result;}
  function photos(){return photoInputs.flatMap(input=>[...input.files]);}
  function translate(){
-  const t=copy[getLanguage()],part=selectedPart(location.search,getLanguage());
+  const t=copy[getLanguage()],part=selectedPart(location.search,getLanguage()),symptom=selectedSymptom(location.search,getLanguage()),st=symptomCopy[getLanguage()];
+  form.querySelector('#selected-symptom').hidden=!symptom;
+  form.querySelector('#symptom-id').value=symptom?.id||'';
+  form.querySelector('#selected-symptom-title').textContent=st.selected;
+  form.querySelector('#selected-symptom-name').textContent=symptom?.label||'';
+  form.querySelector('#remove-symptom').textContent=st.remove;
   form.querySelector('#selected-part').hidden=!part;
   form.querySelector('#part-id').value=part?.id||'';
   form.querySelector('#selected-part-name').textContent=part?`${part.process} · ${part.name}`:'';
@@ -31,6 +38,8 @@ export function initEnquiry(getLanguage){
   input.addEventListener('change',()=>{photoError=validatePhotos(photos())||'';if(photoError)input.value='';preview(input);accepted=false;state='';translate();});
   input.closest('.photo-slot').querySelector('.remove-photo').addEventListener('click',()=>{input.value='';preview(input);photoError='';accepted=false;state='';translate();input.focus();});
  }
+ window.addEventListener('symptomchange',()=>{const symptom=selectedSymptom(location.search,getLanguage());if(symptom){form.elements.service.value='repair';form.elements.process.value=symptom.family==='mig'?'MIG/MAG':'WIG/TIG';}accepted=false;state='';translate();});
+ form.querySelector('#remove-symptom').addEventListener('click',()=>{const url=new URL(location.href);url.searchParams.delete('symptom');history.replaceState(null,'',url);accepted=false;state='';translate();window.dispatchEvent(new Event('symptomremoved'));});
  form.querySelector('#remove-part').addEventListener('click',()=>{const url=new URL(location.href);url.searchParams.delete('part');history.replaceState(null,'',url);accepted=false;state='';translate();});
  form.addEventListener('input',()=>{if(!busy){accepted=false;state='';translate();}});
  form.addEventListener('submit',async event=>{
