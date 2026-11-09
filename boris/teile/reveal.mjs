@@ -1,4 +1,4 @@
-export function createReveal(duration=7000){
+export function createReveal(duration=1500){
  let elapsed=0,last=null,progress=0;
  return {update(now,visible,reduced=false){
   if(progress===1)return 1;
