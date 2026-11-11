@@ -335,3 +335,10 @@ footer a { text-underline-offset: 3px; }
 .early-team { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin: 24px 0; }
 .early-team li { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; background: var(--surface); font-size: .93rem; }
 @media (max-width: 700px) { .early-team { grid-template-columns: repeat(2,1fr); } }
+
+.event-gallery { margin-top: 32px; padding: 24px 0 0; border-top: 1px solid var(--line); }
+.event-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.event-photos-single { grid-template-columns: 1fr; max-width: 512px; }
+.event-gallery figure { margin: 0; overflow: hidden; border-radius: 10px; }
+.event-gallery img { display: block; width: 100%; height: auto; }
+@media (max-width: 560px) { .event-photos { grid-template-columns: 1fr; } }
